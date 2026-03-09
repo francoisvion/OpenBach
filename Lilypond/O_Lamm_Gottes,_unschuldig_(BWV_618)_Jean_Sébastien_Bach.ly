@@ -1,15 +1,13 @@
 \version "2.24.4"
 
-\header {
-date = ""
+\include "deutsch.ly"
 
-   title = "O Lamm Gottes, unschuldig"
-   composer = "Jean Sébastien Bach (1685-1750)"
-   opus = "BWV 618"
+\header {
+  title = "O Lamm Gottes, unschuldig"
+  opus = "BWV 618"
+  composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
-\include "deutsch.ly"
 
 scriptup = { \once \override Script #'extra-offset = #'(0 . 1.3) }
 scriptdown = { \once \override Script #'extra-offset = #'(0 . -1) }

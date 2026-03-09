@@ -1,18 +1,14 @@
 \version "2.24.4"
 
-\header {
-date = "1739"
-   license = "Creative Commons Attribution-ShareAlike 4.0"
-
-   title = "Vater unser im Himmelreich"
-   subtitle = "Manualiter"
-   composer = "Jean Sébastien Bach (1685-1750)"
-   opus = "BWV 683"
-copyright = \markup {\override #'(font-name . "DejaVu Sans, Bold") \override #'(baseline-skip . 0) \right-column {\with-url #"http://www.MutopiaProject.org" {\abs-fontsize #9  "Mutopia " \concat {\abs-fontsize #12 \with-color #white \char ##x01C0 \abs-fontsize #9 "Project "}}}\override #'(font-name . "DejaVu Sans, Bold") \override #'(baseline-skip . 0 ) \center-column {\abs-fontsize #11.9 \with-color #grey \bold {\char ##x01C0 \char ##x01C0 }}\override #'(font-name . "DejaVu Sans,sans-serif") \override #'(baseline-skip . 0) \column { \abs-fontsize #8 \concat {"Typeset using " \with-url #"http://www.lilypond.org" "LilyPond " \char ##x00A9 " 2016 " "by " \maintainer " " \char ##x2014 " " \footer}\concat {\concat {\abs-fontsize #8 { \with-url #"http://creativecommons.org/licenses/by-sa/4.0/" "Creative Commons Attribution ShareAlike 4.0 International License "\char ##x2014 " free to distribute, modify, and perform" }}\abs-fontsize #13 \with-color #white \char ##x01C0 }}}
- tagline = ##f
-}
-
 \include "deutsch.ly"
+
+\header {
+  title = "Vater unser im Himmelreich"
+  subtitle = "pour les mains seules (sans pédalier)"
+  opus = "BWV 683"
+  composer = "Jean Sébastien Bach (1685-1750)"
+  tagline = ##f
+}
 
 global = {
    \key d \dorian
@@ -224,17 +220,3 @@ left = {
       \tempo 8 = 124
    }
 }
-
-
-
-%{
-convert-ly.py (GNU LilyPond) 2.19.35  convert-ly.py: Processing `'...
-Applying conversion: 2.12.3, 2.13.0, 2.13.1, 2.13.4, 2.13.10, 2.13.16,
-2.13.18, 2.13.20, 2.13.27, 2.13.29, 2.13.31, 2.13.36, 2.13.39,
-2.13.40, 2.13.42, 2.13.44, 2.13.46, 2.13.48, 2.13.51, 2.14.0, 2.15.7,
-2.15.9, 2.15.10, 2.15.16, 2.15.17, 2.15.18, 2.15.19, 2.15.20, 2.15.25,
-2.15.32, 2.15.39, 2.15.40, 2.15.42, 2.15.43, 2.16.0, 2.17.0, 2.17.4,
-2.17.5, 2.17.6, 2.17.11, 2.17.14, 2.17.15, 2.17.18, 2.17.19, 2.17.20,
-2.17.25, 2.17.27, 2.17.29, 2.17.97, 2.18.0, 2.19.2, 2.19.7, 2.19.11,
-2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32
-%}

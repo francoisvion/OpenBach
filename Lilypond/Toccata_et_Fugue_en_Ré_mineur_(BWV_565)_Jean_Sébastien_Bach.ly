@@ -1,4 +1,3 @@
-% Created on Sun Aug 28 18:32:17 NZST 2011
 \version "2.24.4"
 
 \header {

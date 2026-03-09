@@ -1,15 +1,14 @@
 \version "2.24.4"
 
-\header {
+\include "deutsch.ly"
 
- title = "Vater unser im Himmelreich"
- subtitle = "a 2 Clav. e Pedale"
- composer = "Jean Sébastien Bach (1685-1750)"
- opus="BWV 682"
+\header {
+  title = "Vater unser im Himmelreich"
+  subtitle = "à 2 claviers et pédalier"
+  opus="BWV 682"
+  composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
-\include "deutsch.ly"
 
 \paper {
    head-separation = 0.2 \cm

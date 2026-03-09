@@ -1,18 +1,19 @@
 \version "2.24.4"
+
 \include "italiano.ly"
 
 \header {
-  title = "Prélude 2"
+  title = "Prélude n° 2 en do mineur"
   subtitle = "Le clavier bien tempéré - Livre 1"
   opus = "BWV 847"
   composer = "Jean Sébastien Bach (1685–1750)"
-  tagline = ""
+  tagline = ##f
 }
 
 staffOne = \change Staff = one
 staffTwo = \change Staff = two
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 18)
 
 right =  {
 	\time 4/4

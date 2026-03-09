@@ -1,13 +1,13 @@
 \version "2.24.4"
 
+\include "deutsch.ly"
+
 \header {
  title = "Vater unser im Himmelreich"
- composer = "Jean Sébastien Bach (1685-1750)"
  opus="BWV 636"
+ composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
-\include "deutsch.ly"
 
 global = {
    \key a \minor

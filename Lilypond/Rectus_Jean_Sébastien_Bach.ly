@@ -1,17 +1,15 @@
 \version "2.24.4"
 
-#(set-global-staff-size 14)
-%# (set-default-paper-size "a4")
-\paper{bottom-margin=2\cm}
+#(set-global-staff-size 18)
+
+\paper{indent = 20 
+       bottom-margin=2\cm}
 
 \header {
-	title="Contrapunctus XVI"
-	composer="J.S. Bach"
- date = ""
+  title="Contrepoint n° 16"
+  composer="Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
-
 
 global = {
 	\time 2/2 \key d \minor
@@ -291,17 +289,17 @@ rectusFluteTrois={
 
 
 globalUn={
- \set Staff.instrumentName = "Recorder 1"
+ \set Staff.instrumentName = "Flûte à bec 1"
 	\set Staff.midiInstrument = "recorder"
 }
 
 globalDeux={
- \set Staff.instrumentName = "Recorder 2"
+ \set Staff.instrumentName = "Flûte à bec 2"
 	\set Staff.midiInstrument = "harpsichord"
 }
 
 globalTrois={
- \set Staff.instrumentName = "Recorder 3"
+ \set Staff.instrumentName = "Flûte à bec 3"
 	\set Staff.midiInstrument = "clav"
 }
 

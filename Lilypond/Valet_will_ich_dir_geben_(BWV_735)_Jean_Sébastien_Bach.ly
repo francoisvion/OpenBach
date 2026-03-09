@@ -1,11 +1,9 @@
 \version "2.24.4"
 
 \header {
-date = ""
-
- title = "Valet will ich dir geben"
- composer = "Jean Sébastien Bach (1685-1750)"
- opus = "BWV 735"
+  title = "Valet will ich dir geben"
+  opus = "BWV 735"
+  composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 
