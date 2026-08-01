@@ -73,7 +73,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Hilf, Gott, dass mir's ge -- lin -- ge, du ed -- ler Schö -- pfer mein, die -- Sil -- ben -- rei -- men -- zwin -- gen zu -- Lob -- den -- Eh -- ren -- dein! Daß -- ich -- mag -- fröh -- lich -- he -- ben -- an Herr, -- wöl -- lest -- mir -- bei -- stahn, -- stahn!
+      Hilf, Gott, dass mir's ge -- lin -- ge, du ed -- ler Schö -- pfer mein, die Sil -- ben rei -- men zwin -- gen zu Lob den Eh -- ren dein! Daß ich mag fröh -- lich he -- ben an, Herr, wöl -- lest mir bei -- stahn, stahn!
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
