@@ -2,9 +2,10 @@
 
 \language "français"
 
+\paper {indent = 10}
 \header {
   title = "Ach bleib bei uns, Herr Jesu Christ"
-  opus = ""
+  opus = "BWV 253"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
