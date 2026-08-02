@@ -59,7 +59,7 @@
     \new Lyrics \lyricsto "soprano" {
       Ein' fe -- ste Burg ist un -- ser Gott, ein' gu -- te Wehr und Waf -- fen.
       Der alt bö -- se Feind, mit Ernst er's jetzt meint,
-      groß Macht und viel List sein grau -- sam Rüs -- tung ist,
+      groß Macht und viel List sein grau -- sam Rüst -- zeug ist,
       auf Erd ist nicht seins -- glei -- chen, seins -- glei -- chen.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
