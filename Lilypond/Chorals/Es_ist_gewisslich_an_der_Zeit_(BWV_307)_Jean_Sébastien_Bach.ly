@@ -51,7 +51,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Es ist ge -- wiss -- lich an der Zeit, dass Got -- tes Sohn wird kom -- men Dann wird das La -- chen wer -- den teu'r, wenn al -- les wird ver -- gehn in Feu'r, wie Pe -- trus da -- von schrei -- bet.
+      Es ist ge -- wiss -- lich an der Zeit, dass Got -- tes Sohn wird kom -- men Dann wird das La -- chen wer -- den teu'r, wenn al -- les wird ver -- gehn in Feu'r, wie Pe -- trus da -- von zeu -- get.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
