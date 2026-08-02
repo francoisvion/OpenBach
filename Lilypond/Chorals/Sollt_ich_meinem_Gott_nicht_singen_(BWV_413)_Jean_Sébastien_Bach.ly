@@ -92,9 +92,8 @@
     }
     \new Lyrics \lyricsto "soprano" {
       Sollt' ich mei -- nem Gott nicht sin -- gen? sollt' ich ihm nicht dank -- bar sein?
-      Denn ich seh in al -- len Din -- gen, wie so gut er's mit mir meint.
-      das sein treu -- es Her -- ze regt, das ohn En -- de hebt und trägt,
-      die in sei -- nem Dienst sich ü -- ben.
+      Ist doch nichts, als lau -- ter Lie -- ben, das sein treu -- es Her -- ze regt,
+      das ohn En -- de hebt und trägt, die in sei -- nem Dienst sich ü -- ben.
       Al -- les Ding währt sei -- ne Zeit, Got -- tes Lieb in E -- wig -- keit.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
