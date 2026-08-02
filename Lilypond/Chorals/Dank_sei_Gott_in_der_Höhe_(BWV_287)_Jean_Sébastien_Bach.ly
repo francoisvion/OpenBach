@@ -57,9 +57,9 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Dank sei Gott in der Hö -- he in die -- ser Mor -- gen -- stund',
-      durch den ich wied'r auf -- ste -- he vom Schlaf frisch und ge -- sund!
-      Mich hat -- te fest ge -- bun -- den mit Fins -- ter -- nis die Nacht,
+      Dank sei Gott in der Hö -- he in die -- ser Mor -- gen -- stund,
+      Mich hat -- te zwar ge -- bun -- den mit Fins -- ter -- nis die Nacht,
+      ich hab sie ü -- ber -- wun -- den mit Gott, der mich be -- wacht.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
