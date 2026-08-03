@@ -51,7 +51,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Je -- su, mei -- ner See -- len Won -- ne, Je -- su, sei -- ne be -- ste Lust, Je -- su, mei -- ne Freu -- den -- son -- ne, Je -- su, dir ist ja be -- wusst, Drum, o Je -- su, komm zu mir und bleib bei mir für und für!
+      Je -- su, mei -- ner See -- len Won -- ne, Je -- su, mei -- ne be -- ste Lust, Je -- su, mei -- ne Freu -- den -- son -- ne, Je -- su, dir ist ja be -- wusst, Drum, o Je -- su, komm zu mir und bleib bei mir für und für!
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
