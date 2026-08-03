@@ -51,7 +51,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Es spricht der Un -- wei -- sen Mund wohl: Den rech -- ten Gott wir mei -- nen, doch ist ihr Herz Un -- glau -- bens voll, mit Tat sie ihn ver -- nei -- nen, ihr We -- sen ist ver -- der -- bet zwar, zwar, zwar.
+      Es spricht der Un -- wei -- sen Mund wohl: Den rech -- ten Gott wir mei -- nen, doch ist ihr Herz Un -- glau -- bens voll, mit Tat sie ihn ver -- nei -- nen, ihr We -- sen ist ver -- der -- bet zwar, vor Gott.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
