@@ -51,7 +51,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Ich bin ja, Herr, in dei -- ner Macht, du hast mich an das Licht ge -- bracht, und du er -- hältst mir auch das Le -- ben, du ken -- nest mei -- ner Mon -- den Zahl, ja, Mon -- den Zahl.
+      Ich bin ja, Herr, in dei -- ner Macht, du hast mich an das Licht ge -- bracht, und du er -- hältst mir auch das Le -- ben, du ken -- nest mei -- ner Mon -- den Zahl, Wo, wie und wann.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
