@@ -66,7 +66,7 @@
     }
     \new Lyrics \lyricsto "soprano" {
       Dir, dir, Je -- ho -- va, will ich sin -- gen, denn wo ist doch ein sol -- cher Gott wie du?
-      Dir will ich mei -- ne Lie -- der brin -- gen ach gib mir dei -- nes Geis -- tes Kraft da -- zu, dass
+      Dir will ich mei -- ne Lie -- der brin -- gen ach gib mir dei -- nes Geis -- tes Kraft da -- zu, _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
