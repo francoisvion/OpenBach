@@ -71,7 +71,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Gott sei ge -- lo -- bet und ge -- be -- ne -- dei -- et, der uns sel -- ber hat ge -- spei -- set mit sei -- nem Flei -- sche und mit sei -- nem Blu -- te; das gib uns, Herr Gott, zu -- gu -- te. Ky -- ri -- e -- lei -- son. Herr, du nah -- mest mensch -- li -- chen Leib an, der von dei -- ner Mut -- ter Ma -- ri -- a kam. Durch dein Fleisch
+      Gott sei ge -- lo -- bet und ge -- be -- ne -- dei -- et, der uns sel -- ber hat ge -- spei -- set mit sei -- nem Flei -- sche und mit sei -- nem Blu -- te; das gib uns, Herr Gott, zu -- gu -- te. Ky -- ri -- e -- lei -- son. Herr, durch dei -- nen heil -- gen Leich -- nam, der von dei -- ner Mutt'r Ma -- ri -- a kam, und das heil' -- ge Blut.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
