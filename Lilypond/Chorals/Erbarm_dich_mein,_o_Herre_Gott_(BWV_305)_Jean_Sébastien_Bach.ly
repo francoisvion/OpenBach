@@ -59,7 +59,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Er -- barm' dich mein, o Her -- re Gott, nach dei -- ner gross'n Barm -- her -- zig -- keit, al -- lein ich dir ge -- sün -- digt hab', das ist wi -- der mich ste -- tig -- lich; das Bös' vor dir mag nicht be -- stahn, du bleibst ge -- recht, ob du ur -- tei -- lest mich, mich.
+      Er -- barm' dich mein, o Her -- re Gott, nach dei -- ner gross'n Barm -- her -- zig -- keit, al -- lein ich dir ge -- sün -- digt hab', das ist wi -- der mich ste -- tig -- lich; das Bös' vor dir mag nicht be -- stahn, du bleibst ge -- recht, ob man ur -- tei -- le dich. _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
