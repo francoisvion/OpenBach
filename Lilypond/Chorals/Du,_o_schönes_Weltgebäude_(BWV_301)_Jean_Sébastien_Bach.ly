@@ -55,7 +55,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Du, o schö -- nes Welt ge -- bäu -- de, magst ge -- fal -- len wem du willst, De -- nen, die den Him -- mel has -- sen, will ich ih -- re Welt -- lust las -- sen, du sollst, Je -- su, mir al -- lein Freu -- de, Lust und Le -- ben sein.
+      Du, o schö -- nes Welt ge -- bäu -- de, magst ge -- fal -- len wem du willst, De -- nen, die den Him -- mel has -- sen, will ich ih -- re Welt -- lust las -- sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
