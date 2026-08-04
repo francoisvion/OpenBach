@@ -48,7 +48,7 @@
     }
     \new Lyrics \lyricsto "soprano" {
       Mach's mit mir, Gott, nach dei -- ner Güt, hilf mir in mei -- nem Lei -- den,
-      ruf ich dich an, ver -- sag mir's nicht: ist al -- les gut, wenn gut das End.
+      so nimm sie, Herr, in dei -- ne Händ, ist Al -- les gut, wenn gut das End.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
