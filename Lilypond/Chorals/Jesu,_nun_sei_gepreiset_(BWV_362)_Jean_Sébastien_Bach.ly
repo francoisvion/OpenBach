@@ -91,7 +91,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Je -- su, nun sei ge -- prei -- set zu die -- sem neu -- en Jahr, für dein' Güt' uns be -- wei -- set in al -- ler Noth und G'fahr: Dass wir ha -- ben er -- le -- bet die neu fröh -- li -- che Zeit, Zeit, die vol -- ler Gna -- den schwe -- bet und ew -- ger Se -- lig -- keit, dass wir in gu -- ter Stil -- le das alt Jahr er -- füllt. Wir wolln uns dir er -- ge -- ben jetz -- und und im -- mer -- dar:
+      Je -- su, nun sei ge -- prei -- set zu die -- sem neu -- en Jahr, für dein' Güt' uns be -- wei -- set in al -- ler Noth und G'fahr: Dass wir ha -- ben er -- le -- bet die neu fröh -- li -- che Zeit, die vol -- ler Gna -- den schwe -- bet und ew -- ger Se -- lig -- keit, Wir wolln uns dir er -- ge -- ben jetz -- und und im -- mer -- dar: be -- hüt' uns Leib und Le -- ben, hin -- fort das gan -- ze Jahr!
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
