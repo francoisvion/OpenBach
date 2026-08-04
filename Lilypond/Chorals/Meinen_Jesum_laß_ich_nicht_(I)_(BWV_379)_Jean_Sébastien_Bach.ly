@@ -46,7 +46,7 @@
     }
     \new Lyrics \lyricsto "soprano" {
       Mei -- nen Je -- sum lass' ich nicht, Je -- sus wird mich auch nicht las -- sen.
-      Er ist mei -- nes Le -- bens Licht, mei -- nen Je -- sum lass' ich nicht.
+      Weiß ge -- wiss und glau -- be fest, dass mich Je -- sus auch nicht lässt.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
