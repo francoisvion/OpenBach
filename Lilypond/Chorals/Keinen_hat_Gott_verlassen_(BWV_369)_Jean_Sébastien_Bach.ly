@@ -57,9 +57,9 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Kei -- nen hat uns Gott ver -- las -- sen der ihm ver -- traut all -- zeit;
-      Und ob ihn gleich viel has -- sen, so bringt's ihm doch kein Leid:
-      Gott will die Sei -- nen schüt -- zen, zu -- letzt er -- he -- ben hoch;
+      Kei -- nen hat Gott ver -- las -- sen der ihm ver -- traut all -- zeit;
+      ob ihm schon drum viel has -- sen, so bringt's ihm doch kein Leid:
+      Gott will die Sei -- nen schüt -- zen, zu -- letzt er -- he -- ben hoch. _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
