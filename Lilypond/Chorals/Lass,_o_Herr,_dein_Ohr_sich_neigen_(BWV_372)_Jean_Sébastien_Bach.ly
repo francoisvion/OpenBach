@@ -63,11 +63,11 @@
     \new Lyrics \lyricsto "soprano" {
       Lass, o Herr, dein Ohr sich nei -- gen,
       Dir mein Wort zu Herz'n stei -- gen;
-      Stoß mich ja nicht von dir hin,
+      und stoß mich nicht von dir hin,
       Weil ich arm und e -- lend bin.
       Hüt' mein'r Seel und Leb'n,
       Die ich heil'g dir er -- geb'n,
-      Bring' dein'n Knecht aus Not,
+      reiß dein'n Knecht aus Not,
       Der auf dich nur hofft, o Gott!
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
