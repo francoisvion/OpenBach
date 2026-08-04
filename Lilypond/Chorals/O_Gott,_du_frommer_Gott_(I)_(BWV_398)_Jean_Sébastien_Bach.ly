@@ -61,7 +61,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      O Gott, du from -- mer Gott, Du Brunn -- quell gu -- ter Ga -- ben, Ohn' den nichts ist, was ist, Von dem wir al -- les ha -- ben: Ge -- sun -- den Leib gib mir, Und daß in sol -- chem Leib Ein' un -- ver -- letz -- te Seel' Und rein Ge -- wi -- ßen bleib'. A -- men.
+      O Gott, du from -- mer Gott, Du Brunn -- quell al -- ler Ga -- ben, Ohn' den nichts ist, was ist, Von dem wir al -- les ha -- ben: Ge -- sun -- den Leib gib mir, Und daß in sol -- chem Leib Ein' un -- ver -- letz -- te Seel' Und rein Ge -- wi -- ßen bleib'. A -- men.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
