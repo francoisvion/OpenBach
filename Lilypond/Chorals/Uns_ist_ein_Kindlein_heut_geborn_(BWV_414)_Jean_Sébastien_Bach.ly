@@ -52,7 +52,7 @@
     }
     \new Lyrics \lyricsto "soprano" {
       Uns ist ein Kind -- lein heut' ge -- bor'n von ei -- ner Jung -- frau aus -- er -- kor'n.
-      Sein Nam ist Wun -- der -- bar und Rat, durch ihn ha -- ben wir fun -- den Gnad, ha -- ben wir Gnad.
+      Lob, Preis und Dank sei Gott be -- reit für sol -- che Gnad in E -- wig -- keit, in E -- wig -- keit.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
