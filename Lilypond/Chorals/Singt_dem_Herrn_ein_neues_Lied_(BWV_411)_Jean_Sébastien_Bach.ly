@@ -56,7 +56,7 @@
     }
     \new Lyrics \lyricsto "soprano" {
       Singt dem Herrn ein neu -- es Lied: die Ge -- mei -- ne soll ihn lo -- ben,
-      weil er ih -- ren Gren -- zen Fried' hat ver -- spro -- chen hoch von o -- ben.
+      weil er ih -- ren Gren -- zen Fried' hat ver -- lie -- hen hoch von o -- ben.
       Is -- rael sich freu -- e des -- sen, wel -- cher ihn ge -- macht.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
