@@ -51,9 +51,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Je -- su, mei -- ner See -- len Won -- ne, Je -- su, mei -- ne be -- ste Lust,
-      Je -- su, mei -- ne Freu -- den -- sonn', Je -- su, dir ist ja be -- wusst,
-      Wie ich dich so herz -- lich lie -- be, und mich oh -- ne dich be -- trü -- be.
+      Je -- su, mei -- ner Freu -- den Freu -- de, Je -- su, mei -- nes Glau -- bens Licht, o wie kommt dein Na -- me mir so ge -- wünscht und lieb -- lich vor dein Ge -- dächt -- nis, Je -- su, ma -- chet, dass mein trau -- rigs Her -- ze la -- chet.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
