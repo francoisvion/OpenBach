@@ -79,14 +79,14 @@
       mein Hoff -- nung steht auf Er --  den.
       Von An -- be -- ginn ist nichts er -- korn,
       auf Er -- den ist kein Mensch ge -- born,
-      der mir aus Nö -- ten hel -- fen kann,
+      der mir aus Nö -- ten hel -- fen kann;
       ich ruf dich an,
       zu dem ich mein Ver -- trau -- en han.
 
     }
     
     \new Lyrics \lyricsto "soprano" {
-      Ich weiß, daß du mein Trö -- ster bist,
+      Ich weiß, dass du mein Trö -- ster bist,
       kein Trost mag mir sonst wer -- den.
     }
     
