@@ -88,7 +88,7 @@
     }
     \new Lyrics \lyricsto "soprano" {
       Mit -- ten wir im Le -- ben sind mit dem Tod um -- fan -- gen;
-      Wen ist, der uns Hil -- fe bringt, daß wir Gnad er -- lan -- gen?
+      Wen ist, der uns Hil -- fe bringt, dass wir Gnad er -- lan -- gen?
       Das bist du, Herr, al -- lei -- ne. Uns reu't un -- sre Mis -- se -- tat,
       die dich, Herr, er -- zürnt hat. Heil' -- ger Her -- re Gott,
       heil' -- ger star -- ker Gott, heil' -- ger barm -- herz' -- ger Hei -- land,
