@@ -58,7 +58,7 @@
     }
     \new Lyrics \lyricsto "soprano" {
       O Gott, du from -- mer Gott, du Brunn -- quell al -- ler Ga -- ben,
-      g'sun -- den Leib gieb mir und daß in sol -- chem Leib
+      g'sun -- den Leib gieb mir und dass in sol -- chem Leib
       ein un -- ver -- letz -- te Seel und rein G'wis -- sen bleib.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
