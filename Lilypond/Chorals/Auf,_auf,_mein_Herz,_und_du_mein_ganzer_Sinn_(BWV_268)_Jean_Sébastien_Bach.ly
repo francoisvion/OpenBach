@@ -32,7 +32,7 @@
           \partial 4  fis'
           g' g' a' a'
           b' c'' d''8 [c''] b'4
-          a'2 g'4\fermata \bar "|."
+          a'2 g'4\fermata \fine
         }
         \new Voice = "alto" {
           \voiceTwo
@@ -48,7 +48,7 @@
           \partial 4 b
           b e'8 [d'] e' [fis'16 g' a'8 fis']
           d' [e'16 fis' g'8 fis'16 e'] fis'8 a'4 g'8
-          g'4 fis' d'\fermata \bar "|."
+          g'4 fis' d'\fermata \fine
         }
       >>
     }
@@ -79,7 +79,7 @@
           \partial 4 b8 [a]
           g [fis g b] c'4. d'16 [c']
           b4. a16 [g] a8 [fis' d' e']
-          e' [c'] a [d'16 c'] b4\fermata \bar "|."
+          e' [c'] a [d'16 c'] b4\fermata \fine
         }
         \new Voice = "bass" {
           \voiceTwo
@@ -95,7 +95,7 @@
           \partial 4 dis
           e8 [d c b,] a, [g, fis, d,]
           g, [g e a] fis [d g e]
-          c [a,] d4 g,\fermata \bar "|."
+          c [a,] d4 g,\fermata \fine
         }
       >>
     }

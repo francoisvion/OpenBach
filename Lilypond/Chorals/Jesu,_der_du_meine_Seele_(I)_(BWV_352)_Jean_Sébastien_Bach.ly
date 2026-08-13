@@ -88,7 +88,7 @@
           d' c' g'8 [f'] e'4
           f' e' e'2
           e'4 d' c'8 [d'] gis [a]
-          a4 gis e2 \bar "|."
+          a4 gis e2 \fine
         }
         
         \new Voice = "bass" {

@@ -42,7 +42,7 @@
           r a' b' cis''
           d''8 [e'' fis''2] e''4 
           e'' [d'' cis''] cis''
-          b'2\fermata r4 \bar "|."
+          b'2\fermata r4 \fine
         }
         
         \new Voice = "alto" {
@@ -69,7 +69,7 @@
           r fis' e' e'
           d' d''8 [cis''] b' [ais' b' cis''] 
           ais'4 b'8 [a'] g'4 fis'8 [e'] 
-          dis'2\fermata r4 \bar "|."
+          dis'2\fermata r4 \fine
         }
       >>
     }
@@ -122,7 +122,7 @@
           8 [ cis' 8 ] d' 2 cis' 4~ 
           cis'
           4 b 2 ais 4 
-          \partial 32 * 24 b2\fermata r4 \bar "|."
+          \partial 32 * 24 b2\fermata r4 \fine
         }
         \new Voice = "bass" {
           \voiceTwo
@@ -166,7 +166,7 @@
           r d d' cis'
           b4. a8 g [fis g e] 
           fis4 g8 [fis] e4 fis
-          b,2\fermata r4 \bar "|."
+          b,2\fermata r4 \fine
         }
       >>
     }

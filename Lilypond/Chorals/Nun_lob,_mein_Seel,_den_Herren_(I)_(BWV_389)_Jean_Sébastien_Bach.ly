@@ -24,7 +24,7 @@
           c'' b' a' g'
           c'' d'' e''\fermata e''
           e''8 [d''] e''4 e'' d''
-          c''8 [d''] d''4 c''\fermata \bar "|."
+          c''8 [d''] d''4 c''\fermata \fine
           \partial 4  c''
           c''8 [d''] e''4 d'' e''
           c'' b' a'\fermata a'
@@ -40,7 +40,7 @@
           a' g' d'' e''
           d''\fermata e'' f'' e''
           d'' c''8 [d''] e''4 d''
-          c''2.\fermata \bar "|."
+          c''2.\fermata \fine
         }
         \new Voice = "alto" {
           \voiceTwo
@@ -48,7 +48,7 @@
           a' g' g'8 [f' e' f']
           g'4 a'8 [g'] g'4\fermata g'
           g'8 [a'] b'4 a'4. g'8
-          g' [a' g' f'] e'4\fermata \bar "|."
+          g' [a' g' f'] e'4\fermata \fine
           \partial 4  e'
           f' c'' g'8 [f'] e'4
           e'2 e'4\fermata e'
@@ -64,7 +64,7 @@
           f'4 g' a'4. b'16 [c'']
           g'4\fermata b' a' g'8 [a']
           b'4 c''2 b'4
-          g'2.\fermata \bar "|."
+          g'2.\fermata \fine
         }
       >>
     }
@@ -88,7 +88,7 @@
           e' e'8 [d'] c'4 c'
           c'4. b8 c'4\fermata c'8 [d']
           e' [f' e' d'] c'4. b8
-          c'4 b g\fermata \bar "|."
+          c'4 b g\fermata \fine
           \partial 4  g
           a g8 [a] b4 b
           b8 a4 gis8 c'4\fermata c'8 [b]
@@ -104,7 +104,7 @@
           d' d'8 [c'] c' [b] c'4
           b\fermata e'8 [d'] c' [d' e' f']
           g' [f' e' f'] g'4. f'8
-          e'2.\fermata \bar "|."
+          e'2.\fermata \fine
         }
         \new Voice = "bass" {
           \voiceTwo
@@ -112,7 +112,7 @@
           a4 e f c8 [d]
           e4 f8 [g] c4\fermata c
           c' gis a8 [g f g]
-          e [f] g4 c\fermata \bar "|."
+          e [f] g4 c\fermata \fine
           \partial 4  c
           f e8 [f] g4 gis
           a e a,\fermata a8 [g]
@@ -128,7 +128,7 @@
           d4 e f fis
           g\fermata gis a8 [b] c'4
           f8 [g] a4 g8 [f] g4
-          c2.\fermata \bar "|."
+          c2.\fermata \fine
         }
       >>
     }

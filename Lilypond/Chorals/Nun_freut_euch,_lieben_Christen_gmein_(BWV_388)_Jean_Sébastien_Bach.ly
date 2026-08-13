@@ -24,7 +24,7 @@
           g' d' g' c''
           b' a' g'\fermata g'
           a'8 [b'] c''4 b' a'
-          e' fis' g'\fermata \bar "|."
+          e' fis' g'\fermata \fine
           \partial 4  g'
           c'' b' a' d''
           d'' cis'' d''\fermata d''
@@ -32,7 +32,7 @@
           b'4 a' g'\fermata
           \partial 4  b'
           a' d' g' c''
-          b' a' g'\fermata \bar "|."
+          b' a' g'\fermata \fine
         }
         \new Voice = "alto" {
           \voiceTwo
@@ -40,7 +40,7 @@
           d' a d' a'
           d' d'8. [c'16] b4\fermata b8 [cis']
           d' [f'] e' [fis'] g'4 d'8 [a16 b]
-          c'2 b4\fermata \bar "|."
+          c'2 b4\fermata \fine
           \partial 4  d'
           g'8 a'4 g'16 [fis'] e'4 a'8 [fis']
           e' g'4 fis'16 [e'] fis'4\fermata g'
@@ -48,7 +48,7 @@
           a' g'4 fis'8 e'4\fermata
           \partial 4 e'
           e'8 [d'16 c'] b4 e'8 [d'] e' [fis']
-          g'4. fis'8 d'4\fermata \bar "|."
+          g'4. fis'8 d'4\fermata \fine
         }
       >>
     }
@@ -69,7 +69,7 @@
           g4 fis g4. fis8
           g4. fis8 d4\fermata g
           fis8 [gis] a4 d8 [e] fis4
-          g a d\fermata \bar "|."
+          g a d\fermata \fine
           \partial 4  b
           e'8 [d'] d'4 cis' d'
           b8 [e] a4 a\fermata d'~
@@ -77,7 +77,7 @@
           b16 [c'] d'4 c'8 b4\fermata
           \partial 4 g
           a g8 [a] b4 a
-          d'~ d'8. [c'16] b4\fermata \bar "|."
+          d'~ d'8. [c'16] b4\fermata \fine
         }
         \new Voice = "bass" {
           \voiceTwo
@@ -85,7 +85,7 @@
           b, [c d c] b,4 a,
           g,8 [b,] d4 g,\fermata e
           d a, b,8 [c] d4
-          c8 [b,] a,4 g,\fermata \bar "|."
+          c8 [b,] a,4 g,\fermata \fine
           \partial 4  g8 [fis]
           e [fis] g4~ g8 [a16 g] fis8 [b]
           g4 a8 [a,] d4\fermata b,
@@ -93,7 +93,7 @@
           g4 d e\fermata
           \partial 4 e
           fis g8 [fis] e4 a,
-          b,8 [c] d4 g,\fermata \bar "|."
+          b,8 [c] d4 g,\fermata \fine
         }
       >>
     }

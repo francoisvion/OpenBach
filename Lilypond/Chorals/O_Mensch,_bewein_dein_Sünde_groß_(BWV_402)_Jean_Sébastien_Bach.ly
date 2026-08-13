@@ -27,7 +27,7 @@
           g'4 a' bes'\fermata
           \partial 4  c''
           bes' aes' g' aes'
-          f'2 ees'4\fermata \bar "|."
+          f'2 ees'4\fermata \fine
           \partial 4 ees''
           ees'' ees'' d'' bes'
           c'' c'' g'\fermata
@@ -41,7 +41,7 @@
           c'' d'' ees'' d''
           c'' c'' bes'\fermata ees'
           f' g' aes' g'
-          f'2 ees'4\fermata \bar "|."
+          f'2 ees'4\fermata \fine
         }
         \new Voice = "alto" {
           \voiceTwo
@@ -52,7 +52,7 @@
           ees' [d'] ees'4 d'\fermata
           \partial 4  f'
           f'8 [ees'16 d'] ees'8 bes4 ees'16 [d'] ees'4~
-          ees'8 [d'16 c'] d'4 bes\fermata \bar "|."
+          ees'8 [d'16 c'] d'4 bes\fermata \fine
           \partial 4 bes'8 [aes']
           g'4 f' f' ees'
           ees'8 [des'] ees'4 ees'\fermata
@@ -66,7 +66,7 @@
           f' f' g'8 [a'] bes'4~
           bes' a' g'\fermata ees'
           d' ees' f'8 [d' bes ees']~
-          ees' [d'16 c'] d'4 bes\fermata \bar "|."
+          ees' [d'16 c'] d'4 bes\fermata \fine
         }
       >>
     }
@@ -88,7 +88,7 @@
           c'8 [bes] c'4 bes\fermata
           \partial 4  aes
           aes8 g4 f8 ees4. bes8
-          c' [aes] f [bes] g4\fermata \bar "|."
+          c' [aes] f [bes] g4\fermata \fine
           \partial 4 g8 [aes]
           bes4 c'4. bes16 [aes] g4
           aes aes bes\fermata
@@ -102,7 +102,7 @@
           c' bes4. c'8 d'4
           g d' d'\fermata c'
           bes bes4. f8 g [bes]
-          c' [aes] f [bes16 aes] g4\fermata \bar "|."
+          c' [aes] f [bes16 aes] g4\fermata \fine
         }
         \new Voice = "bass" {
           \voiceTwo
@@ -113,7 +113,7 @@
           c f, bes,\fermata
           \partial 4  f8 [ees]
           d [bes, c d] ees [d c bes,]
-          aes, [f,] bes,4 ees,\fermata \bar "|."
+          aes, [f,] bes,4 ees,\fermata \fine
           \partial 4 ees,8 [f,]
           g,4 a, bes,8 [c] des4
           c8 [bes,] aes,4 ees\fermata
@@ -127,7 +127,7 @@
           a aes g4. f8
           e4 fis g\fermata aes
           aes8 [g f ees] d [bes, ees g,]
-          aes,4 bes, ees,\fermata \bar "|."
+          aes,4 bes, ees,\fermata \fine
         }
       >>
     }

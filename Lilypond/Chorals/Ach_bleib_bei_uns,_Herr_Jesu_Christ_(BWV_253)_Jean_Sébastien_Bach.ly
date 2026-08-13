@@ -91,7 +91,7 @@
           gis4 fis e\fermata cis
           fis8 [e fis gis] a [b a gis]
           fis4  cis8 [d] e4 e
-          a,2.\fermata \bar "|."
+          a,2.\fermata \fine
         }
       >>
     }

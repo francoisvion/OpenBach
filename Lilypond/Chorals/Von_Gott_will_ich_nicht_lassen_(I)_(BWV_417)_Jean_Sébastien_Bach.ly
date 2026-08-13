@@ -23,7 +23,7 @@
           b' cis'' d'' e''
           cis''4. b'8 a'4\fermata a'
           b' b' cis''8 [b'] cis''4
-          fis'2.\fermata \bar "|."
+          fis'2.\fermata \fine
           \partial 4  fis''4
           e'' d'' d'' cis''
           d''2.\fermata cis''4
@@ -33,7 +33,7 @@
           d''4 cis''8. [b'16] b'4 b'8 [cis''16 d'']
           cis''4. b'8 a'4\fermata g'
           fis' b' b'8 [cis''] ais'4
-          b'2.\fermata \bar "|."
+          b'2.\fermata \fine
         }
         \new Voice = "alto" {
           \voiceTwo
@@ -41,7 +41,7 @@
           fis' e' d'8 [fis' b' gis']
           gis' [fis'] eis'16 [dis' eis'8] fis'4\fermata fis'
           fis' e'8 [d'] e'4 e'8 [fis'16 e']
-          d'2.\fermata \bar "|."
+          d'2.\fermata \fine
           \partial 4  b'4
           b' b' a' a'
           a'2.\fermata a'4
@@ -51,7 +51,7 @@
           fis' fis' g'8 [fis'] g'4
           gis'8 [fis'] eis'4 fis'\fermata fis'8 [e']
           d' [e' fis' g'] fis' [g'16 fis'] e'8 [fis'16 e']
-          dis'2.\fermata \bar "|."
+          dis'2.\fermata \fine
         }
       >>
     }
@@ -73,7 +73,7 @@
           b4. ais8 b4. b8
           b [a gis cis'] cis'4\fermata cis'
           b8 [a] g2 fis4
-          fis2.\fermata \bar "|."
+          fis2.\fermata \fine
           \partial 4  d'4
           e'8 [fis'] g'4 fis'8 [e'16 d'] e'8 [fis'16 g']
           fis'2.\fermata e'4
@@ -83,7 +83,7 @@
           cis'8 [b cis' dis'] e' [dis' e' b]
           gis [a16 b] cis'4 cis'\fermata d'8 [a]
           a4 d'8 [cis'] d' [e'16 d'] cis'8 [a]
-          fis2.\fermata \bar "|."
+          fis2.\fermata \fine
         }
         \new Voice = "bass" {
           \voiceTwo
@@ -91,7 +91,7 @@
           d4 cis b,8 [a, gis, e]
           a, [b,] cis4 fis,\fermata fis8 [e]
           d [fis] g4 ais, ais,
-          b,2.\fermata \bar "|."
+          b,2.\fermata \fine
           \partial 4  b,8 [a,]
           g, [g fis e] a4 a,
           d2.\fermata a8 [g]
@@ -101,7 +101,7 @@
           b,8 b4 a8 g [a16 b] e4
           eis8 [fis16 gis] cis4 fis\fermata b,8 [cis]
           d [cis d e] fis [e] fis4
-          b,2.\fermata \bar "|."
+          b,2.\fermata \fine
         }
       >>
     }

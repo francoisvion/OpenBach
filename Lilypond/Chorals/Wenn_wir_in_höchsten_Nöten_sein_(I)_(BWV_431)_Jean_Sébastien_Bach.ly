@@ -29,7 +29,7 @@
           bes' a' g'8 [f'] e'4
           f' d' c'\fermata a'
           bes' a' g' f'
-          a' g' f'\fermata \bar "|."
+          a' g' f'\fermata \fine
         }
         \new Voice = "alto" {
           \voiceTwo
@@ -42,7 +42,7 @@
           g' [e' f' e'] d'4. c'8~
           c' [d'16 c'] b4 g\fermata f'8 [ees']
           d' [e'] f'4. e'4 d'16 [e']
-          f'4. e'8 c'4\fermata \bar "|."
+          f'4. e'8 c'4\fermata \fine
         }
       >>
     }
@@ -66,7 +66,7 @@
           d'8 [cis'] d'4 g g
           a g8 [f] e4\fermata c'
           bes c'~ c'8. [bes16 a8 bes]
-          c'4 c'8. [bes16] a4\fermata \bar "|."
+          c'4 c'8. [bes16] a4\fermata \fine
         }
         \new Voice = "bass" {
           \voiceTwo
@@ -79,7 +79,7 @@
           g, d8 [c] b,4 c
           f, g, c\fermata f,
           g, a,8 [bes,] c4 d
-          a,8 [bes,] c4 f,\fermata \bar "|."
+          a,8 [bes,] c4 f,\fermata \fine
         }
       >>
     }
