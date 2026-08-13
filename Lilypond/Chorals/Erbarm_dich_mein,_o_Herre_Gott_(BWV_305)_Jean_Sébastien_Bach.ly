@@ -19,12 +19,13 @@
       \time 4/4
       <<
         \new Voice = "soprano" {
+          \repeat volta 2 {
           \voiceOne
           \partial 4  e'4
           g' g' a' b'
           c'' b' a'\fermata g'
           c'' b' c'' a'
-          g' f' e'\fermata \bar "|."
+          g' f' e'\fermata }
           \partial 4  e'
           a' a' g' c''
           b' a' g'\fermata g'
@@ -35,15 +36,16 @@
           f' d' c'\fermata c'
           g'2 a'4 b'
           c'' g' a' g'
-          f'4. f'8 e'4\fermata \bar "|."
+          f'4. f'8 e'4\fermata \fine
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  b4
           e' e' e' f'8 [e']
           e' a'4 gis'8 e'4\fermata e'8 [f']
           g' [a' a' g'16 f'] g'4. f'8~
-          f' e'4 d'16 [c'] b4\fermata \bar "|."
+          f' e'4 d'16 [c'] b4\fermata }
           \partial 4  c'
           f' f' f'8 [e'16 d' e'8 fis']
           g'16 [d'] g'4 fis'8 d'4\fermata e'
@@ -54,13 +56,17 @@
           c'4. b8 g4\fermata g
           d' e'8 [d'] c'4 d'
           e'8 [f' g' e'] f'4. e'8~
-          e' d'4 c'8 b4\fermata \bar "|."
+          e' d'4 c'8 b4\fermata \fine
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {
-      Er -- barm' dich mein, o Her -- re Gott, nach dei -- ner gross'n Barm -- her -- zig -- keit, al -- lein ich dir ge -- sün -- digt hab', das ist wi -- der mich ste -- tig -- lich; das Bös' vor dir mag nicht be -- stahn, du bleibst ge -- recht, ob man ur -- tei -- le dich. _
-    }
+
+  \new Lyrics \lyricsto "soprano" {\set stanza = 1
+      Er -- barm' dich mein, o Her -- re Gott, nach dei -- ner gross'n Barm -- her -- zig -- keit, Al -- lein ich dir ge -- sün -- digt hab', das ist wi -- der mich ste -- tig -- lich; das Bös' vor dir nicht mag  be -- stahn, du bleibst _ ge -- recht, ob man ur -- tei -- le dich. _ }
+
+  \new Lyrics \lyricsto "soprano" {\set stanza = 2
+      wasch ab, mach' rein mein Mi -- se -- that, ich kenn mein Sünd' und ist mir leid.}
+      
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -69,11 +75,12 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  g4
           b b c' d'
           c'8 [e' f' e'16 d'] c'4\fermata b
           e' f'8 [e'16 d'] c'4 c'
-          c'8. [bes16 a8 b16 a] gis4\fermata \bar "|."
+          c'8. [bes16 a8 b16 a] gis4\fermata }
           \partial 4  a
           c' d'4. c'8 [g a]
           d [d' e' d'16 c'] b4\fermata c'
@@ -84,15 +91,16 @@
           a4 g8. [f16] e4\fermata e
           g c'8 [d'] e' [f'] g'4
           g c' c' c'8. [bes16]
-          a8 [b16 c' b8 a] gis4\fermata \bar "|."
+          a8 [b16 c' b8 a] gis4\fermata \fine
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  e4~
           e8 [f e d] c a4 gis8
           a [c d e] a,4\fermata e8 [d]
           c4 d8 [g] e [c] f4
-          c d e\fermata \bar "|."
+          c d e\fermata }
           \partial 4  a8 [g]
           f [e d c] b, [c b, a,]
           g, [b, c d] g,4\fermata c8 [b,]
@@ -103,16 +111,17 @@
           f [d g g,] c4\fermata c
           b, c8 [b,] a,4 g,8 [f,]
           e, [d, e, c,] f, [a,] c4
-          d2 e4\fermata \bar "|."
+          d2 e4\fermata \fine
         }
       >>
     }
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
 \midi {}

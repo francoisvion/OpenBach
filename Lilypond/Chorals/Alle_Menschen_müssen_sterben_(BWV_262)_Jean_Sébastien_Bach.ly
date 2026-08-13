@@ -57,11 +57,11 @@
     
     \new Lyrics \lyricsto "soprano" {
       Al -- le Men -- schen müs -- sen ster -- ben,
-      al -- les Fleisch ver -- geht wie Heu,
-      Die -- ser Leib der muss ver -- we -- sen,
+      al -- les Fleisch ver -- geht wie Heu;
+      Die -- ser Leib der muß ver -- we -- sen,
       Wenn er an -- ders soll ge -- ne -- sen
-      Der so gros -- sen Herr -- lich -- keit,
-      Die den From -- men ist be -- reit'.
+      zu der gros -- sen Herr -- lich -- keit,
+      Die den From -- men ist be -- reit.
   }
   
   \new Lyrics \lyricsto "soprano" {
@@ -114,10 +114,11 @@
     }
   >>} 
  
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
 \midi {}
  

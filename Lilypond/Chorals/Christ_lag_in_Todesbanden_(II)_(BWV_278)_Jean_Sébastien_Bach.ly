@@ -66,7 +66,7 @@
       für un -- ser Sünd' ge -- ge - ben,
       Dess wir sol -- len fröh -- lich sein,
       Gott lo -- ben und ihm dank -- bar sein,
-      Und sin -- gen Hal -- le -- lu - ja,
+      und sin -- gen Hal -- le -- lu - ja,
       Hal -- le -- lu - ja!
     }
     
@@ -126,9 +126,10 @@
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
-}
-\layout {}
+\layout {
+    \context {
+      \Staff
+      \consists "Merge_rests_engraver"
+    }
+  }
 \midi {}

@@ -20,9 +20,10 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
-           g'4 g' fis' g'
+          \repeat volta 2 {
+          g'4 g' fis' g'
           a' bes' a'2
-          g'\fermata \bar "|."
+          g'\fermata }
           \partial 32 * 16 bes'4 a'
           g' bes' a' g'
           fis'2\fermata f'4 ees'
@@ -36,13 +37,15 @@
           g' bes' a' g'
           fis'2\fermata f'4 ees'
           d' g' g' fis'
-          g'2\fermata \bar "|."
+          g'2\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
-           d'4 d' d' d'
+          \repeat volta 2 {
+          d'4 d' d' d'
           ees'8 [d' d' g'] g'4 fis'
-          d'2\fermata \bar "|."
+          d'2\fermata }
           \partial 32 * 16 g'4 g'8 [fis']
           g'4 g'8 [f'] ees' [d'] e'4
           d'2\fermata a8 [bes] c'4
@@ -56,20 +59,26 @@
           bes4 ees'8 [d'] c' [d'] d'4
           d'2\fermata d'4 d'8 [c'16 bes]
           a4 d' ees' d'
-          d'2\fermata \bar "|."
+          d'2\fermata \fine
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {
-      Lass, o Herr, dein Ohr sich nei -- gen,
-      Dir mein Wort zu Herz'n stei -- gen;
+    
+    \new Lyrics \lyricsto "soprano" {\set stanza = 1
+      Laß, o Herr, dein Ohr sich nei -- gen,
       und stoß mich nicht von dir hin,
       Weil ich arm und e -- lend bin.
-      Hüt' mein'r Seel und Leb'n,
-      Die ich heil'g dir er -- geb'n,
-      reiß dein'n Knecht aus Not,
-      Der auf dich nur hofft, o Gott!
+      Hü -- te mei -- ne Seel und Le -- ben,
+      die ich hei -- lig dir er -- ge -- ben,
+      reiß mich dei -- nen Knecht aus Not,
+      der auf dich nur hofft, o Gott!
     }
+    
+     \new Lyrics \lyricsto "soprano" {\set stanza = 2
+      dir mein Wort zu Her -- zen stei -- gen,
+    }
+    
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -78,15 +87,16 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
-           bes4 bes a bes
+          \repeat volta 2 {
+          bes4 bes a bes
           c' bes8 [d'] ees'4 d'8 [c']
-          bes2\fermata \bar "|."
+          bes2\fermata }
           \partial 32 * 16 d'4 d'8. [c'16]
           bes8 [c'] d'4 c' bes8 [a]
           a2\fermata f4 f
            f bes a~ a16 [bes c'8]
           bes2\fermata d'4 f'
-          f' f' ees'8 [c' d' bes]~
+          f' f' ees'8 [c'] d' [bes]~
           bes [a16 g] a4 bes2\fermata
           d'4 c' c'8 [bes16 a] bes4
           a bes bes a
@@ -94,36 +104,40 @@
           g g a bes
           a2\fermata g4 g
           fis g8 [bes] a4. c'8
-          b2\fermata \bar "|."
+          b2\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
-           g,8 [a, bes, c] d [c bes, g,]
+          \repeat volta 2 {
+          g,8 [a,] bes, [c] d [c] bes, [g,]
           fis,4 g, c d
-          g,2\fermata \bar "|."
+          g,2\fermata }
           \partial 32 * 16 g4 d
           ees bes, c cis
-          d2\fermata d8 [c bes, a,]
-           bes, [a, g, bes,] c [a,] d4
+          d2\fermata d8 [c] bes, [a,]
+          bes, [a,] g, [bes,] c [a,] d4
           g,2\fermata g4 f8 [ees]
           d [c] bes,4. a,8 bes, [d]
           ees [c] f4 bes,2\fermata
           bes,4. a,8 bes, [f] bes4
           f g8 [f] ees4 f
           bes,2\fermata g,4 d
-          ees4. e8 f [fis g g,]
+          ees4. e8 f [fis] g [g,]
           d2\fermata b,4 c
           c8 [bes,16 a,] bes,8 [g,] c [a,] d4
-          g,2\fermata \bar "|."
+          g,2\fermata \fine
         }
       >>
     }
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
+
 \midi {}

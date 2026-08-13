@@ -2,10 +2,6 @@
 
 \language "français"
 
-\paper {
-  indent = 10
-  page-count = 1
-}
 
 \header {
   title = "Ach bleib bei uns, Herr Jesu Christ"

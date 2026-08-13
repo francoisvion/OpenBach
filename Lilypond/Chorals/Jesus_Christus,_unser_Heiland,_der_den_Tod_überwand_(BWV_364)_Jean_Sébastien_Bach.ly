@@ -31,8 +31,9 @@
           f' g' a' g'
           f' e' d'\fermata f'
           g' a' g' fis'
-          g'1\fermata \bar "|."
+          g'1\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
           d'4 d' d'4. c'8
@@ -46,17 +47,23 @@
           d' f'4 e'8 f'4 e'~
           e'8 d'4 cis'8 a4\fermata d'
           d' ees' d' d'
-          d'1\fermata \bar "|."
+          d'1\fermata \fine
         }
       >>
+      
     }
     \new Lyrics \lyricsto "soprano" {
-      Je -- sus Chri -- stus un -- ser Hei -- land, der den Tod ü -- ber -- wand, ist auf -- er -- stan -- den, die Sünd hat er ge -- fan -- gen, Ky -- rie e -- le -- i -- son, e -- lei -- son.
+      Je -- sus Chris -- tus un -- ser Hei - land,
+      der den Tod ü -- ber -- wand,
+      ist auf -- er -- stan - den,
+      die Sünd hat er ge -- fan - gen,
+      Ky -- rie e -- le -- i -- son, e -- lei -- son.
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key f \major
+      \key d \minor
       \time 4/4
       <<
         \new Voice = "tenor" {
@@ -72,11 +79,12 @@
           a c' c' bes
           a~ a8. [g16] f4\fermata a
           bes c'4. bes8 a [c']
-          b1\fermata \bar "|."
+          b1\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
-          g,8 [a, bes, c] d4 e
+          g,8 [a,] bes, [c] d4 e
           f g gis a8 [a,]
           d2\fermata r4 d8 [c]
           bes,4 fis, g, d
@@ -84,19 +92,20 @@
           c4 g, d ees
           d2\fermata r4
           \partial 4  g,
-          d c f8 [e d cis]
+          d c f8 [e] d [cis]
           d4 a, d,\fermata d8 [c]
-          bes, [a, g, fis,] g,4 d,
-          g,1\fermata \bar "|."
+          bes, [a,] g, [fis,] g,4 d,
+          g,1\fermata \fine
         }
       >>
     }
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
 \midi {}

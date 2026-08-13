@@ -54,8 +54,8 @@
     }
     \new Lyrics \lyricsto "soprano" {
       Ach lie -- ben __ Chris -- ten, seid ge -- trost,
-      Wie thut ihr so ver -- za -- gen,
-      Die Straf' wir wohl ver -- die -- net ha'n
+      Wie thut ihr so ver -- za -- gen?
+      Die Straf' wir wohl ver -- die -- net han,
       Das muß be -- ken -- nen Je -- der -- mann,
       Nie -- mand darf sich aus -- schlie -- ßen.
 
@@ -164,9 +164,10 @@
   }
 }
  
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
  

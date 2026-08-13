@@ -23,17 +23,18 @@
            d''4 d''8 [ees''] f'' [ees''] d''4
           c''4. c''8 c''2\fermata
           d''4 ees''8 [d''] c''4. bes'8
-          bes'2\fermata a'8 [g' a' bes']
+          bes'2\fermata a'8 [g'] a' [bes']
            c'' [bes'] a'4 g'4. g'8
           g'2\fermata a'4 bes'8 [a']
           g'4. f'8 f'2\fermata
           d''4 d''8 [ees''] f''4 ees''8 [d'']
            c''4. c''8 c''2\fermata
           d''4 ees''8 [d''] c''4. bes'8
-          bes'2\fermata ees''8 [d'' ees'' f'']
-          d'' [c'' d'' ees''] c''4. bes'8
-          bes'1\fermata \bar "|."
+          bes'2\fermata ees''8 [d''] ees'' [f'']
+          d'' [c''] d'' [ees''] c''4. bes'8
+          bes'1\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
            f'4 g' f' bes'8 [a']
@@ -48,12 +49,18 @@
           f'4 ees'8 [f'] g'4 a'
           g'2\fermata g'4 f'
           f' bes' bes' a'
-          f'1\fermata \bar "|."
+          f'1\fermata \fine
         }
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Je -- su, mei -- nes Her -- zens Freud', sü -- sser Je -- su! _ Mei -- ner See -- len Se -- lig -- keit, sü -- sser Je -- su! Des Ge -- mü -- thes Si -- cher -- heit, sü -- sser Je -- su! Je -- su, sü -- sser Je -- su!
+      Je -- su, mei -- nes Her -- zens Freud',
+      sü -- ßer Je - su!
+      Mei -- ner See -- len Se -- lig -- keit,
+      sü -- ßer Je - su!
+      Des Ge -- mü -- thes Si -- cher -- heit,
+      sü -- ßer Je - su!
+      Je -- su, sü -- ßer Je - su!
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -75,32 +82,35 @@
           d'8 [c'] bes4 bes a8 [d']
           d'2\fermata c'4 c'
           c' bes g' f'8 [ees']
-          d'1\fermata \bar "|."
+          d'1\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
            bes8 [a] g4 d g8 [f]
           e [d] c4 f2\fermata
-          bes8 [a g f] ees4 f
-          bes,2\fermata f8 [e f g]
-           a [g a bes] c'4 g
+          bes8 [a] g [f] ees4 f
+          bes,2\fermata f8 [e] f [g]
+           a [g] a [bes] c'4 g
           c2\fermata cis4 d8 [c]
           bes,4 c f2\fermata
           fis4 g a bes
-          bes8 [a bes g] a2\fermata
-          bes8 [a g f] e4 fis
-          g2\fermata c'8 [bes a f]
-          bes [a g f] ees4 f
-          bes,1\fermata \bar "|."
+          bes8 [a] bes [g] a2\fermata
+          bes8 [a] g [f] e4 fis
+          g2\fermata c'8 [bes] a [f]
+          bes [a] g [f] ees4 f
+          bes,1\fermata \fine
         }
       >>
     }
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
+
 \midi {}

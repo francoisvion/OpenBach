@@ -32,10 +32,10 @@
           a' bes' a' g'
           f'2\fermata r4
           \partial 4  a'
-          g'2 f'4\fermata c''
+          g'2 f'4\fermata c''~
           c'' b' c''\fermata f''
-          f'' e'' d''2
-          c''\fermata c''4 d''8 [c'']
+          f'' e'' d''4 d''
+          c''2\fermata c''4 d''8 [c'']
           bes'4 bes' a' bes'8 [a']
           g'2 f'\fermata \bar "|."
         }
@@ -63,7 +63,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Hei -- lig, hei -- lig, hei -- lig bist du Herr Gott Ze -- ba -- oth! Al -- le Lan -- de sind sei -- ner Eh -- re voll. Ho -- si -- an -- na in der Hö -- he. Ge -- lobt sei der da kommt im Na -- men des Herrn. Ho -- si -- an -- na in der Hö -- he, in der Hö -- he!
+      Hei -- lig, hei -- lig, hei - lig bist du Herr Gott Ze -- ba -- oth! Al -- le Lan - de sind sei -- ner Eh -- re voll. Ho -- si -- an -- na _ in der Hö -- he. Ge -- lobt seit der da kommt im Na - men des Herrn. Ho -- si -- an -- na in der Hö -- he, in der Hö -- he!
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -118,9 +118,10 @@
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
 \midi {}

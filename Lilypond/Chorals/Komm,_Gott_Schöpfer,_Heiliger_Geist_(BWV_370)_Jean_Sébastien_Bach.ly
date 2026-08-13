@@ -29,7 +29,7 @@
           e''8 [d''] c''4 a' g'
           b' cis'' d''\fermata g'
           c'' a' f' a'
-          g'2 g'4\fermata \bar "|."
+          g'2 g'4\fermata \fine
         }
         \new Voice = "alto" {
           \voiceTwo
@@ -42,13 +42,18 @@
           g' g'4. f'4 e'8
           g'4 g' a'\fermata e'
           e'8 [d'] e'4. d'16 [e'] f'4~
-          f' e' d'\fermata \bar "|."
+          f' e' d'\fermata \fine
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
-      Komm, Gott Schö -- pfer, hei -- li -- ger Geist, be -- such das Herz der Men -- schen dein, mit Gna -- den sie füll, wie du weisst, dass dein Ge -- schöpf vor -- hin sein.
+      Komm, Gott Schö -- pfer, hei -- li -- ger Geist,
+      be -- such das Herz der Men -- schen dein,
+      mit Gna -- den sie füll, wie du weißt,
+      dass dein Ge -- schöpf vor dir sein.
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -66,7 +71,7 @@
           c'8 [b] c'4 c' c'
           d' e' f'\fermata b
           a a a8 [bes] c'4
-          d'4. c'4 b8\fermata \bar "|."
+          d'4. c'4 b8\fermata \fine
         }
         \new Voice = "bass" {
           \voiceTwo
@@ -79,16 +84,18 @@
           c e f c'
           g8 [f] e4 d\fermata e
           a,8 [b,] c4 d a,
-          b, c g,\fermata \bar "|."
+          b, c g,\fermata \fine
         }
       >>
     }
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
+
 \midi {}

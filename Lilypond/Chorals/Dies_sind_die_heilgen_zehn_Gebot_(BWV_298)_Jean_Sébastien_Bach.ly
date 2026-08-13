@@ -28,7 +28,7 @@
           d'' d'' c'' g'
           a' g' f'\fermata g'
           a' b' c''2\fermata
-          bes'8 [a' g' a'] bes'4\fermata a'
+          bes'8 [a'] g' [a'] bes'4\fermata a'
           g' g' g'2\fermata \bar "|."
         }
         \new Voice = "alto" {
@@ -47,7 +47,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Dies sind die heil' -- gen zehn Ge -- bot', die uns gab un -- ser Her -- re Gott durch Mo -- se, sei -- nen Die -- ner treu, hoch auf dem Berg Si -- nai. Ky -- rie e -- leis'.
+      Dies sind die heil' -- gen zehn Ge -- bot', die uns gab un -- ser Her -- re Gott durch Mo -- se, sei -- nen Die -- ner treu, hoch auf dem Berg Si -- na -- i. Ky -- rie e -- leis'.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -86,9 +86,10 @@
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
 \midi {}

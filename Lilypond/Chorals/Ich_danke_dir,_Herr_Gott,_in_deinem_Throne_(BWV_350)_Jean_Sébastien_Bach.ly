@@ -38,22 +38,23 @@
            ees'2 d'4\fermata d''
           c'' bes' a' fis'
           g' a'8 [bes'] c''4 bes'
-          a'2 g'4\fermata \bar "|."
+          a'2 g'4\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
           \partial 4  d'4
-          g'8 [f' ees' d'] c'4. bes8
+          g'8 [f'] ees' [d'] c'4. bes8
           d'4 ees'8 [d'] ees'4 d'
           ees' d' d'\fermata g'
-          g'8 [fis' g' ees'] c'4 c'8 [bes16 c']
+          g'8 [fis'] g' [ees'] c'4 c'8 [bes16 c']
            d'8 [c'] bes4 ees'8 [d'] e'4
           d' d' d'\fermata g'
           g'4. fis'8 g'4 g'
           d' d'4. c'8 bes [d']
           c' [bes] c'4 bes\fermata
           \partial 4 d'
-          d'8 [ees' d' c'] bes [c'] d'4
+          d'8 [ees'] d' [c'] bes [c'] d'4
           d' c' d' d'
           d'2 d'4\fermata d'
           d'8. [c'16] bes4 c' bes
@@ -61,12 +62,17 @@
            d' [c'16 b] c'4 b\fermata g'~
           g'8 [fis'] g'4. fis'16 [e'] d'4~
           d'8 [e' fis' g'] a'4. g'8
-          g' [fis'16 e'] fis'4 d'\fermata \bar "|."
+          g' [fis'16 e'] fis'4 d'\fermata \fine
         }
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Ich dan -- ke dir, o Gott, in dei -- nem Thro -- ne, durch Je -- sum Chri -- tum, dei -- nen lie -- ben Soh -- ne, dass du mich hast in die -- ser Nacht be -- vah -- ret vor Scha -- den und vor man -- cher -- lei Be -- fah -- ren, und bit -- te dich, wollst mich an die -- sem Ta -- ge be -- hü -- ten auch vor Sün -- den, Schand' und Pla -- ge, Pla -- ge.
+      Ich dan -- ke dir, o Gott, in dei -- nem Thro - ne,
+      durch Je -- sum Chri -- tum, dei -- nen lie -- ben Soh - ne,
+      daß du mich hast in die -- ser Nacht be -- vah -- ret
+      vor Scha -- den und vor man -- cher -- lei Ge -- fah -- ren,
+      und bit -- te dich, wollst mich an die -- sem Ta -- ge
+      be -- hü -- ten auch vor Sün -- den, Schand' und Pla -- ge, Pla -- ge.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -90,13 +96,14 @@
           d' [c'16 bes] a4 g a
           g a bes a~
           a g fis\fermata g
-          g8 [fis g ees] c [f] f4
+          g8 [fis] g [ees] c [f] f4
           f8 [g16 a] bes4 bes bes8. [a16]
            g2 g4\fermata bes
           c' d' d' a
           bes c'8 [d'] ees' [d'] d'4
-          ees'8 [c' a d'] b4\fermata \bar "|."
+          ees'8 [c'] a [d'] b4\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
           \partial 4  g,8 [a,]
@@ -111,23 +118,25 @@
           a, f, bes,\fermata
           \partial 4 g,8 [a,]
           bes, [c] d4 ees d8 [c]
-          bes, [c bes, a,] g, [a, g, fis,]
-          g, [a, bes, g,] d4\fermata g,
+          bes, [c] bes, [a,] g, [a,] g, [fis,]
+          g, [a,] bes, [g,] d4\fermata g,
           d ees a, bes,8 [c]
           d4 d ees bes,
-           c8 [d ees c] g4\fermata g,
+           c8 [d] ees [c] g4\fermata g,
           a, bes,8 [c] d4. c8
           bes,4 a,8 [g,] fis,4 g,
-          c d g,\fermata \bar "|."
+          c d g,\fermata \fine
         }
       >>
     }
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
+
 \midi {}

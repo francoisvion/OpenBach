@@ -188,8 +188,10 @@
   >>
 }
 
-\paper {
-  indent = 10
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
 \midi {}

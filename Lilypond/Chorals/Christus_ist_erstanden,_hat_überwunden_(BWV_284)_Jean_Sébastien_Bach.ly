@@ -61,7 +61,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Chri -- stus ist er -- stan -- den, hat ü -- ber -- wun -- den, Gnad' ist nun vor -- han -- den, Wahr -- heit wird fun -- den. Da -- rum, lie -- ben Leu -- te, freut euch heu -- te, lo -- bet eu -- ren Her -- ren, Je -- sum, den Kö -- nig der Eh -- ren, _ der Eh -- ren.
+      Chri -- stus ist er -- stan -- den, hat ü -- ber -- wun -- den, Gnad' ist nun vor -- han - den, Wahr -- heit wird fun -- den. Da -- rum, lie -- ben Leu - te, freut euch heu - te, lo -- bet eu -- ren Her -- ren, Je -- sum, den Kö -- nig der Eh - ren.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -114,9 +114,10 @@
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
 \midi {}

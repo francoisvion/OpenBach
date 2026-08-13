@@ -20,11 +20,12 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  d''4
           d'' b'8 [cis''] d'' [e''] fis''4
           e'' e'' d''\fermata d''
           cis'' b'8 [cis''] d''4 e''8 [d'']
-          cis''2 b'4\fermata \bar "|."
+          cis''2 b'4\fermata }
           \partial 4  e''
           fis'' fis'' cis''8 [d''] e''4
           d'' d'' cis''\fermata d''
@@ -32,15 +33,16 @@
           b' b' a'\fermata
           \partial 4  d''
           cis'' b'8 [cis''] d''4 e''8 [d'']
-          cis''2 b'4\fermata \bar "|."
+          cis''2 b'4\fermata \fine
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  fis'8 [g']
           a'4 g' a' a'
           b' a'8 [g'] fis'4\fermata gis'
           a' g' fis' e'8 [fis']
-          g'4 fis' fis'\fermata \bar "|."
+          g'4 fis' fis'\fermata }
           \partial 4  a'
           a' a' e'8 [fis'] g'4
           fis' gis' ais'\fermata b'
@@ -48,15 +50,16 @@
           a' gis' e'\fermata
           \partial 4 gis'
           a' gis'8 [ais'] b'4 b'8 [fis']
-          g'4 fis'8 [e'] d'4\fermata \bar "|."
+          g'4 fis'8 [e'] d'4\fermata \fine
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {
+    \new Lyrics \lyricsto "soprano" { \set stanza = 1
       Wo Gott der Herr nicht bei uns hält, wenn uns -- re Fein -- de to -- ben,
-      und uns -- rer Sach er nicht zu -- fällt, wo er Is -- ra -- els Schutz nicht ist,
-      so ist's mit uns ver -- lo -- ren.
-    }
+      wo er Is -- ra -- els Schutz nicht ist, und sel -- ber bricht der Fein -- de List;
+      so ists mit uns ver -- lo -- ren.}
+        \new Lyrics \lyricsto "soprano" { \set stanza = 2
+      und er un -- srer Sach nicht zu -- fällt, im Him -- mel hoch dort o -- ben, }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -65,11 +68,12 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  d'4
           d' d' d' d'
           d' cis' a\fermata b
           e' e' d'8 [cis'] b4
-          b ais8 [e'] d'4\fermata \bar "|."
+          b ais8 [e'] d'4\fermata }
           \partial 4  a
           a a8 [b] cis'4 cis'
           d'8 [cis'] b4 fis'\fermata fis'
@@ -77,15 +81,16 @@
           fis' e'8 [d'] cis'4\fermata
           \partial 4 d'
           e' e' fis' b
-          b ais fis\fermata \bar "|."
+          b ais fis\fermata \fine
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  b4
           fis g fis8 [e] d4
           gis a d\fermata b,
           a, e b8 [a g fis]
-          e4 fis b,\fermata \bar "|."
+          e4 fis b,\fermata }
           \partial 4  cis
           d8 [e fis g] a4 ais
           b eis fis\fermata b8 [a]
@@ -93,16 +98,17 @@
           dis e a,\fermata
           \partial 4 b,
           cis8 [d] e4 b8 [a g fis]
-          e4 fis b,\fermata \bar "|."
+          e4 fis b,\fermata \fine
         }
       >>
     }
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
 \midi {}

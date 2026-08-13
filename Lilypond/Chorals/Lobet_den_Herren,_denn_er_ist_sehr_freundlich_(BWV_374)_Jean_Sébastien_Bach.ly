@@ -41,9 +41,9 @@
           d' g' g'2
           a'\fermata r4 a'
           bes'8 [c''] d''4 cis''2
-          d''2.~\fermata
-          d''4 r r2 \bar "|."
+          d''2.\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
           \partial 4  d'8 [c']
@@ -54,7 +54,7 @@
           bes' a' bes'4. aes'8
           g'2\fermata r4
           \partial 4  bes'
-          a'8 [g' f' e'] f' [g' a' g']
+          a'8 [g'] f' [e'] f' [g'] a' [g']
           a' [fis'] g' a'4 g' fis'8
           g'8. [fis'16] g'8 [g] d'2\fermata
           d'8 [e' f' fis'] g' [ees'] d'4~
@@ -67,13 +67,14 @@
           d' d'~ d'8 [c'16 bes] a8 [g]
           d'2\fermata r4 fis'
           g' a'8 [e'] e' [fis'] g'4
-          fis'2.~\fermata
-          fis'4 r r2 \bar "|."
+          fis'2.\fermata \fine
         }
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Lo -- bet den Her -- ren, lo -- bet den Her -- ren, denn er ist sehr freund -- lich, es ist sehr köst -- lich, un -- sern Gott zu lo -- ben, un -- sern Gott zu lo -- ben sein Lob ist schön und lieb -- lich an -- zu -- hö -- ren. Lo -- bet den Herr -- ren, lo -- bet den Her -- ren!
+      Lo -- bet den Her -- ren,
+      lo -- bet den Her -- ren,
+      denn er ist sehr freund -- lich, es ist sehr köst -- lich, un -- sern Gott zu lo -- ben, un -- sern Gott zu lo -- ben sein Lob ist schön und lieb -- lich an -- zu -- hö -- ren. Lo -- bet den Herr -- ren, lo -- bet den Her -- ren!
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -97,50 +98,51 @@
           g4 c' d'8 [c'16 bes] a4
           g8 [d] g2 fis4\fermata
           r a g8 [a] bes [c']
-          d' [ees' d' bes] g [a] bes16 [c' d'8]
+          d' [ees'] d' [bes] g [a] bes16 [c' d'8]
           ees' [d'16 c'] bes8 [c'16 d'] ees'4 d'8. [c'16]
           bes2\fermata r4
           \partial 4  bes8 [a]
           g [a] bes [a] g4. c'8
           fis2\fermata r4 d'
           d' a8 [bes] a2
-          a2.~\fermata
-          a4 r r2 \bar "|."
+          a2.\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
           \partial 4  g,8 [a,]
           bes, [a,] g,4 ees2
           d\fermata r4 d
           g f8 [g] a2
-          d\fermata g8 [f ees d]
-          ees [c f f,] bes, [c d bes,]
+          d\fermata g8 [f] ees [d]
+          ees [c] f [f,] bes, [c] d [bes,]
           ees2\fermata r4
           \partial 4  bes,
-          f8 [g a bes] a [g f e]
-          fis [d e fis] g4 d
+          f8 [g] a [bes] a [g] f [e]
+          fis [d] e [fis] g4 d
           ees2 d\fermata
-          g,4 a, bes,8 [c d c]
-          bes, [a, bes, g,] d2\fermata
+          g,4 a, bes,8 [c] d [c]
+          bes, [a,] bes, [g,] d2\fermata
           r4 d g8 [f] ees4
-          d8 [c] bes,4~ bes,8 [a, g, bes,]
-          c [d ees d] c [a,] d4
+          d8 [c] bes,4~ bes,8 [a,] g, [bes,]
+          c [d] ees [d] c [a,] d4
           g,2\fermata r4
           \partial 4  g,8 [a,]
-          bes, [a, g, f,] ees,2
+          bes, [a,] g, [f,] ees,2
           d,\fermata r4 d
           g f8 [g] a4 a,
-          d2.~\fermata
-          d4 r r2 \bar "|."
+          d2.\fermata \fine
         }
       >>
     }
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
+
 \midi {}

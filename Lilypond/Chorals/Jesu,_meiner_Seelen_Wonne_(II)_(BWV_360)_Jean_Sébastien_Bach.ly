@@ -20,10 +20,11 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
-           d''4 ees'' f'' f''
+          \repeat volta 2 {
+          d''4 ees'' f'' f''
           ees'' d'' c'' c''\fermata
           d'' ees'' f'' d''
-          c''4. c''8 bes'2\fermata \bar "|."
+          c''4. c''8 bes'2\fermata }
            c''4 d'' ees'' ees''
           d''4. c''8 c''2\fermata
           ees''4 f'' g'' g''
@@ -31,14 +32,16 @@
            d''4 ees'' f'' bes'
           ees'' d'' c'' c''\fermata
           d'' ees'' f'' d''
-          c'' c'' bes' bes'\fermata \bar "|."
+          c'' c'' bes' bes'\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
-           bes'4 bes' a' bes'8 [a']
+          \repeat volta 2 {
+          bes'4 bes' a' bes'8 [a']
           g' [a'] bes'4 a' a'\fermata
           bes' a'8 [g'] f'4 g'
-          g' f' f'2\fermata \bar "|."
+          g' f' f'2\fermata }
            a'4 b' c'' g'
           g' f'8 [ees'] ees'2\fermata
           g'4 bes' bes' bes'
@@ -46,13 +49,25 @@
           g'4 g' f' ees'
           f' f' f' f'\fermata
           f' g' f' f'
-          g' f' f' f'\fermata \bar "|."
+          g' f' f' f'\fermata \fine
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {
-      Je -- su, mei -- ner Freu -- den Freu -- de, Je -- su, mei -- nes Glau -- bens Licht, o wie kommt dein Na -- me mir so ge -- wünscht und lieb -- lich vor dein Ge -- dächt -- nis, Je -- su, ma -- chet, dass mein trau -- rigs Her -- ze la -- chet.
+    
+    \new Lyrics \lyricsto "soprano" {\set stanza = 1
+      Je -- su, mei -- ner Freu -- den Freu -- de,
+      Je -- su, mei -- nes Glau -- bens Licht,
+      o wie kommt dein Na -- me mir
+      so ge -- wünscht und lieb -- lich vor
+      dein Ge -- dächt -- nis, Je -- su, ma -- chet,
+      daß mein trau -- rigs Her -- ze la -- chet.
     }
+    
+    \new Lyrics \lyricsto "soprano" {\set stanza = 2
+      Je -- su, mei -- ner See -- len Wei -- de,
+      Je -- su, mei -- ne Zu -- ver -- sicht,
+    }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -61,10 +76,11 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
-           d'4 bes8 [c'] d'4 d'
+          \repeat volta 2 {
+          d'4 bes8 [c'] d'4 d'
           ees' f' f' f'\fermata
           f' ees' d'8 [c'] bes4
-          bes a d'2\fermata \bar "|."
+          bes a d'2\fermata }
            f'4 f g c'
           c'8 [a] b4 g2\fermata
           c'4 d' ees' ees'
@@ -72,31 +88,35 @@
           bes4 bes bes8 [aes] g4
           c' bes a a\fermata
           bes bes c' bes
-          bes a d' d'\fermata \bar "|."
+          bes a d' d'\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
-           bes4 g d g
+          \repeat volta 2 {
+          bes4 g d g
           c bes, f f\fermata
           bes, c d g8 [f]
-          ees4 f bes,2\fermata \bar "|."
-           f4 d c8 [d ees f]
+          ees4 f bes,2\fermata }
+           f4 d c8 [d] ees [f]
           g4 g, c2\fermata
           c'4 bes8 [aes] g [f] ees4
           bes bes, ees2\fermata
           g4 f8 [ees] d4 ees
           a, bes, f f\fermata
           bes a8 [g] a [f] bes4
-          ees f bes, bes,\fermata \bar "|."
+          ees f bes, bes,\fermata \fine
         }
       >>
     }
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
+
 \midi {}

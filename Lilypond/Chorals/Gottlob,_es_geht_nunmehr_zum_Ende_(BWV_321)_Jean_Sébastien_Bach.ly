@@ -20,6 +20,7 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
            d''4 bes' d''
           ees''2 d''4
           c''2 bes'4
@@ -27,7 +28,7 @@
           d'' d'' d''
           g'2 a'4
           bes'2 bes'4
-          a'2.\fermata \bar "|."
+          a'2.\fermata }
            f'4 c'' c''
           c''2 d''4
           ees''2 ees''4
@@ -35,18 +36,19 @@
           f''4 f'' f''
           ees''2.
           d''4 d'' c''
-          bes'2.\fermata \bar "|."
+          bes'2.\fermata \fine
         }
         \new Voice = "alto" {
           \voiceTwo
-           f'4 f' bes'~
+          \repeat volta 2 {
+          f'4 f' bes'~
           bes' a' f'
           g' f'4. e'8
           a'2 a'4\fermata
           bes' f'8 [a'] g' [f']
           e'2 f'4~
           f' e'8 [d'] e'4
-          f'2.\fermata \bar "|."
+          f'2.\fermata }
            c'4 c' e'
           f'2 bes'4~
           bes' a'8 [g'] a'4
@@ -54,13 +56,19 @@
           f'4 bes'8 [a'] bes'4
           g' c'' a'
           bes' bes'4. a'8
-          f'2.\fermata \bar "|."
+          f'2.\fermata \fine
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {
-      Gott -- lob, es geht nun -- mehr zum En -- de, der mei -- ste Kampf ist nun voll -- bracht; mein Je -- sus reicht mir schon die Händ', mein Je -- sus, der mich se -- lig macht.
+    \new Lyrics \lyricsto "soprano" {\set stanza = 1
+      Gott -- lob, es geht nun -- mehr zum En -- de, der mei -- ste Kampf ist nun voll -- bracht; 
+      Drum lasst mich gehn, ich rei -- se fort, mein Je -- sus ist mein letz -- tes Wort.   
     }
+    
+    \new Lyrics \lyricsto "soprano" {\set stanza = 2
+    mein Je -- sus reicht mir schon die Hän -- de, mein Je -- sus, der mich se -- lig macht.
+    }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -69,25 +77,27 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
-           bes4 bes f'
+          \repeat volta 2 {
+          bes4 bes f'
           ees' c' bes~
           bes a bes
           f'2 f'4\fermata
           f' bes8 [c'] d'4
           c'2 c'4
           d' bes c'
-          c'2.\fermata \bar "|."
-           a4 g g
+          c'2.\fermata }
+          a4 g g
           a2 f'4
           g' ees' f'
           f'2.\fermata
           d'4 bes8 [c'] d'4
           c'2 f'4
           f'2 f'8. [ees'16]
-          d'2.\fermata \bar "|."
+          d'2.\fermata \fine
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
            bes,4 d bes,
           c f bes
           e f g
@@ -95,7 +105,7 @@
           bes, d bes,
           c bes, a,
           g,2 c4
-          f,2.\fermata \bar "|."
+          f,2.\fermata }
            f4 e c
           f ees d
           c2 f4
@@ -103,16 +113,17 @@
           bes,4 d bes,
           c a, f,
           bes, d f
-          bes,2.\fermata \bar "|."
+          bes,2.\fermata \fine
         }
       >>
     }
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
 \midi {}

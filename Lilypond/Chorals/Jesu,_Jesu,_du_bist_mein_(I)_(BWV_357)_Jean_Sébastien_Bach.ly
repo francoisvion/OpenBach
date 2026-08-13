@@ -35,17 +35,18 @@
            c'' g' aes' g'
           g'4. f'8 g'2\fermata
           c''4 g' aes'8 [g'] f' [ees'16 d']
-          ees'4 d'8 [c'] c'2\fermata \bar "|."
+          ees'4 d'8 [c'] c'2\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
            ees'4 g' f' g'
           g' g' g'2\fermata
           g'4 g' f'8 [g'] aes'4~
-          aes'8 [d' g' f'] ees'4 ees'\fermata
+          aes'8 [d'] g' [f'] ees'4 ees'\fermata
            ees'8 [f'] g'4 c'8 [d'] ees'4
           f' ees' d'2\fermata
-          f'4. ees'8 ees' [f' g' f']
+          f'4. ees'8 ees' [f'] g' [f']
           ees'4 d' bes bes\fermata
           ees' ees' f' g'
           g' aes' g' g'\fermata
@@ -54,12 +55,19 @@
            g' g'~ g'8 f'4 ees'8
           ees' [d'] c'4 d'2\fermata
           g'8 [f' g' ees'] f'4 c'
-          c' b g2\fermata \bar "|."
+          c' b g2\fermata \fine
         }
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Je -- su, Je -- su, du bist mein, weil ich muss auf Er -- den Wal -- len; lass mich ganz dein ei -- gen sein, lass mein Le -- ben dir ge -- fal -- len Dir will ich mich ganz er -- ge -- ben, und im To -- de an dir kle -- ben, dir ver -- trau -- e ich al -- lein, Je -- su, Je -- su, du bist mein.
+      Je -- su, Je -- su, du bist mein,
+      weil ich muß auf Er -- den Wal -- len;
+      laß mich ganz dein ei -- gen sein,
+      laß mein Le -- ben dir ge -- fal -- len
+      Dir will ich mich ganz er -- ge -- ben,
+      und im To -- de an dir kle -- ben,
+      dir ver -- trau -- e ich al -- lein,
+      Je -- su, Je -- su, du bist mein.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -84,8 +92,9 @@
            c' ees' c' b
           c'8 [b] c'4 b2\fermata
           c'4 c' c' aes
-          g g8. [f16] e2\fermata \bar "|."
+          g g8. [f16] e2\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
            c4 ees d c
@@ -96,23 +105,25 @@
           ees [d] ees4 bes,2\fermata
           d8 [bes,] ees4 aes, g,8 [aes,]
           bes, [aes,] bes,4 ees,2\fermata
-          ees8 [d ees c] d [aes g f]
-          ees [c f, f] g [g,] g [\fermata f]
-          ees [d c b,] c [g c' bes]
+          ees8 [d] ees [c] d [aes] g [f]
+          ees [c] f, [f] g [g,] g [\fermata f]
+          ees [d] c [b,] c [g] c' [bes]
           aes4 g8 [f] g4 g,\fermata
            ees c f g
           aes2 g\fermata
-          ees8 [d ees c] f [g aes f]
-          g4 g, c2\fermata \bar "|."
+          ees8 [d] ees [c] f [g] aes [f]
+          g4 g, c2\fermata \fine
         }
       >>
     }
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
+
 \midi {}

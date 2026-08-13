@@ -47,9 +47,15 @@
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
-      Gott sei uns gnä -- dig und barm -- her -- zig und geb' uns sei -- nen gött -- li -- chen Se -- gen, o Se -- gen.
+      Gott _ sei uns gnä -- dig und barm -- her -- zig und _ geb' uns sei -- nen gött -- li -- chen Se - gen.
     }
+    
+    \new Lyrics \lyricsto "alto" {
+      \repeat unfold 17 {\skip1} gött -- li - chen Se - gen.
+    }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -89,9 +95,10 @@
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
 \midi {}

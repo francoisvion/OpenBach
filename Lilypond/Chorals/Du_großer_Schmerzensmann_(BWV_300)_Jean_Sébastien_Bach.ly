@@ -65,7 +65,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Du gro -- sser Schmer -- zens -- mann, vom Va -- ter so ge -- schla -- gen, Herr Je -- su dir sei Dank für al -- le dei -- ne Pla -- gen: für dei -- ne See -- len -- angst, für dei -- ne Band' und Noth, für dei -- ne Gei -- sse -- lung, für dei -- nen bit -- tern Tod.
+      Du gro -- ßer Schmer -- zens -- mann, vom Va -- ter so ge -- schla -- gen, Herr Je -- su dir sei Dank für al -- le dei -- ne Pla -- gen: für dei -- ne See -- len -- angst, für dei -- ne Band' und Noth, für dei -- ne Gei -- sse -- lung, für dei -- nen bit -- tern Tod.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -122,9 +122,10 @@
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
 \midi {}

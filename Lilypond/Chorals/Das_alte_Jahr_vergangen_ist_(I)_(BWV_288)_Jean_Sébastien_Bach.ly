@@ -53,7 +53,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Das al -- te Jahr ver -- gan -- gen ist, wir dan -- ken dir, Herr Je -- su Christ, dass du uns in so gro -- sser G'fahr be -- hü -- tet hast lang' Zeit und Jahr, dass du uns in so gro -- sser G'fahr be -- hü -- tet hast lang' Zeit und Jahr.
+      Das al -- te Jahr ver -- gan -- gen ist, wir dan -- ken dir, Herr Je -- su Christ, dass du uns in so gro -- ßer G'fahr be -- hü -- tet hast lang' Zeit und Jahr; dass du uns in so gro -- ßer G'fahr be -- hü -- tet hast lang' Zeit und Jahr.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -98,9 +98,10 @@
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
 \midi {}

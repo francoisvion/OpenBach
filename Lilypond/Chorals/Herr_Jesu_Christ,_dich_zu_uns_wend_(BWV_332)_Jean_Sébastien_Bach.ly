@@ -73,11 +73,11 @@
           \partial 4  g,4
           g, fis, g,8 [b,] d4
           g8 [fis] e4 d\fermata a8 [g]
-          fis4 g cis8 [dis e fis]
+          fis4 g cis8 [dis] e [fis]
           g4 d g,\fermata
           \partial 4  d
-          g,8 [a, b, cis] d [e fis b]
-          g [e a a,] d4\fermata g8 [f]
+          g,8 [a,] b, [cis] d [e] fis [b]
+          g [e] a [a,] d4\fermata g8 [f]
           e [fis] g4 cis8 [dis] e4
           b,8 [c] d4 g,\fermata \bar "|."
         }
@@ -86,9 +86,11 @@
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
+
 \midi {}

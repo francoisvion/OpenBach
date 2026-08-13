@@ -23,7 +23,7 @@
           \partial 4  g'4
           g' g' bes' g'
           bes' b' c''\fermata d''
-          ees''8 [d'' c'' d''] ees''4 d''
+          ees''8 [d''] c'' [d''] ees''4 d''
           c'' c'' b'\fermata
           \partial 4  g'
           c''8 [d''] ees''4 d'' c''
@@ -34,7 +34,7 @@
           bes' bes' c'' d''
           ees'' d'' ees''\fermata ees''
           f'' ees'' d'' c''
-          c'' b' c''\fermata \bar "|."
+          c'' b' c''\fermata \fine
         }
         \new Voice = "alto" {
           \voiceTwo
@@ -52,12 +52,12 @@
           ees'8 [f'] g'4 ees' f'
           g' f' g'\fermata g'8 [aes']~
           aes' [g'] g'4 f'8 [aes'] g' [f']
-          ees' [d'16 c'] d'8 f'4 e'8\fermata \bar "|."
+          ees' [d'16 c'] d'8 f'4 e'8\fermata \fine
         }
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Da der Herr Christ zu Ti -- sche sass, zu -- letzt das O -- ster -- lämm -- lein ass, und wollt' von hin -- nen Schei -- den, sein'n Jüng -- ern er treu -- lich be -- fahl, dass man all -- zeit ver -- künd' -- gen soll sein'n Tod und bit -- ter Lei -- den.
+      Da der Herr Christ zu Ti -- sche saß, zu -- letzt das O -- ster -- lämm -- lein aß, und wollt' von hin -- nen Schei -- den, sein'n Jüng -- ern er treu -- lich be -- fahl, dass man all -- zeit ver -- künd' -- gen soll sein'n Tod und bit -- ter Lei - den.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -81,7 +81,7 @@
           bes [aes bes des'] c' [bes] aes4
           bes bes bes\fermata c'
           d'4. c'4 b8 c' [aes]
-          g2 g4\fermata \bar "|."
+          g2 g4\fermata \fine
         }
         \new Voice = "bass" {
           \voiceTwo
@@ -99,16 +99,17 @@
           g,8 [f,] ees,4 aes,8 [g,] f,4
           ees,8 [g,] bes,4 ees\fermata c~
           c8 [b,] c4 d ees8 [f]
-          g4 g, c\fermata \bar "|."
+          g4 g, c\fermata \fine
         }
       >>
     }
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
 \midi {}

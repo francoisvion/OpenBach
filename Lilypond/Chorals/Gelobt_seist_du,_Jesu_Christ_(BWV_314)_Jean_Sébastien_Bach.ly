@@ -31,7 +31,7 @@
           b' b' b' cis''
            d''8 [cis''] b'4 a'8 [b'] cis''4
           b'2\fermata a'4 a'
-          a'2 a'4\fermata \bar "|."
+          a'2 a'4\fermata \fine
         }
         \new Voice = "alto" {
           \voiceTwo
@@ -46,12 +46,12 @@
           dis' dis' e' e'
           d'4. e'8 fis'4 e'8 [fis']
           gis'2\fermata fis'4 e'
-          e'8 [d'16 e'] fis'4 e'\fermata \bar "|."
+          e'8 [d'16 e'] fis'4 e'\fermata \fine
         }
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Ge -- lo -- bet seist du, Je -- su Christ, dass du Mensch ge -- bo -- ren bist von ei -- ner Jung -- frau, das ist wahr, dess freu -- et sich der En -- gel Schaar. _ _ Al -- le -- lu -- ja!
+      Ge -- lo -- bet seist du, Je -- su Christ, dass du Mensch ge -- bo -- ren bist, von ei -- ner Jung -- frau, das ist wahr, dess freu -- et sich der En - - gel Schar. Al -- le -- lu -- ja!
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -72,7 +72,7 @@
           fis4 b8 [a] gis4 ais
           b8 [a] g4 fis8 [gis] a4
           e'2\fermata cis'8 [d' e' g]
-          fis [a] d'4 cis'\fermata \bar "|."
+          fis [a] d'4 cis'\fermata \fine
         }
         \new Voice = "bass" {
           \voiceTwo
@@ -87,16 +87,17 @@
           a gis8 [fis] e [d] cis4
           b,4. cis8 d4 cis8 [dis]
           e2\fermata fis4 cis
-          d2 a,4\fermata \bar "|."
+          d2 a,4\fermata \fine
         }
       >>
     }
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
 \midi {}

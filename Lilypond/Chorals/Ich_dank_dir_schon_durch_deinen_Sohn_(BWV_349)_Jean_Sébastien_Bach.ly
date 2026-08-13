@@ -59,7 +59,9 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Ich dank' dir schon durch dei -- nen Sohn, o Gott, für dei -- ne Gü -- te, dass du mich heut in die -- ser Nacht so gnä -- dig hast be -- hü -- tet, hü -- tet.
+      Ich dank' dir schon durch dei -- nen Sohn,
+      o Gott, für dei -- ne Gü -- te,
+      daß du mich heut in die - ser Nacht so gnä -- dig hast be -- hü - tet.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -75,7 +77,7 @@
           e'2.
           c'4 d' ees'
           f'2 f'4
-          g'8 [f' ees' d' c' ees']
+          g'8 [f'] ees' [d'] c' [ees']
           ees' [d'16 c'] d'2\fermata
            c'4 c' c'~
           c' bes a
@@ -97,7 +99,7 @@
           ees c f
           bes,2.\fermata
            e4 f a,
-          bes,8 [c d e] f4
+          bes,8 [c] d [e] f4
           e c f
           c2.\fermata
           a4 e f
@@ -110,9 +112,11 @@
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
+
 \midi {}

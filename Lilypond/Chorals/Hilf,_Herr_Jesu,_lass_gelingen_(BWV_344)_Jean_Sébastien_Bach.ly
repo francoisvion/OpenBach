@@ -43,7 +43,7 @@
           c''2 d''4
           bes'2 c''4
           a'2 a'4
-          g'2 g'4\fermata \bar "|."
+          g'2 g'4\fermata \fine
         }
         \new Voice = "alto" {
           \voiceTwo
@@ -70,12 +70,17 @@
           a'2 a'4
           g'2 g'4
           g'2 fis'4
-          d'2 d'4\fermata \bar "|."
+          d'2 d'4\fermata \fine
         }
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Hilf, Herr Je -- su, lass ge -- lin -- gen, hilf, das neu -- e Jahr, geht an, lass es neu -- e Kräf -- te brin -- gen, dass auf's neu' ich wan -- deln kann. Neu -- es Glück und neu -- es Le -- ben wollst du mir aus Gna -- de ge -- ben.
+      Hilf, Herr Je -- su, laß ge -- lin -- gen,
+      hilf, das neu -- e Jahr, geht an,
+      laß es neu -- e Kräf -- te brin -- gen,
+      daß auf's neu' ich wan -- deln kann.
+      Neu -- es Glück und neu -- es Le -- ben
+      wollst du mir aus Gna -- de ge -- ben.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -108,7 +113,7 @@
           f'2 fis'4
           d'2 c'8 [d']
           ees' [d'] c' [ees'] d' [c']
-          bes2 bes4\fermata \bar "|."
+          bes2 bes4\fermata \fine
         }
         \new Voice = "bass" {
           \voiceTwo
@@ -135,16 +140,18 @@
           f ees d
           g f ees8 [d]
           c4 a, d
-          g,2 g,4\fermata \bar "|."
+          g,2 g,4\fermata \fine
         }
       >>
     }
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
+
 \midi {}

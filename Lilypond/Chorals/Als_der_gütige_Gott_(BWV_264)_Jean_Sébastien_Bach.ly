@@ -53,7 +53,7 @@
     }
     \new Lyrics \lyricsto "soprano" {
       Als der gü -- ti -- ge Gott,
-      voll -- en -- den wollt' sein Wort,
+      vol -- len -- den wollt' sein Wort,
       sandt er ein En -- gel schnell,
       des Na -- me Ga -- bri __ el, __ _
       in's ga -- li -- lä -- isch Land.
@@ -101,9 +101,10 @@
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
 \midi {}

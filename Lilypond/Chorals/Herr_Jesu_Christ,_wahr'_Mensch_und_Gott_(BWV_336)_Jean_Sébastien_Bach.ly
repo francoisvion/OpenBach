@@ -34,13 +34,13 @@
         \new Voice = "alto" {
           \voiceTwo
           \partial 4  e'4
-          e'8 [d' cis' b] a4 fis'8 [gis']~
+          e'8 [d'] cis' [b] a4 fis'8 [gis']~
           gis' [fis'16 e'] fis'4 e'\fermata e'
           a' a' a' gis'
           gis' fis'8 [a'] a' [gis']\fermata
           \partial 4  gis'4
           fis' e' fis' g'
-          fis'8 [g' fis' e']~ e' [d']\fermata a'4
+          fis'8 [g'] fis' [e']~ e' [d']\fermata a'4
           a' a'4. gis'4 fis'8
           e' fis'4 e'8 e'4\fermata \bar "|."
         }
@@ -73,12 +73,12 @@
           \partial 4  a,8 [b,]
           cis [b,] a,4 d8 [cis] b,4
           cis dis e\fermata a~
-          a8 [gis fis e] dis4 e8 [fis]
+          a8 [gis] fis [e] dis4 e8 [fis]
           gis [a] b4 e\fermata
           \partial 4  eis
           fis g fis e
           d8 [e] fis4 b,\fermata a,
-          a8 [gis fis e] dis [eis] fis4
+          a8 [gis] fis [e] dis [eis] fis4
           cis8 [d] e4 a,\fermata \bar "|."
         }
       >>
@@ -86,9 +86,11 @@
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
+
 \midi {}

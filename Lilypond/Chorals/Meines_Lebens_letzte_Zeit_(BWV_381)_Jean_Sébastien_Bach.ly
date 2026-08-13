@@ -34,8 +34,9 @@
           a' a'\fermata b'4. c''8
           d''4 b' c'' b'
           a' b' b' a'8 [g']
-          fis'2 e'\fermata \bar "|."
+          fis'2 e'\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
            g'4 g' fis' g'8 [fis']
@@ -52,13 +53,21 @@
           g' [fis'16 e'] fis'4\fermata g' g'
           gis'8 [fis' gis'] b'4 a'8 g'4~
           g'8 [fis'] fis'4 e' e'~
-          e' dis' b2\fermata \bar "|."
+          e' dis' b2\fermata \fine
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
-      Mei -- nes Le -- bens letz -- te Zeit ist nun -- meh -- ro an -- ge -- kom -- men, da der schnö -- den Ei -- tel -- keit mei -- ne See -- le wird ent -- nom -- men; wer kann wi -- der -- stre -- ben, dass uns Men -- schen Gott das Le -- ben auf ein zeit -- lich Wie -- der -- neh -- men hat ge -- ge -- ben.
+      Mei -- nes Le -- bens letz -- te Zeit
+      ist nun -- meh -- ro an -- ge -- kom -- men,
+      da der schnö -- den Ei -- tel -- keit
+      mei -- ne See -- le wird ent -- nom -- men;
+      wer kann wi -- der -- stre -- ben,
+      daß uns Men -- schen Gott das Le -- ben
+      auf ein zeit -- lich Wie -- der -- neh -- men hat ge -- ge -- ben.
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -81,8 +90,9 @@
           d' d'\fermata d' e'
           b e' e' d'
           d' b8 [a] g4 a8 [b]
-          c'4 b8 [a] gis2\fermata \bar "|."
+          c'4 b8 [a] gis2\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
            e,4 e~ e8 [dis e g]
@@ -99,16 +109,17 @@
           d2\fermata g8 [fis] e4~
           e8 [d e gis] a,4 b,8 [c]
           d4 dis e8 [g c b,]
-          a,4 b, e2\fermata \bar "|."
+          a,4 b, e2\fermata \fine
         }
       >>
     }
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
 \midi {}

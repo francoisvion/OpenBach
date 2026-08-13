@@ -51,7 +51,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Das walt' mein Gott Va -- ter Sohn und heil' -- ger Geist, der mich er -- schaf -- fen hat, mir Lieb und Seel ge -- ge -- ben im Mut -- ter -- leib das Le -- ben, ge -- sund ohn' al -- len Schad'.
+      Das walt' mein Gott, Va -- ter, Sohn und heil' -- ger Geist, der mich er -- schaf -- fen hat, mir Lieb und Seel ge -- ge -- ben im Mut -- ter -- leib das Le -- ben, ge -- sund ohn' al -- len Schad'.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -94,9 +94,10 @@
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
 \midi {}

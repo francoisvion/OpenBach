@@ -33,8 +33,9 @@
           c'' c'' a' a'
           b'2 g'4\fermata g'
           c'' d'' e'' d''
-          c''2.\fermata \bar "|."
+          c''2.\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
           \partial 4  e'4
@@ -46,17 +47,24 @@
           gis'2\fermata r4
           \partial 4  g'
           g' g' f' f'
-          fis'8 [g' a' fis'] g'4\fermata g'
+          fis'8 [g'] a' [fis'] g'4\fermata g'
           g' g' fis' fis'
           fis' b b\fermata b
           c' f' e'8 [f'] g' [f']
-          e'2.\fermata \bar "|."
+          e'2.\fermata \fine
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
-      In al -- len mei -- nen Ta -- ten lass ich den Höch -- sten ra -- ten, der al -- les kann und hat; er muss zu al -- len Ding -- en, soll's an -- ders wohl ge -- lin -- gen, selbst ge -- ben Rat und Tat.
+      In al -- len mei -- nen Ta -- ten
+      laß ich den Höch -- sten ra -- ten,
+      der Al -- les kann und hat;
+      er muß zu al -- len Ding -- en,
+      soll's an -- ders wohl ge -- lin -- gen,
+      selbst ge -- ben Rat und Tat.
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -73,38 +81,41 @@
           c' c'8 [d'] e'4 e'
           e'2\fermata r4
           \partial 4  e'
-          e'8 [d' c' b] a [b c' b]
+          e'8 [d'] c' [b] a [b] c' [b]
           a4 d' d'\fermata d'
           e' e' e' d'
-          dis'8 [e' fis' dis'] e'4\fermata d'
+          dis'8 [e'] fis' [dis'] e'4\fermata d'
           g b c' b
-          g2.\fermata \bar "|."
+          g2.\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
           \partial 4  c4
           c8 [d] e4 f g
-          c8 [d e f] g4\fermata g,
+          c8 [d] e [f] g4\fermata g,
           a, b, c d
           g2 g,4\fermata g8 [f]
-          e [d c b,] a, [b, c d]
+          e [d] c [b,] a, [b,] c [d]
           e2\fermata r4
           \partial 4  e8 [d]
-          c [d e c] f [g a f]
-          d [e fis d] g4\fermata g,
-          c8 [d e c] d [e fis d]
-          b, [cis dis b,] e4\fermata g8 [f]
-          e [f e d] c4 g
-          c2.\fermata \bar "|."
+          c [d] e [c] f [g] a [f]
+          d [e] fis [d] g4\fermata g,
+          c8 [d] e [c] d [e] fis [d]
+          b, [cis] dis [b,] e4\fermata g8 [f]
+          e [f] e [d] c4 g
+          c2.\fermata \fine
         }
       >>
     }
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
+
 \midi {}

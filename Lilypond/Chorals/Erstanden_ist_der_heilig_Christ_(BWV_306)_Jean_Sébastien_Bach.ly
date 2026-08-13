@@ -104,8 +104,8 @@
           d4. c8 bes,4
           a,2\fermata
           \partial 4  d4
-          a8 [a, a g f e]
-          f [f, f e d cis]
+          a8 [a, a g] f [e]
+          f [f, f e] d [cis]
           d4 bes, c
           d2\fermata d8 [c]
           bes,4. a,8 g,4
@@ -118,9 +118,10 @@
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
 \midi {}

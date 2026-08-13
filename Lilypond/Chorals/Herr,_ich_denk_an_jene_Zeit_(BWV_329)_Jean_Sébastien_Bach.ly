@@ -55,7 +55,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Herr, ich denk' an je -- ne Zeit, wenn ich die -- sem kur -- zen Le -- ben we -- gen mei -- ner Sterb -- lich -- keit gu -- te Nacht muss ge -- ben, wenn ich werd' auf dein Ge -- bot durch den Tod Al -- les ü -- ber -- stre -- ben.
+      Herr, ich denk' an je -- ne Zeit, wenn ich die -- sem kur -- zen Le -- ben we -- gen mei -- ner Sterb -- lich -- keit gu -- te Nacht muß ge -- ben, wenn ich werd' auf dein Ge -- bot durch den Tod Al -- les ü -- ber -- stre -- ben.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -85,12 +85,12 @@
            ees4. f8 g4 ees
           aes8 [g] f4 ees2\fermata
           bes8 [aes] g4 d ees8 [d]
-          c [f bes, d] ees [c] f4
-          bes,2\fermata ees,8 [f, g, aes,]
-           bes, [c d ees] f [ees d bes,]
-          ees2\fermata bes8 [aes g f]
+          c [f] bes, [d] ees [c] f4
+          bes,2\fermata ees,8 [f,] g, [aes,]
+           bes, [c] d [ees] f [ees] d [bes,]
+          ees2\fermata bes8 [aes] g [f]
           ees [d] ees4 aes, bes,
-          ees,2\fermata bes8 [aes g f]
+          ees,2\fermata bes8 [aes] g [f]
           ees4 d8 [ees] f2
           bes,\fermata aes4 b,
           c2\fermata d4 ees
@@ -102,9 +102,10 @@
   >>
 }
 
-\paper {
-  indent = 10
-  page-count = 1
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
 }
-\layout {}
 \midi {}
