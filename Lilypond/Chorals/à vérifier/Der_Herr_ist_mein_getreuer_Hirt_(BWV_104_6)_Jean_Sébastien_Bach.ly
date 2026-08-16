@@ -1,0 +1,106 @@
+\version "2.27.1"
+
+#(set-global-staff-size 19)
+
+\header {
+ title = "Der Herr ist mein getreuer Hirt"
+  opus = "BWV 104/6"
+  composer = "Jean Sébastien Bach (1685-1750)"
+  tagline = ##f
+
+  }
+
+\score {
+  \new ChoirStaff <<
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    {
+      \clef treble
+      \key a \major
+      \time 4/4
+      <<
+        \new Voice = "soprano" {
+          \voiceOne
+          \partial 4  a'8 [b']
+          cis''4 d'' e'' d''
+          cis'' b' cis''\fermata cis''
+          cis'' b'8 [cis''] d'' [cis''] b'4
+          a' b' a'\fermata
+          a'
+          b' cis'' d'' cis''
+          b' cis'' b'\fermata b'
+          cis'' d'' e'' d''
+          cis'' b' cis''\fermata cis''
+          cis'' b'8 [cis''] d'' [cis''] b'4
+          a'8 [fis'] gis'4 a'\fermata \fine
+        }
+        \new Voice = "alto" {
+          \voiceTwo
+          \partial 4  e'4
+          a' a' gis' fis'8 [gis']
+          a'4 gis' a'\fermata e'
+          fis' fis'8 [e'] d'4 e'
+          e'8 a'4 gis'8 e'4\fermata
+          e'
+          e' e' d'8 [e'] fis'4
+          fis'8 [e'] e' [d'16 cis'] d'4\fermata e'
+          e' fis' gis' fis'
+          e' d'8 [fis'16 eis'] fis'4\fermata e'
+          fis' fis'8 [e'] d'4 e'
+          e'8 [fis'] e'4 e'\fermata \fine
+        }
+      >>
+    }
+    \new Lyrics \lyricsto "soprano" {\set stanza = 1
+      Al -- lein Gott in der Höh' sei Ehr' und Dank für sei -- ne Gna -- de,
+    }
+    \new Lyrics \lyricsto "soprano" {\set stanza = 2
+      da -- rum, dass nun und nim -- mer -- mehr uns rüh -- ren kann kein Scha -- de! Ein Wohl -- ge -- fall'n Gott an uns hat, nun ist gross Fried ohn' Un -- ter -- lass, all' Fehd' hat nun ein En -- de.
+    }
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    {
+      \clef bass
+      \key a \major
+      \time 4/4
+      <<
+        \new Voice = "tenor" {
+          \voiceOne
+          \partial 4  cis'8 [d']
+          e'4 fis' b8 [cis'] d'4
+          e' e' e'\fermata a
+          a2. d'8 [b]
+          e' [d'16 cis'] d'4 cis'\fermata
+          cis'
+          gis ais b ais
+          b ais fis\fermata b
+          a a b a8 [b]
+          cis'4 fis8 [gis] ais4\fermata a
+          a2 b4 gis
+          a8 [d'] b4 cis'\fermata \fine
+        }
+        \new Voice = "bass" {
+          \voiceTwo
+          \partial 4  a,4
+          a8 [gis] fis4 e b,
+          cis8 [d] e4 a,\fermata a8 [gis]
+          fis [e] d [cis] b, [a,] gis,4
+          cis8 [a,] e4 a,\fermata
+          a,
+          e d8 [cis] b,4 e8 [fis]
+          g4 fis b,\fermata gis
+          a8 [gis] fis4 e fis8 [gis]
+          a [ais] b4 fis\fermata a8 [gis]
+          fis [e] d [cis] b, [cis] d4
+          cis8 [d] e4 a,\fermata \fine
+        }
+      >>
+    }
+  >>
+}
+
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
+}
+\midi {}

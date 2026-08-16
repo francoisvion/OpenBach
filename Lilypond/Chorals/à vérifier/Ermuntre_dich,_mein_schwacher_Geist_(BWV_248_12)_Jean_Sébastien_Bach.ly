@@ -1,0 +1,118 @@
+\version "2.27.1"
+
+#(set-global-staff-size 19)
+
+\header {
+ title = "Ermuntre dich, mein schwacher Geist"
+  opus = "BWV 248/12"
+  composer = "Jean Sébastien Bach (1685-1750)"
+  tagline = ##f
+
+  }
+
+\score {
+  \new ChoirStaff <<
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    {
+      \clef treble
+      \key g \major
+      \time 4/4
+      <<
+        \new Voice = "soprano" {
+          \voiceOne
+          \partial 4  g'4
+          g' a' b'8 [cis''] d''4
+          d'' cis'' d''\fermata b'
+          c'' b' a' b'
+          a'2 g'4\fermata
+          a'
+          a' b' c'' c''
+          b'8 [a'] b'4 a'\fermata b'
+          b' b' c''8 [d''] e''4
+          e'' dis'' e''\fermata
+          fis''
+          g'' b' c'' b'
+          a'2 a'4\fermata d''
+          e'' d'' c'' b'8 [c'']
+          a'2 g'4\fermata \fine
+        }
+        \new Voice = "alto" {
+          \voiceTwo
+          \partial 4  d'4
+          e' fis' d'8 [e'] fis'4
+          e'8 [fis'] g'4 fis'\fermata fis'
+          e' d'8 [e'] fis'4 g'~
+          g' fis' d'\fermata
+          fis'8 [g']
+          a'4. gis'8 a' [gis'] a'4
+          a' gis' e'\fermata e'8 [dis']
+          e'4 e' e'8 [fis'] g' [fis']
+          fis' [g'] a'4 g'\fermata
+          a'
+          g'8 [a'] b'4. a'4 g'8
+          g'2 fis'4\fermata g'8 [fis']
+          e'4 fis' g'8 [a'] d'4
+          e' d' d'\fermata \fine
+        }
+      >>
+    }
+    \new Lyrics \lyricsto "soprano" {\set stanza = 1
+      1. Er -- mun -- tre dich mein schwa -- cher Geist, und tra -- ge gross' Ver -- lan -- gen, Dies ist die Nacht, da -- rin es kam, und mensch -- lich We -- sen an sich nahm, da -- durch die Welt mit Treu -- en als sei -- ne Bräut zu frei -- en.
+    }
+    \new Lyrics \lyricsto "soprano" {\set stanza = 2
+      ein klei -- nes Kind, das Va -- ter heisst, mit Freu -- den zu em -- pfan -- gen: wie soll ich dei -- nen gro -- ssen Sieg, den du durch ei -- nen schwe -- ren krieg er -- wor -- ben hast, recht prei -- sen, und dir g'nug Ehr' er -- wei -- sen?
+    }
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    {
+      \clef bass
+      \key g \major
+      \time 4/4
+      <<
+        \new Voice = "tenor" {
+          \voiceOne
+          \partial 4  b4
+          b8 c'4 d'8 b [a] a4
+          a a a\fermata b8 [a]
+          g [a] b [c'] d'4 d'
+          d'4. c'8 b4\fermata
+          d'8 [e']
+          fis' [e'] d'4 e' fis'
+          b e'8 [d'] c'4\fermata g8 [a]
+          b [c'] d' [e'] c'4 cis'
+          b b b\fermata
+          d'
+          d' g' g8 [a] b4
+          e'8 [d'] e' [cis'] d'4\fermata d'~
+          d'8 c' c' [b] b [a] g4
+          g8 [fis16 e] fis4 b\fermata \fine
+        }
+        \new Voice = "bass" {
+          \voiceTwo
+          \partial 4  g8 [fis]
+          e4 d g fis8 [g]
+          a4 a, d\fermata dis
+          e8 [fis] g c~ c b, a, [g,]
+          d4 d, g,\fermata
+          d
+          d'8 [c'] b4 a dis
+          e e, a,\fermata e8 [fis]
+          g4 gis a ais
+          b b, e\fermata
+          d8 [c]
+          b, [a,] g, [fis,] e, [fis,] g, [e,]
+          cis [b,] cis [a,] d4\fermata b,
+          c d e8 [fis] g4
+          c d g,\fermata \fine
+        }
+      >>
+    }
+  >>
+}
+
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
+}
+\midi {}

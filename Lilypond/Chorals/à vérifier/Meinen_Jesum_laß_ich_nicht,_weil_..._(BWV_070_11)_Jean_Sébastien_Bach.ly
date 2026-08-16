@@ -1,0 +1,110 @@
+\version "2.27.1"
+
+#(set-global-staff-size 19)
+
+\header {
+ title = "Meinen Jesum laß ich nicht, weil ..."
+  opus = "BWV 70/11"
+  composer = "Jean Sébastien Bach (1685-1750)"
+  tagline = ##f
+
+  }
+
+\score {
+  \new ChoirStaff <<
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    {
+      \clef treble
+      \key c \major
+      \time 4/4
+      <<
+        \new Voice = "soprano" {
+          \voiceOne
+          g'4 g' a' a'
+          b' b' c''2\fermata
+          d''4 d'' c'' c''
+          b' a'8 [b'16 c''] a'2
+          g'\fermata g'4 g'
+          a' a' g' f'
+          e'2\fermata g'4 g'
+          f' f' e' d'8 [e'16 f']
+          d'2 c'\fermata
+          c''4 c'' b' b'
+          a' a' g'2\fermata
+          g'4 g' f' e'
+          d' d' c'2\fermata \fine
+        }
+        \new Voice = "alto" {
+          \voiceTwo
+          e'4 e' f' f'
+          f'8 [e'] d'4 e'2\fermata
+          g'4 g' g' fis'
+          d' c'8 [d'16 e'] d'2
+          d' e'8 [d'] c'4
+          c' d' d'8 [e'] f' [d']
+          c'2\fermata b4 e'
+          d' d' c'8 [bes] a4
+          g2 g\fermata
+          e'8 [d'] c'4 g'2~
+          g'8 a'16 [g'] fis' [e' fis'8] b2\fermata
+          e'4 e' d' c'8 [b]
+          a4 b g2\fermata \fine
+        }
+      >>
+    }
+    \new Lyrics \lyricsto "soprano" {\set stanza = 1
+      
+    }
+    \new Lyrics \lyricsto "soprano" {\set stanza = 2
+      Mei -- nen Je -- sum lass' ich nicht, weil er sich für mich ge -- ge -- ben: so er -- for -- dert mei -- ne Pflicht, klet -- ten -- weis an ihm zu kle -- ben Er ist mei -- nes Le -- bens Licht, mei -- nen Je -- sum lass' ich nicht.
+    }
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    {
+      \clef bass
+      \key c \major
+      \time 4/4
+      <<
+        \new Voice = "tenor" {
+          \voiceOne
+          c'4 c' c' d'
+          d' g g2\fermata
+          d'4 b a a
+          g8 [fis] e [c'] c' [b] a4
+          b2 c'4 g
+          f f g c'8 [g]
+          g2\fermata g4 a
+          a g g4. f8
+          f [e] d4 e2\fermata
+          g4. fis8 d'4 d'
+          d' c'8 [a] e'2\fermata
+          cis'4 a a2~
+          a8 d g [f] e2\fermata \fine
+        }
+        \new Voice = "bass" {
+          \voiceTwo
+          c'8 [bes] a [g] f [e] d4
+          g g, c2\fermata
+          b,8 [c] d [e] a, [b,] c [d]
+          g,4 c d2
+          g, c8 [d] e [c]
+          f [e] d [c] b, [c] a, [b,]
+          c2\fermata e8 [d] cis [a,]
+          d [c] b, [g,] c4 f,
+          g,2 c\fermata
+          c8 [b,] a,4 g,8 [a,] b, [c]
+          d4 dis e2\fermata
+          a,8 [b,] cis [a,] d4 a,8 [g,]
+          f,4 g, c,2\fermata \fine
+        }
+      >>
+    }
+  >>
+}
+
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
+}
+\midi {}
