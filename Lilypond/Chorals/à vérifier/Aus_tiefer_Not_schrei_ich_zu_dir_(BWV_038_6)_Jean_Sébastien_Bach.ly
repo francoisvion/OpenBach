@@ -23,16 +23,16 @@
           b'2 e'4 b'
           c'' b'8 [a'] g'4 a'
           b'2\fermata b'
-          c''4 d'' c''8 [b'] a'4
-          g' f' e'2\fermata
+          c''4 d'' c''8 [b'] [a'4 g']
+          f' e'2\fermata
           a' g'4 c''
           b' a' d''8 [c''] b'4
           a'2\fermata c''
           b'4 c'' d'' g'
           b' a' g'2\fermata
           g' c''4 b'
-          a' e' g' f'
-          e'1\fermata \fine
+          a' e' g' [f'
+          e'1\fermata] \fine
         }
         \new Voice = "alto" {
           \voiceTwo
@@ -52,11 +52,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Aus tie -- fer Noth schrei ich zu dir, Herr Gott er -- höhr' mein Ru -- fen!
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Dein gnä -- dig Ohr'n neig' her zu mir und mei -- ner Bitt sie öff -- ne. Denn so du willst das se -- hen an, was Sünd und Un -- recht ist ge -- than, wer kann Herr vor dir blei -- ben.
+    \new Lyrics \lyricsto "soprano" {
+      Ob bei uns ist der Sün -- den viel, bei Gott ist viel mehr Gna -- de, Er ist al -- lein der gu -- te Hirt, der Is -- ra -- el er -- lö -- sen wird aus sei -- nen Sün -- den al -- len.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {

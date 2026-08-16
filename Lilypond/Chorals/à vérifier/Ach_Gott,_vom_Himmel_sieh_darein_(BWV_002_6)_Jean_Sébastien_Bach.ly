@@ -31,7 +31,7 @@
           g'8 [a'] bes'4 a' bes'
           g' fis' g'\fermata g'
           d'' bes' c'' d''
-          c'' bes' a'2
+          [c'' bes' a'2]
           a'2.\fermata \fine
         }
         \new Voice = "alto" {
@@ -52,11 +52,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Ach Gott, vom Him -- mel sieh' da -- rein und lass dich dess er -- bar -- men,
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      wie we -- nig sind der Heil' -- gen dein, ver -- las -- sen sind wir Ar -- men: dein Wort man lässt nicht ha -- ben wahr, der Glaub' ist auch ver -- lo -- schen gar bei al -- len Men -- schen -- kin -- dern.
+    \new Lyrics \lyricsto "soprano" {
+      Das wollst du Gott be -- wah -- ren rein für die -- sem argn Ge -- schlech -- te, der gott -- los Hauf sich um -- her findt, wo sol -- che lo -- se Leu -- te sind in dei -- nem Volk er -- ha -- ben.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
