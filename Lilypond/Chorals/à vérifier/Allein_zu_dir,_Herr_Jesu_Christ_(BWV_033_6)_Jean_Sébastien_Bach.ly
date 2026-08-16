@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Allein zu dir, Herr Jesu Christ"
+ title = "Ehr sei Gott in dem höchsten Thron"
   opus = "BWV 33/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -66,11 +66,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Al -- lein zu dir, Herr Je -- su Christ, mein Hoff -- nung steht auf Er -- den.
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Ich weiss, dass du mein Trö -- ster bist, kein Trost mag mir sonst wer -- den. Von An -- be -- ginn ist Nichts er -- kor'n, auf Er -- den ist kein Mensch ge -- bor'n, der mir aus Nö -- then hel -- fen kann, ich ruf' dich an, zu dem ich mein Ver -- trau -- en han.
+    \new Lyrics \lyricsto "soprano" {
+      Ehr sei Gott in dem höch -- sten Thron, dem Va -- ter al -- ler Gü -- te, und Gott dem hei -- li -- gen Gei -- ste, der uns sein Hilf all -- zeit lei -- ste, da -- mit wir ihm ge -- fäl -- lig sein, hier in die -- ser Zeit und fol -- gends in der E -- wig -- keit.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {

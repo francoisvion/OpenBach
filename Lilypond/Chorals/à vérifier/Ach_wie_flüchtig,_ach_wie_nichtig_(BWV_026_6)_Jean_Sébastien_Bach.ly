@@ -46,11 +46,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Ach wie flüch -- tig, ach wie nich -- tig ist der Men -- schen Le -- ben! Wie ein Ne -- bel bald ent -- ste -- het und auch wie -- der bald ver -- ge -- het, so ist un -- ser Le -- ben se -- het.
+    \new Lyrics \lyricsto "soprano" {
+      Ach wie flüch -- tig, ach wie nich -- tig sind der Men -- schen Sa -- chen! Al -- les, Al -- les was wir se -- hen, das muss fal -- len und ver -- ge -- hen. Wer Gott fürcht, bleibt e -- wig ste -- hen.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
