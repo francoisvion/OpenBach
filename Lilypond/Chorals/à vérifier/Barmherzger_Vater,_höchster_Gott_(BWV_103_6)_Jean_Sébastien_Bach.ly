@@ -56,11 +56,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      1. Was mein Gott will, das g'scheh' all -- zeit, sein Will' der ist der be -- ste; Er hilft aus Noth, der from -- me Gott, und züch -- ti -- get mit Ma -- ssen. Wer Gott ver -- traut, fest auf ihn baut, den will er nicht ver -- las -- sen.
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      zu hel -- fen den'n er ist be -- reit, die an ihn glau -- ben fe -- ste. Ich bin ein Sohn dess, der den Thron des Him -- mels auf -- ge -- zo -- gen: ob er gleich schlägt und Kreuz auf -- legt, bleibt doch sein Herz ge -- wo -- gen.
+    \new Lyrics \lyricsto "soprano" {
+      Ich hab dich ei -- nen Au -- gen -- blick, o lie -- bes Kind, ver -- las -- sen; will ich dir schon die Freu -- den -- kron auf -- setz -- en und ver -- eh -- ren; dein kur -- zes Leid soll sich in Freud und e -- wig Wohl ver -- keh -- ren.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
