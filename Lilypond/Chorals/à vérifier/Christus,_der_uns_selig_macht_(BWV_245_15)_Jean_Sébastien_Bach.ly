@@ -60,11 +60,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Chris -- tus, der uns se -- lig macht, kein Bös's hat be -- gan -- gen, der ward für uns in der Nacht als ein Dieb ge -- fan -- gen, ge -- führt vor gott -- lo -- se Leut', und fälsch -- lich ver -- kla -- get, ver -- lacht, ver -- höhnt und ver -- speit, wie denn die Schrift sa -- get.
+    \new Lyrics \lyricsto "soprano" {
+      Chris -- tus, der uns se -- lig macht, kein Bös hat be -- gan -- gen, der ward vor uns in der Nacht als ein Dieb ge -- fan -- gen, ge -- führt vor gott -- lo -- se Leut und fälsch -- lich ver -- kla -- get, ver -- lacht, ver -- höhnt und ver -- speit, wie denn die Schrift sa -- get.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
