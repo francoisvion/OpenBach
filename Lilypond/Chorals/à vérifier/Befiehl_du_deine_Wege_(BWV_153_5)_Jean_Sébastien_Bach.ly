@@ -56,11 +56,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Herz -- lich thut mich ver -- lan -- ben nach ei -- nem sel -- gen End,
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      weil ich hier bin um -- fan -- gen mit Trüb -- sal und E -- lend. Ich hab' Lust ab -- zu -- schei -- den von die -- ser ar -- gen Welt, sehn' mich nach ew' -- gen Freu -- den, o Je -- su, komm nur bald.
+    \new Lyrics \lyricsto "soprano" {
+      Und ob gleich al -- le Teu -- fel dir woll -- ten wi -- der -- stehn, was er ihm vor -- ge -- nom -- men und was er ha -- ben will, das muss doch end -- lich kom -- men zu sei -- nem Zweck und Ziel.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
