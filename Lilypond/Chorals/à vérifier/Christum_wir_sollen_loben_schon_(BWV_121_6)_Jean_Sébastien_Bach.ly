@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Christum wir sollen loben schon"
+ title = "Lob, Ehr und Dank sei dir gesagt"
   opus = "BWV 121/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -62,11 +62,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Christ -- tum wir sol -- len lob -- en schon, Der rei -- nen Magd' Ma -- ri en Sohn, So weit die lie -- be Son -- ne leucht't und an al -- ler Welt En -- de reicht.
+    \new Lyrics \lyricsto "soprano" {
+      Lob, Ehr und Dank sei dir ge -- sagt, Christ ge -- born von der rei -- nen Magd, samt Va -- ter und dem Heil -- gen Geist von nun an bis in E _ _ _ _ _ _ _ _ _ -- wig -- keit.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
