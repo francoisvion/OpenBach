@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Christ lag in Todesbanden"
+ title = "Wir essen und wir leben wohl"
   opus = "BWV 4/8"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -54,11 +54,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Christ lag in To -- des -- ban -- den für un -- ser Sünd' ge -- ge -- ben,
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      der ist wie -- der er -- stan -- den und hat uns bracht das Le -- ben Dess wir sol -- len fröh -- lich sein, Gott lo -- ben und ihm dank -- bar sein, und sin -- gen Hal -- le -- lu -- ja, Hal -- le -- lu -- ja!
+    \new Lyrics \lyricsto "soprano" {
+      Wir es -- sen und wir le -- ben wohl im rech -- ten O -- ster -- fla -- den, Chri -- stus will die Ko -- ste sein und spei -- sen die Seel al -- lein, der Glaub will keins an -- dern le -- ben. Hal -- le -- lu -- jah!
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
