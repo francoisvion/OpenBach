@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Ach lieben Christen, seid getrost"
+ title = "Wir wachen oder schlafen ein"
   opus = "BWV 114/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -50,11 +50,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Ach lie -- ben Chri -- sten, seid ge -- trost; wie thut ihr so ver -- za -- gen?
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Weil uns der Herr heim -- su -- chen thut? lasst uns von Her -- zen sa -- gen: die Straf' wir wohl ver -- die -- net han solch' muss be -- ken -- nen Je -- der -- mann; Nie -- mand darf sich aus -- schlie -- ssen.
+    \new Lyrics \lyricsto "soprano" {
+      Wir wa -- chen o -- der schla -- fen ein, so sind wir doch des Her -- ren; Durch A -- dam auf uns kömmt der Tod, Chri -- stus hilft uns aus al -- ler Not. Drum lo -- ben wir den Her -- ren.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {

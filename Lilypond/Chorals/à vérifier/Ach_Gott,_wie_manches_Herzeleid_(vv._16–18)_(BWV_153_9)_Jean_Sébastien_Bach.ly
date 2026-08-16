@@ -59,10 +59,13 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
+      Drum will ich, weil ich le -- be noch, das Kreuz dir fröh -- lich tra -- gen nach; mein Gott, mach mich da -- zu be -- reit, es dient zum Be -- sten al -- le Zeit!
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Ach Gott, wie man -- ches Her -- ze -- leid be -- geg -- net mir zu die -- ser Zeit. Der schma -- le Weg ist trüb -- sal -- voll, den ich zum Him -- mel wan -- dern soll.
+      Hilf mir mein Sach recht grei -- fen an, dass ich mein Lauf vol -- len -- den kann, hilf mir auch zwin -- gen Fleisch und Blut, für Sünd und Schan -- den mich be -- hüt!
+    }
+    \new Lyrics \lyricsto "soprano" {\set stanza = 3
+      Er -- halt mein Herz im Glau -- ben rein, so leb und sterb ich dir al -- lein; Je -- su, mein Trost, hör mein Be -- gier, o mein Hei -- land, wär ich bei dir!
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {

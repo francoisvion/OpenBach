@@ -50,10 +50,7 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
+    \new Lyrics \lyricsto "soprano" {
       Ach Gott und Herr, wie gross und schwer sind mein' be -- gang -- ne Sün -- den! Da ist Nie -- mand, der hel -- fen kann, in die -- ser Welt zu fin -- den.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
