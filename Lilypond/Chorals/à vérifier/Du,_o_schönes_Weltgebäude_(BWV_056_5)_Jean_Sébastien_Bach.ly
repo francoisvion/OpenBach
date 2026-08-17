@@ -52,11 +52,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Du, o schö -- nes Welt -- ge -- bäu -- de, magst ge -- fal -- len wem du willst, De -- nen, die den Him -- mel has -- sen,
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      dei -- ne schein bar -- li -- che Freu -- de is mit lau -- ter Angst um -- hüllt. will ich ih -- re Welt -- lust las -- sen; mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
+    \new Lyrics \lyricsto "soprano" {
+      Komm, o Tod, du Schla -- fes Bru -- der, Es mag, wer da will, dich scheu -- en, du kannst mich viel -- mehr er -- freu -- en; denn durch dich komm ich her -- ein zu dem schön -- sten Je -- su -- lein.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
