@@ -4,6 +4,7 @@
 
 \header {
  title = "Erschienen ist der herrlich Tag"
+ subtitle = "tiré de la cantate : Ich lebe, mein Herze, zu deinem Ergötzen"
   opus = "BWV 145/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -64,11 +65,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Er -- schie -- nen ist der herr -- lich' Tag, dran sich Nie -- mand gnug' freuen mag; Christ, un -- ser Herr, heut tri -- um -- phiert, all' sein' Feind er ge -- fan -- gen führt. Al -- le -- lu -- ja!
+    \new Lyrics \lyricsto "soprano" {
+      Drum wir auch bil -- lig fröh -- lich sein, sin -- gen das Hal -- le -- lu -- ja fein und lo -- ben dich, Herr Je -- su Christ; zu Trost du uns er -- stan -- den bist. Hal -- le -- lu -- jah!
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
