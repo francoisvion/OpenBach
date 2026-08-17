@@ -50,11 +50,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Al -- lein Gott in der Höh' sei Ehr' und Dank für sei -- ne Gna -- de,
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      da -- rum, dass nun und nim -- mer -- mehr uns rüh -- ren kann kein Scha -- de! Ein Wohl -- ge -- fall'n Gott an uns hat, nun ist gross Fried ohn' Un -- ter -- lass, all' Fehd' hat nun ein En -- de.
+    \new Lyrics \lyricsto "soprano" {
+      Der Herr ist mein ge -- treu -- er Hirt, dem ich mich ganz ver -- trau -- e, zum fri -- schen Was -- ser leit' er mich, mein Seel zu la -- ben kräf -- tig -- lich durchs se -- lig Wort der Gna -- den.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
