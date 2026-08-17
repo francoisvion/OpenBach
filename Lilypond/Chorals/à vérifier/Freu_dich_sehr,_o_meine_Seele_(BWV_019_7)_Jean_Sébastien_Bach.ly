@@ -4,6 +4,7 @@
 
 \header {
  title = "Freu dich sehr, o meine Seele"
+ subtitle = "tiré de la cantate : Es erhub sich ein Streit"
   opus = "BWV 19/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,6 +21,7 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           c''2 d''4
           e''2 d''4
           c''2 b'4
@@ -28,7 +30,7 @@
           c''2 d''4
           e''2 f''4
           e'' d''2
-          c''2.\fermata
+          c''2.\fermata }
           e''2 f''4
           g''2 f''4
           e'' d''2
@@ -50,6 +52,7 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           g'2 g'4
           g'2 fis'4
           g' a' g'
@@ -58,7 +61,7 @@
           c'2 g'4
           g'2 a'4
           e' a' g'
-          g'2.\fermata
+          g'2.\fermata }
           g'2 a'4
           bes'2 a'4
           e' a' g'
@@ -81,10 +84,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Weg, mein Herz mit den Ge -- dan -- ken, als ob du ver -- sto -- ssen wärst,
+      Lass dein En -- gel mit mir fah -- ren, auf E -- li -- as Wa -- gen rot, Lass sie ruhn in dei -- nem Schoß, er -- füll sie mit Freud und Trost, bis der Leib kommt aus der Er -- de und mit ihr ver -- ei -- nigt wer -- de.
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      bleib in Got -- tes Wort und Schran -- ken, da du an -- ders re -- den hörst. Bist du bös und un -- ge -- recht? Ei so ist Gott fromm und schlecht. Hast du Zorn und Tod ver -- die -- net? Sin -- ke nicht, Gott is ver -- süh -- net.
+      Und mein See -- le wohl be -- wah -- ren, wie Laz -- rum nach sei -- nem Tod, Lass sie ruhn in dei -- nem Schoß, er -- füll sie mit Freud und Trost, bis der Leib kommt aus der Er -- de und mit ihr ver -- ei -- nigt wer -- de.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -94,6 +97,7 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           e'2 b4
           c' b a
           e' d' d'
@@ -102,7 +106,7 @@
           g2 b4
           c'2 c'4
           c'2 b4
-          g2.\fermata
+          g2.\fermata }
           c'2 c'4
           g2 c'4
           c'2 b4
@@ -124,6 +128,7 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           c'2 g4
           c2 d4
           e fis g
@@ -132,7 +137,7 @@
           e2 g4
           c' b a
           g f g
-          c2.\fermata
+          c2.\fermata }
           c'2 a4
           e2 f4
           g f g
