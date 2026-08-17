@@ -4,6 +4,7 @@
 
 \header {
  title = "Herzlich lieb hab ich dich, o Herr"
+ subtitle = "tiré de la Passion selon saint Jean"
   opus = "BWV 245/40"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,6 +21,7 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  ees''4
           d'' c'' bes' aes'8 [g']
           c''4 c'' bes'\fermata ees''
@@ -27,14 +29,8 @@
           c''4 c'' bes'\fermata bes'
           c'' d'' ees''8 [f''] g''4
           f'' ees''2 d''4
-          ees''2.\fermata ees''4
-          d'' c'' bes' aes'8 [g']
-          c''4 c'' bes'\fermata ees''
-          d'' c'' bes' aes'8 [g']
-          c''4 c'' bes'\fermata bes'
-          c'' d'' ees''8 [f''] g''4
-          f'' ees''2 d''4
-          ees''2.\fermata ees''4
+          ees''2.\fermata }
+          ees''4
           ees'' f'' ees''8 [d''] c'' [d'']
           ees''4 ees'' d''\fermata d''
           ees'' f'' ees''8 [d''] c'' [d'']
@@ -52,6 +48,7 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  bes'4
           bes' g' g' f'8 [ees']
           ees'4 aes' g' g'
@@ -59,14 +56,8 @@
           ees' [f'] f'4 g' g'
           aes'8 [c''] bes' [aes'] g' [f'] ees'4
           f'2 g'4 aes'
-          g'2. g'4
-          bes' g' g' f'8 [ees']
-          ees'4 aes' g' g'
-          g'8 [f'] ees' [f'] g' [f'] ees' [d']
-          ees' [f'] f'4 g' g'
-          aes'8 [c''] bes' [aes'] g' [f'] ees'4
-          f'2 g'4 aes'
-          g'2. g'4
+          g'2. }
+          g'4
           aes' aes' g'4. g'8
           f' [g'] a'4 bes' bes'
           bes' aes' g' aes'
@@ -84,8 +75,11 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {
-      
+    \new Lyrics \lyricsto "soprano" {\set stanza = 1
+      Ach Herr, lass dein lieb En -- ge -- lein am letz -- ten End die See -- le mein in A -- bra -- hams Schoß tra -- gen, _ _ Als -- denn vom Tod er -- we -- cke mich, dass mei -- ne Au -- gen se -- hen dich in al -- ler Freud, o Got -- tes Sohn, mein Hei -- land und Ge -- na -- den -- thron! Herr Je -- su Christ, er -- hö -- re mich, er -- hö -- re mich, ich will dich prei -- sen e -- wig -- lich!
+    }
+    \new Lyrics \lyricsto "soprano" {\set stanza = 2
+      den Leib in seim Schlaf -- käm -- mer -- lein gar sanft ohn ein -- ge Qual und Pein ruhn bis am jüng -- sten Ta -- ge! _ _ Als -- denn vom Tod er -- we -- cke mich, dass mei -- ne Au -- gen se -- hen dich in al -- ler Freud, o Got -- tes Sohn, mein Hei -- land und Ge -- na -- den -- thron! Herr Je -- su Christ, er -- hö -- re mich, er -- hö -- re mich, ich will dich prei -- sen e -- wig -- lich!
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -95,6 +89,7 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  g'4
           f' ees' d' des'
           c'8 [bes] c' [d'] ees'4 g8 [aes]
@@ -102,14 +97,8 @@
           c' [ees'] d' [c'] d'4 ees'
           ees'8 [aes'] g' [f'] ees' [bes] des'4
           c'2 bes
-          bes2. g'4
-          f' ees' d' des'
-          c'8 [bes] c' [d'] ees'4 g8 [aes]
-          bes4 c'8 [d'] ees'4 aes8 [bes]
-          c' [ees'] d' [c'] d'4 ees'
-          ees'8 [aes'] g' [f'] ees' [bes] des'4
-          c'2 bes
-          bes2. bes4
+          bes2. }
+          bes4
           c' c' c'8 [d'] ees' [d']
           c'4 f' f' f'
           bes bes bes f'
@@ -127,6 +116,7 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  ees4
           bes c' g bes
           aes aes, ees c
@@ -134,14 +124,8 @@
           aes,4 aes g ees
           aes bes c'8 [d] ees4
           aes, a, bes,2
-          ees2. ees4
-          bes c' g bes
-          aes aes, ees c
-          g aes ees8 [d] c [bes,]
-          aes,4 aes g ees
-          aes bes c'8 [d] ees4
-          aes, a, bes,2
-          ees2. ees4
+          ees2. }
+          ees4
           aes8 [g] f4 c c'8 [bes]
           a [g] f4 bes bes8 [aes]
           g [f] ees [d] ees4 f

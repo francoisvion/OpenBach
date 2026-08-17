@@ -4,6 +4,7 @@
 
 \header {
  title = "Herr Jesu Christ, ich schrei zu dir"
+ subtitle = "tiré de la cantate : Ich elender Mensch, wer wird mich erlösen"
   opus = "BWV 48/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,11 +21,12 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  g'4
           g' fis' g' a'
           bes' a' g'\fermata g'
           a' a' d'' c''
-          bes'2 a'4\fermata
+          bes'2 a'4\fermata }
           d''
           c'' bes' a' c''
           bes' a' g'\fermata bes'
@@ -37,11 +39,12 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  d'4
           ees' d' d' c'
           bes8 [c'] d' [c'] bes4\fermata d'8 [e']
           f'4 f' bes'4. a'8
-          a' [g'16 fis'] g'4 fis'\fermata
+          a' [g'16 fis'] g'4 fis'\fermata }
           d'8 [ees']
           f'4. e'8 f'4 g'
           g' fis' d'\fermata e'
@@ -55,10 +58,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Herr Je -- su Christ, du höch -- stes Gut, du Brunn -- quell al -- ler Gna -- den,
+      Herr Je -- su Christ, ei -- ni -- ger Trost, zu dir will ich mich wen -- den; In dei -- nen Wil -- len seis ge -- stellt, machs, lie -- ber Gott, wie dirs ge -- fällt: dein bin und will ich blei -- ben. _ _
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      sieh doch, wie ich in mei -- nem Muth mit Schmer -- zen bin be -- la -- den, und in mir hab' der Pfei -- le viel, die im Ge -- wis -- sen oh -- ne Ziel mich ar -- men Sün -- der drü -- cken.
+      mein Herz -- leid ist dir wohl be -- wusst, du kannst und wirst es en -- den. In dei -- nen Wil -- len seis ge -- stellt, machs, lie -- ber Gott, wie dirs ge -- fällt: dein bin und will ich blei -- ben. _ _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -68,11 +71,12 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  bes4
           a a g d'
           d'8 [e'] fis'4 g'\fermata bes
           c' d'8 [ees'] f'4 c'8 [d']
-          g [d] d'4 d'\fermata
+          g [d] d'4 d'\fermata }
           f8 [g]
           a4 bes c' c'
           d' d'8 [c'] bes4\fermata c'
@@ -85,11 +89,12 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  g4
           c d e fis
           g d g,\fermata g
           f8 [ees] d [c] bes, [d] e [fis]
-          g [a] bes [c'] d'4\fermata
+          g [a] bes [c'] d'4\fermata }
           bes
           a g f ees
           d8 [c] d4 g,\fermata c

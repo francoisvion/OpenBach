@@ -4,6 +4,7 @@
 
 \header {
  title = "Herr Jesu Christ, wahr Mensch und Gott"
+ subtitle = "tiré de la cantate : Herr Jesu Christ, wahr' Mensch und Gott"
   opus = "BWV 127/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -56,11 +57,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Herr Je -- su Christ, wahr'r Mensch und Gott, der du litt'st Mar -- ter, Angst und Spott, für mich am Kreuz auch end -- lich starbst und mir dein's Va -- ters Huld er -- warbst. Ich bitt' durch bit -- ter Lei -- den dein, du wollst mir Sün -- der gnä -- dig sein!
+    \new Lyrics \lyricsto "soprano" {
+      Ach, Herr, ver -- gib all un -- sre Schuld, hilf, dass wir war -- ten mit Ge -- duld, bis un -- ser Stünd -- lein kommt her -- bei, auch un -- ser Glaub stets wa -- cker sei, deinm Wort zu trau -- en fes -- tig -- lich, bis wir ein -- schla -- fen se -- lig -- lich.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {

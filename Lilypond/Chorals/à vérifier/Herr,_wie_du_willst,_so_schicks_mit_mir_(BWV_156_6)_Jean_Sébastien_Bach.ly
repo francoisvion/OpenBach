@@ -3,7 +3,8 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Herr, wie du willst, so schicks ... [de]"
+ title = "Herr, wie du willst, so schicks mit mir"
+ subtitle = "tiré de la cantate : Ich steh mit einem Fuß im Grabe"
   opus = "BWV 156/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,12 +21,13 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  c''4
           b' c'' d'' d''
           c'' d'' e''\fermata f''
           e'' d'' c'' b'8 [a']
           b'4 c'' d''2
-          c''2.\fermata
+          c''2.\fermata }
           c''4
           d''8 [e''] f''4 e''8 [d''] c''4
           d''8 [c''] b'4 a'\fermata b'
@@ -37,12 +39,13 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  g'4
           g'4. f'8 g'4 gis'
           e'8 [c'] g'4 g'\fermata g'
           g' g'8 [f'] e'4 f'8 [e']
           d'4 g' a' g'8 [f']
-          e'2.\fermata
+          e'2.\fermata }
           g'4
           g' a' b' a'
           a'4. g'8 fis'4\fermata fis'
@@ -55,10 +58,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Herr, wie du willst, so schick's mit mir im Le -- ben wie im Ster -- ben,
+      Herr, wie du willst, so schicks mit mir im Le -- ben wie im Ster -- ben; _ _ Er -- halt mich nur in dei -- ner Huld, sonst wie du willst, gieb mir Ge -- duld, dein Will', der ist der be -- ste. _ _
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      al -- lein zu dir steht mein Be -- gehr, lass mich, Herr, nicht ver -- der -- ben. Er -- halt mich nur in dei -- ner Huld, sonst wie du willst, gieb mir Ge -- duld, dein Will', der ist der be -- ste.
+      al -- lein zu dir steht mein Be -- gehr, lass mich, Herr, nicht ver -- der -- ben. _ _ Er -- halt mich nur in dei -- ner Huld, sonst wie du willst, gieb mir Ge -- duld, dein Will', der ist der be -- ste. _ _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -68,12 +71,13 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  e'4
           d' c' b b
           c'8 [f'] b4 c'\fermata d'
           c' b c'8 [e'] d'4
           g' c'2 b4
-          g2.\fermata
+          g2.\fermata }
           e'4
           d' c' b e'
           d' d' d'\fermata b
@@ -85,12 +89,13 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  c4
           g a g8 [f] e4
           a g c'\fermata b
           c' g a8 [g] f4~
           f e fis g
-          c2.\fermata
+          c2.\fermata }
           c'4
           b a gis a8 [g]
           fis4 g d\fermata dis
