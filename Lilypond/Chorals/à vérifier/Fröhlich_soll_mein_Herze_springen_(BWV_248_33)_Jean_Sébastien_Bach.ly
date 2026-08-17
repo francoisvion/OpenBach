@@ -4,6 +4,7 @@
 
 \header {
  title = "Fröhlich soll mein Herze springen"
+ subtitle = "tiré de l'Oratorio de Noël, partie VI : Herr, wenn die stolzen Feinde schnauben"
   opus = "BWV 248/33"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -54,11 +55,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Wa -- rum sollt' ich mich denn grä -- men? Hab' ich doch Chri -- stum noch, wer will mir den neh -- men? Wer will mir den Him -- mel rau -- ben, den mir schon Got -- tes Sohn bei -- ge -- legt im Glau -- ben.
+    \new Lyrics \lyricsto "soprano" {
+      Ich will dich mit Fleiß be -- wah -- ren, Ich will dir le -- ben hier, dir will ich ab -- fah -- ren, mit dir will ich end -- lich schwe -- ben vol -- ler Freud oh -- ne Zeit dort im an -- dern Le -- ben. _ _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
