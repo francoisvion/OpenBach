@@ -72,11 +72,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Nun lie -- get al -- les un -- ter dir, dich selbst nur aus -- ge -- nom -- men;
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Die En -- gel müs -- sen für und für dir auf -- zu -- war -- ten kom -- men. Die Für -- sten stehn auch auf der Bahn, und sind dir wil -- lig un -- ter -- than; Luft, Was -- ser, Feu'r und Er -- den muss dir zu Dien -- ste wer -- den.
+    \new Lyrics \lyricsto "soprano" {
+      Nun lie -- get al -- les un -- ter dir, dich selbst nur aus -- ge -- nom -- men; Die En -- gel müs -- sen für und für dir auf -- zu -- war -- ten kom -- men. Die Für -- sten stehn auch auf der Bahn, und sind dir wil -- lig un -- ter -- than; Luft, Was -- ser, Feu'r und Er -- den muss dir zu Dien -- ste wer -- den.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
