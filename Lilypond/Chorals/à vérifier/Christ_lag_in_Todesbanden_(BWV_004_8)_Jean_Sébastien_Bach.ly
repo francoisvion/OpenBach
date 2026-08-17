@@ -3,7 +3,8 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Wir essen und wir leben wohl"
+ title = "Christ lag in Todesbanden"
+ subtitle = "tiré de la cantate : Christ lag in Todesbanden"
   opus = "BWV 4/8"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

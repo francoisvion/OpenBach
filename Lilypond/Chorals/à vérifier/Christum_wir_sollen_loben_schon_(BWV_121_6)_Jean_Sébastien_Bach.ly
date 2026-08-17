@@ -3,7 +3,8 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Lob, Ehr und Dank sei dir gesagt"
+ title = "Christum wir sollen loben schon"
+ subtitle = "tiré de la cantate : Christum wir sollen loben schon"
   opus = "BWV 121/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

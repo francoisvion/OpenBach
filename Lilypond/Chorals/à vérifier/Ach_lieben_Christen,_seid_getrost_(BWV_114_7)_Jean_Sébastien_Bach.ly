@@ -3,7 +3,8 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Wir wachen oder schlafen ein"
+ title = "Ach lieben Christen, seid getrost"
+ subtitle = "tiré de la cantate : Ach lieben Christen, seid getrost"
   opus = "BWV 114/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
