@@ -3,7 +3,8 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Christus, der uns selig macht"
+ title = "O hilf, Christe, Gottes Sohn"
+ subtitle = "tiré de la Johannes-Passion"
   opus = "BWV 245/37"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -60,11 +61,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Chri -- stus, der uns se -- lig macht, kein Bös's hat be -- gan -- gen, der ward für uns in der Nacht als ein Dieb ge -- fan -- gen, ge -- führt vor got -- lo -- se Leut' und fälsch -- lich ver -- kla -- get, ver -- lacht, ver -- höhnt und ver -- speit, wie denn die Schrift sa -- get.
+    \new Lyrics \lyricsto "soprano" {
+      O hilf, Chri -- ste, Got -- tes Sohn, durch dein bit -- ter Lei -- den, dass wir der stets un -- ter -- tan all Un -- tu -- gend mei -- den, dei -- nen Tod und sein Ur -- sach fruc -- ht -- bar -- lich be -- den -- ken, da -- für, wie -- wohl arm und schwach, dir Dank -- o -- pfer schen -- ken. _ _ _ _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
