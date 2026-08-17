@@ -4,6 +4,7 @@
 
 \header {
  title = "Ein Kind geborn zu Bethlehem"
+ subtitle = "tiré de la cantate : Sie werden aus Saba alle kommen"
   opus = "BWV 65/2"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -60,11 +61,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Ein Kind ge -- born zu Beth -- le -- hem, Beth -- le -- hem, des freu -- et sich Je -- ru -- sa -- lem. Al -- le -- lu -- ja, Al -- le -- lu -- ja!
+    \new Lyrics \lyricsto "soprano" {
+      Die Kön -- ge aus Sa -- ba ka -- men da, ka -- men da, Gold, Weih -- rauch, Myrr -- hen brach -- ten sie da, Al -- le -- lu -- ja, Al -- le -- lu -- ja!
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
