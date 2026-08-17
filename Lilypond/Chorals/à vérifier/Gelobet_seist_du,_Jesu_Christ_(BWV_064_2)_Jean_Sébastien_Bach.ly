@@ -4,6 +4,7 @@
 
 \header {
  title = "Gelobet seist du, Jesu Christ"
+ subtitle = "tiré de la cantate : Sehet, welch eine Liebe hat uns der Vater erzeiget"
   opus = "BWV 64/2"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -50,11 +51,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Ge -- lo -- bet seist du, Je -- su Christ, dass du Mensch ge -- bo -- ren bist von ei -- ner Jung -- frau, das ist wahr, dess freu -- et sich der En -- gel Schaar. Al -- le -- lu -- ja!
+    \new Lyrics \lyricsto "soprano" {
+      Das hat er al -- les uns ge -- tan, sein groß Lieb zu zei -- gen an. Des freu sich al -- le Chri -- sten -- heit und dank ihm des in E -- wig -- keit. Ky -- ri -- e e -- leis! _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
