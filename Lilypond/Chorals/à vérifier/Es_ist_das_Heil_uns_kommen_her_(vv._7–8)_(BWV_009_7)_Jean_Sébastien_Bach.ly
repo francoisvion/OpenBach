@@ -4,6 +4,7 @@
 
 \header {
  title = "Es ist das Heil uns kommen her (vv. 7–8)"
+ subtitle = "tiré de la cantate : Es ist das Heil uns kommen her"
   opus = "BWV 9/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,11 +21,12 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  b'4
           b' b' b'8 [cis''] d''4
           cis'' b' a'\fermata b'8 [a']
           gis' [fis'] e' [fis'] gis'4 ais'
-          b' cis'' b'\fermata
+          b' cis'' b'\fermata }
           b'
           e'' dis'' cis'' dis''
           e''8 [dis''] cis''4 b'\fermata b'
@@ -35,11 +37,12 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  gis'4
           fis'8 [gis'] a'4 gis'8 [a'] b'4
           b'8 [a'] d' [e'] fis'4\fermata fis'
           e' b e' cis'
-          fis'4. e'8 dis'4\fermata
+          fis'4. e'8 dis'4\fermata }
           e'8 [fis']
           gis' [ais'] b'4 ais'8 [gis'] fis'4
           b'8 [gis'] ais'4 fis'\fermata gis'8 [a']
@@ -51,10 +54,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Es ist das Heil uns kom -- men her von Gnad und lau -- ter Gü -- te,
+      Ob sichs an -- ließ, als wollt er nicht, lass dich es nicht er -- schre -- cken; Sein Wort lass dir ge -- wis -- ser sein, und ob dein Herz spräch lau -- ter Nein, so lass doch dir nicht grau -- en.
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      die Werk', die hel -- fen nim -- mer -- mehr, sie mö -- gen nicht be -- hü -- ten. Der Glaub' sieht Je -- sum Chri -- stum an, der hat g'nug für uns all' ge -- than, er ist der Mitt -- ler wor -- den.
+      Denn wo er ist am be -- sten mit, da will ers nicht ent -- de -- cken. Sein Wort lass dir ge -- wis -- ser sein, und ob dein Herz spräch lau -- ter Nein, so lass doch dir nicht grau -- en.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -64,11 +67,12 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  e'4
           b fis' e' e'
           e'8 [fis'] g'4 d'\fermata b
           b8 [a] gis4 cis' fis
-          fis8 [b] ais4 fis\fermata
+          fis8 [b] ais4 fis\fermata }
           gis
           cis' dis'8 [e'] fis'4 b
           b fis'8 [e'] dis'4\fermata e'
@@ -79,11 +83,12 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  e4
           e dis e gis,
           a, b,8 [cis] d4\fermata dis
           e4. dis8 cis [dis] e [fis]
-          dis [b,] fis4 b,\fermata
+          dis [b,] fis4 b,\fermata }
           e8 [dis]
           cis4 b, fis8 [gis] a [fis]
           gis [e] fis4 b,\fermata e8 [fis]
