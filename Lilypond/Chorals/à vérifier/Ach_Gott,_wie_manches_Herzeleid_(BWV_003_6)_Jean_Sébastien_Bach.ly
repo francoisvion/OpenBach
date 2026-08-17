@@ -3,7 +3,8 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Ach Gott, wie manches Herzeleid"
+ title = "Erhalt mein Herz im Glauben rein"
+ subtitle = "tiré de la cantate : Ach Gott, wie manches Herzeleid"
   opus = "BWV 3/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -46,11 +47,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Ach Gott, wie man -- ches Her -- ze -- leid be -- geg -- net mir zu die -- ser Zeit. Der schma -- le Weg ist trüb -- sal -- voll, den ich zum Him -- mel wan -- dern soll.
+    \new Lyrics \lyricsto "soprano" {
+      Er -- halt mein Herz im Glau -- ben rein, so leb und sterb ich dir al -- lein. Je -- su, mein Trost, hör mein Be -- gier, O mein Hei -- land, wär ich bei dir.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
