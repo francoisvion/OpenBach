@@ -4,6 +4,7 @@
 
 \header {
  title = "Befiehl du deine Wege"
+ subtitle = "tiré de la Matthäus-Passion"
   opus = "BWV 244/44"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,11 +21,12 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  fis'4
           b' a' g' fis'
           e'2 fis'4\fermata cis''
           d'' d'' cis''8 [b'] cis''4
-          b'2.\fermata
+          b'2.\fermata }
           d''4
           cis''8 [b'] a'4 b' cis''
           d''2 d''4\fermata a'
@@ -38,11 +40,12 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  d'4
           d' d' d'8 [e'] e' [d']
           d'4 cis' d'\fermata e'
           d'8 [e'] fis'4 fis'4. e'8
-          d'2.\fermata
+          d'2.\fermata }
           fis'4
           e'8 [g'] fis' [e'] d'4 g'
           g' fis'8 [e'] fis'4\fermata fis'
@@ -57,10 +60,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      O Haupt voll Blut und Wun -- den, voll Schmerz und vol -- ler Hohn!
+      Be -- fiehl du dei -- ne We -- ge und was dein Her -- ze kränkt, Der Wol -- ken, Luft und Win -- den gibt We -- ge, Lauf und Bahn, der wird auch We -- ge fin -- den, da dein Fuß ge -- hen kann.
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      O Haupt, zu Spott ge -- bun -- den mit ei -- ner Dor -- nen -- kron! O Haupt, sonst schön ge -- zie -- ret mit höch -- ster Ehr und Zier. jetzt ab -- er hoch schim -- pfi -- ret: ge -- grü -- sset seist du mir!
+      Der al -- ler -- treu -- sten Pfle -- ge des, der den Him -- mel lenkt. Der Wol -- ken, Luft und Win -- den gibt We -- ge, Lauf und Bahn, der wird auch We -- ge fin -- den, da dein Fuß ge -- hen kann.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -70,11 +73,12 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  a4
           g a b8 [a] a4
           b a a\fermata ais
           b b b ais
-          b2.\fermata
+          b2.\fermata }
           b8 [a]
           g [b] d' [cis'] b [a] g [a]
           b4 a8 [g] a4\fermata d'
@@ -88,11 +92,12 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  d4
           g fis b,8 [cis] d4
           g, a, d\fermata cis
           b,8 [cis] d [e] fis4 fis,
-          b,2.\fermata
+          b,2.\fermata }
           b,4
           e fis g8 [fis] e4
           d2 d4\fermata d
