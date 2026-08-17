@@ -4,6 +4,7 @@
 
 \header {
  title = "Herr Christ, der einge Gottessohn"
+ subtitle = "tiré de la cantate : Ihr, die ihr euch von Christo nennet"
   opus = "BWV 164/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,11 +21,12 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  bes'4
           bes'8 [c''] d''4 c'' bes'
           a'2 g'4\fermata d''
           ees'' c'' d'' c''
-          bes'2.\fermata
+          bes'2.\fermata }
           bes'8 [c'']
           d''4 d'' ees'' ees''
           f'' ees''8 [d''] c''4\fermata f''
@@ -35,11 +37,12 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  f'4
           g'8 [a'] bes'4 a' g'
           g' fis' g'\fermata g'
           g' f' f' f'
-          f'2.\fermata
+          f'2.\fermata }
           f'4
           bes' bes'8 [a'] g'4 g'
           f'2 f'4\fermata f'
@@ -51,10 +54,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Herr Christ, der ein' -- ge Gott's Sohn, Va -- ters in E -- wig -- keit,
+      Er töt uns durch dein Gü -- te, er -- weckt uns durch dein Gnad! wohl hier auf die -- ser Er -- den, den Sinn und all Be -- geh -- ren, nur G'dan -- ken habn zu dir.
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      aus sei -- nem Herz'n ent -- spros -- sen, gleich wie ge -- schrie -- ben steht. Er ist der Mor -- gen -- ster -- ne, sein'n Glanz streckt er so fer -- ne, vor an -- dern Ster -- nen klar.
+      Den al -- ten Men -- schen krän -- ke, dass der neu' le -- ben mag wohl hier auf die -- ser Er -- den, den Sinn und all Be -- geh -- ren, nur G'dan -- ken habn zu dir.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -64,11 +67,12 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  d'4
           ees' f' f'8 [ees'] d'4
           ees' d'8 [c'] bes4\fermata bes
           bes a bes bes8 [a]
-          d'2.\fermata
+          d'2.\fermata }
           d'8 [ees']
           f'4 g' g'8 [f'] ees' [d']
           c'4 bes a\fermata c'
@@ -79,11 +83,12 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  bes4
           ees bes, f g
           c d ees\fermata g
           c f8 [ees] d [ees] f4
-          bes,2.\fermata
+          bes,2.\fermata }
           bes,4
           bes8 [a] g [f] ees [d] c [bes,]
           a,4 bes, f,\fermata a,
