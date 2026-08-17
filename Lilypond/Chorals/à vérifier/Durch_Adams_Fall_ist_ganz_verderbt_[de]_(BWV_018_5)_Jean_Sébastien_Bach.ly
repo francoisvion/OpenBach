@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Durch Adams Fall ist ganz verderbt [de]"
+ title = "Ich bitt, o Herr, aus Herzens Grund"
   opus = "BWV 18/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -58,11 +58,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Durch A -- dams Fall ist ganz ver -- derbt mensch -- lich' Na -- tur und We -- sen,
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      das -- selb' Gift ist auf uns ge -- erbt, dass wir nicht konnt'n ge -- ne -- sen ohn' Got -- tes Trost, der uns er -- löst hat von dem gro -- ssen Scha -- den, da -- rin die Schlang' E -- van be -- swang, Gott's Zorn auf sich zu la -- den.
+    \new Lyrics \lyricsto "soprano" {
+      Ich bitt, o Herr, aus Her -- zens Grund, du wollst nicht von mir neh -- men mein Sünd und Schuld, denn in dein Huld setz ich all mein Ver -- trau -- en. Wer sich nur fest da -- rauf ver -- lässt, der wird den Tod nicht schau -- en.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
