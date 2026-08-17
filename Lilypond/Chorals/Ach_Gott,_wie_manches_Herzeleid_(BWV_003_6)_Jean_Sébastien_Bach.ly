@@ -32,6 +32,7 @@
           b' cis'' b' a'
           a' gis' a'\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
           \partial 4  cis'8 [d']
@@ -47,9 +48,14 @@
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
-      Er -- halt mein Herz im Glau -- ben rein, so leb und sterb ich dir al -- lein. Je -- su, mein Trost, hör mein Be -- gier, O mein Hei -- land, wär ich bei dir.
+      Er -- halt mein Herz im Glau -- ben rein,
+      so leb und sterb ich dir al -- lein.
+      Je -- su, mein Trost, hör mein Be -- gier,
+      O mein Hei -- land, wär ich bei dir.
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -69,6 +75,7 @@
           b e8 [fis] gis4 a
           b8 [cis'] d'4 cis'\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
           \partial 4  a4

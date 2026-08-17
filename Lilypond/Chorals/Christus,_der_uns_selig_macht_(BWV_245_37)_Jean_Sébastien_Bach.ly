@@ -3,8 +3,8 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "O hilf, Christe, Gottes Sohn"
- subtitle = "tiré de la Johannes-Passion"
+  title = "Christus, der uns selig macht"
+  subtitle = "tiré de la Passion selon saint Jean"
   opus = "BWV 245/37"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -39,6 +39,7 @@
           aes' ges' f'2~
           f'1\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
           a'4 a' bes' c''
@@ -61,9 +62,18 @@
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
-      O hilf, Chri -- ste, Got -- tes Sohn, durch dein bit -- ter Lei -- den, dass wir der stets un -- ter -- tan all Un -- tu -- gend mei -- den, dei -- nen Tod und sein Ur -- sach fruc -- ht -- bar -- lich be -- den -- ken, da -- für, wie -- wohl arm und schwach, dir Dank -- o -- pfer schen -- ken. _ _ _ _
+      O hilf, Chri -- ste, Got -- tes Sohn,
+      durch dein bit -- ter Lei - den,
+      daß wir der stets un -- ter -- tan
+      all Un -- tu -- gend mei - den,
+      dei -- nen Tod und sein Ur -- sach
+      fruc -- ht -- bar -- lich be -- den -- ken,
+      da -- für, wie -- wohl arm und schwach,
+      dir Dank -- o -- pfer schen - ken. __
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -90,6 +100,7 @@
           des'8 [ces'] bes4 a bes
           a1\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
           f4 f bes aes

@@ -4,7 +4,7 @@
 
 \header {
  title = "Befiehl du deine Wege"
- subtitle = "tiré de la Matthäus-Passion"
+ subtitle = "tiré de la Passion selon saint Matthieu"
   opus = "BWV 244/44"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -38,6 +38,7 @@
           g' fis' e' a'
           fis'2.\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
           \repeat volta 2 {
@@ -59,12 +60,21 @@
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Be -- fiehl du dei -- ne We -- ge und was dein Her -- ze kränkt, Der Wol -- ken, Luft und Win -- den gibt We -- ge, Lauf und Bahn, der wird auch We -- ge fin -- den, da dein Fuß ge -- hen kann.
+      Be -- fiehl du dei -- ne We -- ge
+      und was dein Her -- ze kränkt,
+      der Wol -- ken, Luft und Win -- den
+      gibt We -- ge, Lauf und Bahn,
+      der wird auch We -- ge fin -- den,
+      da dein Fuß ge -- hen kann.
     }
+    
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Der al -- ler -- treu -- sten Pfle -- ge des, der den Him -- mel lenkt. Der Wol -- ken, Luft und Win -- den gibt We -- ge, Lauf und Bahn, der wird auch We -- ge fin -- den, da dein Fuß ge -- hen kann.
+      Der al -- ler -- treu -- sten Pfle -- ge
+      des, der den Him -- mel lenkt. 
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -90,6 +100,7 @@
           g a a a
           a2.\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
           \repeat volta 2 {

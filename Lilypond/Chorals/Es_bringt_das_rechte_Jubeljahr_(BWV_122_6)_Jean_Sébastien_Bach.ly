@@ -3,7 +3,8 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Es bringt das rechte Jubeljahr"
+  title = "Es bringt das rechte Jubeljahr"
+  subtitle = "tiré de la cantate : Das neugeborne Kindelein"
   opus = "BWV 122/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -58,9 +59,14 @@
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
-      Es bringt das rech -- te Ju -- bel -- jahr, _ _ was trau -- ern wir denn im -- mer -- dar? Frisch auf! jetzt ist es Sin -- gens -- zeit, _ _ das Je -- su -- lein wendt al -- les Leid. _ _
+      Es bringt das rech - - te Ju -- bel -- jahr,
+      was trau -- ern wir denn im -- mer -- dar?
+      Frisch auf! jetzt ist __ _ _ es Sin -- gens -- zeit,
+      das Je -- su -- lein __ _ _ wendt al -- les Leid.
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass

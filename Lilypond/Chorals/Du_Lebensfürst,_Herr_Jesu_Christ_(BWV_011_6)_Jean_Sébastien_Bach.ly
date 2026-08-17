@@ -4,6 +4,7 @@
 
 \header {
  title = "Du Lebensfürst, Herr Jesu Christ"
+ subtitle = "tiré de l'oratorio de l'Ascension : Lobet Gott in seinen Reichen"
   opus = "BWV 11/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,6 +21,7 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           d'4 d' e'
           fis'4. gis'8 a'4
           a'2 gis'4
@@ -27,7 +29,7 @@
           g'2 fis'4
           e'2 d'4
           e'2.
-          d'\fermata
+          d'\fermata }
           e'4 e' fis'
           g'2 g'4
           fis'4. e'8 fis'4
@@ -44,8 +46,10 @@
           fis'8 [e'] e'4. d'8
           d'2.\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           a4 d' d'8 [cis']
           d'2 cis'8 [a]
           fis'4 e'2
@@ -53,7 +57,7 @@
           b [cis'] d'2~
           d'8 cis'16 [b] cis'4 d'
           d' cis'8 [b] cis'4
-          a2.\fermata
+          a2.\fermata }
           cis'8 [b] cis'4. dis'8
           e'4 b e'~
           e' dis'8 [cis'] dis'4
@@ -72,9 +76,21 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {
-      Nun lie -- get al -- les un -- ter dir, dich selbst nur aus -- ge -- nom -- men; Die En -- gel müs -- sen für und für dir auf -- zu -- war -- ten kom -- men. Die Für -- sten stehn auch auf der Bahn, und sind dir wil -- lig un -- ter -- than; Luft, Was -- ser, Feu'r und Er -- den muss dir zu Dien -- ste wer -- den.
+    
+    \new Lyrics \lyricsto "soprano" {\set stanza = 1
+      Nun lie -- get al - les un -- ter dir,
+      dich selbst nur aus -- ge -- nom -- men;
+      Die Für -- sten stehn auch auf _ der Bahn,
+      und sind dir wil - lig un -- ter -- than;
+      Luft, Was -- ser, Feu'r und Er -- den
+      muß dir zu Dien -- ste wer - den.
     }
+    
+     \new Lyrics \lyricsto "soprano" {\set stanza = 2
+      Die En -- gel mü - ßen für und für dir
+      auf -- zu -- war -- ten kom -- men.
+    }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -83,6 +99,7 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           fis4 fis8 [d] a4
           a8 [fis] b4 a
           b b8 [cis'] d'4
@@ -94,7 +111,7 @@
           a8 [gis] a4 a
           b8 [a] g2
           c'4 b4. a8
-          g2.\fermata
+          g2.\fermata }
           b4 fis8 [g] a [b]
           g [fis] e4 e'8 [d']
           cis'4. b8 cis'4
@@ -107,8 +124,10 @@
           a [b] a4 g
           fis2.\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           d8 [cis] b,4 a,
           d4. e8 fis4
           d8 [b,] e4 e,
@@ -116,7 +135,7 @@
           e fis4. g8
           a [g] fis4 b8 [a]
           g [e] a4 a,
-          d,2.\fermata
+          d,2.\fermata }
           a,4 a8 [g] fis4
           e4. d8 c [b,]
           a, [fis,] b,4 b,
