@@ -4,6 +4,7 @@
 
 \header {
  title = "Es ist genug"
+ subtitle = "tiré de la cantate : O Ewigkeit, du Donnerwort"
   opus = "BWV 60/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -66,11 +67,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Es ist ge -- nug; so nimm, Herr mei -- nen Geist zu Zi -- ons Gei -- stern hin, lös auf das Band, das all -- ge -- mäch -- lich reisst be -- frei -- e die -- sen Sinn, der sich nach sei -- nem Got -- te seh -- net, der täg -- lich klagt und nächt -- lich thrä -- net. Es ist ge -- nub, es ist ge -- nug.
+    \new Lyrics \lyricsto "soprano" {
+      Es ist ge -- nug, Herr, wenn es dir ge -- fällt, so span -- ne mich doch aus! Mein Je -- su kommt; nun gu -- te Nacht, o Welt! Ich fahr ins Him -- mels -- haus, ich fah -- re sich -- er hin mit Frie -- den, mein gro -- ßer Jam -- mer bleibt da -- nie -- den. Es ist ge -- nug, es ist ge -- nug.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
