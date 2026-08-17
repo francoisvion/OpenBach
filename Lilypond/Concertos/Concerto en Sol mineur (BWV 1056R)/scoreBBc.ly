@@ -1,7 +1,7 @@
-\version "2.18.0"
+\version "2.24.0"
 \language "nederlands"
 scoreBBc = \relative c' {
   \scoreBGlobal
-%   R1\fermataMarkup |
+%   R1\fermata |
   d,,2 d\fermata \bar "|."
 }

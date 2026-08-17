@@ -20,12 +20,12 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  c''4
           c'' b' a' g'
           c'' d'' e''\fermata e''
           e''8 [d''] e''4 e'' d''
-          c''8 [d''] d''4 c''\fermata \fine
-          \partial 4  c''
+          c''8 [d''] d''4 c''\fermata } c''
           c''8 [d''] e''4 d'' e''
           c'' b' a'\fermata a'
           d''8 [c''] b'4 c''8 [b'] a'4
@@ -42,14 +42,15 @@
           d'' c''8 [d''] e''4 d''
           c''2.\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  g'4
           a' g' g'8 [f' e' f']
           g'4 a'8 [g'] g'4\fermata g'
           g'8 [a'] b'4 a'4. g'8
-          g' [a' g' f'] e'4\fermata \fine
-          \partial 4  e'
+          g' [a'] g' [f'] e'4\fermata } e'
           f' c'' g'8 [f'] e'4
           e'2 e'4\fermata e'
           d' d' g'8 [e'] fis'4
@@ -68,14 +69,25 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {
-      Nun lob', mein' Seel', den Her -- ren, was in mir ist, den Na -- men sein,
-      ver -- giß es nicht, o Her -- ze mein!
-      Hat dir dein' Sünd' ver -- ge -- ben und heilt dein' Schwach -- heit groß,
-      rett't dein ar -- mes Le -- ben, nimmt dich in sei -- nen Schoß,
-      mit rech -- tem Trost be -- schüt -- tet, ver -- jüngt dem Ad -- ler gleich.
-      der Kön'g schafft Recht, be -- hü -- tet, die lei -- den in sein'm Reich.
+    
+    \new Lyrics \lyricsto "soprano" {\set stanza = 1
+      Nun lob', mein' Seel', den Her - ren,
+      was in mir ist, den Na -- men sein,
+      hat dir dein Sünd ver -- ge - ben
+      und heilt dein' Schwach -- heit groß,
+      er -- rett' dein ar -- mes Le - ben,
+      nimmt dich in sei -- nen Schoß,
+      mit rei -- chem Trost be -- schüt - tet,
+      ver -- jüngt dem Ad -- ler gleich,
+      der Kön'g schafft recht, be -- hü - tet,
+      die leid'n in sei - - nem Reich.
     }
+    
+    \new Lyrics \lyricsto "soprano" {\set stanza = 2
+      sein' Wohl -- that thut er meh - ren,
+      Ver -- giss es nicht, o Her -- ze mein,
+    }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -84,12 +96,12 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  e'4
           e' e'8 [d'] c'4 c'
           c'4. b8 c'4\fermata c'8 [d']
-          e' [f' e' d'] c'4. b8
-          c'4 b g\fermata \fine
-          \partial 4  g
+          e' [f'] e' [d'] c'4. b8
+          c'4 b g\fermata } g
           a g8 [a] b4 b
           b8 a4 gis8 c'4\fermata c'8 [b]
           a4 g g d'8 [c']
@@ -98,22 +110,22 @@
           a\fermata c' d'8 [e'] f'4
           g' cis' a\fermata b
           c' c' d' d'
-          e'8 [d' c' bes] a4\fermata c'8 [b]
+          e'8 [d'] c' [bes] a4\fermata c'8 [b]
            a4 d' g d'8 [c']
           b4\fermata b e8 [fis] g4
           d' d'8 [c'] c' [b] c'4
-          b\fermata e'8 [d'] c' [d' e' f']
-          g' [f' e' f'] g'4. f'8
+          b\fermata e'8 [d'] c' [d'] e' [f']
+          g' [f'] e' [f'] g'4. f'8
           e'2.\fermata \fine
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  c'8 [b]
           a4 e f c8 [d]
           e4 f8 [g] c4\fermata c
-          c' gis a8 [g f g]
-          e [f] g4 c\fermata \fine
-          \partial 4  c
+          c' gis a8 [g] f [g]
+          e [f] g4 c\fermata } c
           f e8 [f] g4 gis
           a e a,\fermata a8 [g]
           fis4 g8 [fis] e [c] d4
@@ -121,7 +133,7 @@
           f [d] g4 c4. d16 [e]
           f4\fermata e d d'
           g8 [bes] a4 d\fermata g
-          c'8 [b a g] f [e] d4
+          c'8 [b] a [g] f [e] d4
           c d8 [e] f4\fermata c'
            fis g e8 [c] d4
           g,\fermata g, a, b,8 [c]

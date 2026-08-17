@@ -1,5 +1,4 @@
-\version "2.18.2"
-
+\version "2.24.0"
 \include "header.ly"
 \include "flute.ly"
 \include "violinP.ly"
@@ -8,13 +7,10 @@
 \include "cello.ly"
 \include "violone.ly"
 \include "harpsichord.ly"
-
 #(set-global-staff-size 13)
-
 \paper {
   ragged-last-bottom = ##f
 }
-
 \score {
   <<
     \new GrandStaff <<
@@ -27,7 +23,6 @@
         midiInstrument = "violin"
       } \violinP
     >>
-
     \new GrandStaff <<
       \new Staff \with {
         instrumentName = \markup \smaller \center-column { "Violino" "di ripieno." }
@@ -48,7 +43,6 @@
     >>
     \harpsichordStaff
   >>
-
   \layout {}
   \midi { \tempo 4 = 120 }
 }

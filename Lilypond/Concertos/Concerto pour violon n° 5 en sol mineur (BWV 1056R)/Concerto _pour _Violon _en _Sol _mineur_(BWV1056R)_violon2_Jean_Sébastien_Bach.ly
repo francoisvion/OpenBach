@@ -1,7 +1,5 @@
 \version "2.24.4"
-
 \include "violine2.ily"
-
 instrument = "Violon II"
 \include "header.ily"
 \header {piece = "Largo"}

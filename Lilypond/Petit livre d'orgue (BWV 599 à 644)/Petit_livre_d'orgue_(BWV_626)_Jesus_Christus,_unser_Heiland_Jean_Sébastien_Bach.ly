@@ -1,6 +1,14 @@
-\version "2.24.4"
+\version "2.27.0"
 
 \language "deutsch"
+
+#(set-global-staff-size 18)
+
+\paper {
+  #(set-paper-size "a4landscape")
+   ragged-bottom = ##f
+   ragged-last-bottom = ##t
+}
 
 \header {
  title = "Jesus Christus, unser Heiland"
@@ -18,14 +26,6 @@ global = {
    #(set-accidental-style 'default)
    \override Score.MetronomeMark #'transparent = ##t
 }
-
-\paper {
-   ragged-bottom = ##f
-   ragged-last-bottom = ##f
-}
-
-#(set-default-paper-size "a4" 'landscape)
-#(set-global-staff-size 18)
 
 halsup        = { \stemUp \tieUp \slurUp }
 halsdown      = { \stemDown \tieDown \slurDown }
@@ -171,7 +171,7 @@ pedal = {
    \midi {
       \context {
          \Score
-         tempoWholesPerMinute = #144/8
+         tempoWholesPerMinuteAsMoment = #144/8
       }
    }
 }

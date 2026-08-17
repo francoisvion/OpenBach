@@ -4,7 +4,7 @@
 
 \include "notes.ly"
 
-#(set-global-staff-size 14)
+#(set-global-staff-size 18)
 
 \score {
 	\keepWithTag #'score \music

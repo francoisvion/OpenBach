@@ -1,8 +1,6 @@
-\version "2.16.0"
-%Violin 1, 2nd movement
-
+\version "2.24.0"
 violinBC =  \relative c' {
-    gis'2.-"sempre piano" ~ | % want \p instead of "piano"
+    gis'2.-"sempre piano" ~ |
     gis |
     gis |
     fis |
@@ -24,7 +22,6 @@ violinBC =  \relative c' {
     fis r8 bis,16 dis cis8 fis, |
     gis4 r8 cis16(  e) dis( cis bis  cis) |
     gis'2^\fermata r4 |
-
     e8( e e e e  e) |
     e( e e e e  e) |
     dis4 ~ dis16 fisis fisis(  gis) gis4 ~ |

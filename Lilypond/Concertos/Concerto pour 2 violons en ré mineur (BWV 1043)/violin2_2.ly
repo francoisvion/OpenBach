@@ -1,8 +1,5 @@
-\version "2.16.0"
-%Violin 2, 2nd movement
-
+\version "2.24.0"
 violinCC =  \relative c' {
-
     f4 r8 bes,4 r8 f'4 r8 d4 r8 |
     g4 c8 d4 c8 c4 a8 a4 g8 |
     g4 r8 f4 r8 c'4 r8 a4 r8 |
@@ -55,4 +52,3 @@ violinCC =  \relative c' {
     f4. r4. r2. |
     \bar "|."
 }
-

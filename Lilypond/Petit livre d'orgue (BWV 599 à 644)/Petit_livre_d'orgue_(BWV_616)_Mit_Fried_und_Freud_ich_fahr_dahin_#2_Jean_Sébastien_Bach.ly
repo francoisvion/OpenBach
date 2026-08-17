@@ -1,6 +1,14 @@
-\version "2.24.4"
+\version "2.27.0"
 
-\include "deutsch.ly"
+\language "deutsch"
+
+#(set-global-staff-size 18)
+
+\paper {
+  #(set-paper-size "a4landscape")
+   ragged-bottom = ##f
+   ragged-last-bottom = ##t
+}
 
 \header {
   title = "Mit Fried und Freud ich fahr dahin"
@@ -10,39 +18,22 @@
   tagline = ##f
 }
 
-
-
 global = {
    \key a \minor
    \time 4/4
    #(set-accidental-style 'default)
-    \override Score.MetronomeMark #'transparent = ##t
-    #(revert-auto-beam-setting '(end 1 32 4 4) 1 8)
-    #(revert-auto-beam-setting '(end 1 32 4 4) 3 8)
-    #(revert-auto-beam-setting '(end 1 32 4 4) 5 8)
-    #(revert-auto-beam-setting '(end 1 32 4 4) 7 8)
+   \override Score.MetronomeMark.transparent = ##t
 }
-
-#(set-default-paper-size "a4" 'landscape)
-#(set-global-staff-size 18)
-
-\paper {
-   ragged-bottom = ##f
-   ragged-last-bottom = ##f
-}
-
-#(set-default-paper-size "a4" 'landscape)
-#(set-global-staff-size 18)
 
 halsup        = { \stemUp \tieUp }
 halsdown      = { \stemDown \tieDown }
 halsneutral   = { \stemNeutral \tieNeutral }
-mmrestdown    = { \once \override MultiMeasureRest #'staff-position = #-2 }
-mmrestdownn   = { \once \override MultiMeasureRest #'staff-position = #-4 }
-mmrestup      = { \once \override MultiMeasureRest #'staff-position = #4 }
-mmrestupp     = { \once \override MultiMeasureRest #'staff-position = #6 }
-shifttiedown  = { \once \override Tie #'extra-offset = #'( 0 . -0.5 ) }
-shifttieup    = { \once \override Tie #'extra-offset = #'( 0 . 0.5 ) }
+mmrestdown    = { \once \override MultiMeasureRest.staff-position = #-2 }
+mmrestdownn   = { \once \override MultiMeasureRest.staff-position = #-4 }
+mmrestup      = { \once \override MultiMeasureRest.staff-position = #4 }
+mmrestupp     = { \once \override MultiMeasureRest.staff-position = #6 }
+shifttiedown  = { \once \override Tie.extra-offset = #'( 0 . -0.5 ) }
+shifttieup    = { \once \override Tie.extra-offset = #'( 0 . 0.5 ) }
 staffup       = { \change Staff = "right" \halsdown }
 staffdown     = { \change Staff = "left" \halsup }
 
@@ -65,9 +56,9 @@ sopran = {
       \shifttieup a4~ a16 b32 c d16 e32 f g,4 g
       a2\fermata g
       f4 d8.\prallprall c!32 d c4 f
-      e8 d e4 \override Tie #'extra-offset = #'( 0 . 1.2 ) d2~
+      e8 d e4 \override Tie.extra-offset = #'( 0 . 1.2 ) d2~
       %% Takt 15 ==================================================
-      d2~ d4~ d16 \tempo 4=22 d32 cis \tempo 4=8 \override Script #'padding = #0.5 d8_\fermata \bar "|."
+      d2~ d4~ d16 \tempo 4=22 d32 cis \tempo 4=8 \override Script.padding = #0.5 d8_\fermata \bar "|."
    }
 }
 
@@ -93,8 +84,9 @@ alt = {
       cis8 \staffup d~ d16 cis32 h cis8 d16 c32 b c16 \staffdown b32 a b16 a32 g a16 g32 fis
       %% Takt 15 ==================================================
       <<
-         \new Voice { \stemUp f'4\rest b, \override Stem #'details #'beamed-lengths = #'( 4.5 ) a8. a32 g a4 }
-         \new Voice { \stemUp \tieDown \shiftOn g2~ g16[ fis32 e \shifttiedown fis8~] fis4 }
+         { \stemUp r4 b \override Stem.details.beamed-lengths = #'( 4.5 ) a8. a32 g a4 }
+         \\
+         { \stemUp \tieDown \shiftOn g2~ g16[ fis32 e \shifttiedown fis8~] fis4 }
       >>
     }
 }
@@ -160,7 +152,7 @@ pedal = {
    }
 }
 
-
+% --- Partition d'affichage ---
 \score {
    <<
       \new PianoStaff {
@@ -177,18 +169,20 @@ pedal = {
          \context Voice = pedal \pedal
       }
    >>
-
    \layout{
       indent = 1\cm
       \context {
-         \PianoStaff \override VerticalAxisGroup #'minimum-Y-extent = #'(-3 . 4)
+         \PianoStaff
+         \override VerticalAxisGroup.staff-staff-spacing.basic-distance = #11
       }
       \context {
-         \Staff      \override VerticalAxisGroup #'minimum-Y-extent = #'(-3 . 3)
+         \Staff
+         \override VerticalAxisGroup.staff-staff-spacing.basic-distance = #9
       }
    }
 }
 
+% --- Génération du fichier MIDI ---
 \score {
    \unfoldRepeats {
       <<
@@ -215,9 +209,14 @@ pedal = {
       >>
    }
    \midi {
-      \context {
-         \Score
-         tempoWholesPerMinute = #(ly:make-moment 48 4)
-      }
+      \tempo 4 = 48
    }
 }
+
+%{
+convert-ly (GNU LilyPond) 2.27.0  convert-ly: Processing `'...
+Applying conversion: 2.25.0, 2.25.1, 2.25.2, 2.25.3, 2.25.4, 2.25.5,
+2.25.6, 2.25.8, 2.25.9, 2.25.11, 2.25.12, 2.25.13, 2.25.18, 2.25.22,
+2.25.23, 2.25.24, 2.25.25, 2.25.26, 2.25.28, 2.25.30, 2.25.31,
+2.25.32, 2.25.33, 2.25.34, 2.25.35, 2.25.80, 2.26.0, 2.27.0
+%}

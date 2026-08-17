@@ -1,8 +1,5 @@
-\version "2.16.0"
-%Solo Violin 2, 1st movement
-
+\version "2.24.0"
 soloViolinCB =  \relative c' {
-    
     d16 e f g a8 d cis a e g |
     fis d c'!4. b16 a b8 g |
     e g bes! d, cis a' d, g |
@@ -11,7 +8,6 @@ soloViolinCB =  \relative c' {
     e16 d cis b cis a b cis d2 ~ |
     d16 c! b c d e f d e f e d c b! a gis |
     a8 a'4 gis8 a a,16 gis a b c a |
-    %9
     b a b c b cis d b cis! b cis d cis d e cis |
     d8 a' r f e16 d cis b cis a b cis |
     d2 ~ d16 c! d e d f! e d |
@@ -20,7 +16,6 @@ soloViolinCB =  \relative c' {
     a16 b cis d e8 g fis d a c |
     b g f'!4. e16 d e8 c |
     a c es g, fis d' g, c |
-    %17
     bes!4 a g r8 e |
     a2 ~ a16 gis a b cis d e cis |
     d bes! a g a fis g a d,8 g d'4 ~ |
@@ -30,7 +25,6 @@ soloViolinCB =  \relative c' {
     r1 |
     r1 |
     r2 r4 r16 g,-"solo" f e |
-    %26
     f8 a' e, g' d,16 g' f e d c bes a |
     bes8 d' a, c' g,16 c' bes a g f e d |
     e bes' a g a e d cis d a' g f g d cis! b |
@@ -40,7 +34,6 @@ soloViolinCB =  \relative c' {
     f16 g f e d c b a g a' g f e d cis b |
     a8  a'[-. bes!-. f-.] g-. bes-. c-. g-. |
     a16 c d e f g a f b, f' a8 ~ a16 f d b |
-    %35
     gis' b, c d e fis g e a, e' g8 ~ g16 e cis a |
     f'8  d[ a a'] ~ a e16 c a4 ~ |
     a8  f[ d d'] ~ d b16 gis e d c b |
@@ -52,7 +45,6 @@ soloViolinCB =  \relative c' {
     a16 f d f g e cis e f8 d f'4 ~ |
     f16 d, c b c8 e' ~ e16 c, b e b8 d' ~ |
     d16 b, a gis a8 a' ~ a16 c b a b d c b |
-    %46
     c-"tutti" b a b c b c d e2 ~ |
     e16 d cis b cis a b cis d2 ~ |
     d16 c! b c d e f d e f e d c b a gis |
@@ -64,7 +56,6 @@ soloViolinCB =  \relative c' {
     d^"tutti" g, c4 ~ c8 a d, c' |
     bes16 a g a bes a bes c d2 ~ |
     d16 c b a b g a b c2 ~ |
-    %57
     c16 bes a bes c d es c d es d c bes a g fis |
     g8 g'4 fis8 g4 r16 es,-"solo" d c |
     bes8 g' c, a' bes, g' a, fis' |
@@ -85,7 +76,6 @@ soloViolinCB =  \relative c' {
     e a,16 bes c8 a ~ a16 g fis e d4 ~ |
     d16 g bes d g d bes g d( f  a) d f d a f |
     d( e  g) bes e bes g d cis( e  g) a e'8 r |
-    %77
     r1 |
     r1 |
     r1 |

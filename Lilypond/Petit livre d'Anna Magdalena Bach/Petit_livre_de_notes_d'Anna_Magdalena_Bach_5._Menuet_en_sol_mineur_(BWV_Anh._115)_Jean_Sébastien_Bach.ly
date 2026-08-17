@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title = "5. Menuet en sol mineur"
   subtitle = "Petit Livre de notes d'Anna Magdalena Bach"
@@ -8,12 +7,10 @@
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
 voiceone =  \relative c''' {
   \key g \minor
   \time 3/4
   \clef "treble"
-
   \repeat "volta" 2 {
     bes4 a g |
     a d, d |
@@ -30,11 +27,11 @@ voiceone =  \relative c''' {
     f4\mordent  g8[ f ees d] |
     ees4  f8[ ees d c] |
     d4 g c,\prall |
-    << { \stemUp bes2. \stemNeutral } 
+    << { \stemUp bes2. \stemNeutral }
       { \context Voice = "ii" { << \stemDown { <f d>2. } >> } }
     >> |
   }
-  \repeat "volta" 2 { 
+  \repeat "volta" 2 {
     d'4  bes8[ c d e!] |
     f4 g a |
     bes  g8[ a bes g] |
@@ -51,16 +48,14 @@ voiceone =  \relative c''' {
     c4 bes a |
      bes8[\prall c16 d] g,4 fis |
     << { \stemUp g2. \stemNeutral }
-       { \context Voice = "ii" { << \stemDown { <d bes>2. } >> } } 
+       { \context Voice = "ii" { << \stemDown { <d bes>2. } >> } }
     >> |
   }
 }
-
 voicetwo =  \relative c' {
   \clef "bass"
   \time 3/4
   \key g \minor
-
   \repeat "volta" 2 {
     g2. |
     f |
@@ -98,20 +93,16 @@ voicetwo =  \relative c' {
     g g,2 |
   }
 }
- 
-    
 \score {
-   \context GrandStaff << 
+   \context GrandStaff <<
     \context Staff = "one" <<
       \voiceone
     >>
     \context Staff = "two" <<
       \voicetwo
-    >>  
+    >>
   >>
-
   \layout{  }
-  
   \midi {
     \tempo 4 = 140
     }

@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title = "Praeludium 16 - BWV 861"
   composer = "Jean Sébastien Bach (1685-1750)"
@@ -7,9 +6,7 @@
   version = "2.6.0"
   tagline = ##f
 }
-
 \score {
-
  \context GrandStaff
  <<
  \context Staff = "up" {
@@ -40,7 +37,6 @@
  bes8[ b] c'[ b] c'2 ~ c'4 ~ c'16[ d'32 ees' d' ees' c'16] ~ c'16[ c'32 b a b c'16] b4^\trill } >>
  \bar "|."
 }
-
  \context Staff = "down" {
  \clef bass
  \key g \minor
@@ -60,13 +56,10 @@
  \bar "|."
 }
 >>
-
  \layout {
    \context {
    \Staff \override VerticalAxisGroup #'minimum-Y-extent = #'( -6 . 6 )
    }
  }
-
  \midi { \tempo 8 = 54 }
-
 }

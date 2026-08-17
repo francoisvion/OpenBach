@@ -24,21 +24,22 @@
           a'8 [b'] c''4 b' e''
           d'' c'' b'\fermata c''8 [b']
           a'4 e'' d'' e''
-           a'8 [b'] cis''4 d''\fermata c''
+          a'8 [b'] cis''4 d''\fermata c''
           b' e'' d'' c''
           b'2.\fermata a'8 [b']
           c''4 c'' d'' d''
-           e'' e'' c''\fermata e''
+          e'' e'' c''\fermata e''
           d'' c'' b' a'8 [b']
           c''4 b' a'\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
           \partial 4  e'4
           e'4. a'8 a' [gis'] g'4
           f' fis' b\fermata e'
           f' g' g' g'
-           f' e' f'\fermata e'
+          f' e' f'\fermata e'
           e' e'8 [fis'] gis'4 a'
           gis'2.\fermata a'8 [gis']
           a'4 a'8 [g'] f'4 bes'
@@ -48,13 +49,19 @@
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
-      Wa -- rum be -- trübst du dich, mein Herz, be -- küm -- merst dich und trä -- gest Schmerz nur um das zeit -- lich Gut? Ver -- trau du dei -- nem Her -- ren Gott, der al -- ler Ding er -- schaf -- fen hat.
+      Wa -- rum be -- trübst du dich, mein Herz,
+      be -- küm -- merst dich und trä -- gest Schmerz
+      nur um das zeit -- lich Gut?
+      Ver -- trau du dei -- nem Her -- ren Gott,
+      der al -- ler Ding er -- schaf -- fen hat.
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key c \major
+      \key a \minor
       \time 4/4
       <<
         \new Voice = "tenor" {
@@ -71,6 +78,7 @@
           g'8 [f'] e'4 d' c'8 [d']
           e'4. d'8 cis'4\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
           \partial 4  a8 [b]

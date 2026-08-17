@@ -1,6 +1,8 @@
-\version "2.24.4"
+\version "2.27.0"
 
-\include "italiano.ly" 
+\language "italiano" 
+
+\paper {#(set-paper-size "a4landscape")}
 
 \header{
   title = "In dulci jubilo"
@@ -10,7 +12,6 @@
   tagline = ##f
 }
 
-#(set-default-paper-size "a4" 'landscape)
 #(set-global-staff-size 18)
 
 halsup = {
@@ -35,7 +36,7 @@ global = {
   \key la \major
   \time 3/2
   \override TupletBracket #'bracket-visibility = ##f 
-  \set tupletSpannerDuration = #(ly:make-moment 1 4)
+  \set tupletSpannerDuration = #1/4
 }
 
 choral =  \relative do'' {

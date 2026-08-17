@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title = "Fugue 1"
   subtitle = "Le clavier bien tempéré - Livre 2"
@@ -8,7 +7,6 @@
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ""
 }
-
 dux =  \relative g' \context Voice = "dux" {
 	\stemUp
 	r8 g16 f g8 c, |
@@ -109,7 +107,6 @@ dux =  \relative g' \context Voice = "dux" {
 	e b e e |
 	d r d r |
 	s2 \bar "|."
-												 
 	}
 comes =  \relative c'' \context Voice = "comes" {
 	\stemDown
@@ -201,7 +198,6 @@ comes =  \relative c'' \context Voice = "comes" {
 	d, c' f, b |
 	<c, e g c>2 \bar "|."
 	}
-
 bassdux =  \relative g \context Voice = "bassdux" {
 	\stemDown
 	s2 |
@@ -217,7 +213,7 @@ bassdux =  \relative g \context Voice = "bassdux" {
 	a'4\mordent g |
 	r8 f16 e f g e f |
 	d f e f g a f g |
-	e d e f e f d e | 
+	e d e f e f d e |
 	f e f g f g e f |
 	d cis d e fis g e fis |
 	g fis g a g a f g |
@@ -281,7 +277,6 @@ bassdux =  \relative g \context Voice = "bassdux" {
 	<f, a'>8 r8 <g g'> r8 |
 	c,2 \bar "|."
 	}
-
 \score {
 	\context PianoStaff  <<
 		\context Staff = "treble" << \time 2/4 \clef violin

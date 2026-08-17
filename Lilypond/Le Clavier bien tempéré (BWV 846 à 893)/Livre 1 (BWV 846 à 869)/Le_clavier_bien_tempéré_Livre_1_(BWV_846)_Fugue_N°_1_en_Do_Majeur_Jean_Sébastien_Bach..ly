@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title = "Fugue 1"
   subtitle = "Le clavier bien tempéré - Livre 1"
@@ -7,13 +6,10 @@
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ""
 }
-
 \paper {
   top-margin = 10
 }
-
 global = { \time 4/4 \key c \major }
-
 tenor = \relative c' {
   \voiceTwo
 	r8 c d e f8. g32 f e8 a |
@@ -50,7 +46,6 @@ tenor = \relative c' {
 	a4 r16 f'[ d8] e2 |
   \bar "|."
 }
-
 soprane = \relative c' {
   \voiceOne
 	r1 |
@@ -86,7 +81,6 @@ soprane = \relative c' {
 	c2 r16 g32[a b!16 c] d[e f8] ~ |
 	f32[c d e f16 g] a8. b16 <g c>2^\fermata
 }
-
 alt = \relative c {
   \voiceOne
 	r1 |
@@ -122,7 +116,6 @@ alt = \relative c {
 	a e f g a b! c a b2 |
 	c1
 }
-
 bass = \relative c {
   \voiceTwo
 	r1 |
@@ -158,7 +151,6 @@ bass = \relative c {
 	c ~ |
 	c_\fermata
 }
-
 \score {
   \new PianoStaff <<
     \new Staff <<
@@ -173,16 +165,12 @@ bass = \relative c {
       \new Voice = "bass" { \bass }
     >>
   >>
-
   \midi {
     \tempo 4 = 66
   }
-
   \layout {
     \context {
       \Score
-      % Without this tweak many systems (e.g., bar 3) are spread
-      % across the width of the page.
       \override SpacingSpanner
       #'common-shortest-duration = #(ly:make-moment 1 8)
     }

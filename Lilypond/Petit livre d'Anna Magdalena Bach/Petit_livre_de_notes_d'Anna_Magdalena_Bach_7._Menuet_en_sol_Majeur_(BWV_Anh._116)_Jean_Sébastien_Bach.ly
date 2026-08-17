@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title = "7. Menuet en Sol Majeur"
   subtitle = "Petit Livre de notes d'Anna Magdalena Bach"
@@ -7,12 +6,10 @@
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
-voiceone =  \relative c'' { 
+voiceone =  \relative c'' {
   \key g \major
   \time 3/4
   \clef "treble"
-
   \repeat "volta" 2 {
      g8[ b d g a, fis'] |
     g4 g, g |
@@ -58,12 +55,10 @@ voiceone =  \relative c'' {
     g2.
   }
 }
-
 voicetwo =  \relative c' {
   \clef "bass"
   \time 3/4
   \key g \major
-
   \repeat "volta" 2 {
     g2 d4 |
      g,8[ b d g d b] |
@@ -109,9 +104,8 @@ voicetwo =  \relative c' {
     g d g, |
   }
 }
-
 \score {
-   \context GrandStaff << 
+   \context GrandStaff <<
     \context Staff = "one" <<
       \voiceone
     >>
@@ -119,9 +113,7 @@ voicetwo =  \relative c' {
       \voicetwo
     >>
   >>
-
   \layout{}
-  
   \midi {
     \tempo 4 = 125
     }

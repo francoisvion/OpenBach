@@ -1,41 +1,35 @@
-\version "2.24.4"
+\version "2.27.1"
+
+\language "deutsch"
 
 \header {
 
  title = "Komm, heiliger Geist, Herre Gott"
- subtitle = \markup { \center-align { \normalsize "(Alio modo)" \large "a 2 Clav. e Pedale" } }
+ subtitle = "(Alio modo)à 2 claviers et pédalier"
  composer = "Jean Sébastien Bach (1685-1750)"
  opus="BWV 652"
-  tagline = ##f
+ tagline = ##f
 }
-
-\include "deutsch.ly"
 
 global = {
    \key g \major
    \time 3/4
    #(set-accidental-style 'default)
-   \override Score.MetronomeMark #'transparent = ##t
+   \override Score.MetronomeMark.transparent = ##t
 }
 
 \paper {
-   ragged-bottom = ##f
-   ragged-last-bottom = ##f
+ #(set-paper-size "a4landscape")
+  ragged-bottom = ##f
+  ragged-last-bottom = ##f
 }
 
-#(set-default-paper-size "a4" 'landscape)
 #(set-global-staff-size 18)
-#(define set-script-property (lambda (script property value)
-   (append! (cdr (assoc script default-script-alist))
-      (list (cons property value)))))
-#(set-script-property "mordent" 'avoid-slur 'outside)
-#(set-script-property "prall" 'avoid-slur 'outside)
-#(set-script-property "prallprall" 'avoid-slur 'outside)
 
 halsup            = { \stemUp \tieUp \slurUp }
 halsdown          = { \stemDown \tieDown \slurDown }
-shiftscriptright  = { \once \override Script #'extra-offset = #'( 0.5 . 0 ) }
-tsdown            = { \once \override TextScript #'extra-offset = #'(0 . -0.8) }
+shiftscriptright = { \once \override Script.extra-offset = #'(0.5 . 0) } % (Valide si pas de guillemet simple devant la propriété)
+tsdown            = { \once \offset Y-offset -0.8 TextScript }
 
 sopran = {
    \new Voice \relative d'' {
@@ -76,7 +70,7 @@ sopran = {
       d2 r4
       R2.*19
       %% Takt 85 ==================================================
-      d4 \compressMusic #'( 5 . 6 ) g8. \set stemLeftBeamCount = #1 \set stemRightBeamCount = #3 a32 \set stemLeftBeamCount = #3 g a a4\prallmordent
+      d4 \scaleDurations 5/6 g8. \set stemLeftBeamCount = #1 \set stemRightBeamCount = #3 a32 \set stemLeftBeamCount = #3 g a a4\prallmordent
       h4. c8 d4~
       d8. f32 e \appoggiatura d8 c2~
       c8 h a4.\prallprall g16 a
@@ -147,7 +141,7 @@ sopran = {
       e16 g a h c e, f g c, h' a h32 g
       fis!16 a h c d fis, g a d, c' h c32 a
       h16 d e fis g h, c d g, h a h32 g
-      \once \override Tie #'staff-position = #2 c2.~\mordent c4~ c16 d, e fis g a h c
+      \once \override Tie.staff-position = #2 c2.~\mordent c4~ c16 d, e fis g a h c
       %% Takt 195 =================================================
       d16 c d e a,4.\prallprall g16 a
       g2.~
@@ -162,10 +156,10 @@ alt = {
       \global
       \halsup
       \partial 4 h4\rest
-      \once \override MultiMeasureRest #'staff-position = #6 R2.
-      \once \override MultiMeasureRest #'staff-position = #4 R2.
-      \once \override MultiMeasureRest #'staff-position = #4 R2.
-      \once \override MultiMeasureRest #'staff-position = #4 R2.
+      \once \override MultiMeasureRest.staff-position = #6 R2.
+      \once \override MultiMeasureRest.staff-position = #4 R2.
+      \once \override MultiMeasureRest.staff-position = #4 R2.
+      \once \override MultiMeasureRest.staff-position = #4 R2.
       %% Takt  5 ==================================================
       h4\rest h\rest g
       h4 a4.\downprall g8
@@ -248,7 +242,7 @@ alt = {
       dis8 e fis4. g8
       a4. h8 g4
       fis4 e2~
-      e4 \once \override Tie #'staff-position = #3.2 d2~
+      e4 \once \override Tie.staff-position = #3.2 d2~
       d4. cis8 d e
       %% Takt 75 ==================================================
       a,4 d e
@@ -387,7 +381,7 @@ alt = {
       c8 cis d e d c
       d4 \clef "treble" fis'16\rest d e fis g4~
       g4 fis16\rest g, a h c4
-      a4 \clef "alto" g16\rest a, h c \once \override Tie #'staff-position = #2 d4~
+      a4 \clef "alto" g16\rest a, h c \once \override Tie.staff-position = #2 d4~
       %% Takt 190 =================================================
       d4 h'16\rest d, e fis g4~
       g4 h16\rest g a h c4
@@ -410,7 +404,7 @@ altzwei = {
       s2.*186
       s2 h8\rest \stemUp h
       \shiftOn c4 e,\rest e8\rest e
-      fis4 \clef "alto" f,\rest f8\rest \once \override Stem #'length = #6.3 fis
+      fis4 \clef "alto" f,\rest f8\rest \once \override Stem.length = #6.3 fis
       %% Takt 190 =================================================
       g4 a\rest c8\rest h
       c4 a\rest c8\rest e
@@ -423,7 +417,7 @@ tenor = {
       \global
       \halsdown
       \partial 4 d4
-      e4 \once \override Script #'extra-offset = #'(0 . 1.3) d4.\downprall c8
+      e4 \once \override Script.extra-offset = #'(0 . 1.3) d4.\downprall c8
       h4.\downprall c8 d4
       a2.
       h8. cis16 cis4.\prallprall h16 cis
@@ -694,7 +688,7 @@ pedal = {
       %% Takt 15 ==================================================
       g8 d' g f e d
       c4. h8 a4
-      g4 \once \override Tie #'staff-position = #4 g'2~
+      g4 \once \override Tie.staff-position = #4 g'2~
       g4 fis2
       g4 e a,
       %% Takt 20 ==================================================
@@ -722,8 +716,8 @@ pedal = {
       g8 h, c h c d
       g,8 a h g c d
       %% Takt 40 ==================================================
-      e8 c \once \override Tie #'staff-position = #4 g'2~
-      \once \override Tie #'staff-position = #4 g2.~
+      e8 c \once \override Tie.staff-position = #4 g'2~
+      \once \override Tie.staff-position = #4 g2.~
       g4 r r
       R2.
       R2.
@@ -866,25 +860,34 @@ pedal = {
 
 
 \score {
-   <<
-      \new PianoStaff {
-         <<
-            \context Staff = right {
-               \context Voice = right \right
-            }
-            \context Staff = left {
-               \context Voice = left \left
-            }
-         >>
+  <<
+    \new PianoStaff \with {
+      instrumentName = #"Claviers "
+      shortInstrumentName = #"Cl. "
+    } <<
+      \new Staff = "right" {
+        \context Voice = "right" \right
       }
-      \context Staff = pedal {
-         \context Voice = pedal \pedal
+      \new Staff = "left" {
+        \context Voice = "left" \left
       }
-   >>
-
-   \layout{
-      indent = 1.0\cm
-   }
+    >>
+    \new Staff = "pedal" \with {
+      instrumentName = #"Pédalier "
+      shortInstrumentName = #"Péd. "
+    } {
+      \context Voice = "pedal" \pedal
+    }
+  >>
+  
+  \layout {
+    indent = 1.5\cm
+    short-indent = 0.8\cm
+    \context {
+      \Score
+      \override Script.avoid-slur = #'outside
+    }
+  }
 }
 
 \score {
@@ -925,9 +928,6 @@ pedal = {
       >>
    }
    \midi {
-      \context {
-         \Score
-         tempoWholesPerMinute = #(ly:make-moment 72 4)
-      }
-   }
+  \tempo 4 = 72
+}
 }

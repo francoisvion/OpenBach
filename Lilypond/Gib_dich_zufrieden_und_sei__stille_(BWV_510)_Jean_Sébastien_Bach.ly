@@ -1,30 +1,23 @@
 \version "2.24.4"
-
 \include "english.ly"
-
 \header {
   title = "Gib dich zufrieden und sei stille"
   opus = "BWV 510"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
-
 upper = \relative c'
 {
-  \clef treble 
+  \clef treble
   \key f \major
-
-  % The source has a single-digit time signature of "3", which seems obviously wrong.
   \time 2/2
-
   \repeat volta 2
   {
     \partial 2 f2	|
     a2 bf		|
     c a			|
     d c			|
-    bf1			|       
+    bf1			|
     <<a\fermata f c>>	|
     f'2 e		|
     d  c		|
@@ -32,7 +25,6 @@ upper = \relative c'
     d1		        |
     <<c g e>>		|
   }
-  
   \repeat volta 2
   {
     \partial 2 d'2	|
@@ -50,13 +42,11 @@ upper = \relative c'
     g2 <<f c>>	        |
   }
 }
-
 lower = \relative f
 {
   \clef bass
   \key f \major
   \time 2/2
-  
   \repeat volta 2
   {
     \partial 2 s2	|
@@ -67,12 +57,11 @@ lower = \relative f
     <<f1 f,>>		|
     a'2 g		|
     f1 ~		|
-    f2		        % Strange mark here in the source. Don't know what it is.
-    e4 f		| 
+    f2
+    e4 f		|
     g2 g,		|
-    <<c1 c,>>		% Bar check fails here. Maybe a lilypond bug?
+    <<c1 c,>>
   }
-  
   \repeat volta 2
   {
     \partial 2 bf''2	|
@@ -90,19 +79,17 @@ lower = \relative f
     c4 c, <<f2 f'>>	|
   }
 }
-
-\score 
+\score
 {
-  \new PianoStaff 
+  \new PianoStaff
   <<
     \new Staff = "upper" \upper
     \new Staff = "lower" \lower
   >>
-  
   \layout { }
-  \midi 
+  \midi
   {
-    \context 
+    \context
     {
       \Score
       tempoWholesPerMinute = #(ly:make-moment 60 1)

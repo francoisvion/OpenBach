@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title = "Praeludium 11 - BWV 856"
   composer = "Jean Sébastien Bach (1685-1750)"
@@ -7,9 +6,7 @@
   version = "2.10.3"
   tagline = ##f
 }
-
 \score {
-
  \context GrandStaff
  <<
  \context Staff = "up" {
@@ -35,7 +32,6 @@
  d''4.^\prall~ d''16 c'' bes' a' g' f' bes'8 g'' e'' c'' bes' g''
  a'16 g' f' e' f' a' d' f' d' bes g e' f' bes a g a c' s4. \bar "||"
 }
-
  \context Staff = "down" {
  \clef bass
  \key f \major
@@ -52,9 +48,6 @@
  f8 a, d bes,8.^\trill a,32 bes, c8 f,4 r8 << { f4 a8\rest } \\ { g,16\rest c a, c f,8 } >> \bar "||"
 }
 >>
-
  \layout { }
-
  \midi { }
-
 }

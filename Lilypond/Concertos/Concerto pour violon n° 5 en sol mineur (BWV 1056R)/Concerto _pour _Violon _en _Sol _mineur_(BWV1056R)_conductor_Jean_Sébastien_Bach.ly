@@ -1,13 +1,10 @@
 \version "2.24.4"
-
 \include "violino.ily"
 \include "violine1.ily"
 \include "violine2.ily"
 \include "viola.ily"
 \include "violoncello.ily"
-
 instrument = ""
-
 \book {
   \include "header.ily"
   \score {

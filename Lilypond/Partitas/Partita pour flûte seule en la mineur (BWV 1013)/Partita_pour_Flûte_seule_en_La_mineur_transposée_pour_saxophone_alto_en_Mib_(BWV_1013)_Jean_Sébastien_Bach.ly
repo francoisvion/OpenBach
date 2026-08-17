@@ -1,15 +1,9 @@
-
 \version "2.24.4"
-
-
 \paper{
 #(define page-breaking ly:page-turn-breaking)
 #(define first-page-number 2)
-
 }
-
 allemande =  {
-
 \clef treble
 \key fis \minor
 \time 4/4
@@ -67,11 +61,7 @@ allemande =  {
     a''16 e''16 a''16 c'''16 e'''16 a''16 c'''16 e'''16 a'''2\fermata \bar "||"
     }
 }
-
-
-
 corrente =  {
-
 \clef treble
 \key fis \minor
 \time 3/4
@@ -145,14 +135,9 @@ corrente =  {
     c''16 a'16^\markup{\sans "5"} c''16 e''16 a''16^\markup{\sans "5"} b''16 c'''16 a''16^\markup{\sans "5"} e''16 a''16^\markup{\sans "TF"} b''16 gis''16 |
     a''16^\markup{\sans "TF"} e''16 f''16 d''16 c''16 a''16^\markup{\sans "TF"} b'16 gis''16 a'8_\markup{\sans "TF"}\fermata
     }
-
 }
-
 }
-
-
 sarabande =  {
-
 \clef treble
 \key fis \minor
 \time 3/4
@@ -207,14 +192,9 @@ sarabande =  {
     c'''16 b''16 a''16 gis''16   a''8[ e''8]   c''8[ b'16 a'16] |
     a'2.\fermata |
     }
-
 }
-
 }
-
-
 bouree =  {
-
 \clef treble
 \key fis \minor
 \time 2/4
@@ -296,14 +276,9 @@ bouree =  {
     c''8 b'16 a'16^\markup{\sans "5"} c''16 b'16 a'16^\markup{\sans "TF"} gis'16 |
     a'4._\markup{\sans "TF"}\fermata
     }
-
 }
-
 }
-
-
 \book{
-
   \header {
   title = "Partita en La mineur"
   subtitle = "pour Flûte seule"
@@ -311,7 +286,6 @@ bouree =  {
   subsubtitle = "transposée pour Saxophone alto en Mi♭"
   tagline = ##f
   }
-
   \paper {
     top-margin = 8\mm
     top-markup-spacing.basic-distance = #6
@@ -319,29 +293,22 @@ bouree =  {
     top-system-spacing.basic-distance = #12
     last-bottom-spacing.padding = #2
   }
-
 \score {
 	\new Staff
-
     \allemande
 \midi {}
 \layout {}
-
 \header { piece = "1. Allemande"
 opus = "BWV 1013" }
 	}
-
 \score {
 	\new Staff
-
     \corrente
 \midi {}
 \layout {}
-
 \header { piece = "2. Courante"
 }
 }
-
 \score {
 	\new Staff
     \sarabande
@@ -355,7 +322,6 @@ opus = "BWV 1013" }
     \bouree
 \midi {}
 \layout {}
-
 \header { piece = "4. Bourée anglaise"
 }
 	}

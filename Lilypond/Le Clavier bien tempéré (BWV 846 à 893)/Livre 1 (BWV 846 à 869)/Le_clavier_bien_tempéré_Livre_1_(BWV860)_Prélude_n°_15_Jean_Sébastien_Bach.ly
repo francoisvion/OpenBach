@@ -1,16 +1,12 @@
 \version "2.24.4"
-
 \header {
   title = "Praeludium 15 - BWV 860"
   composer = "Jean Sébastien Bach (1685-1750)"
 mutopiapoet = "Jean Sébastien Bach (1685-1750)"
 date = "18th Century"
   tagline = ##f
-
 }
-
 \score {
-
  \context GrandStaff
  <<
  \context Staff = "up" {
@@ -39,7 +35,6 @@ date = "18th Century"
  d'16[ fis' a'] b'[ g' e'] c'[ e' g'] a'[ fis' d'] b[ d' fis'] g'[ e' b] a[ e' g'] fis'[ d' c'] } <b d' g'>1^\fermata
  \bar "|."
 }
-
  \context Staff = "down" {
  \clef bass
  \key g \major
@@ -64,13 +59,10 @@ date = "18th Century"
  \bar "|."
 }
 >>
-
  \layout {
    \context {
    \Staff minimumVerticalExtent = #'( -6 . 6 )
    }
  }
-
  \midi { \tempo 8 = 132 }
-
 }

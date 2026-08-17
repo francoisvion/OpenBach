@@ -3,9 +3,7 @@ Global = {
   \time 4/4
   \include "../global.ly"
 }
-
 \include "../macros.ly"
-
 Sopran = \context Voice = "one" \relative c'' {
   \voiceOne
   \label #'VariatioXXX
@@ -13,13 +11,11 @@ Sopran = \context Voice = "one" \relative c'' {
   \override Rest.staff-position = #0
   \repeat volta 2 {
     \partial 8 { d8\rest }
-  %1
   | b2\rest d4\rest d8\rest d,
   | \highlightMelodySecond { \unHighlightColor g8[ } a b c] d[ c16 b]
     \highlightMelodySecond { \unHighlightColor a8 } r
   | d4 d e e
   | d8[ e d c] b\prall[ a] g4
-  %5
   | b'2\rest b4\rest b8\rest d,
   | g fis e d cis\prall b16 cis a8 f'\rest
     \break
@@ -29,13 +25,11 @@ Sopran = \context Voice = "one" \relative c'' {
   \repeat volta 2 {
     \partial 8 { a' }
   | fis[ a fis a] d,[ e16 fis] g8[e ]
-  %10
   | a[ g fis e] dis[ cis16 dis] b8[ b']
   | e,[ b' e, b'] dis,16[e fis g] a8[ g16 fis]
   | g8[ fis16 e] dis16[ e fis dis] e2~
   | e16[( d) fis( e) ] g[( fis) a8] d,4. c16[ d]
   | e8[ fis16 g] a8[ g] fis16\prall[ e32 fis d8] a'4\rest
-  %15
   | b8[ c d b] c[ b a g]
   | fis[ g a fis] g4 g8
     \override Score.TextMark.self-alignment-X = #CENTER
@@ -43,19 +37,16 @@ Sopran = \context Voice = "one" \relative c'' {
   }
   \fine
 }
-
 Alto = \context Voice = "two" \relative c' {
   \voiceTwo
   \override MultiMeasureRest.staff-position = #-6
   \override Rest.staff-position = #0
   \repeat volta 2 {
     \partial 8 { e8\rest }
-  %1
   | R1
   | \highlightMelodySecond { g4 g a a
   | g8 a g f e d \unHighlightColor c } b'
   | a g a fis g4 g8 d
-  %5
   | \stemUp g8 a b c d8 c16 b
     \override Beam.positions = #'(2 . -1)
     a8 \stemDown d~
@@ -77,30 +68,25 @@ Alto = \context Voice = "two" \relative c' {
   \repeat volta 2 {
     \partial 8 { g8\rest }
   | a4 a b b
-  %10
   | a8[ b a g] fis[ e] dis c\rest
   | b'4 b c c
   | b8[ c b a] g[ fis16 g] e8 e\rest
   | e2\rest  g4 g4
   | c8.[ d16] c8[b ] a[ b] c[ d]
-  %15
   | b8[ a16 b] g8 g\rest g\rest e'16[ d c8 e]
   | a,16[ d c b] c[ a d8~ ] d8[ c16 d] b8
   }
 }
-
 Tenor = \context Voice = "three" \relative c {
   \voiceThree
   \override MultiMeasureRest.staff-position = #0
   \override Rest.staff-position = #0
   \repeat volta 2 {
-  %1
     \partial 8 { \highlightMelodyFirst d8 }
   | \highlightMelodyFirst { g a b c d[ c16 b] \unHighlightColor a8[ } g16 a]
   | b8 a g2 fis8\prall[ e16 fis]
   | g4 c8\rest \highlightMelodyThird { d c b a g
   | fis4~\prallprall fis16 e32 fis \unHighlightColor d8~ } d4 c'\rest
-  %5
   | \change Staff = "upper" \stemDown g'4 g a a
   | \shiftOff g8[ a g fis] e[
     \change Staff = "lower"
@@ -111,19 +97,16 @@ Tenor = \context Voice = "three" \relative c {
   \repeat volta 2 {
     \partial 8 { fis' }
   | d[ fis d fis] g[ d d g]
-  %10s
   | e r r4 fis fis
   | g g fis8[g fis e]
   | dis[ e16 fis] \clef bass b,4~ b8[ a16 b] g8[a16 b]
   | c8[ \clef treble d e fis] g[ fis16 e] d8 b'\rest
   | b\rest a e[ d16 e] fis8 g4 fis8
-  %15
   | d4 d e e
   | d8[ e d c] b[ a] g
   }
   \fine
 }
-
 Bass = \context Voice = "four" \relative c {
   \voiceFour
   \override MultiMeasureRest.staff-position = #0
@@ -143,12 +126,10 @@ Bass = \context Voice = "four" \relative c {
         }
       }
     }
-  %1
   | \highlightTheme { g'2 fis
   | e d4. c8
   | b2 c
   | d g,4 } b8\rest b'16[ a]
-  %5
   | g8[ fis16 g] e8[ d16 e] fis4. b8
   | e,4. fis16[ g] a4~ a16[ g fis e]
   | fis4 d g g,
@@ -158,13 +139,11 @@ Bass = \context Voice = "four" \relative c {
     \clef treble
     \partial 8 { b''\rest }
   | d4 c b g
-  %10
   | c8[ b c a] b4. a8
   | g8[ e' g, e'] a,4. ais8
   | b4 \clef bass b, e4. d!8
   | c4 \clef treble c' b4. c16[ b]
   | a4. b16[ c] d4. c16[ d] \clef bass
-  %15
   | g,8[ a b g] c4. cis8
   | d4 d,_\markup { \italic "Aria da Capo e Fine." } g g,8
     \tweak direction #DOWN
@@ -172,9 +151,7 @@ Bass = \context Voice = "four" \relative c {
   }
   \fine
 }
-
 forceBreaks = {
-  % page 1
   \partial 8 { s8 }
   \repeat unfold 2 { s1\noBreak } s1\break\noPageBreak
   \repeat unfold 2 { s1\noBreak } s1\break\noPageBreak
@@ -182,7 +159,6 @@ forceBreaks = {
   \repeat unfold 2 { s1\noBreak } s1\break\noPageBreak
   \repeat unfold 2 { s1\noBreak } s2 s4.\break\pageBreak
 }
-
 \score {
   \new PianoStaff
   <<
@@ -204,8 +180,8 @@ forceBreaks = {
     \new Devnull \forceBreaks
   >>
   \header {
-    composer = ##f % "Johann Sebastian Bach"
-    opus = ##f % "BWV 988"
+    composer = ##f
+    opus = ##f
     title = \markup { \smallCaps "Variatio 30 a 1 Clav." }
     subtitle = \markup { "Quodlibet" }
     subsubtitle = ##f
@@ -213,7 +189,6 @@ forceBreaks = {
   \layout {
     \context {
       \PianoStaff
-      % More space between staves in the same PianoStaff
       \override StaffGrouper.staff-staff-spacing.minimum-distance = 11
     }
   }

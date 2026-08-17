@@ -3,7 +3,6 @@ Global = {
   \time 3/4
   \include "../global.ly"
 }
-
 Upper = \relative c''' {
   \clef treble
   \set baseMoment = #(ly:make-moment 1/8)
@@ -11,7 +10,6 @@ Upper = \relative c''' {
   | R |
   | R |
   | a4~\mordent a16 g( f e d cis d) f~
-  %5
   | f32 e d16 e8~ e16 g a bes~ bes cis,( d e)
   | a,32( g f16) g8~ g16 a bes! cis~ cis d8 e16~
   | e g, f\prall e f bes a\prall g
@@ -22,7 +20,6 @@ Upper = \relative c''' {
   | \set subdivideBeams = ##t
     bes16 a32 g f g e16
     \grace { e8( } a2)^~
-  %10
   | a16 b32 cis d cis b a
     \set subdivideBeams = ##f
     d16 bes a\prall g~ g32 a g fis g16. g32
@@ -37,7 +34,6 @@ Upper = \relative c''' {
   | d16 c! bes\prall a bes g bes d g d bes'8~
   | \set subdivideBeams = ##t
     bes32 c bes a bes g a bes f16( e) r8 r c32 d e16~
-  %15
   | e32 bes c d c bes a g a f g a bes c d e f e d c a'8~\mordent
     \set subdivideBeams = ##f
   | a16 d, d32\prall c d16 d g8.~ g4~
@@ -50,7 +46,6 @@ Upper = \relative c''' {
     bes16 g'8.~ g32 f e f g f e d
     \set subdivideBeams = ##f
     c16 bes32 a bes16. g'32
-  %20
   | \set subdivideBeams = ##t
     bes,16( a) a'8~ a32 g f g a g f e d c bes a g f e f
     \set subdivideBeams = ##f
@@ -66,7 +61,6 @@ Upper = \relative c''' {
   | \set subdivideBeams = ##t
     g f e g f e d f e d c e d c bes d c bes a c bes a g bes
     \set subdivideBeams = ##f
-  %25
   | bes16 c,8 e16 g bes d c~ c32 bes a g a16 c~
   | c32 g f e f16 d'
     \set subdivideBeams = ##t
@@ -79,7 +73,6 @@ Upper = \relative c''' {
     \set subdivideBeams = ##t
     bes32 c bes a bes c bes a
     \set subdivideBeams = ##f
-  %30
   | bes16 g'8 cis,16~ cis e8 g16~ g bes8 a16~
   | a32 g f e f16 d~
     \set subdivideBeams = ##t
@@ -93,7 +86,6 @@ Upper = \relative c''' {
   | e32 f ees d ees16 c'~ c32 bes a16~ a32 g f16~
     \set subdivideBeams = ##t
     f32 ees d ees f ees d ees
-  %35
   | f, a g f c' bes a ees' d cis d8.~ d32 d, cis d e f g a
   | bes d bes a bes d bes a g fis g8.~ g32 bes g fis g e' g, fis
     \set subdivideBeams = ##f
@@ -112,7 +104,6 @@ Upper = \relative c''' {
     g32 f e f g f e d
     \set subdivideBeams = ##f
     cis16 bes!32 a bes16. g'32
-  %40
   | bes,16( a8) cis16~ cis d8 e32 f g a bes a bes16. bes32
   | bes16 cis,8( d32 e) e16 g,8( a32 bes) bes e f g~ g16 bes,
   | a32 d e f~ f16 gis,~
@@ -126,7 +117,6 @@ Upper = \relative c''' {
     f32 g f e f e d e
     \set subdivideBeams = ##f
     e8.\upprall d32 e
-  %45
   | \set subdivideBeams = ##t
     d8 c32( d ees16~) ees32 d c16~ c32 bes a16~
     a32 g fis e d cis d16~
@@ -142,65 +132,52 @@ Upper = \relative c''' {
     e8.-\upprall d32 e
   | d4 r r
   \fine
-
-% la si do re mi fa sol
-%  a b  c  d  e  f  g
 }
-
 LowerOneMvtII = \relative c' {
   | f8 r r f g a
   | bes r r a g f
   | e r r g f e
   | f r r f g a
-  %5
   | bes r r a g f
   | e r r g f e
   | f r r e d cis
   | d r r f e d
   | e r r e d cis
-  %10
   | d r r d cis b
   | cis r r cis d e
   | f r r f g a
   | bes r r a g f
   | e r r e f g
-  %15
   | a r r g f ees
   | d r r d c bes
   | c r r c bes\prall a
   | bes r r a g f
   | e r r e f g
-  %20
   | a r r f g a
   | bes r r g a bes
   | c r r c bes a
   | bes r r bes a g
   | a r r a g f
-  %25
   | g r r g a e
   | f4~ f8 e16 d e8 bes'
   | a r r a b cis
   | d r r f g a
   | bes! r r a g f
-  %30
   | e r r g f e
   | f r r f g a
   | bes r r bes, c d
   | e r r e f g
   | a r r a, bes c
-  %35
   | d r r c bes a
   | g r r f e d
   | cis r r cis d e
   | f r r d e f
   | g r r e f g
-  %40
   | a r r a g f
   | g r r g f e
   | f r r f e d
   | e r r e f cis
   | d4~ d8 cis16 b cis8 g'
-  %45
   | fis r r fis g a
   | bes r r a g f
   | g r r e f a
@@ -212,69 +189,58 @@ LowerTwoMvtII = \relative c' {
   | g \clef bass d, d \clef treble f' e d
   | cis \clef bass d, d \clef treble e' d cis
   | d \clef bass d, d \clef treble d' e f
-  %5
   | g \clef bass d, d \clef treble f' e d
   | cis \clef bass d, d \clef treble e' d cis
   | d \clef bass d, d g f e
   | d d, d d'' c bes
   | c e, e c' bes a
-  %10
   | bes bes, bes bes' a g
   | a a, a a' b cis
   | d d, d \clef treble d' e f
   | g \clef bass g, g \clef treble f' e d
   | c! \clef bass c, c \clef treble c' d e
-  %15
   | f \clef bass f, f \clef treble e' d c
   | bes \clef bass bes, bes bes' a g
   | a a, a a' g f
   | g g, g f' e d
   | c c, c c' d e
-  %20
   | f c, c d' e f
   | g c,, c e' f g
   | a c,, c a'' g f
   | g c,, c g'' f e
   | f c, c f' e d
-  %25
   | e c, c e' f c
   | d bes c2
   | f8 f, f g' f e
   | d d, d \clef treble d'' e f
   | g \clef bass d, d \clef treble f' e d
-  %30
   | cis \clef bass d, d \clef treble e' d cis
   | d \clef bass d, d \clef treble d' e f
   | g \clef bass g,, g g' a bes
   | c c, c c' d e
   | f f,, f f' g a
-  %35
   | bes bes, bes a' g f
   | e! e, e d' cis b
   | a a, a a' b cis
   | d a, a b' cis d
   | e a,, a cis' d e
-  %40
   | f a,, a f'' e d
   | e a,, a e'' d cis
   | d a, a d' cis b
   | cis a, a cis' d a
   | bes8 g a2
-  %45
   | d8 d, d d' e fis
   | g d, d f' e d
   | e d, d cis' d f
   | b, bes a gis a4
   | d s s
 }
-
 Lower = \relative c' {
   \key d \minor
   \clef bass
   << \LowerOneMvtII \\ \LowerTwoMvtII >>
   \fine
 }
-
 \score {
   \new PianoStaff
   <<

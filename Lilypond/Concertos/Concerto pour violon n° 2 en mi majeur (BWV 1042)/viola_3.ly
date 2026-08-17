@@ -1,8 +1,6 @@
-\version "2.16.0"
-%Viola, 3rd movement
-
-violaDThemeBody =  { % first bar intentionally missing!
-    %{ b4 r8 | %} b8 dis gis |
+\version "2.24.0"
+violaDThemeBody =  {
+     b8 dis gis |
     fis4 r8 | fis e fis |
     b,4 e8 | fis4 e8 |
     dis fis b, | b8. cis16 b a |
@@ -11,19 +9,15 @@ violaDThemeBody =  { % first bar intentionally missing!
     e'8 fis fis | fis fis fis |
     e e dis | gis4. |
 }
-
-violaDThemeB =  \relative c' { % without an "\f" at the start
+violaDThemeB =  \relative c' {
     b4 r8 | \violaDThemeBody
 }
-
-violaDThemeC =  \relative c' { % with an "\f" at the start
+violaDThemeC =  \relative c' {
     b4\f r8 | \violaDThemeBody
 }
-
 violaDa =  \relative c' {
     R4. * 16 |
 }
-
 violaDb =  \relative c' {
     cis8\p( cis  cis) | e( e  e) |
     fis( fis  fis) | gis( gis  gis) |
@@ -34,7 +28,6 @@ violaDb =  \relative c' {
     e( e  e) | fis( fis  fis) |
     gis( gis  gis) | cis,4. |
 }
-
 violaDc =  \relative c' {
     gis'4.\p ~ | gis |
     a8 a gis | a4 r8 |
@@ -45,7 +38,6 @@ violaDc =  \relative c' {
     fis a r | e b' r |
     a a e | e4 r8 |
 }
-
 violaDd =  \relative c' {
     e8\p e, e' | e e, e' |
     e e, e' | a,4 r8 |
@@ -55,14 +47,12 @@ violaDd =  \relative c' {
     r bis dis | cis gis' r |
     r ais16 gis ais8 | r gis16 fisis gis8 |
     r fisis16 eis fisis8 | gis b, r |
-    
     R4. * 8 |
     r8 gis' b | r fisis dis |
     r gis gis, | r fisis ais |
     ais4 r8 | ais4 r8 |
     b cis dis | gis,4 r8 |
 }
-
 violaD =  {
     \violaDThemeB
     \violaDa

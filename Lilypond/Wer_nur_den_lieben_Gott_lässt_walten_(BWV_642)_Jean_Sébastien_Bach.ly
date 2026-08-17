@@ -1,6 +1,6 @@
 \version "2.24.4"
 
-\include "deutsch.ly"
+\language "deutsch"
 
 \header {
   title = "Wer nur den lieben Gott lässt walten"

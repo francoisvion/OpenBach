@@ -1,8 +1,6 @@
-\version "2.16.0"
-%Viola, 2nd movement
-
+\version "2.24.0"
 violaC =  \relative c' {
-    cis2.-"sempre piano" | % want \p instead of "piano"
+    cis2.-"sempre piano" |
     bis |
     cis ~ |
     cis |
@@ -24,7 +22,6 @@ violaC =  \relative c' {
     bis' r8 dis, e dis |
     cis4 r8 e fis a |
     dis,2^\fermata r4 |
-    
     gis8( gis gis gis gis  gis) |
     a( a a b a  gis) |
     fisis4 ~ fisis16 ais ais(  gis) gis(  dis) dis(  e) |

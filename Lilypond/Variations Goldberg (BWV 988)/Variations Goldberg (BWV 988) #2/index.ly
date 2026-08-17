@@ -4,9 +4,7 @@
     \null\null\null
   }
 }
-
 middleGrey = #(x11-color 'grey45)
-
 #(define-markup-command (indexItem layout props title pagelabel infos)
   (string? symbol? string?)
   "Format a block of the index"
@@ -25,11 +23,9 @@ middleGrey = #(x11-color 'grey45)
            }
          }
        } #}))
-
 separator = \markup \with-color \middleGrey {
   \fill-line { \char ##x25BE }
 }
-
 \markup { \indexItem "Aria" #'Aria "" }
 \separator
 \markup { \indexItem "Variatio 1 à 1 Clav." #'VariatioI "" }

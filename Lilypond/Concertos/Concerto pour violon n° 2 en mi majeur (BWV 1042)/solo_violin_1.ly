@@ -1,6 +1,4 @@
-\version "2.16.0"
-%Solo violin, 1st movement
-
+\version "2.24.0"
 soloViolinBa =  \relative c' {
     e4-. gis-. b-. r8 gis16 a |
     b8 gis16 a b8 e b b16 a gis8 fis16 e |
@@ -13,7 +11,6 @@ soloViolinBa =  \relative c' {
     gis8.\trill fis32(  e) gis16(  fis) e(  dis) e8\noBeam b16 b cis cis dis dis |
     e e b b cis cis dis dis e fis gis e a fis b8 |
     gis\trill fis16 e gis(  fis) e(  dis) e4 r |
-
     e,4\f^"Solo" gis b r8 b |
     cis16( dis e  cis) b8. b16 cis( dis32  e) dis16( e32  fis) b,16(  dis) e(  gis) |
     a( gis fis  a) gis( fis e  gis) fis e dis cis b a gis fis |
@@ -38,7 +35,6 @@ soloViolinBa =  \relative c' {
     fis b32( ais b16  fis) dis fis32( e fis16  dis) b2 ~ |
     b ~ b16 fis' b dis e cis fis8 |
     e16(  dis) cis(  b) dis(  cis) b(  ais) b4 r |
-
     r2 b,16( d  e) gis b gis fis e |
     d( e  gis) b d cis b a gis( a b  gis) e( gis fis  e) |
     d'\p cis b a gis( a b  gis) e( gis fis  e) d'\pp cis b a |
@@ -59,7 +55,6 @@ soloViolinBa =  \relative c' {
     e ~ e16 b' e gis a fis b8 |
     a16(  gis) fis(  e) gis(  fis) e(  dis) e4 r^"Fine" |
 }
-
 soloViolinBb =  \relative c' {
     gis''16-"(Solo)" cis,( bis  cis) gis cis dis bis
 	    cis gis( a  fis) gis cis dis e |
@@ -81,7 +76,6 @@ soloViolinBb =  \relative c' {
     fis, bis fis bis fis bis fis bis e, cis' e, cis' e, cis' e, cis' |
     fisis, cis' fisis, cis' fisis, cis' fisis, cis'
 	    gis bis gis bis gis bis gis bis |
-
     cis4-.-"Tutti" e-. gis-. r8 e16 fis |
     gis8 e16 fis gis8 cis gis gis16 fis e8 dis16 cis |
     ais'-"Solo" e( dis  cis) fis, cis'( dis  e)
@@ -94,7 +88,6 @@ soloViolinBb =  \relative c' {
     d'( e d  b) cis( d cis  a) b  e,[ fis gis] a b cis d |
     e e e e e e e e e( g ais  b) cis g fis e |
     d d d d d d d d d e32( fis gis16  a) b fis e d |
-
     cis cis cis cis cis cis cis cis
 	    d gis32( a  b16) gis cis, fis32( gis  a16) fis |
     b, e32( fis  gis16) e a, d32( e  fis16) d gis, d'( e  d) e(  d) e(  d) |
@@ -112,9 +105,8 @@ soloViolinBb =  \relative c' {
     fis fis e fis d fis cis fis d fis cis fis b, fis' a, fis' |
     gis, b d4 cis8 b16( a gis  fis) a( gis fis  eis) |
 }
-
 soloViolinBcLower = \context Staff  \relative c' {
-    fis8 cis' fis a, gis16 b d fis \stemDown e8 e |    
+    fis8 cis' fis a, gis16 b d fis \stemDown e8 e |
     e d16 cis d8 d d cis16 b cis8 cis |
     dis r r e e16 cis ais fis ais(  cis) e(  dis) |
     e8 cis16 dis e8 e e dis16 cis dis8 b16 cis |
@@ -122,7 +114,6 @@ soloViolinBcLower = \context Staff  \relative c' {
     b8 r b b b b16 cis d8 cis16 b |
     cis8 r s2. |
 }
-
 soloViolinBcUpper = \context Staff  \relative c' {
     \stemUp
     s2. s8 gis'' |
@@ -133,14 +124,12 @@ soloViolinBcUpper = \context Staff  \relative c' {
     a fis16 gis a8 gis16 fis gis8 r gis gis |
     gis a16 gis \stemNeutral fis(  e) dis(  cis) b(  gis) a(  fis) b,8\noBeam a'' |
 }
-
 soloViolinBd =  \relative c' {
     gis''16( a b  gis) fis( gis a  fis) e( fis gis  e) dis( e fis  dis) |
     cis( dis  e) b cis e dis fis e( fis  gis) b, cis e dis fis |
     e( fis  gis) dis e gis fis a gis( a  b) dis, e gis fis a |
     gis( a  b) gis a fis gis e dis( e  fis) dis e cis dis b |
     a( b  cis) gis a e fis dis b4 r8 dis' |
-
     ais'16 dis,( cis  dis) fisis, dis'( cis  dis) e cis( dis  b) cis ais' gis ais |
     b,( cis  dis) gis dis cis b ais gis( ais  b) dis b ais gis fis |
     e( fis  gis) cis gis fis e dis cis( dis  e) gis cis dis e cis |
@@ -155,14 +144,13 @@ soloViolinBd =  \relative c' {
 	    <ais, fisis' cis'>4 r8 cis'16( dis32  e) |
     dis8\trill cis16(  b) dis( cis b  ais) gis2 ~ |
     gis ~ gis16 gis, fis' gis, e' gis, dis' gis, |
-    e' cis( bis  cis) a'!4 %{my hint%} ~ a16 e( dis  e) cis'4 ~ |
+    e' cis( bis  cis) a'!4  ~ a16 e( dis  e) cis'4 ~ |
     cis16 a( gis  a) e'4 ~ e16 dis( cis  e) ais4 ~ |
     ais16 gis( fisis  ais) cis4 ~ cis16 b ais cis e4 ~ |
     e16^"Adagio" dis( cis b ais gis fisis  gis)
 	    e( dis cisis  dis) fisis, gis cisis, dis |
     b'4 ~ b16. ais32 gis fisis gis16 gis4 r^"D.C. al fine" |
 }
-
 soloViolinB =  {
     \soloViolinBa
     \bar "||"
@@ -171,13 +159,10 @@ soloViolinB =  {
     \soloViolinBd
     \bar "|."
 }
-
 soloViolinBMidi =  {
     \soloViolinBa
-
     \soloViolinBb
     << \soloViolinBcLower \soloViolinBcUpper >>
     \soloViolinBd
-
     \soloViolinBa
 }

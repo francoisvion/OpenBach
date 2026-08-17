@@ -20,14 +20,14 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
-           g'4 g' a'
+          g'4 g' a'
           b' g'2\fermata
           a'4 a' b'
           c''2 b'4
           c''2.\fermata
           b'4 b' cis''
           d'' a'2\fermata
-           b'4 cis'' d''
+          b'4 cis'' d''
           d''2 cis''4
           d''2.\fermata
           a'4 a' b'
@@ -39,16 +39,17 @@
           c'' c'' b'
           a'2 g'4\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
-           d'4 e' fis'
+          d'4 e' fis'
           g'8 [f'] e'2\fermata
           f' f'4
           g'2 g'4
           g'2.\fermata
           g'4 g' g'
           fis' fis'2\fermata
-           g'4 g' fis'8 [g']
+          g'4 g' fis'8 [g']
           a'4 g'8 [fis' g' e']
           fis'2.\fermata
           fis'4 fis' gis'
@@ -62,9 +63,16 @@
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
-      Nun prei -- set al -- le Got -- tes Barm -- her -- zig -- keit, lob' ihn mit Schal -- le, du wer -- the Chri -- sten -- heit! Er lässt dich freund -- lich zu sich la -- den. Freu -- e dich, I -- sra -- el, sei -- ner Gna -- den, Gna -- den.
+      Nun prei -- set al -- le
+      Got -- tes Barm -- her -- zig -- keit,
+      lob' ihn mit Schal -- le,
+      du wer -- the Chri -- sten -- heit!
+      Er läßt dich freund - lich zu sich la -- den.
+      freu -- e dich, I - sra -- el, sei -- ner Gna -- den, Gna -- den.
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -92,6 +100,7 @@
           e' d' d'
           e' d'8 [c'] b4\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
            g8 [fis] e4 d

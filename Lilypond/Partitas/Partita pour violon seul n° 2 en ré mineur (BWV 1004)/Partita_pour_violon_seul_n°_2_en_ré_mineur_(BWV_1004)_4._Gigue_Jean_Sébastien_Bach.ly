@@ -1,10 +1,8 @@
 \version "2.24.4"
-
 gigue = \relative c'' {
 	\clef treble
 	\key d \minor
 	\time 12/8
-
 	\partial 8 a8
 	d,8( f) a d( e) f e g16( f e d) cis8( a) e
 	cis8( e) a e'( f) g f a16( g f e) d8( a) f
@@ -27,7 +25,6 @@ gigue = \relative c'' {
 	c16( d e) b c a b( c d) a b gis a a, cis e g8 ~ g16 e cis a cis e
 	f16 d f a d cis d a d f a gis a e cis a e cis a4.*2/3
 	\bar "[|:"
-	
 	\partial 8 e''8
 	a,8(cis) e g,(a) bes cis, e16 (d cis b) a8 cis e
 	g16 a bes a g bes e d cis b a g f e f g a f d8.[ d'16 cis b]
@@ -49,12 +46,9 @@ gigue = \relative c'' {
 	a,16( b cis) a g' a, g'( a bes) g cis g f( g a) f d' a d e f d b' d,
 	gis,16 a b cis d e f( e d cis d) gis, a cis d e f g a bes e,( f g) cis,
 	d16 d, f a d e f d f a d cis d a f d a f d4
-
 	\bar ":|]"
 }
-
 #(set-global-staff-size 19)
-
 \header {
   title = "4. Gigue"
   subtitle = "Partita pour violon seul n° 2 en ré mineur"
@@ -63,7 +57,6 @@ gigue = \relative c'' {
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
 \score {
 	\gigue
 	\layout {

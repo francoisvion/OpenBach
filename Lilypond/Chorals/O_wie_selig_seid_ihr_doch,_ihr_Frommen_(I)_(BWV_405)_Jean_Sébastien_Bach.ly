@@ -32,6 +32,7 @@
           a' b' cis'' d''
           d'' cis'' d''2\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
            f'4 g' g' f'~
@@ -48,9 +49,14 @@
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
-      O wie se -- lig seid ihr doch, ihr From -- men, die ihr durch den Tod zu Gott ge -- kom -- men! Ihr seid ent -- gan -- gen al -- ler Noth, die uns noch hält ge -- fan -- gen. _
+      O wie se -- lig seid ihr doch, ihr From -- men,
+      die ihr durch den Tod zu Gott ge -- kom -- men!
+      Ihr seid ent -- gan -- gen
+      al -- ler Noth, die uns noch hält ge -- fan - gen.
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -61,16 +67,17 @@
           \voiceOne
            d'4 d' e' d'
           d'8 [bes] c'4 c' c'
-          d'8 [bes g c'] a2\fermata
-          c'8 [d' e' d'] d'4 e'
+          d'8 [bes] g [c'] a2\fermata
+          c'8 [d'] e' [d'] d'4 e'
           d'8 [b] e'4 e' f'
           b8 e'4 d'8 cis'2\fermata
            r4 e d a
           a2 a\fermata
-          a4 a a8 [bes a g]
-          f [a g f] g4 a8 [bes]
+          a4 a a8 [bes] a [g]
+          f [a] g [f] g4 a8 [bes]
           a4 a a2\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
            d4 c8 [bes,] a,4 d

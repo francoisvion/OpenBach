@@ -1,8 +1,6 @@
 \version "2.24.4"
-
 \header {
 date = "1715"
-
  title = "Liebster Jesu, wir sind hier"
  subtitle = "in Canone alla Quinta"
  subsubtitle = "à 2. Clav & Ped."
@@ -10,26 +8,20 @@ date = "1715"
  opus="BWV 634"
   tagline = ##f
 }
-
 \include "deutsch.ly"
-
 global = {
    \key a \major
    \time 4/4
    #(set-accidental-style 'default)
    \override Score.MetronomeMark #'transparent = ##t
 }
-
 \paper {
    ragged-bottom = ##f
    ragged-last-bottom = ##f
 }
-
 #(set-default-paper-size "a4" 'landscape)
-
 halsup        = { \stemUp \tieUp \slurUp }
 halsdown      = { \stemDown \tieDown \slurDown }
-
 sopran = {
    \new Voice \relative cis'' {
       \global
@@ -39,18 +31,15 @@ sopran = {
          cis4\prall h8 a h2\fermata
          a4 a a a
          h4 cis8 d16 h h2\prall
-         %% Takt 5 ==============================================
          a1
       }
       e4 e e e
       fis8. gis16 a4 gis gis\fermata
       a4 a a a
       h4 cis8 d16 h h2\prall
-      %% Takt 10 =============================================
       a1\fermata \bar "|."
    }
 }
-
 alt = {
    \new Voice \relative gis' {
       \global
@@ -60,18 +49,15 @@ alt = {
          fis4 gis8 a16 h gis4_\prall fis8 e
          fis2_\fermata e4 e
          e4 e fis gis8 a16 fis
-         %% Takt 5 ==============================================
          fis2_\prall e_\fermata
       }
       a,2\rest h4 h
       h4 h cis8 dis e4
       dis4 dis_\fermata e e
       e4 e fis gis8 a16 fis
-      %% Takt 10 =============================================
       fis2_\prall e_\fermata
    }
 }
-
 tenor = {
    \new Voice \relative e' {
       \global
@@ -81,18 +67,15 @@ tenor = {
          cis8 a' gis[ fis] e4 cis~
          cis8 gis[ a h] e4 d8 cis
          d8 cis16 h e4 e8\rest d cis h
-      %% Takt 5 ==============================================
         cis8 d16 cis d4~ d8 cis16 h cis4
       }
       cis4 h8 a gis4 a8[ h]
       a8 cis h a h2
       a8 e' fis gis a e d! cis
       d8 cis16 h e4 e8\rest d cis h
-      %% Takt 10 =============================================
       cis8 d16 cis d4~ d8 \tempo 4 = 40 cis16 h \tempo 4 = 16 cis4 \fermata
    }
 }
-
 bass = {
    \new Voice \relative a {
       \global
@@ -102,18 +85,15 @@ bass = {
          a4 h~ h gis
          a8 h cis d e, fis gis[ a]
          e8 gis a4~ a gis4
-      %% Takt 5 ==============================================
          a8 e fis gis a2
       }
       r2 e'8 e, fis[ gis]
       fis8 a gis[ fis] e gis fis e
       fis8 gis a h cis fis, gis a
       e8 gis a4~ a gis4
-      %% Takt 10 =============================================
       a8 e fis[ gis] a2_\fermata
    }
 }
-
 right = {
    \clef "treble"
    <<
@@ -121,7 +101,6 @@ right = {
       \sopran
    >>
 }
-
 left = {
    \clef "tenor"
    <<
@@ -129,7 +108,6 @@ left = {
       \bass
    >>
 }
-
 pedal = {
    \global
    \clef "bass"
@@ -139,19 +117,15 @@ pedal = {
          e4 dis e,8 e' d cis
          fis,8 fis' e d cis4 h8 a
          gis8 e' d cis d h e e,
-      %% Takt 5 ==============================================
          a1
       }
       a8 a' gis fis e2~
       e4 dis e,8 e' dis! cis
       fis2 cis8 cis' h a
       gis8 e d cis d h e e,
-      %% Takt 10 =============================================
       a1
    }
 }
-
-
 \score {
    <<
       \new PianoStaff {
@@ -168,12 +142,10 @@ pedal = {
          \context Voice = pedal \pedal
       }
    >>
-
    \layout{
       indent = 1.0\cm
    }
 }
-
 \score {
    \unfoldRepeats {
       <<

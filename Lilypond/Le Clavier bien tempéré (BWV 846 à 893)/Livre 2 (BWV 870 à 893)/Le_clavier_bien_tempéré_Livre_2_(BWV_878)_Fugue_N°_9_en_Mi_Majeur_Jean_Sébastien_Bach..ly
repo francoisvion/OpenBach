@@ -1,9 +1,9 @@
 \version "2.24.4"
 
-\include "italiano.ly" 
+\language "italiano" 
 
 \header{
-  title = "Fugue N° 9 en Mi Majeur"
+  title = "Fugue n° 9 en mi majeur"
   subtitle = "Le clavier bien tempéré - Livre 2"
   composer = "Jean Sébastien Bach (1685-1750)"
   opus = "BWV 878"
@@ -543,12 +543,7 @@ bassemidi = \relative do {
       \transpose do do, 
       \basse
     }
-    %%$    \new Staff { % tempo staff
-    %%$      s1* 56
-    %%$      \tempo 2 = 45 s4 \tempo 2 = 40 s4 \tempo 2 = 30 s4 \tempo 2 = 25 s4
-    %%$      \tempo 2 = 20 s1
-    %%$    }
-
+    
   >>
   \midi{ 
     \context {

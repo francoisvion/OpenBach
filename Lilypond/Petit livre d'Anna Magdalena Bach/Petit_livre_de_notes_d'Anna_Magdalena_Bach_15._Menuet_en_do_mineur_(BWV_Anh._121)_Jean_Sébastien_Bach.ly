@@ -1,7 +1,5 @@
 \version "2.24.4"
-
 \include "english.ly"
-
 \header
 {
   title = "15. Menuet en do mineur"
@@ -10,122 +8,109 @@
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
-
 upper = \relative c
 {
-  \clef treble 
+  \clef treble
   \key c \minor
   \time 3/4
-
   \repeat volta 2
   {
-    c''4 c d 	   		  | % 1
-    ef4 ef f 	   		  | % 2
-    g4 g af 	   		  | % 3
-    fs2\trill g4 ~ 		  | % 4
-    g8 af f! e f4 ~ 		  | % 5
-    f8 g ef! d ef4 		  | % 6
-    c8 b c4 d      		  | % 7
-    g,2.            		  | % 8
+    c''4 c d 	   		  |
+    ef4 ef f 	   		  |
+    g4 g af 	   		  |
+    fs2\trill g4 ~ 		  |
+    g8 af f! e f4 ~ 		  |
+    f8 g ef! d ef4 		  |
+    c8 b c4 d      		  |
+    g,2.            		  |
   }
-
   \repeat volta 2
   {
-    g4 g af         		  | % 9
-    bf8 af g af bf4  		  | % 10
-    c,4 e \times 2/3 { g8 af bf } | % 11
-    af8 g f2                      | % 12
-    f4 f g                        | % 13
-    af8 g f g af4                 | % 14
-    bf,4 d \times 2/3 { f8 g af } | % 15
-    g8 f ef2                      | % 16
-    g4 af a                       | % 17
-    bf4 b c                       | % 18
-    b4 c d                        | % 19
-    ef4 e f                       | % 20
-    d4 ef! e                      | % 21
-    f4 fs g                       | % 22
-    g,4 f'!8 ef d ef              | % 23
-    c2.                           | % 24
+    g4 g af         		  |
+    bf8 af g af bf4  		  |
+    c,4 e \times 2/3 { g8 af bf } |
+    af8 g f2                      |
+    f4 f g                        |
+    af8 g f g af4                 |
+    bf,4 d \times 2/3 { f8 g af } |
+    g8 f ef2                      |
+    g4 af a                       |
+    bf4 b c                       |
+    b4 c d                        |
+    ef4 e f                       |
+    d4 ef! e                      |
+    f4 fs g                       |
+    g,4 f'!8 ef d ef              |
+    c2.                           |
   }
-
   \override Score.RehearsalMark #'break-visibility = #begin-of-line-invisible
   \override Score.RehearsalMark #'extra-offset = #'( -0.6 . 0.0 )
   \mark \markup { \musicglyph #"scripts.ufermata" }
 }
-
 lower = \relative c
 {
   \clef bass
   \key c \minor
   \time 3/4
-
   \repeat volta 2
   {
-    c2 r4    	  		   | % 1
-    c4 c d   	  		   | % 2
-    ef4 ef c 	  		   | % 3
-    d4 c b   	  		   | % 4
-    bf!2 a4  	  		   | % 5
-    af!2 g4  	  		   | % 6
-    af2 f4   	  		   | % 7
-    g4 g'8 f ef d 		   | % 8
+    c2 r4    	  		   |
+    c4 c d   	  		   |
+    ef4 ef c 	  		   |
+    d4 c b   	  		   |
+    bf!2 a4  	  		   |
+    af!2 g4  	  		   |
+    af2 f4   	  		   |
+    g4 g'8 f ef d 		   |
   }
-
   \repeat volta 2
   {
     << { r4 e f } \\
-       { c2.    } >>               | % 9 
-    g'4 e c                        | % 10
-    e4 c e                         | % 11
-    f4. g8 f ef!                   | % 12
-    << { d2     ef4 } \\ 
-       { r4 bf2     } >>           | % 13
-    f'4 d c                        | % 14
-    d4 bf d                        | % 15
-    ef4. f8 ef d                   | % 16
-    c4 f ef                        | % 17
-    d4 g ef                        | % 18
-    d4 c b                         | % 19
-    c4 bf! a                       | % 20
-    b4 c bf                        | % 21
-    a4 af g                        | % 22
-    ef'4 f g                       | % 23
-    c,2.                           | % 24
-    
+       { c2.    } >>               |
+    g'4 e c                        |
+    e4 c e                         |
+    f4. g8 f ef!                   |
+    << { d2     ef4 } \\
+       { r4 bf2     } >>           |
+    f'4 d c                        |
+    d4 bf d                        |
+    ef4. f8 ef d                   |
+    c4 f ef                        |
+    d4 g ef                        |
+    d4 c b                         |
+    c4 bf! a                       |
+    b4 c bf                        |
+    a4 af g                        |
+    ef'4 f g                       |
+    c,2.                           |
   }
-
   \override Staff.RehearsalMark #'direction = #-1
   \override Score.RehearsalMark #'extra-offset = #'( -0.6 . 0.0 )
   \mark \markup { \musicglyph #"scripts.dfermata" }
 }
-
-\score 
+\score
 {
   \new PianoStaff
   <<
     \new Staff = upper \upper
     \new Staff = lower \lower
   >>
-  
   \layout
   {
-    \context 
+    \context
     {
       \Score
       \remove "Mark_engraver"
     }
-    \context 
+    \context
     {
       \Staff
       \consists "Mark_engraver"
     }
-  } 
-
-  \midi   
+  }
+  \midi
   {
-    \context 
+    \context
     {
       \Score
       tempoWholesPerMinute = #(ly:make-moment 108 4)

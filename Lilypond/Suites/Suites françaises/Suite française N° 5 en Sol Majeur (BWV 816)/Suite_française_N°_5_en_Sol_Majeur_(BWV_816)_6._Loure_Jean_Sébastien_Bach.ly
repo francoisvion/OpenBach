@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title= "6. Loure"
   subtitle = "Suite française N° 5"
@@ -7,25 +6,20 @@
   opus = "BWV 816"
   tagline = ##f
   }
-
 Global = {
-  
   \key g \major
   \time 6/4
   \partial 8*3
   \set PianoStaff.connectArpeggios = ##t
 }
-
 StaffUp = {
   \change Staff = Upper
   \stemDown
 }
-
 StaffDown = {
   \change Staff = Lower
   \stemUp
 }
-
 NoCut = {
   \override Grace.Flag.stroke-style = #'()
 }
@@ -46,7 +40,7 @@ VoiceI =  \relative c'' { \voiceOne
   \revert Flag.stroke-style }
  c4. e8 a4
     dis,16 e fis g a c b a g a fis8 g2.~
-    g4. e8 fis 4 a, b cis 
+    g4. e8 fis 4 a, b cis
     d2.~ d4.
   }
   \repeat volta 2 {
@@ -68,7 +62,6 @@ VoiceI =  \relative c'' { \voiceOne
     c,16 b a g fis e' d c d4 d, e fis g2.~ g4.
   }
 }
-
 VoiceXa =  \relative c' {
   \shiftOn
   \repeat volta 2 {
@@ -113,7 +106,6 @@ VoiceXb =  \relative c'' {
     s1 s8
   }
 }
-
 VoiceXc =  \relative c'' {
   \repeat volta 2 {
     s4.
@@ -172,7 +164,6 @@ VoiceII =  \relative c' { \voiceTwo
      b2.~ b4.
    }
 }
-
 VoiceIII =  \relative c { \voiceThree
   \repeat volta 2 {
     r8 r4
@@ -201,10 +192,8 @@ VoiceIII =  \relative c { \voiceThree
   g8[ g fis e dis e] dis e16 fis s2
   r4 r8 fis c4 b c d
   g,4. b8 d4 g4.
-
   }
 }
-
 VoiceXd =  \relative c {
   \stemUp
   \repeat volta 2 {
@@ -226,8 +215,6 @@ VoiceXd =  \relative c {
     s1 s8
   }
 }
-
-
 \score {
   \context PianoStaff <<
     \context Staff = Upper <<
@@ -249,24 +236,3 @@ VoiceXd =  \relative c {
   \layout { }
   \midi { }
 }
-
-
-%{
-convert-ly (GNU LilyPond) 2.25.33  convert-ly: Processing `'...
-Applying conversion: 2.11.48, 2.11.50, 2.11.51, 2.11.52, 2.11.53,
-2.11.55, 2.11.57, 2.11.60, 2.11.61, 2.11.62, 2.11.64, 2.12.0, 2.12.3,
-2.13.0, 2.13.1, 2.13.4, 2.13.10, 2.13.16, 2.13.18, 2.13.20, 2.13.27,
-2.13.29, 2.13.31, 2.13.36, 2.13.39, 2.13.40, 2.13.42, 2.13.44,
-2.13.46, 2.13.48, 2.13.51, 2.14.0, 2.15.7, 2.15.9, 2.15.10, 2.15.16,
-2.15.17, 2.15.18, 2.15.19, 2.15.20, 2.15.25, 2.15.32, 2.15.39,
-2.15.40, 2.15.42, 2.15.43, 2.16.0, 2.17.0, 2.17.4, 2.17.5, 2.17.6,
-2.17.11, 2.17.14, 2.17.15, 2.17.18, 2.17.19, 2.17.20, 2.17.25,
-2.17.27, 2.17.29, 2.17.97, 2.18.0, 2.19.2, 2.19.7, 2.19.11, 2.19.16,
-2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.39, 2.19.40,
-2.19.46, 2.19.49, 2.20.0, 2.21.0, 2.21.2, 2.22.0, 2.23.1, 2.23.2,
-2.23.3, 2.23.4, 2.23.5, 2.23.6, 2.23.7, 2.23.8, 2.23.9, 2.23.10,
-2.23.11, 2.23.12, 2.23.13, 2.23.14, 2.24.0, 2.25.0, 2.25.1, 2.25.2,
-2.25.3, 2.25.4, 2.25.5, 2.25.6, 2.25.8, 2.25.9, 2.25.11, 2.25.12,
-2.25.13, 2.25.18, 2.25.22, 2.25.23, 2.25.24, 2.25.25, 2.25.26,
-2.25.28, 2.25.30, 2.25.31, 2.25.32, 2.25.33
-%}

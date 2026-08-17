@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title = "4. Menuet en sol majeur"
   subtitle = "Petit Livre de notes d'Anna Magdalena Bach"
@@ -10,12 +9,10 @@
 }
 #(set-global-staff-size 21)
 \pointAndClickOff
-
 voiceone =  \relative c'' {
   \clef "treble"
   \time 3/4
   \key g \major
-
   \repeat "volta" 2 {
     d4  g,8[ a b c] |
     d4 g, g |
@@ -55,17 +52,14 @@ voiceone =  \relative c'' {
     >> |
   }
 }
-
 voicetwo =  \relative c' {
   \clef "bass"
   \time 3/4
   \key g \major
-
   \repeat "volta" 2 {
     << { \stemUp { <b d>2 } \stemNeutral }
       { \context Voice = "ii" { << \stemDown g2 >> } }
     >> a4 |
-%     <g b d>2 a4 |
     b2. |
     c2. |
     b2. |
@@ -107,12 +101,10 @@ voicetwo =  \relative c' {
     g d g, |
   }
 }
-
 \paper{
 }
-  
 \score {
-   \context GrandStaff << 
+   \context GrandStaff <<
     \context Staff = "one" <<
       \voiceone
     >>
@@ -120,11 +112,8 @@ voicetwo =  \relative c' {
       \voicetwo
     >>
   >>
-
   \layout{}
-  
   \midi {
     \tempo 4 = 140
     }
 }
-

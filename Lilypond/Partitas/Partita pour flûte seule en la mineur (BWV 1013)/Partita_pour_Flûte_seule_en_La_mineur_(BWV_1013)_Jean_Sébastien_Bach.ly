@@ -1,15 +1,11 @@
-\version "2.24.4" 
-
-\paper{ 
-#(define page-breaking ly:page-turn-breaking) 
+\version "2.24.4"
+\paper{
+#(define page-breaking ly:page-turn-breaking)
 #(define first-page-number 2)
-
-} 
-
-allemande =  { 
-
-\clef treble 
-\key a \minor 
+}
+allemande =  {
+\clef treble
+\key a \minor
 \time 4/4
     \repeat volta 2 {
     r16 e''16 a''16 gis''16 a''16 c'''16 a''16 e''16 a'16 e''16 a''16 gis''16 a''16 c'''16 a''16 e''16 |
@@ -35,7 +31,6 @@ allemande =  {
     	{ g''16 fis''32 e''32 b''16 c'''16 fis''8. e''16 e''2 | }
 	{ g''16 fis''32 e''32 b''16 c'''16 fis''8. e''16 e''16 b'16 c''16 a'16 b'16 g'16 a'16 b'16 | }
  }
-
     e'16 b'16 e''16 dis''16 e''16 g''16 e''16 b'16 fis'16 b'16 e''16 dis''16 e''16 g''16 e''16 b'16 |
     e'16 g'16 b'16 c''16 dis'16 c''16 b'16 a'16 g'16 b'16 dis''16 e''16 b'16 a'16 g'16 fis'16 |
     e'16 g'16 b'16 c''16 dis'16 c''16 b'16 a'16 g'16 b'16 dis''16 e''16 b'16 a''16 g''16 fis''16 |
@@ -63,14 +58,10 @@ allemande =  {
     d'16 f''16 e''16 cis''16 d''16 bes''16 c''16 a''16 gis''16 e''16 d''16 b'16 c''16 e'''16 b'16 d'''16 |
     a'16 c'''16 d''16 b''16 e''16 a''16 b''16 gis''16 a''16 e'16 a'16 c''16 e''16 a'16 c''16 e''16 |
     a''16 e''16 a''16 c'''16 e'''16 a''16 c'''16 e'''16 a'''2\fermata \bar "||"
-
  }
-
-
-corrente =  { 
-
-\clef treble 
-\key a \minor 
+corrente =  {
+\clef treble
+\key a \minor
 \time 3/4
     \repeat volta 2 {
     \partial 8
@@ -141,14 +132,10 @@ corrente =  {
     c''16 a'16 c''16 e''16 a''16 b''16 c'''16 a''16 e''16 a''16 b''16 gis''16 |
     a''16 e''16 f''16 d''16 c''16 a''16 b'16 gis''16 a'8\fermata
     }
-
-} 
-
-
-sarabande =  { 
-
-\clef treble 
-\key a \minor 
+}
+sarabande =  {
+\clef treble
+\key a \minor
 \time 3/4
    \repeat volta 2 {
     a'8 b'8 c''8 e''8 gis'8 a'8 |
@@ -200,14 +187,10 @@ sarabande =  {
     c'''16 b''16 a''16 gis''16   a''8[ e''8]   c''8[ b'16 a'16] |
     a'2.\fermata |
     }
-
-} 
-
-
-bouree =  { 
-
-\clef treble 
-\key a \minor 
+}
+bouree =  {
+\clef treble
+\key a \minor
 \time 2/4
      \repeat volta 2 {
     \partial 8
@@ -286,19 +269,14 @@ bouree =  {
     c''8 b'16 a'16 c''16 b'16 a'16 gis'16 |
     a'4.\fermata
     }
-
-} 
-
-
+}
 \book{
-
   \header {
   title = "Partita en La mineur"
   subtitle = "pour Flûte seule"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
   }
-  
   \paper {
     top-margin = 8\mm
     top-markup-spacing.basic-distance = #6
@@ -306,59 +284,36 @@ bouree =  {
     top-system-spacing.basic-distance = #12
     last-bottom-spacing.padding = #2
   }
-
-\score { 
-	\new Staff 
-
+\score {
+	\new Staff
     \allemande
 \midi {}
 \layout {}
-
 \header { piece = "1. Allemande"
 opus = "BWV 1013" }
-	} 
-
-
-
-
-
-\score { 
-	\new Staff 
-
+	}
+\score {
+	\new Staff
     \corrente
 \midi {}
 \layout {}
-
 \header { piece = "2. Courante"
 }
-	} 
-
-
-
-
-
-\score { 
+	}
+\score {
 	\new Staff
-
     \sarabande
-
 \midi {}
 \layout {}
-\header { piece = "3. Sarabande" 
+\header { piece = "3. Sarabande"
 }
-	} 
-\score { 
-	\new Staff 
-
+	}
+\score {
+	\new Staff
     \bouree
 \midi {}
 \layout {}
-
 \header { piece = "4. Bourée anglaise"
 }
-	} 
-
-
+	}
 }
-
-

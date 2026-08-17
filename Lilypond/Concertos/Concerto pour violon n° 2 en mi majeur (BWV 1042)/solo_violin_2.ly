@@ -1,6 +1,4 @@
-\version "2.16.0"
-%Solo violin, 2nd movement
-
+\version "2.24.0"
 soloViolinCa =  \relative c' {
     R2. * 6 |
     gis''2. ~ |
@@ -14,23 +12,18 @@ soloViolinCa =  \relative c' {
     e16 b32( a b16  e) e gis,32( fis gis16  b) b16 e,32( dis e16  gis) |
     bis4 ~ bis16 dis32( cis dis16  fis) fis dis( cis  bis) |
 }
-
 soloViolinCbLower = \context Staff  \relative c' {
-    % Apparently you can't put two lines on the same staff if both lines
-    % start with \stem(up|down|both directions.)
     cis'16 e32( dis e16  gis) gis cis32( bis cis16  gis) gis(  e) dis\trill(  cis)|
     \stemDown b4 ~ b16 gis'32( fis gis16  b) \stemNeutral b(  d) cis( d32  b) |
     cis16(  a) gis(  fis) fis( a32  fis) e16(  d) d( fis32  d) cis16\trill(  bis) |
     \stemDown bis4 \stemNeutral r8 fis' e16.\trill dis32 cis16( dis32  bis) |
 }
-
 soloViolinCbUpper = \context Staff  \relative c' {
     s2. |
     \stemUp eis'4 ~ eis16 s s8 s4 |
     s2. |
     \stemUp a8 gis s2 |
 }
-
 soloViolinCc =  \relative c' {
     cis'16 e32( dis e16  cis) a16 cis32( bis cis16  a) fis e' dis( e32  cis) |
     bis2\fermata r4 |
@@ -44,7 +37,6 @@ soloViolinCc =  \relative c' {
     b,8 ais\trill ~ ais16 ais32( b cis16  dis) e( fis32 gis  fis16) e |
     dis( e32 fis  dis16) cis b( dis32 cis  b16) fis dis fis32( e dis cis  b16) |
     b'2. |
-
     b16 cis32( b a16 b32  gis) a16 fis32( gis a16  cis) fis a32( gis fis16  dis16)|
     bis dis fis8 ~ fis16 a32( gis  a16) fis32(  dis) bis'8.\trill bis16 |
     cis e32( dis  e16) cis bis(  cis) fisis,(  gis) dis(  e) bis(  cis) |
@@ -67,7 +59,6 @@ soloViolinCc =  \relative c' {
     R2. * 6 |
     \bar "||"
 }
-
 soloViolinC =  {
     \soloViolinCa
     << \soloViolinCbLower \soloViolinCbUpper >>

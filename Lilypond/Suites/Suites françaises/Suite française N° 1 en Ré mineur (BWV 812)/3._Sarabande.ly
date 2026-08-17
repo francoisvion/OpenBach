@@ -1,28 +1,18 @@
-\version "2.20.0"
-
+\version "2.24.0"
 \include "italiano.ly"
-
-
-
 \paper {
   #(set-paper-size "a4")
 }
-
-
 staffOne = \change Staff = one
 staffTwo = \change Staff = two
-
 stsu = { \staffTwo \stemUp }
 sosn = { \staffOne \stemNeutral }
-
 right =  {
         \clef treble
         \key fa \major
         \time 3/4
-        % \partial 8
         \relative do''{
-\stemUp 
-
+\stemUp
   \new Voice = "melody" {
  \set PianoStaff.connectArpeggios = ##t
   << \relative do''
@@ -37,7 +27,6 @@ right =  {
         sol la16 sib la8 sol fa! mi\prall |
         re fa sib sol mib' dod |
         sold'\arpeggio la dod,2 |
-
       }
             \relative do' \new Voice {
         \voiceTwo
@@ -49,17 +38,12 @@ right =  {
         dod dod dod |
         re r4 sol |
         <la re>\arpeggio la2 |
-
-             
             }
   >>
-  
         }
          \repeat volta 2 {  }
-        
-        
         << { \voiceOne \relative do''
-             mi 4 mi <re fa>\arpeggio | 
+             mi 4 mi <re fa>\arpeggio |
              dod dod2 | do!4 do8 sib << { mib4( |
              mib8) re do fad\mordent sol\turn  la | }
                                         \\ { do,4 | s2. } >>
@@ -75,10 +59,7 @@ right =  {
              sib! sol' dod, sib la sol |
              fa sib sold la fa' mi |
              dod re re2 |
-             
-              } 
-             
-           
+              }
            \new Voice  \relative do''
            { \voiceTwo
              <la dod>4 <sol dod> <fa la>\arpeggio |
@@ -96,23 +77,15 @@ right =  {
              sol sol mi |
              re8 dod8 re4 la'8 sol |
              sol4 fad2\mordent |
-             
-    
            }
            >>
-
-
 }}
-
 left =  {
         \clef bass
         \key fa \major
         \time 3/4
-        % \partial 8
         \relative do{
-       \new Voice = "melody" {     
-         
-          
+       \new Voice = "melody" {
           << \relative do'
             { \voiceOne
               re4 re re |
@@ -131,7 +104,6 @@ left =  {
               s |
               r4 fad r |
               s2. |
-   
                   \stemUp sib,4 \stemDown sib' sib |
               la( la8) do sib la |
               \stemUp re8 si mi4 mi |
@@ -140,11 +112,9 @@ left =  {
               re mi la, |
               la8 sol s4 dod8 mi |
               mi re re2 |
-                         
             }
-            
             \new Voice  \relative do
-            { \voiceTwo 
+            { \voiceTwo
               re4 re re |
               re4. fa8 mi re |
               dod4 dod dod |
@@ -169,36 +139,23 @@ left =  {
               fa mi8 re dod4 |
               re8 mi fa re la'4 |
               <sib re,> <re, la'>2 |
-          
-    
             }
           >>
-
         }
-        
-            
-           
-                      
-
 \bar ":|."
 }}
-
 \score {
-
          \context PianoStaff << #(set-accidental-style 'piano)
                 \context Staff = "one" { \set Staff.extraNatural = ##t
                 \right
                  }
-
                 \context Staff = "two" { \set Staff.extraNatural = ##t
                 \left
                  }
-  >>  
+  >>
   \layout {
-  
          \context { \Staff
-       \override BarLine #'hair-thickness = #0.30
-  
+       \override BarLine.hair-thickness = #0.30
   }
   }
   \midi {
@@ -208,10 +165,7 @@ left =  {
     }
   }
     \header {
-
   piece = "3. Sarabande"
   tagline = ##f
 }
-  
-  
 }

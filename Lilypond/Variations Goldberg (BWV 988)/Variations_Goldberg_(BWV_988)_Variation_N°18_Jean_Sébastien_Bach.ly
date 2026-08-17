@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \paper {
     top-margin = 8\mm
     top-markup-spacing.basic-distance = #6
@@ -10,7 +9,6 @@
     ragged-bottom = ##f
     ragged-last-bottom = ##f
 }
-
 \header {
   title = "Variations Goldberg"
   subtitle = "Air avec 30 variations"
@@ -19,7 +17,6 @@
   opus = "BWV 988"
   tagline = ##f
 }
-
 adjTieDown = \shape #'((0 . -0.2) (0 . -0.3) (0 . -0.3) (0 . -0.2)) Tie
 adjTieUp = \shape #'((0 . 0.2) (0 . 0.3) (0 . 0.3) (0 . 0.2)) Tie
 adjTieOne = \shape #'(
@@ -27,11 +24,9 @@ adjTieOne = \shape #'(
                        ((0 . -1.0) (0 . -1.2) (0 . -1.2) (0 . -1.0))
                        ) Tie
 adjTieTwo = \shape #'((0 . -0.2) (0 . -0.3) (0 . -0.3) (0 . -0.2)) Tie
-
 soprano = \relative c''' {
 	\key g \major
 	\time 2/2
-
     \repeat volta 2 {
 		r2 g2 ~
 		g2 fis ~
@@ -49,7 +44,7 @@ soprano = \relative c''' {
 		e4 e \adjTieUp d2 ~
 		d4 g cis,8 d e4 ~
 		e2 d \break
-	}        
+	}
     \repeat volta 2 {
 		r2 a'2 ~
 		a2 g ~
@@ -69,11 +64,9 @@ soprano = \relative c''' {
 		a2 g
     }
 }
-
 alto = \relative c'' {
 	\key g \major
 	\time 2/2
-
     \repeat volta 2 {
 		b1
 		a2. b8 a
@@ -91,7 +84,7 @@ alto = \relative c'' {
 		fis2. b4
 		e,8 fis g2.
 		fis1
-	}        
+	}
     \repeat volta 2 {
 		c'1
 		b2. c8 d
@@ -111,12 +104,10 @@ alto = \relative c'' {
 		b1
     }
 }
-
 bass = \relative c' {
 	\clef bass
 	\key g \major
 	\time 2/2
-
     \repeat volta 2 {
 		r4 g8 a b4 c
 		d4 d, d'2
@@ -134,7 +125,7 @@ bass = \relative c' {
 		ais4 gis8 ais b a g fis
 		g4 e a a,
 		d a' d2
-	}        
+	}
     \repeat volta 2 {
 		r4 d8 e fis4 d
 		g4 g, g' a8 b
@@ -154,23 +145,15 @@ bass = \relative c' {
 		g d' g2
     }
 }
-
 #(set-global-staff-size 19)
-
 \score  {
     \context PianoStaff <<
         \set PianoStaff.midiInstrument = "harpsichord"
         \context Staff = "upper" { \clef treble << \soprano \\ \alto >>  }
         \context Staff = "lower" { \bass }
     >>
-
 	\midi { \tempo 2 = 96 }
- 
     \layout {
-			%%% for letter paper
-			%\context { \Score \override SpacingSpanner.spacing-increment = #1.0 }
-
-			%%% for a4 paper
 			\context { \Score \override SpacingSpanner.spacing-increment = #0.8 }
     }
 }

@@ -1,12 +1,9 @@
 \version "2.24.4"
-
 \paper {
   ragged-bottom = ##t
   ragged-last-bottom = ##t
 }
-
 #(set-global-staff-size 19)
-
 \header {
   title = "1. Canon simplex"
   subtitle = "sur les 8 premières notes fondamentales de l'aria des Variations Goldberg"
@@ -15,57 +12,53 @@
   opus = "BWV 1087"
   tagline = ##f
 }
-
      global= {
        \time 2/4
        \key g \major
      }
- 
      viola = \new Voice { \relative c'' {
        \set Staff.instrumentName = "Alto"
        \set Staff.midiInstrument = "viola"
        \clef alto
-       r4^\markup { Sujet } g4 | % 1
-	fis4 e | % 2
-	d4 b | % 3
-	c4 d | % 4
-	g,4 r4 | % 5
-	r2 | % 6
-	r2 | % 7
-	r2 | % 8
+       r4^\markup { Sujet } g4 |
+	fis4 e |
+	d4 b |
+	c4 d |
+	g,4 r4 |
+	r2 |
+	r2 |
+	r2 |
 	\break
-	r4 g'4 | % 9
-	fis4 e | % 10
-	d4 b | % 11
-	c4 d | % 12
-	g,4 g'4 | % 13
-	fis4 e | % 14
-	d4 b | % 15
-	c4 d | % 16
+	r4 g'4 |
+	fis4 e |
+	d4 b |
+	c4 d |
+	g,4 g'4 |
+	fis4 e |
+	d4 b |
+	c4 d |
 	g,2 \bar "|." }}
-
      cello = \new Voice { \relative c' {
        \set Staff.instrumentName = "Violoncelle"
        \set Staff.midiInstrument = "cello"
        \clef bass
-       r2 | % 1
-       r2 | % 2
-       r2 | % 3
-       r2 | % 4
-       r4 g,4 | % 5 
-       d'4 c | % 6
-       b4 d | % 7
-       e4 fis | % 8
-       g4 g,4 | % 9
-       d'4 c | % 10
-       b4 d | % 11
-       e4 fis | % 12
-       g4 g,4 | % 13
-       d'4 c | % 14
-       b4 d | % 15
-       e4 fis | % 16
+       r2 |
+       r2 |
+       r2 |
+       r2 |
+       r4 g,4 |
+       d'4 c |
+       b4 d |
+       e4 fis |
+       g4 g,4 |
+       d'4 c |
+       b4 d |
+       e4 fis |
+       g4 g,4 |
+       d'4 c |
+       b4 d |
+       e4 fis |
        g2  \bar "|."}}
-
      \score {
         \new StaffGroup <<
            \new Staff << \global \viola >>

@@ -1,6 +1,4 @@
-\version "2.16.0"
-%Viola, 1st movement
-
+\version "2.24.0"
 violaB =  \relative c' {
     f4. g8 a e cis r |
     r fis16 g a8 d, g16 fis g a g f e d |
@@ -23,7 +21,6 @@ violaB =  \relative c' {
     a d r a' ~ a16 d, e f g a bes! c |
     bes a bes a g8 g, e'16 cis d e f g a8 |
     a, d bes' a f4 r |
-    
     d8\p r e r f r r4 |
     bes,8 r fis' r g r r4 |
     r1 |
@@ -48,7 +45,6 @@ violaB =  \relative c' {
     d8 r e r f r r4 |
     r1 |
     r |
-
     e8\f c a4 b8 e gis4 |
     a8 e e' a, r a a, d |
     r f b, d r gis, e a |
@@ -94,4 +90,3 @@ violaB =  \relative c' {
     a' bes4 a16 g fis2^\fermata |
     \bar "|."
 }
-

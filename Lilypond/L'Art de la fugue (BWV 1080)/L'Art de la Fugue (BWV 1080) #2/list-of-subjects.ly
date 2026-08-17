@@ -1,13 +1,10 @@
 \include "./macros.ly"
-
 commonSettings = {
   \time 4/4
   \key d \minor
-  %\once\override Staff.TimeSignature.stencil = ##f
   \override Score.BarNumber.break-visibility = ##(#f #f #f)
   \override Staff.NoteHead.style = #'baroque
 }
-
 CommonSubjectI = {
   \commonSettings
   \label #'ListOfSubjects
@@ -65,7 +62,6 @@ CommonSubjectV = {
   | \red \red f2~ \red f8 \red e \red f \red g
   | \red a4 s
 }
-
 CommonSubjectVI = {
   \commonSettings
   | a'2^\markup \abs-fontsize #8 \italic  {
@@ -75,7 +71,6 @@ CommonSubjectVI = {
     \once\override Stem.length = #5 d,4. e8
   | f4. g8 a2 | bes a4. g8 | f2~ f8. e16 f8. g16 | a8 s4.
 }
-
 SubjectVIIIFirst = \relative {
   \commonSettings
   | r2^\markup \abs-fontsize #8 \italic { "first subject" }
@@ -94,9 +89,8 @@ SubjectVIIIThird = \relative {
   | r4^\markup \abs-fontsize #8 \italic {
       "third subject (an inverted and rhythmically abstracted version of the principal Art of Fugue theme)"
     }
-    \red a' \red d, e | r \red f g \red a | r \red bes \red a \red g | r \red { f8 e f4 g | a2 } % s
+    \red a' \red d, e | r \red f g \red a | r \red bes \red a \red g | r \red { f8 e f4 g | a2 }
 }
-
 SubjectIXFirst = {
   \commonSettings
   | r4^\markup \abs-fontsize #8 \italic {
@@ -112,13 +106,12 @@ SubjectIXSecond = {
     }
     a' | f d | cis d2*1/2 e | f1*1/2~ f4*1/2 g f e | d2*1/2 s1*1/2
 }
-
 SubjectXFirst = {
   \commonSettings
   | r4^\markup \abs-fontsize #8 \italic {
       "first subject"
     }
-    cis' d a | r f' e a | d,8 e f g a bes c4 | % c8 bes a g fis d g4
+    cis' d a | r f' e a | d,8 e f g a bes c4 |
 }
 SubjectXSecond = {
   \commonSettings
@@ -127,7 +120,6 @@ SubjectXSecond = {
     }
     d,4. e8 | f4. g8 a2 | bes a4. g8 | f2~ f8 e fis gis | a4 s2
 }
-
 SubjectXIFirst = {
   \commonSettings
   | r4^\markup \abs-fontsize #8 \italic {
@@ -152,7 +144,6 @@ SubjectXIThird = {
     r4 ees'~
   | ees8 d f f f e g g | g fis a a a gis b b | b a b cis d s4. | s2
 }
-
 SubjectXIIFirst = {
   \commonSettings
   | \time 3/2
@@ -168,7 +159,6 @@ SubjectXIISecond = {
     d'8^\markup \abs-fontsize #8 \italic { "second subject" }
     e f g a2~ a8 bes a g | f4 e d2. cis8 b | cis2 d2. e4 | f2. g4 f e | d2 s4
 }
-
 SubjectXIIIFirst = {
   \commonSettings
   | r2^\markup \abs-fontsize #8 \italic {
@@ -189,19 +179,18 @@ SubjectXIIISecond = {
   | \tuplet 3/2 { \red bes a g } \red a4~ \tuplet 3/2 { a8 g f } \tuplet 3/2 { \red g f e }
   | \red f8.[ a16 d8. a16] f8.[ \red e16 \red f8. \red g16] | \red a4
 }
-
 SubjectXIVFirst = {
   \commonSettings
   | s2^\markup \abs-fontsize #8 \italic { "first subject" }
     d'
-  | a'2. g4 | f1 | g | a | d,2 % s
+  | a'2. g4 | f1 | g | a | d,2
 }
 SubjectXIVSecond = {
   \commonSettings
   | s4^\markup \abs-fontsize #8 \italic { "second subject" }
     f'8 g f e d cis
   | d a d e f e d f | e a, e' f g f16 e f8 g | a g f g a2~ | a8[ g16 fis g8 a] bes2~ | bes8 a g f e d e g
-  | f s % s2.
+  | f s
 }
 SubjectXIVThird = {
   \commonSettings
@@ -209,7 +198,7 @@ SubjectXIVThird = {
       "third subject with the BACH motive (B-flat A C B)"
     }
     bes'
-  | a c | b4. cis8 d2~ | d4. cis16 b  cis2 | d % s
+  | a c | b4. cis8 d2~ | d4. cis16 b  cis2 | d
 }
 SubjectXIVFourth = {
   \commonSettings
@@ -218,7 +207,6 @@ SubjectXIVFourth = {
     }
   | s | s | s | s2
 }
-
 CanonI = {
   \commonSettings
   \time 9/16
@@ -287,7 +275,6 @@ CanonIVBass = {
   | e \red f4 \red g \noBreak
   | \red f8 s
 }
-
 \markup \fill-line {
   \center-column \abs-fontsize #18 \smallCaps \bold {
     \null
@@ -295,7 +282,6 @@ CanonIVBass = {
     \vspace #1
   }
 }
-
 \markup \fill-line {
   \center-column \abs-fontsize #12 \smallCaps \bold {
     \null
@@ -303,7 +289,6 @@ CanonIVBass = {
     \vspace #0.5
   }
 }
-
 \markup \line {
   \hspace #2
   \left-column {
@@ -323,10 +308,6 @@ CanonIVBass = {
         } \relative \CommonSubjectIV
       >>
       \layout {
-        %\context {
-        %  \Score
-        %  proportionalNotationDuration = #(ly:make-moment 1)
-        %}
         indent = #0
         line-width = #160
         #(layout-set-staff-size 12)
@@ -334,7 +315,6 @@ CanonIVBass = {
     }
   }
 }
-
 \markup \fill-line {
   \center-column \abs-fontsize #12 \smallCaps \bold {
     \null\null
@@ -342,7 +322,6 @@ CanonIVBass = {
     \vspace #0.5
   }
 }
-
 \markup \line {
   \hspace #1
   \left-column {
@@ -353,16 +332,11 @@ CanonIVBass = {
             \right-column { "V " \raise #1.8 \line { "VII " } }
           }
         } \relative \CommonSubjectV
-        % Contrapunctus VI
         \new Staff \with {
           instrumentName = \markup \abs-fontsize #8 \bold { "VI " }
         } \relative \CommonSubjectVI
       >>
       \layout {
-        %\context {
-        %  \Score
-        %  proportionalNotationDuration = #(ly:make-moment 1)
-        %}
         indent = #0
         line-width = #160
         #(layout-set-staff-size 12)
@@ -370,7 +344,6 @@ CanonIVBass = {
     }
   }
 }
-
 \markup \fill-line {
   \center-column \abs-fontsize #12 \smallCaps \bold {
     \null\null
@@ -378,8 +351,6 @@ CanonIVBass = {
     \vspace #0.5
   }
 }
-
-% Contrapunctus VIII
 \markup \line {
   \left-column {
     \score {
@@ -403,10 +374,6 @@ CanonIVBass = {
         >>
       >>
       \layout {
-        %\context {
-        %  \Score
-        %  proportionalNotationDuration = #(ly:make-moment 1)
-        %}
         indent = #0
         line-width = #160
         #(layout-set-staff-size 12)
@@ -414,8 +381,6 @@ CanonIVBass = {
     }
   }
 }
-
-% Contrapunctus IX
 \markup \line {
   \hspace #1.4
   \left-column {
@@ -437,10 +402,6 @@ CanonIVBass = {
         >>
       >>
       \layout {
-        %\context {
-        %  \Score
-        %  proportionalNotationDuration = #(ly:make-moment 1)
-        %}
         indent = #0
         line-width = #160
         #(layout-set-staff-size 12)
@@ -448,8 +409,6 @@ CanonIVBass = {
     }
   }
 }
-
-% Contrapunctus X
 \markup \line {
   \hspace #2.0
   \left-column {
@@ -471,10 +430,6 @@ CanonIVBass = {
         >>
       >>
       \layout {
-        %\context {
-        %  \Score
-        %  proportionalNotationDuration = #(ly:make-moment 1)
-        %}
         indent = #0
         line-width = #160
         #(layout-set-staff-size 12)
@@ -482,8 +437,6 @@ CanonIVBass = {
     }
   }
 }
-
-% Contrapunctus XI
 \markup \line {
   \hspace #1.4
   \left-column {
@@ -508,10 +461,6 @@ CanonIVBass = {
         >>
       >>
       \layout {
-        %\context {
-        %  \Score
-        %  proportionalNotationDuration = #(ly:make-moment 1)
-        %}
         indent = #0
         line-width = #160
         #(layout-set-staff-size 12)
@@ -519,9 +468,7 @@ CanonIVBass = {
     }
   }
 }
-
 \pageBreak
-
 \markup \fill-line {
   \center-column \abs-fontsize #12 \smallCaps \bold {
     \null\null
@@ -529,8 +476,6 @@ CanonIVBass = {
     \vspace #1
   }
 }
-
-% Contrapunctus XII
 \markup \line {
   \hspace #0.6
   \left-column {
@@ -552,10 +497,6 @@ CanonIVBass = {
         >>
       >>
       \layout {
-        %\context {
-        %  \Score
-        %  proportionalNotationDuration = #(ly:make-moment 1)
-        %}
         indent = #0
         line-width = #160
         #(layout-set-staff-size 12)
@@ -563,8 +504,6 @@ CanonIVBass = {
     }
   }
 }
-
-% Contrapunctus XIII
 \markup \line {
   \hspace #-0.2
   \left-column {
@@ -586,10 +525,6 @@ CanonIVBass = {
         >>
       >>
       \layout {
-        %\context {
-        %  \Score
-        %  proportionalNotationDuration = #(ly:make-moment 1)
-        %}
         indent = #0
         line-width = #160
         #(layout-set-staff-size 12)
@@ -597,7 +532,6 @@ CanonIVBass = {
     }
   }
 }
-
 \markup \fill-line {
   \center-column \abs-fontsize #12 \smallCaps \bold {
     \null\null
@@ -605,8 +539,6 @@ CanonIVBass = {
     \vspace #1
   }
 }
-
-% Contrapunctus XIV
 \markup \line {
   \hspace #0
   \left-column {
@@ -634,10 +566,6 @@ CanonIVBass = {
         >>
       >>
       \layout {
-        %\context {
-        %  \Score
-        %  proportionalNotationDuration = #(ly:make-moment 1)
-        %}
         indent = #0
         line-width = #160
         #(layout-set-staff-size 12)
@@ -646,7 +574,6 @@ CanonIVBass = {
   }
   \vspace #3
 }
-
 \markup \fill-line {
   \center-column \abs-fontsize #12 \smallCaps \bold {
     \null\null
@@ -654,7 +581,6 @@ CanonIVBass = {
     \vspace #0.5
   }
 }
-
 \markup \line {
   \hspace #3.8
   \left-column {
@@ -673,7 +599,6 @@ CanonIVBass = {
   }
   \vspace #2
 }
-
 \markup \line {
   \hspace #3
   \left-column {
@@ -692,7 +617,6 @@ CanonIVBass = {
   }
   \vspace #2
 }
-
 \markup \line {
   \hspace #2.2
   \left-column {
@@ -711,7 +635,6 @@ CanonIVBass = {
   }
   \vspace #2
 }
-
 \markup \line {
   \hspace #1
   \left-column {

@@ -1,4 +1,4 @@
-\version "2.23.1"
+\version "2.24.0"
 mystaffsize = #17.5
 %default settings page,font,layout
 \include "./_common/myLayout.ily"

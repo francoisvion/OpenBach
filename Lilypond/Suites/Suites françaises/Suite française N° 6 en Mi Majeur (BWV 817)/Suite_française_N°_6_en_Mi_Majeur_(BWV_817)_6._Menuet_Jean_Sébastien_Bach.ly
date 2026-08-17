@@ -1,7 +1,5 @@
 \version "2.24.4"
-
 \language "english"
-
 \header {
   title = "6. Menuet"
   subtitle = "Suite française N° 6"
@@ -9,9 +7,6 @@
   opus = "BWV 817"
   tagline = ##f
 }
-
-% Repeat 1
-
 highVoiceOne = \relative c'' {
   | gs8 fs e fs gs a
   | << { b4 ( cs ) b } \\ { gs4 a gs } >>
@@ -20,13 +15,10 @@ highVoiceOne = \relative c'' {
   | gs'8 fs e ds cs b
   | << { fs'4 ( gs ) fs } \\ { as,4 ( b ) as } >>
   | b8 ( as gs fs ) e' ( ds )
-  
   \barNumberCheck #8
-  
   | << { cs4 ( b2 ) } \\ { e,4 ( ds2 ) } >>
   |
 }
-
 lowVoiceOne = \relative c {
   | r2.
   | r8 e ds e e,4
@@ -35,15 +27,10 @@ lowVoiceOne = \relative c {
   | r2.
   | r8 e' ds e e, e'
   | ds4 e fs
-  
   \barNumberCheck #8
-  
   | r8 b as b b,4
   |
 }
-
-% Repeat two
-
 highVoiceTwo = \relative c'' {
   | ds8 cs b cs ds e
   | << { fs4 ( gs ) fs } \\ { ds4 ( e ) ds } >>
@@ -52,9 +39,7 @@ highVoiceTwo = \relative c'' {
   | e8 cs gs ( a b cs )
   | d8  b cs a b ds,
   | e8 gs fs a b cs
-  
   \barNumberCheck #16
-  
   | << { fs,2. } \\ { ds2. } >>
   | gs8 fs e fs gs a
   | << { b4 ( cs ) b } \\ { gs4 ( a ) gs } >>
@@ -63,13 +48,10 @@ highVoiceTwo = \relative c'' {
   | gs8 b e ( ds ) gs ( fs )
   | a8 gs fs e ds cs
   | b8 e << { gs,4 \trill fs8 e } \\ { e4 ds } >>
-  
   \barNumberCheck #24
-  
   | e2.
   |
 }
-
 lowVoiceTwo = \relative c' {
   | r2.
   | r8 b as b b,4
@@ -78,52 +60,44 @@ lowVoiceTwo = \relative c' {
   | r2.
   | r8 a' gs a a, a'
   | gs4 fs e
-  
   \barNumberCheck #16
-  
   | r8 b' a b b,4
   | r2.
   | r8 b' a b b,4
   | r2.
   | r8 b' a b b,4
-  | r2. 
+  | r2.
   | r8 b' a b b, a'
   | gs8 a b4 b,
-  
   \barNumberCheck #24
-  
   | << { r8 b' gs2 } \\ { e4. b8 e,4 } >>
   |
 }
-
-global = { 
+global = {
   \key e \major
   \time 3/4
   \accidentalStyle Score.piano-cautionary
 }
-
 upper = {
   \clef treble
   \global
   \new Voice { \repeat volta 2 \highVoiceOne }
   \new Voice { \repeat volta 2 \highVoiceTwo }
 }
-
 lower = {
   \clef bass
   \global
   \new Voice { \repeat volta 2 \lowVoiceOne }
   \new Voice { \repeat volta 2 \lowVoiceTwo }
 }
-
 \score {
   \new PianoStaff <<
     \new Staff = "upper" \upper
     \new Staff = "lower" \lower
   >>
-  \layout { 
-  } 
-  \midi { 
+  \layout {
+  }
+  \midi {
     \tempo 4 = 116
   }
 }

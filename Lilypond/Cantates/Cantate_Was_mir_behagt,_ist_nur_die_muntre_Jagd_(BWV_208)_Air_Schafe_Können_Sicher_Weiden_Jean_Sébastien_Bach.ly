@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title = "9. Air : Schafe Können Sicher Weiden"
   subtitle = "Cantate dite 'de La chasse'"
@@ -7,12 +6,10 @@
   opus = "BWV 208"
   tagline = ##f
 }
-
 fluteOne = \relative c'' {
 	\clef "treble"
 	\time 4/4
 	\key bes \major
-
 		f8 f16( d) f8 f16( d) f8( g) g( bes)
 	|	es,8 es16( c) es8 es16( c) es8( a) a( c)
 	|	bes8~ bes32( c d16) bes( d) c( f,) bes8~ bes32\p( c d16) bes( d) c( f,)
@@ -39,14 +36,12 @@ fluteOne = \relative c'' {
 	|	r1
 	|	r1
 	|	r1
-
 	|	r2 g8 g16( es) g8 g16( es)
 	|	g8( as) as( c) f,8 f16( d) f8 f16( d)
 	|	f8( b) b( d) c~ c32( d es16) c( es) d( g,)
 	|	c8~ c32\p( d es16) c( es) d( g,) c8 es32\f( f g16) es( c) d( b)
 	|	c8 es32\p( f g16) es( c) d( b) c4 r4
 	|	r1
-
 	|	r2 a8 a16( f) a8 a16( f)
 	|	a8( bes) bes( d) g,8 g16( e) g8 g16( e)
 	|	g8( cis) cis( e) a,8 a16( fis) a8 a16( fis)
@@ -61,12 +56,10 @@ fluteOne = \relative c'' {
 	\once \override Score.RehearsalMark #'self-alignment-X = #RIGHT
 	\mark \markup { \italic { Da Capo. } }
 }
-
 fluteTwo = \relative c'' {
 	\clef "treble"
 	\time 4/4
 	\key bes \major
-
 		d8 d16( bes) d8 d16( bes) d8( es) es( g)
 	|	c,8 c16( a) c8 c16( a) c8( es) c( es)
 	|	d8~ d32( es f16) d( f) es( c) d8~ d32\p( es f16) d( f) es( c)
@@ -92,14 +85,12 @@ fluteTwo = \relative c'' {
 	|	r1
 	|	r1
 	|	r1
-
 	|	r2 es8 es16( c) es8 es16( c)
 	|	es8( f) f( as) d,8 d16( b) d8 d16( b)
 	|	d8( f) d( f) es~ es32( f g16) es( g) f( d)
 	|	es8~ es32\p( f g16) es( g) f( d) es8 c'32\f( d es16) c( es,) f( g)
 	|	es8 c'32\p( d es16) c( es,) f( g) es4 r4
 	|	r1
-
 	|	r2 f8 f16( d) f8 f16( d)
 	|	f8( g) g( bes) bes,8 bes16( g) bes8 bes16( g)
 	|	e'8( g) e( g) es8 es16( c) fis8 fis16( d)
@@ -111,12 +102,10 @@ fluteTwo = \relative c'' {
 	|	r1
 	\bar "|."
 }
-
 pales = \new Voice = "pales" \relative c'' {
 	\clef "treble"
 	\time 4/4
 	\key bes \major
-
 		r1
 	|	r1
 	|	r1
@@ -125,7 +114,6 @@ pales = \new Voice = "pales" \relative c'' {
 	|	es4 g8( f) d4\trill c8( bes)
 	|	d( bes) a( g) c4. d8
 	|	a4 g8( f) f2
-
 	|	f4 aes8( g) g4. a8
 	|	bes4 d8( c) a4 g8( f)
 	|	f'4 g8( f) f( d) c( bes)
@@ -138,7 +126,6 @@ pales = \new Voice = "pales" \relative c'' {
 	|	r1
 	|	r1
 	|	r1
-
 	|	d4 g fis4. g8
 	|	es4 d bes\trill a8 g
 	|	c4 d8( b) c4. d8
@@ -148,7 +135,6 @@ pales = \new Voice = "pales" \relative c'' {
 	|	r1
 	|	r1
 	|	r1
-
 	|	r2 g4 bes8( a)
 	|	bes4. d8 c4 bes8( a16 bes)
 	|	a4 g8 f f'4 e8 d
@@ -162,55 +148,42 @@ pales = \new Voice = "pales" \relative c'' {
 	|	a4 g8 f f2
 	\bar "|."
 }
-
 palesWords = \new Lyrics \lyricsto "pales" {
-	% worth mentioning that barcheck resets for some reason if
-	% lyric doesn't align to first beat of bar, so you need to
-	% omit the bar symbol.
-
 		Scha -- fe kön -- nen
 	|	si -- cher wei -- den,
 	|	wo ein gu -- ter
 	|	Hir -- te wacht,
-
 		Scha -- fe kön -- nen
 	|	si -- cher wei -- den,
-
 		Scha -- fe kön -- nen
 	|	si -- cher wei -- den,
 	|	wo ein gu -- ter
 	|	Hir -- te wacht,
-
 		wo ein
 	|	gu -- ter Hir -- te _
 	|	wacht.
-
 		Wo Re -- gen -- ten
 	|	wohl re -- gie -- ren, _
 	|	kann man Ruh' und
 	|	Frie -- den spü -- ren,
 	|	und was Län -- der
 	|	glück -- lich macht,
-
 		wo Re --
 	|	gen -- ten wohl re --
 	|	gie -- ren, _ kann man _
 	|	Ruh' und Frie -- _ _ den _
 	|	spü -- ren, Ruh'
-
-		und Frie -- 
+		und Frie --
 		den, Ruh'
 		und Frie --
 		den spü -- ren,
 	|	und was -- Län -- _ der
 	|	glück -- lich _ macht.
 }
-
 continuo = \relative c {
 	\clef "bass"
 	\time 4/4
 	\key bes \major
-
 		bes8( bes bes bes)
 		bes( bes bes bes)
 	|	bes( bes bes bes)
@@ -218,7 +191,6 @@ continuo = \relative c {
 	|	bes'( bes a a)
 		g( g f f)
 	|	es( es f f) g f16 es f8 f,
-
 	|	bes( bes bes' bes)
 		bes( bes bes bes)
 	|	a( a a a)
@@ -227,12 +199,10 @@ continuo = \relative c {
 		bes( bes a bes)
 	|	c( c c c)
 		f( f es es)
-
 	|	d( d bes bes)
 		es( es d d)
 	|	c( c c c)
 		f( f es es)
-
 	|	d( d es es)
 		bes( bes c c)
 	|	d( d es es)
@@ -241,7 +211,6 @@ continuo = \relative c {
 		bes, c d es
 	|	f( f f, f)
 		bes( bes bes bes)
-
 	|	bes( bes bes bes)
 		bes( bes a a)
 	|	bes( bes es es)
@@ -253,7 +222,6 @@ continuo = \relative c {
 	|	bes'( bes a a)
 		g( g f f)
 	|	es( es f f) g f16 es f8 f,
-
 		\once \override Script #'padding = #1
 	|	bes8_\fermata( bes bes' bes) a( a bes bes)
 	|	c( c d d) g,( g f f)
@@ -261,7 +229,6 @@ continuo = \relative c {
 	|	c( c b b) c( c d d)
 	|	es( es f f) f( f es f)
 	|	g( g g, g) c( c c c)
-
 	|	c( c c c) c( c c c)
 	|	c( c c c) c'( c bes bes)
 	|	as( as g g) f( f g g)
@@ -277,7 +244,6 @@ continuo = \relative c {
 	|	g( g g g) a( a bes bes)
 	|	c c c, c f2
 }
-
 \book {
 	\bookOutputName "Score"
 	\score {
@@ -294,7 +260,6 @@ continuo = \relative c {
 			\fluteTwo
 		}
 		>>
-
 		\new Staff {
 			\set Staff.instrumentName = \markup \center-column {
 				\bold "Pales"
@@ -304,13 +269,11 @@ continuo = \relative c {
 			\pales
 		}
 		\palesWords
-
 		\new Staff {
 			\set Staff.instrumentName = "Continuo"			\set Staff.shortInstrumentName = #"C."
 			\continuo
 		}
 		>>
-
 		\layout {
 			indent = 2\cm
 			short-indent = 1\cm
@@ -323,71 +286,3 @@ continuo = \relative c {
 		\midi { }
 	}
 }
-
-% The following can be used to produce individual parts if desired.
-% Not 100% happy with their formatting, so left commented out to be
-% possibly fixed up later.
-
-%{
-\book {
-	\bookOutputName "Flute"
-	\score {
-		\new GrandStaff <<
-		\new Staff {
-			\set Staff.instrumentName = #"Flute 1"
-			\fluteOne
-		}
-		\new Staff {
-			\set Staff.instrumentName = #"Flute 2"
-			\fluteTwo
-		}
-		>>
-
-		\layout {
-			\context {
-				\Score
-				\override SpacingSpanner
-					#'common-shortest-duration = #(ly:make-moment 1 8)
-			}
-		}
-
-	}
-	\header {
-		piece = "Arie"
-		instrument = "Flutes"
-	}
-}
-
-\book {
-	\bookOutputName "Pales"
-	\score {
-		<<
-			\pales
-			\palesWords
-		>>
-		\layout {
-			\context {
-				\Score
-				\override SpacingSpanner
-					#'common-shortest-duration = #(ly:make-moment 1 16)
-			}
-		}
-
-	}
-	\header {
-		piece = "Arie"
-		instrument = "Pales"
-	}
-}
-
-\book {
-	\bookOutputName "Continuo"
-	\score {
-		\continuo
-	}
-	\header {
-		piece = "Arie"
-		instrument = "Continuo"
-	}
-}
-%}

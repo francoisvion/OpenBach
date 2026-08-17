@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.27.0"
 
 #(ly:set-option 'old-relative)
 
@@ -142,7 +142,7 @@ voicetwo =  \relative c {
   \midi {
     \context {
       \Score
-      tempoWholesPerMinute = #(ly:make-moment 90 4)
+      tempoWholesPerMinute = #90/4
       }
     }
 }

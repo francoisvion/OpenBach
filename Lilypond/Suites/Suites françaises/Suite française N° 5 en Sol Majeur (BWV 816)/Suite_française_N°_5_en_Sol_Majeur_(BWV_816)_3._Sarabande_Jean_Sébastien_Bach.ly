@@ -1,5 +1,4 @@
-\version "2.11.46"
-
+\version "2.24.0"
 \header {
   title = "3. Sarabande"
   subtitle = "Suite française N° 5"
@@ -7,29 +6,25 @@
   opus = "BWV 816"
   tagline = ##f
 }
-
 Global = {
-   
    \key g \major
    \time 3/4
 }
-
 noCut = {
-   \override Grace.Stem   #'stroke-style = #'()
+   \override Grace.Flag.stroke-style = #'()
 }
-
 VoiceI =  \relative c'' {
    \repeat volta 2 {
       b4.\mordent  c8[ a8.\prall g16]
       d'4 \grace {
-\override Stem   #'stroke-style = #"grace"
+\override Flag.stroke-style = #"grace"
   \noCut d
-  \revert Stem #'stroke-style }
+  \revert Flag.stroke-style }
  e2\mordent
       \grace {
-\override Stem   #'stroke-style = #"grace"
+\override Flag.stroke-style = #"grace"
   \noCut g,8
-  \revert Stem #'stroke-style }
+  \revert Flag.stroke-style }
 fis4.  c'8[ b\mordent a]
       a2.
       fis'4.\mordent   g8[ e8.\prall d16]
@@ -42,9 +37,9 @@ fis4.  c'8[ b\mordent a]
       cis4.\prall b8 a4
       g16\prall fis g8 e'4. d16 cis
       g'8 fis16 e a8. fis16 \grace {
-\override Stem   #'stroke-style = #"grace"
+\override Flag.stroke-style = #"grace"
   \noCut e8
-  \revert Stem #'stroke-style }
+  \revert Flag.stroke-style }
  d4~
       d8. b16 cis4.\trill d8
       d2.
@@ -56,31 +51,31 @@ fis4.  c'8[ b\mordent a]
       c4. b8 a4
       c'4. b16 a b8. e,16
       \grace {
-\override Stem   #'stroke-style = #"grace"
+\override Flag.stroke-style = #"grace"
   \noCut e8
-  \revert Stem #'stroke-style }
+  \revert Flag.stroke-style }
  dis4.\prall e16 fis b,8. a'16
       g8. fis16 dis4.\trill e8
       e2.
       b4.\mordent  c8[ a8.\prall g16]
       f'4\mordent \grace {
-\override Stem   #'stroke-style = #"grace"
+\override Flag.stroke-style = #"grace"
   \noCut f
-  \revert Stem #'stroke-style }
+  \revert Flag.stroke-style }
  e2
       d8. c32 b a'8. g16 f e d c
       e4 d16\prall c d8 c4
       \grace {
-\override Stem   #'stroke-style = #"grace"
+\override Flag.stroke-style = #"grace"
   \noCut b8
-  \revert Stem #'stroke-style }
+  \revert Flag.stroke-style }
  a4.  b8[ g8.\prall fis16]
       d'4 \grace {
-\override Stem   #'stroke-style = #"grace"
+\override Flag.stroke-style = #"grace"
   \noCut d
-  \revert Stem #'stroke-style }
+  \revert Flag.stroke-style }
  e2\mordent
-      d,16 e fis g a b c a \times 2/3 { b[ a g]} \times 2/3 { a[ g fis]}
+      d,16 e fis g a b c a \tuplet 3/2 { b[ a g]} \tuplet 3/2 { a[ g fis]}
       g4 fis8.\prall e16 d4
       d'4.\mordent e8 c8.\prall b16
       e4 fis4.\upprall e16 fis
@@ -88,11 +83,10 @@ fis4.  c'8[ b\mordent a]
       fis4.\prall e8 d4
       c16\prall b c8 fis,4. g16 a
       d,8 e16 fis g a b c d g fis e
-      \times 2/3 { d[ c b]} \times 2/3 { e[ d c]} b4 a8.\prall g16
+      \tuplet 3/2 { d[ c b]} \tuplet 3/2 { e[ d c]} b4 a8.\prall g16
       g2.
    }
 }
-
 VoiceII =  \relative c' { \voiceOne
    \repeat volta 2 {
       r4 g2~
@@ -138,7 +132,6 @@ VoiceII =  \relative c' { \voiceOne
       c b16 a b4 r
    }
 }
-
 VoiceIII =  \relative c { \voiceTwo
    \repeat volta 2 {
       g2 e'4
@@ -151,7 +144,7 @@ VoiceIII =  \relative c { \voiceTwo
       r4 d g,
       g'2.~
       g8 g fis2~
-      fis8 fis e d cis b 
+      fis8 fis e d cis b
       a2 r8 d8~
       d d cis4. b8
       a4. g8 fis4~
@@ -185,7 +178,6 @@ VoiceIII =  \relative c { \voiceTwo
       g4. g8 g,4
    }
 }
-
 \score {
    \context PianoStaff <<
       \context Staff = Upper <<
@@ -201,12 +193,5 @@ VoiceIII =  \relative c { \voiceTwo
       >>
    >>
    \layout { }
-   
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 84 4) } }
-
-
+  \midi { \tempo 4 = 84 }
 }
- 
-
-
-

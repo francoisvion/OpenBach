@@ -1,4 +1,4 @@
-\version "2.6.4"
+\version "2.24.0"
 \include "deutsch.ly"
 \include "global.ly"
 \include "triolen.ly"

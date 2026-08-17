@@ -1,25 +1,16 @@
-\version "2.20.0"
-
+\version "2.24.0"
 \include "italiano.ly"
-
-
-
 \paper {
   #(set-paper-size "a4")
 }
-
-
 staffOne = \change Staff = one
 staffTwo = \change Staff = two
-
 stsu = { \staffTwo \stemUp }
 sosn = { \staffOne \stemNeutral }
-
 right =  {
         \clef treble
         \key fa \major
         \time 3/4
-        % \partial 8
        \relative do'' {
        \stemUp re8 fa sib mi, fa\mordent la |
        sib, re sol dod, re fa |
@@ -50,22 +41,14 @@ right =  {
        re)^( |
        re4) fa8 mi re dod |
        re2.\mordent
-       
-  
-
-
        }
        }
-
 left =  {
         \clef bass
         \key fa \major
         \time 3/4
-        % \partial 8
         \relative do{
-       \new Voice = "melody" {     
-         
-          
+       \new Voice = "melody" {
           << \relative do'
             { \voiceOne
               \staffOne \stemDown fa4 sol_\trill la |
@@ -93,12 +76,9 @@ left =  {
               do8 sib la sol la4 |
               fa sol mi |
               re2. |
-
-                         
             }
-            
             \new Voice  \relative do
-            { \voiceTwo 
+            { \voiceTwo
               re'2.( |
               re) |
               sib |
@@ -124,36 +104,23 @@ left =  {
               re, sol sib mi, fa la |
               \stemUp sib,4 sol la |
               << { re2. } \\ { re,2.} >> |
-
-     
             }
           >>
-
         }
-            %reprise
-            
-           
-                      
-
 \bar ":|."
 }}
-
 \score {
-
          \context PianoStaff << #(set-accidental-style 'piano)
                 \context Staff = "one" { \set Staff.extraNatural = ##t
                 \right
                  }
-
                 \context Staff = "two" { \set Staff.extraNatural = ##t
                 \left
                  }
-  >>  
+  >>
   \layout {
-  
          \context { \Staff
-       \override BarLine #'hair-thickness = #0.30
-  
+       \override BarLine.hair-thickness = #0.30
   }
   }
   \midi {
@@ -163,10 +130,7 @@ left =  {
     }
   }
     \header {
-
   piece = "4. Menuet 1"
   tagline = ##f
 }
-  
-  
 }

@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title = "22. Musette en ré majeur"
   subtitle = "Petit Livre de notes d'Anna Magdalena Bach"
@@ -8,12 +7,10 @@
   composer =	"Jean Sébastien Bach(1685-1750)"
   tagline = ##f
 }
-
 voiceone =  \relative c'' {
   \clef "treble"
   \key d \major
   \time 2/4
-
   \repeat "volta" 2 {
     a'4  g16[ fis e d] |
     a'4  g16[ fis e d] |
@@ -39,12 +36,10 @@ voiceone =  \relative c'' {
      cis16[ d e8] a,4 |
   }
 }
-
 voicetwo =  \relative c, {
   \clef "bass"
   \time 2/4
   \key d \major
-
   \repeat "volta" 2 {
      d8[ d']  d,[ d']
      d,[ d']  d,[ d'] |
@@ -70,9 +65,8 @@ voicetwo =  \relative c, {
      cis16[ d e8] a,4 |
   }
 }
-  
 \score {
-   \context GrandStaff << 
+   \context GrandStaff <<
     \context Staff = "one" <<
       \voiceone
     >>
@@ -80,9 +74,7 @@ voicetwo =  \relative c, {
       \voicetwo
     >>
   >>
-
   \layout{}
-  
   \midi {
     \tempo 4 = 120
     }

@@ -1,4 +1,4 @@
-\version "2.8.0"
+\version "2.24.0"
 
 \include "contrapunctusXVI.ly"
 
@@ -7,6 +7,11 @@
 \score{<<	
 	\keepWithTag #'inversus \music
 	>>
-	\midi{\tempo 4=110}
+	
+  \midi {
+    \tempo 4 = 110
+    }
+
+
 }
 

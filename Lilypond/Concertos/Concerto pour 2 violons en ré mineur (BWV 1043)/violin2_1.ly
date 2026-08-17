@@ -1,8 +1,5 @@
-\version "2.16.0"
-%Violin 2, 1st movement
-
+\version "2.24.0"
 violinCB =  \relative c' {
-    
     d16 e f g a8 d cis a e g |
     fis d c'!4. b16 a b8 g |
     e g bes! d, cis a' d, g |
@@ -11,7 +8,6 @@ violinCB =  \relative c' {
     e16 d cis b cis a b cis d2 ~ |
     d16 c! b c d e f d e f e d c b! a gis |
     a8 a'4 gis8 a a,16 gis a b c a |
-    %9
     b a b c b cis d b cis! b cis d cis d e cis |
     d8 a' r f e16 d cis b cis a b cis |
     d2 ~ d16 c! d e d f! e d |
@@ -20,13 +16,11 @@ violinCB =  \relative c' {
     a16 b cis d e8 g fis d a c |
     b g f'!4. e16 d e8 c |
     a c es g, fis d' g, c |
-    %17
     bes!4 a g r8 e |
     a2 ~ a16 gis a b cis d e cis |
     d bes! a g a fis g a d,8 g d'4 ~ |
     d8 cis16 d e f g8 ~ g16 e f g a8 e ~ |
     e d4 cis8 d4 r |
-
     a8\p r a r a r r4 |
     g8 r a r bes r r4 |
     r1 |

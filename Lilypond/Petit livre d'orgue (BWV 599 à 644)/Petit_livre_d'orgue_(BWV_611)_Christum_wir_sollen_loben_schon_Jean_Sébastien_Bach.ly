@@ -1,6 +1,12 @@
-\version "2.24.4"
+\version "2.27.0"
 
-\include "deutsch.ly"
+\language "deutsch"
+
+\paper {
+  #(set-paper-size "a4landscape")
+  ragged-bottom = ##f
+  ragged-last-bottom = ##t
+}
 
 \header {
  title = "Christum wir sollen loben schon"
@@ -10,28 +16,20 @@
  tagline = ##f
 }
 
-
-
 global = {
    \key a \minor
    \time 4/4
    #(set-accidental-style 'default)
-   \override Score.MetronomeMark #'transparent = ##t
+   \override Score.MetronomeMark.transparent = ##t
 }
 
-\paper {
-   ragged-bottom = ##f
-   ragged-last-bottom = ##t
-}
-
-#(set-default-paper-size "a4" 'landscape)
 #(set-global-staff-size 18)
 
 halsup        = { \stemUp \tieUp }
 halsdown      = { \stemDown \tieDown }
 halsneutral   = { \stemNeutral \tieNeutral }
-shifttiedown  = { \once \override Tie #'extra-offset = #'( 0 . -0.5 ) }
-shifttieup    = { \once \override Tie #'extra-offset = #'( 0 . 0.5 ) }
+shifttiedown  = { \once \override Tie.extra-offset = #'( 0 . -0.5 ) }
+shifttieup    = { \once \override Tie.extra-offset = #'( 0 . 0.5 ) }
 staffup       = { \change Staff = "right" \halsdown }
 staffdown     = { \change Staff = "left" \halsup }
 
@@ -55,9 +53,12 @@ sopran = {
       b8. a16 g f e d cis h! a8~ a16 h gis a
       h16 a gis a h c! d e c h a h c d e f
       %% Takt 15 =============================================
-      gis,16[ a32 h a8~] a16[ h32 a gis h d16] c8.[ d32 c] \tempo 4=30
-          <<  \new Voice { \stemUp h16[ \tempo 4=22 e32 \tempo 4=18 dis \tempo 4=8 e8]^\fermata }
-              \new Voice { \stemDown h4 } >>
+      gis,16[ a32 h a8~] a16[ h32 a gis h d16] c8.[ d32 c] 
+      <<  
+          { \stemUp \tempo 4=30 h16[ \tempo 4=22 e32 \tempo 4=18 dis \tempo 4=8 e8]^\fermata }
+          \\ 
+          { \stemDown h4 } 
+      >>
    }
 }
 
@@ -77,7 +78,7 @@ alt = {
       a!8. b16 c4 g8. f16 e4~
       %% Takt 10 =============================================
       e8. f16 g4 a2
-      d,4~ d8. e16 \shifttiedown f4~ \once \override Stem #'details #'beamed-lengths = #'( 3.9 ) f8. g16
+      d,4~ d8. e16 \shifttiedown f4~ \once \override Stem.details.beamed-lengths = #'( 3.9 ) f8. g16
       a8. b16 c4~ c8. b16 a4
       g8. f16 e8. f16 g4 f
       e1~
@@ -93,11 +94,11 @@ tenor = {
       r8  d8. \set stemRightBeamCount = #2 \set stemLeftBeamCount = #1 e16 \set stemLeftBeamCount = #2 f g a b a g f e d cis
       d8[ b'] a g16 f e d' cis h a g f e
       d16 cis d e f g a h c!8 h16 a gis h c d
-      e8 d16 c h8 e~ e16 d c h \once \override Stem #'details #'beamed-lengths = #'( 4.8 ) a8 \clef "treble" a'~ \revert Stem #'details #'beamed-lengths
+      e8 d16 c h8 e~ e16 d c h \once \override Stem.details.beamed-lengths = #'( 4.8 ) a8 \clef "treble" a'~ \revert Stem.details.beamed-lengths
       %% Takt 5 ==============================================
       a16 g f e d8. d16 e d c h! \clef "bass" c4~
       c16 e, f g a h c d e c f8~ f16 e d c
-      h16 e d c h a g f \once \override Stem #'details #'beamed-lengths = #'( 5.3 ) e \clef "treble" f' e d \revert Stem #'details #'beamed-lengths c b' a g
+      h16 e d c h a g f \once \override Stem.details.beamed-lengths = #'( 5.3 ) e \clef "treble" f' e d \revert Stem.details.beamed-lengths c b' a g
       f16 e d e f d g8~ g16 c, f8~ f16[ e32 d e8]
       f8. g16 a8 c,~ c16 f e d \clef "bass" c8~ g~
       %% Takt 10 =============================================
@@ -114,15 +115,15 @@ tenor = {
 right = {
    \clef treble
    <<
-   \alt
-   \sopran
+     \alt
+     \sopran
    >>
 }
 
 left = {
    \clef bass
    <<
-   \tenor
+     \tenor
    >>
 }
 
@@ -147,56 +148,53 @@ pedal = {
       f4~ f8. g16 a8. b16 c4~
       c8[ e8.] d16 cis h! a8[ d8.] c16 h a
       <<
-         \new Voice \relative d    { \stemUp r8 d8. \set stemLeftBeamCount = #1 \set stemRightBeamCount = #2 e16 \set stemLeftBeamCount = #2 fis gis a2
-                                     \stemDown r4 \stemUp e,2._\fermata }
-         \new Voice \relative gis, { \stemDown gis4 e r8 a8. \set stemLeftBeamCount = #1 \set stemRightBeamCount = #2 h16 \set stemLeftBeamCount = #2 c d
-                                     e1 }
+         { \stemUp r8 d8. \set stemLeftBeamCount = #1 \set stemRightBeamCount = #2 e16 \set stemLeftBeamCount = #2 fis gis a2 \stemDown r4 \stemUp e,2._\fermata }
+         \\
+         { \stemDown gis,4 e r8 a8. \set stemLeftBeamCount = #1 \set stemRightBeamCount = #2 h16 \set stemLeftBeamCount = #2 c d e1 }
       >> \bar "|."
    }
 }
 
-
+% --- Partition d'affichage ---
 \score {
    <<
-      \new PianoStaff {
-         <<
-            \context Staff = right {
-               \context Voice = right \right
-            }
-            \context Staff = left {
-               \context Voice = left \left
-            }
-         >>
-      }
+      \new PianoStaff <<
+         \context Staff = right {
+            \context Voice = right \right
+         }
+         \context Staff = left {
+            \context Voice = left \left
+         }
+      >>
       \context Staff = pedal {
          \context Voice = pedal \pedal
       }
    >>
-
    \layout{
       \context {
-         \PianoStaff \override VerticalAxisGroup #'minimum-Y-extent = #'(-3 . 4)
+         \PianoStaff
+         \override VerticalAxisGroup.staff-staff-spacing.basic-distance = #10
       }
       \context {
-         \Staff      \override VerticalAxisGroup #'minimum-Y-extent = #'(-3 . 3)
+         \Staff
+         \override VerticalAxisGroup.staff-staff-spacing.basic-distance = #8
       }
    }
 }
 
+% --- Génération du fichier MIDI ---
 \score {
    <<
-      \new PianoStaff {
-         <<
-            \context Staff = right {
-               \set Staff.midiInstrument = "church organ"
-               \right
-            }
-            \context Staff = left {
-               \set Staff.midiInstrument = "church organ"
-               \left
-            }
-         >>
-      }
+      \new PianoStaff <<
+         \context Staff = right {
+            \set Staff.midiInstrument = "church organ"
+            \right
+         }
+         \context Staff = left {
+            \set Staff.midiInstrument = "church organ"
+            \left
+         }
+      >>
       \context Staff = cf {
          \set Staff.midiMaximumVolume = #0.5
          \set Staff.midiInstrument = "recorder"
@@ -212,9 +210,6 @@ pedal = {
       }
    >>
    \midi {
-      \context {
-         \Score
-         tempoWholesPerMinute = #(ly:make-moment 44 4)
-      }
+      \tempo 4 = 44
    }
 }

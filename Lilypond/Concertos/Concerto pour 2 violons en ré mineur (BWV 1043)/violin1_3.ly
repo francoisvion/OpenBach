@@ -1,9 +1,6 @@
-\version "2.16.0"
-%Violin 1, 3rd movement
-
+\version "2.24.0"
 violinBD =  \relative c' {
     \partial 8
-    
     d'16 cis |
     d8 r r d16 cis d8 r |
     r bes16 a bes8 r r cis16 a |
@@ -161,4 +158,3 @@ violinBD =  \relative c' {
     d4^\fermata r r |
     \bar "|."
 }
-

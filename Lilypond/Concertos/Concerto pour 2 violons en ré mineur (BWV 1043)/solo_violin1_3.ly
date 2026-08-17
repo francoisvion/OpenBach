@@ -1,9 +1,6 @@
-\version "2.16.0"
-%Solo Violin 1, 3rd movement
-
+\version "2.24.0"
 soloViolinBD =  \relative c' {
     \partial 8
-    
     d'16 cis |
     d a bes g a f g e f d e cis |
     d8 bes' bes a ~ a16 b cis a |
@@ -15,25 +12,23 @@ soloViolinBD =  \relative c' {
     d16 b cis8 r4 r8 a'16 gis |
     a e f d e cis d b cis a cis e |
     g e f d e cis d b cis a cis e |
-    \times 2/3 { f( es  d) } es8 ~ \times 2/3 {  es16[( d  cis)] } d8 ~
+    \tuplet 3/2 { f( es  d) } es8 ~ \tuplet 3/2 {  es16[( d  cis)] } d8 ~
 		d16 bes' cis, d |
-    %12
-    cis a e cis a8 \times 2/3{ e'16( f  g) }
-		\times 2/3 {  g[( a  b)]  b[( cis  d)] } |
-    d a f d a8 \times 2/3 { f'16( g  a) }
-		\times 2/3 {  a[( b  cis)]  cis[( d  e)] } |
-    e cis g e a,8 \times 2/3 { a'16( b  cis) }
-		\times 2/3{  cis[( d  e)]  e[( f  g)] } |
+    cis a e cis a8 \tuplet 3/2{ e'16( f  g) }
+		\tuplet 3/2 {  g[( a  b)]  b[( cis  d)] } |
+    d a f d a8 \tuplet 3/2 { f'16( g  a) }
+		\tuplet 3/2 {  a[( b  cis)]  cis[( d  e)] } |
+    e cis g e a,8 \tuplet 3/2 { a'16( b  cis) }
+		\tuplet 3/2{  cis[( d  e)]  e[( f  g)] } |
     f-. d( cis  d) es-. d( cis  d)
-		\times 2/3 {  bes[( cis  d)]  g,[( cis  d)] } |
+		\tuplet 3/2 {  bes[( cis  d)]  g,[( cis  d)] } |
     a-. d( cis  d) f-. d( cis  d)
-		\times 2/3 {  a[( cis  d)]  f,[( cis'  d)] } |
+		\tuplet 3/2 {  a[( cis  d)]  f,[( cis'  d)] } |
     g,-. d'( cis  d) bes'-. d,( cis  d)
-		\times 2/3 {  g,[( cis  d)]  e,[( cis'  d)] } |
+		\tuplet 3/2 {  g,[( cis  d)]  e,[( cis'  d)] } |
     f,8 a d f \appoggiatura a gis8.(\trill fis32 gis) |
      a8[ e f d a cis] |
     d16 a bes g a f g e f d e cis |
-    %21
     d8 a'16^"solo" g a8 f' cis d |
     r g,16 f g8 e' ~ e16 d cis d |
     e d cis b a g bes8 ~ bes a ~ |
@@ -50,7 +45,6 @@ soloViolinBD =  \relative c' {
     e g, c e a,8 a' ~ a16 f g e |
     f a, d f bes,8 bes' ~ bes16 g a f |
     g c, e g c,8 c' ~ c16 a bes g |
-    %37
     a c, d bes c a bes g a f g e |
     f8 d' d c ~ c16 d e c |
     f e f8 ~ f16 g a g bes(  a) g(  f) |
@@ -62,7 +56,6 @@ soloViolinBD =  \relative c' {
     <d c'> q <d b'> q q q |
     <c b'> q <c a'> q q q |
     <b a'> q <b gis'> q q q |
-    %48
     < a a' >  e'16[ d] e8 c' gis a |
     r d,16 c d8 b' ~ b16 a gis a |
     b a gis fis e d f8 ~ f e ~ |
@@ -79,13 +72,12 @@ soloViolinBD =  \relative c' {
     g8 bes ~ bes a cis, d |
     g16 e f8 r4 r8 fis16 g |
     a8 c ~ c b dis, e |
-    %64
-    a16 fis gis8 r \times 2/3 {  b,16[( c  d)]  d[( e  fis)]  fis[( gis  a)] } |
-    a e c a e8 \times 2/3 {  c'16[( d  e)]  e[( fis  gis)]  gis[( a  b)] } |
-    b gis d b e,8 \times 2/3 {  e'16[( fis  gis)]  gis[( a  b)]  b[( c  d)] } |
-    c-. a( gis  a) bes-. a( gis  a) \times 2/3 {  f[( gis  a)]  d,[( gis  a)] } |
-    e-. a( gis  a) c-. a( gis  a) \times 2/3 {  e[( gis  a)]  c,[( gis'  a)] } |
-    d,-. a'( gis  a) f-. a( gis  a) \times 2/3 {  d,[( gis  a)]  b,[( gis'  a)] } |
+    a16 fis gis8 r \tuplet 3/2 {  b,16[( c  d)]  d[( e  fis)]  fis[( gis  a)] } |
+    a e c a e8 \tuplet 3/2 {  c'16[( d  e)]  e[( fis  gis)]  gis[( a  b)] } |
+    b gis d b e,8 \tuplet 3/2 {  e'16[( fis  gis)]  gis[( a  b)]  b[( c  d)] } |
+    c-. a( gis  a) bes-. a( gis  a) \tuplet 3/2 {  f[( gis  a)]  d,[( gis  a)] } |
+    e-. a( gis  a) c-. a( gis  a) \tuplet 3/2 {  e[( gis  a)]  c,[( gis'  a)] } |
+    d,-. a'( gis  a) f-. a( gis  a) \tuplet 3/2 {  d,[( gis  a)]  b,[( gis'  a)] } |
     c,8 e a c dis,8.\trill cis32 dis |
      e8[ b c a e gis] |
     a16( e'  a) b c a e a c, e a, e' |
@@ -102,7 +94,6 @@ soloViolinBD =  \relative c' {
     g4. es8 c4\trill |
     bes8  c'[( bes  a)] g4 ~ |
     g8 es' fis, a c bes16 a |
-    %86
     bes d, es c d bes c a bes g a fis |
     g8 es' es d ~ d16 e fis d |
     g fis g8 ~ g16 a bes a c bes a g |
@@ -120,7 +111,6 @@ soloViolinBD =  \relative c' {
     r8 d,16 c d8 bes' fis g |
     r8 c,16 bes c8 a' ~ a16 g fis g |
     a g fis e d c es8 ~ es d ~ |
-    %103
     d16 c bes a bes g a fis g d g( fis |
      g) d bes'( a  b) g d'( c  d) g, c d |
     es g c,( b  c) g' bes,( a  bes) g' a,( g |
@@ -134,14 +124,12 @@ soloViolinBD =  \relative c' {
     bes,( g'  d') fis g es c es g, c es, g |
     b,( g'  d') es f d b d f, b d, f |
     es4 r2 |
-    %116
     r8  e'[( g  bes)] des(  c) |
     f,2. ~ |
     f8  es[ a, c] ges f ~ |
     f  c'[ bes a] g4 ~ |
     g8 es' fis, a c bes16 a |
     bes8  bes'[( a  g)] f g16 a |
-    %122
     bes4. g8 e d16 cis |
     d a bes g a f g e f d e cis |
     d8 bes' bes a ~ a16 b cis a |
@@ -154,7 +142,6 @@ soloViolinBD =  \relative c' {
     <d bes'> q <c bes'> q q q |
     <c a'> q <bes a'> q q q |
     <bes g'> q <a g'> q q q |
-    %134
     < a f' > bes16 g a f g e f d e cis |
     d8 bes' bes a ~ a16 b cis a |
     d cis d8 ~ d16 e f(  e) g(  f) e(  d) |
@@ -165,26 +152,23 @@ soloViolinBD =  \relative c' {
     d16 b cis8 r4 r8 a'16 gis |
     a e f d e cis d b cis a cis e |
     g e f d e cis d b cis a cis e |
-    %144
-    \times 2/3 { f( es  d) } es8 ~ \times 2/3 {  es16[( d  cis)] } d8 ~
+    \tuplet 3/2 { f( es  d) } es8 ~ \tuplet 3/2 {  es16[( d  cis)] } d8 ~
 		d16 bes' cis,! d |
-    cis a e cis a8 \times 2/3{ e'16( f  g) }
-		\times 2/3 {  g[( a  b)]  b[( cis  d)] } |
-    d a f d a8 \times 2/3 { f'16( g  a) }
-		\times 2/3 {  a[( b  cis)]  cis[( d  e)] } |
-    e cis g e a,8 \times 2/3 { a'16( b  cis) }
-		\times 2/3{  cis[( d  e)]  e[( f  g)] } |
+    cis a e cis a8 \tuplet 3/2{ e'16( f  g) }
+		\tuplet 3/2 {  g[( a  b)]  b[( cis  d)] } |
+    d a f d a8 \tuplet 3/2 { f'16( g  a) }
+		\tuplet 3/2 {  a[( b  cis)]  cis[( d  e)] } |
+    e cis g e a,8 \tuplet 3/2 { a'16( b  cis) }
+		\tuplet 3/2{  cis[( d  e)]  e[( f  g)] } |
     f-. d( cis  d) es-. d( cis  d)
-		\times 2/3 {  bes[( cis  d)]  g,[( cis  d)] } |
+		\tuplet 3/2 {  bes[( cis  d)]  g,[( cis  d)] } |
     a-. d( cis  d) f-. d( cis  d)
-		\times 2/3 {  a[( cis  d)]  f,[( cis'  d)] } |
+		\tuplet 3/2 {  a[( cis  d)]  f,[( cis'  d)] } |
     g,-. d'( cis  d) bes'-. d,( cis  d)
-		\times 2/3 {  g,[( cis  d)]  e,[( cis'  d)] } |
+		\tuplet 3/2 {  g,[( cis  d)]  e,[( cis'  d)] } |
     f,8 a d f \appoggiatura a gis8.(\trill fis32 gis) |
      a8[ e f d a cis] |
     d16 a bes g a f g e f d e cis |
     d4^\fermata r2 |
-    
     \bar "|."
 }
-

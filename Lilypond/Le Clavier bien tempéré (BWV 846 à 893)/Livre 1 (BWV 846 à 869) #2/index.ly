@@ -1,15 +1,12 @@
 \include "./macros.ly"
-
 \markup \fill-line {
   \center-column \abs-fontsize #18 \smallCaps \bold {
     \line { "Le clavier bien tempéré - Livre 1" }
     \null
-%   "Index"
     \null
   }
 }
 \noPageBreak
-
 #(define-markup-command (indexItem layout props title pagelabel tone bwv)
   (string? symbol? string? string?)
   "Format a block of the index"
@@ -27,7 +24,6 @@
            \concat { \hspace #6 "BWV " #bwv "  —  " #tone }
          }
        } #}))
-
 \markup \indexItem "Prélude et Fugue N° 1"    #'Praeludium01 "Do Majeur" "846"
 \noPageBreak
 \markup \indexItem "Prélude et Fugue N° 2"   #'Praeludium02 "Do mineur" "847"
@@ -65,17 +61,9 @@
 \noPageBreak
 \markup \indexItem "Prélude et Fugue N° 18"  #'Praeludium18 "Sol# mineur" "863"
 \noPageBreak
-
-%\markup \indexItem "Prélude et Fugue N° 19"  #'Praeludium19 "A-Dur (A major)" "864"
 \noPageBreak
-%\markup \indexItem "Prélude et Fugue N° 20"  #'Praeludium20 "a-X (A minor)" "865"
 \noPageBreak
-%\markup \indexItem "Prélude et Fugue N° 21"  #'Praeludium21 "B-dur (B-flat major)" "866"
 \noPageBreak
-%\markup \indexItem "Prélude et Fugue N° 22"  #'Praeludium22 "b-moll (B-flat minor)" "867"
 \noPageBreak
-%\markup \indexItem "Prélude et Fugue N° 23"  #'Praeludium23 "H-dur (B major)" "868"
 \noPageBreak
-%\markup \indexItem "Prélude et Fugue N° 24"  #'Praeludium24 "h-moll (B minor)" "869"
 \noPageBreak
-

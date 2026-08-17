@@ -1,7 +1,4 @@
-\version "2.16.0"
-% Various stuff common to the score and the different solo parts,
-% put in one place to ensure consistency.
-
+\version "2.24.0"
 pieceB = "Allegro"
 pieceC = "Adagio"
 pieceD = "Allegro Assai"
@@ -24,7 +21,6 @@ timeC = {
     )))
 }
 timeD = \time 3/8
-
 \layout {
     \context { \Score skipBars = ##t }
 }

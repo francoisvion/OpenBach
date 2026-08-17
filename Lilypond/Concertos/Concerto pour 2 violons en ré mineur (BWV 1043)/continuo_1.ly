@@ -1,6 +1,4 @@
-\version "2.16.0"
-%Continuo, 1st movement
-
+\version "2.24.0"
 continuoB =  \relative c' {
     d,8 d' c bes a16 g a bes a g f e |
     d c d es d c b a g2 ~ |
@@ -23,7 +21,6 @@ continuoB =  \relative c' {
     a16 g fis e fis d e fis g2 ~ |
     g16 f! e f g a bes g a bes a g f e d cis |
     d8 bes g a d,4 r |
-    %solo
     d'8\p r a r d, r r4 |
     g8 r d' r g r r4 |
     c8 r f, r bes r e, r |
@@ -48,7 +45,6 @@ continuoB =  \relative c' {
     d,8 r a r d, r r4 |
     g'8 r c, r f r b, r |
     e r a, r e'  e,[\f gis e] |
-    %tutti
     a a' g f e16 d e f e d cis b |
     a gis a b a g fis e d cis' d e d c b! a |
     gis4 r8 d'8 ~ d c16 b! c8 f |
@@ -62,7 +58,6 @@ continuoB =  \relative c' {
     b g f'4.  e16[ d e8 c] |
     a c es g, fis d' g, es' |
     d c d d, g  g'[\p fis d] |
-
     g8 r r4 r2 |
     r8 g fis d g,  g'16[ a bes8 b] |
     c r r4 r2 |
@@ -95,4 +90,3 @@ continuoB =  \relative c' {
     a g a a, d,2\fermata |
     \bar "|."
 }
-

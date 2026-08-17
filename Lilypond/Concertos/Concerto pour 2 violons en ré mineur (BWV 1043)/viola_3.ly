@@ -1,9 +1,6 @@
-\version "2.16.0"
-%Viola, 3rd movement
-
+\version "2.24.0"
 violaD =  \relative c' {
     \partial 8
-    
     f16 e |
     f8 r r g16 e f8 r |
     r e16 cis d8 r r e16 cis |
@@ -25,7 +22,6 @@ violaD =  \relative c' {
      a[ d f a b e,] |
      e[ a d, d d a] |
     a4 r16 a bes g a f g e |
-    
     f4 r r |
     R2. |
     R |
@@ -160,8 +156,5 @@ violaD =  \relative c' {
      e[ a d, d d a] |
     a4 r16 a16 bes g a f g e |
     f4^\fermata r4 r |
-
     \bar "|."
 }
-
-

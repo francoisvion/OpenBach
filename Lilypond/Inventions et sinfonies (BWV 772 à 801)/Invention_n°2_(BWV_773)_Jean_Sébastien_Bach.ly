@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.27.0"
 
 \header {
   title = "Invention 2"
@@ -88,7 +88,7 @@ voicetwo =  \relative c' {
   \midi {
     \context {
       \Score
-      tempoWholesPerMinute = #(ly:make-moment 64 4)
+      tempoWholesPerMinute = #64/4
       }
     }
 }

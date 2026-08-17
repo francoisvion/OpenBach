@@ -47,7 +47,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      Nun freut euch, Got -- tes Kin -- der all', der Herr fährt auf mit gro -- ssem Schall, lob -- sin -- get ihm, lob -- sin -- get ihm, lob -- sin -- get ihm mit hel -- ler Stimm', Stimm'!
+      Nun freut euch, Got -- tes Kin -- der all',
+      der Herr fährt auf mit gro - ßem Schall,
+      lob -- sin -- get ihm, lob -- sin -- get ihm,
+      lob -- sin -- get ihm mit hel -- ler Stimm', Stimm'!
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -61,7 +64,7 @@
           f g a8 [f] c'4~
           c'8 [b16 a] b8 [d'] c'4\fermata d'
           e' f'8 [d'] c'4 c'8 [d'16 c']
-          b8 [a g a] a4\fermata
+          b8 [a] g [a] a4\fermata
           \partial 4  d'
           g4. f8 f4 f
           g f8 [e] e4\fermata a
@@ -73,12 +76,12 @@
           \partial 4  d8 [e]
           f4~ f8 [e] d4 c8 [b,]
           a,4 e a,\fermata g8 [f]
-          e [c d f] e [c f d]
-          g [f e a] d4\fermata
+          e [c] d [f] e [c] f [d]
+          g [f] e [a] d4\fermata
           \partial 4  b,
-          c8 [e] f4 a,8 [f, bes, a,]
+          c8 [e] f4 a,8 [f,] bes, [a,]
           g,4 gis, a,\fermata a,
-          b, cis d8 [c bes, a,]
+          b, cis d8 [c] bes, [a,]
           g,4 a, d,\fermata \fine
         }
       >>

@@ -1,16 +1,25 @@
-\version "2.24.4"
+\version "2.27.0"
 
-\include "deutsch.ly"
-\header {
-  title = "Helfft mir Gottes Güte preisen"
-  subtitle = "Petit livre d'orgue"
-  opus = "BWV 613"
-  composer = "Jean Sébastien Bach (1685-1750)"
-  tagline = ##f
+\language "deutsch"
+
+#(set-global-staff-size 18)
+
+\paper {
+  #(set-paper-size "a4landscape")
+   ragged-bottom      = ##f
+   ragged-last-bottom = ##t
 }
 
-halsup      = { \stemUp \tieUp }
-halsdown    = { \stemDown \tieDown }
+\header {
+ title = "Helfft mir Gottes Güte preisen"
+ subtitle = "Petit livre d'orgue"
+ opus="BWV 613"
+ composer = "Jean Sébastien Bach (1685-1750)"
+ tagline = ##f
+}
+
+halsup = { \stemUp \tieUp }
+halsdown = { \stemDown \tieDown }
 halsneutral = { \stemNeutral \tieNeutral }
 
 global = {
@@ -19,16 +28,7 @@ global = {
    #(set-accidental-style 'default)
 }
 
-#(set-default-paper-size "a4" 'landscape)
-#(set-global-staff-size 18)
 
-\paper {
-   ragged-bottom      = ##f
-   ragged-last-bottom = ##t
-   page-top-space     = 0.7\cm
-}
-
-#(set-default-paper-size "a4" 'landscape)
 
 sopran = {
    \new Voice \relative h' {
@@ -53,7 +53,7 @@ sopran = {
          e4. d8 cis4
       } fis8 e
       d8 cis h4 cis cis
-      h2. \bar "|."
+      h2. \fine
    }
 }
 
@@ -79,7 +79,7 @@ alt = {
          h8 cis4 h8~ h16 h a! g!
       } fis8 ais
       h8 e,\rest e16\rest d e fis g fis e d cis g' fis e
-      dis16 e fis8~ fis16 h, e8~ e dis!\fermata
+      dis16 e fis8~ fis16 h, e8~ e dis!\fermata \fine
    }
 }
 
@@ -106,7 +106,7 @@ tenor = {
          e16 d! cis h a gis fis e e'8 r
       } r16 e d cis
       h16 ais gis ais h4~ h ais!8 a~
-      a8 g16 fis g8. e16 fis4_\fermata
+      a8 g16 fis g8. e16 fis4_\fermata \fine
    }
 }
 
@@ -148,7 +148,7 @@ pedal = {
       }
       ais fis
       h8 fis' g! d e cis fis fis,
-      h2.
+      h2. \fermata \fine
 
    }
 }
@@ -205,12 +205,14 @@ pedal = {
             \set Staff.midiInstrument = "tuba"
             \transpose d d, \pedal
          }
+
       >>
    }
+
    \midi {
       \context {
          \Score
-         tempoWholesPerMinute = #(ly:make-moment 54 4)
+         tempoWholesPerMinute = #54/4
       }
    }
 }

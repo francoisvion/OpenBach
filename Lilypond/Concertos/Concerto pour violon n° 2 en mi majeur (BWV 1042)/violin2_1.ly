@@ -1,6 +1,4 @@
-\version "2.16.0"
-%Violin 2, 1st movement
-
+\version "2.24.0"
 violinCBa =  \relative c' {
     b4-. e-. gis-. r8 e16 fis |
     gis8 e16 fis gis8 b  gis[ e e gis] ~ |
@@ -36,7 +34,6 @@ violinCBa =  \relative c' {
     r2 r8 fis16\p fis gis gis ais ais |
     b8 fis4 e8 dis fis16 fis b b cis\f cis |
      b8[ dis, gis fis] fis4 r |
-    
     b,4-.\f e-. gis-. r |
     e-.\p gis-. b-. r |
     gis-.\pp b-. e-. r |
@@ -56,7 +53,6 @@ violinCBa =  \relative c' {
     e8 b4 a8 gis b16 b e e fis\f fis |
      e8[ gis, cis b] b4 r^"Fine" |
 }
-
 violinCBb =  \relative c' {
     cis4-.\p e-. gis-. r |
     b,-. dis-. gis-. r |
@@ -72,7 +68,6 @@ violinCBb =  \relative c' {
     e2 e' |
     d4 cis2 cis4 |
     b1 |
-
     cis4 b a2 |
     gis1 |
     ais2 gis |
@@ -101,7 +96,6 @@ violinCBb =  \relative c' {
     gis gis16 fis eis8 dis16 cis  cis'8[\f d d cis] |
     cis4\p ais b2 ~ |
     b4 r8 eis,\f cis d4 cis8 |
-
     cis4 r r2 |
     R1 * 5 |
     r2 r4 r8 dis'\f |
@@ -127,18 +121,14 @@ violinCBb =  \relative c' {
     R1 |
     R1^"D.C. al fine" |
 }
-
 violinCB =  {
     \violinCBa
     \bar "||"
     \violinCBb
     \bar "|."
 }
-
 violinCBMidi =  {
     \violinCBa
-
     \violinCBb
-
     \violinCBa
 }

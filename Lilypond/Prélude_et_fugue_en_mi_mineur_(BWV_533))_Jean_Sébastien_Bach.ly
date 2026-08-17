@@ -3,7 +3,7 @@
 \include "italiano.ly"
 
 \header{
-  title = "Prélude et fugue en Mi mineur" 
+  title = "Prélude et fugue en mi mineur" 
   subtitle = "à un clavier et pédalier"
   composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 533"

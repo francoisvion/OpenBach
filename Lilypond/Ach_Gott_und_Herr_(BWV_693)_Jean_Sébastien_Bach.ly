@@ -1,15 +1,16 @@
-\version "2.24.4"
+\version "2.25.80"
+
+\language "deutsch"
 
 \header {
-date = ""
-
  title = "Ach Gott und Herr"
+ subtitle = "attribué à Johann Gottfried Walther (1684-1748)"
  composer = "Jean Sébastien Bach (1685-1750)"
  opus="BWV 693"
-  tagline = ##f
+ tagline = ##f
 }
 
-\include "deutsch.ly"
+
 
 global = {
    \key c \major
@@ -49,31 +50,26 @@ sopran = {
       \restup R1
       r2 c
       h2 a
-      %% Takt 5 ==============================================
       g2 r
       r2 g
       a2 h
       c2 r
       r2 d
-      %% Takt 10 =============================================
       c2 h
       a2 h
       a2 g2
       R1
       r8 g a h c2
-      %% Takt 15 =============================================
       h2 c
       d2 r
       \restup R1
       \restup R1
       r2 d
-      %% Takt 20 =============================================
       e2 c
       d2 d\rest
       r2 g,
       a2 h
       c4. d8 e2
-      %% Takt 25 =============================================
       d2 c~
       c8 e d c h c16 d h4\trill
       c1~
@@ -90,31 +86,26 @@ alt = {
       e4 d c8 c d e
       f8 f f g16 f e4 e\rest
       e8\rest c d e f f f e16 d
-      %% Takt 5 ==============================================
       e4 d~ d8 c16 h c8 d
       e8 c' h a g h, c d
       e4. f8 e4 d
       c8 c d e f g f e16 d
       e8 d' c h a h a4
-      %% Takt 10 =============================================
       g4 d\rest d\rest e8\rest d
       e4 fis g e
       f!8 f f e16 d e8 f e d
       c8 d c h16 a h8 g' f! e
       d8 e d4 e fis
-      %% Takt 15 =============================================
       g4 e\rest e8\rest g f e
       d4 c\rest c8\rest c h c
       d8 d e c d h' a g
       fis8 g fis4 g8 d c \staffdown h
       a8 h a4 \halsdown g r
-      %% Takt 20 =============================================
       \staffup h'8\rest d c h a h a4
       g4 e\rest e8\rest g f e16 d
       e8 g f e d e d4
       c8 c d e f g f e16 d
       e4 e\rest e8\rest e f g
-      %% Takt 25 =============================================
       a8 a g f e4 f
       g4 a g2~
       g8 a g f e c d e
@@ -130,31 +121,26 @@ tenor = {
       g4 r8 g a4 h
       c4 r8 d e4 fis
       g4 r r2
-      %% Takt 5 ==============================================
       r8 c, h a g g a h
       c8 e d c h g a h
       c4 r r r8 g
       a2. h4
       \clef treble c8 h' a g fis g4 fis8
-      %% Takt 10 =============================================
       g8 \clef bass c, h a g f'e d
       c4 r8 c d4 r8 g,
       a4 h c r
       r8 d, e fis g e' d c
       h8 c h4 a r
-      %% Takt 15 =============================================
       r8 f e d c c d e
       f8 f f e16 d e4 r8 c'
       h4 a g8 d' c h
       a8 h a4 g8 h a g
       fis8 g fis4 \halsup g8 \staffup c' h a
-      %% Takt 20 =============================================
       g8 \staffdown g, a h \halsdown c4 r8 c
       h4 a g8 g a h
       c8 e d c h c4 h8
       c4 r r2
       r8 g a h c2~
-      %% Takt 25 =============================================
       c4 h c r
       r8 g' f e d e d4
       c4 r r8 e, f g
@@ -185,31 +171,26 @@ pedal = {
       c8 c d e f4 r8 g
       a4 h c8 c, h a
       g4 r8 g a4 h
-      %% Takt 5 ==============================================
       c4 r8 f e4 d
       c4 r r2
       r8 c h a g4 r
       r8 g' f e d e d4
       c4 r r r8 d
-      %% Takt 10 =============================================
       e4 fis g8 g, a h
       c8 c' h a g4 r
       r2 r8 d c h
       a8 h a4 g r
       r2 r8 c h a
-      %% Takt 15 =============================================
       g4 r8 g a4 r8 a
       h4 r8 h c4 r
       r4 c h c
       d4 r8 d e4 r8 cis
       d4. c!8 h a g4
-      %% Takt 20 =============================================
       c4 r r2
       r4 f e d
       c4 r r2
       r8 g' f e d e d4
       c4 r r8 c d e
-      %% Takt 25 =============================================
       f4 g a8 a g f
       e4 f g4. f8
       e8 f e d c2~
@@ -237,5 +218,5 @@ pedal = {
       >>
    }
    \layout{}
-   \midi{ \tempo 4 = 54 }
+   \midi{\tempo 4 = 54}
 }

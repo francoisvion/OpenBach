@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.27.0"
 
 \header{
    composer = "Jean Sébastien Bach (1685-1750)"
@@ -75,7 +75,7 @@ voicetwo =
   \midi {
     \context {
       \Score
-      tempoWholesPerMinute = #(ly:make-moment 80 4)
+      tempoWholesPerMinute = #80/4
       }
     }
 

@@ -1,6 +1,8 @@
-\version "2.24.4"
+\version "2.27.0"
 
-\include "deutsch.ly"
+\language "deutsch"
+
+\paper {#(set-paper-size "a4landscape")}
 
 \header {
   title = "Gelobet seist Du, Jesu Christ"
@@ -17,7 +19,6 @@ global = {
    #(set-accidental-style 'default)
 }
 
-#(set-default-paper-size "a4" 'landscape)
 #(set-global-staff-size 18)
 
 halsup = { \stemUp \tieUp }

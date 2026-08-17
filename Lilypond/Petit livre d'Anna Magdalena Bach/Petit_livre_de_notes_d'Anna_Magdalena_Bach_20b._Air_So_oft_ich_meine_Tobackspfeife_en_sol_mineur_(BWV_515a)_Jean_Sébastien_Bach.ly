@@ -1,9 +1,6 @@
 \version "2.24.4"
-
 \include "english.ly"
-
 \paper {indent = 10}
-
 \header {
   title = "20b. Air : So oft ich meine Tobackspfeife en sol mineur"
   subtitle = "Petit Livre de notes d'Anna Magdalena Bach"
@@ -12,7 +9,6 @@
   composer =	"Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
 voiceone =  \relative c' {
   \key d \minor
   \time 3/4
@@ -28,7 +24,7 @@ voiceone =  \relative c' {
     \alternative{
       \volta 1 {
       f2. |
-    d4 d d 
+    d4 d d
       }
       \volta 2 {
       f2. |
@@ -46,7 +42,6 @@ voiceone =  \relative c' {
     d2. |
   }
 }
-
 voicetwo =  \relative c, {
   \clef "bass"
   \key d \minor
@@ -79,10 +74,9 @@ voicetwo =  \relative c, {
     d,8 cs d e f d |
   }
 }
-   
 \score {
   \transpose c f {
-   \context GrandStaff << 
+   \context GrandStaff <<
     \context Staff = "one" <<
       \voiceone
     >>
@@ -92,9 +86,7 @@ voicetwo =  \relative c, {
   >>
   }
   \layout{}
-  
   \midi {
     \tempo 4 = 105
     }
 }
-

@@ -1,8 +1,5 @@
-\version "2.16.0"
-%Violin 1, 1st movement
-
+\version "2.24.0"
 violinBB =  \relative c' {
-
     r1 |
     r1 |
     r1 |
@@ -11,7 +8,6 @@ violinBB =  \relative c' {
     cis a g'!4. fis16 e fis8 d |
     b d f a, gis e' a, d |
     c4 b\trill a16 gis a b c d e f |
-    %9
     g8 g, g'4 ~ g8 e a, g' |
     f16 e d e f e d g a2 ~ |
     a16 g fis e fis d e fis g2 ~ |
@@ -21,7 +17,6 @@ violinBB =  \relative c' {
     g8 d16 c d b c d g,8 c g'4 ~ |
     g8 fis16 g a8 c, ~ c bes16 c d8 a' ~ |
     a g ~ g f ~ f e16 d cis d b cis |
-    %18
     d e f g a8 d cis a e g |
     fis d c'!4. b16 a b8 g |
     e g bes! d, cis a' d, g |
@@ -50,7 +45,6 @@ violinBB =  \relative c' {
     d8 r cis r d r r4 |
     r1 |
     r |
-    %47
     a16\f b c d e8 a gis e b d |
     cis a g'!4 ~ g8 fis16 e fis8 d |
     b d f! a, gis e' a, d |
@@ -63,7 +57,6 @@ violinBB =  \relative c' {
     g8 d' r bes' a16 g fis e fis d e fis |
     g2 ~ g16 f! g a g bes a g |
     a2 ~ a16 g fis e d c bes a |
-    %58
     bes8. c16 a8. g16 g4 r |
     d1\p ~ |
     d2. r4 |
@@ -97,4 +90,3 @@ violinBB =  \relative c' {
     f4 e d2^\fermata |
     \bar "|."
 }
-

@@ -1,11 +1,7 @@
 \version "2.24.4"
-
 \include "english.ly"
-
 myStaffSize = #18
-
 #(set-global-staff-size myStaffSize)
-
 \header {
   title = "Fugue N° 17 en Lab Majeur"
   subtitle = "Le clavier bien tempéré - Livre 1"
@@ -13,7 +9,6 @@ myStaffSize = #18
   composer = "Jean Sébatien Bach (1685-1750)"
   tagline = ##f
 }
-
 RightHandOne = \relative c' {
 	\key af \major
 	\tempo 4=60
@@ -50,7 +45,6 @@ RightHandOne = \relative c' {
 	c af f' df ef g, af4~
 	af g af2^\fermata \bar "|."
 }
-
 RightHandTwo = \relative c' {
 	s1*5
 	\voiceTwo
@@ -86,7 +80,6 @@ RightHandTwo = \relative c' {
 	<af ef> r r <bf f> <bf ef,> c,\rest c\rest f
 	bf,16 c df f ef df c df c2
 }
-
 LeftHandOne = \relative c {
 	\clef "bass"
 	\key af \major
@@ -128,7 +121,6 @@ LeftHandOne = \relative c {
 	s a\rest a\rest s s f\rest \change Staff = LH \voiceOne r bf
 	bf4 ef, ef2
 }
-
 LeftHandTwo = \relative c {
 	\voiceTwo
 	R1
@@ -162,20 +154,19 @@ LeftHandTwo = \relative c {
 	af bf c ef df c bf af g f ef df c ef df f
 	ef2 \voiceTwo af_\fermata
 }
-
 staffPiano = \new PianoStaff {
 	\set PianoStaff.midiInstrument = #"acoustic grand"
 	\set PianoStaff.connectArpeggios = ##t
 	<<
-		\context Staff = "RH" {  % Right hand 
+		\context Staff = "RH" {
 			\set Staff.connectArpeggios = ##t
 			<<
 			\new Voice {\RightHandOne}
 			\new Voice {\voiceTwo \RightHandTwo}
 			>>
 		}
-		\context Staff = "LH" {  % Left hand
-			\set Staff.connectArpeggios = ##t 			
+		\context Staff = "LH" {
+			\set Staff.connectArpeggios = ##t
 			<<
 			\new Voice {\voiceOne \LeftHandOne}
 			\new Voice {\LeftHandTwo}
@@ -183,17 +174,12 @@ staffPiano = \new PianoStaff {
 		}
 	>>
 }
-
-
-
 \score {
 	<<
 		\staffPiano
 	>>
-	
 	\midi {
 	}
-
 	\layout {
 		\context {
 			\Staff

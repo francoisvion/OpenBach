@@ -1,6 +1,6 @@
 \version "2.24.4"
 
-\include "deutsch.ly"
+\language "deutsch"
 
 \header {
   title = "Vater unser im Himmelreich"

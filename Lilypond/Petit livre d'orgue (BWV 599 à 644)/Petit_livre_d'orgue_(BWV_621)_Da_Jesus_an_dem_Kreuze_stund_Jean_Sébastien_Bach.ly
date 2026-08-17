@@ -1,6 +1,14 @@
-\version "2.24.4"
+\version "2.27.0"
 
-\include "italiano.ly" 
+\language "italiano"
+
+#(set-global-staff-size 18)
+
+\paper {
+  #(set-paper-size "a4landscape")
+   ragged-bottom = ##f
+   ragged-last-bottom = ##t
+}
 
 \header{
   title = "Da Jesus an dem Kreuze stund"
@@ -9,9 +17,6 @@
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
-#(set-default-paper-size "a4" 'landscape)
-#(set-global-staff-size 18)
 
 halsup = {
   \stemUp
@@ -53,7 +58,7 @@ choral =  \relative do'' {
   fa4 sol4 la4 la4 
   % 10 :
   sol4 fa4 mi2 ~
-  \partial 2 \once\override Voice.TextScript #'extra-offset = #'(1.2 . 0.0) mi2^\markup{\musicglyph #"scripts.ufermata"} \bar "|."
+  \partial 2 \once\override Voice.TextScript #'extra-offset = #'(1.2 . 0.0) mi2^\markup{\musicglyph #"scripts.ufermata"} \fine
 }
 alto = \relative do' {
   \global
@@ -92,8 +97,9 @@ tenor = \relative do  {
   do,16 sol'16 fa!16 mi16 re16 fa16 mi16 re16 dod16 mi16 fa16 sol16 la16 re,16 re'16 do!16 
   % 10 :
   si!16 sol16 do16 sib16 la16 fa16 sib!16 la16 sold16 fad16 mi8 ~ mi8. la16 ~
-  \partial 2 la16 la16 sold!16 fad!16 \once \override Script #'padding = # 1 sold4^\fermata
+  \partial 2 la16 la16 sold!16 fad!16 \once \override Script #'padding = # 1 sold4^\fermata \fine
 }
+
 pedale = \relative do {
   \global
   \clef "bass"
@@ -111,20 +117,8 @@ pedale = \relative do {
   sib8 la4 sol4 fa16 [ mi16 fa8 fa'8 ] ~
   % 10 :
   fa8 mi4 re4 do16 [ si16 do8 la8 ] 
-  \partial 2 mi'4 \once \override Script #'padding = # 1 mi,4_\fermata 
+  \partial 2 mi'4 \once \override Script #'padding = # 1 mi,4_\fermata \fine
 }
-\paper {
-  betweensystempadding = 1\mm
-  betweensystemspace = 1\mm
-  %raggedbottom = ##f
-  %raggedlastbottom = ##f
-  %headsep = 1\mm
-  %aftertitlespace = 1\mm
-  indent = 1\cm
-  bottommargin = 4\mm 
-  topmargin = 2\mm
-}
-
 
 \score{
 \new StaffGroup \with{systemStartDelimiter = #'SystemStartBar } <<
@@ -165,6 +159,7 @@ choralmidi =  \relative do'' {
   sol4 fa4 mi2 ~
   \partial 2  mi2
 }
+
 altomidi = \relative do' {
   \global
   \partial 2 r8 mi4 re8
@@ -183,6 +178,7 @@ altomidi = \relative do' {
   re8 mi16 re16 do8 re16 do16 si!8 la16 sold16 la16 si16 do8 
   \partial 2 si2 
 }
+
 tenormidi = \relative do  { 
   \global
   \partial 2 r16 mi16 sol16 la16 si16 do16 re16 si16 

@@ -1,11 +1,13 @@
-\include "defs.ly"
+\include "./Partita_pour_clavier_n°_4_en_ré_majeur_(BWV_828)_defs.ly"
+
 global = {
    \key d \major
    \time 9/16
-   \override Staff.NoteCollision #'merge-differently-dotted = ##t
+   \language "deutsch"
+   \override Staff.NoteCollision.merge-differently-dotted = ##t
    \override Beam.auto-knee-gap = #2.5
-   \override TupletNumber #'stencil = ##f
-   \override TupletBracket #'stencil = ##f
+   \override TupletNumber.stencil = ##f
+   \override TupletBracket.stencil = ##f
 }
 
 sopranG = \new Voice \relative d' {
@@ -76,11 +78,11 @@ sopranG = \new Voice \relative d' {
       \barNumberCheck 45
       r16 fis, gis a h c~ c h a
       gis16 a h << \new Voice { s8. \halsup \shiftOff e8.~
-                              e16 d cis h cis a e a gis }
-                   \new Voice { \stemUp \tieDown \shiftOn e16 gis h~ h8. }
-                   \new Voice { \halsdown \shiftOnn s16 gis8~ \halsup gis8. }
-                   \new Voice { \halsdown \once \override Tie.staff-position = -7.5
-                                 e8.~ \once \override NoteColumn.force-hshift = 1 e8. } >>
+                            e16 d cis h cis a e a gis }
+                 \new Voice { \stemUp \tieDown \shiftOn e16 gis h~ h8. }
+                 \new Voice { \halsdown \shiftOnn s16 gis8~ \halsup gis8. }
+                 \new Voice { \halsdown \once \override Tie.staff-position = -7.5
+                                    \once \override NoteColumn.force-hshift = 1 e8. } >>
       \staffdown a,,16 cis e a cis \staffup \halsup e a8.
    } \break
    \repeat volta 2 {
@@ -332,7 +334,7 @@ tenorG = \new Voice \relative a {
       s8. \once \override NoteColumn.force-hshift = 0.5 a e\rest
       s8. * 3
       s8. \halsdown \once \override Tie.staff-position = #-4.6
-                  \once \override Tie #'X-extent = #'( 22 . 8 ) a~
+                  \once \override Tie.X-extent = #'( 22 . 8 ) a~
          \once \override NoteColumn.force-hshift = #1 a
 
       \barNumberCheck 95
@@ -483,4 +485,3 @@ leftG = {
       \bassG
    >>
 }
-

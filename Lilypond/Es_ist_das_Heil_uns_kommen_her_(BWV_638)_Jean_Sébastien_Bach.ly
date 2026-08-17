@@ -1,31 +1,24 @@
 \version "2.24.4"
-
 \include "deutsch.ly"
-
 \header {
 date = "1714"
-
  title = "Es ist das Heil uns kommen her"
  composer = "Jean Sébastien Bach (1685-1750)"
  opus="BWV 638"
   tagline = ##f
 }
-
 global = {
    \key d \major
    \time 4/4
    #(set-accidental-style 'default)
    \override Score.MetronomeMark #'transparent = ##t
 }
-
 #(set-default-paper-size "a4" 'landscape)
-
 halsup        = { \stemUp \tieUp \slurUp }
 halsdown      = { \stemDown \tieDown \slurDown }
 shifttieupp   = { \once \override Tie #'extra-offset = #'( 0 . 0.9 ) }
 staffup       = { \change Staff = "right" \halsdown }
 staffdown     = { \change Staff = "left" \halsup }
-
 sopran = {
    \new Voice \relative a' {
       \global
@@ -45,18 +38,15 @@ sopran = {
             a4 h a\fermata a
          }
       }
-      %% Takt 5 ==============================================
       d8 e16 d cis4 h cis
       d8. cis16 h4 a\fermata a
       d4 a h8 a16 g fis g fis g
       a4 g fis\fermata d
       e8 fis g4 fis e
-      %% Takt 10 =============================================
       \shifttieupp
       d4~ d8 cis d4\fermata \bar "|."
    }
 }
-
 alt = {
    \new Voice \relative g' {
       \global
@@ -75,17 +65,14 @@ alt = {
             a16 gis'! fis e d fis e d cis4 e16\rest g fis e
          }
       }
-      %% Takt 5 ==============================================
       d16 a' gis fis e4~ e16 fis e d cis e fis g
       a16 h a g fis8 e16 d cis4 d8. e16
       fis16 h a g fis g fis e d2
       dis16 fis e dis e8 \staffdown ais, h4 h
       h8 a g[ a~] a[ \staffup d8]~ d8. cis16
-      %% Takt 10 =============================================
       d16 e d c \staffdown h8 a a4
    }
 }
-
 tenor = {
    \new Voice \relative a' {
       \global
@@ -103,17 +90,14 @@ tenor = {
             e8 a4 gis8 a16 h a g fis8 g
          }
       }
-      %% Takt 5 ==============================================
       a8 h r16 cis h a gis a gis fis e g fis e
       d8 a'~ a16 a gis8 a16 h a g fis g fis e
       d4~ d16 e' d c h d c h a h a g
       fis16 a g fis e g fis e dis e d e fis a g fis
       e16 fis e d \stemDown cis e d cis d fis g a h a h cis
-      %% Takt 10 =============================================
       fis,16 g \halsdown a8~ \tempo 4 = 48 a16 e fis \tempo 4 = 34 g \tempo 4 = 18 fis4
    }
 }
-
 right = {
    \clef treble
    <<
@@ -121,14 +105,12 @@ right = {
    \sopran
    >>
 }
-
 left = {
    \clef bass
    <<
    \tenor
    >>
 }
-
 pedal = {
    \global
    \clef "bass"
@@ -147,17 +129,14 @@ pedal = {
             cis8 d h e a,4 d8 e
          }
       }
-      %% Takt 5 ==============================================
       fis8 gis a a, e' e, a g!
       fis8 e d e a4_\fermata d8 cis
       h8 cis d d, g4 d'8 e
       fis8 h, e e, h'4_\fermata h8 a
       g8 fis e a d, d' g, a
-      %% Takt 10 =============================================
       h8 fis g a d,4_\fermata
    }
 }
-
 \score {
    <<
       \new PianoStaff {
@@ -174,12 +153,10 @@ pedal = {
          \context Voice = pedal \pedal
       }
    >>
-
    \layout{
       indent = 1.0\cm
    }
 }
-
 \score {
    \unfoldRepeats {
       <<

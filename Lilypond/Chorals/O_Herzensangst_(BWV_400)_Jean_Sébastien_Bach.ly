@@ -39,6 +39,7 @@
           ees''2 d''4
           ees''2.\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
            ees'4 ees' ees'
@@ -57,14 +58,22 @@
           g' aes' g'8 [f']
           ees'2\fermata ees'4
           ees' f' g'~
-          g' f'8 [ees' f' aes']
+          g' f'8 [ees'] f' [aes']
           g'2.\fermata \fine
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
-      O Her -- zens -- angst, o Ban -- gig -- keit und Za -- gen! Was seh' ich hier für ei -- ne Lei -- che tra -- gen! Wess ist das Grab, wie ist der Fels zu nen -- nen? Ich soll ihn ken -- nen, ken -- nen.
+      O Her -- zens -- angst,
+      o Ban -- gig -- keit und Za -- gen!
+      was seh' ich hier
+      für ei -- ne Lei -- che tra -- gen!
+      wess ist das Grab,
+      wie ist der Fels zu nen -- nen?
+      Ich soll _ ihn ken - nen.
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -92,6 +101,7 @@
           bes2 bes4
           bes2.\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
            ees4 ees aes,
@@ -104,7 +114,7 @@
           a aes g
            f ees f
           bes,2.\fermata
-          bes8 [aes g f ees d]
+          bes8 [aes] g [f] ees [d]
           c2\fermata b,4
           c4. bes,8 aes,4
           g, f, g,

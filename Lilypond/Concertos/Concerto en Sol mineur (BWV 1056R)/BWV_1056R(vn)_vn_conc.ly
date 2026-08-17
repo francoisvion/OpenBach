@@ -1,4 +1,4 @@
-\version "2.18.0"
+\version "2.24.0"
 \language "nederlands"
 
 \include "parenthesized_dynamics.ly"
@@ -16,7 +16,7 @@ scoreAGlobal = {
   %   \tempo "1."
   \override TupletBracket.bracket-visibility = ##f
   \tupletSpan 8
-  \compressFullBarRests
+  \compressEmptyMeasures
 }
 
 \include "scoreAViolinConc.ly"
@@ -76,7 +76,7 @@ scoreCGlobal = {
   \numericTimeSignature
   \time 3/8
   \tempo "Presto"
-  \compressFullBarRests
+  \compressEmptyMeasures
 }
 
 \include "scoreCViolinConc.ly"

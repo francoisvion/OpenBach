@@ -1,10 +1,10 @@
 \version "2.24.4"
 
-\include "deutsch.ly"
+\language "deutsch"
 
 \header {
   title = "Vom Himmel hoch da komm' ich her"
-  subtitle = "Einige canonische Veränderungen über das Weihnachtslied"
+  subtitle = "Quelques modifications canoniques concernant le chant de Noël"
   composer = "Jean Sébastien Bach (1685-1750)"
   opus = "BWV 769"
   tagline = ##f

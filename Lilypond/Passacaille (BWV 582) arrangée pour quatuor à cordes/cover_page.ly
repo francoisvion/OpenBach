@@ -1,6 +1,4 @@
-% This is the title page that appears on the front cover of each part.
-
-\markup { 
+\markup {
   \hspace #57
   \center-column {
     \line { \null \lower #2 \bold \fontsize #6 Passacaglia }
@@ -15,4 +13,3 @@
     \line { Carl M. Bolstad }
   }
  }
-      

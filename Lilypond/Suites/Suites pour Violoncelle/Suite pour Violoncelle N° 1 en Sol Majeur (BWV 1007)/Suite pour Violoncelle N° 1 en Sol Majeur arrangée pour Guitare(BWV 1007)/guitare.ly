@@ -1,5 +1,4 @@
 \version "2.24.4"
-
  first = \relative c' {
     \set Staff.instrumentName = "Guitare"
     \mergeDifferentlyHeadedOn
@@ -7,15 +6,15 @@
     \slurDown
     d,16 a' <fis'-2>( <e-0>) fis a, fis' a, d, a' fis'( e) fis a, fis' a, |
     d, <b'-0> g'( fis) g b, g' b, d,, b'' g'( fis) g b, g' b, |
-    d, cis' g'( fis) g cis, g' cis, d,, cis'' g'( fis) g cis, g' cis, | 
+    d, cis' g'( fis) g cis, g' cis, d,, cis'' g'( fis) g cis, g' cis, |
     d, d' fis( e) fis d fis d d,, d'' fis( e) fis d fis cis |
     d,16 < b'-0> fis'( e) fis d cis( d)  b^\3 d < cis-1 > < d-3 > < fis,-4 > <a-2>( gis) fis |
     <gis-3^\4> <d'-4^\3> <e-0> d e d e d  < gis,,-2 > d'' e d e d e d |
-    <cis-4> <e-2> <a-3>( <gis-1>) a <e-2^\2> <d-1>( <e-3>) <cis-4> e d e <a,-2^\3> <cis-3>( <b-0>) a |  
+    <cis-4> <e-2> <a-3>( <gis-1>) a <e-2^\2> <d-1>( <e-3>) <cis-4> e d e <a,-2^\3> <cis-3>( <b-0>) a |
     b, fis' d'( cis) d fis, d' fis, b, fis' d'( cis) d fis, d' fis, |
     e, gis'( a) b a( gis) fis e d'( cis) b a' gis( fis) e d |
-    cis( b) a <a'-3> <e-2> a <cis,-4> e a,( b) cis e d( cis) b a | 
-    <dis-4> <a-2> c( b) c a dis a <fis'> a, c( b) c a <dis-1> < a-4\4 > | 
+    cis( b) a <a'-3> <e-2> a <cis,-4> e a,( b) cis e d( cis) b a |
+    <dis-4> <a-2> c( b) c a dis a <fis'> a, c( b) c a <dis-1> < a-4\4 > |
     < g,-1 > <b'-0> <e-0> fis^\2 g e b <a-4\4> <g-2> b e < fis-4 > < g-1 >
     < e-3 > < cis-4 > < b-0 > |
     < ais-2 > cis ais cis < e-0 > cis e cis ais cis ais cis e cis e cis |
@@ -74,7 +73,6 @@
     d4 d8 d d4 d8 d |
     cis4 cis8 cis cis4 cis8 cis |
  }
-
  second = \relative c' {
     \repeat unfold 30 { s1 }
     s4 cis8 a b cis d b |
@@ -99,9 +97,7 @@
     < d' fis, >1 |
     \bar "|."
  }
-
  third = \relative c { }
-
  fourth = \relative c {
     \mergeDifferentlyHeadedOn
     \set fingeringOrientations = #'(left)
@@ -117,21 +113,16 @@
     b2 b4.. d16 | < cis-3 >2 cis |
     < d-3 >2 d, d'2 d, |
     d'2 d, |
-  %  \once \override NoteColumn.force-hshift = #0.0
     d1 |
-    gis2 gis | < g-1 >2 g | 
+    gis2 gis | < g-1 >2 g |
     g4 c8\rest < a-0 >8~_\fermata a2 | a2 a |
     a2 a | a2 a | a2 a~ |
-   % \override MultiMeasureRest #'staff-position = #-8
      a1 |
     a2.. cis16 b | a2 a | a2 a | a1 |
     \repeat unfold 7 { s1 }
     \override NoteColumn.force-hshift = #0.0
-    a2 a | a2 a 
+    a2 a | a2 a
     a2 a | d,1 |
  }
-
  spacing = { }
-
  guitar = << \first \\ \second \\ \third \\ \fourth >>
-

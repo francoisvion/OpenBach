@@ -3,13 +3,11 @@ Global = {
   \time 3/8
   \include "../global.ly"
 }
-
 Sopran = \context Voice = "one" \relative c'' {
   \voiceOne
   \override MultiMeasureRest.staff-position = #0
   \override Rest.staff-position = #0
   \repeat volta 2 {
-  %1
   | s8*3
   }
   \alternative {
@@ -25,13 +23,11 @@ Sopran = \context Voice = "one" \relative c'' {
   }
   \fine
 }
-
 Alto = \context Voice = "two" \relative c'' {
   \voiceTwo
   \override MultiMeasureRest.staff-position = #-4
   \override Rest.staff-position = #0
   \repeat volta 2 {
-  %1
   | s8*3
   }
   \alternative {
@@ -46,13 +42,11 @@ Alto = \context Voice = "two" \relative c'' {
     { s8*3 }
   }
 }
-
 Tenor = \context Voice = "three" \relative c' {
   \voiceThree
   \override MultiMeasureRest.staff-position = #0
   \override Rest.staff-position = #0
   \repeat volta 2 {
-  %1
   | s8*3
   }
   \alternative {
@@ -68,13 +62,11 @@ Tenor = \context Voice = "three" \relative c' {
   }
   \fine
 }
-
 Bass = \context Voice = "four" \relative c {
   \voiceFour
   \override MultiMeasureRest.staff-position = #0
   \override Rest.staff-position = #0
   \repeat volta 2 {
-  %1
   | s8*3
   }
   \alternative {
@@ -90,7 +82,6 @@ Bass = \context Voice = "four" \relative c {
   }
   \fine
 }
-
 \score {
   \new PianoStaff
   <<
@@ -111,8 +102,8 @@ Bass = \context Voice = "four" \relative c {
     >>
   >>
   \header {
-    composer = ##f % "Johann Sebastian Bach"
-    opus = ##f % "BWV 988"
+    composer = ##f
+    opus = ##f
     title = \markup { \smallCaps "Variatio N a M Clav." }
     subtitle = ##f
     subsubtitle = ##f

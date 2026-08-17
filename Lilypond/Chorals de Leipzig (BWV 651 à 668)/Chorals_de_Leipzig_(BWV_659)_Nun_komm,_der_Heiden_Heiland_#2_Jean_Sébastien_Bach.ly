@@ -1,11 +1,8 @@
 \version "2.24.4"
-
 #(ly:set-option 'relative-includes #t)
-
 \header {
   tagline = ##f
 }
-
 \paper {
   annotate-spacing = ##f
   bottom-margin = 13\mm
@@ -15,30 +12,22 @@
   print-all-headers = ##t
   ragged-last-bottom = ##t
   ragged-bottom = ##f
-  %system-system-spacing = #'((basic-distance . 2) (padding . 10))
   top-margin = 13\mm
-%  markup-system-spacing.basic-distance = #10
-%  last-bottom-spacing.padding = #2
 }
-
 Global = {
   \key g \minor
   \time 4/4
 }
-
 bottom = \change Staff = "lower"
 top = \change Staff = "upper"
-
 canto = \markup { "Canto" }
 tc = \markup { \small "(t.c.)" }
 uc = \markup { \small "(u.c.)" }
-
 Sopran = \context Voice = "one" \relative c'' {
   \voiceOne
   \override MultiMeasureRest.staff-position = #2
   \override Rest.staff-position = #0
   \tempo \markup { \bold "Adagio" }
-  %1
   | s1
   | s1
   | s1
@@ -51,14 +40,12 @@ Sopran = \context Voice = "one" \relative c'' {
       }
     }
     g fis8[( g16 a])
-  %5
   | bes4~ bes16[ g( a32 g fis g])
     c4~ c16[ a bes32 a g a]
   | d4~ d16[ g,32 a bes c d16] ees8. d16 c16[ bes32 a a16 bes32 c]
   | g16[ fis e! d] g4~ g32[ a g fis! g16 c32 a] g8[( fis16.)\prall g32]
   | \once\override NoteColumn.force-hshift = #-1 g2 r
   | R1
-  %10
   | \override MultiMeasureRest.staff-position = #5
     s1
   | g8^-[^\canto
@@ -70,7 +57,6 @@ Sopran = \context Voice = "one" \relative c'' {
   | c16[ d ees8~] ees16[ c bes c] d[ ees f8~] f16[ d c d]
   | ees16[^- f^- g8~^-] g16[ c, d ees] bes16[ a g f] <f f'~>4
   | f'16[ g32 f ees f d16] ees4~ ees16[\<^\markup { "sostenuto" } a32 bes\! c16 ees,] d4~
-  %15
   | d16[ g, g32\prall f g16] c32[ bes a16 bes32 a g16]
     f[ g32 a bes c d ees] f4~
   | f16[ g32 f ees d c bes] d8[( c16.\prall) bes32^\markup { "rallentando" }] bes2
@@ -79,7 +65,6 @@ Sopran = \context Voice = "one" \relative c'' {
   | s1
   | bes8[^\canto( c32 bes a bes]) c8[( d32 c bes c])
     d16[ bes a bes] bes16[ f'8 ees32 d]
-  %20
   | c16[ d32 c b!16 c] d16[ ees32 d c16 d] ees16[ c b! c] c16[ g'8 f32 ees]
   \pageBreak
   | d16[ g32 a bes!16 f] ees16[( d) d( c)]
@@ -88,7 +73,6 @@ Sopran = \context Voice = "one" \relative c'' {
   | aes16[ ees'32_\markup { \small "dramatico" } d ees c b! c] c[ aes g aes aes g fis g]
     fis16[ a!32 c ees16 d] d4~
   | d32[ g fis e! d16. c32] bes8[( a32\prall g a16]) g2
-  %25
   | \override MultiMeasureRest.staff-position = #4
     s1
   | s1
@@ -97,7 +81,6 @@ Sopran = \context Voice = "one" \relative c'' {
   | s4 g^-^\canto\( g32[ fis g16 a32 g fis g] fis8[ g16 a]\)
   | bes4~^- bes16[ g_~( g64 a g fis g16])
     c4~^- c16[ a_~( a64 bes a g a16])
-  %30
   | d4~^- d16[ g,32 a bes c^- d16^-] ees8.^>^\markup { \small "ritenutamente" } d16
     c16[ bes32 a a16 bes32 c]
   | g16 fis e! d] g4~
@@ -108,10 +91,8 @@ Sopran = \context Voice = "one" \relative c'' {
   | g[ fis g a c,8~] \stemUp c32[ ees d c d c bes a]
     bes16[ g'32^\markup { \small "più riten." } ees cis^- d^- g,16^-] bes8[( a32\prall g a16])
   | g1^\markup { \hspace #3 "(Adagio)" } \fermata
-
   \fine
 }
-
 Alto = \context Voice = "two" \relative c'' {
   \voiceTwo
   \override MultiMeasureRest.staff-position = #0
@@ -120,12 +101,10 @@ Alto = \context Voice = "two" \relative c'' {
   \mergeDifferentlyDottedOn
   \mergeDifferentlyHeadedOn
   \slurUp\tieUp
-  %1
   | \stemUp b'2\rest d,,4\rest d(
   | d c f4. ees16[ d])
   | ees2 d~
   | d4 \breathe \stemDown\tieDown c d2~
-  %5
   | d4 s2.
     \bottom\stemUp\tieUp
   | \top\stemDown\tieDown
@@ -137,7 +116,6 @@ Alto = \context Voice = "two" \relative c'' {
   | \once\override NoteColumn.force-hshift = #-2 c[
     bes16-\uc c] d8[ c16 bes] a4. \stemUp bes16[ c]
   | d8[ ees f g] c,4. d16[ ees]
-  %10
   | f4. g16 f ees2
   | \once\override NoteColumn.force-hshift = #1 d4
     \stemDown
@@ -152,7 +130,6 @@ Alto = \context Voice = "two" \relative c'' {
     \stemUp \once\override NoteColumn.force-hshift = #0.4
     f4)
     a,8\rest \stemDown f'_.
-  %15
   | g8_-\p c,\rest \once\omit Flag g' c,\rest \once\omit Flag c d\rest d\rest \once\omit Flag ees'
   | \once\override NoteColumn.force-hshift = #0.9 d[ g,]
     f16[_( d ees8~])
@@ -168,7 +145,6 @@ Alto = \context Voice = "two" \relative c'' {
     \once\shape #'((0.8 . -0.8) (0 . -0.8) (0 . -1.2) (-0.8 . -0.8)) Tie
     f!4~
     f8[ ees d bes]
-  %20
   | \once\omit Flag a' s s \once\omit Flag b! s s s a
   | bes4 s8 \once\override NoteColumn.force-hshift = #1 bes_( a4) s8 \once\omit Flag a
   | g4 f16\rest f[ g f] g8 f\rest s4
@@ -197,7 +173,6 @@ Alto = \context Voice = "two" \relative c'' {
       \once\override NoteColumn.force-hshift = #0.4 d8[ \breathe c16 b!]
     } \\ {} >>
     c16[( d) d( ees)]
-  %25
   | ees2~ ees8[ d16 c] d16[( ees!) ees( f!)]
   | f2~ f16[ ees g(^\( f)] f[( ees) ees( d)]\)
   | d[(^\( aes') aes( g)] g[( f) f( ees)]\)
@@ -207,7 +182,6 @@ Alto = \context Voice = "two" \relative c'' {
     ees[( d) d( c)] c[( bes) bes( a)]
     a8[ bes16 c]
   | \bottom\stemUp fis,8[ \top\stemDown d' g, bes~]  bes8[( a16) g] a4
-  %30
   | \top\stemDown\tieDown
     s4. \once\omit Flag g'8~
     \stemUp
@@ -240,7 +214,6 @@ Alto = \context Voice = "two" \relative c'' {
       <b! d>2^\fermata
     } >>
 }
-
 Tenor = \context Voice = "three" \relative c' {
   \voiceThree
   \override MultiMeasureRest.staff-position = #0
@@ -249,7 +222,6 @@ Tenor = \context Voice = "three" \relative c' {
   \mergeDifferentlyDottedOn
   \mergeDifferentlyHeadedOn
   \slurDown
-  %1
   | \top\stemDown\tieDown g'4\rest \clef bass g,( g4 f
   | bes4. a16[ g] a4) g~
   | g c2 bes8 a
@@ -260,7 +232,6 @@ Tenor = \context Voice = "three" \relative c' {
     g[_\markup { \hspace #-2 \small "(tre corde)" } a]
     \once\override NoteColumn.force-hshift = #0.6
     bes[ a16 \bottom\stemUp g] <d a'>4~
-  %5
   | <d a'>8[ \top\stemDown\tieDown g16 fis] g8 bes8~( bes a16) g a8 c~
   | c8[ bes16^( a]) bes8[ d~]
     \once\override NoteColumn.force-hshift = #0.5 d16
@@ -273,7 +244,6 @@ Tenor = \context Voice = "three" \relative c' {
     \once\override NoteColumn.force-hshift = #0.5 a4
   | g2 g4 f~
   | f \top\stemDown\tieDown bes2 a4~
-  %10
   | a8 b!16 c d4~ d8 c16 b c4~ \breathe
   | c8[_\tc bes16 c] s4 s8 \stemUp g'[ \shiftOff a] s
   | s2 \stemDown \once\override NoteColumn.force-hshift = #0.2 f8[
@@ -289,7 +259,6 @@ Tenor = \context Voice = "three" \relative c' {
     c8[ bes16 a!]
     \once\shape #'((0 . 0) (0 . 0) (0 . 0.5) (0 . 0)) Tie
     bes4~
-  %15
   | \once\omit Flag bes8
     s ees,_- s a,_- s s a'
   | bes4
@@ -302,7 +271,6 @@ Tenor = \context Voice = "three" \relative c' {
   | g4~ g8[ a16 bes!] c[ d] ees4 d16[ c] \breathe
   | bes8_\tc \once\override NoteColumn.force-hshift = #0.3 ees4 d16[ c]
     \bottom\stemUp bes4. s8
-  %20
   | \top\stemDown f'8 e\rest e\rest f g[ f] ees4
   | \bottom\stemUp d8\rest d[
     \top\stemDown g f]
@@ -317,14 +285,12 @@ Tenor = \context Voice = "three" \relative c' {
   | \once\omit Flag \once\omit Stem bes8 s4
      \once\override NoteColumn.force-hshift = #0.4
     d8_- g,2~
-  %25
   | g8[ g16 fis] g[( a) a( bes)] bes2~
   | \top\stemDown\slurDown\tieDown
     bes8[ a16( g)] a[( b!) b( c)] c2~
   | c2 c8.[( d16]) c32[ b! c b c b a! b]
   | c8 g\rest \bottom\stemUp\tieUp s2.
   | s8 s s4 s4 \top\stemDown\tieDown a8[ c]~
-  %30
   | c8[ bes16( a)] bes8[ d~] d16[ c8 bes16] a[ g c bes]
   | a4 a8\rest g \once\override NoteColumn.force-hshift = #0.4 g[ c]
     \once\override NoteColumn.force-hshift = #0.4 a4
@@ -334,14 +300,12 @@ Tenor = \context Voice = "three" \relative c' {
     <ees g>^( fis a16 \top\stemDown ees'] d8)[ g~] g8[ fis!]
   | g,4._~ g16 fis g2\pp
 }
-
 Bass = \context Voice = "four" \relative c, {
   \voiceFour
   \override MultiMeasureRest.staff-position = #0
   \override Rest.staff-position = #0
   \override Staff.SustainPedalLineSpanner.outside-staff-priority = #1000
   \override Staff.SustainPedalLineSpanner.staff-padding = #8
-  %1
   | \stemUp
     <g g'>8[^\markup { \dynamic p " legato (una corda)" } <a a'> <bes bes'> <c c'>]
     <d d'>[ <ees ees'> <d d'> <c c'>]
@@ -349,7 +313,6 @@ Bass = \context Voice = "four" \relative c, {
   | <c c'>[^\markup { \small "senza rallentando" } <bes bes'> <a a'> <g g'>]
     <fis fis'>[ <d d'> <g g'> <f f'>]
   | <ees ees'>[ <d d'>] <ees ees'>4 <d d'>2~
-  %5
   | \once\override NoteColumn.force-hshift = #0.3
     \once\override Beam.positions = #'(2.8 . 2.8)
     <d d'>8[\sustainOn <d' d'> <ees ees'>\tweak X-offset -4\sustainOff <d d'>]
@@ -360,7 +323,6 @@ Bass = \context Voice = "four" \relative c, {
   | \stemUp
     <g g'>[ <a a'> <bes bes'> <c c'>] <d d'>[ <ees ees'> <d d'> <c c'>]
   | <bes bes'> [ <c c'> <d d'> <ees ees'>] <f f'>[ <g g'> <f f'> <ees ees'>]
-  %10
   | <d d'>[ <c c'> <b! b'!> <g g'>] <c c'>[ <d d'> <ees ees'> <c c'>]
   | <g' g'>[ <g, g'> <g' g'> <f f'>] <ees ees'>[ <c c'> <f f'> <g g'>]
   | \stemDown\slurDown
@@ -369,10 +331,8 @@ Bass = \context Voice = "four" \relative c, {
     \override Staff.SustainPedalLineSpanner.staff-padding = #7
     ees\sustainOn
     <ees, ees'>~] <ees ees'>[\tweak X-offset -4\sustainOff <ees, ees'> <d d'> <c' c'>]
-  | % in the original score:
-    % b![ g c bes] a![ f bes d]
+  |
     <b! b'!>[ <g g'> <c c'> <bes bes'>] <a! a'!> [ <f f'> <bes bes'> <d d'>]
-  %15
   | <ees ees'>[( <d d'> <ees ees'> <d d'>] <ees ees'>[ <d d'> <ees ees'> <c c'>])
   | <d d'>[ <ees ees'> <f f'> <f, f'>] <bes bes'>[ <c c'> <d d'> <ees ees'>]
   | <f f'>[ <g g'> <f f'> <ees ees'>] <d d'>[ <c c'> <b! b'!> <g g'>]
@@ -380,7 +340,6 @@ Bass = \context Voice = "four" \relative c, {
   | <g g'>[ <g' g'> <a a'> <f! f'!>]
     \override Staff.SustainPedalLineSpanner.staff-padding = #8
     <bes bes'>[ <c, c'> <d d'>\sustainOn <ees ees'>]\tweak X-offset 2\sustainOff
-  %20
   | \stemUp <f f'>[ <f, f'>\pp( <ees ees'> <d d'>] <c c'>[ <d d'>
     \override Staff.SustainPedalLineSpanner.staff-padding = #9
     <ees ees'>\sustainOn <c c'>])\sustainOff
@@ -397,14 +356,12 @@ Bass = \context Voice = "four" \relative c, {
     <c c'>4~\sustainOn
   | <c c'>8\tweak X-offset 1\sustainOff <c, c'> <c' c'>4~ <c c'>8[ <a a'> <bes bes'> <fis fis'>]
   | \stemUp <g g'> [ <bes bes'> <c c'> <d d'>] <ees ees'> [ <f! f'!>^\uc <ees ees'> <d d'>]
-  %25
   | <c c'> <c, c'> d''\rest <c, c'> <g g'>[ <g' g'> <f! f'!> <ees ees'>]
   | <d d'>[ <d, d'> <d' d'> <g, g'>] <c c'>[ <ees ees'> <aes, aes'> <c c'>]
   | <f, f'>[ <f' f'> <ees ees'> <aes aes'>] <g g'>[ <f f'> <g g'> <g, g'>]
   | <c c'>[ <d d'> <c c'> <bes! bes'!>] <a! a'!>[ <d, d'>] <d' d'>4~
   | \stemDown <d d'>8[ <bes bes'> <ees ees'> <d d'>]
     \stemUp <e! e'!>[ <c c'> <f! f'!> <e! e'!>]
-  %30
   | <fis fis'>[ <d d'> <g g'> <g, g'>] <c c'>[ <d d'> <ees ees'> <c c'>]
   | <d d'>[ <c c'> <bes bes'> <ees ees'>] <c c'>[ <a a'> <d d'> <d, d'>]
   | g1
@@ -415,7 +372,6 @@ Bass = \context Voice = "four" \relative c, {
     <d' \parenthesize b'!>2*2/4\fermata\sustainOn s4\sustainOff
   \fine
 }
-
 \score {
   \new PianoStaff
   <<

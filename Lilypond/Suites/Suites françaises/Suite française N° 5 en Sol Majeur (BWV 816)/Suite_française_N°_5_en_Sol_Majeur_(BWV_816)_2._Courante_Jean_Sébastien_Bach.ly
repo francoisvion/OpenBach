@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title = "2. Courante"
   subtitle = "Suite française N° 5"
@@ -7,33 +6,27 @@
   opus = "BWV 816"
   tagline = ##f
   }
-
 Global = {
-   
    \key g \major
    \time 3/4
    \partial 16
 }
-
 StaffUp = {
    \change Staff = Upper
    \stemDown
    \tieDown
 }
-
 StaffDown = {
    \change Staff = Lower
    \stemUp
    \tieUp
 }
-
 StaffDownII = {
    \change Staff = Lower
    \stemDown
    \tieDown
 }
-
-VoiceI =   \relative c'''  { 
+VoiceI =   \relative c'''  {
    \repeat volta 2 {
       g16 \voiceOne
       g8 fis16 e d c b a b d a c
@@ -76,17 +69,14 @@ VoiceI =   \relative c'''  {
       g8 fis16 e d c b a \voiceOne g8.
    }
 }
-
 VoiceII =  \relative c''{ \voiceThree
    \repeat volta 2 {
       s16
-%      \stemUp \shiftOn
       d8 s8 s2
       s2.*6
-%      \stemDown
       \voiceTwo r16 g, fis e d \StaffDown c b a g b fis a
       \oneVoice g8 e g e b' b,
-      e16 fis g e cis g' b, g' a, g' fis e 
+      e16 fis g e cis g' b, g' a, g' fis e
       fis8 d fis d g e
       a g16 fis e d cis b a e' g, e'
       fis,8 e fis a d fis,
@@ -106,7 +96,6 @@ VoiceII =  \relative c''{ \voiceThree
       s2 s8.
    }
 }
-
 VoiceIII =  \relative c''{ \voiceTwo
    \tieDown
    \repeat volta 2 {
@@ -144,7 +133,6 @@ VoiceIII =  \relative c''{ \voiceTwo
       b4  b8[ d \StaffUp \voiceTwo g8.]
    }
 }
-
 VoiceIV  =  \relative c' { \oneVoice
    \repeat volta 2 {
       r16
@@ -159,7 +147,6 @@ VoiceIV  =  \relative c' { \oneVoice
       r8 g4.~ g8.
    }
 }
-
 \score {
    \context PianoStaff <<
       \context Staff = Upper <<
@@ -176,6 +163,5 @@ VoiceIV  =  \relative c' { \oneVoice
       >>
    >>
    \layout { }
-   
   \midi { \tempo 4 = 132 }
 }

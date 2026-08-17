@@ -1,15 +1,11 @@
 \version "2.24.4"
-
 \include "defs.ily"
 \include "horn.ily"
 \include "bassoon1.ily"
 \include "bassoon2.ily"
 \include "bass.ily"
 \include "continuo.ily"
-
 #(set-global-staff-size 18)
-
-
 \book
 {
   \include "header.ily"
@@ -60,7 +56,6 @@
       }
     >>
   }
-
   \score
   {
     <<

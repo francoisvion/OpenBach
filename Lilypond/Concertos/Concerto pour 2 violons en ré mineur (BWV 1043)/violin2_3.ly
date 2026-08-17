@@ -1,9 +1,6 @@
-\version "2.16.0"
-%Violin 2, 3rd movement
-
+\version "2.24.0"
 violinCD =  \relative c' {
     \partial 8
-
     a'16 g |
     a8 r r bes16 g a8 r |
     r g16 e f8 r r g16 e |

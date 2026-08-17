@@ -1,16 +1,13 @@
 \version "2.24.4"
-
 \header {
   title = "Invention 15"
   opus = "BWV 786"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ""
 }
-
 voiceone =  \relative c'' {
   \key b \minor
   \time 4/4
-
   r8  b16[ ais]  b8[ fis]  g[\prall fis]  b[ fis] |
   fis[\prall e]  cis'[ e,]  e[\prall d16 cis]  d[ e fis e] |
   fis8\mordent r r16  a[ gis a]  b[ cis b gis]  a[ b a fis] |
@@ -34,13 +31,10 @@ voiceone =  \relative c'' {
   e[\prall d16 cis]  d[ fis e g]  fis8.[ d'16]  ais8.[\prall b16] |
   b1 \fermata \bar "|."
 }
-
-
 voicetwo =  \relative c {
   \key b \minor
   \time 4/4
   \clef "bass"
-
   b8 r d r e r d r |
   cis r ais r b r g r |
   fis[ fis'16 eis]  fis8[ cis]  d[\prall cis]  fis[ cis] |
@@ -64,7 +58,6 @@ voicetwo =  \relative c {
   b8[ b'16 ais]  b8[ g]  d16[ fis e g]  fis8[ fis,] |
   b1\fermata \bar "|."
 }
-
 \score {
    \context GrandStaff <<
     \context Staff = "one" <<
@@ -74,9 +67,7 @@ voicetwo =  \relative c {
       \voicetwo
     >>
   >>
-
   \layout{ }
-  
   \midi {
     \context {
       \Score

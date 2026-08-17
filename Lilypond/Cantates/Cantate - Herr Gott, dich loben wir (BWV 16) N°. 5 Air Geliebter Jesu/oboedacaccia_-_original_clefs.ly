@@ -1,11 +1,10 @@
-\version "2.24.4"
+\version "2.27.1"
 
 \include "definitions.ly"
 
 \include "notes.ly"
 
-#(set-global-staff-size 18)
-
+#(set-global-staff-size 20)
 \score {
 	\keepWithTag #'OboeDaCacciaPart \music
 	\layout {}

@@ -1,12 +1,11 @@
-%#(set-default-paper-size "a4")
-#(set-global-staff-size 17.82)
+\version "2.27.0"
 
-\version "2.24.4"
+#(set-global-staff-size 18)
+
 \header {
   title = "Wachet auf, ruft uns die Stimme"
-  subtitle = "BWV 645"
-  composer = "J.S. Bach"
-  enteredby = "Bart Golsteijn"
+  opus = "BWV 645"
+  composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 
@@ -92,4 +91,3 @@ pedalNotes = \relative c, {
   \midi { \tempo 4=60 }
   \layout { }
 }
-

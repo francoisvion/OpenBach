@@ -1,7 +1,5 @@
 \version "2.24.4"
-
 \language "english"
-
 \header {
   title = "3. Sarabande"
   subtitle = "Suite française N° 6"
@@ -9,33 +7,26 @@
   opus = "BWV 817"
   tagline = ##f
 }
-
 upperVoice = {
   \stemUp
   \tieUp
   \slurUp
 }
-
 lowerVoice = {
   \stemDown
   \tieDown
   \slurUp
 }
-
 neutralVoice = {
   \stemNeutral
   \tieNeutral
   \slurUp
 }
-
-staffUp = \change Staff = "upper" 
+staffUp = \change Staff = "upper"
 staffDown = \change Staff = "lower"
 voiceFive = #(context-spec-music (make-voice-props-set 4) 'Voice)
 voiceSix = #(context-spec-music (make-voice-props-set 8) 'Voice)
 arpeggioConnect = \set Staff.connectArpeggios = ##t
-
-% Repeat one
-
 upperHighOne = \relative c'' {
   | gs8. a16 fs4. ( \trill e16 fs )
   | e4 << { a2 } \\ \\ { e2 } >>
@@ -44,13 +35,10 @@ upperHighOne = \relative c'' {
   | b'8. \mordent cs16 a4. gs8
   | << { cs8 ds16 e e4. ds8 } \\ \\ { fs,4 cs'4. b8 } >>
   | cs16 as b8 as4. b8
-  
   \barNumberCheck #8
-  
   | b4 << { b2 } \\ \\ { fs2 } >>
   |
 }
-
 upperLowOne = \relative c' {
   | s2.
   | cs4 cs2
@@ -59,13 +47,10 @@ upperLowOne = \relative c' {
   | ds4 e2
   | cs4 fs4. fs8
   | e8 ds cs ds e4 ~
-  
   \barNumberCheck #8
-  
   | e8 cs ds2
   |
 }
-
 lowerHighOne = \relative c' {
   | << { b4 bs2 } \\ \\ { gs4 gs2 } >>
   | gs4 ~ gs16 b a gs fs e ds e
@@ -74,13 +59,10 @@ lowerHighOne = \relative c' {
   | b4 s2
   | s2.
   | s4 fs2 ~
-  
   \barNumberCheck #8
-  
   | fs4 fs2
   |
 }
-
 lowerLowOne = \relative c {
   | e4 ds2
   | cs2.
@@ -89,35 +71,28 @@ lowerLowOne = \relative c {
   | gs4 cs b
   | as4 ~ as8 gs16 fs b4
   | gs8 e fs4 fs,
-  
   \barNumberCheck #8
-  
   | b4 b2
   |
 }
-
-% Repeat two
-
 upperHighTwo = \relative c'' {
   \arpeggioConnect
   | << { ds8. e16 cs4. \trill bs8 } \\ \\ { b4 fs2 } >>
-  | 
-  << { bs4 a'2 \arpeggio } \\ \\ 
-     { gs,4 fs'2 \arpeggio } \\ \\ 
-     { s4 ds2 \arpeggio} 
-  >>  
+  |
+  << { bs4 a'2 \arpeggio } \\ \\
+     { gs,4 fs'2 \arpeggio } \\ \\
+     { s4 ds2 \arpeggio}
+  >>
   | gs8. a16 fs4. es8
-  | es4 
-  << { b'2 \arpeggio } \\ \\ 
-     { gs2 \arpeggio } \\ \\ 
-     { es2 \arpeggio } 
+  | es4
+  << { b'2 \arpeggio } \\ \\
+     { gs2 \arpeggio } \\ \\
+     { es2 \arpeggio }
   >>
   | << { a8. b16 gs4. a8 } \\ \\ { fs4 fs es } >>
   | << { b'8. gs16 es4. fs8 } \\ \\ { fs4 b,2 } >>
   | cs8 [ a' a gs ] fs gs16 es
-  
   \barNumberCheck #16
-  
   | fs4 fs2
   | cs8. ds16 ds4. \trill cs16 ds
   | e4 << { gs2 } \\ \\ { e2 } >>
@@ -126,25 +101,20 @@ upperHighTwo = \relative c'' {
   | << { gs'8. a16 a4. \trill gs16 a } \\ \\ { e4 s2 } >>
   | << { b'4. a16 gs fs e ds cs } \\ \\ { e4 s2 } >>
   | b16 a' gs fs e4 ds8. e16
-  
   \barNumberCheck #24
-  
   | e4 << { e2 } \\ \\ { b2 } >>
   |
 }
-
 upperLowTwo = \relative c' {
   \arpeggioConnect
   | fs4 cs2
-  | ds4 bs'2 \arpeggio 
+  | ds4 bs'2 \arpeggio
   | cs2 b4
   | cs4 cs2 \arpeggio
   | cs4 d cs
   | b4 gs2
   | r8 cs b2 ~
-  
   \barNumberCheck #16
-  
   | b8 gs a2
   | a4 a2
   | b4 cs2
@@ -153,32 +123,24 @@ upperLowTwo = \relative c' {
   | b4 e2
   | b4 cs4 ~ cs8 r
   | b4 b2 ~
-  
   \barNumberCheck #24
-  
   | b4 e,2
 }
-
 lowerHighTwo = \relative c' {
   \arpeggioConnect
   | s2. * 2
   | gs=4 a gs8 fs
   | gs4 s2
-  | s2. * 3 
-  
+  | s2. * 3
   \barNumberCheck #16
-  
   | s2. * 5
   | s2.
   | s2.
   | s4 r8 fs= gs a ~
-  
   \barNumberCheck #24
-  
   | a8 fs gs b r4
   |
 }
-
 lowerLowTwo = \relative c' {
   | b4 a2
   | gs4 ~ gs16 fs ( a gs fs e fs ds )
@@ -187,9 +149,7 @@ lowerLowTwo = \relative c' {
   | fs4 b cs
   | d4. d8 cs b
   | a8 fs cs'4 cs,
-  
   \barNumberCheck #16
-  
   | fs4. fs8 a cs
   | fs4 fs, fs'
   | gs8 as as4. ^ \trill gs16 as
@@ -201,13 +161,11 @@ lowerLowTwo = \relative c' {
   | e2 e,4
   |
 }
-
-global = { 
+global = {
   \key e \major
   \time 3/4
   \accidentalStyle Score.piano-cautionary
 }
-
 upper = {
   \clef treble
   \global
@@ -219,7 +177,6 @@ upper = {
     \new Voice { \repeat volta 2 { \voiceTwo \upperLowTwo } }
   >>
 }
-
 lower = {
   \clef bass
   \global
@@ -231,7 +188,6 @@ lower = {
     \new Voice { \repeat volta 2 { \voiceFour \lowerLowTwo } }
   >>
 }
-
 \score {
   \new PianoStaff <<
     \new Staff = "upper" \with {
@@ -241,9 +197,9 @@ lower = {
       \consists "Span_arpeggio_engraver"
     } \lower
   >>
-  \layout { 
-  } 
-  \midi { 
+  \layout {
+  }
+  \midi {
     \tempo 4 = 60
   }
 }

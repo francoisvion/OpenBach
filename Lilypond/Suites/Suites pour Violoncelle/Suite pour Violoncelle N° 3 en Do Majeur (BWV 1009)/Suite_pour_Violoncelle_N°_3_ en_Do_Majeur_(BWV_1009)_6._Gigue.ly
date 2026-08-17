@@ -1,12 +1,10 @@
 \version "2.24.4"
-
 gigue = {
     \key c \major
     \time 3/8
     \set Staff.midiInstrument = "cello"
     \override TextScript #'padding = #2.5
-    
-    \repeat volta 2 { 
+    \repeat volta 2 {
         \partial 8 g8 c'8 c16( d e f) g8( a) b c'( g) e' c'( g) e' d'16( c' d' e') f'8
         b8( c' e) g,( d) c' b( g) d' d'( fis) g e8 e'16( d' c' b) c'8 a,16( b, c d) e8( a,) c' c' e( fis) d8 d'16( c' b a)
         b8 g,16( a, b, c) d8( g,) b b d( e) c8 c'16( b a g) fis8 a16( g fis e) d4 d8
@@ -15,10 +13,10 @@ gigue = {
         a16( g,) b( g,) c'8 d4 a8
         << { c'16( d') ees'8 d' c'8\staccato bes\staccato a\staccato fis'8( g') a fis'( g') a c'16( d') ees'8 d'
         c'8\staccato bes\staccato a\staccato cis'8( d') a cis'8( d') d } \\ { d8 d d d d d d4 d8 d4 d8 d8 d d d d d d4 d8 d4 s8 } >>
-        g,16( b, d8) e a,16( c e8) fis b,16( d) g( e) f!( d) c( e a b c' a) d'( a fis e d c) b,( d g) b, a, fis g8 d b, g,4 
+        g,16( b, d8) e a,16( c e8) fis b,16( d) g( e) f!( d) c( e a b c' a) d'( a fis e d c) b,( d g) b, a, fis g8 d b, g,4
     }
     \break
-    \repeat volta 2 { 
+    \repeat volta 2 {
         d'16( c') b16( c') a( b) g( a) f( g) e( f) d( e) c16 g( a b c' d')
         \new Voice { \stemDown e'8[ \stemUp c, \stemDown e'] } f16( a b c' d' c') d( fis gis a b a)
         gis16( fis) gis( a) b( gis) e4^\trill b8 c'8 e( f) d8 d'16( c' b a) b8 g,16( a, b, c) d8( g,) bes bes d( e)

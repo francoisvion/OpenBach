@@ -20,28 +20,29 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
-           g'4 a' bes' g'\fermata
+          g'4 a' bes' g'\fermata
           r d'' c'' bes'
           a' g' a'2\fermata
           bes'4 c'' d'' bes'\fermata
           r d'' ees'' d''
           c'' c'' bes'2\fermata
-           d''4 c'' bes' g'\fermata
+          d''4 c'' bes' g'\fermata
           r c'' c'' bes'
           a' g' f'2\fermata
           bes'4 c'' d'' bes'\fermata
           r d'' c'' g'8 [a']
           bes'4 a' g'2\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
-           d'4 d' d' d'\fermata
+          d'4 d' d' d'\fermata
           r g'4. fis'8 g'4~
           g'8 [fis'] g' [g] d'2\fermata
           f'4 f' f' f'\fermata
           r bes'4. a'8 bes'4
           bes' a' f'2\fermata
-           f'4. fis'8 g'4 d'\fermata
+          f'4. fis'8 g'4 d'\fermata
           r g'4. f'16 [e'] f'4~
           f' e' c'2\fermata
           g'4 a' bes'8 [aes'] g'4\fermata
@@ -50,9 +51,18 @@
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
-      Schaut, ihr Sün -- der! Ihr macht mir gro -- sse Pein! Ihr sollt Kin -- der des To -- des e -- wig sein: durch mein Ster -- ben seid ihr hier -- von be -- freit und nun Er -- ben der wah -- ren Se -- lig -- keit.
+      Schaut, ihr Sün -- der!
+      Ihr macht mir gro -- ße Pein!
+      Ihr sollt Kin -- der
+      des To -- des e -- wig sein:
+      durch mein Ster -- ben
+      seid ihr hier -- von be -- freit
+      und nun Er -- ben
+      der wah -- ren Se -- lig -- keit.
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -61,7 +71,7 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
-           bes4 a g bes\fermata
+          bes4 a g bes\fermata
           r bes c' d'
           d'4. c'8 fis2\fermata
           d'4 c' bes d'\fermata
@@ -74,6 +84,7 @@
           r f' ees' bes8 [c']
           d'4. c'8 b2\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
            g4. fis8 g4 g,\fermata

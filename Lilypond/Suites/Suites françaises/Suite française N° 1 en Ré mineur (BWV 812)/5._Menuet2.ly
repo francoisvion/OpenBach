@@ -1,27 +1,18 @@
-\version "2.20.0"
-
+\version "2.24.0"
 \include "italiano.ly"
-
-
-
 \paper {
   #(set-paper-size "a4")
 }
-
-
 staffOne = \change Staff = one
 staffTwo = \change Staff = two
-
 stsu = { \staffTwo \stemUp }
 sosn = { \staffOne \stemNeutral }
-
 right =  {
         \clef treble
         \key fa \major
         \time 3/4
-        % \partial 8
        \relative do'' {
-       \stemUp 
+       \stemUp
        la4\mordent la4.\prall sol16 la |
       sib8 do re sib do la |
       sol4*2/3 s4*1/3 \once  \tweak Y-offset -0.5 \prallup do4. sib8 |
@@ -39,7 +30,6 @@ right =  {
       s4*1/3 \once  \tweak Y-offset -1 \prallup la4*2/3 sol8 fa mi fa |
       re2.\prall |
       \bar ":|."
-      
       la'8 sol fa sol la sib |
       do sol la sib do sib |
       do mib re do sib la |
@@ -48,7 +38,6 @@ right =  {
       re4 re4.\prall dod16 re |
       mi8 fa sol mi fa re |
       mi4 re8 dod si la |
-      
              la4\mordent la4.\prall sol16 la |
       sib8 do re sib do la |
       sol4*2/3 s4*1/3 \once  \tweak Y-offset -0.7 \prallup do4. sib8 |
@@ -64,27 +53,19 @@ right =  {
       fa4 fa4.\prall mi16 fa |
       sol8 la sib la sib sol |
       s4*1/3 \once  \tweak Y-offset -1 \prallup la4*2/3 sol8 fa mi fa |
-      re2.\prall | 
-      
-  
-
-
+      re2.\prall |
        }
        \bar "|."
        }
-
 left =  {
         \clef bass
         \key fa \major
         \time 3/4
-        % \partial 8
         \relative do{
-       \new Voice = "melody" {     
-         
-          
+       \new Voice = "melody" {
           << \relative do'
             { \voiceTwo
-              \staffOne \stemDown 
+              \staffOne \stemDown
               fa4 fa2 |
               sol2_( sol8) fa |
               mi4 mi2 |
@@ -101,14 +82,9 @@ left =  {
               re4) dod2 |
               re2 dod4 |
               re2. |
-              
-              
-    
-                         
             }
-            
             \new Voice  \relative do
-            { \voiceThree 
+            { \voiceThree
               re4 re' do |
               sib4 la8 sol la sib |
               do4 do,8 sib la sol |
@@ -125,18 +101,12 @@ left =  {
               mi fa sol fa sol mi |
               fa4 sol la |
               re, la re, |
-              
- 
-
-     
             }
           >>
-
         }
               << \relative do'
             { \voiceTwo
-             \stemDown     
-        
+             \stemDown
               re,4\mordent re4.\prall do!16 re |
               mi2. |
               fad4 fad4.\prall mi!16 fad |
@@ -161,14 +131,9 @@ left =  {
               mi fa sol fa sol mi |
               fa4 sol la_\markup {\italic "Menuet I da capo"} |
               re, la re, |
-         
-              
             }
-        
-        
                     \new Voice  \relative do
-            { \voiceThree 
-        
+            { \voiceThree
                   \staffTwo r2 r4 |
               \stemUp sol'4 sol4.\prall fad16 sol |
               la2. |
@@ -177,7 +142,6 @@ left =  {
               la4 la2_( |
               la4) dod re |
               dod \voiceTwo r r |
-              
                fa,4 fa2 |
               sol2_( sol8) fa |
               mi4 mi2 |
@@ -194,36 +158,21 @@ left =  {
               re4) dod2 |
               re2 dod4 |
               re2. |
-              
-              
-              
-              
             }
               >>
-            
-            
-           
-                      
-
-
 }}
-
 \score {
-
          \context PianoStaff << #(set-accidental-style 'piano)
                 \context Staff = "one" { \set Staff.extraNatural = ##t
                 \right
                  }
-
                 \context Staff = "two" { \set Staff.extraNatural = ##t
                 \left
                  }
-  >>  
+  >>
   \layout {
-  
          \context { \Staff
-       \override BarLine #'hair-thickness = #0.30
-  
+       \override BarLine.hair-thickness = #0.30
   }
   }
   \midi {
@@ -233,10 +182,7 @@ left =  {
     }
   }
     \header {
-
   piece = "5. Menuet 2"
   tagline = ##f
 }
-  
-  
 }

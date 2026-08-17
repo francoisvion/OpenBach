@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title = "Aus meines Herzens Grunde"
   subtitle = "Choral à 4 voix"
@@ -7,11 +6,9 @@
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
 \paper {
   top-margin = 12
 }
-
 blanknotes = {
 \override NoteHead #'transparent = ##t
 \override Stem #'transparent = ##t
@@ -22,12 +19,9 @@ unblanknotes = {
 \revert Stem #'transparent
 \revert Flag #'transparent
 }
-
-\include "italiano.ly" % Permet d'entrer les notes en francais
-
+\include "italiano.ly"
 #(set-global-staff-size 20)
 Soprane =  \context Voice = "Soprane" {
-%voix principale de la portée en clef de sol
 	\set Staff.midiInstrument = "acoustic grand"
 	\time 3/4
 	\key sol \major
@@ -46,7 +40,6 @@ Soprane =  \context Voice = "Soprane" {
 	  \set Timing.measureLength = #(ly:make-moment 2 4)
 	  sol'2-\fermata
 	}
-% partie b
 	\set Timing.measureLength = #(ly:make-moment 1 4)
 	si'4
 	\set Timing.measureLength = #(ly:make-moment 3 4)
@@ -64,12 +57,9 @@ Soprane =  \context Voice = "Soprane" {
 	re''2 do''4
 	si' la'2
 	sol'2-\fermata
-
 	\bar "|."
       }
-
 Alto =  \context Voice = "Alto" {
-%voix secondaire de la portée en clef de sol
 	\set Staff.midiInstrument = "acoustic grand"
 	\time 3/4
 	\key sol\major
@@ -87,7 +77,6 @@ Alto =  \context Voice = "Alto" {
 	  \set Timing.measureLength = #(ly:make-moment 2 4)
 	  re'2
 	}
-% partie b
 	\set Timing.measureLength = #(ly:make-moment 1 4)
 	sol'4~
 	\set Timing.measureLength = #(ly:make-moment 3 4)
@@ -107,9 +96,7 @@ Alto =  \context Voice = "Alto" {
 	re'2
 	\bar "|."
       }
-
 Tenor =  \context Voice = "Tenor" {
-%voix principale de la portée en clef de fa
 	\set Staff.midiInstrument = "acoustic grand"
 	\time 3/4
 	\key sol \major
@@ -127,7 +114,6 @@ Tenor =  \context Voice = "Tenor" {
 	  \set Timing.measureLength = #(ly:make-moment 2 4)
 	  si2
 	}
-% partie b
 	\set Timing.measureLength = #(ly:make-moment 1 4)
 	re'4
 	\set Timing.measureLength = #(ly:make-moment 3 4)
@@ -147,9 +133,7 @@ Tenor =  \context Voice = "Tenor" {
 	si2
 	\bar "|."
       }
-
 Basse =  \context Voice = "Basse" {
-%voix secondaire de la portée en clef de fa
 	\set Staff.midiInstrument = "acoustic grand"
 	\time 3/4
 	\key sol \major
@@ -168,7 +152,6 @@ Basse =  \context Voice = "Basse" {
 	  \set Timing.measureLength = #(ly:make-moment 2 4)
 	  sol,2
 	}
-% partie b
 	\set Timing.measureLength = #(ly:make-moment 1 4)
 	sol,4
 	\set Timing.measureLength = #(ly:make-moment 3 4)
@@ -188,29 +171,23 @@ Basse =  \context Voice = "Basse" {
 	sol,2
 	\bar "|."
       }
-
 SopraneStaff = \context Staff = SopraneStaff <<
   \Soprane
   \Alto
 >>
-
-
 TenorStaff = \context Staff = TenorStaff <<
   \Tenor
   \Basse
 >>
-
 \score {
   \context PianoStaff <<
     <<
       \SopraneStaff
       \TenorStaff
-
     >>
   >>
   \layout { }
   \midi {
-    %indication d'interprétation midi
     \tempo 4 = 72
   }
 }

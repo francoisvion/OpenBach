@@ -1,8 +1,6 @@
-\version "2.16.0"
-%Violin 2, 2nd movement
-
+\version "2.24.0"
 violinCC =  \relative c' {
-    e2.-"sempre piano" | % want \p instead of "piano"
+    e2.-"sempre piano" |
     fis4 dis2 |
     e2. ~ |
     e4 dis8 cis dis4 ~ |
@@ -24,7 +22,6 @@ violinCC =  \relative c' {
     dis' r8 gis,16(  fis) gis8 a |
     gis4 r8 gis8 a fis'8 |
     bis,2^\fermata r4 |
-    
     cis8( cis cis cis cis  cis) |
     cis( cis cis cis cis  cis) |
     ais4 ~ ais16 cis cis(  dis) dis(  b) b(  gis) |
@@ -40,7 +37,7 @@ violinCC =  \relative c' {
     cis( cis cis  cis) dis(  dis) |
     e( e cis cis d  gis,) |
     a( a a  a) e(  b') |
-    a4 r8 e16 dis %{ or d %} e8 e |
+    a4 r8 e16 dis  e8 e |
     fis4 r8 fis16 gis a8 a |
     gis4 r8 e16 fis gis8 gis |
     fis4 r8 gis16 e fis8 dis |

@@ -1,10 +1,12 @@
-\include "defs.ly"
+\include "./Partita_pour_clavier_n°_4_en_ré_majeur_(BWV_828)_defs.ly"
+
 global = {
    \key d \major
    \time 3/4
-   \override Staff.NoteCollision #'merge-differently-dotted = ##t
+   \language "deutsch"
+   \override Staff.NoteCollision.merge-differently-dotted = ##t
    \override Beam.auto-knee-gap = #2.5
-   \override TupletBracket #'stencil = ##f
+   \override TupletBracket.stencil = ##f
 }
 
 sopranE = \new Voice \relative fis'' {
@@ -56,7 +58,7 @@ sopranE = \new Voice \relative fis'' {
       
       \barNumberCheck 30
       \halsdown fis,16[ g a] \halsup h32 c \halsdown a'2
-      \halsup h,32 cis! d8 cis16 d a32 g a16 fis'~ fis g a, g'
+      \halsup h32 cis! d8 cis16 d a32 g a16 fis'~ fis g a, g'
       \halsneutral fis32 g a8 g32 fis e fis g8 fis32 e d e fis8 e32 d
       cis e d cis d cis h a~ a fis' e d e cis h a~ a g' fis e fis cis h a~
       \once \override Beam.positions = #'( -4 . -3 ) a32 a' g fis g fis e d cis e d cis d cis h a g h a g a g fis e
@@ -210,4 +212,3 @@ leftE = {
       \bassE
    >>
 }
-

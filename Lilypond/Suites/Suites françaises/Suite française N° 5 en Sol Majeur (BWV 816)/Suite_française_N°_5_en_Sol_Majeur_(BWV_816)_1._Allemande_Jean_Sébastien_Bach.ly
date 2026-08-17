@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title = "1. Allemande"
   subtitle = "Suite française N° 5"
@@ -7,21 +6,17 @@
   opus = "BWV 816"
   tagline = ##f
 }
-
 Global = {
-   
    \key g \major
    \time 4/4 \override Staff.TimeSignature.style = #'C
    \partial 16
    \override Staff.NoteCollision.merge-differently-dotted = ##t
 }
-
 StaffUp = {
    \change Staff = Upper
    \stemDown
    \tieDown
 }
-
 StaffDown = {
    \change Staff = Lower
    \stemUp
@@ -61,7 +56,6 @@ VoiceI =  \relative c'' { \voiceOne
       g2~ g4..
    }
 }
-
 VoiceIIa =  \relative c' { \voiceTwo
    \repeat volta 2 {
       \StaffDown
@@ -90,7 +84,6 @@ VoiceIIa =  \relative c' { \voiceTwo
       r16 c, d a b4~ b4..
    }
 }
-
 VoiceIIb =  \relative c'' {
    \stemUp \tieUp
    \repeat volta 2{
@@ -100,15 +93,15 @@ VoiceIIb =  \relative c'' {
    }
    \repeat volta 2 {
       s16
-      s1*5      
+      s1*5
       s4
-      \override Rest.extra-offset =#'(0.25 . -0.0) 
+      \override Rest.extra-offset =#'(0.25 . -0.0)
       b16 \rest a8. s16 b8.~ \shiftOn b4 \shiftOff
-      s2 s8.  
+      s2 s8.
       \once\override Stem.transparent = ##t
       \once\override NoteHead.transparent  = ##t
       \once\override Beam.transparent  = ##t
-       a16_~ 
+       a16_~
       \shiftOn
       a4
       \shiftOff
@@ -121,7 +114,6 @@ VoiceIIb =  \relative c'' {
       \shiftOn d4..
    }
 }
-
 VoiceIII =  \relative c { \voiceOne
    \repeat volta 2 {
       s16
@@ -148,7 +140,7 @@ VoiceIII =  \relative c { \voiceOne
       s2 r8 \stemDown d,,4.
       s1
       s2 r8 r16 \stemUp c'' b8 a
-      s4 s8 g8~ g4.. 
+      s4 s8 g8~ g4..
    }
 }
 VoiceIV =  \relative c' { \voiceTwo
@@ -159,7 +151,7 @@ VoiceIV =  \relative c' { \voiceTwo
       cis4. cis8 d4. c8
       b4 a r16 g b d g8 a16 b
       c8 g a b e16 b g b e,8 g
-      a4. a8 d, e fis d 
+      a4. a8 d, e fis d
       g2~ g8 e a, cis
       d g, a4 d16 d' e, d' fis, d' d, d'
       g, d' a d b d g, d' e, d' fis, d' g, d' e, d'
@@ -182,7 +174,6 @@ VoiceIV =  \relative c' { \voiceTwo
       g4~ g16 fis g d g,4..
    }
 }
-
 \score {
    \new PianoStaff <<
       \context Staff = Upper <<

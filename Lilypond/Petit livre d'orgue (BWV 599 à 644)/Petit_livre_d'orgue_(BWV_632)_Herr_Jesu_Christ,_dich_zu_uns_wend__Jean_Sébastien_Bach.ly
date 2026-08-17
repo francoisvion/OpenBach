@@ -1,6 +1,14 @@
-\version "2.24.4"
+\version "2.27.0"
 
-\include "deutsch.ly"
+\language "deutsch"
+
+#(set-global-staff-size 18)
+
+\paper {
+  #(set-paper-size "a4landscape")
+   ragged-bottom = ##f
+   ragged-last-bottom = ##t
+}
 
 \header {
  title = "Herr Jesu Christ, dich zu uns wend"
@@ -15,9 +23,6 @@ global = {
    #(set-accidental-style 'default)
    \override Score.MetronomeMark #'transparent = ##t
 }
-
-#(set-default-paper-size "a4" 'landscape)
-#(set-global-staff-size 18)
 
 halsup        = { \stemUp \tieUp \slurUp }
 halsdown      = { \stemDown \tieDown \slurDown }
@@ -249,7 +254,7 @@ pedal = {
    \midi {
       \context {
          \Score
-         tempoWholesPerMinute = #72/4
+         tempoWholesPerMinuteAsMoment = #72/4
       }
    }
 }

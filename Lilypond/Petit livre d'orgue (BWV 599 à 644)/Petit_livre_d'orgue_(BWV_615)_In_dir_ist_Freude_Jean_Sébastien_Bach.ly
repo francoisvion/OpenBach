@@ -1,6 +1,14 @@
-\version "2.24.4"
+\version "2.27.0"
 
-\include "deutsch.ly"
+\language "deutsch"
+
+#(set-global-staff-size 18)
+
+\paper {
+  #(set-paper-size "a4landscape")
+   ragged-bottom = ##f
+   ragged-last-bottom = ##t
+}
 
 \header {
  title = "In dir ist Freude"
@@ -16,14 +24,6 @@ global = {
    #(set-accidental-style 'default)
    \override Score.MetronomeMark #'transparent = ##t
 }
-
-\paper {
-   ragged-bottom = ##f
-   ragged-last-bottom = ##f
-}
-
-#(set-default-paper-size "a4" 'landscape)
-#(set-global-staff-size 18)
 
 halsup        = { \stemUp \tieUp }
 halsdown      = { \stemDown \tieDown }
@@ -467,7 +467,7 @@ pedal = {
    \midi {
       \context {
          \Score
-         tempoWholesPerMinute = #(ly:make-moment 78 2)
+         tempoWholesPerMinute = #78/2
       }
    }
 }

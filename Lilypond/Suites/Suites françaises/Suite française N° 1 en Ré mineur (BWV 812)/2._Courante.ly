@@ -1,28 +1,19 @@
-\version "2.20.0"
-
+\version "2.24.0"
 \include "italiano.ly"
-
-
-
 \paper {
   #(set-paper-size "a4")
 }
-
-
 staffOne = \change Staff = one
 staffTwo = \change Staff = two
-
 stsu = { \staffTwo \stemUp }
 sosn = { \staffOne \stemNeutral }
-
 right =  {
         \clef treble
         \key fa \major
         \time 3/2
         \partial 8
         \relative do''{
-\stemUp 
-
+\stemUp
   \new Voice = "melody" {
  \set PianoStaff.connectArpeggios = ##t
   <<
@@ -38,9 +29,9 @@ right =  {
         do sib la sol sib4.\mordent do8 la4. sib8 |
         do4.\mordent sib8 la sol la fa mib'4. fa8 |
         re2. re4\arpeggio mi!8 re mi fa |
-        sib,4. do8 la4.\prall sol8 sol4. fa8 | 
+        sib,4. do8 la4.\prall sol8 sol4. fa8 |
         fa4.\prall mi8 fa sol fa sol sol4.\mordent la8 |
-        la2( la8) mi la2 
+        la2( la8) mi la2
       }
             \new Voice {
         \voiceTwo
@@ -56,10 +47,8 @@ right =  {
         la4) sol4( sol) fa( fa) mi( |
         mi) re8 dod re1( |
         re8) re mi si dod4( dod2)
-             
             }
   >>
-  
         }
         r8 \repeat volta 2 {  }
         la'8 |
@@ -78,7 +67,6 @@ right =  {
              re( dod\prall si la) \stemUp  sib4.\arpeggio do8 sib la sib sol |
              r dod mi sol << { fa4. mi8 mi4.\downprall re8 } \\ { \stemUp \once \override NoteColumn.force-hshift = #0.6 re2 \once \override NoteColumn.force-hshift = #0.6 dod! } >> |
                << { s2 s4 re2 } \\ { \stemUp re2^( re8) la8^( la2) } >>
-             
            }
            \new Voice  \relative do'
            { \voiceTwo
@@ -93,34 +81,23 @@ right =  {
              s1. |
              s1. |
              s1. |
-
              s2 <re fa>4.\arpeggio r8 mib4 r4 |
              la2. sib4 la sol( |
              sol8) sol la mi fad4( fad2)
-             
-             
-             
-             
-             
            }
         >>
-        
 }
 \new Voice
 { r8 }
-
-
 }
-
 left =  {
         \clef bass
         \key fa \major
         \time 3/2
         \partial 8
         \relative do{
-       \new Voice = "melody" {     
+       \new Voice = "melody" {
           r8 |
-          
           <<
             { \voiceOne
               r4 fa4 la2( la4) sol |
@@ -131,13 +108,11 @@ left =  {
               r8 do, re mi fa1( |
               fa4.) mib8 re do re sib \stemDown sib'4. la8 |
               sol re mi do fa do re si \stemUp re dod si la |
-              r8 mi' fa sol la2 sib | 
+              r8 mi' fa sol la2 sib |
               mi,2.( mi2)
-                         
             }
-            
             \new Voice  \relative do
-            { \voiceTwo 
+            { \voiceTwo
               re1.( |
               re2) fa8 mi fa re sib'4. sib8 |
               la2. la4 re8 dod! re mi |
@@ -148,39 +123,31 @@ left =  {
               s1 s2 |
               re2. do!4 sib2 |
               la2.( la2)
-     
             }
           >>
-
         }
-            r8 %reprise
+            r8
             r8 |
-            
                       <<
             { \voiceOne
               r8 mi fa sol la2( la)( |
               la) s2 r8 la re,4 |
-              r8 re mi fad 
+              r8 re mi fad
             }
-            
                         \new Voice  \relative do
-            { \voiceTwo 
+            { \voiceTwo
               la2. si4 << {\once \tweak X-offset 1.5 fa'8\rest mi4. } \\
                           { dod4 la } >> |
               re4. mi8 fa sol fa la do,4. do8 |
-              sib2 
-
+              sib2
             }
-            
                       >>
-                      
                       \new Voice {
                       sol8 mib fa re do si la sol |
               do2( do8) la sib re mib do la' sib |
               fad4 re sol do, re\mordent re, |
               sol2
-              r2 r8 sol la sib |     } 
-                      
+              r2 r8 sol la sib |     }
                                             <<
             { \voiceOne
         r8 sol' la sib do re do mib s2 |
@@ -191,47 +158,37 @@ left =  {
         s1. |
         s1. |
         r4 fad, la re,2
-        
             }
-            
                         \new Voice  \relative do
-            { \voiceTwo 
+            { \voiceTwo
               do2 r2 sol'8 fad mi! re |
               sol4. la8 sol fa sol mi sib'!4.^\mordent sib8 |
               dod,2 re sib |
               la4. sol'8 fad mi fad re r4 fad |
               sol4. fa!8 mi re dod re \stemUp sol,4 sib |
               la4. sib8 la sol la fa sol4 \stemDown  sol'4^( |
-              sol8) mi dod la re4 sol la \stemUp la, | 
+              sol8) mi dod la re4 sol la \stemUp la, |
               \stemDown  re2. re,2
-   
-
             }
-            
                       >>
-} 
+}
 \new Voice {
-r8 
+r8
 }
 \bar ":|."
 }
-
 \score {
-
          \context PianoStaff << #(set-accidental-style 'piano)
                 \context Staff = "one" { \set Staff.extraNatural = ##t
                 \right
                  }
-
                 \context Staff = "two" { \set Staff.extraNatural = ##t
                 \left
                  }
-  >>  
+  >>
   \layout {
-  
          \context { \Staff
-       \override BarLine #'hair-thickness = #0.30
-  
+       \override BarLine.hair-thickness = #0.30
   }
   }
   \midi {
@@ -240,12 +197,8 @@ r8
       tempoWholesPerMinute = #(ly:make-moment 100 4)
     }
   }
-
-  
-  
 }
     \header {
-
   piece = "2. Courante"
   tagline = ##f
 }

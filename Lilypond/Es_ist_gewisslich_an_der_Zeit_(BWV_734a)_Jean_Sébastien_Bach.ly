@@ -1,7 +1,5 @@
 \version "2.24.4"
-
 \language "deutsch"
-
 \header {
   title = "Nun freut euch, lieben Christen gmein"
   subtitle = "Choral au ténor"
@@ -10,13 +8,11 @@
   opus = "BWV 734"
   tagline = ##f
 }
-
 global = {
   \key g \major
   \time 4/4
   \partial 4
 }
-
 rh = \relative c' {
   \global
   g'16 fis g a |
@@ -38,7 +34,7 @@ rh = \relative c' {
     h c h a h a g fis g a g fis g f e d |
   }
   \alternative {
-    { e f e d e d c h c e d c d c h a | 
+    { e f e d e d c h c e d c d c h a |
       h g a h c d e fis g d e fis g fis g a |
     }
     { e f e d e d c h }
@@ -68,7 +64,6 @@ rh = \relative c' {
   e f e d e d c h c e d c d c h a |
   h c h a h a g fis g4
 }
-
 koral = \relative c {
   \global
   r4 |
@@ -79,7 +74,7 @@ koral = \relative c {
     a g | a a | h1 ~ | h8 r r4 r2 |
     R1 | r2 g4 a | h2 c | d4 c h2 |
     \barNumberCheck #12
-    a1 | g ~ | % bue ind i 1. volte går fint
+    a1 | g ~ |
   }
   \alternative {
     { g4 r r2 | R1 }
@@ -91,9 +86,8 @@ koral = \relative c {
   r2 a | g fis | g d | g a | h1 ~ | h4 r r2 |
   r2 g4 a | h2 c | d4 c h2 |
   a1 | g ~ | g ~ |
-  g ~ | g ~ | g16 e d c d c h a h4 
+  g ~ | g ~ | g16 e d c d c h a h4
 }
-
 bas = \relative c {
   \global
   h8 d |
@@ -142,13 +136,6 @@ bas = \relative c {
   d g, c a h d h g c g c d e f16 e d e c8 |
   g2 ~ g4
 }
-
-% The way to print the fermata signs over and under the final bar line
-% has been taken from
-% http://lsr.dsi.unimi.it/LSR/Search?q=Positioning+two+opposite+\fermata+signs+over+the+last+bar+line
-% It gives "Two simultaneous mark events, junking this one",
-% but otherwise the result we want.
-
 \new PianoStaff <<
   \new Staff {
     \global
@@ -168,20 +155,15 @@ bas = \relative c {
     \mark \markup { \musicglyph "scripts.dfermata" }
   }
 >>
-
 \markup \column {
   \wordwrap {
     La mélodie du Choral est également connue sous le titre :
     \italic { Es ist gewißlich an der Zeit. }
   }
 }
-
 \paper {
-  % suppress instrument name on top of each page
-  % but keep page numbers
   evenHeaderMarkup = \markup {
     \fill-line {
-      % left adjust page number
       \if \should-print-page-number
         \fromproperty #'page:page-number-string
       " "
@@ -189,27 +171,9 @@ bas = \relative c {
   }
   oddHeaderMarkup = \markup {
     \fill-line {
-      % right adjust page number
       " "
       \if \should-print-page-number
         \fromproperty #'page:page-number-string
     }
   }
 }
-
-
-%{
-convert-ly (GNU LilyPond) 2.25.33  convert-ly: Processing `'...
-Applying conversion: 2.17.0, 2.17.4, 2.17.5, 2.17.6, 2.17.11, 2.17.14,
-2.17.15, 2.17.18, 2.17.19, 2.17.20, 2.17.25, 2.17.27, 2.17.29,
-2.17.97, 2.18.0, 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24,
-2.19.28, 2.19.29, 2.19.32, 2.19.39, 2.19.40, 2.19.46, 2.19.49, 2.20.0,
-2.21.0, 2.21.2, 2.22.0, 2.23.1, 2.23.2, 2.23.3, 2.23.4, 2.23.5,  Not
-smart enough to convert \consists Mark_engraver.  If independent mark
-sequences are desired, use multiple Mark_tracking_translators. Please
-refer to the manual for details, and update manually. 2.23.6, 2.23.7,
-2.23.8, 2.23.9, 2.23.10, 2.23.11, 2.23.12, 2.23.13, 2.23.14, 2.24.0,
-2.25.0, 2.25.1, 2.25.2, 2.25.3, 2.25.4, 2.25.5, 2.25.6, 2.25.8,
-2.25.9, 2.25.11, 2.25.12, 2.25.13, 2.25.18, 2.25.22, 2.25.23, 2.25.24,
-2.25.25, 2.25.26, 2.25.28, 2.25.30, 2.25.31, 2.25.32, 2.25.33
-%}

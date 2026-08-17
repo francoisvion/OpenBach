@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header{
   title = "Ich dank' dir, lieber Herre"
   opus = "BWV 347"
@@ -7,13 +6,10 @@
   subtitle = "Choral à 4 voix"
   tagline = ##f
 }
-
 \paper {
   top-margin = 12
 }
-
 \include "italiano.ly"
-
 soprano =  \context Voice = "soprano" {
 	\set Staff.midiInstrument = "acoustic grand"
 	\autoBeamOff
@@ -29,7 +25,6 @@ soprano =  \context Voice = "soprano" {
 	  \set Timing.measureLength = #(ly:make-moment 3/4)
 	  sold'4] fad' mi'-\fermata
 	}
-
 	\set Timing.measureLength = #(ly:make-moment 1/4)
 	mi''4
 	\set Timing.measureLength = #(ly:make-moment 4/4)
@@ -45,9 +40,7 @@ soprano =  \context Voice = "soprano" {
 	la'2.-\fermata
 	\bar "|."
       }
-
 alto =  \context Voice = "alto" {
-
 	\set Staff.midiInstrument = "acoustic grand"
 	\time 4/4
 	\voiceTwo
@@ -61,7 +54,6 @@ alto =  \context Voice = "alto" {
 	  \set Timing.measureLength = #(ly:make-moment 3/4)
 	  mi'4 red' si
         }
-
 	\set Timing.measureLength = #(ly:make-moment 1/4)
 	dod''8 si'
 	\set Timing.measureLength = #(ly:make-moment 4/4)
@@ -77,9 +69,7 @@ alto =  \context Voice = "alto" {
 	mi'2.
 	\bar "|."
       }
-
 tenor =  \context Voice = "tenor" {
-
 	\set Staff.midiInstrument = "acoustic grand"
 	\time 4/4
 	\clef bass
@@ -94,7 +84,6 @@ tenor =  \context Voice = "tenor" {
 	  \set Timing.measureLength = #(ly:make-moment 3/4)
 	  si4. la8 sold4
 	}
-
 	\set Timing.measureLength = #(ly:make-moment 1/4)
 	sold4
 	\set Timing.measureLength = #(ly:make-moment 4/4)
@@ -110,9 +99,7 @@ tenor =  \context Voice = "tenor" {
 	dod'2.
 	\bar "|."
       }
-
 basse =  \context Voice = "basse" {
-
 	\set Staff.midiInstrument = "acoustic grand"
 	\time 4/4
 	\clef bass
@@ -127,7 +114,6 @@ basse =  \context Voice = "basse" {
 	  \set Timing.measureLength = #(ly:make-moment 3/4)
 	  si4 si, mi
 	}
-
 	\set Timing.measureLength = #(ly:make-moment 1/4)
 	dod4
 	\set Timing.measureLength = #(ly:make-moment 4/4)
@@ -143,7 +129,6 @@ basse =  \context Voice = "basse" {
 	la,2.
 	\bar "|."
       }
-
 texte = \lyricmode {
   Ich dank' dir, lie -- ber Her -- re
   Daß du mich hast __ be -- wahrt
@@ -152,83 +137,44 @@ texte = \lyricmode {
   Da -- raus ich bin ent -- gan -- gen,
   Halfst du mir Her -- re Gott!
 }
-
 textedeux = \lyricmode {
   In die -- ser Nacht Ge -- fäh -- re,
   Da -- rin ich lag __ so hart
 }
-
 gris = \once \override BassFigure.color = #(x11-color 'grey)
-
 bassechiffree = \figuremode {
-  <_>8 \gris <2>8        % la sol# (pédale de tonique)
-
-  % Mesure 1
+  <_>8 \gris <2>8
   <_>4 <6>4 <_>4 <6>4
-
-  % Mesure 2
   <_!>4 <_+>8 <7_\+>8 <_>4 <_>4
-
-  % Mesure 3
   <_>4 <6_+>8 \gris <_+>8 <6>4 \gris <2>8 \gris <6 5>8
-
-  % Mesure 4 (3/4)
   <6 4>4 <_+>8 <7_\+>8 <_>4
-
-  % Partie B
-  % Anacrouse
   <_>8 \gris <7>8
-
-  % Mesure 5
   <6>8 \gris <9 8>8 <3>8 \gris <4 3>8 <_>4 <6>8 \gris <7_\+>
-
-  % Mesure 6
   <_>8 \gris <6 4\+>8 <6>8 \gris <7\+>8 <_>4 <6\+ 3>4
-
-  % Mesure 7
   <_>8 \gris <7>8 \gris <7>8 <6\+ 3>8 <6>8 \gris <6>8 <_+>4
-
-  % Mesure 8 (cadence)
   <_>2. <_>4
-
-  % Mesure 9
   <_>4 <7>8 \gris <6>8 <_>4 <_>8 \gris <6>8
-
-  % Mesure 10
   <_>8 \gris <7 4 3>8 \gris <6 3 2>8 \gris <7>8 <_>4 <_>4
-
-  % Mesure 11
   <_>8 \gris <6 4>8 <2>8 \gris <9 6 3>8 <6>8 <_>8 <6 5>8 \gris <7 4>8
-
-  % Mesure 12
   <5>8 \gris <6 3 2>8 <7>8 \gris <4 3>8 <6 4>8 \gris <7>8 <5>8. <7_\+>16
-
-  % Mesure 13 (3/4 final)
   <5>2.
 }
-
-
 upper = \context Staff = upper <<
 \soprano
 \alto
 \new Lyrics \lyricsto "soprano" {\set stanza = "1." \texte}
 \new Lyrics \lyricsto "soprano" {\set stanza = "2." \textedeux}
 >>
-
-
 lower = \context Staff = lower <<
 \tenor
 \basse
 \new FiguredBass {\bassechiffree}
-
 >>
-
 \score {
 	\context PianoStaff <<
 	<<
 		\upper
 		\lower
-
 	>>
 >>
 	\layout {
@@ -236,5 +182,4 @@ lower = \context Staff = lower <<
 	\midi {
 		\tempo 4 = 72
 	}
-
 }

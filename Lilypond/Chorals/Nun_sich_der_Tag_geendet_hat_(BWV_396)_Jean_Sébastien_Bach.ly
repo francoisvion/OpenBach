@@ -31,6 +31,7 @@
           d'' c'' b'4. b'8
           a'2.\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
           \partial 4  a'4
@@ -46,9 +47,14 @@
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
-      Nun sich der Tag ge -- en -- det hat, und kei -- ne Sonn' mehr scheint, schläft Al -- les, was sich ab -- ge -- matt', und was zu -- vor ge -- weint.
+      Nun sich der Tag ge -- en -- det hat,
+      und kei -- ne Sonn' mehr scheint,
+      schläft Al -- les, was sich ab -- ge -- matt',
+      und was zu -- vor ge -- weint.
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -68,6 +74,7 @@
           d' e' f'8 [d'] b [e'16 d']
           cis'2.\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
           \partial 4  a,8 [b,]

@@ -1,50 +1,66 @@
-\version "2.25.33"
+\version "2.27.1"
 
-\include "deutsch.ly"
+\language "deutsch"
+
+\paper {
+  #(set-paper-size "a4")
+  #(set-global-staff-size 18)
+  
+  left-margin = 20\mm
+  right-margin = 20\mm
+  top-margin = 20\mm
+  bottom-margin = 25\mm
+  
+  indent = 15\mm
+  
+  oddHeaderMarkup = \markup \fill-line { \null \fromproperty #'page:page-number-string }
+  evenHeaderMarkup = \markup \fill-line { \fromproperty #'page:page-number-string \null }
+ 
+  systems-per-page = 4
+  
+  system-system-spacing = #'((basic-distance . 11) 
+                             (minimum-distance . 7) 
+                             (padding . 1.5) 
+                             (stretchability . 40))
+  markup-system-spacing = #'((basic-distance . 9) 
+                             (minimum-distance . 6) 
+                             (padding . 1.5) 
+                             (stretchability . 20))
+}
 
 \header {
-  title = "Sonate en trio pour Orgue N° 4 en Mi mineur"
+  title = "Sonate en trio pour orgue n° 4 en mi mineur"
   opus = "BWV 528"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 
-\include "Adagio.ly"
-\include "Andante.ly"
-\include "Allegro.ly"
+\include "./parts/Sonate_en_trio_pour_Orgue_N°_4_en_Mi_mineur_(BWV_528)_1._Adagio_Jean_Sébastien_Bach.ily"
+\include "./parts/Sonate_en_trio_pour_Orgue_N°_4_en_Mi_mineur_(BWV_528)_2._Andante_Jean_Sébastien_Bach.ily"
+\include "./parts/Sonate_en_trio_pour_Orgue_N°_4_en_Mi_mineur_(BWV_528)_3._Allegro_Jean_Sébastien_Bach.ily"
 
 staffSettings = {
 		\set Staff.midiInstrument = "church organ"
-		#(revert-auto-beam-setting '(end 1 32 4 4) 1 8)
-                #(revert-auto-beam-setting '(end 1 32 4 4) 3 8)
-                #(revert-auto-beam-setting '(end 1 32 4 4) 5 8)
-                #(revert-auto-beam-setting '(end 1 32 4 4) 7 8)
- 		#(override-auto-beam-setting '(end 1 24 3 8) 1 8)
-                #(override-auto-beam-setting '(end 1 24 3 8) 2 8)
                 \tupletSpan 8
-		\override TupletNumber.transparent = ##t
 }
 
-%#(set-default-paper-size "a4")
 \book {
-	% first movement: Adagio--Vivace
+
 	\score {
 		<<
-			% we have a tempo change in this movement, don't print
-			% metronome markings
 			\override Score.MetronomeMark.transparent = ##t
-			\new GrandStaff <<
+			\new GrandStaff 
+			
+			<<
+			  \set GrandStaff.instrumentName = "Claviers "
 				\accidentalStyle piano
 				\new Staff = "right" {
 					\staffSettings
 		    			\key e \minor
 					\clef violin
 					\time 4/4
-					\sintro
-
-					% the actual tempo-change is in
-					% the alto voice
-					\time 3/4 <<{dis''4}{s8 s8^vivace}>>
+					\sintro				
+					\time 3/4 <<{dis''4^"Vivace"}>>
 					\sopranA
 				}
 				\new Staff = "left" {
@@ -59,6 +75,7 @@ staffSettings = {
 				}
     			>>
 	 		\new Staff = "feet" {
+	 		  \set Staff.instrumentName = "Pédalier "
 				\accidentalStyle modern
 				\staffSettings
 				\key e \minor
@@ -72,11 +89,9 @@ staffSettings = {
 		>>
 		\header
 		{
-			piece = "1. Adagio"
+			piece = \markup { \larger "1. Adagio"}
 		}
-		\layout{
-			indent = #0
-		}
+		\layout{}
 		
   \midi {
     \tempo 8 = 68
@@ -85,7 +100,6 @@ staffSettings = {
 
 	}
 
-	% second movement: Andante
 	\score {
 		<<
 			\new GrandStaff <<
@@ -116,8 +130,7 @@ staffSettings = {
 		>>
 		\header
 		{
-			piece = "2. Andante"
-			opus = ""
+			piece = \markup { \larger "2. Andante" }
 		}
 		\layout{
 			indent = #0
@@ -130,7 +143,6 @@ staffSettings = {
 
 	}
 
-	% third movement: un pocc'allegro
 	\score {
 		<<
 			\new GrandStaff <<
@@ -139,6 +151,10 @@ staffSettings = {
 					\staffSettings
 		    			\key e \minor
 					\time 3/8
+					\set Timing.beamExceptions = \beamExceptions {
+  % Indique à LilyPond de couper les triolets de double-croches par groupes de 3
+  \tuplet 3/2 { 16[ 16 16] } \tuplet 3/2 { 16[ 16 16] } \tuplet 3/2 { 16[ 16 16] }
+}
 					\clef violin
 					\sopranC
 				}
@@ -146,6 +162,10 @@ staffSettings = {
 					\staffSettings
 					\key e \minor
 					\time 3/8 
+					\set Timing.beamExceptions = \beamExceptions {
+  % Indique à LilyPond de couper les triolets de double-croches par groupes de 3
+  \tuplet 3/2 { 16[ 16 16] } \tuplet 3/2 { 16[ 16 16] } \tuplet 3/2 { 16[ 16 16] }
+}
 					\clef violin
 					\altC
 				}
@@ -156,13 +176,16 @@ staffSettings = {
 				\key e \minor
 				\clef bass
 				\time 3/8
+				\set Timing.beamExceptions = \beamExceptions {
+  % Indique à LilyPond de couper les triolets de double-croches par groupes de 3
+  \tuplet 3/2 { 16[ 16 16] } \tuplet 3/2 { 16[ 16 16] } \tuplet 3/2 { 16[ 16 16] }
+}
 				\bassC
     			}
 		>>
 		\header
 		{
-			piece = "3. Un poc'allegro"
-			opus = ""
+			piece = \markup { \larger "3. Un poco allegro" }
 		}
 		\layout{
 			indent = #0

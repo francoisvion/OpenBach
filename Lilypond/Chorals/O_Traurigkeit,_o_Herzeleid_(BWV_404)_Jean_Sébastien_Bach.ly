@@ -30,6 +30,7 @@
           a'4 b' c'' d''8 [e'']
           b'2 a'\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
           \partial 4  gis'4
@@ -44,13 +45,19 @@
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
-      O Trau -- rig -- keit, o Her -- ze -- leid! Ist das nicht zu be -- kla -- gen? Got -- tes Va -- ters ei -- nigs Kind wird zu Grab ge -- tra -- gen.
+      O Trau -- rig -- keit,
+      o Her -- ze -- leid!
+      Ist das nicht zu be -- kla -- gen?
+      Got -- tes Va -- ters ei -- nigs Kind
+      wird zu Grab ge -- tra -- gen.
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key c \major
+      \key a \minor
       \time 4/4
       <<
         \new Voice = "tenor" {
@@ -65,6 +72,7 @@
           e'8 d'4 c' b8 a4
           a gis e2\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
           \partial 4  e4

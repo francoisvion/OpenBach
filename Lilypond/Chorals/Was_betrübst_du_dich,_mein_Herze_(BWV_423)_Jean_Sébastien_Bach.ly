@@ -37,6 +37,7 @@
           d''4 d'' c'' bes'
           a'4. g'8 g'2\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
           g'8 [a'16 bes'] a'4. g'4 fis'8
@@ -58,6 +59,7 @@
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
       Was be -- trübst du dich, mein Her -- ze,
       wa -- rum grämst du dich in mir?
@@ -68,6 +70,7 @@
       Wo ist dei -- ne Zu -- ver -- sicht,
       die zu Gott sonst war ge -- richt't?
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -82,7 +85,7 @@
           a [d'] d'4 d'2\fermata
           a4 g8 [d'] d'4 d'
           d' e'8 [a] a4 fis\fermata
-          f8 [bes d' c'] bes4 c'~
+          f8 [bes] d' [c'] bes4 c'~
           c'8 bes4 a8 f2\fermata
           d'8 [c'] bes4. a8 bes4~
           bes8 [a] bes4. a8 a4\fermata
@@ -93,11 +96,12 @@
           bes4 d' ees'8 [d'] e'4
           a8 [d'] d'8. [c'16] bes2\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
           g4. fis8 g4 d
           g, c d d,\fermata
-          g,8 [a, bes, g,] c [d] ees4
+          g,8 [a,] bes, [g,] c [d] ees4
           fis, g, d2\fermata
           d4 e8 [fis] g4 d
           g cis d d,\fermata
@@ -107,7 +111,7 @@
           c d8 [ees] f4 f,\fermata
           f8 [ees] d4 c g8 [f]
           ees4 e f f,\fermata
-          fis8 [e fis d] g4 d
+          fis8 [e] fis [d] g4 d
           g8 [f] ees4 d2\fermata
           g4 bes, c cis
           d d, g,2\fermata \fine

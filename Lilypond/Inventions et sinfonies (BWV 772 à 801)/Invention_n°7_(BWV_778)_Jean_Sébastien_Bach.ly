@@ -1,17 +1,14 @@
 \version "2.24.4"
-
 \header {
   title = "Invention 7"
   opus = "BWV 778"
   composer =   "Jean Sébastien Bach (1685-1750)"
   tagline = ""
 }
-
 voiceone =  \relative c'' {
   \set Staff.midiInstrument = "harpsichord"
   \key e \minor
   \time 4/4
-
   r8  b16[ a]  g[ fis g e]  b'8[\mordent b]  e8.[\mordent fis16] |
    dis8[\prall fis16 e]  dis[ cis dis b]
      b'8[ a16 g]  fis8.[\prall e32 fis] |
@@ -37,15 +34,12 @@ voiceone =  \relative c'' {
    c8[\prall b]  g'8.[ g16]  g[ a g fis]  fis8.[\prall e16] |
    e[ d c b]  a[ g a fis]  dis'8[ fis,]  b8.[ c16] |
    a8.[\prall g16]  fis8.[\prall e16] e2\fermata \bar "|."
-
 }
-
 voicetwo =  \relative c {
   \set Staff.midiInstrument = "harpsichord"
   \key e \minor
   \time 4/4
   \clef "bass"
-
    e8[\mordent e,] r4 r8  b''16[ a]  g[ fis g e] |
    b'8[ b,] r4 r8  fis''16[ e]  dis[ cis dis b] |
    e8[ e,] r4 r8  e'16[ d]  c[ b c a] |
@@ -69,9 +63,7 @@ voicetwo =  \relative c {
    g[ a g fis]  e[ d e c]  a'[ g a fis]  b[ a b g] |
   c2 ~  c16[ c' b a]  g[ fis g e] |
    dis8[ e b' b,] e,2\fermata \bar "|."
-
 }
-
 \score {
    \context GrandStaff <<
     \context Staff = "one" <<
@@ -81,9 +73,7 @@ voicetwo =  \relative c {
       \voicetwo
     >>
   >>
-
   \layout{ }
-  
   \midi {
     \context {
       \Score

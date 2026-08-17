@@ -1,8 +1,6 @@
-\version "2.16.0"
-%Violin 2, 3rd movement
-
-violinCDThemeBody =  { % first bar intentionally missing!
-    %{ gis'4 r8 | %} b8 a b |
+\version "2.24.0"
+violinCDThemeBody =  {
+     b8 a b |
     b4 r8 | b cis dis |
     e b ais | b fis gis |
     a fis e | dis fis dis |
@@ -11,19 +9,15 @@ violinCDThemeBody =  { % first bar intentionally missing!
     a cis cis | b b b |
     b cis b | b4. |
 }
-
-violinCDThemeB =  \relative c' { % without an "\f" at the start
+violinCDThemeB =  \relative c' {
     gis'4 r8 | \violinCDThemeBody
 }
-
-violinCDThemeC =  \relative c' { % with an "\f" at the start
+violinCDThemeC =  \relative c' {
     gis'4\f r8 | \violinCDThemeBody
 }
-
 violinCDa =  \relative c' {
     R4. * 16 |
 }
-
 violinCDb =  \relative c' {
     e8\p( e  e) | gis( gis  gis) |
     a( a  a) | gis( bis  bis) |
@@ -34,7 +28,6 @@ violinCDb =  \relative c' {
     cis( cis  cis) ~ | cis cis16(  b) a8 |
     gis gis fis | e4. |
 }
-
 violinCDc =  \relative c' {
     b'4.\p | d |
     cis8 b b | cis4 r8 |
@@ -45,7 +38,6 @@ violinCDc =  \relative c' {
     cis8 fis r | e gis, r |
     cis d b | cis4 r8 |
 }
-
 violinCDd =  \relative c' {
     gis'8\p b a | gis gis4 ~ |
     gis8 a b | a4 r8 |
@@ -55,7 +47,6 @@ violinCDd =  \relative c' {
     r fis gis | gis e r |
     r fisis16 gis fisis8 | r gis16 ais gis8 |
     r cis, dis | dis dis r |
-    
     b'4. ~ | b8 gis eis |
     a4. ~ | a8 fis dis |
     gis4. ~ | gis |
@@ -63,9 +54,8 @@ violinCDd =  \relative c' {
     r8 b dis | r ais cis |
     r b dis | dis4 r8 |
     fisis,4 r8 | gis4 r8 |
-    a b cis | fis,4 r8 |    
+    a b cis | fis,4 r8 |
 }
-
 violinCD =  {
     \violinCDThemeB
     \violinCDa

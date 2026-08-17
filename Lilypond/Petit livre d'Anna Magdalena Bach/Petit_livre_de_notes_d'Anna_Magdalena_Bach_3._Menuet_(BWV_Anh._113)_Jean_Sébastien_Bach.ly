@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title = "3. Menuet en fa majeur"
   subtitle = "Petit livre de notes d'Anna Magdalena Bach"
@@ -7,15 +6,13 @@
   composer =   "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
 voiceone =  \relative c'' {
   \clef "treble"
   \time 3/4
   \key f \major
-
   \repeat "volta" 2 {
     c4  d16 e f8 e4 |
-     \times 2/3 {f8( e  d)} c2 | %A grace might be missing here
+     \times 2/3 {f8( e  d)} c2 |
      \times 2/3 { d8 ees d }  \times 2/3 {c d c }  \times 2/3 {bes c bes} |
     \grace bes8 a2 g4 |
      a8 c f, c' g c |
@@ -50,12 +47,10 @@ voiceone =  \relative c'' {
     \grace g8 f2. |
   }
 }
-
 voicetwo =  \relative c {
   \time 3/4
   \key f \major
-  \clef "bass" 
-
+  \clef "bass"
   \repeat "volta" 2 {
     f4 a g |
     a  f8 g a f |
@@ -93,10 +88,8 @@ voicetwo =  \relative c {
     f,2. |
   }
 }
-  
-    
 \score {
-   \context GrandStaff << 
+   \context GrandStaff <<
     \context Staff = "one" <<
       \voiceone
     >>
@@ -104,13 +97,8 @@ voicetwo =  \relative c {
       \voicetwo
     >>
   >>
-
   \layout{}
-  
   \midi {
     \tempo 4 = 120
     }
-
-
 }
-

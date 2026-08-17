@@ -1,6 +1,14 @@
-\version "2.24.4"
+\version "2.27.0"
 
-\include "deutsch.ly"
+\language "deutsch"
+
+#(set-global-staff-size 18)
+
+\paper {
+  #(set-paper-size "a4landscape")
+   ragged-bottom = ##f
+   ragged-last-bottom = ##t
+}
 
 \header {
  title = "Heut triumphieret Gottes Sohn"
@@ -16,17 +24,6 @@ global = {
    #(set-accidental-style 'default)
    \override Score.MetronomeMark #'transparent = ##t
 }
-
-\paper {
-   head-separation = 0.6 \cm
-   foot-separation = 0.2 \cm
-   page-top-space = 0 \cm
-   ragged-bottom = ##f
-   ragged-last-bottom = ##f
-}
-
-#(set-default-paper-size "a4" 'landscape)
-#(set-global-staff-size 18)
 
 forceshift    = { \once \override NoteColumn #'force-hshift = #1 }
 forceshiftt   = { \once \override NoteColumn #'force-hshift = #2 }
@@ -278,7 +275,7 @@ pedal = {
    \midi {
       \context {
          \Score
-         tempoWholesPerMinute = #(ly:make-moment 76 2)
+         tempoWholesPerMinute = #76/2
       }
    }
 }

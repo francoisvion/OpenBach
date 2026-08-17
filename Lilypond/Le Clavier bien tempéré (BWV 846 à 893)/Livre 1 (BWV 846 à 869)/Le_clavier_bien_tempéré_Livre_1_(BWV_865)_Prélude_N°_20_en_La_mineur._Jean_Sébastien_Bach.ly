@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title = "Prélude 20"
   subtitle = "Le clavier bien tempéré - Livre 1"
@@ -7,9 +6,7 @@
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
 \score {
-
  \context GrandStaff
  <<
  \context Staff = "up" {
@@ -37,7 +34,6 @@
  << { s4. a''16 gis'' a'' gis'' a'' gis'' } \\ { \stemUp f''8 d'' b' ~ \stemDown b'4. } >> <cis'' e'' a''>2.
  \bar "|."
 }
-
  \context Staff = "down" {
  \clef bass
  \key a \minor
@@ -55,7 +51,6 @@
  \bar "|."
 }
 >>
-
  \layout {
    \context {
    }

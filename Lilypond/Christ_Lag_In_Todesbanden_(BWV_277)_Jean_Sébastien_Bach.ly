@@ -1,24 +1,18 @@
 \version "2.24.4"
-
 \language "deutsch"
-
 \header {
   title = "Christ Lag In Todesbanden"
   opus = "BWV 277"
   composer = "Jean Sébatien Bach (1685-1750)"
   tagline = ##f
 }
-
 #(set-global-staff-size 18.1)
-
 \paper {
   ragged-bottom = ##f
   ragged-last-bottom = ##t
 }
-
 \layout {
 }
-
 global = {
   \key a \minor
   \time 4/4
@@ -26,9 +20,7 @@ global = {
   \autoBeamOff
   \accidentalStyle modern-voice
 }
-
 fe = \fermata
-
 soprano = \relative c'' {
   \global
   \repeat volta 2 {
@@ -42,7 +34,6 @@ soprano = \relative c'' {
   a'4 g f( e) | d2. \fe
   \bar "|."
 }
-
 alto = \relative c' {
   \global
   \repeat volta 2 {
@@ -54,7 +45,6 @@ alto = \relative c' {
   f4 | f8[ e] f4 f e~ | e8 d4( cis8) d2\fe |
   d4. e8 cis( d4 cis8) | a2.\fe
 }
-
 tenor = \relative c' {
   \global
   \repeat volta 2 {
@@ -66,7 +56,6 @@ tenor = \relative c' {
   d4 | g,8[ c] c4 c8[ d] e[ d] | cis8[( a] b8[ a16 g]) f2\fe |
   a8[ c] b4 a( g~ | g fis8[ e]) fis4\fe
 }
-
 bass = \relative c' {
   \global
   \repeat volta 2 {
@@ -78,19 +67,14 @@ bass = \relative c' {
   d4 | c f,8[ g] a[ b] c[ b] | a[ f g a] b2\fe |
   fis4 g a2 | d,2.\fe
 }
-
-
 text = \lyricmode {
   Christ lag in To -- des -- ban -- den für un -- ser Sünd ge -- ge -- ben,
   Des wir sol -- len fröh -- lich sein, Gott lo -- ben und ihm dank -- bar sein,
   und sin -- gen Hal -- le -- lu -- ja, Hal -- le -- lu -- ja!
 }
-
 textB = \lyricmode {
   der ist wie -- der er -- stan -- den und hat uns bracht das Le -- ben.
 }
-
-
 \score {
   \new ChoirStaff <<
     \new Staff \with { \consists "Ambitus_engraver"
@@ -116,11 +100,10 @@ textB = \lyricmode {
   >>
   \layout { }
 }
-
 \score {
   \unfoldRepeats
   <<
-    \soprano 
+    \soprano
     \alto
     \tenor
     \bass

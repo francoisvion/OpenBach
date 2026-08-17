@@ -1,77 +1,65 @@
-﻿\version "2.24.4"
+\version "2.27.0"
 
 \header {
-date = ""
-
- title = "Passacaglia"
+ title = "Passacaille"
  composer = "Jean Sébastien Bach (1685-1750)"
  opus = "BWV 582"
-  tagline = ##f
+ tagline = ##f
 }
 
 \include "deutsch.ly"
 
 #(set-default-paper-size "a4" 'landscape)
 #(set-global-staff-size 18)
-#(define set-script-property (lambda (script property value)
-   (append! (cdr (assoc script default-script-alist))
-      (list (cons property value)))))
-#(set-script-property "prall" 'avoid-slur 'outside)
 
-adjustSlash = { \once \override TextScript #'extra-offset = #'( -2 . 5 ) }
+% REMARQUE : Le bloc Scheme obsolète lié à "default-script-alist" a été supprimé.
+% En version 2.24, LilyPond évite déjà les liaisons pour le "prall" par défaut.
+
+adjustSlash = { \once \override TextScript.extra-offset = #'(-2 . 5) }
 halsdown = { \stemDown \tieDown \slurDown }
 halsneutral = { \stemNeutral \tieNeutral \slurNeutral }
 halsup = { \stemUp \tieUp \slurUp}
-hideBrackets = { \override TupletBracket #'bracket-visibility = ##f }
-hideTripletNumber = { \set tupletNumberFormatFunction = #'() }
-mmrestdown = { \once \override MultiMeasureRest #'staff-position = #-2 }
-mmrestdownn = { \once \override MultiMeasureRest #'staff-position = #-4 }
-mmrestup = { \once \override MultiMeasureRest #'staff-position = #4 }
-mmrestupp = { \once \override MultiMeasureRest #'staff-position = #6 }
-mmrestuppp = { \once \override MultiMeasureRest #'staff-position = #8 }
-mmrestupppp = { \once \override MultiMeasureRest #'staff-position = #10 }
-noflag = { \once \override Stem #'flag-style = #'no-flag }
-restdownnn = { \once \override MultiMeasureRest #'extra-offset = #'( 0.0 . -3.0 ) }
-restright = { \once \override Rest #'extra-offset = #'( 4.0 . 0.0 ) }
-scriptdown = { \once \override Script #'extra-offset = #'(0 . -1.3) }
-scriptdownn = { \once \override Script #'extra-offset = #'(0 . -2.3) }
-scriptdownnn = { \once \override Script #'extra-offset = #'(0 . -3.3) }
-scriptup = { \once \override Script #'extra-offset = #'(0 . 1.3) }
-showBrackets = { \override TupletBracket #'bracket-visibility = ##t }
-showTripletNumber = { \set tupletNumberFormatFunction = #denominator-tuplet-formatter }
+hideBrackets = { \override TupletBracket.bracket-visibility = ##f }
+hideTripletNumber = { \omit TupletNumber }
+mmrestdown = { \once \override MultiMeasureRest.staff-position = #-2 }
+mmrestdownn = { \once \override MultiMeasureRest.staff-position = #-4 }
+mmrestup = { \once \override MultiMeasureRest.staff-position = #4 }
+mmrestupp = { \once \override MultiMeasureRest.staff-position = #6 }
+mmrestuppp = { \once \override MultiMeasureRest.staff-position = #8 }
+mmrestupppp = { \once \override MultiMeasureRest.staff-position = #10 }
+noflag = { \once \override Stem.flag-style = #'no-flag }
+restdownnn = { \once \override MultiMeasureRest.extra-offset = #'(0.0 . -3.0) }
+restright = { \once \override Rest.extra-offset = #'(4.0 . 0.0) }
+scriptdown = { \once \override Script.extra-offset = #'(0 . -1.3) }
+scriptdownn = { \once \override Script.extra-offset = #'(0 . -2.3) }
+scriptdownnn = { \once \override Script.extra-offset = #'(0 . -3.3) }
+scriptup = { \once \override Script.extra-offset = #'(0 . 1.3) }
+showBrackets = { \override TupletBracket.bracket-visibility = ##t }
+showTripletNumber = { \undo \omit TupletNumber }
 staffdown = { \change Staff = "left" \halsup }
 staffup = { \change Staff = "right" \halsdown }
 std = { \change Staff = "left" }
 stu = { \change Staff = "right" }
 
+% Modernisation des fonctions de ligatures (subdivision par croche pour les triolets)
 triolen = {
-   #(override-auto-beam-setting '(end * * * *) 1 8)
-   #(override-auto-beam-setting '(end * * * *) 2 8)
-   #(override-auto-beam-setting '(end * * * *) 3 8)
-   #(override-auto-beam-setting '(end * * * *) 4 8)
-   #(override-auto-beam-setting '(end * * * *) 5 8)
-   #(override-auto-beam-setting '(end * * * *) 6 8)
-   #(override-auto-beam-setting '(end * * * *) 7 8)
-   #(override-auto-beam-setting '(end * * * *) 8 8)
+   \set Timing.beatBase = #1/8
+   \set Timing.beatStructure = 1,1,1,1,1,1
+   \set Timing.beamExceptions = #'()
 }
 
 duolen = {
-   #(revert-auto-beam-setting '(end * * * *) 1 8)
-   #(revert-auto-beam-setting '(end * * * *) 2 8)
-   #(revert-auto-beam-setting '(end * * * *) 3 8)
-   #(revert-auto-beam-setting '(end * * * *) 4 8)
-   #(revert-auto-beam-setting '(end * * * *) 5 8)
-   #(revert-auto-beam-setting '(end * * * *) 6 8)
-   #(revert-auto-beam-setting '(end * * * *) 7 8)
-   #(revert-auto-beam-setting '(end * * * *) 8 8)
+   \set Timing.beatBase = #1/4
+   \set Timing.beatStructure = 1,1,1
+   \set Timing.beamExceptions = #'()
 }
 
 global = {
    \key c \minor
    \time 3/4
-   #(set-accidental-style 'default)
-   \set tupletSpannerDuration = #(ly:make-moment 1 8)
-   \override TupletBracket  #'bracket-visibility = #'if-no-beam
+   \accidentalStyle default
+   \tupletSpan 8
+   \override TupletBracket.bracket-visibility = #'if-no-beam
 }
 
 sopran = {
@@ -241,16 +229,16 @@ sopran = {
       a'8\rest g4.~ g8 <f d>
       %% Takt 135 =====================================================
       a8\rest g4.~ <d g>8 <d f!>
-      a'8\rest g4.~ \times 2/3 { \showTripletNumber \tupletUp \triolen g16 f! es es d c % V 17
+      a'8\rest g4.~ \tuplet 3/2 { \showTripletNumber \tupletUp \triolen g16 f! es es d c % V 17
       c16 h a a h c h c d d es f es f g g as! b!
       \hideTripletNumber as16 g f f es d d es f f g as } h,4\prall
-      \times 2/3 { \triolen c'16 b! as as g f f es d d es f f g a a h c }
+      \tuplet 3/2 { \triolen c'16 b! as as g f f es d d es f f g a a h c }
       %% Takt 140 =====================================================
       h8.*10/9 [ a16*2/3] h8 c\rest c,,\rest \stemDown \shiftOff h
-      \times 2/3 { \shiftOff \triolen c16 d es es f g g a h h c d d es f \stemUp es f d
+      \tuplet 3/2 { \shiftOff \triolen c16 d es es f g g a h h c d d es f \stemUp es f d
       es8*3/2 g16 f es es d c \stemNeutral c' b as as g f f es d
       d16 c h h c d d es f f g as } h,!8.*10/9\prall c16*2/3
-      c8 \times 2/3 { \triolen g16 f es es[ d c] } \duolen c8 \stemUp c'4~ % V 18
+      c8 \tuplet 3/2 { \triolen g16 f es es[ d c] } \duolen c8 \stemUp c'4~ % V 18
       %% Takt 145 =====================================================
       c8 h16 a h8 c16 d es4~
       es8 d16 c d8 es16 f h,4~
@@ -576,7 +564,7 @@ alt = {
       s4 c16 es c8\rest \staffdown f,16 \staffup d' c8\rest
       s4 g'16 c g8\rest s4
       s4 c16 es h8\rest h8\rest \stemUp \shiftOn g \shiftOff     % V 16
-      \override Staff.NoteCollision #'merge-differently-dotted = ##t
+      \override Staff.NoteCollision.merge-differently-dotted = ##t
       \halsdown d'16\rest c d a \halsup h4~ \noflag h8\noBeam \noflag g8
       %% Takt 130 =====================================================
       \halsdown d'16\rest b! c g \halsup as!4 g4*1/2 s8
@@ -795,7 +783,7 @@ altzwei = {
       c,4\rest h'8\rest c~\noBeam \stemDown c4*1/2 s8
       %% Takt 135 ===========================================
       \stemUp c,4\rest h'8\rest \tieDown c~\noBeam \stemDown <g c>8 <g h!>
-      \stemUp c,4\rest h'8\rest c~\noBeam \stemDown <c g>8~ \times 2/3 { g16 f! es }
+      \stemUp c,4\rest h'8\rest c~\noBeam \stemDown <c g>8~ \tuplet 3/2 { g16 f! es }
       s2.*31
       s4 s8. \stemUp \shiftOn h'!16 c4 \bar "||"
    }
@@ -830,9 +818,9 @@ tenor = {
       s2.*5
       %% Takt 30 ======================================================
       s2.
-      \staffup \stemUp \shiftOn \override Stem #'details #'beamed-lengths = #'( 4 )
+      \staffup \stemUp \shiftOn \override Stem.details.beamed-lengths = #'( 4 )
       b''8\rest as g f es d
-      \revert Stem #'beamed-lengths
+      \revert Stem.beamed-lengths
       c4 s2                                                       % V 4
       s2.*55
       s2 c16 es d c                                              % V 11
@@ -894,16 +882,16 @@ tenor = {
       %% Takt 135 =====================================================
       d,,4\rest es'16\rest h' c fis, s4
       d,4\rest es'16\rest h' c fis, s4                           % V 17
-      \times 2/3 { \triolen \showTripletNumber \tupletDown
+      \tuplet 3/2 { \triolen \showTripletNumber \tupletDown
          es16 d c c \staffdown h a
-            \once \override TupletBracket #'staff-padding = #-3 g a h
-            \once \override TupletBracket #'staff-padding = #-3 h c d \staffup c d es es f g
+            \once \override TupletBracket.staff-padding = #-3 g a h
+            \once \override TupletBracket.staff-padding = #-3 h c d \staffup c d es es f g
       \hideTripletNumber f16 g as as g f f es d d es f f g as } g16. f32
-      es8[ \times 2/3 { \triolen c'16 b! as] as g f f es d d es f f g as!
+      es8[ \tuplet 3/2 { \triolen c'16 b! as] as g f f es d d es f f g as!
       %% Takt 140 =====================================================
       g16 a h h c d d es f f g as as g f \shiftOff f es d }
       g4 g4\rest h,,8\rest g'~
-      \times 2/3 { \triolen g16 f es es d c c \staffdown b! as as g f f es d d c h
+      \tuplet 3/2 { \triolen g16 f es es d c c \staffdown b! as as g f f es d d c h
       \stemNeutral h16 a g g a h h c d d es f f g as! g as f
       es16 f d c8*3/2 g16 f es es d c } \duolen c4               % V 18
       %% Takt 145 =====================================================
@@ -1549,11 +1537,7 @@ pedal = {
 
 \score {
    <<
-      \new PianoStaff %{
-      \with {
-      \override VerticalAlignment #'forced-distance = #9
-      }
-      %}
+      \new PianoStaff 
       {
          \set PianoStaff.instrument = \markup { \large "Manual." }
          <<
@@ -1622,3 +1606,25 @@ pedal = {
    >>
    \midi{ \tempo 4 = 72 }
 }
+
+
+%{
+convert-ly (GNU LilyPond) 2.27.0  convert-ly: Processing `'...
+Applying conversion: 2.12.3, 2.13.0, 2.13.1, 2.13.4, 2.13.10, 2.13.16,
+2.13.18, 2.13.20, 2.13.27, 2.13.29, 2.13.31, 2.13.36, 2.13.39,
+2.13.40, 2.13.42, 2.13.44, 2.13.46, 2.13.48, 2.13.51, 2.14.0, 2.15.7,
+2.15.9, 2.15.10, 2.15.16, 2.15.17, 2.15.18, 2.15.19, 2.15.20, 2.15.25,
+2.15.32, 2.15.39, 2.15.40, 2.15.42, 2.15.43, 2.16.0, 2.17.0, 2.17.4,
+2.17.5, 2.17.6, 2.17.11, 2.17.14, 2.17.15, 2.17.18, 2.17.19, 2.17.20,
+2.17.25, 2.17.27,  Not smart enough to convert staff-padding.  staff-
+padding now controls the distance to the baseline, not the nearest
+point. 2.17.29, 2.17.97, 2.18.0, 2.19.2, 2.19.7, 2.19.11, 2.19.16,
+2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.39, 2.19.40,
+2.19.46, 2.19.49, 2.20.0, 2.21.0, 2.21.2, 2.22.0, 2.23.1, 2.23.2,
+2.23.3, 2.23.4, 2.23.5, 2.23.6, 2.23.7, 2.23.8, 2.23.9, 2.23.10,
+2.23.11, 2.23.12, 2.23.13, 2.23.14, 2.24.0, 2.25.0, 2.25.1, 2.25.2,
+2.25.3, 2.25.4, 2.25.5, 2.25.6, 2.25.8, 2.25.9, 2.25.11, 2.25.12,
+2.25.13, 2.25.18, 2.25.22, 2.25.23, 2.25.24, 2.25.25, 2.25.26,
+2.25.28, 2.25.30, 2.25.31, 2.25.32, 2.25.33, 2.25.34, 2.25.35,
+2.25.80, 2.26.0, 2.27.0
+%}

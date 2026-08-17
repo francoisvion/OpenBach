@@ -1,7 +1,5 @@
 \version "2.24.4"
-
 \include "nederlands.ly"
-
 \header {
   title = "Praeludium IX"
   subtitle = "Das Wohltemperierte Clavier, I"
@@ -10,23 +8,21 @@
   date = "around 1722"
   tagline = ##f
 }
-
 global = {
   \key e \major
   \time 12/8
   #(set-global-staff-size 16)
 }
-
 right = \relative c'' {
   \global
   e,8 gis b e dis e cis\prall b cis e4. | b8\prall a b e4. a,8 b cis b cis a |
-  gis b e gis4.~ gis8 fis e dis e cis | dis2.~\prall dis8 e fis gis cis, e | 
+  gis b e gis4.~ gis8 fis e dis e cis | dis2.~\prall dis8 e fis gis cis, e |
   fis, ais cis fis e fis gis, b dis e4. | fis,8 ais cis e dis e fis, ais cis d4.~ |
-  d8 e d cis d b ais\prall gis fis g' fis eis | e! dis d cis16 dis e8 ais, 
+  d8 e d cis d b ais\prall gis fis g' fis eis | e! dis d cis16 dis e8 ais,
   << { b2.~ | b8 }
     \\
     {\stemUp \shiftOnn dis,2. | s8}
-  >> 
+  >>
   dis' fis b a b cis, eis gis b4.~ | b8 gis a a fis gis gis eis fis eis16 fis gis8 cis,|
   << {d2.~ d4.~ d8 d cis | cis4.~  cis8 b a gis a b~ b a gis |
       a4.~ a8 b gis a4.~ a8 b16 a gis fis|}
@@ -37,14 +33,13 @@ right = \relative c'' {
   a8 cis e a gis a fis\prall e fis a4. | e8\prall dis e a4. d,!8 e fis e fis dis |
   cis a b cis4.~ cis8 b a gis a fis | gis e fis gis4.~ gis8 a b cis fis, a|
   b, dis fis b a b cis, e gis a4. | b,8 dis fis a gis a b, dis fis g4.~ |
-  g8 a g fis g e dis cis b c' b ais | a! gis g fis16 gis a8 dis, 
+  g8 a g fis g e dis cis b c' b ais | a! gis g fis16 gis a8 dis,
   << { e2.~ | e2.~ e4.~ e4 dis8|}
     \\
     {s2. | r8 gis, b d cis d cis4.~ cis4 c8 |}
   >>
   e1. \bar "|."
 }
-
 left = \relative c' <<
   \global
   \new Voice {
@@ -55,24 +50,23 @@ left = \relative c' <<
     \mergeDifferentlyDottedOn
     b4.~ b8 ais e'!  s2.| s2. r8 gis,8 b d b cis~|
     \mergeDifferentlyDottedOff
-    cis4. b4. bis 4. cis4. | r8 d,8 eis gis b gis s2. | 
+    cis4. b4. bis 4. cis4. | r8 d,8 eis gis b gis s2. |
     s4. a,4. b4. cis4. | fis,8 a cis s2. s4.|
-    s1. | r4. cis'4. d4.~ d8 cis b | 
+    s1. | r4. cis'4. d4.~ d8 cis b |
     cis4.~ cis8 d cis b2. |
     a,8 cis e s4. r8 r fis8 b4. | e,,8 gis b s4. r8 r e8 a4.~ |
     a4. gis2.~ gis8 fis e | dis2.~ dis4. e4.~ |
-    e8 fis g a2.~ a8 gis fis | 
+    e8 fis g a2.~ a8 gis fis |
     \mergeDifferentlyDottedOn
-    e4.~ e8 dis a'! gis e gis a gis a | 
+    e4.~ e8 dis a'! gis e gis a gis a |
     \mergeDifferentlyDottedOff
-    e2. a,8 cis e a gis a | <b gis>1. 
-     
+    e2. a,8 cis e a gis a | <b gis>1.
   }
   \new Voice {
     \voiceTwo
     \relative c {
       e1.~ | e2.~ e4. dis4. |
-      \mergeDifferentlyDottedOn 
+      \mergeDifferentlyDottedOn
       e4. e'8 dis e ais,2.| b,8 dis fis b ais b e,2. |
       \mergeDifferentlyDottedOff
       fis1.~ | fis4.~ fis4 cis8 d4.~ d8 e fis|
@@ -82,13 +76,11 @@ left = \relative c' <<
       s4. fis8 e fis b, dis fis b a b | e,8 gis b e d cis b4 a8 gis16 d'! cis b a gis |
       a2.~ a2.~ | a2.~ a4. gis4. | s4. a8 gis a dis,!2. |
       s4. e8 dis e a,2. | b1.~ |
-      b4.~ b4 fis8 g4.~ g8 a b | c2. b4.~ b8 cis dis | 
-      e4 ais,8 b4. cis2. | gis2. a2. | e1. 
+      b4.~ b4 fis8 g4.~ g8 a b | c2. b4.~ b8 cis dis |
+      e4 ais,8 b4. cis2. | gis2. a2. | e1.
     }
   } \bar "|."
-  
 >>
-
 \score {
   \new PianoStaff \with {
     instrumentName = ""
@@ -109,5 +101,3 @@ left = \relative c' <<
     }
   }
 }
-
-

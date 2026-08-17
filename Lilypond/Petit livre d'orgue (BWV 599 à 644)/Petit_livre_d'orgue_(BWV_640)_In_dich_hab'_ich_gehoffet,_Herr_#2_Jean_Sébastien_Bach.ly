@@ -1,38 +1,47 @@
-\version "2.24.4"
+\version "2.27.0"
 
-\include "italiano.ly" 
+\language "italiano" 
+
+#(set-global-staff-size 18)
+
+\paper {
+  #(set-paper-size "a4landscape")
+   ragged-bottom = ##f
+   ragged-last-bottom = ##t
+}
 
 \header{
     title = "In dich hab' ich gehoffet, Herr"
+    subtitle = "Petit livre d'orgue"
     composer = "Jean Sébastien Bach (1685-1750)"
     opus = "BWV 640"
     tagline = ##f
 }
 
-#(set-default-paper-size "a4" 'landscape)
-#(set-global-staff-size 18)
-
-adjustSlash = { \once \override TextScript #'extra-offset = #'( -2 . 5 ) }
+adjustSlash = { \once \override TextScript.extra-offset = #'(-2 . 5) }
 halsdown = { \stemDown \tieDown \slurDown }
 halsneutral = { \stemNeutral \tieNeutral \slurNeutral }
 halsup = { \stemUp \tieUp \slurUp}
-hideBrackets = { \override TupletBracket #'bracket-visibility = ##f }
-hideTripletNumber = { \set tupletNumberFormatFunction = #'() }
-mmrestdown = { \once \override MultiMeasureRest #'staff-position = #-2 }
-mmrestdownn = { \once \override MultiMeasureRest #'staff-position = #-4 }
-mmrestup = { \once \override MultiMeasureRest #'staff-position = #4 }
-mmrestupp = { \once \override MultiMeasureRest #'staff-position = #6 }
-mmrestuppp = { \once \override MultiMeasureRest #'staff-position = #8 }
-mmrestupppp = { \once \override MultiMeasureRest #'staff-position = #10 }
-noflag = { \once \override Stem #'flag-style = #'no-flag }
-restdownnn = { \once \override MultiMeasureRest #'extra-offset = #'( 0.0 . -3.0 ) }
-restright = { \once \override Rest #'extra-offset = #'( 4.0 . 0.0 ) }
-scriptdown = { \once \override Script #'extra-offset = #'(0 . -1.3) }
-scriptdownn = { \once \override Script #'extra-offset = #'(0 . -2.3) }
-scriptdownnn = { \once \override Script #'extra-offset = #'(0 . -3.3) }
-scriptup = { \once \override Script #'extra-offset = #'(0 . 1.3) }
-showBrackets = { \override TupletBracket #'bracket-visibility = ##t }
-showTripletNumber = { \set tupletNumberFormatFunction = #denominator-tuplet-formatter }
+hideBrackets = { \override TupletBracket.bracket-visibility = ##f }
+hideTripletNumber = { \override TupletNumber.transparent = ##t }
+mmrestdown = { \once \override MultiMeasureRest.staff-position = #-2 }
+mmrestdownn = { \once \override MultiMeasureRest.staff-position = #-4 }
+mmrestup = { \once \override MultiMeasureRest.staff-position = #4 }
+mmrestupp = { \once \override MultiMeasureRest.staff-position = #6 }
+mmrestuppp = { \once \override MultiMeasureRest.staff-position = #8 }
+mmrestupppp = { \once \override MultiMeasureRest.staff-position = #10 }
+noflag = { \once \override Stem.flag-style = #'no-flag }
+restdownnn = { \once \override MultiMeasureRest.extra-offset = #'(0.0 . -3.0) }
+restright = { \once \override Rest.extra-offset = #'(4.0 . 0.0) }
+scriptdown = { \once \override Script.extra-offset = #'(0 . -1.3) }
+scriptdownn = { \once \override Script.extra-offset = #'(0 . -2.3) }
+scriptdownnn = { \once \override Script.extra-offset = #'(0 . -3.3) }
+scriptup = { \once \override Script.extra-offset = #'(0 . 1.3) }
+showBrackets = { \override TupletBracket.bracket-visibility = ##t }
+
+% Correction de la fonction Scheme obsolète :
+showTripletNumber = { \override TupletNumber.text = #tuplet-number::calc-denominator-text }
+
 staffdown = { \change Staff = "basse" \halsup }
 staffup = { \change Staff = "dessus" \halsdown }
 std = { \change Staff = "basse" }
@@ -63,20 +72,20 @@ choral = \relative do'{
 
 alto = \relative do' {
   \global
-  \partial 4 \staffdown \once \override Rest #'extra-offset = #'( 0.0 . +5.0 ) r4
+  \partial 4 \staffdown \once \override Rest.extra-offset = #'(0.0 . 5.0) r4
   %%  1 :
   r8 si16 fad16 sol16 si16 mi,8 \staffup r8 si'16 mi16 red4 ~
-  red16 si16 mi16 si16 do8 si16 fad16 sol8 \once \override Rest #'extra-offset = #'( 0.0 . -3.0 ) r8 \staffdown r4 
+  red16 si16 mi16 si16 do8 si16 fad16 sol8 \once \override Rest.extra-offset = #'(0.0 . -3.0) r8 \staffdown r4 
   r8 re'16 sold,16 lad16 dod16 dod8 si16 \staffup re16 fad16 si16 lad4 ~
   lad16 fad16 sold8 fad8 fad16 dod16 red4 \staffdown r8 si16 fad16 
   %%  5 :
   sol16 \staffup sol'16 si16 mi,16 la16 sol16 fad16 mi16 re16 la'16 fad8 ~ fad16 si,16 mi8 ~
   mi8. red16 mi16 si16 dod8 ~ dod16 fad,16 si8 ~ si16 mi16 red!8 
   mi8 \staffdown si16 fad16 sol16 si16 mi,8 \staffup r8 si'16 mi16 red4 
-  si8 mi16 si16 do8 si16 [ fad16 ] sol8 \once \override Rest #'extra-offset = #'( 0.0 . -3.0) r8 si16 fad16 sol8 
+  si8 mi16 si16 do8 si16 [ fad16 ] sol8 \once \override Rest.extra-offset = #'(0.0 . -3.0) r8 si16 fad16 sol8 
   fad16 si16 la8 si8. lad16 si16 red16 fad8 ~ fad16 mi8 red!16 
   %% 10 :
-  mi16 red16 mi8 ~ mi8 red8 \once \override Rest #'extra-offset = #'( 0.0 . -1.0) r16 si8. ~ si4 
+  mi16 red16 mi8 ~ mi8 red8 \once \override Rest.extra-offset = #'(0.0 . -1.0) r16 si8. ~ si4 
 }
 
 
@@ -96,7 +105,7 @@ tenor = \relative do'  {
   sol16 red16 mi8 ~ mi16 la16 red,!8 mi8 si'16 [ fad16 ] sol16 red!16 mi8 
   r8 do'16 fad,16 sol16 red16 mi8 r8 red'8 si16 sol16 do!16 si16 ~
   %% 10 :
-  si16 sol16 mi16 si'16 do16 la16 fad16 si16 << { r8 sold!8 ~ sold4 } \\ { sold!8. si,16 \once\override Voice.TextScript #'extra-offset = #'(0.5 . 0.0) mi4_\markup{\musicglyph #"scripts.dfermata"} } >>
+  si16 sol16 mi16 si'16 do16 la16 fad16 si16 << { r8 sold!8 ~ sold4 } \\ { sold!8. si,16 \once \override Voice.TextScript.extra-offset = #'(0.5 . 0.0) mi4_\markup{\musicglyph #"scripts.dfermata"} } >>
 
 }
 
@@ -115,7 +124,7 @@ basse = \relative do' {
   mi16 si16 do16 sol16 la8 si8 mi,4 r8 mi'16 lad,16 
   si8 fad8 r8 sol'16 dod,16 red16 si16 si'16 fad16 sol16 mi16 fad16 si,16 
   %% 10 :
-  mi16 si16 do16 sol16 la16 fad16 si8 \once\override Script #'padding = #0.7  mi,2_\fermata
+  mi16 si16 do16 sol16 la16 fad16 si8 \once \override Script.padding = #0.7  mi,2_\fermata
  \bar "|."
 }
 
@@ -179,10 +188,6 @@ tenormidi = \relative do'  {
 \paper {
   betweensystempadding = 1\mm
   betweensystemspace = 1\mm
-  %raggedbottom = ##f
-  %raggedlastbottom = ##f
-  %headsep = 1\mm
-  %aftertitlespace = 1\mm
   indent = 1\cm
   bottommargin = 4\mm 
   topmargin = 2\mm
@@ -201,19 +206,14 @@ tenormidi = \relative do'  {
       \tenor
     }
     \new Staff = "pedale" {
-      \override VerticalAxisGroup #'minimum-Y-extent = #'(-5 . -10)
+      % Remplace la commande obsolète minimum-Y-extent
+      \override VerticalAxisGroup.staff-staff-spacing.minimum-distance = #5
       \clef "bass"
       \basse
     }
   >>
-
-  \layout{
-    
-  }
+  \layout{ }
 }
-
-
-
 
 \score { 
   <<
@@ -259,6 +259,5 @@ tenormidi = \relative do'  {
       s4 \tempo 8 = 60 s4 \tempo 8 = 40 s4 \tempo 8 = 30 s4
     }
   >>
-  
   \midi{ \tempo 8 = 66 }
 }

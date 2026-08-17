@@ -1,21 +1,12 @@
-% This file creates the part for viola.
-
-% The edition from which this was typed has orchestral accompaniment.
-% I don't know if there's a piano arrangement which is out of copyright.
-
 \header {
     \include "header.ly"
     subtitle =	"for two violins and strings (Viola)"
-    % Want "Viola" to appear in subtitle
     filename = "viola.ly"
 }
-
 \include "viola_1.ly"
 \include "viola_2.ly"
 \include "viola_3.ly"
-\version "2.16.0"
-
-% 1st movement
+\version "2.24.0"
 \score {
      \context Voice = Viola {
         \set Staff.midiInstrument = "viola"
@@ -33,8 +24,6 @@
       \tempo 4 = 100
     }
 }
-
-% 2nd movement
 \score {
      \context Voice = Viola {
         \set Staff.midiInstrument = "viola"
@@ -52,9 +41,6 @@
       \tempo 4 = 48
     }
 }
-
-
-% 3rd movement
 \score {
      \context Voice = Viola {
         \set Staff.midiInstrument = "viola"

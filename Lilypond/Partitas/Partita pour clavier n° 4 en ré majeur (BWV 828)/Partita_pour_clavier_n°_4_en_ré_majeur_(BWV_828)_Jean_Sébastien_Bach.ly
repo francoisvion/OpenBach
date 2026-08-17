@@ -1,50 +1,51 @@
-\version "2.18.2"
-\include "deutsch.ly"
-\include "ouverture.ly"
-\include "allemande.ly"
-\include "courante.ly"
-\include "aria.ly"
-\include "sarabande.ly"
-\include "menuet.ly"
-\include "gigue.ly"
+\version "2.27.1"
+
+\language "deutsch"
+
+\include "Partita_pour_clavier_n°_4_en_ré_majeur_(BWV_828)_1. Ouverture_Jean_Sébastien_Bach.ly"
+\include "Partita_pour_clavier_n°_4_en_ré_majeur_(BWV_828)_2. Allemande_Jean_Sébastien_Bach.ly"
+\include "Partita_pour_clavier_n°_4_en_ré_majeur_(BWV_828)_3. Courante_Jean_Sébastien_Bach.ly"
+\include "Partita_pour_clavier_n°_4_en_ré_majeur_(BWV_828)_4. Aria_Jean_Sébastien_Bach.ly"
+\include "Partita_pour_clavier_n°_4_en_ré_majeur_(BWV_828)_5. Sarabande_Jean_Sébastien_Bach.ly"
+\include "Partita_pour_clavier_n°_4_en_ré_majeur_(BWV_828)_6. Menuet_Jean_Sébastien_Bach.ly"
+\include "Partita_pour_clavier_n°_4_en_ré_majeur_(BWV_828)_7. Gigue_Jean_Sébastien_Bach.ly"
 
 \paper {
-  top-margin = 8\mm
-  left-margin = 9\mm
-  right-margin = 8\mm
-  top-markup-spacing.basic-distance = #6
-  markup-system-spacing.basic-distance = #5
-  top-system-spacing.basic-distance = #12
-  last-bottom-spacing.basic-distance = #12
+  #(set-paper-size "a4")
+  #(set-global-staff-size 18)
+  
+  left-margin = 20\mm
+  right-margin = 20\mm
+  top-margin = 20\mm
+  bottom-margin = 25\mm
+  
+  indent = 0\mm
+  
+  oddHeaderMarkup = \markup \fill-line { \null \fromproperty #'page:page-number-string }
+  evenHeaderMarkup = \markup \fill-line { \fromproperty #'page:page-number-string \null }
+  oddFooterMarkup = ##f
+  evenFooterMarkup = ##f
 
-  ragged-last = ##f
-  ragged-bottom = ##f
-  ragged-last-bottom = ##f
+  system-system-spacing = #'((basic-distance . 11) 
+                             (minimum-distance . 7) 
+                             (padding . 1.5) 
+                             (stretchability . 40))
+  markup-system-spacing = #'((basic-distance . 9) 
+                             (minimum-distance . 6) 
+                             (padding . 1.5) 
+                             (stretchability . 20))
 }
 
 #(set-global-staff-size 18.5)
 
 \header {
-  title = "Partita 4"
-  subtitle = "BWV 828"
-  composer = "Johann Sebastian Bach"
-
-  mutopiatitle = "Partita 4"
-  mutopiacomposer = "BachJS"
-  mutopiaopus = "BWV 828"
-  mutopiainstrument = "Harpsichord"
-  source = "First edition by J. S. Bach - 'In Verlegung des Autoris'"
-  style = "Baroque"
-  license = "Creative Commons Attribution-ShareAlike 4.0"
-  maintainer = "Urs Metzger"
-  maintainerEmail = "urs@ursmetzger.de"
-
- footer = "Mutopia-2016/04/20-2114"
- copyright = \markup {\override #'(font-name . "DejaVu Sans, Bold") \override #'(baseline-skip . 0) \right-column {\with-url #"http://www.MutopiaProject.org" {\abs-fontsize #9  "Mutopia " \concat {\abs-fontsize #12 \with-color #white \char ##x01C0 \abs-fontsize #9 "Project "}}}\override #'(font-name . "DejaVu Sans, Bold") \override #'(baseline-skip . 0 ) \center-column {\abs-fontsize #11.9 \with-color #grey \bold {\char ##x01C0 \char ##x01C0 }}\override #'(font-name . "DejaVu Sans,sans-serif") \override #'(baseline-skip . 0) \column { \abs-fontsize #8 \concat {"Typeset using " \with-url #"http://www.lilypond.org" "LilyPond " \char ##x00A9 " 2016 " "by " \maintainer " " \char ##x2014 " " \footer}\concat {\concat {\abs-fontsize #8 { \with-url #"http://creativecommons.org/licenses/by-sa/4.0/" "Creative Commons Attribution ShareAlike 4.0 International License "\char ##x2014 " free to distribute, modify, and perform" }}\abs-fontsize #13 \with-color #white \char ##x01C0 }}}
- tagline = ##f
+  title = "Partita IV"
+  opus = "BWV 828"
+  composer = "Jean Sébastien Bach (1685-1750)"
+  copyright = ""
+  tagline = ##f
 }
 
-% Ouverture
 \score {
   \new PianoStaff {
     \set PianoStaff.midiInstrument = "harpsichord"
@@ -74,7 +75,6 @@
   }
 }
 
-% Allemande
 \score {
   \new PianoStaff {
     \set PianoStaff.midiInstrument = "harpsichord"
@@ -105,7 +105,6 @@
   }
 }
 
-% Courante
 \score {
   \new PianoStaff {
     \set PianoStaff.midiInstrument = "harpsichord"
@@ -129,7 +128,6 @@
   }
 }
 
-% Aria
 \score {
   \new PianoStaff {
     \set PianoStaff.midiInstrument = "harpsichord"
@@ -156,7 +154,6 @@
   }
 }
 
-% Sarabande
 \score {
   \new PianoStaff {
     \set PianoStaff.midiInstrument = "harpsichord"
@@ -183,7 +180,6 @@
   }
 }
 
-% Menuet
 \score {
   \new PianoStaff {
     \set PianoStaff.midiInstrument = "harpsichord"
@@ -210,7 +206,6 @@
   }
 }
 
-% Gigue
 \score {
   \new PianoStaff {
     \set PianoStaff.midiInstrument = "harpsichord"

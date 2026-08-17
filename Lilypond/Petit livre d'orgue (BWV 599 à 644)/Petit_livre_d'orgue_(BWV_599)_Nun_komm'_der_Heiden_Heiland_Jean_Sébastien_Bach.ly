@@ -1,6 +1,17 @@
-\version "2.24.4"
+\version "2.27.0"
 
-\include "italiano.ly"
+\language "italiano"
+
+
+#(set-global-staff-size 18)
+
+\paper {
+  #(set-paper-size "a4landscape")
+  #(define reorient-paper #t)
+  ragged-bottom = ##f
+  ragged-last-bottom = ##t
+  tagline = ##f
+}
 
 \header {
   title = "Nun komm' der Heiden Heiland"
@@ -18,21 +29,13 @@ off = {\once \override Fingering #'extra-offset = #'( 0 . 2 )}
 ofm = {\once \override Fingering #'extra-offset = #'( 0 . -1 )}
 offm = {\once \override Fingering #'extra-offset = #'( 0 . -2 )}
 
-\paper {
-between-system-space = 2.5\cm
-system-count = 3
-top-margin = 0.5\cm
-bottom-margin =0.5 \cm
-tagline = ##f
-}
-
 global = { \override TextScript #'font-name = #"Emmentaler"
 \override Script #'script-priority = #1
    \key la \minor
    \time 4/4
 }
 
-#(set-default-paper-size "a4" 'landscape)
+#(set-paper-size "a4landscape")
 #(set-global-staff-size 18)
 
 halsup = {
@@ -256,5 +259,13 @@ re,8_\a re'^\a mi8.^\q[ sol!16^\a ] dod,8._\a mi16^\a re8._\a fa16^\a
          \transpose do do, \pedal
       }
    >>
-   \midi{ tempoWholesPerMinute = #(ly:make-moment 40 4) }
+   \midi{ tempoWholesPerMinute = #40/4 }
 }
+
+%{
+convert-ly (GNU LilyPond) 2.27.0  convert-ly: Processing `'...
+Applying conversion: 2.25.0, 2.25.1, 2.25.2, 2.25.3, 2.25.4, 2.25.5,
+2.25.6, 2.25.8, 2.25.9, 2.25.11, 2.25.12, 2.25.13, 2.25.18, 2.25.22,
+2.25.23, 2.25.24, 2.25.25, 2.25.26, 2.25.28, 2.25.30, 2.25.31,
+2.25.32, 2.25.33, 2.25.34, 2.25.35, 2.25.80, 2.26.0, 2.27.0
+%}

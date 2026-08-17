@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title = "12. O Haupt voll Blut und Wunden"
   subtitle = "Oratorio : La Passion selon Saint Matthieu "
@@ -8,14 +7,11 @@
   piece = "Choral. Chœur I.II"
   tagline = ##f
 }
-
 global = {
   \time 4/4
   \partial 4
 }
-
 Key =  \key d \minor
-
 soprano =  \relative c'' {
   \voiceOne
   a4 |
@@ -39,8 +35,6 @@ soprano =  \relative c'' {
   bes a g c |
   a2.\fermata  \bar "|."
 }
-
-
 alto =  \relative c' {
   \voiceTwo
   f4 |
@@ -64,8 +58,6 @@ alto =  \relative c' {
    d8[ e] f4 f e |
   f2.  \bar "|."
 }
-
-
 tenore =  \relative c' {
   \voiceOne
   d4 |
@@ -89,8 +81,6 @@ tenore =  \relative c' {
   bes c  c8[( bes16  a)]  g8[ c] |
   c2.  \bar "|."
 }
-
-
 basso =  \relative c {
   \voiceTwo
    d'8[ c] |
@@ -114,22 +104,18 @@ basso =  \relative c {
   g  a8[ bes] c4 c, |
   f2.\fermata \bar "|."
 }
-
 textOne = \lyricmode {
   O  Haupt voll Blut und Wun -- den, voll Schmerz und vol -- ler Hohn!
   O  Haupt, zu Spott ge- bund -- den mit ei -- ner Dor -- nen -- kron!
   O  Haupt, sonst schön ge -- zie -- ret mit höch -- ster Ehr' und Zier,
   jetzt a -- ber hoch schimp -- fi -- ret: ge -- grüs -- set seist du mir!
 }
-
 textTwo = \lyricmode {
   Du ed -- les An -- ge -- Sich -- te, vor dem sonst schrickt und scheut
   das gros -- se Welt -- ge -- rich -- te, wie bist du so be -- speit!
   Wie bist du so er -- blei -- chet, wer hat dein Au -- gen -- licht,
   dem sonst kein Licht niet glei -- chet, so schänd -- lich zu -- ge -- richt't?
 }
-
-
 \score {
   <<
     \global
@@ -144,7 +130,6 @@ textTwo = \lyricmode {
         \context Voice = "one" \soprano
         \context Voice = "two" \alto
       >>
-
       \context Staff = "men" <<
 	\clef bass
 	\set Staff.midiInstrument = #"choir aahs"

@@ -1,11 +1,11 @@
-% showLastLength = R8 * 94
-\include "defs.ly"
+\include "./Partita_pour_clavier_n°_4_en_ré_majeur_(BWV_828)_defs.ly"
 
 global = {
    \key d \major
    \time 3/2
-   \override Staff.NoteCollision #'merge-differently-dotted = ##t
-   \override TupletNumber #'stencil = ##f
+   \language "deutsch"
+   \override Staff.NoteCollision.merge-differently-dotted = ##t
+   \override TupletNumber.stencil = ##f
 }
 
 sopranC = \new Voice \relative fis' {
@@ -263,43 +263,43 @@ bassC = \new Voice \relative d, {
       a,2.~ \times 5/4 a2
    }
    \repeat volta 2 {
-     r8
-     a2. \halsneutral g'8[ fis a g fis e]
-     fis4. a16 fis d8 fis16 d h4 \appoggiatura h8 c4. a8
-     h8 d g fis g[ h16 g] e8[ g16 e] c'4 a
+      r8
+      a2. \halsneutral g'8[ fis a g fis e]
+      fis4. a16 fis d8 fis16 d h4 \appoggiatura h8 c4. a8
+      h8 d g fis g[ h16 g] e8[ g16 e] c'4 a
 
-     \barNumberCheck 20
-     \halsdown h4. a16 g a8 g16 fis g2 gis4
-     a4. fis8[ g e] fis2.
-     g4. e8[ fis d] e2.
-     fis4. a8[ fis e] dis2.
-     e4 fis g c, a h
+      \barNumberCheck 20
+      \halsdown h4. a16 g a8 g16 fis g2 gis4
+      a4. fis8[ g e] fis2.
+      g4. e8[ fis d] e2.
+      fis4. a8[ fis e] dis2.
+      e4 fis g c, a h
 
-     \barNumberCheck 25
-     e,4. e'16 g h8[ g16 h] e2 r4
-     \halsneutral r8 cis,16 e a8[ e16 a] cis8[ a16 cis] d2 r4
-     r8 h,16 d g8[ d16 g] h8[ g16 h] cis8 r r4 r8 cis16 a
-     \halsdown fis8[ a16 fis] d8[ fis16 d] h8[ d16 h] g4 e' d
-     \halsneutral a8[ cis e g fis e d a' d, c h a]
+      \barNumberCheck 25
+      e,4. e'16 g h8[ g16 h] e2 r4
+      \halsneutral r8 cis,16 e a8[ e16 a] cis8[ a16 cis] d2 r4
+      r8 h,16 d g8[ d16 g] h8[ g16 h] cis8 r r4 r8 cis16 a
+      \halsdown fis8[ a16 fis] d8[ fis16 d] h8[ d16 h] g4 e' d
+      \halsneutral a8[ cis e g fis e d a' d, c h a]
 
-     \barNumberCheck 30
-     g8[ h d fis e d cis! g' cis, h a g]
-     fis8[ fis' h, a g fis e e' a, g fis e]
-     d8[ a' d fis e g fis a g fis e d]
-     \halsdown g,4\rest g g'~ g fis2~
-     fis8[ fis e d cis d] cis4 a h
+      \barNumberCheck 30
+      g8[ h d fis e d cis! g' cis, h a g]
+      fis8[ fis' h, a g fis e e' a, g fis e]
+      d8[ a' d fis e g fis a g fis e d]
+      \halsdown g,4\rest g g'~ g fis2~
+      fis8[ fis e d cis d] cis4 a h
 
-     \barNumberCheck 35
-     g2.~ g4 fis e
-     d4 \stemUp e'2 d4 e fis
-     \tieDown g4~ \halsdown g fis~ fis e d
-     cis4 d cis h cis d
-     cis4 a g fis g a
+      \barNumberCheck 35
+      g2.~ g4 fis e
+      d4 \stemUp e'2 d4 e fis
+      \tieDown g4~ \halsdown g fis~ fis e d
+      cis4 d cis h cis d
+      cis4 a g fis g a
 
-     \barNumberCheck 40
-     e4\rest d a' d,2
-     \override Staff.RehearsalMark.direction = #DOWN
-     \mark \markup { \musicglyph #"scripts.dfermata" }
+      \barNumberCheck 40
+      e4\rest d a' d2
+      \override Staff.RehearsalMark.direction = #DOWN
+      \mark \markup { \musicglyph #"scripts.dfermata" }
    }
 }
 
@@ -319,4 +319,3 @@ leftC = {
       \bassC
    >>
 }
-

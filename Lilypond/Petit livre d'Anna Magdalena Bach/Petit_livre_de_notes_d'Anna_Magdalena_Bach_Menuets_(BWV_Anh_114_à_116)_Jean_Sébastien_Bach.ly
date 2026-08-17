@@ -1,15 +1,11 @@
 \version "2.24.4"
-
 \paper {
-
 ragged-bottom = ##t
 }
-
 CentQuatorzeA= \relative c' {
   \set Staff.midiInstrument = "viola"
   \time 3/4
   \key g \major
-
   \repeat volta 2 {
     d4 g,8[ a b c] |
     d4 g, g |
@@ -45,15 +41,12 @@ CentQuatorzeA= \relative c' {
     c4 b\prall a |
     b8[ d] g,4 fis |
     < g  d > 2.
-	
   }
 }
-
 CentQuatorzeB =  \relative c' {
    \set Staff.midiInstrument = "viola"
   \time 3/4
   \key g \major
-
   \repeat "volta" 2 {
   < d, g >2
 	a'4 |
@@ -93,12 +86,10 @@ CentQuatorzeB =  \relative c' {
   }
   \pageBreak
 }
-
 centQuinzeA =  \relative c'' {
   \set Staff.midiInstrument = "viola"
   \key g \minor
   \time 3/4
-
   \repeat volta 2 {
     bes4 a g |
     a d, d |
@@ -117,7 +108,7 @@ centQuinzeA =  \relative c'' {
     d4 g c,\prall |
     < bes d> 2.  |
 				}
-  \repeat volta 2 { 
+  \repeat volta 2 {
     d4 bes8[ c d e!] |
     f4 g a |
     bes g8[ a bes g] |
@@ -133,16 +124,14 @@ centQuinzeA =  \relative c'' {
     d,8[ e fis g a bes] |
     c4 bes a |
     bes8\prall[ c16 d] g,4 fis |
-    < g d >2.  
-				} 
+    < g d >2.
+				}
   \pageBreak
 }
-
 centQuinzeB =  \relative c' {
   \set Staff.midiInstrument = "viola"
   \time 3/4
   \key g \minor
-
   \repeat volta 2 {
     g2. |
     f |
@@ -180,12 +169,10 @@ centQuinzeB =  \relative c' {
     g g2 |
   }
 }
-
-CentSeizeA = \relative c' { 
+CentSeizeA = \relative c' {
   \set Staff.midiInstrument = "viola"
   \key g \major
   \time 3/4
-
   \repeat volta 2 {
     g8[ b d g a, fis'] |
     g4 g, g |
@@ -231,12 +218,10 @@ CentSeizeA = \relative c' {
     g2.
   }
 }
-
-CentSeizeB = \relative c' { 
+CentSeizeB = \relative c' {
   \set Staff.midiInstrument = "viola"
   \key g \major
   \time 3/4
-
   \repeat volta 2 {
     g2 d4 |
     g8[ b d g d b] |
@@ -282,9 +267,7 @@ CentSeizeB = \relative c' {
     g d g, |
   }
 }
-
 \book {
- 
 \header {
   title = "Menuets"
   opus = "BWV Anh 114 à 116"
@@ -292,69 +275,53 @@ CentSeizeB = \relative c' {
   composer =  "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
 \score {
   \new StaffGroup <<
     \new Staff << \override Score.MetronomeMark #'padding = #3
-        \tempo 4= 96 
+        \tempo 4= 96
         \clef violin \transpose c c'
-        \CentQuatorzeA  >> 
-    \new Staff << \override Score.MetronomeMark #'padding = #3 
-         \tempo 4= 96 
+        \CentQuatorzeA  >>
+    \new Staff << \override Score.MetronomeMark #'padding = #3
+         \tempo 4= 96
          \clef violin \transpose c c'
-         \CentQuatorzeB  >>  	  
+         \CentQuatorzeB  >>
 		        >>
 		     \layout {  }
-			 \header { piece = "BWV Anh 114" 
+			 \header { piece = "BWV Anh 114"
 					 }
 				}
-		
-
-
 \score {
 		     \new StaffGroup <<
-		           \new Staff << \override Score.MetronomeMark #'padding = #3 
-				   \tempo 4= 96 
+		           \new Staff << \override Score.MetronomeMark #'padding = #3
+				   \tempo 4= 96
 				   \clef violin \transpose c c'
-				   \centQuinzeA  >> 
-		            \new Staff << \override Score.MetronomeMark #'padding = #3 
-				   \tempo 4= 96 
+				   \centQuinzeA  >>
+		            \new Staff << \override Score.MetronomeMark #'padding = #3
+				   \tempo 4= 96
 				   \clef violin \transpose c c'
-				   \centQuinzeB  >>  
-				  
+				   \centQuinzeB  >>
 		        >>
 		     \layout {  }
-			 \header { piece = "BWV Anh 115" 
+			 \header { piece = "BWV Anh 115"
 					 }
 				}
-		
-				
-
 \score {
 		     \new StaffGroup <<
-		           \new Staff << \override Score.MetronomeMark #'padding = #3 
-				   \tempo 4= 96 
+		           \new Staff << \override Score.MetronomeMark #'padding = #3
+				   \tempo 4= 96
 				   \clef violin \transpose c c'
-				   \CentSeizeA  >> 
-		            \new Staff << \override Score.MetronomeMark #'padding = #3 
-				   \tempo 4= 96 
+				   \CentSeizeA  >>
+		            \new Staff << \override Score.MetronomeMark #'padding = #3
+				   \tempo 4= 96
 				   \clef violin \transpose c c'
-				   \CentSeizeB  >>  
-				  
+				   \CentSeizeB  >>
 		        >>
 		     \layout {  }
-			 \header { piece = "BWV Anh 116" 
+			 \header { piece = "BWV Anh 116"
 					 }
 				}
-		
-		
-		
-		
 }
-
-
 \book {
-
 \header {
   title = "Menuet"
   subtitle = "Adaptation pour duo de violons altos"
@@ -362,78 +329,70 @@ CentSeizeB = \relative c' {
   composer =  "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
 \score {
 		     \new StaffGroup <<
-		           \new Staff << \override Score.MetronomeMark #'padding = #3 
-				   \tempo 4= 96 
-				   \clef alto 
-				   \CentQuatorzeA  >> 
-		            \new Staff << \override Score.MetronomeMark #'padding = #3 
-				   \tempo 4= 96 
-				   \clef alto 
-				   \CentQuatorzeB  >>  
-				  
+		           \new Staff << \override Score.MetronomeMark #'padding = #3
+				   \tempo 4= 96
+				   \clef alto
+				   \CentQuatorzeA  >>
+		            \new Staff << \override Score.MetronomeMark #'padding = #3
+				   \tempo 4= 96
+				   \clef alto
+				   \CentQuatorzeB  >>
 		        >>
 		     \layout {  }
-			 \header { piece = "BWV Anh 114" 
+			 \header { piece = "BWV Anh 114"
 					 }
 				}
 		\score {
 		     \new StaffGroup <<
-		           \new Staff << \tempo 4= 96 \CentQuatorzeA  >> 
-   	               \new Staff << \tempo 4= 96 \CentQuatorzeB  >>  
+		           \new Staff << \tempo 4= 96 \CentQuatorzeA  >>
+   	               \new Staff << \tempo 4= 96 \CentQuatorzeB  >>
 							 >>
 		     \midi {  }
 				}
-
 \score {
 		     \new StaffGroup <<
-		           \new Staff << \override Score.MetronomeMark #'padding = #3 
-				   \tempo 4= 96 
-				   \clef alto 
-				   \centQuinzeA  >> 
-		            \new Staff << \override Score.MetronomeMark #'padding = #3 
-				   \tempo 4= 96 
-				   \clef alto 
-				   \centQuinzeB  >>  
-				  
+		           \new Staff << \override Score.MetronomeMark #'padding = #3
+				   \tempo 4= 96
+				   \clef alto
+				   \centQuinzeA  >>
+		            \new Staff << \override Score.MetronomeMark #'padding = #3
+				   \tempo 4= 96
+				   \clef alto
+				   \centQuinzeB  >>
 		        >>
 		     \layout {  }
-			 \header { piece = "BWV Anh 115" 
+			 \header { piece = "BWV Anh 115"
 					 }
 				}
 		\score {
 		     \new StaffGroup <<
-		           \new Staff << \tempo 4= 96 \centQuinzeA  >> 
-   	               \new Staff << \tempo 4= 96 \centQuinzeB  >>  
+		           \new Staff << \tempo 4= 96 \centQuinzeA  >>
+   	               \new Staff << \tempo 4= 96 \centQuinzeB  >>
 							 >>
 		     \midi {  }
 				}
-				
 \score {
 		     \new StaffGroup <<
-		           \new Staff << \override Score.MetronomeMark #'padding = #3 
-				   \tempo 4= 96 
-				   \clef alto 
-				   \CentSeizeA  >> 
-		            \new Staff << \override Score.MetronomeMark #'padding = #3 
-				   \tempo 4= 96 
-				   \clef alto 
-				   \CentSeizeB  >>  
-				  
+		           \new Staff << \override Score.MetronomeMark #'padding = #3
+				   \tempo 4= 96
+				   \clef alto
+				   \CentSeizeA  >>
+		            \new Staff << \override Score.MetronomeMark #'padding = #3
+				   \tempo 4= 96
+				   \clef alto
+				   \CentSeizeB  >>
 		        >>
 		     \layout {  }
-			 \header { piece = "BWV Anh 116" 
+			 \header { piece = "BWV Anh 116"
 					 }
 				}
 		\score {
 		     \new StaffGroup <<
-		           \new Staff << \tempo 4= 96 \CentSeizeA  >> 
-   	               \new Staff << \tempo 4= 96 \CentSeizeB  >>  
+		           \new Staff << \tempo 4= 96 \CentSeizeA  >>
+   	               \new Staff << \tempo 4= 96 \CentSeizeB  >>
 							 >>
 		     \midi {  }
 				}
 }
-
-

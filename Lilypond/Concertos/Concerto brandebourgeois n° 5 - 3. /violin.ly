@@ -1,19 +1,15 @@
-\version "2.18.2"
+\version "2.24.0"
 \include "header.ly"
-
 violin = \relative c'' {
   \tempo "Allegro."
   \clef violin
   \key d \major
   \time 2/4
-
   \repeat unfold 2 {
     R2*30 |
     r8 r16 d a'8. e16 |
     \tuplet 3/2 { fis8( e) d cis( d) e } |
     \omit TupletNumber
-
-    % --Bar 33-- %
     \tuplet 3/2 { a,8( b) cis d( e) fis } |
     b,8 r cis r |
     \tuplet 3/2 { b8( d) fis fis( e) fis } |
@@ -22,16 +18,12 @@ violin = \relative c'' {
     e8 r d r |
     \tuplet 3/2 { cis8( d) e fis( g) a } |
     d,4 ~ d8. cis16 |
-
-    % --Bar 41-- %
     d8 r cis r |
     d8 r a r |
     g8 r fis r |
     b8 r \tuplet 3/2 { cis,( e a) } |
     \tuplet 3/2 { d,8( fis a) a,( cis e) } |
     d8 r d' r |
-
-    % --Bar 47-- %
     cis8 r b r |
     e8 r d8. cis16 |
     b8. d,16 fis8. e16 |
@@ -39,8 +31,6 @@ violin = \relative c'' {
     g8 r cis, r |
     \tuplet 3/2 { fis8( d) e fis( d) e } |
     fis2 ~ |
-
-    % --Bar 54-- %
     \tuplet 3/2 { fis8 \noBeam d e fis( d) e } |
     fis8. a16 \tuplet 3/2 { d8( cis) d } |
     b2 ~ |
@@ -48,8 +38,6 @@ violin = \relative c'' {
     cis8 r cis r |
     b8 r b r |
     a8 r a r |
-
-    % --Bar 61-- %
     b4 r |
     r8 r16 cis d8. cis16 |
     b8. b16 a8. a16 |
@@ -57,8 +45,6 @@ violin = \relative c'' {
     r8 r16 g d'8. a16 |
     \tuplet 3/2 { b8( a) g fis( g) a } |
     d,8 r a' r |
-
-    % --Bar 68-- %
     e2 ~ |
     \tuplet 3/2 { e8 \noBeam gis a b( gis) a } |
     b2 ~ |
@@ -74,22 +60,14 @@ violin = \relative c'' {
     {
       a2 |
       R2*8 |
-
-      % --Bar 87-- %
       r8 r16 b fis'8. cis16 |
       \tuplet 3/2 {
         d8( cis) b ais( b) cis |
-        fis,8(-\pianissimo^"Solo" b d) d( cis d) | %\italics
+        fis,8(-\pianissimo^"Solo" b d) d( cis d) |
         fis,8( b d ) d( cis d ) |
         g,!8( ais b) cis( ais b) |
         e,8( ais cis) cis( b cis) |
       }
-
-
-      % \tuplet 3/2 { } |
-
-      % --Bar 93 -- %
-      % Bar 93
       \tuplet 3/2 { fis,8( b d) d( cis d) } |
       \tuplet 3/2 { e,8( g cis) cis( ais) b } |
       \tuplet 3/2 { cis8( ais) b fis( b) ais } |
@@ -137,20 +115,15 @@ violin = \relative c'' {
       a8 r gis r |
       a8. \noBeam e16_\cantabile a8. e16 | \appoggiatura
       e16
-
       fis2 ~ |
       fis8. fis16
       \tuplet 3/2 { g!8( e) fis } |
       \appoggiatura
-
       fis16
-
       e2 ~ |
       e8. e16 a8. fis16 |
       \appoggiatura
-
       e16
-
       d2 ~ |
       \tuplet 3/2 { d8 e fis e( fis) d } |
       cis8 r r4 |
@@ -204,8 +177,4 @@ violin = \relative c'' {
       a2-\fermata \bar "|."
     }
   }
-
-
-
-
 }

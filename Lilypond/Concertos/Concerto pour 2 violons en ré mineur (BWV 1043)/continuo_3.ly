@@ -1,6 +1,4 @@
-\version "2.16.0"
-%Continuo, 3rd movement
-
+\version "2.24.0"
 continuoD =  \relative c' {
     \partial 8
     r8 |
@@ -158,6 +156,5 @@ continuoD =  \relative c' {
     cis a b cis d e f g a8 a, |
      d[ d, d d d d] |
     d4\fermata r r |
-    
     \bar "|."
 }

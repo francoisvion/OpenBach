@@ -1,11 +1,13 @@
-\include "defs.ly"
+\include "./Partita_pour_clavier_n°_4_en_ré_majeur_(BWV_828)_defs.ly"
+
 global = {
    \key d \major
    \time 3/4
-   \override Staff.NoteCollision #'merge-differently-dotted = ##t
+   \language "deutsch"
+   \override Staff.NoteCollision.merge-differently-dotted = ##t
    \override Beam.auto-knee-gap = #2.5
-   \override TupletNumber #'stencil = ##f
-   \override TupletBracket #'stencil = ##f
+   \override TupletNumber.stencil = ##f
+   \override TupletBracket.stencil = ##f
 }
 
 sopranF = \new Voice \relative fis'' {
@@ -120,7 +122,7 @@ tenorF = \new Voice \relative a {
       s4 h g
       s2.
       \once \override Rest.extra-offset = #'( 1.6 . 0 ) 
-         \tweak #'font-size #-1 g4\rest fis fis
+         \tweak font-size #-1 g4\rest fis fis
       fis4 s2
 
       \barNumberCheck 17
@@ -137,7 +139,7 @@ tenorF = \new Voice \relative a {
       
       \barNumberCheck 25
       \staffdown s4 << \new Voice { \stemUp \shiftOn a4 }
-                       \new Voice { \stemUp \shiftOnn fis4 } >> s4
+                        \new Voice { \stemUp \shiftOnn fis4 } >> s4
       \staffup e'4 a2
       \staffdown d,,4 h e
       s2.
@@ -208,4 +210,3 @@ leftF = {
       \bassF
    >>
 }
-

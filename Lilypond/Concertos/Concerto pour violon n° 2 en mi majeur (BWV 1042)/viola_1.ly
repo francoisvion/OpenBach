@@ -1,6 +1,4 @@
-\version "2.16.0"
-%Viola, 1st movement
-
+\version "2.24.0"
 violaBa =  \relative c' {
     gis4-. b-. e-. r8 b |
      e[ b e b]  e[ b b b] |
@@ -34,7 +32,6 @@ violaBa =  \relative c' {
     r2 r8 dis16\p dis e e cis cis |
     dis8 dis4 cis8 b b'16 ais gis gis fis\f fis |
      fis8[ gis gis cis,] dis4 r |
-
     gis,-.\f b-. e-.\p gis-. |
     b-. r e,-.\pp gis-. |
     b-. r e,-. gis-. |
@@ -54,7 +51,6 @@ violaBa =  \relative c' {
     gis8 gis4 fis8 e16 e dis dis cis cis b\f b |
     b8 cis cis fis gis4 r^"Fine" |
 }
-
 violaBb =  \relative c' {
      cis8[\p( cis cis  cis)]  cis[( cis cis  cis)] |
      b[( b b  b)]  b[( b b  b)] |
@@ -73,7 +69,6 @@ violaBb =  \relative c' {
      gis8[ a, cis e] a, a'4 fis8 ~ |
      fis[ gis, bis dis]  gis,[ cis e gis] |
      e[ cis ais cis] dis e fis4 |
-
     e-.\f gis-. cis-. r8 gis |
      cis[ gis cis gis]  cis[ gis gis e] |
     e4-.\p ais-. cis-. r |
@@ -118,24 +113,20 @@ violaBb =  \relative c' {
     cis2 cis4 r8 cis\f |
     b e4 dis8 b r r4 |
     r8 dis16\f dis e e cis cis dis8 r r4 |
-    r16 e\p dis e cis4 r16 cis b %{ or bis %} cis a4 |
+    r16 e\p dis e cis4 r16 cis b  cis a4 |
     r16 cis' b cis a4 r16 b ais gis fisis4 |
     r16 b ais gis fisis8 dis dis2 |
     R1 |
     R1^"D.C. al fine" |
 }
-
 violaB =  {
     \violaBa
     \bar "||"
     \violaBb
     \bar "|."
 }
-
 violaBMidi =  {
     \violaBa
-
     \violaBb
-
     \violaBa
 }

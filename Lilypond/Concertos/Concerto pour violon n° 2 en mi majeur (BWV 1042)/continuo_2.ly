@@ -1,9 +1,6 @@
-\version "2.16.0"
-%Continuo, 2nd movement
-
+\version "2.24.0"
 continuoC =  \relative c' {
     cis16-"sempre piano"( bis  cis8) gis(  gis) gis16 cis( dis  e) |
-	 % want \p instead of "piano"
     dis( cis  dis8) gis,(  gis) gis16 dis'( e  fis) |
     e( dis  e8) gis,(  gis) gis16 cis( dis  e) |
     a,16( gis  a8) fis(  fis) fis16 bis( cis  dis) |
@@ -25,7 +22,6 @@ continuoC =  \relative c' {
     dis,16( cis  dis8) gis,(  gis) gis16 dis'( e  fis) |
     e(  gis) gis(  e) cis(  e) e(  cis) a4 |
     gis2^\fermata r4 |
-
     cis4 r r |
     cis r r |
     cis' ~ cis16 ais ais(  b) b(  gis) gis(  e) |
@@ -34,7 +30,7 @@ continuoC =  \relative c' {
     R2. |
     R |
     R |
-    R |  
+    R |
     gis'16( fis  gis8) cis,(  cis) cis16 gis'( a  b) |
     fis,4 r r |
     dis'16( cis  dis8) gis,(  gis) gis16 dis'( e  fis) |

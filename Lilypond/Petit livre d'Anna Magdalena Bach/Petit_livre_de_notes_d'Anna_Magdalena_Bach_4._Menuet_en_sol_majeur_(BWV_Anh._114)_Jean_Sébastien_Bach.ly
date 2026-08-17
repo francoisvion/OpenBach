@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title = "4. Menuet en sol majeur"
   subtitle = "Petit livre de notes d'Anna Magdalena Bach"
@@ -8,7 +7,6 @@
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
 \score {
    \context StaffGroup
   <<
@@ -17,7 +15,7 @@
       \time 3/4
       \clef treble
       \key g \major
-      \relative c' { 
+      \relative c' {
         \repeat "volta" 2 {
           d'4\p \< g,8(  a8) b8 c8  d4\!(  g,4)-. g4 |
           e'4 \< c8(  d8) e8 fis8  g4\!(  g,4)-. g4 |
@@ -63,7 +61,7 @@
         }
       }
     }
-  >>  
+  >>
   \midi {
     \context {
       \Score

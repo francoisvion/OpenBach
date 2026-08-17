@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header{
   title = "Ich dank dir, lieber Herre"
   subtitle = "BWV 347"
@@ -7,13 +6,10 @@
   poet = "Vierstimmige Choräle"
   tagline = ##f
 }
-
 \paper {
   top-margin = 12
 }
-
 \include "italiano.ly"
-
 Soprane =  \context Voice = "Soprane" {
 	\set Staff.midiInstrument = "acoustic grand"
 	\time 4/4
@@ -28,7 +24,6 @@ Soprane =  \context Voice = "Soprane" {
 	  \set Timing.measureLength = #(ly:make-moment 3/4)
 	  sold'4 fad' mi'-\fermata
 	}
-
 	\set Timing.measureLength = #(ly:make-moment 1/4)
 	mi''4
 	\set Timing.measureLength = #(ly:make-moment 4/4)
@@ -44,9 +39,7 @@ Soprane =  \context Voice = "Soprane" {
 	la'2.-\fermata
 	\bar "|."
       }
-
 Alto =  \context Voice = "Alto" {
-
 	\set Staff.midiInstrument = "acoustic grand"
 	\time 4/4
 	\voiceTwo
@@ -60,7 +53,6 @@ Alto =  \context Voice = "Alto" {
 	  \set Timing.measureLength = #(ly:make-moment 3/4)
 	  mi'4 red' si
         }
-
 	\set Timing.measureLength = #(ly:make-moment 1/4)
 	dod''8 si'
 	\set Timing.measureLength = #(ly:make-moment 4/4)
@@ -76,9 +68,7 @@ Alto =  \context Voice = "Alto" {
 	mi'2.
 	\bar "|."
       }
-
 Tenor =  \context Voice = "Tenor" {
-
 	\set Staff.midiInstrument = "acoustic grand"
 	\time 4/4
 	\clef bass
@@ -93,7 +83,6 @@ Tenor =  \context Voice = "Tenor" {
 	  \set Timing.measureLength = #(ly:make-moment 3/4)
 	  si4. la8 sold4
 	}
-
 	\set Timing.measureLength = #(ly:make-moment 1/4)
 	sold4
 	\set Timing.measureLength = #(ly:make-moment 4/4)
@@ -109,9 +98,7 @@ Tenor =  \context Voice = "Tenor" {
 	dod'2.
 	\bar "|."
       }
-
 Basse =  \context Voice = "Basse" {
-
 	\set Staff.midiInstrument = "acoustic grand"
 	\time 4/4
 	\clef bass
@@ -126,7 +113,6 @@ Basse =  \context Voice = "Basse" {
 	  \set Timing.measureLength = #(ly:make-moment 3/4)
 	  si4 si, mi
 	}
-
 	\set Timing.measureLength = #(ly:make-moment 1/4)
 	dod4
 	\set Timing.measureLength = #(ly:make-moment 4/4)
@@ -142,26 +128,19 @@ Basse =  \context Voice = "Basse" {
 	la,2.
 	\bar "|."
       }
-
 SopraneStaff = \context Staff = SopraneStaff <<
 \Soprane
 \Alto
-
 >>
-
-
 TenorStaff = \context Staff = TenorStaff <<
 \Tenor
 \Basse
-
 >>
-
 \score {
 	\context PianoStaff <<
 	<<
 		\SopraneStaff
 		\TenorStaff
-
 	>>
 >>
 	\layout {
@@ -169,5 +148,4 @@ TenorStaff = \context Staff = TenorStaff <<
 	\midi {
 		\tempo 4 = 72
 	}
-
 }

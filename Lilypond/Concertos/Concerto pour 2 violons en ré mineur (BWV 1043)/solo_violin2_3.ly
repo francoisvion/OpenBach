@@ -1,9 +1,6 @@
-\version "2.16.0"
-%Solo Violin 2, 3rd movement
-
+\version "2.24.0"
 soloViolinCD =  \relative c' {
     \partial 8
-    
     r8 |
     r d'16 cis d a bes g a f g e |
     f d e cis d f e g f8 g |
@@ -15,17 +12,16 @@ soloViolinCD =  \relative c' {
     gis, a d16 b cis8 r4 |
     r8 a'16 gis a e f d e cis a8 |
     r8 a'16 f g e f d e cis a8 |
-    r8 \times 2/3 { bes16( a  g) } a8 ~ \times 2/3 { a16( g  f) } g f g f |
-    g8 r r \times 2/3 {  cis16[( d  e)]  e[( f  g)]  g[( f  e)] } |
-    f8 r r \times 2/3 {  d16[( e  f)]  f[( g  a)]  a[( g  f)] } |
-    g8 r r \times 2/3 {  cis,,16[( d  e)]  e[( f  g)]  g[( f  e)] } |
+    r8 \tuplet 3/2 { bes16( a  g) } a8 ~ \tuplet 3/2 { a16( g  f) } g f g f |
+    g8 r r \tuplet 3/2 {  cis16[( d  e)]  e[( f  g)]  g[( f  e)] } |
+    f8 r r \tuplet 3/2 {  d16[( e  f)]  f[( g  a)]  a[( g  f)] } |
+    g8 r r \tuplet 3/2 {  cis,,16[( d  e)]  e[( f  g)]  g[( f  e)] } |
     d-. f( e  f) g-. f( e  f) bes8-. g-. |
     a16-. f( e  f) d-. f( e  f) a8-. f-. |
     g16-. bes( a  bes) g-. bes( a  bes) g8-. e-. |
     f a d f \appoggiatura a gis8.\trill fis32 gis |
     a8 e f d a cis |
     d16 a bes g a f g e f d e cis |
-    %21
     d4 r2 |
     R2. |
     R |
@@ -46,7 +42,6 @@ soloViolinCD =  \relative c' {
     a f g e f a g bes a8 bes |
     c d16 e f e f e f8 f ~ |
     f\trill e r2 |
-    %41
     <a, g'>8 q q q q q |
     <a f'>8 q q q q q |
     <b gis'>8 q q q q q |
@@ -58,7 +53,6 @@ soloViolinCD =  \relative c' {
     R2. |
     R |
     R |
-    %52
     r8 e'16 d e8 c' gis a |
     r8 d,16 c d8 b' ~ b16 a gis a |
     b a gis fis e d f8 ~ f e ~ |
@@ -71,10 +65,9 @@ soloViolinCD =  \relative c' {
     e d e f g8(  f) bes(  a) |
     cis,(  d) g16 e f8 r4 |
     r8 fis16 g a8(  g) c(  b) |
-    dis,(  e) a16 fis \times 2/3 { gis[( a  b)]  b,[( c  d)]  d[( c  b)]}|
-    c8 r r \times 2/3 {  a'16[( b  c)]  c,,[( d  e)]  e[( d  c)] } |
-    d8 r r \times 2/3 {  gis'16[( a  b)]  b,,[( c  d)]  d[( c  b)] } |
-    %65
+    dis,(  e) a16 fis \tuplet 3/2 { gis[( a  b)]  b,[( c  d)]  d[( c  b)]}|
+    c8 r r \tuplet 3/2 {  a'16[( b  c)]  c,,[( d  e)]  e[( d  c)] } |
+    d8 r r \tuplet 3/2 {  gis'16[( a  b)]  b,,[( c  d)]  d[( c  b)] } |
     a16-. c'( b  c) d-. c( b  c) f8-. d-. |
     e16-. c( b  c) a-. c( b  c) e8-. c-. |
     d16-. f( e  f) d-. f( e  f) d8-. b-. |
@@ -94,7 +87,6 @@ soloViolinCD =  \relative c' {
     bes8 g' a, c es d16 c |
     d8 es( d  c) bes c16 d |
     es4. c8 a4\trill |
-    %84
     g8  g'16[ fis] g d es c d bes c a |
     bes g a fis g bes a c bes8 c |
     d e16 fis g fis g fis g8 g ~ |
@@ -105,7 +97,6 @@ soloViolinCD =  \relative c' {
     cis,(  d) g16 e fis8 r4 |
     r8 d'16 cis d a bes g a fis d8 |
     r8 d'16 bes c a bes g a fis d8 |
-    %94
     r8 d16 c d8 bes' fis(  g) |
     r c,16 bes! c8 a' ~ a16 g fis g |
     a g fis e d c es8 ~ es d ~ |
@@ -122,7 +113,6 @@ soloViolinCD =  \relative c' {
     d f, bes d g,8 g' ~ g16 e f d |
     e g, c e a,8 a' ~ a16 f g e |
     f4 r2 |
-    %110
     r8 fis( a  c) es(  d) |
     g,2. ~ |
     g8 f b, d as g ~ |
@@ -138,7 +128,6 @@ soloViolinCD =  \relative c' {
     f d e cis d f e g f8 g |
     a b16(  cis) d(  cis) d(  cis) d8 d ~ |
     d\trill cis r2 |
-    %125
     r8 <a fis'> q q q q |
     <g g'> q q q q q |
     <a g'> q q q q q |
@@ -156,11 +145,10 @@ soloViolinCD =  \relative c' {
     gis, a d16 b cis8 r4 |
     r8 a'16 gis a e f d e cis a8 |
     r8 a'16 f g e f d e cis a8 |
-    %142
-    r8 \times 2/3 { bes16( a  g) } a8 ~ \times 2/3 { a16( g  f) } g f g f |
-    g8 r r \times 2/3 {  cis16[( d  e)]  e[( f  g)]  g[( f  e)] } |
-    f8 r r \times 2/3 {  d16[( e  f)]  f[( g  a)]  a[( g  f)] } |
-    g8 r r \times 2/3 {  cis,,16[( d  e)]  e[( f  g)]  g[( f  e)] } |
+    r8 \tuplet 3/2 { bes16( a  g) } a8 ~ \tuplet 3/2 { a16( g  f) } g f g f |
+    g8 r r \tuplet 3/2 {  cis16[( d  e)]  e[( f  g)]  g[( f  e)] } |
+    f8 r r \tuplet 3/2 {  d16[( e  f)]  f[( g  a)]  a[( g  f)] } |
+    g8 r r \tuplet 3/2 {  cis,,16[( d  e)]  e[( f  g)]  g[( f  e)] } |
     d-. f( e  f) g-. f( e  f) bes8-. g-. |
     a16-. f( e  f) d-. f( e  f) a8-. f-. |
     g16-. bes( a  bes) g-. bes( a  bes) g8-. e-. |
@@ -170,4 +158,3 @@ soloViolinCD =  \relative c' {
     d4^\fermata r2 |
     \bar "|."
 }
-

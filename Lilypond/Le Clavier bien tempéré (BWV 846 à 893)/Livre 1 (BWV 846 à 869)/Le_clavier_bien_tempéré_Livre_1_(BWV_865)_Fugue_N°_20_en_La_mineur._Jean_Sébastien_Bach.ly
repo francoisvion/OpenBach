@@ -1,5 +1,4 @@
-\version "2.18.2"
-
+\version "2.24.0"
 \header {
   title = "Fugue 20"
   subtitle = "Le clavier bien tempéré - Livre 1"
@@ -7,9 +6,7 @@
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
 \score {
-
  \context PianoStaff
  <<
  \context Staff = "up" {
@@ -101,7 +98,6 @@
  d'8\rest \stemDown cis''16 d'' e'8\rest e'16\rest gis' a'2 } >>
  \bar "|."
 }
-
  \context Staff = "down" {
  \clef bass
  \key a \minor
@@ -170,17 +166,11 @@
  \bar "|."
 }
 >>
-
  \layout {
    \context {
    }
  }
-
- 
   \midi {
     \tempo 4 = 76
     }
-
-
-
 }

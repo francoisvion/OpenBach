@@ -5,9 +5,7 @@
     \null\null\null\null
   }
 }
-
 middleGrey = #(x11-color 'grey45)
-
 #(define-markup-command (indexSection layout props title bwv)
   (string? string?)
   "Format a section title of the index"
@@ -21,7 +19,6 @@ middleGrey = #(x11-color 'grey45)
            }
          }
        } #}))
-
 #(define-markup-command (indexItem layout props title pagelabel)
   (string? symbol?)
   "Format a block of the index"
@@ -38,7 +35,6 @@ middleGrey = #(x11-color 'grey45)
            }
          }
        } #}))
-
 \markup { \indexSection "I" "806" }
 \markup { \indexItem "Prélude" #'SuiteIPrelude }
 \markup { \indexItem "Allemande" #'SuiteIAllemande }
@@ -53,7 +49,6 @@ middleGrey = #(x11-color 'grey45)
 \markup {
   \vspace #1
 }
-
 \markup { \indexSection "II" "807" }
 \markup { \indexItem "Prélude" #'SuiteIIPrelude }
 \markup { \indexItem "Allemande" #'SuiteIIAllemande }
@@ -66,7 +61,6 @@ middleGrey = #(x11-color 'grey45)
 \markup {
   \vspace #1
 }
-
 \markup { \indexSection "III" "808" }
 \markup { \indexItem "Prélude" #'SuiteIIIPrelude }
 \markup { \indexItem "Allemande" #'SuiteIIIAllemande }
@@ -79,13 +73,10 @@ middleGrey = #(x11-color 'grey45)
 \markup {
   \vspace #1
 }
-
 \pageBreak
-
 \markup {
   \vspace #2
 }
-
 \markup { \indexSection "IV" "809" }
 \markup { \indexItem "Prélude" #'SuiteIVPrelude }
 \markup { \indexItem "Allemande" #'SuiteIVAllemande }
@@ -97,7 +88,6 @@ middleGrey = #(x11-color 'grey45)
 \markup {
   \vspace #1
 }
-
 \markup { \indexSection "V" "810" }
 \markup { \indexItem "Prélude" #'SuiteVPrelude }
 \markup { \indexItem "Allemande" #'SuiteVAllemande }
@@ -109,7 +99,6 @@ middleGrey = #(x11-color 'grey45)
 \markup {
   \vspace #1
 }
-
 \markup { \indexSection "VI" "811" }
 \markup { \indexItem "Prélude" #'SuiteVIPrelude }
 \markup { \indexItem "Allemande" #'SuiteVIAllemande }

@@ -1,0 +1,100 @@
+\version "2.24.0"
+\header {
+   title             = "Air"
+   subtitle          = "Tiré de la Suite Orchestrale N°3"
+   composer          = "Jean Sébastien Bach (1685-1750)"
+   opus              = "BWV 1068, Mvmt. 2"
+   tagline = ""
+}
+global =  {
+   \key d \major
+   \time 4/4
+   \repeat volta 2 { \skip 1*5 }
+   \alternative { { \skip 1*1 } { \skip 1*1 } }
+   \repeat volta 2 { \skip 1*12 }
+}
+violinone =  \relative c'' {
+   fis1 ~                                                     |
+   fis8 b16 g \acciaccatura {fis8} e16 d cis d cis4
+   \acciaccatura {b8} a4                                      |
+   a'2 ~ a16 fis c(  b) e( dis) a'(  g)                       |
+   g2~ g16 e b( a) d( cis) g'( fis)                           |
+   fis4. gis16( a) d,8[ d32 e fis16] ~ fis e e(  d)           |
+   cis16[ b b32 cis d16] ~ d8 cis16 b a2                      |
+   cis16[ b b32 cis d16] ~ d8 cis16 b a2                      |
+   cis4 ~  cis16[ d32 cis b cis a16] a'4. c,8                 |
+   b b' ~ b16 a g fis g4 ~  g32[ fis ( e  d) cis!16 b]        |
+   ais b cis8 ~ cis16 d e8 ~ e16 fis g8 ~ g fis               |
+   e16 d cis b  cis[ ( d32  e) d8] b2                         |
+   d4~ d16 fis e d b'4~ b8 a16 gis                            |
+   \acciaccatura{fis8} e16 a a,8 b8. ( cis32  d) cis8. b16 a4 |
+   d4. fis16(  e) e4. g16(  fis)                              |
+   fis4. a16(  g) g2                                          |
+   a,4 ~ a16 cis e g g e fis8 ~ fis ~ fis16 g32 a             |
+   d,4 ~ d16 fis a c b4. d,8                                  |
+   cis!16 e g4 b,8 a e'16 fis32 g ~ g16 fis8 e16              |
+   d32[ cis b8 cis16] d8( cis16)^\trill d d2\fermata          |
+}
+violintwo =  \relative c'' {
+   d1 ~                                                       |
+   d4 b a2 ~                                                  |
+   a8 c16 b c8 a'16 c, b8 r r4                                |
+   b8 e16 d e fis g e a,8 r r4                                |
+   a2 ~ a8 gis16 a b8 gis                                     |
+   a a(  a) gis e2                                            |
+   a8 a(  a) gis e2                                           |
+   a2 ~ a16 b c8 ~ c16 b a g                                  |
+   fis4. dis'8 e2 ~                                           |
+   e ~ e16 d! cis b ais b cis8                                |
+   b b b ais fis2                                             |
+   e4 fis b,8 e16 fis gis a b8 ~                              |
+   b a4 gis8 a2 ~                                             |
+   a8 b16 c b cis d8 ~ d cis16 b cis dis e8 ~                 |
+   e dis16 cis dis e fis8 ~ fis16 dis! e b e,4 ~              |
+   e16 cis! e a cis8 a ~ a cis16 d d,4 ~                      |
+   d8 e fis4 g2 ~                                             |
+   g8 b e4 ~ e16 d cis b a8 b                                 |
+   a4 g16^\trill ( fis  g8) fis2\fermata                      |
+}
+viola =  \relative c'' {
+   a2 b                                                       |
+   b,4 e e2 ~                                                 |
+   e8 dis(  dis) e fis r r4                                   |
+   e8 b(  b) e e r r4                                         |
+   d4. e8 fis d b e~                                          |
+   e8 fis b, e cis2                                           |
+   e8 fis b, e cis2                                           |
+   e2 ~ e8 dis16 e fis4 ~                                     |
+   fis16 g a fis dis8 b' b4 b,                                |
+   cis16 ( d! e  fis) g ( fis g  e) fis8 e16 d cis8 fis       |
+   fis e16 d g8 fis16 e d2                                    |
+   b8 b' a16 gis a8 gis!8. fis16 e4 ~                         |
+   e8 e fis e e8. d16 cis d e cis                             |
+   a8 d4 b8 ~ b e4 cis8 ~                                     |
+   cis fis4 dis8 b4 ~ b16 b' g e                              |
+   a8 g fis e d4 a' ~                                         |
+   a8 g a4 d,2                                                |
+   e16 ( b e  g) b ( a g  fis) e8 a ~ a g                     |
+   fis4 e8 a, a2\fermata                                      |
+}
+continuo =  \relative c {
+   d8 d' cis cis, b b' a a,                                   |
+   g g' gis gis, a a' g g,                                    |
+   fis fis' e e, dis dis' b b'                                |
+   e,, e' d! d,! cis cis' a a'                                |
+   d, d' cis cis, b b' gis e                                  |
+   a d, e e, a16( b cis d e g! fis  e)                        |
+   a8 d, e e, a2                                              |
+   a8 a' g g, fis fis' e e,                                   |
+   dis dis' fis b, e e' d! d,                                 |
+   cis cis' b b, ais b cis ais                                |
+   b g' e fis b, b' a! a,!                                    |
+   gis gis' fis fis, e e' d d,                                |
+   cis cis' d e a, a' g! g,!                                  |
+   fis fis' g g, gis gis' a a,                                |
+   ais ais' b b, e e' d! d,!                                  |
+   cis cis' a cis d d, c c'                                   |
+   b b, a a' g g, fis fis'                                    |
+   e e, d d' cis a d g                                        |
+   a g a a, d,2\fermata                                       |
+}

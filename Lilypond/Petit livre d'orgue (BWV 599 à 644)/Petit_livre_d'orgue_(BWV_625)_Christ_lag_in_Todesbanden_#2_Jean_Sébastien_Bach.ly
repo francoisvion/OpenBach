@@ -1,22 +1,13 @@
-\version "2.24.4"
+\version "2.27.0"
 
-\include "italiano.ly"
+\language "italiano"
 
- \paper {
-print-page-number = ##f
-system-count = 3
-between-system-padding = 4\mm
-between-system-space = 20\mm
-indent = 2\cm
-head-separation = 0\mm
-foot-separation = 4\mm
-page-top-space = 0\mm
-bottom-margin = 6\mm
-top-margin = 1\mm
-foot-separation = -8\mm
-tagline = ##f
-ragged-bottom = ##f
-ragged-last-bottom = ##f
+#(set-global-staff-size 18)
+
+\paper {
+  #(set-paper-size "a4landscape")
+   ragged-bottom = ##f
+   ragged-last-bottom = ##t
 }
 
 \header{
@@ -28,10 +19,6 @@ ragged-last-bottom = ##f
   tagline = ##f
 }
 
-
-#(set-default-paper-size "a4" 'landscape)
-#(set-global-staff-size 18)
-
 global = {
 \override Stem  #'french-beaming = ##t
 \key la \minor
@@ -40,7 +27,6 @@ global = {
 
 halsup = {\stemUp \tieUp}
 halsdown = {  \stemDown  \tieDown }
-
 staffup = {   \change Staff = "dessus" \halsdown }
 staffdown = {   \change Staff = "basse" \halsup }
 
@@ -75,7 +61,7 @@ do^"4-5" si^"1"^"4--5" la^"1"^"4-5" \fermata la4-1-5
   \alternative {    {
 \once \override Fingering #'extra-offset = #'( -0.5 . -4 )
  re4-4 \fermata    }
-    { \set Score.measurePosition = #(ly:make-moment 2 4 )
+    { \set Score.measurePosition = \musicLength 4*2
 \once \override Fingering #'extra-offset = #'( -0.5 . -4 )
  re2-4 \fermata }}
 \bar "||"
@@ -96,7 +82,7 @@ do^"4-5" si^"1"^"4--5" la^"1"^"4-5" \fermata la4-1-5
   la'4-1-5 sol-3 fa-2 mi-1
 |%12
  \partial 2. \ofp re2.-4 \fermata
-\bar "|."
+\fine
 }
 
 alto = \relative do' {
@@ -119,7 +105,7 @@ sib8 sol-1   la16-2 sib-3 sol-1 la }
  \alternative {
    {  \staffdown fa4 \staffup }
 {
-\set Score.measurePosition = #(ly:make-moment 2 4 )
+\set Score.measurePosition = \musicLength 4*2
 \staffdown
   fa16 la sol sib!   la4 \fermata
  }}
@@ -138,7 +124,7 @@ sib8 sol-1   la16-2 sib-3 sol-1 la }
 |%11
   re4 ~  re8 do16\rest \staffdown \oom sol16_"3"  \oom do8_"1" si16\rest fa16_"3"   sib8 la16 sol16_"2"
 %12
-  \partial 2. fad8 \staffup sib!8-2 la16-1 sib16-2 sol16-1 sib16-2  la4-1 \fermata
+  \partial 2. fad8 \staffup sib!8-2 la16-1 sib16-2 sol16-1 sib16-2  la4-1 \fermata \fine
 }
 
 tenor = \relative do' {
@@ -160,7 +146,7 @@ tenor = \relative do' {
 \alternative {
 {re4-1-3 }
 {
-\set Score.measurePosition = #(ly:make-moment 2 4 )
+\set Score.measurePosition = \musicLength 4*2
  re8_"1-3"_"3-5" mi_"2"_"4--5" fa4-2-4
 }}
 %5
@@ -181,7 +167,7 @@ fa4-5 ~   fa16 \ofm fa-4
 \tieDown \ofm
 mi8-5 ~    mi16 \ofm mi-4 \ofm re8-5 ~   re16-1 \ofmm re-4 dod8-1-5
 %12
-re16-3-5 la'-1 sol-2 la-1    fad-3 sol-2 mi-4 sol    fad4-3 \fermata
+re16-3-5 la'-1 sol-2 la-1    fad-3 sol-2 mi-4 sol    fad4-3 \fermata \fine
 }
 
 os = {\once \override Script #'extra-offset = #'( 0 . 1 )}
@@ -203,7 +189,7 @@ pedale = \relative do {
 }
 \alternative {{ re,4_\a}
 {
-\set Score.measurePosition = #(ly:make-moment 2 4 )
+\set Score.measurePosition = \musicLength 4*2
 re2_\a
 }}
   re'4_\a  ~ re16 mi^\a \osm do!_\a re^\a   sib!_\a \os do^\a la_\a sib^\a  sol4_\a
@@ -219,7 +205,7 @@ re2_\a
   la8_\a [sib^\a] sol_\a [la^\a]  re,4_\a re'^\a ~
 %11
   re16 mi^\q \osm do_\a re^\a    sib8_\a do^\a    la_\a [ sib^\a] sol_\a [la^\a]
-  \once \override Script #'padding = # 1 re,2._\a \fermata
+  \once \override Script #'padding = # 1 re,2._\a \fermata \fine
 }
 
 
@@ -274,5 +260,5 @@ re2_\a
          \transpose do do, \pedale
       }
   >>
-   \midi{ tempoWholesPerMinute = #(ly:make-moment 40 4) }
+   \midi{ tempoWholesPerMinute = #40/4 }
 }

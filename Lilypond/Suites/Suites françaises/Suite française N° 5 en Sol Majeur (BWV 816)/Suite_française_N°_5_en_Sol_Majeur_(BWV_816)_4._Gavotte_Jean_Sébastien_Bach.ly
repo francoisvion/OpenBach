@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title = "4. Gavotte"
   subtitle = "Suite française N° 5"
@@ -7,23 +6,19 @@
   opus = "BWV 816"
  tagline = ##f
  }
-
 Global =  {
   \override Staff.TimeSignature.style = #'C
   \time 2/2
   \key g \major
   \partial 2
 }
-
 StaffDown = {
   \change Staff = Lower
 }
-
 StaffUp = {
   \change Staff = Upper
 }
-
-VoiceI =  \relative c''' { \voiceOne 
+VoiceI =  \relative c''' { \voiceOne
   \repeat volta 2 {
     b4 g
     d e8 fis g4 e
@@ -44,19 +39,18 @@ VoiceI =  \relative c''' { \voiceOne
     a b a g fis g a b
     c a b4 e, fis8 dis
     e2 b4 e
-    g2 c,8 b a g 
+    g2 c,8 b a g
     f' d e4 fis,!8 g a b
     c a b c d c d e
     a,2 c'4 a
     fis fis8 g a4 fis
-    d d8 e fis g a fis 
+    d d8 e fis g a fis
     g e a4 fis4.\prall g8
     g2
   }
 }
-
 VoiceII =  \relative c'' { \voiceTwo
-  \repeat volta 2 { 
+  \repeat volta 2 {
     d4 b
     a2 b4 g
     fis2 g4 a
@@ -78,7 +72,7 @@ VoiceII =  \relative c'' { \voiceTwo
     \StaffDown
     b b8 cis d4 b
     \StaffUp
-    \set PianoStaff.followVoice = ##f    
+    \set PianoStaff.followVoice = ##f
     s2 g'4 a
     g2 g4 b
     d2 s2
@@ -90,7 +84,6 @@ VoiceII =  \relative c'' { \voiceTwo
     b2
   }
 }
-
 VoiceIII =  \relative c' {
   \repeat volta 2 {
     g4 g'
@@ -117,12 +110,11 @@ VoiceIII =  \relative c' {
     d c b a g a b c
     d a fis a d, e fis g
     a b a g fis g a b
-    c d c b a b c d 
+    c d c b a b c d
     e4 c d d,
     g2
   }
 }
-
 Extra =  \relative c' {
   \stemDown
   \repeat volta 2 {
@@ -138,7 +130,6 @@ Extra =  \relative c' {
     s2
   }
 }
-
 \score {
   \context PianoStaff <<
     \set PianoStaff.followVoice = ##t

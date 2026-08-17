@@ -1,14 +1,11 @@
 \version "2.24.4"
-
 \header {
   title = "Fugue N° 6"
   opus = "BWV 851"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
 \score {
-
  \context GrandStaff
  <<
  \context Staff = "up" {
@@ -41,7 +38,6 @@
  e'8\rest <a' c''>8[ <g' bes'> <fis' a'> <e' g'> <g' bes'>] <fis' a'>2. } >>
  \bar "|."
 }
-
  \context Staff = "down" {
  \clef bass
  \key d \minor

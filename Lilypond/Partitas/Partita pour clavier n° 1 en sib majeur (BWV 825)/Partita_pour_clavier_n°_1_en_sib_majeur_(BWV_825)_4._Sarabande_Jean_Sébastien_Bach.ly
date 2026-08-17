@@ -1,4 +1,4 @@
-\version "2.7.40"
+\version "2.24.0"
 % The fourth movement of the first Partita of J. S. Bach, set for Mutopia
 % by Carl Bolstad on 10/15/2004.
 
@@ -52,7 +52,7 @@ g
 \stemNeutral
 
 d32 c bes16 c32 bes a16 |
-bes16 \times 2/3 {a32 g fis} g16 a bes g32 a bes c d16
+bes16 \tuplet 3/2 {a32 g fis} g16 a bes g32 a bes c d16
      d e32 f g f e f |
 g c, bes a bes16 g' << { \stemDown <c, bes g>8 } \\ { \stemUp g'8[~ g32 f e d] } >>
      \stemNeutral c16 bes bes \prall a |
@@ -62,8 +62,8 @@ a c,32 e f16 a a f32 g a16 c c a32 bes c16 f |
 % TopVoice measure 10
 %************************************
 f a32 g f e d16 c f32 e d c bes16 a c32 bes a g f16 |
-d'32 c bes a bes16 g f \times 2/3 { g32 f e } f32 d bes'16 e,8. \prall f16 |
-f4 <c f>2 \bar ":|:"
+d'32 c bes a bes16 g f \tuplet 3/2 { g32 f e } f32 d bes'16 e,8. \prall f16 |
+f4 <c f>2 \bar ":..:"
 << { c'8. c16 c8~ c32 d c bes }
    \\
    { <f a>4 <f a>8 s8 }
@@ -96,7 +96,7 @@ c'32 bes a bes a g a64 g f32 |
 >>
 bes32 f bes c d es f g |
 aes g f es d es f16 b, d f aes 
-  \once \override Script #'extra-offset = #'(0 . 0.5) g8~ \prall g32 f es d |
+  \once \override Script.extra-offset = #'(0 . 0.5) g8~ \prall g32 f es d |
 es d c bes aes bes c16 f, aes c es d8. \prall c32 b |
 c16 es, es32 \prall d es16 a fis fis32 \prall e fis16 es' b b32 \prall a b16 |
 
@@ -109,7 +109,7 @@ c16 es, es32 \prall d es16 a fis fis32 \prall e fis16 es' b b32 \prall a b16 |
    { s4 <c, es g>8 s8 }
 >>
 c'32 d c bes c16 d |
- \once \override Script #'extra-offset = #'(0 . 1) % This is to move \upprall up a little.
+ \once \override Script.extra-offset = #'(0 . 1) % This is to move \upprall up a little.
 es2.~ \upprall |
 es2.~
 es16 d32 c d16 bes'~ bes a32 g a16 c,~ c bes32 a bes16 g' |
@@ -121,7 +121,7 @@ bes,8 a32 \prall g a c f,2~ |
 f16 bes,32 c d16 f f d32 es f16 aes aes4~ |
 aes16 g32 aes bes16 des des bes32 c des16 g g bes, a bes~ |
 bes32 d, es f g a bes c d16 es32 d c d es c bes16 g a \mordent bes |
-bes4 <d, f bes>2 \bar ":|"
+bes4 <d, f bes>2 \bar ":|."
 
 }
 
@@ -136,7 +136,7 @@ bes4 <d, f bes>2 \bar ":|"
 %************************************
 %************************************
 %************************************
-BottomVoice =  \relative {
+BottomVoice =  \relative c' {
 <<
   {
    d4 bes r |
@@ -220,7 +220,7 @@ f,4~ f8~ f32 g32 f es es8. \downprall d16 |
 %************************************
 d4 d,8. d'16 c8. \upprall bes16 |
 es4 
-  \once \override Script #'extra-offset = #'(0.2 . 1)
+  \once \override Script.extra-offset = #'(0.2 . 1)
   e4.. \upprall d32 e |
 f4 es f |
 << { r8 r16 d32 f bes2 } \\ { bes,2. } >>
@@ -268,5 +268,10 @@ f4 es f |
   >>
   \layout { }
   \header { piece = "4. Sarabande" }
-  \midi { \tempo 4 = 107 }
+  
+  \midi {
+    \tempo 4 = 107
+    }
+
+
 }

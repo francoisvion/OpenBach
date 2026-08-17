@@ -1,52 +1,49 @@
 \version "2.24.4"
-
 \header {
   title = "Invention 5"
   opus = "BWV 776"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ""
 }
-
 voiceone =  \relative c' {
   \set Staff.midiInstrument = "harpsichord"
   \key ees \major
   \time 4/4
-
-  r8  ees16[ d]  ees8[\mordent f] g4\mordent aes |                 % bar 1
-  r8  f16[ ees]  f8[\mordent g] aes4\mordent bes |                 % bar 2
-  g8[ c bes\prall aes]  g16[ aes bes aes]  g8[ f] |                % bar 3
-  ees[ g bes ees] ~  ees16[ c d ees]  f8[ ees] |                   % bar 4
-  d16[ ees d\prall c]  d[ ees c d]  bes[ bes' a bes]  g[ a f g] |  % bar 5
-  ees[ g f g]  ees[ f d ees]  c[ bes' a g]  a[ bes g a] |          % bar 6
-  bes,[ bes' a g]  a[ bes g a]  f[ bes aes g]  f[ g ees f] |       % bar 7
-  d[ g f ees]  d[ ees c d]  f,[ ees' d c]  d[ ees c d] |           % bar 8
-  ees8[ bes16 aes]  bes8[\mordent c] des4\mordent ees |            % bar 9
-  r8  c16[ bes]  c8[\mordent d!] ees4\mordent f |                  % bar 10
-  r8  d16[ c]  d8[\mordent ees] f4\mordent g |                     % bar 11
+  r8  ees16[ d]  ees8[\mordent f] g4\mordent aes |
+  r8  f16[ ees]  f8[\mordent g] aes4\mordent bes |
+  g8[ c bes\prall aes]  g16[ aes bes aes]  g8[ f] |
+  ees[ g bes ees] ~  ees16[ c d ees]  f8[ ees] |
+  d16[ ees d\prall c]  d[ ees c d]  bes[ bes' a bes]  g[ a f g] |
+  ees[ g f g]  ees[ f d ees]  c[ bes' a g]  a[ bes g a] |
+  bes,[ bes' a g]  a[ bes g a]  f[ bes aes g]  f[ g ees f] |
+  d[ g f ees]  d[ ees c d]  f,[ ees' d c]  d[ ees c d] |
+  ees8[ bes16 aes]  bes8[\mordent c] des4\mordent ees |
+  r8  c16[ bes]  c8[\mordent d!] ees4\mordent f |
+  r8  d16[ c]  d8[\mordent ees] f4\mordent g |
   ees16[ f ees\prall d]  ees[ f d ees]
-  c[ c' bes c]  aes[ bes g aes] |                                  % bar 12
-  f[ aes g aes]  f[ g ees f]  d[ c' b a]  b[ c a b] |              % bar 13
-  c,[ c' bes! aes!]  bes[ c aes bes]  g[ c bes aes]  g[ aes f g] | % bar 14
-  e[ aes g f]  e[ f d e]  g,[ f' e d]  e[ f d e] |                 % bar 15
-  f8[ f,16 e]  f8[\mordent g] aes4\mordent bes |                   % bar 16
-  r8  g16[ f]  g8[\mordent aes] bes4\mordent c |                   % bar 17
-  aes8[ des c\prall bes]  a16[ bes c bes]  a8[ g] |                % bar 18
-  f[ a c ees] ~  ees16[ c des ees]  f8[ ees] |                     % bar 19
+  c[ c' bes c]  aes[ bes g aes] |
+  f[ aes g aes]  f[ g ees f]  d[ c' b a]  b[ c a b] |
+  c,[ c' bes! aes!]  bes[ c aes bes]  g[ c bes aes]  g[ aes f g] |
+  e[ aes g f]  e[ f d e]  g,[ f' e d]  e[ f d e] |
+  f8[ f,16 e]  f8[\mordent g] aes4\mordent bes |
+  r8  g16[ f]  g8[\mordent aes] bes4\mordent c |
+  aes8[ des c\prall bes]  a16[ bes c bes]  a8[ g] |
+  f[ a c ees] ~  ees16[ c des ees]  f8[ ees] |
   des16[ ees des\prall c]  des[ ees c des]
-  bes[ aes' g f]  g[ aes f g] |                                    % bar 20
-  aes[ des, c bes]  c[ des bes c]  aes[ g' f e]  f[ g e f] |       % bar 21
-  g[ c, bes aes]  bes[ c aes bes]  g[ f' e d]  e[ f d e] |         % bar 22
-  f8[ aes,16 g]  aes8[\mordent bes] c4\mordent des |               % bar 23
-  r8  bes16[ aes]  bes8[\mordent c] des4\mordent ees |             % bar 24
+  bes[ aes' g f]  g[ aes f g] |
+  aes[ des, c bes]  c[ des bes c]  aes[ g' f e]  f[ g e f] |
+  g[ c, bes aes]  bes[ c aes bes]  g[ f' e d]  e[ f d e] |
+  f8[ aes,16 g]  aes8[\mordent bes] c4\mordent des |
+  r8  bes16[ aes]  bes8[\mordent c] des4\mordent ees |
   c16[ aes' g aes]  f[ g ees f]
-  des[ bes' aes bes]  c,[ des bes c] |                             % bar 25
-  aes[ c bes c]  aes[ bes g aes]  f[ ees' d c]  d[ ees c d] |      % bar 26
-  ees8[ ees,16 d]  ees8[\mordent f] g4\mordent aes |               % bar 27
-  r8  f16[ ees]  f8[\mordent g] aes4\mordent bes |                 % bar 28
+  des[ bes' aes bes]  c,[ des bes c] |
+  aes[ c bes c]  aes[ bes g aes]  f[ ees' d c]  d[ ees c d] |
+  ees8[ ees,16 d]  ees8[\mordent f] g4\mordent aes |
+  r8  f16[ ees]  f8[\mordent g] aes4\mordent bes |
   \stemDown  g8[ c bes\prall aes] \stemNeutral
-  g16[ aes bes aes]  g8[ f] |                                      % bar 29
-  ees[ f' ees\prall des]  c16[ des ees des]  c8[ bes] |            % bar 30
-  aes[ c ees aes] ~  aes16[ f g aes]  bes8[ aes] |                 % bar 31
+  g16[ aes bes aes]  g8[ f] |
+  ees[ f' ees\prall des]  c16[ des ees des]  c8[ bes] |
+  aes[ c ees aes] ~  aes16[ f g aes]  bes8[ aes] |
   \grace {
      \override Stem   #'stroke-style = #"grace"
      \override Stem   #'stroke-style = #'()
@@ -56,11 +53,9 @@ voiceone =  \relative c' {
      \revert Stem #'stroke-style
      \revert Stem #'stroke-style
   }
-
   g8.[ \times 2/3 { f32 ees f] }
-  f4\downmordent ees2\fermata\bar "|."                             % bar 32
+  f4\downmordent ees2\fermata\bar "|."
 }
-
 voicetwo =  \relative c {
   \set Staff.midiInstrument = "harpsichord"
   \key ees \major
@@ -99,7 +94,6 @@ voicetwo =  \relative c {
   c[ f ees des]  c[ des bes c]  f,[ ees' d c]  d[ ees c d] |
   ees8[ g, aes bes] ees,2\fermata \bar "|."
 }
-
 \score {
    \context GrandStaff <<
     \context Staff = "one" <<
@@ -109,9 +103,7 @@ voicetwo =  \relative c {
       \voicetwo
     >>
   >>
-
   \layout{ }
-  
   \midi {
     \context {
       \Score

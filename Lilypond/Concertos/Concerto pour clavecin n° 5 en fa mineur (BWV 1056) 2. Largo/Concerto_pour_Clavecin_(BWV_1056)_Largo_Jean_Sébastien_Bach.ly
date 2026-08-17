@@ -1,7 +1,5 @@
 \version "2.24.4"
-
 #(ly:set-option 'relative-includes #t)
-
 \paper {
   #(set-paper-size "a4")
   annotate-spacing = ##f
@@ -9,20 +7,15 @@
   bottom-margin = 5\mm
   first-page-number = 0
   indent = 0.0
-  %inner-margin = 10\mm
-% last-bottom-spacing.padding = #2
-  %left-margin = 10\mm
   line-width = 19\cm
   markup-system-spacing =
      #'((basic-distance . 2)
         (minimum-distance . 1)
         (padding . 2)
         (stretchability . 24))
-  %outer-margin = 20\mm
   print-all-headers = ##t
   ragged-last-bottom = ##f
   ragged-bottom = ##f
-  %right-margin = 10\mm
   score-markup-spacing =
      #'((basic-distance . 10)
         (minimum-distance . 8)
@@ -37,12 +30,10 @@
   top-markup-spacing.basic-distance = 0
   top-system-spacing.basic-distance = 1
 }
-
 Global = {
   \key aes \major
   \time 4/4
 }
-
 Soprano = \context Voice = "one" \relative c'' {
   \voiceOne
   \stemDown\tieUp
@@ -50,7 +41,6 @@ Soprano = \context Voice = "one" \relative c'' {
   \override Rest.staff-position = #0
   \omit TupletBracket
   \set beamMinimumSubdivision = #1/8
-  %1
   | \tempo "Largo" 8 = 54
   | \once\override Staff.TextScript.extra-offset = #'(-1.5 . -1)
     \once\override Tie.staff-position = #2.8
@@ -66,7 +56,6 @@ Soprano = \context Voice = "one" \relative c'' {
     \set subdivideBeams = ##t
     g32 f ees d c16 bes
     \set subdivideBeams = ##f
-  %5
   | aes8_~ aes32 bes aes g aes16 c ees g f4~
     \set subdivideBeams = ##t
     f32 ees d! ees f d bes aes
@@ -95,7 +84,6 @@ Soprano = \context Voice = "one" \relative c'' {
     f32[\prall^\markup { \tiny\flat } ees f16 \once\override Tie.staff-position = #10.5 des'~ des64 c bes a!]
     \set subdivideBeams = ##f
     a16[ bes8 f16]
-  %10
   | \set subdivideBeams = ##t
     f32 d \once\override Tie.staff-position = #5 ees16~ ees32 f ges64 f ees32
     \set subdivideBeams = ##f
@@ -118,7 +106,6 @@ Soprano = \context Voice = "one" \relative c'' {
     bes'8~\! bes32 c, des ees des c bes16
     \set subdivideBeams = ##f
     c ees aes f ees des g aes
-  %15
   | c,8\prall bes g,4\rest c'~
     \set subdivideBeams = ##t
     c32 bes des c ees des f16
@@ -145,7 +132,6 @@ Soprano = \context Voice = "one" \relative c'' {
     ees f32 g aes f c16
     des16. c32 bes[ c des16]
     \set subdivideBeams = ##f
-  %20
   | aes32 g16 aes64 bes bes32_\prall aes bes16
     \set subdivideBeams = ##t
     \set beamMinimumSubdivision = #1/16
@@ -163,19 +149,16 @@ Soprano = \context Voice = "one" \relative c'' {
   | c1\fermata^\markup { \hspace #-1 "Grave" }
     \fine
 }
-
 Alto = \context Voice = "two" \relative c'' {
   \voiceTwo
   \stemUp
   \override Rest.staff-position = #0
   \include "./smallnotes.ly"
   \magnifyMusic #0.8 {
-  %1
   | a'8\rest <ees, aes c>[ <aes c ees>] b'\rest b\rest <ees,, g bes>^.[ <g bes ees>^.] b'\rest
   | b\rest <aes, c>[ <f aes>] b'\rest b\rest <bes, des>[ <g' bes>] b\rest
   | b\rest <c, ees>[ <c ees aes>] b'\rest e\rest <c, f aes>[ <f aes c>] d'\rest
   | b\rest <d, f>[ <d f bes>] c'\rest d\rest <bes, ees g>[ <ees g bes>] a\rest
-  %5
   | a\rest <c, ees>[ <c ees aes>] b'\rest c\rest <bes, d f>[ <d f aes>] c'\rest
   | a\rest <bes, aes'>[ <bes g'> <ees, bes'>]
     \once\override NoteColumn.force-hshift = #-1.2 <ees aes c>[ <c' ees>
@@ -190,7 +173,6 @@ Alto = \context Voice = "two" \relative c'' {
     \stemUp \once\override Voice.Rest.X-offset = #1 e\rest
     \once\override Beam.positions = #'(7.0 . 7.2)
     <bes, f'>16[ \once\override NoteColumn.force-hshift = #0.4 c <des f>8] d'\rest
-  %10
   | d\rest <ees,, bes'>[ \once\override NoteColumn.force-hshift = #-1.2 <c' ees a!>] a''\rest
     c,\rest \once\override NoteColumn.force-hshift = #0.3
     <des, ges!>[ \once\override NoteColumn.force-hshift = #-1.2 <c f a!>] d'\rest
@@ -206,7 +188,6 @@ Alto = \context Voice = "two" \relative c'' {
     a'\rest a\rest \once\override NoteColumn.force-hshift = #-1.1 <aes, c ees>[
     \once\override NoteColumn.force-hshift = #-1.1 <c aes'>
     \once\override NoteColumn.force-hshift = #-1.3 <c f>16 bes]
-  %15
   | d'8\rest <f,, aes d>[ <ees g bes ees> <bes ees>] a''\rest <ees, aes c>[ <aes c ees>] b'\rest
   | c\rest <ees,, g bes>[ <g ees'>] b'\rest b\rest <aes, c>[ <f aes>] b'\rest
   | b\rest <bes, des>[ <g' bes>] b\rest b\rest <ees, aes>[
@@ -224,7 +205,6 @@ Alto = \context Voice = "two" \relative c'' {
     \once\override NoteColumn.force-hshift = #-1.1
     <aes, c>[ <f aes>16 ees
     \once\override NoteColumn.force-hshift = #-1.3 <des aes'>8]
-  %20
   | a''8\rest \once\override NoteColumn.force-hshift = #-1.1 <des,, g>[
     \once\override NoteColumn.force-hshift = #-1.1 <c g'>] a''\rest g\rest
     <aes, c>[ <f f'> \once\override NoteColumn.force-hshift = #0.3 f]
@@ -235,15 +215,12 @@ Alto = \context Voice = "two" \relative c'' {
     <g c e>2^\fermata
   }
 }
-
 Tenor = \context Voice = "three" \relative c {
   \voiceThree
   \stemUp\tieUp
   \override Rest.staff-position = #0
   \include "./smallnotes.ly"
-  %1
   | s1*20
-  %21
   \magnifyMusic #0.8 {
   | \stemDown f8\rest \clef treble
     \once\override Hairpin.Y-offset = #4
@@ -255,64 +232,53 @@ Tenor = \context Voice = "three" \relative c {
     <g c e>2^\fermata^\markup { \normalsize \dynamic pp }
   }
 }
-
 Bass = \context Voice = "four" \relative c {
   \voiceFour
   \stemNeutral\tieNeutral\slurNeutral
   \override MultiMeasureRest.staff-position = #0
   \override Rest.staff-position = #0
-  %1
   | r8 <aes aes'>_\p <aes, aes'> <aes' aes'>_. r8 <g g'> <g, g'> <g' g'>_.
   | r8 <f f'> <f, f'> <f' f'>_. r8 <ees ees'> <ees, ees'> <ees' ees'>_.
   | r8 <aes aes'> <aes, aes'> <aes' aes'>_. r8 <f f'> <f, f'> <f' f'>_.
   | r8 <d d'> <d, d'> <d' d'>_. r8 <ees ees'> <ees, ees'> <ees' ees'>_.
-  %5
   | r8 <c c'> <c, c'> <c' c'>_. r8 <d d'> <d, d'> <d' d'>_.
   | r8 <ees ees'> <ees, ees'> <g' g'> <aes aes'> <f f'> <bes bes'> <bes, bes'>
   | r8 <ees ees'> <ees, ees'> <des'! des'!>_- r8 <c c'> <c, c'> <ees' ees'>_.
   | r8 <f f'> <f, f'> <ges' ges'>_. r8 <a a'> <a, a'> <f' f'>
   | \stemDown r8 bes <bes, bes'> <bes' bes'> \stemNeutral r8 <aes aes'> <aes, aes'> <aes' aes'>
-  %10
   | r8 <ges ges'> <ges, ges'> <ges' ges'> <f f'>[ <ees ees'>] <f f'>[ <f, f'>]
   | r8 <bes' bes'> <bes, bes'> <aes' aes'> r8 <g g'> <g, g'> <ees' ees'>
   | r8 <aes aes'> <aes, aes'> <ges' ges'> r8 <f f'> <f, f'> <aes' aes'>
   | r8 <des, des'> <des, des'> <c' c'> r8 <bes bes'> <bes, bes'> <aes'' aes'>_.
   | r8 <g g'> <g, g'> <ees' ees'> <aes, aes'> <c c'> <f f'> <des des'>
-  %15
   | r8 <ees ees'>_. <ees, ees'> <g' g'> r8 <aes aes'> <aes, aes'> <aes' aes'>
   | r8 <g g'> <g, g'> <g' g'> r8 <f f'> <f, f'> <f' f'>
   | r8 <ees ees'> <ees, ees'> <ees' ees'> r8 <aes aes'> <aes, aes'> <aes' aes'>
   | r8 <des, des'> <d, d'> <d' d'> <ees ees'> <des des'> <ees ees'> <ees, ees'>
   | r8 <aes aes'> <g g'> <g' g'> r8 <f f'> <f, f'> <f' f'>
-  %20
   | r8 <ees ees'> ees\( <ees, ees'> <des des'>2\)
   | <c c'>1\fermata_\markup {
       \hspace #-0.5 \musicglyph #"pedal.Ped"
     }
     \fine
 }
-
 Sustain = {
-  %1
   | s8\sustainOn s s s s\sustainOff s\sustainOn s s
   | s\sustainOff\sustainOn s s s s\sustainOff\sustainOn s s s
   | s\sustainOff\sustainOn s s s s\sustainOff s8-\markup { \hspace #-1"simile" } s4
   | s1*2
-  %6
   | s8 s\sustainOn s\sustainOff\sustainOn s\sustainOff\sustainOn s\sustainOff\sustainOn
     s\sustainOff\sustainOn s\sustainOff\sustainOn s\sustainOff\sustainOn
   | s\sustainOff\sustainOn s s s s\sustainOff\sustainOn s s s
   | s\sustainOff\sustainOn s s s s\sustainOff\sustainOn s\sustainOff\sustainOn
     s\sustainOff\sustainOn s\sustainOff\sustainOn
   | s\sustainOff s\sustainOn s s s\sustainOff s\sustainOn s s
-  %10
   | s\sustainOff s \sustainOn s s s\sustainOff\sustainOn s\sustainOff\sustainOn s\sustainOff\sustainOn s
   | s\sustainOff\sustainOn s s s\sustainOff\sustainOn s s s s
   | s\sustainOff s\sustainOn s s\sustainOff s s s s
   | s s\sustainOn s s\sustainOff s\sustainOn s\sustainOff\sustainOn s\sustainOff\sustainOn s\sustainOff
   | s s\sustainOn s s\sustainOff s\sustainOn
     s\sustainOff\sustainOn s\sustainOff\sustainOn s\sustainOff\sustainOn
-  %15
   | s\sustainOff s s s s\sustainOn s s s\sustainOff
   | s s\sustainOn s s\sustainOff s\sustainOn s s s\sustainOff
   | s\sustainOn s s s\sustainOff s s s\sustainOn s\sustainOff
@@ -320,10 +286,8 @@ Sustain = {
     s\sustainOff\sustainOn s
   | s\sustainOff s\sustainOn s\sustainOff\sustainOn s\sustainOff s s\sustainOn
     s\sustainOff\sustainOn s\sustainOff\sustainOn
-  %20
   | s\sustainOff s\sustainOn s\sustainOff\sustainOn s\sustainOff s s s\sustainOn s\sustainOff
 }
-
 \score {
   <<
     \accidentalStyle Score.piano

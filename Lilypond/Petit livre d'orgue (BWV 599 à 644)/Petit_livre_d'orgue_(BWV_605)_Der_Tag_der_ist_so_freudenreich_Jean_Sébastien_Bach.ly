@@ -1,6 +1,8 @@
 \version "2.24.4"
 
-\include "deutsch.ly"
+\language "deutsch"
+
+\paper {#(set-paper-size "a4landscape")}
 
 \header {
   title = "Der Tag der ist so freudenreich"
@@ -21,7 +23,6 @@ global = {
    #(revert-auto-beam-setting '(end 1 32 4 4) 7 8)
 }
 
-#(set-default-paper-size "a4" 'landscape)
 #(set-global-staff-size 18)
 
 halsdown = { \stemDown \tieDown }

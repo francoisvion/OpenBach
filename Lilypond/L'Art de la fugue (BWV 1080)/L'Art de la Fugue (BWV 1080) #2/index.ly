@@ -1,5 +1,4 @@
 \include "./macros.ly"
-
 \markup \fill-line {
   \center-column \abs-fontsize #18 \smallCaps \bold {
     "Index"
@@ -7,7 +6,6 @@
     \null
   }
 }
-
 #(define-markup-command (indexItem layout props title pagelabel infos)
   (string? symbol? string?)
   "Format a block of the index"
@@ -25,7 +23,6 @@
            \hspace #6 #infos
          }
        } #}))
-
 \markup \column \abs-fontsize #11 {
   \override #'(line-width . 95)
   \line {
@@ -35,7 +32,6 @@
     }
   }
 }
-
 \markup \column \abs-fontsize #11 {
   \pad-around #0.4
   \override #'(line-width . 95)
@@ -46,7 +42,6 @@
     }
   }
 }
-
 \markup \column \abs-fontsize #11 {
   \pad-around #2
   \abs-fontsize #12 \smallCaps \bold { \concat { \char ##x23AF " Contrapuncti" } }
@@ -113,7 +108,6 @@
 \markup { \indexItem "Contrapunctus XIV" #'ContrapunctusXIV
   "four-voice triple fugue (not completed by Bach, but likely to have become a quadruple fugue: see below)"
 }
-
 \markup \column \abs-fontsize #11 {
   \override #'(line-width . 95)
   \line {
@@ -134,12 +128,10 @@
     }
   }
 }
-
 \markup \column \abs-fontsize #11 {
   \pad-around #2
   \abs-fontsize #12 \smallCaps \bold { \concat { \char ##x23AF " Canoni" } }
 }
-
 \markup { \indexItem "Canon in Hypodiapason (Canon alla Ottava)" #'CanonI
   "canon in imitation at the octave"
 }

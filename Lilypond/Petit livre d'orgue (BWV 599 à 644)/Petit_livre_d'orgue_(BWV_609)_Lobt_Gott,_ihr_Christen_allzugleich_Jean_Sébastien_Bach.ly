@@ -1,315 +1,153 @@
-\version "2.24.4"
+\version "2.27.0"
 
-\include "italiano.ly"
+\include "deutsch.ly"
+
+\paper {#(set-paper-size "a4landscape")}
 
 \header {
   title = "Lobt Gott, ihr Christen allzugleich"
   subtitle = "Petit livre d'orgue"
-  composer = "Jean Sébastien Bach (1685-1750)"
   opus = "BWV 609"
+  composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 
-
-\paper {
-between-system-space = 1.0\cm
-top-margin = 0.0\cm
-bottom-margin = 1.0 \cm
-raggedbottom=##f
-raggedlastbottom=##f
-tagline= ##t
-print-page-number = ##f
-}
-
-#(set-default-paper-size "a4" 'landscape)
-#(set-global-staff-size 19)
-
 global = {
-%pour doigtés de changement de doigt type "4--5" :
-\override TextScript #'font-name = #"Emmentaler"
-\key sol \major
-\time 4/4
-\partial 4 }
-
-soprano = \relative do''
-{\clef treble
-\global
-%met doigté à l'extérieur point d'orgue :
-\override Script #'script-priority = #1
-sol4-1
-re'-2-5 re-4-5 re-2-5 re-2-4 |
-%2
-mi-2-5 re8-2-4 do-2-5 si4-4  \fermata la-4 |
-%3
-re8-5 dod-1-4 re4-"5----4" mi-5 mi-5 |
-%4
-re2-"4--5" \fermata  ~re4  re-1-5 |
-%5
-re-1-5 re-2-5 \once \override Fingering #'extra-offset = #'( 0 . 2 ) re-5 si16 do si-1-3  \once \override Fingering #'extra-offset = #'( 0 . 2 ) do-4 |
-%6
-re4-1-5 ~re16 re-3-5 do si-1-3 la4 \fermata re-5 |
-%7
-do-"4-5" si-"4-5" la-2-4 la-1-5 |
-%8
-sol8-1-3 la-2-4 si-5 do-2-4 re4-5 \fermata re-2-5 |
-%9
-do-1-4 si-2-3 la-1-4 la-5 |
-%10
-sol2.-"4-5" \fermata
+   \key g \major
+   \time 4/4
+   #(set-accidental-style 'default)
 }
 
-alto = \relative do''
-{\clef treble
-\global
-\override Fingering #'direction = #UP
-sol16 \once \override Fingering #'extra-offset = #'( 0 . 2 )
-si-3 la sol
-%1
-la8 si do16 fad,-1 sol-2 la-1 sol8 la-1 si16 do si la-1 |
-%2
-sol8 sol8-1 la16 \once \override Fingering #'extra-offset = #'( 0.0 . 1.5 )  sol-1 fad \once \override Fingering #'extra-offset = #'( 0 . 1 ) mi-1 \change Staff = down \stemUp re \change Staff = up \stemDown fad-2 mi-1 \change Staff = down \stemUp  re dod \change Staff = up \stemDown mi-2 re-1 \change Staff = down \stemUp \once \override Fingering #'direction = #DOWN dod-1 |
-%3
-si8 \change Staff = up \stemDown mi \change Staff = down \stemUp re16 mi \change Staff = up \stemDown fad8-1 \change Staff = down \stemUp mi16 fad \change Staff = up \stemDown sol8-1 ~sol16 si-2 la-1 \change Staff = down \stemUp sol |
-%4
-fad16 \override Fingering #'extra-offset = #'( 0 . 1 )
-\change Staff = up \stemDown sol-1 fad-2 mi-1 \change Staff = down \stemUp re \change Staff = up \stemDown mi-1
- \override Fingering #'extra-offset = #'( 0 . 0 )
-fad sol la do-4 si la sol8 fad-2 |
-%5
-sol16 si-3 la sol   fad sol-2 mi fad   \change Staff = down \stemUp re \change Staff = up \stemDown fad-2 sol-1 la-2 si8 fad |
-%6
-sol16 do si la   \change Staff = down \stemUp sol \change Staff = up \stemDown  si la sol \change Staff = down \stemUp fad sol fad mi re8 \change Staff = up \stemDown fad
-\change Staff = down \stemUp
-%7
-mi16 \change Staff = up \stemDown sol-1 fad mi \change Staff = down \stemUp re \change Staff = up \stemDown mi-1 \change Staff = down \stemUp do re \change Staff = up \stemDown mi8 dod-1 re red-2
-%8
-\override Fingering #'extra-offset = #'( 0 . 1 )
-mi16 sol-3 fad mi   \change Staff = down \stemUp re \change Staff = up \stemDown si'-3
-\override Fingering #'extra-offset = #'( 0 . 0 )
-la sol \change Staff = down \stemUp fad \change Staff = up \stemDown re' do si la
-do-4 si-3 la-2
-%9
-sol8 la-2 ~la16 la-1-5 sol-3 fa-2 mi fa re mi \change Staff = down \stemUp \once \override Fingering #'direction = #DOWN do-1 \change Staff = up \stemDown mi re do |
-%10
+#(set-global-staff-size 18)
 
+halsup = {
+  \stemUp
+  \tieUp
 }
 
-
-
-  tenor = \relative do'
-{\clef bass
-\global
-\override Fingering #'direction = #DOWN
-\stemDown \tieDown
-si16-3 re do si
-%1
-la-4 si-2 sol la fad la-3 si-2 do-1 re-2 mi do re si-4 sol la si |
-%2
-do-2 re si do   \once \override Fingering #'extra-offset = #'( 0 . -1 ) la4-4 ~la16-1 la-2 sol  fad-1-4 mi8-2-5  \once \override Fingering #'extra-offset = #'( 0 . -1.8 ) la-3
-%3
-~ la16-2 \once \override Fingering #'extra-offset = #'( 0 . -1 ) sol8-4 sol16-5 la8.-2-4 la16-5 si8.-2-4 si16-4 dod8.-3 dod16-1-5 |
-%4
-re-2-4 si-1 la sol fad-1-4 sol-2 fad mi re-5 fad-3 sol-2 la-1 si-3 do la si |
-%5
-sol-5 re'-1 do si la8 sol la16-1-4 do si la sol mi'-1 re do |
-%6
-si-5 re-4 mi fad sol8-1 r8 r16-2 mi-1-3 re-2-5 do-1-3 si-2-4 do la-5 si-4 |
-%7
-sol8-1-5 la-4 si-1-3 sol-2-5   ~  \once \override Fingering #'extra-offset = #'( -3 . 0 )  sol16-1 si-1 la sol fad sol mi-5 fad |
-%8
-sol-5 [mi'-1 re do] si-2-4
-\clef treble
-\stemUp
-sol'-1 [fad mi] re-2-4 si'-1 la-2 sol-3 fad-4 mi-1 re-2 do-3 |
-%9
-\clef bass
-\stemDown
-si-4 do la-5 si-1 sol4-3 ~sol4. fad!8-4 |
-%10
-\stemUp
-si16 \change Staff = up \stemDown
-\override Fingering #'direction = #UP
-do-1 si-2 la-1 \change Staff = down \stemUp sol \change Staff = up \stemDown si-2 la-1 do-2 si4-1_\fermata
+halsdown = {
+  \stemDown
+  \tieDown
 }
 
-basse = \relative do'
-{\clef bass
-\override Script #'script-priority = #1
-\global
-\partial 4
-s4 s1 s1 s1 s1 s1 s1 s1 s1 s1 |
-%10
-sol16_1_2 mi_4 re_1 do_3 si_1_4 re_2 do_3 mi_1 re4_2 \fermata
+staffup = {
+   \change Staff = "right" \halsdown
 }
 
-
-a = \rtoe
-q = \lheel
-
-pieds = \relative do' {
-\clef bass
-\key sol \major
-\time 4/4
-\partial 4
-sol4^\q
-fad8^\a mi_\a re_\q do_\a si^\a la_\q sol_\a fa!_\q
-%2
-mi_\a mi'^\q fad!^\a re_\a sol4.^\a fad8_\a |
-sol8^\a mi_\a fad^\a re_\a sol^\a mi_\a la^\a la,_\markup{ \musicglyph #"scripts.dpedaltoe"  "_"  }
-^\markup{" " "_"   \musicglyph #"scripts.dpedaltoe"}  |
-%4
-re,4._\a mi8_\q fad^\a re_\a sol^\a la^\q |
-si^\a do_\a re_\q mi^\q fad^\a re_\a sol^\a la^\q |
-%6
-si^\a la_\a si^\a do^\q re4^\a r8 re,,_\a |
-mi_\q
- fad_\a sol_\q si^\a do^\q la_\a re^\a si_\a |
-%8
-mi^\q fad^\a sol^\a la^\q si^\a do^\q re^\a re,_\a |
-mi_\q fad^\a sol^\q si,_\a do^\a la_\a re4^\a |
-%10
-sol,2._\a \fermata
-\bar "|."
+staffdown = {
+   \change Staff = "left" \halsup
 }
 
-\score{
-{\new StaffGroup
-\with{ \remove System_start_delimiter_engraver }
-<<
-\new PianoStaff
-<<
-\new Staff = "up"
-<< \soprano \\ \alto>>
-\new Staff = "down"
-<< \tenor \\ \basse >> >>
- \new Staff
-\pieds >>
+restup = {
+   \once \override MultiMeasureRest #'extra-offset = #'( 0.0 . 1.0 )
 }
 
-\layout {
- indent = 2.0\cm
-}}
-
-midialto = \relative do''
-{\clef treble
-\global
-sol16 si-3 la sol
-%1
-la8 si do16 fad,-1 sol-2 la-1 sol8 la-1 si16 do si la-1 |
-%2
-sol8 sol8-1 la16  sol-1 fad  mi-1 re  fad-2 mi-1   re dod  mi-2 re-1   dod-1 |
-%3
-si8 mi re16 mi  fad8-1  mi16 fad sol8-1 ~sol16 si-2 la-1  sol |
-%4
-fad16  sol-1 fad-2 mi-1  re  mi-1
-fad sol la do-4 si la sol8 fad-2 |
-%5
-sol16 si-3 la sol   fad sol-2 mi fad   re  fad-2 sol-1 la-2 si8 fad |
-%6
-sol16 do si la   sol   si la sol fad sol fad mi re8  fad
-%7
-mi16  sol-1 fad mi  re  mi-1  do re  mi8 dod-1 re red-2
-%8
-mi16 sol-3 fad mi  re  si'-3
-la sol  fad re' do si la
-do-4 si-3 la-2
-%9
-sol8 la-2 ~la16 la-1-5 sol-3 fa-2 mi fa re mi  do mi re do |
-%10
-
+sopran = {
+   \new Voice \relative g' {
+      \global
+      \halsup
+      \partial 4 g4
+      d'4 d d d
+      e4 d8 c h4\fermata a
+      h8 cis d4 e e
+      d2~\fermata d4 d
+      d4 d d h16 c h c
+      d4~ d16 d c h a4\fermata d
+      c4 h a a
+      g8 a h c d4\fermata d
+      c4 h a a
+      g2.\fermata \bar "|."
+   }
 }
 
-
-
-  miditenor = \relative do'
-{\clef bass
-\global
-si16-3 re do si
-%1
-la-4 si-2 sol la fad la-3 si-2 do-1 re-2 mi do re si-4 sol la si |
-%2
-do-2 re si do   la4-4 ~la16-1 la-2 sol  fad-1-4 mi8-2-5  la-3
-%3
-~ la16-2  sol8-4 sol16-5 la8.-2-4 la16-5 si8.-2-4 si16-4 dod8.-3 dod16-1-5 |
-%4
-re-2-4 si-1 la sol fad-1-4 sol-2 fad mi re-5 fad-3 sol-2 la-1 si-3 do la si |
-%5
-sol-5 re'-1 do si la8 sol la16-1-4 do si la sol mi'-1 re do |
-%6
-si-5 re-4 mi fad sol8-1 r8 r16-2 mi-1-3 re-2-5 do-1-3 si-2-4 do la-5 si-4 |
-%7
-sol8-1-5 la-4 si-1-3 sol-2-5   ~    sol16-1 si-1 la sol fad sol mi-5 fad |
-%8
-sol-5 [mi'-1 re do] si-2-4
-\clef treble
-sol'-1 [fad mi] re-2-4 si'-1 la-2 sol-3 fad-4 mi-1 re-2 do-3 |
-%9
-\clef bass
-si-4 do la-5 si-1 sol4-3 ~sol4. fad!8-4 |
-%10
-si16 do-1 si-2 la-1  sol  si-2 la-1 do-2 si4-1_\fermata
+alt = {
+   \new Voice \relative g' {
+      \global
+      \halsdown
+      \partial 4 g16 h a g
+      a8 h c16 fis, g a g8 a h16 c h a
+      g8 g a16 g fis e d fis e d cis e d cis
+      h8 e d16 e fis8 e16 fis g8~ g16 h a g
+      fis16 g fis e d e fis g a c h a g8 fis
+      g16 h a g fis g e fis d fis g a h8 fis
+      g16 c h a g h a g fis g fis e d8 fis
+      e16 g fis e d e c d e8 cis d dis
+      e16 g fis e d h' a g fis d' c h a c h a
+      g8 a~ a16 a g f e f d e c e d c
+      \staffdown h16 c h a g h a c h4\fermata
+   }
 }
 
+tenor = {
+   \new Voice \relative h {
+      \global
+      \halsdown
+      \partial 4 h16 d c h
+      a16 h g a fis a h c d e c d h g a h
+      c16 d h c a4~ a16 a g fis e8 a~
+      a16 g8 g16 a8. a16 h8. h16 cis8. cis16
+      d16 h a g fis g fis e d fis g a h c a h
+      g16 d' c h a8 g a16 c h a g e' d c
+      h16 d e fis g8 r r16 e d c h c a h
+      g8 a h g~ g16 h a g fis g e fis
+      g16 e' d c \clef treble h g' fis e d h' a g fis e d c
+      \clef bass h16 c a h g4~ g4. fis!8
+      g16 e d c h d c e d4_\fermata
+   }
+}
+
+right = {
+   \clef treble
+   <<
+   \alt
+   \sopran
+   >>
+}
+
+left = {
+   \clef bass
+   <<
+   \tenor
+   >>
+}
+
+pedal = {
+   \global
+   \clef "bass_8"
+   \relative g, {
+      \partial 4 g4
+      fis8 e d c h a g f
+      e8 e' fis d g4. fis8
+      g8 e fis d g e a a,
+      d,4. e8 fis d g a
+      h8 c d e fis d g a
+      h8 a h c d4 r8 d,,
+      e fis g h c a d h
+      e8 fis g a h c d d,
+      e8 fis g h, c a d4
+      g,2._\fermata
+   }
+}
 
 \score {
-<<   \new Staff {
-     \set Staff.midiInstrument = "reed organ"
-\soprano
-    }
-    \new Staff {
-      \midialto
+   \new PianoStaff {
+      \set PianoStaff.instrument = \markup { \large \center-align {
+         "" "" "Manuale." "" "" "" "" "" "" "" "Pedale." } \hspace #1.3 }
+      <<
+         \context Staff = right {
+            \set Staff.midiInstrument = "church organ"
+            \context Voice = right \right
+         }
+         \context Staff = left {
+                  \set Staff.midiInstrument = "church organ"
+                  \context Voice = left \left
+         }
+         \context Staff = pedal {
+            \set Staff.midiInstrument = "contrabass"
+            \context Voice = pedal \pedal
+         }
+      >>
    }
-  \new Staff {
-      \set Staff.midiInstrument = "reed organ"
-\miditenor
- }
-\new Staff {
-      \set Staff.midiInstrument = "reed organ"
-\basse
-    }
-\new Staff {
-\transpose do do,
-\set Staff.midiInstrument = "reed organ"
-\pieds
-    }
-  \new Staff {
- \transpose do do'
-\set Staff.midiInstrument = "clarinet"
-\soprano
-    }
-    \new Staff {
- \transpose do do'
-\set Staff.midiInstrument = "clarinet"
-      \midialto
-  }
-    \new Staff {
-\transpose do do'
-\set Staff.midiInstrument = "clarinet"
-\miditenor
-  }
-\new Staff {
- \transpose do do'
-\set Staff.midiInstrument = "clarinet"
-\basse
-    }
-\new Staff {
-\set Staff.midiInstrument = "clarinet"
-\pieds
-}>>
-
-\midi {
-    \context {
-     \Score
-      tempoWholesPerMinute = #70/8
-      }
-    }
+   \layout{}
+   \midi{ \tempo 4 = 60 }
 }
-
-
-%{
-convert-ly (GNU LilyPond) 2.25.33  convert-ly: Processing `'...
-Applying conversion: 2.25.0, 2.25.1, 2.25.2, 2.25.3, 2.25.4, 2.25.5,
-2.25.6, 2.25.8, 2.25.9, 2.25.11, 2.25.12, 2.25.13, 2.25.18, 2.25.22,
-2.25.23, 2.25.24, 2.25.25, 2.25.26, 2.25.28, 2.25.30, 2.25.31,
-2.25.32, 2.25.33
-%}

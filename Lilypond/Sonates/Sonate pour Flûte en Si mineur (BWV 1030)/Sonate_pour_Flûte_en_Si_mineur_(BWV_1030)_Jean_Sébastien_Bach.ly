@@ -1,11 +1,13 @@
-\version "2.6.4"
-\include "deutsch.ly"
+\version "2.27.1"
+
+\language "deutsch"
+
 \include "global.ly"
 \include "triolen.ly"
 
 \include "header.ly"
 
-%% ignore line and page breaks for flute part in score
+
 neueZeile = { }
 neueSeite = { }
 
@@ -20,10 +22,9 @@ neueSeite = { }
 \include "clavecin_3.ly"
 \include "metronom_3.ly"
 
-%1st movement (Andante, layout and midi)
 \score {
    \header {
-      piece = "Andante"
+      piece = "1. Andante"
    }
 
    \context StaffGroup = "sonataA" <<
@@ -38,15 +39,18 @@ neueSeite = { }
       indent = 0.6\cm
    }
 
-   \midi {
-      \tempo 4 = 68
-   }
+   
+  \midi {
+    \tempo 4 = 68
+    }
+
+
 }
 
-%2nd movement (Largo e dolce, layout only)
+%
 \score {
    \header {
-      piece = "Largo e dolce"
+      piece = "2. Largo e dolce"
    }
 
    \context StaffGroup = "sonataB" <<
@@ -61,7 +65,7 @@ neueSeite = { }
    }
 }
 
-%2nd movement (Largo e dolce, midi only)
+
 \score {
    \unfoldRepeats {
       \context StaffGroup = "sonataB" <<
@@ -71,16 +75,18 @@ neueSeite = { }
       \clavecinB
       >>
    }
-   \midi {
-      \tempo 8 = 60
-   }
+   
+  \midi {
+    \tempo 8 = 60
+    }
+
+
 }
 %}
 
-%3rd movement (Presto, layout only)
 \score {
    \header {
-      piece = "Presto"
+      piece = "3. Presto"
    }
 
    \context StaffGroup = "sonataC" <<
@@ -95,10 +101,9 @@ neueSeite = { }
    }
 }
 
-%3rd movement (Presto, midi only)
 \score {
    \header {
-      piece = "Presto"
+      piece = "3. Presto"
    }
 
    \unfoldRepeats {
@@ -109,7 +114,10 @@ neueSeite = { }
       >>
    }
 
-   \midi {
-      \tempo 2 = 104
-   }
+   
+  \midi {
+    \tempo 2 = 104
+    }
+
+
 }

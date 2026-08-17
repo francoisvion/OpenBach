@@ -1,7 +1,5 @@
 \version "2.24.4"
-
 \pointAndClickOff
-
 \header {
   title = "25. Aria : Bist du bei mir en mi♭ majeur"
   subtitle = "Petit Livre de notes d'Anna Magdalena Bach"
@@ -10,13 +8,11 @@
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
 global = {
   \override Staff.TimeSignature.style = #'single-number
   \time 3/4
   \key es \major
 }
-
 right = \new Voice = "soprano" \relative c'' {
   \clef treble
   \autoBeamOff
@@ -33,7 +29,7 @@ right = \new Voice = "soprano" \relative c'' {
   }
   \mark \markup { \override #'(font-size . -1) \musicglyph "scripts.segno" }
   es4 g8 [es] des [c]
-  c2. 
+  c2.
   as'4 f4. es8
   d2\trill es4
   r8 es g [es] d [es]
@@ -45,23 +41,22 @@ right = \new Voice = "soprano" \relative c'' {
   c2 r4
   f4 bes,4. c8
   a4 g8 [a] f4
-  r8 c' es [c] b [c] 
+  r8 c' es [c] b [c]
   g c es [c] b [c]
   f,8 [e] f4 d'8. [es!32 f]
   es8. d16 c8. d16 g,8. b16
   c2.
   f,4 es'4. f8
   d2 r4
-  es as, as 
+  es as, as
   as2 g4
   r8 bes d [bes] a [bes]
   f bes d [bes] a [bes]
   es, [d] es4 c'8. [d32 es]
   d8. c16 bes8. c16 f,8. a16
-  bes2. 
+  bes2.
   \mark \markup { \override #'(font-size . -1) \musicglyph "scripts.segno" } \bar "||"
 }
-
 left = \relative c {
   \clef bass
   \override Staff.RehearsalMark.direction = #'-1
@@ -95,37 +90,32 @@ left = \relative c {
   as'!2 as,4
   c es, g
   c c' bes!
-  a2 f4 
+  a2 f4
   bes, bes' as!
   g f es
   d bes es,
-  e e e 
+  e e e
   f f f
   g a f
-  bes d, f 
+  bes d, f
   bes_\markup{ { \bold{Dal Segno al Fine.} }} bes' as!
   \bar "||"
   \mark \markup { \override #'(font-size . -2) \musicglyph "scripts.segno" }
 }
-
 theLyrics = \new Lyrics \lyricsto "soprano" {
   Bist du bei mir, geh’ ich mit Freu -- den
   zum Ster -- ben und zu mei -- ner Ruh’,
   zum __ Ster -- ben und zu mei -- ner Ruh’.
-  
   Bist du bei mir, geh’ ich mit Freu -- den
   zum Ster -- ben und zu mei -- ner Ruh’,
   zum __ Ster -- ben und zu mei -- ner Ruh’.
-  
   Ach, wie ver -- gnügt wär’ so mein En -- _ de,
   es drück -- ten dei -- ne schö -- nen Hän -- de
   mir __ die ge -- treu -- en Au -- gen zu.
-  
   Ach, wie ver -- gnügt wär’ so mein En -- de,
   es drück -- ten dei -- ne schö -- nen Hän -- de
   mir __ die ge -- treu -- en Au -- gen zu.
 }
-
 \score {
   \new StaffGroup = "piano" <<
     \new Staff = "rh" \with { \consists "Ambitus_engraver"
@@ -133,10 +123,9 @@ theLyrics = \new Lyrics \lyricsto "soprano" {
     } <<\global \right>>
     \theLyrics
     \new Staff = "lh" \with {
-      \consists "Mark_engraver" 
-    } <<\global \left>> 
+      \consists "Mark_engraver"
+    } <<\global \left>>
   >>
-  
   \layout {
     \context {
       \Lyrics

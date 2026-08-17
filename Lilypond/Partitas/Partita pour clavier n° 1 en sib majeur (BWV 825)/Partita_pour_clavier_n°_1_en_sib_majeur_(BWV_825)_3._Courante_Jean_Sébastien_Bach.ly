@@ -1,8 +1,4 @@
-\version "2.8.4"
-% The third movement of the first Partita of J. S. Bach, set for Mutopia
-% by Carl Bolstad on 9/25/2004.
-
-% Some function definitions:
+\version "2.27.1"
 cu = {\change Staff = "up" \stemDown}
 cd = {\change Staff = "down" \stemNeutral}
 
@@ -56,7 +52,7 @@ f a e g c g a c e, |
 f=' a e f c f a c e, |
 f a e f c f a c es, |
 d bes' g e4. f8 |
-<a, c f>2 \bar ":|:" s4*2/3 f'8*2/3 |
+<a, c f>2 \bar ":..:" s4*2/3 f'8*2/3 |
 f a e f c f a c g |
 
 %************************************
@@ -112,7 +108,7 @@ d f c d bes d f bes es, |
 f bes es, f d f bes d a |
 bes d a bes f bes d f aes, |
 g es' c a4. \prall bes8 |
-<d, f bes>2 \bar ":|"
+<d, f bes>2 \bar ":|."
 }
 
 %************************************
@@ -273,6 +269,11 @@ bes2
     }
   >>
   \layout { }
-  \header { piece = "3. Corrente" }
-  \midi { \tempo 4 = 107 }
+  \header { piece = "3. Courante" }
+  
+  \midi {
+    \tempo 4 = 107
+    }
+
+
 }

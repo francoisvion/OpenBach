@@ -1,7 +1,5 @@
 \version "2.24.4"
-
 \language "deutsch"
-
 \header {
   title = "Brich an, o schönes Morgenlicht"
   subtitle = "Choral N°12 de l'Oratorio de Noël"
@@ -9,17 +7,12 @@
   composer = "Jean Sébatien Bach (1685-1750"
   tagline = ##f
 }
-
 #(set-global-staff-size 19)
-
-
 \paper {
   ragged-bottom = ##f
   ragged-last-bottom = ##t
 }
-
 \layout {}
-
 global = {
   \key g \major
   \time 4/4
@@ -27,9 +20,7 @@ global = {
   \autoBeamOff
   \accidentalStyle modern-voice
 }
-
 fe = \fermata
-
 soprano = \relative c'' {
   \global
   \repeat volta 2 {
@@ -43,7 +34,6 @@ soprano = \relative c'' {
   d4 | e d c h8[ c] | a2 g='4\fe
   \bar "|."
 }
-
 alto = \relative c' {
   \global
   \repeat volta 2 {
@@ -55,7 +45,6 @@ alto = \relative c' {
   a4 | g8[ a] h4 h8[( a]) a[( g]) | g2 fis4\fe
   g8[ fis] | e4 fis g8[( a]) d,4 | e( d) d='\fe
 }
-
 tenor = \relative c' {
   \global
   \repeat volta 2 {
@@ -67,7 +56,6 @@ tenor = \relative c' {
   d4 | d g g,8[( a]) h4 | e8[( d e cis]) d4\fe
   d4 | d8[( c]) c[( h]) h[( a]) g4 | g8[( fis16 e] fis4) h=\fe
 }
-
 bass = \relative c' {
   \global
   \repeat volta 2 {
@@ -79,19 +67,14 @@ bass = \relative c' {
   d'8[ c] | h[ a] g[ fis] e[ fis] g[ e] | cis[ h cis a] d4\fe
   h4 | c d e8[ fis] g4 | \shape #'((0 . -0.2) (0 . -0.8) (0 . -0.8) (0 . 0)) Slur c,( d) g,=,\fe
 }
-
-
 text = \lyricmode {
   Brich an, o schö -- nes Mor -- gen -- licht, und lass den Him -- mel ta -- gen!
   dass die -- ses schwa -- che Knä -- be -- lein soll un -- ser Trost und Freu -- de sein,
   da -- zu den Sa -- tan zwin -- gen und letzt -- lich Frie -- den brin -- gen!
 }
-
 textB = \lyricmode {
   Du Hir -- ten -- volk, er -- schre -- cke nicht, weil dir die En -- gel sa -- gen:
 }
-
-
 \score {
   \new ChoirStaff <<
     \new Staff \with {\consists "Ambitus_engraver"
@@ -121,7 +104,6 @@ textB = \lyricmode {
   >>
   \layout { }
 }
-
 \score {
   <<
     \soprano

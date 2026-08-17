@@ -1,7 +1,5 @@
 \version "2.24.4"
-
 \include "english.ly"
-
 \header {
   title = "20a. Air : So oft ich meine Tobackspfeife en ré mineur"
   subtitle = "Petit Livre de notes d'Anna Magdalena Bach"
@@ -9,14 +7,10 @@
   composer =	"Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
-
-
 voiceone =  \relative c' {
   \key d \minor
   \time 3/4
   \clef "treble"
-
   \repeat "volta" 2 {
     d4 d d |
     g4.(  a16[  bf)] a4 |
@@ -38,12 +32,10 @@ voiceone =  \relative c' {
     d2. |
   }
 }
-
 voicetwo =  \relative c {
   \clef "bass"
   \key d \minor
   \time 3/4
-
   \repeat "volta" 2 {
     d4 d' c |
     bf e, f |
@@ -65,9 +57,8 @@ voicetwo =  \relative c {
     d, a d, |
   }
 }
-   
 \score {
-   \context GrandStaff << 
+   \context GrandStaff <<
     \context Staff = "one" <<
       \voiceone
     >>
@@ -75,11 +66,8 @@ voicetwo =  \relative c {
       \voicetwo
     >>
   >>
-
   \layout{}
-  
   \midi {
     \tempo 4 = 105
     }
 }
-

@@ -20,11 +20,12 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  e''4
           e'' e'' fis'' fis''
           e''2\fermata r4 cis''
           d'' cis'' b' cis''8. [d''16]
-          b'2 a'4\fermata \fine
+          b'2 a'4\fermata }
           \partial 4  b'
           b' b' cis'' cis''
           b'2\fermata r4 b'
@@ -36,13 +37,15 @@
           b' cis''8. [d''16] b'4. a'8
           a'2.\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  a'4
           a' a' a' a'
           a'2\fermata r4 a'
           b' a' gis' a'~
-          a'8 [fis'] gis'4 e'\fermata \fine
+          a'8 [fis'] gis'4 e'\fermata }
           \partial 4  gis'8 [fis']
           e'4 e' e' e'
           e'2\fermata r4 gis'
@@ -56,11 +59,21 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {
-      Nun dan -- ket al -- le Gott mit Her -- zen, Mund und Hän -- den,
-      der uns von Mut -- ter -- leib und Kin -- des -- bei -- nen an
-      un -- zäh -- lig viel zu gut und noch jetz -- und ge -- tan.
+    
+    \new Lyrics \lyricsto "soprano" {\set stanza = 1
+      Nun dan -- ket al -- le Gott
+      mit Her -- zen, Mund und Hän -- den,
+      der uns von Mut -- ter -- leib
+      und Kin -- des -- bei -- nen an
+      un -- zäh -- lig viel zu gut
+      und noch jetz -- und ge -- tan.
     }
+    
+    \new Lyrics \lyricsto "soprano" {\set stanza = 2
+      der gro -- ße Din -- ge thut
+      an uns und al -- len En -- den;
+    }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -69,11 +82,12 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  cis'4
           cis' cis' d' d'
           cis'2\fermata r4 fis'
           e' e' e' e'
-          e'8 [d'16 cis'] d'4 cis'\fermata \fine
+          e'8 [d'16 cis'] d'4 cis'\fermata }
           \partial 4  b8 [a]
           gis [a] b4. a16 [gis] a4
           gis2\fermata r4 e'
@@ -82,25 +96,27 @@
           \partial 4 cis'
           d' cis' fis' g'8 [fis']
           fis'2\fermata r4 e'
-          e' e'8 [fis'] fis' [d' b8. e'16]
+          e' e'8 [fis'] fis' [d'] b8. [e'16]
           cis'2.\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  a,4
-          a8 [b cis' a] d [e fis d]
+          a8 [b] cis' [a] d [e] fis [d]
           a2\fermata r4 a
-          gis a e8 [d cis a,]
-          e2 a,4\fermata \fine
+          gis a e8 [d] cis [a,]
+          e2 a,4\fermata }
           \partial 4  e
-          e8 [fis gis e] a, [b, cis a,]
+          e8 [fis] gis [e] a, [b,] cis [a,]
           e,2\fermata r4 e
-          a8 [b cis' gis] a [fis b b,]
+          a8 [b] cis' [gis] a [fis] b [b,]
           e2\fermata r4
           \partial 4 a,
-          d8 [cis b, ais,] b, [d e fis]
+          d8 [cis] b, [ais,] b, [d] e [fis]
           b,2\fermata r4 cis8 [d]
-          e4 a8 [fis] d [b, e e,]
+          e4 a8 [fis] d [b,] e [e,]
           a,2.\fermata \fine
         }
       >>

@@ -1,6 +1,8 @@
-\version "2.24.4"
+\version "2.27.0"
 
-\include "italiano.ly" 
+\language "italiano" 
+
+\paper {#(set-paper-size "a4landscape")}
 
 \header{
   title = "Vom Himmel kam der Engel Schaar"
@@ -15,7 +17,6 @@ global = {
    \time 3/2
 }
 
-#(set-default-paper-size "a4" 'landscape)
 #(set-global-staff-size 18)
 
 halsup = {
@@ -240,5 +241,3 @@ choralmidi = \relative do'' {
   >>
   \midi{ \tempo 4 = 80 }
 }
-
-

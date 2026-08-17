@@ -1,10 +1,8 @@
 \defineBarLine ".|:-emptyspan" #'(".|:" "" "|")
-
 voiceA = \context Voice = "one" \relative c' {
   \clef alto
   \key g \major
   \time 2/2
-  %\override Score.SpacingSpanner.strict-note-spacing = ##t
   | r4 d2 e4
   \bar ".|:-emptyspan"
   | fis g^\segno r8 e d c
@@ -27,9 +25,7 @@ voiceC = \context Voice = "three" \relative c' {
   | d b^\segno c d
   | g, g' fis e
 }
-
 gmult = #1.5
-
 \markup {
   \fill-line {
     \override #'(baseline-skip . 2)
@@ -55,7 +51,6 @@ gmult = #1.5
           }
         }
       }
-      %\null\null
     }
   }
 }

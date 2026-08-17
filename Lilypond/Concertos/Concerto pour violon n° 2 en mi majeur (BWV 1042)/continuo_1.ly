@@ -1,6 +1,4 @@
-\version "2.16.0"
-%Continuo, 1st movement
-
+\version "2.24.0"
 continuoBaMain =  \relative c' {
     e,4-. e,-. e'-. r8 e, |
     e' gis16 fis e8 gis16 fis e8 gis16 fis e8 dis |
@@ -36,7 +34,6 @@ continuoBaMain =  \relative c' {
     R1 |
     r8 dis16\p dis e e fis fis gis gis fis fis gis gis ais\f ais |
      b8[ gis e fis] b,4 r |
-
     e-.\f e,-. e'-. r8 e\p |
     e e, r e' e e, r e' |
     e e, r e' e e, r4 |
@@ -56,12 +53,11 @@ continuoBaMain =  \relative c' {
     r8 gis16 gis a a b b cis cis b b cis cis dis\f dis |
 }
 continuoBaLastbarB =  \relative c' {
-     e,8[ cis a b] e,^"Fine"  gis'16[\p fis] e8 dis |  
+     e,8[ cis a b] e,^"Fine"  gis'16[\p fis] e8 dis |
 }
-continuoBaLastbarC =  \relative c' { % for midi version
+continuoBaLastbarC =  \relative c' {
     e,8 cis a b e,4 r |
 }
-
 continuoBb =  \relative c' {
     cis,8 gis'4 fis8  e[ cis e a] |
     b, dis'4 cis8  b[ gis b e] |
@@ -132,7 +128,6 @@ continuoBb =  \relative c' {
      cis[ cis cis cis]  ais[ ais ais ais] |
      fisis[ fisis fisis fisis] dis2 |
 }
-
 continuoBcLower = \context Staff  \relative c' {
     R1 |
     R1 |
@@ -142,7 +137,6 @@ continuoBcUpper = \context Staff  \relative c' {
     r2 r8 \stemUp ais b gis |
     cisis, r dis dis, gis4 r^"D.C. al fine" |
 }
-
 continuoB =  {
     \continuoBaMain
     \continuoBaLastbarB
@@ -151,14 +145,11 @@ continuoB =  {
     << \continuoBcLower \continuoBcUpper >>
     \bar "|."
 }
-
 continuoBMidi =  {
     \continuoBaMain
     \continuoBaLastbarB
-
     \continuoBb
     << \continuoBcLower \continuoBcUpper >>
-
     \continuoBaMain
     \continuoBaLastbarC
 }

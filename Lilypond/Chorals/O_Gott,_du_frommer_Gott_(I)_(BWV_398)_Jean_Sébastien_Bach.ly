@@ -61,8 +61,16 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      O Gott, du from -- mer Gott, Du Brunn -- quell al -- ler Ga -- ben, Ohn' den nichts ist, was ist, Von dem wir al -- les ha -- ben: Ge -- sun -- den Leib gib mir, Und dass in sol -- chem Leib Ein' un -- ver -- letz -- te Seel' Und rein Ge -- wi -- ßen bleib'. A -- men.
+      O Gott, du from -- mer Gott,
+      du Brunn -- quell al -- ler Ga - ben,
+      Ohn' den nichts ist, was ist,
+      von dem wir al -- les ha - ben:
+      ge -- sun -- den Leib gib mir,
+      und laß in sol -- chem Leib
+      ein' un -- ver -- letz -- te Seel'
+      und rein Ge -- wi -- ßen bleib'.
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -89,6 +97,7 @@
           b4 b8 [d'] a4. g8
           fis2. \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
           \partial 4 d4

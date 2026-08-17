@@ -20,7 +20,7 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
-           g'4 a' bes' bes'
+          g'4 a' bes' bes'
           c'' bes' a' a'\fermata
           bes' c'' d'' d''
           ees'' d''8 [c''] c''2
@@ -36,9 +36,10 @@
           c'' bes'8 [a'] a'2
           g'1\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
-           d'4 d' d' d'
+          d'4 d' d' d'
           g'8 [fis'] g'4 g' fis'\fermata
           g' f' f' f'
           ees'8 [f'] g'4 f'2
@@ -56,19 +57,26 @@
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
-      Sei ge -- grü -- sset, Je -- su gü -- tig, ü -- ber al -- les Mass sanft -- mü -- thig! Ach wie bist du so zer -- schmis -- sen, und dein gan -- zer Leib zer -- ris -- sen! Lass mich dei -- ne Lieb' er -- er -- ben und da -- rin -- nen se -- lig ster -- ben!
+      Sei ge -- grü -- ßet, Je -- su gü -- tig,
+      ü -- ber al -- les Maß sanft -- mü -- thig!
+      Ach wie bist du so zer -- schmis -- sen,
+      und dein gan -- zer Leib zer -- ris -- sen!
+      Laß mich dei -- ne Lieb' er -- er -- ben
+      und da -- rin -- nen se -- lig ster -- ben!
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key bes \major
+      \key g \minor
       \time 4/4
       <<
         \new Voice = "tenor" {
           \voiceOne
-           bes4 a~ a8 [g16 fis] g4
-          g8 [a bes g] d'4 d'\fermata
+          bes4 a~ a8 [g16 fis] g4
+          g8 [a] bes [g] d'4 d'\fermata
           d' c'~ c'8 [bes16 a] bes4
           bes bes bes a
           d'2\fermata
@@ -79,10 +87,11 @@
           c' b g2\fermata
           c'4 c' bes bes~
           bes a bes bes\fermata
-          a8 [c' c' bes]~ bes [aes16 g] f4
+          a8 [c'] c' [bes]~ bes [aes16 g] f4
           g8 [a] bes [ees'] d'4. c'8
           b1\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
            g4 fis g4. f8
@@ -91,9 +100,9 @@
           g4 ees f f,
           bes,2\fermata
           \partial 32 * 16  bes4 a
-          bes8 [a g f] ees [c d bes,]
+          bes8 [a] g [f] ees [c] d [bes,]
           f4 f,\fermata f b,
-          c8 [d ees f] g4 aes8 [g]
+          c8 [d] ees [f] g4 aes8 [g]
           f4 g c2\fermata
           c'4 fis g d
           ees f bes,2\fermata

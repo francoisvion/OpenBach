@@ -1,19 +1,10 @@
-\version "2.18.2"
-
+\version "2.24.0"
  \header {
-%   title = "Suite pour Violoncelle N° 1"
-%   opus = "BWV 1007"
-%   composer = "Jean Sébastien Bach (1685-1750)"
-%   tagline = ##f
  }
-
-
 menuetII = \context Staff \relative c'' {
-
 	\time 3/4
 	\key d \minor
 	\set Staff.midiInstrument = "cello"
-
 	bes8( a bes) d, ees g, | f4 a' d, | g8( fis g) bes, c ees, |
 	d( a' d) g fis a | bes( a bes) d, ees g, | f4 a' d, |
 	g8( fis g) bes, c ees,! | d( g') fis2 | \bar ":|.|:"

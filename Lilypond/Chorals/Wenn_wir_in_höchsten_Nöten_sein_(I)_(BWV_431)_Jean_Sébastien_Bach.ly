@@ -31,6 +31,7 @@
           bes' a' g' f'
           a' g' f'\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
           \partial 4  c'4
@@ -46,9 +47,14 @@
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
-      Wenn wir in höch -- sten Nö -- then sein und wis -- sen nicht, wo aus und ein, und fin -- den we -- der Hülf' noch Rath, ob wir gleich sor -- gen früh und spat, und spat.
+      Wenn wir in höch -- sten Nö - - then sein
+      und wis -- sen nicht, wo aus und ein,
+      und fin -- den we -- der Hülf' noch Rath,
+      ob wir gleich sor -- gen früh und spat.
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -68,6 +74,7 @@
           bes c'~ c'8. [bes16 a8 bes]
           c'4 c'8. [bes16] a4\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
           \partial 4  f8 [e]

@@ -33,16 +33,17 @@
           \partial 4  cis''8 [d'']
           e''4 e'' b' cis''
           a'2 gis'4\fermata e'
-          a' b' cis''8 [d'' e'' d'']
+          a' b' cis''8 [d''] e'' [d'']
           cis''4 b' a'\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
           \partial 4  a'4
           fis' gis' a'8 [b'] cis''4
           cis'' b'8 [a'] gis'4\fermata fis'
           e' a' gis' gis'
-          gis'8 [fis' e' dis'] e'4\fermata
+          gis'8 [fis'] e' [dis'] e'4\fermata
           \partial 4  b
           e' fis'8 [gis'] a' [b'16 cis''] b'8 [a']
           gis'2.\fermata gis'4
@@ -56,9 +57,16 @@
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
-      O Welt, sieh' hier dein Le -- ben am Stamm des Kreu -- zes schwe -- ben, dein Heil sinkt in den Tod, der gro -- sse Fürst der Eh -- ren lässt wil -- lig sich be -- schwe -- ren mit Schlä -- gen, Hohn und gro -- ssem Spott.
+      O Welt, sieh' hier dein Le -- ben
+      am Stamm des Kreu -- zes schwe -- ben,
+      dein Heil sinkt in den Tod,
+      der gro -- ∫e Fürst der Eh -- ren
+      läßt wil -- lig sich be -- schwe -- ren
+      mit Schlä -- gen, Hohn und gro -- ßem Spott.
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -68,7 +76,7 @@
         \new Voice = "tenor" {
           \voiceOne
           \partial 4  e'4
-          d' d' e'8 [d' cis' b]
+          d' d' e'8 [d'] cis' [b]
           a4 b cis'\fermata a
           a e' e' eis'
           cis' b b\fermata
@@ -98,7 +106,7 @@
           \partial 4 fis
           cis8 [b,] cis4 dis e
           e dis e\fermata d
-          cis b, a,8 [b, cis d]
+          cis b, a,8 [b,] cis [d]
           e4 e a,\fermata \fine
         }
       >>

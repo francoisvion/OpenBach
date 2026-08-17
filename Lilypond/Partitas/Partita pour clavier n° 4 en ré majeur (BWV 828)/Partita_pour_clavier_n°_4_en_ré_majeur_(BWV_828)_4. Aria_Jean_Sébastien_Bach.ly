@@ -1,9 +1,10 @@
-\include "defs.ly"
+\include "./Partita_pour_clavier_n°_4_en_ré_majeur_(BWV_828)_defs.ly"
 
 global = {
    \key d \major
    \time 2/4
-   \override Staff.NoteCollision #'merge-differently-dotted = ##t
+   \language "deutsch"
+   \override Staff.NoteCollision.merge-differently-dotted = ##t
    \set Timing.beatStructure = #'( 2 )
 }
 
@@ -147,7 +148,7 @@ tenorD = \new Voice \relative d' {
       a8 c\rest g c\rest
       a4. a8
       s4 <<  \new Voice { \stemUp \override NoteColumn.force-hshift = #0 
-                        c8\rest \once \override Stem.length = #9.5 a
+                        c'8\rest \once \override Stem.length = #9.5 a
                         \once \override Stem.length = #10 a8 c\rest \once \override Stem.length = #8.5 a8 c\rest
                         a8 c\rest a8 c\rest
                         a4. \once \override Stem.length = #7.7 a8 }
@@ -189,7 +190,7 @@ tenorD = \new Voice \relative d' {
       
       \barNumberCheck 45
       \halsup d8 d\rest << \new Voice { \shiftOff cis8 }
-                         \new Voice { \shiftOn ais } >> d\rest
+                          \new Voice { \shiftOn ais } >> d\rest
       s2
       s2
       s2
@@ -301,4 +302,3 @@ leftD = {
       \bassD
    >>
 }
-

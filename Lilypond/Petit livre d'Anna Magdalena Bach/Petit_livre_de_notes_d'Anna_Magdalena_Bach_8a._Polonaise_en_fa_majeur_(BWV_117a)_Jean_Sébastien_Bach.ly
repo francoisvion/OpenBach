@@ -1,7 +1,5 @@
 \version "2.24.4"
-
 \include "english.ly"
-
 \header {
   title = "8a. Polonaise en fa majeur"
   subtitle = "Petit livre de notes d'Anna Magdalena Bach"
@@ -9,14 +7,11 @@
   opus = "BWV Anh. 117a"
   tagline = ##f
 }
-
-
 upper = \relative c''
 {
-  \clef treble 
+  \clef treble
   \key f \major
   \time 3/4
-
   \repeat volta 2
   {
     f8\mordent f16 g \appoggiatura g16 a8 g16 a bf a g f                 |
@@ -26,16 +21,15 @@ upper = \relative c''
       {                   f,4         f f }
     >>                                                         	         |
     bf8 c16\mordent d \appoggiatura c16 bf8 a16 g a8\mordent f           |
-    a8( 
+    a8(
         \once \override Script #'padding = #0.5
         bf16\mordent c) d8 d16 e \appoggiatura d8 c4                     |
-    \appoggiatura c16 bf8( 
+    \appoggiatura c16 bf8(
                            \once \override Script #'padding = #1
                            c16\prall d) \appoggiatura c16 bf8 a16 g a8 f |
     f'8 f16 e d8 c bf a                                                  |
     g16 bf a g \appoggiatura g8 f2                                       |
   }
-
   \repeat volta 2
   {
     a'8\mordent a16 g \appoggiatura g16 a8 g16 a bf a g f                |
@@ -47,18 +41,15 @@ upper = \relative c''
     f8 f16 e d8 c bf a                                                   |
     g16 bf a g \appoggiatura g8 f2                                       |
   }
-
   \override Score.RehearsalMark #'break-visibility = #begin-of-line-invisible
   \override Score.RehearsalMark #'extra-offset = #'( -0.6 . 0.0 )
   \mark \markup { \musicglyph #"scripts.ufermata" }
 }
-
 lower = \relative f
 {
   \clef bass
   \key f \major
   \time 3/4
-  
   \repeat volta 2
   {
     <<
@@ -82,7 +73,6 @@ lower = \relative f
     a8 f bf c d bf                   |
     c8 c, f c16 a f4                 |
   }
-
   \repeat volta 2
   {
     <<
@@ -105,32 +95,29 @@ lower = \relative f
     a8 f bf c d bf                   |
     c8 c, f a16 c f4                 |
   }
-
   \override Staff.RehearsalMark #'direction = #-1
   \override Score.RehearsalMark #'extra-offset = #'( -0.6 . 0.0 )
   \mark \markup { \musicglyph #"scripts.dfermata" }
 }
-
-\score 
+\score
 {
   \new PianoStaff
   <<
     \new Staff = upper \upper
     \new Staff = lower \lower
   >>
-  
   \layout
   {
-    \context 
+    \context
     {
       \Score
       \remove "Mark_engraver"
     }
-    \context 
+    \context
     {
       \Staff
       \consists "Mark_engraver"
     }
-  } 
+  }
   \midi   { }
 }

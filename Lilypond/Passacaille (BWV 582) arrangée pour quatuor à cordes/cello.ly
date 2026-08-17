@@ -1,11 +1,11 @@
-\version "2.12.0"
+\version "2.24.0"
 
 \relative c {
       \global
-      \compressFullBarRests
+      \compressEmptyMeasures
       \set Staff.midiInstrument = "cello"
     % The following makes the rehearsal marks show up as letters within a box:
-      \set Score.markFormatter = #format-mark-box-letters
+      \set Score.rehearsalMarkFormatter = #format-mark-box-letters
       \clef bass
       \partial 4 c4\mp
       g'2 ef4
@@ -62,7 +62,7 @@
       %%% using the \< for the 'hairpin' crescendo:
       \set crescendoText = \markup { \italic { crescendo poco a poco } }  %% sets words for the cresc.
       \set crescendoSpanner = #'text
-      \override DynamicTextSpanner #'style = #'dashed-line                %% stretches it out with dashes.
+      \override DynamicTextSpanner.style = #'dashed-line                %% stretches it out with dashes.
 
           ef16\< c
       f4 r r8 g16 ef
@@ -100,7 +100,7 @@
       %%% using the \< for the 'hairpin' crescendo:
       \set crescendoText = \markup { \italic { crescendo poco a poco } }  %% sets words for the cresc.
       \set crescendoSpanner = #'text
-      \override DynamicTextSpanner #'style = #'dashed-line                %% stretches it out with dashes.
+      \override DynamicTextSpanner.style = #'dashed-line                %% stretches it out with dashes.
     
       af2\< f4
       g2 d4
@@ -207,7 +207,7 @@
       %%% using the \< for the 'hairpin' crescendo:
       \set crescendoText = \markup { \italic { crescendo poco a poco } }  %% sets words for the cresc.
       \set crescendoSpanner = #'text
-      \override DynamicTextSpanner #'style = #'dashed-line                %% stretches it out with dashes.
+      \override DynamicTextSpanner.style = #'dashed-line                %% stretches it out with dashes.
 
       af2\< f4
       g2 d4
@@ -354,7 +354,7 @@
       << { r4
           % The following are viola cues:
           \set fontSize = #-5 { 
-            \once \override TextScript #'extra-offset = #'(-1 . -4)
+            \once \override TextScript.extra-offset = #'(-1 . -4)
               r16^\markup { vla } af'= g af 
             }
           \normalsize f=4---4

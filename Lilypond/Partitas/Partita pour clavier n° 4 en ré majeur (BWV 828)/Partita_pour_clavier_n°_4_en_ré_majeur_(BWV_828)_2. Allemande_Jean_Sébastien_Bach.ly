@@ -1,11 +1,11 @@
-\include "defs.ly"
+\include "./Partita_pour_clavier_n°_4_en_ré_majeur_(BWV_828)_defs.ly"
 
 global = {
    \key d \major
    \time 4/4
-   % \override TupletNumber #'stencil = ##f
-   \override TupletBracket #'stencil = ##f
-   \override Staff.NoteCollision #'merge-differently-dotted = ##t
+   \language "deutsch"
+   \override TupletBracket.stencil = ##f
+   \override Staff.NoteCollision.merge-differently-dotted = ##t
 }
 
 sopranB = \new Voice \relative fis' {
@@ -33,7 +33,7 @@ sopranB = \new Voice \relative fis' {
       e,32 f g! f e f e d~ \ntn \times 5/6 d8. cis32 d e d16 cis cis d d e gis h
 
       \barNumberCheck 15
-      d,32 e f e d e d c~ { \ntn \times 5/6 c8. } h32 c d c16 h h c c fis32 gis a16 c,~
+      d,32 f e f e d e d c~ { \ntn \times 5/6 c8. } h32 c d c16 h h c c fis32 gis a16 c,~
       \halsup \tupletSpan 8 \tuplet 3/2 { c h a h a gis f'e d e d c a' gis fis gis fis e c' h a h a gis }
       gis8 a32 gis fis e dis16 a' a,8~ a16 h cis8~ cis16 d32 e d cis h16
       a2~ a4~ a16 fis g8~
@@ -399,4 +399,3 @@ leftB = {
       \bassB
    >>
 }
-

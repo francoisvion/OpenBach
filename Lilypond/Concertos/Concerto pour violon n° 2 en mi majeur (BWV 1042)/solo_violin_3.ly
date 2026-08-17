@@ -1,8 +1,6 @@
-\version "2.16.0"
-%Solo violin, 3rd movement
-
-soloViolinDThemeBody =  { % first bar intentionally missing!
-    %{ e16(  fis gis  b) e8-. | %} e16(  dis) fis(  e) dis(  cis) |
+\version "2.24.0"
+soloViolinDThemeBody =  {
+     e16(  dis) fis(  e) dis(  cis) |
     b( cis dis  fis) a8-. | a4. |
     gis16(  fis) a(  gis) fis(  e) | dis(  cis) e(  dis) cis(  b) |
     a(  gis) b(  a) gis(  a) | fis( e  fis) a gis fis |
@@ -11,15 +9,12 @@ soloViolinDThemeBody =  { % first bar intentionally missing!
     cis16( e a gis fis  e) | dis(  cis) e(  dis) cis(  b) |
     gis'8-. a-. fis\trill | e4. |
 }
-
-soloViolinDThemeB =  \relative c' { % without a "tutti" at the start
+soloViolinDThemeB =  \relative c' {
     e16( fis gis  b) e8-. | \soloViolinDThemeBody
 }
-
-soloViolinDThemeC =  \relative c' { % with a "tutti" at the start
+soloViolinDThemeC =  \relative c' {
     e16-"Tutti"( fis gis  b) e8-. | \soloViolinDThemeBody
 }
-
 soloViolinDa =  \relative c' {
     b'16-"Solo" ( a gis e' b  a) | gis( fis e b' gis  fis) |
     e fis gis b dis  e | ais,,( fis' e' gis fis  e) |
@@ -29,8 +24,7 @@ soloViolinDa =  \relative c' {
     gis( a b gis e  dis) | cis( dis e cis ais  gis) |
     fis( gis ais b cis dis e fis  gis) ais( b  ais) |
     b fis( dis b fis  ais) | b fis dis fis b,8 |
-}    
-
+}
 soloViolinDb =  \relative c' {
     gis''16-"Solo"( fis e  a) gis fis | e( dis cis  bis) cis e |
     dis( e fis  a) fis dis | bis( cis dis  bis) gis fis |
@@ -41,7 +35,6 @@ soloViolinDb =  \relative c' {
     gis fis e dis cis b | a  gis'[\p( fis e dis  cis)] |
     bis  fis'[\f e dis cis bis] | cis  gis[\p( fis e dis  cis)] |
 }
-
 soloViolinDcLower = \context Staff  \relative c' {
     gis'16-"Solo" b( e dis e  b) | \stemDown gis8 fis gis |
     a fis gis | a gis a |
@@ -52,7 +45,6 @@ soloViolinDcLower = \context Staff  \relative c' {
     a fis e( cis  d) fis | b gis e( cis  d) b |
     cis e fis d b gis' | a e cis a gis fis |
 }
-    
 soloViolinDcUpper = \context Staff  \relative c' {
     s4. | \stemUp b'16 e a, e' b e |
     cis e d e b e | cis e b e cis e |
@@ -60,7 +52,6 @@ soloViolinDcUpper = \context Staff  \relative c' {
     cis, gis' cis, fis cis e | s4. |
     s4. * 8 |
 }
-
 soloViolinDd =  \relative c' {
     gis'16 fis e fis gis a |
     b gis32( a  b16) b32( cis  d16) b32( cis |
@@ -78,7 +69,6 @@ soloViolinDd =  \relative c' {
     gis'\f cis,32( dis  e16) cis32\p( dis  e16) cis |
     ais'\f cis,32( dis  e16) cis ais dis |
     b( ais gis ais b  cis) |
-
     dis gis32( ais  b16) gis32( fis  eis16) cis |
     fis,( cis'  eis) b' a gis |
     cis, fis32( gis  a16) fis32( e  dis16) b |
@@ -96,7 +86,6 @@ soloViolinDd =  \relative c' {
      b16) gis' e cis ais gis'32( fisis |
      gis8.) b32( a! gis fis e  dis) |
 }
-
 soloViolinD =  {
     \soloViolinDThemeB
     \soloViolinDa

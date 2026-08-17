@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 \language "nederlands"
 \include "parenthesized_dynamics.ily"
 \include "bracketed_dynamics.ily"
@@ -49,7 +49,7 @@ scoreBGlobal = {
   \numericTimeSignature
   \time 6/8
   \tempo "Adagio ma non tanto e dolce"
-  \set Score.markFormatter = #format-mark-box-alphabet
+  \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
 }
 
 \include "scoreBFlute.ily"

@@ -26,18 +26,18 @@
           d''4 d'' b'8 [c''] d''4
           c''2 b'4\fermata b'
           c'' b' a' g'8 [a']
-           b'4 b'8 [a'] g'4\fermata b'8 [c'']
+          b'4 b'8 [a'] g'4\fermata b'8 [c'']
           d''4 d'' b' d''
           c''2 b'4\fermata b'
           c'' b' a' g'8 [a']
-          b'4 b' g'\fermata
-          \partial 4  a'
+          b'4 b' g'\fermata a'
           b' b' e' fis'
           g'8 [fis'] e'4 d'\fermata d'
           g' a' b' a'8 [b']
           c''4 b' a'2
           g'2.\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
           \partial 4  d'4
@@ -50,8 +50,7 @@
           d' a' g' b'~
           b' a' g'\fermata g'
           g' g' fis'8 [e'] d'4
-          d' d' e'\fermata
-          \partial 4 e'8 [fis']~
+          d' d' e'\fermata e'8 [fis']~
           fis' [e'16 fis'] g'8 [fis'] e'4. d'8
           d'4 d'8 [cis'] a4\fermata d'
           d' d' g' g'
@@ -60,9 +59,17 @@
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
-      Wenn mein Stünd -- lein vor -- han -- den ist und ich soll fahr'n mein' Stra -- sse, so g'leit du mich, Herr Je -- su Christ, mit Hülf' mich nicht ver -- las -- se; mein' Seel' an mei -- nem letz -- ten End' be -- fehl' ich, Herr, in dei -- ne Händ', du wirst sie wohl be -- wah -- ren, wah -- ren.
+      Wenn mein Stünd -- lein vor -- han -- den ist
+      und ich soll fahr'n mein' Stra -- ße,
+      so g'leit du mich, Herr Je -- su Christ,
+      mit Hülf' mich nicht ver -- las -- se;
+      mein' Seel' an mei -- nem letz -- ten End'
+      be -- fehl' ich, Herr, in dei -- ne Händ',
+      du wirst sie wohl be -- wah - - ren.
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -78,17 +85,17 @@
           b a g\fermata b
           a b b b
            b b b\fermata g
-          a8 [b c' d'] d' [e'] f'4
+          a8 [b] c' [d'] d' [e'] f'4
           e' fis' d'\fermata d'
           c' d' d' d'8 [c']
-          b [a] g4 c'\fermata
-          \partial 4 c'
+          b [a] g4 c'\fermata c'
           b b4. a8 a [b16 c']
           b8 [a] g4 fis\fermata fis8 [a]
           b4 a g e'8 [d']
           c' [d'] d'4 e' d'8 [c']
           b2.\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
           \partial 4  g,8 [a,]
@@ -101,12 +108,11 @@
           f fis g gis
           a d g\fermata g8 [fis]
           e4 d c b,8 [a,]
-          g, [a,] b,4 c\fermata
-          \partial 4 a
-          g8 [fis e d] cis4 d
+          g, [a,] b,4 c\fermata a
+          g8 [fis] e [d] cis4 d
           g, a, d\fermata d8 [c]
-          b, [a, g, fis,] e, [d c b,]
-          a, [fis, g, b,] c [a, d d,]
+          b, [a,] g, [fis,] e, [d] c [b,]
+          a, [fis,] g, [b,] c [a,] d [d,]
           g,2.\fermata \fine
         }
       >>

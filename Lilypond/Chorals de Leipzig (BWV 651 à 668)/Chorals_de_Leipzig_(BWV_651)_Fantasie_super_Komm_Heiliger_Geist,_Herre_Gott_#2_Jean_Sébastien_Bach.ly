@@ -1,20 +1,19 @@
-\version "2.24.4"
+\version "2.27.1"
+
+\language "deutsch"
 
 \header {
    title = "Fantasie super : Komm Heiliger Geist, Herre Gott"
    subtitle = "chant fixe en pédale"
    composer = "Jean Sébastien Bach (1685-1750)"
    opus = "BWV 651"
-   tagline = "" 
+   tagline = ##f
 }
 
-\include "deutsch.ly"
-
-#(set-default-paper-size "a4" 'landscape)
 #(set-global-staff-size 18)
 
 \paper {
-   head-separation = 0.2 \cm
+  #(set-paper-size "a4landscape")
    ragged-bottom = ##f
    ragged-last-bottom = ##f
 }

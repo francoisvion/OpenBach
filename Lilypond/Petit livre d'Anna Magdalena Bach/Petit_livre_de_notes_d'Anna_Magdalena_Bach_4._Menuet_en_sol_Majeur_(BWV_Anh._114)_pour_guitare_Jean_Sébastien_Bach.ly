@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
    title = "4. Menuet en sol majeur"
    subtitle = "Petit Livre de notes d'Anna Magdalena Bach"
@@ -8,16 +7,13 @@
    instrument = "Guitare"
   tagline = ##f
 }
-
 \score {
-   
    \relative c'' \sequential {
    	\time 3/4
 	\key g \major
-
 	\context Staff \relative c'' <<
 		\context Voice = "one" {
-		   \stemUp 
+		   \stemUp
 		   \repeat volta 2 {
 			d4 g,8 a b c |
 			d4 g, g |
@@ -37,15 +33,13 @@
 			c4 d8 c b a |
 			b4 c8 b a g |
 			a4 b8 a g fis |
-			g2. 
+			g2.
 			\break
 		   }
-		% second part 
 		   \repeat volta 2 {
 		   	\override TextSpanner #'(bound-details left text) = "1/2 CV"
 		   	\override TextSpanner #'style = #'line
 			\override TextSpanner #'(bound-details right text) = \markup { \draw-line #'(0 . -0.5) }
-
 			b'4 \startTextSpan g8 a b g \stopTextSpan |
 		   	\override TextSpanner #'(bound-details left text) = "1/2 CIV"
 			a4 \startTextSpan d,8 e fis d \stopTextSpan |
@@ -70,23 +64,21 @@
 		   }
 		   \bar "|."
 		}
-
 		\context Voice = "two" {
 			\stemDown
 			g,2 a4 |
 			b2. | c2. | b2. |
-			a2. | g2. | 
+			a2. | g2. |
 			d'4 b g |
 			d'4 d8 c b a |
-			b2 a4 | 
+			b2 a4 |
 			g b g |
-			c2. | 
+			c2. |
 			b4 c8 b a g |
 			a2 fis4 |
 			g2 b4 |
 			c4 d2 |
 			g,2 g4 |
-		% second part 
 			g'2. |
 			fis2 r4 |
 			e4 g e |
@@ -106,11 +98,8 @@
 		}
 	>>
    }
-   
   \midi {
     \tempo 4 = 136
     }
-
-
    \layout { }
 }

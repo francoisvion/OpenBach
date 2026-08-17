@@ -1,41 +1,25 @@
-% This typesetting is dedicated to Shaka Sankofa, a.k.a. Gary Graham, a 
-% juvenile murder defendant who was executed by Texas on the evening of
-% Friday June 22, 2000 after 19 years on death row.
-
-% The edition from which this was typed has orchestral accompaniment.
-% I don't know if there's a piano arrangement which is out of copyright.
-
 \header {
     \include "header.ly"
     subtitle = "for violin and strings (Score)"
-    % Want "Score" to appear in subtitle
     filename = "score.ly"
 }
-
-\version "2.16.0"
-
+\version "2.24.0"
 \include "solo_violin_1.ly"
 \include "violin1_1.ly"
 \include "violin2_1.ly"
 \include "viola_1.ly"
 \include "continuo_1.ly"
-
 \include "solo_violin_2.ly"
 \include "violin1_2.ly"
 \include "violin2_2.ly"
 \include "viola_2.ly"
 \include "continuo_2.ly"
-
 \include "solo_violin_3.ly"
 \include "violin1_3.ly"
 \include "violin2_3.ly"
 \include "viola_3.ly"
 \include "continuo_3.ly"
-
-
 \include "common-defs.ly"
-
-% 1st movement, printed version
 \score {
     \context StaffGroup = "fullscore"  <<
     	\context Voice = SoloViolin {
@@ -66,8 +50,6 @@
         opus = ""
     }
 }
-
-% 1st movement, midi version
 \score {
     \context StaffGroup = "fullscore"  <<
     	\context Voice = SoloViolin {
@@ -102,9 +84,6 @@
       \tempo 4 = 110
     }
 }
-
-% 2nd movement
-
 \score {
     \context StaffGroup = "fullscore"  <<
 	\context Voice = SoloViolin {
@@ -132,7 +111,6 @@
 	    \clef "alto"
     	    \violaC
 	}
-
 	\context Voice = Continuo {
 	    \set Staff.midiInstrument = \accompMidiInstrument
     	    \key cis \minor
@@ -150,8 +128,6 @@
       \tempo 4 = 60
     }
 }
-
-% 3rd movement
 \score {
     \context StaffGroup = "fullscore"  <<
 	\context Voice = SoloViolin {

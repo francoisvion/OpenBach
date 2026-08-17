@@ -1,10 +1,8 @@
-\version "2.18.2"
+\version "2.24.0"
 \include "violinP.ly"
-
 \header {
   instrument = "Violino principate"
 }
-
 \score {
   \violinP
   \midi {}

@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title = "In Dulci Jubilo"
   subtitle = "faussement attribué à Bach"
@@ -7,24 +6,20 @@
   opus = "BWV 751"
  tagline = ##f
 }
-
 #(set-global-staff-size 20)
-
 \paper {
-    top-margin = 8\mm                              %-minimum: 8 mm
-    top-markup-spacing.basic-distance = #6         %-dist. from bottom of top margin to the first markup/title
-    markup-system-spacing.basic-distance = #5      %-dist. from header/title to first system
-    top-system-spacing.basic-distance = #12        %-dist. from top margin to system in pages with no titles
-    last-bottom-spacing.padding = #2               %-min #1.5 -pads music from copyright block 
+    top-margin = 8\mm
+    top-markup-spacing.basic-distance = #6
+    markup-system-spacing.basic-distance = #5
+    top-system-spacing.basic-distance = #12
+    last-bottom-spacing.padding = #2
     ragged-bottom = ##f
     ragged-last-bottom = ##f
   }
-
 global = {
   \key c \major
   \time 3/2
 }
-
 right = \relative c'' {
   \stemUp
   r2 r g | g1 g2 b1 c2 d1 e2 d1 g,2 g1 g2 b1 c2 d1 e2 d1. d1 e2 d1 c2 b a b |
@@ -34,7 +29,6 @@ right = \relative c'' {
   d1 d2 e1 e2 fis1 e2 d1 e2 fis1. a4 fis s a b s a fis s a g s fis d s fis e s d a s cis d2 e4 b s  b e s fis d s fis e s d a s d e s fis d s d fis2 |
   e1 e2 fis1 fis2 g2. a4 b c d1. b1 b2 a1 a2 g1. g1 fis2 g4 d e fis g a g fis g a b c b c d e8 f e4 fis g1. \bar "|."
 }
-
 left = \relative c' {
   \stemDown
   \tieDown
@@ -47,7 +41,6 @@ left = \relative c' {
   b4 c d c b2 c4 b c a b c d b c d c d
   \change Staff = left b g a b
   \change Staff = right c b8 c d4 e fis d g2 s4 s g s s c s s g s s e s s d s s c s s b s s s |  s s c s s  fis s s d s s c s s b s s c s s d s s s|
-  % 26
   \change Staff = left
   r4 c b c a2
   \change Staff = right
@@ -61,7 +54,6 @@ left = \relative c' {
   g4 fis g e fis g a fis g a g a fis d e fis g fis8 g a4 b cis a
   \change Staff = right
   d2|
-  % 54
   s4 s d s s g s s d s s b|
   \change Staff = left
   s s a s s g s s fis s s s | s s g s s
@@ -69,7 +61,6 @@ left = \relative c' {
   cis|
   \change Staff = left
   s s a s s g s s fis s s g s s a s s s
-  % 62
   r4 c b c a2
   \change Staff = right
   r4 d c d b2 r4 e d c b2 a4 a' g a fis e | d 4 g e fis g2 ~ g4 e fis g fis2 r4 d c d e d r c b c d c
@@ -78,18 +69,14 @@ left = \relative c' {
   \change Staff = right
   c4 d e d2 b c <b d>1. \bar "|."
 }
-
 pedal = \relative c {
   g1.~g~g~g~g~g~g~g~g~g~g~g~g~g~g~g~g~g~g~g~g~g~g~g~g|
   R1. R e1 e2 fis1 fis2 g2. a4 b c | d1. b1 b2 a1 a2 g1. R R |
   d~d~d~d~d~d~d~d~d~d~d~d~d~d~d~d~d~d~d~d~d~d~d~d~d|
   R R e1 e2 fis1 fis2 g2. a4 b c d1. b1 b2 a1 a2 g1.~g~g~g \bar "|."
 }
-
-
 #(set-default-paper-size "letter" 'landscape)
 #(set-global-staff-size 19)
-
 \score {
   <<
     \new PianoStaff {
@@ -115,7 +102,6 @@ pedal = \relative c {
       \context Voice = pedal \pedal
     }
   >>
-
   \layout{}
   \midi{
     \tempo 2 = 160

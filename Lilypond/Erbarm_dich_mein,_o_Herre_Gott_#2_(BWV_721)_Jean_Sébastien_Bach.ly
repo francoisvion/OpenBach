@@ -1,21 +1,16 @@
 \version "2.24.4"
-
 \language "deutsch"
-
 #(set-default-paper-size "a4" 'landscape)
-
 \header {
   title = "Erbarm dich mein, o Herre Gott"
   opus = "BWV 721"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 }
-
 global = {
   \key h \minor
   \time 2/2
 }
-
 sv = \relative c' {
   \repeat volta 2 {
     R1 | r2 fis | a ais | h cis | d cis |
@@ -28,7 +23,6 @@ sv = \relative c' {
   r fis | h h | a fis | g e | d r |
   r d | a' h | cis d | h a | h g | fis1 ~ | fis |
 }
-
 av = \relative c' {
   \repeat volta 2 {
     cis8 cis cis cis d d d d |
@@ -67,7 +61,6 @@ av = \relative c' {
   cis cis d d cis cis cis cis |
   d d d d cis2 |
 }
-
 tv = \relative c {
   \repeat volta 2 {
     <a' fis>8 q q q q q <g d> q |
@@ -106,7 +99,6 @@ tv = \relative c {
   fis fis fis gis ais ais ais ais |
   h h <h gis> q <ais fis>2 |
 }
-
 bv = \relative c {
   \repeat volta 2 {
     fis,8 fis a a h h h h |
@@ -137,7 +129,7 @@ bv = \relative c {
   c c a a ais ais h h |
   e, e g g gis gis ais ais |
   h h g g d' d h h |
-  e e c c c c h h | 
+  e e c c c c h h |
   a a d d g, g e' e |
   eis eis fis fis d d h h |
   e e g g cis, cis d d |
@@ -145,7 +137,6 @@ bv = \relative c {
   ais ais h h fis fis e' e |
  d d eis, eis fis2 |
 }
-
 \new PianoStaff <<
   \new Staff {
     \global
@@ -160,7 +151,6 @@ bv = \relative c {
     \bar "|."
   }
 >>
-
 \markup \column {
   \wordwrap {
     C'est uneœuvre précoce pour orgue de Bach.

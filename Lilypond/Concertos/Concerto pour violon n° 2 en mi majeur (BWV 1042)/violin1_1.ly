@@ -1,6 +1,4 @@
-\version "2.16.0"
-%Violin 1, 1st movement
-
+\version "2.24.0"
 violinBBa =  \relative c' {
     e4-. gis-. b-. r8 gis16 a |
     b8 gis16 a b8 e b b16 a gis8 fis16 e |
@@ -13,22 +11,19 @@ violinBBa =  \relative c' {
     gis8.\trill fis32(  e) gis16(  fis) e(  dis) e8\noBeam b16 b cis cis dis dis |
     e e b b cis cis dis dis e fis gis e a fis b8 |
     gis\trill fis16 e gis(  fis) e(  dis) e4 r8 gis,16\p a |
-
     b8 gis16 a b8 e b b16 a gis8 fis16 e |
     R1 |
     R1 |
-
     e4\f gis-. b-. r8 gis16 a |
     b8 gis16 a b8 e b b16 a gis8 fis16 e |
     a16( b cis  a) gis( a b  gis) fis8 r r4 |
     dis4-.\p fis-. b-. r |
     fis-.\pp b-. dis-. r |
-    r r8  dis16\f e fis8 dis16 e fis8 b | 
+    r r8  dis16\f e fis8 dis16 e fis8 b |
     fis fis16 e dis8 dis16 cis fis,2\p ~ |
     fis r2 |
     r r8 fis\p r fis |
     r fis r eis fis r r4 |
-    
     fis'16\f fis fis fis fis fis fis fis fis4 r |
     e16 e e e e e e e e4 r |
     dis16 dis dis dis dis dis dis dis e( fis gis  e) dis( e fis  dis) |
@@ -39,7 +34,6 @@ violinBBa =  \relative c' {
     r2 r8 fis16\p fis gis gis ais ais |
     b b fis fis gis gis ais ais b cis dis b e cis fis8\f |
     e16(  dis) cis(  b) dis(  cis) b(  ais) b4 r |
-
     e,4-.\f gis-. b-. r |
     gis-.\p b-. e-. r |
     b-.\pp e-. gis-. r |
@@ -59,7 +53,6 @@ violinBBa =  \relative c' {
     e e b b cis cis dis dis e fis gis e a fis b8 |
     a16(  gis) fis(  e) gis(  fis) e(  dis) e4 r^"Fine" |
 }
-
 violinBBb =  \relative c' {
     cis4-.\p e-. gis-. r |
     b,-. dis-. gis-. r |
@@ -78,7 +71,6 @@ violinBBb =  \relative c' {
     e fis4 a |
     dis,2 e ~ |
     e dis |
-
     cis'4-.\f e-. gis-. r8 e16 fis |
     gis8 e16 fis gis8 cis gis gis16 fis e8 dis16 cis |
     e,4-.\p ais-. cis-. r |
@@ -111,7 +103,6 @@ violinBBb =  \relative c' {
     b8 d16 cis b8 gis'  a[ e a, cis] |
     fis8 dis16 e fis8 e16 dis e8 gis,16 a b8 a16 gis |
      a8[ cis fis a] a4 r8 a\f |
-
     gis16( a b  gis) fis( gis a  fis) e( fis gis  e) dis( e fis  dis) |
     cis( dis  e) b cis e dis fis e( fis  gis) b, cis e dis fis |
     e( fis  gis) dis e gis fis a gis( a  b) dis, e gis fis a |
@@ -134,18 +125,14 @@ violinBBb =  \relative c' {
     R1 |
     R1^"D.C. al fine" |
 }
-
 violinBB =  {
     \violinBBa
     \bar "||"
     \violinBBb
     \bar "|."
 }
-
 violinBBMidi =  {
     \violinBBa
-
     \violinBBb
-
     \violinBBa
 }

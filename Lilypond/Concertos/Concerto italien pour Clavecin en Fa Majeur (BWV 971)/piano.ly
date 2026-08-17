@@ -1,13 +1,9 @@
 \version "2.24.4"
-
 \include "defs.ily"
 \include "outline.ily"
 \include "piano.ily"
-
 \include "header.ily"
-
 \pageBreak \allowPageTurn
-
 \score
 {
   \new PianoStaff
@@ -18,7 +14,6 @@
   \layout {}
   \midi {}
 }
-
 \score
 {
   \new PianoStaff
@@ -29,7 +24,6 @@
   \layout {}
   \midi {}
 }
-
 \score
 {
   \new PianoStaff

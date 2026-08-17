@@ -26,8 +26,7 @@
           a'2\fermata bes'4
           a'2 g'4
           f'2 e'4
-          d'2\fermata
-          \partial 4  d'4
+          d'2\fermata d'4
           g'2 g'4
           fis'2 fis'4
           g'2 g'4
@@ -43,6 +42,7 @@
           g'2 fis'4
           g'2.\fermata \fine
         }
+        
         \new Voice = "alto" {
           \voiceTwo
            d'8 [c'] d'4 b
@@ -51,8 +51,7 @@
           d'2\fermata d'4
           cis' d' e'
           e'8 [cis'] d'4. cis'8
-          a2\fermata
-          \partial 4  a4
+          a2\fermata a4
           d'2 d'4
           d' ees' d'
           d' c'8 [bes] c'4
@@ -70,9 +69,16 @@
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
-      O Mensch, schau' Je -- sum Chri -- stum an, den wah -- ren Mensch und Gott, der für uns hat ge -- nug ge -- than durch sei -- nen bit -- tern Tod. O wie gro -- sse Angst und Pein durch drang das Her -- ze mein, mein.
+      O Mensch, schau' Je -- sum Chri -- stum an,
+      den wah -- ren Mensch und Gott,
+      der für uns hat ge -- nug ge -- than
+      durch sei -- nen bit -- tern Tod.
+      O wie gro -- sse Angst _ und Pein
+      durch drang das Her -- ze mein.
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -87,8 +93,7 @@
           a2\fermata g4
           a2 a4
           a bes8 [a] g [a]
-          fis2\fermata
-          \partial 4  fis4
+          fis2\fermata fis4
           g8 [a] bes2
           a8 [bes] c'4 a
           g4. bes8 a [g]
@@ -104,28 +109,28 @@
           c'8 [bes] a4. c'8
           b2.\fermata \fine
         }
+        
         \new Voice = "bass" {
           \voiceTwo
            g,8 [a,] bes,4 g,
           c8 [d] ees4 c
           bes,8 [a,] g,4 g
           fis2\fermata g4~
-          g f8 [e d cis]
+          g f8 [e] d [cis]
           d4 g, a,
-          d,2\fermata
-          \partial 4  d8 [c]
-          bes,4 g,8 [a, bes, c]
-          d4 a,8 [bes, c a,]
+          d,2\fermata d8 [c]
+          bes,4 g,8 [a,] bes, [c]
+          d4 a,8 [bes,] c [a,]
           bes,4 ees8 [d] ees4
           d2\fermata d,4
-          d8 [ees d c bes, a,]
-          g, [fis, g, a, bes, c]
+          d8 [ees] d [c] bes, [a,]
+          g, [fis,] g, [a,] bes, [c]
           d2.\fermata
-          d8 [e fis e fis d]
-          g [fis g a g f]
-          ees [d ees f ees d]
+          d8 [e] fis [e] fis [d]
+          g [fis] g [a] g [f]
+          ees [d] ees [f] ees [d]
           c2\fermata d4
-          g8 [g, a, bes, c d]
+          g8 [g,] a, [bes,] c [d]
           ees [d] c4 d
           g,2.\fermata \fine
         }

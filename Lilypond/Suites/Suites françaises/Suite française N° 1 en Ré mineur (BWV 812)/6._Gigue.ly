@@ -1,30 +1,20 @@
-\version "2.20.0"
-
+\version "2.24.0"
 \include "italiano.ly"
-
-
-
 \paper {
   #(set-paper-size "a4")
 }
-
-
 staffOne = \change Staff = one
 staffTwo = \change Staff = two
-
 stsu = { \staffTwo \stemUp }
 sosn = { \staffOne \stemNeutral }
-
 right =  {
         \clef treble
         \key fa \major
         \time 4/4
-        % \partial 8
        \relative do'' {
        \stemDown \new voice
-       
        r8 r16 \voiceOne \stemDown la re8.\mordent la16 sib8( sib32) la sol fa mi8. sol16 |
-       \stemUp r8 r16 re'16 la'8.\mordent mi16 fa8_(\mordent fa32) mi re do! si8.\prall re16 | 
+       \stemUp r8 r16 re'16 la'8.\mordent mi16 fa8_(\mordent fa32) mi re do! si8.\prall re16 |
        dod8.\prall fa32 sol la8.\mordent sol16 mi2( |
        mi8.) la,16 re8. la16 sib8_(\mordent sib32) la sol fa mi8.\prall sol16 |
        fa8.\prall mi32 re sib'4( sib8.) la32 sol la8.\mordent sib16 |
@@ -34,7 +24,7 @@ right =  {
                             re8_( re32) do si do do8.\prall si16 si2( |
                             sib8.) mi16 la8. mi16 fa8_(\mordent fa32) mi re do si8.\prall re16 |
                             sold,8.\prall fad32 mi do'8.\mordent do16 do8\prall_( do32) re do si si8.\prall la16 |
-                            la1 | \bar ":..:" 
+                            la1 | \bar ":..:"
        \break
         R1 |
         R |
@@ -50,27 +40,18 @@ right =  {
         dod8\prall( dod32) re mi fa sol8. mi16 fad8( fad32) sol la sib do8. la16 |
         sib4( sib8.) la16 sol4 fa( |
         fa16) mi re dod re mi fa sol32 la sib8( sib32) la sol fa mi16 fa sol mi | \noBreak
-        dod8.\prall si32 la fa'8.\mordent fa16 fa8_( fa32) sol fa mi mi8.\prall re16 | 
+        dod8.\prall si32 la fa'8.\mordent fa16 fa8_( fa32) sol fa mi mi8.\prall re16 |
         re1 |
-  
-
-
        }
        }
-
 left =  {
         \clef bass
         \key fa \major
         \time 4/4
-        % \partial 8
         \relative do{
-       \new Voice = "melody" {     
-         
-         
-          
+       \new Voice = "melody" {
           << \relative do'
             { \voiceTwo
-
               \staffOne
                             s1 |
                             fa8.\prall mi32 re dod4\trill re sol( |
@@ -100,10 +81,7 @@ left =  {
                             sib8. sol16 re8. fa16 mi8( mi32) fa sol la sib8. sol16 |
                             la4 re re dod |
                             r8 r32 do sib la sib8. sol16( sol8)^( sol32) sol fad mi fad4 |
-              
-                         
             }
-            
             \new Voice  \relative do
             { \new voice
               R1 |
@@ -132,38 +110,24 @@ left =  {
               sol8^( sol32) la sol fa mi8^( mi32) fa mi re dod8. la16 re8. re,16 |
               sol8 re'\rest re4\rest sol8 re\rest re4\rest |
               re16\rest sol fa mi re do sib la sol8. sol'16 la8. la,16 |
-              << { r8 r16 fad' sol8.\mordent sib16 la2\prall } \\ { re,1 } >> 
+              << { r8 r16 fad' sol8.\mordent sib16 la2\prall } \\ { re,1 } >>
               \bar ":|."
-              
-     
             }
           >>
-
         }
-           
-            
-           
-                      
-
-
 }}
-
 \score {
-
          \context PianoStaff << #(set-accidental-style 'piano)
                 \context Staff = "one" { \set Staff.extraNatural = ##t
                 \right
                  }
-
                 \context Staff = "two" { \set Staff.extraNatural = ##t
                 \left
                  }
-  >>  
+  >>
   \layout {
-  
          \context { \Staff
-       \override BarLine #'hair-thickness = #0.30
-  
+       \override BarLine.hair-thickness = #0.30
   }
   }
   \midi {
@@ -173,10 +137,7 @@ left =  {
     }
   }
     \header {
-
   piece = "6. Gigue"
   tagline = ##f
 }
-  
-  
 }

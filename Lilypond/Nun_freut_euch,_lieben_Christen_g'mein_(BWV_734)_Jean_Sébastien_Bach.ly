@@ -1,5 +1,4 @@
 \version "2.24.4"
-
 \header {
   title = "Nun freut euch, lieben Christen g'mein"
   subtitle = "Es ist gewisslich an der Zeit"
@@ -8,18 +7,14 @@
   opus="BWV 734"
   tagline = ##f
 }
-
 \include "deutsch.ly"
-
 global = {
    \key g \major
    \time 4/4
    #(set-accidental-style 'default)
 }
-
 #(set-default-paper-size "a4" 'landscape)
 #(set-global-staff-size 18)
-
 right = {
    \new Voice \relative g' {
       \global
@@ -30,13 +25,11 @@ right = {
          d g fis e d c h a h c h a g fis g a
          h g a h c d e fis g h, a g d' cis d e
          fis a g fis e dis e fis g h a g c! fis, g h
-         %% Takt  5 ==================================================
          e, a g fis e d e g fis g fis e d c h a
          g a h c d c d e f a g f e d e fis
          g h a g fis e fis g a d, cis h a g fis e
          fis g fis e d cis d e fis d e fis g a h c!
          d e d c h a h c d g fis e d c h a
-         %% Takt 10 ==================================================
          g a h c d c d e f a g f e dis e fis
          g h a g a g fis e d a' g fis g fis e d
          e f e d e d c h c e d c d c h a
@@ -45,13 +38,11 @@ right = {
       \alternative {
          {
             e f e d e d c h c e d c d c h a
-            %% Takt 15 ==================================================
             h g a h c d e fis g d e fis g fis g a
          }
          {
             \set Score.currentBarNumber = #14
             e f e d e d c h c e d c d c h a
-            %% Takt 15 ==================================================
             h8 g' fis a,~ a16 h cis dis e dis e fis
          }
       }
@@ -59,31 +50,26 @@ right = {
       h e d c h a g fis g a g fis e dis e fis
       g h a g fis e fis g a h cis dis e dis e fis
       g h a g fis e fis g a c h a g fis g a
-      %% Takt 20 ==================================================
       h g fis e d c h a g a h a g fis e d!
       cis d h cis d cis d e fis a g fis e d cis fis
       g h a g fis e fis g a d cis h a g fis e
       fis g fis e d cis d e fis a g fis e dis e fis
       g h a g fis e fis g a c h a g fis g a
-      %% Takt 25 ==================================================
       h d, e fis g fis g a h d c h a g a h
       c e d c h a h c d g fis e d c h a
       g a h c d c d e f a g f e d e fis
       g h a g fis e fis g a c h a g fis g a
       h e, d! c! h a g fis e g' fis e d c h a
-      %% Takt 30 ==================================================
       g fis g a h d c h a g a h c e d c
       h a h c d g fis e d c h a g fis e d
       e d e fis g h a g fis e fis g a c! h a
       h g a h c d e f g a g f g f e d
       e f e d e d c h c e d c d c h a
-      %% Takt 35 ==================================================
       h c h a h a g fis g a g fis g f e d
       e f e d e d c h c e d c d c h a
       h c h a h a g fis! g4
    }
 }
-
 left = {
    \new Voice \relative h, {
       \global
@@ -94,13 +80,11 @@ left = {
          h,8 c d d, g d' h d
          g,8 g'4 fis8~ fis e d cis
          d8 h cis dis e fis e d
-         %% Takt  5 ==================================================
          c8 a h c d e fis d
          g8 a16 g f8 e d g c, d
          e8 cis' d h fis g a a,
          d8 a fis a d, c'! h a
          h8 d g, a h e fis d
-         %% Takt 10 ==================================================
          g8 g f e a a g fis
          h8 e, fis d g d e h
          c8 h c a fis'! e fis d
@@ -109,12 +93,10 @@ left = {
       \alternative {
          {
             c8 h c d e a fis d
-            %% Takt 15 ==================================================
             g8 c, h a h a g fis
          }
          {
             c'8 g c, d e a fis d
-            %% Takt 15 ==================================================
             g16 a h c d c d e fis8 a g fis
          }
       }
@@ -122,31 +104,26 @@ left = {
       g8 a h dis e fis g fis
       e8 cis dis e fis h, cis dis
       e8 h e4. d!16 c h8 a
-      %% Takt 20 ==================================================
       g8 g'4 fis8~ fis dis e g~
       g8 fis16 e fis8 cis d a cis a
       e'8 a, d h fis g a cis
       d,8 a' fis a d h cis dis
       e8 h e4. d!16 c h8 a
-      %% Takt 25 ==================================================
       g8 c h a g e fis d
       e'8 c d h fis' d e f~
       f8 g f e d g c, d
       e8 cis dis e fis dis e fis
       g a h h, e c! fis d!
-      %% Takt 30 ==================================================
       g8 d g4~ g8 fis16 g a4~
       a8 g4 a16 fis g8 d e h
       c8 a h cis d e fis d
       g8 f e c h d h g
       c8 h c d e a, h c
-      %% Takt 35 ==================================================
       d8 g, c a h d h g
       c8 g c d e f16 e d e c8
       g2~ g4
    }
 }
-
 pedal = {
    \new Voice \relative g {
       \global
@@ -157,13 +134,11 @@ pedal = {
          r2 g
          g4 a h2
          a2 g
-         %% Takt  5 ==================================================
          a2 a
          h1~
          h8 r r4 r2
          R1
          r2 g4 a
-         %% Takt 10 ==================================================
          h2 c
          d4 c h2
          a1
@@ -172,12 +147,10 @@ pedal = {
       \alternative {
          {
             g4 r r2
-            %% Takt 15 ==================================================
             R1
          }
          {
             g4 r r2
-            %% Takt 15 ==================================================
             R1
          }
       }
@@ -185,32 +158,27 @@ pedal = {
       r2 h
       h2 a
       g2 fis
-      %% Takt 20 ==================================================
       g4 a h2
       a1~
       a4 r r2
       r2 a
       g2 fis
-      %% Takt 25 ==================================================
       g2 d
       g2 a
       h1~
       h4 r r2
       r2 g4 a
-      %% Takt 30 ==================================================
       h2 c
       d4 c h2
       a1
       g1~
       g1~
-      %% Takt 35 ==================================================
       g1~
       g1~
       g16 e d c d c h a h4
       \bar "|."
    }
 }
-
 \score {
    <<
       \new PianoStaff \with {
@@ -234,7 +202,6 @@ pedal = {
    >>
    \layout{}
 }
-
 \score {
    \unfoldRepeats {
       <<
