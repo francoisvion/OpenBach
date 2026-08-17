@@ -4,6 +4,7 @@
 
 \header {
  title = "Gott Vater, sende deinen Geist"
+ subtitle = "tiré de la cantate : Wer mich liebet, der wird mein Wort halten (II)"
   opus = "BWV 74/8"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -58,11 +59,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Kommt her zu mir, spricht Got -- tes Sohn, all die ihr seid be -- schwe -- ret nun, mit Sün -- den hart be -- la -- den, ihr Jung -- en, Alt -- en, Frau und Mann, ich will euch ge -- ben, was ich han, will hei -- len eu -- ren Scha -- den.
+    \new Lyrics \lyricsto "soprano" {
+      Kein Men -- schen -- kind hier auf der Erd ist die -- ser ed -- len Ga -- be wert, bei uns ist kein Ver -- die -- nen; hier gilt gar nichts als Lieb und Gnad, die Chri -- stus uns ver -- die -- net hat mit Bü -- ßen und Ver -- süh -- nen. _ _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
