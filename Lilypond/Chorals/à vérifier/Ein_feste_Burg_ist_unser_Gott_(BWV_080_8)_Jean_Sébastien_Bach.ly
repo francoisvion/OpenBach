@@ -4,6 +4,7 @@
 
 \header {
  title = "Ein feste Burg ist unser Gott"
+ subtitle = "tiré de la cantate : Ein feste Burg ist unser Gott"
   opus = "BWV 80/8"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,11 +21,12 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  d''8 r
           d''4 d'' a'8 [b'] cis''4
           d''8 [cis''] b'4 a'\fermata d''
           cis'' b' a' b'8 [a']
-          g' [fis'] e'4 d'\fermata
+          g' [fis'] e'4 d'\fermata }
           d'
           a' b' a' gis'
           a'2\fermata d'4 a'
@@ -38,12 +40,13 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  a'4
           a'8 [g'] fis' [e'] d'4 e'
           a8 a'4 gis'8 e'4 b'
           e'8 [fis'] g'4 fis'8 [e'] d' [cis']
           b4 cis' a
-          d'
+          d' }
           cis'8 [fis'] e'4 e'8 [fis'] e'4
           e'2 d'4 d'8 [c']
           b [d'] g'4 fis' fis'
@@ -57,10 +60,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Ein' fe -- ste Burg ist un -- ser Gott, ein' gu -- te Wehr und Waf -- fen.
+      Das Wort sie sol -- len las -- sen stahn und kein' Dank da -- zu ha -- ben. Neh -- men sie uns den Leib, Gut, Ehr, Kind und Weib, lass fah -- ren da -- hin, sie ha -- bens kein' Ge -- winn; das Reich muss uns doch blei -- ben.
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Er hilft uns frei aus al -- ler Noth, die uns jetzt hat be -- trof -- fen. Der alt' bö -- se Feind, mit Ernst er's jetzt meint, gross Macht und viel List sein grau -- sam Rüst -- zeug ist, auf Erd'n ist nicht sein's Glei -- chen.
+      Er ist bei uns wohl auf dem Plan mit sei -- nem Geist und Ga -- ben. Neh -- men sie uns den Leib, Gut, Ehr, Kind und Weib, lass fah -- ren da -- hin, sie ha -- bens kein' Ge -- winn; das Reich muss uns doch blei -- ben.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -70,11 +73,12 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  fis'8 [e']
           d' [e'] fis' [g'] a'4 g'
           fis' b8 [e'] cis'4 fis8 [gis]
           a4 e'8 [d'] cis'4 b8 [cis']
-          d'4 a8 [g] fis4
+          d'4 a8 [g] fis4 }
           fis8 [g]
           a [d'] cis' [b] cis'4 b
           cis'2 fis8 [g] a4
@@ -88,11 +92,12 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  d'8 [cis']
           b4 a8 [g] fis [g] fis [e]
           fis4 e a,\fermata b,
           cis8 [d] e4 fis g8 [a]
-          b [g] a [a,] d4\fermata
+          b [g] a [a,] d4\fermata }
           d8 [e]
           fis4 gis a8 [d] e4
           a,2\fermata b,4 fis
