@@ -4,6 +4,7 @@
 
 \header {
  title = "Ermuntre dich, mein schwacher Geist"
+ subtitle = "tiré de l'Oratorio de Noël"
   opus = "BWV 248/12"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -57,10 +58,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      1. Er -- mun -- tre dich mein schwa -- cher Geist, und tra -- ge gross' Ver -- lan -- gen, Dies ist die Nacht, da -- rin es kam, und mensch -- lich We -- sen an sich nahm, da -- durch die Welt mit Treu -- en als sei -- ne Bräut zu frei -- en.
+      Brich an, o schö -- nes Mor -- gen -- licht, und lass dem Him -- mel ta -- gen! dass die -- ses schwa -- che Knä -- be -- lein soll un -- ser Trost und Freu -- de sein, da -- zu den Sa -- tan zwin -- gen und letzt -- lich Frie -- de brin -- gen!
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      ein klei -- nes Kind, das Va -- ter heisst, mit Freu -- den zu em -- pfan -- gen: wie soll ich dei -- nen gro -- ssen Sieg, den du durch ei -- nen schwe -- ren krieg er -- wor -- ben hast, recht prei -- sen, und dir g'nug Ehr' er -- wei -- sen?
+      Du Hir -- ten -- volk, er -- schre -- cke nicht, weil dir die En -- gel sa -- gen, dass die -- ses schwa -- che Knä -- be -- lein soll un -- ser Trost und Freu -- de sein, da -- zu den Sa -- tan zwin -- gen und letzt -- lich Frie -- de brin -- gen!
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
