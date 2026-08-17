@@ -4,6 +4,7 @@
 
 \header {
  title = "Erhalt uns, Herr, bei deinem Wort"
+ subtitle = "tiré de la cantate : Bleib bei uns, denn es will Abend werden"
   opus = "BWV 6/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -46,11 +47,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Er -- halt' uns, Herr, bei dei -- nem Wort und steu -- re dei -- ner Fein -- de Mord, die Je -- sum Chri -- stum, dei -- nen Sohn, wol -- len stür -- zen von sei -- nem Thron.
+    \new Lyrics \lyricsto "soprano" {
+      Be -- weis dein Macht, Herr Je -- su Christ, Der du Herr al -- ler Her -- ren bist; be -- schirm dein ar -- me Chri -- sten -- heit, dass sie dich lob in E -- wig -- keit.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
