@@ -48,11 +48,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Du Frie -- de -- fürst, Herr Je -- su Christ, wahr'r Mensch und wah -- rer Gott,
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      ein star -- ker Noth -- hel -- fer du bist im Le -- ben und im Tod: drum wir al -- lein im Na -- men dein zu dei -- nem Va -- ter schrei -- en.
+    \new Lyrics \lyricsto "soprano" {
+      Du Frie -- de -- fürst, Herr Je -- su Christ, wahr' Mensch und wah -- rer Gott, ein star -- ker Noth -- hel -- fer du bist im Le -- ben und im Tod: drum wir al -- lein im Na -- men dein zu dei -- nem Va -- ter schrei -- en.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
