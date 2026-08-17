@@ -4,6 +4,7 @@
 
 \header {
  title = "Der Herr ist mein getreuer Hirt"
+ subtitle = "tiré de la cantate : Der Herr ist mein getreuer Hirt"
   opus = "BWV 112/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -50,11 +51,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      1. Al -- lein Gott in der Höh' sei Ehr' und Dank für sei -- ne Gna -- de, Ein Wohl -- ge -- fall'n Gott an uns hat, nun ist gross Fried ohn' Un -- ter -- lass, all' Fehd' hat nun ein En -- de.
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      da -- rum, dass nun und nim -- mer -- mehr uns rüh -- ren kann kein Scha -- de! zum fri -- schen Was -- ser leit't er mich, mein' Seel' zu la -- ben kräf -- tig -- lich durch's sel' -- ge Wort der Gna -- den.
+    \new Lyrics \lyricsto "soprano" {
+      Gu -- tes und die Barm -- her -- zig -- keit fol -- gen mir nach im Le -- ben, auf Erd in christ -- li -- cher Ge -- mein und nach dein Tod da werd ich sein bei Chri -- sto, mei -- nem Her -- ren.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
