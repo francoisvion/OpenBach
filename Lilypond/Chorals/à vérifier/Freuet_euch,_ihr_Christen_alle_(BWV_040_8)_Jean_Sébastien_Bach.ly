@@ -4,6 +4,7 @@
 
 \header {
  title = "Freuet euch, ihr Christen alle"
+ subtitle = "tiré de la cantate : Dazu ist erschienen der Sohn Gottes"
   opus = "BWV 40/8"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -66,11 +67,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Freu -- et euch, ihr Chri -- sten al -- le, freu -- e sich wer im -- mer kann! Gott hat viel an uns ge -- than. Freu -- et euch mit gros -- sem Schal -- le, dass er uns aus To -- des Macht durch sein Ster -- ben frei ge -- macht. Freu -- de, Freu -- de ü -- ber Freu -- de! Chri -- stus weh -- ret al -- lem Lei -- de. Won -- ne, Won -- ne ü -- ber Won -- ne! er ist die Ge -- na -- den -- son -- ne.
+    \new Lyrics \lyricsto "soprano" {
+      Je -- su, nimm dich dei -- ner Glie -- der fer -- ner in Ge -- na -- den an; schen -- ke, was man bit -- ten kann, zu er -- qui -- cken dei -- ne Brü -- der: gib der gan -- zen Chri -- sten -- schar Frie -- den und ein sel -- ges Jahr! Freu -- de, Freu -- de ü -- ber Freu -- de! Chri -- stus weh -- ret al -- lem Lei -- de. Won -- ne, Won -- ne ü -- ber Won -- ne! er ist die Ge -- na -- den -- son -- ne.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
