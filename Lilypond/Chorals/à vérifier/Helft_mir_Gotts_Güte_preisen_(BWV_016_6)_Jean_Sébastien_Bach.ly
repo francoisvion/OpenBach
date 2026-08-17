@@ -4,6 +4,7 @@
 
 \header {
  title = "Helft mir Gotts Güte preisen"
+ subtitle = "tiré de la cantate : Herr Gott, dich loben wir"
   opus = "BWV 16/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,11 +21,12 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  a'4
           a' b' c'' d''
           b'4. c''8 d''4\fermata e''
           c'' a' b' b'
-          a'2.\fermata
+          a'2.\fermata }
           e''4
           d'' c'' b' a'
           b'2.\fermata b'4
@@ -38,11 +40,12 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  e'4
           f' f' g' a'
           g'2 a'4\fermata e'
           e' a' a' gis'
-          e'2.\fermata
+          e'2.\fermata }
           e'8 [fis']
           gis'4 a'8 [g'] f'4 e'8 [fis']
           gis'2.\fermata gis'4
@@ -57,10 +60,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Helft mir Gott's Gü -- te prei -- sen, ihr lie -- ben Kin -- der -- lein,
+      All solch dein Güt wir prei -- sen, Va -- ter ins Him -- mels Thron, _ und bit -- ten fer -- ner dich, gib uns ein fried -- lich Jah -- re, vor al -- les Leid be -- wah -- re und nähr uns mil -- dig -- lich. _
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      mit G'sang und an -- dern Wei -- sen ihm all -- zeit dank -- bar sein; vor -- nehm -- lich zu der Zeit, da sich das Jahr thut en -- den, die Sonn' sich zu uns wen -- den; das neu' Jahr ist nicht weit.
+      Die du uns tust be -- wei -- sen durch Je -- sum dein -- en Sohn, _ und bit -- ten fer -- ner dich, gib uns ein fried -- lich Jah -- re, vor al -- les Leid be -- wah -- re und nähr uns mil -- dig -- lich. _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -70,11 +73,12 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  c'4
           c' d' g d'
           d' e' d'\fermata b
           c'8 [d'] e'4 f' e'8 [d']
-          c'2.\fermata
+          c'2.\fermata }
           g8 [a]
           b4 e'8 [c'] d' [b] c'4
           b2.\fermata e'4
@@ -88,11 +92,12 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  a8 [g]
           f4 e8 [f] e4 fis
           g fis8 [e] fis4\fermata gis
           a8 [b] c' [a] d4 e
-          a,2.\fermata
+          a,2.\fermata }
           c4
           b,8 [b] a4 gis a
           e2.\fermata e4
