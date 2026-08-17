@@ -4,6 +4,7 @@
 
 \header {
  title = "Gott Vater, sende deinen Geist"
+ subtitle = "tiré de la cantate : Es ist euch gut, dass ich hingehe"
   opus = "BWV 108/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -58,11 +59,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Kommt her zu mir, spricht Got -- tes Sohn, all die ihr seid be -- schwe -- ret nun, mit Sün -- den hart be -- la -- den, ihr Jung -- en, Alt -- en, Frau und Mann, ich will euch ge -- ben, was ich han, will hei -- len eu -- ren Scha -- den.
+    \new Lyrics \lyricsto "soprano" {
+      Dein Geist, den Gott vom Him -- mel gibt, der lei -- tet al -- les, was ihn licht, auf wohl ge -- bähn -- ten We -- ge. _ Er setzt und rich -- tet un -- sern Fuss, dass er nicht an -- ders tre -- ten muss, als wo man findt den Se -- gen. _ _ _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
