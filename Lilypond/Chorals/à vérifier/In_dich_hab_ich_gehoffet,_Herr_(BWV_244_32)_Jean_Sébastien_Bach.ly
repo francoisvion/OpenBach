@@ -4,6 +4,7 @@
 
 \header {
  title = "In dich hab ich gehoffet, Herr"
+ subtitle = "tiré de la Passion selon saint Matthieu"
   opus = "BWV 244/32"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -50,11 +51,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      In dich hab' ich ge -- hof -- fet, Herr, Hilf, dass ich nicht zu -- schan -- den werd', noch e -- wig -- lich zu Spot -- te! Das bitt' ich dich, er -- hal -- te mich in dei -- ner Treu', mein Got -- te!
+    \new Lyrics \lyricsto "soprano" {
+      Mir hat die Welt trüg -- lich ge -- richt mit Lü -- gen und mit fal -- schem Gdicht, viel Netz und heim -- lich Stri -- cke. Herr, nimm mein wahr in die -- ser Gfahr, bhüt mich vor fal -- schen Tü -- cken! _ _ _ _ _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
