@@ -4,6 +4,7 @@
 
 \header {
  title = "Jesu, nun sei gepreiset"
+ subtitle = "tiré de la cantate : Jesu, nun sei gepreiset"
   opus = "BWV 41/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,6 +21,7 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  e''4
           e'' c'' d'' e''
           f''2 d''4\fermata d''
@@ -29,7 +31,7 @@
           d'' d'' d'' e''
           c''2 c''4\fermata c''
           b' c'' d'' d''
-          c''2.\fermata r4
+          c''2.\fermata r4 }
           r2.
           b'4
           b' b' b' b'
@@ -62,6 +64,7 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  g'4
           g' g' g' g'
           f'8 [g'] a'4 bes'\fermata a'
@@ -71,7 +74,7 @@
           g'4. fis'8 g'4 g'
           g' f'8 [e'] f'4\fermata g'
           g'8 [f'] e'4 a' g'8 [f']
-          e'2.\fermata r4
+          e'2.\fermata r4 }
           r2.
           g'4
           g' a' g' gis'
@@ -105,10 +108,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Je -- su, nun sei ge -- prei -- set zu die -- sem neu -- en Jahr für dein' Güt', uns be -- wei -- set in al -- ler Noth und G'fahr:
+      Dein ist al -- lein die Eh -- re, dein ist al -- lein der Ruhm; Ge -- duld im Kreuz uns leh -- re, re -- gier all un -- ser Tun, In -- des machs mit uns al -- len nach dei -- nem Wohl -- ge -- fal -- len: solchs sin -- get heut ohn Scher -- zen die christ -- gläu -- bi -- ge Schar, _ _ und wünscht mit Mund und Her -- zen ein se -- ligs neu -- es Jahr, und wünscht mit Mund und Her -- zen ein se -- ligs neu -- es Jahr.
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Dass wir ha -- ben er -- le -- bet die neu' fröh -- li -- che Zeit, die vol -- ler Gna -- den schwe -- bet und ew' -- ger Se -- lig -- keit. Das wir in gu -- ter Stil -- le das alt' Jahr hab'n er -- fül -- let. Wir woll'n uns dir er -- ge -- ben jetz -- und und im -- mer -- dar: be -- hü -- te uns Leib und Le -- ben hin -- fort das gan -- ze Jahr! Be -- hüt' uns Leib und Le -- ben hin -- fort durchs gan -- ze Jahr!
+      bis wir fröh -- lich ab -- schei -- den ins e -- wig Him -- mel -- reich, zu wah -- rem Fried~und Freu -- de, den Hei -- li -- gen Got -- tes gleich. In -- des machs mit uns al -- len nach dei -- nem Wohl -- ge -- fal -- len: solchs sin -- get heut ohn Scher -- zen die christ -- gläu -- bi -- ge Schar, _ _ und wünscht mit Mund und Her -- zen ein se -- ligs neu -- es Jahr, und wünscht mit Mund und Her -- zen ein se -- ligs neu -- es Jahr.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -118,6 +121,7 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  c'4
           c'8 [d'] e'4 d' c'
           c' f' f'\fermata a
@@ -127,7 +131,7 @@
           b [a] b [c'] d'4 c'8 [bes]
           bes4 a8 [g] a4\fermata e'
           d' c'~ c' b
-          g2.\fermata r4
+          g2.\fermata r4 }
           r2.
           d'4
           d'8 [e'] fis'4 e' e'
@@ -160,6 +164,7 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  c4
           c c' b bes
           a g8 [f] bes4\fermata fis
@@ -169,7 +174,7 @@
           g8 [fis] g [a] b [g] c'4
           f2 f4\fermata e8 [f]
           g4 a8 [g] f4 g8 [g,]
-          c2.\fermata r4
+          c2.\fermata r4 }
           r2.
           g,4
           g8 [fis] e [dis] e [d] c [b,]
