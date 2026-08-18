@@ -4,6 +4,7 @@
 
 \header {
  title = "In allen meinen Taten"
+ subtitle = "tiré de la cantate : Meine Seufzer, meine Tränen"
   opus = "BWV 13/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -56,11 +57,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Nun ru -- hen al -- le Wäl -- der, Vieh, Men -- schen, Städt' und Fel -- der, es schläft die gan -- ze Welt; ihr a -- ber mei -- ne Sin -- nen, auf, auf! ihr sollt be -- gin -- nen, was eu -- rem Schö -- pfer wohl -- ge -- fällt.
+    \new Lyrics \lyricsto "soprano" {
+      So sei nun See -- le dei -- ne, und trau -- e dem al -- lei -- ne, der dich er -- schaf -- fen hat; Es ge -- he, wie es ge -- he, Dein Va -- ter in der Hö -- he, Der weiß zu al -- len Sa -- chen Rat.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
