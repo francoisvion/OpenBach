@@ -4,6 +4,7 @@
 
 \header {
  title = "Jesu, meine Freude (vv. 1, 6)"
+ subtitle = "tiré du motet : Jesu, meine Freude"
   opus = "BWV 227/1"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -65,7 +66,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      
+      Je -- su, mei -- ne Freu -- de, mei -- nes Her -- zens Wei -- de, Je -- su, mei -- ne Zier! ach wie lang, ach lan -- ge ist dem Her -- zen ban -- ge und ver -- langt nach dir! Got -- tes Lamm, mein Bräu -- ti -- gam, au -- sser dir soll mir auf Er -- den nichts sonst Lie -- bers wer -- den.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
