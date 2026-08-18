@@ -4,6 +4,7 @@
 
 \header {
  title = "Jesu, nun sei gepreiset"
+ subtitle = "tiré de la cantate : Singet dem Herrn ein neues Lied"
   opus = "BWV 190/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -93,7 +94,7 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {
-      
+      Lass uns das Jahr voll -- brin -- gen zu Lob dem Na -- men dein, dass wir dem -- sel -- ben sin -- gen in der Chri -- sten ge -- mein; wollst uns das Le -- ben fri -- sten durch dein all -- mäch -- tig Hand, er -- halt dein lie -- ben Chri -- sten und un -- ser Va -- ter -- land. dein Se -- gen zu uns wen -- de, gib Fried an al -- lem En -- de; gib un -- ver -- fälscht im Lan -- de dein se -- lig -- ma -- chend Wort. Die Heuch -- ler mach zu -- schan -- den hier und an al -- lem Ort, die Heuch -- ler mach zu -- schan -- den hier und an al -- lem Ort.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
