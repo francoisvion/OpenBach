@@ -4,6 +4,7 @@
 
 \header {
  title = "Jesu Leiden, Pein und Tod"
+ subtitle = "tiré de la cantate : Sehet, wir gehn hinauf gen Jerusalem"
   opus = "BWV 159/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -58,11 +59,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Je -- su Lei -- den, Pein und Tod, Je -- su tie -- fe Wun -- den, ha -- ben Men -- schen, die nur Koth, heil -- sam -- lich ver -- bun -- den. Men -- schen, schafft die Sün -- de ab, wir sind Chri -- sten wor -- den, sol -- len kom -- men aus dem Grab in der En -- gel Or -- den.
+    \new Lyrics \lyricsto "soprano" {
+      Je -- su, dei -- ne Pas -- si -- on ist mir lau -- ter Freu -- de, dei -- ne Wun -- den, Kron und Hohn mei -- nes Her -- zens Wei -- de; mei -- ne Seel auf Ro -- sen geht, wenn ich dran ge -- den -- ke, in dem Him -- mel ei -- ne Stätt mir des -- we -- gen schen -- ke! _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
