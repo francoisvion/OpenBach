@@ -4,6 +4,7 @@
 
 \header {
  title = "Ich steh an deiner Krippen hier"
+ subtitle = "tiré de l'Oratorio de Noël, partie VI : Herr, wenn die stolzen Feinde schnauben"
   opus = "BWV 248/59"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,11 +21,12 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  g'4
           g'8 [a'] b'4 a' g'
           a' a' b'\fermata g'8 [a']
           b'4 c'' d'' c''8 [b']
-          a' [g'] a'4 g'\fermata
+          a' [g'] a'4 g'\fermata }
           b'
           b' a' g' fis'
           g'8 [a'] b'4 a'\fermata a'
@@ -35,11 +37,12 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  d'4
           e'8 [fis'] g'4 g'8 [fis'] g'4
           g' fis' g'\fermata e'8 [fis']
           g' b'4 a'16 [g'] fis'4 g'
-          g' fis' d'\fermata
+          g' fis' d'\fermata }
           g'
           g'4. fis'8 fis' [e'] e' [dis']
           e'4 d' d'\fermata d'
@@ -51,10 +54,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Es ist ge -- wiss -- lich an der Zeit, dass Got -- tes Sohn wird kom -- men
+      Ich steh an dei -- ner Krip -- pen hier, o Je -- su -- lein, mein Le -- ben; _ Nimm hin! Es ist mein Geist und Sinn, Herz, Seel und Mut, nimm al -- les hin, und lass dirs wohl -- ge -- fal -- len! _
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      in sei -- ner gro -- ssen Herr -- lich -- keit, zu rich -- ten Bös' und From -- men. Dann wird das La -- chen wer -- den theu'r, wann Al -- les soll ver -- gehn im Feu'r, wie Pe -- trus da -- von zeu -- get.
+      ich kom -- me, bring und schen -- ke dir, was du mir hast ge -- ge -- ben. _ Nimm hin! Es ist mein Geist und Sinn, Herz, Seel und Mut, nimm al -- les hin, und lass dirs wohl -- ge -- fal -- len! _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -64,11 +67,12 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  b4
           b e' e'8 [d'] d'4
           e'8 [c'] a [d'] d'4\fermata e'
           d' g8 [a] b [c'] d'4
-          d' c'8 [b] b4\fermata
+          d' c'8 [b] b4\fermata }
           d'
           d' d'8 [c'] b [c'] fis [b]
           b [a] a [g] fis4\fermata fis
@@ -79,11 +83,12 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  g8 [fis]
           e4. d8 c4. b,8
           c [a,] d4 g,\fermata c
           g8 [fis] e4 b8 [a] g4
-          d' d g\fermata
+          d' d g\fermata }
           g8 [a]
           b [c'] d'4 g8 [a] b4
           e8 [fis] g4 d\fermata d'8 [c']
