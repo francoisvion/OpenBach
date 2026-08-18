@@ -4,6 +4,7 @@
 
 \header {
  title = "Ich ruf zu dir, Herr Jesu Christ"
+ subtitle = "tiré de la cantate : Ich ruf zu dir, Herr Jesu Christ"
   opus = "BWV 177/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,11 +21,12 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  d''4
           bes' a'8 [bes'16 c''] bes'8 [a'] g' [a']
           bes'8. [c''16] c''4 d''\fermata d''8 [ees'']
           f'' [ees''] d'' [c''] bes'4 c''8 [d'']
-          ees''2 d''4\fermata
+          ees''2 d''4\fermata }
           f''
           g'' f''8 [ees''] d'' [c''] bes' [c'']
           d'' [ees''] c''4 bes'\fermata d''
@@ -38,11 +40,12 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  a'4
           g' fis' g'8 [fis'] g' [fis']
           g'4. a'8 fis'4\fermata g'
           f' f' g' f'
-          ees'8 g'4 fis'8 g'4\fermata
+          ees'8 g'4 fis'8 g'4\fermata }
           f'8 [bes'16 aes']
           g'4 a' a' bes'
           bes'8 [c''] a'4 f'\fermata f'8 [g']
@@ -57,10 +60,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Ich ruf' zu dir, Herr Je -- su Christ, ich bitt' er -- hör' mein Kla -- gen,
+      Ich lieg im Streit und wi -- der -- streb, hilf, o Herr Christ, dem Schwa -- chen! Kommt nun An -- fech -- tung, Herr, so wehr, dass sie mich nicht um -- sto -- ßen. Du kannst ma -- ßen, dass mirs nicht bring Ge -- fahr; ich weiß, du wirsts nicht las -- sen. _
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      ver -- leih' mir Gnad' zu die -- ser Frist, lass mich doch nicht ver -- za -- gen. Den rech -- ten Weg, o Herr, ich mein', den wol -- lest du mir ge -- ben, dir zu le -- ben, mein'm Näch -- sten nütz zu sein, dein Wort zu hal -- ten e -- ben.
+      An dei -- ner Gnad al -- lein ich kleb, du kannst mich stär -- ker ma -- chen. Kommt nun An -- fech -- tung, Herr, so wehr, dass sie mich nicht um -- sto -- ßen. Du kannst ma -- ßen, dass mirs nicht bring Ge -- fahr; ich weiß, du wirsts nicht las -- sen. _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -70,11 +73,12 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  d'4
           d'8 ees'4 d'16 [c'] d'2~
           d'8 d' c'16 [bes a g] a4\fermata bes
           c' bes8 [aes] g4 a8 [b]
-          c' [bes] a4 bes\fermata
+          c' [bes] a4 bes\fermata }
           bes
           bes8 [ees'] d' [c'] d'4. ees'8
           f' [g'] f' [ees'] d'4\fermata bes
@@ -88,11 +92,12 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  fis4
           g2~ g8 a bes [a]
           g [f] ees4 d\fermata g,
           a, bes, ees8 [f] ees [d]
-          c2 g,4\fermata
+          c2 g,4\fermata }
           d
           ees f fis g
           f8 [ees] f4 bes,\fermata bes
