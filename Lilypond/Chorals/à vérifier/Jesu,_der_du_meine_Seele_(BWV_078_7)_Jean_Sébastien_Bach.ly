@@ -4,6 +4,7 @@
 
 \header {
  title = "Jesu, der du meine Seele"
+ subtitle = "tiré de la cantate : Jesu, der du meine Seele"
   opus = "BWV 78/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -58,11 +59,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Je -- su, der du mei -- ne See -- le hast durch dei -- nen bit -- tern Tod aus des Teu -- fels fin -- strer Höh -- le und der schwe -- ren Sün -- den -- noth kräf -- tig -- lich her -- aus -- ge -- ris -- sen und mich Sol -- ches las -- sen wis -- sen durch dein an -- ge -- neh -- mes Wort: sei doch itzt, o Gott, mein Hort.
+    \new Lyrics \lyricsto "soprano" {
+      Herr, ich glau -- be, hilf mir Schwa -- chen, lass mich ja ver -- za -- gen nicht; du, du kannst mich stär -- ker ma -- chen, wenn mich Sünd und Tod an -- flicht. Dei -- ner Gü -- te will ich trau -- en, bis ich fröh -- lich wer -- de schau -- en dich, Herr Je -- su, nach dem Streit in der süs -- sen E -- wig -- keit.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
