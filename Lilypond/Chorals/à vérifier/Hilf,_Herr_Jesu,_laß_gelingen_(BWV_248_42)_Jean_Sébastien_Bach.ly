@@ -4,6 +4,7 @@
 
 \header {
  title = "Hilf, Herr Jesu, laß gelingen"
+ subtitle = "tiré de l'Oratorio de Noël, partie IV : Fallt mit Danken, fallt mit Loben"
   opus = "BWV 248/42"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,6 +21,7 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           r2.
           r
           r
@@ -35,23 +37,7 @@
           d''4 bes'2
           c'' f'4
           bes' a'2
-          g'2.
-          r
-          r
-          r
-          r
-          c''4 a'2
-          g' f'4
-          bes' c''4. d''16 [ees'']
-          d''2.
-          c''
-          r
-          r
-          r
-          d''4 bes'2
-          c'' f'4
-          bes' a'2
-          g'2.
+          g'2. }
           r
           r
           r
@@ -76,6 +62,7 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           r2.
           r
           r
@@ -91,23 +78,7 @@
           a'4 g'2
           g'4 f' f'
           f'8 [g'] g'4 f'
-          e'2.
-          r
-          r
-          r
-          r
-          a'4 f'2
-          f'4 e' f'
-          d' g' f'
-          f'2.
-          f'
-          r
-          r
-          r
-          a'4 g'2
-          g'4 f' f'
-          f'8 [g'] g'4 f'
-          e'2.
+          e'2. }
           r
           r
           r
@@ -133,10 +104,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
+      Je -- sus rich -- te mein Be -- gin -- nen, _ Je -- sus blei -- be stets bei mir, Je -- sus sei mir in Ge -- dan -- ken, _ Je -- su, las -- se mich nicht wan -- ken! _ _ _
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Hilf, Herr Je -- su lass ge -- lin -- gen, hilf, das neu -- e Jahr, geht an, lass es neu -- e Kräf -- te brin -- gen, dass auf's neu' ich wan -- deln kann. Neu -- es Glück und neu -- es Le -- ben wollst du mir aus Gna -- de ge -- ben.
+      Je -- sus zäu -- me mir die Sin -- nen, _ Je -- sus sei nur mein Be -- gier, Je -- sus sei mir in Ge -- dan -- ken, _ Je -- su, las -- se mich nicht wan -- ken! _ _ _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -146,6 +117,7 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           r2.
           r
           r
@@ -161,23 +133,7 @@
           f'4 d'2
           c'8 [bes] a4 a
           d'8 [c'] c'2
-          c'2.
-          r
-          r
-          r
-          r
-          f'4 c'2
-          c'4. bes8 a4
-          bes2 a8 [bes16 c']
-          c'4 bes8 [a] bes4
-          a2.
-          r
-          r
-          r
-          f'4 d'2
-          c'8 [bes] a4 a
-          d'8 [c'] c'2
-          c'2.
+          c'2. }
           r
           r
           r
@@ -202,6 +158,7 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           r2.
           r
           r
@@ -217,23 +174,7 @@
           d4 g f
           e f8 [e] d [c]
           d [e] f4 f
-          c2.
-          r
-          r
-          r
-          r
-          f8 [g] a4 f
-          c2 d4
-          g8 [f] ees4 f
-          bes,8 [c] d4 bes,
-          f2.
-          r
-          r
-          r
-          d4 g f
-          e f8 [e] d [c]
-          d [e] f4 f
-          c2.
+          c2. }
           r
           r
           r
