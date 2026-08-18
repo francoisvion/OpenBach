@@ -4,6 +4,7 @@
 
 \header {
  title = "Jesu, meiner Seelen Wonne"
+ subtitle = "tiré de la cantate : Mein liebster Jesus ist verloren"
   opus = "BWV 154/3"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,10 +21,11 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           cis''4 d'' e'' e''
           d'' cis'' b' b'\fermata
           cis'' d'' e'' d''
-          b' b' a'2\fermata
+          b' b' a'2\fermata }
           b'4 cis'' d'' d''
           cis'' cis'' b'2\fermata
           d''4 e'' fis'' fis''
@@ -35,10 +37,11 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           a'4 a' gis' a'
           a'8 [gis'] a'4 gis' gis'\fermata
           a' a' b' a'
-          a' gis' e'2\fermata
+          a' gis' e'2\fermata }
           gis'4 ais' b' b'
           b' ais' fis'2\fermata
           fis'4 a' a' a'
@@ -51,10 +54,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Wer -- de mun -- ter mein Ge -- mü -- te, und ihr Sin -- ne geht her -- für,
+      Je -- su, mein Hort und Er -- ret -- ter, Je -- su, mei -- ne Zu -- ver -- sicht, Wie ver -- lan -- get mei -- nem Her -- zen, Je -- su -- lein, nach dir mit Schmer -- zen! Komm, ach komm, ich war -- te dein, komm, o lieb -- stes Je -- su -- lein!
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Dass ihr prei -- set Got -- tes Gü -- te, die er hat ge -- tan an mir, da er mich den gan -- zen Tag vor so manch -- er schwe -- ren Plag, hat er -- hal -- ten und be -- schü -- tzet, dass mich Sa -- tan nicht be -- schmi -- tzet.
+      Je -- su, star -- ker Schlan -- gen -- tre -- ter, Je -- su, mei -- nes Le -- bens Licht! Wie ver -- lan -- get mei -- nem Her -- zen, Je -- su -- lein, nach dir mit Schmer -- zen! Komm, ach komm, ich war -- te dein, komm, o lieb -- stes Je -- su -- lein!
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -64,10 +67,11 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           e'4 fis' e'8 [d'] cis'4
           d' e' e' e'\fermata
           e' fis' b cis'8 [d']
-          e' [b] e' [d'] cis'2\fermata
+          e' [b] e' [d'] cis'2\fermata }
           e'4 e' fis' fis'
           fis'8 [cis'] fis' [e'] d'2\fermata
           d'4 cis' d' d'
@@ -79,10 +83,11 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           a4 fis cis fis
           b, cis8 [d] e4 e\fermata
           a8 [gis] fis4 gis a
-          e e a,2\fermata
+          e e a,2\fermata }
           e4 d8 [cis] b, [cis] d [e]
           fis4 fis b,2\fermata
           b4 a8 [g] fis [e] d4
