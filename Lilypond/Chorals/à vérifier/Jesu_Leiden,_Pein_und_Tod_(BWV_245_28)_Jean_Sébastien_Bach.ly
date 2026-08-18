@@ -4,6 +4,7 @@
 
 \header {
  title = "Jesu Leiden, Pein und Tod"
+ subtitle = "tiré de la Passion selon saint Jean"
   opus = "BWV 245/28"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -58,11 +59,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Je -- su Lei -- den, Pein und Tod, Je -- su tie -- fe Wun -- den, ha -- ben Men -- schen, die nur Koth, heil -- sam -- lich ver -- bun -- den. Men -- schen, schafft die Sün -- de ab, wir sind Chri -- sten wor -- den sol -- len kom -- men aus dem Grab in der En -- gel Or -- den.
+    \new Lyrics \lyricsto "soprano" {
+      Er nahm al -- les wohl in acht in der letz -- ten Stun -- de, sei -- ne Mut -- ter noch be -- dacht, setzt ihr ein Vor -- mun -- de. O Mensch, ma -- che Rich -- tig -- keit, Gott und Men -- schen lie -- be, stirb da -- rauf ohn al -- les Leid, und dir nicht be -- trü -- be! _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
