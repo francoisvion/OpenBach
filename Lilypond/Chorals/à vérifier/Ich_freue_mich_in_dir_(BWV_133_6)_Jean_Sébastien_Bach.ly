@@ -4,6 +4,7 @@
 
 \header {
  title = "Ich freue mich in dir"
+ subtitle = "tiré de la cantate : Ich freue mich in dir"
   opus = "BWV 133/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,11 +21,12 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  fis'8 [g']
           a'4 b' a' g'8 [fis']
           fis'2\fermata r4 a'
           b' cis'' d'' d''8 [cis'']
-          cis''2 b'4\fermata
+          cis''2 b'4\fermata }
           e''8 [d'']
           cis''4 d''8 [cis''] b'4. a'8
           a'2.\fermata a'4
@@ -38,11 +40,12 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  d'8 [cis']
           d'4 d' d'8 [cis'16 b] cis'4
           d'2\fermata r4 fis'
           gis' ais' b' fis'
-          fis'4. e'8 d'4\fermata
+          fis'4. e'8 d'4\fermata }
           e'
           e' fis' fis'8 [d'] e'4
           e'2.\fermata e'4
@@ -57,10 +60,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Ich freu -- e mich in dir und hei -- sse dich will kom -- men,
+      Wohl -- an! so will ich mich an dich, o Je -- su hal -- ten, O Je -- su, dir, nur dir, dir leb ich ganz al -- lein; auf dich, al -- lein auf dich, mein Je -- su, schlaf ich ein.
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      mein lieb -- stes Je -- su -- lein; du hast dir vor -- ge -- nom -- men mein Brü -- der -- lein zu sein. Ach, wie ein sü -- sser Ton! Wie freund -- lich sieht er aus, der hol -- de Got -- tes -- sohn.
+      und soll -- te gleich ich die~Welt in tau -- send Stü -- cken spal -- ten. O Je -- su, dir, nur dir, dir leb ich ganz al -- lein; auf dich, al -- lein auf dich, mein Je -- su, schlaf ich ein.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -70,11 +73,12 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  a4
           a g fis8 [e] a4
           a2\fermata r4 a
           e' e' fis' b
-          b ais b\fermata
+          b ais b\fermata }
           b
           a a a gis
           cis'2.\fermata cis'4
@@ -88,11 +92,12 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  d8 [e]
           fis4 g a a,
           d2\fermata r4 d
           d cis b,8 [cis] d [e]
-          fis2 b,4\fermata
+          fis2 b,4\fermata }
           gis
           a8 [gis] fis [e] d [b,] e4
           a,2.\fermata a4

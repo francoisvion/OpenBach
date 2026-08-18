@@ -4,6 +4,7 @@
 
 \header {
  title = "Ich dank dir, lieber Herre"
+ subtitle = "tiré de la cantate : Wer da gläubet und getauft wird"
   opus = "BWV 37/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -68,10 +69,7 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
+    \new Lyrics \lyricsto "soprano" {
       Ich dank' dir, lie -- ber Her -- re, dass du mich hast be -- wahrt in die -- ser Nacht Ge -- fäh -- re, da -- rin ich lag so hart mit Fin -- ster -- niss um -- fan -- gen, da -- zu in gro -- sser Noth, da -- raus ich bin ent -- gan -- gen, halfst du mir, Her -- re Gott!
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
