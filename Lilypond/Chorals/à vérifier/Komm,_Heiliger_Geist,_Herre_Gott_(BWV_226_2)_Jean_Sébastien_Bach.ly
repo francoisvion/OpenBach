@@ -4,6 +4,7 @@
 
 \header {
  title = "Komm, Heiliger Geist, Herre Gott"
+ subtitle = "tiré du motet : Der Geist hilft unser Schwachheit auf"
   opus = "BWV 226/2"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -82,11 +83,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Komm, hei -- li -- ger Geist, Her -- re Gott, er -- füll' mit dei -- ner Gna -- den Gut dei -- ner Gläu -- bi -- gen Herz Muth und Sinn! Dein' brün -- stig' Lie -- be ent -- zünd' in ihn'n! O Herr, durch dei -- nes Lich -- tes Glanz zu dem Glau -- ben ver -- sam -- melt hast das Volk aus al -- ler Welt Zun -- gen; das sei dir, Herr, zu Lob' ge -- sun -- gen. Al -- le -- lu -- ja, Al -- le -- lu -- ja.
+    \new Lyrics \lyricsto "soprano" {
+      Du hei -- li -- ge Brunst, sü -- ßer Trost, nun hilf uns, fröh -- lich und ge -- trost in dei -- nem Dienst be -- stän -- dig blei -- ben, die Trüb -- sal uns nicht ab -- trei -- ben, O Herr, duch dein Kraft uns be -- reit und stärk des Flei -- sches Blö -- dig -- keit, dass wir hier rit -- ter -- lich rin -- gen, durch Tod und Le -- ben zu dir drin -- gen, Hal -- le -- lu -- ja! Hal -- le -- lu -- ja! _ _ _ _ _ _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
