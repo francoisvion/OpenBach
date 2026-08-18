@@ -4,6 +4,7 @@
 
 \header {
  title = "Herzlich tut mich verlangen"
+ subtitle = "tiré de la cantate : Komm, du süße Todesstunde"
   opus = "BWV 161/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,11 +21,12 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  e'4
           a' g' f' e'
           d'2 e'4 b'
           c'' c'' b' b'
-          a'2.
+          a'2. }
           c''4
           b'8 [c''16 d''] g'4 a' b'
           c''2 c''4 g'
@@ -37,11 +39,12 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  e'4
           e'8 [d'] d'4 d'8 [d'] c' [b]
           a2 b4 e'
           e' f' f' e'8 [d']
-          cis'4 d' c'
+          cis'4 d' c' }
           a'8 [g']
           f'4 e' e'8 [c'] f'4
           g'4. f'8 e'4 c'
@@ -55,10 +58,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Be -- fiehl du dei -- ne We -- ge, und was dein Her -- ze kränkt,
+      Der Leib zwar in der Er -- den von Wür -- mern wird ver -- zehrt, wird leuch -- ten als die Son -- ne und le -- ben oh -- ne Not in himml' -- scher Freud und Won -- ne. Was schadt mir denn der Tod?
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      der al -- ler -- treu -- sten Pfle -- ge des, der den Him -- mel lenkt. Der Wol -- ken, Luft und Win -- den gibt We -- ge, Lauf und Bahn, der wird auch We -- ge fin -- den, da dein Fuss ge -- hen kann.
+      doch auf -- er -- weckt soll~Er wer -- den, durch Chri -- stum schön ver -- klärt, wird leuch -- ten als die Son -- ne und le -- ben oh -- ne Not in himml' -- scher Freud und Won -- ne. Was schadt mir denn der Tod?
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -68,11 +71,12 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  g8 [b]
           a [c'] b4 c'8 [g] g4
           a8 [f] d [d'] gis4 gis
           a4. c'8 d' [d] g [f]
-          e4 f8. [g16] a4
+          e4 f8. [g16] a4 }
           e'
           d' d'8 [c'] c'4 d'
           g a8 [b] c'4 c'
@@ -85,11 +89,12 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  e4
           f g a,8 [b,] c4
           f,2 e,4 e
           a8 [g] f [e] d [b,] e4
-          a,2.
+          a,2. }
           a4
           d e f d
           c2 c4 e

@@ -4,6 +4,7 @@
 
 \header {
  title = "Herzliebster Jesu (vv. 8–9)"
+ subtitle = "tiré de la Passion selon saint Jean"
   opus = "BWV 245/17"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -55,10 +56,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
+      Ach, gro -- ßer Kö -- nig, groß zu al -- len Zei -- ten, wie kann ich gnug -- sam die -- se Treu aus -- brei -- ten? Keins Men -- schen Her -- ze mag in -- des aus -- den -- ken, was dir zu schen -- ken. _
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Herz -- lieb -- ster Je -- su, was hast du ver -- bro -- chen, dass man ein solch hart Ur -- theil hat ge -- sproch -- en? Was ist die Schul -- din was für Mi -- sse -- tha -- ten bist du ge -- ra -- then?
+      Ich kann's mit mei -- nen Sin -- nen nicht er -- rei -- chen, wo -- mit doch dein Er -- bar -- men zu ver -- glei -- chen. Wie kann ich dir denn dei -- ne Lie -- bes -- ta -- ten im Werk er -- stat -- ten? _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {

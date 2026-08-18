@@ -4,6 +4,7 @@
 
 \header {
  title = "Herzliebster Jesu"
+ subtitle = "tiré de la Passion selon saint Matthieu"
   opus = "BWV 244/3"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -50,11 +51,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Herz -- lieb -- ster Je -- su, was hast du ver -- bro -- chen, dass man ein solch hart Ur -- theil hat ge -- sproch -- en? Was ist die Schul -- din was für Mi -- sse -- tha -- ten bist du ge -- ra -- then?
+    \new Lyrics \lyricsto "soprano" {
+      Herz -- lieb -- ster Je -- su, was hast du ver -- bro -- chen, dass man ein solch scharf Ur -- teil hat ge -- spro -- chen? Was ist die Schuld, in was für Mis -- se -- ta -- ten bist du ge -- ra -- ten?
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
