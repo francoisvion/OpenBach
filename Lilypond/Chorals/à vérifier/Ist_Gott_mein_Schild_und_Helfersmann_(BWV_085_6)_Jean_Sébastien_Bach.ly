@@ -4,6 +4,7 @@
 
 \header {
  title = "Ist Gott mein Schild und Helfersmann"
+ subtitle = "tiré de la cantate : Ich bin ein guter Hirt"
   opus = "BWV 85/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -56,10 +57,7 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
+    \new Lyrics \lyricsto "soprano" {
       Ist Gott mein Schild und Hel -- fers -- mann, was wird wein, dass mir scha -- den kann? Weicht al -- le mei -- ne Fein -- de, die ihr mir li -- stig -- lich nach -- steht, nur eu -- rer Schmach ent -- ge -- gen geht; ich ha -- be Gott zum Freun -- de, ich ha -- be Gott zum Freun -- de.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
