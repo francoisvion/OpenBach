@@ -4,6 +4,7 @@
 
 \header {
  title = "Jesu, meine Freude"
+ subtitle = "tiré de la cantate : Sehet, welch eine Liebe hat uns der Vater erzeiget"
   opus = "BWV 64/8"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,12 +21,13 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           b'4 b' a' g'
           fis'2 e'\fermata
           b'4 b' cis'' dis''
           e''2 dis''\fermata
           e''4 g'' fis''4. fis''8
-          e''1\fermata
+          e''1\fermata }
           b'4 b' c'' b'
           a'4. g'8 g'2\fermata
           b'4 cis'' d'' b'
@@ -36,12 +38,13 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           g'4 g'8 [fis'] e'4 e'
           e' dis' b2\fermata
           g'4 g' a'8 [g'] fis'4
           e' fis' fis'2\fermata
           g'8 [a'] b'4 b' a'
-          g'1\fermata
+          g'1\fermata }
           g'8 [fis'] e' [dis'] e' [fis'] g'4
           g' fis' d'2\fermata
           g'4 g' fis' fis'
@@ -53,10 +56,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Je -- su, mei -- ne Freu -- de, mei -- nes Her -- zens Wei -- de, Je -- su, mei -- ne Zier!
+      Gu -- te Nacht, o We -- sen, das die Welt er -- le -- sen! Mir ge -- fällst du nicht. Gu -- te Nacht, du Stolz und Pracht! Dir sei ganz, o La -- ster -- le -- ben, gu -- te Nacht ge -- ge -- ben!
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      ach wie lang', ach lan -- ge ist dem Her -- zen ban -- ge und ver -- langt nach dir! Got -- tes Lamm, mein Bräu -- ti -- gam, au -- sser dir soll mir auf Er -- den nichts sonst Lie -- bers wer -- den.
+      Gu -- te Nacht, ihr Sün -- den, blei -- bet weit da -- hin -- ten, kommt nicht mehr ans Licht! Gu -- te Nacht, du Stolz und Pracht! Dir sei ganz, o La -- ster -- le -- ben, gu -- te Nacht ge -- ge -- ben!
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -66,12 +69,13 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           e'4 d' c' b
           c' b8 [a] g2\fermata
           e'4 d' a8 [b] c'4
           b cis' b2\fermata
           b4 e' e' dis'
-          b1\fermata
+          b1\fermata }
           e'4 b a g
           e' d' b2\fermata
           d'4 e' ais b
@@ -82,12 +86,13 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           e8 [fis] g4 c8 [d] e4
           a, b, e2\fermata
           e8 [fis] g4 fis8 [g] a4
           gis ais b2\fermata
           g8 [fis] e4 b b,
-          e1\fermata
+          e1\fermata }
           e8 [fis] g4 c8 [d] e4
           cis d g,2\fermata
           g8 [fis] e4 fis8 [e] d4
