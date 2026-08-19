@@ -4,6 +4,7 @@
 
 \header {
  title = "Lobt Gott, ihr Christen, allzugleich"
+ subtitle = "tiré de la cantate : Süßer Trost, mein Jesus kömmt"
   opus = "BWV 151/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -50,11 +51,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Lobt Gott, ihr Chris -- ten all -- zu -- gleich, in sei -- nem höch -- sten Thron, der heut' auf schleusst sein Him -- mel -- reich und schenkt uns sei -- nen Sohn, und schenkt uns sei -- nen Sohn.
+    \new Lyrics \lyricsto "soprano" {
+      Heut schleußt er wie -- der auf die Tür zum schö -- nen Pa -- ra -- deis, der Che -- rub steht nicht mehr da -- für, Gott sei Lob, Ehr und Preis, Gott sei Lob, Ehr und Preis. _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
