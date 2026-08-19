@@ -3,7 +3,8 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Liebster Immanuel, Herzog ..."
+ title = "Liebster Immanuel, Herzog der Frommen"
+ subtitle = "tiré de la cantate : Liebster Immanuel, Herzog der Frommen"
   opus = "BWV 123/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,10 +21,11 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           d''2 d'' d''
           cis''2. b'4 a'2\fermata
           b' g' fis'4 e'
-          e'1 d'2\fermata
+          e'1 d'2\fermata }
           a' a' fis'
           b'2. cis''4 d''2
           d'4 e' e'2. fis'4
@@ -39,10 +41,11 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           fis'2 fis' eis'4 fis'
           gis'2 eis' fis'\fermata
           g' e' d'
-          d' cis' a\fermata
+          d' cis' a\fermata }
           d' e' d'
           d' g' fis'
           fis' e'4 d' cis' b
@@ -59,10 +62,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Lieb -- ster Im -- ma -- nu -- el, Her -- zog der From -- men, du mei -- ner See -- len Trost, komm, komm nur bald!
+      Drum fahrt nur im -- mer hin, ihr Ei -- tel -- kei -- ten, _ du, Je -- su, du bist mein, und ich bin dein; _ Mein gan -- zes Le -- ben sei dir er -- ge -- ben, bis man mich ein -- sten legt ins Grab hin -- ein. _
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Du hast mir, höch -- ster Schatz! mein Herz ge -- nom -- men, so ganz vor Lie -- be brennt und nach dir wallt. Nichts kann auf Er -- den mir lie -- ber wer -- den wenn ich, o Je -- su, dich nur stets be -- halt.
+      ich will mich von der Welt zu dir be -- rei -- ten; _ du sollst in mei -- nem Herz und Mun -- de sein. _ Mein gan -- zes Le -- ben sei dir er -- ge -- ben, bis man mich ein -- sten legt ins Grab hin -- ein. _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -72,10 +75,11 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           b2 b b4 a
           gis2 cis' cis'\fermata
           d' e'4 a a2
-          a2. g4 fis2\fermata
+          a2. g4 fis2\fermata }
           a a a
           g4 a b2 b
           b b e'
@@ -91,10 +95,11 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           b,2 b4 a gis fis
           eis2 cis fis\fermata
           b, cis d
-          a a, d\fermata
+          a a, d\fermata }
           fis cis d
           g e b,
           g, g, g
