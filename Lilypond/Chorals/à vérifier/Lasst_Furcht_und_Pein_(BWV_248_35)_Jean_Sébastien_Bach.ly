@@ -4,6 +4,7 @@
 
 \header {
  title = "Lasst Furcht und Pein"
+ subtitle = "tiré de l'Oratorio de Noël, partie III : Herrscher des Himmels, erhöre das Lallen"
   opus = "BWV 248/35"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -54,11 +55,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Wir Chri -- sten -- leut'; Wir Chri -- sten -- leut'; hab'n jetz -- und Freud', weil uns zu Trost ist Chri -- stus Mensch ge -- bo -- ren; hat uns er -- löst, wer sich des tröst't und gläu -- bet fest, soll nicht wer -- den ver -- lo ren.
+    \new Lyrics \lyricsto "soprano" {
+      Seid froh, die -- weil, seid froh, die -- weil dass eu -- er Heil ist hier ein Gott und auch ein Mensch ge -- bo -- ren, wel -- cher ist der Herr und Christ in Da -- vids Stadt, von vie -- len aus -- er -- ko -- ren. _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
