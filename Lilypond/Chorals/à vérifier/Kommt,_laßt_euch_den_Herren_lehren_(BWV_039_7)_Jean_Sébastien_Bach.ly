@@ -4,6 +4,7 @@
 
 \header {
  title = "Kommt, laßt euch den Herren lehren"
+ subtitle = "tiré de la cantate : Brich dem Hungrigen dein Brot"
   opus = "BWV 39/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,10 +21,11 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           bes'4 c'' d'' c''
           bes' a' g' f'\fermata
           bes' c'' d'' ees''
-          d'' c'' bes'2\fermata
+          d'' c'' bes'2\fermata }
           d''4 ees'' f'' g''
           f'' ees'' d''2\fermata
           f''4 f'' g'' f''
@@ -36,10 +38,11 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           f'4 f' f' f'
           f'8 [e'] f'4 e' c'\fermata
           g' f' f' ees'
-          f' f'8 [ees'] d'2\fermata
+          f' f'8 [ees'] d'2\fermata }
           bes'4 a'8 [g'] f' [g'16 aes'] g'4
           g' g' fis'2\fermata
           f'4 bes' bes' a'
@@ -53,10 +56,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Freu' dich sehr, o mei -- ne See -- le und ver -- giss all Noth und Qual,
+      Se -- lig sind, die aus Er -- bar -- men sich an -- neh -- men frem -- der Not, Die be -- hilf -- lich sind mit Rat, auch, wo -- mög -- lich, mit der Tat, wer -- den wie -- der Hilf emp -- fan -- gen und Barm -- her -- zig -- keit er -- lan -- gen.
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      weil dich nun Chri -- stus, dein Her -- re, ruft aus die -- sem Jam -- mer -- thal. Aus Trüb -- sal und gro -- ssem Leid sollst du fah -- ren in die Freud, die kein Ohr je hat ge -- hö -- ret und in E -- wig -- keit auch wäh -- ret.
+      sind mit -- lei -- dig mit den Ar -- men, bit -- ten treu -- lich für sie Gott. Die be -- hilf -- lich sind mit Rat, auch, wo -- mög -- lich, mit der Tat, wer -- den wie -- der Hilf emp -- fan -- gen und Barm -- her -- zig -- keit er -- lan -- gen.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -66,10 +69,11 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           d'4 c' bes a
           bes c' c'8 [bes] a4\fermata
           d' c' bes8 [a] bes4
-          bes a f2\fermata
+          bes a f2\fermata }
           f'4 ees' a8 [b] c'4
           bes ees' a2\fermata
           bes8 [c'] d'4 ees'8 [d'] c'4
@@ -82,10 +86,11 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           bes4 a bes f
           g a8 [bes] c' [c] f4\fermata
           g a bes g
-          f8 [ees] f4 bes,2\fermata
+          f8 [ees] f4 bes,2\fermata }
           bes,4 c d ees8 [f]
           g [f] ees4 d2\fermata
           d4 bes, ees f
