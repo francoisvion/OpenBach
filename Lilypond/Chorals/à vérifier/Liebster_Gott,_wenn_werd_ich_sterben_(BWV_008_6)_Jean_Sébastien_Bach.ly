@@ -4,6 +4,7 @@
 
 \header {
  title = "Liebster Gott, wenn werd ich sterben"
+ subtitle = "tiré de la cantate : Liebster Gott, wenn werd ich sterben"
   opus = "BWV 8/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -20,11 +21,12 @@
       <<
         \new Voice = "soprano" {
           \voiceOne
+          \repeat volta 2 {
           r4 b'8 [b'] e''4 b'
           cis'' b' a'4. b'16 [a']
           gis'4 fis' r b'8 [a']
           gis'4 cis''8 [b'] ais' [fis'] b'4~
-          b' ais' b'2
+          b' ais' b'2 }
           b'4 ais' b'2
           r4 fis'8 [gis'] a'4 gis'
           cis''4. dis''8 bis'2
@@ -39,11 +41,12 @@
         }
         \new Voice = "alto" {
           \voiceTwo
+          \repeat volta 2 {
           r2 r4 gis'8 [gis']
           a'4. gis'8 gis' [fis'16 e'] fis'8 [fis']
           e'4 dis' dis' dis'
           r gis' fis' fis'
-          fis' fis' fis'2
+          fis' fis' fis'2 }
           fis'4 fis' fis'2
           r fis'4 e'8 [fis']
           gis' [fis'] gis' [a'] gis'2
@@ -59,10 +62,10 @@
       >>
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Lieb -- ster Gott, wann werd' ich ster -- ben? Mei -- ne Zeit läuft im -- mer hin,
+      Herr -- scher ü -- ber Tod und Le -- ben mach ein -- mal mein En -- de gut, _ Hilf, dass ich ein ehr -- lich Grab ne -- ben from -- men Chri -- sten hab und auch end -- lich in der Er -- de nim -- mer -- mehr zu -- schan -- den wer -- de. _ _ _ _ _
     }
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      und des al -- ten A -- dams Er -- ben, un -- ter de -- nen ich auch bin, ha -- ben das zum Va -- ter -- teil, dass sie ein -- e klein -- e Weil arm und e -- lend sein auf Er -- den, und dann sel -- ber Er -- de wer -- den.
+      Leh -- re mich den Geist auf -- ge -- ben mit recht wohl -- ge -- fasst -- tem Mut. _ Hilf, dass ich ein ehr -- lich Grab ne -- ben from -- men Chri -- sten hab und auch end -- lich in der Er -- de nim -- mer -- mehr zu -- schan -- den wer -- de. _ _ _ _ _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -72,11 +75,12 @@
       <<
         \new Voice = "tenor" {
           \voiceOne
+          \repeat volta 2 {
           r2 r4 e'8 [e']
           e'4 e' cis' b
           b b r2
           r4 e'8 [dis'] cis'4 dis'
-          cis' cis' dis'2
+          cis' cis' dis'2 }
           cis'4 cis' dis'2
           r r4 e'8 [dis']
           cis' [a'] gis' [fis'] dis'2
@@ -91,11 +95,12 @@
         }
         \new Voice = "bass" {
           \voiceTwo
+          \repeat volta 2 {
           e,4 r r e8 [e]
           a4 e fis dis
           e b,8 [cis] dis2
           e8 [e,] e4~ e8 dis cis [b,]
-          fis4 fis, b,2
+          fis4 fis, b,2 }
           fis8 [e] fis4 b,2
           dis4 b, fis, cis8 [dis]
           e [dis] e [fis] gis,4 gis8 [fis]
