@@ -3,7 +3,8 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Meinen Jesum laß ich nicht, weil ..."
+ title = "Meinen Jesum laß ich nicht"
+ subtitle = "tiré de la cantate : Wachet! betet! betet! wachet!"
   opus = "BWV 70/11"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -52,11 +53,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Mei -- nen Je -- sum lass' ich nicht, weil er sich für mich ge -- ge -- ben: so er -- for -- dert mei -- ne Pflicht, klet -- ten -- weis an ihm zu kle -- ben Er ist mei -- nes Le -- bens Licht, mei -- nen Je -- sum lass' ich nicht.
+    \new Lyrics \lyricsto "soprano" {
+      Nicht nach Welt, nach Him -- mel nicht mei -- ne See -- le wünscht und seh -- net; Je -- sum wünscht sie und sein Licht, der mich hat mit Gott ver -- söh -- net, der mich frei -- et vom Ge -- richt; mei -- nen Je -- sum lass ich nicht.
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
