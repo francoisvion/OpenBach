@@ -4,6 +4,7 @@
 
 \header {
  title = "Meine Seele erhebt den Herren (doxology)"
+ subtitle = "tiré de la cantate : Meine Seel erhebt den Herren"
   opus = "BWV 10/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -70,11 +71,8 @@
         }
       >>
     }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      
-    }
-    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Mei -- ne Seel’ er -- hebt den Her -- ren; und mein Geist freut sich Got -- tes, mei -- nes Hei -- lands. denn er hat sein’ e -- lend’ Magd an -- ge -- se -- hen, Sieh’, von nun an wer -- den mich se -- lig prei -- sen all’ Kin -- des -- kind.
+    \new Lyrics \lyricsto "soprano" {
+      Lob und Preis sei Gott dem Va -- ter und dem Sohn und dem hei -- li -- gen Gei -- ste, wie es war im An -- fang jetzt und im -- mer -- dar und von E -- wig -- keit zu E -- wig -- keit, A -- men. _ _ _ _ _
     }
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
