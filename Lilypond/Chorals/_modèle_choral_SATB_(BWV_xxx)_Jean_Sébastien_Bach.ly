@@ -1,0 +1,65 @@
+\version "2.27.1"
+
+#(set-global-staff-size 19)
+
+\header {
+  title = "titre"
+  subtitle = "tire de "
+  opus = "BWV xxx"
+  composer = "Jean Sébastien Bach (1685-1750)"
+  tagline = ##f   
+  } 
+ 
+\score  {
+  \new ChoirStaff <<
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A}}
+    {
+      \clef treble
+      \key c \major
+      \time 4/4
+      <<
+        \new Voice = "soprano" \relative c' {
+          \voiceOne
+          c'4
+          \fine 
+        }
+        \new Voice = "alto" \relative c' {
+          \voiceTwo
+          c'4
+          \fine
+        }
+      >>
+    }
+    
+    \new Lyrics \lyricsto "soprano" {
+      
+     }
+     
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B}}
+    {
+      \clef bass
+      \key c \major
+      \time 4/4
+      <<
+        \new Voice = "tenor" \relative c {
+          \voiceOne
+          c4
+          \fine
+        }
+        \new Voice = "bass" \relative c {
+          \voiceTwo
+          c4
+          \fine
+        }
+      >>
+    }
+  >>
+} 
+ 
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
+}
+\midi {}
