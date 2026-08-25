@@ -5,6 +5,7 @@
 \header {
  title = "Herr Jesu Christ, ich schrei zu dir"
  subtitle = "tiré de la cantate : Ich elender Mensch, wer wird mich erlösen"
+ poet = "Freiberg 1670"
   opus = "BWV 48/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -4,6 +4,7 @@
 
 \header {
  title = "Herr Gott, dich loben alle wir (I)"
+ poet = "Paul Eber"
   opus = "BWV 326"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

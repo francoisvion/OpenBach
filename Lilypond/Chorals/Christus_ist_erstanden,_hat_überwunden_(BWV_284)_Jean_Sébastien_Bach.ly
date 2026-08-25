@@ -4,6 +4,7 @@
 
 \header {
  title = "Christus ist erstanden, hat überwunden"
+ poet = "Michael Weisse"
   opus = "BWV 284"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

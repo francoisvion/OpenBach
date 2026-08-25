@@ -5,6 +5,7 @@
 \header {
  title = "Wo soll ich fliehen hin (v. 11)"
  subtitle = "tiré de la cantate : Bringet dem Herrn Ehre seines Namens"
+ poet = "Lübeck, avant 1603"
   opus = "BWV 148/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

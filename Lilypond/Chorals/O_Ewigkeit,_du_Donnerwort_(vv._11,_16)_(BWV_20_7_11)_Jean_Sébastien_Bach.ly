@@ -5,6 +5,7 @@
 \header {
  title = "O Ewigkeit, du Donnerwort (v. 11, 16)"
  subtitle = "tiré de la cantate : O Ewigkeit, du Donnerwort"
+ poet = "Johann Rist"
   opus = "BWV 20/7-11"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -5,6 +5,7 @@
 \header {
   title = "Vater unser im Himmelreich (1ère version)"
   subtitle = "tiré de la Passion selon saint Jean"
+ poet = "Martin Luther"
   opus = "BWV 245/5a"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

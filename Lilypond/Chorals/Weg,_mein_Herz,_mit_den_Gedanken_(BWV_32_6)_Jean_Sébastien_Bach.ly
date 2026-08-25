@@ -5,6 +5,7 @@
 \header {
  title = "Weg, mein Herz, mit den Gedanken (v. 12)"
  subtitle = "tiré de la cantate : Liebster Jesu, mein Verlangen"
+ poet = "Paul Gerhardt"
   opus = "BWV 32/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

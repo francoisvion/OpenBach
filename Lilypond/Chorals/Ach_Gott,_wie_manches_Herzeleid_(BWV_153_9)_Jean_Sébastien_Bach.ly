@@ -5,6 +5,7 @@
 \header {
  title = "Ach Gott, wie manches Herzeleid (v. 16 – 18)"
  subtitle = "tiré de la cantate : Schau, lieber Gott, wie meine Feind"
+ poet = "Martin Moller"
   opus = "BWV 153/9"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

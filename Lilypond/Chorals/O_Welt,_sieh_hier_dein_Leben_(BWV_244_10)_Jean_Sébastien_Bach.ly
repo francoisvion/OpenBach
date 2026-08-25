@@ -5,6 +5,7 @@
 \header {
   title = "O Welt, sieh hier dein Leben (v. 5)"
   subtitle = "tiré de la Passion selon saint Matthieu"
+ poet = "Paul Gerhardt"
   opus = "BWV 244/10"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

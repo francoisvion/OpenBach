@@ -5,6 +5,7 @@
 \header {
  title = "Ach Gott und Herr (v. 4)"
  subtitle = "tiré de la cantate : Ich elender Mensch, wer wird mich erlösen"
+ poet = "Martin Rutilius"
   opus = "BWV 48/3"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

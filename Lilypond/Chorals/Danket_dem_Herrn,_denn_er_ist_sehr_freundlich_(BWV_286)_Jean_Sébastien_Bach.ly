@@ -4,6 +4,7 @@
 
 \header {
  title = "Danket dem Herrn, denn er ist sehr freundlich"
+ poet = "Johann Horn"
   opus = "BWV 286"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

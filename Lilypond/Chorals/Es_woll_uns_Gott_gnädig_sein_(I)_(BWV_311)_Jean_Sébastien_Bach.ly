@@ -4,6 +4,7 @@
 
 \header {
  title = "Es woll uns Gott gnädig sein (I)"
+ poet = "Martin Luther"
   opus = "BWV 311"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

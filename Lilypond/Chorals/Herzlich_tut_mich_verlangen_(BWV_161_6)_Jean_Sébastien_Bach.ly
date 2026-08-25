@@ -5,6 +5,7 @@
 \header {
  title = "Herzlich tut mich verlangen"
  subtitle = "tiré de la cantate : Komm, du süße Todesstunde"
+ poet = "Christoph Knoll"
   opus = "BWV 161/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

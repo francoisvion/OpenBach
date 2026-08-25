@@ -4,6 +4,7 @@
 
 \header {
  title = "Nun freut euch, lieben Christen gmein"
+ poet = "Martin Luther"
   opus = "BWV 388"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

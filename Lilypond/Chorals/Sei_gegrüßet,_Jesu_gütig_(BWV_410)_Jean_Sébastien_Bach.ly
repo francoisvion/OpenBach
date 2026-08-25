@@ -4,6 +4,7 @@
 
 \header {
  title = "Sei gegrüßet, Jesu gütig"
+ poet = "Christian Keymann"
   opus = "BWV 410"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

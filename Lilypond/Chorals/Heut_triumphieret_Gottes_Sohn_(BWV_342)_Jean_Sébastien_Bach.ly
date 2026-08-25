@@ -4,6 +4,7 @@
 
 \header {
  title = "Heut triumphieret Gottes Sohn"
+ poet = "Kaspar Stolzhagen"
   opus = "BWV 342"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

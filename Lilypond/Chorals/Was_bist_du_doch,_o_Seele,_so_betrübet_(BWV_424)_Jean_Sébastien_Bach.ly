@@ -4,6 +4,7 @@
 
 \header {
  title = "Was bist du doch, o Seele, so betrübet"
+ poet = "Rudolf Friedrich von Schultt"
   opus = "BWV 424"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

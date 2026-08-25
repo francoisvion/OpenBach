@@ -5,6 +5,7 @@
 \header {
   title = "Es bringt das rechte Jubeljahr"
   subtitle = "tiré de la cantate : Das neugeborne Kindelein"
+ poet = "Cyriakus Schneegaß"
   opus = "BWV 122/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

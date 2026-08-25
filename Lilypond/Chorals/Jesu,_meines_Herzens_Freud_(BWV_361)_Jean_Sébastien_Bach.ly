@@ -4,6 +4,7 @@
 
 \header {
  title = "Jesu, meines Herzens Freud"
+ poet = "Johann Flittner"
   opus = "BWV 361"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

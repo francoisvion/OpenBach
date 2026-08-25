@@ -5,6 +5,7 @@
 \header {
  title = "Ich bitt, o Herr, aus Herzens Grund"
  subtitle = "tiré de la cantate : Gleichwie der Regen und Schnee vom Himmel fällt "
+ poet = "Lazarus Spengler"
   opus = "BWV 18/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

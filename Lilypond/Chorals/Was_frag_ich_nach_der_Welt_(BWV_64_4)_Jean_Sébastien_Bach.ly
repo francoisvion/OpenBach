@@ -5,6 +5,7 @@
 \header {
   title = "Was frag ich nach der Welt (v. 1)"
   subtitle = "tiré de la cantate : Sehet, welch eine Liebe hat uns der Vater erzeiget,"
+ poet = "Balthasar Kindermann"
   opus = "BWV 64/4"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

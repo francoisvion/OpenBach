@@ -5,6 +5,7 @@
 \header {
   title = "Wir Christenleut habn jetzund Freud (v. 3)"
   subtitle = "tiré de la cantate : Dazu ist erschienen der Sohn Gottes"
+ poet = "Kaspar Füger"
   opus = "BWV 40/3"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

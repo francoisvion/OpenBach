@@ -4,6 +4,7 @@
 
 \header {
  title = "Was willst du dich, o meine Seele, kränken"
+ poet = "Dietrich von dem Werder"
   opus = "BWV 425"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

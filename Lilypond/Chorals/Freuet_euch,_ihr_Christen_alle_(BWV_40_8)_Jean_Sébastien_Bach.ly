@@ -5,6 +5,7 @@
 \header {
  title = "Freuet euch, ihr Christen alle"
  subtitle = "tiré de la cantate : Dazu ist erschienen der Sohn Gottes"
+ poet = "Christian Keymann"
   opus = "BWV 40/8"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

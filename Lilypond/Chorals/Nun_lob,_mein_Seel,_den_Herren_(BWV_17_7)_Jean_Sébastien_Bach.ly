@@ -4,6 +4,7 @@
 
 \header {
  title = "Nun lob, mein Seel, den Herren"
+ poet = "Johann Gramann"
   opus = "BWV 17/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

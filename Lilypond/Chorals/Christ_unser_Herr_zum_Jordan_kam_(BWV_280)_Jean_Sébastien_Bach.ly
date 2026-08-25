@@ -4,6 +4,7 @@
 
 \header {
  title = "Christ unser Herr zum Jordan kam"
+ poet = "Martin Luther"
   opus = "BWV 280"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -5,6 +5,7 @@
 \header {
   title = "So wahr ich lebe, spricht dein Gott (v. 6 - 7)"
   subtitle = "tiré de la cantate : Herr, deine Augen sehen nach dem Glauben!"
+ poet = "Johann Heermann"
   opus = "BWV 102/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

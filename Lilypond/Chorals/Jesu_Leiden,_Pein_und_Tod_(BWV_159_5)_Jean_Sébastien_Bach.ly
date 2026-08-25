@@ -5,6 +5,7 @@
 \header {
  title = "Jesu Leiden, Pein und Tod"
  subtitle = "tiré de la cantate : Sehet, wir gehn hinauf gen Jerusalem"
+ poet = "Paul Stockmann"
   opus = "BWV 159/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

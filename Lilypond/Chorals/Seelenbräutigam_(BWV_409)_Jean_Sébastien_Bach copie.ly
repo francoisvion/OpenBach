@@ -4,6 +4,7 @@
 
 \header {
  title = "Seelenbräutigam"
+ poet = "Adam Drese"
   opus = "BWV 409"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

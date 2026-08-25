@@ -5,6 +5,7 @@
 \header {
   title = "Nun, liebe Seel, nun ist es Zeit (v. 5)"
   subtitle = "tiré de l'oratorio de Noël, partie n° 5"
+ poet = "Georg Weissel"
   opus = "BWV 248/46"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

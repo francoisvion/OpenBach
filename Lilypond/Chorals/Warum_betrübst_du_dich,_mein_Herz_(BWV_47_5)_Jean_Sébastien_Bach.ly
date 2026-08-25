@@ -5,6 +5,7 @@
 \header {
   title = "Warum betrübst du dich, mein Herz (v. 11)"
   subtitle = "tiré de la cantate : Wer sich selbst erhöhet, der soll erniedriget werden"
+ poet = "Anonyme"
   opus = "BWV 47/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

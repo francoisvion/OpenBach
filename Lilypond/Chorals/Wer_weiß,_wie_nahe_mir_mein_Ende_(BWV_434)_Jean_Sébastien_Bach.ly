@@ -4,6 +4,7 @@
 
 \header {
  title = "Wer weiß, wie nahe mir mein Ende"
+ poet = "Georg Neumark"
   opus = "BWV 434"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

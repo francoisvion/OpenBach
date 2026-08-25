@@ -4,6 +4,7 @@
 
 \header {
  title = "Jesu, der du meine Seele (III)"
+ poet = "Johann Rist"
   opus = "BWV 354"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

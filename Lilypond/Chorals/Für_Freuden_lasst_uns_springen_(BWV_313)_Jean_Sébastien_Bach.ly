@@ -4,6 +4,7 @@
 
 \header {
  title = "Für Freuden lasst uns springen"
+ poet = "Kaspar Peltsch"
   opus = "BWV 313"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

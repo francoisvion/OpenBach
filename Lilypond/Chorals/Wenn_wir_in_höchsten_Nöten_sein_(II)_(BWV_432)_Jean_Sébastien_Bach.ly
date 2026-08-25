@@ -4,6 +4,7 @@
 
 \header {
  title = "Wenn wir in höchsten Nöten sein (II)"
+ poet = "Paul Eber"
   opus = "BWV 432"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

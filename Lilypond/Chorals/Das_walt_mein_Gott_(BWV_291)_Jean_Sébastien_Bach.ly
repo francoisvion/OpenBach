@@ -4,6 +4,7 @@
 
 \header {
  title = "Das walt mein Gott"
+ poet = "Basilius Förtsch"
   opus = "BWV 291"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

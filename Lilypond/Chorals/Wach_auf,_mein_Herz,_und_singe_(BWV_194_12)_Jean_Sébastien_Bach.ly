@@ -5,6 +5,7 @@
 \header {
   title = "Wach auf, mein Herz, und singe (v. 9 – 10)"
   subtitle = "tiré de la cantate : Höchsterwünschtes Freudenfest"
+ poet = "Paul Gerhardt"
   opus = "BWV 194/12"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

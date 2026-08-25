@@ -4,6 +4,7 @@
 
 \header {
  title = "O Herzensangst"
+ poet = "Fr. D. Gerh. Müller von Königsberg"
   opus = "BWV 400"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

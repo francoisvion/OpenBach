@@ -4,6 +4,7 @@
 
 \header {
  title = "Weltlich Ehr und zeitlich Gut"
+ poet = "Michael Weisse"
   opus = "BWV 426"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -4,6 +4,7 @@
 
 \header {
  title = "Gott der Vater wohn uns bei"
+ poet = "Martin Luther"
   opus = "BWV 317"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -5,6 +5,7 @@
 \header {
   title = "Christus, der uns selig macht"
   subtitle = "tiré de la Passion selon saint Jean"
+ poet = "Michael Weisse"
   opus = "BWV 245/37"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

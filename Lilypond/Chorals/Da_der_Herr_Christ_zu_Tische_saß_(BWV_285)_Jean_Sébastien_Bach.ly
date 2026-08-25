@@ -4,6 +4,7 @@
 
 \header {
  title = "Da der Herr Christ zu Tische saß"
+ poet = "Nikolaus Herman"
   opus = "BWV 285"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

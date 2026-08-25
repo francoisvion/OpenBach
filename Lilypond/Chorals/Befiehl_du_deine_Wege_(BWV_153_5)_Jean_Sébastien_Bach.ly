@@ -5,6 +5,7 @@
 \header {
   title = "Befiehl du deine Wege (v. 5)"
   subtitle = "tiré de la cantate : Schau, lieber Gott, wie meine Feind"
+ poet = "Paul Gerhardt"
   opus = "BWV 153/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

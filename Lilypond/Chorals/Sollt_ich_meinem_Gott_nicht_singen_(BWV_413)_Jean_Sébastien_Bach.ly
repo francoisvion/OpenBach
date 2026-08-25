@@ -4,6 +4,7 @@
 
 \header {
  title = "Sollt ich meinem Gott nicht singen"
+ poet = "Paul Gerhardt"
   opus = "BWV 413"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

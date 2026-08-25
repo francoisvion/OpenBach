@@ -5,6 +5,7 @@
 \header {
   title = "Nun bitten wir den Heiligen Geist (v. 3)"
   subtitle = "tiré de la cantate : Gott soll allein mein Herze haben,"
+ poet = "Martin Luther"
   opus = "BWV 169/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

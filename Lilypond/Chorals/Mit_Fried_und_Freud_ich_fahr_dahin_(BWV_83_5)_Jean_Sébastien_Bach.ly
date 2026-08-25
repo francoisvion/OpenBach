@@ -5,6 +5,7 @@
 \header {
   title = "Mit Fried und Freud ich fahr dahin (v. 4)"
   subtitle = "tiré de la cantate : Erfreute Zeit im neuen Bunde"
+ poet = "Martin Luther"
   opus = "BWV 83/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

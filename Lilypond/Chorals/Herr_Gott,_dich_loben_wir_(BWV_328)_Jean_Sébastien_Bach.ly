@@ -4,6 +4,7 @@
 
 \header {
  title = "Herr Gott, dich loben wir"
+ poet = "Martin Luther"
   opus = "BWV 328"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

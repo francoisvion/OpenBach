@@ -4,6 +4,7 @@
 
 \header { 
  title = "Allein Gott in der Höh sei Ehr"
+ poet = "Nikolaus Decius"
   opus = "BWV 260"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f   

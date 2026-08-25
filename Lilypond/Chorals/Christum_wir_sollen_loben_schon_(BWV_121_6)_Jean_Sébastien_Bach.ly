@@ -5,6 +5,7 @@
 \header {
   title = "Christum wir sollen loben schon"
   subtitle = "tiré de la cantate : Christum wir sollen loben schon"
+ poet = "Martin Luther"
   opus = "BWV 121/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

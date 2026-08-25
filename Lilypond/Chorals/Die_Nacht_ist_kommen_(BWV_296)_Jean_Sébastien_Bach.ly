@@ -4,6 +4,7 @@
 
 \header {
  title = "Die Nacht ist kommen"
+ poet = "Petrus Herbert"
   opus = "BWV 296"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

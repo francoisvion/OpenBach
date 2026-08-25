@@ -4,6 +4,7 @@
 
 \header {
  title = "Wie bist du, Seele, in mir so gar betrübt"
+ poet = "Tobias Zeutschner"
   opus = "BWV 435"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

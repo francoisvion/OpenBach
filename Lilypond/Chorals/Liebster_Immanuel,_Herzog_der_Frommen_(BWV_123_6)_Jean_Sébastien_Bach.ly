@@ -5,6 +5,7 @@
 \header {
  title = "Liebster Immanuel, Herzog der Frommen"
  subtitle = "tiré de la cantate : Liebster Immanuel, Herzog der Frommen"
+ poet = "Ahasverus Fritsch"
   opus = "BWV 123/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -4,6 +4,7 @@
 
 \header {
  title = "Hilf, Herr Jesu, lass gelingen"
+ poet = "Johann Rist"
   opus = "BWV 344"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

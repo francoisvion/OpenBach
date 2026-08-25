@@ -4,6 +4,7 @@
 
 \header {
  title = "Gelobt seist du, Jesu Christ"
+ poet = "Martin Luther"
   opus = "BWV 314"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

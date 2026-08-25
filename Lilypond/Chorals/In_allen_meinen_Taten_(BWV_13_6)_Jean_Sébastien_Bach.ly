@@ -5,6 +5,7 @@
 \header {
  title = "In allen meinen Taten"
  subtitle = "tiré de la cantate : Meine Seufzer, meine Tränen"
+ poet = "Paul Fleming"
   opus = "BWV 13/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

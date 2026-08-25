@@ -5,6 +5,7 @@
 \header {
  title = "Ach wie flüchtig, ach wie nichtig (v. 8)"
  subtitle = "tiré de la cantate : Ach wie flüchtig, ach wie nichtig"
+ poet = "Michael Franck"
   opus = "BWV 26/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -5,6 +5,7 @@
 \header {
  title = "Ich freue mich in dir"
  subtitle = "tiré de la cantate : Ich freue mich in dir"
+ poet = "Kaspar Ziegler"
   opus = "BWV 133/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

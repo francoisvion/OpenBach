@@ -4,6 +4,7 @@
 
 \header {
  title = "Meinen Jesum laß ich nicht (I)"
+ poet = "Christian Keymann"
   opus = "BWV 379"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

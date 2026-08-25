@@ -4,6 +4,7 @@
 
 \header {
  title = "Nun bitten wir den Heiligen Geist"
+ poet = "Martin Luther"
   opus = "BWV 385"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

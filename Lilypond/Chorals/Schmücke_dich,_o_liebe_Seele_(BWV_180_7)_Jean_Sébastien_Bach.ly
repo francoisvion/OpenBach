@@ -5,6 +5,7 @@
 \header {
   title = "Schmücke dich, o liebe Seele (v. 9)"
   subtitle = "tiré de la cantate : Schmücke dich, o liebe Seele"
+ poet = "Johann Franck"
   opus = "BWV 180/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -5,6 +5,7 @@
 \header {
  title = "O Herre Gott, dein göttlich Wort (v. 8)"
  subtitle = "tiré de la cantate : Erwünschtes Freudenlicht"
+ poet = "Anarg von Wildenfels"
   opus = "BWV 184/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

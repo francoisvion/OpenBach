@@ -4,6 +4,7 @@
 
 \header {
  title = "Gott lebet noch"
+ poet = "Johann Friedrich Zihn"
   opus = "BWV 320"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

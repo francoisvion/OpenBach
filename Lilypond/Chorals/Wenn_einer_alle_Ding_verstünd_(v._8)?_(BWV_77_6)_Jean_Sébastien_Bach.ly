@@ -5,6 +5,7 @@
 \header {
   title = \markup{\column{"Wenn einer alle Ding verstünd (v. 8)" "O Gottes Sohn, Herr Jesu Christ (v. 8)" \vspace #0.5 }}
   subtitle = "tiré de la cantate : Du sollt Gott, deinen Herren, lieben"
+  poet = "David Denicke"
   opus = "BWV 77/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

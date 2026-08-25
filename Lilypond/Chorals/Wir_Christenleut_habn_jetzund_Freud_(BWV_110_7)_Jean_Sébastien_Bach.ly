@@ -5,6 +5,7 @@
 \header {
  title = "Wir Christenleut habn jetzund Freud (v. 5)"
  subtitle = "tiré de la cantate : Unser Mund sei voll Lachens"
+ poet = "Kaspar Füger"
   opus = "BWV 110/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

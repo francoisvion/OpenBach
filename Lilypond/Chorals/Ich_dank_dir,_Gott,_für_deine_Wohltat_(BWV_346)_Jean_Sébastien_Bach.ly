@@ -4,6 +4,7 @@
 
 \header {
  title = "Ich dank dir, Gott, für deine Wohltat"
+ poet = "Johann Freder"
   opus = "BWV 346"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

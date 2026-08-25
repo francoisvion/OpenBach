@@ -4,6 +4,7 @@
 
 \header {
  title = "Es wird schier der letzte Tag herkommen"
+ poet = "Michael Weisse"
   opus = "BWV 310"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

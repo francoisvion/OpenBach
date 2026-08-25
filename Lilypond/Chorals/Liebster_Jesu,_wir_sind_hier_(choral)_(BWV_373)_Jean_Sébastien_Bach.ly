@@ -4,6 +4,7 @@
 
 \header {
  title = "Liebster Jesu, wir sind hier (choral)"
+ poet = "Tobias Clausnizer"
   opus = "BWV 373"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

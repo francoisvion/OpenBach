@@ -4,6 +4,7 @@
 
 \header { 
  title = "Ach, was soll ich Sünder machen"
+ poet = "Johann Flittner"
   opus = "BWV 259"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f   

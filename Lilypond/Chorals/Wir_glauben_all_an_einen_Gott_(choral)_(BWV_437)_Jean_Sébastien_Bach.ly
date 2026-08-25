@@ -4,6 +4,7 @@
 
 \header {
  title = "Wir glauben all an einen Gott"
+ poet = "Martin Luther"
   opus = "BWV 437"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

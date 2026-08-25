@@ -4,6 +4,7 @@
 
 \header {
  title = "Herr, straf mich nicht in deinem Zorn"
+ poet = "Anonyme"
   opus = "BWV 338"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

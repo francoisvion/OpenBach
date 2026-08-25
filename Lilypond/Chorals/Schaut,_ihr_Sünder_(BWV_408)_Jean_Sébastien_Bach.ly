@@ -4,6 +4,7 @@
 
 \header {
  title = "Schaut, ihr Sünder"
+ poet = "Matthäus Apelles von Löwenstern"
   opus = "BWV 408"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

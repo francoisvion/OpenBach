@@ -5,6 +5,7 @@
 \header {
  title = "Ehr sei Gott in dem höchsten Thron (v. 4)"
  subtitle = "tiré de la cantate : Allein zu dir, Herr Jesu Christ"
+ poet = "Konrad Hubert"
   opus = "BWV 33/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

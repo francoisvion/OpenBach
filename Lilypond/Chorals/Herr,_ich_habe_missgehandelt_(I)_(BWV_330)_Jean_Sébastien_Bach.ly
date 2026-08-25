@@ -4,6 +4,7 @@
 
 \header {
  title = "Herr, ich habe missgehandelt (I)"
+ poet = "Johann Franck"
   opus = "BWV 330"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

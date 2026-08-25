@@ -5,6 +5,7 @@
 \header {
  title = "Herr Jesu Christ, du höchstes Gut"
  subtitle = "tiré de la cantate : Herr Jesu Christ, du höchstes Gut"
+ poet = "Bartholomäus Ringwaldt"
   opus = "BWV 113/8"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

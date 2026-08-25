@@ -4,6 +4,7 @@
 
 \header {
  title = "Ich hab mein Sach Gott heimgestellt"
+ poet = "Johann Leon"
   opus = "BWV 351"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

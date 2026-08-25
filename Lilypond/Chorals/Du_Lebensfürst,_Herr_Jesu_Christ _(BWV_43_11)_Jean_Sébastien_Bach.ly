@@ -5,6 +5,7 @@
 \header {
   title = "Du Lebensfürst, Herr Jesu Christ (v. 1 - 13)"
   subtitle = "tiré de la cantate : Gott fähret auf mit Jauchzen"
+ poet = "Johann Rist"
   opus = "BWV 43/11"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

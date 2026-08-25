@@ -5,6 +5,7 @@
 \header {
  title = "Meinen Jesum laß ich nicht (v. 6)"
  subtitle = "tiré de la cantate : Mein liebster Jesus ist verloren"
+ poet = "Christian Keymann"
   opus = "BWV 154/8"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

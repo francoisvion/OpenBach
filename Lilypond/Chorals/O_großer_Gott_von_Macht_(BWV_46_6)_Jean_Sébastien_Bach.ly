@@ -5,6 +5,7 @@
 \header {
  title = "O großer Gott von Macht (v. 9)"
  subtitle = "tiré de la cantate : Schauet doch und sehet, ob irgendein Schmerz sei,"
+ poet = "Matthäus Meyfart"
   opus = "BWV 46/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

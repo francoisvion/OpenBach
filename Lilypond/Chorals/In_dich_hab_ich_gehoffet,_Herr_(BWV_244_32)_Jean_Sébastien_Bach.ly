@@ -5,6 +5,7 @@
 \header {
  title = "In dich hab ich gehoffet, Herr"
  subtitle = "tiré de la Passion selon saint Matthieu"
+ poet = "Adam Reusner"
   opus = "BWV 244/32"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

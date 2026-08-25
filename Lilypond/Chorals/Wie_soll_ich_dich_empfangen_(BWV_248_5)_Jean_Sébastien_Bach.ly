@@ -5,6 +5,7 @@
 \header {
   title = "Wie soll ich dich empfangen (v. 1)"
   subtitle = "tiré de l'oratorio de Noël, partie n° 1"
+ poet = "Paul Gerhardt"
   opus = "BWV 248/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

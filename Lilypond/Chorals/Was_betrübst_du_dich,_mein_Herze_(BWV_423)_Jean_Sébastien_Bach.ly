@@ -4,6 +4,7 @@
 
 \header {
  title = "Was betrübst du dich, mein Herze"
+ poet = "Zacharias Hermann"
   opus = "BWV 423"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

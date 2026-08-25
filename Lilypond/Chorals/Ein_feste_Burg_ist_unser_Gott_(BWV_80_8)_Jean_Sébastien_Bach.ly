@@ -5,6 +5,7 @@
 \header {
  title = "Das Wort sie sollen laßen stahn"
  subtitle = "tiré de la cantate : Ein feste Burg ist unser Gott"
+ poet = "Martin Luther"
   opus = "BWV 80/8"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

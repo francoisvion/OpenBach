@@ -4,6 +4,7 @@
 
 \header {
  title = "Nun ruhen alle Wälder"
+ poet = "Paul Gerhardt"
   opus = "BWV 392"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

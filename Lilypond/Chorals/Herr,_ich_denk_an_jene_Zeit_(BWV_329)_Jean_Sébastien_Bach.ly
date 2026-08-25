@@ -4,6 +4,7 @@
 
 \header {
  title = "Herr, ich denk an jene Zeit"
+ poet = "Georg Mylius"
   opus = "BWV 329"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

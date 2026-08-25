@@ -4,6 +4,7 @@
 
 \header {
  title = "Uns ist ein Kindlein heut geborn"
+ poet = "Anonyme"
   opus = "BWV 414"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

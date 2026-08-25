@@ -5,6 +5,7 @@
 \header {
  title = "Richte dich, Liebste, nach meinem Gefallen"
  subtitle = "tiré de la cantate : Selig ist der Mann"
+ poet = "Ahasverus Fritsch"
   opus = "BWV 57/8"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

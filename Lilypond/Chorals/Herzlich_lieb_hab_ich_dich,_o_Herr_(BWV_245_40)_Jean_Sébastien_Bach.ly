@@ -5,6 +5,7 @@
 \header {
  title = "Herzlich lieb hab ich dich, o Herr"
  subtitle = "tiré de la Passion selon saint Jean"
+ poet = "Martin Schalling"
   opus = "BWV 245/40"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

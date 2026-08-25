@@ -5,6 +5,7 @@
 \header {
  title = "Du Lebensfürst, Herr Jesu Christ"
  subtitle = "tiré de l'oratorio de l'Ascension : Lobet Gott in seinen Reichen"
+ poet = "Johann Rist"
   opus = "BWV 11/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -4,6 +4,7 @@
 
 \header {
  title = "Heut ist, o Mensch, ein großer Trauertag"
+ poet = "Matthäus Apelles von Löwenstern"
   opus = "BWV 341"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -5,6 +5,7 @@
 \header {
  title = "Freu dich sehr, o meine Seele"
  subtitle = "tiré de la cantate : Es erhub sich ein Streit"
+ poet = "Anonyme"
   opus = "BWV 19/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

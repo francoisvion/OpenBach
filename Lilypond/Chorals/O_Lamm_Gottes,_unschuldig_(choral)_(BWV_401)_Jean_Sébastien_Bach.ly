@@ -4,6 +4,7 @@
 
 \header {
  title = "O Lamm Gottes, unschuldig (choral)"
+ poet = "Nikolaus Decius"
   opus = "BWV 401"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

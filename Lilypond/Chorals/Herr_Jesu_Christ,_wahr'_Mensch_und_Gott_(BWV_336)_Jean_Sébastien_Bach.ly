@@ -4,6 +4,7 @@
 
 \header {
  title = "Herr Jesu Christ, wahr' Mensch und Gott"
+ poet = "Paul Eber"
   opus = "BWV 336"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

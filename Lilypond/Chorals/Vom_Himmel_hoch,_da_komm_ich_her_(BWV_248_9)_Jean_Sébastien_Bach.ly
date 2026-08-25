@@ -5,6 +5,7 @@
 \header {
  title = "Vom Himmel hoch, da komm ich her"
  subtitle = "tiré de l'oratorio de Noël, partie n° 1"
+ poet = "Martin Luther"
   opus = "BWV 248/9"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -4,6 +4,7 @@
 
 \header {
  title = "Du, o schönes Weltgebäude"
+ poet = "Johann Franck"
   opus = "BWV 301"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

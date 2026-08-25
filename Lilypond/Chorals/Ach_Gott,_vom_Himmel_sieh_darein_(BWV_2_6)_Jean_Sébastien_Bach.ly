@@ -5,6 +5,7 @@
 \header {
  title = "Ach Gott, vom Himmel sieh darein (v. 6)"
  subtitle = "tiré de la cantate : Ach Gott, vom Himmel sieh darein"
+ poet = "Martin Luther"
   opus = "BWV 2/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -4,6 +4,7 @@
 
 \header {
  title = "Jesus Christus, unser Heiland, der den Tod überwand"
+ poet = "Martin Luther"
   opus = "BWV 364"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

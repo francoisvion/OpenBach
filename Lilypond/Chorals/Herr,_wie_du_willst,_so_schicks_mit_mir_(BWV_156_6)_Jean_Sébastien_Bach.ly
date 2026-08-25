@@ -5,6 +5,7 @@
 \header {
  title = "Herr, wie du willst, so schicks mit mir"
  subtitle = "tiré de la cantate : Ich steh mit einem Fuß im Grabe"
+ poet = "Kaspar Bienemann"
   opus = "BWV 156/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -4,6 +4,7 @@
 
 \header {
  title = "In allen meinen Taten (choral)"
+ poet = "Paul Fleming"
   opus = "BWV 367"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

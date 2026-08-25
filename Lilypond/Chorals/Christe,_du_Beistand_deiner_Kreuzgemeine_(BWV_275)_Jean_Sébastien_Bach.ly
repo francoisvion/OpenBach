@@ -4,6 +4,7 @@
 
 \header {
  title = "Christe, du Beistand deiner Kreuzgemeine"
+ poet = "Matthäus Apelles von Löwenstern"
   opus = "BWV 275"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

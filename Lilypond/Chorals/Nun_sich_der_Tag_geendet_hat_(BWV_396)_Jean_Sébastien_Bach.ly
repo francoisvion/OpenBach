@@ -4,6 +4,7 @@
 
 \header {
  title = "Nun sich der Tag geendet hat"
+ poet = "Adam Krieger"
   opus = "BWV 396"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

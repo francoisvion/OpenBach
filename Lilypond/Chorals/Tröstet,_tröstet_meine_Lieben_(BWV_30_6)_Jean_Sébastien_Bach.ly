@@ -5,6 +5,7 @@
 \header {
   title = "Tröstet, tröstet meine Lieben (v. 3)"
   subtitle = "tiré de la cantate : Freue dich, erlöste Schar"
+ poet = "Johann Olearius"
   opus = "BWV 30/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -4,6 +4,7 @@
 
 \header {
  title = "In dulci jubilo"
+ poet = "Anonyme"
   opus = "BWV 368"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -5,6 +5,7 @@
 \header {
  title = "Herzliebster Jesu, was hast du verbrochen"
  subtitle = "tiré de la Passion selon saint Jean"
+ poet = "Johann Heermann"
   opus = "BWV 245/3a"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

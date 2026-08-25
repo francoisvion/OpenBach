@@ -4,6 +4,7 @@
 
 \header {
  title = "Singt dem Herrn ein neues Lied"
+ poet = "Matthäus Apelles von Löwenstern"
   opus = "BWV 411"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

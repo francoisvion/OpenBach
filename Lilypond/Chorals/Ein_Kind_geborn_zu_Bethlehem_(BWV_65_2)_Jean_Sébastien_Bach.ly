@@ -5,6 +5,7 @@
 \header {
  title = "Ein Kind geborn zu Bethlehem"
  subtitle = "tiré de la cantate : Sie werden aus Saba alle kommen"
+ poet = "Cyriakus Spangenberg"
   opus = "BWV 65/2"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

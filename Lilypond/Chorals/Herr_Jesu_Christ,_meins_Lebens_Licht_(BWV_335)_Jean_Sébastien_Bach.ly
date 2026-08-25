@@ -4,6 +4,7 @@
 
 \header {
  title = "Herr Jesu Christ, meins Lebens Licht"
+ poet = "Martin Behm"
   opus = "BWV 335"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -5,6 +5,7 @@
 \header {
   title = "Sei Lob und Ehr dem höchsten Gut (v. 4 - 9)"
   subtitle = "tiré de la cantate : Sei Lob und Ehr dem höchsten Gut"
+ poet = "Johann Jakob Schütz ?"
   opus = "BWV 117/4"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

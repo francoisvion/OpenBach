@@ -5,6 +5,7 @@
 \header {
   title = "Von Gott will ich nicht lassen (v. 9)"
   subtitle = "tiré de la cantate : Herr, wie du willt, so schicks mit mir"
+ poet = "Ludwig Helmbold"
   opus = "BWV 73/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

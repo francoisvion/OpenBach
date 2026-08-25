@@ -4,6 +4,7 @@
 
 \header {
  title = "Nun danket alle Gott"
+ poet = "Martin Rinckart"
   opus = "BWV 252"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

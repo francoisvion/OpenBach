@@ -5,6 +5,7 @@
 \header {
  title = "Gott Vater, sende deinen Geist"
  subtitle = "tiré de la cantate : Wer mich liebet, der wird mein Wort halten (II)"
+ poet = "Paul Gerhardt"
   opus = "BWV 74/8"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

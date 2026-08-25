@@ -4,6 +4,7 @@
 
 \header {
  title = "Alles ist an Gottes Segen"
+ poet = "Nürnberg 1676"
   opus = "BWV 263"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

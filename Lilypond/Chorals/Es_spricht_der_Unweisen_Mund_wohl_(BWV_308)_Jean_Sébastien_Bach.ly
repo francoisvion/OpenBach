@@ -4,6 +4,7 @@
 
 \header {
  title = "Es spricht der Unweisen Mund wohl"
+ poet = "Martin Luther"
   opus = "BWV 308"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

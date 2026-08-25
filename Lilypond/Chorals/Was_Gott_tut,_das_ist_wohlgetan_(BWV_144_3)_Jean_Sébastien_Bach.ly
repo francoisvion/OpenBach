@@ -5,6 +5,7 @@
 \header {
   title = "Was Gott tut, das ist wohlgetan (v. 1)"
   subtitle = "tiré de Nimm, was dein ist, und gehe hin"
+ poet = "Samuel Rodigast"
   opus = "BWV 144/3"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -4,6 +4,7 @@
 
 \header {
  title = "Mein Augen schließ ich jetzt in Gottes Namen zu"
+ poet = "Matthäus Apelles von Löwenstern"
   opus = "BWV 378"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -4,6 +4,7 @@
 
 \header {
  title = "Sei Lob und Ehr dem höchsten Gut"
+ poet = "Johann Jakob Schütz ?"
   opus = "BWV 251"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -5,6 +5,7 @@
 \header {
  title = "O Haupt voll Blut und Wunden (v. 1 – 2)"
  subtitle = "tiré de la Passion selon saint Matthieu"
+ poet = "Paul Gerhardt"
   opus = "BWV 244/54"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

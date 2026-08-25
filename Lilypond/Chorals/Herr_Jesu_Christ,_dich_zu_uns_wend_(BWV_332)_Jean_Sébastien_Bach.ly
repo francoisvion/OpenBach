@@ -4,6 +4,7 @@
 
 \header {
  title = "Herr Jesu Christ, dich zu uns wend"
+ poet = "Wilhelm II, duc de Sachsen–Weimar"
   opus = "BWV 332"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

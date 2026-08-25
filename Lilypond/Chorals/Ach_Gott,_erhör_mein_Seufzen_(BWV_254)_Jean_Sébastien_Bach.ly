@@ -4,6 +4,7 @@
 
 \header { 
  title = "Ach Gott, erhör mein Seufzen"
+ poet = "Jakob Peter Schechs"
   opus = "BWV 254"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f   

@@ -5,6 +5,7 @@
 \header {
  title = "Jesu Leiden, Pein und Tod"
  subtitle = "tiré de la Passion selon saint Jean"
+ poet = "Paul Stockmann"
   opus = "BWV 245/14"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

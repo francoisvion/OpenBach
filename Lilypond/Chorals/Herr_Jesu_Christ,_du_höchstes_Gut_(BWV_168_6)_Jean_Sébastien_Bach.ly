@@ -5,6 +5,7 @@
 \header {
  title = "Herr Jesu Christ, du höchstes Gut"
  subtitle = "tiré de la cantate : Tue Rechnung! Donnerwort"
+ poet = "Bartholomäus Ringwaldt"
   opus = "BWV 168/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

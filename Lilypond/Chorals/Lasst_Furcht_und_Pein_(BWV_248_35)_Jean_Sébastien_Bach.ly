@@ -5,6 +5,7 @@
 \header {
  title = "Laßt Furcht und Pein"
  subtitle = "tiré de l'Oratorio de Noël, partie n° 3 : Herrscher des Himmels, erhöre das Lallen"
+ poet = "Christoph Runge"
   opus = "BWV 248/35"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

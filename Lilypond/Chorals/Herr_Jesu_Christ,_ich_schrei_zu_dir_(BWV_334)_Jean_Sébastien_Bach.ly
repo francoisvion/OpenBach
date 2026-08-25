@@ -4,6 +4,7 @@
 
 \header {
  title = "Herr Jesu Christ, ich schrei zu dir"
+ poet = "Bartholomäus Ringwaldt"
   opus = "BWV 334"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

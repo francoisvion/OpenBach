@@ -4,6 +4,7 @@
 
 \header {
  title = "Jesu, meine Freude (I)"
+ poet = "Johann Franck"
   opus = "BWV 358"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

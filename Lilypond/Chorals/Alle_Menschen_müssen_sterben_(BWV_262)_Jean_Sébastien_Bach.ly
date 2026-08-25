@@ -4,6 +4,7 @@
 
 \header { 
  title = "Alle Menschen müssen sterben"
+ poet = "Johann Georg Albinus ou Johann Rosenmüller"
   opus = "BWV 262"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f   

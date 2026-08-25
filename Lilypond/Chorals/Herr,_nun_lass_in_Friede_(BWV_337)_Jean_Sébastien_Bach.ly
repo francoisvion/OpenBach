@@ -4,6 +4,7 @@
 
 \header {
  title = "Herr, nun lass in Friede"
+ poet = "David Behme"
   opus = "BWV 337"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -5,6 +5,7 @@
 \header {
  title = "Jesu, meiner Seelen Wonne"
  subtitle = "tiré de la cantate : Mein liebster Jesus ist verloren"
+ poet = "Martin Jahn"
   opus = "BWV 154/3"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

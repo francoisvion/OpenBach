@@ -4,6 +4,7 @@
 
 \header {
  title = "Ich danke dir, Herr Gott, in deinem Throne"
+ poet = "Jakob Fabricius"
   opus = "BWV 350"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

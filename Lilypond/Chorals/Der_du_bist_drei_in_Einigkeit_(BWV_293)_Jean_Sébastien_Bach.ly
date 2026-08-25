@@ -4,6 +4,7 @@
 
 \header {
  title = "Der du bist drei in Einigkeit"
+ poet = "Martin Luther"
   opus = "BWV 293"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

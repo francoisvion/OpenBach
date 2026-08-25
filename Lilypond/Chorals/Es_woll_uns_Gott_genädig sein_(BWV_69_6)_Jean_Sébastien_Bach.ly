@@ -5,6 +5,7 @@
 \header {
   title = "Es woll uns Gott genädig sein (v. 3),"
   subtitle = "tiré de la cantate : Lobe den Herrn, meine Seele"
+ poet = "Martin Luther"
   opus = "BWV 69/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f   

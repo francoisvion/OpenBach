@@ -5,6 +5,7 @@
 \header {
   title = "Barmherzger Vater, höchster Gott (v. 9)"
   subtitle = "tiré de la cantate : Ihr werdet weinen und heulen"
+ poet = "Paul Gerhardt"
   opus = "BWV 103/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

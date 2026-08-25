@@ -5,6 +5,7 @@
 \header {
   title = "Wo soll ich fliehen hin (v. 7)"
   subtitle = "tiré de la cantate : Was soll ich aus dir machen, Ephraim?"
+ poet = "Johann Heermann"
   opus = "BWV 89/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

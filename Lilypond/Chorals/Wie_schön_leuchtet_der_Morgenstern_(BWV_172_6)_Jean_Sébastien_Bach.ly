@@ -5,6 +5,7 @@
 \header {
   title = "Wie schön leuchtet der Morgenstern (v. 4)"
   subtitle = "tiré de la cantate : Erschallet, ihr Lieder, erklinget, ihr Saiten!"
+ poet = "Philipp Nicolai"
   opus = "BWV 172/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

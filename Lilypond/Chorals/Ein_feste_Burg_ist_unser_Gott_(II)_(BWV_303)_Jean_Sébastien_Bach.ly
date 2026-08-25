@@ -4,6 +4,7 @@
 
 \header {
  title = "Ein feste Burg ist unser Gott (II)"
+ poet = "Martin Luther"
   opus = "BWV 303"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

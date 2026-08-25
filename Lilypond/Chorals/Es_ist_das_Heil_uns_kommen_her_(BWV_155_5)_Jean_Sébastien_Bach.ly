@@ -5,6 +5,7 @@
 \header {
  title = "Es ist das Heil uns kommen her"
  subtitle = "tiré de la cantate : Mein Gott, wie lang, ach lange"
+ poet = "Paul Speratus"
   opus = "BWV 155/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

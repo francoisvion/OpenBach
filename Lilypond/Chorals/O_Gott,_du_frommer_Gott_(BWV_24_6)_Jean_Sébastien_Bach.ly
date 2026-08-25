@@ -5,6 +5,7 @@
 \header {
   title = "O Gott, du frommer Gott (v. 1)"
   subtitle = "tiré de la cantate : Ein ungefärbt Gemüte"
+ poet = "Johann Heermann"
   opus = "BWV 24/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

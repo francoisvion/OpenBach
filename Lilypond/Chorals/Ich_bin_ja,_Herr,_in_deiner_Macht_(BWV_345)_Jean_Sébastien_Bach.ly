@@ -4,6 +4,7 @@
 
 \header {
  title = "Ich bin ja, Herr, in deiner Macht"
+ poet = "Simon Dach"
   opus = "BWV 345"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
