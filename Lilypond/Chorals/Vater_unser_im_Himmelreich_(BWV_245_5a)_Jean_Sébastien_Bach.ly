@@ -34,7 +34,6 @@
   opus = "BWV 245/5a"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
-
   copyright = "© 2026 — OpenBach"
   }
 
