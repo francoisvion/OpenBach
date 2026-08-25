@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = \markup{\column{"Wenn einer alle Ding verstünd (v. 8)" "O Gottes Sohn, Herr Jesu Christ (v. 8)" \vspace #0.5 }}
+  title = \markup{\column{\concat{"Wenn einer alle Ding verstünd" \small " (v. 8)"} \concat{"O Gottes Sohn, Herr Jesu Christ" \small " (v. 8)"} \vspace #0.5 }}
   subtitle = "tiré de la cantate : Du sollt Gott, deinen Herren, lieben"
   poet = "Auteur : David Denicke (1603-1680)"
   opus = "BWV 77/6"
