@@ -3,9 +3,9 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Ach Gott, vom Himmel sieh darein (v. 6)"
- subtitle = "tiré de la cantate : Ach Gott, vom Himmel sieh darein"
- poet = "Auteur : Martin Luther (1483-1546)"
+  title = \markup{\concat{"Ach Gott, vom Himmel sieh darein" \small " (v. 6)"}}
+  subtitle = "tiré de la cantate : Ach Gott, vom Himmel sieh darein"
+  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 2/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

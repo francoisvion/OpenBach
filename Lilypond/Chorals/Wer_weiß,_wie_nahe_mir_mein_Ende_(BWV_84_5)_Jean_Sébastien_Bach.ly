@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Wer weiß, wie nahe mir mein Ende (v. 12)"
+  title = \markup{\concat{"Wer weiß, wie nahe mir mein Ende" \small " (v. 12)"}}
   subtitle = "Ich bin vergnügt mit meinem Glücke"
  poet = "Auteur : Ämilie Juliane von Schwarzburg–Rudolstadt (1637-1706)"
   opus = "BWV 84/5"

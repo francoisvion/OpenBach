@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Was alle Weisheit in der Welt (v. 8)"
+  title = \markup{\concat{"Was alle Weisheit in der Welt" \small " (v. 8)"}}
   subtitle = "tiré de la cantate : Er ist ein trotzig und verzagt Ding"
  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 176/6"

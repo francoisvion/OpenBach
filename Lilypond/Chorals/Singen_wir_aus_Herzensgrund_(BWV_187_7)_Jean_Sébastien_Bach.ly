@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Singen wir aus Herzensgrund (v. 4 - 6)"
+  title = \markup{\concat{"Singen wir aus Herzensgrund" \small " (v. 4 - 6)"}}
   subtitle = "tiré de la cantate : Es wartet alles auf dich,"
  poet = "Auteur : Hans Vogel (?-v.1565)"
   opus = "BWV 187/7"

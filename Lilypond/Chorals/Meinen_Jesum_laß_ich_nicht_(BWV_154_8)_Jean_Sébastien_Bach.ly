@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Meinen Jesum laß ich nicht (v. 6)"
+ title = \markup{\concat{"Meinen Jesum laß ich nicht" \small " (v. 6)"}}
  subtitle = "tiré de la cantate : Mein liebster Jesus ist verloren"
  poet = "Auteur : Christian Keymann (1607-1662)"
   opus = "BWV 154/8"

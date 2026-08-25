@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Wachet auf, ruft uns die Stimme (v. 3)"
+  title = \markup{\concat{"Wachet auf, ruft uns die Stimme" \small " (v. 3)"}}
   subtitle = "tiré de la cantate : Wachet auf, ruft uns die Stimme,"
  poet = "Auteur : Philipp Nicolai (1556-1608)"
   opus = "BWV 140/7"

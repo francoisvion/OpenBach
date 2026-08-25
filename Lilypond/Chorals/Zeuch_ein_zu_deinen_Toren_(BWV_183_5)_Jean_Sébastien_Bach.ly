@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Zeuch ein zu deinen Toren (v. 5)"
+  title = \markup{\concat{"Zeuch ein zu deinen Toren" \small " (v. 5)"}}
   subtitle = "tiré de la cantate : Sie werden euch in den Bann tun"
  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 183/5"

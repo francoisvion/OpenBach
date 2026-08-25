@@ -3,9 +3,9 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Ach Gott, wie manches Herzeleid (v. 16 – 18)"
- subtitle = "tiré de la cantate : Schau, lieber Gott, wie meine Feind"
- poet = "Auteur : Martin Moller (1547-1606)"
+  title = \markup{\concat{"Ach Gott, wie manches Herzeleid" \small " (v. 16 à 18)"}}
+  subtitle = "tiré de la cantate : Schau, lieber Gott, wie meine Feind"
+  poet = "Auteur : Martin Moller (1547-1606)"
   opus = "BWV 153/9"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -65,21 +65,21 @@
     }
     
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      \tweak X-offset #-3.0 "1. Drum" will ich, weil __ _ ich le - be noch, 
+      \tweak X-offset #-5.0 "16. Drum" will ich, weil __ _ ich le - be noch, 
       das Kreuz dir fröh -- lich tra -- gen nach;
       mein Gott, mach mich __ _ da -- zu be -- reit,
       es dient zum Be -- sten al -- le Zeit!
     }
     
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      \tweak X-offset #-3.0 "2. Hilf" mir mein Sach __ _ recht grei - fen an,
+      \tweak X-offset #-5.0 "17. Hilf" mir mein Sach __ _ recht grei - fen an,
       daß ich mein Lauf vol -- len -- den kann,
       hilf mir auch zwin - gen Fleisch und Blut,
       für Sünd und Schan -- den mich be -- hüt!
     }
     
     \new Lyrics \lyricsto "soprano" {\set stanza = 3
-      \tweak X-offset #-3.0 "3. Er" -- halt mein Herz __ _ im Glau - ben rein,
+      \tweak X-offset #-5.0 "18. Er" -- halt mein Herz __ _ im Glau - ben rein,
       so leb und sterb ich dir al -- lein; Je -- su,
       mein Trost, __ _ hör mein Be -- gier,
       o mein Hei -- land, wär ich bei dir!

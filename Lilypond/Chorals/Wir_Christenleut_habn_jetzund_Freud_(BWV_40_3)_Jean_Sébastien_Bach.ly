@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Wir Christenleut habn jetzund Freud (v. 3)"
+  title = \markup{\concat{"Wir Christenleut habn jetzund Freud" \small " (v. 3)"}}
   subtitle = "tiré de la cantate : Dazu ist erschienen der Sohn Gottes"
  poet = "Auteur : Kaspar Füger (1521-1592)"
   opus = "BWV 40/3"

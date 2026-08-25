@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Jesu, meine Freude (vv. 1, 6)"
+ title = \markup{\concat{"Jesu, meine Freude" \small " (vv. 1, 6)"}}
  subtitle = "tiré du motet : Jesu, meine Freude"
  poet = "Auteur : Johann Franck (1618-1677)"
   opus = "BWV 227/1"

@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Nun lob, mein Seel, den Herren (v. 5)"
+  title = \markup{\concat{"Nun lob, mein Seel, den Herren" \small " (v. 5)"}}
   subtitle = "tiré de la cantate : Wir danken dir Gott, wir danken dir"
  poet = "Auteur : Johann Gramann (1487-1541)"
   opus = "BWV 29/8"

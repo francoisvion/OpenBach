@@ -3,13 +3,12 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Aus tiefer Not schrei ich zu dir (v. 5)"
+  title = \markup{\concat{"Aus tiefer Not schrei ich zu dir" \small " (v. 5)"}}
   subtitle = "tiré de la cantate : Aus tiefer Not schrei ich zu dir"
- poet = "Auteur : Martin Luther (1483-1546)"
+  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 38/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
-
   }
 
 \score {

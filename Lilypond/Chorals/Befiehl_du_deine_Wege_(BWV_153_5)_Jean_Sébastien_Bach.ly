@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Befiehl du deine Wege (v. 5)"
+  title = \markup{\concat{"Befiehl du deine Wege" \small " (v. 5)"}}
   subtitle = "tiré de la cantate : Schau, lieber Gott, wie meine Feind"
  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 153/5"

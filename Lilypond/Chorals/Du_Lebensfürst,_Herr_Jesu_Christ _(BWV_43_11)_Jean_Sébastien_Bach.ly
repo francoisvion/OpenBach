@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Du Lebensfürst, Herr Jesu Christ (v. 1 - 13)"
+  title = \markup{\concat{"Du Lebensfürst, Herr Jesu Christ" \small " (v. 1 - 13)"}}
   subtitle = "tiré de la cantate : Gott fähret auf mit Jauchzen"
  poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 43/11"

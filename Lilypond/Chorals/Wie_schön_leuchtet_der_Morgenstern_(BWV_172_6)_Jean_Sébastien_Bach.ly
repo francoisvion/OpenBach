@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Wie schön leuchtet der Morgenstern (v. 4)"
+  title = \markup{\concat{"Wie schön leuchtet der Morgenstern" \small " (v. 4)"}}
   subtitle = "tiré de la cantate : Erschallet, ihr Lieder, erklinget, ihr Saiten!"
  poet = "Auteur : Philipp Nicolai (1556-1608)"
   opus = "BWV 172/6"

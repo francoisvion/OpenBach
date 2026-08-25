@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Valet will ich dir geben (v.3)"
+  title = \markup{\concat{"Valet will ich dir geben" \small " (v.3)"}}
   subtitle = "tiré de la Passion selon saint Jean"
  poet = "Auteur : Valerius Herberger (1562-1627)"
   opus = "BWV 245/26"

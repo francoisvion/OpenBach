@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Christus, der uns selig macht (v. 1)"
+  title = \markup{\concat{"Christus, der uns selig macht" \small " (v. 1)"}}
   subtitle = "tiré de la Passion selon saint Jean"
  poet = "Auteur : Michael Weisse (v.1488-1534)"
   opus = "BWV 245/15"

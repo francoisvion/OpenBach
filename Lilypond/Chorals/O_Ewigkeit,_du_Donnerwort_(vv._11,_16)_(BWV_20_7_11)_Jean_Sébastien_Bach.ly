@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "O Ewigkeit, du Donnerwort (v. 11, 16)"
+ title = \markup{\concat{"O Ewigkeit, du Donnerwort" \small " (v. 11, 16)"}}
  subtitle = "tiré de la cantate : O Ewigkeit, du Donnerwort"
  poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 20/7-11"

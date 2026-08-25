@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Nimm von uns, Herr, du treuer Gott (v. 7)"
+  title = \markup{\concat{"Nimm von uns, Herr, du treuer Gott" \small " (v. 7)"}}
   subtitle = "tiré de la cantate : Es reisset euch ein schrecklich Ende"
  poet = "Auteur : Martin Moller (1547-1606)"
   opus = "BWV 90/5"

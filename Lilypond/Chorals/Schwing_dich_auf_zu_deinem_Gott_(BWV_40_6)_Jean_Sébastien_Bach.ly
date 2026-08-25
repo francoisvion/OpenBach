@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Schwing dich auf zu deinem Gott (v. 2)"
+  title = \markup{\concat{"Schwing dich auf zu deinem Gott" \small " (v. 2)"}}
   subtitle = "tiré de la cantate : Dazu ist erschienen der Sohn Gottes"
  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 40/6"

@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Mit Fried und Freud ich fahr dahin (v. 4)"
+  title = \markup{\concat{"Mit Fried und Freud ich fahr dahin" \small " (v. 4)"}}
   subtitle = "tiré de la cantate : Erfreute Zeit im neuen Bunde"
  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 83/5"

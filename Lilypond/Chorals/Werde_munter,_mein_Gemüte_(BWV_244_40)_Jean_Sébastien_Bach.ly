@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Werde munter, mein Gemüte (v. 6)"
+  title = \markup{\concat{"Werde munter, mein Gemüte" \small " (v. 6)"}}
   subtitle = "tiré de la Passion selon saint Matthieu"
  poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 244/40"

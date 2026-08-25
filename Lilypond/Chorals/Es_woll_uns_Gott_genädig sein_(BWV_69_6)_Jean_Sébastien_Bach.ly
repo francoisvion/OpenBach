@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Es woll uns Gott genädig sein (v. 3),"
+  title = \markup{\concat{"Es woll uns Gott genädig sein" \small " (v. 3),"}}
   subtitle = "tiré de la cantate : Lobe den Herrn, meine Seele"
  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 69/6"

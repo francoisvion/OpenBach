@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Sei Lob und Ehr dem höchsten Gut (v. 4 - 9)"
+  title = \markup{\concat{"Sei Lob und Ehr dem höchsten Gut" \small " (v. 4 - 9)"}}
   subtitle = "tiré de la cantate : Sei Lob und Ehr dem höchsten Gut"
  poet = "Auteur : Johann Jakob Schütz (1640-1690) ?"
   opus = "BWV 117/4"

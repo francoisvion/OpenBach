@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Wir singen dir, Immanuel (v. 2)"
+  title = \markup{\concat{"Wir singen dir, Immanuel" \small " (v. 2)"}}
   subtitle = "tiré de l'oratorio de Noël, partie n° 2"
  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 248/23"

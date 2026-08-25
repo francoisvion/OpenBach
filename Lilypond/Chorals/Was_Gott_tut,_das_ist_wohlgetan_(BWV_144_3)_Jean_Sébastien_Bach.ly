@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Was Gott tut, das ist wohlgetan (v. 1)"
+  title = \markup{\concat{"Was Gott tut, das ist wohlgetan" \small " (v. 1)"}}
   subtitle = "tiré de Nimm, was dein ist, und gehe hin"
  poet = "Auteur : Samuel Rodigast (1649-1708)"
   opus = "BWV 144/3"

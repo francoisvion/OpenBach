@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "O Welt, sieh hier dein Leben (v. 5)"
+  title = \markup{\concat{"O Welt, sieh hier dein Leben" \small " (v. 5)"}}
   subtitle = "tiré de la Passion selon saint Matthieu"
  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 244/10"

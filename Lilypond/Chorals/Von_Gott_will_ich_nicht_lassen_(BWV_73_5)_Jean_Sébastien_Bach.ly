@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Von Gott will ich nicht lassen (v. 9)"
+  title = \markup{\concat{"Von Gott will ich nicht lassen" \small " (v. 9)"}}
   subtitle = "tiré de la cantate : Herr, wie du willt, so schicks mit mir"
  poet = "Auteur : Ludwig Helmbold (1532-1598)"
   opus = "BWV 73/5"

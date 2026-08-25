@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Wer nur den lieben Gott läßt walten (v. 7)"
+ title = \markup{\concat{"Wer nur den lieben Gott läßt walten" \small " (v. 7)"}}
  subtitle = "tire de la cantate : Gott ist unsre Zuversicht,"
  poet = "Auteur : Georg Neumark (1621-1681)"
   opus = "BWV 197/10"

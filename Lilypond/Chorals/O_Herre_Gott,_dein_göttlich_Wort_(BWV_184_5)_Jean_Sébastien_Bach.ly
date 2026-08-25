@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "O Herre Gott, dein göttlich Wort (v. 8)"
+ title = \markup{\concat{"O Herre Gott, dein göttlich Wort" \small " (v. 8)"}}
  subtitle = "tiré de la cantate : Erwünschtes Freudenlicht"
  poet = "Auteur : Anarg von Wildenfels (v.1499-v.1539)"
   opus = "BWV 184/5"

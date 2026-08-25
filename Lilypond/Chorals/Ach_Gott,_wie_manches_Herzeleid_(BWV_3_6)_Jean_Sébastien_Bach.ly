@@ -3,9 +3,9 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Erhalt mein Herz im Glauben rein"
- subtitle = "tiré de la cantate : Ach Gott, wie manches Herzeleid"
- poet = "Auteur : Martin Moller (1547-1606)"
+  title = \markup{\concat{"Erhalt mein Herz im Glauben rein" \small " (v. 18)"}}
+  subtitle = "tiré de la cantate : Ach Gott, wie manches Herzeleid"
+  poet = "Auteur : Martin Moller (1547-1606)"
   opus = "BWV 3/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

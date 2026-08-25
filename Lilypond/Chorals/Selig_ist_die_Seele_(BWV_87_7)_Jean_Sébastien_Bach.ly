@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Selig ist die Seele (v.9)"
+  title = \markup{\concat{"Selig ist die Seele" \small " (v.9)"}}
   subtitle = "tiré de la cantate : Bisher habt ihr nichts gebeten in meinem Namen"
  poet = "Auteur : Heinrich Müller (1631-1675)"
   opus = "BWV 87/7"

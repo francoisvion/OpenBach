@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Wär Gott nicht mit uns diese Zeit (v. 3)"
+  title = \markup{\concat{"Wär Gott nicht mit uns diese Zeit" \small " (v. 3)"}}
   subtitle = "tiré de la cantate : Wär Gott nicht mit uns diese Zeit"
  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 14/5"

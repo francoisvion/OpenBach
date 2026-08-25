@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Herzliebster Jesu (vv. 8–9)"
+ title = \markup{\concat{"Herzliebster Jesu" \small " (vv. 8–9)"}}
  subtitle = "tiré de la Passion selon saint Jean"
  poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 245/17"

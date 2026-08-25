@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "O Gott, du frommer Gott (v. 2)"
+ title = \markup{\concat{"O Gott, du frommer Gott" \small " (v. 2)"}}
  subtitle = "tiré de la cantate : Es ist dir gesagt, Mensch, was gut ist"
  poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 45/7"

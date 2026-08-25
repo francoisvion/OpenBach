@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Nun komm, der Heiden Heiland (v. 8)"
+  title = \markup{\concat{"Nun komm, der Heiden Heiland" \small " (v. 8)"}}
   subtitle = "tiré de la cantate : Nun komm, der Heiden Heiland"
  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 62/6"

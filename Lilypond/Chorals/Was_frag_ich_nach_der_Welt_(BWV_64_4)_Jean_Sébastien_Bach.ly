@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Was frag ich nach der Welt (v. 1)"
+  title = \markup{\concat{"Was frag ich nach der Welt" \small " (v. 1)"}}
   subtitle = "tiré de la cantate : Sehet, welch eine Liebe hat uns der Vater erzeiget,"
  poet = "Auteur : Balthasar Kindermann (1636-1706)"
   opus = "BWV 64/4"

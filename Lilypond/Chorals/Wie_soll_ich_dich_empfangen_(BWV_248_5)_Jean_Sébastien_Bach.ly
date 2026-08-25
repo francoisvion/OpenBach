@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Wie soll ich dich empfangen (v. 1)"
+  title = \markup{\concat{"Wie soll ich dich empfangen" \small " (v. 1)"}}
   subtitle = "tiré de l'oratorio de Noël, partie n° 1"
  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 248/5"

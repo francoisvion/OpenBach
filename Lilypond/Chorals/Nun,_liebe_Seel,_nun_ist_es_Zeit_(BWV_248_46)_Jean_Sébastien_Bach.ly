@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Nun, liebe Seel, nun ist es Zeit (v. 5)"
+  title = \markup{\concat{"Nun, liebe Seel, nun ist es Zeit" \small " (v. 5)"}}
   subtitle = "tiré de l'oratorio de Noël, partie n° 5"
  poet = "Auteur : Georg Weissel (1590-1635)"
   opus = "BWV 248/46"

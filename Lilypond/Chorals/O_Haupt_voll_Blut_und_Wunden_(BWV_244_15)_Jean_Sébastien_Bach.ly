@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "O Haupt voll Blut und Wunden (v. 5)"
+  title = \markup{\concat{"O Haupt voll Blut und Wunden" \small " (v. 5)"}}
   subtitle = "tiré de la Passion selon saint Matthieu"
  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 244/15"

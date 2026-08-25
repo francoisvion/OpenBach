@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Was mein Gott will, das g'scheh allzeit (v. 1)"
+  title = \markup{\concat{"Was mein Gott will, das g'scheh allzeit" \small " (v. 1)"}}
   subtitle = "tiré de la cantate : Nimm, was dein ist, und gehe hin"
  poet = "Auteur : Markgraf Albrecht von Brandenberg (1490-1568)"
   opus = "BWV 144/6"

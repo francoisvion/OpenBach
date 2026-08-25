@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Wo soll ich fliehen hin (v. 11)"
+ title = \markup{\concat{"Wo soll ich fliehen hin" \small " (v. 11)"}}
  subtitle = "tiré de la cantate : Bringet dem Herrn Ehre seines Namens"
  poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 148/6"

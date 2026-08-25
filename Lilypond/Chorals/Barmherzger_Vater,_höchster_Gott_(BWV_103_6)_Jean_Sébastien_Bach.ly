@@ -3,9 +3,9 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Barmherzger Vater, höchster Gott (v. 9)"
+  title = \markup{\concat{"Barmherzger Vater, höchster Gott" \small " (v. 9)"}}
   subtitle = "tiré de la cantate : Ihr werdet weinen und heulen"
- poet = "Auteur : Paul Gerhardt (1607-1676)"
+  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 103/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

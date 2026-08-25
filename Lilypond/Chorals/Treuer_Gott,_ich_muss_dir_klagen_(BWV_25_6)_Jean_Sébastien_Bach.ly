@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "Treuer Gott, ich muß dir klagen (v. 12)"
+  title = \markup{\concat{"Treuer Gott, ich muß dir klagen" \small " (v. 12)"}}
   subtitle = "tiré de la cantate : Es ist nichts Gesundes an meinem Leibe"
  poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 25/6"

@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Es ist das Heil uns kommen her (vv. 7–8)"
+ title = \markup{\concat{"Es ist das Heil uns kommen her" \small " (vv. 7–8)"}}
  subtitle = "tiré de la cantate : Es ist das Heil uns kommen her"
  poet = "Auteur : Paul Speratus (1489-1551)"
   opus = "BWV 9/7"

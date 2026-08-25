@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = "So wahr ich lebe, spricht dein Gott (v. 6 - 7)"
+  title = \markup{\concat{"So wahr ich lebe, spricht dein Gott" \small " (v. 6 - 7)"}}
   subtitle = "tiré de la cantate : Herr, deine Augen sehen nach dem Glauben!"
  poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 102/7"
