@@ -14,8 +14,6 @@
   
   oddHeaderMarkup = \markup \fill-line { \null \fromproperty #'page:page-number-string }
   evenHeaderMarkup = \markup \fill-line { \fromproperty #'page:page-number-string \null }
-  oddFooterMarkup = ##f
-  evenFooterMarkup = ##f
 
   system-system-spacing = #'((basic-distance . 11) 
                              (minimum-distance . 7) 
