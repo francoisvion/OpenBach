@@ -5,7 +5,7 @@
 \header {
  title = "Liebster Gott, wenn werd ich sterben"
  subtitle = "tiré de la cantate : Liebster Gott, wenn werd ich sterben"
- poet = "Kaspar Neumann"
+ poet = "Auteur : Kaspar Neumann (1648-1715)"
   opus = "BWV 8/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

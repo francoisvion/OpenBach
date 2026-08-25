@@ -5,7 +5,7 @@
 \header {
  title = "Es ist das Heil uns kommen her"
  subtitle = "tiré de la cantate : Wahrlich, wahrlich, ich sage euch"
- poet = "Paul Speratus"
+ poet = "Auteur : Paul Speratus (1489-1551)"
   opus = "BWV 86/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

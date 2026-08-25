@@ -5,7 +5,7 @@
 \header {
   title = "Was alle Weisheit in der Welt (v. 8)"
   subtitle = "tiré de la cantate : Er ist ein trotzig und verzagt Ding"
- poet = "Paul Gerhardt"
+ poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 176/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

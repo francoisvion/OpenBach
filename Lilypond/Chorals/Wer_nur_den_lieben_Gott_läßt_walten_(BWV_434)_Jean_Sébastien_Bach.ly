@@ -4,7 +4,7 @@
 
 \header {
  title = "Wer nur den lieben Gott läßt walten"
- poet = "Georg Neumark"
+ poet = "Auteur : Georg Neumark (1621-1681)"
   opus = "BWV 434"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

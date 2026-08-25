@@ -5,7 +5,7 @@
 \header {
  title = "Treuer Gott, ich muss dir klagen (v. 6)"
  subtitle = "tiré de la cantate : Höchsterwünschtes Freudenfest"
- poet = "Johann Heermann"
+ poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 194/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

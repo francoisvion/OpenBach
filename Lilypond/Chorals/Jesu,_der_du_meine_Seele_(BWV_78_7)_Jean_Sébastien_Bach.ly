@@ -5,7 +5,7 @@
 \header {
  title = "Jesu, der du meine Seele"
  subtitle = "tiré de la cantate : Jesu, der du meine Seele"
- poet = "Johann Rist"
+ poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 78/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

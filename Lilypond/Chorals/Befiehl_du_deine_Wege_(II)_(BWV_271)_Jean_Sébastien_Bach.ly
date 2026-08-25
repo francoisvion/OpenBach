@@ -4,7 +4,7 @@
 
 \header {
  title = "Befiehl du deine Wege (II)"
- poet = "Paul Gerhardt"
+ poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 271"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

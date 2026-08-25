@@ -5,7 +5,7 @@
 \header {
  title = "Es ist genug"
  subtitle = "tiré de la cantate : O Ewigkeit, du Donnerwort"
- poet = "Franz Joachim Burmeister"
+ poet = "Auteur : Franz Joachim Burmeister (1633-1672)"
   opus = "BWV 60/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

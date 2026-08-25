@@ -5,7 +5,7 @@
 \header {
   title = "Wer weiß, wie nahe mir mein Ende (v. 12)"
   subtitle = "Ich bin vergnügt mit meinem Glücke"
- poet = "Ämilie Juliane von Schwarzburg–Rudolstadt"
+ poet = "Auteur : Ämilie Juliane von Schwarzburg–Rudolstadt (1637-1706)"
   opus = "BWV 84/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

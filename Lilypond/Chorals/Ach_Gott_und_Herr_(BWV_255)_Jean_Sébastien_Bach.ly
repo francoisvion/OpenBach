@@ -4,7 +4,7 @@
 
 \header { 
  title = "Ach Gott und Herr"
- poet = "Martin Rutilius"
+ poet = "Auteur : Martin Rutilius (1551-1618)"
   opus = "BWV 255"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f   

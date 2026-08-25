@@ -4,7 +4,7 @@
 
 \header { 
  title = "Allein zu dir, Herr Jesu Christ"
- poet = "Konrad Hubert"
+ poet = "Auteur : Konrad Hubert (1507-1577)"
   opus = "BWV 261"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f   

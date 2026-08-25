@@ -5,7 +5,7 @@
 \header {
   title = "Nun lob, mein Seel, den Herren (v. 5)"
   subtitle = "tiré de la cantate : Wir danken dir Gott, wir danken dir"
- poet = "Johann Gramann"
+ poet = "Auteur : Johann Gramann (1487-1541)"
   opus = "BWV 29/8"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

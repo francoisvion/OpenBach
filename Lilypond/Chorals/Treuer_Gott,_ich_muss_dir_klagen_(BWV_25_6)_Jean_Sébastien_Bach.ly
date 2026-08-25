@@ -5,7 +5,7 @@
 \header {
   title = "Treuer Gott, ich muß dir klagen (v. 12)"
   subtitle = "tiré de la cantate : Es ist nichts Gesundes an meinem Leibe"
- poet = "Johann Heermann"
+ poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 25/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

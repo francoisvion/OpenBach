@@ -5,7 +5,7 @@
 \header {
  title = "Ach lieben Christen, seid getrost"
  subtitle = "tiré de la cantate : Ach lieben Christen, seid getrost"
- poet = "Johann Gigas"
+ poet = "Auteur : Johann Gigas (1514-1581)"
   opus = "BWV 114/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

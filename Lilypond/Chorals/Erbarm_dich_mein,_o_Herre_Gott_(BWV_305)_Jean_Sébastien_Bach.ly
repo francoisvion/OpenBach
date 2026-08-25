@@ -4,7 +4,7 @@
 
 \header {
  title = "Erbarm dich mein, o Herre Gott"
- poet = "Erhart Hegenwalt"
+ poet = "Auteur : Erhart Hegenwalt"
   opus = "BWV 305"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

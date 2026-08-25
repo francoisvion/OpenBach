@@ -4,7 +4,7 @@
 
 \header {
  title = "Valet will ich dir geben (choral)"
- poet = "Valerius Herberger"
+ poet = "Auteur : Valerius Herberger (1562-1627)"
   opus = "BWV 415"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

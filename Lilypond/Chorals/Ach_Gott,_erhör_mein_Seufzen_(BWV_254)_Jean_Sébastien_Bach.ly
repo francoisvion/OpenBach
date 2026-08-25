@@ -2,9 +2,9 @@
 
 #(set-global-staff-size 19)
 
-\header { 
- title = "Ach Gott, erhör mein Seufzen"
- poet = "Jakob Peter Schechs"
+\header {
+  title = "Ach Gott, erhör mein Seufzen"
+  poet = "Auteur : Jakob Peter Schechs (1607-1659)"
   opus = "BWV 254"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f   

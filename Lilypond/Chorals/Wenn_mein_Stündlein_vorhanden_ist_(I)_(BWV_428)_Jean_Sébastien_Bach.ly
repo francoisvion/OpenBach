@@ -4,7 +4,7 @@
 
 \header {
  title = "Wenn mein Stündlein vorhanden ist (I)"
- poet = "Nikolaus Herman"
+ poet = "Auteur : Nikolaus Herman (v.1480-1561)"
   opus = "BWV 428"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -5,7 +5,7 @@
 \header {
   title = "Wo soll ich fliehen hin (v. 9)"
   subtitle = "tiré de la cantate : Erforsche mich, Gott, und erfahre"
- poet = "Johann Heermann"
+ poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 136/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

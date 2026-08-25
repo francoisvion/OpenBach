@@ -4,7 +4,7 @@
 
 \header {
  title = "Wenn ich in Angst und Not"
- poet = "Matthäus Apelles von Löwenstern"
+ poet = "Auteur : Matthäus Apelles von Löwenstern (1594-1648)"
   opus = "BWV 427"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

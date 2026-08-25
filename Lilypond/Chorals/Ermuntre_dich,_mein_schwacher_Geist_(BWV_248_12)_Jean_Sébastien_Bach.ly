@@ -5,7 +5,7 @@
 \header {
  title = "Ermuntre dich, mein schwacher Geist"
  subtitle = "tiré de l'Oratorio de Noël"
- poet = "Johann Rist"
+ poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 248/12"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

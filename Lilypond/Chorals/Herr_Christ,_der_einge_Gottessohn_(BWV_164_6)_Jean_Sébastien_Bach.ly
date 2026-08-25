@@ -5,7 +5,7 @@
 \header {
  title = "Herr Christ, der einge Gottessohn"
  subtitle = "tiré de la cantate : Ihr, die ihr euch von Christo nennet"
- poet = "Elisabeth Creutziger"
+ poet = "Auteur : Elisabeth Creutziger (v.1500-v.1535)"
   opus = "BWV 164/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

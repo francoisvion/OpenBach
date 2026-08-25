@@ -4,7 +4,7 @@
 
 \header {
  title = "Wer in dem Schutz des Höchsten ist"
- poet = "Kaspar Bienemann"
+ poet = "Auteur : Kaspar Bienemann (1540-1591)"
   opus = "BWV 339"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -4,7 +4,7 @@
 
 \header {
  title = "Ich dank dir, lieber Herre (I)"
- poet = "Johann Kolros"
+ poet = "Auteur : Johann Kolros (v.1487-1558)"
   opus = "BWV 347"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

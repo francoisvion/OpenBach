@@ -4,7 +4,7 @@
 
 \header {
  title = "Warum sollt ich mich denn grämen"
- poet = "Paul Gerhardt"
+ poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 422"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

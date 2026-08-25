@@ -4,7 +4,7 @@
 
 \header {
  title = "Eins ist not, ach Herr, dies Eine"
- poet = "Johann Heinrich Schröder"
+ poet = "Auteur : Johann Heinrich Schröder (1666-1699)"
   opus = "BWV 304"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

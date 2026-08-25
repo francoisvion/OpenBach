@@ -4,7 +4,7 @@
 
 \header {
  title = "Machs mit mir, Gott, nach deiner Güt"
- poet = "Johann Hermann Schein"
+ poet = "Auteur : Johann Hermann Schein (1586-1630)"
   opus = "BWV 377"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -5,7 +5,7 @@
 \header {
  title = "O Gott, du frommer Gott (v. 2)"
  subtitle = "tiré de la cantate : Es ist dir gesagt, Mensch, was gut ist"
- poet = "Johann Heermann"
+ poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 45/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

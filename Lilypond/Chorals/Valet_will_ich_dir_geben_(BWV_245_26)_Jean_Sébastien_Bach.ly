@@ -5,7 +5,7 @@
 \header {
   title = "Valet will ich dir geben (v.3)"
   subtitle = "tiré de la Passion selon saint Jean"
- poet = "Valerius Herberger"
+ poet = "Auteur : Valerius Herberger (1562-1627)"
   opus = "BWV 245/26"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

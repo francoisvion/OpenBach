@@ -5,7 +5,7 @@
 \header {
   title = "Werde munter, mein Gemüte (v. 6)"
   subtitle = "tiré de la Passion selon saint Matthieu"
- poet = "Johann Rist"
+ poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 244/40"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

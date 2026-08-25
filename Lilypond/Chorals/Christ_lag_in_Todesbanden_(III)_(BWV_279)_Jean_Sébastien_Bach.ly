@@ -4,7 +4,7 @@
 
 \header {
  title = "Christ lag in Todesbanden (III)"
- poet = "Martin Luther"
+ poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 279"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

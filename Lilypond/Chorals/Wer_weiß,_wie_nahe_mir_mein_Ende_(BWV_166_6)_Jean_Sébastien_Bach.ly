@@ -5,7 +5,7 @@
 \header {
   title = "Wer weiß, wie nahe mir mein Ende (v. 1)"
   subtitle = "tiré de la cantate : Wo gehest du hin?"
- poet = "Ämilie Juliane von Schwarzburg–Rudolstadt"
+ poet = "Auteur : Ämilie Juliane von Schwarzburg–Rudolstadt (1637-1706)"
   opus = "BWV 166/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

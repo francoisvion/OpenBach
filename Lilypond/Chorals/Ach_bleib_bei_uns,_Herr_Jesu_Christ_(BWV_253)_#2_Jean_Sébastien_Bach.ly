@@ -5,7 +5,7 @@
 
 \header {
   title = "Ach bleib bei uns, Herr Jesu Christ"
- poet = "Nikolaus Selnecker"
+ poet = "Auteur : Nikolaus Selnecker (1532-1592)"
   opus = "BWV 253"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -4,7 +4,7 @@
 
 \header {
  title = "Gottlob, es geht nunmehr zum Ende"
- poet = "Christian Wiese"
+ poet = "Auteur : Christian Wiese"
   opus = "BWV 321"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

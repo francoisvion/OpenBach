@@ -5,7 +5,7 @@
 \header {
  title = "Erhalt uns, Herr, bei deinem Wort"
  subtitle = "tiré de la cantate : Bleib bei uns, denn es will Abend werden"
- poet = "Martin Luther"
+ poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 6/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

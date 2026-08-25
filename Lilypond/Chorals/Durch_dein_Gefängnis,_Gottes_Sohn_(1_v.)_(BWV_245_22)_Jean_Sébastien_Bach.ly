@@ -5,7 +5,7 @@
 \header {
   title = "Durch dein Gefängnis, Gottes Sohn"
   subtitle = "tiré de la Passion selon saint Jean"
- poet = "Christian Heinrich Postel"
+ poet = "Auteur : Christian Heinrich Postel (1658-1705)"
   opus = "BWV 245/22"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

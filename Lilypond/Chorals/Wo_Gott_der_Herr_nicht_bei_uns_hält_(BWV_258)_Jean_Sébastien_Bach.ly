@@ -4,7 +4,7 @@
 
 \header {
  title = "Wo Gott der Herr nicht bei uns hält"
- poet = "Justus Jonas"
+ poet = "Auteur : Justus Jonas (1493-1555)"
   opus = "BWV 258"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

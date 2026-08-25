@@ -5,7 +5,7 @@
 \header {
  title = "Ihr Gestirn, ihr hohlen Lüfte"
  subtitle = "tiré de l'Oratorio de Noël, partie V : Ehre sei dir, Gott, gesungen"
- poet = "Johann Franck"
+ poet = "Auteur : Johann Franck (1618-1677)"
   opus = "BWV 248/53"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

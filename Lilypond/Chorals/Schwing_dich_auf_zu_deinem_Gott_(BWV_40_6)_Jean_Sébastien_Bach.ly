@@ -5,7 +5,7 @@
 \header {
   title = "Schwing dich auf zu deinem Gott (v. 2)"
   subtitle = "tiré de la cantate : Dazu ist erschienen der Sohn Gottes"
- poet = "Paul Gerhardt"
+ poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 40/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

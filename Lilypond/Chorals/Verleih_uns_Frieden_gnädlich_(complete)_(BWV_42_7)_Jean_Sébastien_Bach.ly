@@ -5,7 +5,7 @@
 \header {
  title = "Verleih uns Frieden gnädlich"
  subtitle = "tiré de la cantate : Am Abend aber desselbigen Sabbatas"
- poet = "Martin Luther"
+ poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 42/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

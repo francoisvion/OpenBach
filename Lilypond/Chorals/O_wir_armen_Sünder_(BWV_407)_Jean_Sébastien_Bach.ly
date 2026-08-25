@@ -4,7 +4,7 @@
 
 \header {
  title = "O wir armen Sünder"
- poet = "Hermann Bonnus"
+ poet = "Auteur : Hermann Bonnus (1504-1548)"
   opus = "BWV 407"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

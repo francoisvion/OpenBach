@@ -4,7 +4,7 @@
 
 \header {
  title = "Dank sei Gott in der Höhe"
- poet = "Johannes Mühlmann"
+ poet = "Auteur : Johannes Mühlmann (1573-1613)"
   opus = "BWV 287"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

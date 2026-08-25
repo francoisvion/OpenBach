@@ -5,7 +5,7 @@
 \header {
  title = "Lobt Gott, ihr Christen, allzugleich"
  subtitle = "tiré de la cantate : Süßer Trost, mein Jesus kömmt"
- poet = "Nikolaus Herman"
+ poet = "Auteur : Nikolaus Herman (v.1480-1561)"
   opus = "BWV 151/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

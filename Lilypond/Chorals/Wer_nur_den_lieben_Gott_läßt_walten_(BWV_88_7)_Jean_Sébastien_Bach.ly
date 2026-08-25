@@ -5,7 +5,7 @@
 \header {
   title = "Wer nur den lieben Gott läßt walten (v.8)"
   subtitle = "tiré de la cantate : Siehe, ich will viel Fischer aussenden"
- poet = "Georg Neumark"
+ poet = "Auteur : Georg Neumark (1621-1681)"
   opus = "BWV 88/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

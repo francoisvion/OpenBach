@@ -5,7 +5,7 @@
 \header {
  title = "Erhalt mein Herz im Glauben rein"
  subtitle = "tiré de la cantate : Ach Gott, wie manches Herzeleid"
- poet = "Martin Moller"
+ poet = "Auteur : Martin Moller (1547-1606)"
   opus = "BWV 3/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

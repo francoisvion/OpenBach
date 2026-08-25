@@ -5,7 +5,7 @@
 \header {
  title = "Ich steh an deiner Krippen hier"
  subtitle = "tiré de l'Oratorio de Noël, partie VI : Herr, wenn die stolzen Feinde schnauben"
- poet = "Paul Gerhardt"
+ poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 248/59"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

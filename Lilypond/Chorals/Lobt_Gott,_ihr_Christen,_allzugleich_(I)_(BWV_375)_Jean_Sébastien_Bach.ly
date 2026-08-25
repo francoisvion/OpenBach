@@ -4,7 +4,7 @@
 
 \header {
  title = "Lobt Gott, ihr Christen, allzugleich (I)"
- poet = "Nikolaus Herman"
+ poet = "Auteur : Nikolaus Herman (v.1480-1561)"
   opus = "BWV 375"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

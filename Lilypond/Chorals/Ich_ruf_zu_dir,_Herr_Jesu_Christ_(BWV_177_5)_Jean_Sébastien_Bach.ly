@@ -5,7 +5,7 @@
 \header {
  title = "Ich ruf zu dir, Herr Jesu Christ"
  subtitle = "tiré de la cantate : Ich ruf zu dir, Herr Jesu Christ"
- poet = "Johann Agricola"
+ poet = "Auteur : Johann Agricola (1492-1566)"
   opus = "BWV 177/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

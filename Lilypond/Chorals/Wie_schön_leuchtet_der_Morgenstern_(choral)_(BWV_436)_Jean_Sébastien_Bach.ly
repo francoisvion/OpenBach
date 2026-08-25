@@ -4,7 +4,7 @@
 
 \header {
  title = "Wie schön leuchtet der Morgenstern (choral)"
- poet = "Philipp Nicolai"
+ poet = "Auteur : Philipp Nicolai (1556-1608)"
   opus = "BWV 436"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

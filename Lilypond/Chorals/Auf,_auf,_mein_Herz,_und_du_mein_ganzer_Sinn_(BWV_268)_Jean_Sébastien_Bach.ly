@@ -4,7 +4,7 @@
 
 \header {
  title = "Auf, auf, mein Herz, und du mein ganzer Sinn"
- poet = "Sigmund von Birken"
+ poet = "Auteur : Sigmund von Birken (1626-1681)"
   opus = "BWV 268"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

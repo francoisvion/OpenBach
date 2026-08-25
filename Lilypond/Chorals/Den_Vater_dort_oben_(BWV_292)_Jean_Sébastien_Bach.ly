@@ -4,7 +4,7 @@
 
 \header {
  title = "Den Vater dort oben"
- poet = "Michael Weisse"
+ poet = "Auteur : Michael Weisse (v.1488-1534)"
   opus = "BWV 292"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

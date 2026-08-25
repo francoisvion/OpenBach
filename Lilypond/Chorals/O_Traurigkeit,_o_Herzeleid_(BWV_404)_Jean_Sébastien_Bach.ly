@@ -4,7 +4,7 @@
 
 \header {
  title = "O Traurigkeit, o Herzeleid"
- poet = "Friedrich von Spee"
+ poet = "Auteur : Friedrich von Spee (1591-1635)"
   opus = "BWV 404"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

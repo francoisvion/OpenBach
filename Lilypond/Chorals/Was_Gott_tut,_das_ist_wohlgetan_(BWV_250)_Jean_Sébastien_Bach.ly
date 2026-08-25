@@ -4,7 +4,7 @@
 
 \header {
  title = "Was Gott tut, das ist wohlgetan"
- poet = "Samuel Rodigast"
+ poet = "Auteur : Samuel Rodigast (1649-1708)"
   opus = "BWV 250"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

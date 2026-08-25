@@ -5,7 +5,7 @@
 \header {
  title = "Jesu, meine Freude"
  subtitle = "tiré de la cantate : Sehet, welch eine Liebe hat uns der Vater erzeiget"
- poet = "Johann Franck"
+ poet = "Auteur : Johann Franck (1618-1677)"
   opus = "BWV 64/8"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -5,7 +5,7 @@
 \header {
  title = "Kommt, laßt euch den Herren lehren"
  subtitle = "tiré de la cantate : Brich dem Hungrigen dein Brot"
- poet = "David Denicke"
+ poet = "Auteur : David Denicke (1603-1680)"
   opus = "BWV 39/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

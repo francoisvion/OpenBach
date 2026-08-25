@@ -4,7 +4,7 @@
 
 \header {
  title = "Es stehn vor Gottes Throne"
- poet = "Ludwig Helmbold"
+ poet = "Auteur : Ludwig Helmbold (1532-1598)"
   opus = "BWV 309"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -4,7 +4,7 @@
 
 \header {
  title = "O Mensch, bewein dein Sünde groß"
- poet = "Sebald Heyden"
+ poet = "Auteur : Sebald Heyden (1499-1561)"
   opus = "BWV 402"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

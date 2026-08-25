@@ -5,7 +5,7 @@
 \header {
  title = "Jesu, nun sei gepreiset"
  subtitle = "tiré de la cantate : Jesu, nun sei gepreiset"
- poet = "Johannes Herman"
+ poet = "Auteur : Johannes Herman (1515-1593)"
   opus = "BWV 41/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

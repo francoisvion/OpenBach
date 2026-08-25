@@ -5,7 +5,7 @@
 \header {
   title = "Zeuch ein zu deinen Toren (v. 5)"
   subtitle = "tiré de la cantate : Sie werden euch in den Bann tun"
- poet = "Paul Gerhardt"
+ poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 183/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

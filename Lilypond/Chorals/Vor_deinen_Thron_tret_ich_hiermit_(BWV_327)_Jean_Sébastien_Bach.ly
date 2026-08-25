@@ -4,7 +4,7 @@
 
 \header {
  title = "Vor deinen Thron tret ich hiermit"
- poet = "Bobo von Hodenberg"
+ poet = "Auteur : Bobo von Hodenberg (1604-1650)"
   opus = "BWV 327"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

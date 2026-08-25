@@ -5,7 +5,7 @@
 \header {
   title = "Nimm von uns, Herr, du treuer Gott (v. 7)"
   subtitle = "tiré de la cantate : Nimm von uns, Herr, du treuer Gott"
- poet = "Martin Moller"
+ poet = "Auteur : Martin Moller (1547-1606)"
   opus = "BWV 101/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

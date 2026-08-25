@@ -4,7 +4,7 @@
 
 \header {
  title = "Wer Gott vertraut, hat wohl gebaut"
- poet = "Joachim Magdeburg"
+ poet = "Auteur : Joachim Magdeburg (1525-v.1587)"
   opus = "BWV 433"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

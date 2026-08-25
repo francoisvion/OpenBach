@@ -4,7 +4,7 @@
 
 \header {
  title = "O wie selig seid ihr doch, ihr Frommen (II)"
- poet = "Simon Dach"
+ poet = "Auteur : Simon Dach (1605-1659)"
   opus = "BWV 406"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

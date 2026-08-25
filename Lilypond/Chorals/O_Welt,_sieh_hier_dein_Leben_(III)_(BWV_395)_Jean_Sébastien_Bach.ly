@@ -4,7 +4,7 @@
 
 \header {
  title = "O Welt, sieh hier dein Leben (III)"
- poet = "Paul Gerhardt"
+ poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 395"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

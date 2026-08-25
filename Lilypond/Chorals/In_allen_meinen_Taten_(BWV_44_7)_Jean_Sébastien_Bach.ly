@@ -5,7 +5,7 @@
 \header {
  title = "In allen meinen Taten"
  subtitle = "tiré de la cantate : Sie werden euch in den Bann tun (I)"
- poet = "Paul Fleming"
+ poet = "Auteur : Paul Fleming (1609-1640)"
   opus = "BWV 44/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

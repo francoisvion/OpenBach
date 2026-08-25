@@ -5,7 +5,7 @@
 \header {
  title = "Nun komm, der Heiden Heiland (v. 8)"
  subtitle = "tiré de la cantate : Schwingt freudig euch empr"
- poet = "Martin Luther"
+ poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 36/8"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

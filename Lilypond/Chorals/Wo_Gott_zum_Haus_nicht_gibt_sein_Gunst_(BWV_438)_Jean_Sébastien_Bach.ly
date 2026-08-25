@@ -4,7 +4,7 @@
 
 \header {
  title = "Wo Gott zum Haus nicht gibt sein Gunst"
- poet = "Johann Kolros"
+ poet = "Auteur : Johann Kolros (v.1487-1558)"
   opus = "BWV 438"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f

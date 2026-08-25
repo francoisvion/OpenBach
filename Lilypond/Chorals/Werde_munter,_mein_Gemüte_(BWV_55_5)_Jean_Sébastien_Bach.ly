@@ -5,7 +5,7 @@
 \header {
   title = "Werde munter, mein Gemüte (v. 6)"
   subtitle = "tiré de la cantate : Ich armer Mensch, ich Sündenknecht"
- poet = "Johann Rist"
+ poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 55/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
