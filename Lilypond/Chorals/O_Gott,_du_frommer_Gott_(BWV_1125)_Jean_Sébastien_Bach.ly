@@ -1,0 +1,128 @@
+\version "2.27.1"
+
+#(set-global-staff-size 19)
+
+\header {
+ title = "O Gott, du frommer Gott"
+  opus = "BWV 1125"
+  composer = "Jean Sébastien Bach (1685-1750)"
+  tagline = ##f
+
+  }
+
+\score {
+  \new ChoirStaff <<
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    {
+      \clef treble
+      \key d \major
+      \time 4/4
+      <<
+        \new Voice = "soprano" {
+          \voiceOne
+          a'4 r4 r4 r4
+          fis'4 d'4 a'4 a'8 [b'16 c''16]
+          b'2.\fermata b'4
+          e'4 e'4 a'4 g'4
+          fis'4 e'4 d'4 a'4
+          b'4 b'4 a'4 g'8 [fis'8]
+          <d' fis'>2.\fermata r4
+          e'4 r4 r4 r4
+          fis'4 gis'4 a'4 b'8 [cis''16 d''16]
+          cis''4 b'4 a'4 a'4
+          a'4 a'4 d''8 [e''8] d''8 [c''8]
+          b'2.\fermata r4
+          b'4 r4 r4 r4
+          b'4 b'4 e''8 [fis''8] d''8 [cis''8]
+          <a' cis''>2.\fermata a'4
+          b'4 a'4 b'4 cis''4
+          d''2. a'4
+          b'8 [a'8] g'8 [fis'8] e'4 s4
+          d'2.\fermata r4 \fine
+        }
+        \new Voice = "alto" {
+          \voiceTwo
+          e'4 s2.
+          d'4 a4 d'4 d'4
+          d'2.\fermata d'4
+          cis'8 [b8] cis'4 d'4 e'4 ~
+          e'8 d'4 cis'8 a4 fis'4
+          g'8 [fis'8] g'4 g'8 [fis'8] e'4
+          s1
+          e'4 s2.
+          a4 b4 a4 e'4
+          e'4. d'8 cis'4 e'4
+          fis'8 [g'8] a'4 a'8 [g'8] g'8 [fis'8]
+          g'2.\fermata s4
+          fis'4 s2.
+          e'4 b'4 b'8 a'4 gis'8
+          s2. g'4
+          fis'4 fis'4 fis'4 fis'4
+          fis'2. d'4
+          d'4 d'4 d'8 [b8] cis'4
+          a2.\fermata s4 \fine
+        }
+      >>
+    }
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    {
+      \clef bass
+      \key d \major
+      \time 4/4
+      <<
+        \new Voice = "tenor" {
+          \voiceOne
+          a4 r4 r4 r4
+          a4 fis4 fis8 [e8] fis4
+          g2.\fermata g4
+          a4. a4 s4.
+          a8 [a8] a8 [g8] fis4 d'4
+          d'4 d'8 [e'8] cis'8 [d'8] e'8 [cis'8]
+          a2.\fermata r4
+          a8 [g8] r4 r4 r4
+          fis4 d'4 e'4 b4
+          b8 a4 gis8 a4 cis'4
+          d'4 fis4 b4 a8 [d'8]
+          d'2.\fermata r4
+          dis'4 s2.
+          e'4 gis4 cis'4 b8 [e'8]
+          e'2.\fermata e'4
+          d'4 cis'4 d'4 cis'4
+          b2. d'4
+          g4. s16 b8 e4 s8.
+          fis2.\fermata r4 \fine
+        }
+        \new Voice = "bass" {
+          \voiceTwo
+          cis4 s2.
+          d4. e8 d8 [c8] b,8 [a,8]
+          g,2.\fermata g4
+          d4. d4 s4.
+          d8 [fis8] a4 d4 d4
+          g8 [a8] b8 [g8] a8 [b8] cis'8 [a8]
+          d2.\fermata s4
+          cis4 s2.
+          d8 [cis8] b,8 [d8] cis8 [b,8] a,8 [gis,8]
+          a,8 [cis8] e4 a,4 a8 [g8]
+          fis8 [e8] d8 [c8] b,8 [c8] d4
+          g,2.\fermata s4
+          b8 [a8] r4 r4 r4
+          gis8 [fis8] e8 [d8] cis8 [d8] e4
+          a,2.\fermata d8 [cis8]
+          d8 [e8] fis8 [e8] d8 [cis8] b,8 [ais,8]
+          b,2. fis4
+          g8. [a8] b8 [g8] a8 [g8] r16 r8
+          d2.\fermata s4 \fine
+        }
+      >>
+    }
+  >>
+}
+
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
+}
+\midi {}
