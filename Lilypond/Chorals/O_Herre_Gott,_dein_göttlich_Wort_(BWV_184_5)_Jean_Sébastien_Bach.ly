@@ -1,6 +1,31 @@
 \version "2.27.1"
 
-#(set-global-staff-size 19)
+
+\paper {
+  #(set-paper-size "a4")
+  #(set-global-staff-size 18)
+  
+  left-margin = 20\mm
+  right-margin = 20\mm
+  top-margin = 20\mm
+  bottom-margin = 25\mm
+  
+  indent = 0\mm % Pas d'indentation pour un instrument solo/clavier
+  
+  oddHeaderMarkup = \markup \fill-line { \null \fromproperty #'page:page-number-string }
+  evenHeaderMarkup = \markup \fill-line { \fromproperty #'page:page-number-string \null }
+  oddFooterMarkup = ##f
+  evenFooterMarkup = ##f
+
+  system-system-spacing = #'((basic-distance . 11) 
+                             (minimum-distance . 7) 
+                             (padding . 1.5) 
+                             (stretchability . 40))
+  markup-system-spacing = #'((basic-distance . 9) 
+                             (minimum-distance . 6) 
+                             (padding . 1.5) 
+                             (stretchability . 20))
+}
 
 \header {
  title = \markup{\concat{"O Herre Gott, dein göttlich Wort" \small " (v. 8)"}}
