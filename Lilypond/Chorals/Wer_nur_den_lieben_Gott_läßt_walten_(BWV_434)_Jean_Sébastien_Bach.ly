@@ -3,7 +3,7 @@
 #(set-global-staff-size 19)
 
 \header {
- title = "Wer weiß, wie nahe mir mein Ende"
+ title = "Wer nur den lieben Gott läßt walten"
  poet = "Georg Neumark"
   opus = "BWV 434"
   composer = "Jean Sébastien Bach (1685-1750)"
