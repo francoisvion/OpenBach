@@ -10,7 +10,7 @@
   top-margin = 20\mm
   bottom-margin = 25\mm
   
-  indent = 5\mm % Marge pour la mention SATB
+  indent = 5\mm
   
   oddHeaderMarkup = \markup \fill-line { \null \fromproperty #'page:page-number-string }
   evenHeaderMarkup = \markup \fill-line { \fromproperty #'page:page-number-string \null }
