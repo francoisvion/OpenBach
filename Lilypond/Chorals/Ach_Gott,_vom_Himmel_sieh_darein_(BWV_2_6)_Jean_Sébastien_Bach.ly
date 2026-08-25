@@ -119,7 +119,7 @@
           \repeat volta 2 {
           \partial 4  d4
           g a bes a8 [g]
-          fims4 g d\fermata c
+          fis4 g d\fermata c
           cis d e fis
           g d g,\fermata } g
           cis d a8 [g] f [e]

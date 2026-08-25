@@ -57,7 +57,6 @@
           b'4 a' g' fis'
           e'2.\fermata \fine
         }
-        fine
         \new Voice = "alto" {
           \voiceTwo
            b4 b e'8 [dis'] e'4

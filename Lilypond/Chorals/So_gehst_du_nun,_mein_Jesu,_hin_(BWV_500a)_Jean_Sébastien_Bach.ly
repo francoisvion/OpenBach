@@ -29,7 +29,7 @@
   title = "So gehst du nun, mein Jesu, hin"
   subtitle = \markup{"tiré de la Passion selon saint Marc "\small "(parodie musicale)"}
   opus = "BWV 500a"
-  \poet = "Auteur : Friedrich Nachtenhöfer (1624-1685)"
+  poet = "Auteur : Friedrich Nachtenhöfer (1624-1685)"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f   
   copyright = "© 2026 — OpenBach"
@@ -108,7 +108,7 @@
           \repeat volta 2 {
           \partial 4 bes'8 [a]
           d4 d, g fis8 [g]
-          a4 e a f!'
+          a4 e a f'!
           bes, f bes bes
           c8 [d] es4 d\fermata } c
           f,8 [c'] f [es] d4\fermata c

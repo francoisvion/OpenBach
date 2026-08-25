@@ -114,7 +114,7 @@
           b4 e'8 [c'] d' [b] c'4
           b2.\fermata e'4
           e' f' g' c'8 [b]
-          a4 d' d'\fermatad'
+          a4 d' d'\fermata d'
           g a bes a8 [g]
           a2 e'4 e'
           e a a gis
