@@ -3,13 +3,14 @@
 #(set-global-staff-size 19)
 
 \header {
- title = \markup{\concat{"Nun komm, der Heiden Heiland" \small " (v. 8)"}}
- subtitle = "tiré de la cantate : Schwingt freudig euch empr"
- poet = "Auteur : Martin Luther (1483-1546)"
+  title = \markup{\concat{"Nun komm, der Heiden Heiland" \small " (v. 8)"}}
+  subtitle = "tiré de la cantate : Schwingt freudig euch empr"
+  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 36/8"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {

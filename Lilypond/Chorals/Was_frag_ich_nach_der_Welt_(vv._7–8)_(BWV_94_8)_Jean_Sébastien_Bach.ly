@@ -3,12 +3,13 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = \markup{\concat{"Was frag ich nach der Welt" \small " (v. 7 – 8)"}}
+  title = \markup{\concat{"Was frag ich nach der Welt" \small " (v. 7 & 8)"}}
   subtitle = "tiré de la cantate : Was frag ich nach der Welt"
  poet = "Auteur : Balthasar Kindermann (1636-1706)"
   opus = "BWV 94/8"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {
@@ -66,7 +67,7 @@
     }
     
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Was frag' ich nach der Welt!
+      \tweak X-offset #-4.5 "7. Was" frag' ich nach der Welt!
       Im Hui muß sie ver -- schwin - den;
       Ihr An -- sehn kann durch -- aus
       den bla -- ßen Tod nicht bin - den;
@@ -77,7 +78,7 @@
     }
     
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Was frag' ich nach der Welt!
+      \tweak X-offset #-4.5 "8. Was" frag' ich nach der Welt!
       mein Je -- sus ist mein Le - ben,
       mein Schatz, mein Ei -- gen -- tum,
       dem ich mich ganz er -- ge - ben,

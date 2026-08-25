@@ -3,13 +3,14 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = \markup{\concat{"O Welt, sieh hier dein Leben" \small " (v. 3 – 4)"}}
+  title = \markup{\concat{"O Welt, sieh hier dein Leben" \small " (v. 3 & 4)"}}
   subtitle = "tiré de la Passion selon saint Jean"
  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 245/11"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {
@@ -59,7 +60,7 @@
     }
     
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Wer hat dich so ge -- schla -- gen,
+      \tweak X-offset #-4 "3. Wer" hat dich so ge -- schla -- gen,
       mein Heil, und dich mit Pla -- gen
       so ü -- bel zu -- ge -- richt'?
       Du bist ja nicht ein Sün -- der
@@ -68,7 +69,7 @@
     }
     
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Ich, ich und mei -- ne Sün -- den,
+      \tweak X-offset #-4 "4. Ich," ich und mei -- ne Sün -- den,
       die sich wie Körn -- lein fin -- den
       des San -- des an dem Meer,
       die ha -- ben dir er -- re -- get

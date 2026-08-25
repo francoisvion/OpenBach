@@ -8,6 +8,7 @@
   composer = "Jean Sébastien Bach (1685-1750)"
   opus = "BWV 253"   
   tagline = ##f
+  copyright = "© 2026 — OpenBach"
   } 
  
 \score  {

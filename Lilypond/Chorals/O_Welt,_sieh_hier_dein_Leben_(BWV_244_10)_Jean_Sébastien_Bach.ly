@@ -5,10 +5,11 @@
 \header {
   title = \markup{\concat{"O Welt, sieh hier dein Leben" \small " (v. 5)"}}
   subtitle = "tiré de la Passion selon saint Matthieu"
- poet = "Auteur : Paul Gerhardt (1607-1676)"
+  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 244/10"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {

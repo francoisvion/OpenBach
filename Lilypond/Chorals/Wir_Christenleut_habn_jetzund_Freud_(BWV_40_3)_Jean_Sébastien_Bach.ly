@@ -5,11 +5,12 @@
 \header {
   title = \markup{\concat{"Wir Christenleut habn jetzund Freud" \small " (v. 3)"}}
   subtitle = "tiré de la cantate : Dazu ist erschienen der Sohn Gottes"
- poet = "Auteur : Kaspar Füger (1521-1592)"
+  poet = "Auteur : Kaspar Füger (1521-1592)"
   opus = "BWV 40/3"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {

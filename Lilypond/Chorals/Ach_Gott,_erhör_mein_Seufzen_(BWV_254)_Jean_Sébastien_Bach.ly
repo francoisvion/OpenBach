@@ -8,6 +8,7 @@
   opus = "BWV 254"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f   
+  copyright = "© 2026 — OpenBach"
   } 
  
 \score  {
@@ -55,6 +56,7 @@
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
       Ach Gott, er --  hör' mein Seuf -- zen und Weh -- kla -- gen, 
       laß mich in mei -- ner Noth nicht gar ver -- za -- gen,
@@ -62,6 +64,7 @@
       er -- kennst mein Herz,
       hast du mir's auf -- ge -- legt, so hilf mir's tra -- gen!
     }
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B}}
     {
       \clef bass

@@ -3,13 +3,14 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = \markup{\concat{"Wach auf, mein Herz, und singe" \small " (v. 9 – 10)"}}
+  title = \markup{\concat{"Wach auf, mein Herz, und singe" \small " (v. 9 & 10)"}}
   subtitle = "tiré de la cantate : Höchsterwünschtes Freudenfest"
  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 194/12"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {
@@ -67,14 +68,14 @@
     }
     
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Sprich Ja zu mei - nen Ta -- ten,
+      \tweak X-offset #-5 "9. Sprich" Ja zu mei - nen Ta -- ten,
       hilf selbst das Bes - te ra -- ten;
       den An -- fang, Mittl und En -- de,
       ach, Herr, zum be - sten wen - - de!  
     }
     
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Mit Se -- gen mich __ _ be -- schüt -- te,
+      \tweak X-offset #-5 "10. Mit" Se -- gen mich __ _ be -- schüt -- te,
       mein Herz sei dei - ne Hüt -- te,
       dein Wort sei mei -- ne Spei -- se,
       bis ich gen Him - mel rei - - se!

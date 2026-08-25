@@ -3,13 +3,14 @@
 #(set-global-staff-size 19)
 
 \header {
- title = \markup{\concat{"O großer Gott von Macht" \small " (v. 9)"}}
- subtitle = "tiré de la cantate : Schauet doch und sehet, ob irgendein Schmerz sei,"
- poet = "Auteur : Matthäus Meyfart (1590-1642)"
+  title = \markup{\concat{"O großer Gott von Macht" \small " (v. 9)"}}
+  subtitle = "tiré de la cantate : Schauet doch und sehet, ob irgendein Schmerz sei"
+  poet = "Auteur : Matthäus Meyfart (1590-1642)"
   opus = "BWV 46/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {

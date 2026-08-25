@@ -5,10 +5,11 @@
 \header {
   title = \markup{\concat{"Nun komm, der Heiden Heiland" \small " (v. 8)"}}
   subtitle = "tiré de la cantate : Nun komm, der Heiden Heiland"
- poet = "Auteur : Martin Luther (1483-1546)"
+  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 62/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {

@@ -3,13 +3,13 @@
 #(set-global-staff-size 19)
 
 \header {
- title = \markup{\concat{"Nun bitten wir den Heiligen Geist" \small " (v. 3)"}}
- subtitle = "tiré de la cantate : Gott ist unsre Zuversicht"
- poet = "Auteur : Martin Luther (1483-1546)"
+  title = \markup{\concat{"Nun bitten wir den Heiligen Geist" \small " (v. 3)"}}
+  subtitle = "tiré de la cantate : Gott ist unsre Zuversicht"
+  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 197/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
-
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {

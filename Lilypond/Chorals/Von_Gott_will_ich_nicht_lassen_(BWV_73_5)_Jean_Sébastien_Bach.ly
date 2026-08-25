@@ -5,10 +5,11 @@
 \header {
   title = \markup{\concat{"Von Gott will ich nicht lassen" \small " (v. 9)"}}
   subtitle = "tiré de la cantate : Herr, wie du willt, so schicks mit mir"
- poet = "Auteur : Ludwig Helmbold (1532-1598)"
+  poet = "Auteur : Ludwig Helmbold (1532-1598)"
   opus = "BWV 73/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {

@@ -3,13 +3,14 @@
 #(set-global-staff-size 19)
 
 \header {
- title = \markup{\concat{"Herzliebster Jesu" \small " (vv. 8–9)"}}
+ title = \markup{\concat{"Herzliebster Jesu" \small " (v. 8 & 9)"}}
  subtitle = "tiré de la Passion selon saint Jean"
  poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 245/17"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {
@@ -57,14 +58,14 @@
     }
     
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Ach, gro -- ßer Kö -- nig, groß zu al -- len Zei - ten,
+      \tweak X-offset #-4 "8. Ach," gro -- ßer Kö -- nig, groß zu al -- len Zei - ten,
       wie kann ich gnug -- sam die -- se Treu aus -- brei -- ten? 
       Keins Men -- schen Her -- ze mag in -- des aus -- den -- ken,
       was dir zu schen -- ken.
     }
     
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Ich kann's mit mei -- nen Sin -- nen nicht er -- rei - chen,
+      \tweak X-offset #-4 "9. Ich" kann's mit mei -- nen Sin -- nen nicht er -- rei - chen,
       wo -- mit doch dein Er -- bar -- men zu ver -- glei -- chen.
       Wie kann ich dir denn dei -- ne Lie -- bes -- ta -- ten
       im Werk er -- stat -- ten? _

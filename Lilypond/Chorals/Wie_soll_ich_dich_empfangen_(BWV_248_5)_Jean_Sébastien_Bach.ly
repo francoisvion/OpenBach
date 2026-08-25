@@ -5,11 +5,12 @@
 \header {
   title = \markup{\concat{"Wie soll ich dich empfangen" \small " (v. 1)"}}
   subtitle = "tiré de l'oratorio de Noël, partie n° 1"
- poet = "Auteur : Paul Gerhardt (1607-1676)"
+  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 248/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {

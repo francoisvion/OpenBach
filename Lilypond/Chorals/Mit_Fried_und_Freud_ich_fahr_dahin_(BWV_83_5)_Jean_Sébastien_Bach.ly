@@ -5,10 +5,11 @@
 \header {
   title = \markup{\concat{"Mit Fried und Freud ich fahr dahin" \small " (v. 4)"}}
   subtitle = "tiré de la cantate : Erfreute Zeit im neuen Bunde"
- poet = "Auteur : Martin Luther (1483-1546)"
+  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 83/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {

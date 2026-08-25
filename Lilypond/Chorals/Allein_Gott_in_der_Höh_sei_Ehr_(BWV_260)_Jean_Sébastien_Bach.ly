@@ -8,6 +8,7 @@
   opus = "BWV 260"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f   
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {
@@ -53,6 +54,7 @@
         }
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" {
       Al --  lein Gott in der Höh' sei Ehr'
       und Dank für sei -- ne__ Gna -- de,

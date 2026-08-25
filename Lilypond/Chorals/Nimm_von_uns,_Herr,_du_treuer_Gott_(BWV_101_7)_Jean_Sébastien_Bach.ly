@@ -5,11 +5,12 @@
 \header {
   title = \markup{\concat{"Nimm von uns, Herr, du treuer Gott" \small " (v. 7)"}}
   subtitle = "tiré de la cantate : Nimm von uns, Herr, du treuer Gott"
- poet = "Auteur : Martin Moller (1547-1606)"
+  poet = "Auteur : Martin Moller (1547-1606)"
   opus = "BWV 101/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {

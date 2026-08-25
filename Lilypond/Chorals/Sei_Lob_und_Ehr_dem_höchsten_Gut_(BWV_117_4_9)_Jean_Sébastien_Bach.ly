@@ -3,12 +3,13 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = \markup{\concat{"Sei Lob und Ehr dem höchsten Gut" \small " (v. 4 - 9)"}}
+  title = \markup{\concat{"Sei Lob und Ehr dem höchsten Gut" \small " (v. 4 & 9)"}}
   subtitle = "tiré de la cantate : Sei Lob und Ehr dem höchsten Gut"
- poet = "Auteur : Johann Jakob Schütz (1640-1690) ?"
+  poet = "Auteur : Johann Jakob Schütz (1640-1690) ?"
   opus = "BWV 117/4"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {

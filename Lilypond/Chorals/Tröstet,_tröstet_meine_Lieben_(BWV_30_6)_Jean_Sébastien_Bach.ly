@@ -5,11 +5,12 @@
 \header {
   title = \markup{\concat{"Tröstet, tröstet meine Lieben" \small " (v. 3)"}}
   subtitle = "tiré de la cantate : Freue dich, erlöste Schar"
- poet = "Auteur : Johann Olearius (1611-1684)"
+  poet = "Auteur : Johann Olearius (1611-1684)"
   opus = "BWV 30/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {

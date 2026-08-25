@@ -5,10 +5,11 @@
 \header {
   title = \markup{\concat{"Befiehl du deine Wege" \small " (v. 5)"}}
   subtitle = "tiré de la cantate : Schau, lieber Gott, wie meine Feind"
- poet = "Auteur : Paul Gerhardt (1607-1676)"
+  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 153/5"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {

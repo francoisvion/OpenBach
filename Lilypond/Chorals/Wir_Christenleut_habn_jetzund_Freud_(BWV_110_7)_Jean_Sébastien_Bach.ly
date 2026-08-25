@@ -3,13 +3,14 @@
 #(set-global-staff-size 19)
 
 \header {
- title = \markup{\concat{"Wir Christenleut habn jetzund Freud" \small " (v. 5)"}}
- subtitle = "tiré de la cantate : Unser Mund sei voll Lachens"
- poet = "Auteur : Kaspar Füger (1521-1592)"
+  title = \markup{\concat{"Wir Christenleut habn jetzund Freud" \small " (v. 5)"}}
+  subtitle = "tiré de la cantate : Unser Mund sei voll Lachens"
+  poet = "Auteur : Kaspar Füger (1521-1592)"
   opus = "BWV 110/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {

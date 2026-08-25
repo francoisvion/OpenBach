@@ -3,13 +3,14 @@
 #(set-global-staff-size 19)
 
 \header {
- title = \markup{\concat{"O Ewigkeit, du Donnerwort" \small " (v. 11, 16)"}}
+ title = \markup{\concat{"O Ewigkeit, du Donnerwort" \small " (v. 11 & 16)"}}
  subtitle = "tiré de la cantate : O Ewigkeit, du Donnerwort"
  poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 20/7-11"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {
@@ -55,7 +56,7 @@
     }
     
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      \tweak X-offset #-3.0 \markup{"7. So"} -- lang ein Gott im Him -- mel lebt
+      \tweak X-offset #-4.0 \markup{"11. So"} -- lang ein Gott im Him -- mel lebt
       und ü -- ber al -- le Wol -- ken schwebt,
       Wird sol -- che Mar -- ter wäh -- ren:      
       Denn wird sich en -- den die -- se Pein,
@@ -69,7 +70,7 @@
     }
     
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      \tweak X-offset #-4.0 \markup{"11. O"} E -- wig -- keit, du Don -- ner -- wort,
+      \tweak X-offset #-4 \markup{"16. O"} E -- wig -- keit, du Don -- ner -- wort,
       O Schwert, das durch die See -- le bohrt,
       O An -- fang son -- der En -- de!      
       Nimm du mich, wenn es dir ge -- fällt,

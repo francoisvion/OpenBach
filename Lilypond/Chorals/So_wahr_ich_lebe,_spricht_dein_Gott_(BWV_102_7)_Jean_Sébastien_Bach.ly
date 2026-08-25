@@ -3,12 +3,13 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = \markup{\concat{"So wahr ich lebe, spricht dein Gott" \small " (v. 6 - 7)"}}
+  title = \markup{\concat{"So wahr ich lebe, spricht dein Gott" \small " (v. 6 & 7)"}}
   subtitle = "tiré de la cantate : Herr, deine Augen sehen nach dem Glauben!"
  poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 102/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {
@@ -58,7 +59,7 @@
     }
 
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Heut lebst du, heut be -- keh -- re dich,
+      \tweak X-offset #-5 "6. Heut" lebst du, heut be -- keh -- re dich,
       eh Mor -- gen kommt, kann's än -- dern sich;
       Wer heut ist frisch, ge -- sund und roth,
       ist mor -- gen krank, ja wol gar todt.
@@ -67,7 +68,7 @@
     }
 
    \new Lyrics \lyricsto "soprano" {\set stanza = 2
-     Hilf, o Herr Je -- su, hilf du mir,
+     \tweak X-offset #-5 "7. Hilf," o Herr Je -- su, hilf du mir,
      daß ich noch heu -- te komm zu dir,
      und Bu -- ße thu den Au -- gen -- blick,
      eh mich der schnel -- le Tod hin -- rück,

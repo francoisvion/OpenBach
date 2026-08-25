@@ -3,12 +3,13 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = \markup{\concat{"Singen wir aus Herzensgrund" \small " (v. 4 - 6)"}}
+  title = \markup{\concat{"Singen wir aus Herzensgrund" \small " (v. 4 & 6)"}}
   subtitle = "tiré de la cantate : Es wartet alles auf dich,"
  poet = "Auteur : Hans Vogel (?-v.1565)"
   opus = "BWV 187/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {
@@ -86,7 +87,7 @@
     }
     
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      Gott hat die Er -- de zu -- ge - richt',
+      \tweak X-offset #-4 "4. Gott" hat die Er -- de zu -- ge - richt',
       läßts an Nah - rung man -- geln nicht;
       Berg und Tal, die macht er naß,
       daß __ _ dem Vieh auch wächst sein Gras;
@@ -96,7 +97,7 @@
     }
     
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      Wir dan -- ken sehr und bit - ten ihn,
+      \tweak X-offset #-4 "6. Wir" dan -- ken sehr und bit - ten ihn,
       daß er uns geb des Geis -- tes Sinn,
       daß wir sol -- ches recht ver -- stehn,
       stets __ _ in sein' Ge -- bo -- ten gehn,

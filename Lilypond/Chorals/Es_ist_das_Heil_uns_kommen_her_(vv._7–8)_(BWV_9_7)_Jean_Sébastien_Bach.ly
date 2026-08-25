@@ -3,13 +3,14 @@
 #(set-global-staff-size 19)
 
 \header {
- title = \markup{\concat{"Es ist das Heil uns kommen her" \small " (vv. 7–8)"}}
+ title = \markup{\concat{"Es ist das Heil uns kommen her" \small " (v. 7 & 8)"}}
  subtitle = "tiré de la cantate : Es ist das Heil uns kommen her"
  poet = "Auteur : Paul Speratus (1489-1551)"
   opus = "BWV 9/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {

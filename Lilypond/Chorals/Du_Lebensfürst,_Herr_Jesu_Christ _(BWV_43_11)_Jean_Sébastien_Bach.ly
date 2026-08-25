@@ -3,12 +3,13 @@
 #(set-global-staff-size 19)
 
 \header {
-  title = \markup{\concat{"Du Lebensfürst, Herr Jesu Christ" \small " (v. 1 - 13)"}}
+  title = \markup{\concat{"Du Lebensfürst, Herr Jesu Christ" \small " (v. 1 & 13)"}}
   subtitle = "tiré de la cantate : Gott fähret auf mit Jauchzen"
  poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 43/11"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {
@@ -80,7 +81,7 @@
     }
     
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      \tweak X-offset #-3 "1. Du" \tweak X-offset #0 Le -- bens -- fürst, __ _ _ Herr Je -- su Christ,
+      \tweak X-offset #-3.5 "1. Du" \tweak X-offset #0 Le -- bens -- fürst, __ _ _ Herr Je -- su Christ,
       der du bist auf -- ge -- nom -- men
       wie soll ich dein -- en gro - ßen Sieg,
       den du durch ei - - nen schwe -- ren Krieg
@@ -95,7 +96,7 @@
 
     
     \new Lyrics \lyricsto "soprano" {\set stanza = 1
-      \tweak X-offset #-4.5 "13. Zieh" \tweak X-offset #0 uns dir nach, __ _ _   so lau -- fen wir,
+      \tweak X-offset #-6 "13. Zieh" \tweak X-offset #0 uns dir nach, __ _ _   so lau -- fen wir,
       gieb uns des Glau -- bens Flü -- gel!
       Mein Gott! wann fahr ich doch __ _ da -- hin,
       wo -- selbst ich e - - wig fröh -- lich bin?

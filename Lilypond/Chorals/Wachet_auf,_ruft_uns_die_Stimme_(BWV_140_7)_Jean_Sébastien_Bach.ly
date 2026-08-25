@@ -4,12 +4,13 @@
 
 \header {
   title = \markup{\concat{"Wachet auf, ruft uns die Stimme" \small " (v. 3)"}}
-  subtitle = "tiré de la cantate : Wachet auf, ruft uns die Stimme,"
- poet = "Auteur : Philipp Nicolai (1556-1608)"
+  subtitle = "tiré de la cantate : Wachet auf, ruft uns die Stimme"
+  poet = "Auteur : Philipp Nicolai (1556-1608)"
   opus = "BWV 140/7"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {

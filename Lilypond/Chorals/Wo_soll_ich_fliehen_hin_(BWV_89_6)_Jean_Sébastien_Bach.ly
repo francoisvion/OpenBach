@@ -5,11 +5,12 @@
 \header {
   title = \markup{\concat{"Wo soll ich fliehen hin" \small " (v. 7)"}}
   subtitle = "tiré de la cantate : Was soll ich aus dir machen, Ephraim?"
- poet = "Auteur : Johann Heermann (1585-1647)"
+  poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 89/6"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {

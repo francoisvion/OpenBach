@@ -3,13 +3,14 @@
 #(set-global-staff-size 19)
 
 \header {
- title = \markup{\concat{"O Haupt voll Blut und Wunden" \small " (v. 1 – 2)"}}
+ title = \markup{\concat{"O Haupt voll Blut und Wunden" \small " (v. 1 & 2)"}}
  subtitle = "tiré de la Passion selon saint Matthieu"
  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 244/54"
   composer = "Jean Sébastien Bach (1685-1750)"
   tagline = ##f
 
+  copyright = "© 2026 — OpenBach"
   }
 
 \score {
