@@ -1,0 +1,123 @@
+sopranoMusic = {
+          \voiceOne
+          a'4 g'8 [fis'] b'4 b'
+          cis'' cis'' d'' d''\fermata
+          b'4. a'8 g'4 a'
+          g'8 [fis'] e' [fis'] d'2\fermata
+          a'4 g'8 [fis'] b'4 b'
+          cis'' cis'' d'' d''\fermata
+          b'4. a'8 g'4 a'
+          g'8 [fis'] e' [fis'] d'2\fermata \bar "||"
+          \time 3/4
+          \partial 4 d'8 [e']
+          fis'4 fis' fis'
+          e' e' e'8 [fis']
+          g'4 g' g'8 [fis']
+          fis'4 fis' fis'
+          b'4. a'8 g'4
+          a'4. g'8 fis'4
+          g' fis' e'
+          d' d'\fermata d'8 [e']
+          fis'4 fis' fis'
+          e' e' e'8 [fis']
+          g'4 g' g'
+          fis'2 fis'4
+          b'4. a'8 g'4
+          a'4. g'8 fis'4
+          g' fis' e'
+          d'2.\fermata \fine
+        }
+
+altoMusic = {
+          \voiceTwo
+          fis'4 d' d' g'8 [fis']
+          e'4 a'8 [g'] fis'4 fis'\fermata
+          d' g'8 [fis'] e'4 e'
+          d' cis' a2\fermata
+          e'4 d' fis' e'8 [d']
+          cis'4 fis' fis' fis'\fermata
+          g'8 [fis'] e'4 d' e'
+          e'8 [d'] d' [cis'] a2\fermata \bar "||"
+          \time 3/4
+          \partial 4 a4
+          d' d' d'
+          cis'8 [b cis' d'] e'4
+          e' e' e'
+          d'8 [cis' d' e'] fis'4
+          g'4. fis'8 e'4
+          e'8 [d'] cis'4 d'
+          d' d' cis'
+          a a\fermata a
+          d' d' d'
+          d' cis'8 [b cis' d']
+          e'4 e' e'
+          e' d' r
+          d' g'8 [fis'] e'4~
+          e'8 [g'] fis' [e'] d' [a]
+          d'4. e'8 cis'4
+          a2.\fermata \fine
+        }
+
+tenorMusic = {
+          \voiceOne
+          d'4 a b e'8 [d']
+          cis' [b] a4 a a\fermata
+          g8 [a] b4 b a
+          a a8 [g] fis2\fermata
+          a4 a a8 [fis g b]~
+          b [gis] ais4 b b\fermata
+          d' cis' b8 [g e a]
+          a4 a fis2\fermata \bar "||"
+          \time 3/4
+          \partial 4 fis8 [g]
+          a4 a a8 [b]
+          cis' [d' e' d'] cis'4
+          b b b8 [cis']
+          d' [e' fis' e' d' cis']
+          b [a g a] b4
+          a a a
+          g8 [a] b4 e
+          fis fis\fermata fis
+          b b a
+          b a8 [gis] a4
+          a b cis'
+          a2 a4
+          d'8 [cis'] b4. b8
+          a4. cis'8 d'4
+          d a a8 [g]
+          fis2.\fermata \fine
+        }
+
+bassMusic = {
+          \voiceTwo
+          d4 d g8 [fis] e4
+          a8 [g fis e] d4 d\fermata
+          g8 [fis] e4 e8 [d] cis4
+          d a, d2\fermata
+          cis4 d dis e
+          eis fis b, b,\fermata
+          g, a, b, cis
+          d a, d2\fermata \bar "||"
+          \time 3/4
+          \partial 4 d4
+          d8 [cis] d [e] fis [g]
+          a4 a, a
+          e8 [dis] e [fis] g [a]
+          b4 b, b8 [a]
+          g [fis] e4 e8 [d]
+          cis [b,] a,4 d8 [cis]
+          b, [a,] g,4 a,
+          d d\fermata d8 [cis]
+          b,4 b8 [a g fis]
+          gis4 e a
+          cis d8 [cis] b, [a,]
+          d2 r4
+          b, e e8 [d]
+          cis [a,] d4. cis8
+          b,4 a,8 [g,] a,4
+          d2.\fermata \fine
+        }
+
+sopranoLyrics = \lyricmode {
+      Eins ist noth, ach Herr, dies Ei -- ne leh -- re mich er -- ken -- nen doch: al -- les An -- dre, wie's auch schei -- ne, ist ja nur ein schwe -- res Joch, da -- run -- ter das Her -- ze sich na -- get und pla -- get, und den -- noch kein wah -- res Ver -- gnü -- gen er -- ja -- get; er -- lang ich dies Ei -- ne, das Al -- les er -- setzt, so werd ich mit Ei -- nem in Al -- lem er -- götzt.
+    }
