@@ -141,7 +141,7 @@
     \fill-line { \null \fontsize #6 \bold "Table des matières" \null }
     \vspace #2
   }
-  tocItemMarkup = \markup \fill-line { \fromproperty #'toc:text \fromproperty #'toc:page }
+  tocItemMarkup = \markup \fill-with-pattern #1 #RIGHT "." \fromproperty #'toc:text \fromproperty #'toc:page
 }
 
 \layout {
