@@ -63,10 +63,7 @@
       <<
         \new Voice = "tenor" \tenorMusic
         
-      \new Lyrics \with { alignAboveContext = "lower" } \lyricsto "tenor" {
-        \repeat unfold 37 {\skip1 }
-        E - - - - - wig -- keit, in E - - - wig -- keit.
-      }
+      \new Lyrics \with { alignAboveContext = "lower" } \lyricsto "tenor" \tenorLyrics
     
         \new Voice = "bass" \bassMusic
       >>

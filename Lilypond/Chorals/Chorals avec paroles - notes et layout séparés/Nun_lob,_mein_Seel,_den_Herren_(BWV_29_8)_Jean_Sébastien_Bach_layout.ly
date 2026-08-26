@@ -51,23 +51,13 @@
       >>
     }
     
-    \new Lyrics \with { alignAboveContext = #"upper" } \lyricsto "soprano" {\set stanza = 1
-      \repeat unfold 8 { \skip1 }
-      Gott Va -- ter, Sohn, Hei -- li -- gem Geist!
-      \repeat unfold 31 { \skip1 }
-      ihm tröst -- lich soll'n an -- han - - gen.
-      \repeat unfold 7 { \skip1 }
-      A -- men, wir wer -- dens er -- lan -- gen,
-    }
+    \new Lyrics \with { alignAboveContext = #"upper" } \lyricsto "soprano" \versoOneLyrics
     
-    \new Lyrics \with { alignAboveContext = #"upper" } \lyricsto "soprano" {\set stanza = 2
-      \repeat unfold 8 { \skip1 }
-      Was er uns aus Gna -- den ver -- heißt,
-    }
+    \new Lyrics \with { alignAboveContext = #"upper" } \lyricsto "soprano" \versoTwoLyrics
     
-       \new Lyrics \lyricsto "alto" \versoOneLyrics
+       \new Lyrics \lyricsto "alto" \altoVersoOneLyrics
     
-    \new Lyrics \lyricsto "alto" \versoTwoLyrics
+    \new Lyrics \lyricsto "alto" \altoVersoTwoLyrics
     
     \new Staff = "lower" \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -79,12 +69,7 @@
         
         \new Voice = "bass" \bassMusic
         
-    \new Lyrics \with { alignAboveContext = #"lower" }  \lyricsto "tenor" {\set stanza = 1
-      \repeat unfold 50 { \skip1 }
-      ihm tröst -- lich soll'n an -- han - gen.
-      \repeat unfold 7 { \skip1 }
-      A -- men, wir wer -- dens er -- lan - gen,
-    }
+    \new Lyrics \with { alignAboveContext = #"lower" } \lyricsto "tenor" \tenorVersoOneLyrics
     
     \new Lyrics \lyricsto "bass" \bassVersoOneLyrics
     

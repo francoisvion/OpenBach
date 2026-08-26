@@ -150,20 +150,20 @@ sopranoTwoLyrics = \lyricmode {
       und See -- lig -- keit.
     }
 
-tenorLyrics = \lyricmode {
-      \repeat unfold 52 {\skip1}
-      und See -- lig -- keit.
-    }
-
 altoLyrics = \lyricmode {
       Welt, a -- de! ich bin dein mü -- de,
       ich will nach dem Him -- mel zu,
       da wird sein der rech -- te Frie -- de
       und die ew' -- ge stol -- ze Ruh.
       Welt, bei dir ist Krieg und Streit,
-      nichts, denn lau -- ter Ei -- tel -- keit;
+      nichts, denn lau -- ter Ei -- tel -- keit; 
       in dem Him -- mel al -- le -- zeit Frie -- de,
       Freud' und See -- lig -- keit.
+    }
+
+tenorLyrics = \lyricmode {
+      \repeat unfold 52 {\skip1}
+      und See -- lig -- keit.
     }
 
 bassLyrics = \lyricmode {

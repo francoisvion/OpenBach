@@ -51,22 +51,13 @@
       >>
     }
     
-    \new Lyrics \with { alignAboveContext = "upper" } \lyricsto "soprano" {\set stanza = 1
-      Herr -- scher ü -- ber Tod und Le - - ben
-      mach ein -- mal mein En - de gut,
-      Hilf, daß ich ein ehr -- lich Grab
-      ne -- ben from -- men Chri -- sten hab und auch end -- lich in der Er - - de
-      nim -- mer -- mehr zu -- schan - - den wer - - de.
-    }
+    \new Lyrics \with { alignAboveContext = "upper" } \lyricsto "soprano" \versoOneLyrics
     
-    \new Lyrics \with { alignAboveContext = "upper" } \lyricsto "soprano" {\set stanza = 2
-      Leh -- re mich den Geist auf -- ge - - ben
-      mit recht wohl -- ge -- faßt - tem Mut.
-    }
+    \new Lyrics \with { alignAboveContext = "upper" } \lyricsto "soprano" \versoTwoLyrics
     
-    \new Lyrics \lyricsto "alto" \versoOneLyrics
+    \new Lyrics \lyricsto "alto" \altoVersoOneLyrics
     
-    \new Lyrics \lyricsto "alto" \versoTwoLyrics
+    \new Lyrics \lyricsto "alto" \altoVersoTwoLyrics
     
     \new Staff = "lower" \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -78,18 +69,9 @@
         
         \new Voice = "bass" \bassMusic
         
-       \new Lyrics \with { alignAboveContext = "lower" } \lyricsto "tenor" {\set stanza = 1
-         Herr -- scher ü -- ber Tod und Le -- ben
-         mach ein -- mal mein En -- de gut,
-         Hilf, daß ich ein ehr -- lich Grab
-         ne -- ben from -- men Chri -- sten hab und auch end -- lich in der Er -- de
-         nim -- mer -- mehr zu -- schan - - - den wer - de.
-       }
+       \new Lyrics \with { alignAboveContext = "lower" } \lyricsto "tenor" \tenorVersoOneLyrics
     
-       \new Lyrics \with { alignAboveContext = "lower" } \lyricsto "tenor" {\set stanza = 2
-         Leh -- re mich den Geist auf -- ge -- ben
-         mit recht wohl -- ge -- faßt -- tem Mut.
-       }
+       \new Lyrics \with { alignAboveContext = "lower" } \lyricsto "tenor" \tenorVersoTwoLyrics
        
        \new Lyrics \lyricsto "bass" \bassVersoOneLyrics
     

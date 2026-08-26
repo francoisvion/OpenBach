@@ -55,7 +55,7 @@
     \new Lyrics \with { alignAboveContext = "upper" } \lyricsto "soprano1" \sopranoOneLyrics
 
     \new Lyrics \with { alignAboveContext = "upper" } \lyricsto "soprano2" \sopranoTwoLyrics
-
+    
     \new Lyrics \lyricsto "alto" \altoLyrics
     
     \new Staff = "lower" \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
@@ -67,7 +67,7 @@
         \new Voice = "tenor" \tenorMusic
         
     \new Lyrics \with { alignAboveContext = "lower" } \lyricsto "tenor" \tenorLyrics
-
+        
         \new Voice = "bass" \bassMusic
         
     \new Lyrics \lyricsto "bass" \bassLyrics

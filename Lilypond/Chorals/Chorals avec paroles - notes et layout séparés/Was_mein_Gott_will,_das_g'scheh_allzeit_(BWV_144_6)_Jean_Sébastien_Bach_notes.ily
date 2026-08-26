@@ -97,6 +97,11 @@ versoTwoLyrics = \lyricmode {\set stanza = 2
       zu hel -- fen den'n er ist be -- reit, die an ihn glau -- ben fe - - ste.
     }
 
+tenorLyrics = \lyricmode {
+          \repeat unfold 47 {\skip1}
+          \tweak X-offset #-6.0 "(T.) ver" -- la - - - - - ßen.
+        }
+
 bassLyrics = \lyricmode {
           \repeat unfold 47 {\skip1}
           \tweak X-offset #-6.0 "(B.) ver" -- la - - - ßen.

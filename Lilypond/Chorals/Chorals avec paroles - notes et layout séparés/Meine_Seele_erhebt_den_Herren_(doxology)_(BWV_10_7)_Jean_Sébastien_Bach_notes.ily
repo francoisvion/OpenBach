@@ -102,12 +102,26 @@ bassMusic = {
           g,\fermata \fine
         }
 
+sopranoLyrics = \lyricmode {
+      \repeat unfold 6 {\skip1}
+      Va -- ter 
+      \repeat unfold 14 {\skip1}
+      war im An -- fang jetzt und im -- mer -- dar
+      und von E -- wig -- keit zu E -- wig -- keit, A - men.
+    }
+
 altoLyrics = \lyricmode {
       Lob und Preis sei Gott dem Va - ter und dem Sohn
       und __ dem hei -- li -- gen Gei - ste,
       wie es war im An -- fang jetzt und im -- mer -- dar
       und von E -- wig -- keit zu E -- wig -- keit, A - - - - - - - men.
     }
+
+tenorLyrics = \lyricmode {
+          \repeat unfold 22 {\skip1}
+          war im An -- fang jetzt __ _ und __ _ im -- mer - dar
+          und von E -- wig -- keit zu E -- wig -- keit, A - - - - - - - - - men.
+        }
 
 bassLyrics = \lyricmode {
           \repeat unfold 26 {\skip1}

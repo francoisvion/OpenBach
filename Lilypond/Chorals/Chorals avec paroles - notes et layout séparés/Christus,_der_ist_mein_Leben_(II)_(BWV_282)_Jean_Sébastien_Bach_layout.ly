@@ -2,7 +2,7 @@
 
 
 
-\include "Christus,_der_ist_mein_Leben_(II)_(BWV_282)_Jean_Sébastien_Bach_notes.ily"
+\include "Christus,_der_ist_mein_Leben_(II)_(BWV_282)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -59,9 +59,7 @@
         \new Voice = "tenor" \tenorMusic
         \new Lyrics \with {
       alignAboveContext = "lower"
-    } \lyricsto "tenor" {
-        \repeat unfold 9 {\skip1} Ster - ben
-        }
+    } \lyricsto "tenor" \tenorLyrics
 
         \new Voice = "bass" \bassMusic
       >>

@@ -2,7 +2,7 @@
 
 
 
-\include "Meine_Seele_erhebt_den_Herren_(doxology)_(BWV_10_7)_Jean_Sébastien_Bach_notes.ily"
+\include "Meine_Seele_erhebt_den_Herren_(doxology)_(BWV_10_7)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -51,13 +51,7 @@
       >>
     }
     
-    \new Lyrics \with {alignAboveContext = "upper"} \lyricsto "soprano" {
-      \repeat unfold 6 {\skip1}
-      Va -- ter 
-      \repeat unfold 14 {\skip1}
-      war im An -- fang jetzt und im -- mer -- dar
-      und von E -- wig -- keit zu E -- wig -- keit, A - men.
-    }
+    \new Lyrics \with {alignAboveContext = "upper"} \lyricsto "soprano" \sopranoLyrics
     
      \new Lyrics \lyricsto "alto" \altoLyrics
     
@@ -69,11 +63,7 @@
       <<
         \new Voice = "tenor" \tenorMusic
         
-        \new Lyrics \with {alignAboveContext = "lower"} \lyricsto "tenor" {
-          \repeat unfold 22 {\skip1}
-          war im An -- fang jetzt __ _ und __ _ im -- mer - dar
-          und von E -- wig -- keit zu E -- wig -- keit, A - - - - - - - - - men.
-        }
+        \new Lyrics \with {alignAboveContext = "lower"} \lyricsto "tenor" \tenorLyrics
     
         \new Voice = "bass" \bassMusic
         

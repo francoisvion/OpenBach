@@ -63,10 +63,7 @@
       <<
         \new Voice = "tenor" \tenorMusic
         
-        \new Lyrics \with {alignAboveContext = "lower"} \lyricsto "tenor" {
-          \repeat unfold 47 {\skip1}
-          \tweak X-offset #-6.0 "(T.) ver" -- la - - - - - ßen.
-        }
+        \new Lyrics \with {alignAboveContext = "lower"} \lyricsto "tenor" \tenorLyrics
     
         \new Voice = "bass" \bassMusic
         

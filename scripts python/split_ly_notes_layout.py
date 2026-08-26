@@ -73,7 +73,26 @@ def extract_blocks(content, pattern):
 
 
 VOICE_RE = r'\\new Voice\s*=\s*"([a-zA-Z0-9]+)"\s*((?:\\relative\s*[a-zA-Z]*[\',]*\s*|\\transpose\s+\S+\s+\S+\s*)?)\{'
-LYRICS_RE = r'\\new Lyrics\s+\\lyricsto\s+"([a-zA-Z0-9]+)"\s*\{'
+
+# \new Lyrics may carry a \with {...} context override (e.g. alignAboveContext) placed
+# *before* \lyricsto -- it must stay attached to the context declaration in layout.ly,
+# it is not part of the lyric text itself.
+LYRICS_RE = re.compile(r'\\new Lyrics\s+(?:\\with\s*(\{[^{}]*\})\s*)?\\lyricsto\s+"([a-zA-Z0-9]+)"\s*\{')
+
+
+def extract_lyrics_blocks(content):
+    blocks = []
+    for m in LYRICS_RE.finditer(content):
+        open_idx = m.end() - 1
+        close_idx = find_matching_brace(content, open_idx)
+        blocks.append({
+            'name': m.group(2),
+            'with_clause': m.group(1),
+            'inner': content[open_idx + 1:close_idx],
+            'start': m.start(),
+            'end': close_idx + 1,
+        })
+    return blocks
 
 VARNAME_SUFFIX = {
     'soprano': 'sopranoMusic',
@@ -87,10 +106,22 @@ STANZA_RE = re.compile(r'\\set\s+stanza\s*=\s*(\d+)')
 ORDINAL_WORDS = {1: 'One', 2: 'Two', 3: 'Three', 4: 'Four', 5: 'Five', 6: 'Six'}
 
 
+def sanitize_identifier_name(name):
+    """LilyPond identifiers can't have a digit glued to a letter (e.g. 'soprano1'
+    is invalid). Voice IDs like "soprano1"/"soprano2" (divisi) need the trailing
+    number spelled out instead."""
+    m = re.match(r'^([a-zA-Z]+)(\d+)$', name)
+    if not m:
+        return name
+    base, num = m.groups()
+    word = ORDINAL_WORDS.get(int(num), num)
+    return base + word
+
+
 def voice_varname(voice_name, occurrence_index):
     base = VARNAME_SUFFIX.get(voice_name)
     if base is None:
-        base = voice_name + 'Music'
+        base = sanitize_identifier_name(voice_name) + 'Music'
     if occurrence_index == 0:
         return base
     word = ORDINAL_WORDS.get(occurrence_index + 1, str(occurrence_index + 1))
@@ -103,10 +134,11 @@ def lyrics_varname(voice_name, inner, occurrence_index):
         n = int(m.group(1))
         word = ORDINAL_WORDS.get(n, str(n))
         return f"verso{word}Lyrics"
+    safe_name = sanitize_identifier_name(voice_name)
     if occurrence_index == 0:
-        return f"{voice_name}Lyrics"
+        return f"{safe_name}Lyrics"
     word = ORDINAL_WORDS.get(occurrence_index + 1, str(occurrence_index + 1))
-    return f"{voice_name}Lyrics{word}"
+    return f"{safe_name}Lyrics{word}"
 
 
 def split_file(src_path):
@@ -118,7 +150,7 @@ def split_file(src_path):
     os.makedirs(out_dir, exist_ok=True)
 
     voice_blocks = extract_blocks(content, VOICE_RE)
-    lyrics_blocks = extract_blocks(content, LYRICS_RE)
+    lyrics_blocks = extract_lyrics_blocks(content)
 
     # assign variable names, counting occurrences per voice name
     seen_voice_counts = {}
@@ -135,7 +167,8 @@ def split_file(src_path):
         if varname in used_varnames:
             # a different voice already claimed this name (e.g. two voices both
             # tagged \set stanza = 2) -- disambiguate by prefixing the voice name
-            varname = f"{b['name']}{varname[0].upper()}{varname[1:]}"
+            safe_name = sanitize_identifier_name(b['name'])
+            varname = f"{safe_name}{varname[0].upper()}{varname[1:]}"
         used_varnames.add(varname)
         b['varname'] = varname
         seen_lyrics_counts[b['name']] = idx + 1
@@ -160,7 +193,8 @@ def split_file(src_path):
         if b in voice_blocks:
             replacement = f'\\new Voice = "{b["name"]}" \\{b["varname"]}'
         else:
-            replacement = f'\\new Lyrics \\lyricsto "{b["name"]}" \\{b["varname"]}'
+            with_part = f'\\with {b["with_clause"]} ' if b.get('with_clause') else ''
+            replacement = f'\\new Lyrics {with_part}\\lyricsto "{b["name"]}" \\{b["varname"]}'
         layout_content = layout_content[:b['start']] + replacement + layout_content[b['end']:]
 
     # insert \include right after the \version line

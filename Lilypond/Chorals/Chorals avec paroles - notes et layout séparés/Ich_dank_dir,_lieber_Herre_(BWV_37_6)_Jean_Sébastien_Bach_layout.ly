@@ -2,7 +2,7 @@
 
 
 
-\include "Ich_dank_dir,_lieber_Herre_(BWV_37_6)_Jean_Sébastien_Bach_notes.ily"
+\include "Ich_dank_dir,_lieber_Herre_(BWV_37_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -61,10 +61,7 @@
       <<
         \new Voice = "tenor" \tenorMusic
         
-    \new Lyrics \with { alignAboveContext = "lower" } \lyricsto "tenor" {
-      \repeat unfold 53 {\skip1 } {\markup \concat{"                "   \hspace #1  \tiny "(T :)"}}
-      und lös __ _ _ mich von der Last.
-    }
+    \new Lyrics \with { alignAboveContext = "lower" } \lyricsto "tenor" \tenorLyrics
     
         \new Voice = "bass" \bassMusic
       >>

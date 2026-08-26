@@ -51,24 +51,13 @@
       >>
     }
     
-    \new Lyrics \with { alignAboveContext = "upper" } \lyricsto "soprano" {\set stanza = 1
-      Weg mit al -- len Schä -- tzen,
-      du bist mein Er -- gö -- tzen,
-      Je -- su, mei -- ne Lust!
-      E -- lend, Not, Kreuz, Schmach und Tod
-      soll mich, ob ich viel muß lei -- den,
-      nicht von Je -- su schei -- den.
-    }
+    \new Lyrics \with { alignAboveContext = "upper" } \lyricsto "soprano" \versoOneLyrics
     
-    \new Lyrics \with { alignAboveContext = "upper" } \lyricsto "soprano" {\set stanza = 2
-      Weg ihr eit -- len Eh -- ren,
-      ich mag euch nicht hö -- ren,
-      bleibt mir un -- be -- wußt!
-    }
+    \new Lyrics \with { alignAboveContext = "upper" } \lyricsto "soprano" \versoTwoLyrics
     
-    \new Lyrics \lyricsto "alto" \versoOneLyrics
+    \new Lyrics \lyricsto "alto" \altoVersoOneLyrics
     
-    \new Lyrics \lyricsto "alto" \versoTwoLyrics
+    \new Lyrics \lyricsto "alto" \altoVersoTwoLyrics
     
     \new Staff = "lower" \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -80,22 +69,9 @@
         
         \new Voice = "bass" \bassMusic
         
-       \new Lyrics \with { alignAboveContext = "lower" } \lyricsto "tenor" {\set stanza = 1
-        Weg, weg, weg, weg, mit al -- len Schä - tzen,
-        mit al -- len Schä -- tzen,
-        Du, du bist mein Er -- gö -- tzen,
-        Je - su, mei -- ne Lust!
-        E -- lend, Not, Kreuz, Schmach und Tod,
-        Schmach und Tod soll mich, ob ich viel __ muß lei - - den,
-        nicht, nicht von Je -- su schei -- den, von Je -- su schei - den
-       }
+       \new Lyrics \with { alignAboveContext = "lower" } \lyricsto "tenor" \tenorVersoOneLyrics
     
-       \new Lyrics \with { alignAboveContext = "lower" }  \lyricsto "tenor" {\set stanza = 2
-         Weg, weg, weg, weg, ihr eit -- len Eh - ren,
-         ihr eit -- len Eh -- ren,
-         ich, ich mag euch nicht hö -- ren,
-         bleibt __ _ mir un -- be -- wußt!
-       }
+       \new Lyrics \with { alignAboveContext = "lower" } \lyricsto "tenor" \tenorVersoTwoLyrics
     
        \new Lyrics \lyricsto "bass" \bassVersoOneLyrics
     

@@ -101,3 +101,7 @@ sopranoLyrics = \lyricmode {
 altoLyrics = \lyricmode {
       \repeat unfold 9 {\skip1} Ster - - - ben
     }
+
+tenorLyrics = \lyricmode {
+        \repeat unfold 9 {\skip1} Ster - ben
+        }

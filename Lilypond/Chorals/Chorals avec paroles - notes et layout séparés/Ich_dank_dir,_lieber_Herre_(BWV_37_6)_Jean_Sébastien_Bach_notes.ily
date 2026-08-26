@@ -96,3 +96,8 @@ sopranoLyrics = \lyricmode {
       daß er mein Sünd tu tra - {\markup \concat{"      gen"   \hspace #1  \tiny "(SAB :)"}}
       und lös mich von __ _ _ _ _ der Last.
     }
+
+tenorLyrics = \lyricmode {
+      \repeat unfold 53 {\skip1 } {\markup \concat{"                "   \hspace #1  \tiny "(T :)"}}
+      und lös __ _ _ mich von der Last.
+    }

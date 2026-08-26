@@ -175,6 +175,20 @@ bassMusic = {
         }
 
 versoOneLyrics = \lyricmode {\set stanza = 1
+      \repeat unfold 8 { \skip1 }
+      Gott Va -- ter, Sohn, Hei -- li -- gem Geist!
+      \repeat unfold 31 { \skip1 }
+      ihm tröst -- lich soll'n an -- han - - gen.
+      \repeat unfold 7 { \skip1 }
+      A -- men, wir wer -- dens er -- lan -- gen,
+    }
+
+versoTwoLyrics = \lyricmode {\set stanza = 2
+      \repeat unfold 8 { \skip1 }
+      Was er uns aus Gna -- den ver -- heißt,
+    }
+
+altoVersoOneLyrics = \lyricmode {\set stanza = 1
       Sei Lob __ _ und Preis __ _ mit Eh - - ren
       Gott Va -- ter, Sohn __ _ Hei -- li -- gem __ _ Geist!      
       daß wir __ _ ihm fest __ _ ver -- trau - - en,
@@ -187,9 +201,16 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       Glaub'n wir __ _ aus Her -- zens - grund.
     }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
+altoVersoTwoLyrics = \lyricmode {\set stanza = 2
       Der woll' __ _ in uns __ _ ver -- meh - - ren,
       Was er uns aus __ _ Gna -- den __ _ ver -- heißt,
+    }
+
+tenorVersoOneLyrics = \lyricmode {\set stanza = 1
+      \repeat unfold 50 { \skip1 }
+      ihm tröst -- lich soll'n an -- han - gen.
+      \repeat unfold 7 { \skip1 }
+      A -- men, wir wer -- dens er -- lan - gen,
     }
 
 bassVersoOneLyrics = \lyricmode {\set stanza = 1

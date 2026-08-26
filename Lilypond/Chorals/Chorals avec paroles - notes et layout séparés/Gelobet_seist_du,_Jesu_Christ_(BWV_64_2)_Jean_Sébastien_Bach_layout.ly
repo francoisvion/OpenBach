@@ -2,7 +2,7 @@
 
 
 
-\include "Gelobet_seist_du,_Jesu_Christ_(BWV_64_2)_Jean_Sébastien_Bach_notes.ily"
+\include "Gelobet_seist_du,_Jesu_Christ_(BWV_64_2)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -64,10 +64,7 @@
       <<
         \new Voice = "tenor" \tenorMusic
         
-        \new Lyrics \with { alignAboveContext = "lower" } \lyricsto "tenor" {
-          \repeat unfold 30 {\skip1}
-          keit. __ _ _ Ky -- ri -- e e - leis!
-        }   
+        \new Lyrics \with { alignAboveContext = "lower" } \lyricsto "tenor" \tenorLyrics   
         
         \new Voice = "bass" \bassMusic
         

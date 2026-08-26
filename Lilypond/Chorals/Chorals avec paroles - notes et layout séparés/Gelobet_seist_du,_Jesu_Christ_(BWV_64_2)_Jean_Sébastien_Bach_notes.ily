@@ -70,6 +70,11 @@ altoLyrics = \lyricmode {
       keit. __ _ Ky -- ri -- e e -- leis!
     }
 
+tenorLyrics = \lyricmode {
+          \repeat unfold 30 {\skip1}
+          keit. __ _ _ Ky -- ri -- e e - leis!
+        }
+
 bassLyrics = \lyricmode {
           \repeat unfold 28 {\skip1}
           E - - wig -- keit. Ky -- ri -- e e -- leis!
