@@ -32,6 +32,15 @@
              ((char=? c #\}) (if (= depth 1) i (loop (+ i 1) (- depth 1) in-string)))
              (else (loop (+ i 1) depth in-string)))))))
 
+#(define (extract-quoted-concat span)
+   (apply string-append (map (lambda (pm) (match:substring pm 1)) (list-matches "\"([^\"]*)\"" span))))
+
+#(define (join-with-slash strs)
+   (if (null? strs)
+       ""
+       (let loop ((lst (cdr strs)) (acc (car strs)))
+         (if (null? lst) acc (loop (cdr lst) (string-append acc " / " (car lst)))))))
+
 #(define (extract-title content)
    (or (extract-field content "title")
        (let ((m (string-match "\n[ \t]*title[ \t]*=[ \t]*\\\\markup[ \t]*\\{"
@@ -42,8 +51,19 @@
                     (open-idx (- (match:end m) 1))
                     (close-idx (find-matching-brace full open-idx))
                     (span (substring full open-idx (+ close-idx 1)))
-                    (parts (list-matches "\"([^\"]*)\"" span)))
-               (apply string-append (map (lambda (pm) (match:substring pm 1)) parts)))))))
+                    (concat-matches (list-matches "\\\\concat[ \t]*\\{" span)))
+               (if (null? concat-matches)
+                   (extract-quoted-concat span)
+                   (join-with-slash
+                     (map (lambda (cm)
+                            (let* ((c-open (- (match:end cm) 1))
+                                   (c-close (find-matching-brace span c-open))
+                                   (c-span (substring span c-open (+ c-close 1))))
+                              (extract-quoted-concat c-span)))
+                          concat-matches))))))))
+
+#(define (strip-verse-marks s)
+   (regexp-substitute/global #f "[ \t]*\\(v\\.[^)]*\\)" s 'pre 'post))
 
 #(define (extract-score-block content)
    (let ((m (string-match "\\\\score[ \t\n]*\\{" content)))
@@ -104,7 +124,7 @@
      (if (not score)
          ""
          (string-append
-           "\\tocItem \\markup { \"" title "  —  " opus "\" }\n"
+           "\\tocItem \\markup { \"" (escape-quotes (strip-verse-marks (assq-ref rec 'title))) "  —  " opus "\" }\n"
            (read-utf8-file notes-path)
            "\n"
            (inject-header score piece-markup opus)
@@ -130,8 +150,6 @@
 
   oddFooterMarkup = \markup \fill-line { \null "© 2026 — OpenBach" \null }
   evenFooterMarkup = \markup \fill-line { \null "© 2026 — OpenBach" \null }
-
-  top-markup-spacing = #'((basic-distance . 20) (minimum-distance . 15) (padding . 1) (stretchability . 10))
 
   system-system-spacing = #'((basic-distance . 11)
                              (minimum-distance . 7)
@@ -160,17 +178,25 @@
   }
 }
 
-\markup \null
-\markup \vspace #10
-\markup \fill-line { \null \fontsize #8 \bold "361 CHORALS" \null }
-\markup \vspace #1
-\markup \fill-line { \null \fontsize #6 "de Jean-Sébastien Bach" \null }
-\markup \vspace #4
-\markup \fill-line { \null \fontsize #4 \italic "pour SATB sur portées de piano avec paroles" \null }
-\markup \vspace #1
-\markup \fill-line { \null \fontsize #4 \italic "Classés par ordre croissant de numéro BWV" \null }
-\pageBreak
-\markuplist \table-of-contents
-\pageBreak
+\bookpart {
+  \markup \null
+  \markup \vspace #10
+  \markup \fill-line { \null \fontsize #8 \bold "361 CHORALS" \null }
+  \markup \vspace #1
+  \markup \fill-line { \null \fontsize #6 "de Jean-Sébastien Bach" \null }
+  \markup \vspace #4
+  \markup \fill-line { \null \fontsize #4 \italic "pour SATB sur portées de piano avec paroles" \null }
+  \markup \vspace #1
+  \markup \fill-line { \null \fontsize #4 \italic "Classés par ordre croissant de numéro BWV" \null }
+  \pageBreak
+}
+
+\bookpart {
+  \paper {
+    top-markup-spacing = #'((basic-distance . 20) (minimum-distance . 15) (padding . 1) (stretchability . 10))
+  }
+  \markuplist \table-of-contents
+  \pageBreak
+}
 
 #(ly:parser-include-string big-content)
