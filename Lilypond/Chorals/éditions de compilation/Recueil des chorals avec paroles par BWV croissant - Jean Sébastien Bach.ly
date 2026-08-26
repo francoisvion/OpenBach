@@ -2,7 +2,8 @@
 
 #(use-modules (ice-9 ftw) (ice-9 regex) (ice-9 textual-ports))
 
-#(define source-dir "/Users/francoisvion/Documents/OpenBach/Lilypond/Chorals/Chorals avec paroles - notes et layout séparés")
+#(define own-dir (dirname (car (ly:input-file-line-char-column (*location*)))))
+#(define source-dir (string-append own-dir "/../Chorals avec paroles - notes et layout séparés"))
 
 #(define (read-utf8-file path)
    (call-with-input-file path
