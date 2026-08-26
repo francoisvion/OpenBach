@@ -144,11 +144,9 @@
 
   indent = 5\mm
   print-first-page-number = ##f
-  ragged-bottom = ##t
-  ragged-last-bottom = ##t
 
-  oddHeaderMarkup = \markup \column { \fill-line { \null \if \should-print-page-number \fromproperty #'page:page-number-string } \if \should-print-page-number \vspace #3 }
-  evenHeaderMarkup = \markup \column { \fill-line { \if \should-print-page-number \fromproperty #'page:page-number-string \null } \if \should-print-page-number \vspace #3 }
+  oddHeaderMarkup = \markup \fill-line { \null \if \should-print-page-number \fromproperty #'page:page-number-string }
+  evenHeaderMarkup = \markup \fill-line { \if \should-print-page-number \fromproperty #'page:page-number-string \null }
 
   oddFooterMarkup = \markup \fill-line { \null "© 2026 — OpenBach" \null }
   evenFooterMarkup = \markup \fill-line { \null "© 2026 — OpenBach" \null }
@@ -180,18 +178,27 @@
   }
 }
 
-\markup \null
-\markup \vspace #10
-\markup \fill-line { \null \fontsize #8 \bold "361 CHORALS" \null }
-\markup \vspace #1
-\markup \fill-line { \null \fontsize #6 "de Jean-Sébastien Bach" \null }
-\markup \vspace #4
-\markup \fill-line { \null \fontsize #4 \italic "pour SATB sur portées de piano avec paroles" \null }
-\markup \vspace #1
-\markup \fill-line { \null \fontsize #4 \italic "Classés par ordre croissant de numéro BWV" \null }
-\pageBreak
+\bookpart {
+  \paper {
+    ragged-bottom = ##t
+    ragged-last-bottom = ##t
+    oddHeaderMarkup = \markup \column { \fill-line { \null \if \should-print-page-number \fromproperty #'page:page-number-string } \if \should-print-page-number \vspace #3 }
+    evenHeaderMarkup = \markup \column { \fill-line { \if \should-print-page-number \fromproperty #'page:page-number-string \null } \if \should-print-page-number \vspace #3 }
+  }
 
-\markuplist \table-of-contents
-\pageBreak
+  \markup \null
+  \markup \vspace #10
+  \markup \fill-line { \null \fontsize #8 \bold "361 CHORALS" \null }
+  \markup \vspace #1
+  \markup \fill-line { \null \fontsize #6 "de Jean-Sébastien Bach" \null }
+  \markup \vspace #4
+  \markup \fill-line { \null \fontsize #4 \italic "pour SATB sur portées de piano avec paroles" \null }
+  \markup \vspace #1
+  \markup \fill-line { \null \fontsize #4 \italic "Classés par ordre croissant de numéro BWV" \null }
+  \pageBreak
+
+  \markuplist \table-of-contents
+  \pageBreak
+}
 
 #(ly:parser-include-string big-content)
