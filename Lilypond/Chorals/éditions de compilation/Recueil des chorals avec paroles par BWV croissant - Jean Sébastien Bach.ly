@@ -128,6 +128,9 @@
   oddHeaderMarkup = \markup \fill-line { \null \fromproperty #'page:page-number-string }
   evenHeaderMarkup = \markup \fill-line { \fromproperty #'page:page-number-string \null }
 
+  oddFooterMarkup = \markup \fill-line { \null "© 2026 — OpenBach" \null }
+  evenFooterMarkup = \markup \fill-line { \null "© 2026 — OpenBach" \null }
+
   system-system-spacing = #'((basic-distance . 11)
                              (minimum-distance . 7)
                              (padding . 1.5)
@@ -162,8 +165,6 @@
 \markup \fill-line { \null \fontsize #6 "de Jean-Sébastien Bach" \null }
 \markup \vspace #4
 \markup \fill-line { \null \fontsize #4 \italic "Classés par ordre croissant de numéro BWV" \null }
-\markup \vspace #20
-\markup \fill-line { \null "© 2026 — OpenBach" \null }
 \pageBreak
 \markuplist \table-of-contents
 \pageBreak
