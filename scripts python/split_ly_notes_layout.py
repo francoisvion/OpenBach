@@ -89,7 +89,8 @@ def voice_varname(voice_name, occurrence_index):
         base = voice_name + 'Music'
     if occurrence_index == 0:
         return base
-    return f"{base}{occurrence_index + 1}"
+    word = ORDINAL_WORDS.get(occurrence_index + 1, str(occurrence_index + 1))
+    return f"{base}{word}"
 
 
 def lyrics_varname(voice_name, inner, occurrence_index):
@@ -100,7 +101,8 @@ def lyrics_varname(voice_name, inner, occurrence_index):
         return f"verso{word}Lyrics"
     if occurrence_index == 0:
         return f"{voice_name}Lyrics"
-    return f"{voice_name}Lyrics{occurrence_index + 1}"
+    word = ORDINAL_WORDS.get(occurrence_index + 1, str(occurrence_index + 1))
+    return f"{voice_name}Lyrics{word}"
 
 
 def split_file(src_path):
