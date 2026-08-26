@@ -69,6 +69,9 @@
 #(define (strip-verse-marks s)
    (regexp-substitute/global #f "[ \t]*\\(v\\.[^)]*\\)" s 'pre 'post))
 
+#(define (abbreviate-poet s)
+   (regexp-substitute/global #f "Auteur[ \t]*:" s 'pre "Aut. :" 'post))
+
 #(define (extract-score-block content)
    (let ((m (string-match "\\\\score[ \t\n]*\\{" content)))
      (if (not m) #f
@@ -128,7 +131,7 @@
                              (string-append "\\markup \\column { \\bold \"" title "\" \\small \"" (escape-quotes subtitle) "\" }")
                              (string-append "\\markup \\bold \"" title "\"")))
           (opus-field (if poet
-                          (string-append "\\markup \\right-column { \"" opus "\" \\small \"" (escape-quotes poet) "\" }")
+                          (string-append "\\markup \\right-column { \"" opus "\" \\small \"" (escape-quotes (abbreviate-poet poet)) "\" }")
                           (string-append "\"" opus "\""))))
      (if (not score)
          ""
