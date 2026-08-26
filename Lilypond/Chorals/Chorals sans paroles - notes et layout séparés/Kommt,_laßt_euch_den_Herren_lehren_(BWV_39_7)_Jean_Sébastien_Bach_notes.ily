@@ -1,0 +1,73 @@
+sopranoMusic = {
+          \voiceOne
+          \repeat volta 2 {
+          bes'4 c'' d'' c''
+          bes' a' g' f'\fermata
+          bes' c'' d'' ees''
+          d'' c'' bes'2\fermata }
+          d''4 ees'' f'' g''
+          f'' ees'' d''2\fermata
+          f''4 f'' g'' f''
+          ees'' d'' c''2\fermata
+          d''8 [ees''] f''4 ees'' d''
+          bes' c'' d''2
+          bes'\fermata d''4 f''
+          ees'' d'' c'' d''
+          c''2 bes'\fermata \fine
+        }
+
+altoMusic = {
+          \voiceTwo
+          \repeat volta 2 {
+          f'4 f' f' f'
+          f'8 [e'] f'4 e' c'\fermata
+          g' f' f' ees'
+          f' f'8 [ees'] d'2\fermata }
+          bes'4 a'8 [g'] f' [g'16 aes'] g'4
+          g' g' fis'2\fermata
+          f'4 bes' bes' a'
+          g' f'8 [g'] a'2\fermata
+          bes'4 bes' bes'8 [a'] bes' [a']
+          g' [f'] ees'4 d'8 [e'] fis'4
+          g'2\fermata g'4 aes'
+          g'8 [a'] bes'4 a'8 [g'] f'4
+          f'4. ees'8 d'2\fermata \fine
+        }
+
+tenorMusic = {
+          \voiceOne
+          \repeat volta 2 {
+          d'4 c' bes a
+          bes c' c'8 [bes] a4\fermata
+          d' c' bes8 [a] bes4
+          bes a f2\fermata }
+          f'4 ees' a8 [b] c'4
+          bes ees' a2\fermata
+          bes8 [c'] d'4 ees'8 [d'] c'4
+          bes8 [c'] d' [e'] f'2\fermata
+          f'8 [ees'] d'4 c' f
+          g a bes a
+          g2\fermata bes4 b
+          c' g a bes
+          bes a f2\fermata \fine
+        }
+
+bassMusic = {
+          \voiceTwo
+          \repeat volta 2 {
+          bes4 a bes f
+          g a8 [bes] c' [c] f4\fermata
+          g a bes g
+          f8 [ees] f4 bes,2\fermata }
+          bes,4 c d ees8 [f]
+          g [f] ees4 d2\fermata
+          d4 bes, ees f
+          g8 [a] bes4 f2\fermata
+          bes4 bes, c d
+          ees8 [d] c4 bes,8 [c] d4
+          g,2\fermata g4 d
+          ees e f8 [ees] d [bes,]
+          f2 bes,\fermata \fine
+        }
+
+
