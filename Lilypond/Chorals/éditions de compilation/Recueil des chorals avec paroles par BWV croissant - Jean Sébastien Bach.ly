@@ -125,11 +125,13 @@
   indent = 5\mm
   print-first-page-number = ##f
 
-  oddHeaderMarkup = \markup \fill-line { \null \fromproperty #'page:page-number-string }
-  evenHeaderMarkup = \markup \fill-line { \fromproperty #'page:page-number-string \null }
+  oddHeaderMarkup = \markup \fill-line { \null \if \should-print-page-number \fromproperty #'page:page-number-string }
+  evenHeaderMarkup = \markup \fill-line { \if \should-print-page-number \fromproperty #'page:page-number-string \null }
 
   oddFooterMarkup = \markup \fill-line { \null "© 2026 — OpenBach" \null }
   evenFooterMarkup = \markup \fill-line { \null "© 2026 — OpenBach" \null }
+
+  top-markup-spacing = #'((basic-distance . 20) (minimum-distance . 15) (padding . 1) (stretchability . 10))
 
   system-system-spacing = #'((basic-distance . 11)
                              (minimum-distance . 7)
@@ -160,10 +162,12 @@
 
 \markup \null
 \markup \vspace #10
-\markup \fill-line { \null \fontsize #8 \bold "RECUEIL DES CHORALS" \null }
+\markup \fill-line { \null \fontsize #8 \bold "361 CHORALS" \null }
 \markup \vspace #1
 \markup \fill-line { \null \fontsize #6 "de Jean-Sébastien Bach" \null }
 \markup \vspace #4
+\markup \fill-line { \null \fontsize #4 \italic "pour SATB sur portées de piano avec paroles" \null }
+\markup \vspace #1
 \markup \fill-line { \null \fontsize #4 \italic "Classés par ordre croissant de numéro BWV" \null }
 \pageBreak
 \markuplist \table-of-contents
