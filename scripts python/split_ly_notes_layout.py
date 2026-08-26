@@ -50,8 +50,10 @@ def find_matching_brace(text, open_index):
 def extract_blocks(content, pattern):
     """
     pattern must have one capture group for the identifier (e.g. voice/lyrics name)
-    and must end right before the opening '{' of the block to extract.
-    Returns a list of dicts: name, inner (content strictly inside the braces),
+    and must end right before the opening '{' of the block to extract. A second,
+    optional capture group may hold a pitch-transform prefix (e.g. "\\relative c'",
+    "\\transpose c d") that must be preserved as part of the extracted music.
+    Returns a list of dicts: name, prefix, inner (content strictly inside the braces),
     start (index of the whole match incl. header), end (index just after closing '}').
     """
     blocks = []
@@ -59,8 +61,10 @@ def extract_blocks(content, pattern):
         open_idx = m.end() - 1  # pattern is expected to end with the opening brace
         assert content[open_idx] == '{', f"pattern must end on the opening brace, got {content[open_idx]!r}"
         close_idx = find_matching_brace(content, open_idx)
+        prefix = m.group(2).strip() if m.re.groups >= 2 and m.group(2) else ''
         blocks.append({
             'name': m.group(1),
+            'prefix': prefix,
             'inner': content[open_idx + 1:close_idx],
             'start': m.start(),
             'end': close_idx + 1,
@@ -68,7 +72,7 @@ def extract_blocks(content, pattern):
     return blocks
 
 
-VOICE_RE = r'\\new Voice\s*=\s*"([a-zA-Z0-9]+)"\s*\{'
+VOICE_RE = r'\\new Voice\s*=\s*"([a-zA-Z0-9]+)"\s*((?:\\relative\s*[a-zA-Z]*[\',]*\s*|\\transpose\s+\S+\s+\S+\s*)?)\{'
 LYRICS_RE = r'\\new Lyrics\s+\\lyricsto\s+"([a-zA-Z0-9]+)"\s*\{'
 
 VARNAME_SUFFIX = {
@@ -139,7 +143,8 @@ def split_file(src_path):
     # build notes.ily
     notes_lines = []
     for b in voice_blocks:
-        notes_lines.append(f"{b['varname']} = {{{b['inner']}}}\n")
+        prefix = f"{b['prefix']} " if b['prefix'] else ''
+        notes_lines.append(f"{b['varname']} = {prefix}{{{b['inner']}}}\n")
     for b in lyrics_blocks:
         notes_lines.append(f"{b['varname']} = \\lyricmode {{{b['inner']}}}\n")
     notes_content = "\n".join(notes_lines)
