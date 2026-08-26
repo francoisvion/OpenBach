@@ -72,6 +72,34 @@
 #(define (abbreviate-poet s)
    (regexp-substitute/global #f "Auteur[ \t]*:" s 'pre "Aut. :" 'post))
 
+#(define (find-split-point text)
+   (let ((m (string-match " : " text)))
+     (if m
+         (+ (match:start m) 2)
+         (let* ((mid (quotient (string-length text) 2))
+                (spaces (map match:start (list-matches " " text))))
+           (if (null? spaces)
+               #f
+               (car (sort spaces (lambda (a b) (< (abs (- a mid)) (abs (- b mid)))))))))))
+
+#(define (wrap-long-text text max-len)
+   (if (<= (string-length text) max-len)
+       (list text)
+       (let ((sp (find-split-point text)))
+         (if (not sp)
+             (list text)
+             (list (substring text 0 sp)
+                   (substring text (if (char=? (string-ref text sp) #\space) (+ sp 1) sp)))))))
+
+#(define (wrap-poet text)
+   (let ((m (string-match " / " text)))
+     (if m
+         (list (substring text 0 (match:start m)) (substring text (match:end m)))
+         (list text))))
+
+#(define (small-lines lines)
+   (apply string-append (map (lambda (l) (string-append " \\small \"" (escape-quotes l) "\"")) lines)))
+
 #(define (extract-score-block content)
    (let ((m (string-match "\\\\score[ \t\n]*\\{" content)))
      (if (not m) #f
@@ -128,10 +156,10 @@
           (poet (assq-ref rec 'poet))
           (score (assq-ref rec 'score))
           (piece-markup (if subtitle
-                             (string-append "\\markup \\column { \\bold \"" title "\" \\small \"" (escape-quotes subtitle) "\" }")
+                             (string-append "\\markup \\column { \\bold \"" title "\"" (small-lines (wrap-long-text subtitle 60)) " }")
                              (string-append "\\markup \\bold \"" title "\"")))
           (opus-field (if poet
-                          (string-append "\\markup \\right-column { \"" opus "\" \\small \"" (escape-quotes (abbreviate-poet poet)) "\" }")
+                          (string-append "\\markup \\right-column { \"" opus "\"" (small-lines (wrap-poet (abbreviate-poet poet))) " }")
                           (string-append "\"" opus "\""))))
      (if (not score)
          ""
