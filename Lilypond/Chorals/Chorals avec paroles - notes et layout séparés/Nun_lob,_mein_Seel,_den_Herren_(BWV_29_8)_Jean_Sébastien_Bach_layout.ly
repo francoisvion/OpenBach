@@ -2,7 +2,7 @@
 
 
 
-\include "Nun_lob,_mein_Seel,_den_Herren_(BWV_29_8)_Jean_Sébastien_Bach_notes.ily"
+\include "Nun_lob,_mein_Seel,_den_Herren_(BWV_29_8)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -86,9 +86,9 @@
       A -- men, wir wer -- dens er -- lan - gen,
     }
     
-    \new Lyrics \lyricsto "bass" \versoOneLyrics
+    \new Lyrics \lyricsto "bass" \bassVersoOneLyrics
     
-    \new Lyrics \lyricsto "bass" \versoTwoLyrics
+    \new Lyrics \lyricsto "bass" \bassVersoTwoLyrics
       >>
     }
   >>

@@ -84,7 +84,7 @@ versoTwoLyrics = \lyricmode {\set stanza = 2
       Der Be -- trüb -- ten Trost und Freud!
     }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
+sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
       \tweak X-offset #-4.0 "2. Dei" -- ne Hil -- fe zu mir sen -- de,
       O du e -- dler Her -- zens -- gast!
       Blas in mir das Fünk -- lein auf,
@@ -93,7 +93,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       und des Glau -- bens Ziel er -- rei -- che.
     }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2 
+sopranoVersoTwoLyrics = \lyricmode {\set stanza = 2 
       Und das gu -- te Werk vol -- len -- de,
       Das du an -- ge -- fan -- gen hast.
     }

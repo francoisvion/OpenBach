@@ -67,7 +67,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       
     }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
+sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
       den wird er wun -- der -- bar er -- hal - ten
       in al -- ler Not und Trau -- rig -- keit.
     }

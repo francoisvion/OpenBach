@@ -71,5 +71,5 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       vor Gott ist es ein Greu -- el gar, es tut Ihr Kei -- ner kein - Gut.
     }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
+sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
       doch ist ihr Herz Un -- glau -- bens voll, mit Tat sie ihn ver -- nei - nen, }

@@ -84,5 +84,5 @@ versoTwoLyrics = \lyricmode {\set stanza = 2
       hast so herz -- lich ab -- ge -- wandt.
     }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
+sopranoVersoTwoLyrics = \lyricmode {\set stanza = 2
     }

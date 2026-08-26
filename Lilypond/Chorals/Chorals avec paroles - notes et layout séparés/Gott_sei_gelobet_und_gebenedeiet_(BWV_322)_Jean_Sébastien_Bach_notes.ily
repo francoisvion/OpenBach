@@ -113,6 +113,6 @@ sopranoLyrics = \lyricmode {
       hilf uns, Herr, aus al -- ler Not! Ky -- rie e -- lei - - - son.
     }
 
-sopranoLyrics2 = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
       mit sei -- nem Flei -- sche und mit sei -- nem Blu -- te; das gib uns, Herr Gott, zu -- gu -- te.
     }

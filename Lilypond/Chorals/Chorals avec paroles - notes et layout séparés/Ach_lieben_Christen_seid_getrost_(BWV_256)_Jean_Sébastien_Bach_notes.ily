@@ -75,7 +75,7 @@ sopranoLyrics = \lyricmode {
 
     }
 
-sopranoLyrics2 = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
       Weil uns der Herr heim -- su -- chen tut,
       laßt uns von Her -- zen sa -- gen:
     }

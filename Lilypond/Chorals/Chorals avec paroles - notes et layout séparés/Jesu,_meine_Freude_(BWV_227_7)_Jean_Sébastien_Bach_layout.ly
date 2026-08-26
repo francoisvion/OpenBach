@@ -97,9 +97,9 @@
          bleibt __ _ mir un -- be -- wußt!
        }
     
-       \new Lyrics \lyricsto "bass" \versoOneLyrics
+       \new Lyrics \lyricsto "bass" \bassVersoOneLyrics
     
-       \new Lyrics \lyricsto "bass" \versoTwoLyrics
+       \new Lyrics \lyricsto "bass" \bassVersoTwoLyrics
       >>
     }
   >>

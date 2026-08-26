@@ -79,7 +79,7 @@ sopranoLyrics = \lyricmode {
       Die den From -- men ist be -- reit.
   }
 
-sopranoLyrics2 = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
       Was da le -- bet muß ver -- der -- ben,
       Soll es an -- ders wer -- den neu.
   }

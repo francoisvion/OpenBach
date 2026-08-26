@@ -92,7 +92,7 @@ sopranoLyrics = \lyricmode {
       es galt ein neu -- es Le - ben.
     }
 
-sopranoLyrics2 = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
       Von Sankt Jo -- hanns die Tau -- fe nahm,
       sein Werk und Amt zu 'rfül - len;
     }

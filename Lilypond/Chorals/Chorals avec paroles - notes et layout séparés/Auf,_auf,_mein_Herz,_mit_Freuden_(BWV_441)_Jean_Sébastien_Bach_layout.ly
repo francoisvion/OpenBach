@@ -2,7 +2,7 @@
 
 
 
-\include "Auf,_auf,_mein_Herz,_mit_Freuden_(BWV_441)_Jean_Sébastien_Bach_notes.ily"
+\include "Auf,_auf,_mein_Herz,_mit_Freuden_(BWV_441)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -96,7 +96,7 @@
     
     \new Lyrics \lyricsto "soprano" \versoOneLyrics
      
-     \new Lyrics \lyricsto "soprano" \versoOneLyrics
+     \new Lyrics \lyricsto "soprano" \sopranoVersoOneLyrics
      
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B}}
     {

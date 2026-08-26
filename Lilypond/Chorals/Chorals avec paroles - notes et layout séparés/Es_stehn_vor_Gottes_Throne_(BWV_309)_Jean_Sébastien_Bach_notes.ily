@@ -84,6 +84,6 @@ sopranoLyrics = \lyricmode {
       als je -- mals ist ge -- bor'n, als je -- mals ist ge -- bor'n.
     }
 
-sopranoLyrics2 = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
       der in sein'm lie -- ben Soh -- ne, der in sein'm lie -- ben Soh -- ne liebt al -- le Men -- schen -- Kind,
     }

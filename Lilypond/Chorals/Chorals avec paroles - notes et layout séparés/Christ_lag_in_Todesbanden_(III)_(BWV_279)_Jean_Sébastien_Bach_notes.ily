@@ -79,7 +79,7 @@ sopranoLyrics = \lyricmode {
       Hal -- le -- lu - ja!
     }
 
-sopranoLyrics2 = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
       der ist wie -- der er -- stan - den
       Und hat uns bracht das Le -- ben.
     }

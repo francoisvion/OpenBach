@@ -9,7 +9,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       die Lei -- den zu be -- gie - ßen.
      }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
+sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
       für mich, der ich ein Sün -- der bin,
       der dich be -- trübt in Freu - den.
      }

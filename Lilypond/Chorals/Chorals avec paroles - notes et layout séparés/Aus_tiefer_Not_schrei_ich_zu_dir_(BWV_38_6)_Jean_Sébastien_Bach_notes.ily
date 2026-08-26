@@ -78,7 +78,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       aus sei -- nen Sün -- den al - len.
     }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
+sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
       sein' Hand zu hel -- fen hat kein Ziel,
       Wie groß auch sei der Scha - de.
     }

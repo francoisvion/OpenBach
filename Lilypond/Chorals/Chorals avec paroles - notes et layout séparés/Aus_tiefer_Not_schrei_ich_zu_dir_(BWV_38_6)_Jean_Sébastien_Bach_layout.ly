@@ -2,7 +2,7 @@
 
 
 
-\include "Aus_tiefer_Not_schrei_ich_zu_dir_(BWV_38_6)_Jean_Sébastien_Bach_notes.ily"
+\include "Aus_tiefer_Not_schrei_ich_zu_dir_(BWV_38_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -53,7 +53,7 @@
     
     \new Lyrics \lyricsto "soprano" \versoOneLyrics
     
-    \new Lyrics \lyricsto "soprano" \versoOneLyrics
+    \new Lyrics \lyricsto "soprano" \sopranoVersoOneLyrics
 
     \new Lyrics \lyricsto "alto" \altoLyrics
     

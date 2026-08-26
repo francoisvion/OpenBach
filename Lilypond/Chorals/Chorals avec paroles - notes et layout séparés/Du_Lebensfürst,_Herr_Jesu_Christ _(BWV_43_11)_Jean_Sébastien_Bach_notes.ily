@@ -12,7 +12,7 @@ versoTwoLyrics = \lyricmode {\set stanza = 2
       und die Ge -- mein der From -- men,
     }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
+sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
       \tweak X-offset #-6 "13. Zieh" \tweak X-offset #0 uns dir nach, __ _ _   so lau -- fen wir,
       gieb uns des Glau -- bens Flü -- gel!
       Mein Gott! wann fahr ich doch __ _ da -- hin,
@@ -21,7 +21,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       dein An -- ge -- sicht zu se -- hen?
     }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
+sopranoVersoTwoLyrics = \lyricmode {\set stanza = 2
       hilf, daß wir flie - - hen weit von hier,
       auf I -- sra -- e -- lis Hü -- gel.
     }

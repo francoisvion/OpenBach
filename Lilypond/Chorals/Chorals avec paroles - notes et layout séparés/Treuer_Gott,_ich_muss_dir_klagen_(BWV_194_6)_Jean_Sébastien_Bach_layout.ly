@@ -55,9 +55,9 @@
     
     \new Lyrics \lyricsto "soprano" \versoTwoLyrics
     
-        \new Lyrics \lyricsto "soprano" \versoOneLyrics
+        \new Lyrics \lyricsto "soprano" \sopranoVersoOneLyrics
     
-    \new Lyrics \lyricsto "soprano" \versoTwoLyrics
+    \new Lyrics \lyricsto "soprano" \sopranoVersoTwoLyrics
     
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {

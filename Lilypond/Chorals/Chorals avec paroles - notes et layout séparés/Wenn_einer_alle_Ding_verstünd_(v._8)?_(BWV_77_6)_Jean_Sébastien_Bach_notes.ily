@@ -87,7 +87,7 @@ versoTwoLyrics = \lyricmode {\set stanza = 2
       Gott und den Näch -- sten lie - be:
     }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
+versoOneLyricsB = \lyricmode {\set stanza = 1
       \tweak X-offset #-9 \markup{\concat{\small "Texte 2. " "Herr,"}} durch den Glau -- ben wohn in mir,
       Laß ihn sich im -- mer stär - ken,
       daß er sei tä -- tig durch die Lieb,
@@ -95,7 +95,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       dem Näch -- sten fort zu die - nen.
     }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
+versoTwoLyricsB = \lyricmode {\set stanza = 2
       daß er sei frucht -- bar für und für
       und reich in gu -- ten Wer - ken;
     }

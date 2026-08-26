@@ -88,7 +88,7 @@ versoTwoLyrics = \lyricmode {\set stanza = 2
       mit ei -- ner Dor -- nen -- kron! 
     }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
+sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
       \tweak X-offset #-3.0 "2. Du" ed -- les An -- ge -- sich -- te,
       Da -- für sonst schrickt und scheut 
       Wie bist du so er -- blei -- chet!
@@ -97,7 +97,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       So schän -- dlich zu -- ge -- richt'?
     }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
+sopranoVersoTwoLyrics = \lyricmode {\set stanza = 2
       das gro -- ße Welt -- ge -- rich -- te,
       wie bist du so be -- speit;
     }

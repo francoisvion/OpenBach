@@ -87,7 +87,7 @@ sopranoLyrics = \lyricmode {
       da dein Fuß ge -- hen kann.
     }
 
-sopranoLyrics2 = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
       der al -- ler -- treu -- sten Pfle -- ge
       des, der den Him -- mel lenkt.
     }

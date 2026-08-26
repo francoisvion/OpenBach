@@ -123,7 +123,7 @@ sopranoLyrics = \lyricmode {
       In Schan -- den laß mich nim -- mer -- mehr.
     }
 
-sopranoLyrics2 = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
       Die gan -- ze Welt nicht freu -- et mich,
       nach Himm'l und Erd' nicht fra -- ge ich,
       wenn ich nur, Herz, dich ha -- be.

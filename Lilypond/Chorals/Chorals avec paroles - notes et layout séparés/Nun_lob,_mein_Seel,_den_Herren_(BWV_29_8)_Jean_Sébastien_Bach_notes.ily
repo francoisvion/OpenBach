@@ -192,7 +192,7 @@ versoTwoLyrics = \lyricmode {\set stanza = 2
       Was er uns aus __ _ Gna -- den __ _ ver -- heißt,
     }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
+bassVersoOneLyrics = \lyricmode {\set stanza = 1
       \repeat unfold 10 { \skip1 }
       Gott Va - - - ter, Sohn Hei -- li -- gem Geist!      
       \repeat unfold 37 { \skip1 }
@@ -201,7 +201,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       Glau - ben wir aus Her -- zens -- grund.
     }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
+bassVersoTwoLyrics = \lyricmode {\set stanza = 2
       \repeat unfold 10 { \skip1 }
       Was er __ _ _ _ uns aus Gna -- den ver -- heißt,
     }

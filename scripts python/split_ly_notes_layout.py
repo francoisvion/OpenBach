@@ -123,10 +123,17 @@ def split_file(src_path):
         b['varname'] = voice_varname(b['name'], idx)
         seen_voice_counts[b['name']] = idx + 1
 
+    used_varnames = set(b['varname'] for b in voice_blocks)
     seen_lyrics_counts = {}
     for b in lyrics_blocks:
         idx = seen_lyrics_counts.get(b['name'], 0)
-        b['varname'] = lyrics_varname(b['name'], b['inner'], idx)
+        varname = lyrics_varname(b['name'], b['inner'], idx)
+        if varname in used_varnames:
+            # a different voice already claimed this name (e.g. two voices both
+            # tagged \set stanza = 2) -- disambiguate by prefixing the voice name
+            varname = f"{b['name']}{varname[0].upper()}{varname[1:]}"
+        used_varnames.add(varname)
+        b['varname'] = varname
         seen_lyrics_counts[b['name']] = idx + 1
 
     # build notes.ily

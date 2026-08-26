@@ -109,7 +109,7 @@ sopranoLyrics = \lyricmode {
       täg -- lich von ih - - nen lei - - den.
     }
 
-sopranoLyrics2 = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
       als wir ge -- dach -- ten an Zi -- on, 
       da wein -- ten wir von Her - zen, 
     }

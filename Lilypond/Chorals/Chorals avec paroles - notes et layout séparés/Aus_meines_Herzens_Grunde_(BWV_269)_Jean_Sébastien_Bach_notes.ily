@@ -123,7 +123,7 @@ sopranoLyrics = \lyricmode {
       Dein' ein -- ge -- bor -- nen Sohn.
     }
 
-sopranoLyrics2 = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
       In die -- ser Mor - gen -- stun - _ de,
       Dar -- zu mein Le -- be -- lang,
     }

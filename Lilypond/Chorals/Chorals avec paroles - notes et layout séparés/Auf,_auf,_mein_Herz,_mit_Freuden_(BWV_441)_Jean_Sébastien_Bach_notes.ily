@@ -7,7 +7,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       gen Him - mel ist __ _ ge -- reist.
      }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
+sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
        wie kommt nach gro -- ßen Lei - den
        nun ein __ _ so gro -- ßes __ _ Licht!
      }

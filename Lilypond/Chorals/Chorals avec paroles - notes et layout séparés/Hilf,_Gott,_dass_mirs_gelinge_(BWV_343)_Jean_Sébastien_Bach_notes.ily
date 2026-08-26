@@ -117,7 +117,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       von dei -- nem Wort zu sin - - - - gen,
       Herr, du wollst mir bei -- stahn. __ _    }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
+altoVersoOneLyrics = \lyricmode {\set stanza = 1
       \repeat unfold 10 {\skip1 }
       ed - - ler Schö -- pfer mein,
     }
@@ -127,7 +127,7 @@ versoTwoLyrics = \lyricmode {\set stanza = 2
       Zu Lob dem Na -- men dein, __ _
     }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
+altoVersoTwoLyrics = \lyricmode {\set stanza = 2
       \repeat unfold 10 {\skip1 }
       Lob _ _ dem Na -- men dein,
     }

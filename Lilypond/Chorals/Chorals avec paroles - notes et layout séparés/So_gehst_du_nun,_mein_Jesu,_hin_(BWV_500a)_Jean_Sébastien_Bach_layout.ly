@@ -2,7 +2,7 @@
 
 
 
-\include "So_gehst_du_nun,_mein_Jesu,_hin_(BWV_500a)_Jean_Sébastien_Bach_notes.ily"
+\include "So_gehst_du_nun,_mein_Jesu,_hin_(BWV_500a)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -85,7 +85,7 @@
     
     \new Lyrics \lyricsto "soprano" \versoOneLyrics
      
-    \new Lyrics \lyricsto "soprano" \versoOneLyrics
+    \new Lyrics \lyricsto "soprano" \sopranoVersoOneLyrics
      
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B}}
     {

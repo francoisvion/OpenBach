@@ -137,7 +137,7 @@ sopranoLyrics = \lyricmode {
 
     }
 
-sopranoLyrics2 = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
       Ich weiß, dass du mein Trö -- ster bist,
       kein Trost mag mir sonst wer -- den.
     }

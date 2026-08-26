@@ -79,7 +79,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       dem, der ihm dient all -- hier.
     }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
+sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
       Dein sünd -- lich bö -- ses Le -- ben
       Durch -- aus mir nicht ge -- fällt.
     }

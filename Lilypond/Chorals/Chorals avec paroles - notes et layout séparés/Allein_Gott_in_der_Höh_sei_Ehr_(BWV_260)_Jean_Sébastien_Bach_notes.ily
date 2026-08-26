@@ -74,7 +74,7 @@ sopranoLyrics = \lyricmode {
       all' Fehd' hat nun eine En -- de.
     }
 
-sopranoLyrics2 = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
       da -- rum dass nun und nim -- mer -- mehr
       uns rüh -- ren kann kein Scha -- de.
 

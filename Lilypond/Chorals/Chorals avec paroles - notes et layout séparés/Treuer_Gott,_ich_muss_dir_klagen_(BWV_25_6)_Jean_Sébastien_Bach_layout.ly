@@ -2,7 +2,7 @@
 
 
 
-\include "Treuer_Gott,_ich_muss_dir_klagen_(BWV_25_6)_Jean_Sébastien_Bach_notes.ily"
+\include "Treuer_Gott,_ich_muss_dir_klagen_(BWV_25_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -55,7 +55,7 @@
     
     \new Lyrics \lyricsto "soprano" \versoTwoLyrics
     
-    \new Lyrics \lyricsto "soprano" \versoTwoLyrics
+    \new Lyrics \lyricsto "soprano" \sopranoVersoTwoLyrics
     
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {

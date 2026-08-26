@@ -116,7 +116,7 @@ versoTwoLyrics = \lyricmode {\set stanza = 2
       ein' un -- ver -- letz -- te Seel' und rein Ge -- wis -- sen bleib. __
     }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
+altoVersoTwoLyrics = \lyricmode {\set stanza = 2
       \repeat unfold 53 {\skip1}
       und rein Ge -- wis -- sen bleib.
     }

@@ -87,7 +87,7 @@ versoTwoLyrics = \lyricmode {\set stanza = 2
       bleibt __ _ mir un -- be -- wußt, un - be -- wußt!
     }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
+bassVersoOneLyrics = \lyricmode {\set stanza = 1
          Weg, weg, weg, weg, mit al -- len Schä -- tzen,
          Du, du bist mein Er -- gö - - tzen,
          Je -- su, Je -- su mei -- ne Lust, mei -- ne Lust.
@@ -96,7 +96,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
          nicht, nicht, nicht, nicht von Je -- su schei -- den.
        }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
+bassVersoTwoLyrics = \lyricmode {\set stanza = 2
          Weg, weg, weg, weg,  ihr eit -- len Eh -- ren,
          ich mag euch nicht hö -- ren,
          mir un -- be -- wußt!

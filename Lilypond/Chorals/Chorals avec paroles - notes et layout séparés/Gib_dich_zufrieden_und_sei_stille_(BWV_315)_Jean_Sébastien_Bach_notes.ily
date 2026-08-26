@@ -79,6 +79,6 @@ sopranoLyrics = \lyricmode {
       Er ist dein Quell und dei -- ne Son -- ne, scheint täg -- lich hell zu dei -- ner Won -- ne, gib dich zu -- frie -- den, zu frie - den.
     }
 
-sopranoLyrics2 = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
       in ihm ruht al -- ler Freu -- den Fül - le ohn ihn mühst du dich ver -- ge -- bens.
     }

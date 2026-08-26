@@ -57,7 +57,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       Je -- sus hat die Welt er -- löst.
     }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
+sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
       Chri -- stus, der ver -- gra -- ben lag,
       ist im To -- de nicht ge -- blie -- ben.
     }

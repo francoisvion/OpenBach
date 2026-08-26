@@ -93,7 +93,7 @@ versoTwoLyrics = \lyricmode {\set stanza = 2
       mit recht wohl -- ge -- faß -- tem Mut.
     }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
+bassVersoOneLyrics = \lyricmode {\set stanza = 1
          Herr -- scher ü -- ber Tod und Le -- ben
          mach ein -- mal mein En -- de gut,
          Hilf, daß ich ein ehr -- lich Grab
@@ -101,7 +101,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
          nim -- mer -- mehr zu -- schan - - - den wer -- de.
        }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
+bassVersoTwoLyrics = \lyricmode {\set stanza = 2
          Leh -- re mich den Geist auf -- ge -- ben
          mit recht wohl -- ge -- faßt -- tem Mut.
        }

@@ -76,7 +76,7 @@ versoTwoLyrics = \lyricmode {\set stanza = 2
       und sie doch nicht ver -- zeh -- ren.
     }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
+sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
       \tweak X-offset #-4 \markup{"16. O"} E -- wig -- keit, du Don -- ner -- wort,
       O Schwert, das durch die See -- le bohrt,
       O An -- fang son -- der En -- de!      
@@ -84,7 +84,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       Herr Je -- su, in dein Freu -- den -- zelt!
     }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
+sopranoVersoTwoLyrics = \lyricmode {\set stanza = 2
       O E -- wig -- keit, Zeit oh -- ne Zeit,
       ich weiß vor gro -- ßer Trau -- rigk -- eit
       Nicht, wo ich mich hin -- wen -- de.
