@@ -1,0 +1,120 @@
+\version "2.27.1"
+
+
+\paper {
+  #(set-paper-size "a4")
+  #(set-global-staff-size 18)
+  
+  left-margin = 20\mm
+  right-margin = 20\mm
+  top-margin = 20\mm
+  bottom-margin = 25\mm
+  
+  indent = 5\mm
+  
+  oddHeaderMarkup = \markup \fill-line { \null \fromproperty #'page:page-number-string }
+  evenHeaderMarkup = \markup \fill-line { \fromproperty #'page:page-number-string \null }
+
+  system-system-spacing = #'((basic-distance . 11) 
+                             (minimum-distance . 7) 
+                             (padding . 1.5) 
+                             (stretchability . 40))
+  markup-system-spacing = #'((basic-distance . 9) 
+                             (minimum-distance . 6) 
+                             (padding . 1.5) 
+                             (stretchability . 20))
+}
+
+\header {
+ title = "Herr Jesu Christ, dich zu uns wend"
+ poet = "Auteur : Wilhelm II, duc de Sachsen–Weimar (1598-1662)"
+  opus = "BWV 332"
+  composer = "Jean Sébastien Bach (1685-1750)"
+  tagline = ##f
+  copyright = "© 2026 — OpenBach"
+  }
+
+\score {
+  \new ChoirStaff <<
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    {
+      \clef treble
+      \key g \major
+      \time 4/4
+      <<
+        \new Voice = "soprano" {
+          \voiceOne
+          \partial 4  g'4
+          b' d'' b' a'
+          b' cis'' d''\fermata e''
+          d''8 [c''] b'4 a' g'8 [a']
+          b'4 a' g'\fermata
+          \partial 4  a'
+          b' b' a' d''
+          d'' cis'' d''\fermata b'
+          c'' b' a' g'
+          g' fis' g'\fermata \fine
+        }
+        \new Voice = "alto" {
+          \voiceTwo
+          \partial 4  d'4
+          g' a'4. g'4 fis'8
+          g'4 g' fis'\fermata a'
+          a'4. g'4 fis'8 e' [d']
+          d'4 d' d'\fermata
+          \partial 4  fis'
+          g' g' g' fis'
+          e' e' fis'\fermata d'
+          e' d'8 g'4 fis' e'8
+          d'4 d' d'\fermata \fine
+        }
+      >>
+    }
+    \new Lyrics \lyricsto "soprano" {
+      Herr Je -- su Christ, dich zu uns wend', dein'n heil' -- gen Geist du zu uns send', mit Hülf' und Gnad', Herr, uns re -- gier' und uns den Weg zur Wahr -- heit führ'.
+    }
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    {
+      \clef bass
+      \key g \major
+      \time 4/4
+      <<
+        \new Voice = "tenor" {
+          \voiceOne
+          \partial 4  b4
+          d' d' d' d'
+          d' e' a\fermata c'
+          d' d' e'8 b4 a8~
+          a g4 fis8 b4\fermata
+          \partial 4  d'
+          d' d' d' a8 [d']
+          b [g] a4 a\fermata g
+          g8 [a] b4 e'8 [b] b4
+          b a b\fermata \fine
+        }
+        \new Voice = "bass" {
+          \voiceTwo
+          \partial 4  g,4
+          g, fis, g,8 [b,] d4
+          g8 [fis] e4 d\fermata a8 [g]
+          fis4 g cis8 [dis] e [fis]
+          g4 d g,\fermata
+          \partial 4  d
+          g,8 [a,] b, [cis] d [e] fis [b]
+          g [e] a [a,] d4\fermata g8 [f]
+          e [fis] g4 cis8 [dis] e4
+          b,8 [c] d4 g,\fermata \fine
+        }
+      >>
+    }
+  >>
+}
+
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
+}
+
+\midi {}

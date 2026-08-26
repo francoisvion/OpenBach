@@ -1,0 +1,138 @@
+\version "2.27.1"
+
+
+\paper {
+  #(set-paper-size "a4")
+  #(set-global-staff-size 18)
+  
+  left-margin = 20\mm
+  right-margin = 20\mm
+  top-margin = 20\mm
+  bottom-margin = 25\mm
+  
+  indent = 5\mm
+  
+  oddHeaderMarkup = \markup \fill-line { \null \fromproperty #'page:page-number-string }
+  evenHeaderMarkup = \markup \fill-line { \fromproperty #'page:page-number-string \null }
+
+  system-system-spacing = #'((basic-distance . 11) 
+                             (minimum-distance . 7) 
+                             (padding . 1.5) 
+                             (stretchability . 40))
+  markup-system-spacing = #'((basic-distance . 9) 
+                             (minimum-distance . 6) 
+                             (padding . 1.5) 
+                             (stretchability . 20))
+}
+
+\header {
+ title = "Wo Gott der Herr nicht bei uns hält"
+ poet = "Auteur : Justus Jonas (1493-1555)"
+  opus = "BWV 258"
+  composer = "Jean Sébastien Bach (1685-1750)"
+  tagline = ##f
+  copyright = "© 2026 — OpenBach"
+  }
+
+\score {
+  \new ChoirStaff <<
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    {
+      \clef treble
+      \key b \minor
+      \time 4/4
+      <<
+        \new Voice = "soprano" {
+          \voiceOne
+          \repeat volta 2 {
+          \partial 4  d''4
+          d'' b'8 [cis''] d'' [e''] fis''4
+          e'' e'' d''\fermata d''
+          cis'' b'8 [cis''] d''4 e''8 [d'']
+          cis''2 b'4\fermata }
+          \partial 4  e''
+          fis'' fis'' cis''8 [d''] e''4
+          d'' d'' cis''\fermata d''
+          e'' b'8 [cis''] d''4 cis''
+          b' b' a'\fermata
+          \partial 4  d''
+          cis'' b'8 [cis''] d''4 e''8 [d'']
+          cis''2 b'4\fermata \fine
+        }
+        \new Voice = "alto" {
+          \voiceTwo
+          \repeat volta 2 {
+          \partial 4  fis'8 [g']
+          a'4 g' a' a'
+          b' a'8 [g'] fis'4\fermata gis'
+          a' g' fis' e'8 [fis']
+          g'4 fis' fis'\fermata }
+          \partial 4  a'
+          a' a' e'8 [fis'] g'4
+          fis' gis' ais'\fermata b'
+          b'8 [a'] gis'4 fis' e'
+          a' gis' e'\fermata
+          \partial 4 gis'
+          a' gis'8 [ais'] b'4 b'8 [fis']
+          g'4 fis'8 [e'] d'4\fermata \fine
+        }
+      >>
+    }
+    \new Lyrics \lyricsto "soprano" { \set stanza = 1
+      Wo Gott der Herr nicht bei uns hält, wenn uns -- re Fein -- de to -- ben,
+      wo er Is -- ra -- els Schutz nicht ist, und sel -- ber bricht der Fein -- de List;
+      so ists mit uns ver -- lo -- ren.}
+        \new Lyrics \lyricsto "soprano" { \set stanza = 2
+      und er un -- srer Sach nicht zu -- fällt, im Him -- mel hoch dort o -- ben, }
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    {
+      \clef bass
+      \key d \major
+      \time 4/4
+      <<
+        \new Voice = "tenor" {
+          \voiceOne
+          \repeat volta 2 {
+          \partial 4  d'4
+          d' d' d' d'
+          d' cis' a\fermata b
+          e' e' d'8 [cis'] b4
+          b ais8 [e'] d'4\fermata }
+          \partial 4  a
+          a a8 [b] cis'4 cis'
+          d'8 [cis'] b4 fis'\fermata fis'
+          b e' a8 [b] cis'4
+          fis' e'8 [d'] cis'4\fermata
+          \partial 4 d'
+          e' e' fis' b
+          b ais fis\fermata \fine
+        }
+        \new Voice = "bass" {
+          \voiceTwo
+          \repeat volta 2 {
+          \partial 4  b4
+          fis g fis8 [e] d4
+          gis a d\fermata b,
+          a, e b8 [a g fis]
+          e4 fis b,\fermata }
+          \partial 4  cis
+          d8 [e fis g] a4 ais
+          b eis fis\fermata b8 [a]
+          gis [fis] e4 fis8 [gis] a4
+          dis e a,\fermata
+          \partial 4 b,
+          cis8 [d] e4 b8 [a g fis]
+          e4 fis b,\fermata \fine
+        }
+      >>
+    }
+  >>
+}
+
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
+}
+\midi {}

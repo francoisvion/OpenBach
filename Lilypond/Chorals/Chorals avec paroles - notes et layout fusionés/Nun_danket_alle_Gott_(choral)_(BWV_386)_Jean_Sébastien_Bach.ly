@@ -1,0 +1,157 @@
+\version "2.27.1"
+
+
+\paper {
+  #(set-paper-size "a4")
+  #(set-global-staff-size 18)
+  
+  left-margin = 20\mm
+  right-margin = 20\mm
+  top-margin = 20\mm
+  bottom-margin = 25\mm
+  
+  indent = 5\mm
+  
+  oddHeaderMarkup = \markup \fill-line { \null \fromproperty #'page:page-number-string }
+  evenHeaderMarkup = \markup \fill-line { \fromproperty #'page:page-number-string \null }
+
+  system-system-spacing = #'((basic-distance . 11) 
+                             (minimum-distance . 7) 
+                             (padding . 1.5) 
+                             (stretchability . 40))
+  markup-system-spacing = #'((basic-distance . 9) 
+                             (minimum-distance . 6) 
+                             (padding . 1.5) 
+                             (stretchability . 20))
+}
+
+\header {
+ title = "Nun danket alle Gott (choral)"
+ poet = "Auteur : Martin Rinckart (1586-1649)"
+  opus = "BWV 386"
+  composer = "Jean Sébastien Bach (1685-1750)"
+  tagline = ##f
+  copyright = "© 2026 — OpenBach"
+  }
+
+\score {
+  \new ChoirStaff <<
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    {
+      \clef treble
+      \key a \major
+      \time 4/4
+      <<
+        \new Voice = "soprano" {
+          \voiceOne
+          \repeat volta 2 {
+          \partial 4  e''4
+          e'' e'' fis'' fis''
+          e''2\fermata r4 cis''
+          d'' cis'' b' cis''8. [d''16]
+          b'2 a'4\fermata }
+          \partial 4  b'
+          b' b' cis'' cis''
+          b'2\fermata r4 b'
+          cis''8 [dis''] e''4 e'' dis''
+          e''2\fermata r4
+          \partial 4  e''
+          fis'' e'' d'' cis''
+          d''2\fermata r4 cis''
+          b' cis''8. [d''16] b'4. a'8
+          a'2.\fermata \fine
+        }
+        
+        \new Voice = "alto" {
+          \voiceTwo
+          \repeat volta 2 {
+          \partial 4  a'4
+          a' a' a' a'
+          a'2\fermata r4 a'
+          b' a' gis' a'~
+          a'8 [fis'] gis'4 e'\fermata }
+          \partial 4  gis'8 [fis']
+          e'4 e' e' e'
+          e'2\fermata r4 gis'
+          a' gis' fis' fis'
+          gis'2\fermata r4
+          \partial 4 a'
+          a'8 [b'] cis''4. b'4 ais'8
+          b'2\fermata r4 a'
+          gis' a' a' gis'
+          e'2.\fermata \fine
+        }
+      >>
+    }
+    
+    \new Lyrics \lyricsto "soprano" {\set stanza = 1
+      Nun dan -- ket al -- le Gott
+      mit Her -- zen, Mund und Hän -- den,
+      der uns von Mut -- ter -- leib
+      und Kin -- des -- bei -- nen an
+      un -- zäh -- lig viel zu gut
+      und noch jetz -- und ge -- tan.
+    }
+    
+    \new Lyrics \lyricsto "soprano" {\set stanza = 2
+      der gro -- ße Din -- ge thut
+      an uns und al -- len En -- den;
+    }
+    
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    {
+      \clef bass
+      \key a \major
+      \time 4/4
+      <<
+        \new Voice = "tenor" {
+          \voiceOne
+          \repeat volta 2 {
+          \partial 4  cis'4
+          cis' cis' d' d'
+          cis'2\fermata r4 fis'
+          e' e' e' e'
+          e'8 [d'16 cis'] d'4 cis'\fermata }
+          \partial 4  b8 [a]
+          gis [a] b4. a16 [gis] a4
+          gis2\fermata r4 e'
+          e' e' cis' b
+          b2\fermata r4
+          \partial 4 cis'
+          d' cis' fis' g'8 [fis']
+          fis'2\fermata r4 e'
+          e' e'8 [fis'] fis' [d'] b8. [e'16]
+          cis'2.\fermata \fine
+        }
+        
+        \new Voice = "bass" {
+          \voiceTwo
+          \repeat volta 2 {
+          \partial 4  a,4
+          a8 [b] cis' [a] d [e] fis [d]
+          a2\fermata r4 a
+          gis a e8 [d] cis [a,]
+          e2 a,4\fermata }
+          \partial 4  e
+          e8 [fis] gis [e] a, [b,] cis [a,]
+          e,2\fermata r4 e
+          a8 [b] cis' [gis] a [fis] b [b,]
+          e2\fermata r4
+          \partial 4 a,
+          d8 [cis] b, [ais,] b, [d] e [fis]
+          b,2\fermata r4 cis8 [d]
+          e4 a8 [fis] d [b,] e [e,]
+          a,2.\fermata \fine
+        }
+      >>
+    }
+  >>
+}
+
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
+}
+\midi {}

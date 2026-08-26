@@ -1,0 +1,154 @@
+\version "2.27.1"
+
+
+\paper {
+  #(set-paper-size "a4")
+  #(set-global-staff-size 18)
+  
+  left-margin = 20\mm
+  right-margin = 20\mm
+  top-margin = 20\mm
+  bottom-margin = 25\mm
+  
+  indent = 5\mm
+  
+  oddHeaderMarkup = \markup \fill-line { \null \fromproperty #'page:page-number-string }
+  evenHeaderMarkup = \markup \fill-line { \fromproperty #'page:page-number-string \null }
+
+  system-system-spacing = #'((basic-distance . 11) 
+                             (minimum-distance . 7) 
+                             (padding . 1.5) 
+                             (stretchability . 40))
+  markup-system-spacing = #'((basic-distance . 9) 
+                             (minimum-distance . 6) 
+                             (padding . 1.5) 
+                             (stretchability . 20))
+}
+
+\header {
+ title = "Du, o schönes Weltgebäude"
+ subtitle = "tiré de la cantate : Ich will den Kreuzstab gerne tragen"
+ poet = "Auteur : Johann Franck (1618-1677)"
+  opus = "BWV 56/5"
+  composer = "Jean Sébastien Bach (1685-1750)"
+  tagline = ##f
+  copyright = "© 2026 — OpenBach"
+  }
+
+\score {
+  \new ChoirStaff <<
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    {
+      \clef treble
+      \key g \minor
+      \time 4/4
+      <<
+        \new Voice = "soprano" {
+          \voiceOne
+          \repeat volta 2 {
+          r4 c''2 g'4
+          c'' c'' bes' bes'8 [a']
+          a'2 g'\fermata
+          r4 ees'2 g'4
+          f' ees'8 [d'] ees'4 d'
+          c'1\fermata }
+          \repeat volta 2 {
+          ees'2 f'4 g'
+          aes' aes' g' g'
+          f'2 ees'\fermata }
+          g'4 a' bes' g'
+          c'' c'' b'2\fermata
+          c''4 ees'' d'' c''
+          c'' b' c''2\fermata \fine
+        }
+        
+        \new Voice = "alto" {
+          \voiceTwo
+          \repeat volta 2 {
+          r4 ees'2 d'4
+          fis'8 [g'] a'4 a'8 [g'] g'4
+          g' fis' d'2\fermata
+          r4 c'2 c'4
+          d'8 [b] c'4 c' b
+          g1\fermata }
+           \repeat volta 2 {
+          c'2 d'4 ees'
+          f' f' f'8 [d'] ees'4
+          ees' d' bes2\fermata }
+          ees'4 ees' f' ees'
+          ees' ees'8 [d'] d'2\fermata
+          g'4 g' aes'8 g'4 f'8
+          g'4 g' g'2\fermata \fine
+        }
+      >>
+    }
+    
+    \new Lyrics \lyricsto "soprano" {\set stanza = 1
+      Komm, o Tod, du Schla -- fes Bru -- der,
+      Komm und füh -- re mich nur fort;
+      Es mag, _ wer da will, dich scheu -- en,     
+      denn durch dich komm ich her -- ein
+      zu dem schön -- sten Je -- su -- lein.
+    }
+    
+    \new Lyrics \lyricsto "soprano" {\set stanza = 2
+      lö -- se mei -- nes Schiff -- leins Ru -- der,
+      brin -- ge mich an si -- chern Port!
+      du kannst _ mich viel -- mehr er -- freu -- en;
+    }
+    
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    {
+      \clef bass
+      \key g \minor
+      \time 4/4
+      <<
+        \new Voice = "tenor" {
+          \voiceOne
+          \repeat volta 2 {
+          r4 g2 bes4
+          c' ees'8 [d'] d'4 ees'
+          d'4. c'8 b2\fermata
+          r4 c'2 g4
+          aes a g g8 [f]
+          ees1\fermata }
+           \repeat volta 2 {
+          g2 bes
+          c'4 bes bes c'
+          c' bes8 [aes] g2\fermata }
+          bes4 c' bes bes
+          c'8 [bes] a4 g2\fermata
+          g4 c' c'8 [b] c' [d']
+          ees'4 d' e'2\fermata \fine
+        }
+        
+        \new Voice = "bass" {
+          \voiceTwo
+          \repeat volta 2 {
+          r4 c2 bes,4
+          a, fis g c
+          d2 g,\fermata
+          r4 aes2 ees4
+          f fis g g,
+          c1\fermata }
+           \repeat volta 2 {
+          c4 bes, aes, g,
+          f, d ees c
+          aes, bes, ees2\fermata}
+          ees4 c d ees
+          aes,8 [g,] fis,4 g,2\fermata
+          ees8 [d] c4 f8 [g] aes4
+          g g, c,2\fermata \fine
+        }
+      >>
+    }
+  >>
+}
+
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
+}
+\midi {}
