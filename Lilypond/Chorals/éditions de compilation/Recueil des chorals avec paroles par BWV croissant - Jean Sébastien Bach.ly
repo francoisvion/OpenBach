@@ -41,9 +41,9 @@
        (let loop ((lst (cdr strs)) (acc (car strs)))
          (if (null? lst) acc (loop (cdr lst) (string-append acc " / " (car lst)))))))
 
-#(define (extract-title content)
-   (or (extract-field content "title")
-       (let ((m (string-match "\n[ \t]*title[ \t]*=[ \t]*\\\\markup[ \t]*\\{"
+#(define (extract-markup-field content field-name)
+   (or (extract-field content field-name)
+       (let ((m (string-match (string-append "\n[ \t]*" field-name "[ \t]*=[ \t]*\\\\markup[ \t]*\\{")
                                (string-append "\n" content))))
          (if (not m)
              #f
@@ -53,7 +53,8 @@
                     (span (substring full open-idx (+ close-idx 1)))
                     (concat-matches (list-matches "\\\\concat[ \t]*\\{" span)))
                (if (null? concat-matches)
-                   (extract-quoted-concat span)
+                   (join-with-slash
+                     (map (lambda (pm) (match:substring pm 1)) (list-matches "\"([^\"]*)\"" span)))
                    (join-with-slash
                      (map (lambda (cm)
                             (let* ((c-open (- (match:end cm) 1))
@@ -61,6 +62,9 @@
                                    (c-span (substring span c-open (+ c-close 1))))
                               (extract-quoted-concat c-span)))
                           concat-matches))))))))
+
+#(define (extract-title content) (extract-markup-field content "title"))
+#(define (extract-poet content) (extract-markup-field content "poet"))
 
 #(define (strip-verse-marks s)
    (regexp-substitute/global #f "[ \t]*\\(v\\.[^)]*\\)" s 'pre 'post))
@@ -77,11 +81,11 @@
      (fold-right (lambda (c acc) (if (char=? c #\") (cons #\\ (cons c acc)) (cons c acc)))
                  '() (string->list s))))
 
-#(define (inject-header score-text piece-markup opus)
+#(define (inject-header score-text piece-markup opus-field)
    (let* ((brace-idx (string-index score-text #\{))
           (before (substring score-text 0 (+ brace-idx 1)))
           (after (substring score-text (+ brace-idx 1))))
-     (string-append before "\n  \\header { piece = " piece-markup " opus = \"" opus "\" }\n" after)))
+     (string-append before "\n  \\header { piece = " piece-markup " opus = " opus-field " }\n" after)))
 
 #(define (bwv-sort-key opus-str)
    (let ((m (string-match "BWV[ \t]+([0-9]+)(.*)" (or opus-str ""))))
@@ -106,6 +110,7 @@
            (cons 'title (extract-title content))
            (cons 'subtitle (extract-field content "subtitle"))
            (cons 'opus (extract-field content "opus"))
+           (cons 'poet (extract-poet content))
            (cons 'score (extract-score-block content)))))
 
 #(define records (map make-record layout-files))
@@ -117,17 +122,21 @@
           (title (escape-quotes (assq-ref rec 'title)))
           (subtitle (assq-ref rec 'subtitle))
           (opus (assq-ref rec 'opus))
+          (poet (assq-ref rec 'poet))
           (score (assq-ref rec 'score))
           (piece-markup (if subtitle
                              (string-append "\\markup \\column { \\bold \"" title "\" \\small \"" (escape-quotes subtitle) "\" }")
-                             (string-append "\\markup \\bold \"" title "\""))))
+                             (string-append "\\markup \\bold \"" title "\"")))
+          (opus-field (if poet
+                          (string-append "\\markup \\right-column { \"" opus "\" \"" (escape-quotes poet) "\" }")
+                          (string-append "\"" opus "\""))))
      (if (not score)
          ""
          (string-append
            "\\tocItem \\markup { \"" (escape-quotes (strip-verse-marks (assq-ref rec 'title))) "  —  " opus "\" }\n"
            (read-utf8-file notes-path)
            "\n"
-           (inject-header score piece-markup opus)
+           (inject-header score piece-markup opus-field)
            "\n"))))
 
 #(define big-content
