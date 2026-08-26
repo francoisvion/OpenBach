@@ -128,7 +128,7 @@
                              (string-append "\\markup \\column { \\bold \"" title "\" \\small \"" (escape-quotes subtitle) "\" }")
                              (string-append "\\markup \\bold \"" title "\"")))
           (opus-field (if poet
-                          (string-append "\\markup \\right-column { \"" opus "\" \"" (escape-quotes poet) "\" }")
+                          (string-append "\\markup \\right-column { \"" opus "\" \\small \"" (escape-quotes poet) "\" }")
                           (string-append "\"" opus "\""))))
      (if (not score)
          ""
