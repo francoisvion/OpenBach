@@ -66,6 +66,50 @@
 #(define (extract-title content) (extract-markup-field content "title"))
 #(define (extract-poet content) (extract-markup-field content "poet"))
 
+#(define (extract-quoted-concat-runs span)
+   ;; like extract-quoted-concat, but keeps track of which quoted parts were
+   ;; wrapped in \small right before them, so the title can be re-rendered
+   ;; with the same "(v. N)" small-size styling as the individual choral files.
+   (map (lambda (pm)
+          (let* ((start (match:start pm))
+                 (prefix (substring span (max 0 (- start 12)) start)))
+            (cons (if (string-match "\\\\small[ \t]*$" prefix) 'small 'plain)
+                  (match:substring pm 1))))
+        (list-matches "\"([^\"]*)\"" span)))
+
+#(define (extract-title-runs content)
+   (or (let ((plain (extract-field content "title")))
+         (and plain (list (cons 'plain plain))))
+       (let ((m (string-match "\n[ \t]*title[ \t]*=[ \t]*\\\\markup[ \t]*\\{"
+                               (string-append "\n" content))))
+         (and m
+              (let* ((full (string-append "\n" content))
+                     (open-idx (- (match:end m) 1))
+                     (close-idx (find-matching-brace full open-idx))
+                     (span (substring full open-idx (+ close-idx 1)))
+                     (concat-matches (list-matches "\\\\concat[ \t]*\\{" span)))
+                (if (null? concat-matches)
+                    (extract-quoted-concat-runs span)
+                    (let loop ((cms concat-matches) (first #t) (result '()))
+                      (if (null? cms)
+                          result
+                          (let* ((cm (car cms))
+                                 (c-open (- (match:end cm) 1))
+                                 (c-close (find-matching-brace span c-open))
+                                 (c-span (substring span c-open (+ c-close 1)))
+                                 (runs (extract-quoted-concat-runs c-span)))
+                            (loop (cdr cms) #f
+                                  (append result (if first '() (list (cons 'plain " / "))) runs)))))))))))
+
+#(define (runs->concat-markup runs)
+   (apply string-append
+     (map (lambda (r)
+            (let ((text (escape-quotes (cdr r))))
+              (if (eq? (car r) 'small)
+                  (string-append " \\small \"" text "\"")
+                  (string-append " \"" text "\""))))
+          runs)))
+
 #(define (strip-verse-marks s)
    (regexp-substitute/global #f "[ \t]*\\(v\\.[^)]*\\)" s 'pre 'post))
 
@@ -139,6 +183,7 @@
           (base (substring fn 0 (- (string-length fn) (string-length "_layout.ly")))))
      (list (cons 'base base)
            (cons 'title (extract-title content))
+           (cons 'title-runs (extract-title-runs content))
            (cons 'subtitle (extract-field content "subtitle"))
            (cons 'opus (extract-field content "opus"))
            (cons 'poet (extract-poet content))
@@ -150,14 +195,14 @@
 #(define (piece-text rec)
    (let* ((base (assq-ref rec 'base))
           (notes-path (string-append source-dir "/" base "_notes.ily"))
-          (title (escape-quotes (assq-ref rec 'title)))
+          (title-markup-inner (runs->concat-markup (assq-ref rec 'title-runs)))
           (subtitle (assq-ref rec 'subtitle))
           (opus (assq-ref rec 'opus))
           (poet (assq-ref rec 'poet))
           (score (assq-ref rec 'score))
           (piece-markup (if subtitle
-                             (string-append "\\markup \\column { \\bold \"" title "\"" (small-lines (wrap-long-text subtitle 60)) " }")
-                             (string-append "\\markup \\bold \"" title "\"")))
+                             (string-append "\\markup \\column { \\bold \\concat {" title-markup-inner " }" (small-lines (wrap-long-text subtitle 60)) " }")
+                             (string-append "\\markup \\bold \\concat {" title-markup-inner " }")))
           (opus-field (if poet
                           (string-append "\\markup \\right-column { \"" opus "\"" (small-lines (wrap-poet (abbreviate-poet poet))) " }")
                           (string-append "\"" opus "\""))))
