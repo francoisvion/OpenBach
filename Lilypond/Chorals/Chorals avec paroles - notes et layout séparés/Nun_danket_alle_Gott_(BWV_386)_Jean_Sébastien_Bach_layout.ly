@@ -2,7 +2,7 @@
 
 
 
-\include "Nun_danket_alle_Gott_(choral)_(BWV_386)_Jean_Sébastien_Bach_notes.ily"
+\include "Nun_danket_alle_Gott_(BWV_386)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

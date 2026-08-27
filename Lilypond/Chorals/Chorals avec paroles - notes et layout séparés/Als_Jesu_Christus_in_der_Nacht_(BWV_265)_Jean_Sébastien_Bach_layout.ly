@@ -2,7 +2,7 @@
 
 
 
-\include "Als_Jesus_Christus_in_der_Nacht_(BWV_265)_Jean_Sébastien_Bach_notes.ily"
+\include "Als_Jesu_Christus_in_der_Nacht_(BWV_265)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

@@ -2,7 +2,7 @@
 
 
 
-\include "Ach_Gott_und_Herr_(BWV_48_3)_Jean_Sébastien_Bach_notes.ily"
+\include "Ach_Gott_und_Herr_(I)_(BWV_48_3)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,7 +28,7 @@
 }
 
 \header {
-  title = \markup{\concat{"Ach Gott und Herr" \small " (v. 4)"}}
+  title = \markup{\concat{"Ach Gott und Herr (I)" \small " (v. 4)"}}
   subtitle = "tiré de la cantate : Ich elender Mensch, wer wird mich erlösen"
   poet = "Auteur : Martin Rutilius (1551-1618)"
   opus = "BWV 48/3"

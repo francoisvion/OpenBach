@@ -2,7 +2,7 @@
 
 
 
-\include "Meine_Seele_erhebt_den_Herren_(doxology)_(BWV_10_7)_Jean_Sébastien_Bach_notes.ily"
+\include "Meine_Seele_erhebt_den_Herren_(BWV_10_7)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

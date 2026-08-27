@@ -1,8 +1,7 @@
 \version "2.27.1"
 
+\include "Ach,_lieben_Christen,_seid_getrost_(II)_(BWV_256)_Jean_Sébastien_Bach_notes.ily"
 
-
-\include "Ach_lieben_Christen_seid_getrost_(BWV_256)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,7 +27,7 @@
 }
 
 \header { 
- title = "Ach, lieben Christen, seid getrost"
+ title = "Ach, lieben Christen, seid getrost (II)"
  poet = "Auteur : Johann Gigas (1514-1581)"
   opus = "BWV 256"
   composer = "Jean-Sébastien Bach (1685-1750)"

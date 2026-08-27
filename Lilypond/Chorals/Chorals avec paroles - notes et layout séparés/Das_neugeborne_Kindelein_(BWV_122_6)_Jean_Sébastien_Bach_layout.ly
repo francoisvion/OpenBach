@@ -2,7 +2,7 @@
 
 
 
-\include "Es_bringt_das_rechte_Jubeljahr_(BWV_122_6)_Jean_Sébastien_Bach_notes.ily"
+\include "Das_neugeborne_Kindelein_(BWV_122_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

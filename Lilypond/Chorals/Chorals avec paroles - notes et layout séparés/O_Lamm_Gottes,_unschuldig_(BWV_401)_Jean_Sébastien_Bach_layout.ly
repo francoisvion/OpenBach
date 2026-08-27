@@ -2,7 +2,7 @@
 
 
 
-\include "O_Lamm_Gottes,_unschuldig_(choral)_(BWV_401)_Jean_Sébastien_Bach_notes.ily"
+\include "O_Lamm_Gottes,_unschuldig_(BWV_401)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

@@ -2,7 +2,7 @@
 
 
 
-\include "O_Ewigkeit,_du_Donnerwort_(choral)_(BWV_397)_Jean_Sébastien_Bach_notes.ily"
+\include "O_Ewigkeit,_du_Donnerwort_(BWV_397)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

@@ -1,8 +1,6 @@
 \version "2.27.1"
 
-
-
-\include "Ach_Gott_und_Herr_(BWV_255)_Jean_Sébastien_Bach_notes.ily"
+\include "Ach_Gott,_wie_manches_Herzeleid_(I)_(BWV_3_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -27,41 +25,46 @@
                              (stretchability . 20))
 }
 
-\header { 
- title = "Ach Gott und Herr"
- poet = "Auteur : Martin Rutilius (1551-1618)"
-  opus = "BWV 255"
+\header {
+  title = \markup{\concat{"Ach Gott, wie manches Herzeleid (I)" \small " (v. 18)"}}
+  subtitle = "tiré de la cantate : Ach Gott, wie manches Herzeleid"
+  poet = "Auteur : Martin Moller (1547-1606)"
+  opus = "BWV 3/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
-  tagline = ##f   
+  tagline = ##f
   copyright = "© 2026 — OpenBach"
-  } 
- 
-\score  {
+  }
+
+\score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A}}
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key c \major
+      \key a \major
       \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
+        
         \new Voice = "alto" \altoMusic
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" \sopranoLyrics
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B}}
+    
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key c \major
+      \key a \major
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic
+        
         \new Voice = "bass" \bassMusic
       >>
     }
   >>
-} 
- 
+}
+
 \layout {
   \context {
     \Staff

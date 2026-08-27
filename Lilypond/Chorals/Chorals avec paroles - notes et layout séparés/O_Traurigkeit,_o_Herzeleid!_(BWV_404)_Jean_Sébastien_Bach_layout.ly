@@ -2,7 +2,7 @@
 
 
 
-\include "O_Traurigkeit,_o_Herzeleid_(BWV_404)_Jean_Sébastien_Bach_notes.ily"
+\include "O_Traurigkeit,_o_Herzeleid!_(BWV_404)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

@@ -2,7 +2,7 @@
 
 
 
-\include "In_allen_meinen_Taten_(choral)_(BWV_367)_Jean_Sébastien_Bach_notes.ily"
+\include "In_allen_meinen_Taten_(BWV_367)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

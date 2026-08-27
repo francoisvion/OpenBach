@@ -2,7 +2,7 @@
 
 
 
-\include "Wie_schön_leuchtet_der_Morgenstern_(choral)_(BWV_436)_Jean_Sébastien_Bach_notes.ily"
+\include "Wie_schön_leuchtet_der_Morgenstern_(BWV_436)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

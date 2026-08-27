@@ -2,7 +2,7 @@
 
 
 
-\include "Das_walt_mein_Gott_(BWV_291)_Jean_Sébastien_Bach_notes.ily"
+\include "Das_walt_mein_Gott,_Vater,_Sohn_und_heiliger_Geist_(BWV_291)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

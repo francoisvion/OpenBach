@@ -2,7 +2,7 @@
 
 
 
-\include "Liebster_Jesu,_wir_sind_hier_(choral)_(BWV_373)_Jean_Sébastien_Bach_notes.ily"
+\include "Liebster_Jesu,_wir_sind_hier_(BWV_373)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

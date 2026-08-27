@@ -2,7 +2,7 @@
 
 
 
-\include "Auf,_auf,_mein_Herz,_und_du_mein_ganzer_Sinn_(BWV_268)_Jean_Sébastien_Bach_notes.ily"
+\include "Auf,_auf,_mein_Herz,_und_du,_mein_ganzer_Sinn_(BWV_268)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

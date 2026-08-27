@@ -2,7 +2,7 @@
 
 
 
-\include "Ach_lieben_Christen,_seid_getrost_(BWV_114_7)_Jean_Sébastien_Bach_notes.ily"
+\include "Ach_Gott,_wie_manches_Herzeleid_(II)_(BWV_153_9)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,10 +28,10 @@
 }
 
 \header {
-  title = \markup{\concat{"Ach lieben Christen, seid getrost" \small " (v. 6)"}}
-  subtitle = "tiré de la cantate : Ach lieben Christen, seid getrost"
-  poet = "Auteur : Johann Gigas (1514-1581)"
-  opus = "BWV 114/7"
+  title = \markup{\concat{"Ach Gott, wie manches Herzeleid (II)" \small " (v. 16 à 18)"}}
+  subtitle = "tiré de la cantate : Schau, lieber Gott, wie meine Feind"
+  poet = "Auteur : Martin Moller (1547-1606)"
+  opus = "BWV 153/9"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -42,8 +42,8 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key g \minor
-      \time 4/4
+      \key c \major
+      \time 3/4
       <<
         \new Voice = "soprano" \sopranoMusic
         
@@ -55,11 +55,13 @@
     
     \new Lyrics \lyricsto "soprano" \versoTwoLyrics
     
+    \new Lyrics \lyricsto "soprano" \versoThreeLyrics
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key g \minor
-      \time 4/4
+      \key c \major
+      \time 3/4
       <<
         \new Voice = "tenor" \tenorMusic
         

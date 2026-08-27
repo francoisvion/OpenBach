@@ -2,7 +2,7 @@
 
 
 
-\include "Helft_mir_Gotts_Güte_preisen_Von_Gott_will_ich_nicht_lassen_(BWV_419)_Jean_Sébastien_Bach_notes.ily"
+\include "Von_Gott_will_ich_nicht_lassen_(BWV_419)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
