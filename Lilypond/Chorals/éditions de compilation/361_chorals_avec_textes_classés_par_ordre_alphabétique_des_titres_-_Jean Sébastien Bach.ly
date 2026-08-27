@@ -222,7 +222,7 @@
 #(define (toc-item-markup title opus)
    (let* ((title-parts (wrap-poet title))
           (title-parts (if (= (length title-parts) 1)
-                            (wrap-long-text (car title-parts) 40)
+                            (wrap-long-text (car title-parts) 55)
                             title-parts))
           (row (string-append
                  "\\fill-with-pattern #1 #RIGHT \".\" \\line { \\override #'(line-width . 66) \\fill-with-pattern #1 #RIGHT \".\" \""
