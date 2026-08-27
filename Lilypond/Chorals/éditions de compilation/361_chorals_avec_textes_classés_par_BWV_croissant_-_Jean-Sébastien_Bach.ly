@@ -221,8 +221,8 @@
                  (car title-parts) "\" \"\" \"" opus "\" } \\fromproperty #'toc:page")))
      (if (= (length title-parts) 1)
          (string-append "\\markup { " row " }")
-         (string-append "\\markup \\override #'(baseline-skip . 2) \\column { " row
-                         " \\line { \"" (cadr title-parts) "\" } }"))))
+         (string-append "\\markup \\column { " row
+                         " \\line { \"" (cadr title-parts) "\" } \\vspace #0.33 }"))))
 
 #(define (piece-text rec)
    (let* ((base (assq-ref rec 'base))
