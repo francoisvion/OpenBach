@@ -201,7 +201,7 @@
                  (car title-parts) "\" \"\" \"" opus "\" } \\fromproperty #'toc:page")))
      (if (= (length title-parts) 1)
          (string-append "\\markup { " row " }")
-         (string-append "\\markup \\column { " row
+         (string-append "\\markup \\override #'(baseline-skip . 2) \\column { " row
                          " \\line { \"" (cadr title-parts) "\" } }"))))
 
 #(define (piece-text rec)
@@ -293,9 +293,9 @@
     \vspace #2
     \fill-line { \null \image #X #48.7 #"images/Bach_Haussmann_1748.png" \null }
     \vspace #2
-    \fill-line { \null \fontsize #4 \italic "pour SATB sur portées de piano avec paroles" \null }
+    \fill-line { \null \fontsize #4 \italic "pour SATB sur portées de piano avec textes" \null }
     \vspace #1
-    \fill-line { \null \fontsize #4 \italic "Classés par ordre croissant de numéro BWV" \null }
+    \fill-line { \null \fontsize #4 \italic "classés par ordre croissant de numéro BWV" \null }
     \vspace #6
     \line { \combine \draw-line #'(105 . 0) \translate #'(0 . 0.7) \draw-line #'(105 . 0) }
   }
