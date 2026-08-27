@@ -84,7 +84,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       mich freund -- lich tust an -- bli -- cken.     
       Nimm mich
       freund -- lich
-      in dein' Ar -- me, daß ich war -- me Werd' von Gna -- den:
+      in dein' Ar -- me, dass ich war -- me Werd' von Gna -- den:
       auf dein Wort komm' ich ge -- la -- den.
     }
 

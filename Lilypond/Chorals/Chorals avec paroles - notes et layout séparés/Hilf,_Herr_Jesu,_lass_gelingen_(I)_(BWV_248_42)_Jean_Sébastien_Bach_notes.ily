@@ -111,7 +111,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       Je -- sus rich -- te mein Be - gin -- nen,
       Je -- sus blei -- be stets bei mir,
       Je -- sus sei mir in Ge - dan -- ken,
-      Je - su, la - ße mich __ _ nicht wan -- ken!
+      Je - su, las - se mich __ _ nicht wan -- ken!
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2

@@ -65,6 +65,6 @@ versoOneLyrics = \lyricmode {\set stanza = 1
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
-    daß dir Gott Glück, Gut und Ehr'
+    dass dir Gott Glück, Gut und Ehr'
     nicht so viel, wie Andern gibt;
     }

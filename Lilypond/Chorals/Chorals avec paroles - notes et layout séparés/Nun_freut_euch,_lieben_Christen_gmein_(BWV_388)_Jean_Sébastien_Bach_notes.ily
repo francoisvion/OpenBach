@@ -64,12 +64,12 @@ bassMusic = {
 
 versoOneLyrics = \lyricmode {\set stanza = 1
       Nun freut euch, lie -- ben Chri -- sten g'mein,
-      und laßt uns frö -- hlich sprin - gen,
+      und lasst uns frö -- hlich sprin - gen,
       was Gott an uns ge -- wen -- det hat
       und sei -- ne sü -- ße Wun -- der -- tat; gar teu'r hat er's er -- wor - ben.
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
-      daß wir ge -- trost und all in Ein
+      dass wir ge -- trost und all in Ein
       mit Lust und Lie -- be sin - gen:
     }

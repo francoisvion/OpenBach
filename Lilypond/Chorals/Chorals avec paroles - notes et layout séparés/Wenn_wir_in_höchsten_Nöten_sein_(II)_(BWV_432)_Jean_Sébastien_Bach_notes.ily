@@ -63,7 +63,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
       so ist das un -- ser Trost al -- lein,
-      daß wir zu -- sam -- men ins -- ge -- mein
+      dass wir zu -- sam -- men ins -- ge -- mein
       an -- ru -- fen dich, du treu -- er Gott,
       um Ret -- tung aus der Angst und Noth.
     }

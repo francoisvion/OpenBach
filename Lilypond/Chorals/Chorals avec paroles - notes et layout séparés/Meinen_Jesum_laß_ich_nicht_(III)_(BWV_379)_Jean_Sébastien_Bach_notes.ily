@@ -55,10 +55,10 @@ bassMusic = {
         }
 
 versoOneLyrics = \lyricmode {\set stanza = 1
-      Mei -- nen Je -- sum laß' ich nicht,
+      Mei -- nen Je -- sum lass' ich nicht,
       Je -- sus wird mich auch nicht las -- sen.
       Weiß ge -- wiss und glau -- be fest,
-      daß mich Je -- sus auch nicht läßt.
+      dass mich Je -- sus auch nicht lässt.
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2

@@ -105,7 +105,7 @@ sopranoLyrics = \lyricmode {
       die Har -- fen und die Or -- geln gut
       an ih -- re Bäum' der Wei -- den,
       die drin -- nen sind in ih -- rem Land,
-      da muß -- ten wir viel Schmach und Schand'
+      da muss -- ten wir viel Schmach und Schand'
       täg -- lich von ih - - nen lei - - den.
     }
 

@@ -89,12 +89,12 @@ bassMusic = {
 sopranoLyrics = \lyricmode {
       Ich dank' dir, Gott
       für all' Wohl -- that,
-      daß du uns hast so gnä - - dig -- lich
+      dass du uns hast so gnä - - dig -- lich
       die Nacht be -- hüt't
       durch dei - - ne Güt',
       und bitt' nun fort,
       ach Gott, mein Hort,
       vor Sünd' und G'fahr
       mich heut' be -- wahr',
-      daß mir kein Bö -- ses wi - - der fahr.
+      dass mir kein Bö -- ses wi - - der fahr.
     }

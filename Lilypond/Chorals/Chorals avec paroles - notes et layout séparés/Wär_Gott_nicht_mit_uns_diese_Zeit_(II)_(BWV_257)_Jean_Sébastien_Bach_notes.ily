@@ -77,4 +77,4 @@ versoOneLyrics = \lyricmode { \set stanza = 1
     }
 
 versoTwoLyrics = \lyricmode { \set stanza = 2
-      \repeat unfold 8 {\skip1} wir hät -- ten müßt ver -- za -- gen,}
+      \repeat unfold 8 {\skip1} wir hät -- ten müsst ver -- za -- gen,}

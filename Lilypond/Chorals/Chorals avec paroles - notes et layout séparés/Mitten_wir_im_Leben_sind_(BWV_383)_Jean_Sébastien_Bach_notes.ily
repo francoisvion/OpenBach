@@ -136,11 +136,11 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       hei -- li -- ger, star -- ker Gott,
       hei -- li -- ger, barm -- herz' -- ger Hei - land,
       du e -- wi -- ger Gott,
-      laß uns nicht ver -- sin - ken
+      lass uns nicht ver -- sin - ken
       in der bit -- tern To -- des -- noth.
       Ky -- rie e -- lei -- son!
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
        Wen such'n wir, der Hül -- fe thu',  __ _
-       daß wir Gnad' er -- lan - gen?    }
+       dass wir Gnad' er -- lan - gen?    }

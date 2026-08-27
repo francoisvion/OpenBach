@@ -89,10 +89,10 @@ bassMusic = {
 
 versoOneLyrics = \lyricmode {\set stanza = 1
       \tweak X-offset #-4.5 "7. Was" frag' ich nach der Welt!
-      Im Hui muß sie ver -- schwin - den;
+      Im Hui muss sie ver -- schwin - den;
       Ihr An -- sehn kann durch -- aus
-      den bla -- ßen Tod nicht bin - den;
-      Die Gü -- ter mü -- ßen fort,
+      den blas -- sen Tod nicht bin - den;
+      Die Gü -- ter müs -- sen fort,
       und al -- le Lust ver -- fällt.
       bleibt Je -- sus nur bei mir,
       was frag' ich nach der Welt!

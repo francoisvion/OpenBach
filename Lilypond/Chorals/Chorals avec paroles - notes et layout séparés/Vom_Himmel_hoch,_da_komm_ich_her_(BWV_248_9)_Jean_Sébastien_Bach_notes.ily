@@ -74,5 +74,5 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       Ach, mein herz -- lie -- bes Je -- su -- lein,
       Mach dir ein rein, sanft Bet -- te -- lein,
       Zu ru -- hen in meins Her -- zens Schrein,
-      daß ich nim -- mer ver -- ge -- sse dein.
+      dass ich nim -- mer ver -- ge -- sse dein.
     }

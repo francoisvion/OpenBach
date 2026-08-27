@@ -66,5 +66,5 @@ sopranoLyrics = \lyricmode {
       Ach bleib bei uns, Herr Je -- su  Christ, 
       weil es nun A -- bend wor -- den__ ist; 
       dein gött --  lich__  Wort, das hel -- le Licht,
-      laß ja bei uns __ aus -- lö -- schen nicht!
+      lass ja bei uns __ aus -- lö -- schen nicht!
     }

@@ -129,7 +129,7 @@ bassMusic = {
 versoOneLyrics = \lyricmode {\set stanza = 1
       Lass dein En -- gel mit mir fah -- ren,
       auf E -- li -- as Wa -- gen rot,
-      Laß sie ruhn in dei -- nem Schoß,
+      Lass sie ruhn in dei -- nem Schoß,
       er -- füll sie mit Freud und Trost,
       bis der Leib kommt aus der Er -- de
       und mit ihr ver -- ei -- nigt wer -- de.

@@ -76,6 +76,6 @@ sopranoLyrics = \lyricmode {
       der lei -- tet al -- les, was ihn licht,
       auf wohl ge -- bähn - - ten We -- ge.
       Er setzt und rich -- tet un -- sern Fuß,
-      daß er nicht an -- ders tre -- ten muß,
+      dass er nicht an -- ders tre -- ten muss,
       als wo man findt __ _ _ den Se -- gen.
     }

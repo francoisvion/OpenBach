@@ -81,7 +81,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       du wollst nicht von mir neh - men
       mein Sünd und Schuld, denn in dein Huld
       setz ich all mein Ver -- trau -- en.
-      Wer sich nur fest da -- rauf ver -- läßt,
+      Wer sich nur fest da -- rauf ver -- lässt,
       der wird den Tod nicht schau - - en.
     }
 

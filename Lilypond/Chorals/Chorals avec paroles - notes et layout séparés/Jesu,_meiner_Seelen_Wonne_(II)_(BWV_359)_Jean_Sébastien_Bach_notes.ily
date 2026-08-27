@@ -77,5 +77,5 @@ versoOneLyrics = \lyricmode {\set stanza = 1
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
     Je -- su, mei -- ne Freu -- den -- son -- ne,
-    Je -- su, dir ist ja be -- wußt, 
+    Je -- su, dir ist ja be -- wusst, 
     }

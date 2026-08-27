@@ -80,10 +80,10 @@ bassMusic = {
 
 versoOneLyrics = \lyricmode {\set stanza = 1
       Je -- su, wah -- res Brot des Le -- bens,
-      Hilf, daß ich doch nicht ver -- ge -- bens     
-      Laß mich durch dies See -- len -- es -- sen
+      Hilf, dass ich doch nicht ver -- ge -- bens     
+      Lass mich durch dies See -- len -- es -- sen
       dei -- ne Lie -- be recht er -- mes -- sen,
-      daß ich auch, wie jetzt auf Er -- den,
+      dass ich auch, wie jetzt auf Er -- den,
       mög ein Gast im Him -- mel wer -- den.
     }
 

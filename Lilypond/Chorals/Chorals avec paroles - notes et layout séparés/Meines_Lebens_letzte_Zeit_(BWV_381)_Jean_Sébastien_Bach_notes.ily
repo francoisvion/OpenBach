@@ -80,6 +80,6 @@ sopranoLyrics = \lyricmode {
       da der schnö -- den Ei -- tel -- keit
       mei -- ne See -- le wird ent -- nom -- men;
       wer kann wi -- der -- stre -- ben,
-      daß uns Men -- schen Gott das Le -- ben
+      dass uns Men -- schen Gott das Le -- ben
       auf ein zeit -- lich Wie -- der -- neh -- men hat ge -- ge -- ben.
     }

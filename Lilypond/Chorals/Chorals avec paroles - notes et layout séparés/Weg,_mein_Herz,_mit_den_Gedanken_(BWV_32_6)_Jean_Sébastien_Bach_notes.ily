@@ -74,12 +74,12 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       Mein Gott, öff -- ne mir die Pfor -- ten
       Sol -- cher Gnad und Gü -- tig -- keit,
       Lie -- be mich und treib mich an,
-      daß ich dich, so gut ich kann,
+      dass ich dich, so gut ich kann,
       wie -- de -- rum um -- fang und lie -- be
       und ja nun nicht mehr be -- trü -- be.
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
-      Laß mich all -- zeit al -- le -- ror -- ten
+      Lass mich all -- zeit al -- le -- ror -- ten
       Schme -- cken dei -- ne Sü -- ßig -- keit!
     }

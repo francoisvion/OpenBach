@@ -80,5 +80,5 @@ sopranoLyrics = \lyricmode {
       zu dei -- nen Ber -- gen, Herr!
       mit Seuf -- zen und mit Fle -- hen,
       so reichst du mir dein Ohr,
-      daß ich nicht darf be -- trübt von dei -- nem Ant -- litz ge -- hen.
+      dass ich nicht darf be -- trübt von dei -- nem Ant -- litz ge -- hen.
     }

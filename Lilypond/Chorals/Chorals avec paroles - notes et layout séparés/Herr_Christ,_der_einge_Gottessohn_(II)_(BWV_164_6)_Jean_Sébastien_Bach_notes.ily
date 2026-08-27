@@ -72,5 +72,5 @@ versoOneLyrics = \lyricmode {\set stanza = 1
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
       Den al -- ten Men -- schen krän -- ke,
-      daß der neu' le -- ben mag
+      dass der neu' le -- ben mag
     }

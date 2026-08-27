@@ -71,5 +71,5 @@ bassMusic = {
         }
 
 sopranoLyrics = \lyricmode {
-      Herr, ich denk' an je -- ne Zeit, wenn ich die -- sem kur -- zen Le -- ben we -- gen mei -- ner Sterb -- lich -- keit gu -- te Nacht muß ge -- ben, wenn ich werd' auf dein Ge -- bot durch den Tod Al -- les ü -- ber -- stre -- ben.
+      Herr, ich denk' an je -- ne Zeit, wenn ich die -- sem kur -- zen Le -- ben we -- gen mei -- ner Sterb -- lich -- keit gu -- te Nacht muss ge -- ben, wenn ich werd' auf dein Ge -- bot durch den Tod Al -- les ü -- ber -- stre -- ben.
     }

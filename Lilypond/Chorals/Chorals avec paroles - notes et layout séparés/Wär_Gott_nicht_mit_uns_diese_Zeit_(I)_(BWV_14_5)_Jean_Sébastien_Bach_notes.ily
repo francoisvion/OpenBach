@@ -64,7 +64,7 @@ bassMusic = {
 
 versoOneLyrics = \lyricmode {\set stanza = 1
       Gott Lob und Dank, der nicht zu -- gab,
-      daß ihr Schlund uns möcht fan - gen.
+      dass ihr Schlund uns möcht fan - gen.
       Strick ist ent -- zwei und wir sind frei,
       des Her -- ren Na -- men steht uns bei,
       des Got -- tes Him -- mels und Er - den.

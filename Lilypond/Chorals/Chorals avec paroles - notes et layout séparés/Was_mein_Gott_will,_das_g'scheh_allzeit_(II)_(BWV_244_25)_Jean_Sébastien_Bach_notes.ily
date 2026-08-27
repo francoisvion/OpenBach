@@ -76,7 +76,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       Er hilft aus Noth, der from -- me Gott,
       und züch -- ti -- get mit Ma -- ßen.
       Wer Gott ver -- traut, fest auf ihn baut,
-      den will er nicht ver -- la -- ßen.
+      den will er nicht ver -- las -- sen.
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2

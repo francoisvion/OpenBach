@@ -68,7 +68,7 @@ bassMusic = {
 
 sopranoLyrics = \lyricmode {
       Ach, Herr, ver -- gib all un -- sre Schuld,
-      hilf, daß wir war -- ten mit Ge -- duld,
+      hilf, dass wir war -- ten mit Ge -- duld,
       bis un -- ser Stünd -- lein kommt her -- bei,
       auch un -- ser Glaub stets wa -- cker sei,
       deinm Wort zu trau -- en fes -- tig -- lich,

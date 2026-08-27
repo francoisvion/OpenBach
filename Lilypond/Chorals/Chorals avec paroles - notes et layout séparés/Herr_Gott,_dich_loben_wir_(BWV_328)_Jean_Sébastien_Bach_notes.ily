@@ -276,7 +276,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       geht ü -- ber Himm'l und Er -- den weit.
       Du Kön'g der Eh -- ren, Je -- su Christ,
       Gott Va -- ters ew' -- ger Sohn du bist,
-      Laß uns im Him -- mel ha -- ben Theil
+      Lass uns im Him -- mel ha -- ben Theil
       Mit den Heil' -- gen im ew' -- gen Heil!
       Hilf dei -- nem Volk, Herr Je -- su Christ
       und se -- gne was dein Erb -- theil ist,
@@ -287,7 +287,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       Be -- hüt' uns heut', o treu -- er Gott,
       vor al -- ler Sünd und Mis -- se -- that,
       Auf dich hof -- fen wir, lie -- ber Herr,
-      in Scha -- den laß uns nim -- mer -- mehr.
+      in Scha -- den lass uns nim -- mer -- mehr.
       A - - - men!
     }
 

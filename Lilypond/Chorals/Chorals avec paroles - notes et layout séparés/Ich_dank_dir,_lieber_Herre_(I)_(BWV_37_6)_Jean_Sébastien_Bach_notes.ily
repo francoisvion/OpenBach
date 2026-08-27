@@ -93,7 +93,7 @@ sopranoLyrics = \lyricmode {
       all -- hier zu die - - ser Frist.
       Du wirst mir nicht ver -- sa - gen,
       was du ver -- hei -- ßen hast,
-      daß er mein Sünd tu tra - {\markup \concat{"      gen"   \hspace #1  \tiny "(SAB :)"}}
+      dass er mein Sünd tu tra - {\markup \concat{"      gen"   \hspace #1  \tiny "(SAB :)"}}
       und lös mich von __ _ _ _ _ der Last.
     }
 

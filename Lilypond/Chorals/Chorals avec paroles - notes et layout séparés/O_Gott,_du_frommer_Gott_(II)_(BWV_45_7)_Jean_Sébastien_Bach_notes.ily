@@ -87,12 +87,12 @@ bassMusic = {
         }
 
 sopranoLyrics = \lyricmode {
-      Gib, daß ich tu mit Fleiß,
+      Gib, dass ich tu mit Fleiß,
       was mir zu tun ge -- büh - ret,
       wor -- zu mich dein Be -- fehl
       in mei -- nem Stan -- de füh - ret!
-      Gib, daß ichs tu -- e bald,
+      Gib, dass ichs tu -- e bald,
       zu der Zeit, da ich soll;
       und wenn ich’s tu, so gib,
-      daß es ge -- ra -- te wohl!
+      dass es ge -- ra -- te wohl!
     }

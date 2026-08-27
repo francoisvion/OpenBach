@@ -91,7 +91,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
       \tweak X-offset #-5.0 "17. Hilf" mir mein Sach __ _ recht grei - fen an,
-      daß ich mein Lauf vol -- len -- den kann,
+      dass ich mein Lauf vol -- len -- den kann,
       hilf mir auch zwin - gen Fleisch und Blut,
       für Sünd und Schan -- den mich be -- hüt!
     }

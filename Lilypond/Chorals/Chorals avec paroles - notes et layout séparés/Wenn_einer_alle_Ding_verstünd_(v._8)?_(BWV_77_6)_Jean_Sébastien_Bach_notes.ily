@@ -77,25 +77,25 @@ bassMusic = {
 versoOneLyrics = \lyricmode {\set stanza = 1
       \tweak X-offset #-9 \markup{\concat{\small "Texte 1. " "Du"}} stellst, mein Je -- su, sel -- ber dich
       zum Vor -- bild wah -- rer Lie - be:
-      daß ich bei al -- lem, wo ich kann,
+      dass ich bei al -- lem, wo ich kann,
       stets lieb und hel -- fe je -- der -- mann
       Nach dei -- nem Wort und Wei - se.
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
-      gib mir auch Gnad und Kraft, daß ich
+      gib mir auch Gnad und Kraft, dass ich
       Gott und den Näch -- sten lie - be:
     }
 
 versoOneLyricsB = \lyricmode {\set stanza = 1
       \tweak X-offset #-9 \markup{\concat{\small "Texte 2. " "Herr,"}} durch den Glau -- ben wohn in mir,
-      Laß ihn sich im -- mer stär - ken,
-      daß er sei tä -- tig durch die Lieb,
+      Lass ihn sich im -- mer stär - ken,
+      dass er sei tä -- tig durch die Lieb,
       mit Freu -- den und Ge -- duld sich üb,
       dem Näch -- sten fort zu die - nen.
     }
 
 versoTwoLyricsB = \lyricmode {\set stanza = 2
-      daß er sei frucht -- bar für und für
+      dass er sei frucht -- bar für und für
       und reich in gu -- ten Wer - ken;
     }

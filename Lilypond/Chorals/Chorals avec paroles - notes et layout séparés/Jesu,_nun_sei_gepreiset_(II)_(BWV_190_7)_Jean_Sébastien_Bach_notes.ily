@@ -121,7 +121,7 @@ bassMusic = {
 versoOneLyrics = \lyricmode {\set stanza = 1
       Lass uns das Jahr voll -- brin -- gen
       zu Lob dem Na -- men dein,
-      daß wir dem -- sel -- ben sin -- gen
+      dass wir dem -- sel -- ben sin -- gen
       in der Chri -- sten ge -- mein;
       dein Se -- gen zu uns wen -- de,
       gib Fried an al -- lem En -- de;

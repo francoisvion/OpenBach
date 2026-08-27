@@ -112,7 +112,7 @@ versoTwoLyrics = \lyricmode {\set stanza = 2
       ohn' den nichts ist, was ist,
       von dem wir al -- les ha -- ben,
       ge -- sun -- den Leib gib mir, 
-      und daß in sol -- chem Leib
+      und dass in sol -- chem Leib
       ein' un -- ver -- letz -- te Seel' und rein Ge -- wis -- sen bleib. __
     }
 

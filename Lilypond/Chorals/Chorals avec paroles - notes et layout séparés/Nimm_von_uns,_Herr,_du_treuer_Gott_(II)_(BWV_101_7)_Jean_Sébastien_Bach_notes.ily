@@ -72,5 +72,5 @@ versoTwoLyrics = \lyricmode {\set stanza = 2
       Gieb uns all -- zeit dein hei -- lges Wort,
       Be -- hüt vors Teu -- fels List und Mord,
       Ver -- leih ein sel -- ges Stün -- de -- lein,
-      Auf daß wir e -- wig bei dir sein.
+      Auf dass wir e -- wig bei dir sein.
     }

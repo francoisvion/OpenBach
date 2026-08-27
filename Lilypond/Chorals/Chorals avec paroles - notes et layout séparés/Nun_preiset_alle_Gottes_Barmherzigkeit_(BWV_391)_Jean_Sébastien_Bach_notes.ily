@@ -91,6 +91,6 @@ sopranoLyrics = \lyricmode {
       Got -- tes Barm -- her -- zig -- keit,
       lob' ihn mit Schal -- le,
       du wer -- the Chri -- sten -- heit!
-      Er läßt dich freund - lich zu sich la -- den.
+      Er lässt dich freund - lich zu sich la -- den.
       freu -- e dich, I - sra -- el, sei -- ner Gna -- den, Gna -- den.
     }

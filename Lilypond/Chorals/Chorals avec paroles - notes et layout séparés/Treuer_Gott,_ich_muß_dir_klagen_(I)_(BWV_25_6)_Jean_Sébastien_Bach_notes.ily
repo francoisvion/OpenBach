@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
-      daß du mei -- ne Plag und Kla -- ge
+      dass du mei -- ne Plag und Kla -- ge
       hast so herz -- lich ab -- ge -- wandt.
     }
 

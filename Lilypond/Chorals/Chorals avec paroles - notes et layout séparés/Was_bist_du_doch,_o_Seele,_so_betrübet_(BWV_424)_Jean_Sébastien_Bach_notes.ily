@@ -66,5 +66,5 @@ versoOneLyrics = \lyricmode {\set stanza = 1
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2  
-    daß dir der Herr ein Kreuz zu tra -- gen gie -- bet?
+    dass dir der Herr ein Kreuz zu tra -- gen gie -- bet?
     }

@@ -75,6 +75,6 @@ versoOneLyrics = \lyricmode {\set stanza = 1
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
-      Und laß uns dir be -- foh -- len sein,
-      daß sichs in uns nicht flech - te,
+      Und lass uns dir be -- foh -- len sein,
+      dass sichs in uns nicht flech - te,
     }

@@ -72,7 +72,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       so wird Gott mich
       Ganz vä -- ter -- lich
       in sei -- nen Ar -- men hal -- ten.
-      Drum laß ich ihn nur wal -- ten.
+      Drum lass ich ihn nur wal -- ten.
       es bleibt ge -- recht sein Wil -- le;
     }
 

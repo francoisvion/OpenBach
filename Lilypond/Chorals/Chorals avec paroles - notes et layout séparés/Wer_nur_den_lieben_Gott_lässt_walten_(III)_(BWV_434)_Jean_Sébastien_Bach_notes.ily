@@ -59,7 +59,7 @@ bassMusic = {
         }
 
 versoOneLyrics = \lyricmode {\set stanza = 1
-      Wer nur den lie -- ben Gott läßt wal - ten
+      Wer nur den lie -- ben Gott lässt wal - ten
       und hof -- fet auf ihn al -- le -- zeit,
       Wer Gott, dem Al -- ler -- höch -- sten, traut,
       der hat auf kei -- nen Sand ge -- baut.

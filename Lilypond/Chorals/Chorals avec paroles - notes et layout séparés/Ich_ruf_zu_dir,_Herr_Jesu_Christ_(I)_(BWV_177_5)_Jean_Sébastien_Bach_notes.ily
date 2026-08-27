@@ -78,9 +78,9 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       Ich lieg im Streit und wi -- der -- streb,
       hilf, o Herr Christ, dem Schwa -- chen!
       Kommt nun An -- fech -- tung, Herr, so wehr,
-      daß sie mich nicht um -- sto -- ßen.
+      dass sie mich nicht um -- sto -- ßen.
       Du kannst ma -- ßen,
-      daß mirs nicht bring Ge -- fahr;
+      dass mirs nicht bring Ge -- fahr;
       ich weiß, du wirsts nicht las - sen.
     }
 

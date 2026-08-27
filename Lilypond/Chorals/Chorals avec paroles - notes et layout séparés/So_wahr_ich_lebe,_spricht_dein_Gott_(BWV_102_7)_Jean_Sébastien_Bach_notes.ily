@@ -76,14 +76,14 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       Wer heut ist frisch, ge -- sund und roth,
       ist mor -- gen krank, ja wol gar todt.
       So du nun stir -- best oh -- ne Buß,
-      dein Seel und Leib dort lei -- den muß.
+      dein Seel und Leib dort lei -- den muss.
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
      \tweak X-offset #-5 "7. Hilf," o Herr Je -- su, hilf du mir,
-     daß ich noch heu -- te komm zu dir,
+     dass ich noch heu -- te komm zu dir,
      und Bu -- ße thu den Au -- gen -- blick,
      eh mich der schnel -- le Tod hin -- rück,
-     auf daß ich heut und je -- der -- zeit
+     auf dass ich heut und je -- der -- zeit
      zu mei -- ner Heim -- fahrt sey be -- reit!
    }

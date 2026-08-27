@@ -70,7 +70,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       O Lamm Got -- tes, un -- schul -- dig,
       am Stamm des Kreuz ge -- schlach - tet,
       all Sünd' hast du ge -- tra - gen,
-      sonst müß -- ten wir ver -- za - gen.
+      sonst müss -- ten wir ver -- za - gen.
       Er -- barm' dich un -- ser, o _ Je -- su!
     }
 

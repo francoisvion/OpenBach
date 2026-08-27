@@ -87,8 +87,8 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       in kei -- ner Not ver -- la - - ßen,
       gibst ihn' be -- reit
       die Se -- lig -- keit
-      und läßt sie nicht ver -- der -- ben.
-      O Herr, durch dich bitt ich, laß mich
+      und lässt sie nicht ver -- der -- ben.
+      O Herr, durch dich bitt ich, lass mich
       Fröh -- lich und wil -- lig ster - - ben.    }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2

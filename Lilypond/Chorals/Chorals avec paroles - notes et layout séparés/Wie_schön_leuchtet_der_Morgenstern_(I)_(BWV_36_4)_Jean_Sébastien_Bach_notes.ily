@@ -80,7 +80,7 @@ bassMusic = {
 
 versoOneLyrics = \lyricmode {\set stanza = 1
       Zwingt die Sai -- ten in Cy -- tha -- ra
-      und laßt die sü -- ße Mu -- si -- ca
+      und lasst die sü -- ße Mu -- si -- ca
       ganz freu -- den -- reich er -- schal -- len,      
       Sin -- get,
       Sprin -- get,
@@ -89,7 +89,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
-      daß ich mö -- ge mit Je -- su -- lein,
+      dass ich mö -- ge mit Je -- su -- lein,
       dem wun -- der -- schö -- nen Bräut -- gam mein,
       in ste -- ter Lie -- be wal -- len!
     }

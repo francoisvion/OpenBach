@@ -75,7 +75,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       dir woll -- ten wi -- der -- stehn,
       was er ihm vor -- ge -- nom -- men
       und was er ha -- ben will,
-      das muß doch end -- lich kom -- men
+      das muss doch end -- lich kom -- men
       zu sei -- nem Zweck und Ziel. __
     }
 

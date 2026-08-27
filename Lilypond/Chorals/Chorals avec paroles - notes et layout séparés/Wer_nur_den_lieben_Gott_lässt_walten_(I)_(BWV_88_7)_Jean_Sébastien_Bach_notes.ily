@@ -62,7 +62,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       Sing, bet und geh auf Got -- tes We -- gen,
       cer -- richt das Dei -- ne nur ge -- treu
       denn wel -- cher sei -- ne Zu -- ver -- sicht
-      auf Gott setzt, den ver -- läßt er nicht.
+      auf Gott setzt, den ver -- lässt er nicht.
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2

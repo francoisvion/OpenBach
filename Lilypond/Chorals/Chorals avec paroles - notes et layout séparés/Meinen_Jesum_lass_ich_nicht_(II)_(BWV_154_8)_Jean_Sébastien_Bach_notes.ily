@@ -67,7 +67,7 @@ bassMusic = {
         }
 
 sopranoLyrics = \lyricmode {
-      Mei -- nen Je -- sum laß ich nicht,
+      Mei -- nen Je -- sum lass ich nicht,
       geh ihm e -- wig an der Sei -- ten;
       Chri -- stus lässt mich für und für
       zu den Le -- bens -- bäch -- lein lei -- ten.

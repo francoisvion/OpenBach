@@ -69,7 +69,7 @@ bassMusic = {
 versoOneLyrics = \lyricmode {\set stanza = 1
       \tweak X-offset #-9 \markup{\concat{\tiny"Texte 1 : " "Führ,"}} Herr, mein Herz und Sinn
       durch dei -- nen Geist da -- hin,
-      daß ich mög al -- les mei -- den,
+      dass ich mög al -- les mei -- den,
       was mich und dich kann schei - den,
       und ich an dei -- nem Lei -- be
       ein Glied -- maß e -- wig blei -- be.
@@ -80,6 +80,6 @@ versoTwoLyrics = \lyricmode {\set stanza = 2
       sprech ich aus Her -- zens -- grund;
       du woll -- test uns tun lei -- ten,
       Herr Christ, zu al -- len Zei - ten,
-      auf daß wir dei -- nen Na -- men
+      auf dass wir dei -- nen Na -- men
       E -- wig -- lich prei -- sen. A -- men.
     }

@@ -117,8 +117,8 @@ versoOneLyrics = \lyricmode {\set stanza = 1
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
-    wer sich ver -- läßt
+    wer sich ver -- lässt
     auf Je -- sum Christ,
-    dem muß der Him -- mel wer -- den,
-    dem muß der Him -- mel wer -- den.
+    dem muss der Him -- mel wer -- den,
+    dem muss der Him -- mel wer -- den.
     }

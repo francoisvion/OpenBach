@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
-      Laß den Sa -- tan wit -- tern,
-      laß den Feind er -- bit -- tern,
+      Lass den Sa -- tan wit -- tern,
+      lass den Feind er -- bit -- tern,
       mir steht Je -- sus bei.
     }

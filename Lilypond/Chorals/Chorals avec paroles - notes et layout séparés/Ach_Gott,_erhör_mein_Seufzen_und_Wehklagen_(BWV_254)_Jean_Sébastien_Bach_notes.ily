@@ -72,7 +72,7 @@ bassMusic = {
 
 sopranoLyrics = \lyricmode {
       Ach Gott, er --  hör' mein Seuf -- zen und Weh -- kla -- gen, 
-      laß mich in mei -- ner Noth nicht gar ver -- za -- gen,
+      lass mich in mei -- ner Noth nicht gar ver -- za -- gen,
       du weißt mein'n Schmerz,
       er -- kennst mein Herz,
       hast du mir's auf -- ge -- legt, so hilf mir's tra -- gen!

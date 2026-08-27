@@ -68,5 +68,5 @@ sopranoLyrics = \lyricmode {
       mein Ge -- wis --  sen klagt mich an,
       es be -- gin -- net auf -- zu -- wa -- chen:
       dies is mei -- ne Zu -- ver -- sicht,
-      mei -- nen Je -- sum laß' ich nicht.
+      mei -- nen Je -- sum lass' ich nicht.
     }

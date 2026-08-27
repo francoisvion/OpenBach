@@ -88,7 +88,7 @@ sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
       \tweak X-offset #-4.0 "2. Dei" -- ne Hil -- fe zu mir sen -- de,
       O du e -- dler Her -- zens -- gast!
       Blas in mir das Fünk -- lein auf,
-      bis daß nach voll -- brach -- tem Lauf
+      bis dass nach voll -- brach -- tem Lauf
       ich den Au -- ser -- wähl -- ten glei -- che
       und des Glau -- bens Ziel er -- rei -- che.
     }

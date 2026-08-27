@@ -129,7 +129,7 @@ sopranoLyrics = \lyricmode {
       und ge -- bo -- ren sind,
       hat ge -- bracht uns al -- le
       in sol che gro -- ße Noth,
-      daß wir un -- ter -- wor -- fen
+      dass wir un -- ter -- wor -- fen
       sind dem ew' -- gen Tod.
       Ky -- rie e -- lei - son!
       Chri - -  ste e -- lei - son!

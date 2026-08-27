@@ -155,7 +155,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       zu die -- sem neu -- en Jahr,
       für dein' Güt' uns be -- wei -- set
       in al -- ler Noth und G'fahr:
-      Daß wir in gu -- ter Stil -- le
+      Dass wir in gu -- ter Stil -- le
       das alt' Jahr hab'n er -- fül -- let.
       Wir wolln uns dir er -- ge -- ben
       jetz -- und und im -- mer -- dar:
@@ -164,7 +164,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
-      Daß wir ha -- ben er -- le - bet
+      Dass wir ha -- ben er -- le - bet
       die neu fröh -- li -- che Zeit,
       die vol -- ler Gna -- den schwe -- bet 
       und ew -- ger Se -- lig -- keit. 

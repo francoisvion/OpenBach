@@ -75,12 +75,12 @@ bassMusic = {
         }
 
 versoOneLyrics = \lyricmode {\set stanza = 1
-      Ei -- ne Stim -- me läßt sich hö -- ren
+      Ei -- ne Stim -- me lässt sich hö -- ren
       in der Wüs -- te weit und breit,
       ma -- chet Gott ein eb -- ne Bahn,
       al -- le Welt soll he -- ben an,
       al -- le Tä -- ler zu er -- hö -- ren,
-      daß die Ber -- ge nie -- drig ste -- hen.
+      dass die Ber -- ge nie -- drig ste -- hen.
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2

@@ -70,7 +70,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       Dein Glanz all Fin - - ster -- nis ver -- zehrt,
       Die trü -- be Nacht in Licht ver -- kehrt.
       Leit uns auf dei -- nen We - gen,
-      daß dein Ge -- sicht
+      dass dein Ge -- sicht
       und herr -- lichs Licht
       Wir e -- wig schau - - en mö -- gen!
     }

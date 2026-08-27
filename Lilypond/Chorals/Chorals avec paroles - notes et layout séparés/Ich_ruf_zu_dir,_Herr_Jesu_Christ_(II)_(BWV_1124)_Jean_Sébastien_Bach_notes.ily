@@ -94,5 +94,5 @@ versoOneLyrics = \lyricmode {\set stanza = 1
 
 versoTwoLyrics = \lyricmode {\set stanza = 2    
       Ver -- leih' mir gnad' zu die -- ser frist,
-      Laß mich doch nicht ver -- za -- gen,
+      Lass mich doch nicht ver -- za -- gen,
     }

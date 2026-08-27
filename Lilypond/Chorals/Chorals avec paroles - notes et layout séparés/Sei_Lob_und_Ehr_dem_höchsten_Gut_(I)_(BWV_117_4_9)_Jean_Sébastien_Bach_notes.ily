@@ -85,5 +85,5 @@ versoThreeLyrics = \lyricmode {\set stanza = 3
 
 versoFourLyrics = \lyricmode {\set stanza = 4
       be -- zah -- let die ge -- lob -- te Pflicht
-      und laßt uns fröh -- lich sin - gen:
+      und lasst uns fröh -- lich sin - gen:
     }

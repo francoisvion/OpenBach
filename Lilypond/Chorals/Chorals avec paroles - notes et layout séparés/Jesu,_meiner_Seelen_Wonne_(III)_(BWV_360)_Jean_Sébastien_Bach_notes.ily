@@ -72,7 +72,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       o wie kommt dein Na -- me mir
       so ge -- wünscht und lieb -- lich vor
       dein Ge -- dächt -- nis, Je -- su, ma -- chet,
-      daß mein trau -- rigs Her -- ze la -- chet.
+      dass mein trau -- rigs Her -- ze la -- chet.
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2

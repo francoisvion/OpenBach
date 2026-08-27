@@ -128,20 +128,20 @@ bassMusic = {
 
 versoOneLyrics = \lyricmode {\set stanza = 1
       \tweak X-offset #-4 "4. Gott" hat die Er -- de zu -- ge - richt',
-      läßts an Nah - rung man -- geln nicht;
-      Berg und Tal, die macht er naß,
-      daß __ _ dem Vieh auch wächst sein Gras;
+      lässts an Nah - rung man -- geln nicht;
+      Berg und Tal, die macht er nass,
+      dass __ _ dem Vieh auch wächst sein Gras;
       aus der Er - den Wein __ _ und Brot
       schaf -- fet Gott __ _ und gibts __ _ uns satt,
-      daß der __ _ Mensch sein Le -- ben hat.
+      dass der __ _ Mensch sein Le -- ben hat.
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
       \tweak X-offset #-4 "6. Wir" dan -- ken sehr und bit - ten ihn,
-      daß er uns geb des Geis -- tes Sinn,
-      daß wir sol -- ches recht ver -- stehn,
+      dass er uns geb des Geis -- tes Sinn,
+      dass wir sol -- ches recht ver -- stehn,
       stets __ _ in sein' Ge -- bo -- ten gehn,
       Sei -- nen Na - men ma - chen groß
-      In Chris -- to __ _ ohn Un - ter -- laß:
+      In Chris -- to __ _ ohn Un - ter -- lass:
       So sing'n __ _ wir das Gra -- ti -- as.
     }

@@ -75,6 +75,6 @@ versoOneLyrics = \lyricmode {\set stanza = 1
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
-      mein Herz -- leid ist dir wohl be -- wußt,
+      mein Herz -- leid ist dir wohl be -- wusst,
       du kannst und wirst es en -- den.
     }

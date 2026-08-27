@@ -120,7 +120,7 @@ sopranoLyrics = \lyricmode {
       der mich durch sein Blut hat er -- löst,
       Herr Je -- su Christ!
       Herr Je -- su Christ, mein Gott und Herr!
-      In Schan -- den laß mich nim -- mer -- mehr.
+      In Schan -- den lass mich nim -- mer -- mehr.
     }
 
 sopranoLyricsTwo = \lyricmode {

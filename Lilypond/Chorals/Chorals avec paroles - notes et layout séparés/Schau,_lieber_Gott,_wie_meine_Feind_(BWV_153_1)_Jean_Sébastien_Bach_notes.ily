@@ -64,7 +64,7 @@ bassMusic = {
 
 versoOneLyrics = \lyricmode {\set stanza = 1
       Schau, lie -- ber Gott, wie mei -- ne Feind,
-      da -- mit ich stets muß käm - pfen!
+      da -- mit ich stets muss käm - pfen!
       Herr, wo mich dei -- ne Gnad nicht hält,
       So kann der Teu -- fel, Fleisch und Welt
       mich leicht in Un -- glück stür - zen.
@@ -72,5 +72,5 @@ versoOneLyrics = \lyricmode {\set stanza = 1
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
       So li -- stig und so mäch -- tig seind,
-      daß sie mich leicht -- lich däm - pfen!
+      dass sie mich leicht -- lich däm - pfen!
     }

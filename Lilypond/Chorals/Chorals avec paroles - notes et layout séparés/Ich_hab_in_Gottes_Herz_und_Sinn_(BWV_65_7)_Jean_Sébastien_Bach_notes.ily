@@ -81,7 +81,7 @@ bassMusic = {
 versoOneLyrics = \lyricmode {\set stanza = 1
       Ei nun, mein Gott, so fall ich dir
       ge -- trost in dei - - ne Hän -- de.
-      wie du wohl weißt, __ _ _ daß mei -- nem Geist
+      wie du wohl weißt, __ _ _ dass mei -- nem Geist
       da -- durch sein Nutz ent -- ste -- he,
       und dei -- ne Ehr je mehr und mehr
       sich in mir selbst __ _ _ er -- hö -- he.

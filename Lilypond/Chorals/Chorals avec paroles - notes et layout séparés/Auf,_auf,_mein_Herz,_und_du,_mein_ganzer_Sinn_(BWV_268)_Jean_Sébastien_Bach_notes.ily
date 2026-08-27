@@ -71,5 +71,5 @@ sopranoLyrics = \lyricmode {
       und du, mein gan -- zer Sinn,
       wirf Al -- les das, was Welt ist, von dir hin;
       im Fall du willst, was gött -- lich ist, er -- lan -- gen.
-      so laß den Leib, in dem du bist, ge -- fan -- gen.
+      so lass den Leib, in dem du bist, ge -- fan -- gen.
     }

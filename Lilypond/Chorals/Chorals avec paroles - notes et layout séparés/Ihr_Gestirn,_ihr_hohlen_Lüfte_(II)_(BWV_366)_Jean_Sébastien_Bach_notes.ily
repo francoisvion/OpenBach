@@ -89,7 +89,7 @@ bassMusic = {
 versoOneLyrics = \lyricmode {\set stanza = 1
       Ihr Ge -- stirn', ihr hoh -- len Lüf -- te
       und du, lich -- tes Fir -- ma -- ment;
-      Jauch -- zet fröh -- lich, laßt das Sin -- gen
+      Jauch -- zet fröh -- lich, lasst das Sin -- gen
       jetzt bis durch die Wol - ken drin -- gen.
      }
 

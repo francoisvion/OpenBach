@@ -56,9 +56,9 @@ bassMusic = {
 
 versoOneLyrics = \lyricmode {\set stanza = 1
       Durch dein Ge -- fäng -- nis, Got -- tes Sohn,
-      muß uns die Frei -- heit kom -- men;
+      muss uns die Frei -- heit kom -- men;
       denn gingst du nicht die Knecht -- schaft ein,
-      müßt un -- sre Knecht -- schaft e -- wig sein.
+      müsst un -- sre Knecht -- schaft e -- wig sein.
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2

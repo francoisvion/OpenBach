@@ -61,7 +61,7 @@ bassMusic = {
 versoOneLyrics = \lyricmode {\set stanza = 1
       Lieb -- ster Je -- su, wir sind hier,
       dich und dein Wort an -- zu -- hö -- ren;
-      daß die Her -- zen von der Er -- den
+      dass die Her -- zen von der Er -- den
       ganz zu dir ge -- zo -- gen wer -- den.
     }
 

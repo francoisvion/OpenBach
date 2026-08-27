@@ -83,8 +83,8 @@ bassMusic = {
         }
 
 sopranoLyrics = \lyricmode {
-      Von Gott will ich nicht la - ßen,
-      denn er läßt nicht von mir,
+      Von Gott will ich nicht las - sen,
+      denn er lässt nicht von mir,
       führt mich auf rech -- ter Stra - Ben,
       da ich sonst ir -- ret sehr.
       Er reicht mir sei -- ne Hand,

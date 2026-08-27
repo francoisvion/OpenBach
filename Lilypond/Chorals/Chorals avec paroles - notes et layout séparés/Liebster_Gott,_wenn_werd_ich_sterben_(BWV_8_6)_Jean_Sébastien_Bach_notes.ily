@@ -81,20 +81,20 @@ bassMusic = {
 versoOneLyrics = \lyricmode {\set stanza = 1
       Herr -- scher ü -- ber Tod und Le - - ben
       mach ein -- mal mein En - de gut,
-      Hilf, daß ich ein ehr -- lich Grab
+      Hilf, dass ich ein ehr -- lich Grab
       ne -- ben from -- men Chri -- sten hab und auch end -- lich in der Er - - de
       nim -- mer -- mehr zu -- schan - - den wer - - de.
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
       Leh -- re mich den Geist auf -- ge - - ben
-      mit recht wohl -- ge -- faßt - tem Mut.
+      mit recht wohl -- ge -- fasst - tem Mut.
     }
 
 altoVersoOneLyrics = \lyricmode {\set stanza = 1
       Herr -- scher ü -- ber Tod __ _ und Le -- ben
       mach ein -- mal mein En -- de gut,
-      Hilf, daß ich ein ehr -- lich Grab
+      Hilf, dass ich ein ehr -- lich Grab
       ne -- ben from -- men Chri -- sten hab
       und auch end -- lich in der Er -- de
       nim -- mer -- mehr __ zu -- schan - - - - den wer -- de.
@@ -103,31 +103,31 @@ altoVersoOneLyrics = \lyricmode {\set stanza = 1
 
 altoVersoTwoLyrics = \lyricmode {\set stanza = 2
       Leh -- re mich den Geist __ _ auf -- ge -- ben
-      mit recht wohl -- ge -- faß -- tem Mut.
+      mit recht wohl -- ge -- fass -- tem Mut.
     }
 
 tenorVersoOneLyrics = \lyricmode {\set stanza = 1
          Herr -- scher ü -- ber Tod und Le -- ben
          mach ein -- mal mein En -- de gut,
-         Hilf, daß ich ein ehr -- lich Grab
+         Hilf, dass ich ein ehr -- lich Grab
          ne -- ben from -- men Chri -- sten hab und auch end -- lich in der Er -- de
          nim -- mer -- mehr zu -- schan - - - den wer - de.
        }
 
 tenorVersoTwoLyrics = \lyricmode {\set stanza = 2
          Leh -- re mich den Geist auf -- ge -- ben
-         mit recht wohl -- ge -- faßt -- tem Mut.
+         mit recht wohl -- ge -- fasst -- tem Mut.
        }
 
 bassVersoOneLyrics = \lyricmode {\set stanza = 1
          Herr -- scher ü -- ber Tod und Le -- ben
          mach ein -- mal mein En -- de gut,
-         Hilf, daß ich ein ehr -- lich Grab
+         Hilf, dass ich ein ehr -- lich Grab
          ne -- ben from -- men Chri -- sten hab und auch end -- lich in der Er -- de
          nim -- mer -- mehr zu -- schan - - - den wer -- de.
        }
 
 bassVersoTwoLyrics = \lyricmode {\set stanza = 2
          Leh -- re mich den Geist auf -- ge -- ben
-         mit recht wohl -- ge -- faßt -- tem Mut.
+         mit recht wohl -- ge -- fasst -- tem Mut.
        }

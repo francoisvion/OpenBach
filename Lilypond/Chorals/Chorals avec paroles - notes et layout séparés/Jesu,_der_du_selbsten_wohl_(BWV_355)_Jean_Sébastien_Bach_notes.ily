@@ -86,5 +86,5 @@ sopranoLyrics = \lyricmode {
       wenn mich mein Ge -- wis -- sen nagt
       und die Sün -- den pla -- gen,
       wenn der Sa -- tan mich ver -- klagt,
-      laß mich nicht ver -- za -- gen.
+      lass mich nicht ver -- za -- gen.
     }

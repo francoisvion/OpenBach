@@ -62,7 +62,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       So wan -- delt froh auf Got -- tes We -- gen,
       und was ihr tut, da tut ge -- treu!     
       denn wel -- cher sei -- ne Zu -- ver -- sicht
-      auf Gott setzt, den ver -- läßt er nicht.    }
+      auf Gott setzt, den ver -- lässt er nicht.    }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
       Ver -- die -- net eu -- res Got -- tes Se -- gen,

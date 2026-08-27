@@ -54,5 +54,5 @@ sopranoLyrics = \lyricmode {
       Be -- weis dein Macht, Herr Je -- su Christ,
       Der du Herr al -- ler Her -- ren bist;
       be -- schirm dein ar -- me Chri -- sten -- heit,
-      daß sie dich lob in E -- wig -- keit.
+      dass sie dich lob in E -- wig -- keit.
     }

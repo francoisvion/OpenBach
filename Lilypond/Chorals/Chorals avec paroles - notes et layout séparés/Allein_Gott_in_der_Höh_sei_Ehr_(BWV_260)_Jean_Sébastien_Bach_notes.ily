@@ -70,7 +70,7 @@ sopranoLyrics = \lyricmode {
       Al --  lein Gott in der Höh' sei Ehr'
       und Dank für sei -- ne__ Gna -- de,
       Ein Wohl -- ge -- fall'n Gott an uns hat,
-      nun ist groß Fried' ohn' Un -- ter -- laß,
+      nun ist groß Fried' ohn' Un -- ter -- lass,
       all' Fehd' hat nun eine En -- de.
     }
 

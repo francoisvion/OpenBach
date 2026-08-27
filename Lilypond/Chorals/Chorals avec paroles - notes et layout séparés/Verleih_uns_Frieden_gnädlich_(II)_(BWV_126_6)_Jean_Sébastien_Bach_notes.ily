@@ -135,7 +135,7 @@ sopranoLyrics = \lyricmode {
       denn du, un -- ser Gott al -- lei -- ne.
       Gieb un -- sern Für -- sten und der Ob -- rig -- keit
       Fried' und gut Re -- gi -- ment,
-      daß wir un -- ter ih -- nen
+      dass wir un -- ter ih -- nen
       ein ge -- ruh'g und stil -- les Le -- ben füh -- ren mö -- gen
       in al -- ler Gott -- se -- lig -- keit
       und Ehr - bar -- keit,

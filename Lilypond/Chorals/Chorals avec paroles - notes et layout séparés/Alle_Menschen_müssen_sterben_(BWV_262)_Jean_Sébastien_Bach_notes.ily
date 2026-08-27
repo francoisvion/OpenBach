@@ -73,13 +73,13 @@ bassMusic = {
 sopranoLyrics = \lyricmode {
       Al -- le Men -- schen müs -- sen ster -- ben,
       al -- les Fleisch ver -- geht wie Heu;
-      Die -- ser Leib der muß ver -- we -- sen,
+      Die -- ser Leib der muss ver -- we -- sen,
       Wenn er an -- ders soll ge -- ne -- sen
       zu der gros -- sen Herr -- lich -- keit,
       Die den From -- men ist be -- reit.
   }
 
 sopranoLyricsTwo = \lyricmode {
-      Was da le -- bet muß ver -- der -- ben,
+      Was da le -- bet muss ver -- der -- ben,
       Soll es an -- ders wer -- den neu.
   }

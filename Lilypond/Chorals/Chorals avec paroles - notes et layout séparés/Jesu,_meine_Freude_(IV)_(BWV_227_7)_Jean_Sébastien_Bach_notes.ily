@@ -75,14 +75,14 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       du bist mein Er -- gö -- tzen,
       Je -- su, mei -- ne Lust!
       E -- lend, Not, Kreuz, Schmach und Tod
-      soll mich, ob ich viel muß lei -- den,
+      soll mich, ob ich viel muss lei -- den,
       nicht von Je -- su schei -- den.
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
       Weg ihr eit -- len Eh -- ren,
       ich mag euch nicht hö -- ren,
-      bleibt mir un -- be -- wußt!
+      bleibt mir un -- be -- wusst!
     }
 
 altoVersoOneLyrics = \lyricmode {\set stanza = 1
@@ -91,7 +91,7 @@ altoVersoOneLyrics = \lyricmode {\set stanza = 1
       du, du bist mein Er -- gö -- tzen,
       Je - su, mei -- ne Lust, mei - ne Lust!
       E -- lend, Not, Kreuz, Schmach und Tod,
-      Schmach und Tod soll mich, ob __ _ _ ich viel muß lei - den,
+      Schmach und Tod soll mich, ob __ _ _ ich viel muss lei - den,
       nicht, nicht von Je - su schei - - den.
        }
 
@@ -99,7 +99,7 @@ altoVersoTwoLyrics = \lyricmode {\set stanza = 2
       Weg, weg, ihr eit - len Eh - ren,
       ihr eit -- len Eh -- ren,
       ich ich mag duch nicht hö -- ren,
-      bleibt __ _ mir un -- be -- wußt, un - be -- wußt!
+      bleibt __ _ mir un -- be -- wusst, un - be -- wusst!
     }
 
 tenorVersoOneLyrics = \lyricmode {\set stanza = 1
@@ -108,7 +108,7 @@ tenorVersoOneLyrics = \lyricmode {\set stanza = 1
         Du, du bist mein Er -- gö -- tzen,
         Je - su, mei -- ne Lust!
         E -- lend, Not, Kreuz, Schmach und Tod,
-        Schmach und Tod soll mich, ob ich viel __ muß lei - - den,
+        Schmach und Tod soll mich, ob ich viel __ muss lei - - den,
         nicht, nicht von Je -- su schei -- den, von Je -- su schei - den
        }
 
@@ -116,7 +116,7 @@ tenorVersoTwoLyrics = \lyricmode {\set stanza = 2
          Weg, weg, weg, weg, ihr eit -- len Eh - ren,
          ihr eit -- len Eh -- ren,
          ich, ich mag euch nicht hö -- ren,
-         bleibt __ _ mir un -- be -- wußt!
+         bleibt __ _ mir un -- be -- wusst!
        }
 
 bassVersoOneLyrics = \lyricmode {\set stanza = 1
@@ -124,12 +124,12 @@ bassVersoOneLyrics = \lyricmode {\set stanza = 1
          Du, du bist mein Er -- gö - - tzen,
          Je -- su, Je -- su mei -- ne Lust, mei -- ne Lust.
          E -- lend, Not, Kreuz, Schmach und Tod
-         soll mich, ob ich viel muß lei - - - den,
+         soll mich, ob ich viel muss lei - - - den,
          nicht, nicht, nicht, nicht von Je -- su schei -- den.
        }
 
 bassVersoTwoLyrics = \lyricmode {\set stanza = 2
          Weg, weg, weg, weg,  ihr eit -- len Eh -- ren,
          ich mag euch nicht hö -- ren,
-         mir un -- be -- wußt!
+         mir un -- be -- wusst!
     }

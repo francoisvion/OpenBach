@@ -84,7 +84,7 @@ bassMusic = {
 
 versoOneLyrics = \lyricmode {\set stanza = 1
       Ich dank' dir, lie -- ber Her - re,
-      daß du mich hast__ _ _ be -- wahrt
+      dass du mich hast__ _ _ be -- wahrt
       mit Fins -- ter -- nis um -- fan - gen,
       da -- zu in gro -- ßer Not,
       da -- raus ich bin ent -- gan - gen,

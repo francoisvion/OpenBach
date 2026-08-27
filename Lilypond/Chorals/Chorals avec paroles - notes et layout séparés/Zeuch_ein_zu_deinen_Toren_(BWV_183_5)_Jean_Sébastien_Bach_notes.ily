@@ -74,7 +74,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       Du bist ein Geist, der leh - ret,
       Wie man recht be -- ten soll;
       es steigt zum Him -- mel an,
-      es steigt und läßt nicht a - be,
+      es steigt und lässt nicht a - be,
       bis der ge -- hol -- fen ha - be,
       der al -- len hel -- fen kann.
     }

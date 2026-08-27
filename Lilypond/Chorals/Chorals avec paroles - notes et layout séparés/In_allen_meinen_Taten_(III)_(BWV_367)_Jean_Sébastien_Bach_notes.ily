@@ -72,9 +72,9 @@ bassMusic = {
 
 sopranoLyrics = \lyricmode {
       In al -- len mei -- nen Ta -- ten
-      laß ich den Höch -- sten ra -- ten,
+      lass ich den Höch -- sten ra -- ten,
       der Al -- les kann und hat;
-      er muß zu al -- len Ding -- en,
+      er muss zu al -- len Ding -- en,
       soll's an -- ders wohl ge -- lin -- gen,
       selbst ge -- ben Rat und Tat.
     }

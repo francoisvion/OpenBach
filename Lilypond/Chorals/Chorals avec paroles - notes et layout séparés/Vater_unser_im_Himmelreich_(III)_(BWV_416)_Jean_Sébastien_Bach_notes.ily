@@ -73,6 +73,6 @@ sopranoLyrics = \lyricmode {
       der du uns al -- le hei -- ßest gleich
       Brü -- der sein und dich ru -- fen an,
       und willst das Be -- ten von uns ha'n,
-      gib, daß nicht bet' al -- lein der Mund,
-      hilf, daß es geh' aus Her -- zens Grund.
+      gib, dass nicht bet' al -- lein der Mund,
+      hilf, dass es geh' aus Her -- zens Grund.
     }

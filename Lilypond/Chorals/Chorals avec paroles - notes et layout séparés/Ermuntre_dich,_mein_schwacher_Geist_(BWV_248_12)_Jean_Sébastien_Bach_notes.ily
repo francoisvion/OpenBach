@@ -75,8 +75,8 @@ bassMusic = {
 
 versoOneLyrics = \lyricmode {\set stanza = 1
       Brich an, o schö -- nes Mor -- gen -- licht,
-      und laß dem Him -- mel ta -- gen!
-      daß die -- ses schwa -- che Knä -- be -- lein
+      und lass dem Him -- mel ta -- gen!
+      dass die -- ses schwa -- che Knä -- be -- lein
       soll un -- ser Trost und Freu -- de sein,
       da -- zu den Sa -- tan zwin -- gen
       und letzt -- lich Frie -- de brin -- gen!

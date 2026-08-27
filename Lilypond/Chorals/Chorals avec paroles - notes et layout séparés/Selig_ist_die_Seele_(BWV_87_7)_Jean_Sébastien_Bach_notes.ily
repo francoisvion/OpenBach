@@ -71,7 +71,7 @@ bassMusic = {
         }
 
 versoOneLyrics = \lyricmode {\set stanza = 1
-      Muß ich sein be -- trü -- bet,
+      Muss ich sein be -- trü -- bet,
       So mich Je -- sus lie -- bet
       ist mir al -- ler Schmerz
       Wenn die Pein
@@ -82,6 +82,6 @@ versoOneLyrics = \lyricmode {\set stanza = 1
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
       ü -- ber Ho -- nig sü -- ße,
-      tau -- send Zu -- cker -- kü -- ße
+      tau -- send Zu -- cker -- küs -- se
       drü -- cket er ans Herz.
     }

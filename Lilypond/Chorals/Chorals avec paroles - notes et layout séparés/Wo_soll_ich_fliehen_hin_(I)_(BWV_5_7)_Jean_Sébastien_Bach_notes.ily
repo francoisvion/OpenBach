@@ -71,7 +71,7 @@ bassMusic = {
 sopranoLyrics = \lyricmode {
       Führ, Herr, mein Herz und Sinn
       durch dei -- nen Geist da -- hin,
-      daß ich mög al -- les mei -- den,
+      dass ich mög al -- les mei -- den,
       was mich und dich kann schei -- den,
       und ich an dei -- nem Lei -- be
       ein Glied -- maß e -- wig blei -- be.     

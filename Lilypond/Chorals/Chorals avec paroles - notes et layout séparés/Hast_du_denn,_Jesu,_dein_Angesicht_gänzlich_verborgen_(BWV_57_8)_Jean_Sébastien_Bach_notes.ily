@@ -78,5 +78,5 @@ versoOneLyrics = \lyricmode {\set stanza = 1
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
-      daß ich dein See -- len -- freund im -- mer und e -- wig ver -- blei -- be, 
+      dass ich dein See -- len -- freund im -- mer und e -- wig ver -- blei -- be, 
     }

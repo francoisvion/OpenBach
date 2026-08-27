@@ -191,10 +191,10 @@ versoTwoLyrics = \lyricmode {\set stanza = 2
 altoVersoOneLyrics = \lyricmode {\set stanza = 1
       Sei Lob __ _ und Preis __ _ mit Eh - - ren
       Gott Va -- ter, Sohn __ _ Hei -- li -- gem __ _ Geist!      
-      daß wir __ _ ihm fest __ _ ver -- trau - - en,
-      gänz -- lich ver -- laß'n auf ihn,
+      dass wir __ _ ihm fest __ _ ver -- trau - - en,
+      gänz -- lich ver -- lass'n auf ihn,
       von Her - zen auf __ _ ihn bau -- en,
-      daß uns'r __ _ Herz, Mut und __ _ Sinn
+      dass uns'r __ _ Herz, Mut und __ _ Sinn
       ihm tröst - lich soll'n an -- han -- gen.
       drauf sin -- gen wir zur Stund:
       A - - men, wir wer -- dens er -- lan -- gen,

@@ -107,11 +107,11 @@ bassMusic = {
         }
 
 versoOneLyrics = \lyricmode {\set stanza = 1
-      Ach Herr, laß dein lieb En -- ge -- lein 
+      Ach Herr, lass dein lieb En -- ge -- lein 
       m letz -- ten End die See -- le mein
       in A -- bra -- hams Schoß tra - - gen,
       Als -- denn vom Tod er -- we -- cke mich,
-      daß mei -- ne Au -- gen se -- hen dich
+      dass mei -- ne Au -- gen se -- hen dich
       in al -- ler Freud, o Got -- tes Sohn,
       mein Hei -- land und Ge -- na -- den -- thron!
       Herr Je -- su Christ,

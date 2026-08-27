@@ -113,7 +113,7 @@ bassMusic = {
 versoOneLyrics = \lyricmode {\set stanza = 1
       Hilf, Gott, dass mir's ge -- lin -- gen,
       du ed -- ler Schö -- pfer mein, __ _
-      daß ich mag fröh -- lich he - ben an,
+      dass ich mag fröh -- lich he - ben an,
       von dei -- nem Wort zu sin - - - - gen,
       Herr, du wollst mir bei -- stahn. __ _    }
 

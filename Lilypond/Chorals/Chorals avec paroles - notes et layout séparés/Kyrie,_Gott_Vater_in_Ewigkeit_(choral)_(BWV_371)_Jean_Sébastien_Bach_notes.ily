@@ -198,7 +198,7 @@ sopranoLyrics = \lyricmode {
       Ky -- ri -- e!
       Gott hei - li -- ger Geist!
       Tröst', stärk' uns im Glau -- ben al -- ler meist,
-      daß wir am letz -- ten End'
+      dass wir am letz -- ten End'
       fröh -- lich ab -- schei -- den aus die -- sem E -- lend!
       E - - - le -- i -- son!
     }

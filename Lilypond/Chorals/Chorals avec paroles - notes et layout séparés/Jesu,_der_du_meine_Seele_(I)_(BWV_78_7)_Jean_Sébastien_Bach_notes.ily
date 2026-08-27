@@ -80,7 +80,7 @@ bassMusic = {
 
 sopranoLyrics = \lyricmode {
       Herr, ich glau -- be, hilf mir Schwa -- chen,
-      laß mich ja ver -- za -- gen nicht;
+      lass mich ja ver -- za -- gen nicht;
       du, du kannst mich stär -- ker ma -- chen,
       wenn mich Sünd und Tod an -- flicht.
       Dei -- ner Gü -- te will ich trau -- en,

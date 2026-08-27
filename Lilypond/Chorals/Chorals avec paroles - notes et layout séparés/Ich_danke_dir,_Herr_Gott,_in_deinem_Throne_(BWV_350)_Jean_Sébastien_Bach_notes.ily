@@ -97,7 +97,7 @@ bassMusic = {
 sopranoLyrics = \lyricmode {
       Ich dan -- ke dir, o Gott, in dei -- nem Thro - ne,
       durch Je -- sum Chri -- tum, dei -- nen lie -- ben Soh - ne,
-      daß du mich hast in die -- ser Nacht be -- vah -- ret
+      dass du mich hast in die -- ser Nacht be -- vah -- ret
       vor Scha -- den und vor man -- cher -- lei Ge -- fah -- ren,
       und bit -- te dich, wollst mich an die -- sem Ta -- ge
       be -- hü -- ten auch vor Sün -- den, Schand' und Pla -- ge, Pla -- ge.

@@ -64,10 +64,10 @@ bassMusic = {
 
 versoOneLyrics = \lyricmode {\set stanza = 1
       Ob sichs an -- ließ, als wollt er nicht,
-      laß dich es nicht er -- schre - cken;
-      Sein Wort laß dir ge -- wis -- ser sein,
+      lass dich es nicht er -- schre - cken;
+      Sein Wort lass dir ge -- wis -- ser sein,
       und ob dein Herz spräch lau -- ter Nein,
-      so laß doch dir nicht grau - en.
+      so lass doch dir nicht grau - en.
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2

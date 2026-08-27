@@ -75,7 +75,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       und kein' Dank da -- zu ha - ben.
       Neh -- men sie uns den Leib,
       Gut, Ehr, Kind und Weib,
-      laß fah -- ren da -- hin,
+      lass fah -- ren da -- hin,
       sie ha -- bens kein' Ge -- winn;
       das Reich muss uns doch blei - ben.
     }

@@ -78,6 +78,6 @@ bassMusic = {
 sopranoLyrics = \lyricmode {
       Wir sin -- gen dir in dei -- nem Heer
       aus al -- ler Kraft, __ _ Lob, __ _ Preis und Ehr,
-      daß du, o lang __ _ ge -- wünsch - ter Gast,
+      dass du, o lang __ _ ge -- wünsch - ter Gast,
       dich nun -- mehr ein -- ge - stel - let hast.
     }

@@ -77,7 +77,7 @@ bassMusic = {
 sopranoLyrics = \lyricmode {
       Nun bit -- ten wir den hei - li -- gen Geist
       um __ _ den rech -- ten Glau -- ben al -- ler -- meist,
-      daß er uns be -- hü -- te
+      dass er uns be -- hü -- te
       an un -- serm En -- de,
       wenn wir heim fahr'n aus die -- sem E -- len -- de.
       Ky -- ri -- e e -- leis'.

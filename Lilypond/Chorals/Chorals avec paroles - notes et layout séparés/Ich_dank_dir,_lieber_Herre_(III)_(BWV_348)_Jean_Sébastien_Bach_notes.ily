@@ -88,7 +88,7 @@ bassMusic = {
 
 sopranoLyrics = \lyricmode {
       Ich dank' dir, lie -- ber Her - re,
-      daß du mich hast__ _ _ be -- wahrt
+      dass du mich hast__ _ _ be -- wahrt
       in die -- ser Nacht Ge -- fäh - re,
       da -- rin ich lag__ _ _ so hart
       mit Fin -- ster -- niss um -- fan - gen,

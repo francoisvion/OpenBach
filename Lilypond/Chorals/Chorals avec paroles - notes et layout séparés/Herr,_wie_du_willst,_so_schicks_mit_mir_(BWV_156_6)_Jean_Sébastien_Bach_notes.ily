@@ -80,5 +80,5 @@ versoOneLyrics = \lyricmode {\set stanza = 1
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
       al -- lein zu dir steht mein Be -- gier,
-      laß mich, Herr, nicht  __ _ _ ver -- der -- ben.
+      lass mich, Herr, nicht  __ _ _ ver -- der -- ben.
     }

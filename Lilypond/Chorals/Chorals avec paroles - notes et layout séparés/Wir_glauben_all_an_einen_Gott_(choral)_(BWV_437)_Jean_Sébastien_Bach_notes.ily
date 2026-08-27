@@ -147,7 +147,7 @@ sopranoLyrics = \lyricmode {
       all' __ _  an ei -- nen Gott,
       Schöp -- fer Him -- mels und der Er - den,
       der sich zum Va -- ter ge -- ben hat,
-      daß wir sei -- ne Kin -- der wer - den.
+      dass wir sei -- ne Kin -- der wer - den.
       Er will uns all -- zeit er -- näh -- ren,
       Seel' und Leib auch wohl be -- wah -- ren,
       al -- lem Un -- fall will er weh - ren,

@@ -122,7 +122,7 @@ sopranoLyrics = \lyricmode {
       die Trüb -- sal uns nicht ab -- trei - ben,
       O Herr, duch dein Kraft uns be -- reit
       und stärk des Flei -- sches Blö -- dig -- keit,
-      daß wir hier rit -- ter -- lich rin - gen,
+      dass wir hier rit -- ter -- lich rin - gen,
       durch Tod und Le -- ben zu dir drin - - gen,
       Hal -- le - lu -- ja! Hal -- le -- lu -- ja! _ _ _ _ _ _
     }

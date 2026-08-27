@@ -67,5 +67,5 @@ versoOneLyrics = \lyricmode {\set stanza = 1
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
       mir g'nü -- get, wie es mein Gott füg -- et,
-      Ich glaub' und bin es ganz ge -- wiß:
+      Ich glaub' und bin es ganz ge -- wiss:
     }

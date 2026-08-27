@@ -116,10 +116,10 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       Die Für -- sten stehn auch auf _ der Bahn,
       und sind dir wil - lig un -- ter -- than;
       Luft, Was -- ser, Feu'r und Er -- den
-      muß dir zu Dien -- ste wer - den.
+      muss dir zu Dien -- ste wer - den.
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2
-      Die En -- gel mü - ßen für und für dir
+      Die En -- gel müs - sen für und für dir
       auf -- zu -- war -- ten kom -- men.
     }

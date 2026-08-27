@@ -120,7 +120,7 @@ bassMusic = {
 
 sopranoLyrics = \lyricmode {
       Was willst du dich, o mei -- ne See -- le, krän - ken?
-      Meinst du, daß Gott nicht kann an dich ge -- den - ken?
+      Meinst du, dass Gott nicht kann an dich ge -- den - ken?
       Er weiss gar wohl, wann er dir hel -- fen soll;
       denn er ist selbst der Gnad' und Gü -- te voll.
       Halt ihm nur stil - le;

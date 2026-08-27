@@ -85,7 +85,7 @@ bassMusic = {
 sopranoLyrics = \lyricmode {
       O hilf, Chri -- ste, Got -- tes Sohn,
       durch dein bit -- ter Lei - den,
-      daß wir der stets un -- ter -- tan
+      dass wir der stets un -- ter -- tan
       all Un -- tu -- gend mei - den,
       dei -- nen Tod und sein Ur -- sach
       fruc -- ht -- bar -- lich be -- den -- ken,

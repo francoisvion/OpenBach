@@ -88,7 +88,7 @@ sopranoLyrics = \lyricmode {
       Ohn' den nichts ist, was ist,
       von dem wir al -- les ha - ben:
       ge -- sun -- den Leib gib mir,
-      und laß in sol -- chem Leib
+      und lass in sol -- chem Leib
       ein' un -- ver -- letz -- te Seel'
-      und rein Ge -- wi -- ßen bleib'.
+      und rein Ge -- wis -- sen bleib'.
     }

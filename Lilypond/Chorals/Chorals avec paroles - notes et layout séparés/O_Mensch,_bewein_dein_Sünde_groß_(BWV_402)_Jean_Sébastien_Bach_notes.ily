@@ -101,7 +101,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       Den To -- ten er das Le -- ben gab
       und tat da -- bei all Krank -- heit ab,
       bis sich die Zeit her -- dran -- ge,
-      Daß er für uns ge -- op -- fert würd',
+      Dass er für uns ge -- op -- fert würd',
       trüg' uns -- rer Sün -- den schwe -- re Bürd'
       Wohl an dem Kreu -- ze lan -- ge.
     }

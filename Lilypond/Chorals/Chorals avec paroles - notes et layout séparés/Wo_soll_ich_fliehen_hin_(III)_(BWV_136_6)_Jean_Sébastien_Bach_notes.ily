@@ -69,7 +69,7 @@ bassMusic = {
 versoOneLyrics = \lyricmode {\set stanza = 1
       Dein Blut, der ed -- le Saft,
       hat sol -- che Stärk und Kraft,
-      daß auch ein Tröpf -- lein klei -- ne die gan -- ze Welt könnt rei -- ne,
+      dass auch ein Tröpf -- lein klei -- ne die gan -- ze Welt könnt rei -- ne,
       ja, gar aus Teu -- fels Ra -- chen
       frei, los und le -- dig ma -- chen.
     }

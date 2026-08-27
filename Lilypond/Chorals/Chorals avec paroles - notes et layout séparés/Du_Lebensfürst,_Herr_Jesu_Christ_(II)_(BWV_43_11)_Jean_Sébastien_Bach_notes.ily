@@ -135,6 +135,6 @@ sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
     }
 
 sopranoVersoTwoLyrics = \lyricmode {\set stanza = 2
-      hilf, daß wir flie - - hen weit von hier,
+      hilf, dass wir flie - - hen weit von hier,
       auf I -- sra -- e -- lis Hü -- gel.
     }

@@ -59,6 +59,6 @@ sopranoLyrics = \lyricmode {
       ach wie nich -- tig
       sind der Men -- schen Sa - chen!
       Al -- les, Al -- les was wir se -- hen,
-      das muß fal -- len und ver -- ge -- hen.
+      das muss fal -- len und ver -- ge -- hen.
       Wer Gott fürcht, bleibt e -- wig ste -- hen.
     }

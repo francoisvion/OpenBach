@@ -68,7 +68,7 @@ versoOneLyrics = \lyricmode {\set stanza = 1
       Er ist mein Gott,
       der in der Noth
       mich wohl weiß zu er -- hal -- ten:
-      drum laß' ich ihn nur wal -- ten.
+      drum lass' ich ihn nur wal -- ten.
     }
 
 versoTwoLyrics = \lyricmode {\set stanza = 2

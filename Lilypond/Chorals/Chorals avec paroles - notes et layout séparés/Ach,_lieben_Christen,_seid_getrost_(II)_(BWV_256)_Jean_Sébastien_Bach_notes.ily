@@ -70,12 +70,12 @@ sopranoLyrics = \lyricmode {
       Ach lie -- ben __ Chris -- ten, seid ge -- trost,
       Wie thut ihr so ver -- za -- gen?
       Die Straf' wir wohl ver -- die -- net han,
-      Das muß be -- ken -- nen Je -- der -- mann,
+      Das muss be -- ken -- nen Je -- der -- mann,
       Nie -- mand darf sich aus -- schlie -- ßen.
 
     }
 
 sopranoLyricsTwo = \lyricmode {
       Weil uns der Herr heim -- su -- chen tut,
-      laßt uns von Her -- zen sa -- gen:
+      lasst uns von Her -- zen sa -- gen:
     }

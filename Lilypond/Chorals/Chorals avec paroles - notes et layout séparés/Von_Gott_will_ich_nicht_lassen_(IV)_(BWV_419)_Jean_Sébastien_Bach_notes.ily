@@ -71,8 +71,8 @@ bassMusic = {
         }
 
 versoOneLyrics = \lyricmode {\set stanza = 1
-      Von Gott will ich nicht la - ßen,
-      denn er läßt nicht von mir,
+      Von Gott will ich nicht las - sen,
+      denn er lässt nicht von mir,
       Er reicht mir sei -- ne Hand,
       den A -- bend und den Mor -- gen
       thut er mich wohl ver -- sor - gen,

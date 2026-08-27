@@ -87,7 +87,7 @@ bassMusic = {
         }
 
 versoOneLyrics = \lyricmode {\set stanza = 1
-      Laß, o Herr, dein Ohr sich nei -- gen,
+      Lass, o Herr, dein Ohr sich nei -- gen,
       und stoß mich nicht von dir hin,
       Weil ich arm und e -- lend bin.
       Hü -- te mei -- ne Seel und Le -- ben,

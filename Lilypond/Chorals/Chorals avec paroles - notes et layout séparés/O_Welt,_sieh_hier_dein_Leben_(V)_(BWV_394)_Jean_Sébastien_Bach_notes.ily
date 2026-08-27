@@ -75,5 +75,5 @@ sopranoLyrics = \lyricmode {
       am Stamm des Kreu -- zes schwe -- ben,
       dein Heil sinkt in den Tod,
       der gro -- ße Fürst der Eh -- ren
-      läßt wil -- lig sich be -- schwe -- ren mit Schlä -- gen, Hohn und gro -- ßem Spott.
+      lässt wil -- lig sich be -- schwe -- ren mit Schlä -- gen, Hohn und gro -- ßem Spott.
     }
