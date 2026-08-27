@@ -274,19 +274,27 @@
   }
 
   \markup \vspace #6
-  \markup \line { \draw-line #'(17.5 . 0) \fontsize #3 "⚜" \draw-line #'(17.5 . 0) }
+  \markup \line {
+    \combine \draw-line #'(50 . 0) \translate #'(0 . 0.4) \draw-line #'(50 . 0)
+    \fontsize #3 "❊"
+    \combine \draw-line #'(50 . 0) \translate #'(0 . 0.4) \draw-line #'(50 . 0)
+  }
   \markup \vspace #4
   \markup \fill-line { \null \fontsize #8 \bold "361 CHORALS" \null }
   \markup \vspace #1
   \markup \fill-line { \null \fontsize #6 "de Jean-Sébastien Bach" \null }
   \markup \vspace #2
-  \markup \fill-line { \null \epsfile #X #11 #(string-append own-dir "/images/Bach_Haussmann_1748.eps") \null }
+  \markup \fill-line { \null \epsfile #X #11 #"images/Bach_Haussmann_1748.eps" \null }
   \markup \vspace #2
   \markup \fill-line { \null \fontsize #4 \italic "pour SATB sur portées de piano avec paroles" \null }
   \markup \vspace #1
   \markup \fill-line { \null \fontsize #4 \italic "Classés par ordre croissant de numéro BWV" \null }
   \markup \vspace #4
-  \markup \line { \draw-line #'(17.5 . 0) \fontsize #3 "⚜" \draw-line #'(17.5 . 0) }
+  \markup \line {
+    \combine \draw-line #'(50 . 0) \translate #'(0 . 0.4) \draw-line #'(50 . 0)
+    \fontsize #3 "❊"
+    \combine \draw-line #'(50 . 0) \translate #'(0 . 0.4) \draw-line #'(50 . 0)
+  }
   \pageBreak
 
   \markuplist \table-of-contents
