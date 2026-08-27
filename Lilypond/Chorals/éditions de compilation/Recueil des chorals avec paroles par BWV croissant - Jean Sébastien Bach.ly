@@ -281,12 +281,12 @@
     \vspace #1
     \fill-line { \null \fontsize #6 "de Jean-Sébastien Bach" \null }
     \vspace #2
-    \fill-line { \null \epsfile #X #48.7 #"images/Bach_Haussmann_1748.eps" \null }
+    \fill-line { \null \image #X #48.7 #"images/Bach_Haussmann_1748.png" \null }
     \vspace #2
     \fill-line { \null \fontsize #4 \italic "pour SATB sur portées de piano avec paroles" \null }
     \vspace #1
     \fill-line { \null \fontsize #4 \italic "Classés par ordre croissant de numéro BWV" \null }
-    \vspace #8
+    \vspace #6
     \line { \combine \draw-line #'(105 . 0) \translate #'(0 . 0.7) \draw-line #'(105 . 0) }
   }
   \pageBreak
