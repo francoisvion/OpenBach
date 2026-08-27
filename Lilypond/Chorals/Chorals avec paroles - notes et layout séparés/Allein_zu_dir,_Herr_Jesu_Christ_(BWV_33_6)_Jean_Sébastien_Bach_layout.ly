@@ -28,7 +28,7 @@
 }
 
 \header {
-  title = \markup{\concat{"Ehr sei Gott in dem höchsten Thron" \small " (v. 4)"}}
+  title = \markup{\concat{"Allein zu dir, Herr Jesu Christ" \small " (v. 4)"}}
   subtitle = "tiré de la cantate : Allein zu dir, Herr Jesu Christ"
   poet = "Auteur : Konrad Hubert (1507-1577)"
   opus = "BWV 33/6"

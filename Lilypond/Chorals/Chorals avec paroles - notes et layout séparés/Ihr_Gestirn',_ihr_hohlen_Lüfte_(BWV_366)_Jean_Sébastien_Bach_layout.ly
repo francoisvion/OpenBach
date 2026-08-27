@@ -28,7 +28,7 @@
 }
 
 \header {
- title = "Ihr Gestirn', ihr hohlen Lüfte"
+ title = "Ihr Gestirn, ihr hohlen Lüfte"
  poet = "Auteur : Johann Franck (1618-1677)"
   opus = "BWV 366"
   composer = "Jean-Sébastien Bach (1685-1750)"

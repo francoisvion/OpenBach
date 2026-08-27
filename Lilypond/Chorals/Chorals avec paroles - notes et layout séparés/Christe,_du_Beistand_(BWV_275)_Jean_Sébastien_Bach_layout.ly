@@ -2,7 +2,7 @@
 
 
 
-\include "Ach_Gott,_erhör_mein_Seufzen_(BWV_254)_Jean_Sébastien_Bach_notes.ily"
+\include "Christe,_du_Beistand_deiner_Kreuzgemeine_(BWV_275)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,18 +28,18 @@
 }
 
 \header {
-  title = "Ach Gott, erhör mein Seufzen"
-  poet = "Auteur : Jakob Peter Schechs (1607-1659)"
-  opus = "BWV 254"
+ title = "Christe, du Beistand"
+ poet = "Auteur : Matthäus Apelles von Löwenstern (1594-1648)"
+  opus = "BWV 275"
   composer = "Jean-Sébastien Bach (1685-1750)"
-  tagline = ##f   
+  tagline = ##f
   copyright = "© 2026 — OpenBach"
-  } 
- 
-\score  {
+  }
+
+\score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A}}
-    {
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \relative c' {
       \clef treble
       \key a \minor
       \time 4/4
@@ -49,13 +49,13 @@
         \new Voice = "alto" \altoMusic
       >>
     }
-    
     \new Lyrics \lyricsto "soprano" \sopranoLyrics
-    
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B}}
+        
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    \relative c
     {
       \clef bass
-      \key c \major
+      \key a \minor
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic
@@ -63,13 +63,8 @@
         \new Voice = "bass" \bassMusic
       >>
     }
-  >>} 
- 
-\layout {
-  \context {
-    \Staff
-    \consists "Merge_rests_engraver"
-  }
+  >>
 }
+
+\layout {}
 \midi {}
- 

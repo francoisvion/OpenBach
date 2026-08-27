@@ -28,7 +28,7 @@
 }
 
 \header {
- title = \markup{\concat{"Treuer Gott, ich muss dir klagen" \small " (v. 6)"}}
+ title = \markup{\concat{"Treuer Gott, ich muß dir klagen" \small " (v. 6)"}}
  subtitle = "tiré de la cantate : Höchsterwünschtes Freudenfest"
  poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 194/6"

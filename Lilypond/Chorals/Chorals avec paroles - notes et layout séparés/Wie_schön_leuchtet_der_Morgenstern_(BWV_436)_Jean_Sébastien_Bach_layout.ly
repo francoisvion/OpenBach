@@ -2,7 +2,7 @@
 
 
 
-\include "Valet_will_ich_dir_geben_(choral)_(BWV_415)_Jean_Sébastien_Bach_notes.ily"
+\include "Wie_schön_leuchtet_der_Morgenstern_(choral)_(BWV_436)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,9 +28,9 @@
 }
 
 \header {
- title = "Valet will ich dir geben (choral)"
- poet = "Auteur : Valerius Herberger (1562-1627)"
-  opus = "BWV 415"
+ title = "Wie schön leuchtet der Morgenstern"
+ poet = "Auteur : Philipp Nicolai (1556-1608)"
+  opus = "BWV 436"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -41,7 +41,7 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key d \major
+      \key e \major
       \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
@@ -52,12 +52,12 @@
     
     \new Lyrics \lyricsto "soprano" \versoOneLyrics
     
-    \new Lyrics \lyricsto "soprano" \sopranoVersoOneLyrics
+    \new Lyrics \lyricsto "soprano" \versoTwoLyrics
     
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key d \major
+      \key e \major
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic

@@ -2,7 +2,7 @@
 
 
 
-\include "O_wir_armen_Sünder_(BWV_407)_Jean_Sébastien_Bach_notes.ily"
+\include "Werde_munter,_mein_Gemüte_(BWV_244_40)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,9 +28,10 @@
 }
 
 \header {
- title = "O wir armen Sünder"
- poet = "Auteur : Hermann Bonnus (1504-1548)"
-  opus = "BWV 407"
+  title = \markup{\concat{"Werde munter mein Gemüte" \small " (v. 6)"}}
+  subtitle = "tiré de la Passion selon saint Matthieu"
+  poet = "Auteur : Johann Rist (1607-1667)"
+  opus = "BWV 244/40"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -41,11 +42,10 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key d \major
+      \key fis \minor
       \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
-        
         \new Voice = "alto" \altoMusic
       >>
     }
@@ -55,7 +55,7 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key d \major
+      \key fis \minor
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic

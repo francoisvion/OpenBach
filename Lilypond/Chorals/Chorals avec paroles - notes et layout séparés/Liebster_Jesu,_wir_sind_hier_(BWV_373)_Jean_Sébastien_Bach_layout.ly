@@ -2,7 +2,7 @@
 
 
 
-\include "In_allen_meinen_Taten_(choral)_(BWV_367)_Jean_Sébastien_Bach_notes.ily"
+\include "Liebster_Jesu,_wir_sind_hier_(choral)_(BWV_373)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,9 +28,9 @@
 }
 
 \header {
- title = "In allen meinen Taten (choral)"
- poet = "Auteur : Paul Fleming (1609-1640)"
-  opus = "BWV 367"
+ title = "Liebster Jesu, wir sind hier"
+ poet = "Auteur : Tobias Clausnizer (1619-1684)"
+  opus = "BWV 373"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -41,7 +41,7 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key c \major
+      \key g \major
       \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
@@ -50,12 +50,14 @@
       >>
     }
     
-    \new Lyrics \lyricsto "soprano" \sopranoLyrics
+    \new Lyrics \lyricsto "soprano" \versoOneLyrics
+    
+    \new Lyrics \lyricsto "soprano" \versoTwoLyrics
     
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key c \major
+      \key g \major
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic

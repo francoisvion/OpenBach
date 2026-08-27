@@ -2,7 +2,7 @@
 
 
 
-\include "Meine_Seele_erhebt_den_Herren_(doxology)_(BWV_10_7)_Jean_Sébastien_Bach_notes.ily"
+\include "Es_bringt_das_rechte_Jubeljahr_(BWV_122_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,10 +28,10 @@
 }
 
 \header {
- title = "Meine Seele erhebt den Herren (doxologie)"
- subtitle = "tiré de la cantate : Meine Seel erhebt den Herren"
- poet = "Luc 1, 46 et suivants"
-  opus = "BWV 10/7"
+  title = "Das neugeborne Kindelein"
+  subtitle = "tiré de la cantate : Das neugeborne Kindelein"
+ poet = "Auteur : Cyriakus Schneegaß (1546-1597)"
+  opus = "BWV 122/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -39,36 +39,27 @@
 
 \score {
   \new ChoirStaff <<
-    \new Staff = "upper" \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
       \key g \minor
-      \time 4/4
+      \time 3/4
       <<
         \new Voice = "soprano" \sopranoMusic
-        
         \new Voice = "alto" \altoMusic
       >>
     }
     
-    \new Lyrics \with {alignAboveContext = "upper"} \lyricsto "soprano" \sopranoLyrics
+    \new Lyrics \lyricsto "soprano" \sopranoLyrics
     
-     \new Lyrics \lyricsto "alto" \altoLyrics
-    
-    \new Staff = "lower" \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
       \key g \minor
-      \time 4/4
+      \time 3/4
       <<
         \new Voice = "tenor" \tenorMusic
-        
-        \new Lyrics \with {alignAboveContext = "lower"} \lyricsto "tenor" \tenorLyrics
-    
         \new Voice = "bass" \bassMusic
-        
-        \new Lyrics \lyricsto "bass" \bassLyrics
-        
       >>
     }
   >>

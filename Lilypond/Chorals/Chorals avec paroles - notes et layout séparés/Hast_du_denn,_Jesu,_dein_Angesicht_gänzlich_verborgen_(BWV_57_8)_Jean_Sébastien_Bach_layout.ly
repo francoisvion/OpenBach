@@ -2,7 +2,7 @@
 
 
 
-\include "O_Traurigkeit,_o_Herzeleid_(BWV_404)_Jean_Sébastien_Bach_notes.ily"
+\include "Richte_dich,_Liebste,_nach_meinem_Gefallen_(BWV_57_8)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,9 +28,10 @@
 }
 
 \header {
- title = "O Traurigkeit, o Herzeleid"
- poet = "Auteur : Friedrich von Spee (1591-1635)"
-  opus = "BWV 404"
+ title = "Hast du denn, Jesu, dein Angesicht gänzlich verborgen"
+ subtitle = "tiré de la cantate : Selig ist der Mann"
+ poet = "Auteur : Ahasverus Fritsch (1629-1701)"
+  opus = "BWV 57/8"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -41,8 +42,8 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key a \minor
-      \time 4/4
+      \key bes \major
+      \time 3/4
       <<
         \new Voice = "soprano" \sopranoMusic
         
@@ -50,13 +51,15 @@
       >>
     }
     
-    \new Lyrics \lyricsto "soprano" \sopranoLyrics
+    \new Lyrics \lyricsto "soprano" \versoOneLyrics
+    
+    \new Lyrics \lyricsto "soprano" \versoTwoLyrics
     
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key a \minor
-      \time 4/4
+      \key bes \major
+      \time 3/4
       <<
         \new Voice = "tenor" \tenorMusic
         

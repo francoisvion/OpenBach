@@ -2,7 +2,7 @@
 
 
 
-\include "Wie_schön_leuchtet_der_Morgenstern_(choral)_(BWV_436)_Jean_Sébastien_Bach_notes.ily"
+\include "So_gibst_du_nun,_mein_Jesu,_gute_Nacht_(BWV_412)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,9 +28,9 @@
 }
 
 \header {
- title = "Wie schön leuchtet der Morgenstern (choral)"
- poet = "Auteur : Philipp Nicolai (1556-1608)"
-  opus = "BWV 436"
+ title = "So gibst du nun, mein Jesu, gute Nacht!"
+ poet = "Auteur : August Pfeiffer (1640-1698)"
+  opus = "BWV 412"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -41,7 +41,7 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key e \major
+      \key d \minor
       \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
@@ -50,14 +50,12 @@
       >>
     }
     
-    \new Lyrics \lyricsto "soprano" \versoOneLyrics
-    
-    \new Lyrics \lyricsto "soprano" \versoTwoLyrics
+    \new Lyrics \lyricsto "soprano" \sopranoLyrics
     
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key e \major
+      \key f \major
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic

@@ -28,7 +28,7 @@
 }
 
 \header {
- title = "Das Wort sie sollen laßen stahn"
+ title = "Ein feste Burg ist unser Gott"
  subtitle = "tiré de la cantate : Ein feste Burg ist unser Gott"
  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 80/8"

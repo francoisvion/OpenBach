@@ -28,7 +28,7 @@
 }
 
 \header {
-  title = "Wie schön leuchtet der Morgenstern v.6)"
+  title = "Wie schön leuchtet der Morgenstern (v.6)"
   subtitle = "tiré de la cantate : Liebster Gott, wenn werd ich sterben?"
  poet = "Auteur : Philipp Nicolai (1556-1608)"
   opus = "BWV 36/4"

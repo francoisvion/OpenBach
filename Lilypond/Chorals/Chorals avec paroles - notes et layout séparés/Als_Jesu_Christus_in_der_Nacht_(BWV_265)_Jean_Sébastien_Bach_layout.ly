@@ -2,7 +2,7 @@
 
 
 
-\include "Christe,_du_Beistand_deiner_Kreuzgemeine_(BWV_275)_Jean_Sébastien_Bach_notes.ily"
+\include "Als_Jesus_Christus_in_der_Nacht_(BWV_265)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,9 +28,9 @@
 }
 
 \header {
- title = "Christe, du Beistand deiner Kreuzgemeine"
- poet = "Auteur : Matthäus Apelles von Löwenstern (1594-1648)"
-  opus = "BWV 275"
+ title = "Als Jesu Christus in der Nacht"
+ poet = "Auteur : Johann Heermann (1585-1647)"
+  opus = "BWV 265"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -39,32 +39,33 @@
 \score {
   \new ChoirStaff <<
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
-    \relative c' {
+    {
       \clef treble
       \key a \minor
       \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
-        
         \new Voice = "alto" \altoMusic
       >>
     }
     \new Lyrics \lyricsto "soprano" \sopranoLyrics
-        
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
-    \relative c
     {
       \clef bass
-      \key a \minor
+      \key c \major
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic
-        
         \new Voice = "bass" \bassMusic
       >>
     }
   >>
 }
 
-\layout {}
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
+}
 \midi {}

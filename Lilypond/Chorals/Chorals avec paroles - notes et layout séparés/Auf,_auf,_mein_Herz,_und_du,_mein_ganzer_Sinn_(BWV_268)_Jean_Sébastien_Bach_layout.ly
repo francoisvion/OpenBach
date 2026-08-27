@@ -2,7 +2,7 @@
 
 
 
-\include "So_gibst_du_nun,_mein_Jesu,_gute_Nacht_(BWV_412)_Jean_Sébastien_Bach_notes.ily"
+\include "Auf,_auf,_mein_Herz,_und_du_mein_ganzer_Sinn_(BWV_268)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,9 +28,9 @@
 }
 
 \header {
- title = "So gibst du nun, mein Jesu, gute Nacht"
- poet = "Auteur : August Pfeiffer (1640-1698)"
-  opus = "BWV 412"
+ title = "Auf, auf, mein Herz, und du, mein ganzer Sinn"
+ poet = "Auteur : Sigmund von Birken (1626-1681)"
+  opus = "BWV 268"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -41,25 +41,21 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key d \minor
+      \key g \major
       \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
-        
         \new Voice = "alto" \altoMusic
       >>
     }
-    
     \new Lyrics \lyricsto "soprano" \sopranoLyrics
-    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key f \major
+      \key g \major
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic
-        
         \new Voice = "bass" \bassMusic
       >>
     }

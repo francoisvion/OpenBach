@@ -2,7 +2,7 @@
 
 
 
-\include "Als_Jesus_Christus_in_der_Nacht_(BWV_265)_Jean_Sébastien_Bach_notes.ily"
+\include "In_allen_meinen_Taten_(choral)_(BWV_367)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,9 +28,9 @@
 }
 
 \header {
- title = "Als Jesus Christus in der Nacht"
- poet = "Auteur : Johann Heermann (1585-1647)"
-  opus = "BWV 265"
+ title = "In allen meinen Taten"
+ poet = "Auteur : Paul Fleming (1609-1640)"
+  opus = "BWV 367"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -41,14 +41,17 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key a \minor
+      \key c \major
       \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
+        
         \new Voice = "alto" \altoMusic
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" \sopranoLyrics
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -56,6 +59,7 @@
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic
+        
         \new Voice = "bass" \bassMusic
       >>
     }
@@ -68,4 +72,5 @@
     \consists "Merge_rests_engraver"
   }
 }
+
 \midi {}

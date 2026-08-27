@@ -2,7 +2,7 @@
 
 
 
-\include "Richte_dich,_Liebste,_nach_meinem_Gefallen_(BWV_57_8)_Jean_Sébastien_Bach_notes.ily"
+\include "O_Ewigkeit,_du_Donnerwort_(choral)_(BWV_397)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,10 +28,9 @@
 }
 
 \header {
- title = "Richte dich, Liebste, nach meinem Gefallen"
- subtitle = "tiré de la cantate : Selig ist der Mann"
- poet = "Auteur : Ahasverus Fritsch (1629-1701)"
-  opus = "BWV 57/8"
+ title = "O Ewigkeit, du Donnerwort"
+ poet = "Auteur : Johann Rist (1607-1667)"
+  opus = "BWV 397"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -42,11 +41,10 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key bes \major
-      \time 3/4
+      \key f \major
+      \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
-        
         \new Voice = "alto" \altoMusic
       >>
     }
@@ -58,8 +56,8 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key bes \major
-      \time 3/4
+      \key f \major
+      \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic
         
@@ -75,4 +73,5 @@
     \consists "Merge_rests_engraver"
   }
 }
+
 \midi {}

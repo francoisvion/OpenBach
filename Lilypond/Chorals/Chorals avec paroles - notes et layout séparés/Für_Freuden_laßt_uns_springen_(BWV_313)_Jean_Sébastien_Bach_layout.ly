@@ -2,7 +2,7 @@
 
 
 
-\include "Herr_Jesu_Christ,_wahr'_Mensch_und_Gott_(BWV_336)_Jean_Sébastien_Bach_notes.ily"
+\include "Für_Freuden_lasst_uns_springen_(BWV_313)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,9 +28,9 @@
 }
 
 \header {
- title = "Herr Jesu Christ, wahr' Mensch und Gott"
- poet = "Auteur : Paul Eber (1511-1569)"
-  opus = "BWV 336"
+ title = "Für Freuden laßt uns springen"
+ poet = "Auteur : Kaspar Peltsch"
+  opus = "BWV 313"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -41,18 +41,19 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key a \major
+      \key g \minor
       \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
         \new Voice = "alto" \altoMusic
       >>
     }
-    \new Lyrics \lyricsto "soprano" \sopranoLyrics
+    \new Lyrics \lyricsto "soprano" \versoOneLyrics
+    \new Lyrics \lyricsto "soprano" \versoTwoLyrics
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key a \major
+      \key bes \major
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic
@@ -68,5 +69,4 @@
     \consists "Merge_rests_engraver"
   }
 }
-
 \midi {}

@@ -1,7 +1,6 @@
 \version "2.27.1"
 
 
-
 \include "Ach_Gott,_wie_manches_Herzeleid_(BWV_3_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
@@ -28,7 +27,7 @@
 }
 
 \header {
-  title = \markup{\concat{"Erhalt mein Herz im Glauben rein" \small " (v. 18)"}}
+  title = \markup{\concat{"Ach Gott, wie manches Herzeleid" \small " (v. 18)"}}
   subtitle = "tiré de la cantate : Ach Gott, wie manches Herzeleid"
   poet = "Auteur : Martin Moller (1547-1606)"
   opus = "BWV 3/6"

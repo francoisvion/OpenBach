@@ -2,7 +2,7 @@
 
 
 
-\include "Es_bringt_das_rechte_Jubeljahr_(BWV_122_6)_Jean_Sébastien_Bach_notes.ily"
+\include "Vater_unser_im_Himmelreich_(BWV_245_5b)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,10 +28,10 @@
 }
 
 \header {
-  title = "Es bringt das rechte Jubeljahr"
-  subtitle = "tiré de la cantate : Das neugeborne Kindelein"
- poet = "Auteur : Cyriakus Schneegaß (1546-1597)"
-  opus = "BWV 122/6"
+  title = "Vater unser im Himmelreich (II)"
+  subtitle = "tiré de la Passion selon saint Jean"
+ poet = "Auteur : Martin Luther (1483-1546)"
+  opus = "BWV 245/5b"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -42,23 +42,24 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key g \minor
-      \time 3/4
+      \key d \minor
+      \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
+        
         \new Voice = "alto" \altoMusic
       >>
     }
-    
     \new Lyrics \lyricsto "soprano" \sopranoLyrics
     
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key g \minor
-      \time 3/4
+      \key d \minor
+      \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic
+        
         \new Voice = "bass" \bassMusic
       >>
     }

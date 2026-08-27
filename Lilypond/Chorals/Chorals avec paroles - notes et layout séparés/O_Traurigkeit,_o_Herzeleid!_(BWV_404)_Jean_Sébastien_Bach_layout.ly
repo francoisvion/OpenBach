@@ -2,7 +2,7 @@
 
 
 
-\include "Vater_unser_im_Himmelreich_(BWV_245_5b)_Jean_Sébastien_Bach_notes.ily"
+\include "O_Traurigkeit,_o_Herzeleid_(BWV_404)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,10 +28,9 @@
 }
 
 \header {
-  title = "Vater unser im Himmelreich (2ème version)"
-  subtitle = "tiré de la Passion selon saint Jean"
- poet = "Auteur : Martin Luther (1483-1546)"
-  opus = "BWV 245/5b"
+ title = "O Traurigkeit, o Herzeleid!"
+ poet = "Auteur : Friedrich von Spee (1591-1635)"
+  opus = "BWV 404"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -42,7 +41,7 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key d \minor
+      \key a \minor
       \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
@@ -50,12 +49,13 @@
         \new Voice = "alto" \altoMusic
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" \sopranoLyrics
     
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key d \minor
+      \key a \minor
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic

@@ -2,7 +2,7 @@
 
 
 
-\include "Werde_munter,_mein_Gemüte_(BWV_55_5)_Jean_Sébastien_Bach_notes.ily"
+\include "Mit_Fried_und_Freud_ich_fahr_dahin_(choral)_(BWV_382)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,10 +28,9 @@
 }
 
 \header {
-  title = \markup{\concat{"Werde munter, mein Gemüte" \small " (v. 6)"}}
-  subtitle = "tiré de la cantate : Ich armer Mensch, ich Sündenknecht"
- poet = "Auteur : Johann Rist (1607-1667)"
-  opus = "BWV 55/5"
+ title = "Mit Fried und Freud ich fahr dahin"
+ poet = "Auteur : Martin Luther (1483-1546)"
+  opus = "BWV 382"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -42,7 +41,7 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key bes \major
+      \key a \minor
       \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
@@ -51,14 +50,12 @@
       >>
     }
     
-    \new Lyrics \lyricsto "soprano" \versoOneLyrics
-    
-    \new Lyrics \lyricsto "soprano" \versoTwoLyrics
+    \new Lyrics \lyricsto "soprano" \sopranoLyrics
     
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key bes \major
+      \key c \major
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic
@@ -75,4 +72,5 @@
     \consists "Merge_rests_engraver"
   }
 }
+
 \midi {}

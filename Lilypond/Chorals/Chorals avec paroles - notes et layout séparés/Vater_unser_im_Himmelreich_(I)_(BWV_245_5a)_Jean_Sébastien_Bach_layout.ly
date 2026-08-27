@@ -2,7 +2,7 @@
 
 
 
-\include "Liebster_Jesu,_wir_sind_hier_(choral)_(BWV_373)_Jean_Sébastien_Bach_notes.ily"
+\include "Vater_unser_im_Himmelreich_(BWV_245_5a)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,9 +28,10 @@
 }
 
 \header {
- title = "Liebster Jesu, wir sind hier (choral)"
- poet = "Auteur : Tobias Clausnizer (1619-1684)"
-  opus = "BWV 373"
+  title = "Vater unser im Himmelreich (I)"
+  subtitle = "tiré de la Passion selon saint Jean"
+ poet = "Auteur : Martin Luther (1483-1546)"
+  opus = "BWV 245/5a"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -41,7 +42,7 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key g \major
+      \key d \minor
       \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
@@ -49,15 +50,12 @@
         \new Voice = "alto" \altoMusic
       >>
     }
-    
-    \new Lyrics \lyricsto "soprano" \versoOneLyrics
-    
-    \new Lyrics \lyricsto "soprano" \versoTwoLyrics
+    \new Lyrics \lyricsto "soprano" \sopranoLyrics
     
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key g \major
+      \key d \minor
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic
@@ -74,5 +72,4 @@
     \consists "Merge_rests_engraver"
   }
 }
-
 \midi {}

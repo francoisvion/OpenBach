@@ -2,7 +2,7 @@
 
 
 
-\include "Nun_danket_alle_Gott_(choral)_(BWV_386)_Jean_Sébastien_Bach_notes.ily"
+\include "O_Lamm_Gottes,_unschuldig_(choral)_(BWV_401)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,9 +28,9 @@
 }
 
 \header {
- title = "Nun danket alle Gott (choral)"
- poet = "Auteur : Martin Rinckart (1586-1649)"
-  opus = "BWV 386"
+ title = "O Lamm Gottes, unschuldig"
+ poet = "Auteur : Nikolaus Decius (v.1485-1541)"
+  opus = "BWV 401"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -41,7 +41,7 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key a \major
+      \key f \major
       \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
@@ -52,12 +52,12 @@
     
     \new Lyrics \lyricsto "soprano" \versoOneLyrics
     
-    \new Lyrics \lyricsto "soprano" \versoTwoLyrics
+     \new Lyrics \lyricsto "soprano" \versoTwoLyrics
     
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key a \major
+      \key f \major
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic

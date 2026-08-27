@@ -2,7 +2,7 @@
 
 
 
-\include "Da_Jesus_an_dem_Kreutze_stund_(BWV_1089)_Jean_Sébastien_Bach_notes.ily"
+\include "O_wir_armen_Sünder_(BWV_407)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,19 +28,20 @@
 }
 
 \header {
-  title = "Da Jesus an dem Kreutze stund"
-  opus = "BWV 1089"
+ title = "O wir armen Sünder!"
+ poet = "Auteur : Hermann Bonnus (1504-1548)"
+  opus = "BWV 407"
   composer = "Jean-Sébastien Bach (1685-1750)"
-  tagline = ##f   
+  tagline = ##f
   copyright = "© 2026 — OpenBach"
-  } 
- 
-\score  {
+  }
+
+\score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A}}
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key a \minor
+      \key d \major
       \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
@@ -50,11 +51,11 @@
     }
     
     \new Lyrics \lyricsto "soprano" \sopranoLyrics
-     
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B}}
+    
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key a \minor
+      \key d \major
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic
@@ -63,8 +64,8 @@
       >>
     }
   >>
-} 
- 
+}
+
 \layout {
   \context {
     \Staff

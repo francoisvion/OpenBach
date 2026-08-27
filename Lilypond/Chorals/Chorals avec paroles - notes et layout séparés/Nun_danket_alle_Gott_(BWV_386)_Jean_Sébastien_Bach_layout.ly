@@ -2,7 +2,7 @@
 
 
 
-\include "Das_walt_mein_Gott_(BWV_291)_Jean_Sébastien_Bach_notes.ily"
+\include "Nun_danket_alle_Gott_(choral)_(BWV_386)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,9 +28,9 @@
 }
 
 \header {
- title = "Das walt mein Gott"
- poet = "Auteur : Basilius Förtsch (?-1619)"
-  opus = "BWV 291"
+ title = "Nun danket alle Gott"
+ poet = "Auteur : Martin Rinckart (1586-1649)"
+  opus = "BWV 386"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -41,21 +41,27 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key d \minor
+      \key a \major
       \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
+        
         \new Voice = "alto" \altoMusic
       >>
     }
-    \new Lyrics \lyricsto "soprano" \sopranoLyrics
+    
+    \new Lyrics \lyricsto "soprano" \versoOneLyrics
+    
+    \new Lyrics \lyricsto "soprano" \versoTwoLyrics
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key f \major
+      \key a \major
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic
+        
         \new Voice = "bass" \bassMusic
       >>
     }

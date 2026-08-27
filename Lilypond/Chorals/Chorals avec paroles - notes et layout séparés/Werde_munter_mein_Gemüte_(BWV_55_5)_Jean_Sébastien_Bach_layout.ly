@@ -2,7 +2,7 @@
 
 
 
-\include "Für_Freuden_lasst_uns_springen_(BWV_313)_Jean_Sébastien_Bach_notes.ily"
+\include "Werde_munter,_mein_Gemüte_(BWV_55_5)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,9 +28,10 @@
 }
 
 \header {
- title = "Für Freuden lasst uns springen"
- poet = "Auteur : Kaspar Peltsch"
-  opus = "BWV 313"
+  title = \markup{\concat{"Werde munter mein Gemüte" \small " (v. 6)"}}
+  subtitle = "tiré de la cantate : Ich armer Mensch, ich Sündenknecht"
+ poet = "Auteur : Johann Rist (1607-1667)"
+  opus = "BWV 55/5"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -41,15 +42,19 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key g \minor
+      \key bes \major
       \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
+        
         \new Voice = "alto" \altoMusic
       >>
     }
+    
     \new Lyrics \lyricsto "soprano" \versoOneLyrics
+    
     \new Lyrics \lyricsto "soprano" \versoTwoLyrics
+    
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
@@ -57,6 +62,7 @@
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic
+        
         \new Voice = "bass" \bassMusic
       >>
     }
