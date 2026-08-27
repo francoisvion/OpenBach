@@ -1,5 +1,7 @@
 \version "2.27.1"
 
+\pointAndClickOff
+
 #(use-modules (ice-9 ftw) (ice-9 regex) (ice-9 textual-ports))
 
 #(define own-dir (dirname (car (ly:input-file-line-char-column (*location*)))))
