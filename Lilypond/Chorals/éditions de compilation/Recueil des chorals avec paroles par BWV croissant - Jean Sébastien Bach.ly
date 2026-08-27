@@ -273,27 +273,21 @@
     evenHeaderMarkup = \markup \column { \fill-line { \if \should-print-page-number \fromproperty #'page:page-number-string \null } \if \should-print-page-number \vspace #3 }
   }
 
-  \markup \vspace #6
-  \markup \line {
-    \combine \draw-line #'(50 . 0) \translate #'(0 . 0.4) \draw-line #'(50 . 0)
-    \fontsize #3 "❊"
-    \combine \draw-line #'(50 . 0) \translate #'(0 . 0.4) \draw-line #'(50 . 0)
-  }
-  \markup \vspace #4
-  \markup \fill-line { \null \fontsize #8 \bold "361 CHORALS" \null }
-  \markup \vspace #1
-  \markup \fill-line { \null \fontsize #6 "de Jean-Sébastien Bach" \null }
-  \markup \vspace #2
-  \markup \fill-line { \null \epsfile #X #11 #"images/Bach_Haussmann_1748.eps" \null }
-  \markup \vspace #2
-  \markup \fill-line { \null \fontsize #4 \italic "pour SATB sur portées de piano avec paroles" \null }
-  \markup \vspace #1
-  \markup \fill-line { \null \fontsize #4 \italic "Classés par ordre croissant de numéro BWV" \null }
-  \markup \vspace #4
-  \markup \line {
-    \combine \draw-line #'(50 . 0) \translate #'(0 . 0.4) \draw-line #'(50 . 0)
-    \fontsize #3 "❊"
-    \combine \draw-line #'(50 . 0) \translate #'(0 . 0.4) \draw-line #'(50 . 0)
+  \markup \column {
+    \vspace #1
+    \line { \combine \draw-line #'(105 . 0) \translate #'(0 . 0.7) \draw-line #'(105 . 0) }
+    \vspace #4
+    \fill-line { \null \fontsize #8 \bold "361 CHORALS" \null }
+    \vspace #1
+    \fill-line { \null \fontsize #6 "de Jean-Sébastien Bach" \null }
+    \vspace #2
+    \fill-line { \null \epsfile #X #48.7 #"images/Bach_Haussmann_1748.eps" \null }
+    \vspace #2
+    \fill-line { \null \fontsize #4 \italic "pour SATB sur portées de piano avec paroles" \null }
+    \vspace #1
+    \fill-line { \null \fontsize #4 \italic "Classés par ordre croissant de numéro BWV" \null }
+    \vspace #8
+    \line { \combine \draw-line #'(105 . 0) \translate #'(0 . 0.7) \draw-line #'(105 . 0) }
   }
   \pageBreak
 
