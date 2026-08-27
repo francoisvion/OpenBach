@@ -29,7 +29,7 @@
   subtitle = "tiré de la cantate : Lobe den Herrn, meine Seele (I)"
   opus = "BWV 69a/6"
   poet = "Auteur : Samuel Rodigast (1649-1708)"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

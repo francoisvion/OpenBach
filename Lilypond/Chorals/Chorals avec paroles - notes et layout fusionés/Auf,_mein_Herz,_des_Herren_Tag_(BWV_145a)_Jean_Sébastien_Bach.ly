@@ -29,7 +29,7 @@
   subtitle = "tiré de la cantate : Ich lebe, mein Herze, zu deinem Ergötzen"
   poet = "Auteur : Kaspar Neumann (1648-1715)"
   opus = "BWV 145a"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

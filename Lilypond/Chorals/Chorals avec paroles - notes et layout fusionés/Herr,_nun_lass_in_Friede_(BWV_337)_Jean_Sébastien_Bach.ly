@@ -29,7 +29,7 @@
  title = "Herr, nun lass in Friede"
  poet = "Auteur : David Behme (1605-1657)"
   opus = "BWV 337"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

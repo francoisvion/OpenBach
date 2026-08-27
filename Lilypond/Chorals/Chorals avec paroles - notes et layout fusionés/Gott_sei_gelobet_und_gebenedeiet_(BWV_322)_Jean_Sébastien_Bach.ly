@@ -29,7 +29,7 @@
  title = "Gott sei gelobet und gebenedeiet"
  poet = "Medingen c.1350"
   opus = "BWV 322"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

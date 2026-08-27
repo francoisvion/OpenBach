@@ -2,7 +2,7 @@
 \header {
   title = "Suite pour Violoncelle N° 4"
   opus = "BWV 1010"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 courante = \relative c' {

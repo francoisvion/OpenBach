@@ -11,7 +11,7 @@
 \header {
   title = "Concerto pour violon n° 1 en la mineur"
   opus = "BWV 1041"
-  mutopiacomposer = "Jean Sébastien Bach (1685-1750)"
+  mutopiacomposer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 

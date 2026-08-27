@@ -30,7 +30,7 @@
  subtitle = "tiré de la cantate : Sehet, wir gehn hinauf gen Jerusalem"
  poet = "Auteur : Paul Stockmann (1603-1636)"
   opus = "BWV 159/5"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

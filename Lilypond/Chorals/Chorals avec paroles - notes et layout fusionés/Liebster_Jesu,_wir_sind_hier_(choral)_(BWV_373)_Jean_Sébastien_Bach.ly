@@ -29,7 +29,7 @@
  title = "Liebster Jesu, wir sind hier (choral)"
  poet = "Auteur : Tobias Clausnizer (1619-1684)"
   opus = "BWV 373"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

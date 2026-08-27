@@ -9,7 +9,7 @@
 
 \header {
   title = "Suite pour Violoncelle N° 3"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 1009"
   tagline = ##f
 }

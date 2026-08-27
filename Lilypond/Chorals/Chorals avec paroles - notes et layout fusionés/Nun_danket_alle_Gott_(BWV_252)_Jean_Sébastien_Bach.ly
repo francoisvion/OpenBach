@@ -29,7 +29,7 @@
  title = "Nun danket alle Gott"
  poet = "Auteur : Martin Rinckart (1586-1649)"
   opus = "BWV 252"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

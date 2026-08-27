@@ -7,7 +7,7 @@
   subtitle = "Petit Livre de notes d'Anna Magdalena Bach"
   subsubtitle = "attribué à Carl Philipp Emanuel Bach (1714-1788)"
   opus = "BWV Anh. 114"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
  tagline = ##f
 }
 #(set-global-staff-size 19)

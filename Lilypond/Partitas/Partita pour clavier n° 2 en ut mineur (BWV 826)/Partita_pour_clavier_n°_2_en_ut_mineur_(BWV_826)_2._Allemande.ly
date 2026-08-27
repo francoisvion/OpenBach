@@ -12,7 +12,7 @@ cd = {\change Staff = "down" }
 \header {
   title = "Partita II"
   subtitle = "Pratique du clavier I"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 826"
   tagline = ##f
 }

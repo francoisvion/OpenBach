@@ -29,7 +29,7 @@
  title = "Sei Lob und Ehr dem höchsten Gut"
  poet = "Auteur : Johann Jakob Schütz (1640-1690) ?"
   opus = "BWV 251"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

@@ -29,7 +29,7 @@
   title = "O Gott, du frommer Gott"
   opus = "BWV 1125"
   poet = "Auteur : Johann Heermann (1585-1647)"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

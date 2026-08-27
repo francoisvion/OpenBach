@@ -30,7 +30,7 @@
  subtitle = "tiré de la cantate : Du Hirte Israel, höre"
  poet = "Auteur : Cornelius Becker (1561-1604)"
   opus = "BWV 104/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

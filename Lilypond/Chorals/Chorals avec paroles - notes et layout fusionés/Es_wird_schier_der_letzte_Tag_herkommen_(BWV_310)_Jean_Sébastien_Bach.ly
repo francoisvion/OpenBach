@@ -29,7 +29,7 @@
  title = "Es wird schier der letzte Tag herkommen"
  poet = "Auteur : Michael Weisse (v.1488-1534)"
   opus = "BWV 310"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

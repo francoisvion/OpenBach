@@ -30,7 +30,7 @@
  subtitle = "tiré de la Passion selon saint Jean"
  poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 245/17"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

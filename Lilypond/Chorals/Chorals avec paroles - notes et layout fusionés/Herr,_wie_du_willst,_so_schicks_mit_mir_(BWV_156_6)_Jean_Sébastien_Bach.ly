@@ -30,7 +30,7 @@
  subtitle = "tiré de la cantate : Ich steh mit einem Fuß im Grabe"
  poet = "Auteur : Kaspar Bienemann (1540-1591)"
   opus = "BWV 156/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

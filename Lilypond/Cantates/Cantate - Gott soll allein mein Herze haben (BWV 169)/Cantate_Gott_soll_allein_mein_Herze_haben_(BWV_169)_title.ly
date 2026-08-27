@@ -4,7 +4,7 @@
     title = "Gott soll allein mein Herze haben"
     subtitle = "Cantate pour le 18ᵉ dimanche après la Trinité"
     opus = "BWV 169"
-    composer = "Jean Sébastien Bach (1685-1750)"
+    composer = "Jean-Sébastien Bach (1685-1750)"
     tagline = ##f
 }
 

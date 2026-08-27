@@ -29,7 +29,7 @@
  title = "Jesu, meine Freude (I)"
  poet = "Auteur : Johann Franck (1618-1677)"
   opus = "BWV 358"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

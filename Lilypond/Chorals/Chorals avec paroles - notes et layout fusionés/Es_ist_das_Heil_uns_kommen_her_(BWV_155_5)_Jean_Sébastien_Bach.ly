@@ -30,7 +30,7 @@
  subtitle = "tiré de la cantate : Mein Gott, wie lang, ach lange"
  poet = "Auteur : Paul Speratus (1489-1551)"
   opus = "BWV 155/5"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

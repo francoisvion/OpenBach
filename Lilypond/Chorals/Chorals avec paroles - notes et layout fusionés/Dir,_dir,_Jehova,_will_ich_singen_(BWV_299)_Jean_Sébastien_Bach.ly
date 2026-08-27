@@ -29,7 +29,7 @@
  title = "Dir, dir, Jehova, will ich singen"
  poet = "Auteur : Bartholomäus Crasselius (1667-1724)"
   opus = "BWV 299"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

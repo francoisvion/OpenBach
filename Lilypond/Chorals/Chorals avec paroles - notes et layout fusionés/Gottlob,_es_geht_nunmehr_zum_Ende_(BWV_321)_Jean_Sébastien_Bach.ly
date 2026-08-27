@@ -29,7 +29,7 @@
  title = "Gottlob, es geht nunmehr zum Ende"
  poet = "Auteur : Christian Weise (1642-1708)"
   opus = "BWV 321"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

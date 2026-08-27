@@ -594,7 +594,7 @@ Bass = \context Voice = "four" \relative c {
     title = "Regis Iussu Cantio Et Reliqua Canonica Arte Resoluta"
     subtitle = "Ricercar a 3"
     opus = ##f
-    composer = "Jean Sébastien Bach (1685-1750)"
+    composer = "Jean-Sébastien Bach (1685-1750)"
   }
   \layout {
     \context {

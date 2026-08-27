@@ -29,7 +29,7 @@
  title = "Gelobt seist du, Jesu Christ"
  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 314"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

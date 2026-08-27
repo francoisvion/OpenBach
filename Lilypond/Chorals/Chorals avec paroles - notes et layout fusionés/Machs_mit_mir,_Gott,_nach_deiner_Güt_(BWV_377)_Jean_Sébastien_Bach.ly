@@ -29,7 +29,7 @@
  title = "Machs mit mir, Gott, nach deiner Güt"
  poet = "Auteur : Johann Hermann Schein (1586-1630)"
   opus = "BWV 377"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

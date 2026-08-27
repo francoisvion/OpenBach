@@ -12,7 +12,7 @@ global = { }
 \header {
  title = "Air : Geliebter Jesu"
  subtitle = "tiré de la Cantate n° 16 : Herr Gott, dich loben wir"
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  opus = "BWV 16"
  tagline = ##f
 }

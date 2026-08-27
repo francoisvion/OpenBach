@@ -30,7 +30,7 @@
  subtitle = "tiré de la cantate : Mein liebster Jesus ist verloren"
  poet = "Auteur : Christian Keymann (1607-1662)"
   opus = "BWV 154/8"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

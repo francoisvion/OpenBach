@@ -30,7 +30,7 @@
   subtitle = "tiré de la cantate : Nimm, was dein ist, und gehe hin"
   poet = \markup{\column{"Auteur : Markgraf Albrecht von" "Brandenberg (1490-1568)"}}
   opus = "BWV 144/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

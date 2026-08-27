@@ -29,7 +29,7 @@
  title = "Nun freut euch, Gottes Kinder all"
  poet = "Auteur : Erasmus Alber (v.1500-1553)"
   opus = "BWV 387"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

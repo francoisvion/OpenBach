@@ -30,7 +30,7 @@
  subtitle = "tiré de la cantate : Erwünschtes Freudenlicht"
  poet = "Auteur : Anarg von Wildenfels (v.1499-v.1539)"
   opus = "BWV 184/5"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

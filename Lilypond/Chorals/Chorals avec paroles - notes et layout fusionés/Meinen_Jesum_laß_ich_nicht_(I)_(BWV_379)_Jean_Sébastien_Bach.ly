@@ -29,7 +29,7 @@
  title = "Meinen Jesum laß ich nicht (I)"
  poet = "Auteur : Christian Keymann (1607-1662)"
   opus = "BWV 379"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
