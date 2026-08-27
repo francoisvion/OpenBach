@@ -202,7 +202,7 @@
      (if (= (length title-parts) 1)
          (string-append "\\markup { " row " }")
          (string-append "\\markup \\column { " row
-                         " \\line { \\hspace #4 \"" (cadr title-parts) "\" } }"))))
+                         " \\line { \"" (cadr title-parts) "\" } }"))))
 
 #(define (piece-text rec)
    (let* ((base (assq-ref rec 'base))
