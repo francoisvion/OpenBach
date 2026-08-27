@@ -21,8 +21,8 @@ altoMusic = {
           \voiceTwo
           \repeat volta 2 {
           \partial 4  a'4
-          a'8 [g' fis' g'] a' [fis' g' a']
-          fis' [e' d' e'] cis'4\fermata fis'
+          a'8 [g'] fis' [g'] a' [fis'] g' [a']
+          fis' [e'] d' [e'] cis'4\fermata fis'
           e'8 [fis'] g'4 fis'8 [e'] d'4
           d' cis' a\fermata }
           \partial 4  d'
@@ -45,7 +45,7 @@ tenorMusic = {
           a4 e'8 [d'] cis'4 b8 [cis']
           d'4 a8 [g] fis4\fermata }
           \partial 4  fis8 [gis]
-          a [d' cis' b] e' [fis' e' d']
+          a [d'] cis' [b] e' [fis'] e' [d']
           cis'4\fermata fis8 [g] a4 e'8 e'
           d'4\fermata a b8 e' fis' [e']
           cis'4\fermata
@@ -62,7 +62,7 @@ bassMusic = {
           b4 a8 [g] fis4 e
           d e a,\fermata b,
           cis8 [d] e4 fis g8 [a]
-          b [g a a,] d4\fermata }
+          b [g] a [a,] d4\fermata }
           \partial 4  d8 [e]
           fis4 gis a8 [d] e4
           a,\fermata b, fis e8 a,
@@ -70,7 +70,7 @@ bassMusic = {
           a,4\fermata
           \partial 32 * 24 e b8 [cis'] d4
           dis e b,\fermata b,
-          cis8 [d e d] cis [a, d cis]
+          cis8 [d] e [d] cis [a,] d [cis]
           b, [g,] a,4 d\fermata \fine
         }
 

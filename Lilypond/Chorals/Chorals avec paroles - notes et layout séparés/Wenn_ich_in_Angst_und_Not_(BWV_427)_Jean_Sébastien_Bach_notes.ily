@@ -51,7 +51,7 @@ tenorMusic = {
           f2\fermata r4 c'~
           c'8 bes4 aes g8 g4
           d'8 [c'] c'4 c' bes
-          ees8 [f g ees] c'4 bes8 [aes]
+          ees8 [f] g [ees] c'4 bes8 [aes]
           g2.\fermata \fine
         }
 

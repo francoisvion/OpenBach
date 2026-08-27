@@ -25,7 +25,7 @@ altoMusic = {
           d'2\fermata
           \partial 32 * 16  ees'4 ees'
           ees' aes' aes'8 [g'] f'4
-          e'2\fermata e'8 [f' g' e']
+          e'2\fermata e'8 [f'] g' [e']
           c'4 f'8 [d'] ees'4 ees'
           ees' d' bes2\fermata
           g'4 g' aes' aes'8 [g']

@@ -20,7 +20,7 @@ altoMusic = {
           \partial 4  a'8 [gis']
           fis'4. gis'8 a'4. e'8
           fis'4 e' e'\fermata a'
-          a'8 [gis' a' b'] gis' [fis'] e'4
+          a'8 [gis'] a' [b'] gis' [fis'] e'4
           e' dis' e'\fermata b
           e'8 [fis'] gis'4 a'8 [gis'] a' [b']
           gis'2\fermata r4 gis'
@@ -28,8 +28,8 @@ altoMusic = {
           cis'8 [b16 a] b4 a\fermata a'
           b'8 [cis''] b' [a'] gis' [fis'] gis'4
           gis'8 [fis'16 e'] fis'4 e'\fermata e'8 [d']
-          cis' [d' cis' b] a4 a'
-          e'8 [fis' b e'] cis'4\fermata \fine
+          cis' [d'] cis' [b] a4 a'
+          e'8 [fis'] b [e'] cis'4\fermata \fine
         }
 
 tenorMusic = {

@@ -42,8 +42,8 @@ altoMusic = {
 
 tenorMusic = {
           \voiceOne
-           f8 [g a g] a4~
-          a8 [g f e] d4
+           f8 [g] a [g] a4~
+          a8 [g] f [e] d4
           d'2 d'4
           d'2.\fermata
           a8 d'4 c'8 c'4
@@ -63,7 +63,7 @@ tenorMusic = {
 
 bassMusic = {
           \voiceTwo
-           d8 [e f e f d]
+           d8 [e] f [e] f [d]
           cis4 d fis,
           g,8 [a,] bes,4 g,
           d2.\fermata
@@ -72,12 +72,12 @@ bassMusic = {
           f bes, c
           f,2\fermata
           \partial 4  c4
-          f,8 [g, a, bes, c d]
+          f,8 [g,] a, [bes,] c [d]
           e [d] cis4 a,
           d8 [e] f4 gis,
           a,2.\fermata
-          f8 [e d cis] d4~
-          d cis8 [b, cis a,]
+          f8 [e] d [cis] d4~
+          d cis8 [b,] cis [a,]
           d4 g, a,
           d,2.\fermata \fine
         }

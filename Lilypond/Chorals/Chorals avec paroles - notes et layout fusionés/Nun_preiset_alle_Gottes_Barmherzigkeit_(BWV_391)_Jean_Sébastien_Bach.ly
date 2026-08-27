@@ -74,7 +74,7 @@
           g'4 g' g'
           fis' fis'2\fermata
           g'4 g' fis'8 [g']
-          a'4 g'8 [fis' g' e']
+          a'4 g'8 [fis'] g' [e']
           fis'2.\fermata
           fis'4 fis' gis'
           a'4. gis'8 [a' g']

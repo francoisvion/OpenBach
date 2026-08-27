@@ -67,7 +67,7 @@ bassMusic = {
           gis [ais] b [g] e [eis] fis4
           b,2\fermata r8 e g e
           c' r r b a [fis] b [a]
-          gis [e a a,] e2\fermata \fine
+          gis [e] a [a,] e2\fermata \fine
         }
 
 versoOneLyrics = \lyricmode {\set stanza = 1

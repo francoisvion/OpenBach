@@ -81,8 +81,8 @@
           fis'8 [gis'] ais'4 b' ais'8 [b']
           cis'' [fis'] fis'4 fis'\fermata a'
           gis' a' e' e'
-          e'8 [d' e' cis'] d'4\fermata cis'
-          cis'8 [dis'] e'4 e'8 [fis' g' fis']
+          e'8 [d'] e' [cis'] d'4\fermata cis'
+          cis'8 [dis'] e'4 e'8 [fis'] g' [fis']
           fis' [gis'] a'4 gis'\fermata fis'
           e'8 [fis'] g'4 fis'8 [e'] d'4
           e'2. d'4~
@@ -142,8 +142,8 @@
           b, g, fis,\fermata fis
           b cis' d' cis'8 [b]
           ais4 b fis\fermata dis
-          e fis gis8 [fis e d]
-          cis [b, cis a,] d4\fermata a8 [gis]
+          e fis gis8 [fis] e [d]
+          cis [b,] cis [a,] d4\fermata a8 [gis]
           fis4 e8 [d] cis [b,] ais,4
           b, cis8 [dis] e4\fermata fis8 [gis]
           a4 b8 [cis'] d'4 d

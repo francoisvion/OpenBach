@@ -29,7 +29,7 @@ altoMusic = {
           \partial 4  fis'4
           e' e'8 [d'] d'4 g'
           a' g' fis' fis'
-          fis'8 [e' e' dis'] e'4 e'
+          fis'8 [e'] e' [dis'] e'4 e'
           dis'2.
           \partial 4 e'4
           e' e' fis'8 e'4 gis'8
@@ -42,7 +42,7 @@ tenorMusic = {
           \voiceOne
           \repeat volta 2 {
           \partial 4  b4
-          b8 [cis'] d'4 d'8 [cis' cis' b]
+          b8 [cis'] d'4 d'8 [cis'] cis' [b]
           b [ais] b4 ais ais
           b b b ais
           fis2. } \break
@@ -55,7 +55,7 @@ tenorMusic = {
           a4. gis8 a [b] cis'4
           d'8 [b] gis4 a a
           b a a cis'
-          cis'8 [ais b gis] ais4 \fine
+          cis'8 [ais] b [gis] ais4 \fine
         }
 
 bassMusic = {
@@ -64,17 +64,17 @@ bassMusic = {
           \partial 4  b8 [a]
           g4 fis e d
           g2 fis4\fermata fis
-          b,8 [cis d e] fis4 fis
+          b,8 [cis] d [e] fis4 fis
           b,2.\fermata }
           \partial 4  b4
           e fis g fis8 [e]
           fis4 g d\fermata d
-          g fis e8 [g fis e]
+          g fis e8 [g] fis [e]
           b2.\fermata
           \partial 4 gis4
           a8 [b] cis'4 fis8 [gis] a4
           d e a,\fermata d8 [cis]
-          b, [cis] d4~ d8 [cis b, cis]
+          b, [cis] d4~ d8 [cis] b, [cis]
           d [cis] b,4 fis\fermata \fine
         }
 

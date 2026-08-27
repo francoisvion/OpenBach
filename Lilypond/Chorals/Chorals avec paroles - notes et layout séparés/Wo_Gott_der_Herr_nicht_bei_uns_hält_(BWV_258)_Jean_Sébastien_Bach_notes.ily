@@ -58,15 +58,15 @@ bassMusic = {
           \partial 4  b4
           fis g fis8 [e] d4
           gis a d\fermata b,
-          a, e b8 [a g fis]
+          a, e b8 [a] g [fis]
           e4 fis b,\fermata }
           \partial 4  cis
-          d8 [e fis g] a4 ais
+          d8 [e] fis [g] a4 ais
           b eis fis\fermata b8 [a]
           gis [fis] e4 fis8 [gis] a4
           dis e a,\fermata
           \partial 4 b,
-          cis8 [d] e4 b8 [a g fis]
+          cis8 [d] e4 b8 [a] g [fis]
           e4 fis b,\fermata \fine
         }
 

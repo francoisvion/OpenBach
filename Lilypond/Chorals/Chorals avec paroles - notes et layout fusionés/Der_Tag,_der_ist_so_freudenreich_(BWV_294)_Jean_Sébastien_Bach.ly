@@ -73,7 +73,7 @@
           fis'4 e'8 [d'] e'4. d'16 [c']
           b8 [g] d'4 d'\fermata }
           \partial 4  d'
-          d' g'8 [a'] b' [c'' b' a']
+          d' g'8 [a'] b' [c''] b' [a']
           g'4 g' a'\fermata a'
           g' g' g' a'~
           a'8 g'4 fis'8 d'2\fermata
@@ -108,9 +108,9 @@
           d'4 c'8 b4 a b16 [a]
           g4. fis8 b4\fermata }
           \partial 4  b
-          a8 [c' b a] g4 d'
+          a8 [c'] b [a] g4 d'
           d' e' fis'\fermata d'8 [c']
-          b [c' d' b] c' [b a d']
+          b [c'] d' [b] c' [b] a [d']
           d'4 d'8. [c'16] b2\fermata
           g4 a d8 g4 fis16 [e]
           fis4 e8 [fis16 g] fis2\fermata
@@ -125,20 +125,20 @@
           \voiceTwo
           \repeat volta 2 {
           \partial 4  g8 [fis]
-          e [d c b,] a,4 g,
+          e [d] c [b,] a,4 g,
           c d g,2\fermata
           d4 a,8 [b,] c4 d
           e d g,\fermata }
           \partial 4  g
           fis g8 [fis] e4 fis
           g8 [fis] e4 d\fermata fis
-          g8 [a b g] c'4 fis
+          g8 [a] b [g] c'4 fis
           g d g,2\fermata
           c8 [b,] a,4 b, cis
           d a, d,2\fermata
-          e8 [d c b,] a,4 g,
+          e8 [d] c [b,] a,4 g,
           c d g,2\fermata
-           d,8 [e, fis, g,] a, [g,] fis,4
+           d,8 [e,] fis, [g,] a, [g,] fis,4
           e, a, d\fermata b,
           c4. b,8 a,4 d8 [c]
           b, [g,] d4 g,\fermata \fine

@@ -119,22 +119,22 @@
         \new Voice = "bass" {
           \voiceTwo
           \partial 4  bes,8 [a,]
-          g, [a, bes, c d bes,]
-          ees [f g a bes a]
-          g [f ees d ees f]
+          g, [a,] bes, [c] d [bes,]
+          ees [f] g [a] bes [a]
+          g [f] ees [d] ees [f]
           bes,2\fermata fis,4
-          g,8 [d g f ees d]
-          ees [c f ees d c]
-          bes, [a, bes, c d ees]
+          g,8 [d] g [f] ees [d]
+          ees [c] f [ees] d [c]
+          bes, [a,] bes, [c] d [ees]
           f2\fermata
           \partial 4  g4
-          a8 [f g a bes g]
-          ees [d ees f g d]
-          ees [bes, c a, d d,]
+          a8 [f] g [a] bes [g]
+          ees [d] ees [f] g [d]
+          ees [bes,] c [a,] d [d,]
           g,2\fermata a4
-          bes8 [c' bes a g f]
-          ees [g f ees d c]
-          bes, [d ees c f f,]
+          bes8 [c'] bes [a] g [f]
+          ees [g] f [ees] d [c]
+          bes, [d] ees [c] f [f,]
           bes,2\fermata \fine
         }
       >>

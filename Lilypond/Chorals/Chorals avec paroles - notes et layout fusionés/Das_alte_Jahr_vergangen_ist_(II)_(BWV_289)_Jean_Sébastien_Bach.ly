@@ -98,7 +98,7 @@
           c'8 [b] a4 g\fermata g
           fis g8 [fis] e4 b
           b b b\fermata cis'
-          b ais b8 [cis' d' cis']
+          b ais b8 [cis'] d' [cis']
           b4 cis' cis'\fermata \fine
         }
         \new Voice = "bass" {
@@ -110,11 +110,11 @@
           a, dis, e,\fermata e
            a, a gis g
           fis8 [e] fis4 b,\fermata ais,
-          b, fis g8 [fis e d]
+          b, fis g8 [fis] e [d]
           c4 d g,\fermata cis
           d g, a, b,
-          e,8 [fis, g, a,] b,4\fermata ais,
-          b, e d8 [cis b, a,]
+          e,8 [fis,] g, [a,] b,4\fermata ais,
+          b, e d8 [cis] b, [a,]
           gis,4 cis fis,\fermata \fine
         }
       >>

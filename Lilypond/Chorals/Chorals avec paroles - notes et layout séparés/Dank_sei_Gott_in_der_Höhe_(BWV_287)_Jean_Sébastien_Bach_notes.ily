@@ -22,7 +22,7 @@ altoMusic = {
           \voiceTwo
           \repeat volta 2 {
           \partial 4  g'4
-          f'8 [g'] a'4 bes'8 [a' g' a']
+          f'8 [g'] a'4 bes'8 [a'] g' [a']
           bes' [a'] g'4 f'\fermata f'
           e' f' f' e'
           c'2.\fermata }
@@ -62,19 +62,19 @@ bassMusic = {
           \voiceTwo
           \repeat volta 2 {
           \partial 4  e4
-          f8 [ees d c] bes,4 c
+          f8 [ees] d [c] bes,4 c
           d e f\fermata f
-          bes8 [a g f] c'4 c
+          bes8 [a] g [f] c'4 c
           f2.\fermata }
           \partial 4  e8 [d]
-          c [c' bes a] g [f] e4
+          c [c'] bes [a] g [f] e4
           f a,8 [bes,] c4\fermata c
-          f8 [e d c] f4 g
+          f8 [e] d [c] f4 g
           c2.\fermata
           \partial 4 c4
-          f8 ees4 d16 [c] bes,8 [a g fis]
-          g [a bes c'] d'4\fermata d'8 [c']
-          bes [a g f] c'4 c
+          f8 ees4 d16 [c] bes,8 [a] g [fis]
+          g [a] bes [c'] d'4\fermata d'8 [c']
+          bes [a] g [f] c'4 c
           f2.\fermata \fine
         }
 

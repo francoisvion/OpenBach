@@ -95,7 +95,7 @@
           \repeat volta 2 {
           \partial 4  d'4
           d' c'4. bes8 bes4~
-          bes8 [a bes aes] g4\fermata a
+          bes8 [a] bes [aes] g4\fermata a
           bes ees' d'8 [c'] bes4~
           bes8 [a16 g] a4 d'\fermata }
           \partial 4  d'
@@ -117,7 +117,7 @@
           \partial 4  bes,~
           bes, a, g, c8 [bes,]
           a, [bes,] c4 f,\fermata f8 [ees]
-          d [ees d c] bes, [bes]~ bes [a]
+          d [ees] d [c] bes, [bes]~ bes [a]
           bes4 f bes,\fermata a
           bes8 [a] g4 f bes
           f2 bes,4\fermata \fine

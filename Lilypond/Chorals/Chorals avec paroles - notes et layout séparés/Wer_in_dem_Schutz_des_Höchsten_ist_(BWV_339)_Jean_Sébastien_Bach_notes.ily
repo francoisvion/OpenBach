@@ -1,6 +1,7 @@
 sopranoMusic = {
           \voiceOne
           \repeat volta 2 {
+          \repeat volta 2 {
           r4 a' gis' a'
           b' b' a' b'
           cis''2\fermata r4 d''
@@ -13,11 +14,12 @@ sopranoMusic = {
           d''8 [cis''] b'4 a'2\fermata
            r4 e'' cis'' cis''
           b' a' gis' a'
-          b'2 a'\fermata \fine
+          b'2 a'\fermata }
         }
 
 altoMusic = {
           \voiceTwo
+          \repeat volta 2 {
           \repeat volta 2 {
           r4 e' d' e'
           fis' cis' cis' fis'
@@ -31,11 +33,12 @@ altoMusic = {
           d'8 [fis'] g'4 g' fis'\fermata
           r b'4. a'16 [gis'] a'4~
           a'8 [gis'16 fis'] e'4 e' e'
-          e'4. d'8 cis'2\fermata \fine
+          e'4. d'8 cis'2\fermata }
         }
 
 tenorMusic = {
           \voiceOne
+          \repeat volta 2 {
           \repeat volta 2 {
           r4 cis' b a
           a gis a gis8 [fis]
@@ -49,11 +52,12 @@ tenorMusic = {
           fis [d] d'4 d'2\fermata
           r4 e' e' cis'8 [d'16 e']
           fis'8 [e'] a4 d'8 [b] a4
-          a gis e2\fermata \fine
+          a gis e2\fermata }
         }
 
 bassMusic = {
           \voiceTwo
+          \repeat volta 2 {
           \repeat volta 2 {
           r4 a, b, cis
           dis eis fis8 [e] d4
@@ -67,11 +71,11 @@ bassMusic = {
           b,~ b,8 [cis] d2\fermata
           r4 gis, a,8 [cis] fis [e]
           d4~ d8 [cis] b, [e] cis [a,]
-          e4 e, a,2\fermata \fine
+          e4 e, a,2\fermata }
         }
 
 versoOneLyrics = \lyricmode {\set stanza = 1
-      Herr, wie du willst, so schick's mit mir
+      \tweak X-offset #-5 "1. Herr," wie du willst, so schick's mit mir
       im Le -- ben wie im Ster -- ben,     
       Er -- halt' mich nur in dei -- ner Huld,
       sonst wie du willst, gieb mir Ge -- duld,
@@ -84,7 +88,7 @@ versoTwoLyrics = \lyricmode {\set stanza = 2
     }
 
 versoThreeLyrics = \lyricmode {\set stanza = 3
-      Wer in dem Schutz des Höch -- sten ist,
+      \tweak X-offset #-5 "2. Wer" in dem Schutz des Höch -- sten ist,
       und sich Gott thut er -- ge -- ben,      
       der du ja wirst er -- ret -- ten mich
       von Teu -- fels Stri -- cken gnä -- dig -- lich

@@ -91,7 +91,7 @@
     }
     
     \new Lyrics \lyricsto "soprano" {\set stanza = 2
-      \repeat unfold 2 {\skip1}, ihr Sün -- den,
+      \repeat unfold 3 {\skip1} ihr Sün -- den,
       blei -- bet weit da -- hin -- ten,
       kommt nicht mehr ans Licht!
     }

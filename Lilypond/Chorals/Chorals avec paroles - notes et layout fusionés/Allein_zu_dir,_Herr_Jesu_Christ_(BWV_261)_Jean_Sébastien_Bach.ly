@@ -92,7 +92,7 @@
           r  d'2 a'4~ 
           a' g' fis'\fermata r
           r fis' e' e'
-          d' d''8 [cis''] b' [ais' b' cis''] 
+          d' d''8 [cis''] b' [ais'] b' [cis''] 
           ais'4 b'8 [a'] g'4 fis'8 [e'] 
           dis'2\fermata r4 \fine
         }
@@ -139,7 +139,7 @@
           \partial2 b4 b
           b2\fermata r4 b
           b8 a4 gis8 fis4 fis
-          g8 [a b cis'] dis'4\fermata r
+          g8 [a] b [cis'] dis'4\fermata r
           r b8 [cis'16 d'] cis'4 d'8 [e'] 
           fis'4 e'd'\fermata r
           r d' 4 gis 4 ais 4 
@@ -189,7 +189,7 @@
           a 4 a, 4 d
           4\fermata r 4 
           r d d' cis'
-          b4. a8 g [fis g e] 
+          b4. a8 g [fis] g [e] 
           fis4 g8 [fis] e4 fis
           b,2\fermata r4 \fine
         }

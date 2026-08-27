@@ -77,7 +77,7 @@
           g'8 [f'] e'4 e' e'8 [d']
           c'4 f' e' e'8 [f']
           g'4 f'8 [e'] d'4 c'8 [d']
-          e' [dis' e' fis'] fis' [e']\fermata e'4
+          e' [dis'] e' [fis'] fis' [e']\fermata e'4
            d'8 [c'] f'4 e' a'
           a' g'8 [f'] e'4 }
           \partial 4 g'
@@ -132,11 +132,11 @@
           d' d'8 [c'] b4 c'8 [b]
           a [b] c'4 c' c'8 [d']
           e' [d'] c'4 d' g
-          c'8 [b a c'] b4 c'8 [b]
+          c'8 [b] a [c'] b4 c'8 [b]
            a4 d' c'8 [b] c'4
           c' b g }
           \partial 4 e'
-          e'8 [c' f' e'] e'4. d'8
+          e'8 [c'] f' [e'] e'4. d'8
           c' [b] a4 g d'
           e' f' e' a8 [gis]
           a [e] a4 b
@@ -158,16 +158,16 @@
           \repeat volta 2 {
           \partial 4  c4
           g a e8 [d] c4
-          f8 [g a b] c'4\fermata a
+          f8 [g] a [b] c'4\fermata a
           e f b, c8 [b,]
-          a, [b, cis dis] e4\fermata c
+          a, [b,] cis [dis] e4\fermata c
            f e8 [d] a4. g8
           f [d] g4 c\fermata }
           \partial 4 c'8 [b]
-          a4. gis8 a [b c' b]
-          a [g fis d] g4\fermata g8 [f]
-          e [d c b,] c4 d
-          a,8 [b, c a,] e4\fermata
+          a4. gis8 a [b] c' [b]
+          a [g] fis [d] g4\fermata g8 [f]
+          e [d] c [b,] c4 d
+          a,8 [b,] c [a,] e4\fermata
           \partial 4 cis
           d g8 [f] e4 a8 [g]
           f [d] g4 c\fermata g

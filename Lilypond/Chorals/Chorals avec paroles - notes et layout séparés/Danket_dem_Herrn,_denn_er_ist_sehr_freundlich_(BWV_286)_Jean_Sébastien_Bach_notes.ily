@@ -38,7 +38,7 @@ bassMusic = {
           \voiceTwo
           \partial 4  a,4
           a4. gis8 a [a,] b,4
-          c8 [d e f] g4 a
+          c8 [d] e [f] g4 a
           e2 e,4\fermata
           \partial 4  e8 [d]
           c4 c b, a,

@@ -20,7 +20,7 @@ altoMusic = {
           c'2\fermata r4 f'
           f'8 g'4 f' e'8 d'4
            g c' c'\fermata e'8 [fis']
-          g' [e' f' e'] d'4. c'8~
+          g' [e'] f' [e'] d'4. c'8~
           c' [d'16 c'] b4 g\fermata f'8 [ees']
           d' [e'] f'4. e'4 d'16 [e']
           f'4. e'8 c'4\fermata \fine
@@ -30,13 +30,13 @@ tenorMusic = {
           \voiceOne
           \partial 4  a8 [g]
           f4 c'8 [bes] a [bes] c'4
-          f8 [c'] c'4 d'8 [bes g c'16 bes]
+          f8 [c'] c'4 d'8 [bes] g [c'16 bes]
           a2\fermata r4 c'
           d'8 [c'] c'4 d'8 c'4 b8
            c'4 f e\fermata a
           d'8 [cis'] d'4 g g
           a g8 [f] e4\fermata c'
-          bes c'~ c'8. [bes16 a8 bes]
+          bes c'~ c'8. [bes16] a8 [bes]
           c'4 c'8. [bes16] a4\fermata \fine
         }
 
@@ -47,7 +47,7 @@ bassMusic = {
           d8 [e] f4 bes, c
           f,2\fermata r4 f8 [ees]
           d [e] f4 b,8 [c] d4
-           c8 [bes, a, f,] c4\fermata a,
+           c8 [bes,] a, [f,] c4\fermata a,
           g, d8 [c] b,4 c
           f, g, c\fermata f,
           g, a,8 [bes,] c4 d

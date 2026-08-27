@@ -60,7 +60,7 @@
           c'' [d''] d''4. ees''8
           ees''2\fermata
           \partial 4  c''4
-          a' bes'8 [a' g' f']
+          a' bes'8 [a'] g' [f']
           f''4. bes'8 g''4
           g''8 [f''] d''4 c''8 [bes']
           bes'2\fermata \fine
@@ -75,7 +75,7 @@
           bes' a' f'\fermata
            f' f'4. g'8
           a'4 bes'8 [a'] bes'4
-          ees' f'8 [ees' f' e']
+          ees' f'8 [ees'] f' [e']
           f'2\fermata }
           \partial 4 f'4
           f'2 f'4
@@ -109,10 +109,10 @@
           \repeat volta 2 {
           \partial 4  bes4
           bes f'8 [ees'] f'4
-          ees' bes8 [a bes c']
+          ees' bes8 [a] bes [c']
           d'2 g'4
           f'4. ees'8 d'4\fermata
-           c'8 [bes c' a] bes4
+           c'8 [bes] c' [a] bes4
           c' f f
           c' bes f8 [g]
           a2\fermata }
@@ -132,21 +132,21 @@
           \repeat volta 2 {
           \partial 4  bes4
           d c bes,
-          ees g8 [f g ees]
+          ees g8 [f] g [ees]
           bes [a] g4 ees
           f2 bes,4\fermata
-           a8 [g a f] bes4
+           a8 [g] a [f] bes4
           f ees d
-          c d8 [c d bes,]
+          c d8 [c] d [bes,]
           f,2\fermata }
           \partial 4 f8 [ees]
-          d4 ees8 [d c bes,]
+          d4 ees8 [d] c [bes,]
           ees4. ees8 aes4~
           aes8 [g] f4 g
           c2\fermata
           \partial 4  ees4
           f2 ees4
-          d g8 [f ees d]
+          d g8 [f] ees [d]
           ees4 f f,
           bes,2\fermata \fine
         }

@@ -68,7 +68,7 @@
           a'2 a'4 gis'\fermata
            g'8 [fis'] g' [a'] g'4 f'
           e' fis' e'2\fermata
-          c'4 f'8 [e'] d' [c' d' e']
+          c'4 f'8 [e'] d' [c'] d' [e']
           d'2 c'\fermata
           g'4 g' g' g'8 [f']
           e'2 e'\fermata

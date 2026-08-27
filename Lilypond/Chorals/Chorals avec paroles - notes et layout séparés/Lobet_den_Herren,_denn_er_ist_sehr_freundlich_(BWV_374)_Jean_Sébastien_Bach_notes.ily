@@ -37,8 +37,8 @@ altoMusic = {
           a'8 [g'] f' [e'] f' [g'] a' [g']
           a' [fis'] g' a'4 g' fis'8
           g'8. [fis'16] g'8 [g] d'2\fermata
-          d'8 [e' f' fis'] g' [ees'] d'4~
-          d'8 [c' d' bes] d'2\fermata
+          d'8 [e'] f' [fis'] g' [ees'] d'4~
+          d'8 [c'] d' [bes] d'2\fermata
           r4 fis' d' g'
           f'4. g'16 [f'] e'8 [fis'] g'4~
           g'8 [fis'] g'4 g' fis'

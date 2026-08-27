@@ -33,14 +33,14 @@ altoMusic = {
           \partial 4  d'4
           d' e' d'
           d'2 b4
-          e'8 [d' e' fis'] g'4
+          e'8 [d'] e' [fis'] g'4
           fis'2\fermata g'4
           d' e' fis'
           g'2 fis'4
           d'2\fermata }
           \partial 4  g'4
-          g'8 [fis' e' fis'] g'4~
-          g'8 [a' g' fis'] g'4
+          g'8 [fis'] e' [fis'] g'4~
+          g'8 [a'] g' [fis'] g'4
           fis'2\fermata e'4
           e' fis'8 [g'] a'4
           a' g'4. fis'8
@@ -49,7 +49,7 @@ altoMusic = {
           \partial 4 g'4
           a'4. g'8 fis'4
           g'2 fis'4
-          fis'8 [e' e' fis'] g'4
+          fis'8 [e'] e' [fis'] g'4
           fis'2\fermata g'4
           a'2 g'8 [fis']
           g'2 fis'4
@@ -107,7 +107,7 @@ bassMusic = {
           \partial 4 g,4
           fis, g, a,
           b, g, d
-          e8 [d c b, a, g,]
+          e8 [d] c [b,] a, [g,]
           d2\fermata g4~
           g fis e~
           e8 [d] c4 d

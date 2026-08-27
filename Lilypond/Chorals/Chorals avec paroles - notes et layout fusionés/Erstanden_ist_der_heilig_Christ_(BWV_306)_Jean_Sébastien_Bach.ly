@@ -58,7 +58,7 @@
           a'2 g'4
           f'2 e'4
           f'2\fermata f'4
-          g'8 [f' g' a'] bes'4
+          g'8 [f'] g' [a'] bes'4
           a'2 g'4
           f'2 e'4
           f'2\fermata \fine
@@ -79,7 +79,7 @@
           g' f' e'
           e' d' c'8 [bes]
           a2\fermata d'4
-          d' e'8 [f' d' e']
+          d' e'8 [f'] d' [e']
           f'2 e'4~
           e' d' c'
           c'2\fermata \fine
@@ -98,7 +98,7 @@
         \new Voice = "tenor" {
           \voiceOne
           \partial 4  a4
-          a8 [bes a g] f4
+          a8 [bes] a [g] f4
           g2 c'4
           c'2 d'4
           g2\fermata c'4
@@ -108,12 +108,12 @@
           e2\fermata
           \partial 4  f4
           a c'2
-          c'8 [a d' c'] bes4
-          a8 [f bes a] g4
+          c'8 [a] d' [c'] bes4
+          a8 [f] bes [a] g4
           f2\fermata a4
           g c' d'8 [g]
           a [bes] c'4. bes8
-          a4 bes8 [a g bes]
+          a4 bes8 [a] g [bes]
           a2\fermata \fine
         }
         \new Voice = "bass" {
@@ -128,12 +128,12 @@
           d4. c8 bes,4
           a,2\fermata
           \partial 4  d4
-          a8 [a, a g] f [e]
-          f [f, f e] d [cis]
+          a8 [a,] a [g] f [e]
+          f [f,] f [e] d [cis]
           d4 bes, c
           d2\fermata d8 [c]
           bes,4. a,8 g,4
-          f,8 [g, a, bes,] c4
+          f,8 [g,] a, [bes,] c4
           d8 [c] bes,4 c
           f,2\fermata \fine
         }

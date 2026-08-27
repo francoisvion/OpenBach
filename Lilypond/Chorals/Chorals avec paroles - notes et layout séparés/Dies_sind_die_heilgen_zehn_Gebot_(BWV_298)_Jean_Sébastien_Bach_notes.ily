@@ -36,18 +36,18 @@ tenorMusic = {
           a d' g c'8 [bes]
           a4 bes8 [a] a4\fermata c'
           c'8 [d'] d'4 c'2\fermata
-          d'8 [c' bes a] g4\fermata a
+          d'8 [c'] bes [a] g4\fermata a
           d'4. c'8 c' [b16 a] b4\fermata \fine
         }
 
 bassMusic = {
           \voiceTwo
           \partial 4  g8 [f]
-          e [d c b,] c [d e f]
+          e [d] c [b,] c [d] e [f]
           g4 g, c\fermata f8 [e]
-          d [e f g] a [b] c'4
-          g8 [f e d] c4\fermata f8 [e]
-          d c4 b,8 c [d e d]
+          d [e] f [g] a [b] c'4
+          g8 [f] e [d] c4\fermata f8 [e]
+          d c4 b,8 c [d] e [d]
           cis d4 cis8 d4\fermata c8 [b,]
           a, a4 gis8 a2\fermata
           d4 e8 [fis] g4\fermata d8 [c]

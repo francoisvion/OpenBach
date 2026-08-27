@@ -73,7 +73,7 @@
           f'4. ees'8 d' g'4 fis'8
           g' [fis'] g' [g] d'4\fermata
           \partial 4 g8 [g']~
-          g' [fis' g' f'] ees'4 d'
+          g' [fis'] g' [f'] ees'4 d'
           ees'8 [c'] a [d'16 c'] b4\fermata \fine
         }
       >>

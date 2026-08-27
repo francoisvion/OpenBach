@@ -1,23 +1,24 @@
 sopranoMusic = {
           \voiceOne
+          \tempo \markup{\tiny \italic "Interludes instrumentaux absents"}
           \once \textLengthOn s2.^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} }
           \repeat volta 2 {
           c''4 a'2
           g' f'4
           bes' c''4. d''16 [ees'']
           d''2.
-          c''2 r4 \bar "||"
-          \once \textLengthOn s2.^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } \bar "||"
+          c''2 \bar "'" r4
+          \once \textLengthOn s2.^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } \bar "'"
           d''4 bes'2
           c'' f'4
           bes' a'2
-          g'2. R } \once \textLengthOn s2.^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } \bar "||"
+          g'2. R } \once \textLengthOn s2.^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } \bar "'"
           e''4 c''2
           a' d''4
           cis'' d''4. e''16 [f'']
           e''2.
           a'2 r4
-          \once \textLengthOn s2.^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } \bar "||"
+          \once \textLengthOn s2.^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } \bar "'"
           d''4 e'' f''
           g'' c'' bes'
           a' d'' bes'
@@ -33,12 +34,12 @@ altoMusic = {
           f'4 e' f'
           d' g' f'
           f'2.
-          f'2 r4 \bar "||"
+          f'2 \bar "'" r4
           s2.
           a'4 g'2
           g'4 f' f'
           f'8 [g'] g'4 f'
-          e'2. R } s2. \bar "||"
+          e'2. R } s2.
           g'8 [f'] g'4 g'
           g' f' f'
           g' a' bes'8 [a']
@@ -60,12 +61,12 @@ tenorMusic = {
           c'4. bes8 a4
           bes2 a8 [bes16 c']
           c'4 bes8 [a] bes4
-          a2 r4
+          a2 \bar "'" r4
           s2.
           f'4 d'2
           c'8 [bes] a4 a
           d'8 [c'] c'2
-          c'2. R } s2. \bar "||"
+          c'2. R } s2.
           c'2 r4
           c'2 bes4~
           bes a d'8 [c']
@@ -87,12 +88,12 @@ bassMusic = {
           c2 d4
           g8 [f] ees4 f
           bes,8 [c] d4 bes,
-          f2 r4 
+          f2 \bar "'" r4 
           s2.
           d4 g f
           e f8 [e] d [c]
           d [e] f4 f
-          c2. R } s2. \bar "||"
+          c2. R } s2.
           c8 [d] e4 c
           f8 [e] f4 bes
           e f d

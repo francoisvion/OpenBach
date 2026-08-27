@@ -122,7 +122,7 @@
           d'4. cis'16 [b] cis'4
           a2\fermata e'4
           e' b b
-          c'8 [b a b] c'4
+          c'8 [b] a [b] c'4
           b2\fermata \fine
         }
         \new Lyrics \with {

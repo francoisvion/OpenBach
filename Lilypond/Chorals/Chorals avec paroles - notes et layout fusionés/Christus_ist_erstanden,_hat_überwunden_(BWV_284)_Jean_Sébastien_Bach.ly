@@ -68,7 +68,7 @@
           g'4. f'4 e'8\fermata e'4~
           e'8 [fis'] g'4 g' fis'
           d'2\fermata d'8 ees'4 d'8~
-          d' [bes' a' g'] fis' g'4 fis'8
+          d' [bes'] a' [g'] fis' g'4 fis'8
           d'2\fermata
           \partial 32 * 16  e'8 [f'] g'4
           g' g' g'2\fermata
@@ -80,7 +80,7 @@
           bes'2 bes'4 a'
           bes'2\fermata bes'4. a'8
           bes'4 a' g' e'
-          f'8 [e' d' f'] e'2\fermata \fine
+          f'8 [e'] d' [f'] e'2\fermata \fine
         }
       >>
     }
@@ -103,12 +103,12 @@
           bes2\fermata
           \partial 32 * 16  c'4. d'8
           e' [d'16 c'] d'8 [f']~ f' [e'16 d'] e'4\fermata
-          f' f' f'8 [e' d' e']
+          f' f' f'8 [e'] d' [e']
           f'4. e'8 c'2\fermata
           c'4 c' d' ees'8 [d'16 c']
           bes2\fermata
           \partial 32 * 16 bes8 [d'] f'4
-          f' ees'8 [f'] g' [ees' c' f']
+          f' ees'8 [f'] g' [ees'] c' [f']
           f'2\fermata f'4 f'
           f' ees'8 [d'] d'4 c'
           c' g g2\fermata \fine
@@ -121,16 +121,16 @@
           g,2\fermata g4 fis
           g c d d,
           g,2\fermata
-          \partial 32 * 16  c8 [d e f]
+          \partial 32 * 16  c8 [d] e [f]
           g4 g, c2\fermata
-          f8 [g f e] d [e f g]
-          a [f g c] f2\fermata
-          c'8 [bes] a4 g8 [bes, c d]
+          f8 [g] f [e] d [e] f [g]
+          a [f] g [c] f2\fermata
+          c'8 [bes] a4 g8 [bes,] c [d]
           ees2\fermata
           \partial 32 * 16 g4 f
-          bes8 [a g f] ees [c] f4
+          bes8 [a] g [f] ees [c] f4
           bes,2\fermata bes4 f
-          bes8 [a g fis] g [a bes c']
+          bes8 [a] g [fis] g [a] bes [c']
           f4 g c2\fermata \fine
         }
       >>

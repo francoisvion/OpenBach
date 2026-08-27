@@ -68,8 +68,8 @@
           g' g' g' g'
           g' g'8 [f'] g'4\fermata
           \partial 4  d'
-          g' g' aes'8 [g' g' f']
-          g' [aes' g' f'] ees'4\fermata ees'8 [f']
+          g' g' aes'8 [g'] g' [f']
+          g' [aes'] g' [f'] ees'4\fermata ees'8 [f']
           g'4 f' f'8 g'4 f'8~
           f' ees'4 d'8 ees'4\fermata
           \partial 4 c'
@@ -102,7 +102,7 @@
           c'8 [g] c'4 d'8 c'4 d'16 [c']
           bes8 [c'] f [bes16 aes] g4\fermata
           \partial 4 g8 [aes]
-          bes [aes bes des'] c' [bes] aes4
+          bes [aes] bes [des'] c' [bes] aes4
           bes bes bes\fermata c'
           d'4. c'4 b8 c' [aes]
           g2 g4\fermata \fine
@@ -112,13 +112,13 @@
           \partial 4  c4
           b, c d ees~
           ees d c\fermata b,
-          c2~ c8 [ees g f]
+          c2~ c8 [ees] g [f]
           ees4 aes g\fermata
           \partial 4  g8 [f]
           ees [d] c4 f8 [g] aes4
           g g, c\fermata c8 [d]
           ees4. f16 [ees] d8 [ees] f4
-          g8 [aes bes bes,] c4\fermata
+          g8 [aes] bes [bes,] c4\fermata
           \partial 4 c
           g,8 [f,] ees,4 aes,8 [g,] f,4
           ees,8 [g,] bes,4 ees\fermata c~

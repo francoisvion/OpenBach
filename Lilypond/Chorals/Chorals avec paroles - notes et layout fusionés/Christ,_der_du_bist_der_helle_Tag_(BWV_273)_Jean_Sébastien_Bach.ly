@@ -60,8 +60,8 @@
         \new Voice = "alto" {
           \voiceTwo
           \partial 4  d'4
-          d'8 [e' f' g'] f' [ees'] d'4
-          g'8 [f' ees' f'] f'4\fermata f'
+          d'8 [e'] f' [g'] f' [ees'] d'4
+          g'8 [f'] ees' [f'] f'4\fermata f'
           f' g' a' bes'~
           bes'8 [a'16 g'] a'4 f'\fermata
           \partial 4  g'
@@ -100,20 +100,20 @@
           bes4. a8 bes4\fermata bes
           bes bes4. a8 a4~
           a8 [g] g [a16 bes] a4\fermata bes8 [c']
-          d' [c' bes a] g4 d'
-          d'8 [ees' a d'] bes4\fermata \fine
+          d' [c'] bes [a] g4 d'
+          d'8 [ees'] a [d'] bes4\fermata \fine
         }
         \new Voice = "bass" {
           \voiceTwo
           \partial 4  g,4
-          g d8 [e] f [fis g f]
-          ees [d c f] bes,4\fermata bes,
+          g d8 [e] f [fis] g [f]
+          ees [d] c [f] bes,4\fermata bes,
           bes8 [a] g4 f g8 [f]
           ees4 f bes,\fermata
           \partial 4  g8 [f]
-          ees [d c bes,] f4. ees8
+          ees [d] c [bes,] f4. ees8
           d [bes,] f4 bes,\fermata bes,
-          bes,8 [c d ees] f4 fis8 [d]
+          bes,8 [c] d [ees] f4 fis8 [d]
           g4 cis d\fermata bes,8 [a,]
           g,4 g8 [f] e4 fis
           g8 [c] d4 g,\fermata \fine

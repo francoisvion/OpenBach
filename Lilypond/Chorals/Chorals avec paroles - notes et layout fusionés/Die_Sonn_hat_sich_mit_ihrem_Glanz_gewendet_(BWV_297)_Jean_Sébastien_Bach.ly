@@ -91,7 +91,7 @@
           \voiceOne
           \partial 4  f4
           a bes d'\fermata f'
-          e' e'8. [d'16] c'8 [d' e' f']
+          e' e'8. [d'16] c'8 [d'] e' [f']
           b e'4 d'8 cis'4\fermata
           \partial 4  d'
           d'8 [e'] f'4 e'\fermata a
@@ -116,7 +116,7 @@
           bes, c f,\fermata bes,
           g, a, d,\fermata
           \partial 4 d
-          a,8 [g, a, bes,] c4 d8 [e]
+          a,8 [g,] a, [bes,] c4 d8 [e]
           f4\fermata d a, bes,
           f,\fermata e, d, bes,
           g, a, d,2\fermata \fine

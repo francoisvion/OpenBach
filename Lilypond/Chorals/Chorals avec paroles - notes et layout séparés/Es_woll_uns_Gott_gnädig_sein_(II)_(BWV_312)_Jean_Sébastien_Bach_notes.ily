@@ -27,7 +27,7 @@ altoMusic = {
           \repeat volta 2 {
           \partial 4  gis'4
           a'8 [e'] f' [e']~ e' [d'] g'4~
-          g'8 [f' g' e'] f'4 e'8 [dis']
+          g'8 [f'] g' [e'] f'4 e'8 [dis']
           e'2\fermata r4 f'
           e'8 [fis'] g'4 g' f'
           e'4. d'16 [c'] b4\fermata }
@@ -103,5 +103,5 @@ versoTwoLyrics = \lyricmode {\set stanza = 2
     }
 
 altoLyrics = \lyricmode {
-    \repeat unfold 54 {\skip1} be -- keh - - - ren.
+    \repeat unfold 55 {\skip1} be -- keh - - - ren.
     }

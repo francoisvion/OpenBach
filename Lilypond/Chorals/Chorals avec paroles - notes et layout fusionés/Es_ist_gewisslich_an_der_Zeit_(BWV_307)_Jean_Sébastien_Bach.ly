@@ -65,9 +65,9 @@
           bes' bes' c'' bes'
           bes' a' f'\fermata \fine
           \partial 4  f'
-          f' f'8 [ees'] d' [g' g' fis']
+          f' f'8 [ees'] d' [g'] g' [fis']
           g' [a'] bes'4 a'\fermata a'
-          a'8 [g' g' fis'] g'4 d'
+          a'8 [g'] g' [fis'] g'4 d'
           d' g' fis'\fermata d'
           g' g' f' f'
           g' f'8 [ees'] d'4\fermata \fine
@@ -87,7 +87,7 @@
           \voiceOne
           \partial 4  d'8 [c']
           bes4 f' f'8 [ees'] d'4
-          c'8 [bes bes a] bes4\fermata d'8 [ees']
+          c'8 [bes] bes [a] bes4\fermata d'8 [ees']
           f'4 g' f' f'
           g' f'8 [ees'] d'4\fermata \fine
           \partial 4  bes
@@ -108,7 +108,7 @@
           \partial 4  bes,8 [c]
           d [ees] f4 g a
           g d8 [ees] f4\fermata fis
-          g d g8 [a bes a]
+          g d g8 [a] bes [a]
           g [f] ees4 d\fermata g,
           g f8 [ees] d [c] bes,4
           ees f bes,\fermata \fine

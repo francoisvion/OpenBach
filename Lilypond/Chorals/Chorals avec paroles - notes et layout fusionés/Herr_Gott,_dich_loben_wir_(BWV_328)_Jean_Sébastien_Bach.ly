@@ -366,7 +366,7 @@
           bes, [a,] g,4 f,8 [g,16 a,] bes,4
           b,8 [g,] d4 a,\fermata b,
           c2. b,8 [a,]
-          gis,4. e,8 a, [b, c d]
+          gis,4. e,8 a, [b,] c [d]
           e2 e,\fermata \fine
     }
       >>

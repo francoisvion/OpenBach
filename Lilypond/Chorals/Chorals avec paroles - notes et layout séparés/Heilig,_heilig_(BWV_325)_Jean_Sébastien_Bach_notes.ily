@@ -66,23 +66,23 @@ tenorMusic = {
 
 bassMusic = {
           \voiceTwo
-           f,8 [g, a, bes,] c2
-          f,\fermata e8 [c g g,]
-          c2\fermata d8 [c b, g,]
-          c [e a g] f [d g g,]
+           f,8 [g,] a, [bes,] c2
+          f,\fermata e8 [c] g [g,]
+          c2\fermata d8 [c] b, [g,]
+          c [e] a [g] f [d] g [g,]
           c2\fermata f4 bes,
           c d8 [e] f2\fermata
-           r4 c8 [e] f [g a g]
-          f [d g g,] c2\fermata
-          f8 [e d f] g [f e c]
-          f [e d bes,] c4 c,
+           r4 c8 [e] f [g] a [g]
+          f [d] g [g,] c2\fermata
+          f8 [e] d [f] g [f] e [c]
+          f [e] d [bes,] c4 c,
           f,2\fermata r4
           \partial 4 f
           c2 d4\fermata e
           f g a\fermata a
           b c' f g
-          c2\fermata f8 [e d f]
-          g [f e c] f [e d c]
+          c2\fermata f8 [e] d [f]
+          g [f] e [c] f [e] d [c]
           bes, [g,] c4 f,2\fermata \fine
         }
 

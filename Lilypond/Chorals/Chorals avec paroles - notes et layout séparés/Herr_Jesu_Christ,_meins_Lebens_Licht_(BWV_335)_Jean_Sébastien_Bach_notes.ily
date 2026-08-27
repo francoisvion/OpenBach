@@ -1,5 +1,6 @@
 sopranoMusic = {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  b'4
           b' a' b' g'
           fis'8 [g'16 a'] fis'4 e'\fermata e'8 [fis']
@@ -9,11 +10,12 @@ sopranoMusic = {
           e'' fis'' e'' b'
           cis'' b' a'\fermata a'8 [b']
           cis''4 dis'' e'' d''
-          cis''8 [d''16 e''] cis''4 b'\fermata \fine
+          cis''8 [d''16 e''] cis''4 b'\fermata }
         }
 
 altoMusic = {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  dis'4
           e' e' fis' e'
           e' dis' b\fermata b
@@ -23,11 +25,12 @@ altoMusic = {
           e' d' e' eis'
           fis'4. eis'8 fis'4\fermata fis'8 [gis']
           a'4 a' b'8 cis''4 b'8
-          b' [ais'16 gis'] ais'4 fis'\fermata \fine
+          b' [ais'16 gis'] ais'4 fis'\fermata }
         }
 
 tenorMusic = {
           \voiceOne
+          \repeat volta 2 {
           \partial 4  fis4
           g a8 [g] fis4 b
           c' b8 [a] g4\fermata g8 [a]
@@ -37,11 +40,12 @@ tenorMusic = {
           a a8 [b] cis'4 d'
           cis' gis8 [cis'] cis'4\fermata d'
           e' fis' e'8 [cis'] d' [fis']
-          g' [cis'] fis' [e'] dis'4\fermata \fine
+          g' [cis'] fis' [e'] dis'4\fermata }
         }
 
 bassMusic = {
           \voiceTwo
+          \repeat volta 2 {
           \partial 4  b,4
           e c' dis e
           a, b, e,\fermata e,
@@ -51,7 +55,7 @@ bassMusic = {
           cis4 d a gis
           a8 [b] cis'4 fis\fermata d
           a gis8 [fis] gis [ais] b4
-          e fis b,\fermata \fine
+          e fis b,\fermata }
         }
 
 versoOneLyrics = \lyricmode {\set stanza = 1

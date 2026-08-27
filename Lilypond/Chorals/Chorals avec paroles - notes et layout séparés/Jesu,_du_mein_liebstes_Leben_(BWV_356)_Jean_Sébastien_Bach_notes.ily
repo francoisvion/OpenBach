@@ -28,12 +28,12 @@ altoMusic = {
           \voiceTwo
           \repeat volta 2 {
           d'2 a'4~
-          a'8 [g' f' ees'] d'4
+          a'8 [g'] f' [ees'] d'4
           g' a'4. g'8
           g'4 fis' d'\fermata
           bes' a'8 [g'] f'4
            g' f'8 [ees'] d'4
-          g' ees'8 [g' f' ees']
+          g' ees'8 [g'] f' [ees']
           d'2.\fermata }
           \repeat volta 2 {
           f'2 g'4~

@@ -25,18 +25,18 @@ altoMusic = {
           \partial 4  b4
           e' e' e' f'8 [e']
           e' a'4 gis'8 e'4\fermata e'8 [f']
-          g' [a' a' g'16 f'] g'4. f'8~
+          g' [a'] a' [g'16 f'] g'4. f'8~
           f' e'4 d'16 [c'] b4\fermata }
           \partial 4  c'
-          f' f' f'8 [e'16 d' e'8 fis']
+          f' f' f'8 [e'16 d'] e'8 [fis']
           g'16 [d'] g'4 fis'8 d'4\fermata e'
-          e' e'8 [d'] c' [b cis' d']
+          e' e'8 [d'] c' [b] cis' [d']
           e'4. d'4 cis'8\fermata
           \partial 4 c'4
           c'8 ees'4 d'8 d'4 c'
           c'4. b8 g4\fermata g
           d' e'8 [d'] c'4 d'
-          e'8 [f' g' e'] f'4. e'8~
+          e'8 [f'] g' [e'] f'4. e'8~
           e' d'4 c'8 b4\fermata \fine
         }
 
@@ -45,12 +45,12 @@ tenorMusic = {
           \repeat volta 2 {
           \partial 4  g4
           b b c' d'
-          c'8 [e' f' e'16 d'] c'4\fermata b
+          c'8 [e'] f' [e'16 d'] c'4\fermata b
           e' f'8 [e'16 d'] c'4 c'
-          c'8. [bes16 a8 b16 a] gis4\fermata }
+          c'8. [bes16] a8 [b16 a] gis4\fermata }
           \partial 4  a
-          c' d'4. c'8 [g a]
-          d [d' e' d'16 c'] b4\fermata c'
+          c' d'4. c'8 g [a]
+          d [d'] e' [d'16 c'] b4\fermata c'
           c' c'8 [bes] a4 a
           a a a\fermata
           \partial 4 a
@@ -58,27 +58,27 @@ tenorMusic = {
           a4 g8. [f16] e4\fermata e
           g c'8 [d'] e' [f'] g'4
           g c' c' c'8. [bes16]
-          a8 [b16 c' b8 a] gis4\fermata \fine
+          a8 [b16 c'] b8 [a] gis4\fermata \fine
         }
 
 bassMusic = {
           \voiceTwo
           \repeat volta 2 {
           \partial 4  e4~
-          e8 [f e d] c a4 gis8
-          a [c d e] a,4\fermata e8 [d]
+          e8 [f] e [d] c a4 gis8
+          a [c] d [e] a,4\fermata e8 [d]
           c4 d8 [g] e [c] f4
           c d e\fermata }
           \partial 4  a8 [g]
-          f [e d c] b, [c b, a,]
-          g, [b, c d] g,4\fermata c8 [b,]
-          a, [b, c e,] f, [g, a, b,]
+          f [e] d [c] b, [c] b, [a,]
+          g, [b,] c [d] g,4\fermata c8 [b,]
+          a, [b,] c [e,] f, [g,] a, [b,]
           cis [a,] d4 a,\fermata
           \partial 4 a8 [g]
           f4 fis g a8 [g]
-          f [d g g,] c4\fermata c
+          f [d] g [g,] c4\fermata c
           b, c8 [b,] a,4 g,8 [f,]
-          e, [d, e, c,] f, [a,] c4
+          e, [d,] e, [c,] f, [a,] c4
           d2 e4\fermata \fine
         }
 

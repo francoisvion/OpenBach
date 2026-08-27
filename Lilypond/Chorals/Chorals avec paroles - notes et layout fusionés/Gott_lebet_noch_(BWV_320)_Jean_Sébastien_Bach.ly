@@ -152,11 +152,11 @@
           c'2 d'4
           e'2.\fermata
           g'2 f'4
-          f'8 [e' d' cis'] d'4
+          f'8 [e'] d' [cis'] d'4
           g'2 f'4
           e'2 cis'4
           d'2 c'4
-          bes f'8 [e' d' e']
+          bes f'8 [e'] d' [e']
           f'4 d' a
           f2.\fermata
           a2 a4
@@ -173,7 +173,7 @@
           c'2.
           c'2 c'4
           bes bes c'
-          c' d'8 [c' bes c']
+          c' d'8 [c'] bes [c']
           a2.\fermata \fine
         }
         \new Voice = "bass" {

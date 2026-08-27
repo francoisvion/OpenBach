@@ -34,7 +34,7 @@ altoMusic = {
           \partial 4 g'
           fis' d' d'2
           e'4. d'8 cis'2\fermata
-          dis'8 [e' e' fis'] b e'4 dis'8
+          dis'8 [e'] e' [fis'] b e'4 dis'8
           b2.\fermata \fine
         }
 
@@ -50,7 +50,7 @@ tenorMusic = {
           g8 [a] b4 e a
           g8 [a16 b] c'4 fis\fermata dis'
           e'8 [fis'16 g' a'8] fis' b [e'] cis' [b16 ais]
-          b8 [d' g' fis'] d'4\fermata
+          b8 [d'] g' [fis'] d'4\fermata
           \partial 4 e'
           a b8 [a] g4. fis8
           b4 a a2\fermata
@@ -63,18 +63,18 @@ bassMusic = {
           \repeat volta 2 {
           \partial 4  e4
           e d8 [cis] b, b4 ais8
-          b [g e fis] b,4\fermata dis
-          e fis g8 [fis g a]
+          b [g] e [fis] b,4\fermata dis
+          e fis g8 [fis] g [a]
           b4 b, e\fermata }
           \partial 4  r
-          e4. d8 c [b, cis dis]
+          e4. d8 c [b,] cis [dis]
           e [d] c4 b,\fermata b8 [a]
-          g [fis16 e fis8] a gis [cis' ais fis]
-          b [g e fis] b,4\fermata
+          g [fis16 e fis8] a gis [cis'] ais [fis]
+          b [g] e [fis] b,4\fermata
           \partial 4 e
           d g,8 [a,] b, [c] d4~
-          d8 [cis d fis] a2\fermata
-          a8 g4 fis8 e [c a, b,]
+          d8 [cis] d [fis] a2\fermata
+          a8 g4 fis8 e [c] a, [b,]
           e2.\fermata \fine
         }
 

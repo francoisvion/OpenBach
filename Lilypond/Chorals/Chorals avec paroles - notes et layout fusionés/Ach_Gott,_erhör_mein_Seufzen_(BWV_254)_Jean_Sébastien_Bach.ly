@@ -70,7 +70,7 @@
           f4 d' d' c'
           c' f' f'8 e'4 d'8 
           d'4 cis' a4\fermata e'~
-          e'8 [d' d' e'] cis'4\fermata
+          e'8 [d'] d' [e'] cis'4\fermata
           \partial 4 e'4 \bar "|"
           d'8 [c'] d'4 c' c'
           c' d' d' e'~
@@ -99,7 +99,7 @@
           \partial 4 f4
           a c' d' c'8 [bes]
           a [g] f4. e8 c'4
-          d'8 [g c' bes] a4\fermata
+          d'8 [g] c' [bes] a4\fermata
           \partial 4 f8 [g]
           a4 bes4. a8 g4
           f c' c'8. [bes16] a4
@@ -119,13 +119,13 @@
           f8 [e] d4 g, a,
           bes, c f,\fermata
           \partial 4 f8 [e] \bar "|"
-          d8 [c bes, a,] g, [f,] e,4
-          f,8 [g, a, bes,]  c4 d
+          d8 [c] bes, [a,] g, [f,] e,4
+          f,8 [g,] a, [bes,]  c4 d
           g, a, d,\fermata cis
           d g, a,\fermata
           \partial 4 c~ \bar "|"
           c b, c\fermata c8 [bes,]
-          a, [f, d c] bes, [a, g, c]
+          a, [f,] d [c] bes, [a,] g, [c]
           f [e] d4~ d8 [cis] d4
           g, a, d,\fermata \fine
         }

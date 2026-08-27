@@ -65,7 +65,7 @@
           e'2\fermata r4
           \partial 4  b'
           b'8 [a'] gis'4 a'8 [g'] f'4~
-          f'8 [e' e' fis'] gis'4\fermata a'
+          f'8 [e'] e' [fis'] gis'4\fermata a'
           a'8 [gis'] a'4 a' gis'
           e'2.\fermata \fine
         }
@@ -102,13 +102,13 @@
         \new Voice = "bass" {
           \voiceTwo
           \partial 4  a,8 [b,]
-          c [b, a, gis,] a,4 e,
+          c [b,] a, [gis,] a,4 e,
           f, g, c\fermata c
-          fis, gis, a,8 [b, c d]
+          fis, gis, a,8 [b,] c [d]
           e2\fermata r4
           \partial 4  gis,
           a, e8 [d] c4 d8 [c]
-          b, [e c a,] e4\fermata c
+          b, [e] c [a,] e4\fermata c
           b, a, d e
           a,2.\fermata \fine
         }

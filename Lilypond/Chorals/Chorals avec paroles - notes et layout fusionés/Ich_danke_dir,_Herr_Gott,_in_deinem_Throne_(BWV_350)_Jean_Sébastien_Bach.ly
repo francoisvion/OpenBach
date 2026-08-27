@@ -86,7 +86,7 @@
           a8 [bes16 c'] d' [ees'] f'4 ees' d'8~
            d' [c'16 b] c'4 b\fermata g'~
           g'8 [fis'] g'4. fis'16 [e'] d'4~
-          d'8 [e' fis' g'] a'4. g'8
+          d'8 [e'] fis' [g'] a'4. g'8
           g' [fis'16 e'] fis'4 d'\fermata \fine
         }
       >>

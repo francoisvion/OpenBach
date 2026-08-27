@@ -92,7 +92,7 @@
           \partial 4 c'
           d' e' b\fermata b
           c' c' b\fermata c'
-          c' b e'8 [f' g' c']
+          c' b e'8 [f'] g' [c']
           c'4 b g\fermata  \fine
         }
         \new Voice = "bass" {

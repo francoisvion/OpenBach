@@ -71,7 +71,7 @@
           \voiceTwo
           \repeat volta 2 {
           \partial 4  g'4
-          a' g' g'8 [f' e' f']
+          a' g' g'8 [f'] e' [f']
           g'4 a'8 [g'] g'4\fermata g'
           g'8 [a'] b'4 a'4. g'8
           g' [a'] g' [f'] e'4\fermata } e'

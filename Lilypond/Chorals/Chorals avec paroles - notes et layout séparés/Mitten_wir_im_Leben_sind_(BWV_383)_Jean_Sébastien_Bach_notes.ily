@@ -50,7 +50,7 @@ altoMusic = {
           c'2\fermata r4 e'
           d'~ d'8 [c'16 b] a4 d'8 [b]
           c'2\fermata e'4 e'
-          e' e' e'8 [f' g' f']~
+          e' e' e'8 [f'] g' [f']~
           f' [e']~ e' [d'16 c'] b4\fermata bes
           c' f'~ f'8 [e']~ e' [d']
           c'2\fermata e'4~ e'8 [d']

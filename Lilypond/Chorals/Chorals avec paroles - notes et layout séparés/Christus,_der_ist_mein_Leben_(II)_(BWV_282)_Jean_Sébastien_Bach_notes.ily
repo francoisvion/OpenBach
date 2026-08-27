@@ -59,14 +59,14 @@ tenorMusic = {
           gis
           a~
           a4 a\fermata r
-           g8 [b b a16 b] c'4
+           g8 [b] b [a16 b] c'4
           fis2\fermata d'4
           c'2 c'4
           d'2 d'4
           d'4. cis'16 [b] cis'4
           a2\fermata e'4
           e' b b
-          c'8 [b a b] c'4
+          c'8 [b] a [b] c'4
           b2\fermata \fine
         }
 
@@ -81,7 +81,7 @@ bassMusic = {
           r
           r
           c~
-          c4. b,8 [c a,]
+          c4. b,8 c [a,]
           d4 d\fermata r
            e8 [d] c4 c
           b,2\fermata b4

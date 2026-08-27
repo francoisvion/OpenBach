@@ -30,10 +30,10 @@ altoMusic = {
           g'4 g' g'
           fis' fis'2\fermata
           g'4 g' fis'8 [g']
-          a'4 g'8 [fis' g' e']
+          a'4 g'8 [fis'] g' [e']
           fis'2.\fermata
           fis'4 fis' gis'
-          a'4. gis'8 [a' g']
+          a'4. gis'8 a' [g']
           fis'4 gis' a'
           a' gis' e'\fermata
           e'8 [fis'] g'4 a'
@@ -80,7 +80,7 @@ bassMusic = {
           a, b, c~
           c b, a,
           d e a,\fermata
-          c'4. b8 [a g]
+          c'4. b8 a [g]
           fis [e] d4 g8 [fis]
           e4 fis g
           c d g,\fermata \fine

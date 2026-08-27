@@ -120,7 +120,7 @@
           \partial 4  a4
           d' cis'8 [b] a4. g8
           fis4 gis8 [fis] eis4\fermata fis
-          cis8 [b, cis d] e [d] cis4
+          cis8 [b,] cis [d] e [d] cis4
           fis b, e\fermata
           \partial 4  d
           cis b, a, d

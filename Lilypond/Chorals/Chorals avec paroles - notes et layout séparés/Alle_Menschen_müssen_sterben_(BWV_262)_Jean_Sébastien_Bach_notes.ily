@@ -47,7 +47,7 @@ tenorMusic = {
           g4. a8 b2~
           b4 ais b2\fermata
           a4 a g8 [fis] e4
-          d8 [fis e d] e2\fermata
+          d8 [fis] e [d] e2\fermata
           g4 fis g a
           b a8. [g16] fis2\fermata  \fine 
         }
@@ -58,16 +58,16 @@ bassMusic = {
             d4 b, fis, g,
             a, a, d, d,\fermata
             d d e fis
-            g8 [e a a,] d2\fermata 
+            g8 [e] a [a,] d2\fermata 
           }
           a,4 a, d fis8 [e]
           d4 e a,2\fermata
-          e b,8 [cis d e]
+          e b,8 [cis] d [e]
           fis2 b,\fermata
           d4 d g, a,
           b,2 a,\fermata
           g,4 d e fis
-          g8 [e a a,] d2\fermata \fine
+          g8 [e] a [a,] d2\fermata \fine
         }
 
 sopranoLyrics = \lyricmode {

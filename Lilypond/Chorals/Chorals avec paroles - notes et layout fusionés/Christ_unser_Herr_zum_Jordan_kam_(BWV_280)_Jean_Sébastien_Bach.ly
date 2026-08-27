@@ -122,11 +122,11 @@
           b8 [a] b4 c'\fermata c'
           c' b c'8 [b] a4
           b8 [a] gis4 e\fermata gis
-          a8 [g f g] a [b cis' d']
+          a8 [g] f [g] a [b] cis' [d']
           e'4 a a\fermata f8 [e]
           d [f] bes4 a bes~
           bes e8 [f16 g] f4\fermata d
-          b8 [c' d' b] c' [b] a4
+          b8 [c'] d' [b] c' [b] a4
           a gis e\fermata \fine
         }
         
@@ -147,7 +147,7 @@
           cis4 d a,\fermata d8 [c]
           bes, [a,] g,4 f, bes,8 [a,]
           g,4 a, d,\fermata fis
-          g8 [a b g] c4 f
+          g8 [a] b [g] c4 f
           e8 [d] e4 a,\fermata \fine
         }
       >>

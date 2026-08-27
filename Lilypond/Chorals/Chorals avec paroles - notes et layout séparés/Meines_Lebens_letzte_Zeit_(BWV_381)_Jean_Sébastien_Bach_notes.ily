@@ -21,7 +21,7 @@ altoMusic = {
           \voiceTwo
            g'4 g' fis' g'8 [fis']
           e' [dis'] e'4 dis'2\fermata
-          g'8 [a' b' a'] b'4 e'
+          g'8 [a'] b' [a'] b'4 e'
           d'8 [g'] fis'4 g' g'\fermata
           e' e' fis' e'
            e' dis' b2\fermata
@@ -57,20 +57,20 @@ tenorMusic = {
 
 bassMusic = {
           \voiceTwo
-           e,4 e~ e8 [dis e g]
+           e,4 e~ e8 [dis] e [g]
           c2 b,\fermata
-          g,4 g~ g8 [fis g c']
+          g,4 g~ g8 [fis] g [c']
           fis [d] d4 g g,\fermata
           c'8 [b] c'4 dis e
            a, b, e,2\fermata
-          e8 [fis] g4~ g8 [fis g b]
+          e8 [fis] g4~ g8 [fis] g [b]
           e [d] c4 d g,\fermata
-          g8 [fis e d] c4 cis
+          g8 [fis] e [d] c4 cis
           d2\fermata g4 fis8 [e]
-          fis [e fis b] e [fis] g4
+          fis [e] fis [b] e [fis] g4
           d2\fermata g8 [fis] e4~
-          e8 [d e gis] a,4 b,8 [c]
-          d4 dis e8 [g c b,]
+          e8 [d] e [gis] a,4 b,8 [c]
+          d4 dis e8 [g] c [b,]
           a,4 b, e2\fermata \fine
         }
 

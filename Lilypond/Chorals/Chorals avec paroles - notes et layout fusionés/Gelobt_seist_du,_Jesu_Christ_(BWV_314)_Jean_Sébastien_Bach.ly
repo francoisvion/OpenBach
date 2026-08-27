@@ -63,10 +63,10 @@
           e'4 fis' fis'8 [e'] e'4
           a' a'8 [g'] fis'2\fermata
           e'8 [fis'] g'4 a'8 [fis'] b'4
-          b'8 [a' a' gis'] e'4\fermata
+          b'8 [a'] a' [gis'] e'4\fermata
           \partial 4  fis'
           fis'8 [g'] a'4 a' gis'
-          fis'8 [e' e' dis'] b4\fermata cis'
+          fis'8 [e'] e' [dis'] b4\fermata cis'
           dis' dis' e' e'
           d'4. e'8 fis'4 e'8 [fis']
           gis'2\fermata fis'4 e'
@@ -95,7 +95,7 @@
           b4 b gis\fermata a8 [gis]
           fis4 b8 [a] gis4 ais
           b8 [a] g4 fis8 [gis] a4
-          e'2\fermata cis'8 [d' e' g]
+          e'2\fermata cis'8 [d'] e' [g]
           fis [a] d'4 cis'\fermata \fine
         }
         \new Voice = "bass" {

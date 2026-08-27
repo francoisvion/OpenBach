@@ -40,9 +40,9 @@ tenorMusic = {
           a4. g16 [fis] fis2\fermata
           fis'4 fis' f' e'
           e' d' d' b\fermata
-          d'8 [b e' d'] cis' [a] d'4
+          d'8 [b] e' [d'] cis' [a] d'4
           d'8 [b] a4 a fis\fermata
-          g d' d'8 [c' b c']
+          g d' d'8 [c'] b [c']
           d'4 d'8. [c'16] b2\fermata \fine
         }
 
@@ -54,11 +54,11 @@ bassMusic = {
           b, [e] cis [a,] d4 d,\fermata
           d8 [e] fis [d] g4 d
           a a, d2\fermata
-          d8 d'4 c'8 b [a gis e]
-          a [g fis d] g4 g,\fermata
+          d8 d'4 c'8 b [a] gis [e]
+          a [g] fis [d] g4 g,\fermata
           g g g fis8 [d]
-          b, [e cis a,] d4 d,\fermata
-          b,8 [e d c] b, [a, g, e]
+          b, [e] cis [a,] d4 d,\fermata
+          b,8 [e] d [c] b, [a,] g, [e]
           d4 d, g,2\fermata \fine
         }
 

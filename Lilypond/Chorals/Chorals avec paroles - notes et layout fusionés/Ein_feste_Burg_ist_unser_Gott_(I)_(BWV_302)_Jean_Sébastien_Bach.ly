@@ -76,7 +76,7 @@
           fis'16 [gis'] a'4 gis'8 e'4\fermata
           \partial 4 g'
           g' dis'8 [e'] fis'4 e'
-          dis'\fermata fis' fis'8 [e' d' e']
+          dis'\fermata fis' fis'8 [e'] d' [e']
           fis' [e'] d'4 e'8 [a] d'4~
           d' cis' a\fermata \fine
         }

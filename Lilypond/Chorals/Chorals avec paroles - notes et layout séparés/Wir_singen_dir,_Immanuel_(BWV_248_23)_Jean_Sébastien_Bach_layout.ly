@@ -1,7 +1,5 @@
 \version "2.27.1"
 
-
-
 \include "Wir_singen_dir,_Immanuel_(BWV_248_23)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")

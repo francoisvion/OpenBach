@@ -41,15 +41,15 @@ altoMusic = {
           \time 3/4
           \partial 4 a4
           d' d' d'
-          cis'8 [b cis' d'] e'4
+          cis'8 [b] cis' [d'] e'4
           e' e' e'
-          d'8 [cis' d' e'] fis'4
+          d'8 [cis'] d' [e'] fis'4
           g'4. fis'8 e'4
           e'8 [d'] cis'4 d'
           d' d' cis'
           a a\fermata a
           d' d' d'
-          d' cis'8 [b cis' d']
+          d' cis'8 [b] cis' [d']
           e'4 e' e'
           e' d' r
           d' g'8 [fis'] e'4~
@@ -64,17 +64,17 @@ tenorMusic = {
           cis' [b] a4 a a\fermata
           g8 [a] b4 b a
           a a8 [g] fis2\fermata
-          a4 a a8 [fis g b]~
+          a4 a a8 [fis] g [b]~
           b [gis] ais4 b b\fermata
-          d' cis' b8 [g e a]
+          d' cis' b8 [g] e [a]
           a4 a fis2\fermata \bar "||"
           \time 3/4
           \partial 4 fis8 [g]
           a4 a a8 [b]
-          cis' [d' e' d'] cis'4
+          cis' [d'] e' [d'] cis'4
           b b b8 [cis']
-          d' [e' fis' e' d' cis']
-          b [a g a] b4
+          d' [e'] fis' [e'] d' [cis']
+          b [a] g [a] b4
           a a a
           g8 [a] b4 e
           fis fis\fermata fis
@@ -91,7 +91,7 @@ tenorMusic = {
 bassMusic = {
           \voiceTwo
           d4 d g8 [fis] e4
-          a8 [g fis e] d4 d\fermata
+          a8 [g] fis [e] d4 d\fermata
           g8 [fis] e4 e8 [d] cis4
           d a, d2\fermata
           cis4 d dis e
@@ -108,7 +108,7 @@ bassMusic = {
           cis [b,] a,4 d8 [cis]
           b, [a,] g,4 a,
           d d\fermata d8 [cis]
-          b,4 b8 [a g fis]
+          b,4 b8 [a] g [fis]
           gis4 e a
           cis d8 [cis] b, [a,]
           d2 r4

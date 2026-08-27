@@ -71,7 +71,7 @@
           \partial 4 f'
           f'8 bes'4 a'8 bes'4 c''~
           c''8 bes'4 a'8 f'4\fermata f'
-          f'8 [a' g' f'] f'4 ees'
+          f'8 [a'] g' [f'] f'4 ees'
           d'8 g'4 fis'8 d'4\fermata \fine
         }
       >>

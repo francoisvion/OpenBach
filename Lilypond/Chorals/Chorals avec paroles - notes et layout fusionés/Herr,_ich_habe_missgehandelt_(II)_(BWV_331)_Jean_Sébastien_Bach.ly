@@ -113,8 +113,8 @@
           e1\fermata }
            a4 g8 [f] e4 f8 [e]
           d4 e8 [f] g2
-          c\fermata g8 [f e d]
-          c [e d c] b,4 a,
+          c\fermata g8 [f] e [d]
+          c [e] d [c] b,4 a,
           e2 a,\fermata \fine
         }
       >>

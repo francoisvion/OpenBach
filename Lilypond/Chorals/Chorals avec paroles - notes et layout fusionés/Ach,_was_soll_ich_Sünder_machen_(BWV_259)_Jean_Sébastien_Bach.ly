@@ -107,15 +107,15 @@
         }
         \new Voice = "bass" {
           \voiceTwo
-          e8 [fis g fis] e [d c b,]
-          a, [g, fis, d,]  g,4 g\fermata
-          g,8 [a, b, e] a, [ d g, b,]
+          e8 [fis] g [fis] e [d] c [b,]
+          a, [g,] fis, [d,]  g,4 g\fermata
+          g,8 [a,] b, [e] a, [d] g, [b,]
           c [a,] d4 g,2\fermata
-          fis8 [e d c] b, [dis e c]
+          fis8 [e] d [c] b, [dis] e [c]
           a, [fis,] b,4 e,2\fermata
-          e,8 [fis, g, a,] b,[cis d b,]
+          e,8 [fis,] g, [a,] b, [cis] d [b,]
           e [cis] fis4 b,2\fermata
-          b8 [a g fis] e [fis g e]
+          b8 [a] g [fis] e [fis] g [e]
           c [a,] d4 g,2\fermata
           g4 fis8 [e]  dis4 e8 [c]
           a, [fis,] b,4 e,2\fermata \fine

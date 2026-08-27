@@ -114,7 +114,7 @@
           cis' b b ais
           b2.\fermata }
           \partial 4  b8 [a]
-          g4 d'8 [cis'] b [a g a]
+          g4 d'8 [cis'] b [a] g [a]
           b4 a8 [g] a4\fermata d'
           d' c' b b
           b2.\fermata
@@ -131,17 +131,17 @@
           \partial 4  d4
           g fis e d
           g, a, d\fermata ais,
-          b,8 [cis d e] fis4 fis,
+          b,8 [cis] d [e] fis4 fis,
           b,2.\fermata }
           \partial 4  b4
           e fis g8 [fis] e4
           d2 d4\fermata d
-          g8 [fis e dis] e [fis g e]
+          g8 [fis] e [dis] e [fis] g [e]
           b2.\fermata
           \partial 4 gis4
           a a, b, cis
           d e a,\fermata d
-          e fis8 [g] a [g fis e]
+          e fis8 [g] a [g] fis [e]
           d4 cis8 [b,] fis4\fermata \fine
         }
       >>

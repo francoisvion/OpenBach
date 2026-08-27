@@ -102,7 +102,7 @@
            a4 c' c' c'
           d'8 [c'] c'4 d'8 [bes] g [c'16 bes]
           a2\fermata a4 g
-          f8 [a d' ees'] d'4 c'
+          f8 [a] d' [ees'] d'4 c'
           d' c'8 [bes] a2\fermata
           c'4 d' c' c'
           d'8 [c'] b4 a2\fermata
@@ -117,14 +117,14 @@
           a,2\fermata d8 [e] f4
           b,8 [cis] d4 g, a,
           d1\fermata }
-           d4 c8 [bes,] a, [g, f, e,]
+           d4 c8 [bes,] a, [g,] f, [e,]
           d, [e,] f,4 bes, c
           f,2\fermata d4 e
           f fis g a
           bes c' f2\fermata
           f8 [e] d4 e8 [c] f4
           bes8 [a] gis4 a2\fermata
-          f8 [e] d4~ d8 [cis d f]
+          f8 [e] d4~ d8 [cis] d [f]
           g [e] a4 d2\fermata \fine
         }
       >>

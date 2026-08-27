@@ -100,10 +100,10 @@
         \new Voice = "tenor" {
           \voiceOne
           \partial 4  b4
-          b8 [a g a] b4 c'
+          b8 [a] g [a] b4 c'
           d'2\fermata r4 d'
           e' d' c' d'~
-          d'8 [a d' c'] b4\fermata d'
+          d'8 [a] d' [c'] b4\fermata d'
           d' dis' b c'
           b2\fermata r4
           \partial 4  b
@@ -129,16 +129,16 @@
           d8 [c] b,4 e a,
           b,2\fermata r4
           \partial 4  e8 [d]
-          c [d c b,] a,4 ais,
+          c [d] c [b,] a,4 ais,
           b,2 e4\fermata b,8 [cis]
           d4 ais, b, e
           d2\fermata r4 d
           d'8 [c'] b4 a d
           g2\fermata r4
           \partial 4 g8 [fis]
-          e [d c b,] a,4 g,
+          e [d] c [b,] a,4 g,
           d2\fermata r4 d
-          dis8 [cis dis b,] e4 b,
+          dis8 [cis] dis [b,] e4 b,
           e,2.\fermata \fine
         }
       >>

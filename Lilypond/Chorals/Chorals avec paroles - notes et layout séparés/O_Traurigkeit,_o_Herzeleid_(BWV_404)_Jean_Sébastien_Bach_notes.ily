@@ -29,7 +29,7 @@ tenorMusic = {
           \partial 4  b4
           a8 [gis] fis4 gis\fermata b
           c' b8 [a] b4\fermata b
-          c' b c'8 [d' e' c']
+          c' b c'8 [d'] e' [c']
           c'4 b c'2\fermata
            d'4 c' g' g8 [a]
           b [e] e'4 e'2\fermata
@@ -46,7 +46,7 @@ bassMusic = {
           fis g c2\fermata
            g,4 a, b, c
           gis a e2\fermata
-          fis4 gis a8 [g f e]
+          fis4 gis a8 [g] f [e]
           d4 e a,2\fermata \fine
         }
 

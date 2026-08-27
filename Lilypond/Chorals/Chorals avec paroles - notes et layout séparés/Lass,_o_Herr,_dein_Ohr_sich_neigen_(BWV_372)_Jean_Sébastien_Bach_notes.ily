@@ -24,7 +24,7 @@ altoMusic = {
           \voiceTwo
           \repeat volta 2 {
           d'4 d' d' d'
-          ees'8 [d' d' g'] g'4 fis'
+          ees'8 [d'] d' [g'] g'4 fis'
           d'2\fermata }
           \partial 32 * 16 g'4 g'8 [fis']
           g'4 g'8 [f'] ees' [d'] e'4

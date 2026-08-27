@@ -102,7 +102,7 @@
           \voiceOne
           \repeat volta 2 {
           \partial4 b8 [c']
-          d'4 e'8 [g] a [b c' d']
+          d'4 e'8 [g] a [b] c' [d']
           e' [b] c'4 fis\fermata g8 [a] 
           b8 [c'] d'4 e'4. d'16 [c']
           d'8 [c'16 b] a4 b\fermata }
@@ -121,14 +121,14 @@
           \partial 4 \break g,4
           g8 [fis] e4 d a,
           e8 [d] c4 b,\fermata e8 [ fis
-          g4 fis e8 [ d c a,]
+          g4 fis e8 [d] c [a,]
           b,8 [c] d4 g,\fermata }
           \partial 4 \break g4 
-          d8 [d' c' b] a4 g
-          f8 [c d e] a,4\fermata fis
+          d8 [d'] c' [b] a4 g
+          f8 [c] d [e] a,4\fermata fis
           g8 [fis] e4 b, c8 [d]
           e [d] c4 b,\fermata e 
-          d dis e8 [d c a,]
+          d dis e8 [d] c [a,]
           b, [c] d4 g,\fermata \fine
         }
       >>

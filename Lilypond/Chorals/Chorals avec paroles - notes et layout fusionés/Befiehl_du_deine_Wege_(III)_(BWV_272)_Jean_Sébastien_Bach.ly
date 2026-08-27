@@ -113,12 +113,12 @@
           c'2.\fermata }
           \partial 4  c'4
           d' e' d' d'
-          c'8 [e' d' c'] c'4\fermata c'
+          c'8 [e'] d' [c'] c'4\fermata c'
           bes aes g4. a16 [bes]
           a2.\fermata
           \partial 4 a4
           a d'8 [c'] c'4 d'8 [e']
-          a [gis a b] a4\fermata a
+          a [gis] a [b] a4\fermata a
           g a a4. g8
           f2.\fermata \fine
         }
@@ -127,18 +127,18 @@
           \voiceTwo
           \repeat volta 2 {
           \partial 4  f8 [e]
-          d4. cis8 d [c bes, c]
+          d4. cis8 d [c] bes, [c]
           f,2 f,4\fermata e
           d dis e e,
           a,2.\fermata }
           \partial 4  a4
           a a8 [g] fis4 g8 [f]
-          e [c d e] f4\fermata f,
+          e [c] d [e] f4\fermata f,
           bes, b, c c,
           f,2.\fermata
           \partial 4 cis4
-          d8 [c bes, c] g, [a, b, cis]
-          d [bes, a, gis,] a,4\fermata d
+          d8 [c] bes, [c] g, [a,] b, [cis]
+          d [bes,] a, [gis,] a,4\fermata d
           e f8 [g] a4 a,
           d2.\fermata \fine
         }
