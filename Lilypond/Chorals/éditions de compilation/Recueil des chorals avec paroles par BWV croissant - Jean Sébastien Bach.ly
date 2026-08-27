@@ -106,7 +106,7 @@
      (map (lambda (r)
             (let ((text (escape-quotes (cdr r))))
               (if (eq? (car r) 'small)
-                  (string-append " \\small \"" text "\"")
+                  (string-append " \\tiny \"" text "\"")
                   (string-append " \"" text "\""))))
           runs)))
 
