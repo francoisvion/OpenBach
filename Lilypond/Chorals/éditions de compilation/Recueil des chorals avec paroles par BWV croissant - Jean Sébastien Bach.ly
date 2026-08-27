@@ -194,6 +194,16 @@
 #(define records (map make-record layout-files))
 #(define sorted-records (sort records bwv-less?))
 
+#(define (toc-item-markup title opus)
+   (let* ((title-parts (wrap-poet title))
+          (row (string-append
+                 "\\fill-with-pattern #1 #RIGHT \".\" \\override #'(line-width . 88) \\fill-with-pattern #1 #RIGHT \".\" \""
+                 (car title-parts) "\" \"" opus "\" \\fromproperty #'toc:page")))
+     (if (= (length title-parts) 1)
+         (string-append "\\markup { " row " }")
+         (string-append "\\markup \\column { " row
+                         " \\line { \\hspace #4 \\fontsize #-2 \"" (cadr title-parts) "\" } }"))))
+
 #(define (piece-text rec)
    (let* ((base (assq-ref rec 'base))
           (notes-path (string-append source-dir "/" base "_notes.ily"))
@@ -211,7 +221,7 @@
      (if (not score)
          ""
          (string-append
-           "\\tocItem \\markup { \"" (escape-quotes (strip-verse-marks (assq-ref rec 'title))) "  —  " opus "\" }\n"
+           "\\tocItem " (toc-item-markup (escape-quotes (strip-verse-marks (assq-ref rec 'title))) opus) "\n"
            (read-utf8-file notes-path)
            "\n"
            (inject-header score piece-markup opus-field)
@@ -251,7 +261,7 @@
     \fill-line { \null \fontsize #6 \bold "Table des matières" \null }
     \vspace #2
   }
-  tocItemMarkup = \markup \fill-with-pattern #1 #RIGHT "." \fromproperty #'toc:text \fromproperty #'toc:page
+  tocItemMarkup = \markup \fromproperty #'toc:text
 }
 
 \layout {
