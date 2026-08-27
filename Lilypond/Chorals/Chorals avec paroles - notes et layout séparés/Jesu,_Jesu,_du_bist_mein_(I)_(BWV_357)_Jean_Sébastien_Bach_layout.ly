@@ -31,7 +31,7 @@
  title = "Jesu, Jesu, du bist mein (I)"
  poet = "Anonyme"
   opus = "BWV 357"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

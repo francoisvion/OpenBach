@@ -2,7 +2,7 @@
 
 
 
-\include "O_Welt,_sieh_hier_dein_Leben_(III)_(BWV_395)_Jean_Sébastien_Bach_notes.ily"
+\include "O_Welt,_sieh_hier_dein_Leben_(III)_(BWV_395)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "O Welt, sieh hier dein Leben (III)"
  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 395"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

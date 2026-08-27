@@ -2,7 +2,7 @@
 
 
 
-\include "Wie_schön_leuchtet_der_Morgenstern_(choral)_(BWV_436)_Jean_Sébastien_Bach_notes.ily"
+\include "Wie_schön_leuchtet_der_Morgenstern_(choral)_(BWV_436)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Wie schön leuchtet der Morgenstern (choral)"
  poet = "Auteur : Philipp Nicolai (1556-1608)"
   opus = "BWV 436"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

@@ -2,7 +2,7 @@
 
 
 
-\include "Jesu,_meine_Freude_(BWV_81_7)_Jean_Sébastien_Bach_notes.ily"
+\include "Jesu,_meine_Freude_(BWV_81_7)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
  subtitle = "tiré de la cantate : Jesus schläft, was soll ich hoffen?"
  poet = "Auteur : Johann Franck (1618-1677)"
   opus = "BWV 81/7"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

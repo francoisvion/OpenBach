@@ -2,7 +2,7 @@
 
 
 
-\include "Von_Gott_will_ich_nicht_lassen_(BWV_73_5)_Jean_Sébastien_Bach_notes.ily"
+\include "Von_Gott_will_ich_nicht_lassen_(BWV_73_5)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Herr, wie du willt, so schicks mit mir"
   poet = "Auteur : Ludwig Helmbold (1532-1598)"
   opus = "BWV 73/5"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

@@ -32,7 +32,7 @@
  subtitle = "tiré de l'Oratorio de Noël, partie VI : Herr, wenn die stolzen Feinde schnauben"
  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 248/59"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

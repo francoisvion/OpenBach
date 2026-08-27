@@ -2,7 +2,7 @@
 
 
 
-\include "Ich_dank_dir,_Gott,_für_deine_Wohltat_(BWV_346)_Jean_Sébastien_Bach_notes.ily"
+\include "Ich_dank_dir,_Gott,_für_deine_Wohltat_(BWV_346)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Ich dank dir, Gott, für deine Wohltat"
  poet = "Auteur : Johann Freder (1510-1562)"
   opus = "BWV 346"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

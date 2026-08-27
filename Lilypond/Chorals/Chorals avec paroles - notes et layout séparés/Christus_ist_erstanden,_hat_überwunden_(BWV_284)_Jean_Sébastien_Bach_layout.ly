@@ -2,7 +2,7 @@
 
 
 
-\include "Christus_ist_erstanden,_hat_überwunden_(BWV_284)_Jean_Sébastien_Bach_notes.ily"
+\include "Christus_ist_erstanden,_hat_überwunden_(BWV_284)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Christus ist erstanden, hat überwunden"
  poet = "Auteur : Michael Weisse (v.1488-1534)"
   opus = "BWV 284"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

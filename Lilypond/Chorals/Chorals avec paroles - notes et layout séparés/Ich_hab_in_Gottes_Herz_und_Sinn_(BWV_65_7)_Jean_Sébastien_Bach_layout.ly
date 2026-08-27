@@ -2,7 +2,7 @@
 
 
 
-\include "Ich_hab_in_Gottes_Herz_und_Sinn_(BWV_65_7)_Jean_Sébastien_Bach_notes.ily"
+\include "Ich_hab_in_Gottes_Herz_und_Sinn_(BWV_65_7)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
  subtitle = "tiré de la cantate : Sie werden aus Saba alle kommen"
  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 65/7"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

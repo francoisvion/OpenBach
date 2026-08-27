@@ -2,7 +2,7 @@
 
 
 
-\include "Weg,_mein_Herz,_mit_den_Gedanken_(BWV_32_6)_Jean_Sébastien_Bach_notes.ily"
+\include "Weg,_mein_Herz,_mit_den_Gedanken_(BWV_32_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Liebster Jesu, mein Verlangen"
   poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 32/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

@@ -32,7 +32,7 @@
  subtitle = "tiré de la cantate : Liebster Immanuel, Herzog der Frommen"
  poet = "Auteur : Ahasverus Fritsch (1629-1701)"
   opus = "BWV 123/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

@@ -2,7 +2,7 @@
 
 
 
-\include "Nun_danket_alle_Gott_(choral)_(BWV_386)_Jean_Sébastien_Bach_notes.ily"
+\include "Nun_danket_alle_Gott_(choral)_(BWV_386)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Nun danket alle Gott (choral)"
  poet = "Auteur : Martin Rinckart (1586-1649)"
   opus = "BWV 386"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

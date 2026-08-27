@@ -2,7 +2,7 @@
 
 
 
-\include "Kyrie,_Gott_Vater_in_Ewigkeit_(choral)_(BWV_371)_Jean_Sébastien_Bach_notes.ily"
+\include "Kyrie,_Gott_Vater_in_Ewigkeit_(choral)_(BWV_371)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Kyrie, Gott Vater in Ewigkeit!"
  poet = "Naumburg, 1537/38 (traduction du Kyrie)"
   opus = "BWV 371"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

@@ -2,7 +2,7 @@
 
 
 
-\include "Befiehl_du_deine_Wege_(I)_(BWV_270)_Jean_Sébastien_Bach_notes.ily"
+\include "Befiehl_du_deine_Wege_(I)_(BWV_270)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Befiehl du deine Wege (I)"
  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 270"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

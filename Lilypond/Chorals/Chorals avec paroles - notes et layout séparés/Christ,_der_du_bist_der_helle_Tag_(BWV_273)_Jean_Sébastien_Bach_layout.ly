@@ -2,7 +2,7 @@
 
 
 
-\include "Christ,_der_du_bist_der_helle_Tag_(BWV_273)_Jean_Sébastien_Bach_notes.ily"
+\include "Christ,_der_du_bist_der_helle_Tag_(BWV_273)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Christ, der du bist der helle Tag"
  poet = "Auteur : Erasmus Alber (v.1500-1553)"
   opus = "BWV 273"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

@@ -2,7 +2,7 @@
 
 
 
-\include "O_Gott,_du_frommer_Gott_(BWV_45_7)_Jean_Sébastien_Bach_notes.ily"
+\include "O_Gott,_du_frommer_Gott_(BWV_45_7)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Es ist dir gesagt, Mensch, was gut ist"
   poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 45/7"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

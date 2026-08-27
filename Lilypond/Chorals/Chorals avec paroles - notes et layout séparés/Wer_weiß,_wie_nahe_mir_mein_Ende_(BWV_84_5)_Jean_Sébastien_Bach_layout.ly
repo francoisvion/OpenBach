@@ -2,7 +2,7 @@
 
 
 
-\include "Wer_weiß,_wie_nahe_mir_mein_Ende_(BWV_84_5)_Jean_Sébastien_Bach_notes.ily"
+\include "Wer_weiß,_wie_nahe_mir_mein_Ende_(BWV_84_5)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "Ich bin vergnügt mit meinem Glücke"
   poet = \markup{\column{"Auteur : Ämilie Juliane von Schwarzburg-""Rudolstadt (1637-1706)"}}
   opus = "BWV 84/5"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

@@ -2,7 +2,7 @@
 
 
 
-\include "Werde_munter,_mein_Gemüte_(BWV_55_5)_Jean_Sébastien_Bach_notes.ily"
+\include "Werde_munter,_mein_Gemüte_(BWV_55_5)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Ich armer Mensch, ich Sündenknecht"
  poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 55/5"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

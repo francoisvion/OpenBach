@@ -2,7 +2,7 @@
 
 
 
-\include "Wer_Gott_vertraut,_hat_wohl_gebaut_(BWV_433)_Jean_Sébastien_Bach_notes.ily"
+\include "Wer_Gott_vertraut,_hat_wohl_gebaut_(BWV_433)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Wer Gott vertraut, hat wohl gebaut"
  poet = "Auteur : Joachim Magdeburg (1525-v.1587)"
   opus = "BWV 433"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

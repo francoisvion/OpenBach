@@ -2,7 +2,7 @@
 
 
 
-\include "Herzliebster_Jesu,_was_hast_du_verbrochen_(BWV_245_3a)_Jean_Sébastien_Bach_notes.ily"
+\include "Herzliebster_Jesu,_was_hast_du_verbrochen_(BWV_245_3a)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
  subtitle = "tiré de la Passion selon saint Jean"
  poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 245/3a"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

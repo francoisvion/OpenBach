@@ -2,7 +2,7 @@
 
 
 
-\include "Mitten_wir_im_Leben_sind_(BWV_383)_Jean_Sébastien_Bach_notes.ily"
+\include "Mitten_wir_im_Leben_sind_(BWV_383)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Mitten wir im Leben sind"
  poet = "Salzburg 1456"
   opus = "BWV 383"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

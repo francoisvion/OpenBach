@@ -32,7 +32,7 @@
  subtitle = "tiré de la cantate : Singet dem Herrn ein neues Lied"
  poet = "Auteur : Johannes Herman (1515-1593)"
   opus = "BWV 190/7"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

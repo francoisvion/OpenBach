@@ -2,7 +2,7 @@
 
 
 
-\include "Herzlich_lieb_hab_ich_dich,_o_Herr_(BWV_174_5)_Jean_Sébastien_Bach_notes.ily"
+\include "Herzlich_lieb_hab_ich_dich,_o_Herr_(BWV_174_5)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
  subtitle = "tiré de la cantate : Ich liebe den Höchsten von ganzem Gemüte"
  poet = "Auteur : Martin Schalling (1532-1608)"
   opus = "BWV 174/5"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

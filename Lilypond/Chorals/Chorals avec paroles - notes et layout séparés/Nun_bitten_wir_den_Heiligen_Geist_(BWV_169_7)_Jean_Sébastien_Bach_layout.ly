@@ -2,7 +2,7 @@
 
 
 
-\include "Nun_bitten_wir_den_Heiligen_Geist_(BWV_169_7)_Jean_Sébastien_Bach_notes.ily"
+\include "Nun_bitten_wir_den_Heiligen_Geist_(BWV_169_7)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Gott soll allein mein Herze haben"
   poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 169/7"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

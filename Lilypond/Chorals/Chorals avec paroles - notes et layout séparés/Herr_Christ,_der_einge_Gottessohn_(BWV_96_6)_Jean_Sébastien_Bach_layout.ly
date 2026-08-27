@@ -2,7 +2,7 @@
 
 
 
-\include "Herr_Christ,_der_einge_Gottessohn_(BWV_96_6)_Jean_Sébastien_Bach_notes.ily"
+\include "Herr_Christ,_der_einge_Gottessohn_(BWV_96_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
  subtitle = "tiré de la cantate : Herr Christ, der einge Gottessohn"
  poet = "Auteur : Elisabeth Creutziger (v.1500-v.1535)"
   opus = "BWV 96/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

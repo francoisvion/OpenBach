@@ -2,7 +2,7 @@
 
 
 
-\include "In_allen_meinen_Taten_(BWV_13_6)_Jean_Sébastien_Bach_notes.ily"
+\include "In_allen_meinen_Taten_(BWV_13_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
  subtitle = "tiré de la cantate : Meine Seufzer, meine Tränen"
  poet = "Auteur : Paul Fleming (1609-1640)"
   opus = "BWV 13/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

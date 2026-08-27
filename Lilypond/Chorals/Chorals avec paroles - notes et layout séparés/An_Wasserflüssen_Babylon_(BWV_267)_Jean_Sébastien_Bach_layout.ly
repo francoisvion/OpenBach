@@ -2,7 +2,7 @@
 
 
 
-\include "An_Wasserflüssen_Babylon_(BWV_267)_Jean_Sébastien_Bach_notes.ily"
+\include "An_Wasserflüssen_Babylon_(BWV_267)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "An Wasserflüssen Babylon"
  poet = "Auteur : Wolfgang Dachstein (v.1487-1553)"
   opus = "BWV 267"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

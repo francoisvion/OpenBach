@@ -2,7 +2,7 @@
 
 
 
-\include "Wär_Gott_nicht_mit_uns_diese_Zeit_(BWV_14_5)_Jean_Sébastien_Bach_notes.ily"
+\include "Wär_Gott_nicht_mit_uns_diese_Zeit_(BWV_14_5)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Wär Gott nicht mit uns diese Zeit"
   poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 14/5"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

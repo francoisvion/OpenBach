@@ -2,7 +2,7 @@
 
 
 
-\include "Es_ist_das_Heil_uns_kommen_her_(vv._7–8)_(BWV_9_7)_Jean_Sébastien_Bach_notes.ily"
+\include "Es_ist_das_Heil_uns_kommen_her_(vv._7–8)_(BWV_9_7)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
  subtitle = "tiré de la cantate : Es ist das Heil uns kommen her"
  poet = "Auteur : Paul Speratus (1489-1551)"
   opus = "BWV 9/7"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

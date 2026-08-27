@@ -31,7 +31,7 @@
  title = "Heilig, heilig"
  poet = "Traduction allemande du Sanctus"
   opus = "BWV 325"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

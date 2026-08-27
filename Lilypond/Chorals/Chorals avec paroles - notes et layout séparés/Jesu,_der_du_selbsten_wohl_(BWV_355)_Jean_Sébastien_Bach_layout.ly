@@ -31,7 +31,7 @@
  title = "Jesu, der du selbsten wohl"
  poet = "Auteur : Michael Bapzien (1628-1693)"
   opus = "BWV 355"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

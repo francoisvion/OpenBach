@@ -2,7 +2,7 @@
 
 
 
-\include "Als_Jesus_Christus_in_der_Nacht_(BWV_265)_Jean_Sébastien_Bach_notes.ily"
+\include "Als_Jesus_Christus_in_der_Nacht_(BWV_265)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Als Jesus Christus in der Nacht"
  poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 265"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

@@ -2,7 +2,7 @@
 
 
 
-\include "Ich_dank_dir,_lieber_Herre_(II)_(BWV_348)_Jean_Sébastien_Bach_notes.ily"
+\include "Ich_dank_dir,_lieber_Herre_(II)_(BWV_348)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Ich dank dir, lieber Herre (II)"
  poet = "Auteur : Johann Kolros (v.1487-1558)"
   opus = "BWV 348"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

@@ -2,7 +2,7 @@
 
 
 
-\include "Selig_ist_die_Seele_(BWV_87_7)_Jean_Sébastien_Bach_notes.ily"
+\include "Selig_ist_die_Seele_(BWV_87_7)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Bisher habt ihr nichts gebeten in meinem Namen"
  poet = "Auteur : Heinrich Müller (1631-1675)"
   opus = "BWV 87/7"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

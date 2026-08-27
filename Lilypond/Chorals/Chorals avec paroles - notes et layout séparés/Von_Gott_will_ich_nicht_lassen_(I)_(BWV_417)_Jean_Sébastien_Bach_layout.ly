@@ -31,7 +31,7 @@
  title = "Von Gott will ich nicht lassen (I)"
  poet = "Auteur : Ludwig Helmbold (1532-1598)"
   opus = "BWV 417"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

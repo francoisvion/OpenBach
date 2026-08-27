@@ -32,7 +32,7 @@
   subtitle = \markup{"tiré de la Passion selon saint Marc "\small "(parodie musicale)"}
   opus = "BWV 500a"
   poet = "Auteur : Friedrich Nachtenhöfer (1624-1685)"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f   
   copyright = "© 2026 — OpenBach"
   } 

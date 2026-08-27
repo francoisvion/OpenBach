@@ -2,7 +2,7 @@
 
 
 
-\include "Wo_soll_ich_fliehen_hin_(BWV_5_7)_Jean_Sébastien_Bach_notes.ily"
+\include "Wo_soll_ich_fliehen_hin_(BWV_5_7)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Wo soll ich fliehen hin?"
  poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 5/7"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

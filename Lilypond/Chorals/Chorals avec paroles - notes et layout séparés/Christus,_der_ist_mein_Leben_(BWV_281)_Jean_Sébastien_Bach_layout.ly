@@ -2,7 +2,7 @@
 
 
 
-\include "Christus,_der_ist_mein_Leben_(BWV_281)_Jean_Sébastien_Bach_notes.ily"
+\include "Christus,_der_ist_mein_Leben_(BWV_281)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Christus, der ist mein Leben"
  poet = "Geneva 1609"
   opus = "BWV 281"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f   
   copyright = "© 2026 — OpenBach"
   } 

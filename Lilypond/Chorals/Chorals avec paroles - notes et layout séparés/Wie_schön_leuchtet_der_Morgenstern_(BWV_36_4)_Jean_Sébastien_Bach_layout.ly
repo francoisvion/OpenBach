@@ -2,7 +2,7 @@
 
 
 
-\include "Wie_schön_leuchtet_der_Morgenstern_(BWV_36_4)_Jean_Sébastien_Bach_notes.ily"
+\include "Wie_schön_leuchtet_der_Morgenstern_(BWV_36_4)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Liebster Gott, wenn werd ich sterben?"
  poet = "Auteur : Philipp Nicolai (1556-1608)"
   opus = "BWV 36/4"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

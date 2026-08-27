@@ -31,7 +31,7 @@
  title = "Jesu, meines Herzens Freud"
  poet = "Auteur : Johann Flittner (1618-1678)"
   opus = "BWV 361"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

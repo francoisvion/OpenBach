@@ -2,7 +2,7 @@
 
 
 
-\include "Es_ist_genug_(BWV_60_5)_Jean_Sébastien_Bach_notes.ily"
+\include "Es_ist_genug_(BWV_60_5)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
  subtitle = "tiré de la cantate : O Ewigkeit, du Donnerwort"
  poet = "Auteur : Franz Joachim Burmeister (1633-1672)"
   opus = "BWV 60/5"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

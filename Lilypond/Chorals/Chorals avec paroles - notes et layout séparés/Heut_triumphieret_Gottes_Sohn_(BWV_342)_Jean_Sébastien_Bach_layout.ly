@@ -2,7 +2,7 @@
 
 
 
-\include "Heut_triumphieret_Gottes_Sohn_(BWV_342)_Jean_Sébastien_Bach_notes.ily"
+\include "Heut_triumphieret_Gottes_Sohn_(BWV_342)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Heut triumphieret Gottes Sohn"
  poet = "Auteur : Kaspar Stolzhagen (1550-1594)"
   opus = "BWV 342"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

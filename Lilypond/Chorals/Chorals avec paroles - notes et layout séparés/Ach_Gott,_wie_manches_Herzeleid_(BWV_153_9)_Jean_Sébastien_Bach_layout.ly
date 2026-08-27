@@ -2,7 +2,7 @@
 
 
 
-\include "Ach_Gott,_wie_manches_Herzeleid_(BWV_153_9)_Jean_Sébastien_Bach_notes.ily"
+\include "Ach_Gott,_wie_manches_Herzeleid_(BWV_153_9)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Schau, lieber Gott, wie meine Feind"
   poet = "Auteur : Martin Moller (1547-1606)"
   opus = "BWV 153/9"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

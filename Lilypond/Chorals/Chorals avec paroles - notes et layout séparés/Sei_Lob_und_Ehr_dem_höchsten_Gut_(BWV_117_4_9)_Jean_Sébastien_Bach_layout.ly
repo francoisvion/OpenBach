@@ -2,7 +2,7 @@
 
 
 
-\include "Sei_Lob_und_Ehr_dem_höchsten_Gut_(BWV_117_4_9)_Jean_Sébastien_Bach_notes.ily"
+\include "Sei_Lob_und_Ehr_dem_höchsten_Gut_(BWV_117_4_9)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Sei Lob und Ehr dem höchsten Gut"
   poet = "Auteur : Johann Jakob Schütz (1640-1690) ?"
   opus = "BWV 117/4"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

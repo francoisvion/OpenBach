@@ -2,7 +2,7 @@
 
 
 
-\include "Christ_ist_erstanden_(BWV_276)_Jean_Sébastien_Bach_notes.ily"
+\include "Christ_ist_erstanden_(BWV_276)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Christ ist erstanden"
  poet = "Anonyme"
   opus = "BWV 276"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

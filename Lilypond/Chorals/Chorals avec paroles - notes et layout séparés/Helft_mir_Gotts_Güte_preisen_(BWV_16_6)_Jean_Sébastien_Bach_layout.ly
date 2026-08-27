@@ -2,7 +2,7 @@
 
 
 
-\include "Helft_mir_Gotts_Güte_preisen_(BWV_16_6)_Jean_Sébastien_Bach_notes.ily"
+\include "Helft_mir_Gotts_Güte_preisen_(BWV_16_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
  subtitle = "tiré de la cantate : Herr Gott, dich loben wir"
  poet = "Auteur : Paul Eber (1511-1569)"
   opus = "BWV 16/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

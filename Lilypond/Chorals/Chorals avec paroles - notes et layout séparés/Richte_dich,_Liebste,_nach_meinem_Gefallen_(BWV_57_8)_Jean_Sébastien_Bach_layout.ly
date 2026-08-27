@@ -2,7 +2,7 @@
 
 
 
-\include "Richte_dich,_Liebste,_nach_meinem_Gefallen_(BWV_57_8)_Jean_Sébastien_Bach_notes.ily"
+\include "Richte_dich,_Liebste,_nach_meinem_Gefallen_(BWV_57_8)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
  subtitle = "tiré de la cantate : Selig ist der Mann"
  poet = "Auteur : Ahasverus Fritsch (1629-1701)"
   opus = "BWV 57/8"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

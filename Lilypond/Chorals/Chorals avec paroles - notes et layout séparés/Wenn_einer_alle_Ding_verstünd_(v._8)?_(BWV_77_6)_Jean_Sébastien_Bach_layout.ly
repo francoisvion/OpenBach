@@ -2,7 +2,7 @@
 
 
 
-\include "Wenn_einer_alle_Ding_verstünd_(v._8)?_(BWV_77_6)_Jean_Sébastien_Bach_notes.ily"
+\include "Wenn_einer_alle_Ding_verstünd_(v._8)?_(BWV_77_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Du sollt Gott, deinen Herren, lieben"
   poet = "Auteur : David Denicke (1603-1680)"
   opus = "BWV 77/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

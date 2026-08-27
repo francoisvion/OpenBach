@@ -31,7 +31,7 @@
  title = "Erstanden ist der heilig Christ"
  poet = "Anonyme"
   opus = "BWV 306"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

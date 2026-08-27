@@ -2,7 +2,7 @@
 
 
 
-\include "Eins_ist_not,_ach_Herr,_dies_Eine_(BWV_304)_Jean_Sébastien_Bach_notes.ily"
+\include "Eins_ist_not,_ach_Herr,_dies_Eine_(BWV_304)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Eins ist not, ach Herr, dies Eine"
  poet = "Auteur : Johann Heinrich Schröder (1666-1699)"
   opus = "BWV 304"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

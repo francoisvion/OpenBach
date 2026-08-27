@@ -2,7 +2,7 @@
 
 
 
-\include "Danket_dem_Herrn,_denn_er_ist_sehr_freundlich_(BWV_286)_Jean_Sébastien_Bach_notes.ily"
+\include "Danket_dem_Herrn,_denn_er_ist_sehr_freundlich_(BWV_286)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Danket dem Herrn, denn er ist sehr freundlich"
  poet = "Auteur : Johann Horn (v.1490-1547)"
   opus = "BWV 286"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

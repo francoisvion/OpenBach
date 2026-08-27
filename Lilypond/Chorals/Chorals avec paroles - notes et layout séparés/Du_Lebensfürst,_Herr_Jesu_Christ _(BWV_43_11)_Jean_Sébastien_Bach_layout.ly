@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Gott fähret auf mit Jauchzen"
  poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 43/11"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

@@ -2,7 +2,7 @@
 
 
 
-\include "Du_Lebensfürst,_Herr_Jesu_Christ_(BWV_11_6)_Jean_Sébastien_Bach_notes.ily"
+\include "Du_Lebensfürst,_Herr_Jesu_Christ_(BWV_11_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
  subtitle = "tiré de l'oratorio de l'Ascension : Lobet Gott in seinen Reichen"
  poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 11/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

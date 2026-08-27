@@ -2,7 +2,7 @@
 
 
 
-\include "Du_Friedefürst,_Herr_Jesu_Christ_(BWV_67_7)_Jean_Sébastien_Bach_notes.ily"
+\include "Du_Friedefürst,_Herr_Jesu_Christ_(BWV_67_7)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Halt im Gedächtnis Jesum Christ"
  poet = "Auteur : Jakob Ebert (1549-1615)"
   opus = "BWV 67/7"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

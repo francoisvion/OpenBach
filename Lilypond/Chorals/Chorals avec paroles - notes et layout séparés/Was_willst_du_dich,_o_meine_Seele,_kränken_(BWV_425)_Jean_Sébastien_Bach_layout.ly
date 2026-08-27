@@ -2,7 +2,7 @@
 
 
 
-\include "Was_willst_du_dich,_o_meine_Seele,_kränken_(BWV_425)_Jean_Sébastien_Bach_notes.ily"
+\include "Was_willst_du_dich,_o_meine_Seele,_kränken_(BWV_425)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Was willst du dich, o meine Seele, kränken"
  poet = "Auteur : Dietrich von dem Werder (1584-1657)"
   opus = "BWV 425"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

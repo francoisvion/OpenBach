@@ -2,7 +2,7 @@
 
 
 
-\include "Schwing_dich_auf_zu_deinem_Gott_(BWV_40_6)_Jean_Sébastien_Bach_notes.ily"
+\include "Schwing_dich_auf_zu_deinem_Gott_(BWV_40_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Dazu ist erschienen der Sohn Gottes"
   poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 40/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

@@ -32,7 +32,7 @@
  subtitle = "tiré de la cantate : Der Herr ist mein getreuer Hirt"
  poet = "Auteur : Cornelius Becker (1561-1604)"
   opus = "BWV 112/5"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

@@ -31,7 +31,7 @@
  title = "Lass, o Herr, dein Ohr sich neigen"
  poet = "Auteur : Martin Opitz (1597-1639)"
   opus = "BWV 372"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

@@ -2,7 +2,7 @@
 
 
 
-\include "Mit_Fried_und_Freud_ich_fahr_dahin_(BWV_83_5)_Jean_Sébastien_Bach_notes.ily"
+\include "Mit_Fried_und_Freud_ich_fahr_dahin_(BWV_83_5)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Erfreute Zeit im neuen Bunde"
   poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 83/5"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

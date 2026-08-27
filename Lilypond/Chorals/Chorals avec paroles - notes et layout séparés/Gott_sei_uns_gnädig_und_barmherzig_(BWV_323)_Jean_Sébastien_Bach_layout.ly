@@ -31,7 +31,7 @@
  title = "Gott sei uns gnädig und barmherzig"
  poet = "Anonyme"
   opus = "BWV 323"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

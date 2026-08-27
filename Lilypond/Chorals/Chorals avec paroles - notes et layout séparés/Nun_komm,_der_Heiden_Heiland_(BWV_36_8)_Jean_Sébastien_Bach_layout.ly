@@ -2,7 +2,7 @@
 
 
 
-\include "Nun_komm,_der_Heiden_Heiland_(BWV_36_8)_Jean_Sébastien_Bach_notes.ily"
+\include "Nun_komm,_der_Heiden_Heiland_(BWV_36_8)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Schwingt freudig euch empr"
   poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 36/8"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

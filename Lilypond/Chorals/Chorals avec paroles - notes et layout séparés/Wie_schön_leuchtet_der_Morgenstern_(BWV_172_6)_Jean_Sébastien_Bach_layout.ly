@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Erschallet, ihr Lieder, erklinget, ihr Saiten!"
   poet = "Auteur : Philipp Nicolai (1556-1608)"
   opus = "BWV 172/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

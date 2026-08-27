@@ -2,7 +2,7 @@
 
 
 
-\include "Herr_Gott,_dich_loben_alle_wir_(I)_(BWV_326)_Jean_Sébastien_Bach_notes.ily"
+\include "Herr_Gott,_dich_loben_alle_wir_(I)_(BWV_326)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Herr Gott, dich loben alle wir (I)"
  poet = "Auteur : Paul Eber (1511-1569)"
   opus = "BWV 326"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

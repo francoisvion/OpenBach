@@ -2,7 +2,7 @@
 
 
 
-\include "Auf,_auf,_mein_Herz,_und_du_mein_ganzer_Sinn_(BWV_268)_Jean_Sébastien_Bach_notes.ily"
+\include "Auf,_auf,_mein_Herz,_und_du_mein_ganzer_Sinn_(BWV_268)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Auf, auf, mein Herz, und du mein ganzer Sinn"
  poet = "Auteur : Sigmund von Birken (1626-1681)"
   opus = "BWV 268"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

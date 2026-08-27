@@ -2,7 +2,7 @@
 
 
 
-\include "Seelenbräutigam_(BWV_409)_Jean_Sébastien_Bach copie_notes.ily"
+\include "Seelenbräutigam_(BWV_409)_Jean_Sébastien_Bach copie_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Seelenbräutigam"
  poet = "Auteur : Adam Drese (1620-1701)"
   opus = "BWV 409"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

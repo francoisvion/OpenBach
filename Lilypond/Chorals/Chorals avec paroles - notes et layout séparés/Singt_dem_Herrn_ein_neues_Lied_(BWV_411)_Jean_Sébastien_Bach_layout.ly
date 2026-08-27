@@ -2,7 +2,7 @@
 
 
 
-\include "Singt_dem_Herrn_ein_neues_Lied_(BWV_411)_Jean_Sébastien_Bach_notes.ily"
+\include "Singt_dem_Herrn_ein_neues_Lied_(BWV_411)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Singt dem Herrn ein neues Lied"
  poet = "Auteur : Matthäus Apelles von Löwenstern (1594-1648)"
   opus = "BWV 411"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

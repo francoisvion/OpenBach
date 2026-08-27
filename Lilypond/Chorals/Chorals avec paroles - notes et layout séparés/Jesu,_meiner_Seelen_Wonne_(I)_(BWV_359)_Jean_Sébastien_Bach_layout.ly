@@ -2,7 +2,7 @@
 
 
 
-\include "Jesu,_meiner_Seelen_Wonne_(I)_(BWV_359)_Jean_Sébastien_Bach_notes.ily"
+\include "Jesu,_meiner_Seelen_Wonne_(I)_(BWV_359)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Jesu, meiner Seelen Wonne (I)"
  poet = "Auteur : Martin Jahn (v.1620-v.1682)"
   opus = "BWV 359"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

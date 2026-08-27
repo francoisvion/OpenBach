@@ -32,7 +32,7 @@
  subtitle = "tiré de l'Oratorio de Noël, partie n° 4 : Fallt mit Danken, fallt mit Loben"
  poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 248/42"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

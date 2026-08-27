@@ -2,7 +2,7 @@
 
 
 
-\include "Als_vierzig_Tag_nach_Ostern_warn_(BWV_266)_Jean_Sébastien_Bach_notes.ily"
+\include "Als_vierzig_Tag_nach_Ostern_warn_(BWV_266)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Als vierzig Tag nach Ostern warn"
  poet = "Auteur : Nikolaus Herman (v.1480-1561)"
   opus = "BWV 266"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

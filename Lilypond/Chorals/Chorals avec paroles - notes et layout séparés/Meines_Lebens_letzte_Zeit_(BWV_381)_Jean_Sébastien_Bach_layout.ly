@@ -31,7 +31,7 @@
  title = "Meines Lebens letzte Zeit"
  poet = "Gotha 1726"
   opus = "BWV 381"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

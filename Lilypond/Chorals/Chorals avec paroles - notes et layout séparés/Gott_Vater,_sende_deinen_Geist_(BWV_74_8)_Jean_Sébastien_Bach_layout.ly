@@ -2,7 +2,7 @@
 
 
 
-\include "Gott_Vater,_sende_deinen_Geist_(BWV_74_8)_Jean_Sébastien_Bach_notes.ily"
+\include "Gott_Vater,_sende_deinen_Geist_(BWV_74_8)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
  subtitle = "tiré de la cantate : Wer mich liebet, der wird mein Wort halten (II)"
  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 74/8"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

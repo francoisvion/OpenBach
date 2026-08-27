@@ -2,7 +2,7 @@
 
 
 
-\include "Wach_auf,_mein_Herz,_und_singe_(BWV_194_12)_Jean_Sébastien_Bach_notes.ily"
+\include "Wach_auf,_mein_Herz,_und_singe_(BWV_194_12)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Höchsterwünschtes Freudenfest"
  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 194/12"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

@@ -2,7 +2,7 @@
 
 
 
-\include "Vater_unser_im_Himmelreich_(BWV_245_5b)_Jean_Sébastien_Bach_notes.ily"
+\include "Vater_unser_im_Himmelreich_(BWV_245_5b)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la Passion selon saint Jean"
  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 245/5b"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

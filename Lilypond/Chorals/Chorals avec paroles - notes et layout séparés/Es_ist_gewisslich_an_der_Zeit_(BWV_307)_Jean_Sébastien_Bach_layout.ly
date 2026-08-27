@@ -2,7 +2,7 @@
 
 
 
-\include "Es_ist_gewisslich_an_der_Zeit_(BWV_307)_Jean_Sébastien_Bach_notes.ily"
+\include "Es_ist_gewisslich_an_der_Zeit_(BWV_307)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
   title = "Es ist gewisslich an der Zeit"
   poet = "Auteur : Bartholomäus Ringwaldt (1532-1599)"
   opus = "BWV 307"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

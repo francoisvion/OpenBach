@@ -31,7 +31,7 @@
  title = "Nun lob, mein Seel, den Herren (I)"
  poet = "Auteur : Johann Gramann (1487-1541)"
   opus = "BWV 389"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

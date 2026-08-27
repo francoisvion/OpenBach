@@ -2,7 +2,7 @@
 
 
 
-\include "Christe,_du_Beistand_deiner_Kreuzgemeine_(BWV_275)_Jean_Sébastien_Bach_notes.ily"
+\include "Christe,_du_Beistand_deiner_Kreuzgemeine_(BWV_275)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Christe, du Beistand deiner Kreuzgemeine"
  poet = "Auteur : Matthäus Apelles von Löwenstern (1594-1648)"
   opus = "BWV 275"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

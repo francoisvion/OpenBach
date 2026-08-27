@@ -2,7 +2,7 @@
 
 
 
-\include "Christ_unser_Herr_zum_Jordan_kam_(BWV_280)_Jean_Sébastien_Bach_notes.ily"
+\include "Christ_unser_Herr_zum_Jordan_kam_(BWV_280)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Christ unser Herr zum Jordan kam"
  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 280"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

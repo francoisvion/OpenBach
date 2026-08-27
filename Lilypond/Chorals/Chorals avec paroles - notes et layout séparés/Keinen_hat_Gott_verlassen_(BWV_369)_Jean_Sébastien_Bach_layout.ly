@@ -2,7 +2,7 @@
 
 
 
-\include "Keinen_hat_Gott_verlassen_(BWV_369)_Jean_Sébastien_Bach_notes.ily"
+\include "Keinen_hat_Gott_verlassen_(BWV_369)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Keinen hat Gott verlassen"
  poet = "Anonyme"
   opus = "BWV 369"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

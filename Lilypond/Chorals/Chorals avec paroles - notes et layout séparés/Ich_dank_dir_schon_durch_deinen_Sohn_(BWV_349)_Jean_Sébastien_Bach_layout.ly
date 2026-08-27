@@ -31,7 +31,7 @@
  title = "Ich dank dir schon durch deinen Sohn"
  poet = "Leipzig 1586"
   opus = "BWV 349"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

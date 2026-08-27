@@ -2,7 +2,7 @@
 
 
 
-\include "Ach_bleib_bei_uns,_Herr_Jesu_Christ_(BWV_253)_Jean_Sébastien_Bach_notes.ily"
+\include "Ach_bleib_bei_uns,_Herr_Jesu_Christ_(BWV_253)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -30,7 +30,7 @@
 \header { 
   title = "Ach bleib bei uns, Herr Jesu Christ"
  poet = "Auteur : Nikolaus Selnecker (1532-1592)"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 253"   
   tagline = ##f
   copyright = "© 2026 — OpenBach"

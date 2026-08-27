@@ -2,7 +2,7 @@
 
 
 
-\include "Ach_Gott,_vom_Himmel_sieh_darein_(BWV_2_6)_Jean_Sébastien_Bach_notes.ily"
+\include "Ach_Gott,_vom_Himmel_sieh_darein_(BWV_2_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Ach Gott, vom Himmel sieh darein"
   poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 2/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

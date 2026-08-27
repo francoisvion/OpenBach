@@ -2,7 +2,7 @@
 
 
 
-\include "Ein_feste_Burg_ist_unser_Gott_(II)_(BWV_303)_Jean_Sébastien_Bach_notes.ily"
+\include "Ein_feste_Burg_ist_unser_Gott_(II)_(BWV_303)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Ein feste Burg ist unser Gott (II)"
  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 303"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

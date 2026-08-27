@@ -2,7 +2,7 @@
 
 
 
-\include "Wer_nur_den_lieben_Gott_läßt_walten_(BWV_88_7)_Jean_Sébastien_Bach_notes.ily"
+\include "Wer_nur_den_lieben_Gott_läßt_walten_(BWV_88_7)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Siehe, ich will viel Fischer aussenden"
  poet = "Auteur : Georg Neumark (1621-1681)"
   opus = "BWV 88/7"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

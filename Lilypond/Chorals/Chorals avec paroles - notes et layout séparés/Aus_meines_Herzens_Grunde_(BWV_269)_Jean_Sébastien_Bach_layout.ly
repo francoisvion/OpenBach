@@ -2,7 +2,7 @@
 
 
 
-\include "Aus_meines_Herzens_Grunde_(BWV_269)_Jean_Sébastien_Bach_notes.ily"
+\include "Aus_meines_Herzens_Grunde_(BWV_269)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Aus meines Herzens Grunde"
  poet = "Auteur : Georg Niege (1525-1589)"
   opus = "BWV 269"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

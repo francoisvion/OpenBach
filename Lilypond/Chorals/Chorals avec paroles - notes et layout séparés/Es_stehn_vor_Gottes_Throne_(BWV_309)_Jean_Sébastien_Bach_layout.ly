@@ -2,7 +2,7 @@
 
 
 
-\include "Es_stehn_vor_Gottes_Throne_(BWV_309)_Jean_Sébastien_Bach_notes.ily"
+\include "Es_stehn_vor_Gottes_Throne_(BWV_309)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Es stehn vor Gottes Throne"
  poet = "Auteur : Ludwig Helmbold (1532-1598)"
   opus = "BWV 309"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

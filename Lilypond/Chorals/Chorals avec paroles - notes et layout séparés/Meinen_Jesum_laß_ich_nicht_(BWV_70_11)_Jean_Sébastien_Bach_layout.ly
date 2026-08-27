@@ -2,7 +2,7 @@
 
 
 
-\include "Meinen_Jesum_laß_ich_nicht_(BWV_70_11)_Jean_Sébastien_Bach_notes.ily"
+\include "Meinen_Jesum_laß_ich_nicht_(BWV_70_11)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
  subtitle = "tiré de la cantate : Wachet! betet! betet! wachet!"
  poet = "Auteur : Christian Keymann (1607-1662)"
   opus = "BWV 70/11"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

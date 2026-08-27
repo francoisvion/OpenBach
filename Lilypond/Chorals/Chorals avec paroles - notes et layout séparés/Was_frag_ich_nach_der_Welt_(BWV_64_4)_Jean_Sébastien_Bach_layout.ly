@@ -2,7 +2,7 @@
 
 
 
-\include "Was_frag_ich_nach_der_Welt_(BWV_64_4)_Jean_Sébastien_Bach_notes.ily"
+\include "Was_frag_ich_nach_der_Welt_(BWV_64_4)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Sehet, welch eine Liebe hat uns der Vater erzeiget"
   poet = "Auteur : Balthasar Kindermann (1636-1706)"
   opus = "BWV 64/4"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

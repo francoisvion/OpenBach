@@ -2,7 +2,7 @@
 
 
 
-\include "Was_bist_du_doch,_o_Seele,_so_betrübet_(BWV_424)_Jean_Sébastien_Bach_notes.ily"
+\include "Was_bist_du_doch,_o_Seele,_so_betrübet_(BWV_424)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Was bist du doch, o Seele, so betrübet"
  poet = "Auteur : Rudolf Friedrich von Schultt (1644-1718)"
   opus = "BWV 424"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

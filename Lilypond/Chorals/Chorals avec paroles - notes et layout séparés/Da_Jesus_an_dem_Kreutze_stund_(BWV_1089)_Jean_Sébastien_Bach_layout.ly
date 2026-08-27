@@ -30,7 +30,7 @@
 \header {
   title = "Da Jesus an dem Kreutze stund"
   opus = "BWV 1089"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f   
   copyright = "© 2026 — OpenBach"
   } 

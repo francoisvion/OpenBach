@@ -2,7 +2,7 @@
 
 
 
-\include "Nun_lob,_mein_Seel,_den_Herren_(II)_(BWV_390)_Jean_Sébastien_Bach_notes.ily"
+\include "Nun_lob,_mein_Seel,_den_Herren_(II)_(BWV_390)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -31,7 +31,7 @@
  title = "Nun lob, mein Seel, den Herren (II)"
  poet = "Auteur : Johann Gramann (1487-1541)"
   opus = "BWV 390"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

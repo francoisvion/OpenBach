@@ -32,7 +32,7 @@
   subtitle = "tiré du choral : O hilf, Christe, Gottes Sohn"
   opus = "BWV 1084"
   poet = "Auteur : Michael Weisse (c. 1488-1534)"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f   
   copyright = "© 2026 — OpenBach"
   } 

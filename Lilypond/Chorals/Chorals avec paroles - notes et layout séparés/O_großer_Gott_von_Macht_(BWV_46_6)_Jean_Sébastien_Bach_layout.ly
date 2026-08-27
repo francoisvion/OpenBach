@@ -2,7 +2,7 @@
 
 
 
-\include "O_großer_Gott_von_Macht_(BWV_46_6)_Jean_Sébastien_Bach_notes.ily"
+\include "O_großer_Gott_von_Macht_(BWV_46_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Schauet doch und sehet, ob irgendein Schmerz sei"
   poet = "Auteur : Matthäus Meyfart (1590-1642)"
   opus = "BWV 46/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

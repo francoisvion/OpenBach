@@ -2,7 +2,7 @@
 
 
 
-\include "Jesu,_meine_Freude_(BWV_64_8)_Jean_Sébastien_Bach_notes.ily"
+\include "Jesu,_meine_Freude_(BWV_64_8)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
  subtitle = "tiré de la cantate : Sehet, welch eine Liebe hat uns der Vater erzeiget"
  poet = "Auteur : Johann Franck (1618-1677)"
   opus = "BWV 64/8"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }

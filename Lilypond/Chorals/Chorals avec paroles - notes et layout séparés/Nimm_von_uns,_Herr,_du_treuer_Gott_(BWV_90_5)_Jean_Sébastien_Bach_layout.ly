@@ -2,7 +2,7 @@
 
 
 
-\include "Nimm_von_uns,_Herr,_du_treuer_Gott_(BWV_90_5)_Jean_Sébastien_Bach_notes.ily"
+\include "Nimm_von_uns,_Herr,_du_treuer_Gott_(BWV_90_5)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -32,7 +32,7 @@
   subtitle = "tiré de la cantate : Es reisset euch ein schrecklich Ende"
   poet = "Auteur : Martin Moller (1547-1606)"
   opus = "BWV 90/5"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
 }
