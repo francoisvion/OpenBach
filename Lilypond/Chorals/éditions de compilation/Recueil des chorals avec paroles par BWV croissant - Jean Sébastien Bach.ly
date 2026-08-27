@@ -197,12 +197,12 @@
 #(define (toc-item-markup title opus)
    (let* ((title-parts (wrap-poet title))
           (row (string-append
-                 "\\fill-with-pattern #1 #RIGHT \".\" \\override #'(line-width . 88) \\fill-with-pattern #1 #RIGHT \".\" \""
-                 (car title-parts) "\" \"" opus "\" \\fromproperty #'toc:page")))
+                 "\\fill-with-pattern #1 #RIGHT \".\" \\line { \\override #'(line-width . 66) \\fill-with-pattern #1 #RIGHT \".\" \""
+                 (car title-parts) "\" \"\" \"" opus "\" } \\fromproperty #'toc:page")))
      (if (= (length title-parts) 1)
          (string-append "\\markup { " row " }")
          (string-append "\\markup \\column { " row
-                         " \\line { \\hspace #4 \\fontsize #-2 \"" (cadr title-parts) "\" } }"))))
+                         " \\line { \\hspace #4 \"" (cadr title-parts) "\" } }"))))
 
 #(define (piece-text rec)
    (let* ((base (assq-ref rec 'base))
