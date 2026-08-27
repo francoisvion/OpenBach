@@ -193,6 +193,14 @@
 #(define (bwv-less? a b)
    (natural<? (or (assq-ref a 'opus) "") (or (assq-ref b 'opus) "")))
 
+#(define (alpha-less? a b)
+   (let ((ta (string-downcase (strip-verse-marks (or (assq-ref a 'title) ""))))
+         (tb (string-downcase (strip-verse-marks (or (assq-ref b 'title) "")))))
+     (cond
+       ((string<? ta tb) #t)
+       ((string<? tb ta) #f)
+       (else (bwv-less? a b)))))
+
 #(define layout-files
    (filter (lambda (f) (string-suffix? "_layout.ly" f)) (scandir source-dir)))
 
@@ -209,7 +217,7 @@
            (cons 'score (extract-score-block content)))))
 
 #(define records (map make-record layout-files))
-#(define sorted-records (sort records bwv-less?))
+#(define sorted-records (sort records alpha-less?))
 
 #(define (toc-item-markup title opus)
    (let* ((title-parts (wrap-poet title))
@@ -315,7 +323,7 @@
     \vspace #2
     \fill-line { \null \fontsize #4 \italic "pour SATB sur portées de piano avec textes" \null }
     \vspace #1
-    \fill-line { \null \fontsize #4 \italic "classés par ordre croissant de numéro BWV" \null }
+    \fill-line { \null \fontsize #4 \italic "classés par ordre alphabétique des titres" \null }
     \vspace #6
     \line { \combine \draw-line #'(105 . 0) \translate #'(0 . 0.7) \draw-line #'(105 . 0) }
   }
