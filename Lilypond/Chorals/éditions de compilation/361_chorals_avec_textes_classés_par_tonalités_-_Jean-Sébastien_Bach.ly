@@ -193,7 +193,7 @@
 #(define (bwv-less? a b)
    (natural<? (or (assq-ref a 'opus) "") (or (assq-ref b 'opus) "")))
 
-;; --- Tonality-specific machinery ---------------------------------------
+% --- Tonality-specific machinery ---------------------------------------
 
 #(define tonic-fifths-alist
    '(("c" . 0) ("cis" . 7) ("ces" . -7)
@@ -270,7 +270,7 @@
    (let ((m (string-match "\\\\key[ \t]+([a-z]+)[ \t]+\\\\(major|minor|dorian|phrygian|lydian|mixolydian)" content)))
      (if m (cons (match:substring m 1) (match:substring m 2)) (cons "c" "major"))))
 
-;; -------------------------------------------------------------------------
+% -------------------------------------------------------------------------
 
 #(define layout-files
    (filter (lambda (f) (string-suffix? "_layout.ly" f)) (scandir source-dir)))
