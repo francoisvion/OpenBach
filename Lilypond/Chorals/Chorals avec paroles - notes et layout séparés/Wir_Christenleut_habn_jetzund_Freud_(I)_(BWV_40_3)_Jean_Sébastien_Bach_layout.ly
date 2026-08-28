@@ -42,7 +42,7 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key d \minor
+      \key g \dorian
       \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
@@ -56,7 +56,7 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key d \minor
+      \key g \dorian
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic

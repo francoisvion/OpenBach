@@ -41,7 +41,7 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     \relative c' {
       \clef treble
-      \key a \minor
+      \key d \dorian
       \time 4/4
       <<
         \new Voice = "soprano" \sopranoMusic
@@ -55,7 +55,7 @@
     \relative c
     {
       \clef bass
-      \key a \minor
+      \key d \dorian
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic
