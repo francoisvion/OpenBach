@@ -56,7 +56,7 @@
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key f \major
+      \key d \minor
       \time 4/4
       <<
         \new Voice = "tenor" \tenorMusic
