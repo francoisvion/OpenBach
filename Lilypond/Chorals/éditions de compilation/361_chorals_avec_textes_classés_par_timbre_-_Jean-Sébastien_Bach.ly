@@ -993,7 +993,7 @@
     \vspace #2
     \fill-line { \null \fontsize #4 \italic "pour SATB sur portées de piano avec textes" \null }
     \vspace #1
-    \fill-line { \null \fontsize #4 \italic "classés par timbre, par ordre alphabétique du nom du timbre" \null }
+    \fill-line { \null \fontsize #4 \italic "classés par ordre alphabétique des timbres" \null }
     \vspace #6
     \line { \combine \draw-line #'(96.76 . 0) \translate #'(0 . 0.7) \draw-line #'(96.76 . 0) }
   }
