@@ -515,7 +515,7 @@
     \vspace #2
     \fill-line { \null \fontsize #4 \italic "pour SATB sur portées de piano avec textes" \null }
     \vspace #1
-    \fill-line { \null \fontsize #4 \italic "classés par tonalités par nombre d'altérations croissant" \null }
+    \fill-line { \null \fontsize #4 \italic "classés par tonalité par nombre d'altérations croissant" \null }
     \vspace #6
     \line { \combine \draw-line #'(96.76 . 0) \translate #'(0 . 0.7) \draw-line #'(96.76 . 0) }
   }
