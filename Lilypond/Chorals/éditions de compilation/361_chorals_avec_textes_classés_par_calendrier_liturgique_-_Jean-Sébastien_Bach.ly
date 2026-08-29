@@ -205,6 +205,7 @@
     ("Ach_Gott_und_Herr_(I)_(BWV_48_3)_Jean_Sébastien_Bach" . 59)
     ("Ach_wie_flüchtig,_ach_wie_nichtig_(BWV_26_6)_Jean_Sébastien_Bach" . 64)
     ("Allein_zu_dir,_Herr_Jesu_Christ_(I)_(BWV_33_6)_Jean_Sébastien_Bach" . 53)
+    ("Aus_tiefer_Not_schrei_ich_zu_dir_(BWV_38_6)_Jean_Sébastien_Bach" . 61)
     ("Barmherzger_Vater,_höchster_Gott_(BWV_103_6)_Jean_Sébastien_Bach" . 32)
     ("Befiehl_du_deine_Wege_(I)_(BWV_153_5)_Jean_Sébastien_Bach" . 9)
     ("Befiehl_du_deine_Wege_(II)_(BWV_244_44)_Jean_Sébastien_Bach" . 26)
@@ -229,6 +230,8 @@
     ("Es_ist_das_Heil_uns_kommen_her_(II)_(BWV_86_6)_Jean_Sébastien_Bach" . 34)
     ("Es_ist_das_Heil_uns_kommen_her_(III)_(BWV_155_5)_Jean_Sébastien_Bach" . 12)
     ("Es_ist_genug_(BWV_60_5)_Jean_Sébastien_Bach" . 64)
+    ("Es_woll_uns_Gott_genädig_sein_(I)_(BWV_69_6)_Jean_Sébastien_Bach" . 73)
+    ("Freu_dich_sehr,_o_meine_Seele_(BWV_19_7)_Jean_Sébastien_Bach" . 71)
     ("Freuet_euch,_ihr_Christen_alle_(BWV_40_8)_Jean_Sébastien_Bach" . 5)
     ("Fröhlich_soll_mein_Herze_springen_(BWV_248_33)_Jean_Sébastien_Bach" . 6)
     ("Gelobet_seist_du,_Jesu_Christ_(I)_(BWV_64_2)_Jean_Sébastien_Bach" . 6)
@@ -274,20 +277,27 @@
     ("Jesu_Leiden,_Pein_und_Tod_(I)_(BWV_159_5)_Jean_Sébastien_Bach" . 19)
     ("Jesu_Leiden,_Pein_und_Tod_(II)_(BWV_245_14)_Jean_Sébastien_Bach" . 26)
     ("Jesu_Leiden,_Pein_und_Tod_(III)_(BWV_245_28)_Jean_Sébastien_Bach" . 26)
+    ("Komm,_Heiliger_Geist,_Herre_Gott_(BWV_226_2)_Jean_Sébastien_Bach" . 74)
     ("Kommt,_lasst_euch_den_Herren_lehren_(BWV_39_7)_Jean_Sébastien_Bach" . 41)
     ("Lasst_Furcht_und_Pein_(BWV_248_35)_Jean_Sébastien_Bach" . 6)
     ("Liebster_Gott,_wenn_werd_ich_sterben_(BWV_8_6)_Jean_Sébastien_Bach" . 56)
     ("Liebster_Immanuel,_Herzog_der_Frommen_(BWV_123_6)_Jean_Sébastien_Bach" . 10)
     ("Lobt_Gott,_ihr_Christen,_allzugleich_(I)_(BWV_151_5)_Jean_Sébastien_Bach" . 6)
+    ("Mache_dich,_mein_Geist,_bereit_(BWV_115_6)_Jean_Sébastien_Bach" . 62)
+    ("Meine_Seele_erhebt_den_Herren_(I)_(BWV_10_7)_Jean_Sébastien_Bach" . 70)
     ("Meinen_Jesum_lass_ich_nicht_(I)_(BWV_70_11)_Jean_Sébastien_Bach" . 66)
     ("Meinen_Jesum_lass_ich_nicht_(II)_(BWV_154_8)_Jean_Sébastien_Bach" . 11)
+    ("Mit_Fried_und_Freud_ich_fahr_dahin_(I)_(BWV_83_5)_Jean_Sébastien_Bach" . 68)
     ("Nimm_von_uns,_Herr,_du_treuer_Gott_(I)_(BWV_90_5)_Jean_Sébastien_Bach" . 65)
     ("Nimm_von_uns,_Herr,_du_treuer_Gott_(II)_(BWV_101_7)_Jean_Sébastien_Bach" . 50)
     ("Nun,_liebe_Seel,_nun_ist_es_Zeit_(BWV_248_46)_Jean_Sébastien_Bach" . 9)
     ("Nun_bitten_wir_den_Heiligen_Geist_(I)_(BWV_169_7)_Jean_Sébastien_Bach" . 58)
+    ("Nun_bitten_wir_den_Heiligen_Geist_(II)_(BWV_197_5)_Jean_Sébastien_Bach" . 72)
+    ("Nun_danket_alle_Gott_(I)_(BWV_252)_Jean_Sébastien_Bach" . 72)
     ("Nun_komm,_der_Heiden_Heiland_(I)_(BWV_36_8)_Jean_Sébastien_Bach" . 0)
     ("Nun_komm,_der_Heiden_Heiland_(II)_(BWV_62_6)_Jean_Sébastien_Bach" . 0)
     ("Nun_lob,_mein_Seel,_den_Herren_(I)_(BWV_17_7)_Jean_Sébastien_Bach" . 54)
+    ("Nun_lob,_mein_Seel,_den_Herren_(II)_(BWV_29_8)_Jean_Sébastien_Bach" . 73)
     ("O_Gott,_du_frommer_Gott_(I)_(BWV_24_6)_Jean_Sébastien_Bach" . 44)
     ("O_Gott,_du_frommer_Gott_(II)_(BWV_45_7)_Jean_Sébastien_Bach" . 48)
     ("O_Haupt_voll_Blut_und_Wunden_(I)_(BWV_244_15)_Jean_Sébastien_Bach" . 26)
@@ -301,11 +311,13 @@
     ("Schau,_lieber_Gott,_wie_meine_Feind_(BWV_153_1)_Jean_Sébastien_Bach" . 9)
     ("Schmücke_dich,_o_liebe_Seele_(BWV_180_7)_Jean_Sébastien_Bach" . 60)
     ("Schwing_dich_auf_zu_deinem_Gott_(BWV_40_6)_Jean_Sébastien_Bach" . 5)
+    ("Sei_Lob_und_Ehr_dem_höchsten_Gut_(II)_(BWV_251)_Jean_Sébastien_Bach" . 72)
     ("Selig_ist_die_Seele_(BWV_87_7)_Jean_Sébastien_Bach" . 34)
     ("Singen_wir_aus_Herzensgrund_(BWV_187_7)_Jean_Sébastien_Bach" . 47)
     ("So_wahr_ich_lebe,_spricht_dein_Gott_(BWV_102_7)_Jean_Sébastien_Bach" . 50)
     ("Treuer_Gott,_ich_muss_dir_klagen_(I)_(BWV_25_6)_Jean_Sébastien_Bach" . 54)
     ("Treuer_Gott,_ich_muss_dir_klagen_(II)_(BWV_194_6)_Jean_Sébastien_Bach" . 40)
+    ("Tröstet,_tröstet_meine_Lieben_(BWV_30_6)_Jean_Sébastien_Bach" . 69)
     ("Valet_will_ich_dir_geben_(I)_(BWV_245_26)_Jean_Sébastien_Bach" . 26)
     ("Vater_unser_im_Himmelreich_(I)_(BWV_245_5a)_Jean_Sébastien_Bach" . 26)
     ("Vater_unser_im_Himmelreich_(II)_(BWV_245_5b)_Jean_Sébastien_Bach" . 26)
@@ -318,6 +330,7 @@
     ("Warum_betrübst_du_dich,_mein_Herz_(I)_(BWV_47_5)_Jean_Sébastien_Bach" . 57)
     ("Was_Gott_tut,_das_ist_wohlgetan_(I)_(BWV_69a_6)_Jean_Sébastien_Bach" . 52)
     ("Was_Gott_tut,_das_ist_wohlgetan_(II)_(BWV_144_3)_Jean_Sébastien_Bach" . 17)
+    ("Was_Gott_tut,_das_ist_wohlgetan_(III)_(BWV_250)_Jean_Sébastien_Bach" . 72)
     ("Was_alle_Weisheit_in_der_Welt_(BWV_176_6)_Jean_Sébastien_Bach" . 40)
     ("Was_frag_ich_nach_der_Welt_(I)_(BWV_64_4)_Jean_Sébastien_Bach" . 6)
     ("Was_frag_ich_nach_der_Welt_(II)_(BWV_94_8)_Jean_Sébastien_Bach" . 49)
@@ -327,8 +340,10 @@
     ("Welt,_ade!_Ich_bin_dein_müde_(BWV_27_6)_Jean_Sébastien_Bach" . 56)
     ("Wenn_einer_alle_Ding_verstünd_(v._8)?_(BWV_77_6)_Jean_Sébastien_Bach" . 53)
     ("Wer_nur_den_lieben_Gott_lässt_walten_(I)_(BWV_88_7)_Jean_Sébastien_Bach" . 45)
+    ("Wer_nur_den_lieben_Gott_lässt_walten_(II)_(BWV_197_10)_Jean_Sébastien_Bach" . 72)
     ("Wer_weiß,_wie_nahe_mir_mein_Ende_(I)_(BWV_84_5)_Jean_Sébastien_Bach" . 17)
     ("Wer_weiß,_wie_nahe_mir_mein_Ende_(II)_(BWV_166_6)_Jean_Sébastien_Bach" . 33)
+    ("Werde_munter_mein_Gemüte_(I)_(BWV_55_5)_Jean_Sébastien_Bach" . 62)
     ("Werde_munter_mein_Gemüte_(II)_(BWV_244_40)_Jean_Sébastien_Bach" . 26)
     ("Wie_schön_leuchtet_der_Morgenstern_(I)_(BWV_36_4)_Jean_Sébastien_Bach" . 0)
     ("Wie_schön_leuchtet_der_Morgenstern_(II)_(BWV_172_6)_Jean_Sébastien_Bach" . 37)
@@ -337,6 +352,7 @@
     ("Wir_Christenleut_habn_jetzund_Freud_(II)_(BWV_110_7)_Jean_Sébastien_Bach" . 4)
     ("Wir_singen_dir,_Immanuel_(BWV_248_23)_Jean_Sébastien_Bach" . 5)
     ("Wo_soll_ich_fliehen_hin_(I)_(BWV_5_7)_Jean_Sébastien_Bach" . 59)
+    ("Wo_soll_ich_fliehen_hin_(II)_(BWV_89_6)_Jean_Sébastien_Bach" . 62)
     ("Wo_soll_ich_fliehen_hin_(III)_(BWV_136_6)_Jean_Sébastien_Bach" . 48)
     ("Wo_soll_ich_fliehen_hin_(IV)_(BWV_148_6)_Jean_Sébastien_Bach" . 57)
     ("Wär_Gott_nicht_mit_uns_diese_Zeit_(I)_(BWV_14_5)_Jean_Sébastien_Bach" . 14)
@@ -387,33 +403,40 @@
     (38 . ("Pentecôte" . "Lundi de Pentecôte"))
     (39 . ("Pentecôte" . "Mardi de Pentecôte"))
     (40 . ("Trinité" . "Dimanche de la Trinité"))
-    (41 . ("Trinité" . "1st dimanche après la Trinité"))
-    (42 . ("Trinité" . "2nd dimanche après la Trinité"))
-    (43 . ("Trinité" . "3rd dimanche après la Trinité"))
-    (44 . ("Trinité" . "4th dimanche après la Trinité"))
-    (45 . ("Trinité" . "5th dimanche après la Trinité"))
-    (46 . ("Trinité" . "6th dimanche après la Trinité"))
-    (47 . ("Trinité" . "7th dimanche après la Trinité"))
-    (48 . ("Trinité" . "8th dimanche après la Trinité"))
-    (49 . ("Trinité" . "9th dimanche après la Trinité"))
-    (50 . ("Trinité" . "10th dimanche après la Trinité"))
-    (51 . ("Trinité" . "11th dimanche après la Trinité"))
-    (52 . ("Trinité" . "12th dimanche après la Trinité"))
-    (53 . ("Trinité" . "13th dimanche après la Trinité"))
-    (54 . ("Trinité" . "14th dimanche après la Trinité"))
-    (55 . ("Trinité" . "15th dimanche après la Trinité"))
-    (56 . ("Trinité" . "16th dimanche après la Trinité"))
-    (57 . ("Trinité" . "17th dimanche après la Trinité"))
-    (58 . ("Trinité" . "18th dimanche après la Trinité"))
-    (59 . ("Trinité" . "19th dimanche après la Trinité"))
-    (60 . ("Trinité" . "20th dimanche après la Trinité"))
-    (61 . ("Trinité" . "21th dimanche après la Trinité"))
-    (62 . ("Trinité" . "22th dimanche après la Trinité"))
-    (63 . ("Trinité" . "23th dimanche après la Trinité"))
-    (64 . ("Trinité" . "24th dimanche après la Trinité"))
-    (65 . ("Trinité" . "25th dimanche après la Trinité"))
-    (66 . ("Trinité" . "26th dimanche après la Trinité"))
-    (67 . ("Trinité" . "27th dimanche après la Trinité"))
+    (41 . ("Trinité" . "1er dimanche après la Trinité"))
+    (42 . ("Trinité" . "2e dimanche après la Trinité"))
+    (43 . ("Trinité" . "3e dimanche après la Trinité"))
+    (44 . ("Trinité" . "4e dimanche après la Trinité"))
+    (45 . ("Trinité" . "5e dimanche après la Trinité"))
+    (46 . ("Trinité" . "6e dimanche après la Trinité"))
+    (47 . ("Trinité" . "7e dimanche après la Trinité"))
+    (48 . ("Trinité" . "8e dimanche après la Trinité"))
+    (49 . ("Trinité" . "9e dimanche après la Trinité"))
+    (50 . ("Trinité" . "10e dimanche après la Trinité"))
+    (51 . ("Trinité" . "11e dimanche après la Trinité"))
+    (52 . ("Trinité" . "12e dimanche après la Trinité"))
+    (53 . ("Trinité" . "13e dimanche après la Trinité"))
+    (54 . ("Trinité" . "14e dimanche après la Trinité"))
+    (55 . ("Trinité" . "15e dimanche après la Trinité"))
+    (56 . ("Trinité" . "16e dimanche après la Trinité"))
+    (57 . ("Trinité" . "17e dimanche après la Trinité"))
+    (58 . ("Trinité" . "18e dimanche après la Trinité"))
+    (59 . ("Trinité" . "19e dimanche après la Trinité"))
+    (60 . ("Trinité" . "20e dimanche après la Trinité"))
+    (61 . ("Trinité" . "21e dimanche après la Trinité"))
+    (62 . ("Trinité" . "22e dimanche après la Trinité"))
+    (63 . ("Trinité" . "23e dimanche après la Trinité"))
+    (64 . ("Trinité" . "24e dimanche après la Trinité"))
+    (65 . ("Trinité" . "25e dimanche après la Trinité"))
+    (66 . ("Trinité" . "26e dimanche après la Trinité"))
+    (67 . ("Trinité" . "27e dimanche après la Trinité"))
+    (68 . ("Fêtes fixes" . "Purification de Marie (2 février)"))
+    (69 . ("Fêtes fixes" . "Nativité de saint Jean-Baptiste (24 juin)"))
+    (70 . ("Fêtes fixes" . "Visitation de Marie (2 juillet)"))
+    (71 . ("Fêtes fixes" . "Saint Michel et les anges (29 septembre)"))
+    (72 . ("Occasions particulières" . "Mariage"))
+    (73 . ("Occasions particulières" . "Inauguration du conseil municipal"))
+    (74 . ("Occasions particulières" . "Funérailles"))
    ))
 
 #(define UNKNOWN-INDEX 9999)
@@ -475,7 +498,10 @@
    (let ((p (assoc idx day-counts)))
      (if p (cdr p) 0)))
 
-#(define (toc-item-markup title opus)
+%% toc-item-inner returns the bare markup expression (no leading \markup
+%% keyword), so it can be embedded directly inside another already-open
+%% \column {...} (used for the day's first piece, merged with its headers).
+#(define (toc-item-inner title opus)
    (let* ((title-parts (wrap-poet title))
           (title-parts (if (= (length title-parts) 1)
                             (wrap-long-text (car title-parts) 55)
@@ -484,39 +510,55 @@
                  "\\fill-with-pattern #1 #RIGHT \".\" \\line { \\override #'(line-width . 73) \\fill-with-pattern #1 #RIGHT \".\" \""
                  (car title-parts) "\" \"\" \"" opus "\" } \\fromproperty #'toc:page")))
      (if (= (length title-parts) 1)
-         (string-append "\\markup { " row " }")
-         (string-append "\\markup \\column { " row
+         (string-append "{ " row " }")
+         (string-append "\\column { " row
                          " \\line { \"" (cadr title-parts) "\" } \\vspace #0.33 }"))))
 
-#(define (season-header-text idx first-group)
+%% Season/day headers are split into a toc-line (embedded into the combined
+%% tocItem of the day's first piece, so a header can never end up alone at
+%% the bottom of a ToC page) and a body-block (the visual header printed
+%% in the actual pages, glued to what follows via \noPageBreak).
+
+#(define (season-toc-line idx first-group)
+   (string-append
+     (if first-group "" "  \\vspace #1\n")
+     "  \\line { \\bold \\fontsize #3 \"" (escape-quotes (season-of idx)) "\" }\n"))
+
+#(define (season-body-block idx first-group)
    (let ((label (escape-quotes (season-of idx))))
      (string-append
        (if first-group "" "\\pageBreak\n")
-       "\\tocItem \\markup { \\fill-line { \\bold \\fontsize #3 \"" label "\" \\fromproperty #'toc:page } }\n"
        "\\markup \\column {\n"
        "  \\vspace #1\n"
        "  \\fill-line { \\null \\fontsize #5 \\bold \"" label "\" \\null }\n"
        "  \\vspace #0.5\n"
        "  \\line { \\combine \\draw-line #'(96.76 . 0) \\translate #'(0 . 0.7) \\draw-line #'(96.76 . 0) }\n"
        "  \\vspace #1\n"
-       "}\n")))
+       "}\n"
+       "\\noPageBreak\n")))
 
-#(define (day-header-text idx)
+#(define (day-toc-line idx)
    (let ((label (escape-quotes (day-of idx)))
          (count (number->string (day-count idx))))
      (string-append
-       "\\tocItem \\markup \\column {\n"
        "  \\vspace #0.6\n"
        "  \\line { \\bold \\fontsize #1 \"" label "\" \\small \\concat { \" (\" \"" count "\" \")\" } }\n"
-       "  \\vspace #0.4\n"
-       "}\n"
+       "  \\vspace #0.4\n")))
+
+#(define (day-body-block idx)
+   (let ((label (escape-quotes (day-of idx))))
+     (string-append
        "\\markup \\column {\n"
        "  \\vspace #1\n"
        "  \\fill-line { \\null \\fontsize #2 \\bold \"" label "\" \\null }\n"
        "  \\vspace #0.5\n"
-       "}\n")))
+       "}\n"
+       "\\noPageBreak\n")))
 
-#(define (piece-text rec)
+#(define (piece-toc-row rec)
+   (toc-item-inner (escape-quotes (strip-verse-marks (assq-ref rec 'title))) (assq-ref rec 'opus)))
+
+#(define (piece-body rec)
    (let* ((base (assq-ref rec 'base))
           (notes-path (string-append source-dir "/" base "_notes.ily"))
           (title-markup-inner (runs->concat-markup (assq-ref rec 'title-runs)))
@@ -530,14 +572,11 @@
           (opus-field (if poet
                           (string-append "\\markup \\right-column { \"" opus "\"" (small-lines (wrap-poet (abbreviate-poet poet))) " }")
                           (string-append "\"" opus "\""))))
-     (if (not score)
-         ""
-         (string-append
-           "\\tocItem " (toc-item-markup (escape-quotes (strip-verse-marks (assq-ref rec 'title))) opus) "\n"
-           (read-utf8-file notes-path)
-           "\n"
-           (inject-header score piece-markup opus-field)
-           "\n"))))
+     (string-append
+       (read-utf8-file notes-path)
+       "\n"
+       (inject-header score piece-markup opus-field)
+       "\n")))
 
 #(define (build-grouped-content records)
    (let loop ((recs records) (prev-idx #f) (first #t) (acc '()))
@@ -545,12 +584,27 @@
          (apply string-append (reverse acc))
          (let* ((rec (car recs))
                 (idx (assq-ref rec 'liturgical-index))
+                (score (assq-ref rec 'score))
                 (new-season (or (not prev-idx) (not (string=? (season-of idx) (season-of prev-idx)))))
                 (new-day (or (not prev-idx) (not (= idx prev-idx))))
-                (season-header (if new-season (season-header-text idx first) ""))
-                (day-header (if new-day (day-header-text idx) "")))
+                (season-body (if new-season (season-body-block idx first) ""))
+                (day-body (if new-day (day-body-block idx) ""))
+                (piece-chunk
+                  (if (not score)
+                      ""
+                      (string-append
+                        (if new-day
+                            (string-append
+                              "\\tocItem \\markup \\column {\n"
+                              (if new-season (season-toc-line idx first) "")
+                              (day-toc-line idx)
+                              "  \\vspace #0.3\n"
+                              "  " (piece-toc-row rec) "\n"
+                              "}\n")
+                            (string-append "\\tocItem \\markup " (piece-toc-row rec) "\n"))
+                        (piece-body rec)))))
            (loop (cdr recs) idx #f
-                 (cons (piece-text rec) (cons day-header (cons season-header acc))))))))
+                 (cons piece-chunk (cons day-body (cons season-body acc))))))))
 
 #(define big-content
    (build-grouped-content sorted-records))
@@ -627,11 +681,11 @@
   \pageBreak
 
   \markup \column {
-    \vspace #2
+    \vspace #0.8
     \fill-line { \null \fontsize #4 \bold "Le calendrier liturgique luthérien" \null }
     \vspace #2
     \justify {
-      L'année liturgique luthérienne du temps de Bach s'organise en deux grands cycles
+      L'année liturgique luthérienne du temps de J.-S. Bach s'organise en deux grands cycles
       complémentaires : le cycle de Noël, qui va de l'Avent à l'Épiphanie et médite
       l'Incarnation, et le cycle de Pâques, qui va du Carême au temps après la Trinité
       et médite la Rédemption. Contrairement à l'année civile, elle commence non pas
@@ -655,7 +709,7 @@
       dans les églises principales, à l'exception de cette entrée solennelle dans
       l'Avent.
     }
-    \vspace #1
+    \vspace #0.9
     \fill-line { \null \bold "Noël et son octave" \null }
     \justify {
       rassemblent le jour de Noël (25 décembre), le deuxième jour (26 décembre,
@@ -666,7 +720,7 @@
       l'Épiphanie, riche en chorals populaires (\italic { Wie soll ich dich
       empfangen }, \italic { Ich steh an deiner Krippen hier }...).
     }
-    \vspace #1
+    \vspace #0.9
     \fill-line { \null \bold "Le Nouvel An et le temps qui suit" \null }
     \justify {
       comprennent le jour de l'An, qui n'est pas seulement le premier jour du
@@ -674,11 +728,7 @@
       après sa naissance selon la coutume juive), et le dimanche après le Nouvel
       An lorsque le calendrier le permet, avant l'Épiphanie.
     }
-  }
-  \pageBreak
-
-  \markup \column {
-    \vspace #1
+    \vspace #0.9
     \fill-line { \null \bold "L'Épiphanie" \null }
     \justify {
       (6 janvier) célèbre la manifestation du Christ au monde par la visite des
@@ -686,7 +736,7 @@
       selon la date, mobile, de Pâques : plus Pâques est tardive, plus le temps
       après l'Épiphanie s'allonge avant de céder la place au pré-Carême.
     }
-    \vspace #1
+    \vspace #0.9
     \fill-line { \null \bold "Le pré-Carême" \null }
     \justify {
       groupe trois dimanches aux noms latins évocateurs — Septuagésime,
@@ -694,7 +744,10 @@
       60e et le 50e jour avant Pâques ; ils annoncent et préparent le temps de
       pénitence à venir sans en observer encore le jeûne.
     }
-    \vspace #1
+  }
+  \pageBreak
+
+  \markup \column {
     \fill-line { \null \bold "Le Carême" \null }
     \justify {
       quarante jours de préparation à Pâques à l'imitation du jeûne du Christ au
@@ -702,7 +755,7 @@
       Judica, chacun nommé d'après les premiers mots latins de l'introït chanté
       ce jour-là, avant que le dimanche des Rameaux n'ouvre la Semaine sainte.
     }
-    \vspace #1
+    \vspace #0.9
     \fill-line { \null \bold "Le Vendredi saint" \null }
     \justify {
       commémore la Passion et la mort du Christ en croix ; c'est le jour des
@@ -711,7 +764,7 @@
       (BWV 244, créée en 1727), toutes deux ponctuées de chorals de la Passion,
       au premier rang desquels \italic { O Haupt voll Blut und Wunden }.
     }
-    \vspace #1
+    \vspace #0.9
     \fill-line { \null \bold "Pâques" \null }
     \justify {
       réunit le dimanche, le lundi et le mardi de la fête, puis une série de
@@ -719,25 +772,21 @@
       Misericordias Domini, Jubilate, Cantate, Rogate — qui déploient sur près
       de six semaines la joie de la Résurrection.
     }
-  }
-  \pageBreak
-
-  \markup \column {
-    \vspace #1
+    \vspace #0.9
     \fill-line { \null \bold "L'Ascension" \null }
     \justify {
       quarante jours après Pâques, tombe toujours un jeudi et célèbre l'élévation
       du Christ ressuscité auprès du Père ; le dimanche Exaudi, dernier de la
       saison pascale, la suit et prépare à la Pentecôte.
     }
-    \vspace #1
+    \vspace #0.9
     \fill-line { \null \bold "La Pentecôte" \null }
     \justify {
       — dimanche, lundi et mardi — commémore la descente de l'Esprit saint sur
       les apôtres cinquante jours après Pâques, et clôt traditionnellement le
       cycle des grandes fêtes chrétiennes.
     }
-    \vspace #1
+    \vspace #0.9
     \fill-line { \null \bold "Le temps après la Trinité" \null }
     \justify {
       de la fête de la Trinité (dimanche suivant la Pentecôte) jusqu'au
@@ -747,13 +796,28 @@
       moral et à la méditation, et comptent parmi les cantates les plus nombreuses
       et les plus variées de Bach.
     }
-    \vspace #1.5
+    \vspace #0.9
+    \fill-line { \null \bold "Les fêtes fixes" \null }
     \justify {
-      Enfin, une dernière section rassemble les chorals dont l'occasion
-      liturgique précise n'a pu être établie : il s'agit principalement des
-      pièces isolées (BWV 250 et suivants) dont la cantate d'origine ne nous est
-      pas parvenue, rendant leur situation dans le calendrier impossible à
-      déterminer avec certitude.
+      s'ajoutent au cycle mobile des dimanches : la Purification de Marie
+      (2 février), la Nativité de saint Jean-Baptiste (24 juin), la Visitation
+      de Marie (2 juillet) et la Saint-Michel (29 septembre) sont commémorées à
+      date fixe du calendrier civil plutôt qu'en fonction de Pâques.
+    }
+    \vspace #0.9
+    \fill-line { \null \bold "Les occasions particulières" \null }
+    \justify {
+      enfin, quelques chorals furent composés pour des circonstances hors du
+      cycle liturgique proprement dit : un mariage, l'inauguration annuelle du
+      conseil municipal de Leipzig ou des funérailles.
+    }
+    \vspace #1.2
+    \justify {
+      Une dernière section rassemble les chorals dont l'occasion liturgique
+      précise n'a pu être établie : il s'agit principalement des pièces isolées
+      (BWV 250 et suivants) dont la cantate d'origine ne nous est pas parvenue,
+      rendant leur situation dans le calendrier impossible à déterminer avec
+      certitude.
     }
   }
   \pageBreak
