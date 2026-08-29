@@ -222,25 +222,72 @@
 
 #(define (mode-priority mode) (cdr (assoc mode mode-priority-alist)))
 
-#(define tonic-french-alist
-   '(("c" . "Do") ("cis" . "Do dièse") ("ces" . "Do bémol")
-     ("d" . "Ré") ("dis" . "Ré dièse") ("des" . "Ré bémol")
-     ("e" . "Mi") ("eis" . "Mi dièse") ("ees" . "Mi bémol")
-     ("f" . "Fa") ("fis" . "Fa dièse") ("fes" . "Fa bémol")
-     ("g" . "Sol") ("gis" . "Sol dièse") ("ges" . "Sol bémol")
-     ("a" . "La") ("ais" . "La dièse") ("aes" . "La bémol")
-     ("b" . "Si") ("bis" . "Si dièse") ("bes" . "Si bémol")))
+#(define tonic-base-alist
+   '(("c" . "Do") ("cis" . "Do") ("ces" . "Do")
+     ("d" . "Ré") ("dis" . "Ré") ("des" . "Ré")
+     ("e" . "Mi") ("eis" . "Mi") ("ees" . "Mi")
+     ("f" . "Fa") ("fis" . "Fa") ("fes" . "Fa")
+     ("g" . "Sol") ("gis" . "Sol") ("ges" . "Sol")
+     ("a" . "La") ("ais" . "La") ("aes" . "La")
+     ("b" . "Si") ("bis" . "Si") ("bes" . "Si")))
 
-#(define (tonic-french name) (cdr (assoc name tonic-french-alist)))
+#(define (tonic-base name) (cdr (assoc name tonic-base-alist)))
+
+#(define tonic-accidental-alist
+   '(("c" . #f) ("cis" . sharp) ("ces" . flat)
+     ("d" . #f) ("dis" . sharp) ("des" . flat)
+     ("e" . #f) ("eis" . sharp) ("ees" . flat)
+     ("f" . #f) ("fis" . sharp) ("fes" . flat)
+     ("g" . #f) ("gis" . sharp) ("ges" . flat)
+     ("a" . #f) ("ais" . sharp) ("aes" . flat)
+     ("b" . #f) ("bis" . sharp) ("bes" . flat)))
+
+#(define (tonic-accidental name) (cdr (assoc name tonic-accidental-alist)))
+
+#(define (accidental-glyph acc)
+   (if (eq? acc 'sharp)
+       "\\raise #1.0 \\scale #'(0.7522 . 0.7522) \\sharp"
+       "\\raise #0.46 \\scale #'(0.9139 . 0.9139) \\flat"))
+
+#(define (family-accidental-glyph acc)
+   (if (eq? acc 'sharp)
+       "\\raise #1.24 \\scale #'(0.7138 . 0.7138) \\sharp"
+       "\\raise #0.58 \\scale #'(0.854 . 0.854) \\flat"))
+
+#(define (tonic-markup-inline name lower?)
+   (let* ((base (tonic-base name))
+          (base (if lower? (string-downcase base) base))
+          (acc (tonic-accidental name)))
+     (if acc
+         (string-append "\"" base "\" \\hspace #0.4 " (accidental-glyph acc))
+         (string-append "\"" base "\""))))
 
 #(define mode-french-alist
-   '(("major" . "majeur") ("minor" . "mineur") ("dorian" . "dorien")
-     ("phrygian" . "phrygien") ("lydian" . "lydien") ("mixolydian" . "mixolydien")))
+   '(("major" . "majeur") ("minor" . "mineur")))
 
 #(define (mode-french mode) (cdr (assoc mode mode-french-alist)))
 
-#(define (tonality-label key)
-   (string-append (tonic-french (car key)) " " (mode-french (cdr key))))
+#(define modal-modes '("dorian" "phrygian" "lydian" "mixolydian"))
+
+#(define mode-reference-alist
+   '(("dorian" . "d") ("phrygian" . "e") ("lydian" . "f") ("mixolydian" . "g")))
+
+#(define (mode-reference mode) (cdr (assoc mode mode-reference-alist)))
+
+#(define modal-name-french-alist
+   '(("dorian" . "dorien") ("phrygian" . "phrygien") ("lydian" . "lydien") ("mixolydian" . "mixolydien")))
+
+#(define (modal-name-french mode) (cdr (assoc mode modal-name-french-alist)))
+
+#(define (tonality-label-markup key)
+   (let ((tonic (car key)) (mode (cdr key)))
+     (if (member mode modal-modes)
+         (string-append "\\concat { \"Mode de \" \"" (string-downcase (tonic-base (mode-reference mode)))
+                         "\" \" sur \" " (tonic-markup-inline tonic #t)
+                         " \" (assimilé " (mode-french (mode-family mode)) ") — \" " (tonic-markup-inline tonic #t)
+                         " \" " (modal-name-french mode) "\" }")
+         (string-append "\\concat { " (tonic-markup-inline tonic #f)
+                         " \" " (mode-french mode) "\" }"))))
 
 #(define (armure key) (+ (tonic-fifths (car key)) (mode-offset (cdr key))))
 
@@ -250,6 +297,18 @@
            (if (>= arm 0) 0 1)
            (if (string=? (mode-family (cdr key)) "major") 0 1)
            (mode-priority (cdr key)))))
+
+#(define (family-tuple key)
+   (let ((arm (armure key)))
+     (list (abs arm) (if (>= arm 0) 0 1))))
+
+#(define (family-label-markup key)
+   (let* ((tuple (family-tuple key)) (count (car tuple)) (sign (cadr tuple)))
+     (if (= count 0)
+         "\"aucune altération\""
+         (string-append "\\concat { \"" (number->string count) " \" "
+                         (family-accidental-glyph (if (= sign 0) 'sharp 'flat))
+                         " }"))))
 
 #(define (tuple<? ta tb)
    (cond
@@ -291,6 +350,23 @@
 #(define records (map make-record layout-files))
 #(define sorted-records (sort records tonality-less?))
 
+#(define (count-by-key records)
+   (let loop ((recs records) (acc '()))
+     (if (null? recs)
+         acc
+         (let* ((key (assq-ref (car recs) 'key))
+                (existing (assoc key acc)))
+           (loop (cdr recs)
+                 (if existing
+                     (map (lambda (p) (if (equal? (car p) key) (cons key (+ 1 (cdr p))) p)) acc)
+                     (cons (cons key 1) acc)))))))
+
+#(define key-counts (count-by-key sorted-records))
+
+#(define (key-count key)
+   (let ((p (assoc key key-counts)))
+     (if p (cdr p) 0)))
+
 #(define (toc-item-markup title opus)
    (let* ((title-parts (wrap-poet title))
           (title-parts (if (= (length title-parts) 1)
@@ -304,17 +380,35 @@
          (string-append "\\markup \\column { " row
                          " \\line { \"" (cadr title-parts) "\" } \\vspace #0.33 }"))))
 
-#(define (group-header-text key first-group)
-   (let ((label (string-upcase (tonality-label key))))
+#(define (family-header-text key first-group)
+   (let ((label (family-label-markup key)))
      (string-append
        (if first-group "" "\\pageBreak\n")
-       "\\tocItem \\markup { \\fill-line { \\bold \\fontsize #2 \"" (escape-quotes label) "\" \\fromproperty #'toc:page } }\n"
+       "\\tocItem \\markup \\column {\n"
+       (if first-group "" "  \\vspace #1\n")
+       "  \\line { \\bold \\fontsize #3 " label " }\n"
+       "}\n"
        "\\markup \\column {\n"
        "  \\vspace #1\n"
-       "  \\fill-line { \\null \\fontsize #4 \\bold \"" (escape-quotes label) "\" \\null }\n"
+       "  \\fill-line { \\null \\fontsize #5 \\bold " label " \\null }\n"
        "  \\vspace #0.5\n"
-       "  \\line { \\combine \\draw-line #'(60 . 0) \\translate #'(0 . 0.3) \\draw-line #'(60 . 0) }\n"
+       "  \\line { \\combine \\draw-line #'(96.76 . 0) \\translate #'(0 . 0.7) \\draw-line #'(96.76 . 0) }\n"
        "  \\vspace #1\n"
+       "}\n")))
+
+#(define (tonality-header-text key)
+   (let ((label (tonality-label-markup key))
+         (count (number->string (key-count key))))
+     (string-append
+       "\\tocItem \\markup \\column {\n"
+       "  \\vspace #0.6\n"
+       "  \\line { \\bold \\fontsize #1 " label " \\small \\concat { \" (\" \"" count "\" \")\" } }\n"
+       "  \\vspace #0.4\n"
+       "}\n"
+       "\\markup \\column {\n"
+       "  \\vspace #1\n"
+       "  \\fill-line { \\null \\fontsize #2 \\bold " label " \\null }\n"
+       "  \\vspace #0.5\n"
        "}\n")))
 
 #(define (piece-text rec)
@@ -346,9 +440,12 @@
          (apply string-append (reverse acc))
          (let* ((rec (car recs))
                 (key (assq-ref rec 'key))
-                (new-group (or (not prev-key) (not (equal? key prev-key))))
-                (header (if new-group (group-header-text key first) "")))
-           (loop (cdr recs) key #f (cons (piece-text rec) (cons header acc)))))))
+                (new-family (or (not prev-key) (not (equal? (family-tuple key) (family-tuple prev-key)))))
+                (new-tonality (or (not prev-key) (not (equal? key prev-key))))
+                (family-header (if new-family (family-header-text key first) ""))
+                (tonality-header (if new-tonality (tonality-header-text key) "")))
+           (loop (cdr recs) key #f
+                 (cons (piece-text rec) (cons tonality-header (cons family-header acc))))))))
 
 #(define big-content
    (build-grouped-content sorted-records))
@@ -408,7 +505,7 @@
 
   \markup \column {
     \vspace #1
-    \line { \combine \draw-line #'(105 . 0) \translate #'(0 . 0.7) \draw-line #'(105 . 0) }
+    \line { \combine \draw-line #'(96.76 . 0) \translate #'(0 . 0.7) \draw-line #'(96.76 . 0) }
     \vspace #4
     \fill-line { \null \fontsize #8 \bold "361 CHORALS" \null }
     \vspace #1
@@ -420,7 +517,7 @@
     \vspace #1
     \fill-line { \null \fontsize #4 \italic "classés par tonalités par nombre d'altérations croissant" \null }
     \vspace #6
-    \line { \combine \draw-line #'(105 . 0) \translate #'(0 . 0.7) \draw-line #'(105 . 0) }
+    \line { \combine \draw-line #'(96.76 . 0) \translate #'(0 . 0.7) \draw-line #'(96.76 . 0) }
   }
   \pageBreak
 

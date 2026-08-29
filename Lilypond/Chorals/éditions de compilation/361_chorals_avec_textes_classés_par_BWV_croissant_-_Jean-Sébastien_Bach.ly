@@ -305,7 +305,7 @@
 
   \markup \column {
     \vspace #1
-    \line { \combine \draw-line #'(105 . 0) \translate #'(0 . 0.7) \draw-line #'(105 . 0) }
+    \line { \combine \draw-line #'(96.76 . 0) \translate #'(0 . 0.7) \draw-line #'(96.76 . 0) }
     \vspace #4
     \fill-line { \null \fontsize #8 \bold "361 CHORALS" \null }
     \vspace #1
@@ -317,7 +317,7 @@
     \vspace #1
     \fill-line { \null \fontsize #4 \italic "classés par ordre croissant de numéro BWV" \null }
     \vspace #6
-    \line { \combine \draw-line #'(105 . 0) \translate #'(0 . 0.7) \draw-line #'(105 . 0) }
+    \line { \combine \draw-line #'(96.76 . 0) \translate #'(0 . 0.7) \draw-line #'(96.76 . 0) }
   }
   \pageBreak
 
