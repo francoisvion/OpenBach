@@ -1272,7 +1272,12 @@
                (loop (cdr recs) idx (cons rec acc))
                (loop (cdr recs) idx acc))))))
 
-#(define dict-records (first-record-per-tune sorted-records))
+%% Pieces whose tune couldn't be matched to any Zahn entry share the
+%% UNKNOWN-INDEX placeholder "Origine mélodique inconnue" — not an actual
+%% timbre, so it has no place in a dictionary of (Zahn-catalogued) tunes.
+#(define dict-records
+   (filter (lambda (rec) (not (= (assq-ref rec 'tune-index) UNKNOWN-INDEX)))
+           (first-record-per-tune sorted-records)))
 
 %% A bookpart's body only accepts \score/\markup/\paper/\header — not the
 %% bare "sopranoMusic = { ... }" variable assignments that piece-body relies
@@ -1299,10 +1304,20 @@
 %% \score, so any tune name longer than that indent ran off the page's left
 %% edge. A plain markup line above the staff uses the full page width
 %% instead, so it can never overflow regardless of name length.
+
+%% Some sopranoMusic values carry a manual \break, placed by hand to control
+%% line breaks in the full four-part engraving at the recueil's normal
+%% staff size. At the dictionary's much smaller size and single-voice
+%% layout, that same break point falls in an arbitrary, often awkward
+%% spot — stripped here so LilyPond's own line-breaking (already governed
+%% by ragged-right for even spacing) decides breaks for this context.
+#(define (strip-breaks s)
+   (regexp-substitute/global #f "\\\\break" s 'pre 'post))
+
 #(define (dict-entry-block rec)
    (let* ((base (assq-ref rec 'base))
           (notes-content (read-utf8-file (string-append source-dir "/" base "_notes.ily")))
-          (soprano-value (extract-variable-value notes-content "sopranoMusic"))
+          (soprano-value (strip-breaks (extract-variable-value notes-content "sopranoMusic")))
           (score (assq-ref rec 'score))
           (idx (assq-ref rec 'tune-index))
           (zahn (zahn-of idx))
@@ -1515,6 +1530,11 @@
   \paper {
     ragged-bottom = ##f
     ragged-last-bottom = ##t
+    %% The global indent (5mm) exists to make room for the main recueil's
+    %% "S A"/"T B" instrument labels; each dictionary entry has no such
+    %% label on its staff (the tune name is a separate markup line above),
+    %% so that indent just pushes its one system in for no reason.
+    indent = 0
     %% Justification stretches each system to fill the same page width
     %% regardless of how many notes it holds, so note spacing varies from
     %% timbre to timbre (and often between a tune's own lines) depending on
