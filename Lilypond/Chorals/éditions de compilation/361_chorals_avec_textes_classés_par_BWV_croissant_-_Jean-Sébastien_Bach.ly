@@ -325,6 +325,46 @@
   }
   \pageBreak
 
+  \markup \column {
+    \vspace #1.5
+    \fill-line { \null \fontsize #4 \bold "Le classement par numéro BWV" \null }
+    \vspace #2
+    \justify {
+      Le BWV (\italic { Bach-Werke-Verzeichnis }, « répertoire des œuvres de Bach ») est le catalogue
+      thématique établi par Wolfgang Schmieder en 1950, aujourd'hui la référence universelle pour
+      désigner une œuvre de Bach. Contrairement à un numéro d'opus, son ordre n'est \bold { pas }
+      chronologique : Schmieder classe par genre — cantates (BWV 1 à 224), motets, messes et
+      oratorios (225 à 249), puis chorals harmonisés isolés (250 à 438), et ainsi de suite. Un numéro
+      BWV plus élevé ne signifie donc pas une composition plus tardive.
+    }
+    \vspace #1.2
+    \justify {
+      Beaucoup de chorals de ce recueil ont d'abord été composés pour clore une cantate ou pour
+      ponctuer une Passion ou l'Oratorio de Noël (BWV 248) : leur numéro reflète alors celui de
+      l'œuvre entière dont ils sont extraits, ce qui explique les écarts parfois considérables entre
+      deux chorals consécutifs de ce classement. Ce recueil ne réunit que 361 chorals à quatre voix ;
+      il ne prétend pas à l'exhaustivité du catalogue BWV, d'où les nombreux numéros absents.
+    }
+    \vspace #1.2
+    \justify {
+      Un seul choral de ce recueil ne porte aucun numéro BWV connu ; il est classé en toute fin de
+      volume.
+    }
+    \vspace #1.2
+    \justify {
+      Ce recueil réunit 361 chorals, quand l'édition de référence du commerce — celle popularisée
+      par Riemenschneider chez Breitkopf & Härtel, souvent citée sous le nom « 371 chorals » — en
+      revendique 371. L'écart tient d'abord à la méthode de comptage : Riemenschneider attribue un
+      numéro distinct à chaque occurrence d'un choral dans l'œuvre de Bach, y compris lorsque la
+      même harmonisation, strictement identique, est réutilisée telle quelle dans deux cantates
+      différentes ou dans une cantate et une Passion — cette même musique y est alors comptée deux
+      fois. Ce recueil ne retient qu'une fois chaque réglage musical distinct, quel que soit le
+      nombre de ses réemplois, et y ajoute en contrepartie quelques chorals restés hors de
+      l'anthologie traditionnelle, rattachés plus tardivement au catalogue BWV.
+    }
+  }
+  \pageBreak
+
   \markuplist \table-of-contents
   \pageBreak
 }

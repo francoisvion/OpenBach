@@ -333,6 +333,41 @@
   }
   \pageBreak
 
+  \markup \column {
+    \vspace #1.5
+    \fill-line { \null \fontsize #4 \bold "Le classement par titre" \null }
+    \vspace #2
+    \justify {
+      Les chorals sont classés ici par ordre alphabétique de leur titre original en allemand,
+      sans distinction majuscule/minuscule. Contrairement à l'anglais « The » ou au français « Le »,
+      un mot comme « Ach » ou « O » en tête d'un incipit allemand n'est pas un article que l'on
+      ignorerait pour le classement : il fait pleinement partie du titre et détermine sa place dans
+      l'ordre alphabétique, d'où le grand nombre de titres commençant par ces deux mots.
+    }
+    \vspace #1.2
+    \justify {
+      Une mention de couplet entre parenthèses, par exemple « (v. 4) », n'entre pas en compte dans
+      le tri : seul le titre proprement dit fait foi. En revanche, lorsqu'un même titre a reçu
+      plusieurs réglages harmoniques distincts chez Bach, numérotés (I), (II), (III)..., ce
+      numéro fait partie intégrante du titre et les classe naturellement dans cet ordre, les uns à
+      la suite des autres. Dans le rare cas où deux chorals partageraient un titre rigoureusement
+      identique sans numéro pour les départager, c'est leur numéro BWV, croissant, qui tranche.
+    }
+    \vspace #1.2
+    \justify {
+      Ce recueil réunit 361 chorals, quand l'édition de référence du commerce — celle popularisée
+      par Riemenschneider chez Breitkopf & Härtel, souvent citée sous le nom « 371 chorals » — en
+      revendique 371. L'écart tient d'abord à la méthode de comptage : Riemenschneider attribue un
+      numéro distinct à chaque occurrence d'un choral dans l'œuvre de Bach, y compris lorsque la
+      même harmonisation, strictement identique, est réutilisée telle quelle dans deux cantates
+      différentes ou dans une cantate et une Passion — cette même musique y est alors comptée deux
+      fois. Ce recueil ne retient qu'une fois chaque réglage musical distinct, quel que soit le
+      nombre de ses réemplois, et y ajoute en contrepartie quelques chorals restés hors de
+      l'anthologie traditionnelle, rattachés plus tardivement au catalogue BWV.
+    }
+  }
+  \pageBreak
+
   \markuplist \table-of-contents
   \pageBreak
 }
