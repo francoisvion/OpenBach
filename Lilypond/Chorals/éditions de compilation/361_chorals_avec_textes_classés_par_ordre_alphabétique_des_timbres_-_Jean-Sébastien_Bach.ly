@@ -1515,8 +1515,12 @@
   \paper {
     ragged-bottom = ##f
     ragged-last-bottom = ##t
-    last-bottom-spacing = #'((basic-distance . 4)
-                             (minimum-distance . 3.2)
+    %% The 3.2 minimum used for the composer index (pure markup, no
+    %% engraved staves) turned out not to be enough here: with real \score
+    %% content, the page-breaker still squeezed this gap down to ~1.5mm.
+    %% A larger minimum is needed for it to actually hold.
+    last-bottom-spacing = #'((basic-distance . 14)
+                             (minimum-distance . 12)
                              (padding . 1)
                              (stretchability . 5))
     %% Tuned for short, single-staff melody incipits rather than full
