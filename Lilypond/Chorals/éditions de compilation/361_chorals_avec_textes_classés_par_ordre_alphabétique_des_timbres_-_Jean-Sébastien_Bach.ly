@@ -565,7 +565,7 @@
     (2 . ("Ach Gott, vom Himmel sieh darein" "Erfurt 1524*" "4431"))
     (3 . ("Ach Herre Gott, mich treibt die Not" "Praetorius, Michael*" "247"))
     (4 . ("Ach wie flüchtig, ach wie nichtig" "Crüger, Johann *" "1887"))
-    (5 . ("Ach, was soll ich Sünder machen" "Anonymous" "3573b"))
+    (5 . ("Ach, was soll ich Sünder machen" "Anonyme" "3573b"))
     (6 . ("Ach, wie groß ist Gottes Güt und Wohltat" "Nürnberg 1561" "1581"))
     (7 . ("Alle Menschen müssen sterben" "Hintze, Jakob" "6778"))
     (8 . ("Allein Gott in der Höh sei Ehr" "Decius, Nikolaus *" "4457"))
@@ -576,11 +576,11 @@
     (13 . ("An Wasserflüssen Babylon" "Greitter, Matthias" "7663"))
     (14 . ("Auf, auf, mein Herz, mit Freuden" "Crüger, Johann" "5243"))
     (15 . ("Auf, auf, mein Herz, und du, mein ganzer Sinn" "Staden, Johann" "824"))
-    (16 . ("Aus meines Herzens Grunde" "Anonymous" "5269"))
-    (17 . ("Aus tiefer Not schrei ich zu dir (melody #1)" "Luther, Martin" "4437"))
-    (18 . ("Aus tiefer Not schrei ich zu dir (melody #2)" "Dachstein, Wolfgang" "4438"))
-    (19 . ("Befiehl du deine Wege (melody #1)" "Hassler, Hans Leo" "5385a"))
-    (20 . ("Befiehl du deine Wege (melody #2)" "Gesius, Bartholomäus" "5393"))
+    (16 . ("Aus meines Herzens Grunde" "Anonyme" "5269"))
+    (17 . ("Aus tiefer Not schrei ich zu dir (mélodie n° 1)" "Luther, Martin" "4437"))
+    (18 . ("Aus tiefer Not schrei ich zu dir (mélodie n° 2)" "Dachstein, Wolfgang" "4438"))
+    (19 . ("Befiehl du deine Wege (mélodie n° 1)" "Hassler, Hans Leo" "5385a"))
+    (20 . ("Befiehl du deine Wege (mélodie n° 2)" "Gesius, Bartholomäus" "5393"))
     (21 . ("Christ ist erstanden" "Wittenberg 1533*" "8584"))
     (22 . ("Christ lag in Todesbanden" "Luther, Martin *" "7012a"))
     (23 . ("Christ unser Herr zum Jordan kam" "Walter, Johann ?" "7246"))
@@ -634,17 +634,17 @@
     (71 . ("Gott lebet noch" "Halle 1704" "7951"))
     (72 . ("Gott sei gelobet und gebenedeiet" "Wittenberg 1524*" "8078"))
     (73 . ("Gott, der du selber bist das Licht" "Crüger, Johann" "5814"))
-    (74 . ("Gottlob, es geht nunmehr zum Ende" "Anonymous" "2855"))
+    (74 . ("Gottlob, es geht nunmehr zum Ende" "Anonyme" "2855"))
     (75 . ("Hast du denn, Jesu, dein Angesicht gänzlich verborgen" "Stralsund 1665" "1912a"))
     (76 . ("Heilig, heilig" "Steinau 1726*" "8633"))
-    (77 . ("Helft mir Gotts Güte preisen" "Anonymous" "5267"))
+    (77 . ("Helft mir Gotts Güte preisen" "Anonyme" "5267"))
     (78 . ("Herr Christ, der einge Gottessohn" "Erfurt 1524*" "4297a"))
     (79 . ("Herr Gott, dich loben alle wir" "Geneva 1551*" "368"))
     (80 . ("Herr Gott, dich loben wir [The German Te Deum]" "Luther, Martin *" "8652"))
-    (81 . ("Herr Jesu Christ, du hast bereitt" "Anonymous" "4711"))
+    (81 . ("Herr Jesu Christ, du hast bereitt" "Anonyme" "4711"))
     (82 . ("Herr Jesu Christ, du höchstes Gut" "Görlitz 1587*" "4486"))
-    (83 . ("Herr Jesu Christ, meins Lebens Licht (melody #1)" "Anonymous" "314"))
-    (84 . ("Herr Jesu Christ, meins Lebens Licht (melody #2)" "Leipzig 1625" "533a"))
+    (83 . ("Herr Jesu Christ, meins Lebens Licht (mélodie n° 1)" "Anonyme" "314"))
+    (84 . ("Herr Jesu Christ, meins Lebens Licht (mélodie n° 2)" "Leipzig 1625" "533a"))
     (85 . ("Herr Jesu Christ, wahr Mensch und Gott" "Eccard, Johannes" "423"))
     (86 . ("Herr, ich habe missgehandelt" "Crüger, Johann" "3695"))
     (87 . ("Herr, Jesu Christ, dich zu uns wend" "Gochsheim/Redwitz 1628" "625"))
@@ -656,17 +656,17 @@
     (93 . ("Heut ist, o Mensch, ein großer Trauertag" "Löwenstern, Matthäus Apelles von" "8569a"))
     (94 . ("Heut triumphieret Gottes Sohn" "Gesius, Bartholomäus" "2585"))
     (95 . ("Hilf, Gott, dass mirs gelinge" "Leipzig 1545" "4329"))
-    (96 . ("Hilf, Herr Jesu, lass gelingen (melody #1)" "Schop, Johann" "3687"))
+    (96 . ("Hilf, Herr Jesu, lass gelingen (mélodie n° 1)" "Schop, Johann" "3687"))
     (97 . ("Ich bin ja, Herr, in deiner Macht" "Bach, J.S." "5869"))
     (98 . ("Ich dank dir Gott für all Wohltat" "Eisleben 1568" "8090ab"))
-    (99 . ("Ich dank dir, lieber Herre" "Anonymous" "5354b"))
+    (99 . ("Ich dank dir, lieber Herre" "Anonyme" "5354b"))
     (100 . ("Ich hab mein Sach Gott heimgestellt" "Frankfurt/Main 1589*" "1678"))
     (101 . ("Ich ruf zu dir, Herr Jesu Christ" "Wittenberg 1529" "7400"))
     (102 . ("Ihr Gestirn, ihr hohlen Lüfte" "Peter, Christoph" "3703"))
     (103 . ("Ihr lieben Christen, freut euch nun" "Wittenberg 1546" "364"))
     (104 . ("In allen meinen Taten" "Leipzig 1679" "2276"))
     (105 . ("In dich hab ich gehoffet, Herr" "Nürnberg 1581" "2461"))
-    (106 . ("In dich hab ich gehoffet, Herr (melody #2)" "Leipzig 1545" "1706"))
+    (106 . ("In dich hab ich gehoffet, Herr (mélodie n° 2)" "Leipzig 1545" "1706"))
     (107 . ("In dulci jubilo" "Wittenberg 1535" "4947"))
     (108 . ("In Gottes Namen fahren wir" "Erfurt 1524*" "1951"))
     (109 . ("Ist Gott mein Schild und Helfersmann" "Dresden 1694" "2542"))
@@ -708,17 +708,17 @@
     (145 . ("Nicht so traurig, nicht so sehr" "Bach, J.S.?" "3355"))
     (146 . ("Nun bitten wir den Heiligen Geist" "Wittenberg 1524*" "2029"))
     (147 . ("Nun danket alle Gott" "Crüger, Johann" "5142"))
-    (148 . ("Nun freut euch, lieben Christen gmein (melody #1)" "Nürnberg 1524*" "4427"))
-    (149 . ("Nun freut euch, lieben Christen gmein (melody #2)" "Wittenberg 1529*" "4429a"))
+    (148 . ("Nun freut euch, lieben Christen gmein (mélodie n° 1)" "Nürnberg 1524*" "4427"))
+    (149 . ("Nun freut euch, lieben Christen gmein (mélodie n° 2)" "Wittenberg 1529*" "4429a"))
     (150 . ("Nun komm, der Heiden Heiland" "Erfurt 1524*" "1174"))
     (151 . ("Nun lasst uns Gott dem Herren" "Selnecker, Nikolaus" "159"))
     (152 . ("Nun lob, mein Seel, den Herren" "Kugelmann, Hans*" "8244"))
     (153 . ("Nun prieset alle Gottes Barmherzigkeit" "Löwenstern, Matthäus Apelles von" "4089"))
     (154 . ("Nun sich der Tag geendet hat" "Krieger, Adam" "212"))
     (155 . ("O Ewigkeit, du Donnerwort" "Crüger, Johann *" "5820"))
-    (156 . ("O Gott, du frommer Gott (melody #2)" "Regensburg 1675, Meiningen 1693" "5148"))
-    (157 . ("O Gott, du frommer Gott (melody #3)" "Fritsch, Ahasverus *" "5206b"))
-    (158 . ("O Gott, du frommer Gott (melody #4)" "Anonymous" "5187"))
+    (156 . ("O Gott, du frommer Gott (mélodie n° 2)" "Regensburg 1675, Meiningen 1693" "5148"))
+    (157 . ("O Gott, du frommer Gott (mélodie n° 3)" "Fritsch, Ahasverus *" "5206b"))
+    (158 . ("O Gott, du frommer Gott (mélodie n° 4)" "Anonyme" "5187"))
     (159 . ("O großer Gott von Macht" "Schnurr, Balthasar" "5101a"))
     (160 . ("O Herre Gott, dein göttlich Wort" "Erfurt 1527*" "5690"))
     (161 . ("O Herzensangst, o Bangigkeit" "Bach, J.S.?" "1003"))
@@ -726,7 +726,7 @@
     (163 . ("O Lamm Gottes, unschuldig" "Decius, Nikolaus" "4361"))
     (164 . ("O Mensch, schau Jesum Christum an" "Titus, Peter" "3994"))
     (165 . ("O Traurigkeit, o Herzeleid!" "Mainz/Würzburg 1628" "1915"))
-    (166 . ("O Welt, ich muss dich lassen" "Anonymous" "2293b"))
+    (166 . ("O Welt, ich muss dich lassen" "Anonyme" "2293b"))
     (167 . ("O wie armen Sünder!" "Königsberg 1527*" "8187"))
     (168 . ("O wie selig seid ihr doch, ihr Frommen" "Crüger, Johann" "1583"))
     (169 . ("Schmücke dich, o liebe Seele" "Crüger, Johann" "6923"))
@@ -741,12 +741,12 @@
     (178 . ("Verleih uns Frieden gnädiglich" "Wittenberg 1529*" "1945"))
     (179 . ("Vom Himmel hoch, da komm ich her" "Luther, Martin" "346"))
     (180 . ("Von Gott will ich nicht lassen" "Erfurt 1563*" "5264b"))
-    (181 . ("Vor Freuden lasst uns springen" "Anonymous" "2339"))
+    (181 . ("Vor Freuden lasst uns springen" "Anonyme" "2339"))
     (182 . ("Wachet auf, ruft uns die Stimme" "Nicolai, Philipp *" "8405"))
     (183 . ("Warum betrübst du dich, mein Herz" "Frankfurt/Main 1557" "1689"))
     (184 . ("Warum sollt ich mich denn grämen" "Ebeling, Johann Georg" "6461"))
-    (185 . ("Was betrübst du dich, mein Herz" "Anonymous" "6830"))
-    (186 . ("Was bist du doch, o Seele so betrübet" "Anonymous" "1837"))
+    (185 . ("Was betrübst du dich, mein Herz" "Anonyme" "6830"))
+    (186 . ("Was bist du doch, o Seele so betrübet" "Anonyme" "1837"))
     (187 . ("Was Gott tut, das ist wohlgetan" "Gastorius, Severus" "5629"))
     (188 . ("Was mein Gott will, das gscheh allzeit" "Antwerp 1540*" "7568"))
     (189 . ("Was willst du dich, o meine Seele, kränken" "Leipzig 1682" "7844"))
@@ -782,6 +782,19 @@
 #(define (tune-of idx) (car (tune-info idx)))
 #(define (composer-of idx) (cadr (tune-info idx)))
 #(define (zahn-of idx) (caddr (tune-info idx)))
+
+%% A choral whose own title is (near-)identical to its tune's name deserves a
+%% third typographic treatment in the ToC, distinct from both the bold tune
+%% header and a plain choral row: it is simultaneously choral and timbre.
+#(define (normalize-for-compare s)
+   (string-downcase (list->string (filter char-alphabetic? (string->list s)))))
+
+#(define (title-matches-tune? rec)
+   (let* ((idx (assq-ref rec 'tune-index))
+          (title (normalize-for-compare (strip-verse-marks (or (assq-ref rec 'title) ""))))
+          (tune (normalize-for-compare (tune-of idx))))
+     (and (> (string-length title) 0)
+          (or (string-match title tune) (string-match tune title)))))
 
 #(define (tune-less? a b)
    (let ((ia (tune-index (assq-ref a 'base)))
@@ -832,21 +845,63 @@
 %% toc-item-inner returns the bare markup expression (no leading \markup
 %% keyword), so it can be embedded directly inside another already-open
 %% \column {...} (used for the tune's first piece, merged with its header).
-#(define (toc-item-inner title opus)
+%% Indenting a row must not shift the BWV/page-number columns: the inner
+%% fill-with-pattern uses a FIXED line-width (73), so the \hspace pushed in
+%% front of it is subtracted from that width, keeping its right edge (where
+%% the opus starts) at the same absolute position for every row.
+#(define TOC-INDENT 1.5)
+#(define TOC-ROW-WIDTH 73)
+
+#(define (toc-item-inner title opus emphasize? indent?)
    (let* ((title-parts (wrap-poet title))
           (title-parts (if (= (length title-parts) 1)
                             (wrap-long-text (car title-parts) 55)
                             title-parts))
+          (title-render (if emphasize?
+                             (string-append "\\bold \"" (car title-parts) "\"")
+                             (string-append "\"" (car title-parts) "\"")))
+          (indent-markup (if indent? (string-append "\\hspace #" (number->string TOC-INDENT) " ") ""))
+          (row-width (if indent? (- TOC-ROW-WIDTH TOC-INDENT) TOC-ROW-WIDTH))
           (row (string-append
-                 "\\fill-with-pattern #1 #RIGHT \".\" \\line { \\override #'(line-width . 73) \\fill-with-pattern #1 #RIGHT \".\" \""
-                 (car title-parts) "\" \"\" \"" opus "\" } \\fromproperty #'toc:page")))
+                 "\\fill-with-pattern #1 #RIGHT \".\" \\line { " indent-markup
+                 "\\override #'(line-width . " (number->string row-width) ") \\fill-with-pattern #1 #RIGHT \".\" "
+                 title-render " \"\" \"" opus "\" } \\fromproperty #'toc:page")))
      (if (= (length title-parts) 1)
          (string-append "{ " row " }")
          (string-append "\\column { " row
-                         " \\line { \"" (cadr title-parts) "\" } \\vspace #0.33 }"))))
+                         " \\line { " indent-markup "\"" (cadr title-parts) "\" } \\vspace #0.33 }"))))
 
-#(define (piece-toc-row rec)
-   (toc-item-inner (escape-quotes (strip-verse-marks (assq-ref rec 'title))) (assq-ref rec 'opus)))
+%% A choral is only merged with its tune's identity (bold row, no separate
+%% header) when it is the tune's sole setting AND its own title already
+%% carries the tune's name. In every other case — including a singleton
+%% whose title differs from its tune — the tune gets the ordinary header
+%% (as for any series) and the choral its ordinary plain row underneath.
+#(define (merged-singleton? rec)
+   (and (= (tune-count (assq-ref rec 'tune-index)) 1) (title-matches-tune? rec)))
+
+%% Rows that belong under a tune header are indented, so the eye reads them
+%% as children of that header rather than as standalone entries; a merged
+%% singleton has no header above it and stays flush left.
+#(define (piece-toc-row rec indent?)
+   (toc-item-inner (escape-quotes (strip-verse-marks (assq-ref rec 'title))) (assq-ref rec 'opus)
+                    (merged-singleton? rec) indent?))
+
+%% For a tune with only one setting, a big shared header would just repeat
+%% info next to a single choral: fold it into a small inline note instead.
+%% Wrapped like a subtitle, since it runs alongside the opus/poet column and
+%% can otherwise overflow into it.
+#(define (singleton-tune-note idx)
+   (let ((composer (composer-of idx)))
+     (if (string-null? composer)
+         '()
+         ;; wrap-long-text would split right after "Timbre :" (its splitter
+         ;; favors the first " : "), so wrap the body alone and prefix after.
+         (let* ((body (string-append
+                        (tune-of idx) "  —  " composer
+                        (let ((zahn (zahn-of idx)))
+                          (if (string-null? zahn) "" (string-append "  —  n° Zahn " zahn)))))
+                (wrapped (wrap-long-text body 45)))
+           (cons (string-append "Timbre : " (car wrapped)) (cdr wrapped))))))
 
 #(define (piece-body rec)
    (let* ((base (assq-ref rec 'base))
@@ -856,9 +911,12 @@
           (opus (assq-ref rec 'opus))
           (poet (assq-ref rec 'poet))
           (score (assq-ref rec 'score))
-          (piece-markup (if subtitle
-                             (string-append "\\markup \\column { \\bold \\concat {" title-markup-inner " }" (small-lines (wrap-long-text subtitle 60)) " }")
-                             (string-append "\\markup \\bold \\concat {" title-markup-inner " }")))
+          (idx (assq-ref rec 'tune-index))
+          (extra-lines (append (if subtitle (wrap-long-text subtitle 60) '())
+                                (if (= (tune-count idx) 1) (singleton-tune-note idx) '())))
+          (piece-markup (if (null? extra-lines)
+                             (string-append "\\markup \\bold \\concat {" title-markup-inner " }")
+                             (string-append "\\markup \\column { \\bold \\concat {" title-markup-inner " }" (small-lines extra-lines) " }")))
           (opus-field (if poet
                           (string-append "\\markup \\right-column { \"" opus "\"" (small-lines (wrap-poet (abbreviate-poet poet))) " }")
                           (string-append "\"" opus "\""))))
@@ -909,19 +967,47 @@
                 (idx (assq-ref rec 'tune-index))
                 (score (assq-ref rec 'score))
                 (new-tune (or (not prev-idx) (not (= idx prev-idx))))
-                (tune-body (if new-tune (tune-body-block idx) ""))
+                (merged (and new-tune (merged-singleton? rec)))
+                ;; ToC header shown for every tune except a merged singleton
+                ;; (count = 1 and title = tune's name): that one case alone
+                ;; folds tune and choral into a single bold row. This is
+                ;; independent of the printed-page header below (piece-body's
+                ;; own compact note already covers singletons in the body).
+                (toc-header (and new-tune (not merged)))
+                (body-header (and new-tune (> (tune-count idx) 1)))
+                (tune-body (if body-header (tune-body-block idx) ""))
                 (piece-chunk
                   (if (not score)
                       ""
                       (string-append
-                        (if new-tune
+                        (cond
+                          ;; Header + first piece share one tocItem so a page
+                          ;; break can never separate them (no orphan header at
+                          ;; a page bottom). But a multi-line column stencil is
+                          ;; padded by space-lines WITHOUT the bottom padding a
+                          ;; standalone row gets, so the first inter-row gap of
+                          ;; a series came out tighter (~51 vs ~62 at 300dpi)
+                          ;; than the rest. The trailing \vspace restores that
+                          ;; missing bottom room, equalizing every gap.
+                          (toc-header
                             (string-append
                               "\\tocItem \\markup \\column {\n"
                               (tune-toc-line idx)
                               "  \\vspace #0.3\n"
-                              "  " (piece-toc-row rec) "\n"
-                              "}\n")
-                            (string-append "\\tocItem \\markup " (piece-toc-row rec) "\n"))
+                              "  " (piece-toc-row rec #t) "\n"
+                              "  \\vspace #0.19\n"
+                              "}\n"))
+                          ;; a merged singleton (no header) still gets a little
+                          ;; air before it in the ToC, so a series and the
+                          ;; next standalone choral don't visually run together
+                          (merged
+                            (string-append
+                              "\\tocItem \\markup \\column {\n"
+                              "  \\vspace #0.6\n"
+                              "  " (piece-toc-row rec #f) "\n"
+                              "}\n"))
+                          (else
+                            (string-append "\\tocItem \\markup " (piece-toc-row rec #t) "\n")))
                         (piece-body rec)))))
            (loop (cdr recs) idx (cons piece-chunk (cons tune-body acc)))))))
 
@@ -1004,25 +1090,33 @@
     \fill-line { \null \fontsize #4 \bold "Le classement par timbre" \null }
     \vspace #2
     \justify {
-      À la différence des classements précédents de ce recueil, celui-ci ne s'attache ni au
-      numéro d'ordre (BWV), ni au titre du choral, ni à sa tonalité, mais à sa mélodie propre —
-      ce que la tradition hymnologique allemande appelle le \italic { timbre }
+      Ce recueil classe les chorals selon leur mélodie propre — ce que la tradition hymnologique allemande
+      appelle le \italic { timbre }
       (\italic { Choralmelodie } ). Un même timbre a souvent servi, au fil des siècles, à des
       textes très différents : ainsi la mélodie de \italic { O Haupt voll Blut und Wunden } porte
       également \italic { Befiehl du deine Wege } ou \italic { Herzlich tut mich verlangen }, et
-      Bach l'a harmonisée neuf fois dans des contextes liturgiques variés. Ce recueil rassemble
+      J.-S. Bach l'a harmonisée neuf fois dans des contextes liturgiques variés. Ce recueil rassemble
       sous un même en-tête tous les chorals qui partagent ainsi la même mélodie, quel que soit
       leur texte.
     }
     \vspace #1.2
     \justify {
-      L'identification des timbres s'appuie sur la table de concordance établie par Luke Dahn
-      (bach-chorales.com), qui rattache chaque choral de Bach à un numéro du catalogue de
+      L'identification des timbres s'appuie sur un numéro du catalogue de
       Johannes Zahn (\italic { Die Melodien der deutschen evangelischen Kirchenlieder },
       1889-1893), référence encyclopédique recensant plus de 8 000 mélodies de l'hymnologie
-      luthérienne. Ce numéro, indiqué sous chaque timbre avec le nom de son compositeur ou de sa
+      luthérienne. Ce numéro, indiqué pour chaque timbre avec le nom de son compositeur ou de sa
       source la plus ancienne connue, permet de vérifier l'identité mélodique au-delà des
       variations de texte ou de titre.
+    }
+    \vspace #1.2
+    \justify {
+      Sous le nom de chaque timbre figurent son compositeur et son numéro Zahn. Lorsque l'auteur de
+      la mélodie est inconnu, le nom du compositeur est remplacé par le lieu et la date de sa plus
+      ancienne publication connue (par exemple « Freiberg 1655 ») ; un astérisque (*) signale alors
+      que ce timbre est probablement lui-même dérivé d'une source encore plus ancienne. Lorsqu'un
+      timbre ne compte qu'un seul choral et que celui-ci porte exactement le même titre que sa
+      mélodie, les deux informations sont fusionnées en une seule ligne, imprimée en gras, sans
+      en-tête séparé.
     }
     \vspace #1.2
     \justify {
