@@ -916,31 +916,24 @@
      ((place) "Lieu/date : ")
      (else "Origine inconnue : ")))
 
-%% For a tune with only one setting, a big shared header would just repeat
-%% info next to a single choral: fold it into a small inline note instead.
-%% Wrapped like a subtitle, since it runs alongside the opus/poet column and
-%% can otherwise overflow into it. When the piece's own title already is the
-%% tune name (merged-singleton case), the tune name would be a pure repeat of
-%% the bold title right above, so only the composer/place info is kept.
-#(define (singleton-tune-note idx merged?)
+%% A merged singleton (count = 1, title = tune's name) has no body-header
+%% above it — its own bold title already names the tune — so the
+%% composer/place info is folded into a small inline note instead. Wrapped
+%% like a subtitle, since it runs alongside the opus/poet column and can
+%% otherwise overflow into it. A non-merged singleton needs no such note: it
+%% gets an ordinary body-header, same as any multi-setting tune.
+#(define (singleton-tune-note idx)
    (let ((composer (translate-composer-text (composer-of idx))))
      (if (string-null? composer)
          '()
          ;; wrap-long-text would split right after the label (its splitter
          ;; favors the first " : "), so wrap the body alone and prefix after.
-         (if merged?
-             (let* ((body (string-append
-                            composer
-                            (let ((zahn (zahn-of idx)))
-                              (if (string-null? zahn) "" (string-append "  —  n° Zahn " zahn)))))
-                    (wrapped (wrap-long-text body 45)))
-               (cons (string-append (composer-label-prefix (composer-of idx)) (car wrapped)) (cdr wrapped)))
-             (let* ((body (string-append
-                            (tune-of idx) "  —  " composer
-                            (let ((zahn (zahn-of idx)))
-                              (if (string-null? zahn) "" (string-append "  —  n° Zahn " zahn)))))
-                    (wrapped (wrap-long-text body 45)))
-               (cons (string-append "Timbre : " (car wrapped)) (cdr wrapped)))))))
+         (let* ((body (string-append
+                        composer
+                        (let ((zahn (zahn-of idx)))
+                          (if (string-null? zahn) "" (string-append "  —  n° Zahn " zahn)))))
+                (wrapped (wrap-long-text body 45)))
+           (cons (string-append (composer-label-prefix (composer-of idx)) (car wrapped)) (cdr wrapped))))))
 
 #(define (piece-body rec)
    (let* ((base (assq-ref rec 'base))
@@ -952,7 +945,7 @@
           (score (assq-ref rec 'score))
           (idx (assq-ref rec 'tune-index))
           (extra-lines (append (if subtitle (wrap-long-text subtitle 60) '())
-                                (if (= (tune-count idx) 1) (singleton-tune-note idx (merged-singleton? rec)) '())))
+                                (if (merged-singleton? rec) (singleton-tune-note idx) '())))
           (piece-markup (if (null? extra-lines)
                              (string-append "\\markup \\bold \\concat {" title-markup-inner " }")
                              (string-append "\\markup \\column { \\bold \\concat {" title-markup-inner " }" (small-lines extra-lines) " }")))
@@ -1008,13 +1001,14 @@
                 (score (assq-ref rec 'score))
                 (new-tune (or (not prev-idx) (not (= idx prev-idx))))
                 (merged (and new-tune (merged-singleton? rec)))
-                ;; ToC header shown for every tune except a merged singleton
+                ;; Header shown for every tune except a merged singleton
                 ;; (count = 1 and title = tune's name): that one case alone
-                ;; folds tune and choral into a single bold row. This is
-                ;; independent of the printed-page header below (piece-body's
-                ;; own compact note already covers singletons in the body).
+                ;; folds tune and choral into a single bold row/title, in the
+                ;; ToC as much as in the printed body — a singleton whose own
+                ;; title differs from its tune gets the same header as any
+                ;; multi-setting tune, for consistency with the index.
                 (toc-header (and new-tune (not merged)))
-                (body-header (and new-tune (> (tune-count idx) 1)))
+                (body-header (and new-tune (not merged)))
                 (tune-body (if body-header (tune-body-block idx) ""))
                 (piece-chunk
                   (if (not score)
