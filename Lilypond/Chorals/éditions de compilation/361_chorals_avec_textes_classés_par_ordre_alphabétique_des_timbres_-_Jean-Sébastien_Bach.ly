@@ -587,7 +587,7 @@
     (24 . ("Christ, der du bist der helle Tag" "Eisleben 1568" "384"))
     (25 . ("Christe, der du bist Tag und Licht" "Luther, Martin *" "343"))
     (26 . ("Christe, du Beistand" "Löwenstern, Matthäus Apelles von" "993"))
-    (27 . ("Christum wir sollen loben schon" "Straßburg 1537" "297"))
+    (27 . ("Christum wir sollen loben schon" "Strasbourg 1537" "297"))
     (28 . ("Christus ist erstanden, hat überwunden" "Bohemian Brethren 1531" "6240c"))
     (29 . ("Christus, der ist mein Leben" "Vulpius, Melchior" "132"))
     (30 . ("Christus, der uns selig macht" "Leipzig c.1500" "6285"))
@@ -624,7 +624,7 @@
     (61 . ("Es stehn vor Gottes Throne" "Burck, Joachim a" "4296"))
     (62 . ("Es wird schier der letzte Tag herkommen" "Weisse, Michael" "1423"))
     (63 . ("Es woll uns Gott genädig sein" "Greitter, Matthias" "7247"))
-    (64 . ("Freu dich sehr, o meine Seele" "Geneva 1551*" "6543"))
+    (64 . ("Freu dich sehr, o meine Seele" "Genève 1551*" "6543"))
     (65 . ("Freuet euch, ihr Christian alle" "Hammerschmidt, Andreas" "7880a"))
     (66 . ("Gelobet seist du, Jesu Christ" "Wittenberg 1524*" "1947"))
     (67 . ("Gib dich zufrieden und sei stille" "Bach, J.S.?" "7417a"))
@@ -639,7 +639,7 @@
     (76 . ("Heilig, heilig" "Steinau 1726*" "8633"))
     (77 . ("Helft mir Gotts Güte preisen" "Anonyme" "5267"))
     (78 . ("Herr Christ, der einge Gottessohn" "Erfurt 1524*" "4297a"))
-    (79 . ("Herr Gott, dich loben alle wir" "Geneva 1551*" "368"))
+    (79 . ("Herr Gott, dich loben alle wir" "Genève 1551*" "368"))
     (80 . ("Herr Gott, dich loben wir [The German Te Deum]" "Luther, Martin *" "8652"))
     (81 . ("Herr Jesu Christ, du hast bereitt" "Anonyme" "4711"))
     (82 . ("Herr Jesu Christ, du höchstes Gut" "Görlitz 1587*" "4486"))
@@ -650,7 +650,7 @@
     (87 . ("Herr, Jesu Christ, dich zu uns wend" "Gochsheim/Redwitz 1628" "625"))
     (88 . ("Herr, nun lass in Friede" "Bohemian Brethren 1694" "3302"))
     (89 . ("Herr, straf mich nicht in deinem Zorn" "Crüger, Johann" "4606a"))
-    (90 . ("Herzlich lieb hab ich dich, o Herr" "Straßburg 1577" "8326"))
+    (90 . ("Herzlich lieb hab ich dich, o Herr" "Strasbourg 1577" "8326"))
     (91 . ("Herzliebster Jesu, was hast du verbrochen" "Crüger, Johann" "983"))
     (92 . ("Heut ist, o Mensch, ein großer Trauertag" "Löwenstern, Matthäus Apelles von" "8569"))
     (93 . ("Heut ist, o Mensch, ein großer Trauertag" "Löwenstern, Matthäus Apelles von" "8569a"))
@@ -671,7 +671,7 @@
     (108 . ("In Gottes Namen fahren wir" "Erfurt 1524*" "1951"))
     (109 . ("Ist Gott mein Schild und Helfersmann" "Dresden 1694" "2542"))
     (110 . ("Jesu Kreuz, Leiden und Pein" "Vulpius, Melchior" "6288b"))
-    (111 . ("Jesu, der du meine Seele" "Frankfurt 1662*" "6804"))
+    (111 . ("Jesu, der du meine Seele" "Frankfurt/Main 1662*" "6804"))
     (112 . ("Jesu, der du selbsten wohl" "Breslau 1668" "6335"))
     (113 . ("Jesu, du mein liebstes Leben" "Schop, Johann" "7891"))
     (114 . ("Jesu, Jesu, du bist mein" "Bach, J.S.?" "6446"))
@@ -748,7 +748,7 @@
     (185 . ("Was betrübst du dich, mein Herz" "Anonyme" "6830"))
     (186 . ("Was bist du doch, o Seele so betrübet" "Anonyme" "1837"))
     (187 . ("Was Gott tut, das ist wohlgetan" "Gastorius, Severus" "5629"))
-    (188 . ("Was mein Gott will, das gscheh allzeit" "Antwerp 1540*" "7568"))
+    (188 . ("Was mein Gott will, das gscheh allzeit" "Anvers 1540*" "7568"))
     (189 . ("Was willst du dich, o meine Seele, kränken" "Leipzig 1682" "7844"))
     (190 . ("Welt, ade! Ich bin dein müde" "Albinus, Johann Georg" "6531"))
     (191 . ("Weltlich Ehr und zeitlich Gut" "Triller, Valentin" "4972"))
@@ -782,6 +782,15 @@
 #(define (tune-of idx) (car (tune-info idx)))
 #(define (composer-of idx) (cadr (tune-info idx)))
 #(define (zahn-of idx) (caddr (tune-info idx)))
+
+%% Label attached to each tune's own ToC entry (see build-grouped-content),
+%% used by the composer index at the end of the book to \page-ref back to
+%% where that tune's list of chorals actually lives.
+#(define (tune-label idx)
+   (string->symbol (string-append "tuneidx" (number->string idx))))
+
+#(define (translate-composer-text s)
+   (regexp-substitute/global #f "pseudo\\. for " s 'pre "pseudonyme de " 'post))
 
 %% A choral whose own title is (near-)identical to its tune's name deserves a
 %% third typographic treatment in the ToC, distinct from both the bold tune
@@ -891,7 +900,7 @@
 %% Wrapped like a subtitle, since it runs alongside the opus/poet column and
 %% can otherwise overflow into it.
 #(define (singleton-tune-note idx)
-   (let ((composer (composer-of idx)))
+   (let ((composer (translate-composer-text (composer-of idx))))
      (if (string-null? composer)
          '()
          ;; wrap-long-text would split right after "Timbre :" (its splitter
@@ -941,7 +950,7 @@
 
 #(define (tune-body-block idx)
    (let* ((label (escape-quotes (tune-of idx)))
-          (composer (escape-quotes (composer-of idx)))
+          (composer (escape-quotes (translate-composer-text (composer-of idx))))
           (zahn (zahn-of idx))
           (sub (if (string-null? composer)
                    ""
@@ -991,6 +1000,7 @@
                           ;; missing bottom room, equalizing every gap.
                           (toc-header
                             (string-append
+                              "\\label #'" (symbol->string (tune-label idx)) "\n"
                               "\\tocItem \\markup \\column {\n"
                               (tune-toc-line idx)
                               "  \\vspace #0.3\n"
@@ -1002,6 +1012,7 @@
                           ;; next standalone choral don't visually run together
                           (merged
                             (string-append
+                              "\\label #'" (symbol->string (tune-label idx)) "\n"
                               "\\tocItem \\markup \\column {\n"
                               "  \\vspace #0.6\n"
                               "  " (piece-toc-row rec #f) "\n"
@@ -1013,6 +1024,209 @@
 
 #(define big-content
    (build-grouped-content sorted-records))
+
+% --- Composer index (appendix) ----------------------------------------------
+%% A second index at the end of the book: the same 207 tunes, grouped instead
+%% by composer, so a reader can find every melody due to a given author. Not
+%% every tune has one: ~52% have a real personal name, ~42% only carry the
+%% place and date of their earliest known printing (no composer known), and
+%% ~6% are flatly "Anonyme". Each tier is its own alphabetical section.
+
+#(define all-tune-indices (map car tune-info-alist))
+
+%% A place-and-date entry always ends in a year (the site's own convention);
+%% a bare name with no comma but also no digit (e.g. "Bartolomäus Gesius",
+%% a rare case where the source wrote a name First-Last instead of
+%% "Last, First") is still a person, not a place.
+#(define (composer-category composer)
+   (cond
+     ((string-ci=? composer "Anonyme") 'anonymous)
+     ((string-index composer #\,) 'named)
+     ((not (any char-numeric? (string->list composer))) 'named)
+     (else 'place)))
+
+%% A trailing "*" ("this tune is itself based on an even older source", see
+%% the main notice) or "?" (uncertain attribution) is per-source metadata,
+%% not part of the composer's own name/place — stripped so e.g.
+%% "Crüger, Johann" / "Crüger, Johann *" and "Bach, J.S." / "Bach, J.S.?"
+%% each group under one heading. "pseudo. for X" ("published under a
+%% pseudonym; X is the composer's real identity") is translated in place.
+%% One source entry ("Bartolomäus Gesius") spells the same composer as the
+%% other four ("Gesius, Bartholomäus") differently — First Last instead of
+%% Last, First, and missing the 'h' — so it would otherwise get its own,
+%% spurious one-tune heading right next to his real one.
+#(define composer-aliases
+   '(("Bartolomäus Gesius" . "Gesius, Bartholomäus")))
+
+#(define (strip-composer-star s)
+   (let* ((cleaned (translate-composer-text (regexp-substitute/global #f "[ \t]*[*?][ \t]*$" s 'pre 'post)))
+          (alias (assoc cleaned composer-aliases)))
+     (if alias (cdr alias) cleaned)))
+
+#(define (dedupe-strings lst)
+   (let loop ((l lst) (seen '()) (acc '()))
+     (cond
+       ((null? l) (reverse acc))
+       ((member (car l) seen) (loop (cdr l) seen acc))
+       (else (loop (cdr l) (cons (car l) seen) (cons (car l) acc))))))
+
+#(define (partition-tunes indices)
+   (let loop ((idxs indices) (named '()) (place '()) (anon '()))
+     (if (null? idxs)
+         (list named place anon)
+         (let* ((idx (car idxs))
+                (composer (composer-of idx))
+                (cat (composer-category composer)))
+           (cond
+             ((eq? cat 'anonymous) (loop (cdr idxs) named place (cons idx anon)))
+             ((eq? cat 'named)
+              (loop (cdr idxs) (cons (cons (strip-composer-star composer) idx) named) place anon))
+             (else
+              (loop (cdr idxs) named (cons (cons (strip-composer-star composer) idx) place) anon)))))))
+
+%% pairs: list of (composer-key . tune-index). Returns (key . (tune-index ...))
+%% sorted alphabetically by key, each tune-index list sorted by tune name.
+#(define (group-by-composer-key pairs)
+   (let* ((keys (dedupe-strings (map car pairs)))
+          (sorted-keys (sort keys string-ci<?)))
+     (map (lambda (k)
+            (let* ((idxs (map cdr (filter (lambda (p) (string=? (car p) k)) pairs)))
+                   (sorted-idxs (sort idxs (lambda (a b) (string-ci<? (tune-of a) (tune-of b))))))
+              (cons k sorted-idxs)))
+          sorted-keys)))
+
+%% A "lieu/date" key is always "Place Year" (the site's own convention, e.g.
+%% "Frankfurt/Main 1662" or "Leipzig c.1500"): split off the trailing
+%% whitespace-separated date-like token so places with several dated
+%% editions (e.g. "Leipzig") can be shown as one place with the dates
+%% nested underneath, instead of as unrelated-looking separate entries.
+#(define (split-place-date s)
+   (let ((m (string-match "^(.*)[ \t]+([^ \t]*[0-9][0-9][0-9][^ \t]*)$" s)))
+     (if m
+         (cons (match:substring m 1) (match:substring m 2))
+         (cons s ""))))
+
+#(define tune-partition (partition-tunes all-tune-indices))
+#(define named-groups (group-by-composer-key (list-ref tune-partition 0)))
+#(define anon-sorted
+   (sort (list-ref tune-partition 2) (lambda (a b) (string-ci<? (tune-of a) (tune-of b)))))
+
+%% place-tree: list of (place . date-groups), sorted by place; each
+%% date-groups is a list of (date . (tune-index ...)), sorted by date, each
+%% tune-index list sorted by tune name.
+#(define (build-place-tree pairs)
+   (let* ((triples (map (lambda (p) (cons (split-place-date (car p)) (cdr p))) pairs))
+          (places (dedupe-strings (map (lambda (t) (car (car t))) triples)))
+          (sorted-places (sort places string-ci<?)))
+     (map (lambda (place)
+            (let* ((this-place (filter (lambda (t) (string=? (car (car t)) place)) triples))
+                   (dates (dedupe-strings (map (lambda (t) (cdr (car t))) this-place)))
+                   (sorted-dates (sort dates string-ci<?))
+                   (date-groups
+                     (map (lambda (date)
+                            (let* ((idxs (map cdr (filter (lambda (t) (string=? (cdr (car t)) date)) this-place)))
+                                   (sorted-idxs (sort idxs (lambda (a b) (string-ci<? (tune-of a) (tune-of b))))))
+                              (cons date sorted-idxs)))
+                          sorted-dates)))
+              (cons place date-groups)))
+          sorted-places)))
+
+#(define place-tree (build-place-tree (list-ref tune-partition 1)))
+
+#(define (composer-tune-row idx indent-amount)
+   (string-append
+     "  \\line { \\hspace #" (number->string indent-amount) " \\fill-with-pattern #1 #RIGHT \".\" \""
+     (escape-quotes (tune-of idx)) "\" \\page-ref #'" (symbol->string (tune-label idx)) " \"000\" \"?\" }\n"))
+
+%% Only the header + its FIRST tune are one atomic block (so the header can
+%% never end up alone at a page bottom); every following tune is its own
+%% small standalone markup. A whole group as a single atomic column (as
+%% before) meant that whenever the NEXT group didn't fit in the space left
+%% on a page, LilyPond moved the entire thing to the next page, wasting up
+%% to a full group's height of blank space. Independent per-row markups let
+%% the page breaker stop almost exactly where the space runs out.
+#(define (standalone-tune-row idx indent-amount)
+   (string-append "\\markup \\column { \\vspace #0.1 " (composer-tune-row idx indent-amount) " }\n"))
+
+%% Almost every place in the "Lieu/date" section is in present-day Germany,
+%% left unstated; the few exceptions (a place now in Belgium or Switzerland)
+%% get a small country tag so they don't look like typos in the middle of
+%% an otherwise all-German list.
+#(define (country-tag place)
+   (cond
+     ((string=? place "Anvers") " \\small \"(Belgique)\"")
+     ((string=? place "Genève") " \\small \"(Suisse)\"")
+     (else "")))
+
+#(define (composer-group-block key idxs . tag)
+   (let ((country (if (pair? tag) (car tag) "")))
+     (string-append
+       "\\markup \\column {\n"
+       "  \\vspace #0.6\n"
+       "  \\line { \\bold \\fontsize #1 \"" (escape-quotes key) "\"" country " \\small \\concat { \" (\" \""
+       (number->string (length idxs)) "\" \")\" } }\n"
+       "  \\vspace #0.4\n"
+       "  " (composer-tune-row (car idxs) 1.5) "\n"
+       "}\n"
+       (apply string-append (map (lambda (idx) (standalone-tune-row idx 1.5)) (cdr idxs))))))
+
+%% A place with a single known date is shown exactly like a composer group
+%% (place+date as one heading); a place with several dated editions gets a
+%% two-level tree: the place as the main heading, each date as a smaller
+%% sub-heading with its own tunes nested underneath. The place header sticks
+%% to the first date's header, which sticks to its first tune (one atomic
+%% block); every later date's header sticks only to its own first tune.
+#(define (place-block place-entry)
+   (let ((place (car place-entry)) (date-groups (cdr place-entry)))
+     (if (= (length date-groups) 1)
+         (composer-group-block (string-append place " " (caar date-groups)) (cdar date-groups) (country-tag place))
+         (let loop ((dgs date-groups) (first-date #t) (acc '()))
+           (if (null? dgs)
+               (apply string-append (reverse acc))
+               (let* ((dg (car dgs)) (date (car dg)) (idxs (cdr dg))
+                      (date-header
+                        (string-append
+                          "  \\line { \\hspace #1.2 \\bold \"" (escape-quotes date) "\" \\small \\concat { \" (\" \""
+                          (number->string (length idxs)) "\" \")\" } }\n"
+                          "  \\vspace #0.2\n"))
+                      (place-header
+                        (if first-date
+                            (string-append
+                              "  \\line { \\bold \\fontsize #1 \"" (escape-quotes place) "\"" (country-tag place)
+                              " \\small \\concat { \" (\" \""
+                              (number->string (apply + (map (lambda (d) (length (cdr d))) date-groups)))
+                              "\" \")\" } }\n"
+                              "  \\vspace #0.4\n")
+                            ""))
+                      (atomic-block
+                        (string-append
+                          "\\markup \\column {\n"
+                          "  \\vspace #0.6\n"
+                          place-header
+                          date-header
+                          "  " (composer-tune-row (car idxs) 2.7) "\n"
+                          "}\n"))
+                      (rest-rows
+                        (apply string-append (map (lambda (idx) (standalone-tune-row idx 2.7)) (cdr idxs)))))
+                 (loop (cdr dgs) #f (cons rest-rows (cons atomic-block acc)))))))))
+
+#(define (section-title-block title first)
+   (string-append
+     (if first "" "\\pageBreak\n")
+     "\\markup \\column {\n"
+     "  \\vspace #1\n"
+     "  \\fill-line { \\null \\fontsize #3 \\bold \"" title "\" \\null }\n"
+     "  \\vspace #1\n"
+     "}\n"))
+
+#(define composer-index-content
+   (string-append
+     (section-title-block "Compositeur" #t)
+     (apply string-append (map (lambda (g) (composer-group-block (car g) (cdr g))) named-groups))
+     (section-title-block "Lieu/date" #f)
+     (apply string-append (map place-block place-tree))
+     (section-title-block "Origine inconnue" #f)
+     (composer-group-block "Anonyme" anon-sorted)))
 
 \paper {
   #(set-paper-size "a4")
@@ -1124,7 +1338,8 @@
       recueil échappent à ce classement : trois sont des compositions ou paraphrases libres sans
       timbre traditionnel identifiable (dont deux insertions du \italic { Magnificat allemand },
       BWV 10), et un dernier ne porte aucun numéro BWV ; ils figurent en fin de volume sous la
-      mention « origine mélodique inconnue ».
+      mention « origine mélodique inconnue ». Un index des timbres par compositeur figure
+      également en fin de volume.
     }
   }
   \pageBreak
@@ -1134,3 +1349,56 @@
 }
 
 #(ly:parser-include-string big-content)
+
+\bookpart {
+  %% Unlike the cover/notice/ToC bookpart, this appendix is a dense
+  %% reference list: leaving ragged-bottom on here made each page stop
+  %% short of the bottom margin whenever the next atomic composer/place
+  %% block didn't quite fit, wasting a lot of visible space. Turning it off
+  %% lets LilyPond justify content down to the bottom margin as usual;
+  %% only the very last page keeps a ragged (non-stretched) bottom.
+  \paper {
+    ragged-bottom = ##f
+    ragged-last-bottom = ##t
+    %% With ragged-bottom off, LilyPond treats the gap before the footer
+    %% (last-bottom-spacing) as just another spring to squeeze when packing
+    %% content tightly — its default minimum-distance is 0, so that gap can
+    %% shrink to almost nothing. Force a real minimum (~1cm).
+    last-bottom-spacing = #'((basic-distance . 4)
+                             (minimum-distance . 3.2)
+                             (padding . 1)
+                             (stretchability . 5))
+  }
+  \pageBreak
+
+  \markup \column {
+    \vspace #1.5
+    \fill-line { \null \fontsize #4 \bold "Index des timbres par compositeur ou lieu/date" \null }
+    \vspace #2
+    \justify {
+      Ce second index complète le classement alphabétique des timbres qui précède : il permet de
+      retrouver, non plus un timbre par son nom, mais l'ensemble des mélodies dues à un même
+      compositeur — utile pour suivre, par exemple, la contribution mélodique de Johann Crüger ou
+      de Philipp Nicolai à travers ce recueil.
+    }
+    \vspace #1.2
+    \justify {
+      Les timbres sont d'abord classés par ordre alphabétique du nom de leur compositeur (section
+      « Compositeur »). Lorsque l'auteur d'une mélodie est inconnu, le timbre est répertorié dans
+      une seconde section, « Lieu/date », classée par ordre alphabétique du lieu de sa plus
+      ancienne publication connue (par exemple « Freiberg 1655 ») ; lorsqu'un même lieu a livré
+      plusieurs éditions à des dates différentes, celles-ci sont regroupées sous ce lieu. Sauf
+      mention contraire, ces lieux se situent en Allemagne actuelle. Une dernière section,
+      « Origine inconnue », rassemble les timbres dont ni le compositeur ni la source ne sont
+      connus.
+    }
+    \vspace #1.2
+    \justify {
+      Pour chaque timbre, le numéro de page indiqué renvoie à son entrée dans l'index alphabétique
+      principal, où figure la liste complète des chorals qui en partagent la mélodie.
+    }
+    \vspace #1.5
+  }
+
+  #(ly:parser-include-string composer-index-content)
+}
