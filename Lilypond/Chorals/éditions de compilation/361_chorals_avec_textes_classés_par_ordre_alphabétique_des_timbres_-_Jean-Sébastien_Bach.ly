@@ -1242,6 +1242,94 @@
      (section-title-block "Origine inconnue" #f)
      (composer-group-block "Anonyme" anon-sorted)))
 
+% --- Tune dictionary (appendix) ---------------------------------------------
+%% A third index: for each of the 207 tunes, the melody alone (soprano line,
+%% no lyrics, no harmonization), in alphabetical order — a quick visual
+%% reminder of what a timbre actually sounds like, in the spirit of a
+%% thematic catalogue such as Zahn's. One representative setting is picked
+%% per tune (its first piece in alphabetical order); a tune's melody rarely
+%% varies in any way that matters here between its different BWV settings.
+
+#(define (extract-regex pattern content)
+   (let ((m (string-match pattern content)))
+     (if m (match:substring m 0) "")))
+
+%% Only the soprano staff's own \clef/\key/\time are wanted (the bass staff
+%% has its own, irrelevant here); each appears first in the score text, so
+%% the first match of each is always the soprano one.
+#(define (dict-clef-key-time score)
+   (string-append
+     (extract-regex "\\\\clef[ \t]+[a-zA-Z]+" score) " "
+     (extract-regex "\\\\key[ \t]+[a-z]+[ \t]+\\\\(major|minor)" score) " "
+     (extract-regex "\\\\time[ \t]+[0-9]+/[0-9]+" score)))
+
+#(define (first-record-per-tune records)
+   (let loop ((recs records) (prev-idx #f) (acc '()))
+     (if (null? recs)
+         (reverse acc)
+         (let* ((rec (car recs)) (idx (assq-ref rec 'tune-index)))
+           (if (or (not prev-idx) (not (= idx prev-idx)))
+               (loop (cdr recs) idx (cons rec acc))
+               (loop (cdr recs) idx acc))))))
+
+#(define dict-records (first-record-per-tune sorted-records))
+
+%% A bookpart's body only accepts \score/\markup/\paper/\header — not the
+%% bare "sopranoMusic = { ... }" variable assignments that piece-body relies
+%% on elsewhere (fine at the file's true toplevel, invalid inside \bookpart).
+%% So instead of defining and referencing a variable, the music value itself
+%% (its text between "=" and the matching closing brace, transpose wrapper
+%% included where present) is spliced directly into the \score.
+#(define (extract-variable-value content varname)
+   (let ((m (string-match (string-append varname "[ \t]*=") content)))
+     (if (not m)
+         ""
+         (let* ((after-eq (match:end m))
+                (rest (substring content after-eq))
+                (brace-m (string-match "\\{" rest)))
+           (if (not brace-m)
+               ""
+               (let* ((open-idx (+ after-eq (match:start brace-m)))
+                      (close-idx (find-matching-brace content open-idx)))
+                 (substring content after-eq (+ close-idx 1))))))))
+
+%% A left-side instrumentName was tried first, but it relies on the paper's
+%% fixed `indent` (5mm, sized for the main recueil's short "S A"/"T B"
+%% labels) to reserve its space — LilyPond does not auto-grow this per
+%% \score, so any tune name longer than that indent ran off the page's left
+%% edge. A plain markup line above the staff uses the full page width
+%% instead, so it can never overflow regardless of name length.
+#(define (dict-entry-block rec)
+   (let* ((base (assq-ref rec 'base))
+          (notes-content (read-utf8-file (string-append source-dir "/" base "_notes.ily")))
+          (soprano-value (extract-variable-value notes-content "sopranoMusic"))
+          (score (assq-ref rec 'score))
+          (idx (assq-ref rec 'tune-index))
+          (zahn (zahn-of idx))
+          (label (string-append
+                   "\\line { \\bold \\fontsize #-1 \""
+                   (escape-quotes (tune-of idx)) "\""
+                   (if (string-null? zahn)
+                       ""
+                       (string-append " \\small \\concat { \"  —  n° Zahn \" \"" zahn "\" }"))
+                   " }")))
+     (string-append
+       "\\markup \\column {\n"
+       "  \\vspace #0.6\n"
+       "  " label "\n"
+       "}\n"
+       "\\noPageBreak\n"
+       "\\score {\n"
+       "  \\new Staff \\with {\n"
+       "    \\magnifyStaff #(magstep -4)\n"
+       "  } {\n"
+       "    " (dict-clef-key-time score) " " soprano-value "\n"
+       "  }\n"
+       "}\n")))
+
+#(define dict-content
+   (apply string-append (map dict-entry-block dict-records)))
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -1419,4 +1507,46 @@
   }
 
   #(ly:parser-include-string composer-index-content)
+}
+
+\bookpart {
+  %% A dense list of short, single-line entries: same page-fill and
+  %% footer-clearance reasoning as the composer index above.
+  \paper {
+    ragged-bottom = ##f
+    ragged-last-bottom = ##t
+    last-bottom-spacing = #'((basic-distance . 4)
+                             (minimum-distance . 3.2)
+                             (padding . 1)
+                             (stretchability . 5))
+    %% Tuned for short, single-staff melody incipits rather than full
+    %% four-part systems: the global system-system-spacing above (basic
+    %% distance 11) was calibrated for the much taller SATB systems used
+    %% everywhere else in this recueil.
+    system-system-spacing = #'((basic-distance . 5)
+                               (minimum-distance . 3)
+                               (padding . 1)
+                               (stretchability . 10))
+  }
+  \pageBreak
+
+  \markup \column {
+    \vspace #1.5
+    \fill-line { \null \fontsize #4 \bold "Dictionnaire des timbres" \null }
+    \vspace #2
+    \justify {
+      Ce dernier index réunit, par ordre alphabétique, la mélodie seule — sans texte ni
+      harmonisation — de chacun des 207 timbres utilisés dans ce recueil : un repère visuel rapide,
+      à la manière des catalogues thématiques tels que celui de Johannes Zahn.
+    }
+    \vspace #1.2
+    \justify {
+      Beaucoup de ces mélodies, nées aux XVIe et XVIIe siècles, étaient conçues de façon modale
+      (armure minimale, rythme d'origine souvent plus libre) avant d'être régularisées dans la
+      notation moderne, mesurée et tonale, employée ici comme dans le reste du recueil.
+    }
+    \vspace #1.5
+  }
+
+  #(ly:parser-include-string dict-content)
 }
