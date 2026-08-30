@@ -1561,15 +1561,11 @@
     %% label on its staff (the tune name is a separate markup line above),
     %% so that indent just pushes its one system in for no reason.
     indent = 0
-    %% Justification stretches each system to fill the same page width
-    %% regardless of how many notes it holds, so note spacing varies from
-    %% timbre to timbre (and often between a tune's own lines) depending on
-    %% how densely each system happens to be filled. ragged-right disables
-    %% that stretch everywhere, so every note gets the same
-    %% duration-proportional space regardless of context — true invariant
-    %% spacing across all 207 entries, at the cost of some tunes needing an
-    %% extra line each (measured: +11 pages for this bookpart).
-    ragged-right = ##t
+    %% Full lines stay justified (filled edge to edge, as expected of
+    %% engraved music) — only the last, incomplete line of a multi-line
+    %% tune is left at its natural width instead of being stretched thin
+    %% to match.
+    ragged-last = ##t
     %% The 3.2 minimum used for the composer index (pure markup, no
     %% engraved staves) turned out not to be enough here: with real \score
     %% content, the page-breaker still squeezed this gap down to ~1.5mm.
