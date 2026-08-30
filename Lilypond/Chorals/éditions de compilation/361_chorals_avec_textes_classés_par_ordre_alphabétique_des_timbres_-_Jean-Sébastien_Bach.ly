@@ -895,22 +895,52 @@
    (toc-item-inner (escape-quotes (strip-verse-marks (assq-ref rec 'title))) (assq-ref rec 'opus)
                     (merged-singleton? rec) indent?))
 
+%% A place-and-date entry always ends in a year (the site's own convention);
+%% a bare name with no comma but also no digit (e.g. "Bartolomäus Gesius",
+%% a rare case where the source wrote a name First-Last instead of
+%% "Last, First") is still a person, not a place.
+#(define (composer-category composer)
+   (cond
+     ((string-ci=? composer "Anonyme") 'anonymous)
+     ((string-index composer #\,) 'named)
+     ((not (any char-numeric? (string->list composer))) 'named)
+     (else 'place)))
+
+%% Labels the composer/place info line with the same category name used to
+%% sort it in the end-of-book composer index, rather than the uninformative
+%% "Timbre :" (the reader already knows this is about the tune — that's the
+%% whole recueil's organizing principle).
+#(define (composer-label-prefix composer)
+   (case (composer-category composer)
+     ((named) "Compositeur : ")
+     ((place) "Lieu/date : ")
+     (else "Origine inconnue : ")))
+
 %% For a tune with only one setting, a big shared header would just repeat
 %% info next to a single choral: fold it into a small inline note instead.
 %% Wrapped like a subtitle, since it runs alongside the opus/poet column and
-%% can otherwise overflow into it.
-#(define (singleton-tune-note idx)
+%% can otherwise overflow into it. When the piece's own title already is the
+%% tune name (merged-singleton case), the tune name would be a pure repeat of
+%% the bold title right above, so only the composer/place info is kept.
+#(define (singleton-tune-note idx merged?)
    (let ((composer (translate-composer-text (composer-of idx))))
      (if (string-null? composer)
          '()
-         ;; wrap-long-text would split right after "Timbre :" (its splitter
+         ;; wrap-long-text would split right after the label (its splitter
          ;; favors the first " : "), so wrap the body alone and prefix after.
-         (let* ((body (string-append
-                        (tune-of idx) "  —  " composer
-                        (let ((zahn (zahn-of idx)))
-                          (if (string-null? zahn) "" (string-append "  —  n° Zahn " zahn)))))
-                (wrapped (wrap-long-text body 45)))
-           (cons (string-append "Timbre : " (car wrapped)) (cdr wrapped))))))
+         (if merged?
+             (let* ((body (string-append
+                            composer
+                            (let ((zahn (zahn-of idx)))
+                              (if (string-null? zahn) "" (string-append "  —  n° Zahn " zahn)))))
+                    (wrapped (wrap-long-text body 45)))
+               (cons (string-append (composer-label-prefix (composer-of idx)) (car wrapped)) (cdr wrapped)))
+             (let* ((body (string-append
+                            (tune-of idx) "  —  " composer
+                            (let ((zahn (zahn-of idx)))
+                              (if (string-null? zahn) "" (string-append "  —  n° Zahn " zahn)))))
+                    (wrapped (wrap-long-text body 45)))
+               (cons (string-append "Timbre : " (car wrapped)) (cdr wrapped)))))))
 
 #(define (piece-body rec)
    (let* ((base (assq-ref rec 'base))
@@ -922,7 +952,7 @@
           (score (assq-ref rec 'score))
           (idx (assq-ref rec 'tune-index))
           (extra-lines (append (if subtitle (wrap-long-text subtitle 60) '())
-                                (if (= (tune-count idx) 1) (singleton-tune-note idx) '())))
+                                (if (= (tune-count idx) 1) (singleton-tune-note idx (merged-singleton? rec)) '())))
           (piece-markup (if (null? extra-lines)
                              (string-append "\\markup \\bold \\concat {" title-markup-inner " }")
                              (string-append "\\markup \\column { \\bold \\concat {" title-markup-inner " }" (small-lines extra-lines) " }")))
@@ -955,7 +985,8 @@
           (sub (if (string-null? composer)
                    ""
                    (string-append
-                     "  \\fill-line { \\null \\italic \\fontsize #-1 \\concat { \"Timbre : \" \""
+                     "  \\fill-line { \\null \\italic \\fontsize #-1 \\concat { \""
+                     (escape-quotes (composer-label-prefix (composer-of idx))) "\" \""
                      composer "\""
                      (if (string-null? zahn) "" (string-append " \"  —  n° Zahn " zahn "\""))
                      " } \\null }\n"))))
@@ -1033,17 +1064,6 @@
 %% ~6% are flatly "Anonyme". Each tier is its own alphabetical section.
 
 #(define all-tune-indices (map car tune-info-alist))
-
-%% A place-and-date entry always ends in a year (the site's own convention);
-%% a bare name with no comma but also no digit (e.g. "Bartolomäus Gesius",
-%% a rare case where the source wrote a name First-Last instead of
-%% "Last, First") is still a person, not a place.
-#(define (composer-category composer)
-   (cond
-     ((string-ci=? composer "Anonyme") 'anonymous)
-     ((string-index composer #\,) 'named)
-     ((not (any char-numeric? (string->list composer))) 'named)
-     (else 'place)))
 
 %% A trailing "*" ("this tune is itself based on an even older source", see
 %% the main notice) or "?" (uncertain attribution) is per-source metadata,
