@@ -1372,23 +1372,40 @@
                             (string-append " \\small \\concat { \"  —  Zahn \" \"" zahn "\" }")))
           ;; A handful of title + composer + Zahn combinations run past the
           ;; page width on one line (long parenthetical composer notes are
-          ;; the usual culprit) — those fall back to a second line for the
-          ;; composer/Zahn part instead of running off the margin.
-          ;; Character count is only a rough proxy for rendered width (bold
-          ;; title + small composer/Zahn mix proportional fonts), calibrated
-          ;; empirically against real margin overflow found by pixel
-          ;; measurement — 96-char combinations were already spilling past
-          ;; the right margin, so the threshold sits well under that.
-          (too-long? (> (+ (string-length title) (string-length meta-plain) (string-length zahn-plain)) 80))
-          (label (if too-long?
-                     (string-append
-                       "\\column {\n"
-                       "  \\line { \\bold \\fontsize #-1 \"" (escape-quotes title) "\" }\n"
-                       "  \\line {" meta-markup zahn-markup " }\n"
-                       "}")
-                     (string-append
-                       "\\line { \\bold \\fontsize #-1 \"" (escape-quotes title) "\""
-                       meta-markup zahn-markup " }"))))
+          ;; the usual culprit). Fill the first line up to a character budget
+          ;; (a rough proxy for rendered width — bold title + small
+          ;; composer/Zahn mix proportional fonts — calibrated empirically:
+          ;; pixel measurement found real overflow starting at 96 characters)
+          ;; and push whatever doesn't fit to a second line, without ever
+          ;; splitting the "Zahn N" unit itself across the two lines.
+          (char-budget 92)
+          (len-title (string-length title))
+          (len-with-meta (+ len-title (string-length meta-plain)))
+          (len-with-zahn (+ len-with-meta (string-length zahn-plain)))
+          (label
+            (cond
+              ;; Everything fits: unchanged single-line layout.
+              ((<= len-with-zahn char-budget)
+               (string-append
+                 "\\line { \\bold \\fontsize #-1 \"" (escape-quotes title) "\""
+                 meta-markup zahn-markup " }"))
+              ;; Title + composer/place fit; only "Zahn N" overflows onto its
+              ;; own second line.
+              ((<= len-with-meta char-budget)
+               (string-append
+                 "\\column {\n"
+                 "  \\line { \\bold \\fontsize #-1 \"" (escape-quotes title) "\""
+                 meta-markup " }\n"
+                 "  \\line {" zahn-markup " }\n"
+                 "}"))
+              ;; Even title + composer/place don't fit together: title alone
+              ;; on the first line, composer/place and Zahn together below.
+              (else
+               (string-append
+                 "\\column {\n"
+                 "  \\line { \\bold \\fontsize #-1 \"" (escape-quotes title) "\" }\n"
+                 "  \\line {" meta-markup zahn-markup " }\n"
+                 "}")))))
      (string-append
        "\\markup \\column {\n"
        "  \\vspace #0.6\n"
