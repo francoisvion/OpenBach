@@ -1347,9 +1347,16 @@
                               raw-soprano))
           (idx (assq-ref rec 'tune-index))
           (zahn (zahn-of idx))
+          (composer (escape-quotes (translate-composer-text (composer-of idx))))
           (label (string-append
                    "\\line { \\bold \\fontsize #-1 \""
                    (escape-quotes (tune-of idx)) "\""
+                   (if (string-null? composer)
+                       ""
+                       (string-append
+                         " \\small \\concat { \"  —  \" \""
+                         (escape-quotes (composer-label-prefix (composer-of idx))) "\" \""
+                         composer "\" }"))
                    (if (string-null? zahn)
                        ""
                        (string-append " \\small \\concat { \"  —  Zahn \" \"" zahn "\" }"))
