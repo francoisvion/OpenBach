@@ -594,12 +594,19 @@
                       ""
                       (string-append
                         (if new-day
+                            ;; The trailing \vspace restores the bottom padding
+                            ;; that space-lines gives a standalone row but not a
+                            ;; multi-line column, so the first inter-row gap of a
+                            ;; day matches the ~62px of the following rows instead
+                            ;; of coming out tighter (~50px). See the same fix in
+                            ;; the "par timbre" recueil.
                             (string-append
                               "\\tocItem \\markup \\column {\n"
                               (if new-season (season-toc-line idx first) "")
                               (day-toc-line idx)
                               "  \\vspace #0.3\n"
                               "  " (piece-toc-row rec) "\n"
+                              "  \\vspace #0.19\n"
                               "}\n")
                             (string-append "\\tocItem \\markup " (piece-toc-row rec) "\n"))
                         (piece-body rec)))))
