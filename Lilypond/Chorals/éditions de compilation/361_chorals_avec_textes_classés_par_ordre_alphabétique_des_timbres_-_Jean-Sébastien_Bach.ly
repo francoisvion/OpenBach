@@ -1374,7 +1374,12 @@
           ;; page width on one line (long parenthetical composer notes are
           ;; the usual culprit) — those fall back to a second line for the
           ;; composer/Zahn part instead of running off the margin.
-          (too-long? (> (+ (string-length title) (string-length meta-plain) (string-length zahn-plain)) 100))
+          ;; Character count is only a rough proxy for rendered width (bold
+          ;; title + small composer/Zahn mix proportional fonts), calibrated
+          ;; empirically against real margin overflow found by pixel
+          ;; measurement — 96-char combinations were already spilling past
+          ;; the right margin, so the threshold sits well under that.
+          (too-long? (> (+ (string-length title) (string-length meta-plain) (string-length zahn-plain)) 80))
           (label (if too-long?
                      (string-append
                        "\\column {\n"
