@@ -499,6 +499,10 @@
   \paper {
     ragged-bottom = ##t
     ragged-last-bottom = ##t
+    last-bottom-spacing = #'((basic-distance . 4)
+                             (minimum-distance . 3.2)
+                             (padding . 1)
+                             (stretchability . 5))
     oddHeaderMarkup = \markup \column { \fill-line { \null \if \should-print-page-number \fromproperty #'page:page-number-string } \if \should-print-page-number \vspace #3 }
     evenHeaderMarkup = \markup \column { \fill-line { \if \should-print-page-number \fromproperty #'page:page-number-string \null } \if \should-print-page-number \vspace #3 }
   }
