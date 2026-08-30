@@ -916,6 +916,15 @@
      ((place) "Lieu/date : ")
      (else "Origine inconnue : ")))
 
+%% Same categories, abbreviated: the dictionary crams title + category +
+%% composer/place + Zahn number onto one line, tighter on width than
+%% anywhere else this label is used.
+#(define (composer-label-prefix-short composer)
+   (case (composer-category composer)
+     ((named) "Comp. : ")
+     ((place) "Lieu/date : ")
+     (else "Origine inconnue : ")))
+
 %% A merged singleton (count = 1, title = tune's name) has no body-header
 %% above it — its own bold title already names the tune — so the
 %% composer/place info is folded into a small inline note instead. Wrapped
@@ -1347,20 +1356,34 @@
                               raw-soprano))
           (idx (assq-ref rec 'tune-index))
           (zahn (zahn-of idx))
-          (composer (escape-quotes (translate-composer-text (composer-of idx))))
-          (label (string-append
-                   "\\line { \\bold \\fontsize #-1 \""
-                   (escape-quotes (tune-of idx)) "\""
-                   (if (string-null? composer)
-                       ""
-                       (string-append
-                         " \\small \\concat { \"  —  \" \""
-                         (escape-quotes (composer-label-prefix (composer-of idx))) "\" \""
-                         composer "\" }"))
-                   (if (string-null? zahn)
-                       ""
-                       (string-append " \\small \\concat { \"  —  Zahn \" \"" zahn "\" }"))
-                   " }")))
+          (title (tune-of idx))
+          (composer (translate-composer-text (composer-of idx)))
+          (composer-prefix (composer-label-prefix-short (composer-of idx)))
+          (meta-plain (if (string-null? composer) "" (string-append "  —  " composer-prefix composer)))
+          (zahn-plain (if (string-null? zahn) "" (string-append "  —  Zahn " zahn)))
+          (meta-markup (if (string-null? composer)
+                            ""
+                            (string-append
+                              " \\small \\concat { \"  —  \" \""
+                              (escape-quotes composer-prefix) "\" \""
+                              (escape-quotes composer) "\" }")))
+          (zahn-markup (if (string-null? zahn)
+                            ""
+                            (string-append " \\small \\concat { \"  —  Zahn \" \"" zahn "\" }")))
+          ;; A handful of title + composer + Zahn combinations run past the
+          ;; page width on one line (long parenthetical composer notes are
+          ;; the usual culprit) — those fall back to a second line for the
+          ;; composer/Zahn part instead of running off the margin.
+          (too-long? (> (+ (string-length title) (string-length meta-plain) (string-length zahn-plain)) 100))
+          (label (if too-long?
+                     (string-append
+                       "\\column {\n"
+                       "  \\line { \\bold \\fontsize #-1 \"" (escape-quotes title) "\" }\n"
+                       "  \\line {" meta-markup zahn-markup " }\n"
+                       "}")
+                     (string-append
+                       "\\line { \\bold \\fontsize #-1 \"" (escape-quotes title) "\""
+                       meta-markup zahn-markup " }"))))
      (string-append
        "\\markup \\column {\n"
        "  \\vspace #0.6\n"
