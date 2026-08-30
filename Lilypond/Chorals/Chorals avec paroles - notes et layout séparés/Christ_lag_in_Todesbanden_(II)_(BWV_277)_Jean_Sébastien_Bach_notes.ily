@@ -1,4 +1,4 @@
-sopranoMusic = {
+sopranoMusic = \relative c' {
           \voiceOne
           \repeat volta 2 {
           \partial 4 a'4
@@ -16,7 +16,7 @@ sopranoMusic = {
           d1\fermata \fine
          }
 
-altoMusic = {
+altoMusic = \relative c' {
           \voiceTwo
           \repeat volta 2 {
           \partial 4 f4
@@ -34,7 +34,7 @@ altoMusic = {
           a1\fermata \fine
         }
 
-tenorMusic = {
+tenorMusic = \relative c {
           \voiceOne
           \repeat volta 2 {
           \partial 4 d'8 [c]
@@ -52,7 +52,7 @@ tenorMusic = {
           g fis8 [e] fis2\fermata \fine
         }
 
-bassMusic = {
+bassMusic = \relative c {
           \voiceTwo
           \repeat volta 2 {
           \partial 4 d4

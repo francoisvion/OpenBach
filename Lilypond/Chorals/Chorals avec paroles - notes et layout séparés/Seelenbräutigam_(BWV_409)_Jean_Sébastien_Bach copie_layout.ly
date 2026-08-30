@@ -39,7 +39,7 @@
 \score {
   \new ChoirStaff <<
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
-    \relative c' {
+    {
       \clef treble
       \key a \major
       \time 4/4
@@ -53,7 +53,7 @@
     \new Lyrics \lyricsto "soprano" \sopranoLyrics
     
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
-    \relative c {
+    {
       \clef bass
       \key a \major
       \time 4/4
