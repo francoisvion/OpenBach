@@ -1314,11 +1314,37 @@
 #(define (strip-breaks s)
    (regexp-substitute/global #f "\\\\break" s 'pre 'post))
 
+%% \voiceOne/\voiceTwo exist to offset simultaneous voices sharing one
+%% staff (so their rests and stems don't collide) — meaningless for a
+%% single melody alone, and their side effect of pushing rests off the
+%% staff's center line looks wrong here. Stripped for the dictionary only.
+#(define (strip-voice-context s)
+   (regexp-substitute/global #f "\\\\voiceOne|\\\\voiceTwo" s 'pre 'post))
+
+%% Most sopranoMusic values are self-contained (either plain absolute
+%% pitches, or their own "\relative <pitch> { ... }"). A few instead rely on
+%% a \relative wrapped around the whole staff *in the layout file*, outside
+%% sopranoMusic's own definition — invisible when sopranoMusic is extracted
+%% alone, so those notes were falling back to absolute-pitch interpretation
+%% and landing in wildly wrong octaves. Detected here by finding a
+%% \relative that appears before the staff's \clef in the layout's \score
+%% text, and reapplied around the extracted melody.
+#(define (extract-outer-relative score)
+   (let ((clef-m (string-match "\\\\clef" score))
+         (rel-m (string-match "\\\\relative[ \t]+[a-g][,']*" score)))
+     (if (and rel-m clef-m (< (match:start rel-m) (match:start clef-m)))
+         (match:substring rel-m 0)
+         #f)))
+
 #(define (dict-entry-block rec)
    (let* ((base (assq-ref rec 'base))
           (notes-content (read-utf8-file (string-append source-dir "/" base "_notes.ily")))
-          (soprano-value (strip-breaks (extract-variable-value notes-content "sopranoMusic")))
+          (raw-soprano (strip-voice-context (strip-breaks (extract-variable-value notes-content "sopranoMusic"))))
           (score (assq-ref rec 'score))
+          (outer-relative (extract-outer-relative score))
+          (soprano-value (if outer-relative
+                              (string-append outer-relative " { " raw-soprano " }")
+                              raw-soprano))
           (idx (assq-ref rec 'tune-index))
           (zahn (zahn-of idx))
           (label (string-append
