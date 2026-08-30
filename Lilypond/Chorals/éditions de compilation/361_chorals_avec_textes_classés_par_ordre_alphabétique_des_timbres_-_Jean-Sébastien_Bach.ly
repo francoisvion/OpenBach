@@ -1416,6 +1416,13 @@
        "  \\new Staff \\with {\n"
        "    \\magnifyStaff #(magstep -4)\n"
        "  } {\n"
+       "    % A tune spanning two systems must not be split across a page\n"
+       "    % break — that leaves a one-measure orphan stranded alone on the\n"
+       "    % next page. Forbidding page breaks within this score's own\n"
+       "    % columns still allows its systems to break normally; if the\n"
+       "    % whole tune doesn't fit, it moves to the next page as one piece\n"
+       "    % instead of splitting.\n"
+       "    \\override Score.NonMusicalPaperColumn.page-break-permission = ##f\n"
        "    " (dict-clef-key-time score) " " soprano-value "\n"
        "  }\n"
        "}\n")))
