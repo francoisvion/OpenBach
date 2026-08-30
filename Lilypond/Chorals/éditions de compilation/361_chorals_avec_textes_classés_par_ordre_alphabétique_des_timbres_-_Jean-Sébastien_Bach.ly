@@ -931,7 +931,7 @@
          (let* ((body (string-append
                         composer
                         (let ((zahn (zahn-of idx)))
-                          (if (string-null? zahn) "" (string-append "  —  n° Zahn " zahn)))))
+                          (if (string-null? zahn) "" (string-append "  —  Zahn " zahn)))))
                 (wrapped (wrap-long-text body 45)))
            (cons (string-append (composer-label-prefix (composer-of idx)) (car wrapped)) (cdr wrapped))))))
 
@@ -981,7 +981,7 @@
                      "  \\fill-line { \\null \\italic \\fontsize #-1 \\concat { \""
                      (escape-quotes (composer-label-prefix (composer-of idx))) "\" \""
                      composer "\""
-                     (if (string-null? zahn) "" (string-append " \"  —  n° Zahn " zahn "\""))
+                     (if (string-null? zahn) "" (string-append " \"  —  Zahn " zahn "\""))
                      " } \\null }\n"))))
      (string-append
        "\\markup \\column {\n"
@@ -1311,7 +1311,7 @@
                    (escape-quotes (tune-of idx)) "\""
                    (if (string-null? zahn)
                        ""
-                       (string-append " \\small \\concat { \"  —  n° Zahn \" \"" zahn "\" }"))
+                       (string-append " \\small \\concat { \"  —  Zahn \" \"" zahn "\" }"))
                    " }")))
      (string-append
        "\\markup \\column {\n"
@@ -1515,6 +1515,15 @@
   \paper {
     ragged-bottom = ##f
     ragged-last-bottom = ##t
+    %% Justification stretches each system to fill the same page width
+    %% regardless of how many notes it holds, so note spacing varies from
+    %% timbre to timbre (and often between a tune's own lines) depending on
+    %% how densely each system happens to be filled. ragged-right disables
+    %% that stretch everywhere, so every note gets the same
+    %% duration-proportional space regardless of context — true invariant
+    %% spacing across all 207 entries, at the cost of some tunes needing an
+    %% extra line each (measured: +11 pages for this bookpart).
+    ragged-right = ##t
     %% The 3.2 minimum used for the composer index (pure markup, no
     %% engraved staves) turned out not to be enough here: with real \score
     %% content, the page-breaker still squeezed this gap down to ~1.5mm.
