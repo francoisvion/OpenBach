@@ -953,7 +953,7 @@
           (poet (assq-ref rec 'poet))
           (score (assq-ref rec 'score))
           (idx (assq-ref rec 'tune-index))
-          (extra-lines (append (if subtitle (wrap-long-text subtitle 60) '())
+          (extra-lines (append (if subtitle (wrap-long-text subtitle 100) '())
                                 (if (merged-singleton? rec) (singleton-tune-note idx) '())))
           (piece-markup (if (null? extra-lines)
                              (string-append "\\markup \\bold \\concat {" title-markup-inner " }")

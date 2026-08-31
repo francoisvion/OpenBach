@@ -241,7 +241,7 @@
           (poet (assq-ref rec 'poet))
           (score (assq-ref rec 'score))
           (piece-markup (if subtitle
-                             (string-append "\\markup \\column { \\bold \\concat {" title-markup-inner " }" (small-lines (wrap-long-text subtitle 60)) " }")
+                             (string-append "\\markup \\column { \\bold \\concat {" title-markup-inner " }" (small-lines (wrap-long-text subtitle 100)) " }")
                              (string-append "\\markup \\bold \\concat {" title-markup-inner " }")))
           (opus-field (if poet
                           (string-append "\\markup \\right-column { \"" opus "\"" (small-lines (wrap-poet (abbreviate-poet poet))) " }")
