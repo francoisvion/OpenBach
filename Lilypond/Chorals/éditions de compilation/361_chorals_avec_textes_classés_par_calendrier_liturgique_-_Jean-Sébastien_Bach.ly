@@ -692,7 +692,7 @@
   \pageBreak
 
   \markup \column {
-    \vspace #0.8
+    \vspace #1.5
     \fill-line { \null \fontsize #4 \bold "Présentation générale" \null }
     \vspace #2
     \justify {
@@ -733,7 +733,11 @@
       dans les églises principales, à l'exception de cette entrée solennelle dans
       l'Avent.
     }
-    \vspace #0.9
+  }
+  \pageBreak
+
+  \markup \column {
+%    \vspace #0.9
     \fill-line { \null \bold "Noël et son octave" \null }
     \justify {
       rassemblent le jour de Noël (25 décembre), le deuxième jour (26 décembre,
@@ -744,11 +748,7 @@
       l'Épiphanie, riche en chorals populaires (\italic { Wie soll ich dich
       empfangen }, \italic { Ich steh an deiner Krippen hier }...).
     }
-  }
-  \pageBreak
-
-  \markup \column {
-    \vspace #0.9
+    \vspace #1.5
     \fill-line { \null \bold "Le Nouvel An et le temps qui suit" \null }
     \justify {
       comprennent le jour de l'An, qui n'est pas seulement le premier jour du
@@ -756,7 +756,7 @@
       après sa naissance selon la coutume juive), et le dimanche après le Nouvel
       An lorsque le calendrier le permet, avant l'Épiphanie.
     }
-    \vspace #0.9
+    \vspace #1.5
     \fill-line { \null \bold "L'Épiphanie" \null }
     \justify {
       (6 janvier) célèbre la manifestation du Christ au monde par la visite des
@@ -764,7 +764,7 @@
       selon la date, mobile, de Pâques : plus Pâques est tardive, plus le temps
       après l'Épiphanie s'allonge avant de céder la place au pré-Carême.
     }
-    \vspace #0.9
+    \vspace #1.5
     \fill-line { \null \bold "Le pré-Carême" \null }
     \justify {
       groupe trois dimanches aux noms latins évocateurs — Septuagésime,
@@ -772,10 +772,7 @@
       60e et le 50e jour avant Pâques ; ils annoncent et préparent le temps de
       pénitence à venir sans en observer encore le jeûne.
     }
-  }
-  \pageBreak
-
-  \markup \column {
+    \vspace #1.5
     \fill-line { \null \bold "Le Carême" \null }
     \justify {
       quarante jours de préparation à Pâques à l'imitation du jeûne du Christ au
@@ -783,7 +780,7 @@
       Judica, chacun nommé d'après les premiers mots latins de l'introït chanté
       ce jour-là, avant que le dimanche des Rameaux n'ouvre la Semaine sainte.
     }
-    \vspace #0.9
+    \vspace #1.5
     \fill-line { \null \bold "Le Vendredi saint" \null }
     \justify {
       commémore la Passion et la mort du Christ en croix ; c'est le jour des
@@ -792,7 +789,7 @@
       (BWV 244, créée en 1727), toutes deux ponctuées de chorals de la Passion,
       au premier rang desquels \italic { O Haupt voll Blut und Wunden }.
     }
-    \vspace #0.9
+    \vspace #1.5
     \fill-line { \null \bold "Pâques" \null }
     \justify {
       réunit le dimanche, le lundi et le mardi de la fête, puis une série de
@@ -800,21 +797,24 @@
       Misericordias Domini, Jubilate, Cantate, Rogate — qui déploient sur près
       de six semaines la joie de la Résurrection.
     }
-    \vspace #0.9
+  }
+  \pageBreak
+
+  \markup \column {
     \fill-line { \null \bold "L'Ascension" \null }
     \justify {
       quarante jours après Pâques, tombe toujours un jeudi et célèbre l'élévation
       du Christ ressuscité auprès du Père ; le dimanche Exaudi, dernier de la
       saison pascale, la suit et prépare à la Pentecôte.
     }
-    \vspace #0.9
+    \vspace #1.5
     \fill-line { \null \bold "La Pentecôte" \null }
     \justify {
       — dimanche, lundi et mardi — commémore la descente de l'Esprit saint sur
       les apôtres cinquante jours après Pâques, et clôt traditionnellement le
       cycle des grandes fêtes chrétiennes.
     }
-    \vspace #0.9
+    \vspace #1.5
     \fill-line { \null \bold "Le temps après la Trinité" \null }
     \justify {
       de la fête de la Trinité (dimanche suivant la Pentecôte) jusqu'au
@@ -824,7 +824,7 @@
       moral et à la méditation, et comptent parmi les cantates les plus nombreuses
       et les plus variées de Bach.
     }
-    \vspace #0.9
+    \vspace #1.5
     \fill-line { \null \bold "Les fêtes fixes" \null }
     \justify {
       s'ajoutent au cycle mobile des dimanches : la Purification de Marie
@@ -832,14 +832,14 @@
       de Marie (2 juillet) et la Saint-Michel (29 septembre) sont commémorées à
       date fixe du calendrier civil plutôt qu'en fonction de Pâques.
     }
-    \vspace #0.9
+    \vspace #1.5
     \fill-line { \null \bold "Les occasions particulières" \null }
     \justify {
       enfin, quelques chorals furent composés pour des circonstances hors du
       cycle liturgique proprement dit : un mariage, l'inauguration annuelle du
       conseil municipal de Leipzig ou des funérailles.
     }
-    \vspace #1.2
+    \vspace #2
     \justify {
       Une dernière section rassemble les chorals dont l'occasion liturgique
       précise n'a pu être établie : il s'agit principalement des pièces isolées
