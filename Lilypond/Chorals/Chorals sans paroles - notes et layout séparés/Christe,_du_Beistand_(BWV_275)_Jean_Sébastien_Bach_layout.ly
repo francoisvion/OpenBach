@@ -27,7 +27,6 @@
 
 \header {
  title = "Christe, du Beistand"
- poet = "Auteur : Matthäus Apelles von Löwenstern (1594-1648)"
   opus = "BWV 275"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

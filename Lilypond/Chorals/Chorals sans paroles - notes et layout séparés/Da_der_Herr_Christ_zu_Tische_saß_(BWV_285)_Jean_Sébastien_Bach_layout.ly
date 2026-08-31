@@ -27,7 +27,6 @@
 
 \header {
  title = "Da der Herr Christ zu Tische saß"
- poet = "Auteur : Nikolaus Herman (v.1480-1561)"
   opus = "BWV 285"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

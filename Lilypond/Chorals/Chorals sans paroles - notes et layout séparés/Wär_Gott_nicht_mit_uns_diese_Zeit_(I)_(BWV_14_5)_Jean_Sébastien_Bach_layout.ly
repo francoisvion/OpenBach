@@ -28,7 +28,6 @@
 \header {
   title = \markup{\concat{"Wär Gott nicht mit uns diese Zeit (I)" \small " (v. 3)"}}
   subtitle = "tiré de la cantate : Wär Gott nicht mit uns diese Zeit"
-  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 14/5"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

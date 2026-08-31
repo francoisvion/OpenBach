@@ -28,7 +28,6 @@
 \header {
  title = "Ich dank dir, lieber Herre (I)"
  subtitle = "tiré de la cantate : Wer da gläubet und getauft wird"
- poet = "Auteur : Johann Kolros (v.1487-1558)"
   opus = "BWV 37/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

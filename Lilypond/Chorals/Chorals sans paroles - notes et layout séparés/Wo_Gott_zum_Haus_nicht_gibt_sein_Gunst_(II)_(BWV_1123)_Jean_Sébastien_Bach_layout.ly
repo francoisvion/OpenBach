@@ -28,7 +28,6 @@
 \header {
   title = "Wo Gott zum Haus nicht gibt sein Gunst (II)"
   opus = "BWV 1123"
-  poet = "Auteur : Johann Kohlross (1487-1560)"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"

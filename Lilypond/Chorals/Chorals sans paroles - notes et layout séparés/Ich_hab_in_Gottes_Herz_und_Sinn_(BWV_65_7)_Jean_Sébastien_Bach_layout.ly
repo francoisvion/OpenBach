@@ -28,7 +28,6 @@
 \header {
  title = "Ich hab in Gottes Herz und Sinn"
  subtitle = "tiré de la cantate : Sie werden aus Saba alle kommen"
- poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 65/7"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

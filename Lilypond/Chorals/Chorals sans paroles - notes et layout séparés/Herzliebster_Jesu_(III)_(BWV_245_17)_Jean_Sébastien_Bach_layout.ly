@@ -28,7 +28,6 @@
 \header {
  title = \markup{\concat{"Herzliebster Jesu (III)" \small " (v. 8 & 9)"}}
  subtitle = "tiré de la Passion selon saint Jean"
- poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 245/17"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

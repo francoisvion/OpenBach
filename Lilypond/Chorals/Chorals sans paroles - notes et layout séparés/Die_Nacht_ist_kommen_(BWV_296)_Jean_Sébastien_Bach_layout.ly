@@ -27,7 +27,6 @@
 
 \header {
  title = "Die Nacht ist kommen"
- poet = "Auteur : Petrus Herbert (v.1533-1571)"
   opus = "BWV 296"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

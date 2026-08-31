@@ -27,7 +27,6 @@
 
 \header {
  title = "In allen meinen Taten (III)"
- poet = "Auteur : Paul Fleming (1609-1640)"
   opus = "BWV 367"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

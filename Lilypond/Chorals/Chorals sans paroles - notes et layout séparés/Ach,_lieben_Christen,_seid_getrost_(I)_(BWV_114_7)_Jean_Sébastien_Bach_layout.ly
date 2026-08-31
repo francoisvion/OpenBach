@@ -28,7 +28,6 @@
 \header {
   title = \markup{\concat{"Ach, lieben Christen, seid getrost (I)" \small " (v. 6)"}}
   subtitle = "tiré de la cantate : Ach lieben Christen, seid getrost"
-  poet = "Auteur : Johann Gigas (1514-1581)"
   opus = "BWV 114/7"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -27,7 +27,6 @@
 
 \header {
  title = "Hilf, Herr Jesu, lass gelingen (II)"
- poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 344"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

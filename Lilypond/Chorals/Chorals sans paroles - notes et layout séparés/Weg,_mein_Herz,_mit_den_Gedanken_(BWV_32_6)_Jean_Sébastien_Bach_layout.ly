@@ -28,7 +28,6 @@
 \header {
   title = \markup{\concat{"Weg, mein Herz, mit den Gedanken" \small " (v. 12)"}}
   subtitle = "tiré de la cantate : Liebster Jesu, mein Verlangen"
-  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 32/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

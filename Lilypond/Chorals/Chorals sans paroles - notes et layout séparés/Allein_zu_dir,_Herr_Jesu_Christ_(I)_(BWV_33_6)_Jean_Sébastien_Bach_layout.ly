@@ -28,7 +28,6 @@
 \header {
   title = \markup{\concat{"Allein zu dir, Herr Jesu Christ (I)" \small " (v. 4)"}}
   subtitle = "tiré de la cantate : Allein zu dir, Herr Jesu Christ"
-  poet = "Auteur : Konrad Hubert (1507-1577)"
   opus = "BWV 33/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

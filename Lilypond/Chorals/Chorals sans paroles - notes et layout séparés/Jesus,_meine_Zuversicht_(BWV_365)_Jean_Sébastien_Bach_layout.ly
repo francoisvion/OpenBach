@@ -27,7 +27,6 @@
 
 \header {
  title = "Jesus, meine Zuversicht"
- poet = "Berlin 1653"
   opus = "BWV 365"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

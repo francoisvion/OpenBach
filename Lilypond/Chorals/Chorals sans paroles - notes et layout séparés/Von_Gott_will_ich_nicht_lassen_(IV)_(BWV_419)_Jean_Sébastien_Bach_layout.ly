@@ -27,7 +27,6 @@
 
 \header {
  title = "Von Gott will ich nicht lassen (IV)"
- poet = "Auteur : Ludwig Helmbold (1532-1598)"
   opus = "BWV 419"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

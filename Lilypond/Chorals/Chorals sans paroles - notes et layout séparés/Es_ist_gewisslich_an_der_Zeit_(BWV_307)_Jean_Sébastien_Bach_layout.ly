@@ -27,7 +27,6 @@
 
 \header {
   title = "Es ist gewisslich an der Zeit"
-  poet = "Auteur : Bartholomäus Ringwaldt (1532-1599)"
   opus = "BWV 307"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

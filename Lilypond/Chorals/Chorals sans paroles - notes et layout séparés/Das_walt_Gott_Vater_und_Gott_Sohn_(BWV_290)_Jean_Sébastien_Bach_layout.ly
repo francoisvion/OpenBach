@@ -27,7 +27,6 @@
 
 \header {
  title = "Das walt Gott Vater und Gott Sohn"
- poet = "Auteur : Martin Behm (1557-1622)"
   opus = "BWV 290"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

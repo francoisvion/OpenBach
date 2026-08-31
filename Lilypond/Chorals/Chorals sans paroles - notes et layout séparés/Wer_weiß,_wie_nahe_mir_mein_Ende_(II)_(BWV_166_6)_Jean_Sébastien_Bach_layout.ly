@@ -28,7 +28,6 @@
 \header {
   title = \markup{\concat{"Wer weiß, wie nahe mir mein Ende (II)" \small " (v. 1)"}}
   subtitle = "tiré de la cantate : Wo gehest du hin?"
-  poet = \markup{\column{"Auteur : Ämilie Juliane von Schwarzburg–" "Rudolstadt (1637-1706)"}}
   opus = "BWV 166/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

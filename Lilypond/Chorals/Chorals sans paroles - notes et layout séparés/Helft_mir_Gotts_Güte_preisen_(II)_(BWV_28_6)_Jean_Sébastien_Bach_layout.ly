@@ -28,7 +28,6 @@
 \header {
  title = "Helft mir Gotts Güte preisen (II)"
  subtitle = "tiré de la cantate : Gottlob! nun geht das Jahr zu Ende"
- poet = "Auteur : Paul Eber (1511-1569)"
   opus = "BWV 28/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

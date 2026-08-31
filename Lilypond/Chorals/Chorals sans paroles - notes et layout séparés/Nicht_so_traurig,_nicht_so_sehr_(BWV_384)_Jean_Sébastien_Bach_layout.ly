@@ -27,7 +27,6 @@
 
 \header {
  title = "Nicht so traurig, nicht so sehr"
- poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 384"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

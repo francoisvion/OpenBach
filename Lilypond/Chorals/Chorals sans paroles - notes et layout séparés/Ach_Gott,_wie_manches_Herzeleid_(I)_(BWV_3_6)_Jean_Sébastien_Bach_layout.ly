@@ -28,7 +28,6 @@
 \header {
   title = \markup{\concat{"Ach Gott, wie manches Herzeleid (I)" \small " (v. 18)"}}
   subtitle = "tiré de la cantate : Ach Gott, wie manches Herzeleid"
-  poet = "Auteur : Martin Moller (1547-1606)"
   opus = "BWV 3/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

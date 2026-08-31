@@ -28,7 +28,6 @@
 \header {
   title = \markup{\concat{"Werde munter mein Gemüte (I)" \small " (v. 6)"}}
   subtitle = "tiré de la cantate : Ich armer Mensch, ich Sündenknecht"
- poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 55/5"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

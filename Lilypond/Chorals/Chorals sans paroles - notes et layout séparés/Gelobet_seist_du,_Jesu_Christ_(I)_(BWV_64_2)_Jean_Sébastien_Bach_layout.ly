@@ -28,7 +28,6 @@
 \header {
  title = "Gelobet seist du, Jesu Christ (I)"
  subtitle = "tiré de la cantate : Sehet, welch eine Liebe hat uns der Vater erzeiget"
- poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 64/2"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -27,7 +27,6 @@
 
 \header {
  title = "Schau, lieber Gott, wie meine Feind"
- poet = "Auteur : David Denicke (1603-1680)"
   opus = "BWV 153/1"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

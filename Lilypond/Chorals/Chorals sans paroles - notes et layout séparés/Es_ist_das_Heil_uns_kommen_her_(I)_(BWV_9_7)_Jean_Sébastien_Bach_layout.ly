@@ -28,7 +28,6 @@
 \header {
  title = \markup{\concat{"Es ist das Heil uns kommen her (I)" \small " (v. 7 & 8)"}}
  subtitle = "tiré de la cantate : Es ist das Heil uns kommen her"
- poet = "Auteur : Paul Speratus (1489-1551)"
   opus = "BWV 9/7"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

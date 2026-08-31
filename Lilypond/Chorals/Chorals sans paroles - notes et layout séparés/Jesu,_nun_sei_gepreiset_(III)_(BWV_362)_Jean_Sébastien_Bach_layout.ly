@@ -27,7 +27,6 @@
 
 \header {
  title = "Jesu, nun sei gepreiset (III)"
- poet = "Auteur : Johannes Herman (1515-1593)"
   opus = "BWV 362"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

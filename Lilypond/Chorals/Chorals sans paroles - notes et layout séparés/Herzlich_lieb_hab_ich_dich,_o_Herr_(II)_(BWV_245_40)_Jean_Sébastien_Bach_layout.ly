@@ -28,7 +28,6 @@
 \header {
  title = "Herzlich lieb hab ich dich, o Herr (II)"
  subtitle = "tiré de la Passion selon saint Jean"
- poet = "Auteur : Martin Schalling (1532-1608)"
   opus = "BWV 245/40"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

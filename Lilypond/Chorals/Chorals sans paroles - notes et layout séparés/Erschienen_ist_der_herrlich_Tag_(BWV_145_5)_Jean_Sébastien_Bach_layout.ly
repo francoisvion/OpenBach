@@ -28,7 +28,6 @@
 \header {
  title = "Erschienen ist der herrlich Tag"
  subtitle = "tiré de la cantate : Ich lebe, mein Herze, zu deinem Ergötzen"
- poet = "Auteur : Nikolaus Herman (v.1480-1561)"
   opus = "BWV 145/5"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

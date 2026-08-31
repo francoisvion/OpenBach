@@ -27,7 +27,6 @@
 
 \header {
  title = "Herr Jesu Christ, du hast bereit'"
- poet = "Auteur : Samuel Kinner (v.1604-1668)"
   opus = "BWV 333"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

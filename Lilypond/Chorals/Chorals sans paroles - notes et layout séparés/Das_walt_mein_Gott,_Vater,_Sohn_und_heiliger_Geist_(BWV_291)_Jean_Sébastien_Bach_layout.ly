@@ -27,7 +27,6 @@
 
 \header {
  title = "Das walt mein Gott, Vater, Sohn und heiliger Geist"
- poet = "Auteur : Basilius Förtsch (?-1619)"
   opus = "BWV 291"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

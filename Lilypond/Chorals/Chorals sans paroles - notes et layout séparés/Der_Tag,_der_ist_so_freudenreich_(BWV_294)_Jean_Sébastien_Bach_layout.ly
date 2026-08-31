@@ -27,7 +27,6 @@
 
 \header {
  title = "Der Tag, der ist so freudenreich"
- poet = "Anonyme"
   opus = "BWV 294"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

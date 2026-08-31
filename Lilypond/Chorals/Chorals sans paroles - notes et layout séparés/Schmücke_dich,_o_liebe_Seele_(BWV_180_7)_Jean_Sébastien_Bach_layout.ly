@@ -28,7 +28,6 @@
 \header {
   title = \markup{\concat{"Schmücke dich, o liebe Seele" \small " (v. 9)"}}
   subtitle = "tiré de la cantate : Schmücke dich, o liebe Seele"
-  poet = "Auteur : Johann Franck (1618-1677)"
   opus = "BWV 180/7"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

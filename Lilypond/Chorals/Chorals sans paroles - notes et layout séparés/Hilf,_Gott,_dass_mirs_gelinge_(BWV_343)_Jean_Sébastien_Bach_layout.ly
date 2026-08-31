@@ -27,7 +27,6 @@
 
 \header {
  title = "Hilf, Gott, dass mirs gelinge"
- poet = "Auteur : Heinrich Müller (1631-1675)"
   opus = "BWV 343"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

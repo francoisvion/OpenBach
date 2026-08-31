@@ -27,7 +27,6 @@
 
 \header {
  title = "Wie bist du, Seele, in mir so gar betrübt"
- poet = "Auteur : Tobias Zeutschner (v.1621-1675)"
   opus = "BWV 435"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

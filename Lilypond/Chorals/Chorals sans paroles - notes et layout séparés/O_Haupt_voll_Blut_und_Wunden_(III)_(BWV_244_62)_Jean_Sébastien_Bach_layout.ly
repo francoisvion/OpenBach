@@ -28,7 +28,6 @@
 \header {
   title = \markup{\concat{"O Haupt voll Blut und Wunden (III)" \small " (v. 9)"}}
   subtitle = "tiré de la Passion selon saint Matthieu"
- poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 244/62"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

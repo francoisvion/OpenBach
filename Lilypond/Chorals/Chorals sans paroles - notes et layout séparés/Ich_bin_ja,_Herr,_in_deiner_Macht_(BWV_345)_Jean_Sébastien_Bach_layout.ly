@@ -27,7 +27,6 @@
 
 \header {
  title = "Ich bin ja, Herr, in deiner Macht"
- poet = "Auteur : Simon Dach (1605-1659)"
   opus = "BWV 345"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

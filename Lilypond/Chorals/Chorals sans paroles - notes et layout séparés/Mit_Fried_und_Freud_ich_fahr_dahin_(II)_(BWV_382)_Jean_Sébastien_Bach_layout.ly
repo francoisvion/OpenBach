@@ -27,7 +27,6 @@
 
 \header {
  title = "Mit Fried und Freud ich fahr dahin (II)"
- poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 382"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

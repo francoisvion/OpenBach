@@ -27,7 +27,6 @@
 
 \header {
  title = "O Gott, du frommer Gott (IV)"
- poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 399"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

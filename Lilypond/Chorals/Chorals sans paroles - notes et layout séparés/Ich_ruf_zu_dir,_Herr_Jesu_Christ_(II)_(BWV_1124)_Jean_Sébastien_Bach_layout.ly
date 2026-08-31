@@ -28,7 +28,6 @@
 \header {
   title = "Ich ruf zu dir, Herr Jesu Christ (II)"
   opus = "BWV 1124"
-  poet = "Auteur : Johann Agricola (1526-1527)"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"

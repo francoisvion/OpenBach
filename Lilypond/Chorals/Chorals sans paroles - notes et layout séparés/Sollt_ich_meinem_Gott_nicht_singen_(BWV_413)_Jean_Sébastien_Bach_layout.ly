@@ -27,7 +27,6 @@
 
 \header {
  title = "Sollt ich meinem Gott nicht singen"
- poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 413"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

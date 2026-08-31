@@ -28,7 +28,6 @@
 \header {
   title = \markup{\concat{"Nun bitten wir den Heiligen Geist (II)" \small " (v. 3)"}}
   subtitle = "tiré de la cantate : Gott ist unsre Zuversicht"
-  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 197/5"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

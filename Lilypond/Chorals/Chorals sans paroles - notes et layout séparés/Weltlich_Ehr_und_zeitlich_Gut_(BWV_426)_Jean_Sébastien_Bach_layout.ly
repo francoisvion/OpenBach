@@ -27,7 +27,6 @@
 
 \header {
  title = "Weltlich Ehr und zeitlich Gut"
- poet = "Auteur : Michael Weisse (v.1488-1534)"
   opus = "BWV 426"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

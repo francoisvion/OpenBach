@@ -28,7 +28,6 @@
 \header {
   title = \markup{\column{\concat{"Wenn einer alle Ding verstünd" \small " (v. 8)"} \concat{"O Gottes Sohn, Herr Jesu Christ" \small " (v. 8)"} \vspace #0.5 }}
   subtitle = "tiré de la cantate : Du sollt Gott, deinen Herren, lieben"
-  poet = "Auteur : David Denicke (1603-1680)"
   opus = "BWV 77/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

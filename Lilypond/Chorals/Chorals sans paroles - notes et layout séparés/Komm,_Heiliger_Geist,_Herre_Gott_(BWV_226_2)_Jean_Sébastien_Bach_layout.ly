@@ -28,7 +28,6 @@
 \header {
  title = "Komm, Heiliger Geist, Herre Gott"
  subtitle = "tiré du motet : Der Geist hilft unser Schwachheit auf"
- poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 226/2"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

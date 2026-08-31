@@ -27,7 +27,6 @@
 
 \header {
  title = "Jesu, du mein liebstes Leben"
- poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 356"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

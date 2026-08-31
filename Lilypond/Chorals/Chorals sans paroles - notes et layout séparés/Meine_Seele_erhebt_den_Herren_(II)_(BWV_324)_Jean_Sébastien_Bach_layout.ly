@@ -27,7 +27,6 @@
 
 \header {
  title = "Meine Seele erhebt den Herren (II)"
- poet = "Luc 1, 46 et suivants"
   opus = "BWV 324"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

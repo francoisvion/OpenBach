@@ -28,7 +28,6 @@
 \header {
   title = "Verleih uns Frieden gnädlich (II)"
   subtitle = "tiré de la cantate : Erhalt uns Herr, bei deinem Wort"
- poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 126/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

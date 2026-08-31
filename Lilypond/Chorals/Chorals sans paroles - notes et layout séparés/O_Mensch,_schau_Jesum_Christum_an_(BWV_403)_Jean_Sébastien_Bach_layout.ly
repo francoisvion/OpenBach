@@ -27,7 +27,6 @@
 
 \header {
  title = "O Mensch, schau Jesum Christum an"
- poet = "Auteur : Daniel Specht"
   opus = "BWV 403"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

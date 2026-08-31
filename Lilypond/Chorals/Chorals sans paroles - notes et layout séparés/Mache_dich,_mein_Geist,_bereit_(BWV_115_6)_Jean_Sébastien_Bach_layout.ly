@@ -28,7 +28,6 @@
 \header {
  title = "Mache dich, mein Geist, bereit"
  subtitle = "tiré de la cantate : Mache dich, mein Geist, bereit"
- poet = "Auteur : Johann Burchard Freystein (1671-1718)"
   opus = "BWV 115/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

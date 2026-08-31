@@ -27,7 +27,6 @@
 
 \header {
  title = "Lobet den Herren, denn er ist sehr freundlich"
- poet = "Dresden 1568"
   opus = "BWV 374"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

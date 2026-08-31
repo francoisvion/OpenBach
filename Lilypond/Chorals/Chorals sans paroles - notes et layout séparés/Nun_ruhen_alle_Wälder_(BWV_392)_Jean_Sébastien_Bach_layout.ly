@@ -27,7 +27,6 @@
 
 \header {
  title = "Nun ruhen alle Wälder"
- poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 392"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

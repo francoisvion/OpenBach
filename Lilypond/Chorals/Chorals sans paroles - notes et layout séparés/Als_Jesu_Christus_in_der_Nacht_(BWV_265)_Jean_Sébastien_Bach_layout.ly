@@ -27,7 +27,6 @@
 
 \header {
  title = "Als Jesu Christus in der Nacht"
- poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 265"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

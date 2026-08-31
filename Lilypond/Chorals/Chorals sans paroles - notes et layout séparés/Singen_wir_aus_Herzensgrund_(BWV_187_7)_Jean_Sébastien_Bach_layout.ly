@@ -28,7 +28,6 @@
 \header {
   title = \markup{\concat{"Singen wir aus Herzensgrund" \small " (v. 4 & 6)"}}
   subtitle = "tiré de la cantate : Es wartet alles auf dich,"
- poet = "Auteur : Hans Vogel (?-v.1565)"
   opus = "BWV 187/7"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -28,7 +28,6 @@
 \header {
   title = \markup{\concat{"Was frag ich nach der Welt (I)" \small " (v. 1)"}}
   subtitle = "tiré de la cantate : Sehet, welch eine Liebe hat uns der Vater erzeiget"
-  poet = "Auteur : Balthasar Kindermann (1636-1706)"
   opus = "BWV 64/4"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

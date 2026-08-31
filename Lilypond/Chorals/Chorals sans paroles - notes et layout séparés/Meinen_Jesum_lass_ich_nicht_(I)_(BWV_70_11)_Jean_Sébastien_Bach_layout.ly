@@ -28,7 +28,6 @@
 \header {
  title = "Meinen Jesum lass ich nicht (I)"
  subtitle = "tiré de la cantate : Wachet! betet! betet! wachet!"
- poet = "Auteur : Christian Keymann (1607-1662)"
   opus = "BWV 70/11"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

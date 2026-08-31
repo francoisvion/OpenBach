@@ -27,7 +27,6 @@
 
 \header {
  title = "Sei gegrüßet, Jesu gütig"
- poet = "Auteur : Christian Keymann (1607-1662)"
   opus = "BWV 410"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

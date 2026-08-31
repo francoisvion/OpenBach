@@ -27,7 +27,6 @@
 
 \header {
  title = "Herr Gott, dich loben alle wir"
- poet = "Auteur : Paul Eber (1511-1569)"
   opus = "BWV 326"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -28,7 +28,6 @@
 \header {
  title = "Jesu, meine Freude (II)"
  subtitle = "tiré de la cantate : Jesus schläft, was soll ich hoffen?"
- poet = "Auteur : Johann Franck (1618-1677)"
   opus = "BWV 81/7"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -27,7 +27,6 @@
 
 \header {
  title = "Die Sonn hat sich mit ihrem Glanz gewendet"
- poet = "Auteur : Joshua Stegmann (1588-1632)"
   opus = "BWV 297"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

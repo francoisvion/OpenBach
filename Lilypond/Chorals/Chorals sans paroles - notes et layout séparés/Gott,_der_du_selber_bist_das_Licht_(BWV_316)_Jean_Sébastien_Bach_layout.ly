@@ -27,7 +27,6 @@
 
 \header {
  title = "Gott, der du selber bist das Licht"
- poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 316"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

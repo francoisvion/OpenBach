@@ -29,7 +29,6 @@
  title = "Welt, ade! Ich bin dein müde"
  subtitle = "tiré de la cantate : Wer weiß, wie nahe mir mein Ende"
   opus = "BWV 27/6"
-  poet = "Auteur : Johann Georg Albinus (1624-1679)"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"

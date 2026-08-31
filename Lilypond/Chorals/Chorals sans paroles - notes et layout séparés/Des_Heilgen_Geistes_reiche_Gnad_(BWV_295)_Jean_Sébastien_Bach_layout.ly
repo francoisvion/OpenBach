@@ -27,7 +27,6 @@
 
 \header {
  title = "Des Heilgen Geistes reiche Gnad"
- poet = "Leipzig 1582"
   opus = "BWV 295"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

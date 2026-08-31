@@ -28,7 +28,6 @@
 \header {
   title = \markup{\concat{"Wer nur den lieben Gott lässt walten (I)" \small " (v. 8)"}}
   subtitle = "tiré de la cantate : Siehe, ich will viel Fischer aussenden"
- poet = "Auteur : Georg Neumark (1621-1681)"
   opus = "BWV 88/7"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

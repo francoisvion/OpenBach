@@ -27,7 +27,6 @@
 
 \header {
  title = "Gott hat das Evangelium"
- poet = "Auteur : Erasmus Alber (v.1500-1553)"
   opus = "BWV 319"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -27,7 +27,6 @@
 
 \header {
  title = "So gibst du nun, mein Jesu, gute Nacht!"
- poet = "Auteur : August Pfeiffer (1640-1698)"
   opus = "BWV 412"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -27,7 +27,6 @@
 
 \header {
  title = "An Wasserflüssen Babylon"
- poet = "Auteur : Wolfgang Dachstein (v.1487-1553)"
   opus = "BWV 267"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

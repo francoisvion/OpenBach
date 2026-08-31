@@ -27,7 +27,6 @@
 
 \header {
  title = "Das alte Jahr vergangen ist (II)"
- poet = "Erfurt 1568"
   opus = "BWV 289"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

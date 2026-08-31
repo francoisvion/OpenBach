@@ -28,7 +28,6 @@
 \header {
   title = "Du Friedefürst, Herr Jesu Christ"
   subtitle = "tiré de la cantate : Halt im Gedächtnis Jesum Christ"
- poet = "Auteur : Jakob Ebert (1549-1615)"
   opus = "BWV 67/7"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

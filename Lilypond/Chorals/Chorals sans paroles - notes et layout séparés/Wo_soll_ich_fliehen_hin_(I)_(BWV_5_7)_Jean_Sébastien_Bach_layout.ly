@@ -28,7 +28,6 @@
 \header {
   title = \markup{\concat{"Wo soll ich fliehen hin (I)" \small " (v. 11)"}}
   subtitle = "tiré de la cantate : Wo soll ich fliehen hin?"
- poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 5/7"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

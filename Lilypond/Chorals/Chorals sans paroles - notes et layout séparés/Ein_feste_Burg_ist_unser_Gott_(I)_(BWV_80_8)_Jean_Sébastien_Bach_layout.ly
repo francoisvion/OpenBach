@@ -28,7 +28,6 @@
 \header {
  title = "Ein feste Burg ist unser Gott (I)"
  subtitle = "tiré de la cantate : Ein feste Burg ist unser Gott"
- poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 80/8"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

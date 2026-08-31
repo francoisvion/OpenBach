@@ -27,7 +27,6 @@
 
 \header {
  title = "Gottes Sohn ist kommen"
- poet = "Auteur : Johann Horn (v.1490-1547)"
   opus = "BWV 318"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

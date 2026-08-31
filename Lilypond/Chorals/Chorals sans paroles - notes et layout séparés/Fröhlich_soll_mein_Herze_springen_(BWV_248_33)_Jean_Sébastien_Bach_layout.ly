@@ -28,7 +28,6 @@
 \header {
  title = "Fröhlich soll mein Herze springen"
  subtitle = "tiré de l'Oratorio de Noël, partie n° 6 : Herr, wenn die stolzen Feinde schnauben"
- poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 248/33"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

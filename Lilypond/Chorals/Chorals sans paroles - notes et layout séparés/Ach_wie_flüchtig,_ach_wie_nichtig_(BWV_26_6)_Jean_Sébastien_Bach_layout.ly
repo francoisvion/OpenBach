@@ -28,7 +28,6 @@
 \header {
   title = \markup{\concat{"Ach wie flüchtig, ach wie nichtig" \small " (v. 8)"}}
   subtitle = "tiré de la cantate : Ach wie flüchtig, ach wie nichtig"
-  poet = "Auteur : Michael Franck (1609-1667)"
   opus = "BWV 26/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

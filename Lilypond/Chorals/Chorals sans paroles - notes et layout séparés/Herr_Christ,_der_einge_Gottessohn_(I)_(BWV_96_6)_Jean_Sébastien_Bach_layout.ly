@@ -28,7 +28,6 @@
 \header {
  title = "Herr Christ, der einge Gottessohn (I)"
  subtitle = "tiré de la cantate : Herr Christ, der einge Gottessohn"
- poet = "Auteur : Elisabeth Creutziger (v.1500-v.1535)"
   opus = "BWV 96/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

@@ -27,7 +27,6 @@
 
 \header {
   title = "Ach Gott, erhör mein Seufzen und Wehklagen"
-  poet = "Auteur : Jakob Peter Schechs (1607-1659)"
   opus = "BWV 254"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f   

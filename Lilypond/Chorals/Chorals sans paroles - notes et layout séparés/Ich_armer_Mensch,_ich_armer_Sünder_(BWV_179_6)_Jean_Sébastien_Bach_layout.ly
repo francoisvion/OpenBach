@@ -28,7 +28,6 @@
 \header {
  title = "Ich armer Mensch, ich armer Sünder"
  subtitle = "tiré de la cantate : Siehe zu, dass deine Gottesfurcht nicht Heuchelei sei"
- poet = "Auteur : Christoph Tietze (1641-1703)"
   opus = "BWV 179/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

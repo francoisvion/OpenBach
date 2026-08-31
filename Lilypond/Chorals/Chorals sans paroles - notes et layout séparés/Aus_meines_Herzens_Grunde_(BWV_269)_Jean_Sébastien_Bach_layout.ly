@@ -27,7 +27,6 @@
 
 \header {
  title = "Aus meines Herzens Grunde"
- poet = "Auteur : Georg Niege (1525-1589)"
   opus = "BWV 269"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

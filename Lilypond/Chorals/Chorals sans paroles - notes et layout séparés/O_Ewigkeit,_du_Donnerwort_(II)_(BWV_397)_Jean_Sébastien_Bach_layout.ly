@@ -27,7 +27,6 @@
 
 \header {
  title = "O Ewigkeit, du Donnerwort (II)"
- poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 397"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

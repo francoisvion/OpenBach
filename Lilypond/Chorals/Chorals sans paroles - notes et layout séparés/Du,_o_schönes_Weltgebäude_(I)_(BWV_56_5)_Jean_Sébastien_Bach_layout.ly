@@ -28,7 +28,6 @@
 \header {
  title = "Du, o schönes Weltgebäude (I)"
  subtitle = "tiré de la cantate : Ich will den Kreuzstab gerne tragen"
- poet = "Auteur : Johann Franck (1618-1677)"
   opus = "BWV 56/5"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

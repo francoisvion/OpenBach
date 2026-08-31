@@ -28,7 +28,6 @@
 \header {
   title = \markup{\concat{"Was mein Gott will, das g'scheh allzeit (I)" \small " (v. 1)"}}
   subtitle = "tiré de la cantate : Nimm, was dein ist, und gehe hin"
-  poet = \markup{\column{"Auteur : Markgraf Albrecht von" "Brandenberg (1490-1568)"}}
   opus = "BWV 144/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

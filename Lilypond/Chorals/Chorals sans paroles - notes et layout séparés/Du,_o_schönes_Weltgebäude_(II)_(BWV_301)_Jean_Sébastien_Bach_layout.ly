@@ -27,7 +27,6 @@
 
 \header {
  title = "Du, o schönes Weltgebäude (II)"
- poet = "Auteur : Johann Franck (1618-1677)"
   opus = "BWV 301"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f

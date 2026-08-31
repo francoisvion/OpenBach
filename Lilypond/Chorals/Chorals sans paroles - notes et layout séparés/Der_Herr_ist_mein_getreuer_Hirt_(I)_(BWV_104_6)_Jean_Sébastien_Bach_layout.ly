@@ -28,7 +28,6 @@
 \header {
  title = "Der Herr ist mein getreuer Hirt (I)"
  subtitle = "tiré de la cantate : Du Hirte Israel, höre"
- poet = "Auteur : Cornelius Becker (1561-1604)"
   opus = "BWV 104/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
