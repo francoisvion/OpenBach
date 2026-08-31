@@ -1,7 +1,5 @@
 \version "2.27.1"
 
-
-
 \include "Ich_hab_mein_Sach_Gott_heimgestellt_(BWV_351)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
@@ -29,30 +27,33 @@
 
 \header {
  title = "Ich hab mein Sach Gott heimgestellt"
+ poet = "Auteur : Johann Leon (v.1531-1597)"
   opus = "BWV 351"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key d \minor
+      \key g \dorian
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "soprano" \sopranoMusic
         
         \new Voice = "alto" \altoMusic
       >>
     }
-        \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key d \minor
+      \key g \dorian
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "tenor" \tenorMusic
         

@@ -15,15 +15,15 @@ sopranoMusic = {
 altoMusic = {
           \voiceTwo
           \partial 4  d'4
-          d'8 c'4 b16 [cis'] d'8 [c'] b4
-          e' d'8 [c'] b4\fermata d'~
-          d'8 c'4 b16 [cis'] d'8 [c'] b4
+          d'8 c'4 b16 cis' d'8 c' b4
+          e' d'8 c' b4\fermata d'~
+          d'8 c'4 b16 cis' d'8 c' b4
           e' d' d'\fermata
           \partial 4  f'
           f'4. e'4 d'8 d'4
-          e'4. d'8 cis'4\fermata d'8 [c']
-          b c'4 b16 [cis'] d'8 [c'] b4
-          e' d'8 [c'] b4\fermata \fine
+          e'4. d'8 cis'4\fermata d'8 c'
+          b c'4 b16 cis' d'8 c' b4
+          e' d'8 c' b4\fermata \fine
         }
 
 tenorMusic = {
@@ -32,10 +32,10 @@ tenorMusic = {
           g g a g~
           g fis d\fermata f
           g g a g~
-          g fis8 [c'] b4\fermata
+          g fis8 c' b4\fermata
           \partial 4  c'
-          d' g a16 [b] c'4 b8
-          c' [bes] a4 a\fermata a
+          d' g a16 b c'4 b8
+          c' bes a4 a\fermata a
           g g a g~
           g fis d\fermata \fine
         }
@@ -43,14 +43,13 @@ tenorMusic = {
 bassMusic = {
           \voiceTwo
           \partial 4  d4
-          e g d e8 [d]
+          e g d e8 d
           c4 d g,\fermata d
-          e g d e8 [d]
+          e g d e8 d
           c4 d g,\fermata
-          \partial 4  f8 [e]
-          d4 c f8 [fis] g4
-          c8 [cis] d4 a,\fermata d
-          e g d e8 [d]
+          \partial 4  f8 e
+          d4 c f8 fis g4
+          c8 cis d4 a,\fermata d
+          e g d e8 d
           c4 d g,\fermata \fine
         }
-

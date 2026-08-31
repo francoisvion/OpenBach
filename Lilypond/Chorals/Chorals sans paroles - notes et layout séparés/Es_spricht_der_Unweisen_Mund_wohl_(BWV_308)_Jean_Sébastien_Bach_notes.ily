@@ -2,17 +2,17 @@ sopranoMusic = {
           \voiceOne
           \repeat volta 2 {
           \partial 4  bes'4
-          bes' a'8 [g'] f'4 bes'
+          bes' a'8 g' f'4 bes'
           c'' d'' bes'\fermata f'
           bes' c'' d'' ees''
-          c''8 [bes'] c''4 bes'\fermata }
+          c''8 bes' c''4 bes'\fermata }
           \partial 4  bes'
-          g' a' bes'8 [a'] g'4
+          g' a' bes'8 a' g'4
           f' e' f'\fermata f'
           bes' c'' d'' ees''
            d'' c'' d''\fermata c''
-          d'' ees'' f''8 [ees''] d''4
-          c''8 [bes'] c''4 bes'\fermata \fine
+          d'' ees'' f''8 ees'' d''4
+          c''8 bes' c''4 bes'\fermata \fine
         }
 
 altoMusic = {
@@ -24,9 +24,9 @@ altoMusic = {
           f' f' f' g'
           f'2 f'4\fermata }
           \partial 4  f'
-          e' f'2 e'8 [d']
+          e' f'2 e'8 d'
           c'4 c' c'\fermata c'
-          f'8 [g'] a'4 bes' c''~
+          f'8 g' a'4 bes' c''~
           c''8 bes'4 a'8 bes'4\fermata f'
           f' g' a' f'
           f'2 f'4\fermata \fine
@@ -37,16 +37,16 @@ tenorMusic = {
           \repeat volta 2 {
           \partial 4  d'4
           d' c'4. bes8 bes4~
-          bes8 [a bes aes] g4\fermata a
-          bes ees' d'8 [c'] bes4~
-          bes8 [a16 g] a4 d'\fermata }
+          bes8 a bes aes g4\fermata a
+          bes ees' d'8 c' bes4~
+          bes8 a16 g a4 d'\fermata }
           \partial 4  d'
-          c' c' d' g8 [a16 bes]
-          c'8 [bes16 a] g8 [a16 bes] a4\fermata a
-          bes ees' f' g'8 [f']
-          f'4 f' f'\fermata f'8 [ees']
-          d' [c'] bes4 c'4. bes8~
-          bes [a16 g] a4 d'\fermata \fine
+          c' c' d' g8 a16 bes
+          c'8 bes16 a g8 a16 bes a4\fermata a
+          bes ees' f' g'8 f'
+          f'4 f' f'\fermata f'8 ees'
+          d' c' bes4 c'4. bes8~
+          bes a16 g a4 d'\fermata \fine
         }
 
 bassMusic = {
@@ -58,12 +58,10 @@ bassMusic = {
           d a, bes, ees
           f2 bes,4\fermata }
           \partial 4  bes,~
-          bes, a, g, c8 [bes,]
-          a, [bes,] c4 f,\fermata f8 [ees]
-          d [ees d c] bes, [bes]~ bes [a]
+          bes, a, g, c8 bes,
+          a, bes, c4 f,\fermata f8 ees
+          d ees d c bes, bes~ bes a
           bes4 f bes,\fermata a
-          bes8 [a] g4 f bes
+          bes8 a g4 f bes
           f2 bes,4\fermata \fine
         }
-
-

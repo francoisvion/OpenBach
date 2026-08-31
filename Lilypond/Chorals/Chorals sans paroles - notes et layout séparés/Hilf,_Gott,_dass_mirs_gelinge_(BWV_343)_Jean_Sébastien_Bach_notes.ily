@@ -29,27 +29,27 @@ sopranoMusic = {
 altoMusic = {
           \voiceTwo
           \repeat volta 2 {
-          \partial 4  d'8 [e']
-          f'2~ f'8 [e']
+          \partial 4  d'8 e'
+          f'2~ f'8 e'
           d'4 a bes
-          c'8 [ees'] d' [c'] b4
-          e'2\fermata e'8 [fis']
-          g' [fis'] g'2~
+          c'8 ees' d' c' b4
+          e'2\fermata e'8 fis'
+          g' fis' g'2~
           g'4. fis'8 g'4
           g'2 fis'4
           d'2\fermata }
           \partial 4  g'4~
           g'8 f'4 e'8 f'4~
-          f'8 [e'] f' [g'] a' [g']
-          f'2~ f'8 [e']
+          f'8 e' f' g' a' g'
+          f'2~ f'8 e'
           c'2\fermata d'4
           g'2 a'4~
-          a'8 [d'] g'4 a'
-          bes'8 [a'] g'4. fis'8
+          a'8 d' g'4 a'
+          bes'8 a' g'4. fis'8
           g'4 d'4. c'8
           d'2\fermata fis'4
           g'2 f'4
-          e'8 [d'] e' [fis'] g'4
+          e'8 d' e' fis' g'4
           g'2 fis'4
           d'2\fermata \fine
         }
@@ -58,27 +58,27 @@ tenorMusic = {
           \voiceOne
           \repeat volta 2 {
           \partial 4  bes4
-          c'2 c'8. [bes16]
+          c'2 c'8. bes16
           a4 f4. g8
-          a2 g8 [f]
+          a2 g8 f
           c'2\fermata c'4
-          d'4. c'8 bes [a]
-          g [fis] g [a] d'4
-          ees' d'8 [a] d' [c']
+          d'4. c'8 bes a
+          g fis g a d'4
+          ees' d'8 a d' c'
           bes2\fermata }
-          \partial 4  c'8 [bes]
+          \partial 4  c'8 bes
           a4 bes c'~
           c' bes c'
-          d'2 g8 [c']
-          a2\fermata bes8 [c']
-          d' [bes] ees'4. d'8
+          d'2 g8 c'
+          a2\fermata bes8 c'
+          d' bes ees'4. d'8
           d'2 ees'4
-          f' ees'8 [d'] ees' [c']
-          d' [ees'] f' [f] g4
+          f' ees'8 d' ees' c'
+          d' ees' f' f g4
           a2\fermata d'4
-          d'8 [bes] ees'4 d'8 [bes]
-          g4 c'8 [a] bes [d']
-          ees' [d'] c' [bes] c' [a]
+          d'8 bes ees'4 d'8 bes
+          g4 c'8 a bes d'
+          ees' d' c' bes c' a
           b2\fermata \fine
         }
 
@@ -96,11 +96,11 @@ bassMusic = {
           g,2\fermata }
           \partial 4  e4
           f g a
-          bes2 f8 [e]
-          d [c] bes,4 c
-          f,2\fermata bes,8 [a,]
+          bes2 f8 e
+          d c bes,4 c
+          f,2\fermata bes,8 a,
           g,4 g fis
-          g f8 [ees] d [c]
+          g f8 ees d c
           bes,4 bes a
           g f ees
           d2\fermata d4
@@ -109,7 +109,3 @@ bassMusic = {
           c a, d
           g,2\fermata \fine
         }
-
-
-
-

@@ -1,8 +1,6 @@
 \version "2.27.1"
 
-
-
-\include "Ist_Gott_mein_Schild_und_Helfersmann_(BWV_85_6)_Jean_Sébastien_Bach_notes.ily"
+\include "Ist_Gott_mein_Schild_und_Helfersmann_(BWV_85_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -30,19 +28,21 @@
 \header {
  title = "Ist Gott mein Schild und Helfersmann"
  subtitle = "tiré de la cantate : Ich bin ein guter Hirt"
+ poet = "Auteur : Ernst Christoph Homburg (1605-1681)"
   opus = "BWV 85/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key g \minor
+      \key c \dorian
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "soprano" \sopranoMusic
         
@@ -50,12 +50,13 @@
       >>
     }
     
-        
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key g \minor
+      \key c \dorian
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "tenor" \tenorMusic
         

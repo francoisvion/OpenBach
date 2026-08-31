@@ -20,12 +20,12 @@ sopranoMusic = {
           cis''2 a'4
           d''2 a'4
            bes' a' g'
-          f'2 e'8 [f']
+          f'2 e'8 f'
           d'2.\fermata
           fis'2 fis'4
           g' fis' g'
           a' bes' c''
-          bes' a'8 [bes'] g'4
+          bes' a'8 bes' g'4
           c''2 c''4
           c'' d'' e''
            f'' e'' d''
@@ -36,7 +36,7 @@ sopranoMusic = {
           g'2.
           c''4 a' f'
           d'' e'' f''
-          a'2 g'8 [f']
+          a'2 g'8 f'
           f'2.\fermata \fine
         }
 
@@ -46,13 +46,13 @@ altoMusic = {
           g'2.\fermata
           f'4 g' f'
           f'2 f'4
-          g'8 [a'] bes'2
+          g'8 a' bes'2
           a'2.\fermata
           f'2 f'4
-          f'8 [d'] e'4 f'
+          f'8 d' e'4 f'
           e'2 fis'4
            g' f' e'
-          f'8 [e'] d'4 e'
+          f'8 e' d'4 e'
           f'2 g'4
           f'2 f'4
           g'2.\fermata
@@ -60,7 +60,7 @@ altoMusic = {
           bes' f' bes'
           bes'2 bes'4
           a'2 e'4
-          a'4. g'8 f' [e']
+          a'4. g'8 f' e'
           d'4. cis'8 d'4
           d'2 cis'4
           a2.\fermata
@@ -70,7 +70,7 @@ altoMusic = {
           d' c' bes
           g' e' f'
           g' f' e'
-           d' e'8 [f'] g'4
+           d' e'8 f' g'4
           g'2 e'4\fermata
           f'2 f'4
           f'2 f'4
@@ -88,22 +88,22 @@ tenorMusic = {
           e'2.\fermata
           c'4 d' c'
           bes f bes
-          bes8 [c'] d'4 c'
+          bes8 c' d'4 c'
           c'2.\fermata
           d'2 d'4
           c'2 c'4
           c'2 c'4
            d' c' c'
-          c' bes8 [a] bes4
+          c' bes8 a bes4
           c'2 c'4
           c'2 d'4
           e'2.\fermata
           g'2 f'4
-          f'8 [e' d' cis'] d'4
+          f'8 e' d' cis' d'4
           g'2 f'4
           e'2 cis'4
           d'2 c'4
-          bes f'8 [e' d' e']
+          bes f'8 e' d' e'
           f'4 d' a
           f2.\fermata
           a2 a4
@@ -120,7 +120,7 @@ tenorMusic = {
           c'2.
           c'2 c'4
           bes bes c'
-          c' d'8 [c' bes c']
+          c' d'8 c' bes c'
           a2.\fermata \fine
         }
 
@@ -162,7 +162,6 @@ bassMusic = {
           c c' bes
           a f a
           bes g f~
-          f8 [a,] bes,4 c
+          f8 a, bes,4 c
           f,2.\fermata \fine
         }
-

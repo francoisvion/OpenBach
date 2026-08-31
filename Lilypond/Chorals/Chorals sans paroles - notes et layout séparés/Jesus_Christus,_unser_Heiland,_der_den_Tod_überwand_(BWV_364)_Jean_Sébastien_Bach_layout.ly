@@ -1,7 +1,5 @@
 \version "2.27.1"
 
-
-
 \include "Jesus_Christus,_unser_Heiland,_der_den_Tod_überwand_(BWV_364)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
@@ -29,19 +27,21 @@
 
 \header {
  title = "Jesus Christus, unser Heiland, der den Tod überwand"
+ poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 364"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key d \minor
+      \key g \dorian
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "soprano" \sopranoMusic
         
@@ -49,12 +49,13 @@
       >>
       
     }
-        
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key d \minor
+      \key g \dorian
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "tenor" \tenorMusic
         

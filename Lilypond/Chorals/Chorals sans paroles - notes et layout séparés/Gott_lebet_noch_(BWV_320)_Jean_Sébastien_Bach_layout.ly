@@ -1,8 +1,6 @@
 \version "2.27.1"
 
-
-
-\include "Gott_lebet_noch_(BWV_320)_Jean_Sébastien_Bach_notes.ily"
+\include "Gott_lebet_noch_(BWV_320)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -29,29 +27,32 @@
 
 \header {
  title = "Gott lebet noch"
+ poet = "Auteur : Johann Friedrich Zihn (1650-1719)"
   opus = "BWV 320"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
       \key f \major
       \time 3/4
+      \set Timing.beatStructure = #'(3)
       <<
         \new Voice = "soprano" \sopranoMusic
         \new Voice = "alto" \altoMusic
       >>
     }
-        \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
       \key f \major
       \time 3/4
+      \set Timing.beatStructure = #'(3)
       <<
         \new Voice = "tenor" \tenorMusic
         \new Voice = "bass" \bassMusic

@@ -1,10 +1,10 @@
 sopranoMusic = {
           \voiceOne
-          g'4 g'8 [a'] bes'4
+          g'4 g'8 a' bes'4
           a'2 g'4
-          fis'8 [g'] g'4. fis'16 [g']
+          fis'8 g' g'4. fis'16 g'
           a'2.\fermata
-          a'8 [bes'] bes'4. a'16 [bes']
+          a'8 bes' bes'4. a'16 bes'
           c''2 d''4
           bes' a'2
           g'2.\fermata
@@ -17,14 +17,14 @@ sopranoMusic = {
           d'' cis''4
           d''2.\fermata
           d''2 d''4
-          c''8 [bes'] a' [bes'] c''4
+          c''8 bes' a' bes' c''4
           d'' c'' bes'
           a'2.\fermata
           d''2 d''4
           c'' d'' ees''
           d'' c'' bes'
           a'2.\fermata
-          a'8 [bes'] bes'4. a'16 [bes']
+          a'8 bes' bes'4. a'16 bes'
           c''2 d''4
           bes' a'2
           g'2.\fermata \fine
@@ -32,7 +32,7 @@ sopranoMusic = {
 
 altoMusic = {
           \voiceTwo
-          d'4 g'8 [fis'] g'4
+          d'4 g'8 fis' g'4
           g' fis' g'
           c' d' cis'
           d'2.\fermata
@@ -49,31 +49,31 @@ altoMusic = {
           f' bes' a'
           a'2.\fermata
           bes'2 bes'4
-          a'8 [g'] f' [g'] a'4
+          a'8 g' f' g' a'4
           a' fis' g'
           fis'2.\fermata
           g'4 a' bes'
           a' g' fis'
           g' fis' g'
           fis'2.\fermata
-          fis'8 [g'] g'4. fis'16 [g']
-          a'8 [g'] fis' [g'] a'4
+          fis'8 g' g'4. fis'16 g'
+          a'8 g' fis' g' a'4
           g'2 fis'4
           d'2.\fermata \fine
         }
 
 tenorMusic = {
           \voiceOne
-          bes8 [c'] d'4 d'
-          ees' d'8 [c'] bes4
-          a g8 [a] bes4
+          bes8 c' d'4 d'
+          ees' d'8 c' bes4
+          a g8 a bes4
           fis2.\fermata
           d'2 d'4
-          c'8 [bes] a [g] a4
+          c'8 bes a g a4
           g2 fis4
           bes2.\fermata
           d'2 d'4
-          c'8 [bes] a4 g
+          c'8 bes a4 g
           a d' c'
           a2.\fermata
           a4 b cis'
@@ -90,13 +90,13 @@ tenorMusic = {
           d'2.\fermata
           d'2 d'4
           c' ees' d'
-          d' ees' d'8 [c']
+          d' ees' d'8 c'
           b2.\fermata \fine
         }
 
 bassMusic = {
           \voiceTwo
-          g8 [a] bes [a] g4
+          g8 a bes a g4
           c d ees
           a, bes, g,
           d2.\fermata
@@ -104,15 +104,15 @@ bassMusic = {
           e fis d
           g c d
           g,2.\fermata
-          d8 [e] f [e] d4
+          d8 e f e d4
           a d e
           f bes, c
           f,2.\fermata
           f2 e4
-          d g8 [f] g [a]
+          d g8 f g a
           bes4 g a
           d2.\fermata
-          bes,8 [c] d [c] bes,4
+          bes,8 c d c bes,4
           f2 f4
           fis d g
           d2.\fermata
@@ -125,5 +125,3 @@ bassMusic = {
           g c d
           g,2.\fermata \fine
         }
-
-

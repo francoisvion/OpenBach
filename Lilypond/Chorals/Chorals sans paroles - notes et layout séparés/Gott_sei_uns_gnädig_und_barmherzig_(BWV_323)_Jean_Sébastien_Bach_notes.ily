@@ -57,5 +57,3 @@ bassMusic = {
           fis,4 e d b,
           fis,1\fermata \fine
         }
-
-

@@ -1,7 +1,5 @@
 \version "2.27.1"
 
-
-
 \include "Liebster_Immanuel,_Herzog_der_Frommen_(BWV_123_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
@@ -30,19 +28,21 @@
 \header {
  title = "Liebster Immanuel, Herzog der Frommen"
  subtitle = "tiré de la cantate : Liebster Immanuel, Herzog der Frommen"
+ poet = "Auteur : Ahasverus Fritsch (1629-1701)"
   opus = "BWV 123/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
       \key b \minor
       \time 3/2
+      \set Timing.beatStructure = #'(1 1 1)
       <<
         \new Voice = "soprano" \sopranoMusic
         
@@ -50,13 +50,14 @@
       >>
     }
     
-        
-        
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    
+    
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
       \key b \minor
       \time 3/2
+      \set Timing.beatStructure = #'(1 1 1)
       <<
         \new Voice = "tenor" \tenorMusic
         

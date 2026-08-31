@@ -1,0 +1,83 @@
+sopranoMusic = {
+          \voiceOne
+          \repeat volta 3 {
+          c''4 c'' c''
+          a' b' c''
+          d'' c'' b'
+          a'2.\fermata
+          a'4 b' c''
+          d''2 c''4
+          b' a'2
+          g'2.\fermata
+          e''4 e'' e''
+          c'' d'' e''
+          f'' e''2
+          d''2.\fermata
+          c''4 d'' e''
+          d''2 c''4
+          c'' b'2
+          c''2.\fermata }
+        }
+
+altoMusic = {
+          \voiceTwo
+          \repeat volta 3 {
+          e'4 g' g'
+          f' g' g'
+          a'2 g'4
+          fis'2.\fermata
+          fis'4 g' g'
+          g'2 g'4
+          g' g' fis'
+          g'2.\fermata
+          g'4 e' gis'
+          a' b' cis''
+          d'' c''2
+          g'2.\fermata
+          g'4 b' c''
+          c'' b' e'
+          a' g'2
+          g'2.\fermata }
+        }
+
+tenorMusic = {
+          \voiceOne
+          \repeat volta 3 {
+          g4 c' e'
+          c' d' e'
+          d'2 d'4
+          d'2.\fermata
+          d'4 d' e'
+          d'2 e'4
+          d' d'4. c'8
+          b2.\fermata
+          c'4 b e'
+          e' f' g'
+          f' g' c'
+          b2.\fermata
+          c'4 f g
+          a b c'
+          d' d'2
+          e'2.\fermata }
+        }
+
+bassMusic = {
+          \voiceTwo
+          \repeat volta 3 {
+          c4 e c
+          f2 e4
+          fis2 g4
+          d2.\fermata
+          d4 g e
+          b,2 c4
+          g d2
+          g,2.\fermata
+          c'4 gis e
+          a2 a,4
+          d e f
+          g2.\fermata
+          e4 d c
+          f g a
+          fis g g,
+          c2.\fermata }
+        }

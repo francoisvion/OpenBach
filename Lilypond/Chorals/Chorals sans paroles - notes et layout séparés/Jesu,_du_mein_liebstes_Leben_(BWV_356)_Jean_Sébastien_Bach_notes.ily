@@ -28,25 +28,25 @@ altoMusic = {
           \voiceTwo
           \repeat volta 2 {
           d'2 a'4~
-          a'8 [g' f' ees'] d'4
+          a'8 g' f' ees' d'4
           g' a'4. g'8
           g'4 fis' d'\fermata
-          bes' a'8 [g'] f'4
-           g' f'8 [ees'] d'4
-          g' ees'8 [g' f' ees']
+          bes' a'8 g' f'4
+           g' f'8 ees' d'4
+          g' ees'8 g' f' ees'
           d'2.\fermata }
           \repeat volta 2 {
           f'2 g'4~
-          g'8 [f'] e' [d'] c'4
+          g'8 f' e' d' c'4
           f' g'4. f'8
           f'4 e' c'\fermata
           f' g' d'~
-          d'8 [g'] f' [ees'] d'4
-          g'8 [fis'] g' [bes'] a' [g']
+          d'8 g' f' ees' d'4
+          g'8 fis' g' bes' a' g'
           fis'2.\fermata
           fis'2 fis'4
           g' d' d'
-          ees' c' d'8 [c']
+          ees' c' d'8 c'
           b2.\fermata }
         }
 
@@ -55,20 +55,20 @@ tenorMusic = {
           \repeat volta 2 {
           bes2 d'4
           d' c' bes~
-          bes a bes8 [d']
-          ees' [a] d' [c'] bes4\fermata
+          bes a bes8 d'
+          ees' a d' c' bes4\fermata
           f' ees' d'~
            d' c' bes~
-          bes a8 [g] a4
+          bes a8 g a4
           bes2.\fermata }
           \repeat volta 2 {
           c'2 c'4
           c' bes a~
-          a g a8 [c']
-          d' [g] c' [bes] a4\fermata
+          a g a8 c'
+          d' g c' bes a4\fermata
           d' c'2
-          bes8 [ees'] d' [c'] bes4~
-          bes8 [a] bes4 ees'
+          bes8 ees' d' c' bes4~
+          bes8 a bes4 ees'
           a2.\fermata
           d'2 d'4
           d' a g
@@ -96,10 +96,8 @@ bassMusic = {
           g a bes
           ees2.
           d\fermata
-          d8 [d,] d [c] bes, [a,]
-          bes, [a,] g, [fis,] g,4
+          d8 d, d c bes, a,
+          bes, a, g, fis, g,4
           c a, d
           g,2.\fermata }
         }
-
-

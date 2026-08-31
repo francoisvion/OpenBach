@@ -22,40 +22,38 @@ altoMusic = {
           a' e' e' a'
           gis'1\fermata }
            a'4 a' g' a'
-          a'8 [aes'] g'4 g'4. f'8
+          a'8 aes' g'4 g'4. f'8
           e'2\fermata g'4 g'
-          g' fis'8 [e'] fis' [gis'] a'4
+          g' fis'8 e' fis' gis' a'4
           a' gis' e'2\fermata \fine
         }
 
 tenorMusic = {
           \voiceOne
           \repeat volta 2 {
-           c'4 c' c'8 a4 b16 [a]
+           c'4 c' c'8 a4 b16 a
           gis4 a e'4. d'8
           c'2\fermata e'4 d'
-          e' e'8 [d'] c' [b] a4
+          e' e'8 d' c' b a4
           b1\fermata }
-           c'4 d' d'8 [c'] c'4
-          c'8 [b] c'4 c' b
+           c'4 d' d'8 c' c'4
+          c'8 b c'4 c' b
           g2\fermata b4 b
-          c'8 [g] d'4 d' e'
+          c'8 g d'4 d' e'
           e'4. d'8 cis'2\fermata \fine
         }
 
 bassMusic = {
           \voiceTwo
           \repeat volta 2 {
-           a,4 a8 [g] fis4 f
-          e f8 [d] e2
+           a,4 a8 g fis4 f
+          e f8 d e2
           a,\fermata a4 b
-          c' gis a8 [b] f4
+          c' gis a8 b f4
           e1\fermata }
-           a4 g8 [f] e4 f8 [e]
-          d4 e8 [f] g2
-          c\fermata g8 [f e d]
-          c [e d c] b,4 a,
+           a4 g8 f e4 f8 e
+          d4 e8 f g2
+          c\fermata g8 f e d
+          c e d c b,4 a,
           e2 a,\fermata \fine
         }
-
-

@@ -1,7 +1,5 @@
 \version "2.27.1"
 
-
-
 \include "Dir,_dir,_Jehova,_will_ich_singen_(BWV_299)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
@@ -29,29 +27,32 @@
 
 \header {
  title = "Dir, dir, Jehova, will ich singen"
+ poet = "Auteur : Bartholomäus Crasselius (1667-1724)"
   opus = "BWV 299"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
       \key bes \major
       \time 3/4
+      \set Timing.beatStructure = #'(3)
       <<
         \new Voice = "soprano" \sopranoMusic
         \new Voice = "alto" \altoMusic
       >>
     }
-            \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
       \key bes \major
       \time 3/4
+      \set Timing.beatStructure = #'(3)
       <<
         \new Voice = "tenor" \tenorMusic
         \new Voice = "bass" \bassMusic

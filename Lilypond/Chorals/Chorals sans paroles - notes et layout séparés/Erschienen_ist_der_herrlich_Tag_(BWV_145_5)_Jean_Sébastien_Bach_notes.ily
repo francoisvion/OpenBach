@@ -24,10 +24,10 @@ altoMusic = {
           \voiceTwo
           cis'4 cis' dis'
           e' fis' fis'
-          gis'8 [ais'] b'4 ais'
+          gis'8 ais' b'4 ais'
           fis'2.\fermata
           fis'4 fis' gis'
-          a'8 [b'] a' [gis'] fis'4
+          a'8 b' a' gis' fis'4
           gis' a' gis'
           eis'2\fermata fis'4
           e'2 e'4
@@ -35,8 +35,8 @@ altoMusic = {
           e'2 dis'4
           b2\fermata cis'4
           cis' fis' e'
-          e'8 [fis'] gis'2
-          fis'4 gis'8 [a'] b'4
+          e'8 fis' gis'2
+          fis'4 gis'8 a' b'4
           a'2\fermata gis'4
           fis'2 eis'4
           cis'2.\fermata \fine
@@ -44,7 +44,7 @@ altoMusic = {
 
 tenorMusic = {
           \voiceOne
-          a8 [b] cis'4 b
+          a8 b cis'4 b
           gis cis' b
           b gis cis'
           dis'2.\fermata
@@ -54,24 +54,24 @@ tenorMusic = {
           gis2\fermata a4
           b2 a4
           fis b2
-          a8 [b] cis'4 b8 [a]
+          a8 b cis'4 b8 a
           gis2\fermata gis4
           a d'2
           cis'4 cis'2
-          cis'8 [d'] e'2
+          cis'8 d' e'2
           e'\fermata d'4
-          cis' b8 [a] b4
+          cis' b8 a b4
           ais2.\fermata \fine
         }
 
 bassMusic = {
           \voiceTwo
-          fis8 [gis] a4 \tieUp b~
+          fis8 gis a4 \tieUp b~
           b ais b
           gis e fis
           b,2.\fermata
           ais4 b gis
-          fis8 [eis] fis [gis] a4
+          fis8 eis fis gis a4
           gis fis gis
           cis2\fermata fis4
           gis2 a4
@@ -85,4 +85,3 @@ bassMusic = {
           cis' cis2
           fis2.\fermata \fine
         }
-

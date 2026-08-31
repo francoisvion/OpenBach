@@ -1,8 +1,6 @@
 \version "2.27.1"
 
-
-
-\include "Selig_ist_die_Seele_(BWV_87_7)_Jean_Sébastien_Bach_notes.ily"
+\include "Selig_ist_die_Seele_(BWV_87_7)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -30,19 +28,21 @@
 \header {
   title = \markup{\concat{"Selig ist die Seele" \small " (v. 9)"}}
   subtitle = "tiré de la cantate : Bisher habt ihr nichts gebeten in meinem Namen"
+ poet = "Auteur : Heinrich Müller (1631-1675)"
   opus = "BWV 87/7"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key a \minor
+      \key d \dorian
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "soprano" \sopranoMusic
         
@@ -50,13 +50,14 @@
       >>
     }
     
-        
-        
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    
+    
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key a \minor
+      \key d \dorian
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "tenor" \tenorMusic
         

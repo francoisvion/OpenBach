@@ -1,8 +1,6 @@
 \version "2.27.1"
 
-
-
-\include "Christus_ist_erstanden,_hat_überwunden_(BWV_284)_Jean_Sébastien_Bach_notes.ily"
+\include "Christus_ist_erstanden,_hat_überwunden_(BWV_284)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -29,29 +27,32 @@
 
 \header {
  title = "Christus ist erstanden, hat überwunden"
+ poet = "Auteur : Michael Weisse (v.1488-1534)"
   opus = "BWV 284"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
       \key c \major
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "soprano" \sopranoMusic
         \new Voice = "alto" \altoMusic
       >>
     }
-        \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
       \key c \major
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "tenor" \tenorMusic
         \new Voice = "bass" \bassMusic

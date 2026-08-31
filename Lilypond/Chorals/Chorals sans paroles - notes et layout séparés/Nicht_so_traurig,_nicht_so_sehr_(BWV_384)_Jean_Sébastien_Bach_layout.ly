@@ -1,7 +1,5 @@
 \version "2.27.1"
 
-
-
 \include "Nicht_so_traurig,_nicht_so_sehr_(BWV_384)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
@@ -29,19 +27,21 @@
 
 \header {
  title = "Nicht so traurig, nicht so sehr"
+ poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 384"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
       \key c \minor
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "soprano" \sopranoMusic
         
@@ -49,11 +49,13 @@
       >>
     }
     
-            \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
       \key c \minor
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "tenor" \tenorMusic
         \new Voice = "bass" \bassMusic

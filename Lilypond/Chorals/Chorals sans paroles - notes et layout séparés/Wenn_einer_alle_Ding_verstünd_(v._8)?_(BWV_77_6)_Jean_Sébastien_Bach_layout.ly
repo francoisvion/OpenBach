@@ -1,8 +1,6 @@
 \version "2.27.1"
 
-
-
-\include "Wenn_einer_alle_Ding_verstünd_(v._8)?_(BWV_77_6)_Jean_Sébastien_Bach_notes.ily"
+\include "Wenn_einer_alle_Ding_verstünd_(v._8)?_(BWV_77_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -30,19 +28,21 @@
 \header {
   title = \markup{\column{\concat{"Wenn einer alle Ding verstünd" \small " (v. 8)"} \concat{"O Gottes Sohn, Herr Jesu Christ" \small " (v. 8)"} \vspace #0.5 }}
   subtitle = "tiré de la cantate : Du sollt Gott, deinen Herren, lieben"
+  poet = "Auteur : David Denicke (1603-1680)"
   opus = "BWV 77/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key d \minor
+      \key g \dorian
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "soprano" \sopranoMusic
         
@@ -50,15 +50,13 @@
       >>
     }
     
-     
-        
-        
-        
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key d \minor
+      \key g \dorian
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "tenor" \tenorMusic
         

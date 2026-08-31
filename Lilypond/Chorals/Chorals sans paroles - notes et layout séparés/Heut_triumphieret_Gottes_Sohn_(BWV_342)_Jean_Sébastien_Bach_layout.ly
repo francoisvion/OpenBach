@@ -1,8 +1,6 @@
 \version "2.27.1"
 
-
-
-\include "Heut_triumphieret_Gottes_Sohn_(BWV_342)_Jean_Sébastien_Bach_notes.ily"
+\include "Heut_triumphieret_Gottes_Sohn_(BWV_342)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -29,30 +27,33 @@
 
 \header {
  title = "Heut triumphieret Gottes Sohn"
+ poet = "Auteur : Kaspar Stolzhagen (1550-1594)"
   opus = "BWV 342"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
       \key a \minor
       \time 3/4
+      \set Timing.beatStructure = #'(3)
       <<
         \new Voice = "soprano" \sopranoMusic
         
         \new Voice = "alto" \altoMusic
       >>
     }
-        \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key c \major
+      \key a \minor
       \time 3/4
+      \set Timing.beatStructure = #'(3)
       <<
         \new Voice = "tenor" \tenorMusic
         

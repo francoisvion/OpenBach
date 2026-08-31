@@ -1,7 +1,5 @@
 \version "2.27.1"
 
-
-
 \include "Ermuntre_dich,_mein_schwacher_Geist_(BWV_248_12)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
@@ -30,19 +28,21 @@
 \header {
  title = "Ermuntre dich, mein schwacher Geist"
  subtitle = "tiré de l'Oratorio de Noël"
+ poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 248/12"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
       \key g \major
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "soprano" \sopranoMusic
         
@@ -50,13 +50,14 @@
       >>
     }
     
-        
-        
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    
+    
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
       \key g \major
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "tenor" \tenorMusic
         

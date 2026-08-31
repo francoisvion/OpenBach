@@ -26,15 +26,15 @@ altoMusic = {
           a' gis' e'2\fermata
           gis'4 gis' gis' ais'
           fis' fis' fis'2\fermata
-          fis'4. e'8 e' [dis'] e'4
+          fis'4. e'8 e' dis' e'4
           e' dis' b2\fermata
-          e'4 e' fis'8 [gis'] a' [b']~
-          b' [a'16 gis'] a'4 a' gis'\fermata
+          e'4 e' fis'8 gis' a' b'~
+          b' a'16 gis' a'4 a' gis'\fermata
           fis' g' fis' fis'
-          fis'8 [e'] fis'4 b2\fermata
+          fis'8 e' fis'4 b2\fermata
            cis'8 a'4 gis'8 a'4. gis'8~
           gis' fis'4 eis'8 fis'2\fermata
-          fis'8 [gis'] a'4 a'8 [gis'] a'4
+          fis'8 gis' a'4 a'8 gis' a'4
           a' gis' e'2\fermata \fine
         }
 
@@ -42,39 +42,38 @@ tenorMusic = {
           \voiceOne
           a4 a a gis
           a a b2\fermata
-          e'4 e' d'8 [b] e'4
-          fis'8 [d'] b [e'16 d'] cis'2\fermata
-           e'4 e' e'8 [d'] cis'4~
+          e'4 e' d'8 b e'4
+          fis'8 d' b e'16 d' cis'2\fermata
+           e'4 e' e'8 d' cis'4~
           cis' b b ais\fermata
-          dis'8 [cis'] b4 cis'8 [a] b4
-          cis' b8 [a] gis2\fermata
-          a8 [b] cis' [b] a [gis] fis [e]
+          dis'8 cis' b4 cis'8 a b4
+          cis' b8 a gis2\fermata
+          a8 b cis' b a gis fis e
           e'4 e' e'2\fermata
-          cis'8 [d'] e'2 d'8 [cis']
-          b [gis] a [b16 a] gis2\fermata
-          a8 [cis'] d' [b] e' [fis'] b [e'16 d']
-          cis'4~ cis'8. [b16] a2\fermata
-          d'4 e' d'8 [b] cis' [e']
-          fis' [d'] b [e'16 d'] cis'2\fermata \fine
+          cis'8 d' e'2 d'8 cis'
+          b gis a b16 a gis2\fermata
+          a8 cis' d' b e' fis' b e'16 d'
+          cis'4~ cis'8. b16 a2\fermata
+          d'4 e' d'8 b cis' e'
+          fis' d' b e'16 d' cis'2\fermata \fine
         }
 
 bassMusic = {
           \voiceTwo
           a,4 cis d e
-          a8 [gis] fis4 e2\fermata
-          e8 [d] cis4 b, a,
+          a8 gis fis4 e2\fermata
+          e8 d cis4 b, a,
           d e a,2\fermata
-           e4 e8 [d] cis4 fis
-          b,8 [cis] d [e] fis2\fermata
-          b8 [a] gis4 fis e
+           e4 e8 d cis4 fis
+          b,8 cis d e fis2\fermata
+          b8 a gis4 fis e
           a, b, e2\fermata
-          cis8 [b,] a, [gis,] fis, [e,] fis, [gis,]
-          a, [b,] cis [d] e2\fermata
-          fis8 [e] d [cis] d [e] fis [e]
+          cis8 b, a, gis, fis, e, fis, gis,
+          a, b, cis d e2\fermata
+          fis8 e d cis d e fis e
           dis e4 dis8 e2\fermata
-          a,4 b, cis8 [d] e4
+          a,4 b, cis8 d e4
           fis cis d2\fermata
-          d8 [e] d [cis] b, [e] a, [cis]
-          d [b,] e4 a,2\fermata \fine
+          d8 e d cis b, e a, cis
+          d b, e4 a,2\fermata \fine
         }
-

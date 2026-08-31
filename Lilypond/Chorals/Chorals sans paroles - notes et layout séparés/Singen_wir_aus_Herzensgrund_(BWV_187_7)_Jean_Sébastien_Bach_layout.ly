@@ -1,8 +1,6 @@
 \version "2.27.1"
 
-
-
-\include "Singen_wir_aus_Herzensgrund_(BWV_187_7)_Jean_Sébastien_Bach_notes.ily"
+\include "Singen_wir_aus_Herzensgrund_(BWV_187_7)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -30,19 +28,21 @@
 \header {
   title = \markup{\concat{"Singen wir aus Herzensgrund" \small " (v. 4 & 6)"}}
   subtitle = "tiré de la cantate : Es wartet alles auf dich,"
+ poet = "Auteur : Hans Vogel (?-v.1565)"
   opus = "BWV 187/7"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
       \key g \minor
       \time 3/4
+      \set Timing.beatStructure = #'(3)
       <<
         \new Voice = "soprano" \sopranoMusic
         
@@ -50,13 +50,14 @@
       >>
     }
     
-        
-        
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    
+    
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
       \key g \minor
       \time 3/4
+      \set Timing.beatStructure = #'(3)
       <<
         \new Voice = "tenor" \tenorMusic
         

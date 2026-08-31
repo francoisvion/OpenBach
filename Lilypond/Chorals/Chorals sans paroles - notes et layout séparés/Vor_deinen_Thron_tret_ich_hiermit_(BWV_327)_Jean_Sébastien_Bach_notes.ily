@@ -33,7 +33,7 @@ altoMusic = {
           a'2
           \partial 4  b'4
           a'2 a'4
-          b' a'8 [g'] fis'4
+          b' a'8 g' fis'4
           b' b' ais'
           b'2 a'4
           a'2 b'4
@@ -85,4 +85,3 @@ bassMusic = {
           d' g a
           d2\fermata \fine
         }
-

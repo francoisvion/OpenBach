@@ -1,7 +1,5 @@
 \version "2.27.1"
 
-
-
 \include "Christum_wir_sollen_loben_schon_(BWV_121_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
@@ -30,19 +28,21 @@
 \header {
   title = "Christum wir sollen loben schon"
   subtitle = "tiré de la cantate : Christum wir sollen loben schon"
+ poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 121/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
       \key b \minor
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "soprano" \sopranoMusic
         
@@ -50,20 +50,17 @@
       >>
     }
     
-        
-        
-    \new Staff = "lower" \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    
+    
+    \new Staff = "lower" \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
       \key b \minor
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "tenor" \tenorMusic
         
-      \new Lyrics \with { alignAboveContext = "lower" } \lyricsto "tenor" {
-        \repeat unfold 37 {\skip1 }
-        E - - - - - wig -- keit, in E - - - wig -- keit.
-      }
     
         \new Voice = "bass" \bassMusic
       >>

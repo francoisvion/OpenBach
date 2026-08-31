@@ -1,6 +1,5 @@
 \version "2.27.1"
 
-
 \include "Welt,_ade!_Ich_bin_dein_müde_(BWV_27_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
@@ -30,56 +29,45 @@
  title = "Welt, ade! Ich bin dein müde"
  subtitle = "tiré de la cantate : Wer weiß, wie nahe mir mein Ende"
   opus = "BWV 27/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  poet = "Auteur : Johann Georg Albinus (1624-1679)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff = "upper" \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff = "upper" \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key f \major
+      \key bes \lydian
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
-        \new Voice = "soprano1" \soprano1Music
+        \new Voice = "soprano1" \sopranoOneMusic
         
-        \new Voice = "soprano2" \soprano2Music
+        \new Voice = "soprano2" \sopranoTwoMusic
         
         \new Voice = "alto" \altoMusic
       >>
     }
     
-    \new Lyrics \with { alignAboveContext = "upper" } \lyricsto "soprano1" {
-      Welt, a -- de! ich bin dein mü -- de,
-      ich will nach dem Him -- mel zu,
-      da wird sein der rech -- te Frie -- de
-      und die ew' -- ge stol -- ze Ruh.
-    }
 
-    \new Lyrics \with { alignAboveContext = "upper" } \lyricsto "soprano2" {
-         \repeat unfold 54 {\skip1}
-      und See -- lig -- keit.
-    }
     
-        
-    \new Staff = "lower" \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    
+    \new Staff = "lower" \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key f \major
+      \key bes \lydian
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "tenor" \tenorMusic
         
-    \new Lyrics \with { alignAboveContext = "lower" } \lyricsto "tenor" {
-      \repeat unfold 52 {\skip1}
-      und See -- lig -- keit.
-    }
         
         \new Voice = "bass" \bassMusic
         
-        
+    
       >>
     }
   >>

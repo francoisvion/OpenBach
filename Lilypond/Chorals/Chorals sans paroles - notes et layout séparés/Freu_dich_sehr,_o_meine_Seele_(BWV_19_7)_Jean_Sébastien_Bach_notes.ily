@@ -90,7 +90,7 @@ tenorMusic = {
           c'2 e'4
           d'2 c'4
           a g2
-          g8 [d'] f' [e'] f'4
+          g8 d' f' e' f'4
           e'2.\fermata \fine
         }
 
@@ -110,9 +110,9 @@ bassMusic = {
           e2 f4
           g f g
           c2.\fermata
-          c4 c'8 [bes] a [g]
+          c4 c'8 bes a g
           f2 e4
-          a8 [b] c'4 c
+          a8 b c'4 c
           g2.\fermata
           c'2 e4
           f2 g4
@@ -125,5 +125,3 @@ bassMusic = {
           g,2.
           c\fermata \fine
         }
-
-

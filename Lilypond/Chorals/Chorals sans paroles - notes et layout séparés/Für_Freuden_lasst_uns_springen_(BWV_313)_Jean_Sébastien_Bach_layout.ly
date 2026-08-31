@@ -1,7 +1,5 @@
 \version "2.27.1"
 
-
-
 \include "Für_Freuden_lasst_uns_springen_(BWV_313)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
@@ -29,29 +27,32 @@
 
 \header {
  title = "Für Freuden lasst uns springen"
+ poet = "Auteur : Kaspar Peltsch"
   opus = "BWV 313"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
       \key g \minor
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "soprano" \sopranoMusic
         \new Voice = "alto" \altoMusic
       >>
     }
-            \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key bes \major
+      \key g \minor
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "tenor" \tenorMusic
         \new Voice = "bass" \bassMusic

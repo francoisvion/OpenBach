@@ -1,8 +1,6 @@
 \version "2.27.1"
 
-
-
-\include "Liebster_Gott,_wenn_werd_ich_sterben_(BWV_8_6)_Jean_Sébastien_Bach_notes.ily"
+\include "Liebster_Gott,_wenn_werd_ich_sterben_(BWV_8_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -30,19 +28,21 @@
 \header {
  title = "Liebster Gott, wenn werd ich sterben"
  subtitle = "tiré de la cantate : Liebster Gott, wenn werd ich sterben"
+ poet = "Auteur : Kaspar Neumann (1648-1715)"
   opus = "BWV 8/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff = "upper" \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff = "upper" \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
       \key e \major
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "soprano" \sopranoMusic
         
@@ -50,46 +50,25 @@
       >>
     }
     
-    \new Lyrics \with { alignAboveContext = "upper" } \lyricsto "soprano" {\set stanza = 1
-      Herr -- scher ü -- ber Tod und Le - - ben
-      mach ein -- mal mein En - de gut,
-      Hilf, daß ich ein ehr -- lich Grab
-      ne -- ben from -- men Chri -- sten hab und auch end -- lich in der Er - - de
-      nim -- mer -- mehr zu -- schan - - den wer - - de.
-    }
     
-    \new Lyrics \with { alignAboveContext = "upper" } \lyricsto "soprano" {\set stanza = 2
-      Leh -- re mich den Geist auf -- ge - - ben
-      mit recht wohl -- ge -- faßt - tem Mut.
-    }
     
-        
-        
-    \new Staff = "lower" \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    
+    
+    \new Staff = "lower" \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
       \key e \major
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "tenor" \tenorMusic
         
         \new Voice = "bass" \bassMusic
         
-       \new Lyrics \with { alignAboveContext = "lower" } \lyricsto "tenor" {\set stanza = 1
-         Herr -- scher ü -- ber Tod und Le -- ben
-         mach ein -- mal mein En -- de gut,
-         Hilf, daß ich ein ehr -- lich Grab
-         ne -- ben from -- men Chri -- sten hab und auch end -- lich in der Er -- de
-         nim -- mer -- mehr zu -- schan - - - den wer - de.
-       }
     
-       \new Lyrics \with { alignAboveContext = "lower" } \lyricsto "tenor" {\set stanza = 2
-         Leh -- re mich den Geist auf -- ge -- ben
-         mit recht wohl -- ge -- faßt -- tem Mut.
-       }
        
-           
-              
+    
+       
       >>
     }
   >>

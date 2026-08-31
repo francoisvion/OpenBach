@@ -1,8 +1,6 @@
 \version "2.27.1"
 
-
-
-\include "Weg,_mein_Herz,_mit_den_Gedanken_(BWV_32_6)_Jean_Sébastien_Bach_notes.ily"
+\include "Weg,_mein_Herz,_mit_den_Gedanken_(BWV_32_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -30,19 +28,21 @@
 \header {
   title = \markup{\concat{"Weg, mein Herz, mit den Gedanken" \small " (v. 12)"}}
   subtitle = "tiré de la cantate : Liebster Jesu, mein Verlangen"
+  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 32/6"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
       \key g \major
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "soprano" \sopranoMusic
         
@@ -50,13 +50,14 @@
       >>
     }
     
-        
-        
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    
+    
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
       \key g \major
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "tenor" \tenorMusic
         \new Voice = "bass" \bassMusic

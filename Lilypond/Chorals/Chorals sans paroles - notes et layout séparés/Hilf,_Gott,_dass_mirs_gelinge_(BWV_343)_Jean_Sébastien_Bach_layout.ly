@@ -1,7 +1,5 @@
 \version "2.27.1"
 
-
-
 \include "Hilf,_Gott,_dass_mirs_gelinge_(BWV_343)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
@@ -29,33 +27,37 @@
 
 \header {
  title = "Hilf, Gott, dass mirs gelinge"
+ poet = "Auteur : Heinrich Müller (1631-1675)"
   opus = "BWV 343"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key d \minor
+      \key g \dorian
       \time 3/4
+      \set Timing.beatStructure = #'(3)
       <<
         \new Voice = "soprano" \sopranoMusic
         
         \new Voice = "alto" \altoMusic
       >>
     }
-        
-        
-             
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    
+    
+
+    
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key f \major
+      \key g \dorian
       \time 3/4
+      \set Timing.beatStructure = #'(3)
       <<
         \new Voice = "tenor" \tenorMusic
         \new Voice = "bass" \bassMusic

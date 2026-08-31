@@ -1,7 +1,5 @@
 \version "2.27.1"
 
-
-
 \include "Wachet_auf,_ruft_uns_die_Stimme_(BWV_140_7)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
@@ -30,19 +28,21 @@
 \header {
   title = \markup{\concat{"Wachet auf, ruft uns die Stimme" \small " (v. 3)"}}
   subtitle = "tiré de la cantate : Wachet auf, ruft uns die Stimme"
+  poet = "Auteur : Philipp Nicolai (1556-1608)"
   opus = "BWV 140/7"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
       \key ees \major
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "soprano" \sopranoMusic
         
@@ -50,13 +50,14 @@
       >>
     }
     
-        
-        
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    
+    
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
       \key ees \major
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "tenor" \tenorMusic
         

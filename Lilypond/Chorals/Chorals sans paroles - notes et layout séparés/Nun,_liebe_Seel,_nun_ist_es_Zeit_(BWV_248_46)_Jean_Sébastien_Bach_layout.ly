@@ -1,7 +1,5 @@
 \version "2.27.1"
 
-
-
 \include "Nun,_liebe_Seel,_nun_ist_es_Zeit_(BWV_248_46)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
@@ -30,19 +28,21 @@
 \header {
   title = \markup{\concat{"Nun, liebe Seel, nun ist es Zeit" \small " (v. 5)"}}
   subtitle = "tiré de l'oratorio de Noël, partie n° 5"
+  poet = "Auteur : Georg Weissel (1590-1635)"
   opus = "BWV 248/46"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
       \key a \major
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "soprano" \sopranoMusic
         
@@ -50,12 +50,13 @@
       >>
     }
     
-        
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
       \key a \major
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "tenor" \tenorMusic
         

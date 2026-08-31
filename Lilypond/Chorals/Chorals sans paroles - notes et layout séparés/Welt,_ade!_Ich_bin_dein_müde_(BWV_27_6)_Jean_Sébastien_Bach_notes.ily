@@ -1,9 +1,9 @@
-soprano1Music = {
+sopranoOneMusic = {
           \voiceOne
           r2 r4 d''8 d''
           f''4. f''8 ees''4 c''
           d''2 c''
-          r4 bes'8 bes' bes' [a'] bes' [c'']
+          r4 bes'8 bes' bes' a' bes' c''
           d''4 c'' bes'2
           d''4 e''! f'' d''
           c'' bes' a'2
@@ -26,7 +26,7 @@ soprano1Music = {
           bes'\breve. \fine
         }
 
-soprano2Music = {
+sopranoTwoMusic = {
           \voiceThree \shiftOff
           r2 r4 \override Flag.transparent = ##t bes'8 bes' \override Flag.transparent = ##f
           d''4 bes' c'' a'
@@ -86,12 +86,12 @@ tenorMusic = {
           \voiceOne
           d'4 d' d'2~
           d'4 d' c' c'
-          bes2 c'4 a8 [a]
+          bes2 c'4 a8 a
           bes2. bes4
           bes a bes2
           bes4 g f bes
           c' g a2
-          bes2. bes8 [bes]
+          bes2. bes8 bes
           c'4 bes c'4. c'8
           d'1
           d'4 d' bes a
@@ -114,12 +114,12 @@ bassMusic = {
           \voiceTwo
           bes4 bes bes2~
           bes4 d ees f
-          bes,2 f,4 f8 [f]
+          bes,2 f,4 f8 f
           g2. g4
           bes f bes,2
           bes,4 c d bes,
           f, g, d2
-          g,2. g8 [g]
+          g,2. g8 g
           a4 bes f4. f8
           bes,1
           d4 d d c
@@ -137,5 +137,3 @@ bassMusic = {
           ees!1 f1. f2
           bes,\breve. \fine
         }
-
-

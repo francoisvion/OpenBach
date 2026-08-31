@@ -2,22 +2,22 @@ sopranoMusic = {
           \voiceOne
           \tempo \markup{\tiny \italic "Interludes instrumentaux absents"}
           \partial 4  a'4
-          bes' c'' d'' a'8 [b']
+          bes' c'' d'' a'8 b'
           c''2\fermata r4 g'
           g' a' bes' c''
           a'2\fermata r4 f'
           f' g' a' bes'
           c''2\fermata r4 d''
-          bes'8 [c''] d''4 c'' c''
+          bes'8 c'' d''4 c'' c''
           bes'2\fermata r4 d''
           d'' d'' c'' c''
           bes' bes' a'2\fermata
           r4 a' bes' a'
           g' g' f' f'
           e'2\fermata r4 g'
-          g' a'8 [bes'] c''4 bes'
+          g' a'8 bes' c''4 bes'
           a'2 g'\fermata
-          r4 g' g' a'8 [b']
+          r4 g' g' a'8 b'
           c''4 bes' a'2
           a'1\fermata \fine
         }
@@ -31,17 +31,17 @@ altoMusic = {
           fis'2\fermata r4 d'
           d' e' f' ees'
           ees'2\fermata r4 d'
-          g'8 [a'] bes'4 bes' a'
+          g'8 a' bes'4 bes' a'
           f'2\fermata r4 f'
           g' g' g' d'
           d' e' fis'2\fermata
           r4 fis' g' f'
           f' e' d' d'
           c'2\fermata r4 d'~
-          d'8 c' f'4 g'8 [a'] d' [g']
+          d'8 c' f'4 g'8 a' d' g'
           g'4 fis' d'2\fermata
           r4 d' ees' f'
-          g' g' g'8 [f'] e'4
+          g' g' g'8 f' e'4
           fis'1\fermata \fine
         }
 
@@ -61,7 +61,7 @@ tenorMusic = {
           r4 d' d' c'
           d' g a g
           g2\fermata r4 g
-          g d' c'8 [a] bes [g]
+          g d' c'8 a bes g
           ees'4 a bes2\fermata
           r4 b c' f'
           ees' d' cis'8 d'4 cis'8
@@ -74,20 +74,19 @@ bassMusic = {
           g a bes d'
           c'2\fermata r4 c'
           bes a g c
-          d2\fermata r4 d8 [c]
-          bes, [bes] a [g] f4 g
+          d2\fermata r4 d8 c
+          bes, bes a g f4 g
           a2\fermata r4 bes
-          ees d8 [ees] f4 f,
-          bes,2\fermata r4 bes8 [a]
+          ees d8 ees f4 f,
+          bes,2\fermata r4 bes8 a
           g4 f e fis
           g g, d2\fermata
           r4 d, g, a,
           b, c2 b,4
           c2\fermata r4 bes,
-          ees d e8 [fis] g4
+          ees d e8 fis g4
           c d g,2\fermata
           r4 f ees d
           c g, a,2
           d1\fermata \fine
         }
-

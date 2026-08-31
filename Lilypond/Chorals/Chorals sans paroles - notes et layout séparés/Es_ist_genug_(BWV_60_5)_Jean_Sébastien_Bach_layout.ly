@@ -1,8 +1,6 @@
 \version "2.27.1"
 
-
-
-\include "Es_ist_genug_(BWV_60_5)_Jean_Sébastien_Bach_notes.ily"
+\include "Es_ist_genug_(BWV_60_5)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -30,19 +28,21 @@
 \header {
  title = "Es ist genug"
  subtitle = "tiré de la cantate : O Ewigkeit, du Donnerwort"
+ poet = "Auteur : Franz Joachim Burmeister (1633-1672)"
   opus = "BWV 60/5"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
       \key a \major
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "soprano" \sopranoMusic
         
@@ -50,12 +50,13 @@
       >>
     }
     
-        
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
       \key a \major
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "tenor" \tenorMusic
         

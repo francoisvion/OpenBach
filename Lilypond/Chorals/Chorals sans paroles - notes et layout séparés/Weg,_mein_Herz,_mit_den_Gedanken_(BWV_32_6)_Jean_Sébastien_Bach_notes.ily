@@ -9,9 +9,9 @@ sopranoMusic = {
           b' a' b'2\fermata
           d''4 d'' e'' d''
           c'' b' a'2\fermata
-          b'4 d'' c'' b'8 [a']
+          b'4 d'' c'' b'8 a'
           g'4 a' b'2
-          g'\fermata b'8 [c''] d''4
+          g'\fermata b'8 c'' d''4
           c'' b' a' b'
           a'2 g'\fermata \fine
         }
@@ -20,17 +20,17 @@ altoMusic = {
           \voiceTwo
           \repeat volta 2 {
           d'4 d' d' d'
-          d'8 [cis'] d'4 cis' a\fermata
+          d'8 cis' d'4 cis' a\fermata
           e' d' d' a'
           d' d' d'2\fermata }
           g'4 g' fis' g'
           g'4. fis'8 g'2\fermata
           g'4 g' g'4. fis'8
-          e'4 d'8 [e'] fis'2\fermata
-          g'4. fis'8 e' [fis'] g' [fis']
+          e'4 d'8 e' fis'2\fermata
+          g'4. fis'8 e' fis' g' fis'
           e'4 fis' g'2
           e'\fermata g'4 a'
-          g' d'8 [e'] fis'4 g'
+          g' d'8 e' fis'4 g'
           g' fis' d'2\fermata \fine
         }
 
@@ -38,17 +38,17 @@ tenorMusic = {
           \voiceOne
           \repeat volta 2 {
           b4 a g4. fis8
-          g4 a a8 [g] fis4\fermata
-          b a g8 [fis] e [fis]
+          g4 a a8 g fis4\fermata
+          b a g8 fis e fis
           g4. fis8 b2\fermata }
           d'4 e' a e'
           d' d' d'2\fermata
-          b4 b c'8 [b] a4
-          g8 [a] b [cis'] d'2\fermata
-          d'8 [c'] b4 c' d'
-          e'8 [d'] c'4 d'2
+          b4 b c'8 b a4
+          g8 a b cis' d'2\fermata
+          d'8 c' b4 c' d'
+          e'8 d' c'4 d'2
           c'\fermata d'4 d'
-          g8 [a] b [c'] d'4 d'
+          g8 a b c' d'4 d'
           d'4. c'8 b2\fermata \fine
         }
 
@@ -56,18 +56,16 @@ bassMusic = {
           \voiceTwo
           \repeat volta 2 {
           g4 fis g d
-          e fis8 [g] a4 d\fermata
+          e fis8 g a4 d\fermata
           e fis g a,
-          b,8 [c] d4 g,2\fermata }
-          g8 [fis] e4 d e8 [fis]
+          b,8 c d4 g,2\fermata }
+          g8 fis e4 d e8 fis
           g4 d g,2\fermata
-          g8 [f] e [d] c4 d
-          e8 [fis] g4 d2\fermata
+          g8 f e d c4 d
+          e8 fis g4 d2\fermata
           g4 g, a, b,
-          c8 [b,] a,4 g,8 [a,] b, [g,]
+          c8 b, a,4 g,8 a, b, g,
           c2\fermata g4 fis
-          e8 [fis] g4 c b,8 [c]
+          e8 fis g4 c b,8 c
           d2 g,\fermata \fine
         }
-
-

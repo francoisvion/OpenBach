@@ -1,7 +1,5 @@
 \version "2.27.1"
 
-
-
 \include "So_wahr_ich_lebe,_spricht_dein_Gott_(BWV_102_7)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
@@ -30,19 +28,21 @@
 \header {
   title = \markup{\concat{"So wahr ich lebe, spricht dein Gott" \small " (v. 6 & 7)"}}
   subtitle = "tiré de la cantate : Herr, deine Augen sehen nach dem Glauben!"
+ poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 102/7"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
-      \key g \minor
+      \key c \dorian
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "soprano" \sopranoMusic
         
@@ -50,12 +50,13 @@
       >>
     }
 
-           
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
-      \key g \minor
+      \key c \dorian
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "tenor" \tenorMusic
         

@@ -1,7 +1,5 @@
 \version "2.27.1"
 
-
-
 \include "Lasst_Furcht_und_Pein_(BWV_248_35)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
@@ -28,21 +26,23 @@
 }
 
 \header {
- title = "Laßt Furcht und Pein"
+ title = "Lasst Furcht und Pein"
  subtitle = "tiré de l'Oratorio de Noël, partie n° 3 : Herrscher des Himmels, erhöre das Lallen"
+ poet = "Auteur : Christoph Runge (1619-1681)"
   opus = "BWV 248/35"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
   }
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    \new Staff \with { instrumentName = \markup \center-column {S A} }
     {
       \clef treble
       \key fis \minor
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "soprano" \sopranoMusic
         
@@ -50,12 +50,13 @@
       >>
     }
     
-        
-    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    
+    \new Staff \with { instrumentName = \markup \center-column {T B} }
     {
       \clef bass
       \key fis \minor
       \time 4/4
+      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "tenor" \tenorMusic
         
