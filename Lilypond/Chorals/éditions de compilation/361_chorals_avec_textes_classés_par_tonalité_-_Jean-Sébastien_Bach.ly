@@ -539,6 +539,33 @@
       soit le nombre de ses réemplois, et y ajoute en contrepartie quelques chorals restés hors de
       l'anthologie traditionnelle, rattachés plus tardivement au catalogue BWV.
     }
+    \vspace #3
+    \fill-line { \null \fontsize #4 \bold "Le classement par tonalité" \null }
+    \vspace #2
+    \justify {
+      Les chorals sont classés ici par nombre croissant d'altérations à l'armure — telle qu'elle est
+      réellement notée dans la partition —, dièses avant bémols à nombre égal, puis tonalités
+      majeures avant mineures.
+    }
+    \vspace #1.2
+    \justify {
+      Plusieurs timbres conservent une armure modale héritée de la tradition hymnologique antérieure
+      au système tonal majeur/mineur : mode de ré (dorien), mode de mi (phrygien), mode de fa (lydien) 
+      ou mode de sol (mixolydien). J.-S. Bach les reprend tels quels plutôt que de les « corriger » 
+      vers la tonalité la plus proche — c'est le cas d'une quarantaine de chorals de ce recueil, très 
+      majoritairement en mode de ré sur sol ou ré (sol ou ré dorien). Pour le classement, chaque mode 
+      est rattaché à la famille majeure ou mineure dont il partage la couleur (lydien et mixolydien du 
+      côté majeur, dorien et phrygien du côté mineur) ; l'en-tête de chaque tonalité modale affiche à 
+      la fois son nom usuel et cette parenté, par exemple « Mode de ré sur sol (assimilé mineur) — sol dorien ».
+    }
+    \vspace #1.2
+    \justify {
+      Ce classement porte sur l'armure telle qu'écrite, non sur la conduite harmonique du choral :
+      une pièce en mineur peut parfaitement s'achever sur un accord majeur (la « tierce picarde »,
+      convention quasi systématique à l'époque baroque), et certaines harmonisations aux couleurs
+      modales plus ambiguës cadencent sur la dominante (Ve degré) plutôt que sur la tonique (Ier degré).
+      Ces choix de composition n'affectent pas le classement, qui reste celui de l'armure notée.
+    }
   }
   \pageBreak
 
