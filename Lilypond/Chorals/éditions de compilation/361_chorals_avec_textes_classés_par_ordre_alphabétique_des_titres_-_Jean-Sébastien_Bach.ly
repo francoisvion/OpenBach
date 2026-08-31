@@ -335,6 +335,19 @@
 
   \markup \column {
     \vspace #1.5
+    \fill-line { \null \fontsize #4 \bold "Présentation générale" \null }
+    \vspace #2
+    \justify {
+      Ce recueil réunit 361 chorals, quand l'édition de référence popularisée par Riemenschneider
+      chez Breitkopf & Härtel en revendique 371. L'écart tient d'abord à la méthode de comptage :
+      Riemenschneider attribue un numéro distinct à chaque occurrence d'un choral dans l'œuvre de Bach,
+      y compris lorsque la même harmonisation, strictement identique, est réutilisée telle quelle dans
+      deux cantates différentes ou dans une cantate et une Passion — cette même musique y est alors
+      comptée deux fois. Ce recueil ne retient qu'une fois chaque réglage musical distinct, quel que
+      soit le nombre de ses réemplois, et y ajoute en contrepartie quelques chorals restés hors de
+      l'anthologie traditionnelle, rattachés plus tardivement au catalogue BWV.
+    }
+    \vspace #3
     \fill-line { \null \fontsize #4 \bold "Le classement par titre" \null }
     \vspace #2
     \justify {
@@ -352,18 +365,6 @@
       numéro fait partie intégrante du titre et les classe naturellement dans cet ordre, les uns à
       la suite des autres. Dans le rare cas où deux chorals partageraient un titre rigoureusement
       identique sans numéro pour les départager, c'est leur numéro BWV, croissant, qui tranche.
-    }
-    \vspace #1.2
-    \justify {
-      Ce recueil réunit 361 chorals, quand l'édition de référence du commerce — celle popularisée
-      par Riemenschneider chez Breitkopf & Härtel, souvent citée sous le nom « 371 chorals » — en
-      revendique 371. L'écart tient d'abord à la méthode de comptage : Riemenschneider attribue un
-      numéro distinct à chaque occurrence d'un choral dans l'œuvre de Bach, y compris lorsque la
-      même harmonisation, strictement identique, est réutilisée telle quelle dans deux cantates
-      différentes ou dans une cantate et une Passion — cette même musique y est alors comptée deux
-      fois. Ce recueil ne retient qu'une fois chaque réglage musical distinct, quel que soit le
-      nombre de ses réemplois, et y ajoute en contrepartie quelques chorals restés hors de
-      l'anthologie traditionnelle, rattachés plus tardivement au catalogue BWV.
     }
   }
   \pageBreak
