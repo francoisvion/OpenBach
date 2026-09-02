@@ -10,7 +10,7 @@
         title = "Suite BWV 1006a"
         subtitle = "\"Nach der Partita III für Violine BWV 1006\""
         piece = "2. Louré"
-        composer = "Jean Sébastien Bach (1685-1750)"
+        composer = "Jean-Sébastien Bach (1685-1750)"
 opus = "BWV 1006a"
   tagline = ##f
 }

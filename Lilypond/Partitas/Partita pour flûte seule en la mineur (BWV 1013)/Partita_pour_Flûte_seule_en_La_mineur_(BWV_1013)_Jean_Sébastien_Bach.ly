@@ -274,7 +274,7 @@ bouree =  {
   \header {
   title = "Partita en La mineur"
   subtitle = "pour Flûte seule"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   }
   \paper {

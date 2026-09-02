@@ -13,7 +13,7 @@
 \header {
    title = "O Lamm Gottes, unschuldig"
    subtitle = "Petit livre d'orgue"
-   composer = "Jean Sébastien Bach (1685-1750)"
+   composer = "Jean-Sébastien Bach (1685-1750)"
    opus = "BWV 618"
    tagline = ##f
 }

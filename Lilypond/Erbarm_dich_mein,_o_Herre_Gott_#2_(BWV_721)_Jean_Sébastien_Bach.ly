@@ -4,7 +4,7 @@
 \header {
   title = "Erbarm dich mein, o Herre Gott"
   opus = "BWV 721"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 global = {
@@ -159,7 +159,7 @@ bv = \relative c {
   \combine \null \vspace #0.3
   \wordwrap {
     Source :
-    Jean Sébastien Bach : Œuvres pour Orgue.
+    Jean-Sébastien Bach : Œuvres pour Orgue.
     Volume 3.
     Les Chorals Transmis Individuellement.
     Édité par Hans Klotz.

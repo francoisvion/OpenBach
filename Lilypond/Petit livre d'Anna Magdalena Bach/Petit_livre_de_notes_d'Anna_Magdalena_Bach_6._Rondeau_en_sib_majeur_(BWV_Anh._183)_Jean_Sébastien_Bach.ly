@@ -5,7 +5,7 @@
   subtitle = "Petit livre de notes d'Anna Magdalena Bach"
   subsubtitle     = "Pièces de clavecin - Livre 2 - 6ème ordre - Les Bergeries de François Couperin"
   opus      = "BWV Anh. 183"
-  composer  = "Jean Sébastien Bach"
+  composer  = "Jean-Sébastien Bach"
   tagline   = ##f
 }
 global = {

@@ -11,7 +11,7 @@
 \header {
  title = "Christum wir sollen loben schon"
  subtitle = "Choral pour Alto"
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  opus = "BWV 611"
  tagline = ##f
 }

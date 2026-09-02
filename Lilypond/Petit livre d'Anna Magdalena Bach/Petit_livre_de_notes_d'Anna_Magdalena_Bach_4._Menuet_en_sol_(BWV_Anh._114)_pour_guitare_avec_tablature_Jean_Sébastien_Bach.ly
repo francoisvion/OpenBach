@@ -4,7 +4,7 @@
   subtitle = "Petit livre de notes d'Anna Magdalena Bach"
   subsubtitle = "attribué à Christian Petzold (1677-1733)"
   opus = "BWV Anh. 114"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   instrument = "Guitare"
   tagline = ##f
 }

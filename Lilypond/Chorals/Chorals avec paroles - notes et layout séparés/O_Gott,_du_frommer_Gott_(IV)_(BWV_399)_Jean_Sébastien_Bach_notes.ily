@@ -21,17 +21,17 @@ altoMusic = {
           \repeat volta 2 {
           \partial 4  g'4
           fis' g'8 [fis'] g'4 fis'
-          g'2. g'4
+          g'2.\fermata g'4
           g'8 [fis'] e' [fis'16 g'] fis'4 g'~
-          g'8 [e'] fis'4 d' } e'
+          g'8 [e'] fis'4 d'\fermata } e'
           d' fis' g' a'
-          g'2. g'8 [fis']
+          g'2.\fermata g'8 [fis']
           e' [d'16 cis'] d'4 g'8 [b'] a' [g']
-          fis'2. a'4
+          fis'2.\fermata a'4
           g' g' g' g'
-          g'2. fis'4
+          g'2.\fermata fis'4
           g' g' g' fis'
-          d'2. \fine
+          d'2.\fermata \fine
         }
 
 tenorMusic = {
@@ -39,17 +39,17 @@ tenorMusic = {
           \repeat volta 2 {
           \partial 4  g8 [a]
           b4. a8 b [e'] d'4
-          d'2. d'8 [c']
+          d'2.\fermata d'8 [c']
           b [a] g4 d' d'
-          d'4. c'8 b4 } cis'
+          d'4. c'8 b4\fermata } cis'
           d' d' c'8 [b] a [d']
-          d'2. d'4
+          d'2.\fermata d'4
           cis'8 [a] g [fis] b [g'] fis' [e']
-          d'2. fis'4
+          d'2.\fermata fis'4
           g' d' e' f'
-          e'2. d'4
+          e'2.\fermata d'4
           d' d'8 [e'] d'4 c'
-          b2. \fine
+          b2.\fermata \fine
         }
 
 bassMusic = {

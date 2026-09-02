@@ -3,7 +3,7 @@
 \header
 {
   title = "9. Menuet en si♭ majeur"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV Anh. 118"
   tagline = ##f
 }

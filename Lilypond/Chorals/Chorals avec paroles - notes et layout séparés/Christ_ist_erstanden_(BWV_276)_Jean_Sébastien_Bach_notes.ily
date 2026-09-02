@@ -26,8 +26,7 @@ sopranoMusic = {
            a'4 g' f'\fermata a'8 [g']
           f'4 e' d'\fermata f'
           g' g' d' c'
-          f' g' a'\fermata \break
-          \partial 4 a'8 [g']
+          f' g' a'\fermata a'8 [g']
           f'4 g' a' f'
           e' d' e'2\fermata
           d'4 d' d'2
@@ -58,11 +57,11 @@ altoMusic = {
           c'8 [bes] a4 g4. bes8
           a1\fermata \bar "||"
           e'4
-          d' c' c' c'8 [d']
+          d' c' c'\fermata c'8 [d']
            e' f'4 e'8 c'4\fermata e'~
           e'8 d'4 c'8 c' [bes]\fermata c'4
           d' c'8 [b] a [b] c' [bes]
-          \partial 32 * 24 a16 [g a8] d' [c'] c'4\fermata
+          a16 [g a8] d' [c'] c'4\fermata
           f'8 [e']
           d'4. c'16 [bes] a4. d'16 [c']
           b8 a4 gis8 cis'2\fermata
@@ -92,14 +91,12 @@ tenorMusic = {
           f [e] d [e] f [g] a4
           a8 [e] f4 g2\fermata
           a8 g4 fis8 g [d] g4~
-          g fis8 [e] fis2\fermata \bar "||"
-          a4
-          a8 [bes] a [g] f4 f
+          g fis8 [e] fis2\fermata \bar "||" a4
+          a8 [bes] a [g] f4\fermata f
            c'4. bes8 a4\fermata a
           a g8 [a] d4\fermata a8 [f]
           d16 [e] f4 e8 fis [gis] a [g]
-          \partial 32 * 24 f16 [e] f4 e8 f4\fermata
-          c'
+          f16 [e] f4 e8 f4\fermata c'
           c'8 [bes16 a] g4. f16 [e] f8 [bes16 a]
           gis8 [a] d' [d] a2\fermata
           f8 [g] a4. g16 [fis] g4~
@@ -128,14 +125,12 @@ bassMusic = {
           d2~ d8 [e] f [g]
           a [a,] d4 c2\fermata
           fis,8 [g,] c4~ c8 [bes,16 a,] bes,8 [g,]
-          d2 d,\fermata \bar "||"
-          cis4
+          d2 d,\fermata \bar "||" cis4
           d e f\fermata a,8 [bes,]
            c4 c, f,\fermata cis
           d8 [d,] e, [fis,] g,4\fermata a,
           b, c~ c8 [b,] a,4~
-          \partial 32 * 24 a,8 [d] bes, [c] f4\fermata
-          f,
+          a,8 [d] bes, [c] f4\fermata f,
           bes, ees8 [d] cis4 d~
           d8 [c] b,4 a,2\fermata
           bes,8 [a,] g, [fis,] g, [a,] bes, [g,]

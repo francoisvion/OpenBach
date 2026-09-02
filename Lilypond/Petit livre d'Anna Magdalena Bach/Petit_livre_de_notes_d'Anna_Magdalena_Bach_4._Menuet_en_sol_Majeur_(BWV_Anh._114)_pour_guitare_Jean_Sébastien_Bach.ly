@@ -3,7 +3,7 @@
    title = "4. Menuet en sol majeur"
    subtitle = "Petit Livre de notes d'Anna Magdalena Bach"
    opus = "BWV Anh. 114"
-   composer = "Jean Sébastien Bach (1685-1750)"
+   composer = "Jean-Sébastien Bach (1685-1750)"
    instrument = "Guitare"
   tagline = ##f
 }

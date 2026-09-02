@@ -4,7 +4,7 @@
   title = "13a. Choral en sol mineur : Gib dich zufrieden und sei stille"
   subtitle = "Petit livre de notes d'Anna Magdalena Bach"
   opus= "BWV 511"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
  tagline =  ##f
 }
 upper = \relative c''

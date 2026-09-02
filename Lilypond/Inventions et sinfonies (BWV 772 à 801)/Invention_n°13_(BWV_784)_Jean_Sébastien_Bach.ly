@@ -3,7 +3,7 @@
 \header {
   title = "Invention 13"
   opus = "BWV 784"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ""
 }
 

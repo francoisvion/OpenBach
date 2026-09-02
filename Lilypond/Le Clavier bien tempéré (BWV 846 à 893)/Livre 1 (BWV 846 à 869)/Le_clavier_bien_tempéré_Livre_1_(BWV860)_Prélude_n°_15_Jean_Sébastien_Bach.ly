@@ -1,8 +1,8 @@
 \version "2.24.4"
 \header {
   title = "Praeludium 15 - BWV 860"
-  composer = "Jean Sébastien Bach (1685-1750)"
-mutopiapoet = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
+mutopiapoet = "Jean-Sébastien Bach (1685-1750)"
 date = "18th Century"
   tagline = ##f
 }

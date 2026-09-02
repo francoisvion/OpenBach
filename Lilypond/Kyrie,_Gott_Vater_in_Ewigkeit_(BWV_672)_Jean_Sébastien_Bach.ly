@@ -4,7 +4,7 @@
    date = ""
    title = "Kyrie, Gott Vater in Ewigkeit"
    subtitle = \markup { \center-align { \normalsize "(Alio modo)" \large "Manualiter" } }
-   composer = "Jean Sébastien Bach (1685-1750)"
+   composer = "Jean-Sébastien Bach (1685-1750)"
    opus = \markup { \lower #2 "BWV 672" }
    tagline = ##f
 }

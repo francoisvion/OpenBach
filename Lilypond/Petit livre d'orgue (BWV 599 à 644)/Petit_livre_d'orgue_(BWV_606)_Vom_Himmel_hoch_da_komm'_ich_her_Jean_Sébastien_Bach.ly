@@ -6,7 +6,7 @@
 
 \header {
  title = "Vom Himmel hoch da komm' ich her"
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  opus="BWV 606"
  tagline = ##f
 }

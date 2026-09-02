@@ -4,7 +4,7 @@
 
 \header {
    title = "Fantasie et Fugue en Sol mineur"
-   composer = "Jean Sébastien Bach (1685-1750)"
+   composer = "Jean-Sébastien Bach (1685-1750)"
    opus = "BWV 542"
    tagline = ##f
 }

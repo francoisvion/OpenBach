@@ -1,0 +1,140 @@
+sopranoMusic = \relative c' {
+          \voiceOne
+          \repeat volta 2 {
+            g'4 g a
+            b4. c8 d4
+            d d cis
+            d2 \fermata b4
+            c2 b4
+            a2.
+            g4 fis2
+            g2.\fermata
+          }
+          a4 a b
+          c2 c4
+          b4. a8 b4
+          a2.\fermata
+          b4 b b
+          c4. d8 e4
+          e dis dis
+          e2\fermata fis4
+          g2 b,4
+          c2 b4
+          a4 a\fermata d
+          e4. d8 c4
+          b a2
+          g2.\fermata \fine
+
+        }
+
+altoMusic = \relative c' {
+          \voiceTwo
+          \repeat volta 2 {
+            d4 e fis
+            g2.
+            g4 e e
+            fis2\fermata g4
+            e2 d4
+            d2.
+            b4 d2
+            d2.\fermata
+          }
+          d4 d d
+          c2 e4
+          e2 e4
+          e2.\fermata
+          e4 gis gis
+          a2.
+          a4 fis fis
+          g2\fermata a4
+          b2 g4
+          g2 g4
+          fis fis\fermata g
+          g4. fis8 e4 
+          d4 d2
+          d2.\fermata \fine
+
+        }
+
+tenorMusic = \relative c {
+          \voiceOne
+          \repeat volta 2 {
+            b'4 b d
+            d4. c8 b4
+            b a a
+            a2\fermata g4
+            g2 g4
+            fis2.
+            e4 a2
+            b2.\fermata            
+          }
+          fis4 fis gis
+          a2 a4
+          gis4. a8 gis4
+          a2.\fermata
+          gis4 b e
+          e4. d8 c4
+          c b b
+          b2\fermata  d4
+          d2 d4
+          e2 d4
+          d d d
+          c4. a8 g4
+          g g fis 
+          g2.\fermata \fine
+        }
+
+bassMusic = \relative c {
+          \voiceTwo
+          \repeat volta 2 {
+            g'4 e d
+            g4. a8 b4
+            g a a,
+            d2\fermata g4
+            c,2 g4
+            d'2.
+            e4 d2 g,2.\fermata          
+          }
+          d'4 d b
+          a2 c4
+          e2 e4
+          a,2.\fermata
+          e'4 e e
+          a4. b8 c4
+          a b b
+          e,2\fermata d4
+          g2 g4
+          c,2 g4
+          d' d b
+          c4. d8 e4
+          g d2
+          g,2.\fermata \fine
+        }
+
+versoOneLyrics = \lyricmode {\set stanza = 1
+      \tweak X-offset #-3.5 "1. Du" \tweak X-offset #0 Le -- bens -- fürst, __ _ _ Herr Je -- su Christ,
+      der du bist auf -- ge -- nom -- men
+      wie soll ich dein -- en gro - ßen Sieg,
+      den du durch ei - - nen schwe -- ren Krieg
+      er -- wor -- ben hast recht prei -- sen,
+      und dir gnug Ehr er -- wei -- sen?
+    }
+
+versoTwoLyrics = \lyricmode {\set stanza = 2
+      Gen Him -- mel, da __ _ _  dein Va -- ter ist,
+      und die Ge -- mein der From -- men,
+    }
+
+sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
+      \tweak X-offset #-6 "13. Zieh" \tweak X-offset #0 uns dir nach, __ _ _   so lau -- fen wir,
+      gieb uns des Glau -- bens Flü -- gel!
+      Mein Gott! wann fahr ich doch __ _ da -- hin,
+      wo -- selbst ich e - - wig fröh -- lich bin?
+      Wann werd ich vor dir ste -- hen,
+      dein An -- ge -- sicht zu se -- hen?
+    }
+
+sopranoVersoTwoLyrics = \lyricmode {\set stanza = 2
+      hilf, daß wir flie - - hen weit von hier,
+      auf I -- sra -- e -- lis Hü -- gel.
+    }

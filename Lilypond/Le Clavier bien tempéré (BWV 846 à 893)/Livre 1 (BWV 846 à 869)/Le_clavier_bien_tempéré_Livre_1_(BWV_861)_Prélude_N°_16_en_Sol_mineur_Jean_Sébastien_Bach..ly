@@ -3,7 +3,7 @@
   title = "Prélude 16"
   subtitle = "Le clavier bien tempéré - Livre 1"
   opus = "BWV 861"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ""
 }
 \score {

@@ -28,10 +28,10 @@ altoMusic = {
           d'4 cis' a4\fermata e'~
           e'8 [d'] d' [e'] cis'4\fermata
           \partial 4 e'4 \bar "|"
-          d'8 [c'] d'4 c' c'
+          d'8 [c'] d'4 c'\fermata c'
           c' d' d' e'~
           e'8 [d'16 e'] f'4  e'4. d'8
-          d'4 cis' a \fine
+          d'4 cis' a\fermata \fine
         }
 
 tenorMusic = {
@@ -46,10 +46,10 @@ tenorMusic = {
           bes a8 [g] f4\fermata a
           a bes a\fermata
           \partial 4 a \bar "|"
-          a g g g
+          a g g\fermata g
           a a bes4. c'16 [bes]
           a4 d'8 [c'] bes4 a
-          bes4 a8 [g] fis4  \fine 
+          bes4 a8 [g] fis4\fermata  \fine 
         }
 
 bassMusic = {

@@ -325,7 +325,7 @@ Sustain = {
     title = "Largo"
     subtitle = "Concerto pour Clavecin"
     opus = "BWV 1056"
-    composer = "Jean Sébastien Bach (1685-1750)"
+    composer = "Jean-Sébastien Bach (1685-1750)"
     tagline = ##f
   }
   \layout {

@@ -12,7 +12,7 @@ paper {
   title = "26. Air en sol majeur"
   subtitle = "Petit Livre de notes d'Anna Magdalena Bach"
   subsubtitle = "Air ayant servi aux Variations Goldberg"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 988"
   tagline = ##f
 }

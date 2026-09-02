@@ -16,7 +16,7 @@
   title = "Prélude n° 3 en mi mineur"
   subtitle = "5 petits préludes"
   opus = "BWV 941"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 	}
 

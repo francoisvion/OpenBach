@@ -2,7 +2,7 @@
 \header {
   title = "Fugue N° 6"
   opus = "BWV 851"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 \score {

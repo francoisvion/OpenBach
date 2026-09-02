@@ -1,7 +1,7 @@
 \version "2.23.10"
 
 \header {
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   mutopiaopus = "BWV772-801"
   mutopiatitle = "Inventionen und Sinfonien"
 

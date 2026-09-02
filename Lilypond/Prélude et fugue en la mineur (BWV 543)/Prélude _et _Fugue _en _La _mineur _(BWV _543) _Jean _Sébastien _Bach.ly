@@ -23,7 +23,7 @@
 \header {
   title = "Prélude et Fuge en La mineur"
   opus = "BWV 543"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
 }
 \include "./parts/1._Prélude.ly"
 \pageBreak

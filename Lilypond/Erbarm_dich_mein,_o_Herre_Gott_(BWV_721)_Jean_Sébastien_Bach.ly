@@ -4,7 +4,7 @@
   title = "Erbarm dich mein, o Herre Gott"
   subtitle = "Manualiter"
   instrument = "Orgue"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 721"
   tagline = ##f
 }

@@ -3,7 +3,7 @@
 \header {
   title = "Allein Gott in der Höh sei Ehr"
   opus = "BWV 675"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 \paper {

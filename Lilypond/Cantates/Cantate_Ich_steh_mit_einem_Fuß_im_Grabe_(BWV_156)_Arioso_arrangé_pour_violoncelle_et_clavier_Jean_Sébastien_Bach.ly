@@ -159,7 +159,7 @@ pianolefthand = \relative c {
   \header {
     title = "Arioso"
     subtitle = "tiré de la Cantate 'Ich steh mit einem Fuß im Grabe'"
-    composer = "Jean Sébastien Bach (1685-1750)"
+    composer = "Jean-Sébastien Bach (1685-1750)"
     opus = "BWV 156"
     tagline = ##f
   }

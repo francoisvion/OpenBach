@@ -10,7 +10,7 @@
         title = "Suite E-Dur - Suite BWV 1006a"
         subtitle = "\"Nach der Partita III für Violine BWV 1006\""
         piece = "6. Bourrée"
-        composer = "Jean Sébastien Bach (1685-1750) (1685-1750)"
+        composer = "Jean-Sébastien Bach (1685-1750) (1685-1750)"
 opus = "BWV 1006a"
 arrangement = "Hajo Dezelski"
   tagline = ##f

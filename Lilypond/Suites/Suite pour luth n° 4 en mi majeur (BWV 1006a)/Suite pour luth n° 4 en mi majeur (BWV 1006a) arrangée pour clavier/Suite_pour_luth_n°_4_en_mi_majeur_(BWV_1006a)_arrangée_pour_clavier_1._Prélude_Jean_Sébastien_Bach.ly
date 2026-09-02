@@ -10,7 +10,7 @@
   title = "Suite BWV 1006a"
   subtitle = "tiré de la Partita n°3 pour violon"
   piece = "1. Prélude"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 1006a"
   tagline = ##f
 }

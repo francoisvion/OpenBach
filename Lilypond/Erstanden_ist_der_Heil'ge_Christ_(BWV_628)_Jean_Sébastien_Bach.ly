@@ -2,7 +2,7 @@
 \header {
 date = "1715"
  title = "Erstanden ist der Heil'ge Christ"
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  opus="BWV 628"
  tagline = ##f
 }

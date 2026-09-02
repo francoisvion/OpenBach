@@ -4,7 +4,7 @@
   title = "Christe, aller Welt Trost"
   subtitle = "à 2 claviers et pédalier"
   opus="BWV 670"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 global = {

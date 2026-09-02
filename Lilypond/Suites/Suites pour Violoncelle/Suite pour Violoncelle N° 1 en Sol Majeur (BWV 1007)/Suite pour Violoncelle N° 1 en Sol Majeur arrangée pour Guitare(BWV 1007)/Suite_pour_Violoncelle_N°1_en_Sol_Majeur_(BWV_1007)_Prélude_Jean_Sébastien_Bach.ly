@@ -26,7 +26,7 @@
   title = "Prélude"
   subtitle = "de la Suite pour Violoncelle N° 1"
   opus = "BWV 1007"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 global = {

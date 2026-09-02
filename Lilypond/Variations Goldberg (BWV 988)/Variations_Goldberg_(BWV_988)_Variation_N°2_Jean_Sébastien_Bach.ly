@@ -17,7 +17,7 @@
   title = "Variations Goldberg"
   subtitle = "Air avec 30 variations"
   piece = "Variation N°2 à 1 clavier"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 988"
   tagline = ##f
 }

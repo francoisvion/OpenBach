@@ -4,7 +4,7 @@
     title = "Puer natus in Bethlehem"
     subtitle = "Petit livre d'orgue"
     opus = "BWV 603"
-    composer = "Jean Sébastien Bach (1685-1750)"
+    composer = "Jean-Sébastien Bach (1685-1750)"
     tagline = ##f
 }
 #(set-default-paper-size "a4" 'landscape)

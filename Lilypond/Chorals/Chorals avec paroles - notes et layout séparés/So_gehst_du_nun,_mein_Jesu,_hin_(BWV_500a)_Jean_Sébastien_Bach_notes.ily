@@ -39,7 +39,7 @@ tenorMusic = \relative c {
           \repeat volta 2 {
           \partial 4 bes'8 [a]
           d4 d, g fis8 [g]
-          a4 e a f'!
+          a4 e a\fermata f'!
           bes, f bes bes
           c8 [d] es4 d\fermata } c
           f,8 [c'] f [es] d4\fermata c
@@ -64,7 +64,7 @@ bassMusic = \relative c {
           g8 [f] es [d] c4\fermata d
           es e fis g
           cis, d g,\fermata bes'
-          a aes g c
+          a aes g\fermata c
           bes b a\fermata b
           c cis d8 [c] bes [g]
           cis,4 d g,\fermata \fine

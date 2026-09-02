@@ -4,7 +4,7 @@
   title = "Prélude n° 5 en fa majeur"
   subtitle = "9 petits préludes"
   opus = "BWV 928"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 

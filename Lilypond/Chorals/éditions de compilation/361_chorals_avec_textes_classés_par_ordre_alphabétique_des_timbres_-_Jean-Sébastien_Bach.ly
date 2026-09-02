@@ -1506,7 +1506,6 @@
   \pageBreak
 
   \markup \column {
-    \vspace #1
     \fill-line { \null \fontsize #4 \bold "Présentation générale" \null }
     \vspace #1.5
     \justify {
@@ -1519,7 +1518,7 @@
       soit le nombre de ses réemplois, et y ajoute en contrepartie quelques chorals restés hors de
       l'anthologie traditionnelle, rattachés plus tardivement au catalogue BWV.
     }
-    \vspace #2
+    \vspace #2.5
     \fill-line { \null \fontsize #4 \bold "Le classement par timbre" \null }
     \vspace #1.5
     \justify {
@@ -1532,7 +1531,7 @@
       sous un même en-tête tous les chorals qui partagent ainsi la même mélodie, quel que soit
       leur texte.
     }
-    \vspace #0.9
+    \vspace #1.5
     \justify {
       L'identification des timbres s'appuie sur un numéro du catalogue de
       Johannes Zahn (\italic { Die Melodien der deutschen evangelischen Kirchenlieder },
@@ -1541,7 +1540,7 @@
       source la plus ancienne connue, permet de vérifier l'identité mélodique au-delà des
       variations de texte ou de titre.
     }
-    \vspace #0.9
+    \vspace #1.5
     \justify {
       Sous le nom de chaque timbre figurent son compositeur et son numéro Zahn. Lorsque l'auteur de
       la mélodie est inconnu, le nom du compositeur est remplacé par le lieu et la date de sa plus
@@ -1551,7 +1550,7 @@
       mélodie, les deux informations sont fusionnées en une seule ligne, imprimée en gras, sans
       en-tête séparé.
     }
-    \vspace #0.9
+    \vspace #1.5
     \justify {
       Les timbres sont classés ici par ordre alphabétique de leur nom usuel. Quatre chorals de ce
       recueil échappent à ce classement : trois sont des compositions ou paraphrases libres sans

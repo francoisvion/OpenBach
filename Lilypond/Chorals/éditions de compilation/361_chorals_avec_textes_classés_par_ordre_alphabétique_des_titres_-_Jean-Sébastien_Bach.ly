@@ -334,7 +334,6 @@
   \pageBreak
 
   \markup \column {
-    \vspace #1.5
     \fill-line { \null \fontsize #4 \bold "Présentation générale" \null }
     \vspace #2
     \justify {
@@ -357,7 +356,7 @@
       ignorerait pour le classement : il fait pleinement partie du titre et détermine sa place dans
       l'ordre alphabétique, d'où le grand nombre de titres commençant par ces deux mots.
     }
-    \vspace #1.2
+    \vspace #1.5
     \justify {
       Une mention de couplet entre parenthèses, par exemple « (v. 4) », n'entre pas en compte dans
       le tri : seul le titre proprement dit fait foi. En revanche, lorsqu'un même titre a reçu

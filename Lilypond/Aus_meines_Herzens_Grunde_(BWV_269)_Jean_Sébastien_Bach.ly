@@ -3,7 +3,7 @@
   title = "Aus meines Herzens Grunde"
   subtitle = "Choral à 4 voix"
   opus = "BWV 269"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 \paper {

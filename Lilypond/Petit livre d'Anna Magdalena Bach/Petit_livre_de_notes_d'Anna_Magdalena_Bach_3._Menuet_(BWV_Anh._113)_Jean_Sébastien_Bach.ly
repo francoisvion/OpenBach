@@ -3,7 +3,7 @@
   title = "3. Menuet en fa majeur"
   subtitle = "Petit livre de notes d'Anna Magdalena Bach"
   opus = "BWV Anh. 113"
-  composer =   "Jean Sébastien Bach (1685-1750)"
+  composer =   "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 voiceone =  \relative c'' {

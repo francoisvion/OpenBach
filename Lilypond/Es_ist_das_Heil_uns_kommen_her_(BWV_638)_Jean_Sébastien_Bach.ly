@@ -3,7 +3,7 @@
 \header {
 date = "1714"
  title = "Es ist das Heil uns kommen her"
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  opus="BWV 638"
   tagline = ##f
 }

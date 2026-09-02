@@ -3,7 +3,7 @@
 \header{
     title = "Vor deinen Thron tret' ich"
     subtitle = "Wenn wir in höchsten Nöthen sein"
-    composer = "Jean Sébastien Bach (1685-1750)"
+    composer = "Jean-Sébastien Bach (1685-1750)"
     opus = "BWV 668"
     tagline = ""
 }

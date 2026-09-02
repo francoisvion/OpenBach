@@ -2,7 +2,7 @@
 \header {
   title = "Fugue N° 12 en Fa mineur"
   subtitle = "Le clavier bien tempéré - Livre 1"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 857"
   tagline = ##f
 }

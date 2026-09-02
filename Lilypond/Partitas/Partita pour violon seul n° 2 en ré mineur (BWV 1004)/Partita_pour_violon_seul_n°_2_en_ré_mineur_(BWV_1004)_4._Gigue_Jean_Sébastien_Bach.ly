@@ -54,7 +54,7 @@ gigue = \relative c'' {
   subtitle = "Partita pour violon seul n° 2 en ré mineur"
   subsubtitle = "6 sonates pour violon"
   opus = "BWV 1004"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 \score {

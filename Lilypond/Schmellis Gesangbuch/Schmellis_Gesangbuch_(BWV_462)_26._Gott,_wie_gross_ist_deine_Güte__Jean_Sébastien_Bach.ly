@@ -9,7 +9,7 @@
 }
 \header {
     title = "N° 26 : Gott, wie gross ist deine Güte"
-    composer = "Jean Sébastien Bach (1685-1750)"
+    composer = "Jean-Sébastien Bach (1685-1750)"
     subtitle = "Schmellis Gesangbuch"
     opus = "BWV 462"
     tagline = ##f

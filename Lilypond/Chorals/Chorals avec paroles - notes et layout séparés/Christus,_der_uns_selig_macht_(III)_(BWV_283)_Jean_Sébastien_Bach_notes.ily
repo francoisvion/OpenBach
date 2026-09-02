@@ -22,22 +22,22 @@ sopranoMusic = {
 altoMusic = {
           \voiceTwo
            gis'8 [a'] b' [gis'] a'4 a'
-          a'8 [e'] e'4 e'2
+          a'8 [e'] e'4 e'2\fermata
           c'8 [d'] e'4. fis'8 gis' [a']
           b'4. a'8 a'4 gis'\fermata
            a'8 [g'] f'4 g'4. f'8
-          e'4. d'8 cis'2
+          e'4. d'8 cis'2\fermata
           d'8 [g] a4 a8 [b] cis' [d']
-          e'4. d'8 cis'2
+          e'4. d'8 cis'2\fermata
           c'4 f'4. e'16 [d'] e'4~
-          e'8 d'4 cis'8 d'2
+          e'8 d'4 cis'8 d'2\fermata
           b8 e'4 d'8 d'4 e'
           f'8 g'4 a' g'8 g'4
-           g'2 e'8 [fis'] g'4
+           g'2\fermata e'8 [fis'] g'4
           g' a'8 [g'] f' [e'] d'4
           d' cis'\fermata d'8 [a] bes [g]
           a [b] c' [d'] e'4 f'~
-          f'8 e'4 d'16 [c'] b2 \fine
+          f'8 e'4 d'16 [c'] b2\fermata \fine
         }
 
 tenorMusic = {
@@ -45,20 +45,20 @@ tenorMusic = {
            b4 e'8 [d'] c' [d'] e' [c']~
           c' b4 a8 a4 gis\fermata
           a b c' d'8 [e']
-          f' [e'] e'4 e'2
+          f' [e'] e'4 e'2\fermata
            c'4 d' c'4. d'8
-          a4 a a2
+          a4 a a2\fermata
           f8 [d] e4 f g8 [a]
-          bes [a] a4 a2
+          bes [a] a4 a2\fermata
           a8 [bes] c'4 c'4. bes8
-          a4. a16 [g] f2
+          a4. a16 [g] f2\fermata
           g8 c'4 d'16 [c'] b8 [d'] g [c']~
           c' [b] c' [e'] f'4. e'8
-           d'2 c'4 d'
+          d'2\fermata c'4 d'
           c'4. cis'8 d'4 a
-          a2 a4 g8 [e]
+          a2\fermata a4 g8 [e]
           f4 g c' c'~
-          c'8. [bes16] a8 [b16 a] gis2 \fine
+          c'8. [bes16] a8 [b16 a] gis2\fermata \fine
         }
 
 bassMusic = {

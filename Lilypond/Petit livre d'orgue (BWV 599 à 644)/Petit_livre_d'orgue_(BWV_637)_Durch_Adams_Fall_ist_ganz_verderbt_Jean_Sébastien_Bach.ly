@@ -14,7 +14,7 @@
   title = "Durch Adams Fall ist ganz verderbt"
   subtitle = "Petit livre d'orgue"
   opus = "BWV 637"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 

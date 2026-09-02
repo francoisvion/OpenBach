@@ -2,7 +2,7 @@
 \include "italiano.ly"
 \header{
   title = "Vor deinen Thron tret' ich"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 668"
   tagline = ##f
 }

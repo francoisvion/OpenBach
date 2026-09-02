@@ -12,7 +12,7 @@
   title = "Prélude n° 4 en ré majeur"
   subtitle = "6 petits préludes"
   opus = "BWV 936"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 

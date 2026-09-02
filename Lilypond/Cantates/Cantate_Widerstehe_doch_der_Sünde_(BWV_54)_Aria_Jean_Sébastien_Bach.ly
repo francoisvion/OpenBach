@@ -343,7 +343,7 @@ Bass = \context Voice = "four" \relative c {
     title = "Cantate"
     subtitle = "Widerstehe doch der Sünde"
     subsubtitle = "Aria"
-    composer = "Jean Sébastien Bach (1685-1750)"
+    composer = "Jean-Sébastien Bach (1685-1750)"
     opus = "BWV 54"
      tagline = ##f
 }

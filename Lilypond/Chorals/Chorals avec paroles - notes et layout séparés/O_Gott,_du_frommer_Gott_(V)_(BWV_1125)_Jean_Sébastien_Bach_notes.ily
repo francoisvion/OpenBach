@@ -12,7 +12,7 @@ sopranoMusic = {
           a'4 a'4 d''8 [e''8] d''8 [c''8]
           b'2.\fermata b'4
           b'4 b'4 e''8 [fis''8] d''8 [cis''8]
-          <a' cis''>2.\fermata a'4
+          cis''2.\fermata a'4
           b'4 a'4 b'4 cis''4
           d''2.\fermata a'4
           b'8 [a'8] g'8 [fis'8] e'4. d'8
@@ -33,7 +33,7 @@ altoMusic = {
           fis'8 [g'8] a'4 a'8 [g'8] g'8 [fis'8]
           g'2.\fermata fis'4
           e'4 b'4 b'8 a'4 gis'8
-          s2. g'4
+          a'2.\fermata g'4
           fis'4 fis'4 fis'4 fis'4
           fis'2.\fermata d'4
           d'4 d'4 d'8 [b8] cis'4

@@ -3,7 +3,7 @@
   title = "Fugue N° 16 en Sol mineur"
   opus = "BWV 861"
   subtitle = "Le clavier bien tempéré - Livre 1"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 \score {

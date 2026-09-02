@@ -14,7 +14,7 @@
  title = "Hilf Gott, das mir's gelinge"
  subtitle = "Petit livre d'orgue"
  subsubtitle = "à 2 claviers et pédalier"
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  opus = "BWV 624"
  tagline = ##f
 }

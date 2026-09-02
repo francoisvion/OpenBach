@@ -41,7 +41,7 @@
 \header {
   title = "Partita IV"
   opus = "BWV 828"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   copyright = ""
   tagline = ##f
 }

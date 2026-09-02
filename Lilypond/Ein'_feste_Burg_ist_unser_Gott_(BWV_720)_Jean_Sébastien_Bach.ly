@@ -4,7 +4,7 @@
   title = "Ein' feste Burg ist unser Gott"
   subtitle = "à 2 claviers et pédalier"
   opus="BWV 720"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 global = {

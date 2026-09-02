@@ -5,7 +5,7 @@
 \header {
   title = "1. Toccata en Fa# mineur"
   subtitle = "7 Toccatas pour Clavecin"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 910"
   tagline = ##f
 }

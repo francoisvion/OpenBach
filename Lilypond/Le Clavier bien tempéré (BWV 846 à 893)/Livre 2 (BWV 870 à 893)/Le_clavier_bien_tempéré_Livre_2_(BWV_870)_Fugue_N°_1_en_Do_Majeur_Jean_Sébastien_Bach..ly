@@ -4,7 +4,7 @@
   subtitle = "Le clavier bien tempéré - Livre 2"
   subsubtitle = "à 3 voix"
   opus = "BWV 870"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ""
 }
 dux =  \relative g' \context Voice = "dux" {

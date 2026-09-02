@@ -5,7 +5,7 @@
 \header {
  title = "Jesus Christus, unser Heiland, der von uns den Zorn Gottes wand"
  subtitle = "(sub Communione)"
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  opus="BWV 665"
   tagline = ##f
 }

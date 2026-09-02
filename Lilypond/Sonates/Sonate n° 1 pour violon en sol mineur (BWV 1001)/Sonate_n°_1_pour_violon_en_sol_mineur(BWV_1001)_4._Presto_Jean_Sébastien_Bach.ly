@@ -11,7 +11,7 @@
   subtitle = "Sonate n° 1 pour violon en sol mineur"
   subsubtitle = "6 sonates pour violon"
   opus = "BWV 1001"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 melody = \relative g'' {

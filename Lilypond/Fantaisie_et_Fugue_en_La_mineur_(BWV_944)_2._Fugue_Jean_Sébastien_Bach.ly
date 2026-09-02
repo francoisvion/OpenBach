@@ -9,7 +9,7 @@
 \header {
   title = "2. Fugue"
   subtitle = "Fantaisie et Fugue en La mineur"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 944"
   tagline = ##f
 }

@@ -12,7 +12,7 @@ revAutoBeam = {
 \header {
   title = "Fughetta super : Wir glauben all an einen Gott"
   subtitle = "Manualiter"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 681"
   tagline = ##f
 }

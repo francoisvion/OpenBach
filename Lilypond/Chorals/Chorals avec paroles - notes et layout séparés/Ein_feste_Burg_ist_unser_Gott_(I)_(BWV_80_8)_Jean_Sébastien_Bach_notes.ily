@@ -21,7 +21,7 @@ altoMusic = {
           \repeat volta 2 {
           \partial 4  a'4
           a'8 [g'] fis' [e'] d'4 e'
-          a8 a'4 gis'8 e'4 b'
+          a8 a'4 gis'8 e'4\fermata b'
           e'8 [fis'] g'4 fis'8 [e'] d' [cis']
           b4 cis' a\fermata } d'
           cis'8 [fis'] e'4 e'8 [fis'] e'4
@@ -39,7 +39,7 @@ tenorMusic = {
           \repeat volta 2 {
           \partial 4  fis'8 [e']
           d' [e'] fis' [g'] a'4 g'
-          fis' b8 [e'] cis'4 fis8 [gis]
+          fis' b8 [e'] cis'4\fermata fis8 [gis]
           a4 e'8 [d'] cis'4 b8 [cis']
           d'4 a8 [g] fis4\fermata } fis8 [g]
           a [d'] cis' [b] cis'4 b

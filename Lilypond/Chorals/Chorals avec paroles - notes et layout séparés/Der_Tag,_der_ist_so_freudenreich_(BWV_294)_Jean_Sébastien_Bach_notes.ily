@@ -5,8 +5,7 @@ sopranoMusic = {
           g' g' a' b'
           c''8 [b'] a'4 g'2\fermata
           a'4 a' e' fis'
-          g' a' g'\fermata }
-          \partial 4  g'
+          g' a' g'\fermata } g'
           d'' d'' e'' d''8 [c'']
           b'4 cis'' d''\fermata d''
           d'' d'' e'' d''8 [c'']
@@ -28,8 +27,7 @@ altoMusic = {
           e' e'4. fis'8 g'4
           g'4. fis'8 d'2\fermata
           fis'4 e'8 [d'] e'4. d'16 [c']
-          b8 [g] d'4 d'\fermata }
-          \partial 4  d'
+          b8 [g] d'4 d'\fermata } d'
           d' g'8 [a'] b' [c''] b' [a']
           g'4 g' a'\fermata a'
           g' g' g' a'~
@@ -51,8 +49,7 @@ tenorMusic = {
           b c' c' d'8 [f']
           e'4 a8 [d'16 c'] b2\fermata
           d'4 c'8 b4 a b16 [a]
-          g4. fis8 b4\fermata }
-          \partial 4  b
+          g4. fis8 b4\fermata } b
           a8 [c'] b [a] g4 d'
           d' e' fis'\fermata d'8 [c']
           b [c'] d' [b] c' [b] a [d']
@@ -64,7 +61,7 @@ tenorMusic = {
            fis8 [g] a4 a a
           b e8 [a16 g] fis4\fermata g
           g e a a
-          g fis g \fine
+          g fis g\fermata \fine
         }
 
 bassMusic = {
@@ -74,8 +71,7 @@ bassMusic = {
           e [d] c [b,] a,4 g,
           c d g,2\fermata
           d4 a,8 [b,] c4 d
-          e d g,\fermata }
-          \partial 4  g
+          e d g,\fermata } g
           fis g8 [fis] e4 fis
           g8 [fis] e4 d\fermata fis
           g8 [a] b [g] c'4 fis

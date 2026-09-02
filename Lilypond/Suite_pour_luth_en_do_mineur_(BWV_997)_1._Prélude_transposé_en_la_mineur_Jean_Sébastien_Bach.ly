@@ -7,7 +7,7 @@
   subtitle = "Suite pour luth en do mineur"
   subsubtitle = "transposé en la mineur"
   opus =  "BWV 997"
-  composer =  "Jean Sébastien Bach (1685-1750)"
+  composer =  "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 

@@ -194,7 +194,7 @@ Bass = \context Voice = "four" \relative c {
     >>
   >>
   \header {
-    composer = "Jean Sébastien Bach (1685-1750)"
+    composer = "Jean-Sébastien Bach (1685-1750)"
     opus = "BWV 936"
     title = \markup { "4. Petit Prélude en Ré Majeur" }
   }

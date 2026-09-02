@@ -3,7 +3,7 @@
 \header {
   title = "8a. Polonaise en fa majeur"
   subtitle = "Petit livre de notes d'Anna Magdalena Bach"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV Anh. 117a"
   tagline = ##f
 }

@@ -3,7 +3,7 @@
 date = ""
    title = "Kommst du nun, Jesu, vom Himmel herunter"
    subtitle = "a 2 Clav. e Pedale"
-   composer = "Jean Sébastien Bach (1685-1750)"
+   composer = "Jean-Sébastien Bach (1685-1750)"
    opus="BWV 650"
   tagline = ##f
 }

@@ -25,7 +25,7 @@
 
 \header {
   title = "Sonate n° 4 pour violon en do mineur"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 1017"
   tagline = ##f
 }

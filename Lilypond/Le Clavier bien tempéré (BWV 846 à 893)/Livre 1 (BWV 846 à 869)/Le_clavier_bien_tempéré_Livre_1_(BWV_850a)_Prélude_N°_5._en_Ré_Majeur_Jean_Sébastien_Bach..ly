@@ -4,7 +4,7 @@
   title = "Prélude N° 5"
   subtitle = "Le clavier bien tempéré - Livre 1"
   opus = "BWV 850"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ""
 }
 rightHand = {

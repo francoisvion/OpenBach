@@ -3,7 +3,7 @@
   mutopiastyle = "Baroque"
 title = "Lobet den Herrn, alle Heiden (Psalm 117)"
   subtitle = "BWV 230"
-  composer = "Jean Sébastien Bach (1685-1750) (1685 - 1750)"
+  composer = "Jean-Sébastien Bach (1685-1750) (1685 - 1750)"
   copyright = ##f
   tagline = ##f
 }

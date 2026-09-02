@@ -4,7 +4,7 @@
   subtitle = "371 chorales à 4 voix"
   subsubtitle = "Mélodie d'Erfurt Enchiridia, 1524"
   opus = "BWV 36"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 signature = {

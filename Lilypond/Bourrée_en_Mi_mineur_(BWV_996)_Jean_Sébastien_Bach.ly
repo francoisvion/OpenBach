@@ -1,7 +1,7 @@
 \version "2.24.4"
 \header {
   title = "Bourrée en Mi mineur"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 996"
   instrument = "Luth/luth-clavecin (Lautenwerk)"
   tagline = ##f

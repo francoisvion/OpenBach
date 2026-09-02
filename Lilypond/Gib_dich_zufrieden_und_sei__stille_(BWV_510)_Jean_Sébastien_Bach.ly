@@ -3,7 +3,7 @@
 \header {
   title = "Gib dich zufrieden und sei stille"
   opus = "BWV 510"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 upper = \relative c'

@@ -37,7 +37,7 @@ tenorMusic = {
           c'4 c' d'8 [c'] c'4
           c' g8 f4 e8\fermata f4
           f8 [g] a4 g8 [a] bes4
-          a2 r4 a8 [bes]
+          a2\fermata r4 a8 [bes]
            c'4 c' c' d'
           c'2 c'4\fermata d'
           c' b c' c'
@@ -63,5 +63,10 @@ bassMusic = {
         }
 
 sopranoLyrics = \lyricmode {
-      Das walt' mein Gott, Va -- ter, Sohn und heil' -- ger Geist, der mich er -- schaf -- fen hat, mir Lieb und Seel ge -- ge -- ben im Mut -- ter -- leib das Le -- ben, ge -- sund ohn' al -- len Schad'.
+      Das walt' mein Gott, Va -- ter,
+      Sohn und heil' -- ger Geist,
+      der mich er -- schaf -- fen hat,
+      mir Lieb und Seel ge -- ge -- ben
+      im Mut -- ter -- leib das Le -- ben,
+      ge -- sund ohn' al -- len Schad'.
     }

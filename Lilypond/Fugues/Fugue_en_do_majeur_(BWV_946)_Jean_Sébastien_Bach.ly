@@ -6,7 +6,7 @@
   title = "Fugue en do majeur"
   subtitle = "sur un thème de Tommaso Albinoni"
   opus = "BWV 946"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
  }
 

@@ -2,7 +2,7 @@
 \include "deutsch.ly"
 \header {
   title = "Gelobet seist du, Jesu Christ"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus="BWV 723"
   tagline = ##f
 }

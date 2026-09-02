@@ -6,7 +6,7 @@
   title = "Fugue N° 8 en Ré# mineur"
   subtitle = "à 3 voix"
   opus = "BWV 853"
-  composer = "Jean Sébastien Bach (1685–1750)"
+  composer = "Jean-Sébastien Bach (1685–1750)"
   tagline = ##f
 }
 

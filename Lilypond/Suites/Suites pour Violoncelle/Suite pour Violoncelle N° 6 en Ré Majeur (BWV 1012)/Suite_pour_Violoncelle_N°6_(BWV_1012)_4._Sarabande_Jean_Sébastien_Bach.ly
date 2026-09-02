@@ -9,7 +9,7 @@
 \header {
   title = "4. Sarabande"
   subtitle = "Suite pour Violoncelle N°6"
-  composer = "Jean Sébastien Bach (1685-1750) (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750) (1685-1750)"
   opus = "BWV 1012"
   tagline = ##f
 }

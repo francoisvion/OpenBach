@@ -3,7 +3,7 @@
 \header {
    title = "Schmücke dich, o liebe Seele"
    subtitle = "à 2 claviers et pédalier"
-   composer = "Jean Sébastien Bach (1685-1750)"
+   composer = "Jean-Sébastien Bach (1685-1750)"
    opus = "BWV 654"
    tagline = ""
 }

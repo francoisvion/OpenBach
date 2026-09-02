@@ -4,7 +4,7 @@ date = "1715"
  title = "Liebster Jesu, wir sind hier"
  subtitle = "in Canone alla Quinta"
  subsubtitle = "à 2. Clav & Ped."
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  opus="BWV 634"
   tagline = ##f
 }

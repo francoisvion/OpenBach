@@ -11,7 +11,7 @@
   subtitle = "\"Nach der Partita III für Violine BWV 1006\""
   piece = "1. Prélude"
   opus = "BWV 1006a"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 melodyOne = \relative e'' {

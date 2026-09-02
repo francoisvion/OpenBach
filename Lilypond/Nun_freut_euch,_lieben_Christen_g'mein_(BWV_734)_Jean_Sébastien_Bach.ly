@@ -3,7 +3,7 @@
   title = "Nun freut euch, lieben Christen g'mein"
   subtitle = "Es ist gewisslich an der Zeit"
   subsubtitle = "à 2 claviers et pédalier"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus="BWV 734"
   tagline = ##f
 }

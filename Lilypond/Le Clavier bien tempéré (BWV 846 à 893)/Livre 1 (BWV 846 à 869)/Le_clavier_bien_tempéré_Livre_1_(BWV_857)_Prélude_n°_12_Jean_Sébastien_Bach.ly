@@ -2,7 +2,7 @@
 
 \header {
   title = "Praeludium XII"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 857"
   date = "1722"
   version = "2.18.2"

@@ -6,33 +6,33 @@ sopranoMusic = {
           c'' b' a' a'
           g'2.\fermata
           \repeat volta 2 {
-          \partial 4  c''4
+          c''4
           c'' c'' b' a'
           b' a' a'\fermata a'
           a' g' a' b'
            c'' a' g'\fermata }
           \repeat volta 2 {
-          \partial 4 e'
+          e'
           g' a' b' b'
           a'2.\fermata }
           \repeat volta 2 {
-          \partial 4  b'4
+          b'4
           b' b'8 [c''] d''4 a'
           a' g' a' b'
           c'' a' g'\fermata }
           \repeat volta 2 {
-          \partial 4  c''
+          c''
           c'' c'' b' a'
           b' a' a'\fermata a'
           a' g' a' b'
           c'' a' g'\fermata }
           \repeat volta 2 {
-          \partial 4  a'
+          a'
           a' a' g' b'
           b' a' a'\fermata a'
           a' g' a'8 [b'] c''4
           g' g' e'\fermata }
-          \partial 4  f'
+          f'
           d' f' e' d'
           e' fis' g'\fermata g'
           g' g' a'4. f'8
@@ -50,12 +50,12 @@ sopranoMusic = {
           a' g' a'8 [b'] c''4
           g' g' e'\fermata
           \repeat volta 2 {
-          \partial 4  a'
+          a'
           a' a' g' b'
           b' b' a'\fermata a'
           a' g' a' c''
           g' g' e'\fermata }
-          \partial 4  f'8 [e']
+          f'8 [e']
           d'4 f' g' a'
           g' f' e'\fermata f'
           f' g' a' g'8 [f']
@@ -72,32 +72,32 @@ altoMusic = {
           g' a'4 g' fis'16 [e'] fis'4
           d'2.\fermata
           \repeat volta 2 {
-          \partial 4  g'4
+          g'4
           g'8 [fis'16 e'] fis'8 a'4 g'16 [fis'] e'8 [d']
           d' g'4 fis'16 [e'] fis'4\fermata e'8 [g']
           g' f'4 e'16 [d'] c'4 d'16 [e' f'8]
-          e'16 [fis'] g'4 fis'8 d'4 }
+          e'16 [fis'] g'4 fis'8 d'4\fermata }
           \repeat volta 2 {
-          \partial 4 c'
+          c'
           d' e'8 [d'16 c'] f' [e'] d'4 e'16 [d']
           c'2.\fermata }
           \repeat volta 2 {
-          \partial 4  g'8 [a']
+          g'8 [a']
           g'4 g' g'4. f'16 [e']
           f'4. e'16 [d'] c'8 [d'16 e'] f'4
           e'16 [fis'] g'4 fis'8 d'4\fermata
-          \partial 4 g'8 [f']
+          g'8 [f']
           e' [fis'] g' a'4 g' fis'8
           g' [fis'] e'4 fis'\fermata d'
           c'16 [a] d'4 c' d'16 [c'] b8 [d']
           g'4. fis'8 d'4\fermata }
           \repeat volta 2 {
-          \partial 4  f'
+          f'
           e'16 [f'] g'4 fis' e'16 [fis'] g'4
           g'8 [f'] g'4. f'8\fermata c' [f'16 e']
           f'4. e'8 f'4 f'~
           f'8 [e'] d'4 c'\fermata }
-          \partial 4 c'
+          c'
           c'8 [b] c' d'4 c'8 d'4~
           d'8 [c'16 b] c'8 [b16 a] b4\fermata d'
           e'8 [f'] g' [e'] c' [f'] f'16 [e' d' cis']
@@ -115,12 +115,12 @@ altoMusic = {
           e'8 [f'] g'4 f' g'8 [f']
           e'4 d' c'\fermata
           \repeat volta 2 {
-          \partial 4 e'
+          e'
           f' e'8 [d'16 c'] b4 b8 [c'16 d']
           e'4~ e'16 [fis'] g'4 fis'8\fermata f'4
           f' c' c' c'8 [d']
           e'4 e'16 [cis'] d'4 cis'8\fermata }
-          \partial 4  d'4
+          d'4
           a8 [bes16 c'] d'4. e'4 d'8
           d' [cis'] d'4 cis'\fermata d'
           d'4. e'8 f' [e'] d'4
@@ -138,33 +138,33 @@ tenorMusic = {
           e' [d'] d'4 e'16 [d'] c'4 d'16 [c']
           b2.\fermata
           \repeat volta 2 {
-          \partial 4  e'4
+          e'4
           e'8 [d'16 c'] d'2 c'8 [d'16 c']
           b8 [e'16 d'] cis'4 d'\fermata e'
           d'4. c'16 [b] a8 [g] f4
-          g8 [e'] d'8. [c'16] b4 }
+          g8 [e'] d'8. [c'16] b4\fermata }
           \repeat volta 2 {
-          \partial 4 g
+          g
           g8 [a16 b] c'8 a4 gis16 [fis] gis4
           e2.\fermata }
           \repeat volta 2 {
-          \partial 4  e'8 [dis']
+          e'8 [dis']
           e'4 e' d' e'8 [a]~
           a [d'16 c'] b8 [c'16 b] a8 [b16 c'] d'4
           g8 [e'] d'8. [c'16] b4\fermata }
           \repeat volta 2 {
-          \partial 4 c'
+          c'
           g4. d'8 d'4 d'
           d'4. cis'8 d'4\fermata f8 [g]
           a [f] g4. fis8 d'4
           c'8 [e'] d'8. [c'16] b4\fermata }
           \repeat volta 2 {
-          \partial 4  d'
+          d'
           a8 e'4 d'16 [c'] b4 e'
           d' e' d'\fermata a8 [bes]
           c'4 c' c' c'~
           c'4. b8 g4\fermata }
-          \partial 4 a
+          a
           g c8 [g] g4 g8 [d]
           a4. d8 d4\fermata b
           c'8 [d'] e' [c'] a [c'] d'16 [e' f'8]
@@ -182,12 +182,12 @@ tenorMusic = {
           e' d'4 c' d'8 g [a]
           b c'4 b8 g4\fermata
           \repeat volta 2 {
-          \partial 4 c'
+          c'
           d' a8 f'4 e'16 [d'] e'8 [a]
           g [fis] g4 d'\fermata c'~
           c'8 [bes] bes4 a8 [g] f4
           e8 [g] bes4 a\fermata }
-          \partial 4  a8 [g]
+          a8 [g]
           f4. g16 [a] bes8 [c'16 b] a8 [f]
           bes [g] a4 a\fermata a
           bes bes c' bes
@@ -205,33 +205,33 @@ bassMusic = {
           e8 [fis] g4 c d
           g,2.\fermata
           \repeat volta 2 {
-          \partial 4  e4
+          e4
           a d8 [e16 fis] g4. fis8
           g [e] a4 d\fermata cis
           d e f8 [e] d4
           c d g,\fermata }
           \repeat volta 2 {
-          \partial 4 c
+          c
           b, a,8 [f] d [b,] e4
           a,2.\fermata }
           \repeat volta 2 {
-          \partial 4  e8 [fis]
+          e8 [fis]
           g [fis] e4 b, cis
           d g f8 [e] d4
           c d g,\fermata }
           \repeat volta 2 {
-          \partial 4 e8 [d]
+          e8 [d]
           c [d] e [fis] g4 d
           g, a, d,\fermata d8 [e]
           f4 e d g8 [f]
           e [c] d4 g,\fermata }
           \repeat volta 2 {
-          \partial 4  d
+          d
           cis d e4. fis8
           g4 cis d\fermata f
           a,8 [bes,] c4 f,8 [g,] a, [b,]
           c4 g, c\fermata }
-          \partial 4 f,
+          f,
           g, a,8 [b,] c4 b,
           a, d g,\fermata g8 [f]
           e [d] c4 f8 [g16 a] bes4~
@@ -249,12 +249,12 @@ bassMusic = {
           c [d] e4. d8 e [f]
           g [f] g [g,] c4\fermata
           \repeat volta 2 {
-          \partial 4 a,
+          a,
           d c8 [d] e [f] g [f]
           e [d] cis4 d\fermata f8 [e]
           d4 e f a,8 [b,]
           c4 g, a,\fermata }
-          \partial 4  d
+          d
           d8 [c] bes, [a,] g,4 f,
           e, d, a,\fermata d8 [c]
           bes, [a,] g,4 f,8 [g,16 a,] bes,4

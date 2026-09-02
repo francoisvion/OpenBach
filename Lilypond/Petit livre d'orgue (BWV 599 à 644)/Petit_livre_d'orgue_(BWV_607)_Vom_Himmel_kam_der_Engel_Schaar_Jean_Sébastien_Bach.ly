@@ -8,7 +8,7 @@
   title = "Vom Himmel kam der Engel Schaar"
   subtitle = "Petit livre d'orgue"
   opus = "BWV 607"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 

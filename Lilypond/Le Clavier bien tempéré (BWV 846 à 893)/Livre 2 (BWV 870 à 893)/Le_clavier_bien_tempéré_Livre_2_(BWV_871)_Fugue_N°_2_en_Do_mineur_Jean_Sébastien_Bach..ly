@@ -4,7 +4,7 @@
   subtitle = "Le clavier bien tempéré - Livre 2"
   subsubtitle = "à 4 voix"
   opus = "BWV 871"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ""
 }
 \include "deutsch.ly"

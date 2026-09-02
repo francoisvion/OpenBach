@@ -78,7 +78,7 @@ tenorMusic = \relative c {
           b2\fermata  d4
           d2 d4
           e2 d4
-          d d d
+          d d\fermata d
           c4. a8 g4
           g g fis 
           g2.\fermata \fine
@@ -105,7 +105,7 @@ bassMusic = \relative c {
           e,2\fermata d4
           g2 g4
           c,2 g4
-          d' d b
+          d' d\fermata b
           c4. d8 e4
           g d2
           g,2.\fermata \fine

@@ -3,7 +3,7 @@
 \header {
   title = "Prélude 5"
   opus = "BWV 850"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
  }
 rightHand = {

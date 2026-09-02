@@ -1,7 +1,7 @@
 \version "2.24.4"
 \header {
   title = "Praeludium 11 - BWV 856"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   date = "18th Century"
   version = "2.10.3"
   tagline = ##f

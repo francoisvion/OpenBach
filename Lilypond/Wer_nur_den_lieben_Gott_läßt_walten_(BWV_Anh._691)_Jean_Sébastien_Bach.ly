@@ -4,7 +4,7 @@
   title = "Wer nur den lieben Gott läßt walten"
   subtitle = "Chorale prélude"
   opus = "BWV Anh. 691"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 upper = \relative c'

@@ -5,7 +5,7 @@
 \header {
    title = "Fantasie super : Komm Heiliger Geist, Herre Gott"
    subtitle = "chant fixe en pédale"
-   composer = "Jean Sébastien Bach (1685-1750)"
+   composer = "Jean-Sébastien Bach (1685-1750)"
    opus = "BWV 651"
    tagline = ##f
 }

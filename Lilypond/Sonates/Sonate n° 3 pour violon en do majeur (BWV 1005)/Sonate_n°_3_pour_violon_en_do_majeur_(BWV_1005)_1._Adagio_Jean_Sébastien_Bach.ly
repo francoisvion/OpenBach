@@ -10,7 +10,7 @@
   title = "1. Adagio"
   subtitle = "Sonate n° 3 pour violon en do majeur"
   subsubtitle = "6 sonates pour violon"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 1005"
   tagline = ##f
 }

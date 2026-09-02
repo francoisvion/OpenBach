@@ -14,7 +14,7 @@
   title = "Herr Gott, nun schleuß den Himmel auf" 
   subtitle = "Petit livre d'orgue" 
   opus = "BWV 617" 
-  composer = "Jean Sébastien Bach (1685-1750)" 
+  composer = "Jean-Sébastien Bach (1685-1750)" 
   tagline = ##f 
 }
 

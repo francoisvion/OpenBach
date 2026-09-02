@@ -28,7 +28,7 @@
   subtitle = "Cantate : Wär’ Gott nicht mit uns diese Zeit"
   opus = "BWV 14"
   instrument = "Soprano"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 

@@ -692,7 +692,6 @@
   \pageBreak
 
   \markup \column {
-    \vspace #1.5
     \fill-line { \null \fontsize #4 \bold "Présentation générale" \null }
     \vspace #2
     \justify {
@@ -737,7 +736,6 @@
   \pageBreak
 
   \markup \column {
-%    \vspace #0.9
     \fill-line { \null \bold "Noël et son octave" \null }
     \justify {
       rassemblent le jour de Noël (25 décembre), le deuxième jour (26 décembre,

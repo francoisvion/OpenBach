@@ -14,7 +14,7 @@
  title = "Christus der uns seelig macht"
  subtitle = "Petit livre d'orgue"
  subsubtitle = "Canon à l'octave"
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  opus="BWV 620"
  tagline = ##f
 }

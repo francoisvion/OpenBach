@@ -5,7 +5,7 @@
   subtitle = "Le clavier bien tempéré - Livre 2"
   title = "Fugue n° 9"
   opus = "BWV 878"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   piece = "Arrangement pour chœur SATB"
   tagline = ##f
 }

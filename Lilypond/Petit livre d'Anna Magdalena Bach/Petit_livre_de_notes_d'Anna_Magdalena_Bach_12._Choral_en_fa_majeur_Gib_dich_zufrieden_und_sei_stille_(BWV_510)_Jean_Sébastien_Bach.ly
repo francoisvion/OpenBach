@@ -3,7 +3,7 @@
 \header {
   title = "Choral en fa majeur : Gib dich zufrieden und sei stille"
   subtitle = "Petit livre de notes d'Anna Magdalena Bach"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 510"
  tagline = ##F
 }

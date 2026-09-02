@@ -3,7 +3,7 @@
 \header {
   title = "Prélude n° 3 en ré mineur"
   opus = "BWV 926"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 

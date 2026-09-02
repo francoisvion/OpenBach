@@ -2,7 +2,7 @@
 \header {
   title = "Invention 10"
   opus = "BWV 781"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ""
 }
 voiceone =  \relative c'' {

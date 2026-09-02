@@ -14,7 +14,7 @@
  title = "Jesus Christus, unser Heiland"
  subtitle = "Petit livre d'orgue"
  opus="BWV 626"
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  tagline = ##f
 }
 

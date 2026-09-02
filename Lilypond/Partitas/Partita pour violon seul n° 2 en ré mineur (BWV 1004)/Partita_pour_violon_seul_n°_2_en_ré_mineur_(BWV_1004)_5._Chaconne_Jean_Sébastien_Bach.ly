@@ -10,7 +10,7 @@
   subtitle = "Partita pour violon seul n° 2 en ré mineur"
   subsubtitle = "6 sonates pour violon"
   opus = "BWV 1004"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f}
 voiceFive = #(context-spec-music (make-voice-props-set 4) 'Voice)
 melodyOne =  \relative a' {

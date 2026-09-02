@@ -5,7 +5,7 @@ date = ""
 
    title = "Jesus Christus, unser Heiland, der von uns den Zorn Gottes wand"
    subtitle = "(alio modo)"
-   composer = "Jean Sébastien Bach (1685-1750)"
+   composer = "Jean-Sébastien Bach (1685-1750)"
    opus="BWV 666"
   tagline = ##f
 }

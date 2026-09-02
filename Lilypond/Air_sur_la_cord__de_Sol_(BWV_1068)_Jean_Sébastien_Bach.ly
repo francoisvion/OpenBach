@@ -6,7 +6,7 @@
   title = "Air ('sur la corde de Sol')"
   subtitle = "tiré de la suite orchestrale n° 3 en ré majeur"
   opus = "BMV 1068"
-  composer =  "Jean Sébastien Bach (1685 - 1750)"
+  composer =  "Jean-Sébastien Bach (1685 - 1750)"
   tagline = ##f
 }
 flute = \relative c' {

@@ -5,8 +5,7 @@ sopranoMusic = {
           a' b' c'' d''
           b'4. c''8 d''4\fermata e''
           c'' a' b' b'
-          a'2.\fermata }
-          e''4
+          a'2.\fermata } e''4
           d'' c'' b' a'
           b'2.\fermata b'4
           c'' d'' e'' e''
@@ -24,16 +23,15 @@ altoMusic = {
           f' f' g' a'
           g'2 a'4\fermata e'
           e' a' a' gis'
-          e'2.\fermata }
-          e'8 [fis']
+          e'2.\fermata } e'8 [fis']
           gis'4 a'8 [g'] f'4 e'8 [fis']
           gis'2.\fermata gis'4
           a' b' c''8 [b'] a' [g']
           a' [g'] fis'4 g'\fermata g'
           g' g'8 [f'] e' [f'] g'4
-          f'8 [g'] a'4 gis' b'
+          f'8 [g'] a'4 gis'\fermata b'
           a' e' f' e'8 [d']
-          cis'2. \fine
+          cis'2.\fermata \fine
         }
 
 tenorMusic = {
@@ -43,16 +41,15 @@ tenorMusic = {
           c' d' g d'
           d' e' d'\fermata b
           c'8 [d'] e'4 f' e'8 [d']
-          c'2.\fermata }
-          g8 [a]
+          c'2.\fermata } g8 [a]
           b4 e'8 [c'] d' [b] c'4
           b2.\fermata e'4
           e' f' g' c'8 [b]
           a4 d' d'\fermata d'
           g a bes a8 [g]
-          a2 e'4 e'
+          a2 e'4\fermata e'
           e a a gis
-          e2. \fine
+          e2.\fermata \fine
         }
 
 bassMusic = {
@@ -62,8 +59,7 @@ bassMusic = {
           f4 e8 [f] e4 fis
           g fis8 [e] fis4\fermata gis
           a8 [b] c' [a] d4 e
-          a,2.\fermata }
-          c4
+          a,2.\fermata } c4
           b,8 [b] a4 gis a
           e2.\fermata e4
           a g8 [f] c'4 e

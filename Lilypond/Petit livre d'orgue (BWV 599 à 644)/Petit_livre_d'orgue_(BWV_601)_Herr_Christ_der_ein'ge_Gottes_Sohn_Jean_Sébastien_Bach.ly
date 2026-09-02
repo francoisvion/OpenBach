@@ -8,7 +8,7 @@
   subtitle = "Petit livre d'orgue"
   subsubtitle = "Herr Gott nun sey gepreiset"
   opus = "BWV 601"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 

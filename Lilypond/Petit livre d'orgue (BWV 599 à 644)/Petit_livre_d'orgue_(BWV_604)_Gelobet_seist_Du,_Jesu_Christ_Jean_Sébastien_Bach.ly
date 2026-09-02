@@ -9,7 +9,7 @@
   subtitle = "Petit livre d'orgue"
   subsubtitle = "à 2 claviers et pédalier"
   opus = "BWV 604"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 

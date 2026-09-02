@@ -14,7 +14,7 @@
   title = "Ich ruf ' zu dir, Herr Jesu Christ"
   subtitle = "Petit livre d'orgue"
   opus = "BWV 639"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 

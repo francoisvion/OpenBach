@@ -5,7 +5,7 @@
   title = "Fugue 3"
   subtitle = "Le clavier bien tempéré - Livre 1"
   opus = "BWV 848"
-  composer = "Jean Sébastien Bach (1685–1750)"
+  composer = "Jean-Sébastien Bach (1685–1750)"
   tagline = ""
 }
 

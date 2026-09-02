@@ -2,7 +2,7 @@
 \header {
  title = "O Lamm Gottes unschuldig"
  subtitle = "3 Versus"
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  opus = "BWV 656"
  tagline = ""
 }

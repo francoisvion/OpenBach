@@ -4,7 +4,7 @@
   title = "Bourrée N°2"
   subtitle = "Suite anglaise N°2"
   opus = "BWV 807"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 voiceone =  \relative c' {

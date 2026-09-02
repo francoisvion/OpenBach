@@ -3,7 +3,7 @@
    date = "1739"
    title = "Kyrie, Gott heiliger Geist"
    subtitle = "Cum Organo pleno"
-   composer = "Jean Sébastien Bach (1685-1750)"
+   composer = "Jean-Sébastien Bach (1685-1750)"
    opus = \markup { \lower #3 "BWV 671" }
    tagline = ##f
 }

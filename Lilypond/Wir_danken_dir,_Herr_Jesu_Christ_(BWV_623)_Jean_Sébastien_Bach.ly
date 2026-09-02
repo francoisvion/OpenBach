@@ -2,7 +2,7 @@
 \language "deutsch"
 \header {
   title = "Wir danken dir, Herr Jesu Christ"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus="BWV 623"
   tagline = ##f
 }

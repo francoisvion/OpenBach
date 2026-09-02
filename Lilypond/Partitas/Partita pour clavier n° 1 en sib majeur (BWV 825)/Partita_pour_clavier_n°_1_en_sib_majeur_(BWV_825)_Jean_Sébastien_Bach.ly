@@ -29,7 +29,7 @@
 \header {
   title = \markup {"Partita pour clavier n° 1 en si"\flat "majeur"}
   subtitle = "Pratique du clavier - partie I"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 825"
   copyright = "© 2026 — OpenBach"
   tagline = ##f

@@ -5,7 +5,7 @@
 \header {
   title =	"Praeludium IV"
   opus = "BWV 849"
-  composer = 	 "Jean Sébastien Bach (1685-1750) (1685–1750)"
+  composer = 	 "Jean-Sébastien Bach (1685-1750) (1685–1750)"
   enteredby = 	 "Davide Castellone"
 
   % mutopia headers.

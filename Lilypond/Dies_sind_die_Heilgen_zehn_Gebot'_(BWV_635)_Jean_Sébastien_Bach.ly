@@ -5,7 +5,7 @@
 \header {
   title = "Dies sind die Heilgen zehn Gebot"
   opus = "BWV 635"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 

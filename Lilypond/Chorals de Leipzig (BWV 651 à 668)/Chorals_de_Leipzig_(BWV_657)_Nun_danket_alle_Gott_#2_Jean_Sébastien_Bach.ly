@@ -2,7 +2,7 @@
 \include "deutsch.ly"
 \header {
   title = "Nun danket alle Gott"
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  opus="BWV 657"
  tagline = ##f
 }

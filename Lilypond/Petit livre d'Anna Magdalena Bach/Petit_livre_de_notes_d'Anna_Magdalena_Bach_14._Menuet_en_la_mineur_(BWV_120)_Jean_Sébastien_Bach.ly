@@ -5,7 +5,7 @@
   title = "14. Menuet en la mineur"
   subtitle = "Petit livre de notes d'Anna Magdalena Bach"
   opus = "BWV Anh. 120"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 upper = \relative a'

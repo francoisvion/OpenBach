@@ -4,7 +4,7 @@
   title = "Contrepoint 8"
   subtitle="L'Art de la Fugue"
   opus = "BWV 1080"
-  composer="Jean Sébastien Bach (1685 - 1750)"
+  composer="Jean-Sébastien Bach (1685 - 1750)"
   tagline = ##f
 }
 soprano = \relative c''{

@@ -5,7 +5,7 @@
 \header {
   title = "An Wasserflüssen Babylon"
   subtitle = "à 2 claviers et pédalier"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus="BWV 653"
   tagline = ##f
 }

@@ -7,7 +7,7 @@
 \header {
   title = "Am Abend aber desselbigen Sabbats"
   subtitle = "Cantate"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 42"
   instrument = "Alto"
   tagline = ##f

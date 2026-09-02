@@ -3,7 +3,7 @@
 date = "1739"
    title = "Kyrie, Gott Vater in Ewigkeit"
    subtitle = "a 2 Clav. e Pedale"
-   composer = "Jean Sébastien Bach (1685-1750)"
+   composer = "Jean-Sébastien Bach (1685-1750)"
    opus="BWV 669"
   tagline = ##f
 }

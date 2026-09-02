@@ -5,7 +5,7 @@
   title = "10. Polonaise en Sol mineur"
   subtitle = "Petit livre de notes d'Anna Magdalena Bach"
   opus = "BWV Anh. 119"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 upper = \relative g'

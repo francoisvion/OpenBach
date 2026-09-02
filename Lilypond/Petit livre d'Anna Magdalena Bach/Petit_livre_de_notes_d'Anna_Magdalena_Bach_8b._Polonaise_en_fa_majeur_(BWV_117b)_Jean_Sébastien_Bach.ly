@@ -5,7 +5,7 @@
   title = "8b. Polonaise en Fa majeur"
   subtitle = "Petit livre de notes d'Anna Magdalena Bach"
   opus = "BWV Anh. 117b"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 upper = \relative c''

@@ -3,7 +3,7 @@
   title = "Bist du bei mir"
   subtitle = "Aria"
   subsubtitle = "Petit Livre d'Anna Magdalena Bach N°2"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 508"
   tagline = ##f
 }

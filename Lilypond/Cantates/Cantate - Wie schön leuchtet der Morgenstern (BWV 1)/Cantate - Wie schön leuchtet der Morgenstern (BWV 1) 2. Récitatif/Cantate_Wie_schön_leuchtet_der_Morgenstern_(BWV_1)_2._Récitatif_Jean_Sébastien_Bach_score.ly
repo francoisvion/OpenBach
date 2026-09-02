@@ -4,7 +4,7 @@
   title = "2. Récitatif"
   subtitle = "Cantate : Wie schön leuchtet der Morgenstern"
   opus = "BWV 1"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 

@@ -14,7 +14,7 @@
   title = "Prélude n° 4 en la mineur"
   subtitle = "5 petits préludes"
   opus = "BWV 942"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 soprano = \relative a'' {

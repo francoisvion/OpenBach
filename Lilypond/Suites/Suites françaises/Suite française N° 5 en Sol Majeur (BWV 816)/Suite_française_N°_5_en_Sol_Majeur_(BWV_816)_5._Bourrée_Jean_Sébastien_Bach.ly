@@ -3,7 +3,7 @@
   title = "5. Bourrée"
   subtitle = "Suite française N° 5"
   opus = "BWV 816"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 Global = {

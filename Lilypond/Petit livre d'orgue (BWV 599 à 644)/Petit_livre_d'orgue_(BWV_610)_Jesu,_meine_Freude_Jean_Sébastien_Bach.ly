@@ -5,7 +5,7 @@
   title = "Jesu, meine Freude"
   subtitle = "Petit livre d'orgue"
   opus = "BWV 610"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 global = {

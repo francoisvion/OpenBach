@@ -1,0 +1,106 @@
+sopranoMusic = {
+          \partial 4  bes'4
+          bes' bes' bes' c''
+          aes' g' f'\fermata c''
+          d'' c'' bes' a'8 [g']
+          a'4 g' f'\fermata bes'
+          bes' bes' bes' c''
+          aes' g' f'\fermata c''
+          d'' c'' bes' a'8 [g']
+          a'4 g' f'\fermata f''
+          ees'' d'' c'' bes'
+          bes'8 [c''] d''4 c''\fermata
+          \partial 4  d''
+          ees'' d'' c'' b'
+          c''2.\fermata f'4
+          bes' c'' d'' ees''
+          f'' ees''8 [d''] c''4\fermata ees''
+          d'' c'' f'' bes'8 [c'']
+          d''4 c'' bes'\fermata \fine
+        }
+
+altoMusic = {
+          \partial 4  f'4
+          g' aes' g' g'
+          g'8 f'4 e'8 f'4\fermata f'
+          f' e' f' c'~
+          c'8 f'4 e'8 c'4\fermata f'
+          g' f' g' g'
+           g'8 f'4 e'8 f'4\fermata f'
+          f' e' f' c'~
+          c'8 f'4 e'8 c'4\fermata bes'8 [a']
+          g'4 f'8 [g'] a'4 bes'8 [aes']
+          g'4 f' f'\fermata
+          \partial 4 f'
+          ees' aes'8 g'4 f'8 g'4
+          g'2.\fermata c'4
+          f' g'8 [a'] bes'4 a'8 [g']
+          f'4 g' a'\fermata bes'
+          aes' g' f' f'8 [g']
+          f' ees'4 d'8 d'4\fermata \fine
+        }
+
+tenorMusic = {
+          \partial 4  d'4
+          d'8 [ees'] f'4 ees'8 [d'] c'4
+          c' bes a\fermata c'
+          bes8 [a] g4 f c'
+          c' bes a\fermata bes
+          bes8 [c'] d'4 ees'8 [d'] c'4
+           c' bes a\fermata c'
+          bes8 [a] g4 f c'
+          c' bes a\fermata d'8 [c']
+          bes [c'] d' [ees'] f'4 f'
+          bes2 a4\fermata
+          \partial 4 b
+          c'4. b8 c'4 d'
+          d'2.\fermata a4
+          bes ees f8 [f'] ees'4~
+          ees'8 [d'] c' [bes] f'4\fermata bes
+          bes4. c'8 a4 bes
+          bes a f\fermata \fine
+        }
+
+bassMusic = {
+          \partial 4  bes8 [a]
+          g4 d ees e
+          f c f,\fermata a,
+          bes, c d e
+          f c f,\fermata d
+          ees bes, ees e
+           f c f,\fermata a,
+          bes, c d e
+          f c f,\fermata d
+          g bes ees d
+          ees bes, f\fermata
+          \partial 4 d
+          c f8 [g] aes4 g
+          c2.\fermata ees4
+          d c bes, c
+          d ees f\fermata g
+          f ees2 d8 [ees]
+          f4 f, bes,\fermata \fine
+        }
+
+sopranoLyrics = \lyricmode {
+      Ich dank' dir, lie -- ber Her - re,
+      dass du mich hast__ _ _ be -- wahrt
+      in die -- ser Nacht Ge -- fäh - re,
+      da -- rin ich lag__ _ _ so hart
+      mit Fin -- ster -- niss um -- fan - gen,
+      da -- zu in gro -- ßer Noth,
+      da -- raus ich bin ent -- gan - gen,
+      halfst du mir Her - - re Gott!
+    }
+
+altoLyrics = \lyricmode {
+      Ich dank' dir, lie -- ber Her - - re, dass du mich hast__ _ _ be -- wahrt in die -- ser Nacht Ge -- fäh - - re, da -- rin ich lag__ _ _ so hart mit Fin -- ster -- niss um -- fan - gen, da -- zu in gro - ßer Noth, da -- raus ich bin ent -- gan - gen, halfst du mir Her - - re - Gott!
+    }
+
+tenorLyrics = \lyricmode {
+      Ich dank' dir, lie -- ber Her - re, dass du mich hast__ _ _ be -- wahrt in die -- ser Nacht Ge -- fäh - re, da -- rin ich lag__ _ _ so hart mit Fin -- ster -- niss um "fan -" gen, da -- zu in gro -- ßer Noth, da -- raus ich bin "ent gan" - gen, halfst du mir Her - - re Gott!
+    }
+
+bassLyrics = \lyricmode {
+      Ich dank' dir, lie -- ber Her - re, dass du mich hast__ _ _ be -- wahrt in die -- ser Nacht Ge -- fäh - re, da -- rin ich lag__ _ _ so hart mit Fin -- ster -- niss um -- fan - gen, da -- zu in gro -- ßer Noth, da -- raus ich bin ent -- gan - gen, halfst du "mir Her" - - re Gott!
+    }

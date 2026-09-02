@@ -3,7 +3,7 @@
 \header {
     title = "Fugue en Do Majeur"
     subtitle = "3 petites fugues du Petit livre de clavier pour Wilhelm Friedemann Bach"
-    composer = "Jean Sébastien Bach (1685-1750)"
+    composer = "Jean-Sébastien Bach (1685-1750)"
     opus = "BWV 952"
     tagline = ##f
 }

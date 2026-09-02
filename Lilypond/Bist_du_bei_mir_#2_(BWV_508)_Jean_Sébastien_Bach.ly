@@ -4,7 +4,7 @@
   title = "Bist du bei mir"
   subtitle = "tiré de l'opéra perdu 'Diomedes, ou l'innocence triomphante'"
   composer = "Gottfried Heinrich Stölzel (1690-1749)"
-  arranger = "arrangé par Jean Sébastien Bach (1685-1750)"
+  arranger = "arrangé par Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 508"
   tagline = ##f
 }

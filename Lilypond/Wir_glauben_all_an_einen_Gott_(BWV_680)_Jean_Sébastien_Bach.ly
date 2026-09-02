@@ -5,7 +5,7 @@
 \header {
   title = "Wir glauben all an einen Gott"
   subtitle = "aplein Orgue"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus="BWV 680"
   tagline = ##f
 }

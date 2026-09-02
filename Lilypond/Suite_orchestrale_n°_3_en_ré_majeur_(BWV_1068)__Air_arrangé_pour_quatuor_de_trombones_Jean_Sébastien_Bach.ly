@@ -6,7 +6,7 @@
 \header {
   title = "Air"
   subtitle = "tiré de la suite orchestrale n° 3 en ré majeur"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 1068"
   tagline = ##f
 }

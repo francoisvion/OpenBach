@@ -10,7 +10,7 @@
         title = "Partita III BWV 1006"
         subtitle = "\"Sechs Sonaten für Violine\""
         piece = "4. Menuet I"
-        composer = "Jean Sébastien Bach (1685-1750) (1685-1750)"
+        composer = "Jean-Sébastien Bach (1685-1750) (1685-1750)"
 opus = "BWV 1006"
         date = "1720"
   tagline = ##f

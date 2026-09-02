@@ -4,7 +4,7 @@
 	title = "Fugue N° 24 en Si mineur"
 	subtitle = "Le clavier bien tempéré - Livre 1"
 	opus = "BWV 869"
-	composer = "Jean Sébastien Bach (1685-1750)"
+	composer = "Jean-Sébastien Bach (1685-1750)"
 	tagline = ##f
 }
 staffUp = {

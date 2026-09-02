@@ -3,7 +3,7 @@
 \header {
    title = "Komm Gott Schöpfer, Heiliger Geist"
    subtitle = "In organo pleno"
-   composer = "Jean Sébastien Bach (1685-1750)"
+   composer = "Jean-Sébastien Bach (1685-1750)"
    opus="BWV 667"
   tagline = ##f
 }

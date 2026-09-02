@@ -8,7 +8,7 @@
   title = "8. Canon simplex à 3 voix, le sujet à l'alto"
   subtitle = "sur les huit premières notes fondamentales de l'Aria des Variations Goldberg"
   subsubtitle = "14 canons"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 1087"
   tagline = ##f
 }

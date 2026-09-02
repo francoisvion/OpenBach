@@ -13,7 +13,7 @@ sopranoMusic = \relative c' {
           c d8 [c] b2
           a\fermata r4 fis 
           g g g fis
-          g2 r4 e
+          g2\fermata r4 e
           f g e2
           d2.\fermata \fine
          }

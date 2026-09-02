@@ -3,7 +3,7 @@
 \header{
   title = "Christ lag in Todesbanden"
   opus="BWV 625"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 global = {

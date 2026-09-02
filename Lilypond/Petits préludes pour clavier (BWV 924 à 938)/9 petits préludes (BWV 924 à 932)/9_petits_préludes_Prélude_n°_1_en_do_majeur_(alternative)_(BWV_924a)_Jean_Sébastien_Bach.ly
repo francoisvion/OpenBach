@@ -11,7 +11,7 @@
   subtitle = "9 petits préludes"
   subsubtitle = "(Alternative)"
   opus = "BWV 924a"
-  composer = "Jean Sébastien Bach (1685-1750) (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750) (1685-1750)"
   tagline = ##f
 }
 staffUpper = {\change Staff = upper \stemDown}

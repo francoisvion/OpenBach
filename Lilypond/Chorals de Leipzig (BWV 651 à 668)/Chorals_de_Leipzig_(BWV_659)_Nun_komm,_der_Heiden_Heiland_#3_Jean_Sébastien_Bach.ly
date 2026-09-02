@@ -393,7 +393,7 @@ Choral = \relative {
     title = "Nun komm’ der Heiden Heiland"
     subtitle = "Chorals de Leipzig"
     opus = "BWV 659"
-    composer = "Jean Sébastien Bach (1685-1750)"
+    composer = "Jean-Sébastien Bach (1685-1750)"
   }
   \layout {
     \context {

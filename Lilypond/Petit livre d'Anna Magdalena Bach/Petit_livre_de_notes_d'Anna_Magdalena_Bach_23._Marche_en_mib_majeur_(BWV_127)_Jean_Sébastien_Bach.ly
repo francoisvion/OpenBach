@@ -5,7 +5,7 @@
   title = "Marche en mi♭ majeur"
   subtitle = "Petit livre de notes d'Anna Magdalena Bach"
   opus = "BWV Anh. 127"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 upper = \relative ef'

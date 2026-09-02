@@ -2,7 +2,7 @@
 \include "italiano.ly"
 \header{
   title = "Da Jesus an dem Kreuze stund"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 621"
   tagline = ##f
 }

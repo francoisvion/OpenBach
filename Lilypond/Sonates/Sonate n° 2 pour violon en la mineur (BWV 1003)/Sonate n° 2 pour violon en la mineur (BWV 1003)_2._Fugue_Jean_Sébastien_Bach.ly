@@ -10,7 +10,7 @@
   title = "2. Fugue"
   subtitle = "Sonate n° 2 pour violon en la mineur"
   subsubtitle = "6 sonates pour violon"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 1003"
   tagline = ##f
 }

@@ -7,7 +7,7 @@
   subtitle = "Le clavier bien temptéré - Livre 1"
   subsubtitle = "à 2 voix"
   opus = "BWV 855"
-  composer = "Jean Sébastien Bach (1685–1750)"
+  composer = "Jean-Sébastien Bach (1685–1750)"
   tagline = ##f
 }
 

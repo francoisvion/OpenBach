@@ -8,7 +8,7 @@
   title = "4. Canon par mouvement contraire et droit"
   subtitle = "sur les 8 premières notes fondamentales de l'aria des Variations Goldberg"
   subsubtitle = "14 Canons "
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 1087"
   tagline = ##f
 }

@@ -13,7 +13,7 @@
 \header {
  title = "Herr Jesu Christ, dich zu uns wend"
  opus="BWV 632"
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  tagline = ##f
 }
 

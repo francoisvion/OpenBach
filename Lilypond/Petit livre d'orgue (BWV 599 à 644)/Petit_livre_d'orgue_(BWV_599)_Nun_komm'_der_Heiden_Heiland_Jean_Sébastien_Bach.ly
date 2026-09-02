@@ -17,7 +17,7 @@
   title = "Nun komm' der Heiden Heiland"
   subtitle = "Petit livre d'orgue"
   opus = "BWV 599"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 ot = {\once \override TextScript #'extra-offset = #'( 0 . 1 )}

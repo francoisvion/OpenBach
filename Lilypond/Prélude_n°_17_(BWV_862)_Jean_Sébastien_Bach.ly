@@ -3,7 +3,7 @@
 \header {
   title = "Prélude n° 17 en la♭ majeur"
   opus = "BWV 862"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 

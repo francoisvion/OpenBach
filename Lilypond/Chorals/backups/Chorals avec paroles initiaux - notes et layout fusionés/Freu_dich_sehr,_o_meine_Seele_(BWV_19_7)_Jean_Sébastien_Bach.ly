@@ -1,0 +1,206 @@
+\version "2.27.1"
+
+
+\paper {
+  #(set-paper-size "a4")
+  #(set-global-staff-size 18)
+  
+  left-margin = 20\mm
+  right-margin = 20\mm
+  top-margin = 20\mm
+  bottom-margin = 25\mm
+  
+  indent = 5\mm
+  
+  oddHeaderMarkup = \markup \fill-line { \null \fromproperty #'page:page-number-string }
+  evenHeaderMarkup = \markup \fill-line { \fromproperty #'page:page-number-string \null }
+
+  system-system-spacing = #'((basic-distance . 11) 
+                             (minimum-distance . 7) 
+                             (padding . 1.5) 
+                             (stretchability . 40))
+  markup-system-spacing = #'((basic-distance . 9) 
+                             (minimum-distance . 6) 
+                             (padding . 1.5) 
+                             (stretchability . 20))
+}
+
+\header {
+ title = "Freu dich sehr, o meine Seele"
+ subtitle = "tiré de la cantate : Es erhub sich ein Streit"
+ poet = "Anonyme"
+  opus = "BWV 19/7"
+  composer = "Jean-Sébastien Bach (1685-1750)"
+  tagline = ##f
+  copyright = "© 2026 — OpenBach"
+  }
+
+\score {
+  \new ChoirStaff <<
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
+    {
+      \clef treble
+      \key c \major
+      \time 3/4
+      <<
+        \new Voice = "soprano" {
+          \voiceOne
+          \repeat volta 2 {
+          c''2 d''4
+          e''2 d''4
+          c''2 b'4
+          a'2.
+          g'\fermata
+          c''2 d''4
+          e''2 f''4
+          e'' d''2
+          c''2.\fermata }
+          e''2 f''4
+          g''2 f''4
+          e'' d''2
+          e''2.\fermata
+          g''4 g''2
+          a'' g''4
+          f'' e''2
+          d''2.\fermata
+          e''2 g''4
+          f''2 e''4
+          c'' d''2
+          e''2.
+          c''\fermata
+          e''2 g''4
+          f''2 e''4
+          d''2 e''4
+          d''2.
+          c''\fermata \fine
+        }
+        
+        \new Voice = "alto" {
+          \voiceTwo
+          \repeat volta 2 {
+          g'2 g'4
+          g'2 fis'4
+          g' a' g'
+          e' fis'2
+          d'2.\fermata
+          c'2 g'4
+          g'2 a'4
+          e' a' g'
+          g'2.\fermata }
+          g'2 a'4
+          bes'2 a'4
+          e' a' g'
+          g'2.\fermata
+          c''4 bes'2
+          a'4 b' c''
+          c'' g'2
+          g'2.\fermata
+          g'2 g'4
+          a'2 g'4
+          f' d' g'
+          g'2.
+          f'\fermata
+          g'2 g'4
+          g'2 g'4
+          f' d' g'
+          g'2.
+          g'\fermata \fine
+        }
+      >>
+    }
+    
+    \new Lyrics \lyricsto "soprano" {\set stanza = 1
+      Lass dein En -- gel mit mir fah -- ren,
+      auf E -- li -- as Wa -- gen rot,
+      Laß sie ruhn in dei -- nem Schoß,
+      er -- füll sie mit Freud und Trost,
+      bis der Leib kommt aus der Er -- de
+      und mit ihr ver -- ei -- nigt wer -- de.
+    }
+    
+    \new Lyrics \lyricsto "soprano" {\set stanza = 2
+      Und mein See -- le wohl be -- wah -- ren,
+      wie Laz -- rum nach sei -- nem Tod,
+    }
+    
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
+    {
+      \clef bass
+      \key c \major
+      \time 3/4
+      <<
+        \new Voice = "tenor" {
+          \voiceOne
+          \repeat volta 2 {
+          e'2 b4
+          c' b a
+          e' d' d'
+          c' a2
+          b2.\fermata
+          g2 b4
+          c'2 c'4
+          c'2 b4
+          g2.\fermata }
+          c'2 c'4
+          g2 c'4
+          c'2 b4
+          g2.\fermata
+          e'4 e'2
+          c'4 d' e'
+          c'2 c'4
+          b2.\fermata
+          c'2 c'4
+          c'2 b4
+          c' b2
+          c' bes4
+          a2.\fermata
+          c'2 e'4
+          d'2 c'4
+          a g2
+          g8 [d'] f' [e'] f'4
+          e'2.\fermata \fine
+        }
+        
+        \new Voice = "bass" {
+          \voiceTwo
+          \repeat volta 2 {
+          c'2 g4
+          c2 d4
+          e fis g
+          c d2
+          g,2.\fermata
+          e2 g4
+          c' b a
+          g f g
+          c2.\fermata }
+          c'2 a4
+          e2 f4
+          g f g
+          c2.\fermata
+          c4 c'8 [bes] a [g]
+          f2 e4
+          a8 [b] c'4 c
+          g2.\fermata
+          c'2 e4
+          f2 g4
+          a b g
+          c'2 c4
+          f2.\fermata
+          c2 c'4
+          c' b c'
+          f g c
+          g,2.
+          c\fermata \fine
+        }
+      >>
+    }
+  >>
+}
+
+\layout {
+  \context {
+    \Staff
+    \consists "Merge_rests_engraver"
+  }
+}
+\midi {}

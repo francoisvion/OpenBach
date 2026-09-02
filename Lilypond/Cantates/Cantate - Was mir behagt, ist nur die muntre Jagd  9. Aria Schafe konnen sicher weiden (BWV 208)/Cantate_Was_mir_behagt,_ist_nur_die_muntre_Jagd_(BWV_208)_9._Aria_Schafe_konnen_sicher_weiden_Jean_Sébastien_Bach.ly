@@ -38,7 +38,7 @@
   title = "9. Aria - Schafe konnen sicher weiden"
   subtitle = "Cantate : Was mir behagt, ist nur die muntre Jagd"
   opus = "BWV 208"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 

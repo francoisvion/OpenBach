@@ -9,7 +9,7 @@
 \header {
   title = "Fugue"
   subtitle = "Prélude, Fugue et Allegro en Mib Majeur"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 998"
   tagline = ##f
 }

@@ -3,7 +3,7 @@
   title = "Prélude 2"
   subtitle = "Le clavier bien tempéré - Livre 2"
   opus = "BWV 871"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ""
 }
 upper = \relative c'' {

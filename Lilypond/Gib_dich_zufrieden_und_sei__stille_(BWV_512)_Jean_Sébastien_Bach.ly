@@ -2,7 +2,7 @@
 \include "english.ly"
 \header {
   title = "Gib dich zufrieden und sei stille"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 512"
   tagline = ##f
 }

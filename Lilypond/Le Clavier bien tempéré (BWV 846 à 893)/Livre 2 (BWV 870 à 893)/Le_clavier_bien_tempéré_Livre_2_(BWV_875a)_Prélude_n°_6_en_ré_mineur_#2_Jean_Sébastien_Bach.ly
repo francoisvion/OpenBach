@@ -4,7 +4,7 @@
 \header {
   title =	"Praeludium VI"
   opus = "BWV 875"
-  composer = 	 "Jean Sébastien Bach (1685-1750) (1685–1750)"
+  composer = 	 "Jean-Sébastien Bach (1685-1750) (1685–1750)"
   tagline = ##f
 }
 

@@ -1,0 +1,83 @@
+sopranoMusic = {
+          \partial 4  d'4
+          f' g' a'\fermata d''
+          c''4. b'8 a' [b'] c''4
+          b'2 a'4\fermata
+          \partial 4  d''
+          d'' d'' cis''\fermata e''
+          d'' a' bes' a'8 [g']
+          g'2 f'4\fermata f'
+          e' e' d'\fermata
+          \partial 4  a'
+          c'' c'' g'8 [a'] bes'4
+          a'\fermata a' c'' d''
+          a'\fermata c'' a' g'8 [f']
+          e'4. d'8 d'2\fermata \fine
+        }
+
+altoMusic = {
+          \partial 4  a4
+          d'4. e'8 f'4\fermata a'
+          a' gis' a'8 [gis'] a'4
+          a'8 [gis'16 fis'] gis'4 e'\fermata
+          \partial 4  a'
+          a'8 [g'] b'4 a'\fermata a'8 [g']
+          f'4 f' g' f'
+          f'8 [e'16 d'] e'4 c'\fermata d'
+          d' cis' a\fermata
+          \partial 4 f'~
+          f'8 [e'] f'4 e' f'8 [g']
+          f'4\fermata f' f' f'
+          f'\fermata g'4. f'16 [e'] d'4
+          d' cis' a2\fermata \fine
+        }
+
+tenorMusic = {
+          \partial 4  f4
+          a bes d'\fermata f'
+          e' e'8. [d'16] c'8 [d'] e' [f']
+          b e'4 d'8 cis'4\fermata
+          \partial 4  d'
+          d'8 [e'] f'4 e'\fermata a
+          a d'~ d'8 [c'] c'4
+          d'8 [bes] g [c'16 bes] a4\fermata bes
+          bes a8 [g] f4\fermata
+          \partial 4 d'
+          c' c' c'8 [a] d' [c']
+          c'4\fermata d' c'~ c'8 [bes]
+          c'4\fermata c' c' bes~
+          bes8 [g] e [a16 g] fis2\fermata \fine
+        }
+
+bassMusic = {
+          \partial 4  d4
+          d g, d,\fermata d
+          a e f c8 [d]
+          e4 e, a,\fermata
+          \partial 4  f
+          bes a8 [gis] a4\fermata cis
+          d8 [e] f4~ f8 [e] f4
+          bes, c f,\fermata bes,
+          g, a, d,\fermata
+          \partial 4 d
+          a,8 [g,] a, [bes,] c4 d8 [e]
+          f4\fermata d a, bes,
+          f,\fermata e, d, bes,
+          g, a, d,2\fermata \fine
+        }
+
+sopranoLyrics = \lyricmode {
+      Die Sonn' hat sich mit ih -- rem Glanz ge -- wen -- det und, was sie soll, auf die -- sen Tag woll en -- det; die dun -- kle Nacht dringt al -- lent -- hal -- ben zu, bringt Men -- schen, Vieh und al -- le Welt zur Ruh'.
+    }
+
+altoLyrics = \lyricmode {
+      Die Sonn' hat sich mit ih -- rem Glanz ge -- wen - det und, was sie soll, auf die -- sen Tag woll en - det; die dun -- kle Nacht "dringt al" lent -- hal -- ben zu, bringt Men -- schen, Vieh und al -- le Welt zur Ruh'.
+    }
+
+tenorLyrics = \lyricmode {
+      Die Sonn' hat sich mit ih -- rem Glanz ge -- wen - - det und, was sie soll, auf die -- sen Tag woll en -- det; die dun -- kle Nacht dringt al -- lent -- hal -- ben zu, bringt "Men schen," Vieh und al "le Welt" zur Ruh'.
+    }
+
+bassLyrics = \lyricmode {
+      Die Sonn' hat sich mit ih -- rem Glanz ge -- wen - det und, was sie soll, auf die -- sen Tag woll en -- det; die dun -- kle Nacht dringt al -- lent -- hal -- ben zu, bringt Men -- schen, Vieh und al -- le Welt zur Ruh'.
+    }

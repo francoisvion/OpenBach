@@ -2,7 +2,7 @@
 #(set-global-staff-size 20)
 \header {
   title = "Sinfonie 10"
-  composer = "Jean Sébastien Bach (1685-1750) (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750) (1685-1750)"
   opus = "BWV 796"
  tagline = ""
 }

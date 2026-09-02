@@ -2,7 +2,7 @@
 \header {
   title = "Prélude et Fugue en La mineur"
   subtitle = "3 petits préludes et fugues"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 895"
   tagline = ##f
 }

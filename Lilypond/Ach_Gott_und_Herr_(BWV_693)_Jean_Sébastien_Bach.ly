@@ -5,7 +5,7 @@
 \header {
  title = "Ach Gott und Herr"
  subtitle = "attribué à Johann Gottfried Walther (1684-1748)"
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  opus="BWV 693"
  tagline = ##f
 }

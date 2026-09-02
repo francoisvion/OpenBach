@@ -6,7 +6,7 @@
   title = "Sicilienne"
   subtitle = "tirée de la sonate pour flûte n° 2"
   opus = "BMV 1031"
-  composer =  "Jean Sébastien Bach (1685-1750)"
+  composer =  "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 flute = \relative c' {

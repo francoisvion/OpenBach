@@ -14,7 +14,7 @@
         subtitle = "Origine inconnue"
         opus = "BWV 568"
 %        piece = "1. Adagio"
-        composer = "Jean Sébastien Bach (1685-1750)"
+        composer = "Jean-Sébastien Bach (1685-1750)"
 
 tagline = ##f
 }

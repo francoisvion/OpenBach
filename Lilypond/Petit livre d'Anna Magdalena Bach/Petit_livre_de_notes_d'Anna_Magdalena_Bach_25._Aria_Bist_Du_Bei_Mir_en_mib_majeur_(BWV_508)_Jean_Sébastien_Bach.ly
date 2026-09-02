@@ -5,7 +5,7 @@
   subtitle = "Petit Livre de notes d'Anna Magdalena Bach"
   subsubtitle = "attribué à Gottfried Heinrich Stölzel (1690-1749)"
   opus = "BWV 508"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 global = {

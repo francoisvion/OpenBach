@@ -10,7 +10,7 @@
         title = "14 Canons "
         subtitle = "sur les huit premières notes fondamentales de l'Aria des Variations Goldberg"
         piece = "2. All' roverscio "
-        composer = "Jean Sébastien Bach (1685-1750)"
+        composer = "Jean-Sébastien Bach (1685-1750)"
         opus = "BWV 1087"
         tagline = ""
 }

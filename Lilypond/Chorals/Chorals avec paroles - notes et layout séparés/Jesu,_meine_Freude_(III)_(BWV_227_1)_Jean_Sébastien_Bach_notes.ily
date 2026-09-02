@@ -26,12 +26,12 @@ altoMusic = {
           g'8 [a'] b'4 b'4. a'8
           g'1\fermata }          
           g'4 g' a' g'
-          g' fis' d'2
+          g' fis' d'2\fermata
           g'4 g' a' g'8 [a']
           b'4 b' b' ais'
-          fis'2 g'4 fis'
+          fis'2\fermata g'4 fis'
           e' e' e' dis'
-          b1 \fine
+          b1\fermata \fine
         }
 
 tenorMusic = {
@@ -44,12 +44,12 @@ tenorMusic = {
           e'4 e' e' dis'
           b1\fermata }        
           e'4 d' d' d'
-          e' d'8 [c'] b2
+          e' d'8 [c'] b2\fermata
           d'4 e' d' d'
           g' fis' g' fis'8 [e']
-          dis'2 e'4 fis'8 [g']
+          dis'2\fermata e'4 fis'8 [g']
           a' [a] b4 c' b8 [a]
-          gis1 \fine
+          gis1\fermata \fine
         }
 
 bassMusic = {
@@ -62,12 +62,12 @@ bassMusic = {
           c'4 b8 [a] b4 b,
           e1\fermata }
           e8 [fis] g4 fis g
-          c d g,2
+          c d g,2\fermata
           g4 fis8 [e] fis4 g8 [fis]
           e4 b, e fis
-          b,2 e4 d
+          b,2\fermata e4 d
           c b, a, b,
-          e1 \fine
+          e1\fermata \fine
         }
 
 versoOneLyrics = \lyricmode {\set stanza = 1

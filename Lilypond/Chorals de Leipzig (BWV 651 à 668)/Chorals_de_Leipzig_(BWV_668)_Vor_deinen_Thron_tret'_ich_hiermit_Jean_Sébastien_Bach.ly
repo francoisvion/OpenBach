@@ -463,7 +463,7 @@ Choral = \relative {
     >>
   >>
   \header {
-    composer = "Jean Sébastien Bach (1685-1750)"
+    composer = "Jean-Sébastien Bach (1685-1750)"
     subtitle = "Chorals de Leipzig"
     opus = "BWV 668"
     title = "Vor deinen Thron tret' ich hiermit"

@@ -4,7 +4,7 @@
 
 \header {
   title = "Prélude et fugue en la majeur"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 536"
   tagline = ##f
 }

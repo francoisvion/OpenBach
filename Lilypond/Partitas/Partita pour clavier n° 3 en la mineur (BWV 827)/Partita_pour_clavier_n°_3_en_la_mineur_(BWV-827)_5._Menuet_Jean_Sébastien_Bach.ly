@@ -5,7 +5,7 @@
 \header {
   piece = \markup{\larger "5. Menuet"}
   title = "Partita pour clavier n° 3 en la mineur"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 827"
   tagline = ##f
 }

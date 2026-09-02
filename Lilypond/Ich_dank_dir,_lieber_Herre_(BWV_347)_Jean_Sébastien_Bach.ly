@@ -2,7 +2,7 @@
 \header{
   title = "Ich dank' dir, lieber Herre"
   opus = "BWV 347"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   subtitle = "Choral à 4 voix"
   tagline = ##f
 }

@@ -10,7 +10,7 @@
   title = "Prélude n° 1 en do majeur"
   subtitle = "6 petits préludes"
   opus = "BWV 933"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
      sopranoOne =   \relative e' {

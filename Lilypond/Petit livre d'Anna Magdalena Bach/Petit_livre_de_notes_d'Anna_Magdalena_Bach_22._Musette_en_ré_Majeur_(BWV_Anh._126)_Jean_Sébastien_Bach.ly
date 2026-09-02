@@ -4,7 +4,7 @@
   subtitle = "Petit Livre de notes d'Anna Magdalena Bach"
   subsubtitle = "attribuée à Georges Philippe Telemann"
   opus = "BWV Anh. 126"
-  composer =	"Jean Sébastien Bach(1685-1750)"
+  composer =	"Jean-Sébastien Bach(1685-1750)"
   tagline = ##f
 }
 voiceone =  \relative c'' {

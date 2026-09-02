@@ -26,7 +26,7 @@ ragged-last-bottom = ##f
 \header{
   title = "Christ lag in Todesbanden"
   subtitle = "Choral du Petit livre d'Orgue à un clavier et pédalier"
-  composer = "Jean Sébastien Bach (1685-1750"
+  composer = "Jean-Sébastien Bach (1685-1750"
   opus = "BWV 625"
   tagline = ##f
 }

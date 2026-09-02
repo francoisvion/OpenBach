@@ -3,7 +3,7 @@
 \header {
   title = "Warum betrübst du dich"
   subtitle = "Aria"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 516"
   tagline = ##f
 }

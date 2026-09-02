@@ -4,7 +4,7 @@
   title="Ricercare"
   subtitle = "L'Offrande Musicale"
   opus = "BWV 1079"
-  composer="Jean Sébastien Bach (1685-1750)"
+  composer="Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 staffUpper = {\change Staff = upper \stemDown}

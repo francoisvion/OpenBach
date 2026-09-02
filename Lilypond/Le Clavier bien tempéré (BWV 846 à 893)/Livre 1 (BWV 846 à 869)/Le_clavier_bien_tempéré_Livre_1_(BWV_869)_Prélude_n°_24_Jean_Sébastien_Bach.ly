@@ -14,7 +14,7 @@
 
 \header {
   title = "Praeludium 24 - BWV 869"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   % http://imslp.org/wiki/Prelude_and_Fugue_in_B_minor,_BWV_869_%28Bach,_Johann_Sebastian%29
   %
   % Manuscript copy, n.d.(ca.1733-40).

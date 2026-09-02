@@ -526,7 +526,6 @@
   \pageBreak
 
   \markup \column {
-    \vspace #1.5
     \fill-line { \null \fontsize #4 \bold "Présentation générale" \null }
     \vspace #2
     \justify {
@@ -547,7 +546,7 @@
       réellement notée dans la partition —, dièses avant bémols à nombre égal, puis tonalités
       majeures avant mineures.
     }
-    \vspace #1.2
+    \vspace #1.5
     \justify {
       Plusieurs timbres conservent une armure modale héritée de la tradition hymnologique antérieure
       au système tonal majeur/mineur : mode de ré (dorien), mode de mi (phrygien), mode de fa (lydien) 
@@ -558,7 +557,7 @@
       côté majeur, dorien et phrygien du côté mineur) ; l'en-tête de chaque tonalité modale affiche à 
       la fois son nom usuel et cette parenté, par exemple « Mode de ré sur sol (assimilé mineur) — sol dorien ».
     }
-    \vspace #1.2
+    \vspace #1.5
     \justify {
       Ce classement porte sur l'armure telle qu'écrite, non sur la conduite harmonique du choral :
       une pièce en mineur peut parfaitement s'achever sur un accord majeur (la « tierce picarde »,

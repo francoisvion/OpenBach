@@ -5,7 +5,7 @@ date = ""
 
  title = "Nun komm, der Heiden Heiland"
  subtitle = "In Organo pleno"
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  opus="BWV 661"
   tagline = ##f
 }

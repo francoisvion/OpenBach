@@ -5,7 +5,7 @@ date = ""
 
  title = "Trio super: Nun komm, der Heiden Heiland"
  subtitle = "a due Bassi e Canto fermo"
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  opus = \markup { \lower #3 "BWV 660" }
   tagline = ##f
 }

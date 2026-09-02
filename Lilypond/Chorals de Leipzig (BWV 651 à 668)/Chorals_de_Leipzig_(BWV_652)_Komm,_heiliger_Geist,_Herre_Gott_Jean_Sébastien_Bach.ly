@@ -3,7 +3,7 @@
 \header {
  title = "Komm, heiliger Geist, Herre Gott"
  subtitle = "(De la même façon) à 2 claviers et pédalier"
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  opus="BWV 652"
  tagline = ""
 }

@@ -1,7 +1,7 @@
 \version "2.24.4"
 \header {
   title = "Als der gütige Gott vollenden wollt' sein Wort"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 264"
   tagline = ##f
 }

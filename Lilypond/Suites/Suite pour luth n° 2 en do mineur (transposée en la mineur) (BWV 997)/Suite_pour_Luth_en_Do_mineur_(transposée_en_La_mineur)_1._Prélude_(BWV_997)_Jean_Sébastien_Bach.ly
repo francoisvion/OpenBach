@@ -3,7 +3,7 @@
   title = "1. Prélude"
   subtitle = "Suite pour Luth en Do mineur (transposée en La mineur)"
   opus = "BWV 997"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   instrument= "Guitare"
   tagline = ##f
 }

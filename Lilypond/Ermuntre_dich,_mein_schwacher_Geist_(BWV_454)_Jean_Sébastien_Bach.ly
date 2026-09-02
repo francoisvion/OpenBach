@@ -11,7 +11,7 @@
   title = "Ermuntre dich, mein schwacher Geist"
   subtitle = "Schemellis Gesangbuch N° 16"
   opus = "BWV 454"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 global = {

@@ -4,7 +4,7 @@
   title = "Christus der uns seelig macht"
   subtitle = "en canon à l'octave"
   opus="BWV 620"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 global = {

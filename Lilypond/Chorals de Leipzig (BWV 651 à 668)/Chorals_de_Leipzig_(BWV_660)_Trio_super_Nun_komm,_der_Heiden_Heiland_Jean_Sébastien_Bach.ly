@@ -3,7 +3,7 @@
 \header {
  title = "Trio super : Nun komm, der Heiden Heiland"
  subtitle = "à 2 basses et chant fixe"
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  opus = "BWV 660"
  tagline = ""
 }

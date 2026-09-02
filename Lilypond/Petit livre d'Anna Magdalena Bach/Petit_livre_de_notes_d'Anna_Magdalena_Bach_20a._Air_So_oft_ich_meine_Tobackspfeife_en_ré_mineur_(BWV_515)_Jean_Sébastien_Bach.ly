@@ -4,7 +4,7 @@
   title = "20a. Air : So oft ich meine Tobackspfeife en ré mineur"
   subtitle = "Petit Livre de notes d'Anna Magdalena Bach"
   opus = "BWV 515"
-  composer =	"Jean Sébastien Bach (1685-1750)"
+  composer =	"Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 voiceone =  \relative c' {

@@ -31,7 +31,7 @@
 \header {
   title = "Sonate en trio pour orgue n° 4 en mi mineur"
   opus = "BWV 528"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 

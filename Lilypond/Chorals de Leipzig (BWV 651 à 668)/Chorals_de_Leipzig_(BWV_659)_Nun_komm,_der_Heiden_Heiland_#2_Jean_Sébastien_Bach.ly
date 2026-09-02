@@ -394,7 +394,7 @@ Bass = \context Voice = "four" \relative c, {
   \header {
     title = "Nun komm’ der Heiden Heiland"
     opus = "BWV 659"
-    composer = "Jean Sébastien Bach (1685-1750)"
+    composer = "Jean-Sébastien Bach (1685-1750)"
   }
   \layout {
     \context {

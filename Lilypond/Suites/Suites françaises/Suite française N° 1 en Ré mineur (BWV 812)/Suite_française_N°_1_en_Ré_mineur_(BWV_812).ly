@@ -3,7 +3,7 @@
 \header {
     title = "Suite française N° 1"
     opus = "BWV 812"
-    composer = "Jean Sébastien Bach (1685-1750)"
+    composer = "Jean-Sébastien Bach (1685-1750)"
 }
       
 \pointAndClickOff

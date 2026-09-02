@@ -134,7 +134,7 @@ LowerExtra = \context Voice = "five" \relative c' {
     >>
   >>
   \header {
-    composer = "Jean Sébastien Bach (1685-1750)"
+    composer = "Jean-Sébastien Bach (1685-1750)"
     opus = "BWV 925"
     title = "2. Petit Prélude en Ré Majeur"
     subtitle = ##f

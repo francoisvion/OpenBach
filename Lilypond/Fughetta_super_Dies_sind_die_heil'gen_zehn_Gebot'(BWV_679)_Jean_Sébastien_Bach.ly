@@ -5,7 +5,7 @@
 \header {
   title = "Fughetta super : Dies sind die heil'gen zehn Gebot'"
   subtitle = "Manualiter"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 679"
   tagline = ##f
 }

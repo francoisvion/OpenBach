@@ -326,7 +326,6 @@
   \pageBreak
 
   \markup \column {
-    \vspace #1.5
     \fill-line { \null \fontsize #4 \bold "Présentation générale" \null }
     \vspace #2
     \justify {
@@ -350,7 +349,7 @@
       oratorios (225 à 249), puis chorals harmonisés isolés (250 à 438), et ainsi de suite. Un numéro
       BWV plus élevé ne signifie donc pas une composition plus tardive.
     }
-    \vspace #1.2
+    \vspace #1.5
     \justify {
       Beaucoup de chorals de ce recueil ont d'abord été composés pour clore une cantate ou pour
       ponctuer une Passion ou l'Oratorio de Noël (BWV 248) : leur numéro reflète alors celui de
@@ -358,7 +357,7 @@
       deux chorals consécutifs de ce classement. Ce recueil ne réunit que 361 chorals à quatre voix ;
       il ne prétend pas à l'exhaustivité du catalogue BWV, d'où les nombreux numéros absents.
     }
-    \vspace #1.2
+    \vspace #1.5
     \justify {
       Un seul choral de ce recueil ne porte aucun numéro BWV connu ; il est classé en toute fin de
       volume.

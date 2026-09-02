@@ -4,7 +4,7 @@
   subtitle = "Le clavier bien tempéré - Livre 1"
   subsubtitle = "expansion à 4 voix"
   opus = "BWV 846"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 global = {

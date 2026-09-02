@@ -272,7 +272,7 @@ CentSeizeB = \relative c' {
   title = "Menuets"
   opus = "BWV Anh 114 à 116"
   subtitle = "Adaptation pour duo de violons ou de flûtes"
-  composer =  "Jean Sébastien Bach (1685-1750)"
+  composer =  "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 \score {
@@ -326,7 +326,7 @@ CentSeizeB = \relative c' {
   title = "Menuet"
   subtitle = "Adaptation pour duo de violons altos"
   opus = "BWV Anh 114 à 116"
-  composer =  "Jean Sébastien Bach (1685-1750)"
+  composer =  "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 \score {

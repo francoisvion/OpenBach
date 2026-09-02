@@ -2,7 +2,7 @@
 \header {
   title = "2. Courante"
   subtitle = "Suite française N° 5"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 816"
   tagline = ##f
   }

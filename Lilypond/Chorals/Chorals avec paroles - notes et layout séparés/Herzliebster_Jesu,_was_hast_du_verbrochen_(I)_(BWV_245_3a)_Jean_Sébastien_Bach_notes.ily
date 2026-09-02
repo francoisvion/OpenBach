@@ -33,7 +33,7 @@ altoMusic = {
 tenorMusic = {
           \voiceOne
           \partial 4  bes4
-          bes a8 [g] a4 fis
+          bes a8 [g] a4\fermata fis
           g c' d' d'
           ees' d' d'\fermata d'
           d' ees' f' d'

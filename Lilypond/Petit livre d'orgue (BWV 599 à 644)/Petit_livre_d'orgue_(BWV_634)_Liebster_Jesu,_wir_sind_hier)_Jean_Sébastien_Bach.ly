@@ -14,7 +14,7 @@
  title = "Liebster Jesu, wir sind hier"
  subtitle = "Petit livre d'orgue"
  subsubtitle = "en Canon à la quinte à 2 claviers et pédalier"
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  opus = "BWV 634"
  tagline = ##f
 }

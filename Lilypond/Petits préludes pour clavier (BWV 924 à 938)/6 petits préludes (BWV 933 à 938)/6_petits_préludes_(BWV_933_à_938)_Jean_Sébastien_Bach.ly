@@ -3,7 +3,7 @@
 #(ly:set-option 'relative-includes #t)
 
 \header {
-  composer =  ##f %"Jean Sébastien Bach (1685-1750)"
+  composer =  ##f %"Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 933 à 938"
   title = "6 petits préludes"
   tagline = ##f

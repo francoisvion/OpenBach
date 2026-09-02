@@ -3,7 +3,7 @@
 \header {
   title = "Praeludium IX"
   subtitle = "Das Wohltemperierte Clavier, I"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 854"
   date = "around 1722"
   tagline = ##f

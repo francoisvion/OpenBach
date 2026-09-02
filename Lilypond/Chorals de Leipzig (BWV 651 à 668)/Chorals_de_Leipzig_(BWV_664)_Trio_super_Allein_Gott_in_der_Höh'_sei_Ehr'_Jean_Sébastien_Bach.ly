@@ -2,7 +2,7 @@
 \header {
  title = "Trio super : Allein Gott in der Höh' sei Ehr'"
  subtitle = "à 2 claviers et pédalier"
- composer = "Jean Sébastien Bach (1685-1750)"
+ composer = "Jean-Sébastien Bach (1685-1750)"
  opus = "BWV 664"
  tagline = ""
 }

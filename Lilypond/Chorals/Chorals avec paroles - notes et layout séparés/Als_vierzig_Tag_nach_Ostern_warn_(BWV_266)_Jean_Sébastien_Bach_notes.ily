@@ -48,7 +48,7 @@ altoMusic = {
           fis' e'8 [dis'] e'4
           e' dis'2\fermata
           b4 e' fis'
-          e'4. g'8 [fis' e']
+          e'4. g'8 fis' [e']
           dis'2.\fermata \fine
         }
 
@@ -112,5 +112,5 @@ sopranoLyrics = \lyricmode {
       b'schied er sein' Jün -- ger auf ein Berg,
       auf _ ein Berg,
       vol -- len -- det da sein Amt und Werk.
-      Hal - le -- lu -- ja!
+      Hal - - le -- lu -- ja!
     }

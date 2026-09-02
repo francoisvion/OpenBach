@@ -8,7 +8,7 @@
   title = "Fugue N° 4"
   subtitle = "à 5 voix"
   opus = "BWV 849"
-  composer = "Jean Sébastien Bach (1685–1750)"
+  composer = "Jean-Sébastien Bach (1685–1750)"
   tagline = ##f
 }
 

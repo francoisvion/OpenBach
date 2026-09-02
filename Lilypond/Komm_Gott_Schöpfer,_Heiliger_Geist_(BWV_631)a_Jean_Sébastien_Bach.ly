@@ -4,7 +4,7 @@
 
 \header {
   title = "Komm Gott Schöpfer, Heiliger Geist"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 631a"
   tagline = ##f
 }

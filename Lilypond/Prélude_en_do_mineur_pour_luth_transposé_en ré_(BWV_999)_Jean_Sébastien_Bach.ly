@@ -4,7 +4,7 @@
 \header {
   title = "Prélude en do mineur"
   instrument = "transposé en ré pour Luth"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV 999"
   tagline = ##f
 }

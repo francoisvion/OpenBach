@@ -3,7 +3,7 @@
 \header {
   title = "Wer nur den lieben Gott lässt walten"
   opus = "BWV 647"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
 }
 global = {

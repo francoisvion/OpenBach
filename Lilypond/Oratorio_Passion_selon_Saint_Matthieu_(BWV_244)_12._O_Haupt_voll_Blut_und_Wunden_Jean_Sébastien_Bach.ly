@@ -3,7 +3,7 @@
   title = "12. O Haupt voll Blut und Wunden"
   subtitle = "Oratorio : La Passion selon Saint Matthieu "
   opus = "BWV 244"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   piece = "Choral. Chœur I.II"
   tagline = ##f
 }

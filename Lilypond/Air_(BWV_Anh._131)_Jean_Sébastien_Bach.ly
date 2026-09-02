@@ -1,7 +1,7 @@
 \version "2.24.4"
 \header {
   title = "Air"
-  composer = "Jean Sébastien Bach (1685-1750)"
+  composer = "Jean-Sébastien Bach (1685-1750)"
   opus = "BWV Anh. 131"
   tagline = ##f
 }
