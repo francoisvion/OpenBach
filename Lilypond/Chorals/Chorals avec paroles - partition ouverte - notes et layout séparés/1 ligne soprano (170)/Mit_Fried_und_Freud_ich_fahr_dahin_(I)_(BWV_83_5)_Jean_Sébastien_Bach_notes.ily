@@ -62,8 +62,7 @@ bassMusic = {
           cis [d] a,4 d\fermata \fine
         }
 
-sopranoLyrics = \lyricmode {\set stanza = 2
-      Er ist das Heil und se -- lig Licht
+sopranoLyrics = \lyricmode {Er ist das Heil und se -- lig Licht
       für __ _ die Hei - den,
       "zu er" -- leuch -- ten, die dich ken - - nen nicht,
       und zu wei - den.
@@ -71,29 +70,14 @@ sopranoLyrics = \lyricmode {\set stanza = 2
       der Preis, Ehr, Freud und Won - ne.
     }
 
-altoLyrics = \lyricmode {\set stanza = 2
-      Er ist das Heil und se -- lig Licht
-      für __ _ die Hei - den,
-      "zu er" -- leuch -- ten, die dich ken - - nen nicht,
-      und zu wei - den.
-      es ist deins Volks I -- sra -- el
-      der Preis, Ehr, Freud und Won - ne.
+altoLyrics = \lyricmode {
+      Er ist das Heil und - se - lig Licht für __ _ die - Hei - den, "zu er" -- leuch -- ten, die dich - ken - - nen nicht, und - zu wei - den. es ist deins - Volks - I sra -- el der Preis, Ehr, Freud und Won - ne.
     }
 
-tenorLyrics = \lyricmode {\set stanza = 2
-      Er ist das Heil und se -- lig Licht
-      für __ _ die Hei - - den,
-      "zu er" -- leuch -- ten, die dich ken - - nen nicht,
-      und zu wei - den.
-      es ist deins Volks I -- sra -- el
-      der Preis, Ehr, Freud und Won - ne.
+tenorLyrics = \lyricmode {
+      Er ist das Heil und - se - lig - Licht für __ _ _ die Hei - - den, "zu er" -- leuch -- ten, die dich ken - - nen nicht, und - zu wei - den. es ist deins - Volks I sra -- el der Preis, Ehr, Freud "und Won -" - ne.
     }
 
-bassLyrics = \lyricmode {\set stanza = 2
-      Er ist das Heil und se -- lig Licht
-      für __ _ die Hei -- den,
-      "zu er" -- leuch -- ten, die dich ken - - nen nicht,
-      und zu wei - den.
-      es ist deins Volks I -- sra -- el
-      der Preis, Ehr, Freud und Won - ne.
+bassLyrics = \lyricmode {
+      Er ist das Heil und - se -- lig Licht für __ _ die Hei - den, "zu er" -- leuch -- ten, die dich ken - - nen nicht, und zu wei - den. es ist deins - Volks I sra -- el "der Preis," Ehr, - Freud - und Won - ne.
     }

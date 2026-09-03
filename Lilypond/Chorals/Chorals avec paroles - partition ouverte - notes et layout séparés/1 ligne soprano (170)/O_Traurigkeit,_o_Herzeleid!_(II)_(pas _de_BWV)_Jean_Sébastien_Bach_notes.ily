@@ -12,20 +12,20 @@ sopranoMusic = \relative c' {
 
 altoMusic = \relative c' {
           \partial 4 fis4
-          d es a, d
-          d cis d fis
+          d es a,\fermata d
+          d cis d\fermata fis
           g a g d
           g f d2\fermata
           d4 d f f
-          fis g fis2
+          fis g fis2\fermata
           g4 fis g g
           e d b4\fermata \fine
         }
 
 tenorMusic = \relative c {
           \partial 4 a'4
-          bes c fis, a
-          g e d a'
+          bes c fis,\fermata a
+          g e d\fermata a'
           bes d bes bes
           bes a bes2\fermata
           fis4 g a bes
@@ -37,8 +37,8 @@ tenorMusic = \relative c {
 
 bassMusic = \relative c {
           \partial 4 d4
-          g es d d
-          es a, d d
+          g es d\fermata d
+          es a, d\fermata d
           g fis g f
           es f bes,2\fermata
           d4 g f bes
@@ -58,23 +58,23 @@ sopranoLyrics = \lyricmode {
 altoLyrics = \lyricmode {
       O Trau -- rig -- keit,
       O Her -- ze -- leid!
-      Ist das nicht zu be -- kla -- gen?
+      Ist das nicht zu be -- kla - gen?
       Gott des Va -- ters ei -- nigs Kind
-      wird ins Grab ge -- tra -- gen.
+      wird ins Grab ge -- tra - gen.
      }
 
 tenorLyrics = \lyricmode {
       O Trau -- rig -- keit,
       O Her -- ze -- leid!
-      Ist das nicht zu be -- kla -- gen?
+      Ist das nicht zu be -- kla - gen?
       Gott des Va -- ters ei -- nigs Kind
-      wird ins Grab ge -- tra -- gen.
+      wird ins Grab ge -- tra - gen.
      }
 
 bassLyrics = \lyricmode {
       O Trau -- rig -- keit,
       O Her -- ze -- leid!
-      Ist das nicht zu be -- kla -- gen?
+      Ist das nicht zu be -- kla - gen?
       Gott des Va -- ters ei -- nigs Kind
-      wird ins Grab ge -- tra -- gen.
+      wird ins Grab ge -- tra - gen.
      }

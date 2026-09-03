@@ -45,7 +45,7 @@ tenorMusic = {
           c'8 [b] a4 g8 [a] b4
           a2.\fermata gis4
           a d' e' a~
-          a8 [gis] a4 b\fermata b
+          a8 gis a4 b\fermata b
           a8 [b] a [g] fis [g] a4
           gis2.\fermata a4
           a d' d'8 [e'] f' [d']
@@ -81,7 +81,7 @@ bassMusic = {
 sopranoLyrics = \lyricmode {
       Von Gott will ich nicht las - sen,
       denn er lässt nicht von mir,
-      führt mich auf rech -- ter Stra - Ben,
+      führt mich auf rech -- ter Stra - ßen,
       da ich sonst ir -- ret sehr.
       Er reicht mir sei -- ne Hand,
       den A -- bend wie den Mor - gen,
@@ -92,7 +92,7 @@ sopranoLyrics = \lyricmode {
 altoLyrics = \lyricmode {
       Von Gott will ich nicht las - sen,
       denn er lässt nicht von mir,
-      führt mich auf rech -- ter Stra - Ben,
+      führt mich auf rech -- ter Stra - ßen,
       da ich sonst ir -- ret sehr.
       Er reicht mir sei -- ne Hand,
       den A -- bend wie den Mor - gen,
@@ -101,9 +101,9 @@ altoLyrics = \lyricmode {
     }
 
 tenorLyrics = \lyricmode {
-      Von Gott will ich nicht las - sen,
+      Von Gott will ich nicht las -- sen,
       denn er lässt nicht von mir,
-      führt mich auf rech -- ter Stra - Ben,
+      führt mich auf rech -- ter Stra - ßen,
       da ich sonst ir -- ret sehr.
       Er reicht mir sei -- ne Hand,
       den A -- bend wie den Mor - gen,
@@ -114,7 +114,7 @@ tenorLyrics = \lyricmode {
 bassLyrics = \lyricmode {
       Von Gott will ich nicht las - sen,
       denn er lässt nicht von mir,
-      führt mich auf rech -- ter Stra - Ben,
+      führt mich auf rech -- ter Stra - ßen,
       da ich sonst ir -- ret sehr.
       Er reicht mir sei -- ne Hand,
       den A -- bend wie den Mor - gen,

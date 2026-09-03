@@ -70,7 +70,7 @@ bassMusic = {
           c4 d g,\fermata \fine
         }
 
-sopranoLyrics = \lyricmode {\set stanza = 1
+sopranoLyrics = \lyricmode {
       Mir man -- gelt zwar sehr viel,
       doch, was ich ha -- ben will,
       ist al -- les mir zu gu -- te,
@@ -79,29 +79,29 @@ sopranoLyrics = \lyricmode {\set stanza = 1
       Tod, Teu -- fel, Höll und Sün -- de.
     }
 
-altoLyrics = \lyricmode {\set stanza = 1
+altoLyrics = \lyricmode {
       Mir man -- gelt zwar sehr viel,
       doch, was ich ha -- ben will,
-      ist al -- les mir zu gu -- te,
-      er -- langt mit dei -- nem Blu -- te,
-      da -- mit ich ü -- ber -- win -- de
-      Tod, Teu -- fel, Höll und Sün -- de.
+      ist al -- les mir zu gu - te,
+      er -- langt mit dei -- nem Blu - te,
+      da -- mit ich ü -- ber -- win - de
+      Tod, Teu -- fel, Höll und Sün - de.
     }
 
-tenorLyrics = \lyricmode {\set stanza = 1
+tenorLyrics = \lyricmode {
       Mir man -- gelt zwar sehr viel,
       doch, was ich ha -- ben will,
-      ist al -- les mir zu gu -- te,
-      er -- langt mit dei -- nem Blu -- te,
-      da -- mit ich ü -- ber -- win -- de
-      Tod, Teu -- fel, Höll und Sün -- de.
+      ist al -- les mir zu gu - te,
+      er -- langt mit dei -- nem Blu - te,
+      da -- mit ich ü -- ber -- win - de
+      Tod, Teu -- fel, Höll und Sün - de.
     }
 
-bassLyrics = \lyricmode {\set stanza = 1
+bassLyrics = \lyricmode {
       Mir man -- gelt zwar sehr viel,
       doch, was ich ha -- ben will,
-      ist al -- les mir zu gu -- te,
-      er -- langt mit dei -- nem Blu -- te,
-      da -- mit ich ü -- ber -- win -- de
-      Tod, Teu -- fel, Höll und Sün -- de.
+      ist al -- les mir zu gu - te,
+      er -- langt mit dei -- nem Blu - te,
+      da -- mit ich ü -- ber -- win - de
+      Tod, Teu -- fel, Höll und Sün - de.
     }

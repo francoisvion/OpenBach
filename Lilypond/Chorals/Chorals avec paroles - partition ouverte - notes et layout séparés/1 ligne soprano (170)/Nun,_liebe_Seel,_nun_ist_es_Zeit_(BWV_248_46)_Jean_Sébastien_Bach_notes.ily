@@ -62,8 +62,7 @@ bassMusic = {
           a,2.\fermata \fine
         }
 
-sopranoLyrics = \lyricmode {\set stanza = 1
-      Dein Glanz all Fin - - ster -- nis ver -- zehrt,
+sopranoLyrics = \lyricmode {Dein Glanz all Fin - - ster -- nis ver -- zehrt,
       Die trü -- be Nacht in Licht ver -- kehrt.
       Leit uns auf dei -- nen We - gen,
       dass dein Ge -- sicht
@@ -72,13 +71,13 @@ sopranoLyrics = \lyricmode {\set stanza = 1
     }
 
 altoLyrics = \lyricmode {
-      \set stanza - = - 1 Dein Glanz all Fin - - - ster -- nis ver - zehrt, - Die - trü - - be - Nacht in Licht ver -- kehrt. - Leit uns auf dei - nen - We - - "gen, dass" dein - Ge sicht und - herr -- lichs Licht - Wir e - wig - schau - - "- en mö" - gen!
+      Dein Glanz - all - Fin - - ster -- nis - ver -- zehrt, Die trü -- be - Nacht - in - Licht - - ver - kehrt. Leit uns auf dei - nen - We - - - - gen, dass - "dein Ge" - - sicht und herr - lichs Licht Wir - e -- wig - schau - - - - "en mö" - gen!
     }
 
 tenorLyrics = \lyricmode {
-      \set - stanza = - 1 Dein Glanz all - Fin - - - ster -- nis ver -- zehrt, - Die trü -- be - Nacht in Licht ver -- kehrt. Leit uns auf dei -- nen We - gen, - dass dein Ge sicht - und herr -- lichs Licht Wir e - "wig schau" - - - en mö - - - gen!
+      Dein - Glanz all - Fin - - ster - nis ver - zehrt, Die trü -- be Nacht - in Licht ver - kehrt. Leit uns auf dei -- nen We - - - gen, dass dein - Ge - sicht und - herr -- lichs Licht Wir e -- wig - "schau -" - - en - mö - - - gen!
     }
 
 bassLyrics = \lyricmode {
-      \set stanza = - 1 "Dein Glanz" - all - Fin - - - ster -- nis ver -- zehrt, - Die - trü - be - Nacht in - Licht - ver - kehrt. Leit uns auf dei -- nen We - gen, - dass dein Ge sicht und - herr -- lichs Licht "Wir e wig" - - schau - - - en mö - - gen!
+      Dein Glanz all - Fin "- -" - ster - nis - ver -- zehrt, Die trü -- be Nacht - in - Licht - ver - kehrt. Leit - uns - auf - dei -- nen - We - - gen, dass dein - Ge - sicht und herr - lichs Licht Wir "e wig schau" - - - - - en - mö - - gen!
     }

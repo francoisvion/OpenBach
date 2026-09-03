@@ -62,7 +62,7 @@ bassMusic = {
           e [cis] fis [fis,] b,4\fermata \fine
         }
 
-sopranoLyrics = \lyricmode {\set stanza = 1
+sopranoLyrics = \lyricmode {
       Dein Blut, der ed -- le Saft,
       hat sol -- che Stärk und Kraft,
       dass auch ein Tröpf -- lein klei -- ne die gan -- ze Welt könnt rei -- ne,
@@ -70,26 +70,14 @@ sopranoLyrics = \lyricmode {\set stanza = 1
       frei, los und le -- dig ma -- chen.
     }
 
-altoLyrics = \lyricmode {\set stanza = 1
-      Dein Blut, der ed -- le Saft,
-      hat sol -- che Stärk und Kraft,
-      dass auch ein Tröpf -- lein klei -- ne die gan -- ze Welt könnt rei -- ne,
-      ja, gar aus Teu -- fels Ra -- chen
-      frei, los und le -- dig ma -- chen.
+altoLyrics = \lyricmode {
+      Dein Blut, der ed -- le Saft, hat sol -- che Stärk und Kraft, dass auch ein Tröpf -- lein klei -- ne die gan - ze Welt könnt rei - ne, ja, gar aus Teu -- fels Ra -- chen frei, los und le -- dig ma - chen.
     }
 
-tenorLyrics = \lyricmode {\set stanza = 1
-      Dein Blut, der ed -- le Saft,
-      hat sol -- che Stärk und Kraft,
-      dass auch ein Tröpf -- lein klei -- ne die gan -- ze Welt könnt rei -- ne,
-      ja, gar aus Teu -- fels Ra -- chen
-      frei, los und le -- dig ma -- chen.
+tenorLyrics = \lyricmode {
+      Dein Blut, der ed -- le - Saft, hat sol -- che Stärk und Kraft, dass auch ein "Tröpf lein" - klei -- ne die gan -- ze Welt könnt rei - ne, ja, gar aus - Teu - fels Ra -- chen frei, los und le -- dig ma - - chen.
     }
 
-bassLyrics = \lyricmode {\set stanza = 1
-      Dein Blut, der ed -- le Saft,
-      hat sol -- che Stärk und Kraft,
-      dass auch ein Tröpf -- lein klei -- ne die gan -- ze Welt könnt rei -- ne,
-      ja, gar aus Teu -- fels Ra -- chen
-      frei, los und le -- dig ma -- chen.
+bassLyrics = \lyricmode {
+      Dein Blut, der ed - le Saft, hat sol -- che Stärk und Kraft, dass auch ein Tröpf - lein - klei - - - ne - die - gan -- ze - Welt - könnt - rei - - - ne, ja, gar aus Teu -- fels - Ra - - - chen frei, los - und - le - dig - ma - - - chen.
     }

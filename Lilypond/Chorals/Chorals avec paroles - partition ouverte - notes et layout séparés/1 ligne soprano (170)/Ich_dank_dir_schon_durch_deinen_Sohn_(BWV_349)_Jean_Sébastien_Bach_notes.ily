@@ -21,11 +21,11 @@ altoMusic = {
            c'4 c' f'~
           f' e'8 [d'] e'4
           f'2 f'4
-          g'2.
+          g'2.\fermata
           f'4 f' g'8 [a']
           bes'2 bes'4~
           bes'2 a'4
-          f'2.
+          f'2.\fermata
            g'4 f' f'
           f'2 f'4
           g'8 [f'] e'4 f'~
@@ -33,14 +33,14 @@ altoMusic = {
           f'4 g'8 [bes'] a'4
           g' f'8 [e'] f'4
           f'2 e'4
-          c'2. \fine
+          c'2.\fermata \fine
         }
 
 tenorMusic = {
            a4 a a
           g8 [a] bes4 c'
           c'2 d'4
-          e'2.
+          e'2.\fermata
           c'4 d' ees'
           f'2 f'4
           g'8 [f'] ees' [d'] c' [ees']
@@ -48,11 +48,11 @@ tenorMusic = {
            c'4 c' c'~
           c' bes a
           g c' c'
-          c'2.
+          c'2.\fermata
           c'4 c' f'8 [e']
           d'4 c' c'
           c' d' c'8 [bes]
-          a2. \fine
+          a2.\fermata \fine
         }
 
 bassMusic = {
@@ -81,15 +81,11 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Ich dank' dir schon durch dei -- nen Sohn,
-      o Gott, für dei -- ne Gü -- te,
-      dass du mich heut in die - ser Nacht so gnä -- dig hast be -- hü - tet.
+      Ich dank' "dir schon" - - durch dei -- nen Sohn, o Gott, für - dei "ne Gü" - te, dass du mich heut in die - - "ser Nacht" - so gnä - dig hast - - be "hü -" - tet.
     }
 
 tenorLyrics = \lyricmode {
-      Ich dank' dir schon durch dei -- nen Sohn,
-      o Gott, für dei -- ne Gü -- te,
-      dass du mich heut in die - ser Nacht so gnä -- dig hast be -- hü - tet.
+      Ich dank' dir schon - - durch dei -- nen Sohn, o Gott, für dei -- ne Gü - - - - - te, - - - dass du mich heut in die - ser Nacht so gnä -- dig - hast - be -- hü - - - tet.
     }
 
 bassLyrics = \lyricmode {

@@ -52,9 +52,9 @@ altoMusic = {
            a'4 cis' d'4. cis'8
           d'4. cis'16 [b] cis'2\fermata
           e' e'4 f'~
-          f'8 [fis'] g' [gis'] a' [a] b [d']
+          f'8 fis' g' gis' a' [a] b [d']
           d' [c'16 b] c'4\fermata g'8 [f'] e' [g']~
-          g' [f'16 e'] f'4 f'4. e'8~
+          g' f'16 [e'] f'4 f'4. e'8~
           e' d'4 cis'8 d'2
           e'\fermata e'4 a
           d'8 [c'] bes [c'] a [bes] g [e']
@@ -81,25 +81,25 @@ tenorMusic = {
           a2\fermata f8 [g16 a] bes8 [a16 g]
           f4. e8 f [e] d [bes]
           cis [a] bes [a16 g] f2\fermata
-          g g8 [a] b [g]
+          g g8 a b [g]
           c' [a] e'4 d'8 c'4 bes8
           a2\fermata a4 e'8 [d']
-           c' [d'] e'4 a2
+           c' [d'] e'4 a4 a
           a4. gis8 a2\fermata
           a8 [b] c' [d'] c' [b] a [gis]
           a4 e'4. d'8 e'4
           e'2\fermata g4 a
           a2 d'4. c'16 [bes]
-          a2~ a8 [g] a [b]
+          a2~ a8 g a [b]
           c'2\fermata cis'8 [d'] e'4
           a g8 [a] fis [g] a4~
-          a8 [g] a4 bes a8 [g]~
+          a8 g a4 bes a8 [g]~
           g [f16 e] f4\fermata bes8 [a] g [c']
            a4 d'8 [b] g4. c'8
           c'2\fermata r4 d'8 [a]
           a bes4 a16 [g] f2\fermata
           a a8 bes4 a16 [g]
-          a8 [g16 f] g8 [f16 e] f4 e16 [f g8]
+          a8 [g16 f] g8 [f16 e] f4 e16 [f g8]~
           g [fis16 e] fis2.\fermata \fine
         }
 
@@ -119,10 +119,10 @@ bassMusic = {
           g,8 [a,] b, [g,] c4 g8 [b]
           e [f] g [e] fis [d] g4
           d2\fermata c8 [d] e4~
-           e8 [f] g [e] f [g] a [g]
+           e8 f g [e] f [g] a [g]
           f [e] d4 a,2\fermata
           c8 [d] e [b,] c4 d~
-          d8 [dis] e [c] f4 e
+          d8 dis e [c] f4 e
           a,2\fermata e4 a,
           d2 d8 [c] bes, [c]
           f, [g,] a,4 d,8 [e,] f, [d,]
@@ -155,49 +155,49 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Wir __ _ _ _ _ glau -- ben
-      all' __ _  an ei -- nen Gott,
-      Schöp -- fer Him -- mels und der Er - den,
-      der sich zum Va -- ter ge -- ben hat,
+      Wir __ _ _ _ _ _ glau -- ben
+      all' __ an __ _ ei -- nen Gott,
+      Schöp -- fer Him -- mels und der Er - - den,
+      der sich zum Va -- ter ge -- ben __ hat,
       dass wir sei -- ne Kin -- der wer - den.
-      Er will uns all -- zeit er -- näh -- ren,
-      Seel' und Leib auch wohl be -- wah -- ren,
-      al -- lem Un -- fall will er weh - ren,
-      kein _ Leid soll uns wi -- der -- fah -- ren,
-      er sor - - - - get für uns,
+      Er will uns all -- zeit er -- näh - ren,
+      Seel' und Leib auch wohl be -- wah - ren,
+      al -- lem Un -- fall will er weh - - ren,
+      kein _ Leid __ _ soll uns wi -- der -- fah -- ren,
+      er __ _ sor - - - - get für uns,
       hütt __ _ _ _ _ _ _
-      und wacht; __ _ _
-      es steht Al -- les in sei -- ner Macht.
+      und wacht; __ _ _ _
+      es __ _ steht Al -- les __ _ in sei -- ner Macht.
     }
 
 tenorLyrics = \lyricmode {
-      Wir __ _ _ _ _ glau -- ben
-      all' __ _  an ei -- nen Gott,
-      Schöp -- fer Him -- mels und der Er - den,
+      Wir __ _ _ _ glau -- ben
+      all' __ _  an ei -- nen __ Gott,
+      Schöp -- fer Him -- mels und __ _ der Er - - den,
       der sich zum Va -- ter ge -- ben hat,
       dass wir sei -- ne Kin -- der wer - den.
-      Er will uns all -- zeit er -- näh -- ren,
-      Seel' und Leib auch wohl be -- wah -- ren,
+      Er will uns all -- zeit er -- näh - - ren,
+      Seel' und Leib auch wohl be -- wah - ren,
       al -- lem Un -- fall will er weh - ren,
       kein _ Leid soll uns wi -- der -- fah -- ren,
-      er sor - - - - get für uns,
+      er __ _ sor - - - get __ _ für __ _ uns,
       hütt __ _ _ _ _ _ _
-      und wacht; __ _ _
-      es steht Al -- les in sei -- ner Macht.
+      und wacht; __ _ _ _
+      es steht __ _ Al -- les in sei -- ner Macht.
     }
 
 bassLyrics = \lyricmode {
-      Wir __ _ _ _ _ glau -- ben
+      Wir __ _ _ _ _ glau - ben
       all' __ _  an ei -- nen Gott,
       Schöp -- fer Him -- mels und der Er - den,
       der sich zum Va -- ter ge -- ben hat,
       dass wir sei -- ne Kin -- der wer - den.
-      Er will uns all -- zeit er -- näh -- ren,
-      Seel' und Leib auch wohl be -- wah -- ren,
+      Er will uns all -- zeit er -- näh - ren,
+      Seel' und Leib auch wohl be -- wah - ren,
       al -- lem Un -- fall will er weh - ren,
-      kein _ Leid soll uns wi -- der -- fah -- ren,
-      er sor - - - - get für uns,
+      kein _ Leid soll uns wi -- der -- fah - ren,
+      er __ _ sor - - - - get für __ _ uns,
       hütt __ _ _ _ _ _ _
       und wacht; __ _ _
-      es steht Al -- les in sei -- ner Macht.
+      es __ _ steht Al -- les in sei -- ner Macht.
     }

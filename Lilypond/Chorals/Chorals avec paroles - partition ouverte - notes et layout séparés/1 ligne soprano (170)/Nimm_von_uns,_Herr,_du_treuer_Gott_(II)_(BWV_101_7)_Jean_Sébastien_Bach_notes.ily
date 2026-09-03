@@ -62,8 +62,7 @@ bassMusic = {
           a,4 a, d\fermata \fine
         }
 
-sopranoLyrics = \lyricmode {\set stanza = 2
-      Leit uns mit dei -- ner rech -- ten Hand,
+sopranoLyrics = \lyricmode {Leit uns mit dei -- ner rech -- ten Hand,
       Und se -- gne un -- ser Stadt und Land;
       Gieb uns all -- zeit dein hei -- lges Wort,
       Be -- hüt vors Teu -- fels List und Mord,
@@ -71,29 +70,14 @@ sopranoLyrics = \lyricmode {\set stanza = 2
       Auf dass wir e -- wig bei dir sein.
     }
 
-altoLyrics = \lyricmode {\set stanza = 2
-      Leit uns mit dei -- ner rech -- ten Hand,
-      Und se -- gne un -- ser Stadt und Land;
-      Gieb uns all -- zeit dein hei -- lges Wort,
-      Be -- hüt vors Teu -- fels List und Mord,
-      Ver -- leih ein sel -- ges Stün -- de -- lein,
-      Auf dass wir e -- wig bei __ _ dir sein.
+altoLyrics = \lyricmode {
+      Leit uns mit dei -- ner rech -- ten Hand, Und se -- gne - un -- ser Stadt und Land; Gieb uns all -- zeit dein hei - lges Wort, Be -- hüt vors - Teu -- fels List - und - Mord, Ver -- leih ein sel -- ges Stün -- de -- lein, Auf dass wir e -- wig bei dir - sein.
     }
 
-tenorLyrics = \lyricmode {\set stanza = 2
-      Leit uns mit dei -- ner rech -- ten Hand,
-      Und se -- gne un -- ser Stadt und Land;
-      Gieb uns all -- zeit dein hei -- lges Wort,
-      Be -- hüt vors Teu -- fels List und Mord,
-      Ver -- leih ein sel -- ges Stün -- de -- lein,
-      Auf dass wir e -- wig bei dir sein.
+tenorLyrics = \lyricmode {
+      Leit uns mit dei -- ner rech -- ten Hand, Und se -- gne un -- ser Stadt und Land; Gieb uns all -- zeit dein - hei -- lges Wort, Be -- hüt - vors Teu -- fels List und Mord, Ver -- leih ein sel -- ges Stün -- de -- lein, Auf dass - wir "e wig bei" - dir - sein.
     }
 
-bassLyrics = \lyricmode {\set stanza = 2
-      Leit uns mit dei -- ner rech -- ten Hand,
-      Und se -- gne un -- ser Stadt und Land;
-      Gieb uns all -- zeit dein hei -- lges Wort,
-      Be -- hüt vors Teu -- fels List und Mord,
-      Ver -- leih ein sel -- ges Stün -- de -- lein,
-      Auf dass wir e -- wig bei dir sein.
+bassLyrics = \lyricmode {
+      Leit uns mit dei -- ner rech -- ten Hand, Und - se -- gne un -- ser Stadt und Land; Gieb uns all -- zeit dein - hei -- lges Wort, Be -- hüt vors - Teu -- fels List und Mord, Ver -- leih ein sel -- ges Stün -- de -- lein, Auf dass wir e -- wig - bei dir sein.
     }

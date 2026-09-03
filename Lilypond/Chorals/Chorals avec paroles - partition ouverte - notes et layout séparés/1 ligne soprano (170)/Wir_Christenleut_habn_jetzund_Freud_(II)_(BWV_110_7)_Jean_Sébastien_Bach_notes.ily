@@ -58,19 +58,7 @@ bassMusic = {
           fis2 b,4\fermata \fine
         }
 
-sopranoLyrics = \lyricmode {\set stanza = 1
-      Al -- le -- lu -- ja!
-      Al -- le -- lu -- ja!
-      Ge -- lobt sei Gott,
-      sin -- gen wir all aus un -- sers Her -- zens Grun -- de.
-      Denn Gott hat heut
-      ge -- macht solch Freud,
-      die wir ver -- ges -- sen solln zu kei -- ner Stun -- de.
-
-    }
-
-altoLyrics = \lyricmode {\set stanza = 1
-      Al -- le -- lu -- ja!
+sopranoLyrics = \lyricmode {Al -- le -- lu -- ja!
       Al -- le -- lu -- ja!
       Ge -- lobt sei Gott,
       sin -- gen wir all aus un -- sers Her -- zens Grun -- de.
@@ -80,24 +68,14 @@ altoLyrics = \lyricmode {\set stanza = 1
 
     }
 
-tenorLyrics = \lyricmode {\set stanza = 1
-      Al -- le -- lu -- ja!
-      Al -- le -- lu -- ja!
-      Ge -- lobt sei Gott,
-      sin -- gen wir all aus un -- sers Her -- zens Grun -- de.
-      Denn Gott hat heut
-      ge -- macht solch Freud,
-      die wir ver -- ges -- sen solln zu kei -- ner Stun -- de.
-
+altoLyrics = \lyricmode {
+      Al -- le -- lu -- ja! Al -- le -- lu -- ja! Ge - lobt sei Gott, sin -- gen wir all aus un -- sers - Her -- zens Grun - de. Denn Gott - hat heut ge - macht solch - Freud, die wir - ver -- ges - sen solln zu - kei -- ner Stun - de.
     }
 
-bassLyrics = \lyricmode {\set stanza = 1
-      Al -- le -- lu -- ja!
-      Al -- le -- lu -- ja!
-      Ge -- lobt sei Gott,
-      sin -- gen wir all aus un -- sers Her -- zens Grun -- de.
-      Denn Gott hat heut
-      ge -- macht solch Freud,
-      die wir ver -- ges -- sen solln zu kei -- ner Stun -- de.
+tenorLyrics = \lyricmode {
+      Al - le -- lu - ja! Al - le -- lu - ja! Ge - lobt sei Gott, sin -- gen - wir all aus un -- sers Her -- zens Grun - de. Denn Gott hat heut ge -- macht solch - Freud, die wir - ver - ges -- sen solln zu - kei - ner - Stun - de.
+    }
 
+bassLyrics = \lyricmode {
+      Al -- le -- lu -- ja! Al -- le -- lu -- ja! Ge -- lobt sei Gott, sin -- gen wir - all - aus - un - sers - Her - zens Grun -- de. Denn Gott hat - heut ge -- macht solch - Freud, die - wir ver - ges -- sen - solln zu kei - ner Stun -- de.
     }

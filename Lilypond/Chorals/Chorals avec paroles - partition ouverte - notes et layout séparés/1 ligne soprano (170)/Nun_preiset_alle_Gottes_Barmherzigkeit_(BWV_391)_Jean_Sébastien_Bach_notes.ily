@@ -22,7 +22,7 @@ sopranoMusic = {
 altoMusic = {
           d'4 e' fis'
           g'8 [f'] e'2\fermata
-          f' f'4
+          f'4 f' f'
           g'2 g'4
           g'2.\fermata
           g'4 g' g'
@@ -43,7 +43,7 @@ altoMusic = {
 tenorMusic = {
            b4 b d'
           d' c'2\fermata
-          c' d'4
+          c'4 c' d'
           e'2 d'8 [f']
           e'2.\fermata
           d'4 d' e'
@@ -95,9 +95,9 @@ altoLyrics = \lyricmode {
       Nun prei -- set al -- le
       Got -- tes Barm -- her -- zig -- keit,
       lob' ihn mit Schal -- le,
-      du wer -- the Chri -- sten -- heit!
-      Er lässt dich freund - lich zu sich la -- den.
-      freu -- e dich, I - sra -- el, sei -- ner Gna -- den, Gna -- den.
+      du wer -- the Chri - sten -- heit!
+      Er lässt dich freund - lich zu __ _m sich la - den.
+      freu -- e dich, I - sra -- el, sei -- ner Gna - den.
     }
 
 tenorLyrics = \lyricmode {
@@ -105,15 +105,15 @@ tenorLyrics = \lyricmode {
       Got -- tes Barm -- her -- zig -- keit,
       lob' ihn mit Schal -- le,
       du wer -- the Chri -- sten -- heit!
-      Er lässt dich freund - lich zu sich la -- den.
-      freu -- e dich, I - sra -- el, sei -- ner Gna -- den, Gna -- den.
+      Er lässt dich freund - lich zu __ _ sich la - den.
+      freu -- e dich, I -- sra -- el, sei -- ner Gna - den.
     }
 
 bassLyrics = \lyricmode {
       Nun prei -- set al -- le
-      Got -- tes Barm -- her -- zig -- keit,
+      Got -- tes Barm -- her - zig -- keit,
       lob' ihn mit Schal -- le,
-      du wer -- the Chri -- sten -- heit!
-      Er lässt dich freund - lich zu sich la -- den.
-      freu -- e dich, I - sra -- el, sei -- ner Gna -- den, Gna -- den.
+      du wer -- the Chri - sten -- heit!
+      Er lässt dich freund - lich zu sich la - den.
+      freu -- e dich, I - sra -- el, sei -- ner Gna - den.
     }

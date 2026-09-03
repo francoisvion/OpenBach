@@ -79,22 +79,22 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Wir sin -- gen dir in dei -- nem Heer
-      aus al -- ler Kraft, __ _ Lob, __ _ Preis und Ehr,
-      dass du, o lang __ _ ge -- wünsch - ter Gast,
-      dich nun -- mehr ein -- ge - stel - let hast.
+      Wir sin -- gen __ _ dir in dei - nem __ _ Heer
+      aus al -- ler Kraft, Lob, Preis __ _ und Ehr,
+      dass du, o __ _ lang __ _ ge - wünsch - ter __ _ Gast,
+      dich nun - mehr __ _ ein - ge -- stel -- let __ _ hast.
     }
 
 tenorLyrics = \lyricmode {
-      Wir sin -- gen dir in dei -- nem Heer
-      aus al -- ler Kraft, __ _ Lob, __ _ Preis und Ehr,
-      dass du, o lang __ _ ge -- wünsch - ter Gast,
-      dich nun -- mehr ein -- ge - stel - let hast.
+      Wir sin -- gen __ _ dir __ _ in __ _ dei - nem Heer
+      aus al -- ler __ _ Kraft, Lob, __ _ Preis __ _ und Ehr,
+      dass du, __ _ o lang __ _ ge -- wünsch - ter __ _ Gast,
+      dich nun - mehr __ _ ein - ge - stel - let __ _ hast.
     }
 
 bassLyrics = \lyricmode {
-      Wir sin -- gen dir in dei -- nem Heer
-      aus al -- ler Kraft, __ _ Lob, __ _ Preis und Ehr,
-      dass du, o lang __ _ ge -- wünsch - ter Gast,
-      dich nun -- mehr ein -- ge - stel - let hast.
+      Wir sin -- gen __ _ dir in dei -- nem Heer
+      aus __ _ al -- ler Kraft, Lob, __ _ Preis __ _ und Ehr,
+      dass __ _ du, __ _ o __ _ lang ge - wünsch - ter __ _ Gast,
+      dich __ _ nun - mehr __ _ ein - ge - stel - let __ _ hast.
     }
