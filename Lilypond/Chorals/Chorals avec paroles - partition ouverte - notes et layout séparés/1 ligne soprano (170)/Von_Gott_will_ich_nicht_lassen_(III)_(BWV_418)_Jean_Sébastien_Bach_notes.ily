@@ -86,38 +86,17 @@ sopranoLyrics = \lyricmode {
       Er reicht mir sei -- ne Hand,
       den A -- bend wie den Mor - gen,
       thut er mich wohl ver -- sor - gen,
-      sei wo ich woll' im Land, im Land, im Land.
+      sei wo ich woll' im Land.
     }
 
 altoLyrics = \lyricmode {
-      Von Gott will ich nicht las - sen,
-      denn er lässt nicht von mir,
-      führt mich auf rech -- ter Stra - ßen,
-      da ich sonst ir -- ret sehr.
-      Er reicht mir sei -- ne Hand,
-      den A -- bend wie den Mor - gen,
-      thut er mich wohl ver -- sor - gen,
-      sei wo ich woll' im Land, im Land, im Land.
+      Von - Gott will ich nicht las - - sen, denn er lässt nicht - von - mir, führt mich auf - rech -- ter - Stra - - ßen, da ich sonst ir - ret sehr. Er reicht mir sei -- ne Hand, den - A -- bend wie den Mor - - - gen, thut er - mich - wohl ver -- sor - - gen, sei wo - ich - woll' - im Land.
     }
 
 tenorLyrics = \lyricmode {
-      Von Gott will ich nicht las -- sen,
-      denn er lässt nicht von mir,
-      führt mich auf rech -- ter Stra - ßen,
-      da ich sonst ir -- ret sehr.
-      Er reicht mir sei -- ne Hand,
-      den A -- bend wie den Mor - gen,
-      thut er mich wohl ver -- sor - gen,
-      sei wo ich woll' im Land, im Land, im Land.
+      Von Gott will ich nicht las - sen, denn er - lässt nicht - von mir, führt mich auf rech -- ter Stra - ßen, da ich - sonst - ir - ret sehr. Er reicht mir sei - ne - Hand, den A -- bend wie den - Mor - gen, thut er mich wohl - ver - sor - - gen, sei wo ich - woll' - im Land.
     }
 
 bassLyrics = \lyricmode {
-      Von Gott will ich nicht las - sen,
-      denn er lässt nicht von mir,
-      führt mich auf rech -- ter Stra - ßen,
-      da ich sonst ir -- ret sehr.
-      Er reicht mir sei -- ne Hand,
-      den A -- bend wie den Mor - gen,
-      thut er mich wohl ver -- sor - gen,
-      sei wo ich woll' im Land, im Land, im Land.
+      Von Gott will ich - nicht las - sen, denn er lässt nicht von mir, führt - mich auf rech - ter - Stra - - ßen, da ich sonst ir -- ret sehr. Er - reicht mir sei -- ne Hand, den A -- bend wie - den - Mor - - - gen, thut - er - mich - wohl - ver - sor - - gen, sei wo ich woll' - im - Land.
     }

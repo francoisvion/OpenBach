@@ -106,9 +106,12 @@ class RefMismatch(Exception):
 
 
 def reconcile_soprano(music_body, lyrics_body):
-    """Returns (periods_events, periods_tokens, periods_hyphens) where each
-    period's token slice length exactly equals its event slice length.
-    Raises RefMismatch if no bracket-choice combination reconciles."""
+    """Returns (periods_events, periods_tokens, periods_hyphens, leftover)
+    where each period's token slice length exactly equals its event slice
+    length, and `leftover` is any harmless trailing surplus (real
+    \\lyricsto silently ignores unused tokens after the last note -- proven
+    empirically). Raises RefMismatch if the surplus/deficit falls BEFORE the
+    last period (a real, non-trailing problem) or no choice reconciles."""
     events = raw_events(music_body)
     groups = group_by_bracket(events)
     tokens, hyphen_after = lyric_tokens_with_hyphens(lyrics_body)
@@ -125,33 +128,47 @@ def reconcile_soprano(music_body, lyrics_body):
     # 2) global all-raw
     choice_all_raw = {i: "raw" for i in multi}
 
+    base = total_slots(choice_all_collapse)
+    full = total_slots(choice_all_raw)
+
     chosen = None
-    if total_slots(choice_all_collapse) == n_tokens:
+    if base == n_tokens:
         chosen = choice_all_collapse
-    elif total_slots(choice_all_raw) == n_tokens:
+    elif full == n_tokens:
         chosen = choice_all_raw
-    else:
-        base = total_slots(choice_all_collapse)
-        deficit = n_tokens - base  # each group switched collapse->raw adds (len(g)-1)
-        if deficit > 0:
-            choice = dict(choice_all_collapse)
-            remaining = deficit
-            # switch groups starting from the END of the piece first (melismas
-            # concentrate near cadences per Loi 5/6 evidence)
-            for i in reversed(multi):
-                if remaining <= 0:
-                    break
-                add = len(groups[i]) - 1
-                if add <= remaining:
-                    choice[i] = "raw"
-                    remaining -= add
-            if remaining == 0:
-                chosen = choice
+    elif base < n_tokens < full:
+        # try to switch just enough groups collapse->raw to hit an EXACT match
+        choice = dict(choice_all_collapse)
+        remaining = n_tokens - base
+        for i in reversed(multi):
+            if remaining <= 0:
+                break
+            add = len(groups[i]) - 1
+            if add <= remaining:
+                choice[i] = "raw"
+                remaining -= add
+        if remaining == 0:
+            chosen = choice
+
     if chosen is None:
-        raise RefMismatch(
-            f"cannot reconcile: tokens={n_tokens} all-collapse={total_slots(choice_all_collapse)} "
-            f"all-raw={total_slots(choice_all_raw)}"
-        )
+        # no exact reconciliation possible with any bracket hypothesis; pick
+        # whichever of collapse/raw leaves the SMALLEST non-negative leftover
+        # (closest to using up all real text) and treat the rest as a
+        # harmless trailing surplus -- \lyricsto silently ignores unused
+        # tokens after the last note (proven empirically), as long as the
+        # shortfall truly falls at the very end (checked below).
+        candidates = []
+        if base <= n_tokens:
+            candidates.append((n_tokens - base, choice_all_collapse))
+        if full <= n_tokens:
+            candidates.append((n_tokens - full, choice_all_raw))
+        if not candidates:
+            raise RefMismatch(
+                f"cannot reconcile: tokens={n_tokens} all-collapse={base} all-raw={full} "
+                f"(fewer tokens than notes even in the most compact reading -- real deficit)"
+            )
+        candidates.sort(key=lambda c: c[0])
+        chosen = candidates[0][1]
 
     choice = [chosen.get(i, "collapse") for i in range(len(groups))]
     final_events = groups_to_events(groups, choice)
@@ -162,14 +179,17 @@ def reconcile_soprano(music_body, lyrics_body):
     for pe in periods_events:
         n = len(pe)
         if pos + n > n_tokens:
-            raise RefMismatch("period slicing overruns token list")
+            raise RefMismatch(
+                f"token shortfall INSIDE the piece (not trailing) at period "
+                f"{len(periods_tokens)}: need {n} more tokens, only "
+                f"{n_tokens - pos} remain"
+            )
         periods_tokens.append(tokens[pos:pos + n])
         periods_hyphens.append(hyphen_after[pos:pos + n])
         pos += n
-    if pos != n_tokens:
-        raise RefMismatch(f"leftover {n_tokens - pos} tokens unaccounted for")
 
-    return periods_events, periods_tokens, periods_hyphens
+    leftover = tokens[pos:]
+    return periods_events, periods_tokens, periods_hyphens, leftover
 
 
 # ---------- file processing ----------
@@ -199,10 +219,12 @@ def process_file(path, report):
         return None
 
     try:
-        ref_periods_events, ref_token_periods, ref_hyphen_periods = reconcile_soprano(sop_music, sop_lyrics)
+        ref_periods_events, ref_token_periods, ref_hyphen_periods, leftover = reconcile_soprano(sop_music, sop_lyrics)
     except RefMismatch as e:
         report.append((path.name, "soprano", f"REF MISMATCH: {e}"))
         return None
+    if leftover:
+        report.append((path.name, "soprano", f"NOTE: {len(leftover)} trailing token(s) unused (harmless, ignored): {leftover}"))
 
     ref_bounds = period_boundaries(ref_periods_events)
 

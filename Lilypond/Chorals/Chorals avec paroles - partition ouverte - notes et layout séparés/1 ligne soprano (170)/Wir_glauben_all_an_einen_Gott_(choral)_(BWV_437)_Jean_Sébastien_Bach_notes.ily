@@ -155,49 +155,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Wir __ _ _ _ _ _ glau -- ben
-      all' __ an __ _ ei -- nen Gott,
-      Schöp -- fer Him -- mels und der Er - - den,
-      der sich zum Va -- ter ge -- ben __ hat,
-      dass wir sei -- ne Kin -- der wer - den.
-      Er will uns all -- zeit er -- näh - ren,
-      Seel' und Leib auch wohl be -- wah - ren,
-      al -- lem Un -- fall will er weh - - ren,
-      kein _ Leid __ _ soll uns wi -- der -- fah -- ren,
-      er __ _ sor - - - - get für uns,
-      hütt __ _ _ _ _ _ _
-      und wacht; __ _ _ _
-      es __ _ steht Al -- les __ _ in sei -- ner Macht.
+      Wir - __ _ _ "_ _" - - "_ _" glau ben - - all' - __ _ _ _ "an ei" nen - Gott, Schöp - - fer "Him mels" und der Er - - - den, - der - sich - zum - Va - ter - - "ge ben" - - - "hat, dass" - wir - - sei - ne - Kin - der wer - - den. - Er - will uns - all - zeit - er - näh - - - ren, - Seel' - und Leib "auch wohl" - be - - wah "ren, al" lem "Un fall" - will - er - weh - - - - - ren, - kein - _ - - - "Leid soll" uns wi - der -- fah ren, - er - sor - - - - - - - "get für" - uns, hütt __ _ _ - _ - _ - _ _ - und wacht; - __ _ - _ - es - steht Al -- les - in sei
     }
 
 tenorLyrics = \lyricmode {
-      Wir __ _ _ _ glau -- ben
-      all' __ _  an ei -- nen __ Gott,
-      Schöp -- fer Him -- mels und __ _ der Er - - den,
-      der sich zum Va -- ter ge -- ben hat,
-      dass wir sei -- ne Kin -- der wer - den.
-      Er will uns all -- zeit er -- näh - - ren,
-      Seel' und Leib auch wohl be -- wah - ren,
-      al -- lem Un -- fall will er weh - ren,
-      kein _ Leid soll uns wi -- der -- fah -- ren,
-      er __ _ sor - - - get __ _ für __ _ uns,
-      hütt __ _ _ _ _ _ _
-      und wacht; __ _ _ _
-      es steht __ _ Al -- les in sei -- ner Macht.
+      Wir - - __ _ _ - - _ "_ _" glau ben - - all' - - __ _ _ _ - - an - - ei nen Gott, Schöp - fer Him -- mels und - der Er - - den, - der - sich "zum Va" - ter - ge -- ben hat, - - dass - - "wir sei" - ne - Kin - der - wer - - - "den. Er" will - uns - all - zeit er - - näh ren, Seel' - und - Leib auch wohl be - wah ren, - al - lem - Un - fall "will er" - weh - ren, kein _ "Leid soll" - - "uns wi der" - - - fah ren, - - er sor - - - "- -" - get für - - uns, - - - hütt - __ _ _ _ - "_ _" - _ _ - und wacht; - - __ _ _ es - - steht - - Al - - les in - - sei - - -
     }
 
 bassLyrics = \lyricmode {
-      Wir __ _ _ _ _ glau - ben
-      all' __ _  an ei -- nen Gott,
-      Schöp -- fer Him -- mels und der Er - den,
-      der sich zum Va -- ter ge -- ben hat,
-      dass wir sei -- ne Kin -- der wer - den.
-      Er will uns all -- zeit er -- näh - ren,
-      Seel' und Leib auch wohl be -- wah - ren,
-      al -- lem Un -- fall will er weh - ren,
-      kein _ Leid soll uns wi -- der -- fah - ren,
-      er __ _ sor - - - - get für __ _ uns,
-      hütt __ _ _ _ _ _ _
-      und wacht; __ _ _
-      es __ _ steht Al -- les in sei -- ner Macht.
+      Wir - - - __ "_ _" - - _ - _ - glau ben - - - all' - __ _ _ "an ei" nen - Gott, - Schöp -- fer - Him - "mels und" der - Er - den, - der - sich zum - Va - ter - ge - ben hat, - dass - wir - sei - ne - - Kin - - der - wer - - den. - Er - will uns - all - zeit - er - - näh ren, - "Seel' und" - Leib - auch - wohl - be - - wah ren, - al - lem "Un fall" - will - er weh - ren, kein _ Leid - soll - uns - wi -- der - - - fah ren, - - - "er sor" - - - - - - - get - für - - uns, hütt __ _ - _ - _ - _ - _ _ - und - wacht; - __ _ - - - _ "es steht" Al - les - in sei
     }
