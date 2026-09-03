@@ -76,13 +76,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Mei -- nen Je -- sum lass' ich nicht, weil er "sich für" - mich ge -- ge - ben: so er -- for -- dert mei -- ne Pflicht, klet -- ten -- weis an ihm zu kle - ben. Er ist mei -- nes Le -- bens Licht, mei -- nen Je -- sum lass' ich nicht.
+      Mei -- nen Je -- sum lass' - ich nicht, weil er - "sich für" - mich - ge - ge - ben: so er -- for -- dert mei - ne Pflicht, klet - ten - weis an - ihm zu kle - ben. Er ist mei -- nes - Le -- bens Licht, mei -- nen Je - sum lass' ich nicht.
     }
 
 tenorLyrics = \lyricmode {
-      Mei -- nen Je -- sum lass' ich nicht, weil er sich für mich ge -- ge - ben: so er -- for -- dert mei -- ne Pflicht, klet -- ten -- weis an ihm zu kle - ben. Er ist mei -- nes Le -- bens Licht, mei -- nen Je -- sum lass' ich nicht.
+      Mei -- nen Je -- sum lass' - ich - nicht, weil - er - sich - - für mich ge -- ge - - ben: so - er - for - dert mei - ne - Pflicht, klet - ten -- weis an ihm zu - kle - - ben. Er ist mei -- nes Le - bens - Licht, mei -- nen Je - sum - lass' ich - nicht.
     }
 
 bassLyrics = \lyricmode {
-      Mei -- nen Je -- sum lass' ich nicht, weil er sich für mich ge -- ge - ben: so er -- for -- dert mei -- ne Pflicht, klet -- ten -- weis an ihm zu kle - ben. Er ist mei -- nes Le -- bens Licht, mei -- nen Je -- sum lass' ich nicht.
+      Mei - nen - Je - sum - lass' ich nicht, weil - er - sich - für - mich - ge - ge - ben: so - er - for - dert - mei - ne Pflicht, klet - ten - weis - an - ihm - zu - kle - ben. Er - ist - mei - nes - Le - bens - Licht, mei - nen - Je - sum - lass' ich nicht.
     }

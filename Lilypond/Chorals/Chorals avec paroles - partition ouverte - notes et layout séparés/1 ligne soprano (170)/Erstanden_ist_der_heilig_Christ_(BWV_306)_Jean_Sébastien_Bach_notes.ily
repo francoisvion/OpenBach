@@ -1,10 +1,10 @@
 sopranoMusic = {
           \partial 4  f'4
-          f'4. g'8 [a' bes']
+          f'4. g'8 a' [bes']
           c''2 g'4
           a'2 b'4
           c''2\fermata bes'4
-          a'4. g'8 [a' bes']
+          a'4. g'8 a' [bes']
           c''2 bes'4
           a'2 g'4
           a'2\fermata
@@ -24,9 +24,9 @@ altoMusic = {
           c' d'8 [e'] f'4~
           f' e'8 [f'] g'4~
           g'8 [e'] f'2~
-          f'4 e'\fermata g'~
+          f'4 e'\fermata g'
           g' f'2
-          g'8 [f' g'] a'4 g'8~
+          g'8 [f'] g' a'4 g'8~
           g' [f'16 e'] f'4. e'16 [d']
           cis'2\fermata
           \partial 4  d'4
@@ -83,17 +83,18 @@ bassMusic = {
         }
 
 sopranoLyrics = \lyricmode {
-      Er -- stan -- den ist der heil' -- ge Christ, al -- le -- lu -- ja, al -- le -- lu -- ja! Der al -- ler Welt ein Trö -- ster ist, al -- le -- lu -- ja, al -- le -- lu -- ja!
+      Er -- stan -- den __ _ ist der heil' -- ge Christ,
+      al -- le - lu -- ja, al -- le -- lu -- ja! Der al -- ler Welt ein Trö -- ster ist, al -- le - lu -- ja, al -- le -- lu -- ja!
     }
 
 altoLyrics = \lyricmode {
-      Er -- stan -- den ist der heil' -- ge Christ, al -- le -- lu -- ja, al -- le -- lu -- ja! Der al -- ler Welt ein Trö -- ster ist, al -- le -- lu -- ja, al -- le -- lu -- ja!
+      Er -- stan -- den ist der heil' -- ge Christ, al -- le -- lu -- ja, __ _ al -- le -- lu - ja! Der al - ler Welt ein Trö - ster ist, al -- le - lu -- ja, al -- le -- lu -- ja!
     }
 
 tenorLyrics = \lyricmode {
-      Er -- stan -- den ist der heil' -- ge Christ, al -- le -- lu -- ja, al -- le -- lu -- ja! Der al -- ler Welt ein Trö -- ster ist, al -- le -- lu -- ja, al -- le -- lu -- ja!
+      Er -- stan - den ist der heil' -- ge Christ, al -- le -- lu -- ja, __ _ al - le -- lu -- ja! Der al -- ler Welt __ _ ein Trö - ster ist, al -- le - lu -- ja, __ _ al -- le - lu -- ja!
     }
 
 bassLyrics = \lyricmode {
-      Er -- stan -- den ist der heil' -- ge Christ, al -- le -- lu -- ja, al -- le -- lu -- ja! Der al -- ler Welt ein Trö -- ster ist, al -- le -- lu -- ja, al -- le -- lu -- ja!
+      Er -- stan - den ist der __ _ heil' - ge Christ, al -- le - lu -- ja, __ _ al -- le - lu -- ja! Der al -- ler __ _ Welt __ _ ein Trö - ster ist, al -- le - lu -- ja, __ _ al -- le - lu -- ja!
     }

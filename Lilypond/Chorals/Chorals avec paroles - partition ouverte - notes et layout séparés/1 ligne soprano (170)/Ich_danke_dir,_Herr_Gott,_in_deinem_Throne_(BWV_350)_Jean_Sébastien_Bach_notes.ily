@@ -39,8 +39,8 @@ altoMusic = {
           d'8. [c'16] bes4 c' bes
           a8 [bes16 c'] d' [ees'] f'4 ees' d'8~
            d' [c'16 b] c'4 b\fermata g'~
-          g'8 [fis'] g'4. fis'16 [e'] d'4~
-          d'8 [e'] fis' [g'] a'4. g'8
+          g'8 fis' g'4. fis'16 [e'] d'4~
+          d'8 e' fis' [g'] a'4. g'8
           g' [fis'16 e'] fis'4 d'\fermata \fine
         }
 
@@ -52,8 +52,8 @@ tenorMusic = {
           d'8. [c'16] bes4 c'8 [a] f4
            bes8 [a] g4 c' bes
           bes8 [a16 g] a [bes c'8] bes4\fermata bes8 [c']
-          d' [c'16 bes] a8 [bes16 c'] bes2
-          a4. g4 fis8 g [bes]
+          d' [c'16 bes] a8 [bes16 c'] bes4 bes
+          a4 a8 [g] g [fis] g [bes]
           a [g] a4 f\fermata
           \partial 4 bes8 [c']
           d' [c'16 bes] a4 g a
@@ -70,10 +70,10 @@ tenorMusic = {
 bassMusic = {
           \partial 4  g,8 [a,]
           bes,4 g, a, bes,~
-          bes,8 [a,] g,4~ g,8 [fis,] g,4
+          bes,8 a, g,4~ g,8 fis, g,4
           c d g,\fermata g,
           d ees a,8 [f,] bes,4~
-           bes, ees8 [d] c4. cis8
+           bes, ees8 d c4. cis8
           d2 g,4\fermata g,8 [a,]
           bes, [c] d4 ees e
           fis g d ees
@@ -102,26 +102,26 @@ sopranoLyrics = \lyricmode {
 altoLyrics = \lyricmode {
       Ich dan -- ke dir, o Gott, in dei -- nem Thro - ne,
       durch Je -- sum Chri -- tum, dei -- nen lie -- ben Soh - ne,
-      dass du mich hast in die -- ser Nacht be -- vah -- ret
+      dass du mich hast in die -- ser Nacht be -- vah - ret
       vor Scha -- den und vor man -- cher -- lei Ge -- fah -- ren,
-      und bit -- te dich, wollst mich an die -- sem Ta -- ge
-      be -- hü -- ten auch vor Sün -- den, Schand' und Pla -- ge, Pla -- ge.
+      und bit -- te dich, wollst mich an die -- sem Ta - ge
+      be -- hü -- ten auch vor Sün -- den, Schand' und Pla - ge.
     }
 
 tenorLyrics = \lyricmode {
       Ich dan -- ke dir, o Gott, in dei -- nem Thro - ne,
       durch Je -- sum Chri -- tum, dei -- nen lie -- ben Soh - ne,
-      dass du mich hast in die -- ser Nacht be -- vah -- ret
+      dass du mich hast in die -- ser Nacht be -- vah - ret
       vor Scha -- den und vor man -- cher -- lei Ge -- fah -- ren,
       und bit -- te dich, wollst mich an die -- sem Ta -- ge
-      be -- hü -- ten auch vor Sün -- den, Schand' und Pla -- ge, Pla -- ge.
+      be -- hü -- ten auch vor Sün -- den, Schand' und Pla - ge.
     }
 
 bassLyrics = \lyricmode {
       Ich dan -- ke dir, o Gott, in dei -- nem Thro - ne,
-      durch Je -- sum Chri -- tum, dei -- nen lie -- ben Soh - ne,
-      dass du mich hast in die -- ser Nacht be -- vah -- ret
-      vor Scha -- den und vor man -- cher -- lei Ge -- fah -- ren,
-      und bit -- te dich, wollst mich an die -- sem Ta -- ge
-      be -- hü -- ten auch vor Sün -- den, Schand' und Pla -- ge, Pla -- ge.
+      durch Je -- sum Chri -- tum, dei -- nen lie -- ben Soh -- ne,
+      dass du mich hast in die -- ser Nacht be -- vah - ret
+      vor Scha -- den und vor man -- cher -- lei Ge -- fah - ren,
+      und bit -- te dich, wollst mich an die -- sem Ta - ge
+      be -- hü -- ten auch vor Sün -- den, Schand' und Pla - ge.
     }

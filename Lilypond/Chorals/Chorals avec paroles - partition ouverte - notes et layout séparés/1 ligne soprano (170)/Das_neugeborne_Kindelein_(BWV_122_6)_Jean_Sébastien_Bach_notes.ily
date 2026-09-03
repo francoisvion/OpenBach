@@ -82,22 +82,22 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Es bringt das rech - - te Ju -- bel -- jahr,
+      Es bringt das rech - te Ju -- bel -- jahr,
       was trau -- ern wir denn im -- mer -- dar?
       Frisch auf! jetzt ist __ _ _ es Sin -- gens -- zeit,
-      das Je -- su -- lein __ _ _ wendt al -- les Leid.
+      das Je -- su -- lein __ _ wendt al -- les Leid.
     }
 
 tenorLyrics = \lyricmode {
-      Es bringt das rech - - te Ju -- bel -- jahr,
-      was trau -- ern wir denn im -- mer -- dar?
+      Es bringt das rech - te Ju -- bel -- jahr,
+      was trau -- ern wir __ _ denn im -- mer -- dar?
       Frisch auf! jetzt ist __ _ _ es Sin -- gens -- zeit,
       das Je -- su -- lein __ _ _ wendt al -- les Leid.
     }
 
 bassLyrics = \lyricmode {
-      Es bringt das rech - - te Ju -- bel -- jahr,
-      was trau -- ern wir denn im -- mer -- dar?
+      Es bringt das rech - te Ju -- bel -- jahr,
+      was trau -- ern wir denn im -- mer - dar?
       Frisch auf! jetzt ist __ _ _ es Sin -- gens -- zeit,
-      das Je -- su -- lein __ _ _ wendt al -- les Leid.
+      das Je -- su -- lein __ _ wendt al -- les Leid.
     }

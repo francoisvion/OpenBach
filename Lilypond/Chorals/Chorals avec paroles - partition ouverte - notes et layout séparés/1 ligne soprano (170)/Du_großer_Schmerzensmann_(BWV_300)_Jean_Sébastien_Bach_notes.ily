@@ -91,13 +91,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Du gro -- ßer Schmer -- zens -- mann, vom Va -- ter so ge -- schla - gen, Herr Je -- su dir sei Dank für al -- le dei -- ne Pla -- gen: für dei -- ne See -- len -- angst, für dei -- ne Band' und Noth, für dei -- ne Gei -- sse -- lung, "für dei" "nen bit" tern - Tod.
+      Du gro -- ßer Schmer -- zens - mann, vom Va -- ter - so - ge -- schla - gen, Herr Je -- su dir sei Dank für al -- le dei - "ne Pla" - gen: für dei -- ne See -- len -- angst, für dei -- ne Band' und Noth, für dei -- ne Gei -- sse -- lung, für dei -- nen bit -- tern Tod.
     }
 
 tenorLyrics = \lyricmode {
-      Du gro -- ßer Schmer -- zens -- mann, vom Va -- ter so ge -- schla -- gen, Herr Je -- su dir sei Dank für al -- le dei -- ne Pla - - gen: für dei -- ne See -- len -- angst, für dei -- ne Band' und Noth, für dei -- ne Gei -- sse -- lung, für "dei nen bit" tern Tod.
+      Du gro - ßer - Schmer -- zens -- mann, vom Va -- ter so "ge schla" - - - gen, Herr Je -- su dir sei Dank für al -- le dei -- ne Pla - - gen: für dei "ne See" - len - angst, für dei -- ne Band' und Noth, für dei -- ne Gei - sse -- lung, für dei -- nen bit -- tern Tod.
     }
 
 bassLyrics = \lyricmode {
-      Du gro -- ßer Schmer -- zens -- mann, vom Va -- ter so ge -- schla -- gen, Herr Je -- su dir sei Dank für al -- le dei -- ne Pla -- gen: für dei -- ne See -- len -- angst, für dei -- ne Band' und Noth, für dei -- ne Gei -- sse -- lung, für dei -- nen bit -- tern Tod.
+      Du gro -- ßer Schmer -- zens -- mann, vom - Va -- ter so ge - schla -- gen, Herr Je - su dir sei Dank für - al - le - dei -- ne Pla -- gen: für - dei -- ne See -- len -- angst, für dei - ne Band' und Noth, für - dei - ne - Gei -- sse -- lung, für dei - nen - bit -- tern Tod.
     }

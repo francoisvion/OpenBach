@@ -74,7 +74,7 @@ bassMusic = \relative c {
           bes'4 fis g es
           a,8 [b] c4 g2\fermata
           d'4 c b c~
-          c8 [b] c4 fis, g
+          c8 b c4 fis, g
           d'1\fermata \fine
         }
 
@@ -97,7 +97,7 @@ altoLyrics = \lyricmode {
       dei -- nen Tod und sein Ur -- sach
       frucht -- bar -- lich be -- den - ken,
       da -- für, wie -- wohl arm und schwach,
-      dir Dank -- op -- fer schen - ken. __
+      dir Dank -- op -- fer schen - - - ken.
      }
 
 tenorLyrics = \lyricmode {
@@ -108,7 +108,7 @@ tenorLyrics = \lyricmode {
       dei -- nen Tod und sein Ur -- sach
       frucht -- bar -- lich be -- den - ken,
       da -- für, wie -- wohl arm und schwach,
-      dir Dank -- op -- fer schen - ken. __
+      dir Dank -- op -- fer schen - - - ken.
      }
 
 bassLyrics = \lyricmode {
@@ -119,5 +119,5 @@ bassLyrics = \lyricmode {
       dei -- nen Tod und sein Ur -- sach
       frucht -- bar -- lich be -- den - ken,
       da -- für, wie -- wohl arm und schwach,
-      dir Dank -- op -- fer schen - ken. __
+      dir Dank -- op -- fer schen - - - ken.
      }

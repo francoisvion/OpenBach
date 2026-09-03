@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Erstanden_ist_der_heilig_Christ_(BWV_306)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

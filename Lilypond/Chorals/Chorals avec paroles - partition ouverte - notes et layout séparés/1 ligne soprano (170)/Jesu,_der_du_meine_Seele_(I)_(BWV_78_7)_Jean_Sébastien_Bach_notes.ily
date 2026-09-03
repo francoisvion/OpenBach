@@ -86,34 +86,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Herr, ich glau -- be, hilf mir Schwa -- chen,
-      lass mich ja ver -- za -- gen nicht;
-      du, du kannst mich stär -- ker ma -- chen,
-      wenn mich Sünd und Tod an -- flicht.
-      Dei -- ner Gü -- te will ich trau -- en,
-      bis ich fröh -- lich wer -- de schau -- en
-      dich, Herr Je -- su, nach dem Streit
-      in der süs -- sen E -- wig -- keit.
+      Herr, ich glau -- be, hilf mir Schwa -- chen, lass mich ja - ver - za -- gen nicht; du, du kannst mich stär -- ker ma -- chen, wenn mich Sünd - und - Tod an -- flicht. Dei -- ner Gü -- te will ich trau -- en, bis ich - fröh -- lich wer -- de schau -- en dich, Herr Je - su, nach dem Streit in der süs -- sen E -- wig -- keit.
     }
 
 tenorLyrics = \lyricmode {
-      Herr, ich glau -- be, hilf mir Schwa -- chen,
-      lass mich ja ver -- za -- gen nicht;
-      du, du kannst mich stär -- ker ma -- chen,
-      wenn mich Sünd und Tod an -- flicht.
-      Dei -- ner Gü -- te will ich trau -- en,
-      bis ich fröh -- lich wer -- de schau -- en
-      dich, Herr Je -- su, nach dem Streit
-      in der süs -- sen E -- wig -- keit.
+      Herr, - ich glau -- be, hilf - mir Schwa - chen, lass mich ja - ver -- za -- gen nicht; du, - du kannst mich stär - ker ma - chen, wenn mich Sünd - und Tod an -- flicht. Dei -- ner Gü -- te will - ich trau - en, bis ich fröh -- lich wer - de schau - en dich, Herr Je -- su, nach - dem - Streit in - der süs -- sen E -- wig - keit.
     }
 
 bassLyrics = \lyricmode {
-      Herr, ich glau -- be, hilf mir Schwa -- chen,
-      lass mich ja ver -- za -- gen nicht;
-      du, du kannst mich stär -- ker ma -- chen,
-      wenn mich Sünd und Tod an -- flicht.
-      Dei -- ner Gü -- te will ich trau -- en,
-      bis ich fröh -- lich wer -- de schau -- en
-      dich, Herr Je -- su, nach dem Streit
-      in der süs -- sen E -- wig -- keit.
+      Herr, - ich glau -- be, hilf mir Schwa -- chen, lass - mich - ja - ver -- za -- gen nicht; du, - du - kannst mich stär -- ker ma -- chen, wenn - mich - Sünd - und Tod an -- flicht. Dei -- ner - Gü -- te - will ich trau -- en, bis ich fröh -- lich - wer -- de schau -- en dich, - Herr - Je -- su, nach - dem Streit in - der süs -- sen E -- wig -- keit.
     }

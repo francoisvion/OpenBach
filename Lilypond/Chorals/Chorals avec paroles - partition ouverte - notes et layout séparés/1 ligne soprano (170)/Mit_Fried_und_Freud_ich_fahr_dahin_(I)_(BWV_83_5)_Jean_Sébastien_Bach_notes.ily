@@ -82,7 +82,7 @@ altoLyrics = \lyricmode {\set stanza = 2
 
 tenorLyrics = \lyricmode {\set stanza = 2
       Er ist das Heil und se -- lig Licht
-      für __ _ die Hei - den,
+      für __ _ die Hei - - den,
       "zu er" -- leuch -- ten, die dich ken - - nen nicht,
       und zu wei - den.
       es ist deins Volks I -- sra -- el
@@ -91,7 +91,7 @@ tenorLyrics = \lyricmode {\set stanza = 2
 
 bassLyrics = \lyricmode {\set stanza = 2
       Er ist das Heil und se -- lig Licht
-      für __ _ die Hei - den,
+      für __ _ die Hei -- den,
       "zu er" -- leuch -- ten, die dich ken - - nen nicht,
       und zu wei - den.
       es ist deins Volks I -- sra -- el

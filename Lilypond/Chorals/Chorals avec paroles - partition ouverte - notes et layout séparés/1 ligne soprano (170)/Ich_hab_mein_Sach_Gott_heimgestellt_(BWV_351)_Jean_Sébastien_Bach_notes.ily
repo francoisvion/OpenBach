@@ -63,17 +63,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Ich hab' mein' Sach' Gott heim -- ge -- stellt, er mach's mit mir, wie's ihm ge -- fällt, soll ich all hier noch län -- ger leb'n, "nicht wi" der -- streb'n, sei'm Will'n thu ich mich ganz er -- geb'n
+      Ich hab' mein' - Sach' Gott - heim - ge -- stellt, er mach's mit mir, wie's ihm - ge -- fällt, soll ich all hier noch län - ger - leb'n, "nicht wi" - der - streb'n, sei'm Will'n - thu - ich mich ganz er -- geb'n
     }
 
 tenorLyrics = \lyricmode {
-      Ich hab' mein' Sach' Gott heim -- ge -- stellt,
-      er mach's mit mir, wie's ihm ge -- fällt,
-      soll ich all hier noch län -- ger leb'n,
-      nicht wi -- der -- streb'n, 
-      sei'm Will'n thu ich mich ganz er -- geb'n
+      Ich hab' - mein' Sach' Gott heim -- ge - stellt, er mach's mit mir, wie's ihm - ge - - fällt, soll ich all hier noch län -- ger - leb'n, nicht wi -- der -- streb'n, sei'm Will'n thu ich mich - - ganz - er - - geb'n -
     }
 
 bassLyrics = \lyricmode {
-      Ich hab' mein' Sach' Gott heim -- ge -- stellt, er mach's mit mir, wie's ihm ge -- fällt, soll ich all hier noch - län -- ger leb'n, nicht wi -- der -- streb'n, sei'm Will'n thu ich mich ganz er -- geb'n
+      Ich hab' - mein' Sach' - Gott - heim -- ge -- stellt, er - mach's mit mir, - wie's - ihm ge -- fällt, soll ich - all - hier noch - län - ger - leb'n, nicht wi -- der -- streb'n, sei'm Will'n - thu ich - mich - ganz er -- geb'n
     }

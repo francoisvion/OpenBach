@@ -79,26 +79,26 @@ sopranoLyrics = \lyricmode {
 altoLyrics = \lyricmode {
       Dein Geist, den Gott vom Him -- mel gibt,
       der lei -- tet al -- les, was ihn licht,
-      auf wohl ge -- bähn - - ten We -- ge.
+      auf wohl ge -- bähn - ten We - ge.
       Er setzt und rich -- tet un -- sern Fuß,
       dass er nicht an -- ders tre -- ten muss,
-      als wo man findt __ _ _ den Se -- gen.
+      als wo man findt __ _ den Se - gen.
     }
 
 tenorLyrics = \lyricmode {
       Dein Geist, den Gott vom Him -- mel gibt,
       der lei -- tet al -- les, was ihn licht,
-      auf wohl ge -- bähn - - ten We -- ge.
+      auf wohl ge -- bähn - - ten We - ge.
       Er setzt und rich -- tet un -- sern Fuß,
       dass er nicht an -- ders tre -- ten muss,
-      als wo man findt __ _ _ den Se -- gen.
+      als wo man findt __ _ den Se - gen.
     }
 
 bassLyrics = \lyricmode {
       Dein Geist, den Gott vom Him -- mel gibt,
       der lei -- tet al -- les, was ihn licht,
-      auf wohl ge -- bähn - - ten We -- ge.
+      auf wohl ge -- bähn - - ten We - ge.
       Er setzt und rich -- tet un -- sern Fuß,
       dass er nicht an -- ders tre -- ten muss,
-      als wo man findt __ _ _ den Se -- gen.
+      als wo man findt __ _ _ den Se - gen.
     }

@@ -19,7 +19,7 @@ altoMusic = {
           d'4 e' fis'\fermata
           \partial 4  g'8 [f']
           e'4 c' c' bes~
-          bes8 [a] b4 a\fermata cis'
+          bes8 a b4 a\fermata cis'
           d' a a bes~
           bes8 d'4 cis'8 a4\fermata \fine
         }
@@ -27,7 +27,7 @@ altoMusic = {
 tenorMusic = {
           \partial 4  f4
           f g a8 [f] c'4~
-          c'8 [b16 a] b8 [d'] c'4\fermata d'
+          c'8 b16 [a] b8 [d'] c'4\fermata d'
           e' f'8 [d'] c'4 c'8 [d'16 c']
           b8 [a] g [a] a4\fermata
           \partial 4  d'
@@ -39,7 +39,7 @@ tenorMusic = {
 
 bassMusic = {
           \partial 4  d8 [e]
-          f4~ f8 [e] d4 c8 [b,]
+          f4~ f8 e d4 c8 [b,]
           a,4 e a,\fermata g8 [f]
           e [c] d [f] e [c] f [d]
           g [f] e [a] d4\fermata
@@ -59,21 +59,21 @@ sopranoLyrics = \lyricmode {
 
 altoLyrics = \lyricmode {
       Nun freut euch, Got -- tes Kin -- der all',
-      der Herr fährt auf mit gro - ßem Schall,
+      der Herr fährt auf mit gro -- ßem Schall,
       lob -- sin -- get ihm, lob -- sin -- get ihm,
       lob -- sin -- get ihm mit hel -- ler Stimm', Stimm'!
     }
 
 tenorLyrics = \lyricmode {
       Nun freut euch, Got -- tes Kin -- der all',
-      der Herr fährt auf mit gro - ßem Schall,
+      der Herr fährt auf mit gro -- ßem Schall,
       lob -- sin -- get ihm, lob -- sin -- get ihm,
       lob -- sin -- get ihm mit hel -- ler Stimm', Stimm'!
     }
 
 bassLyrics = \lyricmode {
       Nun freut euch, Got -- tes Kin -- der all',
-      der Herr fährt auf mit gro - ßem Schall,
+      der Herr fährt auf mit gro -- ßem Schall,
       lob -- sin -- get ihm, lob -- sin -- get ihm,
       lob -- sin -- get ihm mit hel -- ler Stimm', Stimm'!
     }

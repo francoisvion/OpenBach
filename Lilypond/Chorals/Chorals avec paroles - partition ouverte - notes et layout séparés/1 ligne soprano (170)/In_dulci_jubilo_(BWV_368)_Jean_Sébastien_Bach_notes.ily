@@ -154,34 +154,34 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      In dul -- ci ju -- bi -- lo __ _ _
-      sin -- get und seid froh, __ _ _
-      un -- sers Her -- zens Won - - ne
-      liegt in prae -- se -- pi -- o __ _ _
-      leuch -- tet als die Son - - ne
+      In dul -- ci ju -- bi -- lo __ _
+      sin - get und seid froh, __ _ _ _
+      un -- sers Her - zens Won - - ne
+      liegt in prae -- se -- pi -- o __ _ _ _
+      leuch -- tet als __ _ die Son - - ne
       ma -- tris in pre -- mi -- o __ _ _
-      Al -- pha es et O, __ _ _ _
-      Al -- pha es et O. __ _ 
+      Al -- pha es et __ O, __ _
+      Al - pha es et O. __ _ _ _
     }
 
 tenorLyrics = \lyricmode {
       In dul -- ci ju -- bi -- lo __ _ _
-      sin -- get und seid froh, __ _ _
-      un -- sers Her -- zens Won - - ne
-      liegt in prae -- se -- pi -- o __ _ _
+      sin -- get und __ _ seid froh, __ _ _ _
+      un -- sers Her - zens Won - - ne
+      liegt in __ _ prae -- se -- pi -- o __ _ _ _
       leuch -- tet als die Son - - ne
-      ma -- tris in pre -- mi -- o __ _ _
-      Al -- pha es et O, __ _ _ _
-      Al -- pha es et O. __ _ 
+      ma -- tris __ _ in pre -- mi -- o __ _ _
+      Al - pha es __ _ et O, __ _ _ _
+      Al - pha es __ _ et __ O. __ _ _
     }
 
 bassLyrics = \lyricmode {
-      In dul -- ci ju -- bi -- lo __ _ _
-      sin -- get und seid froh, __ _ _
-      un -- sers Her -- zens Won - - ne
-      liegt in prae -- se -- pi -- o __ _ _
-      leuch -- tet als die Son - - ne
-      ma -- tris in pre -- mi -- o __ _ _
-      Al -- pha es et O, __ _ _ _
-      Al -- pha es et O. __ _ 
+      In dul - ci ju - bi -- lo __ _ _ _
+      sin - get und __ _ seid froh, __ _ _ _
+      un -- sers Her -- zens Won - ne
+      liegt in __ _ prae -- se - pi -- o __ _ _ _
+      leuch - tet als __ _ die Son - - ne
+      ma -- tris __ _ in pre - mi -- o __ _ _ _
+      Al - pha es __ _ et O, __ _ _ _
+      Al - pha es __ _ et O. __ _ _
     }

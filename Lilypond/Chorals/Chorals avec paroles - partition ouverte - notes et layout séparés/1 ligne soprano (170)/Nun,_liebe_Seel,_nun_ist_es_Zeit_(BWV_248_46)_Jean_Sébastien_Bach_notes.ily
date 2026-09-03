@@ -71,29 +71,14 @@ sopranoLyrics = \lyricmode {\set stanza = 1
       Wir e -- wig schau - - en mö -- gen!
     }
 
-altoLyrics = \lyricmode {\set stanza = 1
-      Dein Glanz all Fin - - ster -- nis ver -- zehrt,
-      Die trü -- be Nacht in Licht ver -- kehrt.
-      Leit uns auf dei -- nen We - gen,
-      dass dein Ge -- sicht
-      und herr -- lichs Licht
-      Wir e -- wig schau - - en mö -- gen!
+altoLyrics = \lyricmode {
+      \set stanza - = - 1 Dein Glanz all Fin - - - ster -- nis ver - zehrt, - Die - trü - - be - Nacht in Licht ver -- kehrt. - Leit uns auf dei - nen - We - - "gen, dass" dein - Ge sicht und - herr -- lichs Licht - Wir e - wig - schau - - "- en mö" - gen!
     }
 
-tenorLyrics = \lyricmode {\set stanza = 1
-      Dein Glanz all Fin - - ster -- nis ver -- zehrt,
-      Die trü -- be Nacht in Licht ver -- kehrt.
-      Leit uns auf dei -- nen We - gen,
-      dass dein Ge -- sicht
-      und herr -- lichs Licht
-      Wir e -- wig schau - - en mö -- gen!
+tenorLyrics = \lyricmode {
+      \set - stanza = - 1 Dein Glanz all - Fin - - - ster -- nis ver -- zehrt, - Die trü -- be - Nacht in Licht ver -- kehrt. Leit uns auf dei -- nen We - gen, - dass dein Ge sicht - und herr -- lichs Licht Wir e - "wig schau" - - - en mö - - - gen!
     }
 
-bassLyrics = \lyricmode {\set stanza = 1
-      Dein Glanz all Fin - - ster -- nis ver -- zehrt,
-      Die trü -- be Nacht in Licht ver -- kehrt.
-      Leit uns auf dei -- nen We - gen,
-      dass dein Ge -- sicht
-      und herr -- lichs Licht
-      Wir e -- wig schau - - en mö -- gen!
+bassLyrics = \lyricmode {
+      \set stanza = - 1 "Dein Glanz" - all - Fin - - - ster -- nis ver -- zehrt, - Die - trü - be - Nacht in - Licht - ver - kehrt. Leit uns auf dei -- nen We - gen, - dass dein Ge sicht und - herr -- lichs Licht "Wir e wig" - - schau - - - en mö - - gen!
     }

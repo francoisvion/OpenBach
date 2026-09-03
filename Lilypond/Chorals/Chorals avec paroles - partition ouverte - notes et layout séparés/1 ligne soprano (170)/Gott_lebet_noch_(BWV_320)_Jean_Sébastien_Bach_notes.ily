@@ -167,13 +167,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Gott leb -- et noch; See - le, "was _" ver -- zagst "_ du" doch? Gott ist gut, _ der aus Er -- bar - men al - le Hülf' auf Er -- den thut, der mit Kraft - und Star -- ken Ar -- men ma - chet "Al -" - les wohl und gut. Gott - kann bes - ser "als _" wir den - ken al - le Noth _ zum be - sten len -- ken. "See -" le, so be "den -" ke doch: - "lebt _" doch un - ser Herr Gott noch.
+      Gott leb -- et noch; See - le, "was _" ver -- zagst - "_ du" doch? Gott ist gut, - _ der aus Er -- bar - men al - - le Hülf' auf Er -- den thut, der mit Kraft - und Star -- ken Ar -- men ma - chet - "Al -" - les wohl und gut. Gott - kann bes - ser "als _" wir den - ken al - le Noth _ zum be - - sten len -- ken. "See -" le, so be "den -" ke doch: - "lebt _" doch un - ser Herr Gott noch.
     }
 
 tenorLyrics = \lyricmode {
-      Gott leb -- et noch; See - le, was _ ver -- zagst _ du doch? Gott ist gut, _ der aus Er -- bar - men al -- le Hülf' auf Er -- den thut, der mit Kraft - und Star -- ken Ar -- men ma -- chet Al - les wohl - und gut. Gott kann bes - ser als _ wir den - ken al -- le Noth _ zum "be -" sten len -- ken. "See -" le, so be -- den - ke doch: "lebt _" doch un - ser Herr - Gott noch.
+      Gott leb -- et noch; See - le, was _ ver -- zagst - _ du doch? Gott ist "gut, _" der aus Er -- bar - men al - - le Hülf' auf Er -- den thut, der mit Kraft - - - und Star -- ken Ar -- men ma -- chet Al - - les - wohl - und gut. Gott kann bes - ser als _ wir den - ken al -- le Noth _ zum "be -" sten len -- ken. "See -" le, so be -- den - ke doch: "lebt _" doch un - ser Herr - - Gott - noch.
     }
 
 bassLyrics = \lyricmode {
-      Gott leb -- et noch; See - le, was _ ver -- zagst _ "du doch?" - - Gott - ist gut, _ der aus - Er -- bar - men al - le Hülf' - auf Er - den thut, - der - mit Kraft - und Star - ken Ar - men ma - chet Al - les wohl - und gut. Gott - kann bes - ser als _ wir den - ken al - le Noth _ zum be - sten len -- ken. "See -" le, so - be -- den - ke doch: - - lebt _ doch un - "ser Herr" - Gott noch.
+      Gott leb -- et noch; See - le, was _ ver -- zagst _ "du doch?" - - Gott - ist gut, _ der aus - Er -- bar - men al - le Hülf' - auf Er - den thut, - der - mit Kraft - und Star - ken Ar - men ma - chet Al - les wohl - und gut. Gott - kann bes - ser als _ wir den - ken al - le Noth _ zum be - sten len -- ken. "See -" le, so - be -- den - ke doch: - - lebt _ doch un - "ser Herr" - - Gott noch.
     }

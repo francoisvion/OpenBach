@@ -70,20 +70,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Schaut, ihr Sün -- der! "Ihr macht" - "mir gro" ße Pein! Ihr sollt Kin -- der des To -- des e -- wig sein: durch mein Ster -- ben "seid ihr" - "hier von" be -- freit und nun Er -- ben der wah "ren Se" lig -- keit.
+      Schaut, ihr Sün -- der! "Ihr macht" - "mir gro" - ße - Pein! Ihr sollt Kin -- der des To -- des e -- wig sein: durch mein Ster -- ben seid ihr hier -- von be -- freit und nun Er - ben der wah "ren Se" lig -- keit.
     }
 
 tenorLyrics = \lyricmode {
-      Schaut, ihr Sün -- der!
-      Ihr macht mir gro -- ße Pein!
-      Ihr sollt Kin -- der
-      des To -- des e -- wig sein:
-      durch mein Ster -- ben
-      seid ihr hier -- von be -- freit
-      und nun Er -- ben
-      der wah -- ren Se -- lig -- keit.
+      Schaut, ihr Sün -- der! Ihr macht mir gro -- ße Pein! Ihr sollt Kin -- der des To -- des e -- wig - sein: durch mein Ster -- ben seid - "ihr hier" - von - be - freit und nun Er -- ben der wah -- ren - "Se lig" - keit.
     }
 
 bassLyrics = \lyricmode {
-      Schaut, ihr Sün -- der! Ihr macht mir gro -- ße Pein! Ihr sollt - Kin -- der des To -- des e -- wig sein: durch mein - Ster -- ben seid ihr hier -- von be -- freit und nun Er -- ben der wah -- ren Se -- lig -- keit.
+      Schaut, ihr Sün -- der! Ihr macht mir - gro -- ße Pein! Ihr sollt - Kin -- der des - To -- des e -- wig sein: durch mein - Ster -- ben seid ihr hier -- von be -- freit und nun - Er - ben der wah - ren Se -- lig -- keit.
     }

@@ -63,13 +63,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Es ist ge -- wiss -- lich an der Zeit, dass Got -- tes Sohn wird kom - men Dann wird das La -- chen wer -- den teu'r, wenn Al -- les wird ver -- gehn in Feu'r, wie Pe -- trus da -- von zeu - get.
+      Es - ist ge -- wiss -- lich an der Zeit, dass Got -- tes Sohn wird kom - men Dann wird das - La - chen - wer - den teu'r, wenn Al - les - wird ver -- gehn in Feu'r, wie Pe -- trus da -- von zeu - - get.
     }
 
 tenorLyrics = \lyricmode {
-      Es ist ge -- wiss -- lich an der Zeit, dass Got -- tes Sohn wird kom - men Dann wird das La -- chen wer -- den teu'r, wenn Al -- les wird ver -- gehn in Feu'r, wie Pe -- trus da -- von zeu - get.
+      Es - ist ge -- wiss - lich an - der - Zeit, dass - Got -- tes Sohn wird kom - - men Dann wird das La -- chen wer - den teu'r, wenn Al -- les wird ver - gehn - in Feu'r, wie - Pe -- trus da -- von zeu - get.
     }
 
 bassLyrics = \lyricmode {
-      Es ist ge -- wiss -- lich an der Zeit, dass Got -- tes Sohn wird kom - men Dann wird das La -- chen wer -- den teu'r, wenn Al -- les wird ver -- gehn in Feu'r, wie Pe -- trus da -- von zeu - get.
+      Es - ist ge - wiss -- lich - an der Zeit, dass Got -- tes - Sohn wird kom - men Dann - wird - das La -- chen wer -- den - teu'r, wenn Al -- les wird - ver - gehn - in Feu'r, wie Pe -- trus - da - von zeu - get.
     }

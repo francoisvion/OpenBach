@@ -86,20 +86,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Schüt -- tle dei -- nen Kopf und sprich: flieg, du al -- te Schlan - ge! was er -- neurst du dei -- nen Stich, machst mir angst und ban - ge? Ist dir doch der Kopf zer -- knickt, und ich bin durchs Lei - den mei -- nes Hei -- lands dir ent -- rückt in den Saal der Freu - den.
+      Schüt -- tle dei -- nen Kopf und sprich: flieg, du - al -- te - Schlan - - ge! was er -- neurst - du dei - nen Stich, machst mir angst und - ban - ge? Ist dir doch der Kopf zer -- knickt, und ich bin durchs Lei - den mei -- nes Hei -- lands dir ent -- rückt in den Saal der - Freu - - - den.
     }
 
 tenorLyrics = \lyricmode {
-      Schüt -- tle dei -- nen Kopf und sprich: flieg, du al -- te Schlan - ge! was er -- neurst du dei -- nen Stich, machst mir angst und ban - ge? Ist dir doch der Kopf zer -- knickt, und ich bin durchs "Lei -" den mei -- nes Hei -- lands dir ent -- rückt in den Saal der "Freu -" den.
+      Schüt -- tle dei -- nen Kopf und sprich: flieg, du al - te Schlan - - ge! was er - neurst du dei -- nen - Stich, machst - mir angst und ban - - - ge? Ist dir doch der Kopf - - zer -- knickt, und ich bin durchs "Lei -" den mei -- nes Hei - lands dir ent -- rückt in den Saal der Freu - den.
     }
 
 bassLyrics = \lyricmode {
-      Schüt -- tle dei -- nen Kopf und sprich:
-      flieg, du al -- te Schlan -- ge!
-      was er -- neurst du dei -- nen Stich,
-      machst mir angst und ban -- ge?
-      Ist dir doch der Kopf zer -- knickt,
-      und ich bin durchs Lei - den
-      mei -- nes Hei -- lands dir ent -- rückt
-      in den Saal der Freu - den.
+      Schüt -- tle dei -- nen Kopf und sprich: flieg, - du - "al te" - Schlan -- ge! was er -- neurst du dei -- nen - Stich, machst mir angst und - ban -- ge? Ist - dir - doch - der - Kopf zer -- knickt, und ich bin durchs Lei - den mei -- nes Hei -- lands dir ent -- rückt in den - Saal der - Freu - den.
     }

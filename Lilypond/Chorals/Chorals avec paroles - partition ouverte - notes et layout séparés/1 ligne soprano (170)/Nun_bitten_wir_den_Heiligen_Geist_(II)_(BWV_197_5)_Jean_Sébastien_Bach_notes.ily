@@ -82,19 +82,19 @@ sopranoLyrics = \lyricmode {
 altoLyrics = \lyricmode {
       Du sü -- ße Lieb, schenk __ _ uns dei -- ne Gunst,
       lass uns em -- pfin - den der Lie -- be Brunst,
-      dass wir uns von Her -- zen
+      dass wir uns von Her - - zen
       ein -- an -- der lie - ben
       und in Fried auf ei -- nem Sin -- ne blei - ben.
-      Ky -- ri -- e __ e -- leis!
+      Ky -- ri -- e __ _ e -- leis!
     }
 
 tenorLyrics = \lyricmode {
-      Du sü -- ße Lieb, schenk __ _ uns dei -- ne Gunst,
+      Du sü -- ße Lieb, schenk __ _ uns dei - ne Gunst,
       lass uns em -- pfin - den der Lie -- be Brunst,
-      dass wir uns von Her -- zen
-      ein -- an -- der lie - ben
-      und in Fried auf ei -- nem Sin -- ne blei - ben.
-      Ky -- ri -- e __ e -- leis!
+      dass wir uns von Her - zen
+      ein -- an - der lie - ben
+      und __ _ in Fried auf ei -- nem Sin -- ne blei - ben.
+      Ky -- ri -- e __ _ e - leis!
     }
 
 bassLyrics = \lyricmode {
@@ -103,5 +103,5 @@ bassLyrics = \lyricmode {
       dass wir uns von Her -- zen
       ein -- an -- der lie - ben
       und in Fried auf ei -- nem Sin -- ne blei - ben.
-      Ky -- ri -- e __ e -- leis!
+      Ky -- ri -- e __ _ e - leis!
     }

@@ -84,13 +84,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Du sü -- ße Lie -- be, schenk uns dei -- ne Gunst, lass uns em -- pfin - den der Lie -- be Brunst, dass wir uns von Her - - zen ein -- an -- der "lie -" ben, und im Frie -- de auf ei -- nem Sinn "blei - -" - - ben. "Ky rie" - e - lei - son.
+      Du sü -- ße Lie -- be, schenk uns dei - ne Gunst, lass uns em -- pfin - - den der Lie - be Brunst, dass - wir uns - von - Her - - zen ein -- an -- der lie - ben, und - im Frie -- de auf - ei -- nem - Sinn "blei - -" - - ben. "Ky rie" - e - - lei - - son.
     }
 
 tenorLyrics = \lyricmode {
-      Du sü -- ße Lie -- be, schenk uns dei -- ne Gunst, lass uns em -- pfin - den der Lie -- be Brunst, dass wir uns von Her - zen ein -- an -- der lie - ben, und im "Frie de auf" ei -- nem Sinn blei - - - ben. Ky -- rie -- e -- lei -- son.
+      Du sü - ße Lie - be, schenk uns dei - ne - Gunst, lass uns em - pfin - den - der - Lie -- be Brunst, dass wir uns von Her - - - zen ein -- an - der lie - - - ben, und im "Frie de auf" ei - nem - Sinn - blei - - - - ben. Ky -- rie -- e -- lei -- son.
     }
 
 bassLyrics = \lyricmode {
-      Du sü -- ße Lie -- be, schenk uns dei -- ne Gunst, lass uns em -- pfin - den der Lie -- be Brunst, dass wir uns von Her -- zen ein -- an -- der "lie -" ben, und im Frie -- de "auf ei nem" Sinn blei - - - ben. Ky -- rie -- e - lei - son.
+      Du sü - ße - Lie - be, schenk uns dei -- ne Gunst, lass - uns em -- pfin - den der Lie -- be Brunst, dass wir uns von Her -- zen ein - an - der "lie -" ben, und im - Frie -- de "auf ei nem" Sinn blei - - - - - - - ben. Ky -- rie -- e - lei - son.
     }

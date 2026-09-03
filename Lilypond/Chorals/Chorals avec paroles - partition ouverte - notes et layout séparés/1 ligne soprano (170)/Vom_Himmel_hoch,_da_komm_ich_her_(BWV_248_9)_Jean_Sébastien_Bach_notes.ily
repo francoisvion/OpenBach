@@ -73,23 +73,14 @@ sopranoLyrics = \lyricmode {\set stanza = 1
       dass ich nim -- mer ver -- ge -- sse dein.
     }
 
-altoLyrics = \lyricmode {\set stanza = 1
-      Ach, mein herz -- lie -- bes Je -- su -- lein,
-      Mach dir ein rein, sanft Bet -- te -- lein,
-      Zu ru -- hen in meins Her -- zens Schrein,
-      dass ich nim -- mer ver -- ge -- sse dein.
+altoLyrics = \lyricmode {
+      \set stanza - = 1 Ach, - mein herz -- lie bes - Je - su -- lein, Mach dir ein rein, sanft Bet -- te -- lein, Zu ru -- hen in meins Her zens - Schrein, - dass - ich - nim -- mer "ver ge sse" - dein.
     }
 
-tenorLyrics = \lyricmode {\set stanza = 1
-      Ach, mein herz -- lie -- bes Je -- su -- lein,
-      Mach dir ein rein, sanft Bet -- te -- lein,
-      Zu ru -- hen in meins Her -- zens Schrein,
-      dass ich nim -- mer ver -- ge -- sse dein.
+tenorLyrics = \lyricmode {
+      \set stanza = 1 Ach, - mein - herz -- lie bes Je -- su -- lein, Mach - dir ein rein, sanft Bet -- te -- lein, Zu ru - hen in meins - Her zens - Schrein, - dass - ich nim -- mer "ver ge" sse - dein.
     }
 
-bassLyrics = \lyricmode {\set stanza = 1
-      Ach, mein herz -- lie -- bes Je -- su -- lein,
-      Mach dir ein rein, sanft Bet -- te -- lein,
-      Zu ru -- hen in meins Her -- zens Schrein,
-      dass ich nim -- mer ver -- ge -- sse dein.
+bassLyrics = \lyricmode {
+      \set "stanza =" - 1 - Ach, mein - herz -- lie bes - Je -- su - lein, Mach - dir - ein - rein, sanft Bet -- te - lein, Zu ru -- hen in meins - Her zens - Schrein, dass - ich - nim -- mer ver -- ge -- sse - dein.
     }

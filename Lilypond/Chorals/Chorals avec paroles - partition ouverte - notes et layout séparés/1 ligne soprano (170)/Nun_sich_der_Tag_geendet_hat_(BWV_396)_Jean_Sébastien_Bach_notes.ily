@@ -58,16 +58,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Nun sich der Tag ge -- en -- det hat, und kei -- ne Sonn' mehr scheint, schläft Al -- les, was "sich ab" ge -- matt', und was zu -- vor ge -- weint.
+      Nun sich der Tag - ge -- en -- det hat, und kei -- ne Sonn' mehr scheint, schläft Al - les, was - "sich ab" - ge - matt', und was - zu -- vor ge -- weint.
     }
 
 tenorLyrics = \lyricmode {
-      Nun sich "der Tag" ge -- en -- det hat, "und kei" "ne Sonn'" "mehr scheint," - schläft Al -- les, was sich ab -- ge -- matt', und was zu -- vor ge -- weint.
+      Nun sich "der Tag" - ge - en - - det hat, "und kei" "ne Sonn'" "mehr scheint," - schläft Al -- les, was sich ab - ge -- matt', und was zu -- vor - - ge - weint.
     }
 
 bassLyrics = \lyricmode {
-      Nun sich der Tag ge -- en -- det hat,
-      und kei -- ne Sonn' mehr scheint,
-      schläft Al -- les, was sich ab -- ge -- matt',
-      und was zu -- vor ge -- weint.
+      Nun - sich - der - Tag ge -- en -- det hat, und kei -- ne Sonn' - mehr - scheint, schläft Al -- les, - was sich - ab - ge - matt', und was zu -- vor ge -- weint.
     }

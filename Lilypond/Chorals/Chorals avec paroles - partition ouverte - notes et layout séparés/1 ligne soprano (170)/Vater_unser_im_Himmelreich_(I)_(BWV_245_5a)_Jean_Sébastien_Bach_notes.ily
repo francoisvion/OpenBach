@@ -72,18 +72,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Dein Will ge -- scheh, Herr Gott, zu -- gleich
-      auf Er -- den wie im Him -- mel -- reich.
-      Gib uns Ge -- duld in Lei -- dens -- zeit,
-      Ge -- hor -- sam sein in Lieb und Leid;
-      wehr und steur al -- lem Fleisch und Blut,
-      das wi -- der dei -- nen Wil -- len tut!
+      Dein Will ge -- scheh, Herr - Gott, zu -- gleich auf Er -- den wie im Him -- mel - reich. Gib uns Ge -- duld in Lei - dens -- zeit, Ge -- hor -- sam sein in - Lieb - und Leid; wehr und steur al -- lem Fleisch und Blut, das wi -- der dei -- nen Wil -- len tut!
     }
 
 tenorLyrics = \lyricmode {
-      Dein Will ge -- scheh, Herr Gott, zu -- gleich auf Er -- den wie im Him -- mel -- reich. Gib uns Ge -- duld in Lei -- dens -- zeit, Ge -- hor -- sam - sein in Lieb und Leid; wehr und steur al -- lem Fleisch "und Blut," das wi -- der dei -- nen Wil -- len tut!
+      Dein Will ge -- scheh, Herr Gott, zu -- gleich auf Er -- den wie im Him - mel -- reich. Gib uns - Ge - duld - in Lei -- dens -- zeit, Ge -- hor -- sam - sein in Lieb und Leid; wehr und steur al -- lem Fleisch - und Blut, das wi - der dei -- nen - Wil -- len - - tut!
     }
 
 bassLyrics = \lyricmode {
-      Dein Will ge -- scheh, Herr Gott, zu -- gleich auf Er -- den wie im Him "mel reich." Gib uns Ge -- duld in Lei -- dens -- zeit, Ge -- hor -- sam sein in Lieb und Leid; wehr und steur al -- lem Fleisch "und Blut," das wi -- der dei -- nen Wil -- len tut!
+      Dein Will ge -- scheh, Herr - Gott, zu -- gleich auf Er -- den wie - im Him -- mel -- reich. Gib - "uns Ge" - duld in Lei -- dens -- zeit, Ge -- hor -- sam sein in Lieb und Leid; wehr - und steur al -- lem - Fleisch und Blut, das wi -- der dei - nen - Wil -- len tut!
     }

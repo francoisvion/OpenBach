@@ -63,25 +63,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Wa -- rum be -- trübst du dich, mein Herz,
-      be -- küm -- merst dich und trä -- gest Schmerz
-      nur um das zeit -- lich Gut?
-      Ver -- trau du dei -- nem Her -- ren Gott,
-      der al -- ler Ding er -- schaf -- fen hat.
+      Wa "rum be" - trübst - du dich, mein Herz, be -- küm -- merst dich und trä -- gest Schmerz nur um das - zeit -- lich Gut? Ver - trau du - dei -- nem Her -- ren - Gott, der al -- ler - Ding - er -- schaf -- fen hat.
     }
 
 tenorLyrics = \lyricmode {
-      Wa -- rum be -- trübst du dich, mein Herz,
-      be -- küm -- merst dich und trä -- gest Schmerz
-      nur um das zeit -- lich Gut?
-      Ver -- trau du dei -- nem Her -- ren Gott,
-      der al -- ler Ding er -- schaf -- fen hat.
+      Wa - rum be -- trübst du dich, mein Herz, be -- küm -- merst dich - - und - trä -- gest Schmerz nur um das zeit -- lich - Gut? Ver - trau du dei -- nem Her -- ren - Gott, der al - ler Ding er - "schaf fen" - hat.
     }
 
 bassLyrics = \lyricmode {
-      Wa -- rum be -- trübst du dich, mein Herz,
-      be -- küm -- merst dich und trä -- gest Schmerz
-      nur um das zeit -- lich Gut?
-      Ver -- trau du dei -- nem Her -- ren Gott,
-      der al -- ler Ding er -- schaf -- fen hat.
+      Wa - rum be -- trübst du dich, mein Herz, be -- küm -- merst dich und trä - gest Schmerz nur um das zeit -- lich Gut? Ver - trau - du dei - nem Her -- ren Gott, der al -- ler Ding - er -- schaf - fen hat.
     }

@@ -72,13 +72,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Ich bin's, ich sol -- lte bü - ßen an Hän -- den und an Fü - ßen, ge -- bun -- den in der Höll. die Gei -- ßeln und die Ban - den, und was du aus -- ge -- stan - den, das hat ver -- die -- net mei -- ne Seel.
+      Ich bin's, ich sol - lte bü - ßen an Hän - den - und - an Fü - ßen, ge -- bun -- den in - der Höll. die Gei -- ßeln und die Ban - - - den, und was du - aus -- ge -- stan - den, das hat - ver - die - net - mei -- ne Seel.
     }
 
 tenorLyrics = \lyricmode {
-      Ich bin's, ich sol -- lte bü - ßen an Hän -- den und an Fü - ßen, ge -- bun -- den in der Höll. die Gei -- ßeln und die Ban - den, und was du aus -- ge -- stan -- den, das hat ver -- die -- net mei -- ne Seel.
+      Ich bin's, ich sol - lte - bü - ßen an Hän -- den und an Fü - - ßen, ge - bun -- den - in der Höll. die Gei - ßeln - und - die Ban - - - den, und was - du aus -- ge -- stan -- den, das hat - ver - die -- net mei -- ne - - Seel.
     }
 
 bassLyrics = \lyricmode {
-      Ich bin's, ich "sol lte" - bü - ßen an Hän -- den und an Fü -- ßen, ge -- bun -- den in der Höll. die Gei -- ßeln und die Ban - den, und was du aus -- ge -- stan - den, das hat ver -- die -- net mei -- ne Seel.
+      Ich bin's, - ich "sol lte" - bü - ßen an Hän - den - und - an Fü -- ßen, ge -- bun -- den in - der - Höll. die Gei -- ßeln und die Ban - den, und was du aus - ge - stan - - - den, das hat ver -- die - net - mei -- ne Seel.
     }

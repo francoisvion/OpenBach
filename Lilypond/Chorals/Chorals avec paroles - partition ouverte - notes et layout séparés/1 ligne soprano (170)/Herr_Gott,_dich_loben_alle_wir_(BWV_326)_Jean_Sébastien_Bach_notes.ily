@@ -87,13 +87,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Herr Gott, dich lo -- ben al -- le - wir und sol -- len bil - lig dan -- ken dir für dein Ge -- schöpf - der En -- gel - schon, die um dich schweb'n in dei -- nem - Thron.
+      Herr Gott, dich lo -- ben al -- le - wir und sol -- len bil - lig dan -- ken dir für dein Ge - schöpf - - der En -- gel - schon, die um dich schweb'n in dei -- nem - - Thron.
     }
 
 tenorLyrics = \lyricmode {
-      Herr Gott, dich lo -- ben al -- le wir und sol -- len bil - lig dan -- ken dir für dein Ge -- schöpf - der En -- gel - schon, die um dich schweb'n in dei -- nem Thron.
+      Herr Gott, dich lo -- ben al -- le wir und sol -- len bil - lig dan -- ken dir für dein Ge -- schöpf - der En - gel - schon, die um dich schweb'n in dei -- nem Thron.
     }
 
 bassLyrics = \lyricmode {
-      Herr Gott, - dich lo - ben al -- le - wir und sol - len bil - lig dan -- ken - dir für dein - Ge -- schöpf - der En -- gel - schon, die um - dich schweb'n - in dei -- nem - Thron.
+      Herr - Gott, - - - dich - lo - - - ben - al - le - - - wir und sol - - - len - bil - - - lig - dan - ken - - - dir für dein - - - Ge - schöpf - - - der - En - gel - - - schon, die um - - - dich - schweb'n - - - in - dei - nem - - - Thron.
     }

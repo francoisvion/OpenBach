@@ -43,7 +43,7 @@ tenorMusic = {
           g d' c' c'
           d' g a\fermata a
           g8 [f] e4 bes2~
-          bes8 a g [a] fis4\fermata \fine
+          bes8 a g a fis4\fermata \fine
         }
 
 bassMusic = {
@@ -77,7 +77,7 @@ altoLyrics = \lyricmode {\set stanza = 2
       Gieb uns all -- zeit dein hei -- lges Wort,
       Be -- hüt vors Teu -- fels List und Mord,
       Ver -- leih ein sel -- ges Stün -- de -- lein,
-      Auf dass wir e -- wig bei dir sein.
+      Auf dass wir e -- wig bei __ _ dir sein.
     }
 
 tenorLyrics = \lyricmode {\set stanza = 2

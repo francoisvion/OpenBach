@@ -66,13 +66,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Herz -- lieb -- ster Je -- su, was hast du ver "bro -" chen, dass man ein solch scharf Ur -- teil hat ge -- spro - chen? Was ist die Schuld, in was für Mis -- se -- ta - ten bist du ge -- ra - ten?
+      Herz -- lieb -- ster Je -- su, was hast du ver -- bro - chen, dass man ein solch scharf - Ur -- teil hat ge - spro - - chen? Was ist die Schuld, in - was für Mis -- se -- ta - - ten bist du ge -- ra - ten?
     }
 
 tenorLyrics = \lyricmode {
-      Herz -- lieb -- ster Je -- su, was hast du ver -- bro - chen, dass man ein solch scharf Ur -- teil hat ge -- spro - chen? Was ist die Schuld, in was für Mis -- se -- ta - ten bist du ge -- ra - ten?
+      Herz -- lieb -- ster Je - su, was hast du - ver -- bro - chen, dass man ein solch - scharf - Ur -- teil hat ge -- spro - chen? Was - ist die - Schuld, - in was für Mis -- se -- ta - - ten bist du - ge -- ra - ten?
     }
 
 bassLyrics = \lyricmode {
-      Herz -- lieb -- ster Je -- su, was hast du ver -- bro - chen, dass man ein solch scharf Ur -- teil hat ge -- spro - chen? Was ist die Schuld, in was für Mis -- se -- ta -- ten bist du ge -- ra - ten?
+      Herz -- lieb - ster Je -- su, - was hast du ver -- bro - chen, dass man ein solch scharf - Ur -- teil hat - ge - spro - chen? Was ist - die Schuld, in was - für - Mis - se - ta -- ten bist du ge - ra - ten?
     }

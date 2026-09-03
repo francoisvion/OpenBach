@@ -133,13 +133,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      O wir ar -- men Sün -- der! uns -- re Mis -- se -- that, da -- rin wir em -- pfan - gen und ge -- bo -- ren sind, hat ge -- bracht uns al -- le in sol che gro -- ße Noth, dass wir un -- ter -- wor - fen - sind dem ew' -- gen Tod. Ky -- rie - e - - - lei - - son! Chri - "- ste" - e -- lei - - - son! Ky "- rie" - "e lei" - son!
+      O wir ar - "men Sün" - - der! - "uns re" Mis - - se -- that, da -- rin - wir - em - pfan - - gen und ge -- bo -- ren sind, hat ge - bracht - "uns al" - le in sol - che gro -- ße - Noth, dass - wir - un -- ter -- wor - - - fen - - - "sind dem" - ew' - - gen Tod. Ky -- rie - e - - - - lei - - son! Chri - - "- ste" - - e -- lei - - - - - son! Ky - "- rie" - "e lei" - - - son!
     }
 
 tenorLyrics = \lyricmode {
-      O wir ar -- men Sün -- der! uns -- re Mis "se that," da -- rin wir em -- pfan -- gen und ge -- bo -- ren sind, hat ge -- bracht uns al - le in sol che gro -- ße Noth, dass wir un -- ter -- wor -- fen sind dem ew' -- gen Tod. Ky -- rie - e - - - lei - - son! Chri - - - - ste - e - - - lei - "- son!" - - - "Ky - rie" e - lei - - son!
+      O wir ar -- men Sün -- der! uns - re Mis - se -- that, da -- rin wir - "em pfan" - - gen und ge -- bo - ren - sind, hat ge - bracht - uns - al - - le in - sol - "che gro" - - ße Noth, dass - wir - un - "ter wor" - - fen sind dem ew' - - gen Tod. Ky -- rie - - e - - - lei - - - son! Chri - - - - - - ste - e - - - - - lei - - "- son!" - - - "Ky - rie" - e - - lei - - - son!
     }
 
 bassLyrics = \lyricmode {
-      "O wir" - ar -- men Sün - der! uns -- re Mis -- se -- that, da -- rin wir em -- pfan - - gen und ge -- bo -- ren sind, hat ge -- bracht uns al - le in sol che gro -- ße Noth, dass wir un -- ter -- wor - fen sind dem ew' -- gen Tod. Ky -- rie e - lei - - son! Chri - - ste e - lei - son! Ky - rie e -- lei - son!
+      "O wir" - ar - men - Sün - der! uns -- re Mis -- se - that, da -- rin - wir - em - pfan - - gen und - ge - bo - ren - sind, hat - ge - bracht - uns - al - - - le in sol - che - gro - ße - Noth, dass - wir - un - ter - wor - fen sind - dem - ew' - gen Tod. Ky -- rie e - - lei - - son! Chri - - ste e - lei - son! Ky - rie e -- lei - son!
     }
