@@ -54,13 +54,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Be -- weis - dein Macht, Herr - Je -- su Christ, Der du - Herr al -- ler Her - ren - bist; be -- schirm - dein ar -- me Chri -- sten - heit, dass sie dich - lob in E - wig -- keit.
+      Be -- weis dein Macht, Herr Je -- su Christ, Der du Herr al -- ler Her -- ren bist; be -- schirm dein ar -- me Chri -- sten - heit, dass sie dich lob in E -- wig -- keit.
     }
 
 tenorLyrics = \lyricmode {
-      Be - weis dein - Macht, Herr - Je - su - Christ, Der du Herr al -- ler Her -- ren - - bist; be -- schirm dein ar -- me Chri - sten - heit, dass sie dich lob in - E -- wig - - keit.
+      Be -- weis dein Macht, Herr Je -- su Christ, Der du Herr al -- ler Her -- ren bist; be -- schirm dein ar -- me Chri -- sten -- heit, dass sie dich lob in E -- wig -- keit.
     }
 
 bassLyrics = \lyricmode {
-      Be -- weis dein Macht, - Herr - Je - su Christ, Der du Herr al - ler - Her - ren bist; be -- schirm dein ar -- me Chri -- sten -- heit, dass sie - dich lob - in E - wig -- keit.
+      Be -- weis dein Macht, Herr Je -- su Christ, Der du Herr al -- ler Her -- ren bist; be -- schirm dein ar -- me Chri -- sten -- heit, dass sie dich lob in E -- wig -- keit.
     }

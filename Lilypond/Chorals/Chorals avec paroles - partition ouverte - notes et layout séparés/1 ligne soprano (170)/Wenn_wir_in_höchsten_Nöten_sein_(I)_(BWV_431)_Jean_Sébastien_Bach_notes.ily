@@ -58,13 +58,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Wenn wir - "in höch" - sten Nö - - - - then sein und wis -- sen nicht, - wo aus und ein, und - fin - den - "we der" Hülf' - - noch Rath, ob - wir - "gleich sor" gen - - "früh und" - spat.
+      Wenn wir "in höch" - sten Nö - - - then sein und wis -- sen nicht, - wo aus und ein, und fin -- den we -- der Hülf' noch Rath, ob wir gleich sor -- gen früh und spat.
     }
 
 tenorLyrics = \lyricmode {
-      Wenn - wir in - höch - sten Nö - - - - - then - sein und wis - sen nicht, wo - aus und ein, und fin - den we -- der Hülf' noch - Rath, ob wir "gleich sor" - gen - früh und - spat.
+      Wenn wir in höch -- sten Nö - - then sein und wis -- sen nicht, wo - aus und ein, und fin -- den we -- der Hülf' noch Rath, ob wir gleich sor -- gen früh und spat.
     }
 
 bassLyrics = \lyricmode {
-      Wenn - wir in - höch -- sten Nö - - - then sein und - wis - sen nicht, - wo aus - und - ein, und fin -- den - we -- der Hülf' noch Rath, ob wir gleich - sor -- gen früh - und spat.
+      Wenn wir in höch -- sten Nö - - then sein und wis -- sen nicht, wo aus und ein, und fin -- den we -- der Hülf' noch Rath, ob wir gleich sor -- gen früh und spat.
     }

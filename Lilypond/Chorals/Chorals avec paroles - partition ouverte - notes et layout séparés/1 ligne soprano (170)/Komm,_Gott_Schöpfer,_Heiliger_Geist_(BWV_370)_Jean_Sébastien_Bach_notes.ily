@@ -58,13 +58,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Komm, - "Gott Schö" pfer, - - hei - li - ger - Geist, be - such das Herz der "Men schen" - dein, mit Gna -- den sie füll, wie du weißt, dass dein - "Ge schöpf" - - "vor dir" - sein.
+      Komm, Gott Schö -- pfer, hei -- li -- ger Geist, be -- such das Herz der Men -- schen dein, mit Gna -- den sie füll, wie du weißt, dass dein Ge -- schöpf vor dir sein.
     }
 
 tenorLyrics = \lyricmode {
-      Komm, Gott Schö -- pfer, hei - - li - ger Geist, be -- such - das Herz "der Men" - - schen - dein, mit Gna - den sie füll, wie du weißt, dass dein Ge -- schöpf - vor dir sein. -
+      Komm, Gott Schö -- pfer, hei -- li -- ger Geist, be -- such das Herz der Men -- schen dein, mit Gna -- den sie füll, wie du weißt, dass dein Ge -- schöpf vor dir sein. -
     }
 
 bassLyrics = \lyricmode {
-      Komm, Gott Schö -- pfer, hei -- li -- ger Geist, be -- such das Herz der Men -- schen dein, mit Gna -- den sie füll, wie - du weißt, dass dein - Ge -- schöpf vor dir - sein.
+      Komm, Gott Schö -- pfer, hei -- li -- ger Geist, be -- such das Herz der Men -- schen dein, mit Gna -- den sie füll, wie du weißt, dass dein Ge -- schöpf vor dir - sein.
     }

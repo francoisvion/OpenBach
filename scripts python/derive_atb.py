@@ -5,11 +5,13 @@ sopranoLyrics, applying the rules mined from the 39-file verified pool:
   Loi 0 - real word sequence identical across voices, never lost/reordered.
   Loi 1 - 1 non-tied non-rest note = 1 lyric slot (ties always collapse).
   Loi 2 - beam brackets [ ] do NOT mechanically force fusion; it's a per-piece
-          authorial choice. For soprano (read-only reference) we must detect
-          which convention its own text uses, per period, to correctly split
-          its real words. For alto/tenor/bass (generated output) we always
-          use the safe convention: every raw note gets its own slot (never
-          silently drop a note's syllable).
+          authorial choice, consistent across all 4 voices of the same piece.
+          We detect which convention (collapse-to-1-slot, or every note its
+          own slot) reconciles the soprano's own text against its own notes,
+          then reuse that SAME convention for alto/tenor/bass's own bracket
+          groups (never guess "always raw" -- that over-fragments text with
+          spurious placeholders whenever the piece uses the collapse
+          convention).
   Loi 3 - "-" for mid-word continuation, "_"/"__" for held-completed-syllable.
   Loi 4 - identical rhythm at same instant => identical syllable (handled
           naturally by onset-based alignment).
@@ -46,6 +48,21 @@ def raw_events(music_body):
     """Tie-collapsed, rest-dropped events, bracket groups NOT merged."""
     events = collapse_ties(tokenize_events(music_body))
     return [e for e in events if not e["is_rest"]]
+
+
+def events_with_convention(music_body, convention):
+    """Tie-collapsed, rest-dropped events, with this piece's OWN bracket
+    groups collapsed to 1 slot each if `convention` is "collapse" (matching
+    whatever convention the soprano reference was found to use for THIS
+    piece -- Loi 2: it's a per-piece authorial choice, not automatic, and in
+    practice consistent across all 4 voices of the same piece), or left
+    raw (1 slot per note) if `convention` is "raw"."""
+    events = raw_events(music_body)
+    if convention == "raw":
+        return events
+    groups = group_by_bracket(events)
+    choice = ["collapse"] * len(groups)
+    return groups_to_events(groups, choice)
 
 
 def group_by_bracket(events):
@@ -189,7 +206,8 @@ def reconcile_soprano(music_body, lyrics_body):
         pos += n
 
     leftover = tokens[pos:]
-    return periods_events, periods_tokens, periods_hyphens, leftover
+    convention = "raw" if chosen is choice_all_raw else "collapse"
+    return periods_events, periods_tokens, periods_hyphens, leftover, convention
 
 
 # ---------- file processing ----------
@@ -219,7 +237,7 @@ def process_file(path, report):
         return None
 
     try:
-        ref_periods_events, ref_token_periods, ref_hyphen_periods, leftover = reconcile_soprano(sop_music, sop_lyrics)
+        ref_periods_events, ref_token_periods, ref_hyphen_periods, leftover, convention = reconcile_soprano(sop_music, sop_lyrics)
     except RefMismatch as e:
         report.append((path.name, "soprano", f"REF MISMATCH: {e}"))
         return None
@@ -236,7 +254,7 @@ def process_file(path, report):
             report.append((path.name, voice, "SKIP: no music var"))
             continue
 
-        tgt_events = raw_events(music)
+        tgt_events = events_with_convention(music, convention)
         tgt_periods_fermata = split_periods(tgt_events)
         if len(tgt_periods_fermata) == len(ref_periods_events):
             tgt_periods = tgt_periods_fermata

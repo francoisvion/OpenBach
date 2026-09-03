@@ -67,13 +67,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Das al -- te - Jahr ver -- gan - gen - ist, wir "dan ken dir," - Herr - Je - - su - Christ, dass du - uns - in so - "gro ßer" - G'fahr be -- hü -- tet hast - lang' Zeit und Jahr; dass - - du uns - in "so gro" - ßer G'fahr be -- hü - tet - - "hast lang'" - Zeit und Jahr.
+      Das al -- te Jahr ver -- gan -- gen ist, wir "dan ken dir," - Herr Je -- su Christ, dass du uns in so gro -- ßer G'fahr be -- hü -- tet hast lang' Zeit und Jahr; dass du uns in so gro -- ßer G'fahr be -- hü -- tet hast lang' Zeit und Jahr.
     }
 
 tenorLyrics = \lyricmode {
-      Das al - te - Jahr ver - gan - gen ist, wir dan - "ken dir," - Herr - Je - su - Christ, dass du uns in - so gro -- ßer G'fahr be -- hü - tet - hast - lang' Zeit - und - Jahr; dass du - uns - - in so gro -- ßer G'fahr be -- hü - tet hast - lang' - Zeit - und - Jahr.
+      Das al -- te Jahr ver -- gan -- gen ist, wir dan -- ken dir, Herr Je -- su Christ, dass du uns in so gro -- ßer G'fahr be -- hü -- tet hast lang' Zeit und Jahr; dass du uns in so gro -- ßer G'fahr be -- hü -- tet hast lang' Zeit und Jahr.
     }
 
 bassLyrics = \lyricmode {
-      Das - al - "te Jahr" - ver - gan - gen ist, wir - dan -- ken "dir, Herr Je" - su - Christ, dass du uns in so gro - ßer G'fahr be -- hü -- tet - hast lang' Zeit und Jahr; dass "du uns" - in so gro - ßer - G'fahr be "hü tet" - hast - lang' - Zeit und Jahr.
+      Das al -- te Jahr ver -- gan -- gen ist, wir dan -- ken "dir, Herr Je" - su Christ, dass du uns in so gro -- ßer G'fahr be -- hü -- tet hast lang' Zeit und Jahr; dass du uns in so gro -- ßer G'fahr be -- hü -- tet hast lang' Zeit und Jahr.
     }

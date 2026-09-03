@@ -52,13 +52,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Lob sei Gott dem Va - ter g'tan, Lob - sei Gott sein'm ein' -- gen - - Sohn, Lob sei Gott dem Heil' - gen Geist Im - mer und in E - wig -- keit.
+      Lob sei Gott dem Va -- ter g'tan, Lob sei Gott sein'm ein' -- gen Sohn, Lob sei Gott dem Heil' -- gen Geist Im -- mer und in E -- wig -- keit.
     }
 
 tenorLyrics = \lyricmode {
-      Lob sei - Gott - dem - Va - ter g'tan, Lob - sei - Gott - sein'm - ein' -- gen - Sohn, Lob sei - Gott dem Heil' -- gen - Geist Im -- mer und in E -- wig -- keit.
+      Lob sei Gott dem Va -- ter g'tan, Lob sei Gott sein'm ein' -- gen Sohn, Lob sei Gott dem Heil' -- gen Geist Im -- mer und in E -- wig -- keit.
     }
 
 bassLyrics = \lyricmode {
-      Lob - sei Gott dem - Va - ter g'tan, Lob sei Gott - sein'm ein' -- gen Sohn, Lob - sei Gott dem - Heil' - gen Geist Im - mer - und - in - E - - wig -- keit.
+      Lob sei Gott dem Va -- ter g'tan, Lob sei Gott sein'm ein' -- gen Sohn, Lob sei Gott dem Heil' -- gen Geist Im -- mer und in E -- wig -- keit.
     }

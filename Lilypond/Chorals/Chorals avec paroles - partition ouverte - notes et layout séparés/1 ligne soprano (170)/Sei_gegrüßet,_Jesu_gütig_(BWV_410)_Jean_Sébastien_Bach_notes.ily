@@ -80,13 +80,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Sei ge -- grü -- ßet, Je - su gü -- tig, ü -- ber al -- les Maß - sanft -- mü -- thig! Ach wie bist du so - zer -- schmis -- sen, und dein gan -- zer Leib - zer -- ris - - sen! Lass mich dei - ne Lieb' er -- er -- ben und da -- rin -- nen - se - lig ster - ben!
+      Sei ge -- grü -- ßet, Je -- su gü -- tig, ü -- ber al -- les Maß sanft -- mü -- thig! Ach wie bist du so zer -- schmis -- sen, und dein gan -- zer Leib zer -- ris - sen! Lass mich dei -- ne Lieb' er -- er -- ben und da -- rin -- nen - se -- lig ster - ben!
     }
 
 tenorLyrics = \lyricmode {
-      Sei "ge grü" - - ßet, Je - su - gü -- tig, ü "ber al" - - les Maß sanft -- mü - thig! Ach wie bist du so zer -- schmis -- sen, und dein gan - zer Leib zer -- ris - sen! Lass mich dei "ne Lieb'" er -- er -- ben und - da - rin - - nen se - lig - ster - ben!
+      Sei ge -- grü -- ßet, Je -- su gü -- tig, ü "ber al" - les Maß sanft -- mü - thig! Ach "wie bist" du so zer -- schmis -- sen, und dein gan -- zer Leib zer -- ris - sen! Lass mich dei "ne Lieb'" er -- er -- ben und da -- rin -- nen se -- lig ster - ben!
     }
 
 bassLyrics = \lyricmode {
-      Sei ge "grü ßet," - Je -- su - gü -- tig, ü -- ber "al les" - Maß sanft -- mü - thig! Ach wie bist - du - so - zer - schmis -- sen, und dein gan - zer - Leib zer - ris - sen! Lass mich dei -- ne Lieb' er "er ben" und da -- rin -- nen se -- lig - ster - ben!
+      Sei ge -- grü -- ßet, Je -- su gü -- tig, ü -- ber "al les" - Maß sanft -- mü - thig! Ach wie bist du so zer -- schmis -- sen, und dein gan -- zer Leib zer -- ris - sen! Lass mich dei -- ne Lieb' er "er ben" und da -- rin -- nen se -- lig ster - ben!
     }

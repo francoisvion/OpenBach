@@ -105,13 +105,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Lo - bet - "den Her" - - - - ren, lo -- bet den Her -- ren, denn - er ist sehr freund - lich, es ist - sehr - köst - lich, - un - sern Gott zu - lo - - - ben, un - sern - Gott - "zu lo" - - - ben sein Lob ist "schön und" - - lieb - "lich an" - zu -- hö - ren. Lo -- bet "den Herr" - - - - ren, lo -- bet den - Her - - ren!
+      Lo -- bet "den Her" - - ren, lo -- bet den Her -- ren, denn er ist sehr freund - lich, es ist sehr köst -- lich, un -- sern Gott zu - lo - ben, un -- sern Gott "zu lo" - - ben sein Lob ist "schön und" - lieb "lich an" - zu -- hö - ren. Lo -- bet "den Herr" - - ren, lo -- bet den Her - ren!
     }
 
 tenorLyrics = \lyricmode {
-      Lo - bet - "den Her" - - - ren, lo -- bet - den Her - - - - ren, denn er ist sehr freund - lich, es ist - sehr - köst - "lich, un" sern - Gott - - zu - lo - - ben, un -- sern Gott - - zu lo - ben - sein Lob - ist - schön - und - lieb - lich - - an - - zu - - hö - - ren. Lo - bet - den - Herr - ren, lo -- bet den - Her -- ren!
+      Lo -- bet "den Her" - - ren, lo -- bet den Her - ren, denn er ist sehr freund - lich, es ist sehr köst "lich, un" sern - Gott zu lo - - ben, un -- sern Gott zu lo -- ben - sein Lob ist schön und lieb -- lich an -- zu -- hö - ren. Lo -- bet den Herr - ren, lo -- bet den Her -- ren!
     }
 
 bassLyrics = \lyricmode {
-      Lo - bet - den Her -- ren, lo -- bet den - Her -- ren, denn - er - ist - sehr - freund - - - lich, es ist - sehr - köst - lich, - un - sern - Gott zu lo -- ben, un -- sern Gott - zu - lo - - - ben sein Lob - ist schön - "und lieb" - lich - an - zu - hö - - ren. Lo - bet - den - Herr -- ren, lo -- bet den - Her - ren!
+      Lo -- bet den Her -- ren, lo -- bet den Her -- ren, denn er ist sehr freund - lich, es ist sehr köst -- lich, un -- sern Gott zu lo -- ben, un -- sern Gott zu lo - ben sein Lob ist schön "und lieb" - lich an -- zu -- hö - ren. Lo -- bet den Herr -- ren, lo -- bet den Her - ren!
     }

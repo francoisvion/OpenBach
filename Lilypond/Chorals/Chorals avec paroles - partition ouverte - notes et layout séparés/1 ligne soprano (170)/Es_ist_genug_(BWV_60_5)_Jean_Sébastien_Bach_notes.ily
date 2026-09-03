@@ -104,13 +104,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Es ist ge - nug, Herr, "wenn es" - dir - ge - fällt, so span - ne mich doch - - aus! Mein Je -- su kommt; nun - - gu - te - Nacht, o Welt! Ich fahr - ins Him - - mels - haus, ich - fah - re - sich -- er hin mit Frie - - - den, mein gro -- ßer Jam -- mer bleibt da -- nie - - den. Es ist ge - nug, es ist ge -- nug.
+      Es ist ge -- nug, Herr, wenn es dir ge -- fällt, so span -- ne mich doch aus! Mein Je -- su kommt; nun gu -- te Nacht, o Welt! Ich fahr ins Him -- mels -- haus, ich fah -- re sich -- er hin mit Frie - den, mein gro -- ßer Jam -- mer bleibt da -- nie - den. Es ist ge -- nug, es ist ge -- nug.
     }
 
 tenorLyrics = \lyricmode {
-      Es ist ge -- nug, Herr, wenn - es dir ge -- fällt, so span - ne mich doch aus! Mein Je -- su kommt; nun gu -- te Nacht, o Welt! Ich fahr - ins Him -- mels -- haus, ich fah -- re sich -- er hin mit Frie - den, mein gro -- ßer Jam -- mer bleibt da -- nie - - den. Es ist ge - nug, es ist ge - - nug.
+      Es ist ge -- nug, Herr, wenn es dir ge -- fällt, so span -- ne mich doch aus! Mein Je -- su kommt; nun gu -- te Nacht, o Welt! Ich fahr ins Him -- mels -- haus, ich fah -- re sich -- er hin mit Frie - den, mein gro -- ßer Jam -- mer bleibt da -- nie - den. Es ist ge -- nug, es ist ge -- nug.
     }
 
 bassLyrics = \lyricmode {
-      Es ist ge -- nug, Herr, wenn - - es - dir - ge - fällt, so span -- ne mich doch aus! Mein Je -- su kommt; nun "gu te" - Nacht, o - Welt! Ich fahr - ins Him -- mels -- haus, ich - fah - re - sich - er - hin - mit - Frie -- den, mein gro -- ßer Jam -- mer bleibt da -- nie -- den. Es ist - ge - nug, es ist ge -- nug.
+      Es ist ge -- nug, Herr, wenn es dir ge -- fällt, so span -- ne mich doch aus! Mein Je -- su kommt; nun gu -- te Nacht, o Welt! Ich fahr ins Him -- mels -- haus, ich fah -- re sich -- er hin mit Frie -- den, mein gro -- ßer Jam -- mer bleibt da -- nie -- den. Es ist ge -- nug, es ist ge -- nug.
     }

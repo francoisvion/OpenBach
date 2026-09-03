@@ -15,7 +15,7 @@ sopranoMusic = \relative c' {
 altoMusic = \relative c' {
           \partial 4 gis'~
           gis8 a4 gis8 a4 gis8 [a]~
-          a [gis] a4~a8 [gis]\fermata a4
+          a gis a4~a8 gis\fermata a4
           a g! g4. f8
           e4. d8 cis4\fermata a8 [b]
           c!4 c d d~
@@ -31,7 +31,7 @@ altoMusic = \relative c' {
 
 tenorMusic = \relative c {
           \partial 4 e'4
-          e~e8. [d16] c4 f8 [e]
+          e~e8. d16 c4 f8 [e]
           d4 e e\fermata e
           d d c4. d8
           a4 a a\fermata f
@@ -45,7 +45,7 @@ tenorMusic = \relative c {
 
 bassMusic = \relative c {
           \partial 4 e4
-          e2 f8 [e] d [c]
+          e2 f8 e d [c]
           b4 a e'\fermata a8 [g]
           f [d] g [f] e4 f
           cis d a\fermata d
@@ -66,13 +66,13 @@ sopranoLyrics = \lyricmode {
      }
 
 altoLyrics = \lyricmode {
-      "Da Je" sus - an dem - Kreu - "tze stund" und ihm sein Leib ward sehr ver -- wundt so - gar mit bit "tern Schmer" - - - zen, die sie - ben - Wort, - die "Je sus" - sprach, be - "tracht in" - dei "nem Her" - - - zen.
+      Da Je -- sus an dem Kreu -- tze stund und ihm sein Leib ward sehr ver -- wundt so -- gar mit bit "tern Schmer" - zen, die sie -- ben Wort, die Je -- sus sprach, be "tracht in" - dei "nem Her" - zen.
     }
 
 tenorLyrics = \lyricmode {
-      Da Je -- sus an dem Kreu -- tze stund und ihm sein Leib ward sehr ver -- wundt so -- gar mit bit - tern Schmer - - zen, die sie -- ben Wort, - die Je -- sus sprach, be -- tracht in dei -- nem Her - - - - zen.
+      Da Je -- sus an dem Kreu "tze stund" und ihm sein Leib ward sehr ver -- wundt so -- gar mit bit -- tern Schmer - - zen, die sie -- ben Wort, die Je -- sus sprach, be -- tracht in dei -- nem Her - zen.
     }
 
 bassLyrics = \lyricmode {
-      Da "Je sus" an - dem - Kreu -- tze stund und - ihm - sein - Leib ward sehr ver -- wundt so -- gar - mit bit -- tern Schmer - zen, die - sie - ben - Wort, die - Je - sus sprach, be -- tracht - in - dei - nem - Her - zen.
+      Da Je -- sus an dem Kreu -- tze stund und ihm sein Leib ward sehr ver -- wundt so -- gar mit bit -- tern Schmer - zen, die sie -- ben Wort, die Je -- sus sprach, be -- tracht in dei -- nem Her - zen.
     }

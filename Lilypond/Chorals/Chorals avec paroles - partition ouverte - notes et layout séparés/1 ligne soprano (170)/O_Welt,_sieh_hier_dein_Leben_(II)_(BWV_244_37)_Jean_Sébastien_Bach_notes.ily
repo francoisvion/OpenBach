@@ -79,13 +79,13 @@ sopranoLyrics = \lyricmode {Wer hat dich so ge -- schla -- gen,
     }
 
 altoLyrics = \lyricmode {
-      Wer hat dich so - ge -- schla - gen, mein Heil, - und - dich - mit Pla - gen so ü -- bel zu -- ge -- richt'? Du bist ja nicht ein Sün - der wie wir und un - sre Kin - der; von Mis -- se -- ta - ten weißt du nicht.
+      Wer hat dich so ge -- schla - gen, mein Heil, und dich mit Pla - gen so ü -- bel zu -- ge -- richt'? Du bist ja nicht ein Sün - der wie wir und un -- sre Kin - der; von Mis -- se -- ta -- ten weißt du nicht.
     }
 
 tenorLyrics = \lyricmode {
-      Wer hat dich - "so ge" - schla - gen, mein Heil, und dich mit - Pla - - gen so ü -- bel zu -- ge -- richt'? Du bist ja nicht - ein Sün - - - der wie wir - und - un -- sre Kin - - - der; von Mis - se - ta - ten - "weißt du" - nicht.
+      Wer hat dich "so ge" - schla - gen, mein Heil, und dich mit Pla - gen so ü -- bel zu -- ge -- richt'? Du bist ja nicht ein Sün - der wie wir und un -- sre Kin - der; von Mis -- se -- ta -- ten weißt du nicht.
     }
 
 bassLyrics = \lyricmode {
-      Wer hat dich - "so ge" - schla - gen, mein - Heil, und - dich mit Pla -- gen so ü -- bel zu -- ge -- richt'? Du bist ja nicht ein Sün - der wie wir - und - un -- sre - Kin - - der; von Mis -- se -- ta -- ten weißt - du nicht.
+      Wer hat dich "so ge" - schla - gen, mein Heil, und dich mit Pla -- gen so ü -- bel zu -- ge -- richt'? Du bist ja nicht ein Sün - der wie wir und un -- sre Kin - der; von Mis -- se -- ta -- ten weißt du nicht.
     }

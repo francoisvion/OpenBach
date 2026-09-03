@@ -55,13 +55,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Herr Je -- su Christ, dich zu uns wend', dein'n "heil' gen" Geist - du - zu uns send', mit Hülf' und Gnad', Herr, uns re -- gier' und uns den Weg zur - Wahr -- heit führ'.
+      Herr Je -- su Christ, dich zu uns wend', dein'n heil' -- gen Geist du zu uns send', mit Hülf' und Gnad', Herr, uns re -- gier' und uns den Weg zur - Wahr -- heit führ'.
     }
 
 tenorLyrics = \lyricmode {
-      Herr Je -- su Christ, dich zu uns wend', dein'n heil' -- gen Geist du zu uns - send', mit Hülf' und Gnad', Herr, - uns - re -- gier' und uns - den Weg - zur Wahr -- heit führ'.
+      Herr Je -- su Christ, dich zu uns wend', dein'n heil' -- gen Geist du zu uns - send', mit Hülf' und Gnad', Herr, uns re -- gier' und uns den Weg zur Wahr -- heit führ'.
     }
 
 bassLyrics = \lyricmode {
-      Herr Je -- su Christ, - dich zu - uns wend', dein'n - heil' -- gen Geist - du - zu uns send', mit Hülf' - und - Gnad', - Herr, - uns - re - gier' und - uns - den Weg - zur Wahr - heit führ'.
+      Herr Je -- su Christ, dich zu uns wend', dein'n heil' -- gen Geist du zu uns send', mit Hülf' und Gnad', Herr, uns re -- gier' und uns den Weg zur Wahr -- heit führ'.
     }

@@ -55,13 +55,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Es wird Schier - der letz - te - Tag her - kom - - - men, "denn die" - Bos - heit - hat sehr - zu -- ge - nom - - - men; was Chri -- stus hat vor ge -- sagt, das wird - "jeztz be" - klagt.
+      Es wird Schier der letz -- te Tag her -- kom - men, "denn die" - Bos -- heit hat sehr - zu -- ge -- nom - men; was Chri -- stus hat vor ge -- sagt, das wird jeztz be -- klagt.
     }
 
 tenorLyrics = \lyricmode {
-      Es wird - Schier der letz -- te "Tag her" - kom - - - men, denn die - Bos -- heit hat "sehr zu" - ge - nom - - - - men; was Chri -- stus hat vor ge - - sagt, das wird jeztz be -- klagt.
+      Es wird Schier der letz -- te "Tag her" - kom - men, denn die Bos -- heit hat "sehr zu" - ge -- nom - men; was Chri -- stus hat vor ge -- sagt, das wird jeztz be -- klagt.
     }
 
 bassLyrics = \lyricmode {
-      "Es wird" - Schier der letz - te Tag - her - kom - men, denn die Bos -- heit hat sehr zu -- ge -- nom - - - men; was Chri -- stus hat vor ge -- sagt, das - wird - jeztz be -- klagt.
+      "Es wird" - Schier der letz -- te Tag her -- kom - men, denn die Bos -- heit hat sehr zu -- ge -- nom - men; was Chri -- stus hat vor ge -- sagt, das wird jeztz be -- klagt.
     }
