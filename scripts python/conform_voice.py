@@ -3,6 +3,9 @@ import sys
 from fractions import Fraction
 from pathlib import Path
 
+sys.path.insert(0, "/Users/francoisvion/.claude/jobs/4e2a67e6/tmp/voice_lyrics")
+from svg_ground_truth import true_consumption_sequence
+
 # ---------- parsing helpers ----------
 
 def extract_var(text, name):
@@ -50,7 +53,7 @@ def tokenize_events(body):
     in time order. bracket_group is an int id shared by a manual-beam group
     (opener note + every note inside the following [ ... ]); None if the
     note is not part of any bracket group."""
-    spaced = body.replace("[", " [ ").replace("]", " ] ").replace("|", " ")
+    spaced = body.replace("[", " [ ").replace("]", " ] ").replace("|", " ").replace("~", "~ ")
     tokens = spaced.split()
     events = []
     default_dur = Fraction(1, 4)

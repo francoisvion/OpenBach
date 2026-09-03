@@ -18,11 +18,11 @@ altoMusic = {
           \partial 4  fis'4
           g' e' d' g'
           fis' fis' e'\fermata gis'
-          e'2~ e'8 [d'] d'4
+          e'4 e' e'8 [d'] d'4
           c' c'8 [b] b4\fermata g'
            g' fis' e' e'
           fis' fis' fis'\fermata fis'
-          fis' fis'4. d'8 [g' fis']
+          fis' fis'4. d'8 g' [fis']
           e'4 d'8 [c'] b4\fermata e'
           d' d' cis' dis'
           e' e'4. d'8\fermata fis'4
@@ -63,11 +63,13 @@ bassMusic = {
         }
 
 sopranoLyrics = \lyricmode {
-      Das al -- te Jahr ver -- gan -- gen ist, wir dan -- ken dir, Herr Je -- su Christ, dass du uns in so gro -- ßer G'fahr be -- hü -- tet hast lang' Zeit und Jahr, dass du uns in so gro -- ßer G'fahr be -- hü -- tet hast lang' Zeit und Jahr.
+      Das al -- te Jahr ver -- gan -- gen ist,
+      wir dan -- ken dir, Herr Je -- su Christ,
+      dass du uns in so gro -- ßer G'fahr be -- hü -- tet hast lang' Zeit und Jahr, dass du uns in so gro -- ßer G'fahr be -- hü -- tet hast lang' Zeit und Jahr.
     }
 
 altoLyrics = \lyricmode {
-      Das al -- te Jahr ver -- gan -- gen ist, wir "dan ken dir," - Herr Je -- su Christ, dass du uns in so gro -- ßer G'fahr be -- hü "tet hast" lang' Zeit und Jahr, dass du uns in so gro -- ßer G'fahr be -- hü -- tet hast lang' Zeit und Jahr.
+      Das al -- te Jahr ver -- gan -- gen ist, wir dan -- ken dir, Herr Je -- su Christ, dass du uns in so gro -- ßer G'fahr be -- hü -- tet hast lang' Zeit und Jahr, dass du uns in so gro -- ßer G'fahr be -- hü -- tet hast lang' Zeit und Jahr.
     }
 
 tenorLyrics = \lyricmode {

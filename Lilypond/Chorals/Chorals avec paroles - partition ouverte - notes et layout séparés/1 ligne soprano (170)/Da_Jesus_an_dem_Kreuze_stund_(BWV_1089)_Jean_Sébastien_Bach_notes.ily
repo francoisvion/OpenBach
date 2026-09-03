@@ -19,11 +19,11 @@ altoMusic = \relative c' {
           a g! g4. f8
           e4. d8 cis4\fermata a8 [b]
           c!4 c d d~
-          d8 [c]~c16 [b c8] b4\fermata d
+          d8 c~c16 [b c8] b4\fermata d
           e8 [f] g [e] c [d] e4
           e4. d8 cis4\fermata a8 [b]
           c!4. e8 f4 f~
-          f8 [e]~e16 [d c8] b4\fermata
+          f8 e~e16 [d c8] b4\fermata
           
          
           \fine
@@ -66,13 +66,17 @@ sopranoLyrics = \lyricmode {
      }
 
 altoLyrics = \lyricmode {
-      Da Je -- sus an dem Kreu -- tze stund und ihm sein Leib ward sehr ver -- wundt so -- gar mit bit "tern Schmer" - zen, die sie -- ben Wort, die Je -- sus sprach, be "tracht in" - dei "nem Her" - zen.
+      "Da Je" sus - an dem Kreu - "tze stund" - und ihm sein Leib ward sehr ver -- wundt so -- gar mit bit -- tern Schmer - zen, die sie -- ben Wort, die Je -- sus sprach, be -- tracht in dei -- nem Her - zen.
     }
 
 tenorLyrics = \lyricmode {
-      Da Je -- sus an dem Kreu "tze stund" und ihm sein Leib ward sehr ver -- wundt so -- gar mit bit -- tern Schmer - - zen, die sie -- ben Wort, die Je -- sus sprach, be -- tracht in dei -- nem Her - zen.
+      Da Je -- sus an dem Kreu -- tze stund und ihm sein Leib ward sehr ver -- wundt so -- gar mit bit -- tern Schmer - - zen, die sie -- ben Wort, die Je -- sus sprach, be -- tracht in dei -- nem Her - zen.
     }
 
 bassLyrics = \lyricmode {
-      Da Je -- sus an dem Kreu -- tze stund und ihm sein Leib ward sehr ver -- wundt so -- gar mit bit -- tern Schmer - zen, die sie -- ben Wort, die Je -- sus sprach, be -- tracht in dei -- nem Her - zen.
+      Da Je -- sus an dem Kreu -- tze stund
+      und ihm sein Leib ward sehr ver -- wundt
+      so -- gar mit bit -- tern Schmer - zen,
+      die sie -- ben Wort, die Je -- sus sprach,
+      be -- tracht in dei -- nem Her - zen.
     }

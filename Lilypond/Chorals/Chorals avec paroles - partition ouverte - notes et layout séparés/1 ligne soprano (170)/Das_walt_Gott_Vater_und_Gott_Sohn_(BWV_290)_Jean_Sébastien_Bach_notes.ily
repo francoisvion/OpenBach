@@ -14,7 +14,7 @@ sopranoMusic = {
 altoMusic = {
           \partial 4  c'4
           f' f' e' e'~
-          e'8 [d'] c'4 c'\fermata c'
+          e'8 d' c'4 c'\fermata c'
           f' g' a'8 [b'] c''4
           c''4. b'8 g'4\fermata
           \partial 4  g'
@@ -31,7 +31,7 @@ tenorMusic = {
           a c' f' e'
           a' d'8 [g'16 f'] e'4\fermata
           \partial 4  c'
-          c' c'4. bes4 a8
+          c' c'4~c'8 bes4 a8
           g4 a8. [bes16] c'4\fermata c'
           c' c' d' c'8 [bes]
           a [g16 f] c'8. [bes16] a4\fermata \fine
@@ -45,13 +45,16 @@ bassMusic = {
           f4 g c\fermata
           \partial 4  e
           f a,8 [f,] bes,4 f~
-          f8 [e] f4 c\fermata e
+          f8 e f4 c\fermata e
           f a, bes, c
           d c f\fermata \fine
         }
 
 sopranoLyrics = \lyricmode {
-      Das walt' Gott Va -- ter und Gott Sohn, Gott heil' -- ger Geist in's Him -- mels Thron. Man dankt dir, eh' die Sonn' auf -- geht; wann's Licht an -- bricht, man vor dir steht.
+      Das walt' Gott Va -- ter und Gott Sohn,
+      Gott heil' -- ger Geist in's Him -- mels Thron.
+      Man dankt dir, eh' die Sonn' auf -- geht;
+      wann's Licht an -- bricht, man vor dir steht.
     }
 
 altoLyrics = \lyricmode {
@@ -59,9 +62,15 @@ altoLyrics = \lyricmode {
     }
 
 tenorLyrics = \lyricmode {
-      Das walt' Gott Va -- ter und Gott Sohn, Gott heil' -- ger Geist in's Him -- mels Thron. Man dankt dir, eh' die Sonn' auf -- geht; wann's Licht an -- bricht, man vor dir steht.
+      Das walt' Gott Va -- ter und Gott Sohn,
+      Gott heil' -- ger Geist in's Him -- mels Thron.
+      Man dankt dir, eh' die Sonn' auf -- geht;
+      wann's Licht an -- bricht, man vor dir steht.
     }
 
 bassLyrics = \lyricmode {
-      Das walt' Gott Va -- ter und Gott Sohn, Gott heil' -- ger Geist in's Him -- mels Thron. Man dankt dir, eh' die Sonn' auf -- geht; wann's Licht an -- bricht, man vor dir steht.
+      Das walt' Gott Va -- ter und Gott Sohn,
+      Gott heil' -- ger Geist in's Him -- mels Thron.
+      Man dankt dir, eh' die Sonn' auf -- geht;
+      wann's Licht an -- bricht, man vor dir steht.
     }

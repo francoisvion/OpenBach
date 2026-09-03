@@ -5,13 +5,11 @@ sopranoLyrics, applying the rules mined from the 39-file verified pool:
   Loi 0 - real word sequence identical across voices, never lost/reordered.
   Loi 1 - 1 non-tied non-rest note = 1 lyric slot (ties always collapse).
   Loi 2 - beam brackets [ ] do NOT mechanically force fusion; it's a per-piece
-          authorial choice, consistent across all 4 voices of the same piece.
-          We detect which convention (collapse-to-1-slot, or every note its
-          own slot) reconciles the soprano's own text against its own notes,
-          then reuse that SAME convention for alto/tenor/bass's own bracket
-          groups (never guess "always raw" -- that over-fragments text with
-          spurious placeholders whenever the piece uses the collapse
-          convention).
+          authorial choice. For soprano (read-only reference) we must detect
+          which convention its own text uses, per period, to correctly split
+          its real words. For alto/tenor/bass (generated output) we always
+          use the safe convention: every raw note gets its own slot (never
+          silently drop a note's syllable).
   Loi 3 - "-" for mid-word continuation, "_"/"__" for held-completed-syllable.
   Loi 4 - identical rhythm at same instant => identical syllable (handled
           naturally by onset-based alignment).
@@ -27,6 +25,7 @@ sopranoLyrics, applying the rules mined from the 39-file verified pool:
 import re
 import sys
 from fractions import Fraction
+from itertools import product
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -116,19 +115,73 @@ def split_periods(events):
     return periods
 
 
+def split_groups_by_fermata(groups):
+    """Like split_periods, but on bracket-groups (each group possibly
+    representing 1 or several raw notes) instead of already-flattened
+    events -- lets us pick a DIFFERENT collapse/raw choice per period."""
+    periods, cur = [], []
+    for g in groups:
+        cur.append(g)
+        if any(e["is_fermata"] for e in g):
+            periods.append(cur)
+            cur = []
+    if cur:
+        periods.append(cur)
+    return periods
+
+
+def best_period_events(period_groups, target_n):
+    """Try every collapse/raw combination for this period's own bracket
+    groups and return whichever makes the event count match target_n (the
+    corresponding soprano period's slot count) EXACTLY -- each voice may
+    need its OWN bracket convention to land on the same total as soprano,
+    it isn't necessarily uniform with soprano's own choice (Loi 2). Falls
+    back to the closest achievable count if no exact combo exists."""
+    multi_idx = [i for i, g in enumerate(period_groups) if len(g) > 1]
+    best_events, best_diff = None, None
+    for combo in product(("collapse", "raw"), repeat=len(multi_idx)):
+        choice_map = dict(zip(multi_idx, combo))
+        choice = [choice_map.get(i, "collapse") for i in range(len(period_groups))]
+        events = groups_to_events(period_groups, choice)
+        diff = abs(len(events) - target_n)
+        if diff == 0:
+            return events, True
+        if best_diff is None or diff < best_diff:
+            best_diff, best_events = diff, events
+    return best_events, False
+
+
 # ---------- soprano reconciliation (read-only reference) ----------
 
 class RefMismatch(Exception):
     pass
 
 
-def reconcile_soprano(music_body, lyrics_body):
+# Files individually checked where the soprano source genuinely has a few
+# extra words after the last note (a written-out repeat/echo the composer
+# never set to new notes, e.g. "Gnaden, Gnaden." or "im Land, im Land, im
+# Land.") -- confirmed harmless by the user file by file. Trailing surplus
+# is NOT safe to assume by default: e.g. BWV_264's "isch Land." leftover
+# looked identical but was actually the real, necessary end of "galiläisch
+# Land" being wrongly swallowed -- so this must stay an explicit opt-in.
+ALLOW_TRAILING_SURPLUS = {
+    "Nun_preiset_alle_Gottes_Barmherzigkeit_(BWV_391)_Jean_Sébastien_Bach_notes.ily",
+    "O_Traurigkeit,_o_Herzeleid!_(II)_(pas _de_BWV)_Jean_Sébastien_Bach_notes.ily",
+    "Wir_glauben_all_an_einen_Gott_(choral)_(BWV_437)_Jean_Sébastien_Bach_notes.ily",
+    "Wir_singen_dir,_Immanuel_(BWV_248_23)_Jean_Sébastien_Bach_notes.ily",
+}
+
+
+def reconcile_soprano(music_body, lyrics_body, allow_trailing_surplus=False):
     """Returns (periods_events, periods_tokens, periods_hyphens, leftover)
     where each period's token slice length exactly equals its event slice
     length, and `leftover` is any harmless trailing surplus (real
     \\lyricsto silently ignores unused tokens after the last note -- proven
-    empirically). Raises RefMismatch if the surplus/deficit falls BEFORE the
-    last period (a real, non-trailing problem) or no choice reconciles."""
+    empirically, but only safe when explicitly confirmed per file via
+    allow_trailing_surplus -- see ALLOW_TRAILING_SURPLUS). Raises
+    RefMismatch if the surplus/deficit falls BEFORE the last period (a real,
+    non-trailing problem), if no choice reconciles, or if there IS a
+    leftover but it wasn't explicitly allowed."""
     events = raw_events(music_body)
     groups = group_by_bracket(events)
     tokens, hyphen_after = lyric_tokens_with_hyphens(lyrics_body)
@@ -206,6 +259,12 @@ def reconcile_soprano(music_body, lyrics_body):
         pos += n
 
     leftover = tokens[pos:]
+    if leftover and not allow_trailing_surplus:
+        raise RefMismatch(
+            f"{len(leftover)} trailing token(s) left over after the last note: {leftover} "
+            f"-- not in ALLOW_TRAILING_SURPLUS, needs explicit per-file confirmation "
+            f"before assuming it's a harmless repeated word rather than real missing content"
+        )
     convention = "raw" if chosen is choice_all_raw else "collapse"
     return periods_events, periods_tokens, periods_hyphens, leftover, convention
 
@@ -237,7 +296,9 @@ def process_file(path, report):
         return None
 
     try:
-        ref_periods_events, ref_token_periods, ref_hyphen_periods, leftover, convention = reconcile_soprano(sop_music, sop_lyrics)
+        ref_periods_events, ref_token_periods, ref_hyphen_periods, leftover, convention = reconcile_soprano(
+            sop_music, sop_lyrics, allow_trailing_surplus=path.name in ALLOW_TRAILING_SURPLUS
+        )
     except RefMismatch as e:
         report.append((path.name, "soprano", f"REF MISMATCH: {e}"))
         return None

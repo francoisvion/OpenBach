@@ -16,14 +16,14 @@ altoMusic = {
           e'2 e'4\fermata
           \partial 4  e'
           e' fis' gis' a'~
-          a'8 [gis'] a'4 a'8 [gis'] a'4
+          a'8 gis' a'4 a'8 [gis'] a'4
           a'4. gis'8 e'4\fermata \fine
         }
 
 tenorMusic = {
           \partial 4  c'4
           e' e' e' d'~
-          d'8 [c'16 b] c'4 b4. a8~
+          d'8 c'16 [b] c'4 b4. a8~
           a4 gis8 [fis] gis4\fermata
           \partial 4  gis
           a a b c'8 [d']
