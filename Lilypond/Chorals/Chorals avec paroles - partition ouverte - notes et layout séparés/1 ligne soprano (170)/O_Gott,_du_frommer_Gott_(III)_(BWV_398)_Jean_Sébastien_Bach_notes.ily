@@ -21,61 +21,61 @@ sopranoMusic = {
 altoMusic = {
           \partial 4 d'4
           d' d'8 [e'] fis'4 d'
-          d'2 r4 d'
+          d'2\fermata r4 d'
           cis' cis' d' e'
-          d' cis' a fis'
+          d' cis' a\fermata fis'
           g' g'8 [fis'] e' [d'] e'4
-           d'2 r4 cis'
+           d'2\fermata r4 cis'
           d' e' e' fis'
-          e'4. d'8 cis'4 cis'
+          e'4. d'8 cis'4\fermata cis'
           d' d' d' d'
-          d'2 r4 g'
+          d'2\fermata r4 g'
            g'8 [fis'] g' [a'] b' [a'] b' [gis']
-          a'2 r4 a'
+          a'2\fermata r4 a'
           g' fis' fis' fis'
-          fis'2 r4 fis'8 [e']
+          fis'2\fermata r4 fis'8 [e']
           d'4 d' cis' cis'
-          a2. \fine
+          a2.\fermata \fine
         }
 
 tenorMusic = {
           \partial 4 fis4
           a a d' a
-          g2 r4 b
+          g2\fermata r4 b
           a a a a
-          a4. g8 fis4 d'
+          a4. g8 fis4\fermata d'
           d' g a a
-           a2 r4 a
+           a2\fermata r4 a
           a b a a
-          a gis e e
+          a gis e\fermata e
           fis8 [e] fis [g] a [g] a [fis]
-          g2 r4 d'
+          g2\fermata r4 d'
            e' e' b e'
-          e'2 r4 d'
+          e'2\fermata r4 d'
           d' d' d' cis'
-          b2 r4 d'8 [cis']
+          b2\fermata r4 d'8 [cis']
           b4 b8 [d'] a4. g8
-          fis2. \fine
+          fis2.\fermata \fine
         }
 
 bassMusic = {
           \partial 4 d4
           d8 [e] fis [g] fis [e] fis [d]
-          g2 r4 g
+          g2\fermata r4 g
           a8 [g] fis [e] fis [e] d [cis]
-          d4 a, d d
+          d4 a, d\fermata d
           g8 [fis] e [d] cis [b,] cis [a,]
-           d2 r4 a,
+           d2\fermata r4 a,
           d8 [cis] d [b,] cis4 d
-          e8 [d] e4 a, a,
+          e8 [d] e4 a,\fermata a,
           d8 [cis] d [e] fis [e] fis [d]
-          g2 r4 g8 [fis]
+          g2\fermata r4 g8 [fis]
            e [dis] e [fis] gis [fis] gis [e]
-          a2 r4 fis
+          a2\fermata r4 fis
           g8 [b] d' [e'] d' [cis'] b [ais]
-          b2 r4 fis
+          b2\fermata r4 fis
           g8 [a] b [g] a4 a,
-          d2. \fine
+          d2.\fermata \fine
         }
 
 sopranoLyrics = \lyricmode {

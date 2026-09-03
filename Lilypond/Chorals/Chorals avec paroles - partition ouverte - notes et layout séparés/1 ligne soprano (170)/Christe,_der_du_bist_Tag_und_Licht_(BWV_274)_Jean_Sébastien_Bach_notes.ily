@@ -14,7 +14,7 @@ altoMusic = {
           d'8 [e'16 f'] g'4 f'\fermata f'
           f' e'8 [fis'] g' [fis'] g' [d']
           d' g'4 fis'8 d'4\fermata fis'
-          g' d' d' d'8 [fis'] g'4. fis'8 d'4 \fine
+          g' d' d' d'8 [fis'] g'4. fis'8 d'4\fermata \fine
           
         }
 
@@ -39,7 +39,7 @@ bassMusic = {
           a, [bes,] c [d] es4. fis,8
           g, [bes,] c [d] g,4\fermata d
           g,8 [a,] bes, [c] d [c] bes, [a,]
-          g, [bes,] c [d] g,4\fermata      
+          g, [bes,] c [d] g,4\fermata \fine
         }
 
 sopranoLyrics = \lyricmode {
@@ -50,7 +50,7 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Chris -- te, der du bist Tag und Licht, Vor dir "ist, Herr," ver -- bor "gen nichts;" du vä -- ter -- li -- ches Lich -- tes - Glanz, Lehr' uns den Weg der Wahr -- heit ganz.
+      Chris -- te, der du bist Tag und Licht, Vor dir ist, Herr, ver -- bor "gen nichts;" du vä -- ter -- li -- ches Lich -- tes - Glanz, Lehr' uns den Weg der Wahr -- heit ganz.
     }
 
 tenorLyrics = \lyricmode {

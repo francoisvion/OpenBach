@@ -24,20 +24,20 @@ altoMusic = {
           b'2 a'4
           g'2 fis'4
           fis' b' a'
-          a'2 cis''4
+          a'2\fermata cis''4
           b'2 b'4
           b' a' a'
           a' d'' a'
-          a'2
+          a'2\fermata
           \partial 4  b'4
           a'2 a'4
           b' a'8 [g'] fis'4
           b' b' ais'
-          b'2 a'4
+          b'2\fermata a'4
           a'2 b'4
           a'2 a'4
           a' g'2
-          fis' \fine
+          fis'\fermata \fine
         }
 
 tenorMusic = {
@@ -45,20 +45,20 @@ tenorMusic = {
           fis'2 fis'4
           d'2 d'4
           d'2 cis'4
-          d'2 cis'4
+          d'2\fermata cis'4
           d'2 d'4
           d' cis' d'
           e' a d'
-          cis'2
+          cis'2\fermata
           \partial 4  fis'4
           e'2 d'4
           d' cis' d'
           d' g' fis'
-          fis'2 e'4
+          fis'2\fermata e'4
           fis'2 fis'4
           e'2 cis'4
           a b cis'
-          a2 \fine
+          a2\fermata \fine
         }
 
 bassMusic = {

@@ -3,7 +3,7 @@ sopranoMusic = {
           fis' d' a' a'
           b'2. b'4
           e' e' a' g'
-          fis' d' r a'
+          fis' d'\fermata r a'
           b' b' a' g'
           fis'2. e'4
           fis' gis' a'4. b'8
@@ -43,7 +43,7 @@ tenorMusic = {
           a a a d'
           d'2. g4
           g4. fis8 e4 a
-          a fis r a
+          a fis\fermata r a
           g8 [a] b4 cis'8 [d'] d' [cis']
           d'2. cis'4
           a b a4. d'8
@@ -63,7 +63,7 @@ bassMusic = {
           d8 [cis] d [e] fis [e] fis [d]
           g2. g,4
           a,8 [g,] a, [b,] cis [b,] cis [a,]
-          d4 d r fis
+          d4 d\fermata r fis
           g e a a,
           d2. a,4
           d8 [cis] d [b,] cis [b,] cis [d]

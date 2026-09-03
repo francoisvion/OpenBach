@@ -12,7 +12,7 @@ sopranoMusic = \relative c' {
           c d8 [c] b2
           a\fermata r4 fis 
           g g g fis
-          g2 r4 e
+          g2\fermata r4 e
           f g e2
           d2.\fermata \fine
          }
@@ -71,7 +71,7 @@ bassMusic = \relative c {
           e f8 [e] d4 e
           a,2\fermata r4 a
           bes b c d
-          g,2 r4 a
+          g,2\fermata r4 a
           d8 [c] bes [g] a2
           d2.\fermata \fine
        
@@ -85,22 +85,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-     Chris -- te, du Bei -- stand dei -- ner Kreuz -- ge -- mein -- e,
-     ei -- le, mit Hülf' und Ret -- tung uns er -- schei -- ne;
-     steu -- re den Fein -- den: ih -- re Blut -- ge -- ri -- chte
-     ma -- che zu ni - chte, ma -- che zu nich -- te.
+      Chris -- te, du Bei - stand dei -- ner Kreuz -- ge -- mein - e, ei -- le, mit Hülf' und Ret -- tung uns er -- schei -- ne; steu -- re den Fein - den: ih -- re Blut -- ge -- ri - chte ma -- che zu ni "- chte," ma -- che zu nich - te.
     }
 
 tenorLyrics = \lyricmode {
-     Chris -- te, du Bei -- stand dei -- ner Kreuz -- ge -- mein -- e,
-     ei -- le, mit Hülf' und Ret -- tung uns er -- schei -- ne;
-     steu -- re den Fein -- den: ih -- re Blut -- ge -- ri -- chte
-     ma -- che zu ni - chte, ma -- che zu nich -- te.
+      Chris -- te, du Bei -- stand dei -- ner Kreuz -- ge -- mein - e, ei -- le, mit Hülf' und Ret -- tung uns er -- schei - ne; steu -- re den Fein -- den: ih -- re Blut -- ge -- ri - chte ma "che zu" ni - chte, ma -- che zu nich - te.
     }
 
 bassLyrics = \lyricmode {
-     Chris -- te, du Bei -- stand dei -- ner Kreuz -- ge -- mein -- e,
-     ei -- le, mit Hülf' und Ret -- tung uns er -- schei -- ne;
-     steu -- re den Fein -- den: ih -- re Blut -- ge -- ri -- chte
-     ma -- che zu ni - chte, ma -- che zu nich -- te.
+      Chris -- te, du Bei - stand dei -- ner Kreuz -- ge -- mein - e, ei -- le, mit Hülf' und Ret -- tung uns er -- schei -- ne; steu -- re den Fein - den: ih -- re Blut -- ge -- ri - chte ma -- che zu ni - chte, ma -- che zu nich -- te.
     }

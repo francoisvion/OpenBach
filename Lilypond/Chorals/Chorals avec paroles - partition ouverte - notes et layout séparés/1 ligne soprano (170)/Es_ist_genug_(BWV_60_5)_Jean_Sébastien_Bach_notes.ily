@@ -69,7 +69,7 @@ tenorMusic = {
 
 bassMusic = {
           a2 gis4 ais
-          bis2 r4 gis
+          bis2\fermata r4 gis
           cis'8 [b16 a] gis8 [fis] e [d] cis [b,]
           a,2.\fermata e4
           a ais b b,

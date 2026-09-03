@@ -28,7 +28,7 @@ altoMusic = {
           bes [c'] d'4. c'16 [bes] a8 [g]
           d'2\fermata r4 fis'
           g' a' a'2
-          a' g'8 [a'] bes'4
+          a'\fermata g'8 [a'] bes'4
           bes' a' bes'4. aes'8
           g'2\fermata r4
           \partial 4  bes'
@@ -53,7 +53,7 @@ tenorMusic = {
           g [a] bes4. a16 [g] c'4
           fis2\fermata r4 d'
           d'8 [e'] f'4 e'8 [d'] e'16 [fis' g'8]
-          fis'2 d'4 f'
+          fis'2\fermata d'4 f'
           g' f' f' f'
           ees'2\fermata r4
           \partial 4  f'
