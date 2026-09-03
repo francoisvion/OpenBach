@@ -58,22 +58,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Nun freut euch, Got -- tes Kin -- der all',
-      der Herr fährt auf mit gro -- ßem Schall,
-      lob -- sin -- get ihm, lob -- sin -- get ihm,
-      lob -- sin -- get ihm mit hel -- ler Stimm', Stimm'!
+      Nun freut - euch, Got -- tes Kin -- der all', der Herr fährt auf mit gro - ßem Schall, lob - sin -- get ihm, "lob sin" - get ihm, lob "sin get" ihm mit "hel ler" - Stimm', Stimm'!
     }
 
 tenorLyrics = \lyricmode {
-      Nun freut euch, Got -- tes Kin -- der all',
-      der Herr fährt auf mit gro -- ßem Schall,
-      lob -- sin -- get ihm, lob -- sin -- get ihm,
-      lob -- sin -- get ihm mit hel -- ler Stimm', Stimm'!
+      Nun freut euch, Got - "tes Kin" - - - der all', der Herr fährt - auf mit - - gro - - ßem Schall, lob "sin get" - ihm, lob -- sin -- get - ihm, lob "sin get ihm" - mit hel -- ler - Stimm', - Stimm'!
     }
 
 bassLyrics = \lyricmode {
-      Nun freut euch, Got -- tes Kin -- der all',
-      der Herr fährt auf mit gro -- ßem Schall,
-      lob -- sin -- get ihm, lob -- sin -- get ihm,
-      lob -- sin -- get ihm mit hel -- ler Stimm', Stimm'!
+      Nun - "freut euch," - Got -- tes - Kin -- der all', der - Herr - fährt - auf - mit - gro - - ßem Schall, lob -- sin - get ihm, - lob - sin -- get ihm, lob "sin get" ihm mit - hel - ler Stimm', Stimm'!
     }
