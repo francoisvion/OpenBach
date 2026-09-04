@@ -71,13 +71,13 @@ sopranoLyrics = \lyricmode {Leit uns mit dei -- ner rech -- ten Hand,
 }
 
 altoLyrics = \lyricmode {
-  Leit uns mit dei -- ner rech -- ten Hand, Und se -- gne - un -- ser Stadt und Land; Gieb uns all -- zeit dein hei - lges Wort, Be -- hüt vors - Teu -- fels List - und - Mord, Ver -- leih ein sel -- ges Stün -- de -- lein, Auf dass wir e -- wig bei dir - sein.
+  Leit uns mit dei -- ner rech -- ten Hand, Und se -- gne un -- ser Stadt und Land; Gieb uns all -- zeit dein hei -- lges Wort, Be -- hüt vors Teu -- fels List und Mord, Ver -- leih ein sel -- ges Stün -- de -- lein, Auf dass wir e -- wig bei dir _ sein.
 }
 
 tenorLyrics = \lyricmode {
-  Leit uns mit dei -- ner rech -- ten Hand, Und se -- gne un -- ser Stadt und Land; Gieb uns all -- zeit dein - hei -- lges Wort, Be -- hüt - vors Teu -- fels List und Mord, Ver -- leih ein sel -- ges Stün -- de -- lein, Auf dass - wir "e wig bei" - dir - sein.
+  Leit uns mit dei -- ner rech -- ten Hand, Und se -- gne un -- ser Stadt und Land; Gieb uns all -- zeit dein hei -- lges Wort, Be -- hüt vors Teu -- fels List und Mord, Ver -- leih ein sel -- ges Stün -- de -- lein, Auf dass wir e -- wig bei dir sein.
 }
 
 bassLyrics = \lyricmode {
-  Leit uns mit dei -- ner rech -- ten Hand, Und - se -- gne un -- ser Stadt und Land; Gieb uns all -- zeit dein - hei -- lges Wort, Be -- hüt vors - Teu -- fels List und Mord, Ver -- leih ein sel -- ges Stün -- de -- lein, Auf dass wir e -- wig - bei dir sein.
+  Leit uns mit dei -- ner rech -- ten Hand, Und se -- gne un -- ser Stadt und Land; Gieb uns all -- zeit dein hei -- lges Wort, Be -- hüt vors Teu -- fels List und Mord, Ver -- leih ein sel -- ges Stün -- de -- lein, Auf dass wir e -- wig bei dir sein.
 }

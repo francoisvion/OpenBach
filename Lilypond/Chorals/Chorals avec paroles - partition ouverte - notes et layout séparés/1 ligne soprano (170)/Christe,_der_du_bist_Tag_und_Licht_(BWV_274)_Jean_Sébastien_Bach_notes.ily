@@ -50,13 +50,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Chris -- te, der du bist Tag und Licht, Vor dir ist, Herr, ver -- bor "gen nichts;" du vä -- ter -- li -- ches Lich -- tes - Glanz, Lehr' uns den Weg der Wahr -- heit ganz.
+  Chris -- te, der du bist Tag und Licht, Vor dir ist, Herr, ver -- bor -- gen nichts; du vä -- ter -- li -- ches Lich -- tes _ Glanz, Lehr' uns den Weg der Wahr -- heit ganz.
 }
 
 tenorLyrics = \lyricmode {
-  Chris -- te, der du bist "Tag und" Licht, Vor dir ist, Herr, ver -- bor -- gen nichts; du vä -- ter -- li -- ches Lich -- tes Glanz, Lehr' uns den Weg der "Wahr heit" ganz.
+  Chris -- te, der du bist Tag und Licht, Vor dir ist, Herr, ver -- bor -- gen nichts; du vä -- ter -- li -- ches Lich -- tes Glanz, Lehr' uns den Weg der Wahr -- heit ganz.
 }
 
 bassLyrics = \lyricmode {
-  Chris -- te, der du bist Tag und Licht, Vor dir ist, Herr, ver -- bor -- gen nichts; du vä -- ter -- li -- ches Lich "tes Glanz," Lehr' uns den Weg der Wahr -- heit ganz.
+  Chris -- te, der du bist Tag und Licht, Vor dir ist, Herr, ver -- bor -- gen nichts; du vä -- ter -- li -- ches Lich -- tes Glanz, Lehr' uns den Weg der Wahr -- heit ganz.
 }
