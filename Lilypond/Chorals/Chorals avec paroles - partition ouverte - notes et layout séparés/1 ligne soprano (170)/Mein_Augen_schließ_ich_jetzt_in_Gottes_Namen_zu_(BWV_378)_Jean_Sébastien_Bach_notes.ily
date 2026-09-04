@@ -90,11 +90,11 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Mein' Au -- gen schließ' ich jetzt in Got -- tes Na -- men zu, die -- weil der mü -- de Leib be -- geh -- ret sei - ne Ruh', weiß a -- ber nicht, ob ich - den Mor -- gen möcht' er -- le -- ben; es könn -- te - mich der Tod "viel leicht" - "noch heut'" - um -- ge - ben.
+      Mein' Au -- gen schließ' ich jetzt in Got -- tes Na -- men zu, die -- weil der mü -- de Leib be -- geh -- ret sei - ne Ruh', weiß a -- ber nicht, ob ich - den Mor -- gen möcht' er -- le -- ben; es könn -- te - mich der Tod viel -- leicht noch heut' um -- ge - ben.
     }
 
 tenorLyrics = \lyricmode {
-      Mein' Au -- gen schließ' ich jetzt in Got -- tes Na -- men zu, die -- weil der mü -- de Leib be -- geh -- ret sei -- ne Ruh', weiß a -- ber nicht, ob ich den Mor -- gen möcht' "er le" - - ben; es könn -- te mich der Tod viel -- leicht noch heut' um -- ge - ben.
+      Mein' Au -- gen schließ' ich jetzt in Got -- tes Na -- men zu, die -- weil der mü -- de Leib be -- geh -- ret sei -- ne Ruh', weiß a -- ber nicht, ob ich den Mor -- gen möcht' er -- le - ben; es könn -- te mich der Tod viel -- leicht noch heut' um -- ge - ben.
     }
 
 bassLyrics = \lyricmode {

@@ -159,7 +159,7 @@ altoLyrics = \lyricmode {
     }
 
 tenorLyrics = \lyricmode {
-      Wir - - - - - - - - - glau ben - - all' - - - - - - - - an - - ei nen Gott, Schöp - fer Him -- mels und - der Er - - den, - der - sich "zum Va" - ter - ge -- ben hat, - - dass - - "wir sei" - ne - Kin - der - wer - - - "den. Er" will - uns - all - zeit er - - näh ren, Seel' - und - Leib auch wohl be - wah ren, - al - lem - Un - fall "will er" - weh - ren, kein - "Leid soll" - - "uns wi der" - - - fah ren, - - er sor - - - - - get für - - uns, - - - hütt - - - - - - - - - - - und wacht; - - - - - es - - steht - - Al - - les in - - sei - - -
+      Wir - - - - - - - - - glau ben - - all' - - - - - - - - an - - ei nen Gott, Schöp - fer Him -- mels und - der Er - - den, - der - sich zum Va -- ter - ge -- ben hat, - - dass - - wir sei -- ne - Kin - der - wer - - - den. Er will uns - all - zeit er - - näh ren, Seel' - und - Leib auch wohl be - wah ren, - al - lem - Un - fall will er weh - ren, kein - Leid soll - uns wi -- der - fah ren, - - er sor - - - - - get für - - uns, - - - hütt - - - - - - - - - - - und wacht; - - - - - es - - steht - - Al - - les in - - sei - - -
     }
 
 bassLyrics = \lyricmode {

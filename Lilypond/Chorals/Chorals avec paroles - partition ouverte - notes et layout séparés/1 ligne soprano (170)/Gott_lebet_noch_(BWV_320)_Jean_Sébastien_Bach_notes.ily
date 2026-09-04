@@ -163,17 +163,36 @@ bassMusic = {
         }
 
 sopranoLyrics = \lyricmode {
-      Gott leb -- et noch; See - le, was _ ver -- zagst _ du doch? Gott ist gut, _ der aus Er -- bar - men al -- le Hülf' auf Er -- den thut, der mit Kraft und Star -- ken Ar -- men ma -- chet Al - les wohl und gut. Gott kann bes - ser als _ wir den - ken al -- le Noth _ zum be - sten len -- ken. See - le, so be -- den - ke doch: lebt _ doch un - ser Herr Gott noch.
+      Gott leb -- et noch;
+      See - le, was _ ver -- zagst _ du doch?
+      Gott ist gut, _ der aus Er -- bar - men al -- le Hülf' auf Er -- den thut,
+      der mit Kraft und Star -- ken Ar -- men ma -- chet Al - les wohl und gut.
+      Gott kann bes - ser als _ wir den - ken al -- le Noth __ _ zum be - sten len -- ken.
+      See - le, so be -- den - ke doch: lebt __ _ doch un - ser Herr Gott noch.
     }
 
 altoLyrics = \lyricmode {
-      Gott leb -- et noch; See - le, was ver -- zagst du doch? Gott ist gut, - der aus Er -- bar - men al - le Hülf' auf Er -- den thut, der mit Kraft - und Star -- ken Ar -- men ma - chet Al - les wohl und gut. Gott - kann bes - ser als wir den - ken al - le Noth - zum be - sten len -- ken. See le, so be -- den ke doch: - lebt doch un - ser Herr Gott noch.
+      Gott leb -- et noch;
+      See - le, was ver -- zagst du doch?
+      Gott ist gut, __ _ der aus Er -- bar - men al - le Hülf' auf Er -- den thut,
+      der mit Kraft __ _ und Star -- ken Ar -- men ma - chet Al - les wohl und gut.
+      Gott __ _ kann bes - ser als wir den - ken al - le Noth __ _ zum be - sten len -- ken.
+      See -- le, so be -- den -- ke doch: _ lebt doch un - ser Herr Gott noch.
     }
 
 tenorLyrics = \lyricmode {
-      Gott leb -- et noch; See - le, was - ver -- zagst - du doch? Gott ist gut, - der aus Er -- bar - men al -- le Hülf' auf Er -- den thut, der mit Kraft - und Star -- ken Ar -- men ma -- chet Al - les wohl - und gut. Gott kann bes - ser als - wir den - ken al -- le Noth - zum be sten len -- ken. See le, so be -- den - ke doch: lebt doch un - ser Herr - Gott noch.
+      Gott leb -- et noch;
+      See - le, was __ _ ver -- zagst - du doch?
+      Gott ist gut, der aus Er -- bar - men al - le Hülf' auf Er -- den thut,
+      der mit Kraft __ _ und Star -- ken Ar -- men ma -- chet Al - les wohl __ _ und gut.
+      Gott kann bes - ser als __ _ wir den - ken al -- le Noth __ _ zum be -- sten len -- ken.
+      See -- le, so be -- den - ke doch: lebt doch un - ser Herr __ _ Gott noch.
     }
 
 bassLyrics = \lyricmode {
-      Gott leb -- et noch; See - le, was - ver -- zagst - "du doch?" - - Gott - ist gut, - der aus - Er -- bar - men al - le Hülf' - auf Er - den thut, - der - mit Kraft - und Star - ken Ar - men ma - chet Al - les wohl - und gut. Gott - kann bes - ser als - wir den - ken al - le Noth - zum be - sten len -- ken. See le, so - be -- den - ke doch: - - lebt - doch un - "ser Herr" - - Gott noch.
+      Gott leb -- et noch;
+      See - - - le, was __ _ ver -- zagst du doch?
+      Gott - - ist gut, __ _ der aus __ _ Er -- bar - men al - le Hülf' - auf Er - den thut,
+      der __ _ mit Kraft - und Star - ken Ar - men ma - chet Al - les wohl __ _ und gut.
+      Gott - kann bes - ser als __ _ wir den - ken al - le Noth __ _ zum be - sten len -- ken. See -- le, so - be -- den - ke doch: __ _ _ lebt __ _ doch un - ser Herr -- Gott noch.
     }

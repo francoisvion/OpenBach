@@ -320,35 +320,42 @@ def build_corrected_tokens(ref_tokens, mapping, hyphen_after=None):
     last_real_idx = None  # most recent ref index that actually got a word
     first_occurrence_idx = []  # parallel to out: ref idx if this out entry
                                  # was a first-occurrence real word, else None
+    pending = []  # real-word ref indices due but not yet placed (deferred
+                   # from an earlier target event that had more than one new
+                   # syllable due at once) -- NEVER combined into a quoted
+                   # multi-word token; each gets its OWN later target event
+                   # instead, shifting the rest of the period by one slot.
     for covered in mapping:
         # covered: list of ref indices this ONE target event maps to.
         # Any index already seen before (from an earlier target event)
         # only gets a placeholder here (passing-tone subdivision).
-        # Any NEW index(es) get their real word; if more than one NEW
-        # index lands on this single target event (a tie/retard covering
-        # several soprano syllables), combine them into one quoted
-        # multi-word token so nothing is ever dropped.
         new_indices = [idx for idx in covered if idx not in seen]
         seen.update(new_indices)
         # a ref index that is ITSELF a bare placeholder (soprano already
-        # wrote "-"/"_"/"__" there) carries no word -- never quote-combine
-        # it with a real word, just silently absorb it into whichever
-        # event covers it (it needs no separate representation).
+        # wrote "-"/"_"/"__" there) carries no word -- never combine it
+        # with a real word, just silently absorb it (needs no separate
+        # representation of its own).
         real_new = [idx for idx in new_indices if ref_tokens[idx] not in ("-", "_", "__")]
-        if not real_new:
+        pending.extend(real_new)
+        if pending:
+            idx = pending.pop(0)
+            out.append(ref_tokens[idx])
+            first_occurrence_idx.append(idx)
+            last_real_idx = idx
+        else:
             # this whole target event is a passing tone with no new
             # syllable due -- extend whatever word was last assigned.
             tok = ref_tokens[last_real_idx] if last_real_idx is not None else "-"
             out.append("_" if tok.endswith("__") else "-")
             first_occurrence_idx.append(None)
-        elif len(real_new) == 1:
-            out.append(ref_tokens[real_new[0]])
-            first_occurrence_idx.append(real_new[0])
-            last_real_idx = real_new[0]
-        else:
-            out.append('"' + " ".join(ref_tokens[i] for i in real_new) + '"')
-            first_occurrence_idx.append(None)
-            last_real_idx = real_new[-1]
+
+    # any words still queued when the period runs out of target events (a
+    # genuine deficit, not just a momentary retard) -- append them as their
+    # own trailing tokens rather than lose or combine them; the caller's own
+    # length check will flag this period if it doesn't fit the note count.
+    for idx in pending:
+        out.append(ref_tokens[idx])
+        first_occurrence_idx.append(idx)
 
     # re-insert "--" between two adjacent first-occurrences of consecutive
     # ref indices, when soprano had a hyphen-join there.

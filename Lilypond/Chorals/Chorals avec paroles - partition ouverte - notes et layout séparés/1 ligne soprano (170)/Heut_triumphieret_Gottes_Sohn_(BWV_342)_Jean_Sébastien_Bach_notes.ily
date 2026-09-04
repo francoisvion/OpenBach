@@ -120,9 +120,9 @@ altoLyrics = \lyricmode {
     }
 
 tenorLyrics = \lyricmode {
-      Heut' tri -- um -- phi - ret Got - tes Sohn, der von dem Tod - er -- stan -- den schon, Hal -- le -- lu -- ja, - hal -- le - lu -- ja! mit gro -- ßer Pracht und Her - lich -- keit, deß dank'n wir ihm - in E -- wig -- keit. Hal -- le - lu -- ja, hal "le lu" - ja!
+      Heut' tri -- um -- phi - ret Got - tes Sohn, der von dem Tod - er -- stan -- den schon, Hal -- le -- lu -- ja, - hal -- le - lu -- ja! mit gro -- ßer Pracht und Her - lich -- keit, deß dank'n wir ihm - in E -- wig -- keit. Hal -- le - lu -- ja, hal -- le -- lu -- ja!
     }
 
 bassLyrics = \lyricmode {
-      Heut' tri -- um -- phi -- ret Got - tes Sohn, der von dem Tod - er -- stan - den schon, Hal -- le -- lu -- ja, hal -- le - lu -- ja! mit gro -- ßer Pracht und Her - lich -- keit, deß dank'n wir ihm - in E - wig -- keit. Hal -- le -- lu -- ja, - hal "le lu" - ja!
+      Heut' tri -- um -- phi -- ret Got - tes Sohn, der von dem Tod - er -- stan - den schon, Hal -- le -- lu -- ja, hal -- le - lu -- ja! mit gro -- ßer Pracht und Her - lich -- keit, deß dank'n wir ihm - in E - wig -- keit. Hal -- le -- lu -- ja, - hal -- le -- lu -- ja!
     }

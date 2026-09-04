@@ -75,7 +75,7 @@ altoLyrics = \lyricmode {
     }
 
 tenorLyrics = \lyricmode {
-      Dein Blut, der ed -- le Saft, hat sol -- che Stärk und Kraft, dass auch ein "Tröpf lein" - klei -- ne die gan -- ze Welt könnt rei - ne, ja, gar aus Teu -- fels Ra -- chen frei, los und le -- dig ma - chen.
+      Dein Blut, der ed -- le Saft, hat sol -- che Stärk und Kraft, dass auch ein Tröpf -- lein klei -- ne die gan -- ze Welt könnt rei - ne, ja, gar aus Teu -- fels Ra -- chen frei, los und le -- dig ma - chen.
     }
 
 bassLyrics = \lyricmode {

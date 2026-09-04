@@ -59,7 +59,7 @@ altoLyrics = \lyricmode {
     }
 
 tenorLyrics = \lyricmode {
-      Dies sind die heil' -- gen zehn Ge -- bot', die uns gab un -- ser Her -- re Gott durch Mo -- se, sei -- nen Die -- ner treu, hoch auf dem Berg Si -- na -- i. Ky "rie e" - leis'. -
+      Dies sind die heil' -- gen zehn Ge -- bot', die uns gab un -- ser Her -- re Gott durch Mo -- se, sei -- nen Die -- ner treu, hoch auf dem Berg Si -- na -- i. Ky -- rie e -- leis'. -
     }
 
 bassLyrics = \lyricmode {

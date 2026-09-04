@@ -81,7 +81,7 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Ist Gott mein Schutz und treu -- er Hirt, kein Un -- glück mich be -- rüh -- ren wird: weicht, "al le" - mei -- ne Fein - de die ihr mir stif -- tet Angst und Pein, es wird zu eu -- rem Scha -- den sein; ich ha -- be Gott zum Freun - de, ich ha -- be Gott zum Freun - de.
+      Ist Gott mein Schutz und treu -- er Hirt, kein Un -- glück mich be -- rüh -- ren wird: weicht, al -- le mei -- ne Fein - de die ihr mir stif -- tet Angst und Pein, es wird zu eu -- rem Scha -- den sein; ich ha -- be Gott zum Freun - de, ich ha -- be Gott zum Freun - de.
     }
 
 tenorLyrics = \lyricmode {

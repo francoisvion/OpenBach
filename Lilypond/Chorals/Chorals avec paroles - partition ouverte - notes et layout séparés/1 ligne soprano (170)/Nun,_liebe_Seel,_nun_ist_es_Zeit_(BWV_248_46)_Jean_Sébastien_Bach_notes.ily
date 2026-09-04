@@ -71,7 +71,7 @@ sopranoLyrics = \lyricmode {Dein Glanz all Fin - - ster -- nis ver -- zehrt,
     }
 
 altoLyrics = \lyricmode {
-      Dein Glanz all Fin - - ster -- nis ver -- zehrt, Die trü -- be Nacht in Licht ver -- kehrt. Leit uns auf dei -- nen We - gen, dass dein Ge -- sicht und herr -- lichs Licht Wir e -- wig - schau - - "en mö" - gen!
+      Dein Glanz all Fin - - ster -- nis ver -- zehrt, Die trü -- be Nacht in Licht ver -- kehrt. Leit uns auf dei -- nen We - gen, dass dein Ge -- sicht und herr -- lichs Licht Wir e -- wig - schau - - en mö -- gen!
     }
 
 tenorLyrics = \lyricmode {

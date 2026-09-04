@@ -80,5 +80,5 @@ tenorLyrics = \lyricmode {
     }
 
 bassLyrics = \lyricmode {
-      Nun ru -- hen al -- le Wäl - der, Vieh, Mensch -- en, Städt' und Fel - der, es schläft die gan -- ze Welt; ihr a -- ber mei -- ne Sin - nen, auf, auf! "ihr sollt" - be -- gin - nen, was eu -- rem Schö -- pfer wohl -- ge -- fällt.
+      Nun ru -- hen al -- le Wäl - der, Vieh, Mensch -- en, Städt' und Fel - der, es schläft die gan -- ze Welt; ihr a -- ber mei -- ne Sin - nen, auf, auf! ihr sollt be -- gin - nen, was eu -- rem Schö -- pfer wohl -- ge -- fällt.
     }

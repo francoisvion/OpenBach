@@ -96,9 +96,9 @@ altoLyrics = \lyricmode {
     }
 
 tenorLyrics = \lyricmode {
-      Nun prei -- set al -- le Got -- tes Barm -- her -- zig -- keit, lob' ihn mit Schal -- le, du wer "the Chri" - - sten -- heit! Er lässt dich freund - lich zu - sich la - den. freu -- e dich, I - sra -- el, sei -- ner Gna -- den,
+      Nun prei -- set al -- le Got -- tes Barm -- her -- zig -- keit, lob' ihn mit Schal -- le, du wer -- the Chri - sten -- heit! Er lässt dich freund - lich zu - sich la - den. freu -- e dich, I - sra -- el, sei -- ner Gna -- den,
     }
 
 bassLyrics = \lyricmode {
-      Nun prei -- set al -- le "Got tes" - Barm -- her - zig -- keit, lob' ihn mit Schal -- le, du wer -- the Chri - sten -- heit! Er lässt dich freund - "lich zu" - sich la - den. freu -- e dich, I - sra -- el, sei -- ner Gna - den,
+      Nun prei -- set al -- le Got -- tes Barm -- her - zig -- keit, lob' ihn mit Schal -- le, du wer -- the Chri - sten -- heit! Er lässt dich freund - lich zu sich la - den. freu -- e dich, I - sra -- el, sei -- ner Gna - den,
     }

@@ -89,7 +89,7 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Die Nacht ist kom - men, rin wir ru -- hen sol - len; Gott walt "zu From" - - men nach sein'm Wohl -- ge -- fal -- len, dass wir "uns le" - - gen, in sein'm G'leit und Se -- gen "sein'n Will'n" - zu pfle - gen.
+      Die Nacht ist kom - men, rin wir ru -- hen sol - len; Gott walt zu From - men nach sein'm Wohl -- ge -- fal -- len, dass wir uns le - gen, in sein'm G'leit und Se -- gen sein'n Will'n zu pfle - gen.
     }
 
 tenorLyrics = \lyricmode {

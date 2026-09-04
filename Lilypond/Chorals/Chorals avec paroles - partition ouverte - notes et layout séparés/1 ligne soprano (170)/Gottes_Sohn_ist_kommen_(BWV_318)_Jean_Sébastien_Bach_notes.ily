@@ -41,7 +41,7 @@ tenorMusic = {
           e a2 g4
           fis1\fermata
           g4 c' d' c'~
-          c'8 [b] c'4 b2\fermata
+          c'8 b c'4 b2\fermata
           b4 a d' e'8 [a]
           b [c'] d'4 b2\fermata \fine
         }
@@ -63,15 +63,30 @@ bassMusic = {
         }
 
 sopranoLyrics = \lyricmode {
-      Got -- tes Sohn ist kom - men uns Al -- len zu From - men hier auf die -- se Er - den in ar -- men Ge -- bär - - - den, dass er uns von Sün - de frei -- e und ent -- bin - de.
+      Got -- tes Sohn ist kom - men
+      uns Al -- len zu From - men
+      hier auf die -- se Er - den
+      in ar -- men Ge -- bär - - - den,
+      dass er uns von Sün - de
+      frei -- e und ent -- bin - de.
     }
 
 altoLyrics = \lyricmode {
-      Got -- tes Sohn ist kom - men uns Al -- len zu From - men hier auf die -- se Er - den in ar -- men Ge -- bär - - den, dass er uns von Sün - de frei -- e und ent -- bin - de.
+      Got -- tes Sohn ist kom - men
+      uns Al -- len zu From - men
+      hier auf die -- se Er - den
+      in ar -- men Ge -- bär - - den,
+      dass er uns von Sün - de
+      frei -- e und ent -- bin - de.
     }
 
 tenorLyrics = \lyricmode {
-      Got -- tes Sohn ist kom - - men uns Al -- len zu From - men hier auf die -- se Er - den in ar -- men Ge -- bär - - den, dass er uns von Sün - de frei -- e und ent -- bin - de.
+      Got -- tes Sohn ist kom - - men
+      uns Al -- len zu From - men
+      hier auf die -- se Er - den
+      in ar -- men Ge -- bär - - den,
+      dass er uns von Sün - de
+      frei -- e und ent -- bin - de.
     }
 
 bassLyrics = \lyricmode {

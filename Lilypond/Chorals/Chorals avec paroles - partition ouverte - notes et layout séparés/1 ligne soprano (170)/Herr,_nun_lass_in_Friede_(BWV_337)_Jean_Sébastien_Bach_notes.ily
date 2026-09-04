@@ -71,5 +71,5 @@ tenorLyrics = \lyricmode {
     }
 
 bassLyrics = \lyricmode {
-      Herr, "nun lass" - in Frie - de le -- bens -- satt und mü - de, dei -- nen Die -- ner fah - ren zu den Him -- mels -- scha - ren, se -- lig und im Stil - len, doch nach dei -- nem Wil -- len.
+      Herr, nun lass in Frie - de le -- bens -- satt und mü - de, dei -- nen Die -- ner fah - ren zu den Him -- mels -- scha - ren, se -- lig und im Stil - len, doch nach dei -- nem Wil -- len.
     }
