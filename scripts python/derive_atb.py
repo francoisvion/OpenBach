@@ -23,6 +23,7 @@ sopranoLyrics, applying the rules mined from the 39-file verified pool:
           surplus/deficit right at the cadence.
 """
 import re
+import subprocess
 import sys
 from fractions import Fraction
 from itertools import product
@@ -40,6 +41,40 @@ FOLDER = Path(
     "/Users/francoisvion/Documents/OpenBach/Lilypond/Chorals/"
     "Chorals avec paroles - partition ouverte - notes et layout séparés/1 ligne soprano (170)"
 )
+
+REPO_ROOT = Path("/Users/francoisvion/Documents/OpenBach")
+
+
+def committed_text(path):
+    """Git HEAD content of `path`, or None if untracked/no repo (never
+    blocks in that case -- the safety check below only fires when we can
+    actually compare against a committed baseline)."""
+    try:
+        rel = path.relative_to(REPO_ROOT)
+    except ValueError:
+        return None
+    result = subprocess.run(
+        ["git", "show", f"HEAD:{rel.as_posix()}"],
+        cwd=REPO_ROOT, capture_output=True, text=True,
+    )
+    if result.returncode != 0:
+        return None
+    return result.stdout
+
+
+def has_uncommitted_lyrics_edit(path, voice, current_text):
+    """True if `{voice}Lyrics` on disk already differs from the last
+    committed version -- i.e. someone (the user, by hand) has in-progress
+    work sitting there that a regeneration would silently clobber. Never
+    overwrite in that case; let process_file skip the voice instead."""
+    head_text = committed_text(path)
+    if head_text is None:
+        return False
+    head_var = extract_var(head_text, f"{voice}Lyrics")
+    cur_var = extract_var(current_text, f"{voice}Lyrics")
+    if head_var is None or cur_var is None:
+        return False
+    return " ".join(head_var.split()) != " ".join(cur_var.split())
 
 
 # ---------- grouping helpers ----------
@@ -131,14 +166,19 @@ def split_groups_by_fermata(groups):
     return periods
 
 
-def best_period_events(period_groups, target_n):
+def best_period_events(period_groups, target_n, prefer="collapse"):
     """Try every collapse/raw combination for this period's own bracket
     groups and return whichever makes the event count match target_n (the
     corresponding soprano period's slot count) EXACTLY -- each voice may
     need its OWN bracket convention to land on the same total as soprano,
-    it isn't necessarily uniform with soprano's own choice (Loi 2). Falls
-    back to the closest achievable count if no exact combo exists."""
+    it isn't necessarily uniform with soprano's own choice (Loi 2). When
+    several combos hit target_n exactly (ambiguous -- multiple ways to lose
+    or gain the same number of slots), prefer the one closest to `prefer`
+    (the piece's dominant/global convention): an isolated local exception is
+    far more plausible than the whole period using the opposite convention.
+    Falls back to the closest achievable count if no exact combo exists."""
     multi_idx = [i for i, g in enumerate(period_groups) if len(g) > 1]
+    exact_candidates = []
     best_events, best_diff = None, None
     for combo in product(("collapse", "raw"), repeat=len(multi_idx)):
         choice_map = dict(zip(multi_idx, combo))
@@ -146,9 +186,14 @@ def best_period_events(period_groups, target_n):
         events = groups_to_events(period_groups, choice)
         diff = abs(len(events) - target_n)
         if diff == 0:
-            return events, True
+            n_off_pref = sum(1 for c in combo if c != prefer)
+            exact_candidates.append((n_off_pref, events))
+            continue
         if best_diff is None or diff < best_diff:
             best_diff, best_events = diff, events
+    if exact_candidates:
+        exact_candidates.sort(key=lambda pair: pair[0])
+        return exact_candidates[0][1], True
     return best_events, False
 
 
@@ -316,6 +361,25 @@ def process_file(path, report):
             report.append((path.name, voice, "SKIP: no music var"))
             continue
 
+        if has_uncommitted_lyrics_edit(path, voice, text):
+            report.append((path.name, voice,
+                "SKIP: uncommitted manual edit on this voice's Lyrics detected "
+                "(differs from git HEAD) -- not overwriting, commit or revert first"))
+            continue
+
+        # NOTE: a per-period bracket-choice search (forcing each period's own
+        # event count to equal soprano's count for that period) was tried
+        # and measurably REGRESSES the verified pool (96->86 exact matches).
+        # Root cause: align_period is specifically designed to reconcile
+        # DIFFERENT ref/target note counts via onset windows (Loi 5/6) --
+        # forcing count equality fights that mechanism and produces wrong
+        # placeholders whenever a genuine mismatch was the correct answer
+        # (e.g. BWV_253 alto period 1: ref has an extra "-" of its own,
+        # global "collapse" gives alto 9 events vs ref's 10, and
+        # align_period already resolves it correctly; forcing 10 events via
+        # "raw" for that one bracket group inserts a spurious extra "-").
+        # Keep the single piece-wide convention. Do not retry this without
+        # first fixing best_period_events' target criterion.
         tgt_events = events_with_convention(music, convention)
         tgt_periods_fermata = split_periods(tgt_events)
         if len(tgt_periods_fermata) == len(ref_periods_events):
