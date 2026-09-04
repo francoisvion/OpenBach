@@ -72,13 +72,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Mit Fried' und Freud' ich fahr' da -- hin in Got -- tes Wil - le, ge -- trost ist mir mein Herz und Sinn, sanft - und stil - le. Wie Gott mir ver - hei -- ßen hat, der Tod ist mein Schlaf wor - den. - -
+      Mit Fried' und Freud' ich fahr' da -- hin in Got -- tes Wil - le, ge -- trost ist mir mein Herz und Sinn, sanft _ und stil _ le. Wie Gott mir ver - hei -- ßen hat, der Tod ist mein Schlaf wor _ den. _ _
     }
 
 tenorLyrics = \lyricmode {
-      Mit Fried' und Freud' ich fahr' da -- hin in Got -- tes Wil - - le, ge -- trost ist mir mein Herz und Sinn, sanft - und - stil le. Wie Gott mir ver -- hei -- ßen hat, der Tod ist mein Schlaf wor den. -
+      Mit Fried' und Freud' ich fahr' da -- hin in Got -- tes Wil - - le, ge -- trost ist mir mein Herz und Sinn, sanft _ und _ stil le. Wie Gott mir ver -- hei -- ßen hat, der Tod ist mein Schlaf wor den. _
     }
 
 bassLyrics = \lyricmode {
-      Mit Fried' und Freud' ich fahr' da -- hin in Got -- tes Wil - le, ge -- trost ist mir mein Herz und Sinn, sanft - und stil - le. Wie Gott mir ver -- hei -- ßen hat, der Tod ist mein Schlaf wor - den.
+      Mit Fried' und Freud' ich fahr' da -- hin in Got -- tes Wil - le, ge -- trost ist mir mein Herz und Sinn, sanft _ und stil _ le. Wie Gott mir ver -- hei -- ßen hat, der Tod ist mein Schlaf wor _ den.
     }

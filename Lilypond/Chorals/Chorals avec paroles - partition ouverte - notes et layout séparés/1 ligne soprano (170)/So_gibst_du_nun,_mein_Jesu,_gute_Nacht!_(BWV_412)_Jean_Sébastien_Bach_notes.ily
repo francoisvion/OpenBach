@@ -87,11 +87,11 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      So gibst du nun, mein Je -- su, gu -- te Nacht! So stirbst du denn, mein al -- ler -- lieb -- stes Le -- ben? Ja, du bist hin, dein Lei "den ist" voll -- bracht. Mein Gott is tot, sein Geist ist auf -- ge -- ge - ben, mein Gott ist tot, ein Geist ist auf -- ge -- ge - ben.
+      So gibst du nun, mein Je -- su, gu -- te Nacht! So stirbst du denn, mein al -- ler -- lieb -- stes Le -- ben? Ja, du bist hin, dein Lei den ist voll bracht. Mein Gott is tot, sein Geist ist auf -- ge -- ge _ ben, mein Gott ist tot, ein Geist ist auf -- ge -- ge _ ben.
     }
 
 tenorLyrics = \lyricmode {
-      So gibst du nun, mein Je -- su, gu -- te Nacht! So stirbst du denn, mein al -- ler -- lieb -- stes Le -- ben? Ja, du bist hin, dein Lei -- den ist voll -- bracht. Mein Gott is tot, sein Geist ist auf -- ge -- ge - ben, mein Gott ist tot, ein Geist ist auf -- ge -- ge - ben.
+      So gibst du nun, mein Je -- su, gu -- te Nacht! So stirbst du denn, mein al -- ler -- lieb -- stes Le -- ben? Ja, du bist hin, dein Lei -- den ist voll -- bracht. Mein Gott is tot, sein Geist ist auf -- ge -- ge _ ben, mein Gott ist tot, ein Geist ist auf -- ge -- ge _ ben.
     }
 
 bassLyrics = \lyricmode {

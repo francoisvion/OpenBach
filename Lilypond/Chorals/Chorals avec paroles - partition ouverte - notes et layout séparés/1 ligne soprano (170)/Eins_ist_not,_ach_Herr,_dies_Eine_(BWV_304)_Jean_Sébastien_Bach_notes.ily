@@ -124,11 +124,11 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Eins ist noth, ach Herr, dies Ei -- ne leh -- re mich er -- ken -- nen doch: al -- les An -- dre, wie's auch schei -- ne, ist ja nur ein schwe -- res Joch, da -- run -- ter das Her -- ze sich na -- get und pla -- get, und den -- noch kein wah -- res Ver -- gnü -- gen er -- ja -- get; er -- lang ich dies Ei -- ne, das Al -- les er -- setzt, - so werd - "ich mit" - Ei -- nem "in Al" - lem "er götzt."
+      Eins ist noth, ach Herr, dies Ei -- ne leh -- re mich er -- ken -- nen doch: al -- les An -- dre, wie's auch schei -- ne, ist ja nur ein schwe -- res Joch, da -- run -- ter das Her -- ze sich na -- get und pla -- get, und den -- noch kein wah -- res Ver -- gnü -- gen er -- ja -- get; er lang ich dies Ei ne, das Al les er setzt, so werd ich mit Ei nem in Al lem er götzt.
     }
 
 tenorLyrics = \lyricmode {
-      Eins ist noth, ach Herr, dies Ei -- ne leh -- re mich er -- ken -- nen doch: al -- les An -- dre, wie's - auch schei -- ne, ist ja nur ein schwe -- res Joch, da -- run -- ter das Her -- ze sich na -- get und pla -- get, und den -- noch kein wah -- res Ver -- gnü -- gen er -- ja -- get; er -- lang ich dies Ei -- ne, das Al -- les er -- setzt, so werd ich mit Ei -- nem in Al -- lem er -- götzt.
+      Eins ist noth, ach Herr, dies Ei -- ne leh -- re mich er -- ken -- nen doch: al -- les An -- dre, wie's _ auch schei -- ne, ist ja nur ein schwe -- res Joch, da -- run -- ter das Her -- ze sich na -- get und pla -- get, und den -- noch kein wah -- res Ver -- gnü -- gen er -- ja -- get; er -- lang ich dies Ei -- ne, das Al -- les er -- setzt, so werd ich mit Ei -- nem in Al -- lem er -- götzt.
     }
 
 bassLyrics = \lyricmode {

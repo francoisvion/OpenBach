@@ -56,7 +56,7 @@ sopranoLyrics = \lyricmode {
      }
 
 altoLyrics = \lyricmode {
-      O Trau "rig keit," O Her -- ze -- leid! Ist das nicht zu be - kla - gen? Gott des Va -- ters ei -- nigs Kind wird ins Grab ge - tra
+      O Trau rig keit, O Her -- ze -- leid! Ist das nicht zu be - kla - gen? Gott des Va -- ters ei -- nigs Kind wird ins Grab ge - tra
     }
 
 tenorLyrics = \lyricmode {
@@ -64,5 +64,5 @@ tenorLyrics = \lyricmode {
     }
 
 bassLyrics = \lyricmode {
-      O Trau "rig keit," O Her "ze leid!" Ist das nicht zu be - kla gen? Gott des Va -- ters ei -- nigs Kind wird ins Grab ge -- tra
+      O Trau rig keit, O Her ze leid! Ist das nicht zu be - kla gen? Gott des Va -- ters ei -- nigs Kind wird ins Grab ge -- tra
     }

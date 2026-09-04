@@ -72,7 +72,7 @@ altoLyrics = \lyricmode {
     }
 
 tenorLyrics = \lyricmode {
-      Wie bist du - See -- le in mir so gar be -- trübt? Dein Hei -- land le - bet, der dich ja treu -- lich liebt, er -- gib dich gänz -- lich sei -- nem Wil -- len, - er kann al -- lein dein Trau -- ern stil - len.
+      Wie bist du _ See -- le in mir so gar be -- trübt? Dein Hei -- land le - bet, der dich ja treu -- lich liebt, er -- gib dich gänz -- lich sei -- nem Wil -- len, _ er kann al -- lein dein Trau -- ern stil - len.
     }
 
 bassLyrics = \lyricmode {

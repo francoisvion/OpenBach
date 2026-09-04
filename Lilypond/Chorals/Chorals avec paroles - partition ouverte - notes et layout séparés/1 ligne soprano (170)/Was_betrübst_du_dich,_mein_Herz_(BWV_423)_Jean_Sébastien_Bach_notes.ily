@@ -86,11 +86,11 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Was be -- trübst du dich, mein Her -- ze, wa -- rum grämst du dich in mir? Sa -- ge, was für - Noth dich Schmer -- ze, wa -- rum ist kein Muth in dir? Was für Un -- glück hat dich trof -- fen und wo bleibt dein freu -- dig Hof -- fen? Wo ist dei -- ne Zu -- ver -- sicht, die zu Gott sonst war ge -- richt't?
+      Was be -- trübst du dich, mein Her -- ze, wa -- rum grämst du dich in mir? Sa -- ge, was für _ Noth dich Schmer -- ze, wa -- rum ist kein Muth in dir? Was für Un -- glück hat dich trof -- fen und wo bleibt dein freu -- dig Hof -- fen? Wo ist dei -- ne Zu -- ver -- sicht, die zu Gott sonst war ge -- richt't?
     }
 
 tenorLyrics = \lyricmode {
-      Was be -- trübst du dich, mein Her -- ze, wa -- rum grämst du - dich in mir? Sa -- ge, was für Noth dich Schmer -- ze, wa -- rum ist kein Muth in dir? Was für Un -- glück hat dich trof -- fen und wo bleibt dein freu -- dig Hof -- fen? Wo ist dei -- ne Zu -- ver -- sicht, die zu Gott sonst war ge -- richt't?
+      Was be -- trübst du dich, mein Her -- ze, wa -- rum grämst du _ dich in mir? Sa -- ge, was für Noth dich Schmer -- ze, wa -- rum ist kein Muth in dir? Was für Un -- glück hat dich trof -- fen und wo bleibt dein freu -- dig Hof -- fen? Wo ist dei -- ne Zu -- ver -- sicht, die zu Gott sonst war ge -- richt't?
     }
 
 bassLyrics = \lyricmode {

@@ -72,11 +72,11 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Nicht nach Welt, nach Him -- mel nicht mei -- ne See -- le wünscht und seh -- net; Je -- sum wünscht sie und sein Licht, der mich hat mit Gott ver -- söh -- net, der mich "frei et vom" - Ge -- richt; mei -- nen Je -- sum lass ich nicht.
+      Nicht nach Welt, nach Him -- mel nicht mei -- ne See -- le wünscht und seh -- net; Je -- sum wünscht sie und sein Licht, der mich hat mit Gott ver -- söh -- net, der mich frei et vom Ge richt; mei -- nen Je -- sum lass ich nicht.
     }
 
 tenorLyrics = \lyricmode {
-      Nicht nach Welt, nach Him -- mel nicht mei -- ne See -- le wünscht und seh - net; Je -- sum wünscht sie und sein Licht, der mich hat mit "Gott ver" - söh - net, der mich frei -- et vom Ge -- richt; mei -- nen "Je sum lass" - ich nicht.
+      Nicht nach Welt, nach Him -- mel nicht mei -- ne See -- le wünscht und seh - net; Je -- sum wünscht sie und sein Licht, der mich hat mit Gott ver -- söh - net, der mich frei -- et vom Ge -- richt; mei nen Je sum lass ich nicht.
     }
 
 bassLyrics = \lyricmode {

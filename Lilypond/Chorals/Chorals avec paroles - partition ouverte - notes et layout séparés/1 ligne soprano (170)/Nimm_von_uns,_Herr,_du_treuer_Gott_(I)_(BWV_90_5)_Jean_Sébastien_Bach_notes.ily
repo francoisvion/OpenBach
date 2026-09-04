@@ -78,7 +78,7 @@ altoLyrics = \lyricmode {
     }
 
 tenorLyrics = \lyricmode {
-      Leit uns mit dei -- ner rech -- ten Hand, Und se -- gne un -- ser Stadt und Land, gieb uns all -- zeit dein heil -- ges Wort, be -- hüt vors Teu -- fels List und Mord; ver -- leih ein sel -- ges Stün -- de -- lein, auf "dass wir" - "e wig bei" - dir sein.
+      Leit uns mit dei -- ner rech -- ten Hand, Und se -- gne un -- ser Stadt und Land, gieb uns all -- zeit dein heil -- ges Wort, be -- hüt vors Teu -- fels List und Mord; ver -- leih ein sel -- ges Stün -- de -- lein, auf dass wir e wig bei dir sein.
     }
 
 bassLyrics = \lyricmode {

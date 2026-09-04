@@ -59,7 +59,7 @@ altoLyrics = \lyricmode {
     }
 
 tenorLyrics = \lyricmode {
-      O Trau -- rig -- keit, o Her -- ze -- leid! Ist das nicht zu be -- kla - gen? Got -- tes Va -- ters ei -- nigs Kind wird zu Grab - ge -- tra - gen.
+      O Trau -- rig -- keit, o Her -- ze -- leid! Ist das nicht zu be -- kla - gen? Got -- tes Va -- ters ei -- nigs Kind wird zu Grab _ ge -- tra - gen.
     }
 
 bassLyrics = \lyricmode {

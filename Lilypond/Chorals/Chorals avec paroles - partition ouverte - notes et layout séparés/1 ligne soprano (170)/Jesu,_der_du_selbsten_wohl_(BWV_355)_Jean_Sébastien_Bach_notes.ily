@@ -86,7 +86,7 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Je -- su, der du sel -- bsten wohl hast den Tod ge -- schme - cket, hilf mir, wenn ich ster -- ben soll, wenn der Tod mich schre - cket: wenn mich mein Ge -- wis -- sen nagt - und die Sün -- den pla - gen, wenn der - Sa -- tan mich ver -- klagt, lass mich nicht ver -- za - gen.
+      Je -- su, der du sel -- bsten wohl hast den Tod ge -- schme - cket, hilf mir, wenn ich ster -- ben soll, wenn der Tod mich schre - cket: wenn mich mein Ge -- wis -- sen nagt _ und die Sün -- den pla - gen, wenn der _ Sa -- tan mich ver -- klagt, lass mich nicht ver -- za - gen.
     }
 
 tenorLyrics = \lyricmode {

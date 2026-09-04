@@ -58,7 +58,7 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Das walt' Gott Va -- ter und Gott Sohn, Gott heil' -- ger Geist in's Him -- mels Thron. Man dankt dir, eh' die Sonn' auf -- geht; - wann's Licht an -- bricht, man vor dir - steht.
+      Das walt' Gott Va -- ter und Gott Sohn, Gott heil' -- ger Geist in's Him -- mels Thron. Man dankt dir, eh' die Sonn' auf -- geht; _ wann's Licht an -- bricht, man vor dir _ steht.
     }
 
 tenorLyrics = \lyricmode {

@@ -90,9 +90,9 @@ altoLyrics = \lyricmode {
     }
 
 tenorLyrics = \lyricmode {
-      Er nahm al -- les wohl in acht in der letz -- ten Stun - de, sei -- ne Mut -- ter noch be -- dacht, setzt ihr ein Vor -- mun - de. O Mensch, ma -- che Rich -- tig -- keit, Gott und Men -- schen lie - be, stirb da -- rauf ohn al -- les Leid, und dir nicht be -- trü - be!
+      Er nahm al -- les wohl in acht in der letz -- ten Stun - de, sei -- ne Mut -- ter noch be -- dacht, setzt ihr ein Vor -- mun - de. O Mensch, ma -- che Rich -- tig -- keit, Gott und Men -- schen lie _ be, stirb da -- rauf ohn al -- les Leid, und dir nicht be -- trü - be!
     }
 
 bassLyrics = \lyricmode {
-      Er nahm al -- les wohl in acht in der letz -- ten Stun - de, sei -- ne Mut -- ter noch be -- dacht, setzt ihr ein Vor -- mun - de. O Mensch, ma -- che Rich -- tig -- keit, Gott und Men -- schen lie - be, stirb da -- rauf ohn al -- les Leid, und dir nicht be -- trü - be!
+      Er nahm al -- les wohl in acht in der letz -- ten Stun - de, sei -- ne Mut -- ter noch be -- dacht, setzt ihr ein Vor -- mun - de. O Mensch, ma -- che Rich -- tig -- keit, Gott und Men -- schen lie _ be, stirb da -- rauf ohn al -- les Leid, und dir nicht be -- trü - be!
     }

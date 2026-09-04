@@ -84,7 +84,7 @@ altoLyrics = \lyricmode {
     }
 
 tenorLyrics = \lyricmode {
-      Wenn ich in Angst und Noth "mein' Au" - "gen heb'" em -- por zu dei -- nen Ber -- gen, - Herr! mit Seuf -- zen und mit Fle - hen, so reichst du mir dein Ohr, "dass ich" nicht darf - be -- trübt von dei -- nem Ant -- litz ge - hen.
+      Wenn ich in Angst und Noth mein' Au gen heb' em por zu dei -- nen Ber -- gen, _ Herr! mit Seuf -- zen und mit Fle - hen, so reichst du mir dein Ohr, dass ich nicht darf be -- trübt von dei -- nem Ant -- litz ge - hen.
     }
 
 bassLyrics = \lyricmode {

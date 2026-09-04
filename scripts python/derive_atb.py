@@ -329,33 +329,35 @@ def process_file(path, report):
                 continue
 
         new_tokens_all = []
-        voice_ok = True
         n_extra_periods = 0
         n_combined_periods = 0
+        n_unresolved_periods = 0
         for pi, (rp_events, rp_tokens, rp_hyphens, tp_events) in enumerate(
             zip(ref_periods_events, ref_token_periods, ref_hyphen_periods, tgt_periods)
         ):
             ref_durs = [e["dur"] for e in rp_events]
+            resolved = True
             try:
                 mapping = align_period(ref_durs, tp_events)
+                new_tokens = build_corrected_tokens(rp_tokens, mapping, rp_hyphens)
+                n_real = sum(1 for t in new_tokens if t != "--")
+                if n_real != len(tp_events):
+                    raise DeficitError(f"note count mismatch after build ({n_real} vs {len(tp_events)})")
             except DeficitError as e:
-                report.append((path.name, voice, f"UNRECOVERABLE period {pi}: {e}"))
-                voice_ok = False
-                break
-            new_tokens = build_corrected_tokens(rp_tokens, mapping, rp_hyphens)
-            n_real = sum(1 for t in new_tokens if t != "--")
-            if n_real != len(tp_events):
-                report.append((path.name, voice, f"INTERNAL LEN MISMATCH period {pi}"))
-                voice_ok = False
-                break
-            if n_real != len(rp_tokens):
+                # this ONE period can't be resolved without combining or
+                # crossing a period boundary -- don't abort the whole voice,
+                # fall back to a literal copy of the reference words for
+                # just this period (flagged for manual review) so every
+                # OTHER period in this voice still gets written correctly.
+                report.append((path.name, voice, f"UNRESOLVED period {pi} (kept ref words verbatim, needs manual check): {e}"))
+                n_unresolved_periods += 1
+                new_tokens = list(rp_tokens)
+                resolved = False
+            if resolved and n_real != len(rp_tokens):
                 n_extra_periods += 1
             if any(t.startswith('"') and " " in t for t in new_tokens):
                 n_combined_periods += 1
             new_tokens_all.extend(new_tokens)
-
-        if not voice_ok:
-            continue
 
         new_body = " ".join(new_tokens_all)
         existing_lyr = extract_var(text, f"{voice}Lyrics")
@@ -370,6 +372,8 @@ def process_file(path, report):
             note = f"OK, changed ({n_extra_periods} period(s) w/ insertions"
             if n_combined_periods:
                 note += f", {n_combined_periods} combined-token period(s)"
+            if n_unresolved_periods:
+                note += f", {n_unresolved_periods} UNRESOLVED period(s) kept as ref-verbatim"
             note += ")"
             report.append((path.name, voice, note))
         else:

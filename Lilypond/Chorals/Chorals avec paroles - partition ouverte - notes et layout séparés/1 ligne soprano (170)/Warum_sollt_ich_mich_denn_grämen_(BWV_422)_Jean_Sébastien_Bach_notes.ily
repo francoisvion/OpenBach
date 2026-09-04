@@ -74,13 +74,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Wa -- rum sollt' ich mich denn grä - men? Hab' ich doch Chri -- stum noch, wer will mir den - neh -- men? Wer will mir den "Him mel" rau ben, den mir schon Got tes Sohn bei ge -- legt im "Glau ben," im "Glau ben." -
+      Wa -- rum sollt' ich mich denn grä _ men? Hab' ich doch Chri -- stum noch, wer will mir den _ neh -- men? Wer will mir den Him mel rau - ben, den mir schon Got tes Sohn bei ge legt im Glau ben, im Glau ben. _
     }
 
 tenorLyrics = \lyricmode {
-      Wa -- rum sollt' ich mich denn grä - men? Hab' ich doch Chri -- stum noch, wer will mir den neh -- men? Wer will mir den Him -- mel rau - ben, den mir schon Got tes Sohn bei ge -- legt im "Glau ben," im "Glau ben." -
+      Wa -- rum sollt' ich mich denn grä _ men? Hab' ich doch Chri -- stum noch, wer will mir den neh -- men? Wer will mir den Him -- mel rau _ ben, den mir schon Got tes Sohn bei ge legt im Glau ben, im Glau ben. _
     }
 
 bassLyrics = \lyricmode {
-      Wa -- rum "sollt' ich" - mich denn grä men? Hab' ich doch Chri -- stum noch, wer will mir den neh -- men? Wer will mir den Him -- mel rau - ben, den mir schon Got tes Sohn bei ge -- legt im "Glau ben," "im Glau ben." -
+      Wa -- rum sollt' ich mich denn grä men? Hab' ich doch Chri -- stum noch, wer will mir den neh -- men? Wer will mir den Him -- mel rau _ ben, den mir schon Got tes Sohn bei ge legt im Glau ben, im Glau ben. _
     }

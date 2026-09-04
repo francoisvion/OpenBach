@@ -345,8 +345,11 @@ def build_corrected_tokens(ref_tokens, mapping, hyphen_after=None):
         else:
             # this whole target event is a passing tone with no new
             # syllable due -- extend whatever word was last assigned.
-            tok = ref_tokens[last_real_idx] if last_real_idx is not None else "-"
-            out.append("_" if tok.endswith("__") else "-")
+            # "-"/"--" is ONLY for splitting one word across syllables
+            # still to come; once that word is complete (no hyphen-join
+            # queued after it), any further extension must use "_"/"__".
+            more_syllables_coming = last_real_idx is not None and hyphen_after[last_real_idx]
+            out.append("-" if more_syllables_coming else "_")
             first_occurrence_idx.append(None)
 
     # any words still queued when the period runs out of target events (a

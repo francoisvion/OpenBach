@@ -85,13 +85,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Wenn mein Stünd -- lein vor -- han -- den ist und ich soll fahr'n mein' Stra - be, so g'leit du mich, Herr Je -- su Christ, mit Hülf' mich nicht ver -- las - se; mein' Seel' an mei -- nem letz -- ten End' be -- fehl' ich, Herr, in dei -- ne - Händ', du wirst sie wohl be -- wah - - - ren.
+      Wenn mein Stünd -- lein vor -- han -- den ist und ich soll fahr'n mein' Stra - be, so g'leit du mich, Herr Je -- su Christ, mit Hülf' mich nicht ver -- las - se; mein' Seel' an mei -- nem letz -- ten End' be -- fehl' ich, Herr, in dei -- ne _ Händ', du wirst sie wohl be -- wah _ _ _ ren.
     }
 
 tenorLyrics = \lyricmode {
-      Wenn mein Stünd -- lein vor -- han -- den ist und ich soll fahr'n mein' Stra - be, so g'leit du mich, - Herr Je -- su Christ, mit Hülf' mich nicht ver -- las - se; mein' Seel' an mei -- nem letz -- ten End' be -- fehl' ich, Herr, in dei -- ne Händ', du wirst sie wohl be -- wah - - - ren.
+      Wenn mein Stünd -- lein vor -- han -- den ist und ich soll fahr'n mein' Stra - be, so g'leit du mich, _ Herr Je -- su Christ, mit Hülf' mich nicht ver -- las - se; mein' Seel' an mei -- nem letz -- ten End' be -- fehl' ich, Herr, in dei -- ne Händ', du wirst sie wohl be -- wah _ _ _ ren.
     }
 
 bassLyrics = \lyricmode {
-      Wenn mein Stünd -- lein vor -- han -- den ist und ich soll fahr'n mein' Stra - be, so g'leit du mich, Herr Je -- su Christ, mit Hülf' mich nicht ver -- las - se; "mein' Seel' an mei" - nem letz -- ten - End' be -- fehl' ich, Herr, in dei -- ne Händ', du wirst sie wohl "be wah" - - - - ren.
+      Wenn mein Stünd -- lein vor -- han -- den ist und ich soll fahr'n mein' Stra - be, so g'leit du mich, Herr Je -- su Christ, mit Hülf' mich nicht ver -- las - se; mein' Seel' an mei nem letz ten End' be -- fehl' ich, Herr, in dei -- ne Händ', du wirst sie wohl be -- wah _ _ _ ren.
     }
