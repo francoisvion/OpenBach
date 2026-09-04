@@ -34,7 +34,7 @@ altoMusic = {
           f'2\fermata r4 g'
           a'4. g'8 g'4 g'
           fis'2\fermata r4 g'~
-          g'8 [fis'] g'4 g' fis'
+          g'8 fis' g'4 g' fis'
           d'1\fermata \fine
         }
 
@@ -79,17 +79,23 @@ bassMusic = {
         }
 
 sopranoLyrics = \lyricmode {
-      Die Nacht ist kom -- men, drin wir ru -- hen sol -- len; Gott walt zu From -- men nach sein'm Wohl -- ge -- fal -- len, dass wir uns le -- gen, in sein'm G'leit und Se -- gen sein'n Will'n zu pfle -- gen.
+      Die Nacht ist kom -- men, 
+      rin wir ru -- hen sol -- len;
+      Gott walt zu From -- men
+      nach sein'm Wohl -- ge -- fal -- len,
+      dass wir uns le -- gen,
+      in sein'm G'leit und Se -- gen
+      sein'n Will'n zu pfle -- gen.
     }
 
 altoLyrics = \lyricmode {
-      Die Nacht ist kom - men, drin wir ru -- hen sol - len; Gott walt "zu From" - - men nach sein'm Wohl -- ge -- fal -- len, dass wir "uns le" - - gen, in sein'm G'leit und Se -- gen "sein'n Will'n" - zu pfle - gen.
+      Die Nacht ist kom - men, rin wir ru -- hen sol - len; Gott walt "zu From" - - men nach sein'm Wohl -- ge -- fal -- len, dass wir "uns le" - - gen, in sein'm G'leit und Se -- gen "sein'n Will'n" - zu pfle - gen.
     }
 
 tenorLyrics = \lyricmode {
-      Die Nacht ist kom - men, drin wir ru -- hen sol - len; Gott walt zu From - men nach sein'm Wohl -- ge -- fal -- len, dass wir uns le -- gen, in sein'm G'leit und Se -- gen sein'n Will'n zu pfle - - gen.
+      Die Nacht ist kom - men, rin wir ru -- hen sol - len; Gott walt zu From - men nach sein'm Wohl -- ge -- fal -- len, dass wir uns le -- gen, in sein'm G'leit und Se -- gen sein'n Will'n zu pfle - - gen.
     }
 
 bassLyrics = \lyricmode {
-      Die Nacht ist kom - men, drin wir ru -- hen sol -- len; Gott walt zu From - men nach sein'm Wohl -- ge -- fal -- len, dass wir uns le - gen, in sein'm G'leit und Se -- gen sein'n Will'n zu pfle - gen.
+      Die Nacht ist kom - men, rin wir ru -- hen sol -- len; Gott walt zu From - men nach sein'm Wohl -- ge -- fal -- len, dass wir uns le - gen, in sein'm G'leit und Se -- gen sein'n Will'n zu pfle - gen.
     }

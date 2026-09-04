@@ -330,20 +330,25 @@ def build_corrected_tokens(ref_tokens, mapping, hyphen_after=None):
         # multi-word token so nothing is ever dropped.
         new_indices = [idx for idx in covered if idx not in seen]
         seen.update(new_indices)
-        if not new_indices:
+        # a ref index that is ITSELF a bare placeholder (soprano already
+        # wrote "-"/"_"/"__" there) carries no word -- never quote-combine
+        # it with a real word, just silently absorb it into whichever
+        # event covers it (it needs no separate representation).
+        real_new = [idx for idx in new_indices if ref_tokens[idx] not in ("-", "_", "__")]
+        if not real_new:
             # this whole target event is a passing tone with no new
             # syllable due -- extend whatever word was last assigned.
             tok = ref_tokens[last_real_idx] if last_real_idx is not None else "-"
             out.append("_" if tok.endswith("__") else "-")
             first_occurrence_idx.append(None)
-        elif len(new_indices) == 1:
-            out.append(ref_tokens[new_indices[0]])
-            first_occurrence_idx.append(new_indices[0])
-            last_real_idx = new_indices[0]
+        elif len(real_new) == 1:
+            out.append(ref_tokens[real_new[0]])
+            first_occurrence_idx.append(real_new[0])
+            last_real_idx = real_new[0]
         else:
-            out.append('"' + " ".join(ref_tokens[i] for i in new_indices) + '"')
+            out.append('"' + " ".join(ref_tokens[i] for i in real_new) + '"')
             first_occurrence_idx.append(None)
-            last_real_idx = new_indices[-1]
+            last_real_idx = real_new[-1]
 
     # re-insert "--" between two adjacent first-occurrences of consecutive
     # ref indices, when soprano had a hyphen-join there.

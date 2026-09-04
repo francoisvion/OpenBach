@@ -23,7 +23,7 @@ altoMusic = {
           e'4 e' e'8 [fis'] g'4
           g'8 f'4 e'16 [d'] e'2\fermata
           f'8 [e'] d' [e'16 d'] c'8 [b] c'4~
-          c' c'8 [b] g2\fermata
+          c' c'8 b g2\fermata
           g'4 g'4. fis'8 g'4
           g' fis' g'2\fermata
           e'8 [f'] g'4. f'16 [e'] f'4
@@ -52,11 +52,11 @@ tenorMusic = {
 bassMusic = {
           c4. b,8 a,4 g,8 [f,]
           e,4 f, c,2\fermata
-          c4. b,8~ b, [a,] g, [a,16 b,]
+          c4. b,8~ b, a, g, [a,16 b,]
           c8 [a,] d4 g,2\fermata
           e,8 e4 d8 c4 b,
           a, b, c2\fermata
-          f4. e8~ e [d] c [d16 e]
+          f4. e8~ e d c [d16 e]
           f8 [d] g [g,] c2\fermata
           c4. b,8 e4 d
           c d g,2\fermata
@@ -71,7 +71,7 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Den Va -- ter dort o -- ben - wol -- len wir nun lo - ben, der uns als ein mil -- der - Gott gnä -- dig -- lich "ge spei" set hat, und "Chris tum" - sei -- nen - Sohn, durch wel -- chen der Se -- gen kommt vom al -- ler - "höch sten" - - Thron.
+      Den Va -- ter dort o -- ben - wol -- len wir nun lo - ben, der uns als ein mil -- der - Gott gnä -- dig -- lich ge -- spei -- set hat, und "Chris tum" - sei -- nen - Sohn, durch wel -- chen der Se -- gen kommt vom al -- ler - "höch sten" - - Thron.
     }
 
 tenorLyrics = \lyricmode {

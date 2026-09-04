@@ -55,13 +55,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Mei - ne See -- le er -- he - - get den Herrn, "und _" "mein Geist freu" et sich Got -- tes mei -- nes - Hei - lands. -
+      Mei - ne See -- le er -- he - - get den Herrn, und "mein Geist freu" et sich Got -- tes mei -- nes - Hei - lands. -
     }
 
 tenorLyrics = \lyricmode {
-      Mei - ne See -- le er -- he - - get den Herrn, "und _" "mein Geist freu" et sich Got -- tes mei -- nes - Hei "- lands." - -
+      Mei - ne See -- le er -- he - - get den Herrn, und "mein Geist freu" et sich Got -- tes mei -- nes - Hei lands. - -
     }
 
 bassLyrics = \lyricmode {
-      Mei - ne See -- le er -- he - - - get - den Herrn, und _ mein Geist freu -- et sich Got -- tes mei -- nes Hei - - lands.
+      Mei - ne See -- le er -- he - - - get - den Herrn, und - mein Geist freu -- et sich Got -- tes mei -- nes Hei - - lands.
     }

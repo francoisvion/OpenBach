@@ -67,13 +67,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      Got -- tes Sohn ist kom - men uns Al -- len zu From - men hier auf die -- se Er - den in ar -- men Ge "bär - -" - - den, dass er uns von Sün - de frei -- e und ent -- bin - de.
+      Got -- tes Sohn ist kom - men uns Al -- len zu From - men hier auf die -- se Er - den in ar -- men Ge -- bär - - den, dass er uns von Sün - de frei -- e und ent -- bin - de.
     }
 
 tenorLyrics = \lyricmode {
-      Got -- tes Sohn ist kom - - men uns Al -- len zu From - men hier auf die -- se Er - den in ar -- men Ge -- bär "- -" - den, dass er uns von Sün - de frei -- e und ent -- bin - de.
+      Got -- tes Sohn ist kom - - men uns Al -- len zu From - men hier auf die -- se Er - den in ar -- men Ge -- bär - - den, dass er uns von Sün - de frei -- e und ent -- bin - de.
     }
 
 bassLyrics = \lyricmode {
-      Got -- tes Sohn ist kom - men uns Al -- len zu From - men hier auf die -- se Er - den in ar -- men Ge -- bär - - - den, dass er uns von Sün - de frei -- e und ent "bin -" de.
+      Got -- tes Sohn ist kom - men uns Al -- len zu From - men hier auf die -- se Er - den in ar -- men Ge -- bär - - - den, dass er uns von Sün - de frei -- e und ent -- bin de.
     }

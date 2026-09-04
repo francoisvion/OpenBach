@@ -26,7 +26,7 @@ altoMusic = {
           f'8 [e'16 d'] e'4 c'\fermata d'
           d' cis' a\fermata
           \partial 4 f'~
-          f'8 [e'] f'4 e' f'8 [g']
+          f'8 e' f'4 e' f'8 [g']
           f'4\fermata f' f' f'
           f'\fermata g'4. f'16 [e'] d'4
           d' cis' a2\fermata \fine
@@ -39,14 +39,14 @@ tenorMusic = {
           b e'4 d'8 cis'4\fermata
           \partial 4  d'
           d'8 [e'] f'4 e'\fermata a
-          a d'~ d'8 [c'] c'4
+          a d'~ d'8 c' c'4
           d'8 [bes] g [c'16 bes] a4\fermata bes
           bes a8 [g] f4\fermata
           \partial 4 d'
           c' c' c'8 [a] d' [c']
-          c'4\fermata d' c'~ c'8 [bes]
+          c'4\fermata d' c'~ c'8 bes
           c'4\fermata c' c' bes~
-          bes8 [g] e [a16 g] fis2\fermata \fine
+          bes8 g e [a16 g] fis2\fermata \fine
         }
 
 bassMusic = {
@@ -56,7 +56,7 @@ bassMusic = {
           e4 e, a,\fermata
           \partial 4  f
           bes a8 [gis] a4\fermata cis
-          d8 [e] f4~ f8 [e] f4
+          d8 [e] f4~ f8 e f4
           bes, c f,\fermata bes,
           g, a, d,\fermata
           \partial 4 d
@@ -67,11 +67,25 @@ bassMusic = {
         }
 
 sopranoLyrics = \lyricmode {
-      Die Sonn' hat sich mit ih -- rem Glanz ge -- wen -- det und, was sie soll, auf die -- sen Tag woll en -- det; die dun -- kle Nacht dringt al -- lent -- hal -- ben zu, bringt Men -- schen, Vieh und al -- le Welt zur Ruh'.
+      Die Sonn' hat sich
+      mit ih -- rem Glanz ge -- wen -- det
+      und, was sie soll,
+      auf die -- sen Tag woll en -- det;
+      die dun -- kle Nacht
+      dringt al -- lent -- hal -- ben zu,
+      bringt Men -- schen, Vieh
+      und al -- le Welt zur Ruh'.
     }
 
 altoLyrics = \lyricmode {
-      Die Sonn' hat sich mit ih -- rem Glanz ge -- wen - det und, was sie soll, auf die -- sen Tag woll en - det; die dun -- kle Nacht dringt al -- lent -- hal -- ben zu, bringt Men -- schen, Vieh und al -- le Welt zur Ruh'.
+      Die Sonn' hat sich
+      mit ih -- rem Glanz ge -- wen - det
+      und, was sie soll,
+      auf die -- sen Tag woll en - det;
+      die dun -- kle Nacht
+      dringt al -- lent -- hal -- ben zu,
+      bringt Men -- schen, Vieh
+      und al -- le Welt zur Ruh'.
     }
 
 tenorLyrics = \lyricmode {

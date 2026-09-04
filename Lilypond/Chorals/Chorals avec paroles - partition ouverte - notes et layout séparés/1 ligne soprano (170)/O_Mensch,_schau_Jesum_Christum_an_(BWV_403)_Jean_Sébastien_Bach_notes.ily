@@ -104,13 +104,13 @@ sopranoLyrics = \lyricmode {
     }
 
 altoLyrics = \lyricmode {
-      O Mensch, schau' Je - sum Chri - stum an, den wah - ren Mensch und - Gott, der für uns hat - ge -- nug - ge -- than durch sei -- nen bit -- tern Tod. - - O "wie gro" - sse Angst "_ und" Pein durch drang - das Her - ze mein.
+      O Mensch, schau' Je - sum Chri - stum an, den wah - ren Mensch und - Gott, der für uns hat - ge -- nug - ge -- than durch sei -- nen bit -- tern Tod. - - O "wie gro" - sse Angst und Pein durch drang - das Her - ze mein.
     }
 
 tenorLyrics = \lyricmode {
-      O "Mensch, schau'" - Je - sum Chri - stum an, den wah -- ren Mensch - und Gott, der für uns hat - ge -- nug - ge -- than durch sei -- nen bit -- tern Tod. O wie gro "sse Angst" _ und Pein durch drang das Her -- ze - mein.
+      O "Mensch, schau'" - Je - sum Chri - stum an, den wah -- ren Mensch - und Gott, der für uns hat - ge -- nug - ge -- than durch sei -- nen bit -- tern Tod. O wie gro "sse Angst" - und Pein durch drang das Her -- ze - mein.
     }
 
 bassLyrics = \lyricmode {
-      O Mensch, schau' Je - sum Chri - stum an, "den wah" - ren Mensch - und Gott, der für - uns hat - ge -- nug - ge -- than durch sei - nen bit - tern Tod. O - wie gro - sse Angst _ und Pein durch drang - das Her - ze mein.
+      O Mensch, schau' Je - sum Chri - stum an, "den wah" - ren Mensch - und Gott, der für - uns hat - ge -- nug - ge -- than durch sei - nen bit - tern Tod. O - wie gro - sse Angst - und Pein durch drang - das Her - ze mein.
     }

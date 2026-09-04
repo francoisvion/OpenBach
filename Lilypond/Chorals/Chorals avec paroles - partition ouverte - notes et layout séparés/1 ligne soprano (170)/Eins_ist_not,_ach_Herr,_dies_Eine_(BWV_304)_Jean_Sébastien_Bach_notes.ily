@@ -50,8 +50,8 @@ altoMusic = {
           d' cis'8 [b] cis' [d']
           e'4 e' e'
           e' d' r
-          d' g'8 [fis'] e'4~
-          e'8 [g'] fis' [e'] d' [a]
+          d' g'8 fis' e'4~
+          e'8 g' fis' [e'] d' [a]
           d'4. e'8 cis'4
           a2.\fermata \fine
         }
@@ -62,7 +62,7 @@ tenorMusic = {
           g8 [a] b4 b a
           a a8 [g] fis2\fermata
           a4 a a8 [fis] g [b]~
-          b [gis] ais4 b b\fermata
+          b gis ais4 b b\fermata
           d' cis' b8 [g] e [a]
           a4 a fis2\fermata \bar "||"
           \time 3/4
@@ -108,24 +108,29 @@ bassMusic = {
           gis4 e a
           cis d8 [cis] b, [a,]
           d2 r4
-          b, e e8 [d]
+          b, e e8 d
           cis [a,] d4. cis8
           b,4 a,8 [g,] a,4
           d2.\fermata \fine
         }
 
 sopranoLyrics = \lyricmode {
-      Eins ist noth, ach Herr, dies Ei -- ne leh -- re mich er -- ken -- nen doch: al -- les An -- dre, wie's auch schei -- ne, ist ja nur ein schwe -- res Joch, da -- run -- ter das Her -- ze sich na -- get und pla -- get, und den -- noch kein wah -- res Ver -- gnü -- gen er -- ja -- get; er -- lang ich dies Ei -- ne, das Al -- les er -- setzt, so werd ich mit Ei -- nem in Al -- lem er -- götzt.
+      Eins ist noth, ach Herr, dies Ei -- ne
+      leh -- re mich er -- ken -- nen doch:
+      al -- les An -- dre, wie's auch schei -- ne,
+      ist ja nur ein schwe -- res Joch,
+      da -- run -- ter das Her -- ze sich na -- get und pla -- get, und den -- noch kein wah -- res Ver -- gnü -- gen er -- ja -- get;
+      er -- lang ich dies Ei -- ne, das Al -- les er -- setzt, so werd ich mit Ei -- nem in Al -- lem er -- götzt.
     }
 
 altoLyrics = \lyricmode {
-      Eins ist noth, ach Herr, dies Ei -- ne leh -- re mich er -- ken -- nen doch: al -- les An -- dre, wie's auch schei -- ne, ist ja nur ein schwe -- res Joch, da -- run -- ter das Her -- ze sich na -- get und pla -- get, und den -- noch kein wah -- res Ver -- gnü -- gen er -- ja -- get; er -- lang ich dies Ei -- ne, das Al -- les er -- setzt, so werd ich mit Ei -- nem in Al -- lem er -- götzt.
+      Eins ist noth, ach Herr, dies Ei -- ne leh -- re mich er -- ken -- nen doch: al -- les An -- dre, wie's auch schei -- ne, ist ja nur ein schwe -- res Joch, da -- run -- ter das Her -- ze sich na -- get und pla -- get, und den -- noch kein wah -- res Ver -- gnü -- gen er -- ja -- get; er -- lang ich dies Ei -- ne, das Al -- les er -- setzt, - so werd - "ich mit" - Ei -- nem "in Al" - lem "er götzt."
     }
 
 tenorLyrics = \lyricmode {
-      Eins ist noth, ach Herr, dies Ei -- ne leh -- re mich er -- ken -- nen doch: al -- les An -- dre, wie's auch schei -- ne, ist ja nur ein schwe -- res Joch, da -- run -- ter das Her -- ze sich na -- get und pla -- get, und den -- noch kein wah -- res Ver -- gnü -- gen er -- ja -- get; er -- lang ich dies Ei -- ne, das Al -- les er -- setzt, so werd ich mit Ei -- nem in Al -- lem er -- götzt.
+      Eins ist noth, ach Herr, dies Ei -- ne leh -- re mich er -- ken -- nen doch: al -- les An -- dre, wie's - auch schei -- ne, ist ja nur ein schwe -- res Joch, da -- run -- ter das Her -- ze sich na -- get und pla -- get, und den -- noch kein wah -- res Ver -- gnü -- gen er -- ja -- get; er -- lang ich dies Ei -- ne, das Al -- les er -- setzt, so werd ich mit Ei -- nem in Al -- lem er -- götzt.
     }
 
 bassLyrics = \lyricmode {
-      Eins ist noth, ach Herr, dies Ei -- ne leh -- re mich er -- ken -- nen doch: al -- les An -- dre, wie's auch schei -- ne, ist ja nur ein schwe -- res Joch, da -- run -- ter das Her -- ze sich na -- get und pla -- get, und den -- noch kein wah -- res Ver -- gnü -- gen er -- ja -- get; er -- lang ich dies Ei -- ne, das Al -- les er -- setzt, so werd ich mit Ei -- nem in Al -- lem "er götzt."
+      Eins ist noth, ach Herr, dies Ei -- ne leh -- re mich er -- ken -- nen doch: al -- les An -- dre, wie's auch schei -- ne, ist ja nur ein schwe -- res Joch, da -- run -- ter das Her -- ze sich na -- get und pla -- get, und den -- noch kein wah -- res Ver -- gnü -- gen er -- ja -- get; er -- lang ich dies Ei -- ne, das Al -- les er -- setzt, so werd ich mit Ei -- nem in Al -- lem er -- götzt.
     }

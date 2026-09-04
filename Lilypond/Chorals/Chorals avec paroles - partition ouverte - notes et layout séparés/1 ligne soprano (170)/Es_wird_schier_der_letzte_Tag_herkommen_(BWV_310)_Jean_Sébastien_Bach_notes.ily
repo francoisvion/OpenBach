@@ -14,7 +14,7 @@ sopranoMusic = {
 altoMusic = {
            b4 b e'8 [fis'] g'4
           a'8 [fis'] g' [fis'] e'4 fis'8 [g']~
-          g' [fis'16 e'] fis'4 g'2\fermata
+          g' fis'16 [e'] fis'4 g'2\fermata
           g'4. fis'8 fis' [e'] d' [a']
            a' g'4 fis'8 e'4 a8 [d']
           d' [cis'16 b] cis'4 a2\fermata
@@ -33,7 +33,7 @@ tenorMusic = {
           b [g] e [a16 g] fis2\fermata
           b4 b b b
           c' c'8 [b16 a] g2\fermata
-          b4. a8 b4~ b8. [a16]
+          b4. a8 b4~ b8. a16
           gis1\fermata \fine
         }
 
@@ -51,17 +51,20 @@ bassMusic = {
         }
 
 sopranoLyrics = \lyricmode {
-      Es wird Schier der letz -- te Tag her -- kom -- men, denn die Bos -- heit hat sehr zu -- ge -- nom -- men; was Chri -- stus hat vor ge -- sagt, das wird jeztz be -- klagt.
+      Es wird Schier der letz -- te Tag her -- kom -- men,
+      denn die Bos -- heit hat sehr zu -- ge -- nom -- men;
+      was Chri -- stus hat vor ge -- sagt,
+      das wird jetzt be -- klagt.
     }
 
 altoLyrics = \lyricmode {
-      Es wird Schier der letz -- te Tag her -- kom - men, "denn die" - Bos -- heit hat sehr - zu -- ge -- nom - men; was Chri -- stus hat vor ge -- sagt, das wird jeztz be -- klagt.
+      Es wird Schier der letz -- te Tag her -- kom - - men, "denn die" - Bos -- heit hat sehr - zu -- ge -- nom - men; was Chri -- stus hat vor ge -- sagt, das wird jetzt be -- klagt.
     }
 
 tenorLyrics = \lyricmode {
-      Es wird Schier der letz -- te "Tag her" - kom - men, denn die Bos -- heit hat "sehr zu" - ge -- nom - men; was Chri -- stus hat vor ge -- sagt, das wird jeztz be -- klagt.
+      Es wird Schier der letz -- te "Tag her" - kom - men, denn die Bos -- heit hat "sehr zu" - ge -- nom - men; was Chri -- stus hat vor ge -- sagt, das wird jetzt be -- klagt.
     }
 
 bassLyrics = \lyricmode {
-      "Es wird" - Schier der letz -- te Tag her -- kom - men, denn die Bos -- heit hat sehr zu -- ge -- nom - men; was Chri -- stus hat vor ge -- sagt, das wird jeztz be -- klagt.
+      "Es wird" - Schier der letz -- te Tag her -- kom - men, denn die Bos -- heit hat sehr zu -- ge -- nom - men; was Chri -- stus hat vor ge -- sagt, das wird jetzt be -- klagt.
     }

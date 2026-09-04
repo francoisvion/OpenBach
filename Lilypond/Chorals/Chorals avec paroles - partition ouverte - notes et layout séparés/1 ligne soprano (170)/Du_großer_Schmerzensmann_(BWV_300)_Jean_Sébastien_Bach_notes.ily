@@ -38,7 +38,7 @@ altoMusic = {
           \partial 4 g'
           g' g'4. fis'8 g'4
           fis'2\fermata r4 fis'~
-          fis'8 [e'] fis'4. e'4 dis'8
+          fis'8 e' fis'4~fis'8 e'4 dis'8
           b2.\fermata \fine
         }
 
@@ -47,7 +47,7 @@ tenorMusic = {
           b8 [a] g [a] b4 c'
           d'2\fermata r4 d'
           e' d' c' d'~
-          d'8 [a] d' [c'] b4\fermata d'
+          d'8 a d' [c'] b4\fermata d'
           d' dis' b c'
           b2\fermata r4
           \partial 4  b
@@ -60,7 +60,7 @@ tenorMusic = {
           \partial 4 d'
           e' d' e'8 [d'] d'4
           d'2\fermata r4 d'8 [c']
-          b2. b8. [a16]
+          b4 b b b8. [a16]
           g2.\fermata \fine
         }
 
@@ -87,15 +87,27 @@ bassMusic = {
         }
 
 sopranoLyrics = \lyricmode {
-      Du gro -- ßer Schmer -- zens -- mann, vom Va -- ter so ge -- schla -- gen, Herr Je -- su dir sei Dank für al -- le dei -- ne Pla -- gen: für dei -- ne See -- len -- angst, für dei -- ne Band' und Noth, für dei -- ne Gei -- sse -- lung, für dei -- nen bit -- tern Tod.
+      Du gro -- ßer Schmer -- zens -- mann,
+      vom Va -- ter so ge -- schla -- gen,
+      Herr Je -- su dir sei Dank für al -- le dei -- ne Pla -- gen: 
+      für dei -- ne See -- len -- angst,
+      für dei -- ne Band' und Noth,
+      für dei -- ne Gei -- sse -- lung,
+      für dei -- nen bit -- tern Tod.
     }
 
 altoLyrics = \lyricmode {
-      Du gro -- ßer Schmer -- zens -- mann, vom Va -- ter so ge -- schla - gen, Herr Je -- su dir sei Dank für al -- le dei -- ne Pla -- gen: für dei -- ne See -- len -- angst, für dei -- ne Band' und Noth, für dei -- ne Gei -- sse -- lung, für dei -- nen bit -- tern Tod.
+      Du gro -- ßer Schmer -- zens -- mann,
+      vom Va -- ter so ge -- schla - gen,
+      Herr Je -- su dir sei Dank für al -- le dei -- ne Pla -- gen:
+      für dei -- ne See -- len -- angst,
+      für dei -- ne Band' und Noth,
+      für dei -- ne Gei -- sse -- lung,
+      für dei -- nen bit -- tern Tod.
     }
 
 tenorLyrics = \lyricmode {
-      Du gro -- ßer Schmer -- zens -- mann, vom Va -- ter so "ge schla" - - gen, Herr Je -- su dir sei Dank für al -- le dei -- ne Pla - - gen: für dei -- ne See -- len -- angst, für dei -- ne Band' und Noth, für dei -- ne Gei -- sse -- lung, für "dei nen bit" tern Tod.
+      Du gro -- ßer Schmer -- zens -- mann, vom Va -- ter so "ge schla" - - gen, Herr Je -- su dir sei Dank für al -- le dei -- ne Pla - - gen: für dei -- ne See -- len -- angst, für dei -- ne Band' und Noth, für dei -- ne Gei -- sse -- lung, für dei -- nen bit -- tern Tod.
     }
 
 bassLyrics = \lyricmode {
