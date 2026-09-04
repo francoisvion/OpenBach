@@ -94,13 +94,34 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-      Gib, dass ich tu mit Fleiß, was mir zu tun ge -- büh - ret, wor -- zu mich dein Be -- fehl in mei -- nem Stan -- de füh ret! Gib, dass ichs tu -- e bald, zu der Zeit, da ich soll; und wenn ich’s tu, so gib, dass es ge -- ra -- te wohl!
-    }
+  Gib, dass ich tu mit Fleiß,
+  was mir zu tun ge -- büh - ret,
+  wor -- zu mich dein Be -- fehl
+  in mei -- nem Stan -- de füh ret!
+  Gib, dass ichs tu -- e bald,
+  zu der Zeit, da ich soll;
+  und wenn ich’s tu, so gib,
+  dass es ge -- ra -- te wohl!
+}
 
 tenorLyrics = \lyricmode {
-      Gib, dass ich tu mit Fleiß, was mir zu tun ge -- büh - ret, wor -- zu mich dein Be -- fehl in mei -- nem Stan -- de füh - ret! Gib, dass ichs tu -- e bald, zu der Zeit, da ich soll; und wenn ich’s tu, so gib, dass es ge -- ra -- te wohl!
-    }
+  Gib, dass ich tu mit Fleiß,
+  was mir zu tun ge -- büh - ret,
+  wor -- zu mich dein Be -- fehl
+  in mei -- nem Stan -- de füh - ret!
+  Gib, dass ichs tu -- e bald,
+  zu der Zeit, da ich soll;
+  und wenn ich’s tu, so gib,
+  dass es ge -- ra -- te wohl!
+}
 
 bassLyrics = \lyricmode {
-      Gib, dass ich tu mit Fleiß, was mir zu tun ge -- büh - ret, wor -- zu mich dein Be -- fehl in mei -- nem Stan -- de füh - ret! Gib, dass ichs tu -- e bald, zu der Zeit, da ich soll; und wenn ich’s tu, so gib, dass es ge -- ra -- te wohl!
-    }
+  Gib, dass ich tu mit Fleiß,
+  was mir zu tun ge -- büh - ret,
+  wor -- zu mich dein Be -- fehl
+  in mei -- nem Stan -- de füh - ret!
+  Gib, dass ichs tu -- e bald,
+  zu der Zeit, da ich soll;
+  und wenn ich’s tu, so gib,
+  dass es ge -- ra -- te wohl!
+}

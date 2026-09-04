@@ -59,16 +59,25 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Heut' ist, o _ Mensch, ein gro -- ßer Trau -- er -- tag, an wel -- chem un -- ser Hei -- land gros -- se Plag' er -- lit -- ten hat, und todt dar -- nie -- der lag.
+  Heut' ist, o _ Mensch,
+  ein gro -- ßer Trau -- er -- tag,
+  an wel -- chem un -- ser Hei -- land gros -- se Plag'
+  er -- lit -- ten hat,
+  und todt dar -- nie -- der lag.
 }
 
 tenorLyrics = \lyricmode {
-  Heut' ist, o Mensch, ein gro -- ßer _ Trau -- er -- tag, an wel -- chem un -- ser Hei -- land gros -- se Plag' er -- lit -- ten hat, und todt dar -- nie -- der lag.
+  Heut' ist, o Mensch,
+  ein gro -- ßer _ Trau -- er -- tag,
+  an wel -- chem un -- ser Hei -- land gros -- se Plag'
+  er -- lit -- ten hat,
+  und todt dar -- nie -- der lag.
 }
 
 bassLyrics = \lyricmode {
   Heut' ist, o Mensch,
   ein gro -- ßer Trau -- er -- tag,
   an wel -- chem un -- ser Hei -- land gros -- se Plag'
-  er -- lit -- ten hat, und todt dar -- nie -- der lag.
+  er -- lit -- ten hat,
+  und todt dar -- nie -- der lag.
 }

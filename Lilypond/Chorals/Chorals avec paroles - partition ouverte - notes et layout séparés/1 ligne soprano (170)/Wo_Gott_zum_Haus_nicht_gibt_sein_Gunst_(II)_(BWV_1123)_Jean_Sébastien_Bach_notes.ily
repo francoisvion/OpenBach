@@ -54,13 +54,22 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Wo Gott zum Haus nicht giebt sein' Gunst, so ar -- beit't je -- der -- mann um -- sonst; wo Gott die Stadt nicht selbst be -- wacht, so ist um -- sonst der Wäch -- ter Macht.
+  Wo Gott zum Haus nicht giebt sein' Gunst,
+  so ar -- beit't je -- der -- mann um -- sonst;
+  wo Gott die Stadt nicht selbst be -- wacht,
+  so ist um -- sonst der Wäch -- ter Macht.
 }
 
 tenorLyrics = \lyricmode {
-  Wo Gott zum Haus nicht giebt sein' Gunst, so ar -- beit't je -- der -- mann um -- sonst; wo Gott die Stadt nicht selbst be -- wacht, so ist um -- sonst der Wäch -- ter Macht.
+  Wo Gott zum Haus nicht giebt sein' Gunst,
+  so ar -- beit't je -- der -- mann um -- sonst;
+  wo Gott die Stadt nicht selbst be -- wacht,
+  so ist um -- sonst der Wäch -- ter Macht.
 }
 
 bassLyrics = \lyricmode {
-  Wo Gott zum Haus nicht giebt sein' Gunst, so ar -- beit't je -- der -- mann um -- sonst; wo Gott die Stadt nicht selbst be -- wacht, so ist um -- sonst der Wäch -- ter Macht.
+  Wo Gott zum Haus nicht giebt sein' Gunst,
+  so ar -- beit't je -- der -- mann um -- sonst;
+  wo Gott die Stadt nicht selbst be -- wacht,
+  so ist um -- sonst der Wäch -- ter Macht.
 }

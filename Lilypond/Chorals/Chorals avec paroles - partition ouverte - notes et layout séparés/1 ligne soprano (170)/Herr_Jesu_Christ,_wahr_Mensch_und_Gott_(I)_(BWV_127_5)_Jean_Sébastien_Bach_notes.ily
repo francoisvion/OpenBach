@@ -72,13 +72,28 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Ach, Herr, ver -- gib all un -- sre Schuld, hilf, dass wir war -- ten mit Ge -- duld, bis un -- ser Stünd -- lein kommt her -- bei, auch un -- ser Glaub stets wa -- cker sei, deinm Wort zu trau -- en fes -- tig -- lich, bis wir ein -- schla -- fen se -- lig -- lich.
+  Ach, Herr, ver -- gib all un -- sre Schuld,
+  hilf, dass wir war -- ten mit Ge -- duld,
+  bis un -- ser Stünd -- lein kommt her -- bei,
+  auch un -- ser Glaub stets wa -- cker sei,
+  deinm Wort zu trau -- en fes -- tig -- lich,
+  bis wir ein -- schla -- fen se -- lig -- lich.
 }
 
 tenorLyrics = \lyricmode {
-  Ach, Herr, ver -- gib all un -- sre Schuld, hilf, dass wir war -- ten mit Ge -- duld, bis un -- ser Stünd -- lein kommt her -- bei, auch un -- ser Glaub stets wa -- cker sei, deinm Wort zu trau -- en fes -- tig -- lich, bis wir ein -- schla -- fen se -- lig -- lich.
+  Ach, Herr, ver -- gib all un -- sre Schuld,
+  hilf, dass wir war -- ten mit Ge -- duld,
+  bis un -- ser Stünd -- lein kommt her -- bei,
+  auch un -- ser Glaub stets wa -- cker sei,
+  deinm Wort zu trau -- en fes -- tig -- lich,
+  bis wir ein -- schla -- fen se -- lig -- lich.
 }
 
 bassLyrics = \lyricmode {
-  Ach, Herr, ver -- gib all un -- sre Schuld, hilf, dass wir war -- ten mit Ge -- duld, bis un -- ser Stünd -- lein kommt her -- bei, auch un -- ser Glaub stets wa -- cker sei, deinm Wort zu trau -- en fes -- tig -- lich, bis wir ein -- schla -- fen se -- lig -- lich.
+  Ach, Herr, ver -- gib all un -- sre Schuld,
+  hilf, dass wir war -- ten mit Ge -- duld,
+  bis un -- ser Stünd -- lein kommt her -- bei,
+  auch un -- ser Glaub stets wa -- cker sei,
+  deinm Wort zu trau -- en fes -- tig -- lich,
+  bis wir ein -- schla -- fen se -- lig -- lich.
 }

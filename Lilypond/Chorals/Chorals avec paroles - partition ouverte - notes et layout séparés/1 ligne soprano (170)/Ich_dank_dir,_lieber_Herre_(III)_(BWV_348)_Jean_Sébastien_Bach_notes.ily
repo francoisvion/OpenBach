@@ -94,13 +94,34 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-      Ich dank' dir, lie -- ber Her - - re, dass du mich hast__ _ _ be -- wahrt in die -- ser Nacht Ge -- fäh - - re, da -- rin ich lag__ _ _ so hart mit Fin -- ster -- niss um -- fan - gen, da -- zu in gro - ßer Noth, da -- raus ich bin ent -- gan - gen, halfst du mir Her - - re _ Gott!
-    }
+  Ich dank' dir, lie -- ber Her - - re,
+  dass du mich hast__ _ _ be -- wahrt
+  in die -- ser Nacht Ge -- fäh - - re,
+  da -- rin ich lag__ _ _ so hart
+  mit Fin -- ster -- niss um -- fan - gen,
+  da -- zu in gro - ßer Noth,
+  da -- raus ich bin ent -- gan - gen,
+  halfst du mir Her - - re _ Gott!
+}
 
 tenorLyrics = \lyricmode {
-      Ich dank' dir, lie -- ber Her - re, dass du mich hast__ _ _ be -- wahrt in die -- ser Nacht Ge -- fäh - re, da -- rin ich lag__ _ _ so hart mit Fin -- ster -- niss um -- fan gen, da -- zu in gro -- ßer Noth, da -- raus ich bin ent -- gan - gen, halfst du mir Her - - re Gott!
-    }
+  Ich dank' dir, lie -- ber Her - re,
+  dass du mich hast__ _ _ be -- wahrt
+  in die -- ser Nacht Ge -- fäh - re,
+  da -- rin ich lag__ _ _ so hart
+  mit Fin -- ster -- niss um -- fan gen,
+  da -- zu in gro -- ßer Noth,
+  da -- raus ich bin ent -- gan - gen,
+  halfst du mir Her - - re Gott!
+}
 
 bassLyrics = \lyricmode {
-      Ich dank' dir, lie -- ber Her - re, dass du mich hast__ _ _ be -- wahrt in die -- ser Nacht Ge -- fäh - re, da -- rin ich lag__ _ _ so hart mit Fin -- ster -- niss um -- fan - gen, da -- zu in gro -- ßer Noth, da -- raus ich bin ent -- gan - gen, halfst du mir Her - re Gott!
-    }
+  Ich dank' dir, lie -- ber Her - re,
+  dass du mich hast__ _ _ be -- wahrt
+  in die -- ser Nacht Ge -- fäh - re,
+  da -- rin ich lag__ _ _ so hart
+  mit Fin -- ster -- niss um -- fan - gen,
+  da -- zu in gro -- ßer Noth,
+  da -- raus ich bin ent -- gan - gen,
+  halfst du mir Her - re Gott!
+}

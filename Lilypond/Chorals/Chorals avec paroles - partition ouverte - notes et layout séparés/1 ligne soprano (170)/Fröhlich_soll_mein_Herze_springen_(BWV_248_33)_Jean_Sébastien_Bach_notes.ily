@@ -74,13 +74,27 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-      Ich will dich mit Fleiß be -- wah ren, Ich will dir le -- ben hier, dir will ich ab -- fah - ren, mit dir will ich end -- lich schwe - ben vol -- ler Freud oh -- ne Zeit dort im an -- dern Le - - ben.
-    }
+  Ich will dich mit Fleiß be -- wah ren,
+  Ich will dir
+  le -- ben hier,
+  dir will ich ab -- fah - ren,
+  mit dir will ich end -- lich schwe - ben
+  vol -- ler Freud
+  oh -- ne Zeit
+  dort im an -- dern Le - - ben.
+}
 
 tenorLyrics = \lyricmode {
-      Ich will dich mit Fleiß be -- wah - ren, Ich will dir le -- ben hier, dir will ich ab -- fah - ren, mit dir will ich end -- lich schwe - ben vol -- ler Freud oh -- ne Zeit dort im an -- dern Le - ben.
-    }
+  Ich will dich mit Fleiß be -- wah - ren,
+  Ich will dir
+  le -- ben hier,
+  dir will ich ab -- fah - ren,
+  mit dir will ich end -- lich schwe - ben
+  vol -- ler Freud
+  oh -- ne Zeit
+  dort im an -- dern Le - ben.
+}
 
 bassLyrics = \lyricmode {
-      Ich will dich mit Fleiß be -- wah - ren, Ich will dir le -- ben hier, dir will ich ab -- fah - ren, mit dir will ich end -- lich schwe - ben vol -- ler Freud oh -- ne Zeit dort im an -- dern Le - ben.
-    }
+  Ich will dich mit Fleiß be -- wah - ren, Ich will dir le -- ben hier, dir will ich ab -- fah - ren, mit dir will ich end -- lich schwe - ben vol -- ler Freud oh -- ne Zeit dort im an -- dern Le - ben.
+}

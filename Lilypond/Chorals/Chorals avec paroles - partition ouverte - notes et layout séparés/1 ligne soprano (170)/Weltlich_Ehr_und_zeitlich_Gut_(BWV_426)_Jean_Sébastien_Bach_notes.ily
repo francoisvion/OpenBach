@@ -85,13 +85,31 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-      Welt -- lich Ehr' und zeit - lich _ Gut, _ Wol -- lust und al -- ler Ü ber -- muth ist e -- ben _ wie ein Gras; al -- le Pracht _ und stol -- zer _ Ruhm ver -- fällt wie ein' Wie -- sen -- blum; o Mensch, be -- denk' e -- ben das und ver -- sor - - ge -- dich doch bass.
-    }
+  Welt -- lich Ehr' und zeit - lich _ Gut, _
+  Wol -- lust und al -- ler Ü ber -- muth
+  ist e -- ben _ wie ein Gras;
+  al -- le Pracht _ und stol -- zer _ Ruhm
+  ver -- fällt wie ein' Wie -- sen -- blum;
+  o Mensch, be -- denk' e -- ben das
+  und ver -- sor - - ge -- dich doch bass.
+}
 
 tenorLyrics = \lyricmode {
-      Welt -- lich Ehr' und zeit - lich _ Gut, Wol -- lust und al -- ler Ü - ber - muth ist e -- ben wie _ ein Gras; al -- le Pracht und stol -- zer Ruhm ver -- fällt wie ein' Wie -- sen -- blum; o Mensch, be -- denk' e -- ben das und ver -- sor - - ge -- dich doch bass.
-    }
+  Welt -- lich Ehr' und zeit - lich _ Gut,
+  Wol -- lust und al -- ler Ü - ber - muth
+  ist e -- ben wie _ ein Gras;
+  al -- le Pracht und stol -- zer Ruhm
+  ver -- fällt wie ein' Wie -- sen -- blum;
+  o Mensch, be -- denk' e -- ben das
+  und ver -- sor - - ge -- dich doch bass.
+}
 
 bassLyrics = \lyricmode {
-      Welt -- lich Ehr' und zeit - lich _ Gut, Wol -- lust und al -- ler Ü - ber - muth ist e -- ben wie ein Gras; al -- le Pracht und stol -- zer Ruhm ver -- fällt wie ein' Wie -- sen -- blum; o Mensch, be -- denk' e -- ben das und ver -- sor - - ge -- dich doch bass.
-    }
+  Welt -- lich Ehr' und zeit - lich _ Gut,
+  Wol -- lust und al -- ler Ü - ber - muth
+  ist e -- ben wie ein Gras;
+  al -- le Pracht und stol -- zer Ruhm
+  ver -- fällt wie ein' Wie -- sen -- blum;
+  o Mensch, be -- denk' e -- ben das
+  und ver -- sor - - ge -- dich doch bass.
+}

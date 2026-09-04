@@ -77,13 +77,31 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Den Va -- ter dort o -- ben _ wol -- len wir nun lo - ben, der uns als ein mil -- der _ Gott gnä -- dig -- lich ge -- spei -- set hat, und Chris -- tum sei -- nen _ Sohn, durch wel -- chen der Se -- gen kommt vom al -- ler - höch -- sten _ Thron.
+  Den Va -- ter dort o -- ben _
+  wol -- len wir nun lo - ben,
+  der uns als ein mil -- der _ Gott
+  gnä -- dig -- lich ge -- spei -- set hat,
+  und Chris -- tum sei -- nen _ Sohn,
+  durch wel -- chen der Se -- gen kommt
+  vom al -- ler - höch -- sten _ Thron.
 }
 
 tenorLyrics = \lyricmode {
-  Den Va -- ter dort o - ben wol -- len wir nun lo -- ben, der uns als ein mil -- der Gott gnä -- dig -- lich ge -- spei -- set hat, und Chris -- tum sei -- nen _ Sohn, durch wel -- chen der Se -- gen kommt vom al -- ler -- höch -- sten _ Thron.
+  Den Va -- ter dort o - ben
+  wol -- len wir nun lo -- ben,
+  der uns als ein mil -- der Gott
+  gnä -- dig -- lich ge -- spei -- set hat,
+  und Chris -- tum sei -- nen _ Sohn,
+  durch wel -- chen der Se -- gen kommt
+  vom al -- ler -- höch -- sten _ Thron.
 }
 
 bassLyrics = \lyricmode {
-  Den Va -- ter dort o - ben wol -- len wir nun lo - ben, der uns _ als ein mil -- der Gott gnä -- dig -- lich ge -- spei -- set hat, und Chris -- tum sei -- nen _ Sohn, durch wel -- chen der Se -- gen kommt vom al -- ler -- höch -- sten _ Thron.
+  Den Va -- ter dort o - ben
+  wol -- len wir nun lo - ben,
+  der uns _ als ein mil -- der Gott
+  gnä -- dig -- lich ge -- spei -- set hat,
+  und Chris -- tum sei -- nen _ Sohn,
+  durch wel -- chen der Se -- gen kommt
+  vom al -- ler -- höch -- sten _ Thron.
 }

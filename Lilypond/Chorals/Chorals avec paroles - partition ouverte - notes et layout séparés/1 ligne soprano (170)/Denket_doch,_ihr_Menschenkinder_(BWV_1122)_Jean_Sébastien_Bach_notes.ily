@@ -112,5 +112,12 @@ tenorLyrics = \lyricmode {
 }
 
 bassLyrics = \lyricmode {
-  Den -- ket doch ihr Men -- schen Kin -- der, an den letz -- ten To -- des Tag; den -- ket doch, ihr fre -- chen Sün -- der, an den letz -- ten Glo -- cken Schlag. Heu -- te sind wir frisch und stark, mor -- gen fül -- len wir den Sarg, und das An -- sehn das wir ha -- ben, wird zu -- gleich mit uns be -- gra ben.
+  Den -- ket doch ihr Men -- schen Kin -- der,
+  an den letz -- ten To -- des Tag;
+  den -- ket doch, ihr fre -- chen Sün -- der,
+  an den letz -- ten Glo -- cken Schlag.
+  Heu -- te sind wir frisch und stark,
+  mor -- gen fül -- len wir den Sarg,
+  und das An -- sehn das wir ha -- ben,
+  wird zu -- gleich mit uns be -- gra ben.
 }

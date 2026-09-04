@@ -90,13 +90,34 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Chri -- stus ist er -- stan -- den, _ hat ü -- ber -- wun - den, Gnad' ist nun _ vor -- han - - den, Wahr -- heit wird fun -- den. Da -- rum, lie -- ben Leu te, freut euch heu - te, lo -- bet _ eu -- ren Her -- ren, Je -- sum, den Kö -- nig der Eh - ren.
+  Chri -- stus ist er -- stan -- den, _
+  hat ü -- ber -- wun - den,
+  Gnad' ist nun _ vor -- han - - den,
+  Wahr -- heit wird fun -- den.
+  Da -- rum, lie -- ben Leu te,
+  freut euch heu - te,
+  lo -- bet _ eu -- ren Her -- ren,
+  Je -- sum, den Kö -- nig der Eh - ren.
 }
 
 tenorLyrics = \lyricmode {
-  Chri -- stus ist er -- stan - den, hat ü -- ber -- wun - den, Gnad' ist nun vor -- han - den, Wahr -- heit wird fun -- den. _ Da -- rum, lie -- ben Leu - te, freut euch heu - te, lo -- bet eu -- ren Her - ren, Je -- sum, den Kö -- nig der Eh - ren.
+  Chri -- stus ist er -- stan - den,
+  hat ü -- ber -- wun - den,
+  Gnad' ist nun vor -- han - den,
+  Wahr -- heit wird fun -- den. _
+  Da -- rum, lie -- ben Leu - te,
+  freut euch heu - te,
+  lo -- bet eu -- ren Her - ren,
+  Je -- sum, den Kö -- nig der Eh - ren.
 }
 
 bassLyrics = \lyricmode {
-  Chri -- stus ist er -- stan - den, hat ü -- ber -- wun - den, Gnad' ist nun vor -- han - den, Wahr -- heit wird fun -- den. Da -- rum, lie -- ben Leu - te, freut euch heu - te, lo -- bet eu -- ren Her - ren, Je -- sum, den Kö -- nig der Eh - ren.
+  Chri -- stus ist er -- stan - den,
+  hat ü -- ber -- wun - den,
+  Gnad' ist nun vor -- han - den,
+  Wahr -- heit wird fun -- den.
+  Da -- rum, lie -- ben Leu - te,
+  freut euch heu - te,
+  lo -- bet eu -- ren Her - ren,
+  Je -- sum, den Kö -- nig der Eh - ren.
 }

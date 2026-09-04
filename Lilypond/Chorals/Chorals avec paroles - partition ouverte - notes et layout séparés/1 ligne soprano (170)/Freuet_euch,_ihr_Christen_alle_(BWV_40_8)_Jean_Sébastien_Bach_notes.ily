@@ -103,13 +103,37 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Je -- su, nimm dich dei -- ner Glie -- der fer -- ner in Ge -- na -- den an; schen -- ke, was man bit -- ten kann, zu er -- qui -- cken dei -- ne Brü -- der: gib der gan -- zen Chri -- sten -- schar Frie -- den und ein sel -- ges Jahr! Freu -- de, Freu -- de ü -- ber Freu -- de! Chri -- stus weh -- ret al -- lem Lei -- de. Won -- ne, Won -- ne ü -- ber Won -- ne! er ist die Ge -- na -- den -- son -- ne.
+  Je -- su, nimm dich dei -- ner Glie -- der
+  fer -- ner in Ge -- na -- den an;
+  schen -- ke, was man bit -- ten kann,
+  zu er -- qui -- cken dei -- ne Brü -- der:
+  gib der gan -- zen Chri -- sten -- schar
+  Frie -- den und ein sel -- ges Jahr!
+  Freu -- de, Freu -- de ü -- ber Freu -- de!
+  Chri -- stus weh -- ret al -- lem Lei -- de.
+  Won -- ne, Won -- ne ü -- ber Won -- ne! er ist die Ge -- na -- den -- son -- ne.
 }
 
 tenorLyrics = \lyricmode {
-  Je -- su, nimm dich dei -- ner Glie -- der fer -- ner in Ge -- na -- den an; schen -- ke, was man bit -- ten kann, zu er -- qui -- cken dei -- ne Brü -- der: gib der gan -- zen Chri -- sten -- schar Frie -- den und ein sel -- ges Jahr! Freu -- de, Freu -- de ü -- ber Freu -- de! Chri -- stus weh -- ret al -- lem Lei -- de. Won -- ne, Won -- ne ü -- ber Won -- ne! er ist die Ge -- na -- den -- son -- ne.
+  Je -- su, nimm dich dei -- ner Glie -- der
+  fer -- ner in Ge -- na -- den an;
+  schen -- ke, was man bit -- ten kann,
+  zu er -- qui -- cken dei -- ne Brü -- der:
+  gib der gan -- zen Chri -- sten -- schar
+  Frie -- den und ein sel -- ges Jahr!
+  Freu -- de, Freu -- de ü -- ber Freu -- de!
+  Chri -- stus weh -- ret al -- lem Lei -- de.
+  Won -- ne, Won -- ne ü -- ber Won -- ne! er ist die Ge -- na -- den -- son -- ne.
 }
 
 bassLyrics = \lyricmode {
-  Je -- su, nimm dich dei -- ner Glie -- der fer -- ner in Ge -- na -- den an; schen -- ke, was man bit -- ten kann, zu er -- qui -- cken dei -- ne Brü -- der: gib der gan -- zen Chri -- sten -- schar Frie -- den und ein sel -- ges Jahr! Freu -- de, Freu -- de ü -- ber Freu -- de! Chri -- stus weh -- ret al -- lem Lei -- de. Won -- ne, Won -- ne ü -- ber Won -- ne! er ist die Ge -- na -- den -- son -- ne.
+  Je -- su, nimm dich dei -- ner Glie -- der
+  fer -- ner in Ge -- na -- den an;
+  schen -- ke, was man bit -- ten kann,
+  zu er -- qui -- cken dei -- ne Brü -- der:
+  gib der gan -- zen Chri -- sten -- schar
+  Frie -- den und ein sel -- ges Jahr!
+  Freu -- de, Freu -- de ü -- ber Freu -- de!
+  Chri -- stus weh -- ret al -- lem Lei -- de.
+  Won -- ne, Won -- ne ü -- ber Won -- ne! er ist die Ge -- na -- den -- son -- ne.
 }

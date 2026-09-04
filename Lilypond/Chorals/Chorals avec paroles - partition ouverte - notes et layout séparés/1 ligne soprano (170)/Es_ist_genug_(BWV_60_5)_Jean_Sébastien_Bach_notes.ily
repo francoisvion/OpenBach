@@ -112,7 +112,8 @@ altoLyrics = \lyricmode {
   Ich fahr ins Him -- mels -- haus,
   ich fah -- re sich -- er hin mit Frie - den,
   mein gro -- ßer Jam -- mer bleibt da -- nie - den.
-  Es ist ge -- nug, es ist ge -- nug.
+  Es ist ge -- nug,
+  es ist ge -- nug.
 }
 
 tenorLyrics = \lyricmode {
@@ -124,7 +125,8 @@ tenorLyrics = \lyricmode {
   Ich fahr ins Him -- mels -- haus,
   ich fah -- re sich -- er hin mit Frie - den,
   mein gro -- ßer Jam -- mer bleibt da -- nie - den.
-  Es ist ge -- nug, es ist ge -- nug.
+  Es ist ge -- nug,
+  es ist ge -- nug.
 }
 
 bassLyrics = \lyricmode {
@@ -136,5 +138,6 @@ bassLyrics = \lyricmode {
   Ich fahr ins Him -- mels -- haus,
   ich fah -- re sich -- er hin mit Frie -- den,
   mein gro -- ßer Jam -- mer bleibt da -- nie -- den.
-  Es ist ge -- nug, es ist ge -- nug.
+  Es ist ge -- nug,
+  es ist ge -- nug.
 }

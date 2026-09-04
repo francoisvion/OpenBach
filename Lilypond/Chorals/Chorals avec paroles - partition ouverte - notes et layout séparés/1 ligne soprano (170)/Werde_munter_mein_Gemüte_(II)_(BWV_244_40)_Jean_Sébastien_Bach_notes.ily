@@ -86,13 +86,34 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Bin ich gleich von dir ge -- wi -- chen, stell ich mich doch wie -- der ein; hat uns doch dein Sohn ver -- gli -- chen durch sein Angst und To -- des -- pein. Ich ver -- leu -- gne nicht die Schuld; a -- ber de -- ine Gnad und Huld ist viel grö -- ßer als die Sün -- de, die ich stets in mir be -- fin -- de.
+  Bin ich gleich von dir ge -- wi -- chen,
+  stell ich mich doch wie -- der ein;
+  hat uns doch dein Sohn ver -- gli -- chen
+  durch sein Angst und To -- des -- pein.
+  Ich ver -- leu -- gne nicht die Schuld;
+  a -- ber de -- ine Gnad und Huld
+  ist viel grö -- ßer als die Sün -- de,
+  die ich stets in mir be -- fin -- de.
 }
 
 tenorLyrics = \lyricmode {
-  Bin ich gleich von dir ge -- wi -- chen, stell ich mich doch wie -- der ein; hat uns doch dein Sohn ver -- gli -- chen durch sein Angst und To -- des -- pein. Ich ver -- leu -- gne nicht die Schuld; a -- ber de -- ine Gnad und Huld ist viel grö -- ßer als die Sün -- de, die ich stets in mir be -- fin -- de.
+  Bin ich gleich von dir ge -- wi -- chen,
+  stell ich mich doch wie -- der ein;
+  hat uns doch dein Sohn ver -- gli -- chen
+  durch sein Angst und To -- des -- pein.
+  Ich ver -- leu -- gne nicht die Schuld;
+  a -- ber de -- ine Gnad und Huld
+  ist viel grö -- ßer als die Sün -- de,
+  die ich stets in mir be -- fin -- de.
 }
 
 bassLyrics = \lyricmode {
-  Bin ich gleich von dir ge -- wi -- chen, stell ich mich doch wie -- der ein; hat uns doch dein Sohn ver -- gli -- chen durch sein Angst und To -- des -- pein. Ich ver -- leu -- gne nicht die Schuld; a -- ber de -- ine Gnad und Huld ist viel grö -- ßer als die Sün -- de, die ich stets in mir be -- fin -- de.
+  Bin ich gleich von dir ge -- wi -- chen,
+  stell ich mich doch wie -- der ein;
+  hat uns doch dein Sohn ver -- gli -- chen
+  durch sein Angst und To -- des -- pein.
+  Ich ver -- leu -- gne nicht die Schuld;
+  a -- ber de -- ine Gnad und Huld
+  ist viel grö -- ßer als die Sün -- de,
+  die ich stets in mir be -- fin -- de.
 }

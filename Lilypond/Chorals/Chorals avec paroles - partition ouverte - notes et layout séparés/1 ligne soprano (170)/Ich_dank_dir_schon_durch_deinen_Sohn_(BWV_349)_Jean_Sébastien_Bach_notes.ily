@@ -82,13 +82,22 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Ich dank' dir schon durch dei -- nen Sohn, o Gott, für dei -- ne Gü -- te, dass du mich heut in die - ser Nacht so gnä -- dig hast _ be -- hü - tet.
+  Ich dank' dir schon durch dei -- nen Sohn,
+  o Gott, für dei -- ne Gü -- te,
+  dass du mich heut in die - ser Nacht
+  so gnä -- dig hast _ be -- hü - tet.
 }
 
 tenorLyrics = \lyricmode {
-  Ich dank' dir schon _ durch dei -- nen Sohn, o Gott, für dei -- ne Gü - - te, _ dass du mich heut in die - ser Nacht so gnä -- dig hast _ be -- hü - - tet.
+  Ich dank' dir schon _ durch dei -- nen Sohn,
+  o Gott, für dei -- ne Gü - - te, _
+  dass du mich heut in die - ser Nacht
+  so gnä -- dig hast _ be -- hü - - tet.
 }
 
 bassLyrics = \lyricmode {
-  Ich dank' dir schon _ durch dei - nen Sohn, o Gott, für dei - ne Gü - - te, dass du mich heut _ in die - ser Nacht so gnä -- dig hast _ be -- hü - - tet.
+  Ich dank' dir schon _ durch dei - nen Sohn,
+  o Gott, für dei - ne Gü - - te,
+  dass du mich heut _ in die - ser Nacht
+  so gnä -- dig hast _ be -- hü - - tet.
 }

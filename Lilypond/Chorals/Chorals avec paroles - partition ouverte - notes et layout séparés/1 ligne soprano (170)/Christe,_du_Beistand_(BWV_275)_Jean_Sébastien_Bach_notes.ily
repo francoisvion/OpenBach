@@ -88,13 +88,31 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Chris -- te, du Bei - stand dei -- ner Kreuz -- ge -- mein - e, ei -- le, mit Hülf' und Ret -- tung uns er -- schei -- ne; steu -- re den Fein - den: ih -- re Blut -- ge -- ri - chte ma -- che zu ni chte, ma -- che zu nich - te.
+  Chris -- te, du Bei - stand
+  dei -- ner Kreuz -- ge -- mein - e,
+  ei -- le, mit Hülf' und Ret -- tung uns er -- schei -- ne;
+  steu -- re den Fein - den:
+  ih -- re Blut -- ge -- ri - chte
+  ma -- che zu ni chte,
+  ma -- che zu nich - te.
 }
 
 tenorLyrics = \lyricmode {
-  Chris -- te, du Bei -- stand dei -- ner Kreuz -- ge -- mein - e, ei -- le, mit Hülf' und Ret -- tung uns er -- schei - ne; steu -- re den Fein -- den: ih -- re Blut -- ge -- ri - chte ma -- che zu ni chte, ma -- che zu nich - te.
+  Chris -- te, du Bei -- stand
+  dei -- ner Kreuz -- ge -- mein - e,
+  ei -- le, mit Hülf' und Ret -- tung uns er -- schei - ne;
+  steu -- re den Fein -- den:
+  ih -- re Blut -- ge -- ri - chte
+  ma -- che zu ni chte,
+  ma -- che zu nich - te.
 }
 
 bassLyrics = \lyricmode {
-  Chris -- te, du Bei - stand dei -- ner Kreuz -- ge -- mein - e, ei -- le, mit Hülf' und Ret -- tung uns er -- schei -- ne; steu -- re den Fein - den: ih -- re Blut -- ge -- ri - chte ma -- che zu ni - chte, ma -- che zu nich -- te.
+  Chris -- te, du Bei - stand
+  dei -- ner Kreuz -- ge -- mein - e,
+  ei -- le, mit Hülf' und Ret -- tung uns er -- schei -- ne;
+  steu -- re den Fein - den:
+  ih -- re Blut -- ge -- ri - chte
+  ma -- che zu ni - chte,
+  ma -- che zu nich -- te.
 }

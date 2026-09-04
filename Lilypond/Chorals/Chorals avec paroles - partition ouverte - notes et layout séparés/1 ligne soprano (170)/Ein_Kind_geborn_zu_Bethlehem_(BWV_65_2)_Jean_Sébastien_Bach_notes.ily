@@ -86,13 +86,19 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-      Die Kön -- ge aus Sa -- ba ka men da, ka - - men da, Gold, Weih -- rauch, Myrr -- hen brach -- ten sie da, Al -- le - lu -- ja, Al -- le - - - lu -- ja!
-    }
+  Die Kön -- ge aus Sa -- ba ka men da,
+  ka - - men da,
+  Gold, Weih -- rauch, Myrr -- hen brach -- ten sie da,
+  Al -- le - lu -- ja, Al -- le - - - lu -- ja!
+}
 
 tenorLyrics = \lyricmode {
-      Die Kön -- ge aus Sa -- ba ka - men da, ka - - men da, Gold, Weih - rauch, Myrr - hen brach -- ten sie da, Al -- le - lu -- ja, _ Al -- le - - lu -- ja!
-    }
+  Die Kön -- ge aus Sa -- ba ka - men da, ka - - men da, Gold, Weih - rauch, Myrr - hen brach -- ten sie da, Al -- le - lu -- ja, _ Al -- le - - lu -- ja!
+}
 
 bassLyrics = \lyricmode {
-      Die Kön -- ge aus Sa - ba ka - men da, ka - - - - men da, Gold, Weih - rauch, Myrr - hen brach -- ten sie da, Al -- le - lu -- ja, _ Al -- le - - - - lu -- ja!
-    }
+  Die Kön -- ge aus Sa - ba ka - men da,
+  ka - - - - men da,
+  Gold, Weih - rauch, Myrr - hen brach -- ten sie da,
+  Al -- le - lu -- ja, _ Al -- le - - - - lu -- ja!
+}
