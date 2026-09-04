@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Dies sind die heilgen zehn Gebot"
- poet = "Auteur : Martin Luther (1483-1546)"
+  title = "Dies sind die heilgen zehn Gebot"
+  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 298"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

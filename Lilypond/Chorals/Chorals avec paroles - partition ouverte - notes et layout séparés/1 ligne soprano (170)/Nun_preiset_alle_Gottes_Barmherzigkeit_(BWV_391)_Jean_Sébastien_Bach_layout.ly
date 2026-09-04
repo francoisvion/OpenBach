@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Nun preiset alle Gottes Barmherzigkeit"
- poet = "Auteur : Matthäus Apelles von Löwenstern (1594-1648)"
+  title = "Nun preiset alle Gottes Barmherzigkeit"
+  poet = "Auteur : Matthäus Apelles von Löwenstern (1594-1648)"
   opus = "BWV 391"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

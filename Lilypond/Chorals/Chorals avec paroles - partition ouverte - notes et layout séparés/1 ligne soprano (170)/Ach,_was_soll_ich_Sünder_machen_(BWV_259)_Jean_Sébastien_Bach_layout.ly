@@ -28,14 +28,14 @@ m\version "2.27.1"
 }
 
 \header { 
- title = "Ach, was soll ich Sünder machen"
- poet = "Auteur : Johann Flittner (1618-1678)"
+  title = "Ach, was soll ich Sünder machen"
+  poet = "Auteur : Johann Flittner (1618-1678)"
   opus = "BWV 259"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f   
   copyright = "© 2026 — OpenBach"
-  } 
- 
+} 
+
 \score {
   \new ChoirStaff <<
     \new Staff \with { \autoBeamOff instrumentName = "S" }
@@ -72,7 +72,7 @@ m\version "2.27.1"
     \new Lyrics \lyricsto "bass" \bassLyrics
   >>
 } 
- 
+
 \layout {
   \context {
     \Staff

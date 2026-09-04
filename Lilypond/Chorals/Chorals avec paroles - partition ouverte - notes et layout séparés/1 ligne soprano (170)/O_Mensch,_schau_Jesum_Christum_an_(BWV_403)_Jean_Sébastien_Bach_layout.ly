@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "O Mensch, schau Jesum Christum an"
- poet = "Auteur : Daniel Specht"
+  title = "O Mensch, schau Jesum Christum an"
+  poet = "Auteur : Daniel Specht"
   opus = "BWV 403"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

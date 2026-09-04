@@ -28,14 +28,14 @@
 }
 
 \header {
- title = "Herzliebster Jesu (II)"
- subtitle = "tiré de la Passion selon saint Matthieu"
- poet = "Auteur : Johann Heermann (1585-1647)"
+  title = "Herzliebster Jesu (II)"
+  subtitle = "tiré de la Passion selon saint Matthieu"
+  poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 244/46"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

@@ -28,14 +28,14 @@
 }
 
 \header {
- title = "Verleih uns Frieden gnädlich (I)"
- subtitle = "tiré de la cantate : Am Abend aber desselbigen Sabbatas"
- poet = "Auteur : Martin Luther (1483-1546)"
+  title = "Verleih uns Frieden gnädlich (I)"
+  subtitle = "tiré de la cantate : Am Abend aber desselbigen Sabbatas"
+  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 42/7"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Du großer Schmerzensmann"
- poet = "Auteur : Adam Thebesius (1596-1652)"
+  title = "Du großer Schmerzensmann"
+  poet = "Auteur : Adam Thebesius (1596-1652)"
   opus = "BWV 300"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

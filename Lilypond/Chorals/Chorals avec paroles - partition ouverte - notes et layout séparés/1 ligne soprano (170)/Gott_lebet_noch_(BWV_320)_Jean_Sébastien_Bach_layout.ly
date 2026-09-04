@@ -27,13 +27,13 @@
 }
 
 \header {
- title = "Gott lebet noch"
- poet = "Auteur : Johann Friedrich Zihn (1650-1719)"
+  title = "Gott lebet noch"
+  poet = "Auteur : Johann Friedrich Zihn (1650-1719)"
   opus = "BWV 320"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

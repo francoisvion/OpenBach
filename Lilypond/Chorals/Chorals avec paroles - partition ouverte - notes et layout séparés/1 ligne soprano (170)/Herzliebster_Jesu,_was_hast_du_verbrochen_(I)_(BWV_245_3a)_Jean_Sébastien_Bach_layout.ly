@@ -28,14 +28,14 @@
 }
 
 \header {
- title = "Herzliebster Jesu, was hast du verbrochen (I)"
- subtitle = "tiré de la Passion selon saint Jean"
- poet = "Auteur : Johann Heermann (1585-1647)"
+  title = "Herzliebster Jesu, was hast du verbrochen (I)"
+  subtitle = "tiré de la Passion selon saint Jean"
+  poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 245/3a"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

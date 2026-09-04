@@ -28,12 +28,12 @@
 }
 
 \header {
- title = "Denket doch, ihr Menschenkinder"
+  title = "Denket doch, ihr Menschenkinder"
   opus = "BWV 1122"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

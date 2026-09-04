@@ -28,14 +28,14 @@
 }
 
 \header { 
- title = "Christus, der ist mein Leben (I)"
- poet = "Geneva 1609"
+  title = "Christus, der ist mein Leben (I)"
+  poet = "Geneva 1609"
   opus = "BWV 281"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f   
   copyright = "© 2026 — OpenBach"
-  } 
- 
+} 
+
 \score {
   \new ChoirStaff <<
     \new Staff \with { \autoBeamOff instrumentName = "S" }
@@ -72,7 +72,7 @@
     \new Lyrics \lyricsto "bass" \bassLyrics
   >>
 } 
- 
+
 \layout {
   \context {
     \Staff

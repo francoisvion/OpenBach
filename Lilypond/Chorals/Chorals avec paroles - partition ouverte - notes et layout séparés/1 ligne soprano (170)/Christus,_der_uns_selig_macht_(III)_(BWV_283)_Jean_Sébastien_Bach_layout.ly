@@ -27,13 +27,13 @@
 }
 
 \header {
- title = "Christus, der uns selig macht (III)"
- poet = "Auteur : Michael Weisse (v.1488-1534)"
+  title = "Christus, der uns selig macht (III)"
+  poet = "Auteur : Michael Weisse (v.1488-1534)"
   opus = "BWV 283"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

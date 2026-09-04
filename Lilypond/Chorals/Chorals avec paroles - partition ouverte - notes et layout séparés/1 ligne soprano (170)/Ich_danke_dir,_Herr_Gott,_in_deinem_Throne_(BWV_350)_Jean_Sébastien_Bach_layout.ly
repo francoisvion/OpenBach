@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Ich danke dir, Herr Gott, in deinem Throne"
- poet = "Auteur : Jakob Fabricius (1593-1654)"
+  title = "Ich danke dir, Herr Gott, in deinem Throne"
+  poet = "Auteur : Jakob Fabricius (1593-1654)"
   opus = "BWV 350"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

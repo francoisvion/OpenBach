@@ -28,14 +28,14 @@
 }
 
 \header {
- title = "Ein Kind geborn zu Bethlehem"
- subtitle = "tiré de la cantate : Sie werden aus Saba alle kommen"
- poet = "Auteur : Cyriakus Spangenberg (1528-1604)"
+  title = "Ein Kind geborn zu Bethlehem"
+  subtitle = "tiré de la cantate : Sie werden aus Saba alle kommen"
+  poet = "Auteur : Cyriakus Spangenberg (1528-1604)"
   opus = "BWV 65/2"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

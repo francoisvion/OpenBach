@@ -27,14 +27,14 @@
 }
 
 \header {
- title = "In dich hab ich gehoffet, Herr"
- subtitle = "tiré de la Passion selon saint Matthieu"
- poet = "Auteur : Adam Reusner (v.1496-1575)"
+  title = "In dich hab ich gehoffet, Herr"
+  subtitle = "tiré de la Passion selon saint Matthieu"
+  poet = "Auteur : Adam Reusner (v.1496-1575)"
   opus = "BWV 244/32"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

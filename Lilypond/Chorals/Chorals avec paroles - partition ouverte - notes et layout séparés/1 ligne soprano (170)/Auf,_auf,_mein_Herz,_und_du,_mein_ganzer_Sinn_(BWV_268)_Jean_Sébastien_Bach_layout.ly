@@ -28,13 +28,13 @@ m\version "2.27.1"
 }
 
 \header {
- title = "Auf, auf, mein Herz, und du, mein ganzer Sinn"
- poet = "Auteur : Sigmund von Birken (1626-1681)"
+  title = "Auf, auf, mein Herz, und du, mein ganzer Sinn"
+  poet = "Auteur : Sigmund von Birken (1626-1681)"
   opus = "BWV 268"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

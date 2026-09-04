@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Wenn mein Stündlein vorhanden ist (II)"
- poet = "Auteur : Nikolaus Herman (v.1480-1561)"
+  title = "Wenn mein Stündlein vorhanden ist (II)"
+  poet = "Auteur : Nikolaus Herman (v.1480-1561)"
   opus = "BWV 429"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

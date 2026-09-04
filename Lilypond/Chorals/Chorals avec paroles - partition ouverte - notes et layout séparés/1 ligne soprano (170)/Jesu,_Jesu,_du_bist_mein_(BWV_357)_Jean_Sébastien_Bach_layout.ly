@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Jesu, Jesu, du bist mein"
- poet = "Anonyme"
+  title = "Jesu, Jesu, du bist mein"
+  poet = "Anonyme"
   opus = "BWV 357"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

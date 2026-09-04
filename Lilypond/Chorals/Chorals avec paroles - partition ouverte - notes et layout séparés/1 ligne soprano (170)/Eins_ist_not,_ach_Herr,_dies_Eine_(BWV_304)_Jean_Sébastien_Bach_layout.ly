@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Eins ist not, ach Herr, dies Eine"
- poet = "Auteur : Johann Heinrich Schröder (1666-1699)"
+  title = "Eins ist not, ach Herr, dies Eine"
+  poet = "Auteur : Johann Heinrich Schröder (1666-1699)"
   opus = "BWV 304"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

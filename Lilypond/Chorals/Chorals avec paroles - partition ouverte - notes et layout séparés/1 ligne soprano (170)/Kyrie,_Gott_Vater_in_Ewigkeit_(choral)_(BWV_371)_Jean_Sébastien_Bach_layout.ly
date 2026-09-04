@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Kyrie, Gott Vater in Ewigkeit"
- poet = "Naumburg, 1537/38 (traduction du Kyrie)"
+  title = "Kyrie, Gott Vater in Ewigkeit"
+  poet = "Naumburg, 1537/38 (traduction du Kyrie)"
   opus = "BWV 371"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

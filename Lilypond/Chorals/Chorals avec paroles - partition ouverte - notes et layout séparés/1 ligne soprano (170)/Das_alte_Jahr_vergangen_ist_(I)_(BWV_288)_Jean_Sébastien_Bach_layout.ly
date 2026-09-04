@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Das alte Jahr vergangen ist (I)"
- poet = "Erfurt 1568"
+  title = "Das alte Jahr vergangen ist (I)"
+  poet = "Erfurt 1568"
   opus = "BWV 288"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

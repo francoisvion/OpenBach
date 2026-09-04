@@ -28,14 +28,14 @@
 }
 
 \header {
- title = "In allen meinen Taten (I)"
- subtitle = "tiré de la cantate : Meine Seufzer, meine Tränen"
- poet = "Auteur : Paul Fleming (1609-1640)"
+  title = "In allen meinen Taten (I)"
+  subtitle = "tiré de la cantate : Meine Seufzer, meine Tränen"
+  poet = "Auteur : Paul Fleming (1609-1640)"
   opus = "BWV 13/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

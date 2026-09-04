@@ -1,160 +1,160 @@
 sopranoMusic = {
-          \partial 4  f''4
-          g'' f''8 [ees''] d'' [ees''] f''4
-          c''2 d''4 e''
-          f''2\fermata r4 f''
-          g'' f'' c''8 [d''] ees''4
-          d'' c'' bes'\fermata bes'
-          c''8 [d''] ees''4 d''8 [ees''] f''4~
-          f'' c'' bes'8 [a'] g'4
-          f'2\fermata r4 f'
-          bes' c'' d''8 [ees''] f''4~
-          f'' ees'' d'' c''
-          d''2\fermata r4 d''8 [ees'']
-          f''4 g'' f'' c''
-          d'' e'' f''\fermata f''
-          g'' f'' c''8 [d''] ees''4
-          d'' c'' bes'\fermata bes'
-          c''8 [d''] ees''4 d''8 [ees''] f''4~
-          f'' c'' bes'8 [a'] g'4
-          f'2\fermata r4 f'
-          bes' c'' d''8 [ees''] f''4~
-          f'' ees'' d'' c''
-          g' a' bes'\fermata c''
-          d'' bes' g'2
-          f'4\fermata c''8 [d''16 ees''] d''2
-          c'' bes'4\fermata \fine
-        }
+  \partial 4  f''4
+  g'' f''8 [ees''] d'' [ees''] f''4
+  c''2 d''4 e''
+  f''2\fermata r4 f''
+  g'' f'' c''8 [d''] ees''4
+  d'' c'' bes'\fermata bes'
+  c''8 [d''] ees''4 d''8 [ees''] f''4~
+  f'' c'' bes'8 [a'] g'4
+  f'2\fermata r4 f'
+  bes' c'' d''8 [ees''] f''4~
+  f'' ees'' d'' c''
+  d''2\fermata r4 d''8 [ees'']
+  f''4 g'' f'' c''
+  d'' e'' f''\fermata f''
+  g'' f'' c''8 [d''] ees''4
+  d'' c'' bes'\fermata bes'
+  c''8 [d''] ees''4 d''8 [ees''] f''4~
+  f'' c'' bes'8 [a'] g'4
+  f'2\fermata r4 f'
+  bes' c'' d''8 [ees''] f''4~
+  f'' ees'' d'' c''
+  g' a' bes'\fermata c''
+  d'' bes' g'2
+  f'4\fermata c''8 [d''16 ees''] d''2
+  c'' bes'4\fermata \fine
+}
 
 altoMusic = {
-          \partial 4  bes'4
-          bes' a' bes' f'8 [g']
-          a'2 bes'4 bes'
-          a'2\fermata r4 bes'
-          bes' a'8 [g'] f'4 g'8 [a']
-          bes'4 a' f'\fermata f'
-          f' g' f'8 [g'] a'4~
-          a'8 bes' a' [g'] f' [d'] e'4
-          c'2\fermata r4 c'
-          f'8 [g'] a'4 bes'4. c''8
-          d''4. c''8 bes' [a'] g'4
-          fis'2\fermata r4 bes'
-          a'8 [b'] c''4 c''8 [bes'] a' [g']
-          f'4 g' a'\fermata bes'8 [a']
-          g' [a'] bes'4 a' g'
-          f'8 [g'] a'4 f'\fermata g'
-          g' g'8 [a'] bes'2~
-          bes'4 a' bes'8 f'4 e'8
-          c'2\fermata r4 f'8 [ees']
-          d' [g'] f' [ees'] d'4. ees'16 [f']
-          g'4 g' g' g'8 [f']
-          ees'2 d'4\fermata f'
-          f'2~ f'8 d' ees'4
-          d'\fermata f'2 g'4~
-          g' f'8 [ees'] d'4\fermata \fine
-        }
+  \partial 4  bes'4
+  bes' a' bes' f'8 [g']
+  a'2 bes'4 bes'
+  a'2\fermata r4 bes'
+  bes' a'8 [g'] f'4 g'8 [a']
+  bes'4 a' f'\fermata f'
+  f' g' f'8 [g'] a'4~
+  a'8 bes' a' [g'] f' [d'] e'4
+  c'2\fermata r4 c'
+  f'8 [g'] a'4 bes'4. c''8
+  d''4. c''8 bes' [a'] g'4
+  fis'2\fermata r4 bes'
+  a'8 [b'] c''4 c''8 [bes'] a' [g']
+  f'4 g' a'\fermata bes'8 [a']
+  g' [a'] bes'4 a' g'
+  f'8 [g'] a'4 f'\fermata g'
+  g' g'8 [a'] bes'2~
+  bes'4 a' bes'8 f'4 e'8
+  c'2\fermata r4 f'8 [ees']
+  d' [g'] f' [ees'] d'4. ees'16 [f']
+  g'4 g' g' g'8 [f']
+  ees'2 d'4\fermata f'
+  f'2~ f'8 d' ees'4
+  d'\fermata f'2 g'4~
+  g' f'8 [ees'] d'4\fermata \fine
+}
 
 tenorMusic = {
-          \partial 4  d'4
-          ees'8 [d'] c'4 bes bes
-          f'2 f'4 bes
-          c'2\fermata r4 bes
-          ees'8 [d'] c' [bes] a [bes] ees4
-          f f'8 [ees'] d'4\fermata
-          d'
-          c' bes8 [c'] d'4 c'8 [bes]
-          c'4 f' f' c'8 [bes]
-          a2\fermata r4 a
-          bes ees' f'8 [ees'] d' [c']
-          b [a] g4 fis g
-          a2\fermata r4 bes8 [c']
-          d'4 e' f'4. ees'8
-          d' [c'] bes4 c'\fermata d'
-          ees' f' f' bes8 [c']
-          d' [bes] f' [ees'] d'4\fermata ees'
-          ees'8 [d'] c'4 d'8 [c'] bes [c']
-          d' [e'] f'4 f' c'8 [bes]
-          a2\fermata r4 a
-          bes8 [ees'] d' [c'] bes4. c'8
-          d'4. c'8 bes [a] g4
-          c'2 bes4\fermata a
-          bes2. bes8 [a]
-          bes4\fermata c'2 bes4~
-          bes a16 [g a8] f4\fermata \fine
-        }
+  \partial 4  d'4
+  ees'8 [d'] c'4 bes bes
+  f'2 f'4 bes
+  c'2\fermata r4 bes
+  ees'8 [d'] c' [bes] a [bes] ees4
+  f f'8 [ees'] d'4\fermata
+  d'
+  c' bes8 [c'] d'4 c'8 [bes]
+  c'4 f' f' c'8 [bes]
+  a2\fermata r4 a
+  bes ees' f'8 [ees'] d' [c']
+  b [a] g4 fis g
+  a2\fermata r4 bes8 [c']
+  d'4 e' f'4. ees'8
+  d' [c'] bes4 c'\fermata d'
+  ees' f' f' bes8 [c']
+  d' [bes] f' [ees'] d'4\fermata ees'
+  ees'8 [d'] c'4 d'8 [c'] bes [c']
+  d' [e'] f'4 f' c'8 [bes]
+  a2\fermata r4 a
+  bes8 [ees'] d' [c'] bes4. c'8
+  d'4. c'8 bes [a] g4
+  c'2 bes4\fermata a
+  bes2. bes8 [a]
+  bes4\fermata c'2 bes4~
+  bes a16 [g a8] f4\fermata \fine
+}
 
 bassMusic = {
-          \partial 4  bes4
-          ees f g d8 [ees]
-          f2 bes8 [a] g4
-          f2\fermata r4 d
-          ees f ees8 [d] c4
-          d8 [ees] f4 bes,\fermata bes
-          a g8 [a] bes4 a8 [g]
-          a [g] f [e] d [bes,] c4
-          f2\fermata r4 f8 [ees]
-          d [ees] d [c] bes,4 bes8 [aes]
-          g4 c d ees
-          d2\fermata r4 g
-          d' c'8 [bes] a [g] f4
-          bes8 [a] g4 f\fermata bes
-          ees d8 [ees] f4 g8 [a]
-          bes [ees] f4 bes,\fermata ees8 [d]
-          c4 c' g d8 [ees]
-          f [g] a [f] d' [bes] c'4
-          f2\fermata r4 d
-          g a bes8 [c'] d' [c']
-          b [g] c'4 g8 [f] ees [d]
-          ees [c] f4 bes,\fermata f
-          bes,8 [c] d4 ees2
-          bes4\fermata a bes8 [a] g [f]
-          ees [c] f4 bes,\fermata \fine
-        }
+  \partial 4  bes4
+  ees f g d8 [ees]
+  f2 bes8 [a] g4
+  f2\fermata r4 d
+  ees f ees8 [d] c4
+  d8 [ees] f4 bes,\fermata bes
+  a g8 [a] bes4 a8 [g]
+  a [g] f [e] d [bes,] c4
+  f2\fermata r4 f8 [ees]
+  d [ees] d [c] bes,4 bes8 [aes]
+  g4 c d ees
+  d2\fermata r4 g
+  d' c'8 [bes] a [g] f4
+  bes8 [a] g4 f\fermata bes
+  ees d8 [ees] f4 g8 [a]
+  bes [ees] f4 bes,\fermata ees8 [d]
+  c4 c' g d8 [ees]
+  f [g] a [f] d' [bes] c'4
+  f2\fermata r4 d
+  g a bes8 [c'] d' [c']
+  b [g] c'4 g8 [f] ees [d]
+  ees [c] f4 bes,\fermata f
+  bes,8 [c] d4 ees2
+  bes4\fermata a bes8 [a] g [f]
+  ees [c] f4 bes,\fermata \fine
+}
 
 sopranoLyrics = \lyricmode {
-      Du hei - li -- ge Brunst, sü -- ßer Trost,
-      nun hilf uns, fröh -- lich und ge -- trost
-      in dei -- nem Dienst be -- stän -- dig blei -- ben,
-      die Trüb -- sal uns nicht ab -- trei - ben,
-      O Herr, duch dein Kraft uns be -- reit
-      und stärk des Flei -- sches Blö -- dig -- keit,
-      dass wir hier rit -- ter -- lich rin - gen,
-      durch Tod und Le -- ben zu dir drin - - gen,
-      Hal -- le - lu -- ja! Hal -- le -- lu -- ja!
-    }
+  Du hei - li -- ge Brunst, sü -- ßer Trost,
+  nun hilf uns, fröh -- lich und ge -- trost
+  in dei -- nem Dienst be -- stän -- dig blei -- ben,
+  die Trüb -- sal uns nicht ab -- trei - ben,
+  O Herr, duch dein Kraft uns be -- reit
+  und stärk des Flei -- sches Blö -- dig -- keit,
+  dass wir hier rit -- ter -- lich rin - gen,
+  durch Tod und Le -- ben zu dir drin - - gen,
+  Hal -- le - lu -- ja! Hal -- le -- lu -- ja!
+}
 
 altoLyrics = \lyricmode {
-      Du hei - li -- ge Brunst, sü -- ßer Trost,
-      nun hilf uns, fröh -- lich und ge -- trost
-      in dei -- nem Dienst be -- stän - dig blei -- ben,
-      die Trüb -- sal uns nicht __ _ ab -- trei - ben,
-      O Herr, duch dein Kraft uns be -- reit
-      und stärk des Flei -- sches Blö -- dig -- keit,
-      dass wir hier rit -- ter -- lich rin - gen,
-      durch Tod und Le -- ben __ _ zu dir drin - gen,
-      Hal -- le - lu -- ja! Hal -- le -- lu -- ja!
-    }
+  Du hei - li -- ge Brunst, sü -- ßer Trost,
+  nun hilf uns, fröh -- lich und ge -- trost
+  in dei -- nem Dienst be -- stän - dig blei -- ben,
+  die Trüb -- sal uns nicht __ _ ab -- trei - ben,
+  O Herr, duch dein Kraft uns be -- reit
+  und stärk des Flei -- sches Blö -- dig -- keit,
+  dass wir hier rit -- ter -- lich rin - gen,
+  durch Tod und Le -- ben __ _ zu dir drin - gen,
+  Hal -- le - lu -- ja! Hal -- le -- lu -- ja!
+}
 
 tenorLyrics = \lyricmode {
-      Du hei - li -- ge Brunst, sü -- ßer Trost,
-      nun hilf uns, fröh -- lich und ge -- trost
-      in dei -- nem Dienst be -- stän - dig blei -- ben,
-      die Trüb -- sal uns nicht ab - trei - ben,
-      O Herr, duch dein Kraft uns be -- reit
-      und stärk des Flei -- sches Blö -- dig -- keit,
-      dass wir hier rit -- ter - lich rin - gen,
-      durch Tod und Le -- ben __ _ zu dir drin - gen,
-      Hal -- le -- lu -- ja! Hal -- le -- lu -- ja!
-    }
+  Du hei - li -- ge Brunst, sü -- ßer Trost,
+  nun hilf uns, fröh -- lich und ge -- trost
+  in dei -- nem Dienst be -- stän - dig blei -- ben,
+  die Trüb -- sal uns nicht ab - trei - ben,
+  O Herr, duch dein Kraft uns be -- reit
+  und stärk des Flei -- sches Blö -- dig -- keit,
+  dass wir hier rit -- ter - lich rin - gen,
+  durch Tod und Le -- ben __ _ zu dir drin - gen,
+  Hal -- le -- lu -- ja! Hal -- le -- lu -- ja!
+}
 
 bassLyrics = \lyricmode {
-      Du hei - li -- ge Brunst, sü -- ßer Trost,
-      nun hilf uns, fröh -- lich und ge -- trost
-      in dei -- nem Dienst be -- stän - dig blei -- ben,
-      die Trüb -- sal uns nicht ab - trei - ben,
-      O Herr, duch dein Kraft uns be -- reit
-      und stärk des Flei -- sches Blö -- dig -- keit,
-      dass wir hier rit -- ter - lich rin - gen,
-      durch Tod und Le -- ben __ _ zu dir drin - - gen,
-      Hal -- le - lu -- ja! Hal -- le - lu - ja!
-    }
+  Du hei - li -- ge Brunst, sü -- ßer Trost,
+  nun hilf uns, fröh -- lich und ge -- trost
+  in dei -- nem Dienst be -- stän - dig blei -- ben,
+  die Trüb -- sal uns nicht ab - trei - ben,
+  O Herr, duch dein Kraft uns be -- reit
+  und stärk des Flei -- sches Blö -- dig -- keit,
+  dass wir hier rit -- ter - lich rin - gen,
+  durch Tod und Le -- ben __ _ zu dir drin - - gen,
+  Hal -- le - lu -- ja! Hal -- le - lu - ja!
+}

@@ -28,14 +28,14 @@
 }
 
 \header {
- title = "Herr Jesu Christ, wahr Mensch und Gott (I)"
- subtitle = "tiré de la cantate : Herr Jesu Christ, wahr' Mensch und Gott"
- poet = "Auteur : Paul Eber (1511-1569)"
+  title = "Herr Jesu Christ, wahr Mensch und Gott (I)"
+  subtitle = "tiré de la cantate : Herr Jesu Christ, wahr' Mensch und Gott"
+  poet = "Auteur : Paul Eber (1511-1569)"
   opus = "BWV 127/5"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

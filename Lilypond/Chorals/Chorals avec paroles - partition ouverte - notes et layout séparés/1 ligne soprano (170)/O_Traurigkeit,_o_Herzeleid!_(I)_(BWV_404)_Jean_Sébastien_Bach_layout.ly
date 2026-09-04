@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "O Traurigkeit, o Herzeleid! (I)"
- poet = "Auteur : Friedrich von Spee (1591-1635)"
+  title = "O Traurigkeit, o Herzeleid! (I)"
+  poet = "Auteur : Friedrich von Spee (1591-1635)"
   opus = "BWV 404"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

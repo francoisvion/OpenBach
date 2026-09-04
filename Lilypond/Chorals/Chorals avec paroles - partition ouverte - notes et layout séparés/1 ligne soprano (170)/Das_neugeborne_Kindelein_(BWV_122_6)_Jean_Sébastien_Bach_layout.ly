@@ -30,12 +30,12 @@
 \header {
   title = "Das neugeborne Kindelein"
   subtitle = "tiré de la cantate : Das neugeborne Kindelein"
- poet = "Auteur : Cyriakus Schneegaß (1546-1597)"
+  poet = "Auteur : Cyriakus Schneegaß (1546-1597)"
   opus = "BWV 122/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

@@ -28,14 +28,14 @@
 }
 
 \header {
- title = "Ist Gott mein Schild und Helfersmann"
- subtitle = "tiré de la cantate : Ich bin ein guter Hirt"
- poet = "Auteur : Ernst Christoph Homburg (1605-1681)"
+  title = "Ist Gott mein Schild und Helfersmann"
+  subtitle = "tiré de la cantate : Ich bin ein guter Hirt"
+  poet = "Auteur : Ernst Christoph Homburg (1605-1681)"
   opus = "BWV 85/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

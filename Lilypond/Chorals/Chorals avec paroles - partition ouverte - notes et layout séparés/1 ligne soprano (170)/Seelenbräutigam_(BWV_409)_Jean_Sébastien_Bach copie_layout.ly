@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Seelenbräutigam"
- poet = "Auteur : Adam Drese (1620-1701)"
+  title = "Seelenbräutigam"
+  poet = "Auteur : Adam Drese (1620-1701)"
   opus = "BWV 409"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

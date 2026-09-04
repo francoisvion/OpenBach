@@ -30,12 +30,12 @@
 \header {
   title = "Christus, der uns selig macht (II)"
   subtitle = "tiré de la Passion selon saint Jean"
- poet = "Auteur : Michael Weisse (v.1488-1534)"
+  poet = "Auteur : Michael Weisse (v.1488-1534)"
   opus = "BWV 245/37"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

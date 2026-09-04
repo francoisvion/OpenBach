@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Herr Jesu Christ, dich zu uns wend"
- poet = "Auteur : Wilhelm II, duc de Sachsen–Weimar (1598-1662)"
+  title = "Herr Jesu Christ, dich zu uns wend"
+  poet = "Auteur : Wilhelm II, duc de Sachsen–Weimar (1598-1662)"
   opus = "BWV 332"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

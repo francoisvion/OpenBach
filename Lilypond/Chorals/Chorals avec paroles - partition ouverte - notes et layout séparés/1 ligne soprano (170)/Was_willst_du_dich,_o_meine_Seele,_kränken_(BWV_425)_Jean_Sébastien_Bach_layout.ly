@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Was willst du dich, o meine Seele, kränken"
- poet = "Auteur : Dietrich von dem Werder (1584-1657)"
+  title = "Was willst du dich, o meine Seele, kränken"
+  poet = "Auteur : Dietrich von dem Werder (1584-1657)"
   opus = "BWV 425"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

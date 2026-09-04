@@ -26,14 +26,14 @@
 }
 
 \header {
- title = "Vom Himmel hoch, da komm ich her"
- subtitle = "tiré de l'oratorio de Noël, partie n° 1"
- poet = "Auteur : Martin Luther (1483-1546)"
+  title = "Vom Himmel hoch, da komm ich her"
+  subtitle = "tiré de l'oratorio de Noël, partie n° 1"
+  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 248/9"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

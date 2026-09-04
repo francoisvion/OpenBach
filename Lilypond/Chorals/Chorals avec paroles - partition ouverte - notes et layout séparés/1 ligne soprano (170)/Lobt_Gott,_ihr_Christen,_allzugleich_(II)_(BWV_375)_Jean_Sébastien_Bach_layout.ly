@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Lobt Gott, ihr Christen, allzugleich (II)"
- poet = "Auteur : Nikolaus Herman (v.1480-1561)"
+  title = "Lobt Gott, ihr Christen, allzugleich (II)"
+  poet = "Auteur : Nikolaus Herman (v.1480-1561)"
   opus = "BWV 375"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

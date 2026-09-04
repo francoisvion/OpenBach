@@ -28,14 +28,14 @@
 }
 
 \header {
- title = "In allen meinen Taten (II)"
- subtitle = "tiré de la cantate : Sie werden euch in den Bann tun (I)"
- poet = "Auteur : Paul Fleming (1609-1640)"
+  title = "In allen meinen Taten (II)"
+  subtitle = "tiré de la cantate : Sie werden euch in den Bann tun (I)"
+  poet = "Auteur : Paul Fleming (1609-1640)"
   opus = "BWV 44/7"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

@@ -28,14 +28,14 @@
 }
 
 \header {
- title = "Lobt Gott, ihr Christen, allzugleich (I)"
- subtitle = "tiré de la cantate : Süßer Trost, mein Jesus kömmt"
- poet = "Auteur : Nikolaus Herman (v.1480-1561)"
+  title = "Lobt Gott, ihr Christen, allzugleich (I)"
+  subtitle = "tiré de la cantate : Süßer Trost, mein Jesus kömmt"
+  poet = "Auteur : Nikolaus Herman (v.1480-1561)"
   opus = "BWV 151/5"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Meinen Jesum lass ich nicht (IV)"
- poet = "Auteur : Christian Keymann (1607-1662)"
+  title = "Meinen Jesum lass ich nicht (IV)"
+  poet = "Auteur : Christian Keymann (1607-1662)"
   opus = "BWV 380"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<
