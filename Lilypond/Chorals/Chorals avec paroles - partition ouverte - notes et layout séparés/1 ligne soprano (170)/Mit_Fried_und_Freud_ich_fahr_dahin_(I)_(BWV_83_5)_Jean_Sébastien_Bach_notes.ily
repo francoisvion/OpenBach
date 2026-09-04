@@ -71,13 +71,13 @@ sopranoLyrics = \lyricmode {Er ist das Heil und se -- lig Licht
 }
 
 altoLyrics = \lyricmode {
-  Er ist das Heil und - se - lig Licht für __ _ die - Hei - den, "zu er" -- leuch -- ten, die dich - ken - - nen nicht, und - zu wei - den. es ist deins - Volks - I sra -- el der Preis, Ehr, Freud und Won - ne.
+  Er ist das Heil und se -- lig Licht für __ _ die Hei - den, "zu er" -- leuch -- ten, die dich ken - - nen nicht, und zu wei - den. es ist deins Volks I sra -- el der Preis, Ehr, Freud und Won - ne.
 }
 
 tenorLyrics = \lyricmode {
-  Er ist das Heil und - se - lig - Licht für __ _ _ die Hei - - den, "zu er" -- leuch -- ten, die dich ken - - nen nicht, und - zu wei - den. es ist deins - Volks I sra -- el der Preis, Ehr, Freud "und Won -" - ne.
+  Er ist das Heil und se -- lig Licht für __ _ die Hei - - den, "zu er" -- leuch -- ten, die dich ken - - nen nicht, und zu wei - den. es ist deins Volks I sra -- el der Preis, Ehr, Freud und Won - ne.
 }
 
 bassLyrics = \lyricmode {
-  Er ist das Heil und - se -- lig Licht für __ _ die Hei - den, "zu er" -- leuch -- ten, die dich ken - - nen nicht, und zu wei - den. es ist deins - Volks I sra -- el "der Preis," Ehr, - Freud - und Won - ne.
+  Er ist das Heil und se -- lig Licht für __ _ die Hei den, "zu er" -- leuch -- ten, die dich ken - - nen nicht, und zu wei - den. es ist deins Volks I sra -- el der Preis, Ehr, Freud und Won - ne.
 }

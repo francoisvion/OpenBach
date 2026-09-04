@@ -72,13 +72,28 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  So sei nun, See -- le, dei - ne, und trau -- e dem al -- lei -- ne, der dich er -- schaf -- fen hat. Es ge -- he, wie es ge - he, dein Va -- ter in der Hö - he, der weiß zu al -- len Sa -- chen Rat.
+  So sei nun, See -- le, dei - ne,
+  und trau -- e dem al -- lei -- ne,
+  der dich er -- schaf -- fen hat.
+  Es ge -- he, wie es ge - he,
+  dein Va -- ter in der Hö - he,
+  der weiß zu al -- len Sa -- chen Rat.
 }
 
 tenorLyrics = \lyricmode {
-  So sei nun, See -- le, dei - ne, und trau -- e dem al -- lei - ne, der dich er -- schaf -- fen hat. Es ge -- he, wie es ge - he, dein Va -- ter in der Hö - he, der weiß zu al -- len Sa -- chen Rat.
+  So sei nun, See -- le, dei - ne, 
+  Und trau -- e dem al -- lei - ne,
+  der dich er -- schaf -- fen hat.
+  Es ge -- he, wie es ge - he,
+  dein Va -- ter in der Hö - he,
+  der weiß zu al -- len Sa -- chen Rat.
 }
 
 bassLyrics = \lyricmode {
-  So sei nun, See -- le, dei - ne, und trau -- e dem al -- lei -- ne, der dich er -- schaf -- fen hat. Es ge -- he, wie es ge - he, dein Va -- ter in der Hö - he, der weiß zu al -- len Sa -- chen Rat.
+  So sei nun, See -- le, dei - ne,
+  und trau -- e dem al -- lei -- ne,
+  der dich er -- schaf -- fen hat.
+  Es ge -- he, wie es ge - he, 
+  dein Va -- ter in der Hö - he,
+  der weiß zu al -- len Sa -- chen Rat.
 }

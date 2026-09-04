@@ -19,7 +19,7 @@ altoMusic = {
   \partial 4  e'4
   e'8 [f'] g'4 a' g'
   g'2 g'4\fermata g'~
-  g'8 [fis'] g'4 g' fis'
+  g'8 fis' g'4 g' fis'
   g'2 g'4\fermata d'
   e' e' a' a'
   gis'2\fermata r4
@@ -76,13 +76,28 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  In al -- len mei -- nen Ta -- ten lass ich den Höch -- sten ra -- ten, der Al -- les kann und hat; er muss zu al -- len Ding - en, soll's an -- ders wohl ge -- lin - gen, selbst ge -- ben Rat und Tat.
+  In al -- len mei -- nen Ta -- ten
+  lass ich den Höch -- sten ra -- ten,
+  der Al -- les kann und hat;
+  er muss zu al -- len Ding - en,
+  soll's an -- ders wohl ge -- lin - gen,
+  selbst ge -- ben Rat und Tat.
 }
 
 tenorLyrics = \lyricmode {
-  In al -- len mei -- nen Ta -- ten lass ich den Höch -- sten ra -- ten, der Al -- les kann und hat; er muss zu al -- len Ding - en, soll's an -- ders wohl ge -- lin - gen, selbst ge -- ben Rat und Tat.
+  In al -- len mei -- nen Ta -- ten
+  lass ich den Höch -- sten ra -- ten,
+  der Al -- les kann und hat;
+  er muss zu al -- len Ding - en,
+  soll's an -- ders wohl ge -- lin - gen,
+  selbst ge -- ben Rat und Tat.
 }
 
 bassLyrics = \lyricmode {
-  In al -- len mei -- nen Ta - ten lass ich den Höch -- sten ra -- ten, der Al -- les kann und hat; er muss zu al -- len Ding - en, soll's an -- ders wohl ge -- lin - gen, selbst ge -- ben Rat und Tat.
+  In al -- len mei -- nen Ta - ten
+  lass ich den Höch -- sten ra -- ten,
+  der Al -- les kann und hat;
+  er muss zu al -- len Ding - en,
+  soll's an -- ders wohl ge -- lin - gen,
+  selbst ge -- ben Rat und Tat.
 }

@@ -62,7 +62,7 @@ bassMusic = {
   aes,4 bes, ees\fermata ees
   f8 [g] aes4 g f8 [ees]
   d [c] bes,4 ees\fermata bes8 [aes]
-  g4 f2 ees4
+  g4 f4 f ees
   d c g\fermata c'8 [bes]
   aes [g] f [ees] d4 ees8 [f]
   g4 g, aes,\fermata aes8 [g]
@@ -81,13 +81,31 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-      Ist Gott mein Schutz und treu -- er Hirt, kein Un -- glück mich be -- rüh -- ren wird: weicht, al -- le mei -- ne Fein - de die ihr mir stif -- tet Angst und Pein, es wird zu eu -- rem Scha -- den sein; ich ha -- be Gott zum Freun - de, ich ha -- be Gott zum Freun - de.
+  Ist Gott mein Schutz und treu -- er Hirt,
+  kein Un -- glück mich be -- rüh -- ren wird:
+  weicht, al -- le mei -- ne Fein - de
+  die ihr mir stif -- tet Angst und Pein,
+  es wird zu eu -- rem Scha -- den sein;
+  ich ha -- be Gott zum Freun - de,
+  ich ha -- be Gott zum Freun - de.
     }
 
 tenorLyrics = \lyricmode {
-      Ist Gott mein Schutz und treu -- er Hirt, kein Un -- glück mich be -- rüh -- ren wird: weicht, al -- le mei -- ne Fein - de die ihr mir stif -- tet Angst und Pein, es wird zu eu -- rem Scha -- den sein; ich ha -- be Gott zum Freun - de, ich ha -- be Gott zum Freun - de.
+  Ist Gott mein Schutz und treu -- er Hirt,
+  kein Un -- glück mich be -- rüh -- ren wird:
+  weicht, al -- le mei -- ne Fein - de
+  die ihr mir stif -- tet Angst und Pein,
+  es wird zu eu -- rem Scha -- den sein;
+  ich ha -- be Gott zum Freun - de,
+  ich ha -- be Gott zum Freun - de.
     }
 
 bassLyrics = \lyricmode {
-      Ist Gott mein Schutz und treu -- er Hirt, kein Un -- glück mich be -- rüh -- ren wird: weicht, al -- le mei -- ne Fein - de die ihr mir stif -- tet Angst und Pein, es wird zu eu -- rem Scha -- den sein; ich ha -- be Gott zum Freun - de, ich ha -- be Gott zum Freun - de.
+  Ist Gott mein Schutz und treu -- er Hirt,
+  kein Un -- glück mich be -- rüh -- ren wird:
+  weicht, al -- le mei -- ne Fein - de
+  die ihr mir stif -- tet Angst und Pein,
+  es wird zu eu -- rem Scha -- den sein;
+  ich ha -- be Gott zum Freun - de,
+  ich ha -- be Gott zum Freun - de.
     }
