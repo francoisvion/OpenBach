@@ -108,12 +108,5 @@ tenorLyrics = \lyricmode {
 }
 
 bassLyrics = \lyricmode {
-  Je -- su, dei -- ne Pas -- si -- on
-  ist mir lau -- ter Freu - de,
-  dei -- ne Wun -- den, Kron und Hohn
-  mei -- nes Her -- zens Wei - de;
-  mei -- ne Seel auf Ro - sen geht,
-  wenn ich dran ge -- den - ke,
-  in dem Him -- mel ei -- ne Stätt
-  mir des -- we -- gen schen -- ke!
+  Je -- su, dei -- ne Pas -- si -- on ist mir lau -- ter Freu - de, dei -- ne Wun -- den, Kron und Hohn mei -- nes Her -- zens Wei - de; mei -- ne Seel auf Ro - sen geht, wenn ich dran ge -- den - ke, in dem Him -- mel ei -- ne Stätt mir des -- we -- gen schen -- ke!
 }
