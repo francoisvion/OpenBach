@@ -20,7 +20,7 @@ altoMusic = {
   ees' [d'] ees' [d'] c' [bes] c' [a]
   bes2\fermata r4 c'
   d'8 [f'] g' [a'] bes'4\fermata g'8 [f']
-  ees' [f'] g'4~ g'4. fis'8
+  ees' [f'] g'4 g'4. fis'8
   d'2.\fermata \fine
 }
 
@@ -29,11 +29,11 @@ tenorMusic = {
   f8 [a] d' [c'] c'4\fermata g
   a16 [bes] c'4 bes16 [a] g8 [d'] d'4
   d'2\fermata r4 f'
-  f'8. [ees'16] d'4~ d'8. [c'16] bes4~
-  bes bes f2
-  f\fermata r4 f
+  f'8. [ees'16] d'4~ d'8. c'16 bes4
+  bes bes f4 f
+  f2\fermata r4 f
   f' ees' f'\fermata d'
-  g c' d'~ d'8 [c']
+  g c' d'4. c'8
   b2.\fermata \fine
 }
 
@@ -51,17 +51,23 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Heut' ist, o Mensch, ein gro -- ßer Trau -- er -- tag, an wel -- chem un -- ser Hei -- land gro -- sse Plag' er -- lit -- ten hat, und todt dar -- nie -- der lag.
+  Heut' ist, o Mensch,
+  ein gro -- ßer Trau -- er -- tag,
+  an wel -- chem un -- ser Hei -- land gros -- se Plag'
+  er -- lit -- ten hat, und todt dar -- nie -- der lag.
 }
 
 altoLyrics = \lyricmode {
-  Heut' ist, o _ Mensch, ein gro -- ßer Trau -- er -- tag, an wel -- chem un -- ser Hei -- land gro -- sse Plag' er -- lit -- ten hat, und todt dar nie der lag.
-}
+      Heut' ist, o _ Mensch, ein gro -- ßer Trau -- er -- tag, an wel -- chem un -- ser Hei -- land gros -- se Plag' er -- lit -- ten hat, und todt dar -- nie -- der lag.
+    }
 
 tenorLyrics = \lyricmode {
-  Heut' ist, o Mensch, ein gro -- ßer _ Trau -- er -- tag, an wel chem un ser Hei land gro sse Plag' er -- lit -- ten hat, und todt dar -- nie -- der lag.
-}
+      Heut' ist, o Mensch, ein gro -- ßer _ Trau -- er -- tag, an wel -- chem un -- ser Hei -- land gros -- se Plag' er -- lit -- ten hat, und todt dar -- nie -- der lag.
+    }
 
 bassLyrics = \lyricmode {
-  Heut' ist, o Mensch, ein gro -- ßer Trau -- er -- tag, an wel -- chem un -- ser Hei -- land gro -- sse Plag' er -- lit -- ten hat, und todt dar -- nie -- der lag.
+  Heut' ist, o Mensch,
+  ein gro -- ßer Trau -- er -- tag,
+  an wel -- chem un -- ser Hei -- land gros -- se Plag'
+  er -- lit -- ten hat, und todt dar -- nie -- der lag.
 }
