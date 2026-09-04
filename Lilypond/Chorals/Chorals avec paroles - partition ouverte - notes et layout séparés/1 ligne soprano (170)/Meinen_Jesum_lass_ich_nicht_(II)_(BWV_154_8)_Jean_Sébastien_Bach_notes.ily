@@ -15,7 +15,7 @@ sopranoMusic = {
 }
 
 altoMusic = {
-  fis'8 [g'] a'4~ a' g'
+  fis'8 [g'] a'4 a' g'
   g'8 [e'] a' [g'] fis'2\fermata
   a'4 a' a' gis'8 [fis']
   e'4 e' fis' e'
@@ -26,7 +26,7 @@ altoMusic = {
   d' cis' a2\fermata
   fis'4 fis' fis' e'
   fis' e' e'2\fermata
-  fis'4 fis'4. e'4 d'8~
+  fis'4 fis'4~fis'8 e'4 d'8~
   d' cis'16 [b] cis'4 a2\fermata \fine
 }
 
@@ -72,13 +72,28 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-      Mei -- nen Je -- sum lass ich nicht, geh ihm e -- wig an der Sei - ten; Chri -- stus lässt mich für und für zu den Le -- bens -- bäch -- lein lei -- ten. Se -- lig, der mit mir so spricht: Mei -- nen Je -- sum lass ich nicht.
+  Mei -- nen Je -- sum lass ich nicht,
+  geh ihm e -- wig an der Sei - ten;
+  Chri -- stus lässt mich für und für
+  zu den Le -- bens -- bäch -- lein lei -- ten.
+  Se -- lig, der mit mir so spricht:
+  Mei -- nen Je -- sum lass ich nicht.
     }
 
 tenorLyrics = \lyricmode {
-  Mei -- nen Je -- sum lass ich nicht, geh ihm e -- wig an der Sei - ten; Chri -- stus lässt mich für und für zu den Le -- bens -- bäch -- lein lei - ten. Se -- lig, der mit mir so spricht: Mei -- nen Je -- sum lass ich nicht.
+  Mei -- nen Je -- sum lass ich nicht,
+  geh ihm e -- wig an der Sei - ten;
+  Chri -- stus lässt mich für und für
+  zu den Le -- bens -- bäch -- lein lei - ten.
+  Se -- lig, der mit mir so spricht:
+  Mei -- nen Je -- sum lass ich nicht.
 }
 
 bassLyrics = \lyricmode {
-  Mei -- nen Je -- sum lass ich nicht, geh ihm e -- wig an der Sei - ten; Chri -- stus lässt mich für und für zu den Le -- bens -- bäch -- lein lei - ten. Se -- lig, der mit mir so spricht: Mei -- nen Je -- sum lass ich nicht.
+  Mei -- nen Je -- sum lass ich nicht,
+  geh ihm e -- wig an der Sei - ten;
+  Chri -- stus lässt mich für und für
+  zu den Le -- bens -- bäch -- lein lei - ten.
+  Se -- lig, der mit mir so spricht:
+  Mei -- nen Je -- sum lass ich nicht.
 }
