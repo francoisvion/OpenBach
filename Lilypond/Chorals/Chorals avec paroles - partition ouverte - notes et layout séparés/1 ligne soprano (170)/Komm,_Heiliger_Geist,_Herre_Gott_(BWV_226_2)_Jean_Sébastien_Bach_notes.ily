@@ -120,7 +120,8 @@ sopranoLyrics = \lyricmode {
   und stärk des Flei -- sches Blö -- dig -- keit,
   dass wir hier rit -- ter -- lich rin - gen,
   durch Tod und Le -- ben zu dir drin - - gen,
-  Hal -- le - lu -- ja! Hal -- le -- lu -- ja!
+  Hal -- le - lu -- ja!
+  Hal -- le -- lu -- ja!
 }
 
 altoLyrics = \lyricmode {

@@ -83,8 +83,10 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Er -- stan -- den __ _ ist der heil' -- ge Christ,
-  al -- le - lu -- ja, al -- le -- lu -- ja! Der al -- ler Welt ein Trö -- ster ist, al -- le - lu -- ja, al -- le -- lu -- ja!
+  Er -- stan -- den __ _ ist der heil' -- ge
+  Christ, al -- le - lu -- ja, al -- le -- lu --
+  ja! Der al -- ler Welt ein Trö -- ster
+  ist, al -- le - lu -- ja, al -- le -- lu -- ja!
 }
 
 altoLyrics = \lyricmode {

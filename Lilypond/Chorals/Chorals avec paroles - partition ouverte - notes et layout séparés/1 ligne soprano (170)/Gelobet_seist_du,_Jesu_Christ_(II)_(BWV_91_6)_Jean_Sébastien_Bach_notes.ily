@@ -58,7 +58,8 @@ sopranoLyrics = \lyricmode {
   Das hat er al -- les uns ge -- tan,
   sein groß Lieb zu zei -- gen an.
   des freu sich al -- le Chri -- sten -- heit
-  und dank ihm des in E -- wig -- keit. __ _ _ Ky -- ri -- e leis!
+  und dank ihm des in E -- wig -- keit. __ _ _
+  Ky -- ri -- e leis!
 }
 
 altoLyrics = \lyricmode {

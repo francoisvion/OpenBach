@@ -78,10 +78,13 @@ bassMusic = \relative c {
 }
 
 sopranoLyrics = \lyricmode {
-  Chris -- te, du Bei -- stand dei -- ner Kreuz -- ge -- mein -- e,
+  Chris -- te, du Bei -- stand
+  dei -- ner Kreuz -- ge -- mein -- e,
   ei -- le, mit Hülf' und Ret -- tung uns er -- schei -- ne;
-  steu -- re den Fein -- den: ih -- re Blut -- ge -- ri -- chte
-  ma -- che zu ni - chte, ma -- che zu nich -- te.
+  steu -- re den Fein -- den:
+  ih -- re Blut -- ge -- ri -- chte
+  ma -- che zu ni - chte,
+  ma -- che zu nich -- te.
 }
 
 altoLyrics = \lyricmode {

@@ -62,7 +62,8 @@ sopranoLyrics = \lyricmode {
   Auf, auf, mein Herz,
   und du, mein gan -- zer Sinn,
   wirf Al -- les das, was Welt ist, von dir hin;
-  im Fall du willst, was gött -- lich ist, er -- lan -- gen.
+  im Fall du willst,
+  was gött -- lich ist, er -- lan -- gen.
   so lass den Leib, in dem du bist, ge -- fan -- gen.
 }
 

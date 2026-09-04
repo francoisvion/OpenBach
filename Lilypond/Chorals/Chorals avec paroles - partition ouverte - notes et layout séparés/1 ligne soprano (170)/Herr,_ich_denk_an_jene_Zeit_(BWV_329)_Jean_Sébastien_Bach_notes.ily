@@ -72,12 +72,13 @@ sopranoLyrics = \lyricmode {
   we -- gen mei -- ner Sterb -- lich -- keit
   gu -- te Nacht muss ge -- ben,
   wenn ich werd' auf dein Ge -- bot
-  durch den Tod Al -- les ü -- ber -- stre -- ben.
+  durch den Tod
+  Al -- les ü -- ber -- stre -- ben.
 }
 
 altoLyrics = \lyricmode {
-      Herr, ich denk' an je -- ne Zeit, wenn ich die -- sem kur -- zen Le - ben we -- gen mei -- ner Sterb - lich -- keit gu -- te Nacht muss ge - ben, wenn ich werd' auf dein Ge -- bot durch den _ Tod Al -- les _ ü -- ber -- stre - ben.
-    }
+  Herr, ich denk' an je -- ne Zeit, wenn ich die -- sem kur -- zen Le - ben we -- gen mei -- ner Sterb - lich -- keit gu -- te Nacht muss ge - ben, wenn ich werd' auf dein Ge -- bot durch den _ Tod Al -- les _ ü -- ber -- stre - ben.
+}
 
 tenorLyrics = \lyricmode {
   Herr, ich denk' an _ je -- ne Zeit,
@@ -89,5 +90,5 @@ tenorLyrics = \lyricmode {
 }
 
 bassLyrics = \lyricmode {
-      Herr, ich denk' an je -- ne Zeit, wenn ich die -- sem kur -- zen Le - ben we -- gen mei -- ner Sterb -- lich -- keit gu -- te Nacht muss ge - ben, wenn ich werd' auf dein Ge -- bot durch den Tod Al -- les ü -- ber -- stre - ben.
-    }
+  Herr, ich denk' an je -- ne Zeit, wenn ich die -- sem kur -- zen Le - ben we -- gen mei -- ner Sterb -- lich -- keit gu -- te Nacht muss ge - ben, wenn ich werd' auf dein Ge -- bot durch den Tod Al -- les ü -- ber -- stre - ben.
+}

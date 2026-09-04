@@ -79,7 +79,10 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Des heil' -- gen Gei -- stes rei -- che Gnad' die Her -- zen der A -- po -- stel hat er -- füllt mit sei -- ner Gü -- tig -- keit, ge -- schenkt der Spra -- chen Un -- ter -- scheid.
+  Des heil' -- gen Gei -- stes rei -- che Gnad'
+  die Her -- zen der A -- po -- stel hat
+  er -- füllt mit sei -- ner Gü -- tig -- keit,
+  ge -- schenkt der Spra -- chen Un -- ter -- scheid.
 }
 
 altoLyrics = \lyricmode {

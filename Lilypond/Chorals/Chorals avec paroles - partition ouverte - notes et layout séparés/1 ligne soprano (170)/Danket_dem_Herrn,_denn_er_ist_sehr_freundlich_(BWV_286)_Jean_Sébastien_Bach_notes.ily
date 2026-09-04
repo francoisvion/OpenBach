@@ -43,7 +43,8 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Dan -- ket dem Her -- ren, denn er ist sehr freund -- lich, und sei -- ne Güt' und Wahr -- heit blei -- bet e -- wig -- lich.
+  Dan -- ket dem Her -- ren, denn er ist sehr freund -- lich,
+  und sei -- ne Güt' und Wahr -- heit blei -- bet e -- wig -- lich.
 }
 
 altoLyrics = \lyricmode {

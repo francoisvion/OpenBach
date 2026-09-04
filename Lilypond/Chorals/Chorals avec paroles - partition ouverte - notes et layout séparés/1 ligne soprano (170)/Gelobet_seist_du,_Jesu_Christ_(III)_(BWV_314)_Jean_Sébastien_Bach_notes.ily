@@ -59,17 +59,21 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Ge -- lo -- bet seist du, Je -- su Christ, dass du Mensch ge -- bo -- ren bist, von ei -- ner Jung -- frau, das ist wahr, dess freu -- et sich der En - - gel Schar. Al -- le -- lu -- ja!
+  Ge -- lo -- bet seist du, Je -- su Christ,
+  dass du Mensch ge -- bo -- ren bist,
+  von ei -- ner Jung -- frau, das ist wahr,
+  dess freu -- et sich der En - - gel Schar.
+  Al -- le -- lu -- ja!
 }
 
 altoLyrics = \lyricmode {
-      Ge -- lo -- bet seist du, Je -- su Christ, dass du Mensch ge -- bo -- ren bist, von ei -- ner Jung -- frau, das ist wahr, dess freu -- et sich der En - - gel Schar. Al -- le -- lu - ja!
-    }
+  Ge -- lo -- bet seist du, Je -- su Christ, dass du Mensch ge -- bo -- ren bist, von ei -- ner Jung -- frau, das ist wahr, dess freu -- et sich der En - - gel Schar. Al -- le -- lu - ja!
+}
 
 tenorLyrics = \lyricmode {
-      Ge -- lo -- bet seist du, Je -- su Christ, dass du Mensch ge -- bo -- ren bist, von ei -- ner Jung -- frau, das ist wahr, dess freu -- et sich der En - - gel Schar. Al -- le -- lu - ja!
-    }
+  Ge -- lo -- bet seist du, Je -- su Christ, dass du Mensch ge -- bo -- ren bist, von ei -- ner Jung -- frau, das ist wahr, dess freu -- et sich der En - - gel Schar. Al -- le -- lu - ja!
+}
 
 bassLyrics = \lyricmode {
-      Ge -- lo -- bet seist du, Je -- su Christ, dass du Mensch ge -- bo -- ren bist, von ei -- ner Jung -- frau, das ist wahr, dess freu -- et sich der En - - gel Schar. Al -- le -- lu -- ja!
-    }
+  Ge -- lo -- bet seist du, Je -- su Christ, dass du Mensch ge -- bo -- ren bist, von ei -- ner Jung -- frau, das ist wahr, dess freu -- et sich der En - - gel Schar. Al -- le -- lu -- ja!
+}

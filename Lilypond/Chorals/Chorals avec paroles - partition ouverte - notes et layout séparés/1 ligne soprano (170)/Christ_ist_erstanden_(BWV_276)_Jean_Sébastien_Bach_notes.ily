@@ -137,17 +137,18 @@ bassMusic = {
 sopranoLyrics = \lyricmode {
   Christ ist er -- stan - den
   von der Mar -- ter al - le:
-  des soll'n wir al -- le froh __ _ sein;
-  Chris -- tus will un -- ser Trost __ _ sein.
-  Ky -- ri -- e -- leis.
-  Wär' er nicht er -- stan - den,
-  so wär' die Welt ver -- gan - gen:
-  seit dass er nun er -- stan -- den ist,
-  so lob -- ben wir den Her -- ren Christ,
-  Ky -- rie e -- leis!
-  Al -- le -- lu -- ja,
-  al -- le -- lu -- ja,
-  al -- le -- lu -- ja! dess soll'n wir al -- le froh __ _ sein;
+  des soll'n wir al -- le froh __ _
+  sein; Chris -- tus will un -- ser Trost __
+  _ sein. Ky -- ri --
+  e -- leis. Wär' er nicht er -- stan
+  - den, so wär' die Welt ver -- gan
+  - gen: seit dass er nun er -- stan --
+  den ist, so lob -- ben wir den Her -- ren
+  Christ, Ky -- rie e --
+  leis! Al -- le -- lu --
+  ja, al -- le -- lu -- ja,
+  al -- le -- lu -- ja! dess
+  soll'n wir al -- le froh __ _ sein;
   Chris -- tus will un -- ser Trost __ _ sein.
   Ky -- rie -- e -- leis!
 }
