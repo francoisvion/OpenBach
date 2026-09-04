@@ -1,3 +1,4 @@
 *.pdf
 /Documents/*.*
 Lilypond/Chorals/_scan bach-chorales.com/
+*~
