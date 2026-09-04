@@ -25,7 +25,7 @@ altoMusic = {
   d' d' c'8 [bes] a4
   g2 g\fermata
   e'8 [d'] c'4 g'2~
-  g'8 a'16 [g'] fis' [e' fis'8] b2\fermata
+  g'8 a'16 [g'] fis' [e'] fis'8 b2\fermata
   e'4 e' d' c'8 [b]
   a4 b g2\fermata \fine
 }
@@ -43,7 +43,7 @@ tenorMusic = {
   g4. fis8 d'4 d'
   d' c'8 [a] e'2\fermata
   cis'4 a a2~
-  a8 d g [f] e2\fermata \fine
+  a8 d g f e2\fermata \fine
 }
 
 bassMusic = {
@@ -72,13 +72,28 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-      Nicht nach Welt, nach Him -- mel nicht mei -- ne See -- le wünscht und seh -- net; Je -- sum wünscht sie und sein Licht, der mich hat mit Gott ver -- söh -- net, der mich frei -- et vom Ge -- richt; mei -- nen Je -- sum lass ich nicht.
+  Nicht nach Welt, nach Him -- mel nicht
+  mei -- ne See -- le wünscht und seh -- net;
+  Je -- sum wünscht sie und sein Licht,
+  der mich hat mit Gott ver -- söh -- net,
+  der mich frei -- et vom Ge -- richt;
+  mei -- nen Je -- sum lass ich nicht.
     }
 
 tenorLyrics = \lyricmode {
-      Nicht nach Welt, nach Him -- mel nicht mei -- ne See -- le wünscht und seh - net; Je -- sum wünscht sie und sein Licht, der mich hat mit Gott ver -- söh - net, der mich frei -- et vom Ge -- richt; mei -- nen Je -- sum lass ich nicht.
+  Nicht nach Welt, nach Him -- mel nicht
+  mei -- ne See -- le wünscht und seh - net;
+  Je -- sum wünscht sie und sein Licht,
+  der mich hat mit Gott ver -- söh - net,
+  der mich frei -- et vom Ge -- richt;
+  mei -- nen Je -- sum lass ich nicht.
     }
 
 bassLyrics = \lyricmode {
-  Nicht nach Welt, nach Him -- mel nicht mei -- ne See -- le wünscht und seh -- net; Je -- sum wünscht sie und sein Licht, der mich hat mit Gott ver -- söh -- net, der mich frei -- et vom Ge -- richt; mei -- nen Je -- sum lass ich nicht.
+  Nicht nach Welt, nach Him -- mel nicht
+  mei -- ne See -- le wünscht und seh -- net;
+  Je -- sum wünscht sie und sein Licht,
+  der mich hat mit Gott ver -- söh -- net,
+  der mich frei -- et vom Ge -- richt;
+  mei -- nen Je -- sum lass ich nicht.
 }
