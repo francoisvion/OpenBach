@@ -86,13 +86,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Pe -- trus, der nicht denkt zu -- rück, sei -- nen Gott ver -- nei - net, der doch auf ein ern -- sten Blick bit -- ter -- li -- chen wei - net. Je -- su, bli -- cke mich auch an, wenn ich nicht will bü _ ßen; wenn ich Bö -- ses hab ge -- tan, rüh -- re mein Ge -- wis - sen!
-}
+      Pe -- trus, der nicht denkt zu -- rück, sei -- nen Gott ver -- nei - net, der doch auf ein ern -- sten Blick bit -- ter -- li -- chen wei - net. Je -- su, bli -- cke mich auch an, wenn ich nicht will bü - ßen; wenn ich Bö -- ses hab ge -- tan, rüh -- re mein Ge -- wis - sen!
+    }
 
 tenorLyrics = \lyricmode {
-  Pe -- trus, der nicht denkt zu -- rück, sei -- nen Gott ver -- nei - net, der doch auf ein ern -- sten Blick bit -- ter -- li -- chen wei - net. Je -- su, bli -- cke mich auch an, wenn ich nicht will bü _ ßen; wenn ich Bö -- ses hab ge -- tan, rüh -- re mein Ge -- wis - sen!
-}
+      Pe -- trus, der nicht denkt zu -- rück, sei -- nen Gott ver -- nei - net, der doch auf ein ern -- sten Blick bit -- ter -- li -- chen wei - net. Je -- su, bli -- cke mich auch an, wenn ich nicht will bü - ßen; wenn ich Bö -- ses hab ge -- tan, rüh -- re mein Ge -- wis - sen!
+    }
 
 bassLyrics = \lyricmode {
-  Pe -- trus, der nicht denkt zu -- rück, sei -- nen Gott ver -- nei -- net, der doch auf ein ern -- sten Blick bit -- ter -- li -- chen wei -- net. Je -- su, bli -- cke mich auch an, wenn ich nicht will bü _ ßen; wenn ich Bö -- ses hab ge -- tan, rüh -- re mein Ge -- wis -- sen!
-}
+      Pe -- trus, der nicht denkt zu -- rück, sei -- nen Gott ver -- nei -- net, der doch auf ein ern -- sten Blick bit -- ter -- li -- chen wei -- net. Je -- su, bli -- cke mich auch an, wenn ich nicht will bü - ßen; wenn ich Bö -- ses hab ge -- tan, rüh -- re mein Ge -- wis -- sen!
+    }

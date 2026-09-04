@@ -24,7 +24,7 @@ altoMusic = {
   d'2 c'\fermata
   g'4 g' g' g'8 [f']
   e'2 e'\fermata
-  c'4 f' f' e'~
+  c'4 f' f' e'
   e' d'8 [c'] b2\fermata \fine
 }
 
@@ -37,14 +37,14 @@ tenorMusic = {
   d'8 c'4 b8 b2\fermata
   a8 [g] f4 g d8 [a]
   a4 g g2\fermata
-  c'4 c'2 b4~
-  b a2 gis4\fermata
+  c'4 c'4 c' b
+  b a4 a gis\fermata
   a8 [b] c'4 c' c'8 [bes]
   a [c'] b [a] gis2\fermata \fine
 }
 
 bassMusic = {
-  e8 [d] c4~ c8 [d] c [b,]
+  e8 [d] c4~ c8 d c [b,]
   a, [g,] f,4 e,2\fermata
   d8 [f] e [d] c [d] c [b,]
   a, [b,] c [d] e2\fermata
@@ -59,17 +59,27 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Herr, nun lass in Frie -- de le -- bens -- satt und mü -- de, dei -- nen Die -- ner fah -- ren zu den Him -- mels -- scha -- ren, se -- lig und im Stil -- len, doch nach dei -- nem Wil -- len.
+  Herr, nun lass in Frie -- de
+  le -- bens -- satt und mü -- de,
+  dei -- nen Die -- ner fah -- ren
+  zu den Him -- mels -- scha -- ren,
+  se -- lig und im Stil -- len,
+  doch nach dei -- nem Wil -- len.
 }
 
 altoLyrics = \lyricmode {
-  Herr, nun lass in Frie - de le -- bens -- satt und mü -- de, _ dei -- nen Die -- ner fah - ren zu den Him -- mels -- scha -- ren, se -- lig und im Stil -- len, doch nach dei -- nem Wil -- len.
-}
+      Herr, nun lass in Frie - de le -- bens -- satt und mü -- de, _ dei -- nen Die -- ner fah - ren zu den Him -- mels -- scha -- ren, se -- lig und im Stil -- len, doch nach dei -- nem Wil - len.
+    }
 
 tenorLyrics = \lyricmode {
-  Herr, nun lass in Frie - de le -- bens -- satt und mü -- de, dei -- nen Die -- ner fah - ren zu den Him -- mels -- scha - ren, se lig und im Stil len, doch nach dei -- nem Wil - len.
-}
+      Herr, nun lass in Frie - de le -- bens -- satt und mü -- de, dei -- nen Die -- ner fah - ren zu den Him -- mels -- scha - ren, se -- lig und im Stil - len, _ doch nach dei -- nem Wil - len.
+    }
 
 bassLyrics = \lyricmode {
-  Herr, nun lass in Frie - de le -- bens -- satt und mü - de, dei -- nen Die -- ner fah - ren zu den Him -- mels -- scha - ren, se -- lig und im Stil - len, doch nach dei -- nem Wil -- len.
+  Herr, nun lass in Frie - de
+  le -- bens -- satt und mü - de,
+  dei -- nen Die -- ner fah - ren
+  zu den Him -- mels -- scha - ren,
+  se -- lig und im Stil - len,
+  doch nach dei -- nem Wil -- len.
 }

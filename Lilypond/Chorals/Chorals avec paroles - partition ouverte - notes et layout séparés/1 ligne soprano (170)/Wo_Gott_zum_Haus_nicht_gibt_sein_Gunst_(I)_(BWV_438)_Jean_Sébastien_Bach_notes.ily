@@ -13,11 +13,11 @@ sopranoMusic = {
 altoMusic = {
   \partial 4  c'4
   f'8 [g'] a' g'4 f' e'8
-  f' [e'] d'4 e'\fermata g'~
+  f' [e'] d'4 e'\fermata g'
   g'8 [f'] g' a'4 g'16 [f'] g'4~
   g'8 f'4 e'8 c'4\fermata f'
   f' f' c'4. a'8~
-  a' [g'16 fis'] g'4. fis'8\fermata a'4
+  a' g'16 [fis'] g'4. fis'8\fermata a'4
   a'8 [g'] f' [g'] a' [g'] f'4
   f'4. e'8 c'4\fermata \fine
 }
@@ -54,13 +54,19 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Wo Gott zum Haus nicht _ gibt sein' Gunst, so ar -- beit' je - der Mann um -- sonst: wo Gott die Stadt nicht selbst be -- wacht, da ist um -- sonst der Wä -- chter Macht.
-}
+      Wo Gott zum Haus nicht _ gibt sein' Gunst, so ar -- beit' je - der Mann um -- sonst: wo Gott die Stadt nicht selbst be -- wacht, da ist um -- sonst der Wä -- chter Macht.
+    }
 
 tenorLyrics = \lyricmode {
-  Wo Gott zum Haus nicht gibt sein' Gunst, so ar -- beit' je -- der Mann um -- sonst: wo Gott die Stadt nicht selbst be -- wacht, da ist um -- sonst der Wä -- chter Macht.
+  Wo Gott zum Haus nicht gibt sein' Gunst,
+  so ar -- beit' je -- der Mann um -- sonst:
+  wo Gott die Stadt nicht selbst be -- wacht,
+  da ist um -- sonst der Wä -- chter Macht.
 }
 
 bassLyrics = \lyricmode {
-  Wo Gott zum Haus nicht gibt sein' Gunst, so ar -- beit' je -- der Mann um -- sonst: wo Gott die Stadt nicht selbst be -- wacht, da ist um -- sonst der Wä -- chter Macht.
+  Wo Gott zum Haus nicht gibt sein' Gunst,
+  so ar -- beit' je -- der Mann um -- sonst:
+  wo Gott die Stadt nicht selbst be -- wacht,
+  da ist um -- sonst der Wä -- chter Macht.
 }

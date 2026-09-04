@@ -90,13 +90,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  O Gott, du from -- mer Gott, du Brunn -- quell al -- ler Ga _ ben, Ohn' den nichts ist, was ist, von dem wir al -- les ha _ ben: ge -- sun -- den Leib gib mir, und lass in sol -- chem Leib ein' un -- ver -- letz -- te Seel' und rein Ge -- wis -- sen bleib'.
-}
+      O Gott, du from -- mer Gott, du Brunn -- quell al -- ler Ga - ben, Ohn' den nichts ist, was ist, von dem wir al -- les ha - ben: ge -- sun -- den Leib gib mir, und lass in sol -- chem Leib ein' un -- ver -- letz -- te Seel' und rein Ge -- wis -- sen bleib'.
+    }
 
 tenorLyrics = \lyricmode {
-  O Gott, du from -- mer Gott, du Brunn -- quell al -- ler Ga _ ben, Ohn' den nichts ist, was ist, von dem wir al -- les ha _ ben: ge -- sun -- den Leib gib mir, und lass in sol -- chem Leib ein' un -- ver -- letz -- te Seel' und rein Ge -- wis -- sen bleib'.
-}
+      O Gott, du from -- mer Gott, du Brunn -- quell al -- ler Ga - ben, Ohn' den nichts ist, was ist, von dem wir al -- les ha - ben: ge -- sun -- den Leib gib mir, und lass in sol -- chem Leib ein' un -- ver -- letz -- te Seel' und rein Ge -- wis -- sen bleib'.
+    }
 
 bassLyrics = \lyricmode {
-  O Gott, du from -- mer Gott, du Brunn -- quell al -- ler Ga _ ben, Ohn' den nichts ist, was ist, von dem wir al -- les ha _ ben: ge -- sun -- den Leib gib mir, und lass in sol -- chem Leib ein' un -- ver -- letz -- te Seel' und rein Ge -- wis -- sen bleib'.
-}
+      O Gott, du from -- mer Gott, du Brunn -- quell al -- ler Ga - ben, Ohn' den nichts ist, was ist, von dem wir al -- les ha - ben: ge -- sun -- den Leib gib mir, und lass in sol -- chem Leib ein' un -- ver -- letz -- te Seel' und rein Ge -- wis -- sen bleib'.
+    }

@@ -73,13 +73,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Je -- su, mei -- nes Her -- zens Freud', sü -- ßer Je _ su! Mei -- ner See -- len Se -- lig -- keit, sü -- ßer Je _ su! Des Ge -- mü -- thes Si -- cher -- heit, sü -- ßer Je _ su! Je -- su, sü -- ßer Je _ su!
-}
+      Je -- su, mei -- nes Her -- zens Freud', sü -- ßer Je - su! Mei -- ner See -- len Se -- lig -- keit, sü -- ßer Je - su! Des Ge -- mü -- thes Si -- cher -- heit, sü -- ßer Je - su! Je -- su, sü -- ßer Je - su!
+    }
 
 tenorLyrics = \lyricmode {
-  Je -- su, mei -- nes Her -- zens Freud', sü -- ßer Je _ su! Mei -- ner See -- len Se -- lig -- keit, sü -- ßer Je _ su! Des Ge -- mü -- thes Si -- cher -- heit, sü -- ßer Je _ su! Je -- su, sü -- ßer Je _ su!
-}
+      Je -- su, mei -- nes Her -- zens Freud', sü -- ßer Je - su! Mei -- ner See -- len Se -- lig -- keit, sü -- ßer Je - su! Des Ge -- mü -- thes Si -- cher -- heit, sü -- ßer Je - su! Je -- su, sü -- ßer Je - su!
+    }
 
 bassLyrics = \lyricmode {
-  Je -- su, mei -- nes Her -- zens Freud', sü -- ßer Je _ su! Mei -- ner See -- len Se -- lig -- keit, sü -- ßer Je _ su! Des Ge -- mü -- thes Si -- cher -- heit, sü -- ßer Je _ su! Je -- su, sü -- ßer Je _ su!
-}
+      Je -- su, mei -- nes Her -- zens Freud', sü -- ßer Je - su! Mei -- ner See -- len Se -- lig -- keit, sü -- ßer Je - su! Des Ge -- mü -- thes Si -- cher -- heit, sü -- ßer Je - su! Je -- su, sü -- ßer Je - su!
+    }

@@ -336,18 +336,28 @@ def build_corrected_tokens(ref_tokens, mapping, hyphen_after=None):
         # with a real word, just silently absorb it (needs no separate
         # representation of its own).
         real_new = [idx for idx in new_indices if ref_tokens[idx] not in ("-", "_", "__")]
+        placeholder_new = [idx for idx in new_indices if ref_tokens[idx] in ("-", "_", "__")]
         pending.extend(real_new)
         if pending:
             idx = pending.pop(0)
             out.append(ref_tokens[idx])
             first_occurrence_idx.append(idx)
             last_real_idx = idx
+        elif placeholder_new:
+            # this target event lines up exactly with a placeholder ALREADY
+            # written in the reference text (1:1 or a genuine ref-side
+            # melisma slot) -- keep that exact symbol verbatim, never
+            # re-derive it from the hyphen_after heuristic (that heuristic
+            # is only for slots that don't exist in the reference at all).
+            out.append(ref_tokens[placeholder_new[0]])
+            first_occurrence_idx.append(None)
         else:
-            # this whole target event is a passing tone with no new
-            # syllable due -- extend whatever word was last assigned.
-            # "-"/"--" is ONLY for splitting one word across syllables
-            # still to come; once that word is complete (no hyphen-join
-            # queued after it), any further extension must use "_"/"__".
+            # this whole target event is a passing tone with NO reference
+            # counterpart at all (a genuinely extra target note) -- extend
+            # whatever word was last assigned. "-"/"--" is ONLY for
+            # splitting one word across syllables still to come; once that
+            # word is complete (no hyphen-join queued after it), any
+            # further extension must use "_"/"__".
             more_syllables_coming = last_real_idx is not None and hyphen_after[last_real_idx]
             out.append("-" if more_syllables_coming else "_")
             first_occurrence_idx.append(None)
