@@ -32,6 +32,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from conform_voice import (
     extract_var, tokenize_events, collapse_ties, collapse_brackets,
     lyric_tokens_with_hyphens, align_period, build_corrected_tokens,
+    verbatim_with_hyphens,
     DeficitError, period_boundaries, split_by_boundaries, BoundaryError,
 )
 
@@ -351,7 +352,7 @@ def process_file(path, report):
                 # OTHER period in this voice still gets written correctly.
                 report.append((path.name, voice, f"UNRESOLVED period {pi} (kept ref words verbatim, needs manual check): {e}"))
                 n_unresolved_periods += 1
-                new_tokens = list(rp_tokens)
+                new_tokens = verbatim_with_hyphens(rp_tokens, rp_hyphens)
                 resolved = False
             if resolved and n_real != len(rp_tokens):
                 n_extra_periods += 1
