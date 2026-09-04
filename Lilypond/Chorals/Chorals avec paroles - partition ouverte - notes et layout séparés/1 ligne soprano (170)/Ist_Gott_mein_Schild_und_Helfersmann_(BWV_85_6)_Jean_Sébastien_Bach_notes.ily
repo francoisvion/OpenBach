@@ -88,7 +88,7 @@ altoLyrics = \lyricmode {
   es wird zu eu -- rem Scha -- den sein;
   ich ha -- be Gott zum Freun - de,
   ich ha -- be Gott zum Freun - de.
-    }
+}
 
 tenorLyrics = \lyricmode {
   Ist Gott mein Schutz und treu -- er Hirt,
@@ -98,7 +98,7 @@ tenorLyrics = \lyricmode {
   es wird zu eu -- rem Scha -- den sein;
   ich ha -- be Gott zum Freun - de,
   ich ha -- be Gott zum Freun - de.
-    }
+}
 
 bassLyrics = \lyricmode {
   Ist Gott mein Schutz und treu -- er Hirt,
@@ -108,4 +108,4 @@ bassLyrics = \lyricmode {
   es wird zu eu -- rem Scha -- den sein;
   ich ha -- be Gott zum Freun - de,
   ich ha -- be Gott zum Freun - de.
-    }
+}
