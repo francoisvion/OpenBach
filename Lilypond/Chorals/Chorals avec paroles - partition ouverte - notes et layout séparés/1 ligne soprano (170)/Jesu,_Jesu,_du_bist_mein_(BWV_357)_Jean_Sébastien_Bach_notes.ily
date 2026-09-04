@@ -21,7 +21,7 @@ altoMusic = {
   ees'4 g' f' g'
   g' g' g'2\fermata
   g'4 g' f'8 [g'] aes'4~
-  aes'8 [d'] g' [f'] ees'4 ees'\fermata
+  aes'8 d' g' [f'] ees'4 ees'\fermata
   ees'8 [f'] g'4 c'8 [d'] ees'4
   f' ees' d'2\fermata
   f'4. ees'8 ees' [f'] g' [f']
@@ -59,17 +59,17 @@ bassMusic = {
   c4 ees d c
   b, c g,2\fermata
   c4 c'8 [bes] aes4. g8
-  f4 g c2\fermata
+  f4 g c4 c\fermata
   c'4 bes aes g8 [f]
   ees [d] ees4 bes,2\fermata
   d8 [bes,] ees4 aes, g,8 [aes,]
-  bes, [aes,] bes,4 ees,2\fermata
+  bes, [aes,] bes,4 ees,4 ees,\fermata
   ees8 [d] ees [c] d [aes] g [f]
-  ees [c] f, [f] g [g,] g [\fermata f]
+  ees [c] f, [f] g [g,] g [f]\fermata
   ees [d] c [b,] c [g] c' [bes]
   aes4 g8 [f] g4 g,\fermata
   ees c f g
-  aes2 g\fermata
+  aes4 aes g2\fermata
   ees8 [d] ees [c] f [g] aes [f]
   g4 g, c2\fermata \fine
 }
@@ -86,13 +86,27 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Je -- su, Je -- su, du bist mein, weil ich muss auf Er -- den Wal -- len; lass mich ganz dein ei -- gen sein, lass mein Le -- ben dir ge -- fal -- len Dir will ich mich ganz er -- ge -- ben, und im To -- de an dir kle -- ben, dir ver -- trau -- e ich al -- lein, Je -- su, Je -- su, du bist mein.
+  Je -- su, Je -- su, du bist mein,
+  weil ich muss auf Er -- den Wal -- len;
+  lass mich ganz dein ei -- gen sein, 
+  lass mein Le -- ben dir ge -- fal -- len
+  Dir will ich mich ganz er -- ge -- ben,
+  und im To -- de an dir kle -- ben,
+  dir ver -- trau -- e ich al -- lein,
+  Je -- su, Je -- su, du bist mein.
 }
 
 tenorLyrics = \lyricmode {
-  Je -- su, Je -- su, du bist mein, _ weil ich muss auf Er -- den Wal -- len; lass mich ganz dein ei -- gen sein, lass mein Le -- ben _ dir ge -- fal -- len Dir will ich mich ganz er -- ge -- ben, und im To -- de an dir kle -- ben, dir ver -- trau -- e ich al -- lein, Je -- su, Je -- su, du bist mein.
-}
+      Je -- su, Je -- su, du bist mein, _ weil ich muss auf Er -- den Wal -- len; lass mich ganz dein ei -- gen sein, lass mein Le -- ben _ dir ge -- fal -- len Dir will ich mich ganz er -- ge -- ben, und im To -- de an dir kle -- ben, dir ver -- trau -- e ich al -- lein, Je -- su, Je -- su, du bist mein.
+    }
 
 bassLyrics = \lyricmode {
-      Je -- su, Je -- su, du bist mein, weil ich muss auf Er -- den Wal -- len; lass mich ganz dein ei -- gen sein, lass mein Le -- ben dir ge -- fal -- len Dir will ich mich ganz er -- ge -- ben, und im To -- de an dir kle -- ben, dir ver -- trau -- e ich al -- lein, Je -- su, Je -- su, du bist mein.
+  Je -- su, Je -- su, du bist mein,
+  weil ich muss auf Er -- den Wal -- len;
+  lass mich ganz dein ei -- gen sein,
+  lass mein Le -- ben dir ge -- fal -- len
+  Dir will ich mich ganz er -- ge -- ben,
+  und im To -- de an dir kle -- ben,
+  dir ver -- trau -- e ich al -- lein,
+  Je -- su, Je -- su, du bist mein.
     }
