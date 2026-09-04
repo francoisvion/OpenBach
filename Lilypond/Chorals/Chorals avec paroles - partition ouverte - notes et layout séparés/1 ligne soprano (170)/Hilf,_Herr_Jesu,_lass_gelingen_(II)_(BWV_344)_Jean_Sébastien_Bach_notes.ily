@@ -31,7 +31,7 @@ altoMusic = {
   a'2 a'8 [g']
   g'4 fis'8 [e'] fis'4\fermata
   f'2 c''4
-  bes' c''~ c''8 [bes']
+  bes' c''~ c''8 bes'
   bes'2 a'4
   f'2.\fermata
   fis'2 g'4~
@@ -62,7 +62,7 @@ tenorMusic = {
   g' f'4. ees'8
   d'2.\fermata
   d'2 d'4
-  ees'2~ ees'8 [d']
+  ees'2~ ees'8 d'
   d'2 ees'4
   d'2 d'4\fermata
   a d'8 [c'] bes4
@@ -116,13 +116,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Hilf, Herr Je - su, lass ge -- lin - gen, hilf, das neu -- e _ Jahr, geht an, lass es neu -- e Kräf -- te brin -- gen, dass _ auf's neu' ich wan -- deln kann. Neu -- es Glück und neu - es Le -- ben wollst du mir aus Gna -- de ge -- ben.
-}
+      Hilf, Herr Je - su, lass ge -- lin - gen, hilf, das neu -- e _ Jahr, geht an, lass es neu -- e Kräf -- te brin -- gen, dass _ auf's neu' ich wan -- deln kann. Neu -- es Glück und neu - es Le -- ben wollst du mir aus Gna -- de ge -- ben.
+    }
 
 tenorLyrics = \lyricmode {
-  Hilf, Herr Je - su, lass _ ge -- lin -- gen, hilf, das neu - e Jahr, geht _ an, lass es neu -- e Kräf -- te brin -- gen, dass _ auf's neu' _ ich wan - deln kann. Neu -- es Glück und neu - es Le -- ben wollst du mir aus Gna - de ge -- ben.
-}
+      Hilf, Herr Je - su, lass _ ge -- lin -- gen, hilf, das neu - e Jahr, geht _ an, lass es neu -- e Kräf -- te brin -- gen, dass _ auf's neu' _ ich wan - deln kann. Neu -- es Glück und neu - es Le -- ben wollst du mir aus Gna - de ge -- ben.
+    }
 
 bassLyrics = \lyricmode {
-  Hilf, _ Herr Je - su, lass ge -- lin -- gen, hilf, _ das neu - e Jahr, _ geht an, lass _ es neu - e Kräf - te brin -- gen, dass _ auf's neu' _ ich wan - deln kann. Neu - es Glück _ und neu - es Le -- ben wollst _ du mir _ aus Gna - de ge -- ben.
-}
+      Hilf, _ Herr Je - su, lass ge -- lin -- gen, hilf, _ das neu - e Jahr, _ geht an, lass _ es neu - e Kräf - te brin -- gen, dass _ auf's neu' _ ich wan - deln kann. Neu - es Glück _ und neu - es Le -- ben wollst _ du mir _ aus Gna - de ge -- ben.
+    }

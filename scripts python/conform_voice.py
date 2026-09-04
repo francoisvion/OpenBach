@@ -317,7 +317,6 @@ def build_corrected_tokens(ref_tokens, mapping, hyphen_after=None):
         hyphen_after = [False] * len(ref_tokens)
     out = []
     seen = set()
-    last_real_idx = None  # most recent ref index that actually got a word
     first_occurrence_idx = []  # parallel to out: ref idx if this out entry
                                  # was a first-occurrence real word, else None
     pending = []  # real-word ref indices due but not yet placed (deferred
@@ -325,6 +324,28 @@ def build_corrected_tokens(ref_tokens, mapping, hyphen_after=None):
                    # syllable due at once) -- NEVER combined into a quoted
                    # multi-word token; each gets its OWN later target event
                    # instead, shifting the rest of the period by one slot.
+    def word_still_open(idx):
+        """True if, right after ref index idx, the SAME word still has more
+        syllables due. By definition (per the corpus convention) a "-"
+        placeholder ALWAYS means "more of this word still to come", so a
+        run of several "-" in a row (e.g. "wi - - der") stays open the
+        whole way through, regardless of how many notes it spans. A "_"
+        placeholder or a plain word boundary means the word is done."""
+        if idx is None:
+            return False
+        tok = ref_tokens[idx]
+        if tok == "-":
+            return True
+        if tok in ("_", "__"):
+            return False
+        if hyphen_after[idx]:
+            return True
+        return idx + 1 < len(ref_tokens) and ref_tokens[idx + 1] == "-"
+
+    last_ref_pos = None  # most recent ref index consumed at all (real word
+                          # OR a ref-side placeholder), used to look ahead
+                          # for word_still_open regardless of which branch
+                          # last touched the output.
     for covered in mapping:
         # covered: list of ref indices this ONE target event maps to.
         # Any index already seen before (from an earlier target event)
@@ -342,24 +363,24 @@ def build_corrected_tokens(ref_tokens, mapping, hyphen_after=None):
             idx = pending.pop(0)
             out.append(ref_tokens[idx])
             first_occurrence_idx.append(idx)
-            last_real_idx = idx
+            last_ref_pos = idx
         elif placeholder_new:
             # this target event lines up exactly with a placeholder ALREADY
             # written in the reference text (1:1 or a genuine ref-side
             # melisma slot) -- keep that exact symbol verbatim, never
-            # re-derive it from the hyphen_after heuristic (that heuristic
-            # is only for slots that don't exist in the reference at all).
+            # re-derive it from the word_still_open heuristic (that
+            # heuristic is only for slots that don't exist in the
+            # reference at all).
             out.append(ref_tokens[placeholder_new[0]])
             first_occurrence_idx.append(None)
+            last_ref_pos = placeholder_new[-1]
         else:
             # this whole target event is a passing tone with NO reference
             # counterpart at all (a genuinely extra target note) -- extend
             # whatever word was last assigned. "-"/"--" is ONLY for
             # splitting one word across syllables still to come; once that
-            # word is complete (no hyphen-join queued after it), any
-            # further extension must use "_"/"__".
-            more_syllables_coming = last_real_idx is not None and hyphen_after[last_real_idx]
-            out.append("-" if more_syllables_coming else "_")
+            # word is complete, any further extension must use "_"/"__".
+            out.append("-" if word_still_open(last_ref_pos) else "_")
             first_occurrence_idx.append(None)
 
     # any words still queued when the period runs out of target events (a

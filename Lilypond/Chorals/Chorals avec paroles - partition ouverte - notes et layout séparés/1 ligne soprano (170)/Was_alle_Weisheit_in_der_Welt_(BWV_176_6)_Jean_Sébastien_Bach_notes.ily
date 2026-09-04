@@ -99,7 +99,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-      Auf dass wir al -- so all -- zu -- gleich zur Him -- mels -- pfor -- te drin - _ gen und der -- ma -- leins in dei -- nem Reich ohn al -- les En -- de sin - gen, dass du al -- lei -- ne Kö -- nig seist, hoch ü -- ber al -- le Göt - ter, Gott Va -- ter, Sohn und heil -- ger Geist, der From -- men Schutz und Ret - ter, ein We -- sen, drei Per -- so - nen.
+      Auf dass wir al -- so all -- zu -- gleich zur Him -- mels -- pfor -- te drin - - gen und der -- ma -- leins in dei -- nem Reich ohn al -- les En -- de sin - gen, dass du al -- lei -- ne Kö -- nig seist, hoch ü -- ber al -- le Göt - ter, Gott Va -- ter, Sohn und heil -- ger Geist, der From -- men Schutz und Ret - ter, ein We -- sen, drei Per -- so - nen.
     }
 
 tenorLyrics = \lyricmode {

@@ -62,9 +62,9 @@ altoLyrics = \lyricmode {
     }
 
 tenorLyrics = \lyricmode {
-      Nun freut euch, Got - tes Kin - - der all', der Herr fährt _ auf mit _ _ gro - _ ßem Schall, lob -- sin -- get ihm, lob -- sin -- get _ ihm, lob -- sin -- get ihm mit hel -- ler Stimm', _ Stimm'!
+      Nun freut euch, Got - tes Kin - - der all', der Herr fährt _ auf mit _ _ gro - - ßem Schall, lob -- sin -- get ihm, lob -- sin -- get _ ihm, lob -- sin -- get ihm mit hel -- ler Stimm', _ Stimm'!
     }
 
 bassLyrics = \lyricmode {
-      Nun _ freut euch, Got -- tes _ Kin -- der all', der _ Herr _ fährt _ auf _ mit _ gro - _ ßem Schall, lob -- sin - get ihm, _ lob - sin -- get ihm, lob -- sin -- get ihm mit hel - ler Stimm', Stimm'!
+      Nun _ freut euch, Got -- tes _ Kin -- der all', der _ Herr _ fährt _ auf _ mit _ gro - - ßem Schall, lob -- sin - get ihm, _ lob - sin -- get ihm, lob -- sin -- get ihm mit hel - ler Stimm', Stimm'!
     }

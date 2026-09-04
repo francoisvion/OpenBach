@@ -76,13 +76,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-      Kein Men -- schen -- kind hier auf der Erd ist die -- ser ed -- len Ga -- be wert, bei uns ist kein Ver -- die - nen; hier gilt gar nichts als Lieb und Gnad, die Chri -- stus uns ver -- die -- net hat mit Bü -- ßen und Ver -- süh - - _ nen.
+      Kein Men -- schen -- kind hier auf der Erd ist die -- ser ed -- len Ga -- be wert, bei uns ist kein Ver -- die - nen; hier gilt gar nichts als Lieb und Gnad, die Chri -- stus uns ver -- die -- net hat mit Bü -- ßen und Ver -- süh - - - nen.
     }
 
 tenorLyrics = \lyricmode {
-      Kein Men -- schen -- kind hier auf der Erd ist die -- ser ed -- len Ga -- be wert, bei uns ist kein Ver -- die - nen; hier gilt gar nichts als Lieb und Gnad, die Chri -- stus uns ver -- die -- net hat mit Bü -- ßen und Ver -- süh - - _ _ nen.
+      Kein Men -- schen -- kind hier auf der Erd ist die -- ser ed -- len Ga -- be wert, bei uns ist kein Ver -- die - nen; hier gilt gar nichts als Lieb und Gnad, die Chri -- stus uns ver -- die -- net hat mit Bü -- ßen und Ver -- süh - - - - nen.
     }
 
 bassLyrics = \lyricmode {
-      Kein Men -- schen -- kind hier auf der Erd ist die -- ser ed -- len Ga -- be wert, bei uns ist kein Ver -- die -- nen; hier gilt gar nichts als Lieb und Gnad, die Chri -- stus uns ver -- die -- net hat mit Bü -- ßen und Ver -- süh - - _ nen.
+      Kein Men -- schen -- kind hier auf der Erd ist die -- ser ed -- len Ga -- be wert, bei uns ist kein Ver -- die -- nen; hier gilt gar nichts als Lieb und Gnad, die Chri -- stus uns ver -- die -- net hat mit Bü -- ßen und Ver -- süh - - - nen.
     }
