@@ -103,9 +103,9 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  O gro -- ßer Gott von Treu, weil vor dir nie -- mand gilt als dein Sohn Je -- sus Christ, der dei -- nen Zorn ge -- stillt, so sieh doch an die Wun den sein, sein Mar -- ter, Angst und schwe -- re Pein; um sei -- net -- wil -- len scho - ne, uns nicht nach Sün -- den loh - - ne.
-}
+      O gro -- ßer Gott von Treu, weil vor dir nie -- mand gilt als dein Sohn Je -- sus Christ, der dei -- nen Zorn ge -- stillt, so sieh doch an die Wun -- den sein, sein Mar -- ter, Angst und schwe -- re Pein; um sei -- net -- wil -- len scho - ne, uns nicht nach Sün -- den loh - - ne.
+    }
 
 bassLyrics = \lyricmode {
-  O gro -- ßer Gott von Treu, weil vor dir nie -- mand gilt als dein Sohn Je -- sus Christ, der dei -- nen Zorn ge -- stillt, so sieh doch an die Wun -- den sein, sein Mar ter, Angst und schwe re Pein; um sei -- net -- wil -- len scho - ne, uns nicht nach Sün -- den loh -- ne.
-}
+      O gro -- ßer Gott von Treu, weil vor dir nie -- mand gilt als dein Sohn Je -- sus Christ, der dei -- nen Zorn ge -- stillt, so sieh doch an die Wun -- den sein, sein Mar -- ter, Angst und schwe -- re Pein; um sei -- net -- wil -- len scho - ne, uns nicht nach Sün -- den loh -- ne.
+    }

@@ -402,3 +402,19 @@ def build_corrected_tokens(ref_tokens, mapping, hyphen_after=None):
         if i + 1 < len(out) and first_occurrence_idx[i + 1] == cur_idx + 1:
             result.append("--")
     return result
+
+
+def verbatim_with_hyphens(tokens, hyphen_after):
+    """Reproduce a token list exactly as it would appear in real source
+    text, reinserting the "--" hyphen-join markers between consecutive
+    tokens per hyphen_after. Used when a period can't be reconciled and we
+    fall back to a literal copy of the reference words -- without this,
+    the fallback silently drops every "--" (lyric_tokens_with_hyphens
+    strips them out into the separate hyphen_after array in the first
+    place, so a plain list(tokens) never has them)."""
+    out = []
+    for i, tok in enumerate(tokens):
+        out.append(tok)
+        if i < len(hyphen_after) and hyphen_after[i]:
+            out.append("--")
+    return out

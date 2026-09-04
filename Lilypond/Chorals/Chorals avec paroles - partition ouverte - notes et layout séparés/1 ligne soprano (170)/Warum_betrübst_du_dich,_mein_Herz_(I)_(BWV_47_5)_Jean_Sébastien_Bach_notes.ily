@@ -71,13 +71,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Der zeit li chen Ehrn will ich gern ent behr', du wollst mir nur das Ew ge ge währn, das du er -- wor -- ben hast durch dei -- nen her -- ben, bit -- tern Tod; Das bitt ich dich, mein Herr und Gott.
-}
+      Der zeit -- li -- chen Ehrn will ich gern ent -- behr', du wollst mir nur das Ew -- ge ge -- währn, das du er -- wor -- ben hast durch dei -- nen her -- ben, bit -- tern Tod; Das bitt ich dich, mein Herr und Gott.
+    }
 
 tenorLyrics = \lyricmode {
-  Der zeit li chen Ehrn will ich gern ent behr', du wollst mir nur das Ew ge ge währn, das du er -- wor -- ben hast durch dei -- nen her -- ben, bit -- tern Tod; Das bitt ich dich, mein Herr und Gott.
-}
+      Der zeit -- li -- chen Ehrn will ich gern ent -- behr', du wollst mir nur das Ew -- ge ge -- währn, das du er -- wor -- ben hast durch dei -- nen her -- ben, bit -- tern Tod; Das bitt ich dich, mein Herr und Gott.
+    }
 
 bassLyrics = \lyricmode {
-  Der zeit li chen Ehrn will ich gern ent behr', du wollst mir nur das Ew ge ge währn, das du er -- wor -- ben hast durch dei -- nen her -- ben, bit -- tern Tod; Das bitt ich dich, mein Herr und Gott.
-}
+      Der zeit -- li -- chen Ehrn will ich gern ent -- behr', du wollst mir nur das Ew -- ge ge -- währn, das du er -- wor -- ben hast durch dei -- nen her -- ben, bit -- tern Tod; Das bitt ich dich, mein Herr und Gott.
+    }

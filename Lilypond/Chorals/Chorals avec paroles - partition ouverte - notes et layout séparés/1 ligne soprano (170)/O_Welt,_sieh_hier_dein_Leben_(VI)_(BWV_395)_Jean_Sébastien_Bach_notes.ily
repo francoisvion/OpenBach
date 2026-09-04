@@ -80,8 +80,8 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  O Welt, sieh' hier dein Le - ben am Stamm des Kreu -- zes schwe - ben, dein Heil sinkt in den Tod, der gro -- ∫e Fürst der Eh - ren lässt wil -- lig sich be -- schwe -- ren mit Schlä gen, Hohn und gro ßem Spott.
-}
+      O Welt, sieh' hier dein Le - ben am Stamm des Kreu -- zes schwe - ben, dein Heil sinkt in den Tod, der gro -- ∫e Fürst der Eh - ren lässt wil -- lig sich be -- schwe -- ren mit Schlä -- gen, Hohn und gro -- ßem Spott.
+    }
 
 tenorLyrics = \lyricmode {
   O Welt, sieh' hier dein Le - ben am Stamm des Kreu -- zes schwe - ben, dein Heil sinkt in den Tod, der gro -- ∫e Fürst der Eh - ren lässt wil -- lig sich be -- schwe - ren mit Schlä -- gen, Hohn und gro -- ßem Spott.

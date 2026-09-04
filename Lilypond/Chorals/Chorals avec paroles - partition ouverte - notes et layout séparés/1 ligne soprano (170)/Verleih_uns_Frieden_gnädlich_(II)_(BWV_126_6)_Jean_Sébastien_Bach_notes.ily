@@ -147,5 +147,5 @@ tenorLyrics = \lyricmode {
     }
 
 bassLyrics = \lyricmode {
-      Ver -- leih' uns Frie -- den gnä -- dig -- lich, Herr Gott, zu un -- sern Zei -- ten; es ist doch ja kein an -- drer nicht, der für uns könn -- te strei - ten, denn du, un -- ser Gott al -- lei -- ne. Gieb un -- sern Für -- sten und der Ob -- rig -- keit Fried' und gut Re -- gi -- ment, dass wir un -- ter ih -- nen ein ge ruh'g und stil les Le ben füh ren mö gen in al -- ler Gott -- se -- lig -- keit und Ehr - bar -- keit, A - - - - - - men.
+      Ver -- leih' uns Frie -- den gnä -- dig -- lich, Herr Gott, zu un -- sern Zei -- ten; es ist doch ja kein an -- drer nicht, der für uns könn -- te strei - ten, denn du, un -- ser Gott al -- lei -- ne. Gieb un -- sern Für -- sten und der Ob -- rig -- keit Fried' und gut Re -- gi -- ment, dass wir un -- ter ih -- nen ein ge -- ruh'g und stil -- les Le -- ben füh -- ren mö -- gen in al -- ler Gott -- se -- lig -- keit und Ehr - bar -- keit, A - - - - - - men.
     }

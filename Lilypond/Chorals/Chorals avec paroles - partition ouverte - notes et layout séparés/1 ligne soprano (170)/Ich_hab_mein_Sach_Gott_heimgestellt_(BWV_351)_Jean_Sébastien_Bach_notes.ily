@@ -21,7 +21,7 @@ altoMusic = {
   \partial 4  f'
   f' g' f' f'
   ees'8 [d'] c' [ees'] d'4\fermata g'~
-  g'8 [fis'] g' [c'] d'4\fermata d'
+  g'8 fis' g' [c'] d'4\fermata d'
   c'8 [d'] ees' [d'] d'4 e'
   d' d' d'\fermata \fine
 }
@@ -44,7 +44,7 @@ bassMusic = {
   \partial 4  g4
   g8 [f] ees4 d8 [c] bes, [g,]
   c4 cis d\fermata d8 [ees]~
-  ees d4 c8~ c [b,] c [bes,]
+  ees d4 c8~ c b, c [bes,]
   a,4 d g,\fermata
   \partial 4  f
   f8 [g] f [e] f ees4 d8
@@ -63,13 +63,21 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Ich hab' mein' Sach' Gott heim -- ge -- stellt, er mach's mit mir, wie's ihm ge -- fällt, soll ich all hier noch län -- ger leb'n, nicht wi -- der -- streb'n, sei'm Will'n thu ich mich ganz er -- geb'n
+  Ich hab' mein' Sach' Gott heim -- ge -- stellt,
+  er mach's mit mir, wie's ihm ge -- fällt,
+  soll ich all hier noch län -- ger leb'n,
+  nicht wi -- der -- streb'n,
+  sei'm Will'n thu ich mich ganz er -- geb'n
 }
 
 tenorLyrics = \lyricmode {
-  Ich hab' mein' Sach' Gott heim -- ge -- stellt, er mach's mit mir, wie's ihm ge -- fällt, soll ich all hier noch län -- ger leb'n, nicht wi -- der -- streb'n, sei'm Will'n thu ich mich ganz er -- geb'n
+  Ich hab' mein' Sach' Gott heim -- ge -- stellt,
+  er mach's mit mir, wie's ihm ge -- fällt,
+  soll ich all hier noch län -- ger leb'n,
+  nicht wi -- der -- streb'n,
+  sei'm Will'n thu ich mich ganz er -- geb'n
 }
 
 bassLyrics = \lyricmode {
-  Ich hab' mein' Sach' Gott heim -- ge -- stellt, er mach's mit mir, _ wie's ihm ge -- fällt, soll ich all hier noch _ län -- ger leb'n, nicht wi -- der -- streb'n, sei'm Will'n thu ich mich ganz er -- geb'n
-}
+      Ich hab' mein' Sach' Gott heim -- ge -- stellt, er mach's mit mir, _ wie's ihm ge -- fällt, soll ich all hier noch _ län -- ger leb'n, nicht wi -- der -- streb'n, sei'm Will'n thu ich mich ganz er -- geb'n
+    }
