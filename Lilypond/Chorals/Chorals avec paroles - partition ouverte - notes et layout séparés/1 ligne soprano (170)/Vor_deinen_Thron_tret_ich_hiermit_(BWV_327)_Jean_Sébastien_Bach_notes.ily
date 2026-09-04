@@ -83,7 +83,10 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Vor dei -- nen Thron tret' ich hier -- mit, o Gott, und dich de -- mü -- tig bitt': wend' dein ge -- nä -- dig An -- ge -- sicht von mir dem ar -- men Sün -- der, nicht.
+  Vor dei -- nen Thron tret' ich hier -- mit,
+  o Gott, und dich de -- mü -- tig bitt':
+  wend' dein ge -- nä -- dig An -- ge -- sicht
+  von mir dem ar -- men Sün -- der, nicht.
 }
 
 altoLyrics = \lyricmode {

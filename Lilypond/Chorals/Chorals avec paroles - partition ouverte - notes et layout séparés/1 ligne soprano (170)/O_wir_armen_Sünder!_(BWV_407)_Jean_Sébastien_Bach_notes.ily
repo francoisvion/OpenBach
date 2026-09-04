@@ -128,18 +128,17 @@ sopranoLyrics = \lyricmode {
   dass wir un -- ter -- wor -- fen
   sind dem ew' -- gen Tod.
   Ky -- rie e -- lei - son!
-  Chri - -  ste e -- lei - son!
-  Ky - rie e -- lei son!
+  Chri - - ste e -- lei - son! Ky - rie e -- lei son!
 }
 
 altoLyrics = \lyricmode {
-      O wir ar -- men Sün -- der! _ uns -- re Mis -- se -- that, da -- rin wir em -- pfan - gen und ge -- bo -- ren sind, hat ge -- bracht uns al -- le in sol che gro -- ße Noth, dass wir un -- ter -- wor - fen _ sind dem ew' -- gen Tod. Ky -- rie _ e - - - lei - - son! Chri - ste _ _ e -- lei - - - son! Ky rie _ e -- lei _ son!
-    }
+  O wir ar -- men Sün -- der! _ uns -- re Mis -- se -- that, da -- rin wir em -- pfan - gen und ge -- bo -- ren sind, hat ge -- bracht uns al -- le in sol che gro -- ße Noth, dass wir un -- ter -- wor - fen _ sind dem ew' -- gen Tod. Ky -- rie _ e - - - lei - - son! Chri - ste _ _ e -- lei - - - son! Ky rie _ e -- lei _ son!
+}
 
 tenorLyrics = \lyricmode {
-      O wir ar -- men Sün -- der! uns -- re Mis -- se -- that, da -- rin wir em -- pfan - gen und ge -- bo -- ren sind, hat ge -- bracht uns al - le in sol che gro -- ße Noth, dass wir un -- ter -- wor - fen sind dem ew' -- gen Tod. Ky -- rie _ e - - - lei - - son! Chri - - - - ste _ e - - - lei - son! _ _ _ Ky rie e - lei _ _ son!
-    }
+  O wir ar -- men Sün -- der! uns -- re Mis -- se -- that, da -- rin wir em -- pfan - gen und ge -- bo -- ren sind, hat ge -- bracht uns al - le in sol che gro -- ße Noth, dass wir un -- ter -- wor - fen sind dem ew' -- gen Tod. Ky -- rie _ e - - - lei - - son! Chri - - - - ste _ e - - - lei - son! _ _ _ Ky rie e - lei _ _ son!
+}
 
 bassLyrics = \lyricmode {
-      O wir ar -- men Sün - der! uns -- re Mis -- se -- that, da -- rin wir em -- pfan - - gen und ge -- bo -- ren sind, hat ge -- bracht uns al - le in sol che gro -- ße Noth, dass wir un -- ter -- wor - fen sind dem ew' -- gen Tod. Ky -- rie e - lei - - son! Chri - - ste e - lei - son! Ky - rie e -- lei _ son!
-    }
+  O wir ar -- men Sün - der! uns -- re Mis -- se -- that, da -- rin wir em -- pfan - - gen und ge -- bo -- ren sind, hat ge -- bracht uns al - le in sol che gro -- ße Noth, dass wir un -- ter -- wor - fen sind dem ew' -- gen Tod. Ky -- rie e - lei - - son! Chri - - ste e - lei - son! Ky - rie e -- lei _ son!
+}
