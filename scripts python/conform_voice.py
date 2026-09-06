@@ -3,9 +3,6 @@ import sys
 from fractions import Fraction
 from pathlib import Path
 
-sys.path.insert(0, "/Users/francoisvion/.claude/jobs/4e2a67e6/tmp/voice_lyrics")
-from svg_ground_truth import true_consumption_sequence
-
 # ---------- parsing helpers ----------
 
 def extract_var(text, name):
@@ -70,6 +67,15 @@ def tokenize_events(body):
         if tok == "]":
             in_bracket = False
             continue
+        # NOTE: tried treating a standalone "~" (e.g. from "[b']~", where
+        # the [ ] spacing pass above separates the tie from its note) as
+        # marking events[-1] tied, PLUS a rule in groups_to_events that
+        # never collapses a bracket group touched by such a tie. Together
+        # they correctly fix BWV_1089/BWV_285, but net-net still regress
+        # the verified pool 96->90 (BWV_284 tenor, BWV_283 bass newly break
+        # with the same 1-placeholder-off symptom) -- there is a further,
+        # different bug (likely the same pending-queue/placeholder-priority
+        # issue seen on BWV_363) that needs fixing first. Reverted both.
         if tok.startswith("\\"):
             if "fermata" in tok and events:
                 events[-1]["is_fermata"] = True
@@ -141,8 +147,10 @@ def collapse_ties(events):
             folded[-1]["dur"] += e["dur"]
             folded[-1]["is_tie"] = e["is_tie"]
             folded[-1]["is_fermata"] = folded[-1]["is_fermata"] or e["is_fermata"]
+            folded[-1]["tie_merged"] = True
             continue
         folded.append(dict(e))
+        folded[-1].setdefault("tie_merged", False)
     return folded
 
 
@@ -370,7 +378,12 @@ def build_corrected_tokens(ref_tokens, mapping, hyphen_after=None):
             # melisma slot) -- keep that exact symbol verbatim, never
             # re-derive it from the word_still_open heuristic (that
             # heuristic is only for slots that don't exist in the
-            # reference at all).
+            # reference at all). NOTE: swapping this to check BEFORE
+            # `pending` (so a ref-side placeholder can never be bumped by a
+            # deferred word) was tried as a fix for bug #2 (placeholder
+            # silently dropped when a deficit and a ref placeholder land on
+            # the same event) -- regressed the verified pool further
+            # (96->80). Bug #2 is still open; don't retry this exact swap.
             out.append(ref_tokens[placeholder_new[0]])
             first_occurrence_idx.append(None)
             last_ref_pos = placeholder_new[-1]

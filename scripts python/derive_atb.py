@@ -4,12 +4,23 @@ sopranoLyrics, applying the rules mined from the 39-file verified pool:
 
   Loi 0 - real word sequence identical across voices, never lost/reordered.
   Loi 1 - 1 non-tied non-rest note = 1 lyric slot (ties always collapse).
-  Loi 2 - beam brackets [ ] do NOT mechanically force fusion; it's a per-piece
-          authorial choice. For soprano (read-only reference) we must detect
-          which convention its own text uses, per period, to correctly split
-          its real words. For alto/tenor/bass (generated output) we always
-          use the safe convention: every raw note gets its own slot (never
-          silently drop a note's syllable).
+  Loi 2 - beam brackets [ ] DO mechanically force fusion into ONE lyric slot
+          per bracket group -- verified empirically by compiling real
+          LilyPond snippets and inspecting lyricsto's actual output (see
+          session notes): this is not a per-piece authorial choice, it's
+          just how lyricsto works, universally. A tie into/out of a
+          bracket group must be resolved at the GROUP level (does the
+          group's first raw note carry an incoming tie from the previous
+          group's last raw note?), never at the raw-note level first --
+          collapsing ties before grouping loses whichever note the tie
+          swallows, silently breaking the group's members (see
+          beam_events()). The old "collapse vs raw per-piece convention"
+          concept this docstring used to describe was a wrong model; kept
+          only as the _reconcile_soprano_legacy() fallback for the handful
+          of files where beam_events() alone doesn't reconcile (as of this
+          writing: BWV_1084, BWV_387, BWV_437 -- not yet confirmed whether
+          they have a genuine non-beam use of "[ ]" or a different,
+          still-undiagnosed issue).
   Loi 3 - "-" for mid-word continuation, "_"/"__" for held-completed-syllable.
   Loi 4 - identical rhythm at same instant => identical syllable (handled
           naturally by onset-based alignment).
@@ -80,24 +91,40 @@ def has_uncommitted_lyrics_edit(path, voice, current_text):
 # ---------- grouping helpers ----------
 
 def raw_events(music_body):
-    """Tie-collapsed, rest-dropped events, bracket groups NOT merged."""
+    """Tie-collapsed, rest-dropped events, bracket groups NOT merged. Kept
+    for callers that need one-slot-per-raw-note regardless of beaming (e.g.
+    inspecting note counts); NOT used for lyric-slot counting anymore --
+    see beam_events()."""
     events = collapse_ties(tokenize_events(music_body))
     return [e for e in events if not e["is_rest"]]
 
 
-def events_with_convention(music_body, convention):
-    """Tie-collapsed, rest-dropped events, with this piece's OWN bracket
-    groups collapsed to 1 slot each if `convention` is "collapse" (matching
-    whatever convention the soprano reference was found to use for THIS
-    piece -- Loi 2: it's a per-piece authorial choice, not automatic, and in
-    practice consistent across all 4 voices of the same piece), or left
-    raw (1 slot per note) if `convention` is "raw"."""
-    events = raw_events(music_body)
-    if convention == "raw":
-        return events
-    groups = group_by_bracket(events)
-    choice = ["collapse"] * len(groups)
-    return groups_to_events(groups, choice)
+def beam_events(music_body):
+    """The actual lyric-consuming events, matching real LilyPond \\lyricsto
+    behaviour (verified by compiling minimal snippets and inspecting the
+    rendered output, not guessed): every manual-beam bracket group (opener
+    note + its bracketed members) consumes exactly ONE slot, always -- Loi
+    2 is not a per-piece choice. A tie is resolved at the GROUP level: if a
+    group's first raw note carries an incoming tie from the previous
+    group's last raw note, the two groups merge into a single slot.
+    Resolving ties at the raw-note level first (the old approach) silently
+    discards the tied-away note's bracket membership and mis-groups its
+    sibling; grouping first and merging groups afterward does not."""
+    raw = tokenize_events(music_body)
+    groups = group_by_bracket(raw)
+    merged_groups = []
+    for g in groups:
+        if merged_groups and merged_groups[-1][-1]["is_tie"] and not g[0]["is_rest"]:
+            merged_groups[-1] = merged_groups[-1] + g
+        else:
+            merged_groups.append(list(g))
+    out = []
+    for g in merged_groups:
+        if g[0]["is_rest"]:
+            continue
+        ev = merge_group(g) if len(g) > 1 else dict(g[0])
+        out.append(ev)
+    return out
 
 
 def group_by_bracket(events):
@@ -125,11 +152,21 @@ def merge_group(grp):
     m = dict(grp[0])
     m["dur"] = sum((e["dur"] for e in grp), Fraction(0))
     m["is_fermata"] = any(e["is_fermata"] for e in grp)
+    # an outgoing tie is a property of this group's LAST raw note (whether
+    # the *next* group/note merges into this one), not its first.
+    m["is_tie"] = grp[-1]["is_tie"]
     return m
 
 
 def groups_to_events(groups, choice):
-    """choice[i] == 'collapse' or 'raw' for groups[i] (singletons ignored)."""
+    """choice[i] == 'collapse' or 'raw' for groups[i] (singletons ignored).
+    NOTE: tried also forcing "raw" for any group with a tie-merged member
+    (Loi 1: an already-resolved tie shouldn't get conflated with a bracket
+    sibling). Fixes BWV_1089/BWV_285 but net-net still regresses the
+    verified pool when combined with the "~"-after-"]" tie fix (see
+    conform_voice.tokenize_events) -- a further bug moves the problem to
+    other files instead of resolving it. Reverted; see that note for
+    details before retrying."""
     out = []
     for g, c in zip(groups, choice):
         if len(g) == 1 or c == "collapse":
@@ -218,32 +255,25 @@ ALLOW_TRAILING_SURPLUS = {
 }
 
 
-def reconcile_soprano(music_body, lyrics_body, allow_trailing_surplus=False):
-    """Returns (periods_events, periods_tokens, periods_hyphens, leftover)
-    where each period's token slice length exactly equals its event slice
-    length, and `leftover` is any harmless trailing surplus (real
-    \\lyricsto silently ignores unused tokens after the last note -- proven
-    empirically, but only safe when explicitly confirmed per file via
-    allow_trailing_surplus -- see ALLOW_TRAILING_SURPLUS). Raises
-    RefMismatch if the surplus/deficit falls BEFORE the last period (a real,
-    non-trailing problem), if no choice reconciles, or if there IS a
-    leftover but it wasn't explicitly allowed."""
+def _reconcile_soprano_legacy(music_body, n_tokens):
+    """Fallback for the rare piece where beam_events() (the verified-correct
+    default -- see its docstring) doesn't land on n_tokens exactly. Tries
+    the old global collapse/raw bracket hypotheses as of before the
+    beam-group tie fix; as of this writing only 3/163 files in the corpus
+    ever needed this (BWV_1084, BWV_387, BWV_437), and it's not yet
+    confirmed whether they have a genuine non-beam use of "[ ]" or a
+    different, still-undiagnosed issue -- don't extend reliance on this
+    path without checking those files by ear/score first."""
     events = raw_events(music_body)
     groups = group_by_bracket(events)
-    tokens, hyphen_after = lyric_tokens_with_hyphens(lyrics_body)
-    n_tokens = len(tokens)
-
     multi = [i for i, g in enumerate(groups) if len(g) > 1]
 
     def total_slots(choice_map):
         choice = [choice_map.get(i, "collapse") for i in range(len(groups))]
         return len(groups_to_events(groups, choice))
 
-    # 1) global all-collapse
     choice_all_collapse = {i: "collapse" for i in multi}
-    # 2) global all-raw
     choice_all_raw = {i: "raw" for i in multi}
-
     base = total_slots(choice_all_collapse)
     full = total_slots(choice_all_raw)
 
@@ -253,7 +283,6 @@ def reconcile_soprano(music_body, lyrics_body, allow_trailing_surplus=False):
     elif full == n_tokens:
         chosen = choice_all_raw
     elif base < n_tokens < full:
-        # try to switch just enough groups collapse->raw to hit an EXACT match
         choice = dict(choice_all_collapse)
         remaining = n_tokens - base
         for i in reversed(multi):
@@ -267,12 +296,6 @@ def reconcile_soprano(music_body, lyrics_body, allow_trailing_surplus=False):
             chosen = choice
 
     if chosen is None:
-        # no exact reconciliation possible with any bracket hypothesis; pick
-        # whichever of collapse/raw leaves the SMALLEST non-negative leftover
-        # (closest to using up all real text) and treat the rest as a
-        # harmless trailing surplus -- \lyricsto silently ignores unused
-        # tokens after the last note (proven empirically), as long as the
-        # shortfall truly falls at the very end (checked below).
         candidates = []
         if base <= n_tokens:
             candidates.append((n_tokens - base, choice_all_collapse))
@@ -287,7 +310,33 @@ def reconcile_soprano(music_body, lyrics_body, allow_trailing_surplus=False):
         chosen = candidates[0][1]
 
     choice = [chosen.get(i, "collapse") for i in range(len(groups))]
-    final_events = groups_to_events(groups, choice)
+    convention = "raw" if chosen is choice_all_raw else "collapse"
+    return groups_to_events(groups, choice), convention
+
+
+def reconcile_soprano(music_body, lyrics_body, allow_trailing_surplus=False):
+    """Returns (periods_events, periods_tokens, periods_hyphens, leftover,
+    convention) where each period's token slice length exactly equals its
+    event slice length, and `leftover` is any harmless trailing surplus
+    (real \\lyricsto silently ignores unused tokens after the last note --
+    proven empirically, but only safe when explicitly confirmed per file
+    via allow_trailing_surplus -- see ALLOW_TRAILING_SURPLUS). Raises
+    RefMismatch if the surplus/deficit falls BEFORE the last period (a
+    real, non-trailing problem), if no choice reconciles, or if there IS a
+    leftover but it wasn't explicitly allowed.
+
+    `convention` is "beam" in the normal case (beam_events() -- see its
+    docstring for why that's just how LilyPond works, not a per-piece
+    choice) or "collapse"/"raw" for the rare _reconcile_soprano_legacy
+    fallback; target voices must use the SAME one (see events_for_voice)."""
+    tokens, hyphen_after = lyric_tokens_with_hyphens(lyrics_body)
+    n_tokens = len(tokens)
+
+    final_events = beam_events(music_body)
+    convention = "beam"
+    if len(final_events) != n_tokens:
+        final_events, convention = _reconcile_soprano_legacy(music_body, n_tokens)
+
     periods_events = split_periods(final_events)
 
     periods_tokens, periods_hyphens = [], []
@@ -311,8 +360,19 @@ def reconcile_soprano(music_body, lyrics_body, allow_trailing_surplus=False):
             f"-- not in ALLOW_TRAILING_SURPLUS, needs explicit per-file confirmation "
             f"before assuming it's a harmless repeated word rather than real missing content"
         )
-    convention = "raw" if chosen is choice_all_raw else "collapse"
     return periods_events, periods_tokens, periods_hyphens, leftover, convention
+
+
+def events_for_voice(music_body, convention):
+    """Lyric-consuming events for a TARGET voice (alto/tenor/bass), using
+    whichever mode reconcile_soprano settled on for this piece so both
+    stay consistent -- see beam_events()/_reconcile_soprano_legacy()."""
+    if convention == "beam":
+        return beam_events(music_body)
+    events = raw_events(music_body)
+    groups = group_by_bracket(events)
+    choice = [convention if len(g) > 1 else "collapse" for g in groups]
+    return groups_to_events(groups, choice)
 
 
 # ---------- file processing ----------
@@ -380,7 +440,7 @@ def process_file(path, report):
         # "raw" for that one bracket group inserts a spurious extra "-").
         # Keep the single piece-wide convention. Do not retry this without
         # first fixing best_period_events' target criterion.
-        tgt_events = events_with_convention(music, convention)
+        tgt_events = events_for_voice(music, convention)
         tgt_periods_fermata = split_periods(tgt_events)
         if len(tgt_periods_fermata) == len(ref_periods_events):
             tgt_periods = tgt_periods_fermata
