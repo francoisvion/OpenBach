@@ -59,27 +59,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Mir hat die Welt __ _ _ trüg -- lich ge -- richt
-  mit Lü -- gen und mit fal -- schem Gdicht,
-  viel Netz und heim -- lich Stri - cke.
-  Herr, nimm mein wahr
-  in die -- ser Gfahr,
-  bhüt mich vor fal - - schen Tü -- cken!
+  Mir hat die Welt __ _ _ trüg -- lich ge -- richt mit Lü -- gen und mit fal -- schem Gdicht, viel Netz und heim -- lich Stri -- _ cke. Herr, nimm mein wahr in die -- ser Gfahr, bhüt mich vor fal -- _ _ schen Tü -- cken!
 }
 
 altoLyrics = \lyricmode {
-  Mir hat die Welt __ _ _ trüg -- lich ge -- richt mit Lü -- gen und mit fal -- schem Gdicht, viel Netz und heim -- lich Stri - cke. Herr, nimm mein wahr in die -- ser Gfahr, bhüt mich vor fal - - schen Tü -- cken!
+  Mir hat die Welt __ _ _ trüg -- lich ge -- richt mit Lü -- gen und mit fal -- schem Gdicht, viel Netz und heim -- lich Stri -- _ cke. Herr, nimm mein wahr in die -- ser Gfahr, bhüt mich vor fal -- _ _ schen Tü -- cken!
 }
 
 tenorLyrics = \lyricmode {
-  Mir hat die Welt __ _ _ trüg -- lich ge -- richt mit Lü -- gen und mit fal -- schem Gdicht, viel Netz und heim -- lich Stri - cke. Herr, nimm mein wahr in die -- ser Gfahr, bhüt mich vor fal schen Tü - cken!
+  Mir hat die Welt __ _ _ trüg -- lich ge -- richt mit Lü -- gen und mit fal -- schem Gdicht, viel Netz und heim -- lich Stri -- _ cke. Herr, nimm mein wahr in die -- ser Gfahr, bhüt mich vor fal schen Tü -- _ cken!
 }
 
 bassLyrics = \lyricmode {
-  Mir hat die Welt __ _ trüg -- lich ge -- richt
-  mit Lü -- gen und mit fal -- schem Gdicht,
-  viel Netz und heim -- lich Stri - cke.
-  Herr, nimm mein wahr
-  in die -- ser Gfahr,
-  bhüt mich vor fal - - schen Tü - cken!
+  Mir hat die Welt __ _ trüg -- lich ge -- richt mit Lü -- gen und mit fal -- schem Gdicht, viel Netz und heim -- lich Stri -- _ cke. Herr, nimm mein wahr in die -- ser Gfahr, bhüt mich vor fal -- _ _ schen Tü -- _ cken!
 }

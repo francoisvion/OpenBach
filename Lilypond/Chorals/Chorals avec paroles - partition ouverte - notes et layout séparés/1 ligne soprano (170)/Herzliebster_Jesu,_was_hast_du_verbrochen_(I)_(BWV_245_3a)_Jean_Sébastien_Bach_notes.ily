@@ -59,33 +59,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  O gro -- ße Lieb,
-  o Lieb ohn al -- le Ma - ße,
-  die dich ge -- bracht auf die -- se Mar -- ter -- stra -- ße
-  Ich leb -- te mit der Welt in Lust und Freu -- den,
-  Und du musst lei -- den.
+  O gro -- ße Lieb, o Lieb ohn al -- le Ma -- _ ße, die dich ge -- bracht auf die -- se Mar -- ter -- stra -- ße Ich leb -- te mit der Welt in Lust und Freu -- den, Und du musst lei -- den.
 }
 
 altoLyrics = \lyricmode {
-  O gro -- ße Lieb,
-  o Lieb ohn al -- le Ma - ße,
-  die dich ge -- bracht auf die -- se Mar -- ter -- stra - ße
-  Ich leb -- te mit der Welt in Lust und Freu - den,
-  Und du musst lei - den.
+  O gro -- ße Lieb, o Lieb ohn al -- le Ma -- _ ße, die dich ge -- bracht auf die -- se Mar -- ter -- stra -- _ ße Ich leb -- te mit der Welt in Lust und Freu -- _ den, Und du musst lei -- _ den.
 }
 
 tenorLyrics = \lyricmode {
-  O gro -- ße Lieb,
-  o Lieb ohn al -- le Ma - ße,
-  die dich ge -- bracht auf die -- se Mar -- ter -- stra - ße
-  Ich leb -- te mit der Welt in Lust und Freu - den,
-  Und du musst lei - den.
+  O gro -- ße Lieb, o Lieb ohn al -- le Ma -- _ ße, die dich ge -- bracht auf die -- se Mar -- ter -- stra -- _ ße Ich leb -- te mit der Welt in Lust und Freu -- _ den, Und du musst lei -- _ den.
 }
 
 bassLyrics = \lyricmode {
-  O gro -- ße Lieb,
-  o Lieb ohn al -- le Ma - ße,
-  die dich ge -- bracht auf die -- se Mar -- ter -- stra -- ße
-  Ich leb -- te mit der Welt in Lust und Freu - den,
-  Und du musst lei - den.
+  O gro -- ße Lieb, o Lieb ohn al -- le Ma -- _ ße, die dich ge -- bracht auf die -- se Mar -- ter -- stra -- ße Ich leb -- te mit der Welt in Lust und Freu -- _ den, Und du musst lei -- _ den.
 }

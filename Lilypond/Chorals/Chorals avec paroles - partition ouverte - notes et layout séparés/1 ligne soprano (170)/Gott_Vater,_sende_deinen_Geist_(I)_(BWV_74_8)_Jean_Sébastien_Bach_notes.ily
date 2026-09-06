@@ -67,37 +67,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Kein Men -- schen -- kind hier auf der Erd
-  ist die -- ser ed -- len Ga -- be wert,
-  bei uns ist kein Ver -- die -- nen;
-  hier gilt gar nichts als Lieb und Gnad,
-  die Chri -- stus uns ver -- die -- net hat
-  mit Bü -- ßen und Ver -- süh - -  nen.
+  Kein Men -- schen -- kind hier auf der Erd ist die -- ser ed -- len Ga -- be wert, bei uns ist kein Ver -- die -- nen; hier gilt gar nichts als Lieb und Gnad, die Chri -- stus uns ver -- die -- net hat mit Bü -- ßen und Ver -- süh -- _ _ nen.
 }
 
 altoLyrics = \lyricmode {
-  Kein Men -- schen -- kind hier auf der Erd
-  ist die -- ser ed -- len Ga -- be wert,
-  bei uns ist kein Ver -- die - nen;
-  hier gilt gar nichts als Lieb und Gnad,
-  die Chri -- stus uns ver -- die -- net hat
-  mit Bü -- ßen und Ver -- süh - - - nen.
+  Kein Men -- schen -- kind hier auf der Erd ist die -- ser ed -- len Ga -- be wert, bei uns ist kein Ver -- die -- _ nen; hier gilt gar nichts als Lieb und Gnad, die Chri -- stus uns ver -- die -- net hat mit Bü -- ßen und Ver -- süh -- _ _ _ nen.
 }
 
 tenorLyrics = \lyricmode {
-  Kein Men -- schen -- kind hier auf der Erd
-  ist die -- ser ed -- len Ga -- be wert,
-  bei uns ist kein Ver -- die - nen;
-  hier gilt gar nichts als Lieb und Gnad,
-  die Chri -- stus uns ver -- die -- net hat
-  mit Bü -- ßen und Ver -- süh - - - - nen.
+  Kein Men -- schen -- kind hier auf der Erd ist die -- ser ed -- len Ga -- be wert, bei uns ist kein Ver -- die -- _ nen; hier gilt gar nichts als Lieb und Gnad, die Chri -- stus uns ver -- die -- net hat mit Bü -- ßen und Ver -- süh -- _ _ _ _ nen.
 }
 
 bassLyrics = \lyricmode {
-  Kein Men -- schen -- kind hier auf der Erd
-  ist die -- ser ed -- len Ga -- be wert,
-  bei uns ist kein Ver -- die -- nen;
-  hier gilt gar nichts als Lieb und Gnad,
-  die Chri -- stus uns ver -- die -- net hat
-  mit Bü -- ßen und Ver -- süh - - - nen.
+  Kein Men -- schen -- kind hier auf der Erd ist die -- ser ed -- len Ga -- be wert, bei uns ist kein Ver -- die -- nen; hier gilt gar nichts als Lieb und Gnad, die Chri -- stus uns ver -- die -- net hat mit Bü -- ßen und Ver -- süh -- _ _ _ nen.
 }

@@ -139,29 +139,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Wir __ _ _ _ _ glau -- ben
-  all' __ _  an ei -- nen Gott,
-  Schöp -- fer Him -- mels und der Er - den,
-  der sich zum Va -- ter ge -- ben hat,
-  dass wir sei -- ne Kin -- der wer - den.
-  Er will uns all -- zeit er -- näh -- ren,
-  Seel' und Leib auch wohl be -- wah -- ren,
-  al -- lem Un -- fall will er weh - ren,
-  kein _ Leid soll uns wi -- der -- fah -- ren,
-  er sor - - - - get für uns,
-  hütt __ _ _ _ _ _ _
-  und wacht; __ _ _
-  es steht Al -- les in sei -- ner Macht.
+  Wir __ _ _ _ _ glau -- ben all' __ _ an ei -- nen Gott, Schöp -- fer Him -- mels und der Er -- _ den, der sich zum Va -- ter ge -- ben hat, dass wir sei -- ne Kin -- der wer -- _ den. Er will uns all -- zeit er -- näh -- ren, Seel' und Leib auch wohl be -- wah -- ren, al -- lem Un -- fall will er weh -- _ ren, kein _ Leid soll uns wi -- der -- fah -- ren, er sor -- _ _ _ _ get für uns, hütt __ _ _ _ _ _ _ und wacht; __ _ _ es steht Al -- les in sei -- ner Macht.
 }
 
 altoLyrics = \lyricmode {
-  Wir __ _ _ _ _ _ glau -- ben all' __ _ an ei -- nen Gott, Schöp -- fer Him -- mels und der Er - - den, der sich zum Va -- ter ge -- ben hat, dass wir sei -- ne Kin -- der wer - - den. Er will uns all -- zeit er -- näh -- ren, _ Seel' und Leib auch wohl be -- wah - ren, al -- lem Un -- fall will er weh - ren, _ kein _ Leid _ _ soll uns wi -- der -- fah -- ren, er _ sor - - - - get für uns, hütt __ _ _ _ _ _ _ und wacht; __ _ _ _ es steht _ Al -- les in sei - ner Macht.
+  Wir __ _ _ _ _ _ glau -- ben all' __ _ an ei -- nen Gott, Schöp -- fer Him -- mels und der Er -- _ _ den, der sich zum Va -- ter ge -- ben hat, dass wir sei -- ne Kin -- der wer -- _ _ den. Er will uns all -- zeit er -- näh -- ren, _ Seel' und Leib auch wohl be -- wah -- _ ren, al -- lem Un -- fall will er weh -- _ ren, _ kein _ Leid _ _ soll uns wi -- der -- fah -- ren, er _ sor -- _ _ _ _ get für uns, hütt __ _ _ _ _ _ _ und wacht; __ _ _ _ es steht _ Al -- les in sei -- _ ner Macht.
 }
 
 tenorLyrics = \lyricmode {
-  Wir __ _ _ _ _ glau -- ben all' __ _ _ an ei -- nen Gott, Schöp -- fer Him -- mels und der _ Er - - den, der sich zum Va -- ter ge -- ben hat, dass wir sei -- ne Kin -- der wer - den. Er will uns all -- zeit er -- näh - - ren, Seel' und Leib auch wohl be -- wah - ren, al -- lem Un -- fall will er weh - ren, kein _ Leid soll uns wi -- der -- fah -- ren, er _ sor - - - - get für _ uns, _ hütt __ _ _ _ _ _ _ und wacht; __ _ _ _ es steht Al - les in sei -- ner Macht. _
+  Wir __ _ _ _ _ glau -- ben all' __ _ _ an ei -- nen Gott, Schöp -- fer Him -- mels und der _ Er -- _ _ den, der sich zum Va -- ter ge -- ben hat, dass wir sei -- ne Kin -- der wer -- _ den. Er will uns all -- zeit er -- näh -- _ _ ren, Seel' und Leib auch wohl be -- wah -- _ ren, al -- lem Un -- fall will er weh -- _ ren, kein _ Leid soll uns wi -- der -- fah -- ren, er _ sor -- _ _ _ _ get für _ uns, _ hütt __ _ _ _ _ _ _ und wacht; __ _ _ _ es steht Al -- _ les in sei -- ner Macht. _
 }
 
 bassLyrics = \lyricmode {
-  Wir __ _ _ _ _ _ glau -- ben all' __ _ an ei -- nen Gott, Schöp -- fer Him -- mels und der Er - den, der sich zum Va -- ter ge -- ben hat, dass wir sei -- ne Kin -- der wer - den. Er will uns all -- zeit er -- näh - ren, Seel' und Leib auch wohl be -- wah - ren, al -- lem Un -- fall will er weh - ren, kein _ Leid soll uns wi -- der -- fah - ren, er _ sor - - - - get für _ uns, hütt __ _ _ _ _ _ _ und wacht; __ _ _ es _ steht Al -- les in sei -- ner Macht.
+  Wir __ _ _ _ _ _ glau -- ben all' __ _ an ei -- nen Gott, Schöp -- fer Him -- mels und der Er -- _ den, der sich zum Va -- ter ge -- ben hat, dass wir sei -- ne Kin -- der wer -- _ den. Er will uns all -- zeit er -- näh -- _ ren, Seel' und Leib auch wohl be -- wah -- _ ren, al -- lem Un -- fall will er weh -- _ ren, kein _ Leid soll uns wi -- der -- fah -- _ ren, er _ sor -- _ _ _ _ get für _ uns, hütt __ _ _ _ _ _ _ und wacht; __ _ _ es _ steht Al -- les in sei -- ner Macht.
 }

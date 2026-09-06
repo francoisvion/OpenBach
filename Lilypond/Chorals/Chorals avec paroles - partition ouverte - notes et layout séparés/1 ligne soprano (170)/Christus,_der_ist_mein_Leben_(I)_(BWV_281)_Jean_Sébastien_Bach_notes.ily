@@ -54,13 +54,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Chris -- tus, der ist mein Le - ben und Ster -- ben mein Ge -- winn; dem thu' ich mich er -- ge - ben, mit Freud' fahr' ich da -- hin.
+  Chris -- tus, der ist mein Le -- _ ben und Ster -- ben mein Ge -- winn; dem thu' ich mich er -- ge -- _ ben, mit Freud' fahr' ich da -- hin.
 }
 
 tenorLyrics = \lyricmode {
-  Chris -- tus, der ist mein Le - ben und Ster -- ben mein Ge -- winn; dem thu' ich mich er -- ge - ben, mit Freud' fahr' ich da -- hin.
+  Chris -- tus, der ist mein Le -- _ ben und Ster -- ben mein Ge -- winn; dem thu' ich mich er -- ge -- _ ben, mit Freud' fahr' ich da -- hin.
 }
 
 bassLyrics = \lyricmode {
-  Chris -- tus, der ist mein Le -- ben und Ster -- ben mein Ge -- winn; dem thu' ich mich er -- ge - ben, mit Freud' fahr' ich da -- hin.
+  Chris -- tus, der ist mein Le -- ben und Ster -- ben mein Ge -- winn; dem thu' ich mich er -- ge -- _ ben, mit Freud' fahr' ich da -- hin.
 }

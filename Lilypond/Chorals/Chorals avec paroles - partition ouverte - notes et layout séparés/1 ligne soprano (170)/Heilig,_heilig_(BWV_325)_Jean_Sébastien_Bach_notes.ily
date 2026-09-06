@@ -83,26 +83,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Hei -- lig, hei -- lig, 
-  hei - lig
-  bist du Herr Gott Ze -- ba -- oth!
-  Al -- le Lan - de
-  sind sei -- ner Eh -- re voll.
-  Ho -- si -- an -- na __ _ in der Hö -- he.
-  Ge -- lobt seit
-  der da kommt
-  im Na - men des Herrn.
-  Ho -- si -- an -- na in der Hö -- he!
+  Hei -- lig, hei -- lig, hei -- _ lig bist du Herr Gott Ze -- ba -- oth! Al -- le Lan -- _ de sind sei -- ner Eh -- re voll. Ho -- si -- an -- na __ _ in der Hö -- he. Ge -- lobt seit der da kommt im Na -- _ men des Herrn. Ho -- si -- an -- na in der Hö -- he!
 }
 
 altoLyrics = \lyricmode {
-  Hei -- lig, hei - lig, hei - lig bist du Herr Gott Ze -- ba -- oth! Al -- le Lan - de sind sei -- ner Eh -- re voll. Ho -- si -- an -- na __ in der Hö -- he. Ge -- lobt _ seit der _ da kommt im Na - men des Herrn. Ho -- si -- an -- na in der Hö - he!
+  Hei -- lig, hei -- _ lig, hei -- _ lig bist du Herr Gott Ze -- ba -- oth! Al -- le Lan -- _ de sind sei -- ner Eh -- re voll. Ho -- si -- an -- na __ in der Hö -- he. Ge -- lobt _ seit der _ da kommt im Na -- _ men des Herrn. Ho -- si -- an -- na in der Hö -- _ he!
 }
 
 tenorLyrics = \lyricmode {
-  Hei -- lig, hei - lig, hei - lig bist du Herr Gott Ze -- ba -- oth! Al -- le Lan - de sind sei -- ner Eh -- re voll. Ho -- si -- an -- na __ _ in der Hö -- he. Ge -- lobt _ seit der _ da kommt im Na - men _ des Herrn. Ho -- si -- an -- na in der Hö - he!
+  Hei -- lig, hei -- _ lig, hei -- _ lig bist du Herr Gott Ze -- ba -- oth! Al -- le Lan -- _ de sind sei -- ner Eh -- re voll. Ho -- si -- an -- na __ _ in der Hö -- he. Ge -- lobt _ seit der _ da kommt im Na -- _ men _ des Herrn. Ho -- si -- an -- na in der Hö -- _ he!
 }
 
 bassLyrics = \lyricmode {
-  Hei -- lig, hei -- lig, hei - lig bist du Herr Gott Ze -- ba -- oth! Al -- le Lan - de sind sei -- ner Eh -- re voll. Ho -- si -- an -- na __ _ in der Hö -- he. Ge -- lobt seit der _ da kommt im Na - men des Herrn. Ho -- si -- an -- na in der Hö - he!
+  Hei -- lig, hei -- lig, hei -- _ lig bist du Herr Gott Ze -- ba -- oth! Al -- le Lan -- _ de sind sei -- ner Eh -- re voll. Ho -- si -- an -- na __ _ in der Hö -- he. Ge -- lobt seit der _ da kommt im Na -- _ men des Herrn. Ho -- si -- an -- na in der Hö -- _ he!
 }

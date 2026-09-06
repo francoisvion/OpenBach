@@ -49,10 +49,7 @@ sopranoLyrics = \lyricmode {Lob sei Gott, dem Va -- ter, g'tan,
 }
 
 altoLyrics = \lyricmode {
-  Lob sei Gott, dem Va -- ter, g'tan,
-  Lob sei Gott, sein'm ein -- gen Sohn,
-  Lob sei Gott, dem Heil -- gen Geist,
-  Im -- mer und in E -- wig - keit!
+  Lob sei Gott, dem Va -- ter, g'tan, Lob sei Gott, sein'm ein -- gen Sohn, Lob sei Gott, dem Heil -- gen Geist, Im -- mer und in E -- wig -- _ keit!
 }
 
 tenorLyrics = \lyricmode {

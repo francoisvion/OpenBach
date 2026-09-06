@@ -76,28 +76,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  In al -- len mei -- nen Ta -- ten
-  lass ich den Höch -- sten ra -- ten,
-  der Al -- les kann und hat;
-  er muss zu al -- len Ding - en,
-  soll's an -- ders wohl ge -- lin - gen,
-  selbst ge -- ben Rat und Tat.
+  In al -- len mei -- nen Ta -- ten lass ich den Höch -- sten ra -- ten, der Al -- les kann und hat; er muss zu al -- len Ding -- _ en, soll's an -- ders wohl ge -- lin -- _ gen, selbst ge -- ben Rat und Tat.
 }
 
 tenorLyrics = \lyricmode {
-  In al -- len mei -- nen Ta -- ten
-  lass ich den Höch -- sten ra -- ten,
-  der Al -- les kann und hat;
-  er muss zu al -- len Ding - en,
-  soll's an -- ders wohl ge -- lin - gen,
-  selbst ge -- ben Rat und Tat.
+  In al -- len mei -- nen Ta -- ten lass ich den Höch -- sten ra -- ten, der Al -- les kann und hat; er muss zu al -- len Ding -- _ en, soll's an -- ders wohl ge -- lin -- _ gen, selbst ge -- ben Rat und Tat.
 }
 
 bassLyrics = \lyricmode {
-  In al -- len mei -- nen Ta - ten
-  lass ich den Höch -- sten ra -- ten,
-  der Al -- les kann und hat;
-  er muss zu al -- len Ding - en,
-  soll's an -- ders wohl ge -- lin - gen,
-  selbst ge -- ben Rat und Tat.
+  In al -- len mei -- nen Ta -- _ ten lass ich den Höch -- sten ra -- ten, der Al -- les kann und hat; er muss zu al -- len Ding -- _ en, soll's an -- ders wohl ge -- lin -- _ gen, selbst ge -- ben Rat und Tat.
 }

@@ -75,37 +75,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Du sü -- ße Lie -- be, schenk uns dei -- ne Gunst,
-  lass uns em -- pfin - den der Lie -- be Brunst,
-  dass wir uns von Her -- zen
-  ein -- an -- der lie - ben,
-  und im Frie -- de auf ei -- nem Sinn blei - - - ben.
-  Ky -- rie -- e -- lei -- son.
+  Du sü -- ße Lie -- be, schenk uns dei -- ne Gunst, lass uns em -- pfin -- _ den der Lie -- be Brunst, dass wir uns von Her -- zen ein -- an -- der lie -- _ ben, und im Frie -- de auf ei -- nem Sinn blei -- _ _ _ ben. Ky -- rie -- e -- lei -- son.
 }
 
 altoLyrics = \lyricmode {
-  Du sü -- ße Lie -- be, schenk uns dei -- ne Gunst,
-  lass uns em -- pfin - den der Lie -- be Brunst,
-  dass wir uns von Her - - zen
-  ein -- an -- der lie ben,
-  und im Frie -- de auf ei -- nem Sinn blei - - ben.
-  Ky -- rie -- e - lei - son.
+  Du sü -- ße Lie -- be, schenk uns dei -- ne Gunst, lass uns em -- pfin -- _ den der Lie -- be Brunst, dass wir uns von Her -- _ _ zen ein -- an -- der lie ben, und im Frie -- de auf ei -- nem Sinn blei -- _ _ ben. Ky -- rie -- e -- _ lei -- _ son.
 }
 
 tenorLyrics = \lyricmode {
-  Du sü -- ße Lie -- be, schenk uns dei -- ne Gunst,
-  lass uns em -- pfin - den der Lie -- be Brunst,
-  dass wir uns von Her - zen
-  ein -- an -- der lie - ben,
-  und im Frie -- de auf ei -- nem Sinn blei - - - ben.
-  Ky -- rie -- e -- lei -- son.
+  Du sü -- ße Lie -- be, schenk uns dei -- ne Gunst, lass uns em -- pfin -- _ den der Lie -- be Brunst, dass wir uns von Her -- _ zen ein -- an -- der lie -- _ ben, und im Frie -- de auf ei -- nem Sinn blei -- _ _ _ ben. Ky -- rie -- e -- lei -- son.
 }
 
 bassLyrics = \lyricmode {
-  Du sü -- ße Lie -- be, schenk uns dei -- ne Gunst,
-  lass uns em -- pfin - den der Lie -- be Brunst,
-  dass wir uns von Her -- zen
-  ein -- an -- der lie ben,
-  und im Frie -- de auf ei -- nem Sinn blei - ben.
-  Ky -- rie -- e - lei - son.
+  Du sü -- ße Lie -- be, schenk uns dei -- ne Gunst, lass uns em -- pfin -- _ den der Lie -- be Brunst, dass wir uns von Her -- zen ein -- an -- der lie ben, und im Frie -- de auf ei -- nem Sinn blei -- _ ben. Ky -- rie -- e -- _ lei -- _ son.
 }

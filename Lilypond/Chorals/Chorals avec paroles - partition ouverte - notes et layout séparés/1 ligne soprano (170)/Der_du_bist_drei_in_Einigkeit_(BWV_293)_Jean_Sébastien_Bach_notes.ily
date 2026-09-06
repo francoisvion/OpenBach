@@ -58,10 +58,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Der du bist _ drei in Ei -- nig -- keit,
-  ein wah -- rer Gott von E -- wig -- keit;
-  die Sonn' mit dem Tag von uns weicht,
-  lass uns leuch - ten dein gött -- lich Licht.
+  Der du bist _ drei in Ei -- nig -- keit, ein wah -- rer Gott von E -- wig -- keit; die Sonn' mit dem Tag von uns weicht, lass uns leuch -- _ ten dein gött -- lich Licht.
 }
 
 tenorLyrics = \lyricmode {

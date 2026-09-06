@@ -72,20 +72,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Wir sin -- gen dir in dei -- nem Heer
-  aus al -- ler Kraft, __ _ Lob, __ _ Preis und Ehr,
-  dass du, o lang __ _ ge -- wünsch - ter Gast,
-  dich nun -- mehr ein -- ge - stel - let hast.
+  Wir sin -- gen dir in dei -- nem Heer aus al -- ler Kraft, __ _ Lob, __ _ Preis und Ehr, dass du, o lang __ _ ge -- wünsch -- _ ter Gast, dich nun -- mehr ein -- ge -- _ stel -- _ let hast.
 }
 
 altoLyrics = \lyricmode {
-  Wir sin -- gen dir in dei -- nem Heer aus _ al -- ler Kraft, __ Lob, __ Preis _ und Ehr, dass du, o lang __ ge - wünsch - ter _ Gast, dich nun - mehr ein -- ge stel - let _ hast. _ _ _ _ _
+  Wir sin -- gen dir in dei -- nem Heer aus _ al -- ler Kraft, __ Lob, __ Preis _ und Ehr, dass du, o lang __ ge -- _ wünsch -- _ ter _ Gast, dich nun -- _ mehr ein -- ge stel -- _ let _ hast. _ _ _ _ _
 }
 
 tenorLyrics = \lyricmode {
-  Wir sin -- gen dir in _ dei -- nem Heer _ aus al -- ler Kraft, __ Lob, __ _ Preis und Ehr, dass _ du, o lang __ ge -- wünsch ter _ Gast, dich nun -- mehr ein - ge stel let _ hast. _ _ _ _ _ _ _ _ _ _
+  Wir sin -- gen dir in _ dei -- nem Heer _ aus al -- ler Kraft, __ Lob, __ _ Preis und Ehr, dass _ du, o lang __ ge -- wünsch ter _ Gast, dich nun -- mehr ein -- _ ge stel let _ hast. _ _ _ _ _ _ _ _ _ _
 }
 
 bassLyrics = \lyricmode {
-  Wir sin -- gen dir in dei -- nem Heer aus al - ler Kraft, __ Lob, __ Preis _ und _ Ehr, dass du, o lang __ _ ge - wünsch ter _ Gast, dich nun - mehr ein -- ge stel - let _ hast. _ _ _ _ _ _ _ _
+  Wir sin -- gen dir in dei -- nem Heer aus al -- _ ler Kraft, __ Lob, __ Preis _ und _ Ehr, dass du, o lang __ _ ge -- _ wünsch ter _ Gast, dich nun -- _ mehr ein -- ge stel -- _ let _ hast. _ _ _ _ _ _ _ _
 }

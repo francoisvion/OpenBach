@@ -59,29 +59,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Wie wun -- der -- bar -- lich ist doch die -- se Stra - fe!
-  Der gu -- te Hir -- te lei -- det für die Scha -- fe,
-  die Schuld be -- zahlt der Her -- re, der Ge -- rech -- te,
-  für sei -- ne Knech -- te.
+  Wie wun -- der -- bar -- lich ist doch die -- se Stra -- _ fe! Der gu -- te Hir -- te lei -- det für die Scha -- fe, die Schuld be -- zahlt der Her -- re, der Ge -- rech -- te, für sei -- ne Knech -- te.
 }
 
 altoLyrics = \lyricmode {
-  Wie wun -- der -- bar -- lich ist doch die -- se Stra - fe!
-  Der gu -- te Hir -- te lei -- det für die Scha - fe,
-  die Schuld be -- zahlt der Her -- re, der Ge -- rech - te,
-  für sei -- ne Knech - te.
+  Wie wun -- der -- bar -- lich ist doch die -- se Stra -- _ fe! Der gu -- te Hir -- te lei -- det für die Scha -- _ fe, die Schuld be -- zahlt der Her -- re, der Ge -- rech -- _ te, für sei -- ne Knech -- _ te.
 }
 
 tenorLyrics = \lyricmode {
-  Wie wun -- der -- bar -- lich ist doch die -- se Stra - fe!
-  Der gu -- te Hir -- te lei -- det für die Scha - fe,
-  die Schuld be -- zahlt der Her -- re, der Ge -- rech -- te,
-  für sei -- ne Knech - te.
+  Wie wun -- der -- bar -- lich ist doch die -- se Stra -- _ fe! Der gu -- te Hir -- te lei -- det für die Scha -- _ fe, die Schuld be -- zahlt der Her -- re, der Ge -- rech -- te, für sei -- ne Knech -- _ te.
 }
 
 bassLyrics = \lyricmode {
-  Wie wun -- der -- bar -- lich ist doch die -- se Stra - fe!
-  Der gu -- te Hir -- te lei -- det für die Scha -- fe,
-  die Schuld be -- zahlt der Her -- re, der Ge -- rech -- te,
-  für sei -- ne Knech -- te.
+  Wie wun -- der -- bar -- lich ist doch die -- se Stra -- _ fe! Der gu -- te Hir -- te lei -- det für die Scha -- fe, die Schuld be -- zahlt der Her -- re, der Ge -- rech -- te, für sei -- ne Knech -- te.
 }

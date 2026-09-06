@@ -135,32 +135,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Christ ist er -- stan - den
-  von der Mar -- ter al - le:
-  des soll'n wir al -- le froh __ _
-  sein; Chris -- tus will un -- ser Trost __
-  _ sein. Ky -- ri --
-  e -- leis. Wär' er nicht er -- stan
-  - den, so wär' die Welt ver -- gan
-  - gen: seit dass er nun er -- stan --
-  den ist, so lob -- ben wir den Her -- ren
-  Christ, Ky -- rie e --
-  leis! Al -- le -- lu --
-  ja, al -- le -- lu -- ja,
-  al -- le -- lu -- ja! dess
-  soll'n wir al -- le froh __ _ sein;
-  Chris -- tus will un -- ser Trost __ _ sein.
-  Ky -- rie -- e -- leis!
+  Christ ist er -- stan -- _ den von der Mar -- ter al -- _ le: des soll'n wir al -- le froh __ _ sein; Chris -- tus will un -- ser Trost __ _ sein. Ky -- ri -- e -- leis. Wär' er nicht er -- stan -- _ den, so wär' die Welt ver -- gan -- _ gen: seit dass er nun er -- stan -- den ist, so lob -- ben wir den Her -- ren Christ, Ky -- rie e -- leis! Al -- le -- lu -- ja, al -- le -- lu -- ja, al -- le -- lu -- ja! dess soll'n wir al -- le froh __ _ sein; Chris -- tus will un -- ser Trost __ _ sein. Ky -- rie -- e -- leis!
 }
 
 altoLyrics = \lyricmode {
-  Christ ist er -- stan - den von der Mar -- ter al - - le: des soll'n wir al -- le froh __ _ sein; Chris -- tus will un -- ser Trost __ _ _ sein. Ky -- ri -- e -- leis. _ _ Wär' er nicht er -- stan den, so wär' die Welt ver -- gan gen: seit dass er nun er -- stan -- den ist, so lob -- ben wir den Her -- ren Christ, Ky -- rie e - leis! Al -- le -- lu -- ja, al -- le -- lu - ja, al -- le -- lu -- ja! dess soll'n wir al -- le froh __ _ sein; Chris -- tus will un -- ser Trost __ _ _ sein. Ky -- rie -- e - leis! _ _
+  Christ ist er -- stan -- _ den von der Mar -- ter al -- _ _ le: des soll'n wir al -- le froh __ _ sein; Chris -- tus will un -- ser Trost __ _ _ sein. Ky -- ri -- e -- leis. _ _ Wär' er nicht er -- stan den, so wär' die Welt ver -- gan gen: seit dass er nun er -- stan -- den ist, so lob -- ben wir den Her -- ren Christ, Ky -- rie e -- _ leis! Al -- le -- lu -- ja, al -- le -- lu -- _ ja, al -- le -- lu -- ja! dess soll'n wir al -- le froh __ _ sein; Chris -- tus will un -- ser Trost __ _ _ sein. Ky -- rie -- e -- _ leis! _ _
 }
 
 tenorLyrics = \lyricmode {
-  Christ ist er -- stan - den von der Mar -- ter al - le: des soll'n wir al -- le froh __ _ sein; Chris -- tus will un -- ser Trost __ _ sein. Ky -- ri -- e -- leis. _ _ Wär' er nicht er -- stan - den, so wär' die _ Welt ver -- gan - gen: seit dass er nun er -- stan -- den ist, so lob -- ben wir den Her -- ren Christ, Ky -- rie _ e -- leis! _ _ Al -- le -- lu -- ja, al -- le -- lu -- ja, al -- le -- lu -- ja! dess soll'n wir _ al -- le froh __ _ _ sein; Chris -- tus will un -- ser Trost __ _ sein. Ky -- rie -- e -- leis! _ _
+  Christ ist er -- stan -- _ den von der Mar -- ter al -- _ le: des soll'n wir al -- le froh __ _ sein; Chris -- tus will un -- ser Trost __ _ sein. Ky -- ri -- e -- leis. _ _ Wär' er nicht er -- stan -- _ den, so wär' die _ Welt ver -- gan -- _ gen: seit dass er nun er -- stan -- den ist, so lob -- ben wir den Her -- ren Christ, Ky -- rie _ e -- leis! _ _ Al -- le -- lu -- ja, al -- le -- lu -- ja, al -- le -- lu -- ja! dess soll'n wir _ al -- le froh __ _ _ sein; Chris -- tus will un -- ser Trost __ _ sein. Ky -- rie -- e -- leis! _ _
 }
 
 bassLyrics = \lyricmode {
-  Christ ist er -- stan - den von der Mar -- ter al - le: des soll'n wir al -- le froh __ _ sein; Chris -- tus will un -- ser Trost __ _ sein. Ky -- ri -- e - leis. _ Wär' er nicht er -- stan - den, so wär' die Welt ver -- gan - gen: seit dass er nun er -- stan -- den ist, so lob -- ben wir den Her -- ren Christ, Ky -- rie e - leis! _ Al -- le -- lu -- ja, al -- le -- lu -- ja, al -- le -- lu -- ja! dess soll'n wir al -- le froh __ _ sein; Chris -- tus will un -- ser Trost __ _ sein. Ky -- rie -- e - leis!
+  Christ ist er -- stan -- _ den von der Mar -- ter al -- _ le: des soll'n wir al -- le froh __ _ sein; Chris -- tus will un -- ser Trost __ _ sein. Ky -- ri -- e -- _ leis. _ Wär' er nicht er -- stan -- _ den, so wär' die Welt ver -- gan -- _ gen: seit dass er nun er -- stan -- den ist, so lob -- ben wir den Her -- ren Christ, Ky -- rie e -- _ leis! _ Al -- le -- lu -- ja, al -- le -- lu -- ja, al -- le -- lu -- ja! dess soll'n wir al -- le froh __ _ sein; Chris -- tus will un -- ser Trost __ _ sein. Ky -- rie -- e -- _ leis!
 }

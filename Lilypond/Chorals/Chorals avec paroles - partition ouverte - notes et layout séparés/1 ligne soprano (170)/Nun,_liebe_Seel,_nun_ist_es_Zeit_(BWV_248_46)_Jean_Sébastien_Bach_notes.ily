@@ -62,22 +62,18 @@ bassMusic = {
   a,2.\fermata \fine
 }
 
-sopranoLyrics = \lyricmode {Dein Glanz all Fin - - ster -- nis ver -- zehrt,
-                            Die trü -- be Nacht in Licht ver -- kehrt.
-                            Leit uns auf dei -- nen We - gen,
-                            dass dein Ge -- sicht
-                            und herr -- lichs Licht
-                            Wir e -- wig schau - - en mö -- gen!
+sopranoLyrics = \lyricmode {
+  Dein Glanz all Fin -- _ _ ster -- nis ver -- zehrt, Die trü -- be Nacht in Licht ver -- kehrt. Leit uns auf dei -- nen We -- _ gen, dass dein Ge -- sicht und herr -- lichs Licht Wir e -- wig schau -- _ _ en mö -- gen!
 }
 
 altoLyrics = \lyricmode {
-  Dein Glanz all Fin - - ster -- nis ver -- zehrt, Die trü -- be Nacht in Licht ver -- kehrt. Leit uns auf dei -- nen We - gen, dass dein Ge -- sicht und herr -- lichs Licht Wir e -- wig _ schau - - en mö -- gen!
+  Dein Glanz all Fin -- _ _ ster -- nis ver -- zehrt, Die trü -- be Nacht in Licht ver -- kehrt. Leit uns auf dei -- nen We -- _ gen, dass dein Ge -- sicht und herr -- lichs Licht Wir e -- wig _ schau -- _ _ en mö -- gen!
 }
 
 tenorLyrics = \lyricmode {
-  Dein Glanz all Fin - - ster -- nis ver -- zehrt, Die trü -- be Nacht in Licht ver - kehrt. Leit uns auf dei -- nen We - gen, dass dein Ge -- sicht und herr -- lichs Licht Wir e -- wig schau - - en mö -- gen!
+  Dein Glanz all Fin -- _ _ ster -- nis ver -- zehrt, Die trü -- be Nacht in Licht ver -- _ kehrt. Leit uns auf dei -- nen We -- _ gen, dass dein Ge -- sicht und herr -- lichs Licht Wir e -- wig schau -- _ _ en mö -- gen!
 }
 
 bassLyrics = \lyricmode {
-  Dein Glanz all Fin - - ster -- nis ver -- zehrt, Die trü -- be Nacht _ in Licht ver -- kehrt. Leit uns auf dei -- nen We - gen, dass dein Ge -- sicht und herr -- lichs Licht Wir e -- wig schau - - en mö -- gen!
+  Dein Glanz all Fin -- _ _ ster -- nis ver -- zehrt, Die trü -- be Nacht _ in Licht ver -- kehrt. Leit uns auf dei -- nen We -- _ gen, dass dein Ge -- sicht und herr -- lichs Licht Wir e -- wig schau -- _ _ en mö -- gen!
 }

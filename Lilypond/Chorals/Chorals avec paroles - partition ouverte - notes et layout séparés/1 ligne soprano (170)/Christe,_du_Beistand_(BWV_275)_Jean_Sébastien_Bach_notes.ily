@@ -78,41 +78,17 @@ bassMusic = \relative c {
 }
 
 sopranoLyrics = \lyricmode {
-  Chris -- te, du Bei -- stand
-  dei -- ner Kreuz -- ge -- mein -- e,
-  ei -- le, mit Hülf' und Ret -- tung uns er -- schei -- ne;
-  steu -- re den Fein -- den:
-  ih -- re Blut -- ge -- ri -- chte
-  ma -- che zu ni - chte,
-  ma -- che zu nich -- te.
+  Chris -- te, du Bei -- stand dei -- ner Kreuz -- ge -- mein -- e, ei -- le, mit Hülf' und Ret -- tung uns er -- schei -- ne; steu -- re den Fein -- den: ih -- re Blut -- ge -- ri -- chte ma -- che zu ni -- _ chte, ma -- che zu nich -- te.
 }
 
 altoLyrics = \lyricmode {
-  Chris -- te, du Bei - stand
-  dei -- ner Kreuz -- ge -- mein - e,
-  ei -- le, mit Hülf' und Ret -- tung uns er -- schei -- ne;
-  steu -- re den Fein - den:
-  ih -- re Blut -- ge -- ri - chte
-  ma -- che zu ni chte,
-  ma -- che zu nich - te.
+  Chris -- te, du Bei -- _ stand dei -- ner Kreuz -- ge -- mein -- _ e, ei -- le, mit Hülf' und Ret -- tung uns er -- schei -- ne; steu -- re den Fein -- _ den: ih -- re Blut -- ge -- ri -- _ chte ma -- che zu ni chte, ma -- che zu nich -- _ te.
 }
 
 tenorLyrics = \lyricmode {
-  Chris -- te, du Bei -- stand
-  dei -- ner Kreuz -- ge -- mein - e,
-  ei -- le, mit Hülf' und Ret -- tung uns er -- schei - ne;
-  steu -- re den Fein -- den:
-  ih -- re Blut -- ge -- ri - chte
-  ma -- che zu ni chte,
-  ma -- che zu nich - te.
+  Chris -- te, du Bei -- stand dei -- ner Kreuz -- ge -- mein -- _ e, ei -- le, mit Hülf' und Ret -- tung uns er -- schei -- _ ne; steu -- re den Fein -- den: ih -- re Blut -- ge -- ri -- _ chte ma -- che zu ni chte, ma -- che zu nich -- _ te.
 }
 
 bassLyrics = \lyricmode {
-  Chris -- te, du Bei - stand
-  dei -- ner Kreuz -- ge -- mein - e,
-  ei -- le, mit Hülf' und Ret -- tung uns er -- schei -- ne;
-  steu -- re den Fein - den:
-  ih -- re Blut -- ge -- ri - chte
-  ma -- che zu ni - chte,
-  ma -- che zu nich -- te.
+  Chris -- te, du Bei -- _ stand dei -- ner Kreuz -- ge -- mein -- _ e, ei -- le, mit Hülf' und Ret -- tung uns er -- schei -- ne; steu -- re den Fein -- _ den: ih -- re Blut -- ge -- ri -- _ chte ma -- che zu ni -- _ chte, ma -- che zu nich -- te.
 }

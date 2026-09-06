@@ -55,32 +55,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Solls ja so sein,
-  dass Straf und Pein
-  auf Sün -- de fol -- gen müs -- sen,
-  so fahr hier fort
-  und scho -- ne dort,
-  und lass mich hier wohl bü - - - ßen.
+  Solls ja so sein, dass Straf und Pein auf Sün -- de fol -- gen müs -- sen, so fahr hier fort und scho -- ne dort, und lass mich hier wohl bü -- _ _ _ ßen.
 }
 
 altoLyrics = \lyricmode {
-  Solls ja so sein,
-  dass Straf und Pein
-  auf Sün -- de fol -- gen müs -- sen,
-  so fahr hier fort
-  und scho -- ne dort,
-  und lass mich hier wohl bü - - - - ßen.
+  Solls ja so sein, dass Straf und Pein auf Sün -- de fol -- gen müs -- sen, so fahr hier fort und scho -- ne dort, und lass mich hier wohl bü -- _ _ _ _ ßen.
 }
 
 tenorLyrics = \lyricmode {
-  Solls ja so sein, dass Straf und Pein auf Sün -- de fol -- gen müs - sen, so fahr hier fort und scho -- ne dort, und lass mich hier wohl bü - - - ßen. _ _
+  Solls ja so sein, dass Straf und Pein auf Sün -- de fol -- gen müs -- _ sen, so fahr hier fort und scho -- ne dort, und lass mich hier wohl bü -- _ _ _ ßen. _ _
 }
 
 bassLyrics = \lyricmode {
-  Solls ja so sein,
-  dass Straf und Pein
-  auf Sün -- de fol -- gen müs - sen,
-  so fahr hier fort
-  und scho -- ne dort,
-  und lass mich hier wohl bü - - - - - - - ßen.
+  Solls ja so sein, dass Straf und Pein auf Sün -- de fol -- gen müs -- _ sen, so fahr hier fort und scho -- ne dort, und lass mich hier wohl bü -- _ _ _ _ _ _ _ ßen.
 }

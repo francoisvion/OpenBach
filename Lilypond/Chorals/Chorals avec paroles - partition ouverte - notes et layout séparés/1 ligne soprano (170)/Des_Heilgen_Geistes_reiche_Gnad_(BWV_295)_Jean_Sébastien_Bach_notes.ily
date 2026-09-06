@@ -86,22 +86,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Des heil' -- gen Gei - stes rei - che Gnad'
-  die Her -- zen der _ A - po -- stel hat
-  er -- füllt mit sei - ner Gü -- tig -- keit, _
-  ge -- schenkt der Spra - chen _ Un -- ter -- scheid.
+  Des heil' -- gen Gei -- _ stes rei -- _ che Gnad' die Her -- zen der _ A -- _ po -- stel hat er -- füllt mit sei -- _ ner Gü -- tig -- keit, _ ge -- schenkt der Spra -- _ chen _ Un -- ter -- scheid.
 }
 
 tenorLyrics = \lyricmode {
-  Des heil' -- gen Gei - stes rei -- che Gnad'
-  die Her - zen der _ _ A -- po -- stel hat
-  er -- füllt mit sei - ner Gü - tig -- keit, _
-  ge -- schenkt der Spra - - chen Un -- ter -- scheid.
+  Des heil' -- gen Gei -- _ stes rei -- che Gnad' die Her -- _ zen der _ _ A -- po -- stel hat er -- füllt mit sei -- _ ner Gü -- _ tig -- keit, _ ge -- schenkt der Spra -- _ _ chen Un -- ter -- scheid.
 }
 
 bassLyrics = \lyricmode {
-  Des heil' -- gen Gei - stes rei - che Gnad'
-  die Her -- zen der _ _ A -- po -- stel hat
-  er -- füllt _ mit sei - ner Gü - tig -- keit,
-  ge -- schenkt der Spra - chen Un -- ter -- scheid.
+  Des heil' -- gen Gei -- _ stes rei -- _ che Gnad' die Her -- zen der _ _ A -- po -- stel hat er -- füllt _ mit sei -- _ ner Gü -- _ tig -- keit, ge -- schenkt der Spra -- _ chen Un -- ter -- scheid.
 }

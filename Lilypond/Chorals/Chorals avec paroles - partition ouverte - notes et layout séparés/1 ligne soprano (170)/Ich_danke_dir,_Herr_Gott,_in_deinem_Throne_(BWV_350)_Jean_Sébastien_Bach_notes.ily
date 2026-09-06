@@ -91,37 +91,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Ich dan -- ke dir, o Gott, in dei -- nem Thro - ne,
-  durch Je -- sum Chri -- tum, dei -- nen lie -- ben Soh - ne,
-  dass du mich hast in die -- ser Nacht be -- vah -- ret
-  vor Scha -- den und vor man -- cher -- lei Ge -- fah -- ren,
-  und bit -- te dich, wollst mich an die -- sem Ta -- ge
-  be -- hü -- ten auch vor Sün -- den, Schand' und Pla -- ge, Pla -- ge.
+  Ich dan -- ke dir, o Gott, in dei -- nem Thro -- _ ne, durch Je -- sum Chri -- tum, dei -- nen lie -- ben Soh -- _ ne, dass du mich hast in die -- ser Nacht be -- vah -- ret vor Scha -- den und vor man -- cher -- lei Ge -- fah -- ren, und bit -- te dich, wollst mich an die -- sem Ta -- ge be -- hü -- ten auch vor Sün -- den, Schand' und Pla -- ge, Pla -- ge.
 }
 
 altoLyrics = \lyricmode {
-  Ich dan -- ke dir, o Gott, in dei -- nem Thro - ne,
-  durch Je -- sum Chri -- tum, dei -- nen lie -- ben Soh - ne,
-  dass du mich hast in die -- ser Nacht be -- vah - ret
-  vor Scha -- den und vor man -- cher -- lei Ge -- fah -- ren,
-  und bit -- te dich, wollst mich an die -- sem Ta - ge
-  be -- hü -- ten auch vor Sün -- den, Schand' und Pla - ge.
+  Ich dan -- ke dir, o Gott, in dei -- nem Thro -- _ ne, durch Je -- sum Chri -- tum, dei -- nen lie -- ben Soh -- _ ne, dass du mich hast in die -- ser Nacht be -- vah -- _ ret vor Scha -- den und vor man -- cher -- lei Ge -- fah -- ren, und bit -- te dich, wollst mich an die -- sem Ta -- _ ge be -- hü -- ten auch vor Sün -- den, Schand' und Pla -- _ ge.
 }
 
 tenorLyrics = \lyricmode {
-  Ich dan -- ke dir, o Gott, in dei -- nem Thro - ne,
-  durch Je -- sum Chri -- tum, dei -- nen lie -- ben Soh - ne,
-  dass du mich hast in die -- ser Nacht be -- vah - ret
-  vor Scha -- den und vor man -- cher -- lei Ge -- fah -- ren,
-  und bit -- te dich, wollst mich an die -- sem Ta -- ge
-  be -- hü -- ten auch vor Sün -- den, Schand' und Pla - ge.
+  Ich dan -- ke dir, o Gott, in dei -- nem Thro -- _ ne, durch Je -- sum Chri -- tum, dei -- nen lie -- ben Soh -- _ ne, dass du mich hast in die -- ser Nacht be -- vah -- _ ret vor Scha -- den und vor man -- cher -- lei Ge -- fah -- ren, und bit -- te dich, wollst mich an die -- sem Ta -- ge be -- hü -- ten auch vor Sün -- den, Schand' und Pla -- _ ge.
 }
 
 bassLyrics = \lyricmode {
-  Ich dan -- ke dir, o Gott, in dei -- nem Thro - ne,
-  durch Je -- sum Chri -- tum, dei -- nen lie -- ben Soh -- ne,
-  dass du mich hast in die -- ser Nacht be -- vah - ret
-  vor Scha -- den und vor man -- cher -- lei Ge -- fah - ren,
-  und bit -- te dich, wollst mich an die -- sem Ta - ge
-  be -- hü -- ten auch vor Sün -- den, Schand' und Pla - ge.
+  Ich dan -- ke dir, o Gott, in dei -- nem Thro -- _ ne, durch Je -- sum Chri -- tum, dei -- nen lie -- ben Soh -- ne, dass du mich hast in die -- ser Nacht be -- vah -- _ ret vor Scha -- den und vor man -- cher -- lei Ge -- fah -- _ ren, und bit -- te dich, wollst mich an die -- sem Ta -- _ ge be -- hü -- ten auch vor Sün -- den, Schand' und Pla -- _ ge.
 }

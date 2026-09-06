@@ -75,41 +75,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Wenn mein Stünd -- lein vor -- han -- den ist
-  und ich soll fahr'n mein' Stra -- ße,
-  so g'leit du mich, Herr Je -- su Christ,
-  mit Hülf' mich nicht ver -- las -- se;
-  mein' Seel' an mei -- nem letz -- ten End'
-  be -- fehl' ich, Herr, in dei -- ne Händ',
-  du wirst sie wohl be -- wah - - ren.
+  Wenn mein Stünd -- lein vor -- han -- den ist und ich soll fahr'n mein' Stra -- ße, so g'leit du mich, Herr Je -- su Christ, mit Hülf' mich nicht ver -- las -- se; mein' Seel' an mei -- nem letz -- ten End' be -- fehl' ich, Herr, in dei -- ne Händ', du wirst sie wohl be -- wah -- _ _ ren.
 }
 
 altoLyrics = \lyricmode {
-  Wenn mein Stünd -- lein vor -- han -- den ist
-  und ich soll fahr'n mein' Stra - ße,
-  so g'leit du mich, Herr Je -- su Christ,
-  mit Hülf' mich nicht ver -- las -- se;
-  mein' Seel' an mei -- nem letz -- ten End'
-  be -- fehl' ich, Herr, in dei -- ne Händ',
-  du wirst sie wohl be -- wah - - - - ren.
+  Wenn mein Stünd -- lein vor -- han -- den ist und ich soll fahr'n mein' Stra -- _ ße, so g'leit du mich, Herr Je -- su Christ, mit Hülf' mich nicht ver -- las -- se; mein' Seel' an mei -- nem letz -- ten End' be -- fehl' ich, Herr, in dei -- ne Händ', du wirst sie wohl be -- wah -- _ _ _ _ ren.
 }
 
 tenorLyrics = \lyricmode {
-  Wenn mein Stünd -- lein vor -- han -- den ist
-  und ich soll fahr'n mein' Stra -- ße,
-  so g'leit du mich, Herr Je -- su Christ,
-  mit Hülf' mich nicht ver -- las - se;
-  mein' Seel' an mei -- nem letz -- ten End'
-  be -- fehl' ich, Herr, in dei -- ne Händ',
-  du wirst sie wohl be -- wah - - - ren.
+  Wenn mein Stünd -- lein vor -- han -- den ist und ich soll fahr'n mein' Stra -- ße, so g'leit du mich, Herr Je -- su Christ, mit Hülf' mich nicht ver -- las -- _ se; mein' Seel' an mei -- nem letz -- ten End' be -- fehl' ich, Herr, in dei -- ne Händ', du wirst sie wohl be -- wah -- _ _ _ ren.
 }
 
 bassLyrics = \lyricmode {
-  Wenn mein Stünd -- lein vor -- han -- den ist
-  und ich soll fahr'n mein' Stra - ße,
-  so g'leit du mich, Herr Je -- su Christ,
-  mit Hülf' mich nicht ver -- las - se;
-  mein' Seel' an mei -- nem letz -- ten End'
-  be -- fehl' ich, Herr, in dei -- ne Händ',
-  du wirst sie wohl be -- wah - - - ren.
+  Wenn mein Stünd -- lein vor -- han -- den ist und ich soll fahr'n mein' Stra -- _ ße, so g'leit du mich, Herr Je -- su Christ, mit Hülf' mich nicht ver -- las -- _ se; mein' Seel' an mei -- nem letz -- ten End' be -- fehl' ich, Herr, in dei -- ne Händ', du wirst sie wohl be -- wah -- _ _ _ ren.
 }

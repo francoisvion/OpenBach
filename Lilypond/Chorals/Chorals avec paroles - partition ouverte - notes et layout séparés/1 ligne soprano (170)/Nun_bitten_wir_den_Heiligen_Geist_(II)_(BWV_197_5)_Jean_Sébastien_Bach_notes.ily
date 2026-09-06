@@ -71,27 +71,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Du sü -- ße Lieb, schenk __ _ uns dei -- ne Gunst,
-  lass uns em -- pfin - den der Lie -- be Brunst,
-  dass wir uns von Her -- zen
-  ein -- an -- der lie - ben
-  und in Fried auf ei -- nem Sin -- ne blei - ben.
-  Ky -- ri -- e __ e -- leis!
+  Du sü -- ße Lieb, schenk __ _ uns dei -- ne Gunst, lass uns em -- pfin -- _ den der Lie -- be Brunst, dass wir uns von Her -- zen ein -- an -- der lie -- _ ben und in Fried auf ei -- nem Sin -- ne blei -- _ ben. Ky -- ri -- e __ e -- leis!
 }
 
 altoLyrics = \lyricmode {
-  Du sü -- ße Lieb, schenk __ _ uns dei -- ne Gunst,
-  lass uns em -- pfin - den der Lie -- be Brunst,
-  dass wir uns von Her - - zen
-  ein -- an -- der lie - ben
-  und in Fried auf ei -- nem Sin -- ne blei - ben.
-  Ky -- ri -- e __ _ e -- leis!
+  Du sü -- ße Lieb, schenk __ _ uns dei -- ne Gunst, lass uns em -- pfin -- _ den der Lie -- be Brunst, dass wir uns von Her -- _ _ zen ein -- an -- der lie -- _ ben und in Fried auf ei -- nem Sin -- ne blei -- _ ben. Ky -- ri -- e __ _ e -- leis!
 }
 
 tenorLyrics = \lyricmode {
-  Du sü -- ße Lieb, schenk __ _ uns dei -- ne _ Gunst, lass uns em -- pfin - den der Lie -- be Brunst, dass wir uns von Her - zen ein -- an -- der _ lie - ben und in _ Fried auf ei -- nem Sin -- ne blei - ben. Ky -- ri -- e __ _ _ e -- leis!
+  Du sü -- ße Lieb, schenk __ _ uns dei -- ne _ Gunst, lass uns em -- pfin -- _ den der Lie -- be Brunst, dass wir uns von Her -- _ zen ein -- an -- der _ lie -- _ ben und in _ Fried auf ei -- nem Sin -- ne blei -- _ ben. Ky -- ri -- e __ _ _ e -- leis!
 }
 
 bassLyrics = \lyricmode {
-  Du sü -- ße Lieb, schenk __ _ uns dei -- ne Gunst, lass uns em -- pfin - den der Lie -- be Brunst, dass wir uns von Her -- zen ein -- an -- der lie - ben und in Fried auf ei -- nem Sin -- ne blei - ben. Ky -- ri -- e __ _ _ e -- leis!
+  Du sü -- ße Lieb, schenk __ _ uns dei -- ne Gunst, lass uns em -- pfin -- _ den der Lie -- be Brunst, dass wir uns von Her -- zen ein -- an -- der lie -- _ ben und in Fried auf ei -- nem Sin -- ne blei -- _ ben. Ky -- ri -- e __ _ _ e -- leis!
 }

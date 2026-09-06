@@ -83,38 +83,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Ich dank' dir, lie -- ber Her - re,
-  dass du mich hast__ _ _ be -- wahrt
-  in die -- ser Nacht Ge -- fäh - re,
-  da -- rin ich lag__ _ _ so hart
-  mit Fin -- ster -- niss um -- fan - gen,
-  da -- zu in gro -- ßer Noth,
-  da -- raus ich bin ent -- gan - gen,
-  halfst du mir Her - - re Gott!
+  Ich dank' dir, lie -- ber Her -- _ re, dass du mich hast__ _ _ be -- wahrt in die -- ser Nacht Ge -- fäh -- _ re, da -- rin ich lag__ _ _ so hart mit Fin -- ster -- niss um -- fan -- _ gen, da -- zu in gro -- ßer Noth, da -- raus ich bin ent -- gan -- _ gen, halfst du mir Her -- _ _ re Gott!
 }
 
 altoLyrics = \lyricmode {
-  Ich dank' dir, lie -- ber Her - - re,
-  dass du mich hast__ _ _ be -- wahrt
-  in die -- ser Nacht Ge -- fäh - - re,
-  da -- rin ich lag__ _ _ so hart
-  mit Fin -- ster -- niss um -- fan - gen,
-  da -- zu in gro - ßer Noth,
-  da -- raus ich bin ent -- gan - gen,
-  halfst du mir Her - - re _ Gott!
+  Ich dank' dir, lie -- ber Her -- _ _ re, dass du mich hast__ _ _ be -- wahrt in die -- ser Nacht Ge -- fäh -- _ _ re, da -- rin ich lag__ _ _ so hart mit Fin -- ster -- niss um -- fan -- _ gen, da -- zu in gro -- _ ßer Noth, da -- raus ich bin ent -- gan -- _ gen, halfst du mir Her -- _ _ re _ Gott!
 }
 
 tenorLyrics = \lyricmode {
-  Ich dank' dir, lie -- ber Her - re, dass du mich hast__ _ _ be -- wahrt in die -- ser Nacht Ge -- fäh - re, da -- rin ich lag__ _ _ so hart mit Fin -- ster -- niss um -- fan gen, da -- zu in gro -- ßer Noth, da -- raus ich bin ent -- gan gen, halfst du mir Her - - re Gott!
+  Ich dank' dir, lie -- ber Her -- _ re, dass du mich hast__ _ _ be -- wahrt in die -- ser Nacht Ge -- fäh -- _ re, da -- rin ich lag__ _ _ so hart mit Fin -- ster -- niss um -- fan gen, da -- zu in gro -- ßer Noth, da -- raus ich bin ent -- gan gen, halfst du mir Her -- _ _ re Gott!
 }
 
 bassLyrics = \lyricmode {
-  Ich dank' dir, lie -- ber Her - re,
-  dass du mich hast__ _ _ be -- wahrt
-  in die -- ser Nacht Ge -- fäh - re,
-  da -- rin ich lag__ _ _ so hart
-  mit Fin -- ster -- niss um -- fan - gen,
-  da -- zu in gro -- ßer Noth,
-  da -- raus ich bin ent -- gan - gen,
-  halfst du mir Her - re Gott!
+  Ich dank' dir, lie -- ber Her -- _ re, dass du mich hast__ _ _ be -- wahrt in die -- ser Nacht Ge -- fäh -- _ re, da -- rin ich lag__ _ _ so hart mit Fin -- ster -- niss um -- fan -- _ gen, da -- zu in gro -- ßer Noth, da -- raus ich bin ent -- gan -- _ gen, halfst du mir Her -- _ re Gott!
 }

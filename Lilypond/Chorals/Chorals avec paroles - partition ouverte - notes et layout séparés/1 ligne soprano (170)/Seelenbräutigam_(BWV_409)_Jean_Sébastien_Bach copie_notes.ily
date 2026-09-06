@@ -55,21 +55,11 @@ bassMusic = \relative c {
 }
 
 sopranoLyrics = \lyricmode {
-  See -- len -- bräu -- ti -- gam,
-  Je -- su, Got -- tes Lamm,
-  Ha -- be Dank für dei -- ne Lie -- be,
-  die mich zieht aus rei -- nem Trie - be
-  von der Sün -- den Schlamm,
-  Je -- su, Got -- tes Lamm.
+  See -- len -- bräu -- ti -- gam, Je -- su, Got -- tes Lamm, Ha -- be Dank für dei -- ne Lie -- be, die mich zieht aus rei -- nem Trie -- _ be von der Sün -- den Schlamm, Je -- su, Got -- tes Lamm.
 }
 
 altoLyrics = \lyricmode {
-  See -- len -- bräu -- ti -- gam,
-  Je -- su, Got -- tes Lamm,
-  Ha -- be Dank für dei -- ne Lie - be,
-  die mich zieht aus rei -- nem _ Trie be _
-  von der Sün -- den Schlamm,
-  Je -- su, Got -- tes Lamm.
+  See -- len -- bräu -- ti -- gam, Je -- su, Got -- tes Lamm, Ha -- be Dank für dei -- ne Lie -- _ be, die mich zieht aus rei -- nem _ Trie be _ von der Sün -- den Schlamm, Je -- su, Got -- tes Lamm.
 }
 
 tenorLyrics = \lyricmode {
@@ -82,10 +72,5 @@ tenorLyrics = \lyricmode {
 }
 
 bassLyrics = \lyricmode {
-  See -- len -- bräu -- ti -- gam,
-  Je -- su, Got -- tes Lamm,
-  Ha -- be Dank für dei -- ne Lie - be,
-  die mich zieht aus rei -- nem Trie - be
-  von der Sün -- den Schlamm,
-  Je -- su, Got -- tes Lamm.
+  See -- len -- bräu -- ti -- gam, Je -- su, Got -- tes Lamm, Ha -- be Dank für dei -- ne Lie -- _ be, die mich zieht aus rei -- nem Trie -- _ be von der Sün -- den Schlamm, Je -- su, Got -- tes Lamm.
 }

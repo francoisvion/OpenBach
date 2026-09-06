@@ -143,24 +143,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  In dul -- ci ju -- bi -- lo __ _ _
-  sin -- get und seid froh, __ _ _
-  un -- sers Her -- zens Won - - ne
-  liegt in prae -- se -- pi -- o __ _ _
-  leuch -- tet als die Son - - ne
-  ma -- tris in pre -- mi -- o __ _ _
-  Al -- pha es et O, __ _ _ _
-  Al -- pha es et O. __ _ 
+  In dul -- ci ju -- bi -- lo __ _ _ sin -- get und seid froh, __ _ _ un -- sers Her -- zens Won -- _ _ ne liegt in prae -- se -- pi -- o __ _ _ leuch -- tet als die Son -- _ _ ne ma -- tris in pre -- mi -- o __ _ _ Al -- pha es et O, __ _ _ _ Al -- pha es et O. __ _
 }
 
 altoLyrics = \lyricmode {
-  In dul -- ci ju -- bi -- lo __ _ sin - get und seid froh, __ _ _ _ un -- sers Her - zens Won - - ne liegt in prae -- se -- pi -- o __ _ _ _ leuch -- tet als _ die Son - - ne ma -- tris in pre -- mi -- o __ _ _ Al -- pha es et O, __ Al pha _ es et O. __ _ _ _ _
+  In dul -- ci ju -- bi -- lo __ _ sin -- _ get und seid froh, __ _ _ _ un -- sers Her -- _ zens Won -- _ _ ne liegt in prae -- se -- pi -- o __ _ _ _ leuch -- tet als _ die Son -- _ _ ne ma -- tris in pre -- mi -- o __ _ _ Al -- pha es et O, __ Al pha _ es et O. __ _ _ _ _
 }
 
 tenorLyrics = \lyricmode {
-  In dul -- ci ju -- bi -- lo __ _ _ sin -- get und _ seid froh, __ _ _ _ un -- sers Her - zens Won - - ne liegt in _ prae -- se -- pi -- o __ _ _ _ leuch -- tet als die Son - - ne ma -- tris _ in pre -- mi -- o __ _ _ Al - pha es _ et O, __ _ _ Al pha _ es et _ O. __ _ _ _
+  In dul -- ci ju -- bi -- lo __ _ _ sin -- get und _ seid froh, __ _ _ _ un -- sers Her -- _ zens Won -- _ _ ne liegt in _ prae -- se -- pi -- o __ _ _ _ leuch -- tet als die Son -- _ _ ne ma -- tris _ in pre -- mi -- o __ _ _ Al -- _ pha es _ et O, __ _ _ Al pha _ es et _ O. __ _ _ _
 }
 
 bassLyrics = \lyricmode {
-  In dul - ci ju - bi -- lo __ _ _ _ sin - get und _ seid froh, __ _ _ _ un -- sers Her -- zens Won - ne liegt in _ prae -- se - pi -- o __ _ _ _ leuch - tet als _ die Son - - ne ma -- tris _ in pre - mi -- o __ _ _ _ Al - pha es _ et O, __ _ _ Al pha _ es et _ O. __ _ _ _
+  In dul -- _ ci ju -- _ bi -- lo __ _ _ _ sin -- _ get und _ seid froh, __ _ _ _ un -- sers Her -- zens Won -- _ ne liegt in _ prae -- se -- _ pi -- o __ _ _ _ leuch -- _ tet als _ die Son -- _ _ ne ma -- tris _ in pre -- _ mi -- o __ _ _ _ Al -- _ pha es _ et O, __ _ _ Al pha _ es et _ O. __ _ _ _
 }

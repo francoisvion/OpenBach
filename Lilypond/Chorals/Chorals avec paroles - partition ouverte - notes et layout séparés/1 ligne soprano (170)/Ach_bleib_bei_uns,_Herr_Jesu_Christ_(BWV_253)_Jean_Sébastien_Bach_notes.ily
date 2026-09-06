@@ -59,29 +59,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Ach bleib bei uns, Herr Je -- su  Christ, 
-  weil es nun A - - bend wor -- den__ ist; 
-  dein gött --  lich__  Wort, das hel -- le Licht,
-  lass ja bei uns __ _ _ aus -- lö -- schen nicht!
+  Ach bleib bei uns, Herr Je -- su Christ, weil es nun A -- _ _ bend wor -- den__ ist; dein gött -- lich__ Wort, das hel -- le Licht, lass ja bei uns __ _ _ aus -- lö -- schen nicht!
 }
 
 altoLyrics = \lyricmode {
-  Ach bleib bei uns, Herr Je -- su  Christ, 
-  weil es nun A - bend wor -- den__ ist; 
-  dein gött --  lich__  Wort, das hel -- le Licht,
-  lass ja bei uns __ _ _ aus -- lö -- schen nicht!
+  Ach bleib bei uns, Herr Je -- su Christ, weil es nun A -- _ bend wor -- den__ ist; dein gött -- lich__ Wort, das hel -- le Licht, lass ja bei uns __ _ _ aus -- lö -- schen nicht!
 }
 
 tenorLyrics = \lyricmode {
-  Ach bleib bei uns, Herr Je -- su  Christ, 
-  weil es nun A - bend wor -- den__ ist; 
-  dein gött --  lich__  Wort, das hel -- le Licht,
-  lass ja bei uns __ _ _ aus -- lö -- schen nicht!
+  Ach bleib bei uns, Herr Je -- su Christ, weil es nun A -- _ bend wor -- den__ ist; dein gött -- lich__ Wort, das hel -- le Licht, lass ja bei uns __ _ _ aus -- lö -- schen nicht!
 }
 
 bassLyrics = \lyricmode {
-  Ach bleib bei uns, Herr Je -- su  Christ, 
-  weil es nun A - - bend wor -- den__ ist; 
-  dein gött --  lich__  Wort, das hel -- le Licht,
-  lass ja bei uns __ _ _ aus -- lö -- schen nicht!
+  Ach bleib bei uns, Herr Je -- su Christ, weil es nun A -- _ _ bend wor -- den__ ist; dein gött -- lich__ Wort, das hel -- le Licht, lass ja bei uns __ _ _ aus -- lö -- schen nicht!
 }

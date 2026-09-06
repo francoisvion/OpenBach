@@ -75,26 +75,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Es bringt das rech - - te Ju -- bel -- jahr,
-  was trau -- ern wir denn im -- mer -- dar?
-  Frisch auf! jetzt ist __ _ _ es Sin -- gens -- zeit,
-  das Je -- su -- lein __ _ _ wendt al -- les Leid.
+  Es bringt das rech -- _ _ te Ju -- bel -- jahr, was trau -- ern wir denn im -- mer -- dar? Frisch auf! jetzt ist __ _ _ es Sin -- gens -- zeit, das Je -- su -- lein __ _ _ wendt al -- les Leid.
 }
 
 altoLyrics = \lyricmode {
-  Es bringt das rech - te Ju -- bel -- jahr,
-  was trau -- ern wir denn im -- mer -- dar?
-  Frisch auf! jetzt ist __ _ _ es Sin -- gens -- zeit,
-  das Je -- su -- lein __ _ wendt al -- les Leid.
+  Es bringt das rech -- _ te Ju -- bel -- jahr, was trau -- ern wir denn im -- mer -- dar? Frisch auf! jetzt ist __ _ _ es Sin -- gens -- zeit, das Je -- su -- lein __ _ wendt al -- les Leid.
 }
 
 tenorLyrics = \lyricmode {
-  Es bringt das rech - te Ju -- bel -- jahr, was trau -- ern wir _ denn im -- mer -- dar? Frisch auf! jetzt ist __ _ _ es Sin -- gens -- zeit, das Je -- su -- lein __ _ _ wendt al -- les Leid.
+  Es bringt das rech -- _ te Ju -- bel -- jahr, was trau -- ern wir _ denn im -- mer -- dar? Frisch auf! jetzt ist __ _ _ es Sin -- gens -- zeit, das Je -- su -- lein __ _ _ wendt al -- les Leid.
 }
 
 bassLyrics = \lyricmode {
-  Es bringt das rech - te Ju -- bel -- jahr,
-  was trau -- ern wir denn im -- mer - dar?
-  Frisch auf! jetzt ist __ _ _ es Sin -- gens -- zeit,
-  das Je -- su -- lein __ _ wendt al -- les Leid.
+  Es bringt das rech -- _ te Ju -- bel -- jahr, was trau -- ern wir denn im -- mer -- _ dar? Frisch auf! jetzt ist __ _ _ es Sin -- gens -- zeit, das Je -- su -- lein __ _ wendt al -- les Leid.
 }

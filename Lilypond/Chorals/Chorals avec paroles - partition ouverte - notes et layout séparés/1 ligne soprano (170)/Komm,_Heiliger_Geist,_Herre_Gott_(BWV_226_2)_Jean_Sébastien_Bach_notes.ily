@@ -112,26 +112,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Du hei - li -- ge Brunst, sü -- ßer Trost,
-  nun hilf uns, fröh -- lich und ge -- trost
-  in dei -- nem Dienst be -- stän -- dig blei -- ben,
-  die Trüb -- sal uns nicht ab -- trei - ben,
-  O Herr, duch dein Kraft uns be -- reit
-  und stärk des Flei -- sches Blö -- dig -- keit,
-  dass wir hier rit -- ter -- lich rin - gen,
-  durch Tod und Le -- ben zu dir drin - - gen,
-  Hal -- le - lu -- ja!
-  Hal -- le -- lu -- ja!
+  Du hei -- _ li -- ge Brunst, sü -- ßer Trost, nun hilf uns, fröh -- lich und ge -- trost in dei -- nem Dienst be -- stän -- dig blei -- ben, die Trüb -- sal uns nicht ab -- trei -- _ ben, O Herr, duch dein Kraft uns be -- reit und stärk des Flei -- sches Blö -- dig -- keit, dass wir hier rit -- ter -- lich rin -- _ gen, durch Tod und Le -- ben zu dir drin -- _ _ gen, Hal -- le -- _ lu -- ja! Hal -- le -- lu -- ja!
 }
 
 altoLyrics = \lyricmode {
-  Du hei - li -- ge Brunst, sü -- ßer Trost, nun hilf uns, fröh -- lich und ge -- trost in dei -- nem Dienst be - stän -- dig blei -- ben, die Trüb -- sal uns nicht ab - trei - ben, O Herr, duch dein Kraft uns be -- reit und stärk des Flei -- sches Blö -- dig -- keit, dass wir hier rit -- ter -- lich rin - gen, durch Tod und Le -- ben zu dir drin - - gen, Hal -- le - lu -- ja! Hal -- le -- lu -- ja!
+  Du hei -- _ li -- ge Brunst, sü -- ßer Trost, nun hilf uns, fröh -- lich und ge -- trost in dei -- nem Dienst be -- _ stän -- dig blei -- ben, die Trüb -- sal uns nicht ab -- _ trei -- _ ben, O Herr, duch dein Kraft uns be -- reit und stärk des Flei -- sches Blö -- dig -- keit, dass wir hier rit -- ter -- lich rin -- _ gen, durch Tod und Le -- ben zu dir drin -- _ _ gen, Hal -- le -- _ lu -- ja! Hal -- le -- lu -- ja!
 }
 
 tenorLyrics = \lyricmode {
-  Du hei - li -- ge Brunst, sü -- ßer Trost, nun hilf uns, fröh -- lich und ge -- trost in dei -- nem Dienst be - stän -- dig blei -- ben, die Trüb -- sal uns nicht _ ab -- trei - ben, O Herr, duch dein Kraft uns be -- reit und stärk des Flei -- sches Blö -- dig -- keit, dass wir hier rit -- ter - lich rin - gen, durch Tod und Le -- ben zu dir drin - - gen, Hal -- le lu -- ja! Hal -- le -- lu -- ja!
+  Du hei -- _ li -- ge Brunst, sü -- ßer Trost, nun hilf uns, fröh -- lich und ge -- trost in dei -- nem Dienst be -- _ stän -- dig blei -- ben, die Trüb -- sal uns nicht _ ab -- trei -- _ ben, O Herr, duch dein Kraft uns be -- reit und stärk des Flei -- sches Blö -- dig -- keit, dass wir hier rit -- ter -- _ lich rin -- _ gen, durch Tod und Le -- ben zu dir drin -- _ _ gen, Hal -- le lu -- ja! Hal -- le -- lu -- ja!
 }
 
 bassLyrics = \lyricmode {
-  Du hei - li -- ge Brunst, sü -- ßer Trost, nun hilf uns, fröh -- lich und ge -- trost in dei -- nem Dienst be - stän -- dig blei -- ben, die Trüb -- sal uns nicht _ ab -- trei - ben, O Herr, duch dein Kraft uns be -- reit und stärk des Flei -- sches Blö -- dig -- keit, dass wir hier rit -- ter - lich rin - gen, durch Tod und Le -- ben _ zu dir drin - - gen, Hal -- le - lu -- ja! Hal -- le - lu - ja!
+  Du hei -- _ li -- ge Brunst, sü -- ßer Trost, nun hilf uns, fröh -- lich und ge -- trost in dei -- nem Dienst be -- _ stän -- dig blei -- ben, die Trüb -- sal uns nicht _ ab -- trei -- _ ben, O Herr, duch dein Kraft uns be -- reit und stärk des Flei -- sches Blö -- dig -- keit, dass wir hier rit -- ter -- _ lich rin -- _ gen, durch Tod und Le -- ben _ zu dir drin -- _ _ gen, Hal -- le -- _ lu -- ja! Hal -- le -- _ lu -- _ ja!
 }

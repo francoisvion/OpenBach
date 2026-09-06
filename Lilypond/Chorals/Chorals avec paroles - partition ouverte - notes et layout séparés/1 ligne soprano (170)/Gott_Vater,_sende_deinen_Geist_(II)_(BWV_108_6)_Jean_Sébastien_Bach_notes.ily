@@ -68,27 +68,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Dein Geist, den Gott vom Him -- mel gibt,
-  der lei -- tet al -- les, was ihn licht,
-  auf wohl ge -- bähn - - ten We -- ge.
-  Er setzt und rich -- tet un -- sern Fuß,
-  dass er nicht an -- ders tre -- ten muss,
-  als wo man findt __ _ _ den Se -- gen.
+  Dein Geist, den Gott vom Him -- mel gibt, der lei -- tet al -- les, was ihn licht, auf wohl ge -- bähn -- _ _ ten We -- ge. Er setzt und rich -- tet un -- sern Fuß, dass er nicht an -- ders tre -- ten muss, als wo man findt __ _ _ den Se -- gen.
 }
 
 altoLyrics = \lyricmode {
-  Dein Geist, den Gott vom Him -- mel gibt, der lei -- tet al -- les, was ihn licht, auf wohl ge -- bähn - - ten We -- ge. Er setzt und rich -- tet un -- sern Fuß, dass er nicht an -- ders tre -- ten muss, als wo man findt __ _ _ den Se -- gen.
+  Dein Geist, den Gott vom Him -- mel gibt, der lei -- tet al -- les, was ihn licht, auf wohl ge -- bähn -- _ _ ten We -- ge. Er setzt und rich -- tet un -- sern Fuß, dass er nicht an -- ders tre -- ten muss, als wo man findt __ _ _ den Se -- gen.
 }
 
 tenorLyrics = \lyricmode {
-  Dein Geist, den Gott vom Him -- mel gibt, der lei -- tet al -- les, was ihn licht, auf wohl ge -- bähn - - ten We - ge. Er setzt und rich -- tet un -- sern Fuß, dass er nicht an -- ders tre -- ten muss, als wo man findt __ _ _ den Se -- gen.
+  Dein Geist, den Gott vom Him -- mel gibt, der lei -- tet al -- les, was ihn licht, auf wohl ge -- bähn -- _ _ ten We -- _ ge. Er setzt und rich -- tet un -- sern Fuß, dass er nicht an -- ders tre -- ten muss, als wo man findt __ _ _ den Se -- gen.
 }
 
 bassLyrics = \lyricmode {
-  Dein Geist, den Gott vom Him -- mel gibt,
-  der lei -- tet al -- les, was ihn licht,
-  auf wohl ge -- bähn - - ten We - ge.
-  Er setzt und rich -- tet un -- sern Fuß,
-  dass er nicht an -- ders tre -- ten muss,
-  als wo man findt __ _ _ den Se - gen.
+  Dein Geist, den Gott vom Him -- mel gibt, der lei -- tet al -- les, was ihn licht, auf wohl ge -- bähn -- _ _ ten We -- _ ge. Er setzt und rich -- tet un -- sern Fuß, dass er nicht an -- ders tre -- ten muss, als wo man findt __ _ _ den Se -- _ gen.
 }

@@ -80,28 +80,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Mir man -- gelt zwar sehr viel,
-  doch, was ich ha -- ben will,
-  ist al -- les mir zu gu - te,
-  er -- langt mit dei -- nem Blu - te,
-  da -- mit ich ü -- ber -- win - de
-  Tod, Teu -- fel, Höll und Sün - de.
+  Mir man -- gelt zwar sehr viel, doch, was ich ha -- ben will, ist al -- les mir zu gu -- _ te, er -- langt mit dei -- nem Blu -- _ te, da -- mit ich ü -- ber -- win -- _ de Tod, Teu -- fel, Höll und Sün -- _ de.
 }
 
 tenorLyrics = \lyricmode {
-  Mir man -- gelt zwar sehr viel,
-  doch, was ich ha -- ben will,
-  ist al -- les mir zu gu - te,
-  er -- langt mit dei -- nem Blu - te,
-  da -- mit ich ü -- ber -- win - de
-  Tod, Teu -- fel, Höll und Sün - de.
+  Mir man -- gelt zwar sehr viel, doch, was ich ha -- ben will, ist al -- les mir zu gu -- _ te, er -- langt mit dei -- nem Blu -- _ te, da -- mit ich ü -- ber -- win -- _ de Tod, Teu -- fel, Höll und Sün -- _ de.
 }
 
 bassLyrics = \lyricmode {
-  Mir man -- gelt zwar sehr viel,
-  doch, was ich ha -- ben will,
-  ist al -- les mir zu gu - te,
-  er -- langt mit dei -- nem Blu - te,
-  da -- mit ich ü -- ber -- win - de
-  Tod, Teu -- fel, Höll und Sün - de.
+  Mir man -- gelt zwar sehr viel, doch, was ich ha -- ben will, ist al -- les mir zu gu -- _ te, er -- langt mit dei -- nem Blu -- _ te, da -- mit ich ü -- ber -- win -- _ de Tod, Teu -- fel, Höll und Sün -- _ de.
 }

@@ -115,25 +115,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Was willst du dich, o mei -- ne See -- le, krän - ken?
-  Meinst du, dass Gott nicht kann an dich ge -- den - ken?
-  Er weiss gar wohl, wann er dir hel -- fen soll;
-  denn er ist selbst der Gnad' und Gü -- te voll.
-  Halt ihm nur stil - le;
-  es ge -- het so sein Wil -- le,
-  Wie kann er dich doch las -- sen in den Ban - den.
-  Du bist ja sei -- ne Braut.
-  Wer hofft in Gott und dem ver -- traut, wird nim -- mer -- mehr zu Schan - den.
+  Was willst du dich, o mei -- ne See -- le, krän -- _ ken? Meinst du, dass Gott nicht kann an dich ge -- den -- _ ken? Er weiss gar wohl, wann er dir hel -- fen soll; denn er ist selbst der Gnad' und Gü -- te voll. Halt ihm nur stil -- _ le; es ge -- het so sein Wil -- le, Wie kann er dich doch las -- sen in den Ban -- _ den. Du bist ja sei -- ne Braut. Wer hofft in Gott und dem ver -- traut, wird nim -- mer -- mehr zu Schan -- _ den.
 }
 
 altoLyrics = \lyricmode {
-  Was willst du dich, o _ mei -- ne See -- le, krän - ken? Meinst du, dass Gott nicht kann an dich ge -- den ken? Er weiss gar wohl, wann _ er dir hel - fen soll; denn er ist selbst der Gnad' und Gü -- te voll. Halt ihm nur stil - le; es ge -- het so sein Wil -- le, Wie kann er dich doch las -- sen in den Ban den. Du bist ja sei -- ne Braut. Wer hofft in Gott und dem ver -- traut, wird nim -- mer -- mehr zu Schan - den.
+  Was willst du dich, o _ mei -- ne See -- le, krän -- _ ken? Meinst du, dass Gott nicht kann an dich ge -- den ken? Er weiss gar wohl, wann _ er dir hel -- _ fen soll; denn er ist selbst der Gnad' und Gü -- te voll. Halt ihm nur stil -- _ le; es ge -- het so sein Wil -- le, Wie kann er dich doch las -- sen in den Ban den. Du bist ja sei -- ne Braut. Wer hofft in Gott und dem ver -- traut, wird nim -- mer -- mehr zu Schan -- _ den.
 }
 
 tenorLyrics = \lyricmode {
-  Was willst du dich, o mei -- ne See -- le, krän - ken? Meinst du, dass Gott nicht kann an dich ge -- den - ken? Er weiss gar wohl, wann er dir hel - fen soll; denn er ist selbst der Gnad' und _ Gü - te voll. Halt ihm nur stil - le; es ge -- het so sein Wil - le, Wie kann er dich doch las -- sen in den Ban den. Du bist ja sei -- ne Braut. Wer hofft in Gott und dem ver -- traut, wird nim -- mer -- mehr zu Schan - den.
+  Was willst du dich, o mei -- ne See -- le, krän -- _ ken? Meinst du, dass Gott nicht kann an dich ge -- den -- _ ken? Er weiss gar wohl, wann er dir hel -- _ fen soll; denn er ist selbst der Gnad' und _ Gü -- _ te voll. Halt ihm nur stil -- _ le; es ge -- het so sein Wil -- _ le, Wie kann er dich doch las -- sen in den Ban den. Du bist ja sei -- ne Braut. Wer hofft in Gott und dem ver -- traut, wird nim -- mer -- mehr zu Schan -- _ den.
 }
 
 bassLyrics = \lyricmode {
-  Was willst du dich, o mei -- ne See -- le, krän - ken? Meinst du, dass Gott nicht kann an dich ge -- den - ken? Er weiss gar wohl, wann er dir hel -- fen soll; denn er ist selbst der Gnad' und Gü -- te voll. Halt ihm nur stil le; es ge -- het so sein Wil - le, Wie kann er dich doch las -- sen in den Ban - den. Du bist ja sei -- ne Braut. Wer hofft in Gott und dem ver -- traut, wird nim -- mer -- mehr zu Schan - den.
+  Was willst du dich, o mei -- ne See -- le, krän -- _ ken? Meinst du, dass Gott nicht kann an dich ge -- den -- _ ken? Er weiss gar wohl, wann er dir hel -- fen soll; denn er ist selbst der Gnad' und Gü -- te voll. Halt ihm nur stil le; es ge -- het so sein Wil -- _ le, Wie kann er dich doch las -- sen in den Ban -- _ den. Du bist ja sei -- ne Braut. Wer hofft in Gott und dem ver -- traut, wird nim -- mer -- mehr zu Schan -- _ den.
 }

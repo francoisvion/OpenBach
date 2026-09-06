@@ -79,31 +79,17 @@ bassMusic = \relative c {
 }
 
 sopranoLyrics = \lyricmode {
-  O hilf, Chris -- te, Got -- tes Sohn
-  durch dein bit -- ter Lei - den,
-  dass wir dir stets un -- ter -- tan,
-  all Un -- tu -- gend mei - den,
-  dei -- nen Tod und sein Ur -- sach
-  frucht -- bar -- lich be -- den - ken,
-  da -- für, wie -- wohl arm und schwach,
-  dir Dank -- op -- fer schen - ken. __
+  O hilf, Chris -- te, Got -- tes Sohn durch dein bit -- ter Lei -- _ den, dass wir dir stets un -- ter -- tan, all Un -- tu -- gend mei -- _ den, dei -- nen Tod und sein Ur -- sach frucht -- bar -- lich be -- den -- _ ken, da -- für, wie -- wohl arm und schwach, dir Dank -- op -- fer schen -- _ ken. __
 }
 
 altoLyrics = \lyricmode {
-  O hilf, Chris -- te, Got -- tes Sohn durch dein bit -- ter Lei - den, dass wir dir stets un -- ter -- tan, all Un -- tu -- gend mei - den, dei - nen Tod und sein Ur -- sach frucht bar -- lich be -- den - ken, da für, wie -- wohl arm und schwach, dir Dank -- op -- fer schen - ken. __ _ _
+  O hilf, Chris -- te, Got -- tes Sohn durch dein bit -- ter Lei -- _ den, dass wir dir stets un -- ter -- tan, all Un -- tu -- gend mei -- _ den, dei -- _ nen Tod und sein Ur -- sach frucht bar -- lich be -- den -- _ ken, da für, wie -- wohl arm und schwach, dir Dank -- op -- fer schen -- _ ken. __ _ _
 }
 
 tenorLyrics = \lyricmode {
-  O hilf, Chris -- te, Got -- tes Sohn durch dein bit -- ter Lei den, dass wir dir stets un -- ter -- tan, all Un -- tu -- gend mei - den, dei - nen Tod und sein Ur -- sach frucht bar -- lich be -- den - ken, da für, wie -- wohl arm und schwach, dir Dank -- op -- fer schen - ken. __ _ _ _
+  O hilf, Chris -- te, Got -- tes Sohn durch dein bit -- ter Lei den, dass wir dir stets un -- ter -- tan, all Un -- tu -- gend mei -- _ den, dei -- _ nen Tod und sein Ur -- sach frucht bar -- lich be -- den -- _ ken, da für, wie -- wohl arm und schwach, dir Dank -- op -- fer schen -- _ ken. __ _ _ _
 }
 
 bassLyrics = \lyricmode {
-  O hilf, Chris -- te, Got -- tes Sohn
-  durch dein bit -- ter Lei - den,
-  dass wir dir stets un -- ter -- tan,
-  all Un -- tu -- gend mei - den,
-  dei -- nen Tod und sein Ur -- sach
-  frucht -- bar -- lich be -- den - ken,
-  da -- für, wie -- wohl arm und schwach,
-  dir Dank -- op -- fer schen - - - ken.
+  O hilf, Chris -- te, Got -- tes Sohn durch dein bit -- ter Lei -- _ den, dass wir dir stets un -- ter -- tan, all Un -- tu -- gend mei -- _ den, dei -- nen Tod und sein Ur -- sach frucht -- bar -- lich be -- den -- _ ken, da -- für, wie -- wohl arm und schwach, dir Dank -- op -- fer schen -- _ _ _ ken.
 }

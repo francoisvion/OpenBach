@@ -86,20 +86,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Je -- su, der du sel -- bsten wohl hast den Tod ge -- schme - cket, hilf mir, wenn ich ster -- ben soll, wenn der Tod mich schre - cket: wenn mich mein Ge -- wis - sen nagt _ und die Sün -- den pla - gen, wenn der _ Sa -- tan mich ver -- klagt, lass mich nicht ver -- za - gen.
+  Je -- su, der du sel -- bsten wohl hast den Tod ge -- schme -- _ cket, hilf mir, wenn ich ster -- ben soll, wenn der Tod mich schre -- _ cket: wenn mich mein Ge -- wis -- _ sen nagt _ und die Sün -- den pla -- _ gen, wenn der _ Sa -- tan mich ver -- klagt, lass mich nicht ver -- za -- _ gen.
 }
 
 tenorLyrics = \lyricmode {
-  Je -- su, der du sel -- bsten wohl hast den Tod ge -- schme - cket, hilf mir, wenn ich ster -- ben soll, wenn der Tod mich schre - cket: wenn mich mein Ge -- wis -- sen nagt und die Sün -- den pla - gen, wenn der Sa -- tan mich ver -- klagt, lass mich nicht ver -- za - gen.
+  Je -- su, der du sel -- bsten wohl hast den Tod ge -- schme -- _ cket, hilf mir, wenn ich ster -- ben soll, wenn der Tod mich schre -- _ cket: wenn mich mein Ge -- wis -- sen nagt und die Sün -- den pla -- _ gen, wenn der Sa -- tan mich ver -- klagt, lass mich nicht ver -- za -- _ gen.
 }
 
 bassLyrics = \lyricmode {
-  Je -- su, der du sel -- bsten wohl
-  hast den Tod ge -- schme - cket,
-  hilf mir, wenn ich ster -- ben soll,
-  wenn der Tod mich schre - cket:
-  wenn mich mein Ge -- wis -- sen nagt
-  und die Sün -- den pla - - gen,
-  wenn der Sa -- tan mich ver -- klagt,
-  lass mich nicht ver -- za - gen.
+  Je -- su, der du sel -- bsten wohl hast den Tod ge -- schme -- _ cket, hilf mir, wenn ich ster -- ben soll, wenn der Tod mich schre -- _ cket: wenn mich mein Ge -- wis -- sen nagt und die Sün -- den pla -- _ _ gen, wenn der Sa -- tan mich ver -- klagt, lass mich nicht ver -- za -- _ gen.
 }

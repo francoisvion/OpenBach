@@ -81,19 +81,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Mei -- nes Le -- bens letz -- te Zeit
-  ist nun -- meh -- ro an -- ge -- kom -- men,
-  da der schnö -- den Ei -- tel -- keit
-  mei -- ne See -- le wird ent -- nom -- men;
-  wer kann wi -- der -- stre -- ben,
-  dass uns Men -- schen Gott __ _ das Le -- ben
-  auf ein zeit -- lich Wie -- der -- neh -- men hat ge -- ge - ben.
+  Mei -- nes Le -- bens letz -- te Zeit ist nun -- meh -- ro an -- ge -- kom -- men, da der schnö -- den Ei -- tel -- keit mei -- ne See -- le wird ent -- nom -- men; wer kann wi -- der -- stre -- ben, dass uns Men -- schen Gott __ _ das Le -- ben auf ein zeit -- lich Wie -- der -- neh -- men hat ge -- ge -- _ ben.
 }
 
 tenorLyrics = \lyricmode {
-  Mei -- nes Le -- bens letz -- te Zeit ist nun -- meh -- ro an -- ge -- kom -- men, da der schnö -- den Ei -- tel -- keit mei -- ne See -- le wird ent -- nom -- men; wer kann wi -- der -- stre -- ben, dass uns Men -- schen Gott das Le -- ben auf ein zeit -- lich Wie -- der -- neh -- men hat ge -- ge - ben.
+  Mei -- nes Le -- bens letz -- te Zeit ist nun -- meh -- ro an -- ge -- kom -- men, da der schnö -- den Ei -- tel -- keit mei -- ne See -- le wird ent -- nom -- men; wer kann wi -- der -- stre -- ben, dass uns Men -- schen Gott das Le -- ben auf ein zeit -- lich Wie -- der -- neh -- men hat ge -- ge -- _ ben.
 }
 
 bassLyrics = \lyricmode {
-  Mei -- nes Le -- bens letz -- te Zeit ist nun -- meh -- ro an -- ge -- kom -- men, da der schnö -- den Ei -- tel -- keit mei -- ne See -- le wird ent -- nom -- men; wer kann wi -- der -- stre -- ben, dass uns Men -- schen Gott das Le -- ben auf ein zeit -- lich Wie -- der -- neh -- men hat ge -- ge - ben.
+  Mei -- nes Le -- bens letz -- te Zeit ist nun -- meh -- ro an -- ge -- kom -- men, da der schnö -- den Ei -- tel -- keit mei -- ne See -- le wird ent -- nom -- men; wer kann wi -- der -- stre -- ben, dass uns Men -- schen Gott das Le -- ben auf ein zeit -- lich Wie -- der -- neh -- men hat ge -- ge -- _ ben.
 }

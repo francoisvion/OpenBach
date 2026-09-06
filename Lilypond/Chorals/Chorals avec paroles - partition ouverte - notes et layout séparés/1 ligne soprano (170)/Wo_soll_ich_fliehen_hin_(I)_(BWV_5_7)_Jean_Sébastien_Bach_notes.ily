@@ -74,28 +74,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Führ, Herr, mein Herz und Sinn
-  durch dei -- nen Geist da -- hin,
-  dass ich mög al -- les mei - den,
-  was mich und dich kann schei - den,
-  und ich an dei -- nem Lei - be
-  ein Glied -- maß e -- wig blei - be.
+  Führ, Herr, mein Herz und Sinn durch dei -- nen Geist da -- hin, dass ich mög al -- les mei -- _ den, was mich und dich kann schei -- _ den, und ich an dei -- nem Lei -- _ be ein Glied -- maß e -- wig blei -- _ be.
 }
 
 tenorLyrics = \lyricmode {
-  Führ, Herr, mein Herz und Sinn
-  durch dei -- nen Geist da -- hin,
-  dass ich mög al -- les mei - den,
-  was mich und dich kann schei - den,
-  und ich an dei -- nem Lei - be
-  ein Glied -- maß e -- wig blei - be.
+  Führ, Herr, mein Herz und Sinn durch dei -- nen Geist da -- hin, dass ich mög al -- les mei -- _ den, was mich und dich kann schei -- _ den, und ich an dei -- nem Lei -- _ be ein Glied -- maß e -- wig blei -- _ be.
 }
 
 bassLyrics = \lyricmode {
-  Führ, Herr, mein Herz und Sinn
-  durch dei -- nen Geist da -- hin,
-  dass ich mög al -- les mei - den,
-  was mich und dich kann schei - den,
-  und ich an dei -- nem Lei - be
-  ein Glied -- maß e -- wig blei -- be.
+  Führ, Herr, mein Herz und Sinn durch dei -- nen Geist da -- hin, dass ich mög al -- les mei -- _ den, was mich und dich kann schei -- _ den, und ich an dei -- nem Lei -- _ be ein Glied -- maß e -- wig blei -- be.
 }

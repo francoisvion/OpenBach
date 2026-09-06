@@ -75,45 +75,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Je -- su, dei -- ne Pas -- si -- on
-  ist mir lau -- ter Freu -- de,
-  dei -- ne Wun -- den, Kron und Hohn
-  mei -- nes Her -- zens Wei -- de;
-  mei -- ne Seel auf Ro -- sen geht,
-  wenn ich dran ge -- den - ke,
-  in dem Him -- mel ei -- ne Stätt
-  mir des -- we -- gen schen -- ke!
+  Je -- su, dei -- ne Pas -- si -- on ist mir lau -- ter Freu -- de, dei -- ne Wun -- den, Kron und Hohn mei -- nes Her -- zens Wei -- de; mei -- ne Seel auf Ro -- sen geht, wenn ich dran ge -- den -- _ ke, in dem Him -- mel ei -- ne Stätt mir des -- we -- gen schen -- ke!
 }
 
 altoLyrics = \lyricmode {
-  Je -- su, dei -- ne Pas -- si -- on
-  ist mir lau - ter Freu -- de,
-  dei -- ne Wun -- den, Kron und Hohn
-  mei -- nes Her -- zens Wei - de;
-  mei -- ne Seel auf Ro -- sen geht,
-  wenn ich dran ge -- den ke,
-  in dem Him -- mel ei -- ne Stätt
-  mir des -- we -- gen schen - ke!
+  Je -- su, dei -- ne Pas -- si -- on ist mir lau -- _ ter Freu -- de, dei -- ne Wun -- den, Kron und Hohn mei -- nes Her -- zens Wei -- _ de; mei -- ne Seel auf Ro -- sen geht, wenn ich dran ge -- den ke, in dem Him -- mel ei -- ne Stätt mir des -- we -- gen schen -- _ ke!
 }
 
 tenorLyrics = \lyricmode {
-  Je -- su, dei -- ne Pas -- si -- on
-  ist mir lau -- ter Freu - de,
-  dei -- ne Wun -- den, Kron und Hohn
-  mei -- nes Her -- zens Wei - de;
-  mei -- ne Seel auf Ro -- sen geht,
-  wenn ich dran ge -- den - ke,
-  in dem Him -- mel ei -- ne Stätt
-  mir des -- we -- gen schen - ke!
+  Je -- su, dei -- ne Pas -- si -- on ist mir lau -- ter Freu -- _ de, dei -- ne Wun -- den, Kron und Hohn mei -- nes Her -- zens Wei -- _ de; mei -- ne Seel auf Ro -- sen geht, wenn ich dran ge -- den -- _ ke, in dem Him -- mel ei -- ne Stätt mir des -- we -- gen schen -- _ ke!
 }
 
 bassLyrics = \lyricmode {
-  Je -- su, dei -- ne Pas -- si -- on
-  ist mir lau -- ter Freu - de,
-  dei -- ne Wun -- den, Kron und Hohn
-  mei -- nes Her -- zens Wei - de;
-  mei -- ne Seel auf Ro - sen geht,
-  wenn ich dran ge -- den - ke,
-  in dem Him -- mel ei -- ne Stätt
-  mir des -- we -- gen schen -- ke!
+  Je -- su, dei -- ne Pas -- si -- on ist mir lau -- ter Freu -- _ de, dei -- ne Wun -- den, Kron und Hohn mei -- nes Her -- zens Wei -- _ de; mei -- ne Seel auf Ro -- _ sen geht, wenn ich dran ge -- den -- _ ke, in dem Him -- mel ei -- ne Stätt mir des -- we -- gen schen -- ke!
 }
