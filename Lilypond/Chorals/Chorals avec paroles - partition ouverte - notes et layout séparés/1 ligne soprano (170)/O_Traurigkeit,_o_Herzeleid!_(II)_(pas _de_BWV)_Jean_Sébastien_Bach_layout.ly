@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "O_Traurigkeit,_o_Herzeleid!_(II)_(pas _de_BWV)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,7 +27,7 @@
 }
 
 \header {
-  title = "O Traurigkeit, o Herzeleid! (II)"
+  title = "O Traurigkeit, o Herzeleid! (II)m"
   subtitle = \markup{"tiré de la Passion selon saint Marc "\small "(parodie musicale)"}
   opus = "pas de BWV"
   poet = "Auteur : Friedrich von Spee (1591-1635)"

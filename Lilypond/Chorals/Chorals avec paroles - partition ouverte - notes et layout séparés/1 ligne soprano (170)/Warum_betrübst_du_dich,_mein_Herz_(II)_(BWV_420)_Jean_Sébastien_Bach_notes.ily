@@ -16,7 +16,7 @@ altoMusic = {
   \partial 4  e'4
   e' e' e'4. fis'8
   gis'4 a' gis'\fermata a'8 [gis']
-  a'4 a' a' g'~
+  a'4 a' a' g'
   g'8 [f'] e'4 f'\fermata e'
   e' e'8 [b'] c'' b'4 a'8
   gis'2.\fermata e'4
@@ -44,14 +44,14 @@ bassMusic = {
   \partial 4  a,4
   a8 [gis] a4 e8 [d] c4
   b, a, e\fermata a,
-  a~ a8 [g] f [e] d [cis]
+  a a8 [g] f [e] d [cis]
   d4 a, d,\fermata a,
   e8 [d] c [e] fis [gis] a4
   e2.\fermata a,4
   a8 [g] f [e] f [e] g [f]
   e [d] c4 f\fermata c8 [b,]
   a, [gis,] a, [g,] f, [e,] f, [d,]
-  e,2 a,4\fermata \fine
+  e,4 e, a,\fermata \fine
 }
 
 sopranoLyrics = \lyricmode {
@@ -79,5 +79,9 @@ tenorLyrics = \lyricmode {
 }
 
 bassLyrics = \lyricmode {
-  Wa -- rum be -- trübst du dich, mein Herz, be -- küm -- merst dich und trä -- gest Schmerz nur um das zeit -- lich Gut? Ver -- trau' du dei -- nem Her -- ren Gott, der al -- ler Ding er -- schaf -- fen hat.
+  Wa -- rum be -- trübst du dich, mein Herz,
+  be -- küm -- merst dich und trä -- gest Schmerz
+  nur um das zeit -- lich Gut?
+  Ver -- trau' du dei -- nem Her -- ren Gott,
+  der al -- ler Ding er -- schaf -- fen hat.
 }

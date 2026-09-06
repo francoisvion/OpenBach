@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "O_Gott,_du_frommer_Gott_(III)_(BWV_398)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

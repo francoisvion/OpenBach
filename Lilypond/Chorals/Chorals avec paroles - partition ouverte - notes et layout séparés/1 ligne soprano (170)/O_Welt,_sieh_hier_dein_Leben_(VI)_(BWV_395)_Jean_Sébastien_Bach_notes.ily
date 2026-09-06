@@ -30,7 +30,7 @@ altoMusic = {
   \partial 4 fis'
   e' a'8 [gis'] fis'4 e'8 [dis'16 cis']
   fis'2 e'4\fermata b
-  e' fis'8 [gis'] a'2~
+  e' fis'8 [gis'] a'4 a'
   a'4 gis' e'\fermata \fine
 }
 
@@ -74,19 +74,34 @@ sopranoLyrics = \lyricmode {
   O Welt, sieh' hier dein Le -- ben
   am Stamm des Kreu -- zes schwe -- ben,
   dein Heil sinkt in den Tod,
-  der gro -- ∫e Fürst der Eh -- ren
+  der gros -- se Fürst der Eh -- ren
   lässt wil -- lig sich be -- schwe -- ren
-  mit Schlä -- gen, Hohn und gro -- ßem Spott.
+  mit Schlä -- gen, Hohn und gros -- sem Spott.
 }
 
 altoLyrics = \lyricmode {
-  O Welt, sieh' hier dein Le -- _ ben am Stamm des Kreu -- zes schwe -- _ ben, dein Heil sinkt in den Tod, der gro -- ∫e Fürst der Eh -- _ ren lässt wil -- lig sich be -- schwe -- ren mit Schlä -- gen, Hohn und gro -- ßem Spott.
+  O Welt, sieh' hier dein Le -- _ ben
+  am Stamm des Kreu -- zes schwe -- _ ben,
+  dein Heil sinkt in den Tod,
+  der gros -- se Fürst der Eh -- _ ren
+  lässt wil -- lig sich be -- schwe -- ren
+  mit Schlä -- gen, Hohn und gros -- sem Spott.
 }
 
 tenorLyrics = \lyricmode {
-  O Welt, sieh' hier dein Le -- _ ben am Stamm des Kreu -- zes schwe -- _ ben, dein Heil sinkt in den Tod, der gro -- ∫e Fürst der Eh -- _ ren lässt wil -- lig sich be -- schwe -- _ ren mit Schlä -- gen, Hohn und gro -- ßem Spott.
+  O Welt, sieh' hier dein Le -- _ ben
+  am Stamm des Kreu -- zes schwe -- _ ben,
+  dein Heil sinkt in den Tod,
+  der gros -- se Fürst der Eh -- _ ren
+  lässt wil -- lig sich be -- schwe -- _ ren
+  mit Schlä -- gen, Hohn und gros -- sem Spott.
 }
 
 bassLyrics = \lyricmode {
-  O Welt, sieh' hier dein Le -- _ ben am Stamm des Kreu -- zes schwe -- _ ben, dein Heil sinkt in den Tod, der gro -- ∫e Fürst der Eh -- ren lässt wil -- lig sich be -- schwe -- _ ren mit Schlä -- gen, Hohn und gro -- ßem Spott.
+  O Welt, sieh' hier dein Le -- _ ben
+  am Stamm des Kreu -- zes schwe -- _ ben,
+  dein Heil sinkt in den Tod,
+  der gros -- se Fürst der Eh -- ren
+  lässt wil -- lig sich be -- schwe -- _ ren
+  mit Schlä -- gen, Hohn und gro -- ßem Spott.
 }

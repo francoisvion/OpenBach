@@ -35,19 +35,19 @@ altoMusic = {
 }
 
 tenorMusic = {
-  bes4 a~ a8 [g16 fis] g4
+  bes4 a~ a8 g16 [fis] g4
   g8 [a] bes [g] d'4 d'\fermata
-  d' c'~ c'8 [bes16 a] bes4
+  d' c'~ c'8 bes16 [a] bes4
   bes bes bes a
   d'2\fermata
-  \partial 32 * 16  bes4 c'~
+  \partial 32 * 16  bes4 c'
   c' bes g'8 [ees'] f'4
   f' f'\fermata f' f'
   ees'8 [d'] c'4 b c'
   c' b g2\fermata
-  c'4 c' bes bes~
+  c'4 c' bes bes
   bes a bes bes\fermata
-  a8 [c'] c' [bes]~ bes [aes16 g] f4
+  a8 [c'] c' [bes] bes [aes16 g] f4
   g8 [a] bes [ees'] d'4. c'8
   b1\fermata \fine
 }
@@ -64,7 +64,7 @@ bassMusic = {
   c8 [d] ees [f] g4 aes8 [g]
   f4 g c2\fermata
   c'4 fis g d
-  ees f bes,2\fermata
+  ees f bes,4 bes,\fermata
   fis,4 g, c d
   ees d8 [c] d4 d,
   g,1\fermata \fine
@@ -85,13 +85,23 @@ altoLyrics = \lyricmode {
   Ach wie bist du so zer -- schmis -- sen,
   und dein gan -- zer Leib zer -- ris -- _ sen!
   Lass mich dei -- ne Lieb' er -- er -- ben
-  und da -- rin -- nen _ se -- lig ster -- _ ben!
+  und da -- rin -- _ nen se -- lig ster -- _ ben!
 }
 
 tenorLyrics = \lyricmode {
-  Sei ge -- grü -- ßet, Je -- su gü -- tig, ü -- ber al -- les Maß sanft -- mü -- thig! Ach wie bist du so zer -- schmis -- sen, und dein gan -- zer Leib zer -- ris -- _ sen! Lass mich dei -- ne Lieb' er -- er -- ben und da -- rin -- nen se -- lig ster -- _ ben!
+  Sei ge -- grü -- ßet, Je -- su gü -- tig,
+  ü -- ber al -- les Maß sanft -- mü -- _ thig!
+  Ach wie bist du so zer -- schmis -- sen,
+  und dein gan -- zer Leib zer -- ris -- _ sen!
+  Lass mich dei -- ne Lieb' er -- er -- ben
+  und da -- rin -- nen se -- lig ster -- _ ben!
 }
 
 bassLyrics = \lyricmode {
-  Sei ge -- grü -- ßet, Je -- su gü -- tig, ü -- ber al -- les Maß sanft -- mü -- _ thig! Ach wie bist du so zer -- schmis -- sen, und dein gan -- zer Leib zer -- ris -- _ sen! Lass mich dei -- ne Lieb' er -- er -- ben und da -- rin -- nen se -- lig ster -- _ ben!
+  Sei ge -- grü -- ßet, Je -- su gü -- tig,
+  ü -- ber al -- les Maß sanft -- mü -- _ thig!
+  Ach wie bist du so zer -- schmis -- sen,
+  und dein gan -- zer Leib zer -- ris -- _ sen!
+  Lass mich dei -- ne Lieb' er -- er -- ben
+  und da -- rin -- nen se -- lig ster -- _ ben!
 }

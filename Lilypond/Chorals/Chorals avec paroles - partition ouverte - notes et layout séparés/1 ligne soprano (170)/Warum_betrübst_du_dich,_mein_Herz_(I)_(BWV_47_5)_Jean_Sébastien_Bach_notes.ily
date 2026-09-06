@@ -16,10 +16,10 @@ sopranoMusic = {
 
 altoMusic = {
   \partial 4  d'4
-  ees' d'8 [e'] fis'4 g'
-  a' g' fis'\fermata g'
+  ees' d'8 e' fis'4 g'8 g'
+  a'4 g' fis'\fermata g'
   g' f'8 [g'] a'4 b'
-  c'' g' g'\fermata
+  c'' g'8 g' g'4\fermata
   g'
   fis' g' a' d'
   d'2\fermata r4 d'
@@ -32,10 +32,10 @@ altoMusic = {
 
 tenorMusic = {
   \partial 4  g4
-  c' bes8 [c'] d'4 d'
-  d' d' d'\fermata d'8 [c']
+  c' bes8 c' d'4 d'8 d'
+  d'4 d' d'\fermata d'8 [c']
   bes [c'] d' [ees'] f'4 f'
-  g' d' ees'\fermata
+  g' d'8 d' ees'4\fermata
   d'
   d' d' fis g
   fis2\fermata r4 bes8 [c']
@@ -48,10 +48,10 @@ tenorMusic = {
 
 bassMusic = {
   \partial 4  b,4
-  c g, d bes
-  fis g d\fermata g,
+  c8 c g,4 d bes8 bes
+  fis4 g d\fermata g,
   g8 [a] bes4 f d
-  ees8 [f] g4 c\fermata
+  ees8 f g4 c\fermata
   g
   d8 [c] bes,4 a, g,
   d2\fermata r4 g,
@@ -71,13 +71,25 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-      Der zeit -- li -- chen Ehrn will ich gern ent -- behr', du wollst mir nur das Ew -- ge ge -- währn, das du er -- wor -- ben hast durch dei -- nen her -- ben, bit -- tern Tod; Das bitt ich dich, mein Herr und Gott.
+  Der zeit -- li -- chen Ehrn will ich gern ent -- behr',
+  du wollst mir nur das Ew -- ge ge -- währn,
+  das du er -- wor -- ben hast
+  durch dei -- nen her -- ben, bit -- tern Tod;
+  Das bitt ich dich, mein Herr und Gott.
     }
 
 tenorLyrics = \lyricmode {
-      Der zeit -- li -- chen Ehrn will ich gern ent -- behr', du wollst mir nur das Ew -- ge ge -- währn, das du er -- wor -- ben hast durch dei -- nen her -- ben, bit -- tern Tod; Das bitt ich dich, mein Herr und Gott.
+  Der zeit -- li -- chen Ehrn will ich gern ent -- behr',
+  du wollst mir nur das Ew -- ge ge -- währn,
+  das du er -- wor -- ben hast
+  durch dei -- nen her -- ben, bit -- tern Tod;
+  Das bitt ich dich, mein Herr und Gott.
     }
 
 bassLyrics = \lyricmode {
-      Der zeit -- li -- chen Ehrn will ich gern ent -- behr', du wollst mir nur das Ew -- ge ge -- währn, das du er -- wor -- ben hast durch dei -- nen her -- ben, bit -- tern Tod; Das bitt ich dich, mein Herr und Gott.
+  Der zeit -- li -- chen Ehrn will ich gern ent -- behr',
+  du wollst mir nur das Ew -- ge ge -- währn,
+  das du er -- wor -- ben hast
+  durch dei -- nen her -- ben, bit -- tern Tod;
+  Das bitt ich dich, mein Herr und Gott.
     }

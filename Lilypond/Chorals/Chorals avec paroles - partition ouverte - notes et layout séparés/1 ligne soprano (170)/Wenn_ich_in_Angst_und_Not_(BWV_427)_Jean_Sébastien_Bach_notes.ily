@@ -37,16 +37,16 @@ altoMusic = {
 tenorMusic = {
   \partial 4  g8 [aes]
   bes [c'] des'4 c'8 [bes] aes4
-  bes2\fermata r4 bes~
-  bes8 [a] bes2 a4
+  bes2\fermata r4 bes
+  bes8 [a] bes4 bes a
   f2\fermata r4 bes
   bes8 aes4 g f ees8
   d2\fermata r4 g
   g f ees bes
   c' bes bes\fermata d'
   c' bes bes a
-  f2\fermata r4 c'~
-  c'8 bes4 aes g8 g4
+  f2\fermata r4 c'
+  c'8 [bes] bes [aes] aes [g8] g4
   d'8 [c'] c'4 c' bes
   ees8 [f] g [ees] c'4 bes8 [aes]
   g2.\fermata \fine
@@ -61,7 +61,7 @@ bassMusic = {
   aes, bes, c8 [d] ees4
   bes,2\fermata r4 b,
   c d ees g,
-  f, bes, ees,\fermata bes~
+  f, bes, ees,\fermata bes
   bes8 [a] bes4 ees f
   bes,2\fermata r4 c
   g aes ees c
@@ -89,9 +89,19 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Wenn ich in Angst und Noth mein' Au -- gen heb' em -- por zu dei -- nen Ber -- gen, _ Herr! mit Seuf -- zen und mit Fle -- _ hen, so reichst du mir dein Ohr, dass ich nicht darf be -- trübt von dei -- nem Ant -- litz ge -- _ hen.
+  Wenn ich in Angst und Noth
+  mein' Au -- gen heb' em -- por
+  zu dei -- nen Ber -- gen, _ Herr!
+  mit Seuf -- zen und mit Fle -- _ hen,
+  so reichst du mir dein Ohr,
+  dass ich nicht darf be -- trübt von dei -- nem Ant -- litz ge -- _ hen.
 }
 
 bassLyrics = \lyricmode {
-  Wenn ich in Angst und Noth mein' Au -- gen heb' em -- por zu dei -- nen Ber -- gen, Herr! mit Seuf -- zen und mit Fle -- _ hen, so reichst du mir dein Ohr, dass ich nicht darf be -- trübt von dei -- nem Ant -- litz ge -- _ hen.
+  Wenn ich in Angst und Noth
+  mein' Au -- gen heb' em -- por
+  zu dei -- nen Ber -- gen, Herr!
+  mit Seuf -- zen und mit Fle -- _ hen,
+  so reichst du mir dein Ohr,
+  dass ich nicht darf be -- trübt von dei -- nem Ant -- litz ge -- _ hen.
 }

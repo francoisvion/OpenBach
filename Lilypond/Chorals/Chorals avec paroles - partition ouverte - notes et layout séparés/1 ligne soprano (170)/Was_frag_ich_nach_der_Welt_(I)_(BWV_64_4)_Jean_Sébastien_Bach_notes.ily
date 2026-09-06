@@ -3,7 +3,7 @@ sopranoMusic = {
   fis' d' a' a'
   b'2. b'4
   e' e' a' g'
-  fis' d'\fermata r a'
+  fis' d' r a'
   b' b' a' g'
   fis'2. e'4
   fis' gis' a'4. b'8
@@ -23,7 +23,7 @@ altoMusic = {
   d' fis'8 [e'] d'4 a'8 [fis']
   g'2. d'4
   cis'8 [d'] cis' [b] a4 e'
-  d' a\fermata r d'
+  d' a r d'
   d' g' fis' e'
   a2. cis'4
   d' e' e'4. fis'8
@@ -43,7 +43,7 @@ tenorMusic = {
   a a a d'
   d'2. g4
   g4. fis8 e4 a
-  a fis\fermata r a
+  a fis r a
   g8 [a] b4 cis'8 [d'] d' [cis']
   d'2. cis'4
   a b a4. d'8
@@ -63,7 +63,7 @@ bassMusic = {
   d8 [cis] d [e] fis [e] fis [d]
   g2. g,4
   a,8 [g,] a, [b,] cis [b,] cis [a,]
-  d4 d\fermata r fis
+  d4 d r fis
   g e a a,
   d2. a,4
   d8 [cis] d [b,] cis [b,] cis [d]
@@ -90,17 +90,34 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Was frag' ich nach der Welt, und al -- len ih -- ren Schä -- tzen,
-  wenn ich mich nur an dir, mein Je -- su, kann er -- gö -- tzen?
-  Dich hab' ich ein -- zig mir zur Wol -- lust vor -- ge -- stellt: Du, du bist mei -- ne Lust: was frag' ich nach der Welt!
+  Was frag' ich nach der Welt,
+  und al -- len ih -- ren Schä -- tzen,
+  wenn ich mich nur an dir,
+  mein Je -- su, kann er -- gö -- tzen?
+  Dich hab' ich ein -- zig mir
+  zur Wol -- lust vor -- ge -- stellt:
+  Du, du bist mei -- ne Lust:
+  was frag' ich nach der Welt!
 }
 
 tenorLyrics = \lyricmode {
-  Was frag' ich nach der Welt, und al -- len ih -- ren Schä -- tzen,
-  wenn ich mich nur an dir, mein Je -- su, kann er -- gö -- tzen?
-  Dich hab' ich ein -- zig mir zur Wol -- lust vor -- ge -- stellt: Du, du bist mei -- ne Lust: was frag' ich nach der Welt!
+  Was frag' ich nach der Welt,
+  und al -- len ih -- ren Schä -- tzen,
+  wenn ich mich nur an dir,
+  mein Je -- su, kann er -- gö -- tzen?
+  Dich hab' ich ein -- zig mir
+  zur Wol -- lust vor -- ge -- stellt:
+  Du, du bist mei -- ne Lust:
+  was frag' ich nach der Welt!
 }
 
 bassLyrics = \lyricmode {
-  Was frag' ich nach der Welt, und al -- len ih -- ren Schä -- tzen, wenn ich mich nur an dir, mein Je -- su, kann er -- gö -- _ tzen? Dich hab' ich ein -- zig mir zur Wol -- lust vor -- ge -- stellt: Du, du bist mei -- ne Lust: was frag' ich nach der Welt!
+  Was frag' ich nach der Welt,
+  und al -- len ih -- ren Schä -- tzen,
+  wenn ich mich nur an dir, 
+  ein Je -- su, kann er -- gö -- _ tzen?
+  Dich hab' ich ein -- zig mir
+  zur Wol -- lust vor -- ge -- stellt:
+  Du, du bist mei -- ne Lust:
+  was frag' ich nach der Welt!
 }

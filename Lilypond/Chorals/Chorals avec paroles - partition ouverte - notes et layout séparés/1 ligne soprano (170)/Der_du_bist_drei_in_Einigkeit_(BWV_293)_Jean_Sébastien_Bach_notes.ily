@@ -26,14 +26,14 @@ altoMusic = {
 
 tenorMusic = {
   \partial 4  f4
-  g g a g~
+  g g a g
   g fis d\fermata f
-  g g a g~
+  g g a g
   g fis8 [c'] b4\fermata
   \partial 4  c'
   d' g a16 [b] c'4 b8
   c' [bes] a4 a\fermata a
-  g g a g~
+  g g a g
   g fis d\fermata \fine
 }
 
@@ -65,7 +65,10 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Der du bist drei in Ei -- nig -- keit, ein wah -- rer Gott von E -- wig -- keit; die Sonn' mit dem Tag _ von uns weicht, lass uns leuch -- ten dein gött -- lich Licht.
+  Der du bist drei in Ei -- nig -- keit,
+  ein wah -- rer Gott von E -- wig -- keit;
+  die Sonn' mit dem __ _ Tag von uns weicht,
+  lass uns leuch -- ten dein gött -- lich Licht.
 }
 
 bassLyrics = \lyricmode {
