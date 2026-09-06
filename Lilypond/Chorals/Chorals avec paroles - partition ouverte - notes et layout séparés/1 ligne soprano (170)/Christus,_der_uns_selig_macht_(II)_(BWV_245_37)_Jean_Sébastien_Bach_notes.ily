@@ -90,25 +90,11 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  O hilf, Chri -- ste, Got -- tes Sohn,
-  durch dein bit -- ter Lei - den,
-  dass wir der stets un -- ter -- tan
-  all Un -- tu -- gend mei - den,
-  dei -- nen Tod und sein Ur -- sach
-  fruc -- ht -- bar -- lich be -- den -- ken,
-  da -- für, wie -- wohl arm und schwach,
-  dir Dank -- o -- pfer schen - ken. __
+  O hilf, Chri -- ste, Got -- tes Sohn, durch dein bit -- ter Lei - den, dass wir der stets un -- ter -- tan all Un -- tu -- gend mei den, dei -- nen Tod und sein Ur -- sach fruc -- ht -- bar -- lich be -- den -- ken, da -- für, wie -- wohl arm und schwach, dir Dank -- o -- pfer schen ken. __ _ _
 }
 
 tenorLyrics = \lyricmode {
-  O hilf, Chri -- ste, Got -- tes Sohn,
-  durch dein bit -- ter Lei - den,
-  dass wir der stets un -- ter -- tan
-  all Un -- tu -- gend mei - den,
-  dei -- nen Tod und sein Ur -- sach
-  fruc -- ht -- bar -- lich be -- den -- ken,
-  da -- für, wie -- wohl arm und schwach,
-  dir Dank -- o -- pfer schen - ken. __
+  O hilf, Chri -- ste, Got -- tes Sohn, durch dein bit -- ter Lei den, dass wir der stets un -- ter -- tan all Un -- tu -- gend mei - den, dei -- nen Tod und sein Ur -- sach fruc -- ht -- bar -- lich be -- den -- ken, da -- für, wie -- wohl arm und schwach, dir Dank -- o -- pfer schen - ken. __ _ _
 }
 
 bassLyrics = \lyricmode {

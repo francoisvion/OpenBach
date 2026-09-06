@@ -90,13 +90,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Er -- stan -- den ist der heil' -- ge Christ, al -- le -- lu -- ja, __ _ al -- le -- lu - ja! Der al - ler Welt ein Trö - ster ist, al -- le - lu -- ja, al -- le -- lu -- ja!
+  Er -- stan -- den __ _ ist der heil' -- ge Christ, al -- le lu -- ja, _ al -- le -- lu - ja! Der al - ler Welt ein Trö - ster ist, al -- le - lu -- ja, al -- le -- lu -- ja!
 }
 
 tenorLyrics = \lyricmode {
-  Er -- stan - den ist der heil' -- ge Christ, al -- le -- lu -- ja, __ _ al - le -- lu -- ja! Der al -- ler Welt __ _ ein Trö - ster ist, al -- le - lu -- ja, __ _ al -- le - lu -- ja!
+  Er -- stan -- den __ _ ist der heil' -- ge Christ, al -- le lu -- ja, _ al -- le - lu -- ja! Der al -- ler Welt _ ein Trö - ster ist, al -- le - lu -- ja, al - le - lu -- ja!
 }
 
 bassLyrics = \lyricmode {
-  Er -- stan - den ist der __ _ heil' - ge Christ, al -- le - lu -- ja, __ _ al -- le - lu -- ja! Der al -- ler __ _ Welt __ _ ein Trö - ster ist, al -- le - lu -- ja, __ _ al -- le - lu -- ja!
+  Er -- stan -- den __ _ ist _ der heil' - ge Christ, al -- le - lu -- ja, _ al -- le - lu -- ja! Der al - ler Welt _ ein Trö - ster ist, al -- le - lu -- ja, _ al -- le - lu -- ja!
 }

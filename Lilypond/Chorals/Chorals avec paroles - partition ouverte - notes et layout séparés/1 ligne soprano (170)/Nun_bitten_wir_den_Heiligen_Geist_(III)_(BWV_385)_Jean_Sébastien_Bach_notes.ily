@@ -89,19 +89,9 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Nun bit -- ten wir den hei - li - gen Geist
-  um __ den rech -- ten Glau -- ben al -- ler -- meist,
-  dass er uns be -- hü - te
-  an un -- serm En -- de,
-  wenn wir heim fahr'n aus die -- sem E -- len - de.
-  Ky -- ri -- e __ _ e -- leis'.
+  Nun bit -- ten wir den hei - li -- gen _ Geist um __ den rech -- ten Glau -- ben al -- ler -- meist, dass er uns be -- hü - te an un -- serm En -- de, wenn wir heim fahr'n aus die -- sem E -- len - de. Ky -- ri -- e e - leis'.
 }
 
 bassLyrics = \lyricmode {
-  Nun bit -- ten wir den hei -- li -- gen Geist
-  um __ _ den rech -- ten Glau -- ben al -- ler -- meist,
-  dass er uns be -- hü -- te
-  an un -- serm En -- de,
-  wenn wir heim fahr'n aus die -- sem E -- len - de.
-  Ky -- ri -- e e -- leis'.
+  Nun bit -- ten wir den hei li -- gen Geist um __ _ den rech -- ten Glau -- ben al -- ler -- meist, dass er uns be -- hü -- te an un -- serm En -- de, wenn wir heim fahr'n aus die -- sem E -- len - de. Ky -- ri -- e e -- leis'.
 }

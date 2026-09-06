@@ -67,19 +67,11 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Christ, der du bist der hel -- le Tag,
-  vor dir die Nacht nicht blei -- ben mag;
-  du leuch -- test uns vom Va -- ter her 
-  und bist des Lich -- tes Pre -- di -- ger, 
-  und bist des Lich -- tes Pre - di -- ger.
+  Christ, der du bist der hel -- le Tag, vor dir die Nacht nicht blei -- ben mag; du leuch -- test uns vom Va -- ter her und bist des Lich -- tes Pre -- di -- ger, und bist des Lich -- tes Pre -- di - ger.
 }
 
 tenorLyrics = \lyricmode {
-  Christ, der du bist der hel -- le - Tag,
-  vor dir die Nacht nicht blei -- ben mag;
-  du leuch -- test uns vom Va -- ter her
-  und bist des Lich -- tes Pre -- di -- ger,
-  und bist des Lich -- tes Pre -- di -- ger.
+  Christ, der du bist der hel -- le _ Tag, vor dir die Nacht nicht blei -- ben mag; du leuch -- test uns vom Va -- ter her und bist des Lich -- tes Pre -- di -- ger, und bist des Lich -- tes Pre -- di -- ger.
 }
 
 bassLyrics = \lyricmode {

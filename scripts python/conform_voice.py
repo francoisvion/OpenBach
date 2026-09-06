@@ -233,20 +233,35 @@ def lyric_tokens(body):
 
 
 def lyric_tokens_with_hyphens(body):
-    """Like lyric_tokens, but also returns a parallel list of booleans:
+    """Like lyric_tokens, but also returns two parallel lists of booleans:
     hyphen_after[i] is True if tokens[i] is immediately followed by a
-    '--' hyphen-join marker in the source (same word, next syllable)."""
+    '--' hyphen-join marker in the source (same word, next syllable).
+    underline_after[i] is True if tokens[i] is immediately followed by a
+    '__' marker -- confirmed by the user: "__" draws the extender line
+    under the PRECEDING syllable but consumes NO note of its own (unlike
+    "_", which consumes exactly one note with no line drawn). "__" can
+    appear after any token, real word or "_" placeholder alike, and does
+    NOT require a following "_" ("word __ next" is valid: it just draws
+    the line from "word" onward). Both '--' and '__' are therefore
+    stripped from `tokens` here, same as ties are invisible in the note
+    stream -- they never consume a note-slot on their own."""
     raw = body.split()
     tokens = []
     hyphen_after = []
+    underline_after = []
     for tok in raw:
         if tok == "--":
             if hyphen_after:
                 hyphen_after[-1] = True
             continue
+        if tok == "__":
+            if underline_after:
+                underline_after[-1] = True
+            continue
         tokens.append(tok)
         hyphen_after.append(False)
-    return tokens, hyphen_after
+        underline_after.append(False)
+    return tokens, hyphen_after, underline_after
 
 
 def split_lyric_periods(tokens):
@@ -310,23 +325,35 @@ def align_period(ref_durs, tgt_events):
     return mapping
 
 
-def build_corrected_tokens(ref_tokens, mapping, hyphen_after=None):
+def build_corrected_tokens(ref_tokens, mapping, hyphen_after=None, underline_after=None):
     """ref_tokens: soprano's REAL consuming tokens for this period (words and
-    placeholders, in order, count == number of ref notes for this period).
+    placeholders, in order, count == number of ref notes for this period;
+    "--" and "__" markers are NOT in here -- lyric_tokens_with_hyphens
+    already stripped them into hyphen_after/underline_after, since neither
+    consumes a note of its own).
     mapping: for each target note, which ref token index it maps to.
     hyphen_after: optional parallel list to ref_tokens; hyphen_after[i] is
     True if ref_tokens[i] was followed by a '--' hyphen-join in soprano's
     source text (same word, next syllable) -- re-inserted between two
     consecutive first-occurrences with no placeholder in between.
+    underline_after: optional parallel list to ref_tokens; underline_after[i]
+    is True if ref_tokens[i] was followed by a '__' extender-line marker in
+    soprano's source text -- re-inserted right after that token wherever it
+    is emitted (unlike "--", it doesn't need the next output token to be
+    any particular thing: "__" just says "draw the line here").
     Produces the new token list for the target voice's period: the ref
     token appears once (on its first occurrence), subsequent target notes
     mapping to the same ref index get a placeholder continuation token."""
     if hyphen_after is None:
         hyphen_after = [False] * len(ref_tokens)
+    if underline_after is None:
+        underline_after = [False] * len(ref_tokens)
     out = []
     seen = set()
-    first_occurrence_idx = []  # parallel to out: ref idx if this out entry
-                                 # was a first-occurrence real word, else None
+    first_occurrence_idx = []  # parallel to out: ref idx this out entry
+                                 # corresponds to (real word OR a ref-side
+                                 # placeholder), else None for a locally
+                                 # invented placeholder with no ref idx.
     pending = []  # real-word ref indices due but not yet placed (deferred
                    # from an earlier target event that had more than one new
                    # syllable due at once) -- NEVER combined into a quoted
@@ -344,7 +371,7 @@ def build_corrected_tokens(ref_tokens, mapping, hyphen_after=None):
         tok = ref_tokens[idx]
         if tok == "-":
             return True
-        if tok in ("_", "__"):
+        if tok == "_":
             return False
         if hyphen_after[idx]:
             return True
@@ -361,11 +388,12 @@ def build_corrected_tokens(ref_tokens, mapping, hyphen_after=None):
         new_indices = [idx for idx in covered if idx not in seen]
         seen.update(new_indices)
         # a ref index that is ITSELF a bare placeholder (soprano already
-        # wrote "-"/"_"/"__" there) carries no word -- never combine it
-        # with a real word, just silently absorb it (needs no separate
+        # wrote "-"/"_" there -- "__" never appears here, it was already
+        # stripped into underline_after) carries no word -- never combine
+        # it with a real word, just silently absorb it (needs no separate
         # representation of its own).
-        real_new = [idx for idx in new_indices if ref_tokens[idx] not in ("-", "_", "__")]
-        placeholder_new = [idx for idx in new_indices if ref_tokens[idx] in ("-", "_", "__")]
+        real_new = [idx for idx in new_indices if ref_tokens[idx] not in ("-", "_")]
+        placeholder_new = [idx for idx in new_indices if ref_tokens[idx] in ("-", "_")]
         pending.extend(real_new)
         if pending:
             idx = pending.pop(0)
@@ -385,14 +413,17 @@ def build_corrected_tokens(ref_tokens, mapping, hyphen_after=None):
             # the same event) -- regressed the verified pool further
             # (96->80). Bug #2 is still open; don't retry this exact swap.
             out.append(ref_tokens[placeholder_new[0]])
-            first_occurrence_idx.append(None)
+            first_occurrence_idx.append(placeholder_new[0])
             last_ref_pos = placeholder_new[-1]
         else:
             # this whole target event is a passing tone with NO reference
             # counterpart at all (a genuinely extra target note) -- extend
-            # whatever word was last assigned. "-"/"--" is ONLY for
+            # whatever word was last assigned. This invented placeholder
+            # always consumes exactly the 1 note it stands for, so it's
+            # "-" or "_" (never "__" alone -- that consumes 0 and would be
+            # a decoration with nothing under it). "-" is ONLY for
             # splitting one word across syllables still to come; once that
-            # word is complete, any further extension must use "_"/"__".
+            # word is complete, any further extension must use "_".
             out.append("-" if word_still_open(last_ref_pos) else "_")
             first_occurrence_idx.append(None)
 
@@ -405,29 +436,39 @@ def build_corrected_tokens(ref_tokens, mapping, hyphen_after=None):
         first_occurrence_idx.append(idx)
 
     # re-insert "--" between two adjacent first-occurrences of consecutive
-    # ref indices, when soprano had a hyphen-join there.
+    # ref indices, when soprano had a hyphen-join there; re-insert "__"
+    # right after any token whose ref idx had one, no adjacency condition
+    # needed (unlike "--", "__" doesn't care what comes next).
     result = []
     for i, tok in enumerate(out):
         result.append(tok)
         cur_idx = first_occurrence_idx[i]
-        if cur_idx is None or not hyphen_after[cur_idx]:
+        if cur_idx is None:
+            continue
+        if underline_after[cur_idx]:
+            result.append("__")
+        if not hyphen_after[cur_idx]:
             continue
         if i + 1 < len(out) and first_occurrence_idx[i + 1] == cur_idx + 1:
             result.append("--")
     return result
 
 
-def verbatim_with_hyphens(tokens, hyphen_after):
+def verbatim_with_hyphens(tokens, hyphen_after, underline_after=None):
     """Reproduce a token list exactly as it would appear in real source
-    text, reinserting the "--" hyphen-join markers between consecutive
-    tokens per hyphen_after. Used when a period can't be reconciled and we
-    fall back to a literal copy of the reference words -- without this,
-    the fallback silently drops every "--" (lyric_tokens_with_hyphens
-    strips them out into the separate hyphen_after array in the first
-    place, so a plain list(tokens) never has them)."""
+    text, reinserting the "--" hyphen-join and "__" extender-line markers
+    between consecutive tokens per hyphen_after/underline_after. Used when
+    a period can't be reconciled and we fall back to a literal copy of the
+    reference words -- without this, the fallback silently drops every
+    "--"/"__" (lyric_tokens_with_hyphens strips them out into the separate
+    arrays in the first place, so a plain list(tokens) never has them)."""
+    if underline_after is None:
+        underline_after = [False] * len(tokens)
     out = []
     for i, tok in enumerate(tokens):
         out.append(tok)
+        if i < len(underline_after) and underline_after[i]:
+            out.append("__")
         if i < len(hyphen_after) and hyphen_after[i]:
             out.append("--")
     return out

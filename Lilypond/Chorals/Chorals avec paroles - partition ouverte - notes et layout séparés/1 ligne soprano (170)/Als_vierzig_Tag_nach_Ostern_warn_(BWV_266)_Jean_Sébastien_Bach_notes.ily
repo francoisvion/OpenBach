@@ -108,28 +108,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Als vier -- zig Tag' nach O - - - stern war'n
-  und Chri -- stus wollt' __ _ gen Him - mel fahr'n,
-  b'schied er sein' Jün - ger auf ein Berg,
-  auf __ _ ein Berg,
-  vol -- len - det da __ _ sein Amt und Werk. __ _
-  Hal - - le - lu -- ja!
+  Als vier -- zig Tag' nach O - - - stern war'n und Chri - stus wollt' __ _ gen Him -- mel fahr'n, b'schied er sein' Jün - ger auf ein Berg, auf __ _ ein Berg, vol -- len - det da _ sein Amt und Werk. _ Hal - - le - lu -- ja!
 }
 
 tenorLyrics = \lyricmode {
-  Als vier -- zig Tag' __ _ nach O - - - - stern war'n
-  und Chri - stus wollt' __ _ gen Him - mel fahr'n,
-  b'schied er sein' Jün - ger auf ein Berg,
-  auf __ _ ein Berg,
-  vol -- len -- det da sein Amt und Werk.
-  Hal - - le - lu -- ja!
+  Als vier -- zig Tag' _ nach O - - - - stern war'n und Chri - stus wollt' __ _ gen Him - mel fahr'n, b'schied er sein' Jün - ger auf ein Berg, auf __ _ ein Berg, vol -- len -- det da sein Amt und Werk. Hal - - le - lu -- ja!
 }
 
 bassLyrics = \lyricmode {
-  Als vier -- zig Tag' __ _ nach O - - - - stern war'n
-  und Chri - stus wollt' __ _ gen Him - mel fahr'n,
-  b'schied er __ _ sein' Jün -- ger auf __ _ ein Berg,
-  auf __ _ ein Berg,
-  vol -- len - det da __ _ sein Amt __ _ und Werk.
-  Hal - - le - lu -- ja!
+  Als vier -- zig Tag' _ nach O - - - - stern war'n und Chri - stus wollt' __ _ gen Him - mel fahr'n, b'schied er _ sein' Jün -- ger auf _ ein Berg, auf __ _ ein Berg, vol -- len - det da _ sein Amt _ und Werk. Hal - - le - lu -- ja!
 }

@@ -66,10 +66,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Je -- sus Chris - - tus, un -- ser Hei - land,
-  der von uns den Got -- tes -- zorn __ _ _ _ wandt,
-  durch das bit -- ter Lei - - den sein
-  half er uns aus der Höl - - len -- pein.
+  Je -- sus Chris - - tus, un -- ser Hei - land, der von uns den Got -- tes -- zorn __ _ _ _ wandt, durch das bit -- ter Lei - - den sein half er uns aus der Höl - - len - pein.
 }
 
 tenorLyrics = \lyricmode {

@@ -21,7 +21,19 @@ sopranoLyrics, applying the rules mined from the 39-file verified pool:
           writing: BWV_1084, BWV_387, BWV_437 -- not yet confirmed whether
           they have a genuine non-beam use of "[ ]" or a different,
           still-undiagnosed issue).
-  Loi 3 - "-" for mid-word continuation, "_"/"__" for held-completed-syllable.
+  Loi 3 - "-" for mid-word continuation (consumes 1 note); "_" for a
+          held-completed-syllable (consumes 1 note, no line drawn); "__"
+          draws the extender line under the PRECEDING token but consumes
+          NO note of its own (confirmed by the user) -- "__" can follow
+          any token, real word or "_"/"-" alike, with or without a "_"
+          right after it. Treated exactly like "--" (also 0-consuming):
+          stripped out during tokenization into a parallel underline_after
+          array, reinserted verbatim wherever it was (see
+          lyric_tokens_with_hyphens/build_corrected_tokens/
+          verbatim_with_hyphens in conform_voice.py). Getting this wrong
+          (treating "__" as 1-consuming, as earlier code did) silently
+          overcounts every period containing "__", which explains a good
+          share of the diffs mined out this session.
   Loi 4 - identical rhythm at same instant => identical syllable (handled
           naturally by onset-based alignment).
   Loi 5 - extra notes vs soprano => local placeholder exactly where the extra
@@ -315,21 +327,22 @@ def _reconcile_soprano_legacy(music_body, n_tokens):
 
 
 def reconcile_soprano(music_body, lyrics_body, allow_trailing_surplus=False):
-    """Returns (periods_events, periods_tokens, periods_hyphens, leftover,
-    convention) where each period's token slice length exactly equals its
-    event slice length, and `leftover` is any harmless trailing surplus
-    (real \\lyricsto silently ignores unused tokens after the last note --
-    proven empirically, but only safe when explicitly confirmed per file
-    via allow_trailing_surplus -- see ALLOW_TRAILING_SURPLUS). Raises
-    RefMismatch if the surplus/deficit falls BEFORE the last period (a
-    real, non-trailing problem), if no choice reconciles, or if there IS a
-    leftover but it wasn't explicitly allowed.
+    """Returns (periods_events, periods_tokens, periods_hyphens,
+    periods_underlines, leftover, convention) where each period's token
+    slice length exactly equals its event slice length, and `leftover` is
+    any harmless trailing surplus (real \\lyricsto silently ignores unused
+    tokens after the last note -- proven empirically, but only safe when
+    explicitly confirmed per file via allow_trailing_surplus -- see
+    ALLOW_TRAILING_SURPLUS). Raises RefMismatch if the surplus/deficit
+    falls BEFORE the last period (a real, non-trailing problem), if no
+    choice reconciles, or if there IS a leftover but it wasn't explicitly
+    allowed.
 
     `convention` is "beam" in the normal case (beam_events() -- see its
     docstring for why that's just how LilyPond works, not a per-piece
     choice) or "collapse"/"raw" for the rare _reconcile_soprano_legacy
     fallback; target voices must use the SAME one (see events_for_voice)."""
-    tokens, hyphen_after = lyric_tokens_with_hyphens(lyrics_body)
+    tokens, hyphen_after, underline_after = lyric_tokens_with_hyphens(lyrics_body)
     n_tokens = len(tokens)
 
     final_events = beam_events(music_body)
@@ -339,7 +352,7 @@ def reconcile_soprano(music_body, lyrics_body, allow_trailing_surplus=False):
 
     periods_events = split_periods(final_events)
 
-    periods_tokens, periods_hyphens = [], []
+    periods_tokens, periods_hyphens, periods_underlines = [], [], []
     pos = 0
     for pe in periods_events:
         n = len(pe)
@@ -351,6 +364,7 @@ def reconcile_soprano(music_body, lyrics_body, allow_trailing_surplus=False):
             )
         periods_tokens.append(tokens[pos:pos + n])
         periods_hyphens.append(hyphen_after[pos:pos + n])
+        periods_underlines.append(underline_after[pos:pos + n])
         pos += n
 
     leftover = tokens[pos:]
@@ -360,7 +374,7 @@ def reconcile_soprano(music_body, lyrics_body, allow_trailing_surplus=False):
             f"-- not in ALLOW_TRAILING_SURPLUS, needs explicit per-file confirmation "
             f"before assuming it's a harmless repeated word rather than real missing content"
         )
-    return periods_events, periods_tokens, periods_hyphens, leftover, convention
+    return periods_events, periods_tokens, periods_hyphens, periods_underlines, leftover, convention
 
 
 def events_for_voice(music_body, convention):
@@ -402,7 +416,7 @@ def process_file(path, report):
         return None
 
     try:
-        ref_periods_events, ref_token_periods, ref_hyphen_periods, leftover, convention = reconcile_soprano(
+        ref_periods_events, ref_token_periods, ref_hyphen_periods, ref_underline_periods, leftover, convention = reconcile_soprano(
             sop_music, sop_lyrics, allow_trailing_surplus=path.name in ALLOW_TRAILING_SURPLUS
         )
     except RefMismatch as e:
@@ -457,15 +471,15 @@ def process_file(path, report):
         n_extra_periods = 0
         n_combined_periods = 0
         n_unresolved_periods = 0
-        for pi, (rp_events, rp_tokens, rp_hyphens, tp_events) in enumerate(
-            zip(ref_periods_events, ref_token_periods, ref_hyphen_periods, tgt_periods)
+        for pi, (rp_events, rp_tokens, rp_hyphens, rp_underlines, tp_events) in enumerate(
+            zip(ref_periods_events, ref_token_periods, ref_hyphen_periods, ref_underline_periods, tgt_periods)
         ):
             ref_durs = [e["dur"] for e in rp_events]
             resolved = True
             try:
                 mapping = align_period(ref_durs, tp_events)
-                new_tokens = build_corrected_tokens(rp_tokens, mapping, rp_hyphens)
-                n_real = sum(1 for t in new_tokens if t != "--")
+                new_tokens = build_corrected_tokens(rp_tokens, mapping, rp_hyphens, rp_underlines)
+                n_real = sum(1 for t in new_tokens if t not in ("--", "__"))
                 if n_real != len(tp_events):
                     raise DeficitError(f"note count mismatch after build ({n_real} vs {len(tp_events)})")
             except DeficitError as e:
@@ -476,7 +490,7 @@ def process_file(path, report):
                 # OTHER period in this voice still gets written correctly.
                 report.append((path.name, voice, f"UNRESOLVED period {pi} (kept ref words verbatim, needs manual check): {e}"))
                 n_unresolved_periods += 1
-                new_tokens = verbatim_with_hyphens(rp_tokens, rp_hyphens)
+                new_tokens = verbatim_with_hyphens(rp_tokens, rp_hyphens, rp_underlines)
                 resolved = False
             if resolved and n_real != len(rp_tokens):
                 n_extra_periods += 1
