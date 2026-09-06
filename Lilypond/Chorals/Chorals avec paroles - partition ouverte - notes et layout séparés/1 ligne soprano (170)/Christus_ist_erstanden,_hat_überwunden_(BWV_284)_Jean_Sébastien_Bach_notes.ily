@@ -87,7 +87,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Chri -- stus ist er -- stan -- _ den, hat ü -- ber -- wun -- _ den, Gnad' ist nun vor -- han den, Wahr -- heit wird fun -- den. _ Da -- rum, lie -- ben Leu -- _ te, freut euch heu -- _ te, lo -- bet eu -- ren Her -- _ ren, Je -- sum, den Kö -- nig der Eh -- _ ren.
+  Chri -- stus ist er -- stan -- _ den, hat ü -- ber -- wun -- _ den, Gnad' ist nun vor -- han den, Wahr -- heit wird fun -- den. Da -- rum, lie -- ben Leu -- _ te, freut euch heu -- _ te, lo -- bet eu -- ren Her -- _ ren, Je -- sum, den Kö -- nig der Eh -- _ ren.
 }
 
 bassLyrics = \lyricmode {

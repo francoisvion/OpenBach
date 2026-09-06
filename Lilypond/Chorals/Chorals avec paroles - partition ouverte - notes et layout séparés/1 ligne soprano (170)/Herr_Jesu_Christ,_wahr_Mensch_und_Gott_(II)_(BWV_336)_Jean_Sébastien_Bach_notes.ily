@@ -58,9 +58,9 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Herr Je -- su Christ, wahr'r Mensch _ und Gott,
+  Herr Je -- su Christ, wahr'r Mensch und Gott,
   der du litt'st Mar -- ter, Angst und Spott,
-  für mich am Kreuz auch end -- lich starbst _
+  für mich am Kreuz auch end -- lich starbst
   und mir dein's Va -- ters Huld er -- _ warbst.
 }
 

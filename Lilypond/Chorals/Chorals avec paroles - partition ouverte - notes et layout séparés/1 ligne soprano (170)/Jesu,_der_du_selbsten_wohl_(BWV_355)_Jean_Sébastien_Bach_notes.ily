@@ -90,7 +90,7 @@ altoLyrics = \lyricmode {
   hast den Tod ge -- schme -- _ cket,
   hilf mir, wenn ich ster -- ben soll,
   wenn der Tod mich schre -- _ cket:
-  wenn mich mein Ge -- wis -- _ sen nagt _
+  wenn mich mein Ge -- wis -- sen nagt _
   und die Sün -- den pla -- _ gen,
   wenn der _ Sa -- tan mich ver -- klagt,
   lass mich nicht ver -- za -- _ gen.

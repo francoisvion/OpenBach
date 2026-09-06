@@ -187,7 +187,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Ky -- _ ri -- _ e! Gott Va -- ter in E -- wig -- keit! Groß ist dein Barm -- her -- zig -- keit, al -- ler Ding ein Schöp -- fer und Re -- gie -- _ rer! E -- _ _ _ le -- i -- _ son! _ _ Chri -- _ _ ste, _ _ al -- _ ler Welt Trost! uns Sün -- der al -- lein du hast er -- _ löst; Je -- _ _ su Got -- tes Sohn! _ Un -- ser Mitt -- _ ler bist in dem höch -- sten Thron, zu dir schrei -- en wir aus Her -- zens -- be -- _ _ gier! E -- _ _ _ le -- i -- son! _ _ Ky -- ri -- e! Gott hei -- _ li -- ger Geist! Tröst', stärk' uns im Glau -- ben al -- ler meist, dass wir am letz -- _ ten End' fröh -- lich ab -- schei -- den aus _ die -- sem _ E -- _ _ lend! E -- _ _ _ le -- i -- son! _ _ _
+  Ky -- _ ri -- _ e! Gott Va -- ter in E -- wig -- keit! Groß ist dein Barm -- her -- zig -- keit, al -- ler Ding ein Schöp -- fer und Re -- gie -- _ rer! E -- _ _ _ le -- i -- _ son! _ _ Chri -- _ _ ste, _ _ al -- _ ler Welt Trost! uns Sün -- der al -- lein du hast er -- löst; Je -- _ _ su Got -- tes Sohn! _ Un -- ser Mitt -- _ ler bist in dem höch -- sten Thron, zu dir schrei -- en wir aus Her -- zens -- be -- _ _ gier! E -- _ _ _ le -- i -- son! _ _ Ky -- ri -- e! Gott hei -- _ li -- ger Geist! Tröst', stärk' uns im Glau -- ben al -- ler meist, dass wir am letz -- _ ten End' fröh -- lich ab -- schei -- den aus _ die -- sem _ E -- _ _ lend! E -- _ _ _ le -- i -- son! _ _ _
 }
 
 bassLyrics = \lyricmode {

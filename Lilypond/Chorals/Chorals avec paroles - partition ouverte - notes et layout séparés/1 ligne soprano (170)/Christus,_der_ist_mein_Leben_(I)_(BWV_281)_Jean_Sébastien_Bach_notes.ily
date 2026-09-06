@@ -68,7 +68,7 @@ tenorLyrics = \lyricmode {
 }
 
 bassLyrics = \lyricmode {
-  Chris -- tus, der ist mein Le -- ben
+  Chris -- tus, der ist mein Le -- _ ben
   und Ster -- ben mein Ge -- winn;
   dem thu' ich mich er -- ge -- _ ben,
   mit Freud' fahr' ich da -- hin.

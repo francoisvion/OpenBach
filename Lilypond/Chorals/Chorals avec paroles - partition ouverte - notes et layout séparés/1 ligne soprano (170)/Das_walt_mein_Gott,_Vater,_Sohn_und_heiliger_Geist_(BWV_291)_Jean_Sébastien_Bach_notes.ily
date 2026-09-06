@@ -67,7 +67,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Das walt' mein Gott, Va -- ter, Sohn und heil' -- _ ger Geist,
+  Das walt' mein Gott, Va -- ter, Sohn und heil' -- ger Geist,
   der mich er -- schaf -- fen hat,
   mir Lieb und Seel ge -- ge -- ben
   im Mut -- ter -- leib das Le -- _ ben,

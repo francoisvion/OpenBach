@@ -75,7 +75,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Da der Herr Christ zu Ti -- sche saß, zu -- letzt das O -- ster -- lämm -- lein aß, und wollt' von hin -- nen Schei -- _ den, sein'n Jüng -- ern er treu -- lich be -- _ fahl, dass man all -- zeit ver -- künd' -- gen soll sein'n Tod _ und bit -- ter Lei -- _ den. _
+  Da der Herr Christ zu Ti -- sche saß, zu -- letzt das O -- ster -- lämm -- lein aß, und wollt' von hin -- nen Schei -- _ den, sein'n Jüng -- ern er treu -- lich be -- _ fahl, dass man all -- zeit ver -- künd' -- gen soll sein'n Tod und bit -- ter Lei -- _ den. _
 }
 
 tenorLyrics = \lyricmode {

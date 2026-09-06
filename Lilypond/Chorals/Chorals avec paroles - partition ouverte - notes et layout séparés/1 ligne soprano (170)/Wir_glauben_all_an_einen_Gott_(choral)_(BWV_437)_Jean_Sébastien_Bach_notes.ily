@@ -143,11 +143,11 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Wir __ _ _ _ _ _ glau -- ben all' __ _ an ei -- nen Gott, Schöp -- fer Him -- mels und der Er -- _ _ den, der sich zum Va -- ter ge -- ben hat, dass wir sei -- ne Kin -- der wer -- _ _ den. Er will uns all -- zeit er -- näh -- ren, _ Seel' und Leib auch wohl be -- wah -- _ ren, al -- lem Un -- fall will er weh -- _ ren, _ kein _ Leid _ _ soll uns wi -- der -- fah -- ren, er _ sor -- _ _ _ _ get für uns, hütt __ _ _ _ _ _ _ und wacht; __ _ _ _ es steht _ Al -- les in sei -- _ ner Macht.
+  Wir __ _ _ _ _ _ glau -- ben all' __ _ an ei -- nen Gott, Schöp -- fer Him -- mels und der Er -- _ _ den, der sich zum Va -- ter ge -- ben hat, dass wir sei -- ne Kin -- der wer -- _ den. Er will uns all -- zeit er -- näh -- ren, _ Seel' und Leib auch wohl be -- wah -- _ ren, al -- lem Un -- fall will er weh -- _ ren, _ kein Leid _ _ soll uns wi -- der -- fah -- ren, er _ sor -- _ _ _ _ get für uns, hütt __ _ _ _ _ _ _ und wacht; __ _ _ _ es steht _ Al -- les in sei -- _ ner Macht.
 }
 
 tenorLyrics = \lyricmode {
-  Wir __ _ _ _ _ glau -- ben all' __ _ _ an ei -- nen Gott, Schöp -- fer Him -- mels und der _ Er -- _ _ den, der sich zum Va -- ter ge -- ben hat, dass wir sei -- ne Kin -- der wer -- _ den. Er will uns all -- zeit er -- näh -- _ _ ren, Seel' und Leib auch wohl be -- wah -- _ ren, al -- lem Un -- fall will er weh -- _ ren, kein _ Leid soll uns wi -- der -- fah -- ren, er _ sor -- _ _ _ _ get für _ uns, _ hütt __ _ _ _ _ _ _ und wacht; __ _ _ _ es steht Al -- _ les in sei -- ner Macht. _
+  Wir __ _ _ _ glau -- ben all' __ _ an ei -- nen Gott, Schöp -- fer Him -- mels und der _ Er -- _ _ den, der sich zum Va -- ter ge -- ben hat, dass wir sei -- ne Kin -- der wer -- _ den. Er will uns all -- zeit er -- näh -- _ _ ren, Seel' und Leib auch wohl be -- wah -- _ ren, al -- lem Un -- fall will er weh -- _ ren, kein _ Leid soll uns wi -- der -- fah -- ren, er _ sor -- _ _ _ _ get für uns, _ hütt __ _ _ _ _ _ _ und wacht; __ _ _ _ es steht Al -- _ les in sei -- ner Macht.
 }
 
 bassLyrics = \lyricmode {
