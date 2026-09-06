@@ -27,7 +27,16 @@ def extract_var(text, name):
 
 
 NOTE_RE = re.compile(
-    r"^([a-grs](?:is|es)*)([',]*)[!?]*(\d+)?(\.*)(~?)(\\[a-zA-Z]+)?$", re.IGNORECASE
+    # Dutch note names: "es" (E-flat) and "as" (A-flat) are irregular
+    # elisions -- NOT decomposable as base-letter + "es"-suffix (that
+    # decomposition only works for their redundant spellings "ees"/"aes")
+    # -- must be matched as their own root before the generic letter+
+    # suffix* pattern, or they silently fail to match at all and the note
+    # gets dropped from the event stream entirely (found via BWV_274: a
+    # deficit that didn't exist -- "es'8" as a bracket opener was being
+    # skipped, mis-attributing the bracket to the PRECEDING note).
+    r"^((?:as|es|[a-grs])(?:is|es)*)([',]*)[!?]*(\d+)?(\.*)(~?)(\\[a-zA-Z]+)?$",
+    re.IGNORECASE,
 )
 
 
@@ -67,15 +76,20 @@ def tokenize_events(body):
         if tok == "]":
             in_bracket = False
             continue
-        # NOTE: tried treating a standalone "~" (e.g. from "[b']~", where
-        # the [ ] spacing pass above separates the tie from its note) as
-        # marking events[-1] tied, PLUS a rule in groups_to_events that
-        # never collapses a bracket group touched by such a tie. Together
-        # they correctly fix BWV_1089/BWV_285, but net-net still regress
-        # the verified pool 96->90 (BWV_284 tenor, BWV_283 bass newly break
-        # with the same 1-placeholder-off symptom) -- there is a further,
-        # different bug (likely the same pending-queue/placeholder-priority
-        # issue seen on BWV_363) that needs fixing first. Reverted both.
+        if tok == "~":
+            # a tie right after "]" (e.g. "[b]~") lands here as its own
+            # token once the [ ] spacing pass above separates it from its
+            # note -- mark the note we just closed as tied. NOTE: an
+            # earlier attempt at this (see git history) paired it with an
+            # extra "never collapse a bracket group touched by a tie" rule
+            # in the old groups_to_events()/collapse-raw model and
+            # regressed the verified pool -- that rule doesn't apply here:
+            # beam_events() already merges tie-touching groups correctly
+            # at the group level (see its docstring), so this plain flag
+            # set is the complete, minimal fix under the current model.
+            if events:
+                events[-1]["is_tie"] = True
+            continue
         if tok.startswith("\\"):
             if "fermata" in tok and events:
                 events[-1]["is_fermata"] = True
