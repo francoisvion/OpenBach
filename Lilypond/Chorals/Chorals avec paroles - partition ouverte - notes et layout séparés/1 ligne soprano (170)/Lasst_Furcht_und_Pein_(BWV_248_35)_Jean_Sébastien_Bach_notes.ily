@@ -69,13 +69,31 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Seid froh, die -- weil, seid froh, die -- weil dass eu -- er Heil ist hier ein Gott und auch ein Mensch ge -- bo -- _ ren, der wel -- cher ist der Herr und Christ in Da -- vids Stadt, von vie -- len aus -- er -- ko -- ren.
+  Seid froh, die -- weil,
+  seid froh, die -- weil
+  dass eu -- er Heil
+  ist hier ein Gott und auch ein Mensch ge -- bo -- _ ren,
+  der wel -- cher ist
+  der Herr und Christ
+  in Da -- vids Stadt, von vie -- len aus -- er -- ko -- ren.
 }
 
 tenorLyrics = \lyricmode {
-  Seid froh, die -- weil, seid froh, die -- weil dass eu -- er Heil ist hier ein Gott und auch ein Mensch ge -- bo -- _ ren, der wel -- cher ist der Herr und Christ in Da -- _ vids Stadt, von vie -- len aus -- er -- ko -- _ ren.
+  Seid froh, die -- weil,
+  seid froh, die -- weil
+  dass eu -- er Heil
+  ist hier ein Gott und auch ein Mensch ge -- bo -- _ ren,
+  der wel -- cher ist
+  der Herr und Christ
+  in Da -- _ vids Stadt, von vie -- len aus -- er -- ko -- _ ren.
 }
 
 bassLyrics = \lyricmode {
-  Seid froh, die -- weil, seid froh, die -- weil dass eu -- er Heil ist hier ein Gott und auch ein Mensch _ ge -- bo -- _ ren, der wel -- cher ist der Herr und Christ in Da -- vids Stadt, von vie -- len aus -- er -- ko -- _ ren.
+  Seid froh, die -- weil,
+  seid froh, die -- weil
+  dass eu -- er Heil
+  ist hier ein Gott und auch ein Mensch _ ge -- bo -- _ ren,
+  der wel -- cher ist
+  der Herr und Christ
+  in Da -- vids Stadt, von vie -- len aus -- er -- ko -- _ ren.
 }

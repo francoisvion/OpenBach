@@ -70,19 +70,34 @@ sopranoLyrics = \lyricmode {
   O Welt, sieh' hier dein Le -- ben
   am Stamm des Kreu -- zes schwe -- ben,
   dein Heil sinkt in den Tod,
-  der gro -- ße Fürst der Eh -- ren
+  der gros -- se Fürst der Eh -- ren
   lässt wil -- lig sich be -- schwe -- ren
-  mit Schlä -- gen, Hohn und gro -- ßem Spott.
+  mit Schlä -- gen, Hohn und gros -- sem Spott.
 }
 
 altoLyrics = \lyricmode {
-  O Welt, sieh' hier dein Le -- _ ben am Stamm des Kreu -- zes schwe -- _ ben, dein Heil sinkt in den Tod, der gro -- ße Fürst der Eh -- _ ren lässt wil -- lig sich be -- schwe -- _ ren mit Schlä -- gen, Hohn und gro -- ßem Spott.
+  O Welt, sieh' hier dein Le -- _ ben
+  am Stamm des Kreu -- zes schwe -- _ ben,
+  dein Heil sinkt in den Tod,
+  der gros -- se Fürst der Eh -- _ ren
+  lässt wil -- lig sich be -- schwe -- _ ren
+  mit Schlä -- gen, Hohn und gros -- sem Spott.
 }
 
 tenorLyrics = \lyricmode {
-  O Welt, sieh' hier dein Le -- _ ben am Stamm des Kreu -- zes schwe -- _ ben, dein Heil sinkt in den Tod, der gro -- ße Fürst der Eh -- _ _ ren lässt wil -- lig sich be -- schwe -- _ _ ren mit Schlä -- gen, Hohn und gro -- ßem _ Spott.
+  O Welt, sieh' hier dein Le -- _ ben
+  am Stamm des Kreu -- zes schwe -- _ ben,
+  dein Heil sinkt in den Tod,
+  der gros -- se Fürst der Eh -- _ _ ren
+  lässt wil -- lig sich be -- schwe -- _ _ ren
+  mit Schlä -- gen, Hohn und gros -- _ sem Spott.
 }
 
 bassLyrics = \lyricmode {
-  O Welt, sieh' hier dein Le -- _ ben am Stamm des Kreu -- zes schwe -- _ ben, dein Heil sinkt in den Tod, der gro -- ße Fürst der Eh -- _ ren lässt wil -- lig sich be -- schwe -- _ ren mit Schlä -- gen, Hohn und gro -- ßem Spott.
+  O Welt, sieh' hier dein Le -- _ ben
+  am Stamm des Kreu -- zes schwe -- _ ben,
+  dein Heil sinkt in den Tod,
+  der gros -- se Fürst der Eh -- _ ren
+  lässt wil -- lig sich be -- schwe -- _ ren
+  mit Schlä -- gen, Hohn und gros -- sem Spott.
 }

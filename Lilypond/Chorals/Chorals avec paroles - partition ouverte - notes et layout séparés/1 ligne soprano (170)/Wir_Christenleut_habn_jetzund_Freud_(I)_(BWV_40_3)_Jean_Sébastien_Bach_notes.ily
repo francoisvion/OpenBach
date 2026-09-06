@@ -69,13 +69,31 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Die Sünd macht Leid; die Sünd macht Leid; Chris -- tus bringt Freud, weil er zu uns in die -- se Welt ist kom -- _ men. Mit uns ist Gott in die -- ser Not: Wer ist, der jetzt uns Chris -- ten kann ver -- dam -- _ men?
+  Die Sünd macht Leid;
+  die Sünd macht Leid;
+  Chris -- tus bringt Freud,
+  weil er zu uns in die -- se Welt ist kom -- _ men.
+  Mit uns ist Gott
+  in die -- ser Not:
+  Wer ist, der jetzt uns Chris -- ten kann ver -- dam -- _ men?
 }
 
 tenorLyrics = \lyricmode {
-  Die Sünd macht Leid; die Sünd macht Leid; Chris -- tus bringt Freud, weil er zu uns in die -- se Welt ist kom -- _ men. Mit uns ist Gott in die -- ser Not: Wer ist, der jetzt uns Chris -- ten kann ver -- dam -- _ men?
+  Die Sünd macht Leid;
+  die Sünd macht Leid;
+  Chris -- tus bringt Freud,
+  weil er zu uns in die -- se Welt ist kom -- _ men.
+  Mit uns ist Gott
+  in die -- ser Not:
+  Wer ist, der jetzt uns Chris -- ten kann ver -- dam -- _ men?
 }
 
 bassLyrics = \lyricmode {
-  Die Sünd macht Leid; die Sünd macht Leid; Chris -- tus bringt Freud, weil er zu uns in die -- se Welt ist kom -- _ men. Mit uns ist Gott in die -- ser Not: Wer ist, der jetzt uns Chris -- ten kann ver -- dam -- _ men?
+  Die Sünd macht Leid;
+  die Sünd macht Leid;
+  Chris -- tus bringt Freud,
+  weil er zu uns in die -- se Welt ist kom -- _ men.
+  Mit uns ist Gott
+  in die -- ser Not:
+  Wer ist, der jetzt uns Chris -- ten kann ver -- dam -- _ men?
 }

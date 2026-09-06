@@ -55,13 +55,25 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  O Trau -- rig -- keit, o Her -- ze -- leid! Ist das nicht zu be -- kla -- _ gen? Got -- tes Va -- ters ei -- nigs Kind wird zu Grab ge -- tra -- _ gen.
+  O Trau -- rig -- keit,
+  o Her -- ze -- leid!
+  Ist das nicht zu be -- kla -- _ gen?
+  Got -- tes Va -- ters ei -- nigs Kind
+  wird zu Grab ge -- tra -- _ gen.
 }
 
 tenorLyrics = \lyricmode {
-  O Trau -- rig -- keit, o Her -- ze -- leid! Ist das nicht zu be -- kla -- _ gen? Got -- tes Va -- ters ei -- nigs Kind wird zu Grab _ ge -- tra -- _ gen.
+  O Trau -- rig -- keit,
+  o Her -- ze -- leid!
+  Ist das nicht zu be -- kla -- _ gen?
+  Got -- tes Va -- ters ei -- nigs Kind
+  wird zu Grab _ ge -- tra -- _ gen.
 }
 
 bassLyrics = \lyricmode {
-  O Trau -- rig -- keit, o Her -- ze -- leid! Ist das nicht zu be -- kla -- _ gen? Got -- tes Va -- ters ei -- nigs Kind wird zu Grab ge -- tra -- _ gen.
+  O Trau -- rig -- keit,
+  o Her -- ze -- leid!
+  Ist das nicht zu be -- kla -- _ gen?
+  Got -- tes Va -- ters ei -- nigs Kind
+  wird zu Grab ge -- tra -- _ gen.
 }

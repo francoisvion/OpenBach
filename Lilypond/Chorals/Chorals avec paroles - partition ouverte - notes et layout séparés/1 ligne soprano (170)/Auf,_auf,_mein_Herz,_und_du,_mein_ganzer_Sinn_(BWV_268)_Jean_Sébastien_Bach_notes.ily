@@ -68,13 +68,28 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Auf, auf, mein Herz, und du, mein gan -- zer Sinn, wirf Al -- les das, was Welt ist, von dir hin; im Fall du willst, was gött -- lich ist, er -- lan -- _ gen. so lass den Leib, in dem du bist, ge -- _ fan -- _ gen.
+  Auf, auf, mein Herz,
+  und du, mein gan -- zer Sinn,
+  wirf Al -- les das, was Welt ist, von dir hin;
+  im Fall du willst,
+  was gött -- lich ist, er -- lan -- _ gen.
+  so lass den Leib, in dem du bist, ge -- _ fan -- _ gen.
 }
 
 tenorLyrics = \lyricmode {
-  Auf, auf, mein Herz, und du, mein gan -- zer Sinn, wirf Al -- les das, was Welt ist, von dir hin; im Fall du willst, was gött -- lich ist, er -- lan -- _ gen. so lass den Leib, in dem du bist, ge -- fan -- _ gen.
+  Auf, auf, mein Herz,
+  und du, mein gan -- zer Sinn,
+  wirf Al -- les das, was Welt ist, von dir hin;
+  im Fall du willst,
+  was gött -- lich ist, er -- lan -- _ gen.
+  so lass den Leib, in dem du bist, ge -- fan -- _ gen.
 }
 
 bassLyrics = \lyricmode {
-  Auf, auf, mein Herz, und du, mein gan -- zer Sinn, wirf Al -- les das, was Welt ist, von dir hin; im Fall du willst, was gött -- lich ist, er -- lan -- _ gen. so lass den Leib, in dem du bist, ge -- fan -- _ gen.
+  Auf, auf, mein Herz,
+  und du, mein gan -- zer Sinn,
+  wirf Al -- les das, was Welt ist, von dir hin;
+  im Fall du willst,
+  was gött -- lich ist, er -- lan -- _ gen.
+  so lass den Leib, in dem du bist, ge -- fan -- _ gen.
 }

@@ -78,13 +78,34 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Die Sonn' hat sich mit ih -- rem Glanz ge -- wen -- _ det und, was sie soll, auf die -- sen Tag woll en -- _ det; die dun -- kle Nacht dringt al -- lent -- hal -- ben zu, bringt Men -- schen, Vieh und al -- le Welt zur Ruh'.
+  Die Sonn' hat sich
+  mit ih -- rem Glanz ge -- wen -- _ det
+  und, was sie soll,
+  auf die -- sen Tag woll en -- _ det;
+  die dun -- kle Nacht
+  dringt al -- lent -- hal -- ben zu,
+  bringt Men -- schen, Vieh
+  und al -- le Welt zur Ruh'.
 }
 
 tenorLyrics = \lyricmode {
-  Die Sonn' hat sich mit ih -- rem Glanz ge -- wen -- _ _ det und, was sie soll, auf die -- sen Tag woll en -- _ det; die dun -- kle Nacht dringt al -- lent -- hal -- ben zu, bringt Men -- schen, Vieh und al -- le Welt zur Ruh'.
+  Die Sonn' hat sich
+  mit ih -- rem Glanz ge -- wen -- _ _ det
+  und, was sie soll,
+  auf die -- sen Tag woll en -- _ det;
+  die dun -- kle Nacht
+  dringt al -- lent -- hal -- ben zu,
+  bringt Men -- schen, Vieh
+  und al -- le Welt zur Ruh'.
 }
 
 bassLyrics = \lyricmode {
-  Die Sonn' hat sich mit ih -- rem Glanz ge -- wen -- _ det und, was sie soll, auf die -- sen Tag woll en -- _ det; die dun -- kle Nacht dringt al -- lent -- hal -- ben zu, bringt Men -- schen, Vieh und al -- le Welt zur Ruh'.
+  Die Sonn' hat sich
+  mit ih -- rem Glanz ge -- wen -- _ det
+  und, was sie soll,
+  auf die -- sen Tag woll en -- _ det;
+  die dun -- kle Nacht
+  dringt al -- lent -- hal -- ben zu,
+  bringt Men -- schen, Vieh
+  und al -- le Welt zur Ruh'.
 }

@@ -54,13 +54,22 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Als Je -- sus Chri -- stus in der Nacht, da -- rin er ward ver -- ra -- _ then, auf un -- ser Heil war ganz be -- dacht, das -- selb' uns zu er -- stat -- _ ten.
+  Als Je -- sus Chri -- stus in der Nacht,
+  da -- rin er ward ver -- ra -- _ then,
+  auf un -- ser Heil war ganz be -- dacht,
+  das -- selb' uns zu er -- stat -- _ ten.
 }
 
 tenorLyrics = \lyricmode {
-  Als Je -- sus Chri -- stus in der Nacht, da -- rin er ward ver -- ra -- _ then, auf un -- ser Heil war ganz be -- dacht, das -- selb' uns zu er -- stat -- _ ten.
+  Als Je -- sus Chri -- stus in der Nacht,
+  da -- rin er ward ver -- ra -- _ then,
+  auf un -- ser Heil war ganz be -- dacht,
+  das -- selb' uns zu er -- stat -- _ ten.
 }
 
 bassLyrics = \lyricmode {
-  Als Je -- sus Chri -- stus in der Nacht, da -- rin er ward ver -- ra -- _ then, auf un -- ser _ Heil war _ ganz be -- dacht, das -- selb' uns zu er -- stat -- ten.
+  Als Je -- sus Chri -- stus in der Nacht,
+  da -- rin er ward ver -- ra -- _ then,
+  auf un -- ser _ Heil war _ ganz be -- dacht,
+  das -- selb' uns zu er -- stat -- ten.
 }

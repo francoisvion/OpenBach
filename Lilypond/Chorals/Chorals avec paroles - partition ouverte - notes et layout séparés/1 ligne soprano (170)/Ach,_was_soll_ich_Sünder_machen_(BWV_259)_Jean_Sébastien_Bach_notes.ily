@@ -68,7 +68,12 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Ach, was soll ich Sün -- der ma -- chen? Ach was soll ich fan -- gen an, mein Ge -- wis -- sen klagt mich an, es be -- gin -- net auf -- zu -- wa -- chen: dies is mei -- ne _ Zu -- ver -- sicht, mei -- nen Je -- sum lass' ich nicht.
+  Ach, was soll ich Sün -- der ma -- chen?
+  Ach was soll ich fan -- gen an,
+  mein Ge -- wis -- sen klagt mich an,
+  es be -- gin -- net auf -- zu -- wa -- chen:
+  dies is mei -- ne _ Zu -- ver -- sicht,
+  mei -- nen Je -- sum lass' ich nicht.
 }
 
 tenorLyrics = \lyricmode {

@@ -67,7 +67,11 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Gott hat das E -- van -- ge -- li -- um ge -- ge -- ben, dass wir wer -- den fromm; die Welt acht' sol -- _ chen Schatz nicht hoch, der meh -- rer' Theil fragt nichts dar -- nach, das ist ein Zei -- chen vor dem jüng -- sten Tag.
+  Gott hat das E -- van -- ge -- li -- um
+  ge -- ge -- ben, dass wir wer -- den fromm;
+  die Welt acht' sol -- _ chen Schatz nicht hoch,
+  der meh -- rer' Theil fragt nichts dar -- nach,
+  das ist ein Zei -- chen vor dem jüng -- sten Tag.
 }
 
 tenorLyrics = \lyricmode {

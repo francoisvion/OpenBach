@@ -69,11 +69,23 @@ sopranoLyrics = \lyricmode {Al -- le -- lu -- ja!
 }
 
 altoLyrics = \lyricmode {
-  Al -- le -- lu -- ja! Al -- le -- lu -- ja! Ge -- lobt sei Gott, sin -- gen wir all aus un -- sers Her -- zens Grun -- _ de. Denn Gott hat heut ge -- macht solch Freud, die wir ver -- ges -- sen solln zu kei -- ner Stun -- _ de.
+  Al -- le -- lu -- ja!
+  Al -- le -- lu -- ja!
+  Ge -- lobt sei Gott,
+  sin -- gen wir all aus un -- sers Her -- zens Grun -- _ de.
+  Denn Gott hat heut
+  ge -- macht solch Freud,
+  die wir ver -- ges -- sen solln zu kei -- ner Stun -- _ de.
 }
 
 tenorLyrics = \lyricmode {
-  Al -- le -- lu -- ja! Al -- le -- lu -- ja! Ge -- lobt sei Gott, sin -- gen wir all aus un -- sers Her -- zens Grun -- _ de. Denn Gott hat heut ge -- macht solch Freud, die wir ver -- ges -- sen solln zu kei -- ner Stun -- _ de.
+  Al -- le -- lu -- ja!
+  Al -- le -- lu -- ja!
+  Ge -- lobt sei Gott,
+  sin -- gen wir all aus un -- sers Her -- zens Grun -- _ de.
+  Denn Gott hat heut
+  ge -- macht solch Freud,
+  die wir ver -- ges -- sen solln zu kei -- ner Stun -- _ de.
 }
 
 bassLyrics = \lyricmode {

@@ -56,13 +56,28 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Ach Gott und Herr, wie groß und schwer sind mein' be -- gang -- ne__ Sün -- den! Da ist Nie -- mand, der hel -- fen kann, in die -- ser Welt zu fin -- _ den.
+  Ach Gott und Herr,
+  wie groß und schwer
+  sind mein' be -- gang -- ne__ Sün -- den!
+  Da ist Nie -- mand,
+  der hel -- fen kann,
+  in die -- ser Welt zu fin -- _ den.
 }
 
 tenorLyrics = \lyricmode {
-  Ach Gott und Herr, wie groß und schwer sind mein' be -- gang -- ne__ Sün -- _ den! Da ist Nie -- mand, der hel -- fen kann, in die -- ser Welt zu fin -- _ den.
+  Ach Gott und Herr,
+  wie groß und schwer
+  sind mein' be -- gang -- ne__ Sün -- _ den!
+  Da ist Nie -- mand,
+  der hel -- fen kann,
+  in die -- ser Welt zu fin -- _ den.
 }
 
 bassLyrics = \lyricmode {
-  Ach Gott und Herr, wie groß und schwer sind mein' be -- gang -- ne__ Sün -- _ den! Da ist Nie -- mand, der hel -- fen kann, in die -- ser Welt zu fin -- _ den.
+  Ach Gott und Herr,
+  wie groß und schwer
+  sind mein' be -- gang -- ne__ Sün -- _ den!
+  Da ist Nie -- mand,
+  der hel -- fen kann,
+  in die -- ser Welt zu fin -- _ den.
 }

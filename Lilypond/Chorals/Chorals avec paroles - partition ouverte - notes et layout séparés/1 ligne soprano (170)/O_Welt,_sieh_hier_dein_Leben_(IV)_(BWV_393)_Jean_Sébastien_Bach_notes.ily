@@ -21,7 +21,7 @@ altoMusic = {
   a'8 [gis'] a'4 gis'8 fis'4 e'8
   e'4 dis' e'\fermata e'8 [d']
   cis'4 e' e' a'
-  gis'2.\fermata gis'4~
+  gis'2.\fermata gis'4
   gis'8 fis'4 e'8 e'4 fis'
   fis'2 fis'4\fermata e'
   e'8 [fis'] gis'4 fis' e'
@@ -66,19 +66,34 @@ sopranoLyrics = \lyricmode {
   O Welt, sieh' hier dein Le -- ben
   am Stamm des Kreu -- zes schwe -- ben,
   dein Heil sinkt in den Tod,
-  der gro -- ße Fürst der Eh -- ren
+  der gros -- se Fürst der Eh -- ren
   lässt wil -- lig sich be -- schwe -- ren
-  mit Schlä -- gen, Hohn und gro -- ßem Spott.
+  mit Schlä -- gen, Hohn und gros -- sem Spott.
 }
 
 altoLyrics = \lyricmode {
-  O Welt, sieh' hier dein Le -- _ ben am Stamm des Kreu -- zes _ schwe -- _ ben, dein Heil sinkt in den Tod, der gro -- ße Fürst der Eh -- ren lässt wil -- lig sich be -- schwe -- ren mit Schlä -- gen, Hohn und gro -- ßem Spott.
+  O Welt, sieh' hier dein Le -- _ ben
+  am Stamm des Kreu -- _ zes schwe -- _ ben,
+  dein Heil sinkt in den Tod,
+  der gros -- _ se Fürst der Eh -- ren
+  lässt wil -- lig sich be -- schwe -- ren
+  mit Schlä -- gen, Hohn und gros -- sem Spott.
 }
 
 tenorLyrics = \lyricmode {
-  O Welt, sieh' hier dein Le -- _ ben am Stamm des Kreu -- zes schwe -- _ ben, dein Heil sinkt in den Tod, der gro -- ße Fürst der Eh -- _ ren lässt wil -- lig sich be -- schwe -- _ ren mit Schlä -- gen, Hohn und gro -- ßem Spott.
+  O Welt, sieh' hier dein Le -- _ ben
+  am Stamm des Kreu -- zes schwe -- _ ben,
+  dein Heil sinkt in den Tod,
+  der gros -- se Fürst der Eh -- _ ren
+  lässt wil -- lig sich be -- schwe -- _ ren
+  mit Schlä -- gen, Hohn und gros -- sem Spott.
 }
 
 bassLyrics = \lyricmode {
-  O Welt, sieh' hier dein Le -- _ ben am Stamm des Kreu -- zes schwe -- ben, dein Heil sinkt in den Tod, der gro -- ße Fürst der Eh -- ren lässt wil -- lig sich be -- schwe -- _ ren mit Schlä -- gen, Hohn und _ gro -- ßem Spott.
+  O Welt, sieh' hier dein Le -- _ ben
+  am Stamm des Kreu -- zes schwe -- ben,
+  dein Heil sinkt in den Tod,
+  der gros -- se Fürst der Eh -- ren
+  lässt wil -- lig sich be -- schwe -- _ ren
+  mit Schlä -- gen, Hohn und _ gros -- sem Spott.
 }

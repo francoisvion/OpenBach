@@ -90,13 +90,22 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Vor dei -- nen Thron tret' ich hier -- _ mit, o Gott, und dich _ de -- mü -- tig _ bitt': wend' dein ge -- nä -- _ dig An -- ge -- _ sicht von mir dem ar -- men Sün -- der, nicht.
+  Vor dei -- nen Thron tret' ich hier -- _ mit,
+  o Gott, und dich _ de -- mü -- tig _ bitt':
+  wend' dein ge -- nä -- _ dig An -- ge -- _ sicht
+  von mir dem ar -- men Sün -- der, nicht.
 }
 
 tenorLyrics = \lyricmode {
-  Vor dei -- nen Thron tret' ich hier -- mit, o Gott, und dich _ de -- mü -- tig _ bitt': wend' dein ge -- nä -- _ dig An -- ge -- _ sicht von mir dem ar -- men Sün -- der, _ nicht.
+  Vor dei -- nen Thron tret' ich hier -- mit,
+  o Gott, und dich _ de -- mü -- tig _ bitt':
+  wend' dein ge -- nä -- _ dig An -- ge -- _ sicht
+  von mir dem ar -- men Sün -- der, _ nicht.
 }
 
 bassLyrics = \lyricmode {
-  Vor dei -- _ nen Thron _ tret' ich hier -- _ mit, o Gott, und dich _ de -- mü -- tig _ bitt': wend' dein ge -- nä -- _ dig An -- ge -- _ sicht von mir _ dem ar -- _ men Sün -- der, _ nicht.
+  Vor dei -- _ nen Thron _ tret' ich hier -- _ mit,
+  o Gott, und dich _ de -- mü -- tig _ bitt':
+  wend' dein ge -- nä -- _ dig An -- ge -- _ sicht
+  von mir _ dem ar -- _ men Sün -- der, _ nicht.
 }

@@ -71,13 +71,25 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Dein Blut, der ed -- le Saft, hat sol -- che Stärk und Kraft, dass auch ein Tröpf -- lein klei -- ne die gan -- ze Welt könnt rei -- _ ne, ja, gar aus Teu -- fels Ra -- chen frei, los und le -- dig ma -- _ chen.
+  Dein Blut, der ed -- le Saft,
+  hat sol -- che Stärk und Kraft,
+  dass auch ein Tröpf -- lein klei -- ne die gan -- ze Welt könnt rei -- _ ne,
+  ja, gar aus Teu -- fels Ra -- chen
+  frei, los und le -- dig ma -- _ chen.
 }
 
 tenorLyrics = \lyricmode {
-  Dein Blut, der ed -- le Saft, hat sol -- che Stärk und Kraft, dass auch ein Tröpf -- lein klei -- ne die gan -- ze Welt könnt rei -- _ ne, ja, gar aus Teu -- fels Ra -- chen frei, los und le -- dig ma -- _ chen.
+  Dein Blut, der ed -- le Saft,
+  hat sol -- che Stärk und Kraft,
+  dass auch ein Tröpf -- lein klei -- ne die gan -- ze Welt könnt rei -- _ ne,
+  ja, gar aus Teu -- fels Ra -- chen
+  frei, los und le -- dig ma -- _ chen.
 }
 
 bassLyrics = \lyricmode {
-  Dein Blut, der ed -- le Saft, hat sol -- che Stärk und Kraft, dass auch ein Tröpf -- lein klei -- _ ne die gan -- ze Welt könnt rei -- _ ne, ja, gar aus Teu -- fels Ra -- _ chen frei, los und le -- dig ma -- _ chen.
+  Dein Blut, der ed -- le Saft,
+  hat sol -- che Stärk und Kraft,
+  dass auch ein Tröpf -- lein klei -- _ ne die gan -- ze Welt könnt rei -- _ ne,
+  ja, gar aus Teu -- fels Ra -- _ chen
+  frei, los und le -- dig ma -- _ chen.
 }

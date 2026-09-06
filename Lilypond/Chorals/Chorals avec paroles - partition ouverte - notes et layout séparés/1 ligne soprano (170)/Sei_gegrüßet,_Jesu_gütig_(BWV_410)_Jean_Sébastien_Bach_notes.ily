@@ -80,7 +80,12 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Sei ge -- grü -- ßet, Je -- su gü -- tig, ü -- ber al -- les Maß sanft -- mü -- thig! Ach wie bist du so zer -- schmis -- sen, und dein gan -- zer Leib zer -- ris -- _ sen! Lass mich dei -- ne Lieb' er -- er -- ben und da -- rin -- nen _ se -- lig ster -- _ ben!
+  Sei ge -- grü -- ßet, Je -- su gü -- tig,
+  ü -- ber al -- les Maß sanft -- mü -- thig!
+  Ach wie bist du so zer -- schmis -- sen,
+  und dein gan -- zer Leib zer -- ris -- _ sen!
+  Lass mich dei -- ne Lieb' er -- er -- ben
+  und da -- rin -- nen _ se -- lig ster -- _ ben!
 }
 
 tenorLyrics = \lyricmode {

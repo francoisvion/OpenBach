@@ -66,13 +66,22 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  O wie se -- lig seid ihr doch, ihr From -- _ men, die ihr durch den Tod zu Gott ge -- kom -- _ men! Ihr seid ent -- gan -- _ _ gen al -- ler Noth, die uns noch hält ge -- fan -- _ gen.
+  O wie se -- lig seid ihr doch, ihr From -- _ men,
+  die ihr durch den Tod zu Gott ge -- kom -- _ men!
+  Ihr seid ent -- gan -- _ _ gen
+  al -- ler Noth, die uns noch hält ge -- fan -- _ gen.
 }
 
 tenorLyrics = \lyricmode {
-  O wie se -- lig seid ihr doch, ihr From -- _ men, die ihr durch den Tod zu Gott ge -- kom -- _ men! Ihr seid ent -- gan -- _ gen al -- ler Noth, die uns noch hält ge -- fan -- _ gen.
+  O wie se -- lig seid ihr doch, ihr From -- _ men,
+  die ihr durch den Tod zu Gott ge -- kom -- _ men!
+  Ihr seid ent -- gan -- _ gen
+  al -- ler Noth, die uns noch hält ge -- fan -- _ gen.
 }
 
 bassLyrics = \lyricmode {
-  O wie se -- lig seid ihr doch, ihr From -- _ men, die ihr durch den Tod zu Gott ge -- kom -- men! Ihr seid ent -- gan -- _ gen al -- ler Noth, die uns noch hält ge -- fan -- _ gen.
+  O wie se -- lig seid ihr doch, ihr From -- _ men,
+  die ihr durch den Tod zu Gott ge -- kom -- men!
+  Ihr seid ent -- gan -- _ gen
+  al -- ler Noth, die uns noch hält ge -- fan -- _ gen.
 }
