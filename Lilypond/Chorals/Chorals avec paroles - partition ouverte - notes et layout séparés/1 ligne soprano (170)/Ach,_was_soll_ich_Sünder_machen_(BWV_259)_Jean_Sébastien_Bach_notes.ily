@@ -40,7 +40,7 @@ tenorMusic = {
   d'8 [ c'] b4 e'8 d'4 e'8~
   e' c' a [d'16 c'] b2\fermata
   cis'4 d'8 [c'] b4 b8 [c']~
-  c'a fis [b16 a] gis2\fermata \fine
+  c' a fis [b16 a] gis2\fermata \fine
 }
 
 bassMusic = {
@@ -51,7 +51,7 @@ bassMusic = {
   fis8 [e] d [c] b, [dis] e [c]
   a, [fis,] b,4 e,2\fermata
   e,8 [fis,] g, [a,] b, [cis] d [b,]
-  e cis fis4 b,2\fermata
+  e [cis] fis4 b, b,\fermata
   b8 [a] g [fis] e [fis] g [e]
   c [a,] d4 g,2\fermata
   g4 fis8 [e]  dis4 e8 [c]
@@ -72,12 +72,17 @@ altoLyrics = \lyricmode {
   Ach was soll ich fan -- gen an,
   mein Ge -- wis -- sen klagt mich an,
   es be -- gin -- net auf -- zu -- wa -- chen:
-  dies is mei -- ne _ Zu -- ver -- sicht,
+  dies is mei -- _ ne Zu -- ver -- sicht,
   mei -- nen Je -- sum lass' ich nicht.
 }
 
 tenorLyrics = \lyricmode {
-  Ach, was soll ich Sün -- der ma -- chen? Ach was soll ich fan -- gen an, mein Ge -- wis -- sen klagt _ mich an, es be -- gin -- net auf -- zu -- wa -- chen: dies is mei -- ne Zu -- _ ver -- sicht, mei -- nen Je -- sum lass' ich nicht.
+  Ach, was soll ich Sün -- der ma -- chen?
+  Ach was soll ich fan -- gen an,
+  mein Ge -- wis -- sen klagt mich an,
+  es be -- gin -- net auf -- zu -- wa -- chen:
+  dies is mei -- _ ne Zu -- ver -- sicht,
+  mei -- nen Je -- sum lass' ich nicht.
 }
 
 bassLyrics = \lyricmode {
