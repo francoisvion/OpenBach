@@ -24,7 +24,7 @@ altoMusic = {
   e'8 [d'] e' [fis'] g'4. fis'8
   d'2\fermata r4 g'8 [f']
   e'4 fis' g'8 [dis'] e' [d']~
-  d' g'4 fis' e' dis'8
+  d' g'4 fis'8~fis' e'4 dis'8
   b2.\fermata \fine
 }
 
@@ -36,7 +36,7 @@ tenorMusic = {
   g8 [a16 b] c'4 d'8 [e'16 d'] c' [b c'8]
   b4~ b8. [a16] g2\fermata
   b8 [c'] d'4 c' g
-  g c' d'~ d'8. [c'16]
+  g c' d'~ d'8. c'16
   b2\fermata r4 d'
   c'8 [b] a4 g8 [c'] b [a]
   g [d'] e' [b] b4 c'8 [b16 a]
@@ -44,11 +44,11 @@ tenorMusic = {
 }
 
 bassMusic = {
-  e4~ e8 [d] c2
+  e4. d8 c2
   b,8 [a] g [fis] e [d] c [b,]
   ais,4 b, e,2\fermata
   e8 [d] c4 b, c~
-  c8 [b,] a,4 g, a,
+  c8 b, a,4 g, a,
   b,2 e\fermata
   e4 b, c8 [d] e [d]
   c [b,] a,4 g, d
@@ -60,28 +60,28 @@ bassMusic = {
 
 sopranoLyrics = \lyricmode {
   Je -- sus Chris - - tus, un -- ser Hei - land,
-  der von uns den Got -- tes -- zorn__ _ _ _ wandt,
+  der von uns den Got -- tes -- zorn __ _ _ _ wandt,
   durch das bit -- ter Lei - - den sein
   half er uns aus der Höl - - len -- pein.
 }
 
 altoLyrics = \lyricmode {
   Je -- sus Chris - - tus, un -- ser Hei - land,
-  der von uns den Got -- tes -- zorn__ _ _ _ wandt,
+  der von uns den Got -- tes -- zorn __ _ _ _ wandt,
   durch das bit -- ter Lei - - den sein
-  half er uns aus der Höl - - len - pein.
+  half er uns aus der Höl - - len -- pein.
 }
 
 tenorLyrics = \lyricmode {
   Je -- sus Chris - - tus, un -- ser Hei - land,
-  der von uns den Got -- tes -- zorn__ _ _ _ wandt,
+  der von uns den Got -- tes -- zorn __ _ _ wandt,
   durch das bit -- ter Lei - - den sein
   half er uns aus der Höl - - len -- pein.
 }
 
 bassLyrics = \lyricmode {
   Je -- sus Chris - tus, un -- ser Hei - land,
-  der von uns den Got -- tes -- zorn__ _ _ wandt,
+  der von uns den Got -- tes -- zorn __ _ _ wandt,
   durch das bit -- ter Lei - - den sein
   half er uns aus der Höl - - len -- pein.
 }

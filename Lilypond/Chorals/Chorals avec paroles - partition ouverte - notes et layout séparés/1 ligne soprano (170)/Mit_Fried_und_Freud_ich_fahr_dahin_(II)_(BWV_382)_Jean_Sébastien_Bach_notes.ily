@@ -18,7 +18,7 @@ altoMusic = {
   \partial 4  a4
   d' f' e' fis'8 [gis']
   a'4. gis'8 e'4\fermata a'~
-  a'8 [gis'] a'4 f' e'8 [d']
+  a'8 gis' a'4 f' e'8 [d']
   c'2.\fermata g'4
   g' g' g' f'
   e'8 [d'] cis'4 a\fermata e'8 [d']
@@ -77,7 +77,7 @@ altoLyrics = \lyricmode {
   ge -- trost ist mir mein Herz und Sinn,
   sanft _ und stil - le.
   Wie Gott mir ver - hei -- ßen hat,
-  der Tod ist mein Schlaf wor - den. _ _
+  der Tod ist mein Schlaf wor - - den.
 }
 
 tenorLyrics = \lyricmode {
@@ -86,7 +86,7 @@ tenorLyrics = \lyricmode {
   ge -- trost ist mir mein Herz und Sinn,
   sanft _ und _ stil le.
   Wie Gott mir ver -- hei -- ßen hat,
-  der Tod ist mein Schlaf wor den. _
+  der Tod ist mein Schlaf wor - den.
 }
 
 bassLyrics = \lyricmode {

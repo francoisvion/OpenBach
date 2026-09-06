@@ -27,7 +27,7 @@ altoMusic = {
   fis'4. e'8 e' [dis'] e'4
   e' dis' b2\fermata
   e'4 e' fis'8 [gis'] a' [b']~
-  b' [a'16 gis'] a'4 a' gis'\fermata
+  b' a'16 [gis'] a'4 a' gis'\fermata
   fis' g' fis' fis'
   fis'8 [e'] fis'4 b2\fermata
   cis'8 a'4 gis'8 a'4. gis'8~
@@ -47,10 +47,10 @@ tenorMusic = {
   cis' b8 [a] gis2\fermata
   a8 [b] cis' [b] a [gis] fis [e]
   e'4 e' e'2\fermata
-  cis'8 [d'] e'2 d'8 [cis']
+  cis'8 [d'] e'4 e' d'8 [cis']
   b [gis] a [b16 a] gis2\fermata
   a8 [cis'] d' [b] e' [fis'] b [e'16 d']
-  cis'4~ cis'8. [b16] a2\fermata
+  cis'4~ cis'8. b16 a2\fermata
   d'4 e' d'8 [b] cis' [e']
   fis' [d'] b [e'16 d'] cis'2\fermata \fine
 }
@@ -90,7 +90,7 @@ altoLyrics = \lyricmode {
   hast den Tod ge -- schme - cket,
   hilf mir, wenn ich ster -- ben soll,
   wenn der Tod mich schre - cket:
-  wenn mich mein Ge -- wis -- sen nagt _
+  wenn mich mein Ge -- wis - sen nagt
   und die Sün -- den pla - gen,
   wenn der _ Sa -- tan mich ver -- klagt,
   lass mich nicht ver -- za - gen.
@@ -99,10 +99,10 @@ altoLyrics = \lyricmode {
 tenorLyrics = \lyricmode {
   Je -- su, der du sel -- bsten wohl
   hast den Tod ge -- schme - cket,
-  hilf mir, wenn ich ster -- ben soll,
+  hilf mir, wenn ich __ ster -- ben soll,
   wenn der Tod mich schre - cket:
   wenn mich mein Ge -- wis -- sen nagt
-  und die Sün -- den pla -- gen,
+  und die Sün -- den pla - gen,
   wenn der Sa -- tan mich ver -- klagt,
   lass mich nicht ver -- za - gen.
 }

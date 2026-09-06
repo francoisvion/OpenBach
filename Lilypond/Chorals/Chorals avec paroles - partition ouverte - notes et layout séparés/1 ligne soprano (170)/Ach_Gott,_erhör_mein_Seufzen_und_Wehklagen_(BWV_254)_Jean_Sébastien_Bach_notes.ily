@@ -67,11 +67,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Ach Gott, er --  hör' mein Seuf -- zen und Weh -- kla - gen, 
-  lass mich in mei -- ner Noth nicht gar __ _ ver -- za - gen,
-  du weißt mein'n Schmerz,
-  er -- kennst mein Herz,
-  hast du mir's auf -- ge -- legt, so hilf mir's tra - gen!
+  Ach Gott, er -- hör' mein Seuf -- zen und Weh -- kla - gen, lass mich in mei -- ner Noth nicht gar ver - za - gen, du weißt mein'n Schmerz, er -- kennst mein Herz, hast du mir's auf -- ge -- legt, so hilf mir's tra - gen!
 }
 
 tenorLyrics = \lyricmode {

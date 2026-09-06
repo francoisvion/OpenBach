@@ -26,7 +26,7 @@ altoMusic = {
   g'4 g' a' g'
   g'8 [fis'] g'4. fis'8 d'4\fermata
   g'8 [a'] b'4 b' a'8 [g']~
-  g' [fis'16 e'] fis'4\fermata g' g'
+  g' fis'16 [e'] fis'4\fermata g' g'
   a'8 [g'] a'4 g'8 a'4 g'8
   g' [fis'16 e'] fis'4\fermata g' g'
   gis'8 [fis' gis'] b'4 a'8 g'4~
@@ -37,7 +37,7 @@ altoMusic = {
 tenorMusic = {
   e'4 e' a g
   g fis8 [e] fis2\fermata
-  b8 [c'] d'2 c'4
+  b8 [c'] d'4 d' c'
   d' d' d' d'\fermata
   c' c' b b
   c' b8. [a16] g2\fermata
@@ -53,19 +53,19 @@ tenorMusic = {
 }
 
 bassMusic = {
-  e,4 e~ e8 [dis] e [g]
-  c2 b,\fermata
-  g,4 g~ g8 [fis] g [c']
+  e,4 e~ e8 dis e [g]
+  c4 c b,2\fermata
+  g,4 g~ g8 fis g [c']
   fis [d] d4 g g,\fermata
   c'8 [b] c'4 dis e
   a, b, e,2\fermata
-  e8 [fis] g4~ g8 [fis] g [b]
+  e8 [fis] g4~ g8 fis g [b]
   e [d] c4 d g,\fermata
   g8 [fis] e [d] c4 cis
-  d2\fermata g4 fis8 [e]
+  d d\fermata g4 fis8 [e]
   fis [e] fis [b] e [fis] g4
-  d2\fermata g8 [fis] e4~
-  e8 [d] e [gis] a,4 b,8 [c]
+  d d\fermata g8 [fis] e4~
+  e8 d e [gis] a,4 b,8 [c]
   d4 dis e8 [g] c [b,]
   a,4 b, e2\fermata \fine
 }
@@ -86,7 +86,7 @@ altoLyrics = \lyricmode {
   da der schnö -- den Ei -- tel -- keit
   mei -- ne See -- le wird ent -- nom -- men;
   wer kann wi -- der -- stre -- ben,
-  dass uns Men -- schen Gott das _ Le -- ben
+  dass uns Men -- schen Gott __ _ das Le -- ben
   auf ein zeit -- lich Wie -- der -- neh -- men hat ge -- ge -- ben.
 }
 

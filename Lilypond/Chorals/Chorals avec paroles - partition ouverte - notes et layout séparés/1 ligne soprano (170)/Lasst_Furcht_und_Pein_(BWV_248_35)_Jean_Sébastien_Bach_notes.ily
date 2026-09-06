@@ -38,8 +38,8 @@ tenorMusic = {
   d' [b] gis [cis'] a4\fermata a
   b8 [cis'] dis'4 cis'\fermata cis'
   fis b b\fermata cis' ~
-  cis'8 [a] d'4~d'8 [b] e'4~
-  e'8 [cis'] fis' [e'] d' [cis'] dis'4
+  cis'8 a d'4~d'8 b e'4~
+  e'8 cis' fis' [e'] d' [cis'] dis'4
   cis'8 [gis] cis' [b] a4\fermata \fine
 }
 
@@ -75,17 +75,11 @@ altoLyrics = \lyricmode {
   ist hier ein Gott und auch ein Mensch ge -- bo - ren,
   der wel -- cher ist
   der Herr und Christ
-  in Da -- vids Stadt, von vie -- len aus -- er -- ko - ren.
+  in Da -- vids Stadt, von vie -- len aus -- er -- ko -- ren.
 }
 
 tenorLyrics = \lyricmode {
-  Seid froh, die -- weil,
-  seid froh, die -- weil
-  dass eu -- er Heil
-  ist hier ein Gott und auch ein Mensch ge -- bo - ren,
-  der wel -- cher ist
-  der Herr und Christ
-  in Da -- vids Stadt, von vie -- len aus -- er -- ko - ren.
+  Seid froh, die -- weil, seid froh, die -- weil dass eu -- er Heil ist hier ein Gott und auch ein Mensch ge -- bo - ren, der wel -- cher ist der Herr und Christ in Da - vids Stadt, von vie -- len aus -- er -- ko - ren.
 }
 
 bassLyrics = \lyricmode {

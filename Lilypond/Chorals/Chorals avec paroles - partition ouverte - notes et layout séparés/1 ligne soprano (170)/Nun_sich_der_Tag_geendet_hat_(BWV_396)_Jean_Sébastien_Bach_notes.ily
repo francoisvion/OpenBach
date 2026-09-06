@@ -19,16 +19,16 @@ altoMusic = {
   e'2\fermata r4
   \partial 4  b'
   b'8 [a'] gis'4 a'8 [g'] f'4~
-  f'8 [e'] e' [fis'] gis'4\fermata a'
+  f'8 e' e' [fis'] gis'4\fermata a'
   a'8 [gis'] a'4 a' gis'
   e'2.\fermata \fine
 }
 
 tenorMusic = {
   \partial 4  c'4
-  c' b~ b8 [a] g [c']~
-  c' [b16 a] b4 c'\fermata c'~
-  c' b~ b a~
+  c' b~ b8 a g [c']~
+  c' b16 [a] b4 c'\fermata c'
+  c' b b a
   a gis\fermata r
   \partial 4  e'
   e' e' e' d'
@@ -65,7 +65,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Nun sich der Tag ge -- en -- det hat, und kei -- ne Sonn' mehr scheint, schläft Al -- les, was sich ab -- ge -- matt', und was zu -- vor ge -- weint.
+  Nun sich der Tag ge -- en -- det hat, und kei -- ne Sonn' mehr scheint, __ _ schläft Al -- les, was sich ab -- ge -- matt', und was zu -- vor ge -- weint.
 }
 
 bassLyrics = \lyricmode {

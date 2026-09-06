@@ -36,13 +36,13 @@ altoMusic = {
   a' [fis'] g' a'4 g' fis'8
   g'8. [fis'16] g'8 [g] d'2\fermata
   d'8 [e'] f' [fis'] g' [ees'] d'4~
-  d'8 [c'] d' [bes] d'2\fermata
+  d'8 c' d' [bes] d'2\fermata
   r4 fis' d' g'
   f'4. g'16 [f'] e'8 [fis'] g'4~
-  g'8 [fis'] g'4 g' fis'
+  g'8 fis' g'4 g' fis'
   d'2\fermata r4
   \partial 4  d'
-  d' d'~ d'8 [c'16 bes] a8 [g]
+  d' d'~ d'8 c'16 [bes] a8 [g]
   d'2\fermata r4 fis'
   g' a'8 [e'] e' [fis'] g'4
   fis'2.\fermata \fine
@@ -88,7 +88,7 @@ bassMusic = {
   g,4 a, bes,8 [c] d [c]
   bes, [a,] bes, [g,] d2\fermata
   r4 d g8 [f] ees4
-  d8 [c] bes,4~ bes,8 [a,] g, [bes,]
+  d8 [c] bes,4~ bes,8 a, g, [bes,]
   c [d] ees [d] c [a,] d4
   g,2\fermata r4
   \partial 4  g,8 [a,]
@@ -125,7 +125,7 @@ tenorLyrics = \lyricmode {
   lo -- bet den Her - ren,
   denn er ist sehr freund - lich,
   es ist sehr köst -- lich, un -- sern Gott zu lo - - ben,
-  un -- sern Gott zu lo -- ben _
+  un -- sern Gott zu lo - ben
   sein Lob ist schön und lieb -- lich an -- zu -- hö - ren.
   Lo -- bet den Herr - ren,
   lo -- bet den Her -- ren!

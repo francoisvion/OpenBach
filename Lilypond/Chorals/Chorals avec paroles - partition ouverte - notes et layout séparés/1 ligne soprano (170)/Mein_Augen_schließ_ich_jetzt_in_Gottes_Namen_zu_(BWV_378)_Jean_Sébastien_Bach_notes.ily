@@ -22,11 +22,11 @@ altoMusic = {
   \partial 4  d'4
   d' a d' e'8 [fis']
   g'2\fermata r4 g'~
-  g'8 [fis'] g'4. fis'16 [e'] fis'4
+  g'8 fis' g'4~g'8 fis'16 [e'] fis'4
   g'2\fermata r4 g'~
-  g'8 [fis'] g'4. fis'8 g' [g]
+  g'8 fis' g'4. fis'8 g' [g]
   d'2\fermata r4 fis'
-  fis'8 [e'16 fis'] g'8 a'4 g'8 g' [fis']
+  fis'8 [e'16 fis'] g'8 a'8~a' [g'] g' [fis']
   d'2\fermata r4 g'
   g' g' g'8 [fis'] g'4
   g' fis'\fermata r fis'
@@ -34,7 +34,7 @@ altoMusic = {
   e'2 e'4\fermata d'8 [f']
   e' g'4 fis'8 g'4 g'
   g'2\fermata r4 e'~
-  e'8 [fis'] g'4. fis'8 g'4
+  e'8 fis' g'4. fis'8 g'4
   g'8 [fis'16 e'] fis'4 d'\fermata \fine
 }
 
@@ -51,7 +51,7 @@ tenorMusic = {
   d'8 [c'] b4 c' d'
   d'2\fermata r4 b
   b8 [c'] d'4 c' b~
-  b8 [a16 gis] a4 a8 [gis]\fermata g4
+  b8 a16 [gis] a4 a8 [gis]\fermata g4
   g d' d' e'
   d'2\fermata r4 b
   c'8 [d'] d' [e'16 d'] c'4 d'
@@ -93,8 +93,8 @@ altoLyrics = \lyricmode {
   Mein' Au -- gen schließ' ich jetzt
   in Got -- tes Na -- men zu,
   die -- weil der mü -- de Leib
-  be -- geh -- ret sei - ne Ruh',
-  weiß a -- ber nicht, ob ich _
+  be -- geh -- ret sei -- ne Ruh',
+  weiß a -- ber nicht, ob ich __ _
   den Mor -- gen möcht' er -- le -- ben;
   es könn -- te _ mich der Tod
   viel -- leicht noch heut' um -- ge - ben.

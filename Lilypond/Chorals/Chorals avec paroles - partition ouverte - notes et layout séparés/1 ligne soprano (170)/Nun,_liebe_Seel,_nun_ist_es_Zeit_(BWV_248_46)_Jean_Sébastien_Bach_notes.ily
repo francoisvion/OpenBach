@@ -76,7 +76,7 @@ altoLyrics = \lyricmode {
   Leit uns auf dei -- nen We - gen,
   dass dein Ge -- sicht
   und herr -- lichs Licht
-  Wir e -- wig _ schau - - en mö -- gen!
+  Wir e - wig schau - - en mö -- gen!
 }
 
 tenorLyrics = \lyricmode {
@@ -85,7 +85,7 @@ tenorLyrics = \lyricmode {
   Leit uns auf dei -- nen We - gen,
   dass dein Ge -- sicht
   und herr -- lichs Licht
-  Wir e -- wig schau - - en mö -- gen!
+  Wir e -- wig schau - en __ _ mö -- gen!
 }
 
 bassLyrics = \lyricmode {
@@ -94,5 +94,5 @@ bassLyrics = \lyricmode {
   Leit uns auf dei -- nen We - gen,
   dass dein Ge -- sicht
   und herr -- lichs Licht
-  Wir e -- wig schau - - en mö -- gen!
+  Wir e -- wig schau - en __ _ mö -- gen!
 }

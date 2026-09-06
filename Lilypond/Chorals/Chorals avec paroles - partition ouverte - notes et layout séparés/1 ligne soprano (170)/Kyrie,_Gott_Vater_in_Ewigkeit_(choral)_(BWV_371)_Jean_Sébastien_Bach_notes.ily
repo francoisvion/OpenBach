@@ -200,64 +200,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Ky - ri - e!
-  Gott Va -- ter in E -- wig -- keit!
-  Groß ist dein Barm -- her -- zig -- keit,
-  al -- ler Ding __ _ ein Schöp - fer und _ Re -- gie - rer!
-  E - - - le -- i - - son!
-  Chri - - - ste, _ al - ler __ _ Welt __ _ Trost!
-  uns Sün -- der _ al -- lein __ _ du hast er -- löst;
-  Je - - su Got -- tes Sohn!
-  Un -- ser Mitt - - ler
-  bist in dem __ _ höch -- sten Thron,
-  zu dir schrei -- en wir aus Her -- zens -- be - gier!
-  E - - le -- i - - son!
-  Ky -- ri -- e!
-  Gott hei - li -- ger Geist!
-  Tröst', stärk' uns im Glau -- ben al -- ler meist,
-  dass wir am letz -- ten End'
-  fröh -- lich ab -- schei - den aus die -- sem E - - lend!
-  E - - - le -- i - - son!
+  Ky -- ri - - e! Gott Va -- ter in E -- wig -- keit! Groß ist dein Barm -- her -- zig -- keit, al -- ler Ding ein _ Schöp -- fer und _ Re -- gie - - rer! E - - - le -- i -- son! _ _ Chri - - - ste, _ al - ler Welt Trost! _ _ uns Sün -- der _ al -- lein du hast _ er -- löst; Je - - su Got -- tes Sohn! Un -- ser Mitt - - ler bist in dem höch -- sten _ Thron, zu dir schrei -- en wir aus Her -- zens -- be - gier! E - - le -- i -- son! _ _ Ky -- ri -- e! Gott hei - li -- ger Geist! Tröst', stärk' uns im Glau -- ben al -- ler meist, dass wir am letz -- ten End' fröh -- lich ab -- schei - den aus die -- sem E - - lend! E - - - le -- i -- son! _ _
 }
 
 tenorLyrics = \lyricmode {
-  Ky - ri - e!
-  Gott Va -- ter in E -- wig -- keit!
-  Groß ist dein Barm -- her -- zig -- keit,
-  al -- ler Ding ein Schöp -- fer und Re -- gie - rer!
-  E - - - le - i - - son!
-  Chri - - - ste, _ al - ler Welt Trost!
-  uns Sün -- der al -- lein du hast er -- löst;
-  Je - - su Got -- tes __ _ Sohn!
-  Un -- ser Mitt - ler
-  bist in dem höch -- sten Thron,
-  zu dir schrei -- en wir aus Her -- zens -- be - - gier!
-  E - - - le -- i - - son!
-  Ky -- ri -- e!
-  Gott hei - li -- ger Geist!
-  Tröst', stärk' uns im Glau -- ben al -- ler meist,
-  dass wir am letz - ten End'
-  fröh -- lich ab -- schei -- den aus _ die -- sem _ E - - lend!
-  E - - - le -- i - - - son!
+  Ky - ri - e! Gott Va -- ter in E -- wig -- keit! Groß ist dein Barm -- her -- zig -- keit, al -- ler Ding ein Schöp -- fer und Re -- gie - rer! E - - - le -- i - son! _ _ Chri - - ste, _ _ al - ler Welt Trost! uns Sün -- der al -- lein du hast er - löst; Je - - su Got -- tes Sohn! _ Un -- ser Mitt - ler bist in dem höch -- sten Thron, zu dir schrei -- en wir aus Her -- zens -- be - - gier! E - - - le -- i -- son! _ _ Ky -- ri -- e! Gott hei - li -- ger Geist! Tröst', stärk' uns im Glau -- ben al -- ler meist, dass wir am letz - ten End' fröh -- lich ab -- schei -- den aus _ die -- sem _ E - - lend! E - - - le -- i -- son! _ _ _
 }
 
 bassLyrics = \lyricmode {
-  Ky - ri - e!
-  Gott Va -- ter in E -- wig -- keit!
-  Groß ist dein Barm -- her -- zig -- keit,
-  al -- ler Ding __ _ ein Schöp - fer und __ _ Re -- gie - rer!
-  E - - - le -- i -- son!
-  Chri - - - ste, al -- ler Welt Trost!
-  uns Sün -- der __ _ al -- lein du hast er -- löst;
-  Je - - su Got -- tes Sohn!
-  Un -- ser Mitt - ler
-  bist in dem höch -- sten Thron,
-  zu dir schrei -- en wir aus Her -- zens -- be - gier!
-  E - - - le -- i - son!
-  Ky - ri -- e!
-  Gott hei - li -- ger Geist!
-  Tröst', stärk' uns __ _ im Glau -- ben al -- ler meist,
-  dass wir am letz -- ten End'
-  fröh -- lich _ ab -- schei -- den aus die -- sem E - lend!
-  E - - - le -- i - - son!
+  Ky - ri - e! Gott Va -- ter in E -- wig -- keit! Groß ist dein Barm -- her -- zig -- keit, al -- ler Ding ein _ Schöp -- fer _ und Re - gie - rer! E - - - le -- i -- son! Chri - - ste, al - ler Welt Trost! uns Sün -- der al -- lein _ du hast er -- löst; Je - - su Got -- tes Sohn! Un -- ser Mitt - ler bist in dem höch -- sten Thron, zu dir schrei -- en wir aus Her -- zens -- be - gier! E - - - le -- i -- son! _ Ky -- ri - e! Gott hei - li -- ger Geist! Tröst', stärk' uns im _ Glau -- ben al -- ler meist, dass wir am letz -- ten End' fröh -- lich _ ab -- schei -- den aus die -- sem E - lend! E - - - le -- i -- son! _ _
 }

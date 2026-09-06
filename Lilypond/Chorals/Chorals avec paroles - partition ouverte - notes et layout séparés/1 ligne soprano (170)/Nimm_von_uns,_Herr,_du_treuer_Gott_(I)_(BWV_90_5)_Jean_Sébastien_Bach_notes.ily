@@ -45,7 +45,7 @@ tenorMusic = {
   c' d' c' c'
   d'4. c'8 aes4\fermata ees'
   d'4. cis'8 d'2~
-  d'8 a bes [a] fis4\fermata \fine
+  d'8 a bes a fis4\fermata \fine
 }
 
 bassMusic = {
