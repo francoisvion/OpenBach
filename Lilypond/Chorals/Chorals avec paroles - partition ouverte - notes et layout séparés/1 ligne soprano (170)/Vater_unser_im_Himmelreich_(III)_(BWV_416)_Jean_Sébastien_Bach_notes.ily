@@ -37,7 +37,7 @@ tenorMusic = {
   a bes c' c'
   d'8 [cis'] d'4 cis'\fermata c'
   c'8 [a] b [cis'] d' [c'] bes4
-  b a a\fermata b~
+  b a a\fermata b
   b8 a4 gis8 a4 gis
   a b c'\fermata b
   c' d' e' d'
@@ -86,7 +86,7 @@ tenorLyrics = \lyricmode {
   Va -- ter un -- ser im Him -- mel -- reich,
   der du uns al -- le hei -- ßest gleich
   Brü -- der sein und dich ru -- fen an,
-  und willst das Be -- ten von uns ha'n,
+  und willst __ _ das Be -- ten von uns ha'n,
   gib, dass nicht bet' al -- lein der Mund,
   hilf, dass es geh' aus Her -- zens Grund.
 }

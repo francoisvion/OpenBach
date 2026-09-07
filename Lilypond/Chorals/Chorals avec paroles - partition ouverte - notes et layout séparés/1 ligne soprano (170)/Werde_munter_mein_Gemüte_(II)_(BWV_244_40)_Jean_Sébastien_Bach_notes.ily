@@ -6,7 +6,7 @@ sopranoMusic = {
   cis''4 d'' e'' e''
   d'' cis'' b' b'\fermata
   cis'' d'' e'' d''8 [cis'']
-  b'4 b'8 [a'] a'2\fermata
+  b'4. a'8 a'2\fermata
   b'4 cis'' d''8 [cis''] d'' [e'']
   cis''4 cis'' b'2\fermata
   d''4 e'' fis'' e''8 [fis''16 g'']
@@ -80,7 +80,7 @@ sopranoLyrics = \lyricmode {
   hat uns doch dein Sohn ver -- gli -- chen
   durch sein Angst und To -- des -- pein.
   Ich ver -- leu -- gne nicht die Schuld;
-  a -- ber de -- ine Gnad und Huld
+  a -- ber dei -- ne Gnad und Huld
   ist viel grö -- ßer als die Sün -- de,
   die ich stets in mir be -- fin -- de.
 }
@@ -91,7 +91,7 @@ altoLyrics = \lyricmode {
   hat uns doch dein Sohn ver -- gli -- chen
   durch sein Angst und To -- des -- pein.
   Ich ver -- leu -- gne nicht die Schuld;
-  a -- ber de -- ine Gnad und Huld
+  a -- ber dei -- ne Gnad und Huld
   ist viel grö -- ßer als die Sün -- de,
   die ich stets in mir be -- fin -- de.
 }
@@ -102,7 +102,7 @@ tenorLyrics = \lyricmode {
   hat uns doch dein Sohn ver -- gli -- chen
   durch sein Angst und To -- des -- pein.
   Ich ver -- leu -- gne nicht die Schuld;
-  a -- ber de -- ine Gnad und Huld
+  a -- ber dei -- ne Gnad und Huld
   ist viel grö -- ßer als die Sün -- de,
   die ich stets in mir be -- fin -- de.
 }
@@ -113,7 +113,7 @@ bassLyrics = \lyricmode {
   hat uns doch dein Sohn ver -- gli -- chen
   durch sein Angst und To -- des -- pein.
   Ich ver -- leu -- gne nicht die Schuld;
-  a -- ber de -- ine Gnad und Huld
+  a -- ber dei -- ne Gnad und Huld
   ist viel grö -- ßer als die Sün -- de,
   die ich stets in mir be -- fin -- de.
 }

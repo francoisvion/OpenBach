@@ -24,7 +24,7 @@ altoMusic = {
   d'8 [cis'] d' [e'] fis'4 d'
   d'8 [e'] fis'4 g' d'
   d'\fermata fis' b8 [e'] d' [c']
-  b4 e'~ e'8 [dis'] e'4
+  b4 e' e'8 [dis'] e'4
   e' dis' b\fermata \fine
 }
 
@@ -37,15 +37,15 @@ tenorMusic = {
   d'\fermata c'8 [b] a [fis] g4
   g fis g\fermata fis8 [g]
   a4 a d' a
-  b c' d' g~
-  g8 [fis]\fermata b [a] g4 d'~
+  b c' d' g
+  g8 [fis]\fermata b [a] g4 d'
   d'8 [f'] e' [d'] c'4 cis'
   b4. a8 gis4\fermata \fine
 }
 
 bassMusic = {
   \partial 4  e8 [fis]
-  g4~ g8 [fis] e [fis] g [e]
+  g4 g8 [fis] e [fis] g [e]
   b,4\fermata e fis g8 [e]
   ais,4 b, e,\fermata b,
   e fis g g,8 [b,]
@@ -73,7 +73,7 @@ altoLyrics = \lyricmode {
   Dein Hei -- land le -- _ bet,
   der dich ja treu -- lich liebt,
   er -- gib dich gänz -- lich sei -- nem Wil -- _ len,
-  er kann al -- lein dein Trau -- ern stil -- len.
+  er kann al -- lein dein Trau -- ern stil -- _ len.
 }
 
 tenorLyrics = \lyricmode {
@@ -81,12 +81,12 @@ tenorLyrics = \lyricmode {
   in mir so gar be -- trübt?
   Dein Hei -- land le -- _ bet,
   der dich ja treu -- lich liebt,
-  er -- gib dich gänz -- lich sei -- nem Wil -- len,
-  er kann al -- lein dein Trau -- ern stil -- len.
+  er -- gib dich gänz -- lich sei -- nem Wil -- _ len,
+  er kann al -- lein dein Trau -- ern stil -- _ len.
 }
 
 bassLyrics = \lyricmode {
-  Wie bist du See -- le
+  Wie bist du See -- _ le
   in mir so gar be -- trübt?
   Dein Hei -- land le -- _ bet,
   der dich ja treu -- lich liebt,

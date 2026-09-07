@@ -15,13 +15,13 @@ sopranoMusic = {
 
 altoMusic = {
   d'4 d' d' d'\fermata
-  r g'4. fis'8 g'4~
-  g'8 fis' g' [g] d'2\fermata
+  r g'4~g'8 fis' g'4
+  g'8 [fis'] g' [g] d'2\fermata
   f'4 f' f' f'\fermata
-  r bes'4. a'8 bes'4
+  r bes'4 bes'8 [a'] bes'4
   bes' a' f'2\fermata
   f'4. fis'8 g'4 d'\fermata
-  r g'4. f'16 [e'] f'4
+  r g'4~g'8 f'16 [e'] f'4)
   f' e' c'2\fermata
   g'4 a' bes'8 [aes'] g'4\fermata
   r g' g' g'

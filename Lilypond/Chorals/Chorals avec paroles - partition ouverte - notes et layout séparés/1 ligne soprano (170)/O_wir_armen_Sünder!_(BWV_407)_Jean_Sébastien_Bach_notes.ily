@@ -30,7 +30,7 @@ sopranoMusic = {
 
 altoMusic = {
   fis'4 g' fis'8 [g'] a'4
-  a'8 [g'16 fis'] g'2 fis'4\fermata
+  a'8 [g'16 fis'] g'4 g' fis'\fermata
   e'4. d'8 d' [cis'16 b] cis'4
   a1\fermata
   d'4 cis'8 [d'] e' [cis'] d' [e']
@@ -50,7 +50,7 @@ altoMusic = {
   g' f' e'2
   e'1\fermata
   b'2. a'8 [g']
-  fis'2~ fis'8 [gis'] a'4
+  fis'2~ fis'8 gis' a'4
   gis'2. cis'4~
   cis' d'8 [e'] fis'4 e'8 [d']
   e'1
@@ -85,7 +85,7 @@ tenorMusic = {
   a b8 [cis'] d'2~
   d'4 d' cis' b
   a2~ a16 b [c'8]~c' b16 [a]
-  b8 e4 fis16 [g] fis2\fermata \fine
+  b8 [e]~e [fis16 g] fis2\fermata \fine
 }
 
 bassMusic = {
@@ -129,11 +129,11 @@ sopranoLyrics = \lyricmode {
   sind dem ew' -- gen Tod.
   Ky -- rie e -- lei -- _ son!
   Chri -- _ _ ste e -- lei -- _ son!
-  Ky -- _ rie e -- lei son!
+  Ky -- _ rie e -- lei -- son!
 }
 
 altoLyrics = \lyricmode {
-  O wir ar -- men Sün -- _ der!
+  O wir ar -- men Sün -- _ der! __ _
   uns -- re Mis -- se -- that,
   da -- rin wir em -- pfan -- _ gen
   und ge -- bo -- ren sind,
@@ -142,7 +142,7 @@ altoLyrics = \lyricmode {
   dass wir un -- ter -- wor -- _ fen __ _
   sind dem ew' -- gen Tod.
   Ky -- rie _ e -- _ _ _ lei -- _ _ son!
-  Chri -- _ _ ste e -- lei -- _ _ _ son!
+  Chri -- _ _ ste __ _ e -- _ lei -- _ _ son!
   Ky rie __ e -- lei -- _ son!
 }
 
@@ -157,7 +157,7 @@ tenorLyrics = \lyricmode {
   sind dem ew' -- gen Tod.
   Ky -- rie _ e -- _ _ _ lei -- _ _ son!
   Chri -- _ _ _ _ _ ste e -- _ _ _ lei -- _ _ son! __ _ _
-  Ky -- rie e -- lei _ _ son!
+  Ky -- rie e -- lei -- son!
 }
 
 bassLyrics = \lyricmode {
@@ -171,5 +171,5 @@ bassLyrics = \lyricmode {
   sind dem ew' -- gen Tod.
   Ky -- rie e -- _ lei -- _ _ son!
   Chri -- _ _ ste e -- _ lei -- _ son!
-  Ky -- _ rie e -- lei _ son!
+  Ky -- _ rie e -- lei -- _ son!
 }

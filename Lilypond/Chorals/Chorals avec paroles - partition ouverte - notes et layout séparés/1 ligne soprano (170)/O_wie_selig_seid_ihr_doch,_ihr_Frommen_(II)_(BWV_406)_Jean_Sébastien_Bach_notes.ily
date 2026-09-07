@@ -18,10 +18,10 @@ altoMusic = {
   a'4 a'8. [g'16] f'4 f'
   d'8 [bes] c'4 c'2\fermata
   f'4 f'8 [d'] g' [e'] c'4
-  f' e' f'8 [a'] g' [f']~
+  f' e' f'8 [a'] g' [f']
   f' [e'16 d'] e'4 c'\fermata
   \partial 4  f'
-  f'8 e'4 d' cis'16 [b] cis'4
+  f'8 [e'] e' [d'] d' [cis'16 b] cis'4
   d'2\fermata c'8 [d'] e'4
   f'8 [g'] a' [f'] g' [e'] f'4
   e' d' d' cis'
@@ -30,7 +30,7 @@ altoMusic = {
 
 tenorMusic = {
   a4 d' c'8 [bes] bes4
-  d'4. c'8 ~ c' bes4 a8~
+  d'4 d'8 [c'] c' [bes] bes [a]
   a [g] f [e] f2\fermata
   c'8 [a] d' [bes] g4 f8 [g]
   a4 g f8 [c'] d'4
@@ -47,7 +47,7 @@ bassMusic = {
   d8 [e] f [g] a [g] f [e]
   d4 a bes f
   g c f2\fermata
-  a8 [f] bes4 e8 [c] f4~
+  a8 [f] bes4 e8 [c] f4
   f8 [a,] bes, [c] d [c] bes,4
   c c, f,\fermata
   \partial 4  f
@@ -67,13 +67,13 @@ sopranoLyrics = \lyricmode {
 
 altoLyrics = \lyricmode {
   O wie se -- lig seid ihr doch, ihr From -- _ men,
-  die ihr durch den Tod zu Gott ge -- kom -- men!
-  Ihr seid ent -- gan -- _ _ gen
+  die ihr durch den Tod zu Gott ge -- kom -- _ men!
+  Ihr seid ent -- gan -- _ gen
   al -- ler Noth, die uns noch hält ge -- fan -- _ gen.
 }
 
 tenorLyrics = \lyricmode {
-  O wie se -- lig seid ihr doch, ihr From -- men,
+  O wie se -- lig seid ihr doch, ihr From -- _ men,
   die ihr durch den Tod zu Gott ge -- kom -- _ men!
   Ihr seid ent -- gan -- _ gen
   al -- ler Noth, die uns noch hält ge -- fan -- _ gen.
@@ -81,7 +81,7 @@ tenorLyrics = \lyricmode {
 
 bassLyrics = \lyricmode {
   O wie se -- lig seid ihr doch, ihr From -- _ men,
-  die ihr durch den Tod zu Gott ge -- kom -- men!
+  die ihr durch den Tod zu Gott ge -- kom -- _ men!
   Ihr seid ent -- gan -- _ gen
   al -- ler Noth, die uns noch hält ge -- fan -- _ gen.
 }
