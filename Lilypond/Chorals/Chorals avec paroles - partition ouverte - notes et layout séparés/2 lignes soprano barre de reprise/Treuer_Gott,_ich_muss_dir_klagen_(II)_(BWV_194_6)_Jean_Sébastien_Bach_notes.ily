@@ -98,13 +98,9 @@ sopranoVersoTwoLyrics = \lyricmode {\set stanza = 2
                                     Das du an -- ge -- fan -- gen hast.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-                            \tweak X-offset #-5.0 "1. Heil" -- ger Geist ins Him -- mels Thro -- ne,
-                            Glei -- cher Gott von E -- wig -- keit
-                            Al -- len Glau -- ben, den ich find,
-                            hast du in mir an -- ge -- zündt,
-                            ü -- ber mir in Gna -- den wal -- te,
-                            fer -- ner dei -- ne Gnad er -- hal -- te.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  "1. Heil" -- ger Geist ins Him -- mels Thro -- ne, Glei -- cher Gott von E -- wig -- keit Al -- len Glau -- ben, den ich find, hast du in mir an -- ge -- zündt, ü -- ber mir in Gna -- den wal -- _ te, fer -- ner dei -- ne Gnad er -- hal -- te.
 }
 
 altoLyricsTwo = \lyricmode {
@@ -113,13 +109,9 @@ altoLyricsTwo = \lyricmode {
   Der Be -- trüb -- ten Trost und Freud!
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-                             \tweak X-offset #-5.0 "1. Heil" -- ger Geist ins Him -- mels Thro -- ne,
-                             Glei -- cher Gott von E -- wig -- keit
-                             Al -- len Glau -- ben, den ich find,
-                             hast du in mir an -- ge -- zündt,
-                             ü -- ber mir in Gna -- den wal -- te,
-                             fer -- ner dei -- ne Gnad er -- hal -- te.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  "1. Heil" -- ger Geist ins Him -- mels Thro -- ne, Glei -- cher Gott von E -- wig -- keit Al -- len Glau -- ben, den ich find, hast du in mir an -- ge -- zündt, ü -- ber mir in Gna -- den wal -- _ te, fer -- ner dei -- ne Gnad er -- hal -- _ te.
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -128,13 +120,9 @@ tenorLyricsTwo = \lyricmode {
   Der Be -- trüb -- ten Trost und Freud!
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-                            \tweak X-offset #-5.0 "1. Heil" -- ger Geist ins Him -- mels Thro -- ne,
-                            Glei -- cher Gott von E -- wig -- keit
-                            Al -- len Glau -- ben, den ich find,
-                            hast du in mir an -- ge -- zündt,
-                            ü -- ber mir in Gna -- den wal -- te,
-                            fer -- ner dei -- ne Gnad er -- hal -- te.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  "1. Heil" -- ger Geist ins Him -- mels Thro -- ne, Glei -- cher Gott von E -- wig -- keit Al -- len Glau -- ben, den ich find, hast du in mir an -- ge -- zündt, ü -- ber mir in Gna -- den wal -- te, fer -- ner dei -- ne Gnad er -- hal -- _ te.
 }
 
 bassLyricsTwo = \lyricmode {

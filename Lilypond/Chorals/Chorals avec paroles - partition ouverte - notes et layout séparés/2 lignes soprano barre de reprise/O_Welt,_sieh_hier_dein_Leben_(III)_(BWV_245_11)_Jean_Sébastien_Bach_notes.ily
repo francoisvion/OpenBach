@@ -90,30 +90,30 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  \tweak X-offset #-4 "3. Wer" hat _ dich so ge -- schla -- gen, mein Heil, und dich mit Pla -- gen so ü bel zu -- ge -- richt'? Du bist ja nicht ein Sün -- der wie wir und uns -- re Kin -- der, von Mis -- se -- ta -- ten weißt du nicht.
+  "3. Wer" hat dich so ge -- schla -- _ gen, mein Heil, und dich mit Pla -- gen so ü -- bel zu -- ge -- richt'? Du bist ja nicht ein Sün -- _ der wie wir und uns -- re Kin -- der, von Mis -- se -- ta -- ten weißt du nicht.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  \tweak X-offset #-4 "4. Ich," ich _ und mei -- ne Sün -- den, die sich wie Körn -- lein fin -- den des San des an dem Meer, die ha -- ben dir er -- re -- get das E -- lend, das dich schlä -- get, und das be -- trüb -- te Mar -- ter -- heer.
+  "4. Ich," ich und mei -- ne Sün -- _ den, die sich wie Körn -- lein fin -- den des San -- des an dem Meer, die ha -- ben dir er -- re -- _ get das E -- lend, das dich schlä -- get, und das be -- trüb -- te Mar -- ter -- heer.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  \tweak X-offset #-4 "3. Wer" hat _ dich so ge -- schla -- gen, mein Heil, _ und dich mit Pla -- gen so ü bel zu -- ge -- richt'? Du bist ja nicht ein Sün -- der wie wir und uns -- re Kin -- der, von Mis -- se -- ta -- ten weißt du nicht.
+  "3. Wer" hat dich so ge -- schla -- _ gen, mein Heil, und dich mit Pla -- _ gen so ü -- bel zu -- ge -- richt'? Du bist ja nicht ein Sün -- _ der wie wir und uns -- re Kin -- _ der, von Mis -- se -- ta -- ten weißt du nicht.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  \tweak X-offset #-4 "4. Ich," ich _ und mei -- ne Sün -- den, die sich _ wie Körn -- lein fin -- den des San des an dem Meer, die ha -- ben dir er -- re -- get das E -- lend, das dich schlä -- get, und das be -- trüb -- te Mar -- ter -- heer.
+  "4. Ich," ich und mei -- ne Sün -- _ den, die sich wie Körn -- lein fin -- _ den des San -- des an dem Meer, die ha -- ben dir er -- re -- _ get das E -- lend, das dich schlä -- _ get, und das be -- trüb -- te Mar -- ter -- heer.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  \tweak X-offset #-4 "3. Wer" hat dich so ge -- schla -- gen, mein Heil, _ und dich mit Pla -- gen so ü bel zu -- ge -- richt'? Du bist ja nicht ein Sün -- der wie wir und uns -- re Kin -- der, von Mis -- se -- ta -- ten weißt du nicht.
+  "3. Wer" hat dich so ge -- schla -- gen, mein Heil, und dich mit Pla -- _ gen so ü -- bel zu -- ge -- richt'? Du bist ja nicht ein Sün -- der wie wir und uns -- re Kin -- _ der, von Mis -- se -- ta -- ten weißt du nicht.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  \tweak X-offset #-4 "4. Ich," ich und mei -- ne Sün -- den, die sich _ wie Körn -- lein fin -- den des San des an dem Meer, die ha -- ben dir er -- re -- get das E -- lend, das dich schlä -- get, und das be -- trüb -- te Mar -- ter -- heer.
+  "4. Ich," ich und mei -- ne Sün -- den, die sich wie Körn -- lein fin -- _ den des San -- des an dem Meer, die ha -- ben dir er -- re -- get das E -- lend, das dich schlä -- _ get, und das be -- trüb -- te Mar -- ter -- heer.
 }

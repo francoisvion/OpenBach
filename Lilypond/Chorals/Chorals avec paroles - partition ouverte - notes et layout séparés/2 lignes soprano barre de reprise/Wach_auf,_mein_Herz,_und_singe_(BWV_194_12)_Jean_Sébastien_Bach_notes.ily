@@ -100,44 +100,32 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
                                bis ich gen Him -- _ mel rei -- _ _ se!
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-                            \tweak X-offset #-5 "9. Sprich" Ja zu mei -- _ nen Ta -- ten,
-                            hilf selbst das Bes -- _ te ra -- ten;
-                            den An -- fang, Mittl und En -- de,
-                            ach, Herr, zum be -- _ sten wen -- _ _ de!  
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  "9. Sprich" Ja zu mei -- _ nen Ta -- _ ten, hilf selbst das Bes te ra -- _ _ ten; den An -- fang, Mittl und En -- _ _ de, ach, Herr, _ zum be -- _ sten wen -- _ _ de!
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-                            \tweak X-offset #-5 "10. Mit" Se -- gen mich __ _ be -- schüt -- te,
-                            mein Herz sei dei -- _ ne Hüt -- te,
-                            dein Wort sei mei -- ne Spei -- se,
-                            bis ich gen Him -- _ mel rei -- _ _ se!
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  "10. Mit" Se -- gen mich __ _ be -- schüt -- _ te, mein Herz sei dei ne Hüt -- _ _ te, dein Wort sei mei -- ne Spei -- _ _ se, bis ich _ gen Him -- _ mel rei -- _ _ se!
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-                             \tweak X-offset #-5 "9. Sprich" Ja zu mei -- _ nen Ta -- ten,
-                             hilf selbst das Bes -- _ te ra -- ten;
-                             den An -- fang, Mittl und En -- de,
-                             ach, Herr, zum be -- _ sten wen -- _ _ de!  
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  "9. Sprich" Ja zu mei -- _ nen Ta -- _ ten, hilf selbst das Bes te ra -- _ _ ten; den An -- fang, Mittl und En -- _ _ de, ach, Herr, zum be -- _ sten wen -- _ _ de!
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-                             \tweak X-offset #-5 "10. Mit" Se -- gen mich __ _ be -- schüt -- te,
-                             mein Herz sei dei -- _ ne Hüt -- te,
-                             dein Wort sei mei -- ne Spei -- se,
-                             bis ich gen Him -- _ mel rei -- _ _ se!
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  "10. Mit" Se -- gen mich __ _ be -- schüt -- _ te, mein Herz sei dei ne Hüt -- _ _ te, dein Wort sei mei -- ne Spei -- _ _ se, bis ich gen Him -- _ mel rei -- _ _ se!
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-                            \tweak X-offset #-5 "9. Sprich" Ja zu mei -- _ nen Ta -- ten,
-                            hilf selbst das Bes -- _ te ra -- ten;
-                            den An -- fang, Mittl und En -- de,
-                            ach, Herr, zum be -- _ sten wen -- _ _ de!  
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  "9. Sprich" Ja zu mei -- _ nen Ta -- ten, hilf selbst das Bes -- _ te ra -- ten; den An -- fang, Mittl und En -- de, ach, Herr, _ zum be -- _ sten wen -- _ _ de!
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-                            \tweak X-offset #-5 "10. Mit" Se -- gen mich __ _ be -- schüt -- te,
-                            mein Herz sei dei -- _ ne Hüt -- te,
-                            dein Wort sei mei -- ne Spei -- se,
-                            bis ich gen Him -- _ mel rei -- _ _ se!
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  "10. Mit" Se -- gen mich __ _ be -- schüt -- te, mein Herz sei dei -- _ ne Hüt -- te, dein Wort sei mei -- ne Spei -- se, bis ich _ gen Him -- _ mel rei -- _ _ se!
 }

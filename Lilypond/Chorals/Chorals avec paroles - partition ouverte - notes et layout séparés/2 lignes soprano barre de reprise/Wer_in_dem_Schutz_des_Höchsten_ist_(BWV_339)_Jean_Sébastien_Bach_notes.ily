@@ -102,7 +102,7 @@ versoFourLyrics = \lyricmode {\set stanza = 4
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  \tweak X-offset #-5 "1. Herr," wie du willst, so schick's mit mir im Le -- _ ben wie im Ster -- ben, Er -- halt' mich nur in dei -- ner Huld, sonst wie _ du willst, gieb mir Ge -- duld, dein Will', der ist _ der _ bes -- _ te.
+  "1. Herr," wie du willst, so schick's mit mir im Le -- ben wie im Ster -- _ ben, Er -- halt' mich nur in dei -- ner Huld, sonst wie du _ willst, gieb mir Ge -- duld, _ dein Will', der ist _ der _ bes -- te.
 }
 
 altoLyricsTwo = \lyricmode {\set stanza = 2
@@ -112,7 +112,7 @@ altoLyricsTwo = \lyricmode {\set stanza = 2
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  \tweak X-offset #-5 "1. Herr," wie du willst, so schick's mit mir im Le -- _ ben wie im Ster -- ben, Er -- halt' mich nur in dei -- ner Huld, sonst wie du willst, gieb mir Ge -- duld, dein Will', der ist _ der _ bes -- _ te.
+  "1. Herr," wie du willst, so schick's mit mir im Le -- ben wie im Ster -- _ ben, Er -- halt' mich nur in dei -- ner Huld, sonst wie du willst, gieb mir Ge -- duld, dein Will', der ist _ der _ bes -- _ te.
 }
 
 tenorLyricsTwo = \lyricmode {\set stanza = 2
@@ -122,7 +122,7 @@ tenorLyricsTwo = \lyricmode {\set stanza = 2
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  \tweak X-offset #-5 "1. Herr," wie du willst, so schick's mit mir im Le -- _ ben wie im Ster -- ben, Er -- halt' mich nur in dei -- ner Huld, sonst wie du willst, gieb mir Ge -- duld, dein Will', der ist _ der _ bes -- _ te.
+  "1. Herr," wie du willst, so schick's mit mir im Le -- ben wie im Ster -- ben, Er -- halt' mich nur in dei -- ner Huld, sonst wie du willst, gieb mir Ge -- duld, dein Will', der ist _ der _ bes -- te.
 }
 
 bassLyricsTwo = \lyricmode {\set stanza = 2

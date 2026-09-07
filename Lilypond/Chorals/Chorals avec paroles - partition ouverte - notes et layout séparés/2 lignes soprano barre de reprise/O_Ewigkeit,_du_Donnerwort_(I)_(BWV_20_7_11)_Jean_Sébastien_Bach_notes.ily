@@ -90,12 +90,9 @@ sopranoVersoTwoLyrics = \lyricmode {\set stanza = 2
                                     Nicht, wo ich mich hin -- wen -- de.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-                            \tweak X-offset #-4.0 \markup{"11. So"} -- lang ein Gott im Him -- mel lebt
-                            und ü -- ber al -- le Wol -- ken schwebt,
-                            Wird sol -- che Mar -- ter wäh -- ren:      
-                            Denn wird sich en -- den die -- se Pein,
-                            Wenn Gott nicht mehr wird e -- wig sein.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  \markup{"11. So"} -- lang ein Gott im Him -- mel lebt und ü -- ber al -- le Wol -- ken schwebt, Wird sol -- che Mar -- ter wäh -- _ ren: Denn wird sich en -- den die -- se Pein, Wenn Gott nicht mehr wird e -- wig sein.
 }
 
 altoLyricsTwo = \lyricmode {
@@ -105,12 +102,9 @@ altoLyricsTwo = \lyricmode {
   und sie doch nicht ver -- zeh -- _ ren.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-                             \tweak X-offset #-4.0 \markup{"11. So"} -- lang ein Gott im Him -- mel lebt
-                             und ü -- ber al -- le Wol -- ken schwebt,
-                             Wird sol -- che Mar -- ter wäh -- ren:      
-                             Denn wird sich en -- den die -- se Pein,
-                             Wenn Gott nicht mehr wird e -- wig sein.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  \markup{"11. So"} -- lang ein Gott im Him -- mel lebt und ü -- ber al -- le Wol -- ken schwebt, Wird sol -- che Mar -- ter wäh -- _ ren: Denn wird sich en -- den die -- se Pein, Wenn Gott nicht mehr wird e -- wig sein.
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -120,12 +114,9 @@ tenorLyricsTwo = \lyricmode {
   und sie doch nicht ver -- zeh -- _ ren.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-                            \tweak X-offset #-4.0 \markup{"11. So"} -- lang ein Gott im Him -- mel lebt
-                            und ü -- ber al -- le Wol -- ken schwebt,
-                            Wird sol -- che Mar -- ter wäh -- ren:      
-                            Denn wird sich en -- den die -- se Pein,
-                            Wenn Gott nicht mehr wird e -- wig sein.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  \markup{"11. So"} -- lang ein Gott im Him -- mel lebt und ü -- ber al -- le Wol -- ken schwebt, Wird sol -- che Mar -- ter wäh -- _ ren: Denn wird sich en -- den die -- se Pein, Wenn Gott nicht mehr wird e -- wig sein.
 }
 
 bassLyricsTwo = \lyricmode {

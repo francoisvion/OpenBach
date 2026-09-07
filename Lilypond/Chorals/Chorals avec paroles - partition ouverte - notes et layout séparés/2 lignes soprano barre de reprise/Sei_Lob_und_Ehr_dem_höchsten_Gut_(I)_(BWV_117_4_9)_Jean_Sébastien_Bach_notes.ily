@@ -88,12 +88,9 @@ versoFourLyrics = \lyricmode {\set stanza = 4
                               und lasst uns fröh -- lich sin -- _ gen:
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-                            \tweak X-offset #-3.5 "4. Ich" \tweak X-offset #0 rief zum Herrn in mei -- ner Not:
-                            Ach Gott, ver -- nimm mein Schrei -- _ en!
-                            Drum dank, ach Gott, drum dank ich dir;
-                            ach dan -- ket, dan -- ket Gott mit mir!
-                            Gebt un -- serm Gott die Eh -- _ re!
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  "4. Ich" rief zum Herrn in mei -- ner Not: Ach Gott, ver -- nimm mein Schrei -- _ en! Drum dank, ach Gott, drum dank ich dir; ach dan -- ket, dan -- ket Gott mit mir! Gebt un -- serm Gott die Eh -- _ re!
 }
 
 altoLyricsTwo = \lyricmode {
@@ -102,12 +99,9 @@ altoLyricsTwo = \lyricmode {
   und ließ mir Trost ge -- dei -- _ hen.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-                             \tweak X-offset #-3.5 "4. Ich" \tweak X-offset #0 rief zum Herrn in mei -- ner Not:
-                             Ach Gott, ver -- nimm mein Schrei -- _ en!
-                             Drum dank, ach Gott, drum dank ich dir;
-                             ach dan -- ket, dan -- ket Gott mit mir!
-                             Gebt un -- serm Gott die Eh -- _ re!
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  "4. Ich" rief zum Herrn in mei -- ner Not: Ach Gott, ver -- nimm mein Schrei -- _ _ en! Drum dank, ach Gott, drum dank ich dir; ach dan -- ket, dan -- ket Gott mit mir! Gebt un -- serm Gott die Eh re!
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -116,12 +110,9 @@ tenorLyricsTwo = \lyricmode {
   und ließ mir Trost ge -- dei -- _ _ hen.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-                            \tweak X-offset #-3.5 "4. Ich" \tweak X-offset #0 rief zum Herrn in mei -- ner Not:
-                            Ach Gott, ver -- nimm mein Schrei -- _ en!
-                            Drum dank, ach Gott, drum dank ich dir;
-                            ach dan -- ket, dan -- ket Gott mit mir!
-                            Gebt un -- serm Gott die Eh -- _ re!
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  "4. Ich" rief zum Herrn in mei -- ner Not: Ach Gott, ver -- nimm mein Schrei -- _ en! Drum dank, ach Gott, drum dank ich dir; ach dan -- ket, dan -- ket Gott mit mir! Gebt un -- serm Gott die Eh -- _ re!
 }
 
 bassLyricsTwo = \lyricmode {

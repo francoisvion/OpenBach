@@ -104,7 +104,7 @@ sopranoVersoTwoLyrics = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  \tweak X-offset _ #-3.0 "1. _ O" Haupt _ voll Blut und Wun -- den, voll Schmerz und vol -- ler Hohn! O Haupt, sonst schön _ _ ge zie -- ret _ mit höch -- ster Ehr und Zier. jetzt ab -- er hoch schim -- pfi -- ret: ge -- _ grü -- _ sset seist du mir!
+  "1. O" Haupt voll Blut und Wun -- _ den, voll Schmerz und vol -- ler Hohn! O Haupt, sonst schön ge -- zie -- _ ret mit höch -- ster Ehr und Zier. jetzt ab -- er hoch schim -- pfi -- _ ret: ge -- grü -- sset seist du mir!
 }
 
 altoLyricsTwo = \lyricmode {
@@ -115,7 +115,7 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  \tweak X-offset _ #-3.0 "1. O" Haupt _ voll Blut und Wun -- den, voll Schmerz und vol -- _ ler Hohn! O Haupt, sonst schön _ _ ge zie -- ret mit höch -- ster Ehr und Zier. jetzt ab -- er hoch schim -- pfi -- _ ret: ge -- grü -- sset seist _ _ du _ mir!
+  "1. O" Haupt voll Blut und Wun -- _ den, voll Schmerz und vol -- ler Hohn! O Haupt, sonst schön ge -- zie -- _ ret mit höch -- ster Ehr und Zier. jetzt ab -- er hoch schim -- pfi -- _ ret: ge -- grü -- sset seist du mir!
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -126,7 +126,7 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  \tweak _ X-offset #-3.0 "1. O" Haupt _ voll Blut und Wun -- den, voll Schmerz und vol -- ler Hohn! O Haupt, sonst schön ge zie -- ret mit höch -- ster Ehr und Zier. jetzt ab -- er hoch schim -- pfi -- _ ret: ge -- grü -- sset _ seist du mir!
+  "1. O" Haupt voll Blut und Wun -- _ den, voll Schmerz und vol -- ler Hohn! O Haupt, sonst schön ge -- zie -- ret mit höch -- ster Ehr und Zier. jetzt ab -- er hoch schim -- pfi -- _ ret: ge -- grü -- sset seist du mir!
 }
 
 bassLyricsTwo = \lyricmode {

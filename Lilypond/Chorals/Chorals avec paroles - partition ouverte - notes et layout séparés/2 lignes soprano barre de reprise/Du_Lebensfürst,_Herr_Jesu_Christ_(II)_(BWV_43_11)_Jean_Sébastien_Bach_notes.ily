@@ -139,13 +139,9 @@ sopranoVersoTwoLyrics = \lyricmode {\set stanza = 2
                                     auf I -- sra -- e -- lis Hü -- gel.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-                            \tweak X-offset #-3.5 "1. Du" \tweak X-offset #0 Le -- bens -- fürst, __ _ _ Herr Je -- su Christ,
-                            der du bist auf -- ge -- nom -- men
-                            wie soll ich dein -- en gro -- _ ßen Sieg,
-                            den du durch ei -- _ _ nen schwe -- ren Krieg
-                            er -- wor -- ben hast recht prei -- sen,
-                            und dir gnug Ehr er -- wei -- sen?
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  "1. Du" Le -- bens -- fürst, __ Herr Je -- su Christ, der du bist auf -- ge -- nom -- men wie soll ich dein -- en gro ßen Sieg, den du durch ei nen schwe -- ren Krieg er -- wor -- ben hast recht prei -- sen, und dir gnug Ehr er -- wei -- sen?
 }
 
 altoLyricsTwo = \lyricmode {
@@ -154,13 +150,9 @@ altoLyricsTwo = \lyricmode {
   und die Ge -- mein der From -- men,
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-                             \tweak X-offset #-3.5 "1. Du" \tweak X-offset #0 Le -- bens -- fürst, __ _ _ Herr Je -- su Christ,
-                             der du bist auf -- ge -- nom -- men
-                             wie soll ich dein -- en gro -- _ ßen Sieg,
-                             den du durch ei -- _ _ nen schwe -- ren Krieg
-                             er -- wor -- ben hast recht prei -- sen,
-                             und dir gnug Ehr er -- wei -- sen?
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  "1. Du" Le -- bens -- fürst, __ _ _ Herr Je -- su Christ, der du bist auf -- ge -- nom -- men wie soll ich dein -- en gro -- _ ßen Sieg, den du durch ei -- _ _ nen schwe -- ren Krieg er -- wor -- ben hast recht prei -- sen, und dir gnug Ehr er -- wei -- _ sen?
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -169,13 +161,9 @@ tenorLyricsTwo = \lyricmode {
   und die Ge -- mein der From -- men,
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-                            \tweak X-offset #-3.5 "1. Du" \tweak X-offset #0 Le -- bens -- fürst, __ _ _ Herr Je -- su Christ,
-                            der du bist auf -- ge -- nom -- men
-                            wie soll ich dein -- en gro -- _ ßen Sieg,
-                            den du durch ei -- _ _ nen schwe -- ren Krieg
-                            er -- wor -- ben hast recht prei -- sen,
-                            und dir gnug Ehr er -- wei -- sen?
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  "1. Du" Le -- bens -- fürst, __ _ _ Herr Je -- su Christ, der du bist auf -- ge -- nom -- men wie soll ich dein -- en gro ßen Sieg, den du durch ei -- _ _ nen schwe -- ren Krieg er -- wor -- ben hast recht prei -- sen, und dir gnug Ehr er -- wei -- sen?
 }
 
 bassLyricsTwo = \lyricmode {

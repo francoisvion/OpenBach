@@ -90,30 +90,30 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  \tweak X-offset #-5 "6. Heut" lebst du, heut be -- keh -- re dich, eh Mor -- gen kommt, kann's än -- dern sich; Wer heut ist frisch, ge -- sund und roth, ist mor -- gen krank, ja wol gar todt. So du nun stir -- best oh -- ne Buß, dein Seel und Leib dort lei -- den muss.
+  "6. Heut" lebst du, heut be -- keh -- re dich, eh Mor -- gen kommt, kann's än -- dern sich; Wer heut ist frisch, ge -- sund und roth, ist mor -- gen krank, ja wol gar todt. So du nun stir -- best oh -- ne Buß, dein Seel und Leib dort lei -- den muss.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  \tweak X-offset #-5 "7. Hilf," o Herr Je su, hilf du mir, dass ich noch heu te komm zu dir, und Bu -- ße thu den Au -- gen -- blick, eh mich der schnel -- le Tod hin -- rück, auf dass ich heut und je -- der -- zeit zu mei -- ner Heim -- fahrt sey be -- reit!
+  "7. Hilf," o Herr Je -- su, hilf du mir, dass ich noch heu -- te komm zu dir, und Bu -- ße thu den Au -- gen -- blick, eh mich der schnel -- le Tod hin -- rück, auf dass ich heut und je -- der -- zeit zu mei -- ner Heim -- fahrt sey be -- reit!
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  \tweak X-offset #-5 "6. Heut" lebst du, heut be -- keh -- re dich, eh Mor -- gen kommt, kann's än -- dern sich; Wer heut ist frisch, ge -- sund und roth, ist mor -- gen krank, ja wol gar todt. So du nun stir -- best oh -- ne Buß, dein Seel und Leib dort lei -- den muss.
+  "6. Heut" lebst du, heut be -- keh -- re dich, eh Mor -- gen kommt, kann's än -- dern sich; Wer heut ist frisch, ge -- sund und roth, ist mor -- gen krank, ja wol gar todt. So du nun stir -- best oh -- ne Buß, dein Seel und Leib dort lei -- den muss.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  \tweak X-offset #-5 "7. Hilf," o Herr Je su, hilf du mir, dass ich noch heu te komm zu dir, und Bu -- ße thu den Au -- gen -- blick, eh mich der schnel -- le Tod hin -- rück, auf dass ich heut und je -- der -- zeit zu mei -- ner Heim -- fahrt sey be -- reit!
+  "7. Hilf," o Herr Je -- su, hilf du mir, dass ich noch heu -- te komm zu dir, und Bu -- ße thu den Au -- gen -- blick, eh mich der schnel -- le Tod hin -- rück, auf dass ich heut und je -- der -- zeit zu mei -- ner Heim -- fahrt sey be -- reit!
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  \tweak X-offset #-5 "6. Heut" lebst du, heut be -- keh -- re dich, eh Mor -- gen kommt, kann's än -- dern sich; Wer heut ist frisch, ge -- sund und roth, ist mor -- gen krank, ja wol gar todt. So du nun stir -- best oh -- ne Buß, dein Seel und Leib dort lei -- den muss.
+  "6. Heut" lebst du, heut be -- keh -- re dich, eh Mor -- gen kommt, kann's än -- dern sich; Wer heut ist frisch, ge -- sund und roth, ist mor -- gen krank, ja wol gar todt. So du nun stir -- best oh -- ne Buß, dein Seel und Leib dort lei -- den muss.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  \tweak X-offset #-5 "7. Hilf," o Herr Je su, hilf du mir, dass ich noch heu te komm zu dir, und Bu -- ße thu den Au -- gen -- blick, eh mich der schnel -- le Tod hin -- rück, auf dass ich heut und je -- der -- zeit zu mei -- ner Heim -- fahrt sey be -- reit!
+  "7. Hilf," o Herr Je -- su, hilf du mir, dass ich noch heu -- te komm zu dir, und Bu -- ße thu den Au -- gen -- blick, eh mich der schnel -- le Tod hin -- rück, auf dass ich heut und je -- der -- zeit zu mei -- ner Heim -- fahrt sey be -- reit!
 }

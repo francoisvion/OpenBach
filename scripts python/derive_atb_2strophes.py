@@ -1,5 +1,6 @@
 import re
 import sys
+from fractions import Fraction
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -83,10 +84,16 @@ def replace_var_body(text, name, new_body_text):
 
 
 def derive_stanza(text, sop_music, sop_lyrics_body_raw, voice_music_map, suffix,
-                   fname, report, allow_trailing_surplus):
-    """voice_music_map: {"alto": music_body, "tenor": ..., "bass": ...}
-    (already sliced to the relevant span -- full piece for stanza 1, just
-    the repeat body for stanza 2). Returns (new_text, any_change)."""
+                   fname, report, allow_trailing_surplus, voice_fallback_full_map=None):
+    """voice_music_map: {"alto": music_body_or_None, ...} -- the primary
+    span to use for each voice (full piece for stanza 1, this voice's own
+    \\repeat volta 2 body for stanza 2). voice_fallback_full_map (stanza 2
+    only): {"alto": full_body, ...} -- when the primary is None (some
+    transcriptions only mark the repeat on the soprano staff -- the other
+    voices still repeat, just not explicitly bracketed), fall back to the
+    START of this voice's FULL music, truncated to the reference's own
+    total duration."""
+    voice_fallback_full_map = voice_fallback_full_map or {}
     sop_lyrics_body, stanza_prefix = strip_stanza(sop_lyrics_body_raw)
     try:
         ref_periods_events, ref_token_periods, ref_hyphen_periods, ref_underline_periods, leftover, convention = reconcile_soprano(
@@ -99,15 +106,29 @@ def derive_stanza(text, sop_music, sop_lyrics_body_raw, voice_music_map, suffix,
         report.append((fname, f"soprano{suffix}", f"NOTE: {len(leftover)} trailing token(s) unused: {leftover}"))
 
     ref_bounds = period_boundaries(ref_periods_events)
+    ref_total_duration = ref_bounds[-1] if ref_bounds else None
     new_text = text
     any_change = False
 
-    for voice, music in voice_music_map.items():
-        if music is None:
+    for voice, primary_music in voice_music_map.items():
+        fallback_full = voice_fallback_full_map.get(voice)
+        if primary_music is not None:
+            tgt_events = events_for_voice(primary_music, convention)
+        elif fallback_full is not None:
+            all_events = events_for_voice(fallback_full, convention)
+            tgt_events = []
+            acc = Fraction(0)
+            for e in all_events:
+                if acc >= ref_total_duration:
+                    break
+                tgt_events.append(e)
+                acc += e["dur"]
+            report.append((fname, f"{voice}{suffix}",
+                f"NOTE: no explicit repeat for this voice -- used first {ref_total_duration} of its full music instead"))
+        else:
             report.append((fname, f"{voice}{suffix}", "SKIP: no music for this stanza's span"))
             continue
 
-        tgt_events = events_for_voice(music, convention)
         tgt_periods_fermata = split_periods(tgt_events)
         if len(tgt_periods_fermata) == len(ref_periods_events):
             tgt_periods = tgt_periods_fermata
@@ -199,6 +220,7 @@ def process_file(path, report):
             new_text, sop_repeat, sop_lyrics_two,
             {"alto": alto_repeat, "tenor": tenor_repeat, "bass": bass_repeat},
             "Two", path.name, report, False,
+            voice_fallback_full_map={"alto": alto_music_full, "tenor": tenor_music_full, "bass": bass_music_full},
         )
         any_change = any_change or changed
 

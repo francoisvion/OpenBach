@@ -120,9 +120,9 @@ altoLyricsOne = \lyricmode {
   Nun sprecht von Her -- zen: A men!
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-                            Das Land bringt Frucht und bes -- _ _ sert sich,
-                            dein Wort ist wohl ge -- ra -- _ _ _ ten.
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Das Land bringt Frucht und bes -- _ _ sert sich, dein Wort ist wohl ge -- ra _ ten.
 }
 
 tenorLyricsOne = \lyricmode {
@@ -130,9 +130,9 @@ tenorLyricsOne = \lyricmode {
   Es dan -- ke, Gott, und lo -- _ _ be dich das Volk in gu -- ten Ta _ ten; Uns se -- gne Va -- ter und der Sohn, uns se -- gne Gott der Heil' -- ge Geist, dem al -- le Welt die Eh -- re tut, vor ihm sich fürch -- te al -- ler -- meist. Nun sprecht von Her -- zen: A -- _ men!
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-                             Das Land bringt Frucht und bes -- _ _ sert sich,
-                             dein Wort ist wohl ge -- ra -- _ _ _ ten.
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Das Land bringt Frucht und bes -- _ _ sert sich, dein Wort ist wohl ge -- ra _ ten.
 }
 
 bassLyricsOne = \lyricmode {
@@ -146,7 +146,7 @@ bassLyricsOne = \lyricmode {
   Nun sprecht von Her -- zen: A -- _ _ men!
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-                            Das Land bringt Frucht und bes -- _ _ sert sich,
-                            dein Wort ist wohl ge -- ra -- _ _ _ ten.
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Das Land bringt Frucht und bes -- _ _ sert sich, dein Wort ist wohl ge -- ra -- _ _ _ ten.
 }

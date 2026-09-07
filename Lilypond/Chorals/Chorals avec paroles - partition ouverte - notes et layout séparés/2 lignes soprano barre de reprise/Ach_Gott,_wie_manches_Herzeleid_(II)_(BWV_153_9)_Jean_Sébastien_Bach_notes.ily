@@ -103,11 +103,9 @@ versoThreeLyrics = \lyricmode {\set stanza = 3
                                o mein Hei -- land, wär ich bei dir!
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-                            \tweak X-offset #-5.0 "16. Drum" will ich, weil __ _ ich le -- _ be noch, 
-                            das Kreuz dir fröh -- lich tra -- gen nach;
-                            mein Gott, mach mich __ _ da -- zu be -- reit,
-                            es dient zum Be -- sten al -- le Zeit!
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  "16. Drum" will ich, weil __ _ ich le be noch, das Kreuz dir fröh -- lich tra -- gen _ nach; mein Gott, mach mich __ _ da -- zu be -- reit, es dient zum Be -- _ sten al -- le Zeit!
 }
 
 altoLyricsTwo = \lyricmode {\set stanza = 2
@@ -117,11 +115,9 @@ altoLyricsTwo = \lyricmode {\set stanza = 2
                             für Sünd und Schan -- den mich be -- hüt!
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-                             \tweak X-offset #-5.0 "16. Drum" will ich, weil __ _ ich le -- _ be noch, 
-                             das Kreuz dir fröh -- lich tra -- gen nach;
-                             mein Gott, mach mich __ _ da -- zu be -- reit,
-                             es dient zum Be -- sten al -- le Zeit!
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  "16. Drum" will ich, weil __ _ ich le be noch, das Kreuz dir fröh -- lich tra -- gen _ nach; mein Gott, mach mich __ _ da -- zu be -- _ reit, es dient zum Be -- _ sten al -- le Zeit!
 }
 
 tenorLyricsTwo = \lyricmode {\set stanza = 2
@@ -131,11 +127,9 @@ tenorLyricsTwo = \lyricmode {\set stanza = 2
                              für Sünd und Schan -- den mich be -- hüt!
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-                            \tweak X-offset #-5.0 "16. Drum" will ich, weil __ _ ich le -- _ be noch, 
-                            das Kreuz dir fröh -- lich tra -- gen nach;
-                            mein Gott, mach mich __ _ da -- zu be -- reit,
-                            es dient zum Be -- sten al -- le Zeit!
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  "16. Drum" will ich, weil __ ich le be noch, das Kreuz dir fröh -- lich tra -- gen nach; mein Gott, mach mich __ _ da -- zu be -- reit, es dient zum Be -- _ sten al -- le _ Zeit!
 }
 
 bassLyricsTwo = \lyricmode {\set stanza = 2

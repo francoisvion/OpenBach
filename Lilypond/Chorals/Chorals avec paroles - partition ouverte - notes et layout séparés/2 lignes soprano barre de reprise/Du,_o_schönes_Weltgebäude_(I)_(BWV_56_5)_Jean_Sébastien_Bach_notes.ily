@@ -120,12 +120,13 @@ tenorLyricsTwo = \lyricmode {
   du kannst _ mich viel -- mehr er -- freu -- en;
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-                            Komm, o Tod, du Schla -- fes Bru -- der,
-                            Komm und füh -- re mich nur fort;
-                            Es mag, _ wer da will, dich scheu -- en,     
-                            denn durch dich komm ich her -- ein
-                            zu dem schön -- sten Je -- su -- lein.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Komm, o Tod, du Schla -- fes Bru -- der,
+  Komm und füh -- re mich nur fort;
+  Es _ mag, _ wer da will, dich scheu -- _ en,
+  denn durch dich komm ich her -- ein
+  zu dem schön -- sten Je -- su -- lein.
 }
 
 bassLyricsTwo = \lyricmode {

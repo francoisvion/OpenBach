@@ -258,8 +258,19 @@ def lyric_tokens_with_hyphens(body):
     NOT require a following "_" ("word __ next" is valid: it just draws
     the line from "word" onward). Both '--' and '__' are therefore
     stripped from `tokens` here, same as ties are invisible in the note
-    stream -- they never consume a note-slot on their own."""
-    raw = body.split()
+    stream -- they never consume a note-slot on their own.
+
+    Two more zero-width things get stripped before tokenizing at all:
+    "\\tweak PROPERTY VALUE" (pure engraving noise, e.g. positioning a
+    printed verse number) and "\\set NAME = VALUE" (e.g. "\\set stanza =
+    N") -- neither is a syllable. A quoted "..." string IS a real syllable
+    (LilyPond's own way of writing a multi-word single syllable, e.g. a
+    verse-number label fused with the first word: "16. Drum") and must be
+    kept as ONE token even though it contains whitespace -- a naive
+    body.split() breaks it into two bogus half-tokens instead."""
+    body = re.sub(r"\\tweak\s+\S+\s+\S+\s*", " ", body)
+    body = re.sub(r"\\set\s+\S+\s*=\s*\S+\s*", " ", body)
+    raw = re.findall(r'"[^"]*"|\S+', body)
     tokens = []
     hyphen_after = []
     underline_after = []

@@ -326,7 +326,7 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  \repeat unfold 12 { _ \skip1 } All' _ En gel und all' _ Him -- mels -- heer, Und _ was da die -- net dei -- ner _ Ehr', \repeat unfold 18 { \skip1 } Der hei -- li -- gen zwölf _ Bo ten Zahl, und die lie -- _ ben Pro -- phe ten all', Der Jung -- _ frau Leib nicht hast ver -- schmäht, "zu er" -- _ lö -- sen das mensch lich' Ge -- schlecht, \repeat unfold 64 { \skip1 } sei gnä -- dig uns, o Her -- re Gott, _ sei gnä -- dig uns in al -- ler Noth! _
+  \repeat unfold 12 { _ \skip1 } All' _ En gel und all' _ Him -- mels -- heer, Und _ was da die -- net dei -- ner _ Ehr', \repeat unfold 18 { \skip1 } Der hei -- li -- gen zwölf _ Bo ten Zahl, und die lie -- _ ben Pro -- phe ten all', Der Jung -- _ frau Leib nicht hast ver -- schmäht, "zu er" -- lö -- _ sen das mensch -- lich' Ge -- schlecht, \repeat unfold 64 { \skip1 } sei gnä -- dig uns, o Her -- re Gott, sei gnä -- dig uns in al -- ler Noth! _
 }
 
 tenorLyricsOne = \lyricmode {
@@ -336,7 +336,7 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  \repeat unfold 12 { \skip1 } All' En -- gel und all' Him -- mels -- heer, Und was da die -- net dei -- _ ner Ehr', \repeat unfold 18 { \skip1 } Der hei -- li -- gen zwölf Bo ten Zahl, und die lie -- ben Pro -- phe ten all', Der Jung -- frau Leib nicht hast ver -- schmäht, "zu _ er" -- lö -- sen das mensch lich' Ge -- schlecht, \repeat unfold 64 { \skip1 } sei gnä -- dig uns, _ o Her -- re Gott, sei gnä -- dig uns in al -- ler Noth!
+  \repeat unfold 12 { \skip1 } All' En -- gel und all' Him -- mels -- heer, Und was da die -- net dei -- _ ner Ehr', \repeat unfold 18 { \skip1 } Der hei -- li -- gen zwölf Bo -- ten Zahl, und die lie -- ben Pro -- phe ten all', Der Jung -- frau Leib nicht hast ver -- schmäht, "zu er" -- _ lö -- sen das mensch -- lich' Ge -- schlecht, \repeat unfold 64 { \skip1 } sei gnä -- dig uns, _ o Her -- re Gott, sei gnä -- dig uns in al -- ler Noth!
 }
 
 bassLyricsOne = \lyricmode {
@@ -346,5 +346,5 @@ bassLyricsOne = \lyricmode {
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  \repeat unfold 12 { \skip1 } All' En gel und all' Him -- mels -- heer, Und was da die -- net dei -- ner Ehr', \repeat unfold 18 { \skip1 } Der hei -- li -- gen zwölf Bo ten Zahl, und die lie -- ben Pro -- phe ten all', Der Jung -- frau Leib nicht hast ver -- schmäht, "zu er" -- lö -- sen das mensch lich' Ge -- schlecht, \repeat unfold 64 { \skip1 } sei gnä -- dig uns, o Her -- re Gott, sei gnä -- dig uns in al -- ler Noth!
+  \repeat unfold 12 { \skip1 } All' En gel und all' Him -- mels -- heer, Und was da die -- net dei -- ner Ehr', \repeat unfold 18 { \skip1 } Der hei -- li -- gen zwölf Bo ten Zahl, und die lie -- ben Pro -- phe ten all', Der Jung -- frau Leib nicht hast ver -- schmäht, "zu er" -- lö -- sen das mensch -- lich' Ge -- schlecht, \repeat unfold 64 { \skip1 } sei gnä -- dig uns, o Her -- re Gott, sei gnä -- dig uns in al -- ler Noth!
 }
