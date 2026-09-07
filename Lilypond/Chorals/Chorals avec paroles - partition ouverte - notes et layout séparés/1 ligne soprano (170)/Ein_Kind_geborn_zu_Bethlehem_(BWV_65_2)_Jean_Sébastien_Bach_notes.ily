@@ -79,17 +79,29 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Die Kön -- ge aus Sa -- ba ka -- _ men da, ka -- _ _ men da, Gold, Weih -- rauch, Myrr -- hen brach -- ten sie da, Al -- le -- lu -- ja, Al -- le -- _ _ lu -- ja!
+  Die Kön -- ge aus Sa -- ba ka -- _ men da,
+  ka -- _ _ men da,
+  Gold, Weih -- rauch, Myrr -- hen brach -- ten sie da,
+  Al -- le -- lu -- ja, Al -- le -- _ _ lu -- ja!
 }
 
 altoLyrics = \lyricmode {
-  Die Kön -- ge aus Sa -- ba ka men da, ka -- _ _ men da, Gold, Weih -- rauch, Myrr -- hen brach -- ten sie da, Al -- le -- _ lu -- ja, Al -- le -- _ _ _ lu -- ja!
+  Die Kön -- ge aus Sa -- ba ka men da,
+  ka -- _ _ men da,
+  Gold, Weih -- rauch, Myrr -- hen brach -- ten sie da,
+  Al -- le -- _ lu -- ja, Al -- le -- _ _ _ lu -- ja!
 }
 
 tenorLyrics = \lyricmode {
-  Die Kön -- ge aus Sa -- ba ka -- _ men da, ka -- _ _ men da, Gold, Weih -- _ rauch, Myrr -- _ hen brach -- ten sie da, Al -- le -- _ lu -- ja, _ Al -- le -- _ _ lu -- ja!
+  Die Kön -- ge aus Sa -- ba ka -- _ men da,
+  ka -- _ men da,
+  Gold, Weih -- _ rauch, Myrr -- _ hen brach -- ten sie da,
+  Al -- le -- _ lu -- ja, __ _ Al -- le -- _ _ lu -- ja!
 }
 
 bassLyrics = \lyricmode {
-  Die Kön -- ge aus Sa -- _ ba ka -- _ men da, ka -- _ _ _ _ men da, Gold, Weih -- _ rauch, Myrr -- _ hen brach -- ten sie da, Al -- le -- _ lu -- ja, _ Al -- le -- _ _ _ _ lu -- ja!
+  Die Kön -- ge aus Sa -- _ ba ka -- _ men da,
+  ka -- _ _ _ _ men da,
+  Gold, Weih -- _ rauch, Myrr -- _ hen brach -- ten sie da,
+  Al -- le -- _ lu -- ja, __ _ Al -- le -- _ _ _ _ lu -- ja!
 }

@@ -81,7 +81,7 @@ tenorMusic = {
   b e' a d'
   cis'2\fermata d'4 c'8 [bes]
   a4 g c'8 bes4 a8
-  a [b] c'2 c'4~
+  a [b] c'4 c'2~
   c'8 a b4 g2\fermata
   c'4 b c'8 [b] a4
   f'4. e'16 [d'] c'2\fermata
@@ -112,7 +112,7 @@ bassMusic = {
   gis a8 [g] f [e] d4
   a,2\fermata b,4 c
   c1~
-  c4 c8 [d] e [d] e [f]
+  c4 c8 d e d e f
   g4 g, c2\fermata
   c'8 [b] a [gis] a [g] f [e]
   f [e] d [e] f2\fermata
@@ -124,17 +124,61 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Ver -- leih' uns Frie -- den gnä -- dig -- lich, Herr Gott, zu un -- sern Zei -- ten; es ist doch ja kein an -- drer nicht, der für uns könn -- te strei -- ten, denn du, un -- ser Gott al -- lei -- ne. Gieb un -- sern Für -- sten und der Ob -- rig -- keit Fried' und gut Re -- gi -- ment, dass wir un -- ter ih -- nen ein ge -- ruh'g und stil -- les Le -- ben füh -- ren mö -- gen in al -- ler Gott -- se -- lig -- keit und Ehr -- _ bar -- keit, A -- _ _ _ _ _ _ men.
+  Ver -- leih' uns Frie -- den gnä -- dig -- lich,
+  Herr Gott, zu un -- sern Zei -- ten;
+  es ist doch ja kein an -- drer nicht,
+  der für uns könn -- te strei -- ten,
+  denn du, un -- ser Gott al -- lei -- ne.
+  Gieb un -- sern Für -- sten und der Ob -- rig -- keit
+  Fried' und gut Re -- gi -- ment,
+  dass wir un -- ter ih -- nen
+  ein ge -- ruh'g und stil -- les Le -- ben füh -- ren mö -- gen
+  in al -- ler Gott -- se -- lig -- keit
+  und Ehr -- _ bar -- keit,
+  A -- _ _ _ _ _ _ men.
 }
 
 altoLyrics = \lyricmode {
-  Ver -- leih' uns Frie -- den gnä -- dig -- lich, Herr Gott, zu un -- sern Zei -- ten; es ist doch ja kein an -- drer nicht, der für uns könn -- te strei -- _ ten, denn du, un -- ser Gott al -- lei -- _ ne. Gieb un -- sern Für -- sten und der Ob -- rig -- keit Fried' und gut Re -- gi -- ment, dass wir un -- ter ih -- nen ein ge -- ruh'g und stil -- les Le -- ben füh -- ren mö -- _ gen in al -- ler Gott -- se -- lig -- keit und Ehr -- _ bar -- keit, A -- _ _ _ _ _ _ _ men.
+  Ver -- leih' uns Frie -- den gnä -- dig -- lich,
+  Herr Gott, zu un -- sern Zei -- ten;
+  es ist doch ja kein an -- drer nicht,
+  der für uns könn -- te strei -- _ ten,
+  denn du, un -- ser Gott al -- _ lei -- ne.
+  Gieb un -- sern Für -- sten und der Ob -- rig -- keit
+  Fried' und gut Re -- gi -- ment,
+  dass wir un -- ter ih -- nen
+  ein ge -- ruh'g und stil -- les Le -- ben füh -- ren mö -- _ gen
+  in al -- ler Gott -- se -- lig -- keit
+  und Ehr -- _ bar -- keit,
+  A -- _ _ _ _ _ _ _ men.
 }
 
 tenorLyrics = \lyricmode {
-  Ver -- leih' uns Frie -- den gnä -- dig -- lich, Herr Gott, zu un -- sern Zei -- _ ten; es ist doch ja kein an -- drer nicht, der für uns könn -- te strei -- _ ten, denn du, un -- ser Gott al -- lei -- ne. Gieb un -- sern Für -- sten und der Ob -- rig -- keit Fried' und gut Re -- gi -- ment, dass wir un -- ter ih -- nen ein ge -- ruh'g und stil -- les _ Le -- ben füh -- ren mö -- gen in al -- ler Gott -- se -- lig -- keit und Ehr -- _ bar -- keit, A -- _ _ _ _ _ _ _ _ men.
+  Ver -- leih' uns Frie -- den gnä -- dig -- lich,
+  Herr Gott, zu un -- sern Zei -- _ ten;
+  es ist doch ja kein an -- drer nicht,
+  der für uns könn -- te strei -- _ ten,
+  denn du, un -- ser Gott al -- lei -- ne.
+  Gieb un -- sern Für -- sten und der Ob -- rig -- keit
+  Fried' und gut Re -- gi -- ment,
+  dass wir un -- ter ih -- nen
+  ein ge -- ruh'g und stil -- _ les Le -- ben füh -- ren mö -- gen
+  in al -- ler Gott -- se -- lig -- keit
+  und Ehr -- _ bar -- keit,
+  A -- _ _ _ _ _ _ _ _ men.
 }
 
 bassLyrics = \lyricmode {
-  Ver -- leih' uns Frie -- den gnä -- dig -- lich, Herr Gott, zu un -- sern Zei -- ten; es ist doch ja kein an -- drer nicht, der für uns könn -- te strei -- _ ten, denn du, un -- ser Gott al -- lei -- ne. Gieb un -- sern Für -- sten und der Ob -- rig -- keit Fried' und gut Re -- gi -- ment, dass wir un -- ter ih -- nen ein ge -- ruh'g und stil -- les Le -- ben füh -- ren mö -- gen in al -- ler Gott -- se -- lig -- keit und Ehr -- _ bar -- keit, A _ _ _ _ _ men.
+  Ver -- leih' uns Frie -- den gnä -- dig -- lich,
+  Herr Gott, zu un -- sern Zei -- ten;
+  es ist doch ja kein an -- drer nicht,
+  der für uns könn -- te strei -- _ ten,
+  denn du, un -- ser Gott al -- lei -- ne.
+  Gieb un -- sern Für -- sten und der Ob -- rig -- keit
+  Fried' und gut Re -- gi -- ment,
+  dass wir un -- ter ih -- nen
+  ein ge -- ruh'g __ und stil -- les Le -- ben füh -- ren mö -- gen
+  in al -- ler Gott -- se -- lig -- keit
+  und Ehr -- _ bar -- keit,
+  A _ _ _ _ _ men.
 }

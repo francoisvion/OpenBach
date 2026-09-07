@@ -23,11 +23,11 @@ altoMusic = {
   \partial 4  c'4
   c' d'8 [e'] f'4~
   f' e'8 [f'] g'4~
-  g'8 [e'] f'2~
+  g'8 e' f'2~
   f'4 e'\fermata g'
   g' f'2
   g'8 [f'] g' a'4 g'8~
-  g' [f'16 e'] f'4. e'16 [d']
+  g' f'16 [e'] f'4. e'16 [d']
   cis'2\fermata
   \partial 4  d'4
   e'4. f'8 g'4~
@@ -87,13 +87,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Er -- stan -- den __ _ ist der heil' -- ge Christ, al -- le lu -- ja, _ al -- le -- lu -- _ ja! Der al -- _ ler Welt ein Trö -- _ ster ist, al -- le -- _ lu -- ja, al -- le -- lu -- ja!
+  Er -- stan -- den __ _ ist der heil' -- ge Christ, al -- le lu -- ja, __ _ _ al -- le -- _ lu -- ja! Der al -- _ ler __ Welt ein Trö -- _ ster ist, al -- le -- _ lu -- ja, al -- le -- lu -- ja!
 }
 
 tenorLyrics = \lyricmode {
-  Er -- stan -- den __ _ ist der heil' -- ge Christ, al -- le lu -- ja, _ al -- le -- _ lu -- ja! Der al -- ler Welt _ ein Trö -- _ ster ist, al -- le -- _ lu -- ja, al -- _ le -- _ lu -- ja!
+  Er -- stan -- den __ _ ist der heil' -- ge Christ, al -- le lu -- ja, __ _ al -- le -- _ lu -- ja! Der al -- ler Welt __ _ ein Trö -- _ ster ist, al -- le -- _ lu -- ja, __ _ al -- le -- _ lu -- ja!
 }
 
 bassLyrics = \lyricmode {
-  Er -- stan -- den __ _ ist _ der heil' -- _ ge Christ, al -- le -- _ lu -- ja, _ al -- le -- _ lu -- ja! Der al -- _ ler Welt _ ein Trö -- _ ster ist, al -- le -- _ lu -- ja, _ al -- le -- _ lu -- ja!
+  Er -- stan -- den __ _ ist _ der heil' -- _ ge Christ, al -- le -- _ lu -- ja, __ _ al -- le -- _ lu -- ja! Der al -- _ ler Welt __ _ ein Trö -- _ ster ist, al -- le -- _ lu -- ja, _ al -- le -- _ lu -- ja!
 }

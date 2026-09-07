@@ -37,10 +37,10 @@ altoMusic = {
   d' c' d' d'
   d'2 d'4\fermata d'
   d'8. [c'16] bes4 c' bes
-  a8 [bes16 c'] d' [ees'] f'4 ees' d'8~
-  d' [c'16 b] c'4 b\fermata g'~
-  g'8 fis' g'4. fis'16 [e'] d'4~
-  d'8 e' fis' [g'] a'4. g'8
+  a8 [bes16 c'] d' [ees' f'8] f' [ees'] ees' [d'8]
+  d' [c'16 b] c'4 b\fermata g'
+  g'8 [fis'] g'4 g'8 [fis'16 e'] d'4
+  d'8 [e'] fis' [g'] a'4. g'8
   g' [fis'16 e'] fis'4 d'\fermata \fine
 }
 
@@ -48,7 +48,7 @@ tenorMusic = {
   \partial 4  bes8 [c']
   d'4 bes a8 [g] f4
   bes bes c'4. bes8
-  a4~ a16 [bes] c'4 bes8\fermata d'4
+  a4~ a16 [bes c'8] c' [bes8]\fermata d'4
   d'8. [c'16] bes4 c'8 [a] f4
   bes8 [a] g4 c' bes
   bes8 [a16 g] a [bes c'8] bes4\fermata bes8 [c']
@@ -57,7 +57,7 @@ tenorMusic = {
   a [g] a4 f\fermata
   \partial 4 bes8 [c']
   d' [c'16 bes] a4 g a
-  g a bes a~
+  g a bes a
   a g fis\fermata g
   g8 [fis] g [ees] c [f] f4
   f8 [g16 a] bes4 bes bes8. [a16]
@@ -69,11 +69,11 @@ tenorMusic = {
 
 bassMusic = {
   \partial 4  g,8 [a,]
-  bes,4 g, a, bes,~
-  bes,8 a, g,4~ g,8 fis, g,4
+  bes,4 g, a, bes,
+  bes,8 [a,] g,4 g,8 [fis,] g,4
   c d g,\fermata g,
-  d ees a,8 [f,] bes,4~
-  bes, ees8 d c4. cis8
+  d ees a,8 [f,] bes,4
+  bes, ees8 [d] c4. cis8
   d2 g,4\fermata g,8 [a,]
   bes, [c] d4 ees e
   fis g d ees
@@ -99,7 +99,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Ich dan -- ke dir, o Gott, in dei -- nem Thro -- _ ne, durch Je -- sum Chri -- tum, dei -- nen lie -- ben Soh -- _ ne, dass du mich hast in die -- ser Nacht be -- vah -- _ ret vor Scha -- den und vor man -- cher -- lei Ge -- fah -- ren, und bit -- te dich, wollst mich an die -- sem Ta -- ge be -- hü -- ten auch vor Sün -- den, Schand' und Pla -- _ ge.
+  Ich dan -- ke dir, o Gott, in dei -- nem Thro -- ne, durch Je -- sum Chri -- tum, dei -- nen lie -- ben Soh -- _ ne, dass du mich hast in die -- ser Nacht be -- vah -- _ ret vor Scha -- den und vor man -- cher -- lei Ge -- fah -- _ ren, und bit -- te dich, wollst mich an die -- sem Ta -- ge be -- hü -- ten auch vor Sün -- den, Schand' und Pla -- _ ge.
 }
 
 bassLyrics = \lyricmode {

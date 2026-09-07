@@ -47,7 +47,7 @@ tenorMusic = {
 }
 
 bassMusic = {
-  g4 c~ c b,
+  g4 c c b,
   a, aes, g,2
   c\fermata g4 gis
   a2\fermata e4 b,8 [c]
@@ -58,22 +58,50 @@ bassMusic = {
   g4 gis a2\fermata
   b4 e a2\fermata
   e4 d8 [e] fis2\fermata
-  g8 [a] b4~ b8 a b [c']
+  g8 [a] b4 b8 [a] b [c']
   d'4 d g,2\fermata \fine
 }
 
 sopranoLyrics = \lyricmode {
-  Ich will dich mit Fleiß be -- wah -- _ ren, Ich will dir le -- ben hier, dir will ich ab -- fah -- ren, mit dir will ich end -- lich schwe -- _ ben vol -- ler Freud oh -- ne Zeit dort im an -- dern Le -- ben.
+  Ich will dich mit Fleiß be -- wah -- _ ren,
+  Ich will dir
+  le -- ben hier,
+  dir will ich ab -- fah -- ren,
+  mit dir will ich end -- lich schwe -- _ ben
+  vol -- ler Freud
+  oh -- ne Zeit
+  dort im an -- dern Le -- ben.
 }
 
 altoLyrics = \lyricmode {
-  Ich will dich mit Fleiß be -- wah ren, Ich will dir le -- ben hier, dir will ich ab -- fah -- _ ren, mit dir will ich end -- lich schwe -- _ ben vol -- ler Freud oh -- ne Zeit dort im an -- dern Le -- _ _ ben.
+  Ich will dich mit Fleiß be -- wah ren,
+  Ich will dir
+  le -- ben hier,
+  dir will ich ab -- fah -- _ ren,
+  mit dir will ich end -- lich schwe -- _ ben
+  vol -- ler Freud
+  oh -- ne Zeit
+  dort im an -- dern Le -- _ _ ben.
 }
 
 tenorLyrics = \lyricmode {
-  Ich will dich mit Fleiß be -- wah -- _ ren, Ich will dir le -- ben hier, dir will ich ab -- fah -- _ ren, mit dir will ich end -- lich schwe -- _ ben vol -- ler Freud oh -- ne Zeit dort im an -- dern Le -- _ ben.
+  Ich will dich mit Fleiß be -- wah -- _ ren,
+  Ich will dir
+  le -- ben hier,
+  dir will ich ab -- fah -- _ ren,
+  mit dir will ich end -- lich schwe -- _ ben
+  vol -- ler Freud
+  oh -- ne Zeit
+  dort im an -- dern Le -- _ ben.
 }
 
 bassLyrics = \lyricmode {
-  Ich will dich mit Fleiß be -- wah -- _ ren, Ich will dir le -- ben hier, dir will ich ab -- fah -- _ ren, mit dir will ich end -- lich schwe -- _ ben vol -- ler Freud oh -- ne Zeit dort im an -- dern Le -- _ ben.
+  Ich will dich mit Fleiß be -- wah -- ren,
+  Ich will dir
+  le -- ben hier,
+  dir will ich ab -- fah -- _ ren,
+  mit dir will ich end -- lich schwe -- _ ben
+  vol -- ler Freud
+  oh -- ne Zeit
+  dort im an -- dern Le -- _ ben.
 }

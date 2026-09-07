@@ -13,14 +13,14 @@ sopranoMusic = {
 
 altoMusic = {
   \partial 4  c'4
-  c'8 [b] c'4. d'8 e'4
-  f'8 g'4 f' e'16 [d'] e'4
+  c'8 [b] c'4 c'8 [d'8] e'4
+  f'8 g'4 f'8~f' [e'16 d'] e'4
   c'2\fermata r4 f'
-  f'8 g'4 f' e'8 d'4
+  f'8 [g'] g' [f'] f' [e'] d'4
   g c' c'\fermata e'8 [fis']
-  g' [e'] f' [e'] d'4. c'8~
+  g' [e'] f' [e'] d'4. c'8
   c' [d'16 c'] b4 g\fermata f'8 [ees']
-  d' [e'] f'4. e'4 d'16 [e']
+  d' [e'!] f'4 f'8 [e'] e' [d'16 e']
   f'4. e'8 c'4\fermata \fine
 }
 
@@ -33,7 +33,7 @@ tenorMusic = {
   c'4 f e\fermata a
   d'8 [cis'] d'4 g g
   a g8 [f] e4\fermata c'
-  bes c'~ c'8. [bes16] a8 [bes]
+  bes c' c'8. [bes16] a8 [bes]
   c'4 c'8. [bes16] a4\fermata \fine
 }
 
@@ -51,17 +51,29 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Wenn wir in höch -- sten Nö -- _ _ then sein und wis -- sen nicht, wo aus und ein, und fin -- den we -- der Hülf' noch Rath, ob wir gleich sor -- gen früh und spat.
+  Wenn wir in höch -- sten Nö -- _ _ then sein
+  und wis -- sen nicht, wo aus und ein,
+  und fin -- den we -- der Hilf' noch Rath,
+  ob wir gleich sor -- gen früh und spat.
 }
 
 altoLyrics = \lyricmode {
-  Wenn wir in höch -- sten Nö -- _ _ _ then sein und wis -- sen nicht, _ wo aus und ein, und fin -- den we -- der Hülf' noch Rath, ob wir gleich sor -- gen früh und spat.
+  Wenn wir in höch -- sten Nö -- _ _ then sein
+  und wis -- sen nicht, wo aus und ein,
+  und fin -- den we -- der Hilf' noch Rath,
+  ob wir gleich sor -- gen früh und spat.
 }
 
 tenorLyrics = \lyricmode {
-  Wenn wir in höch -- sten Nö -- _ _ then sein und wis -- sen nicht, wo _ aus und ein, und fin -- den we -- der Hülf' noch Rath, ob wir gleich sor -- gen früh und spat.
+  Wenn wir in höch -- sten Nö -- _ _ then sein
+  und wis -- sen nicht, wo _ aus und ein,
+  und fin -- den we -- der Hilf' noch Rath,
+  ob wir gleich sor -- gen früh und spat.
 }
 
 bassLyrics = \lyricmode {
-  Wenn wir in höch -- sten Nö -- _ _ then sein und wis -- sen nicht, wo aus und ein, und fin -- den we -- der Hülf' noch Rath, ob wir gleich sor -- gen früh und spat.
+  Wenn wir in höch -- sten Nö -- _ _ then sein
+  und wis -- sen nicht, wo aus und ein,
+  und fin -- den we -- der Hilf' noch Rath,
+  ob wir gleich sor -- gen früh und spat.
 }

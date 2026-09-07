@@ -29,15 +29,15 @@ sopranoMusic = {
 }
 
 altoMusic = {
-  fis'4 g' fis'8 [g'] a'4~
+  fis'4 g' fis'8 [g'] a'4
   a'8 [g'16 fis'] g'2 fis'4\fermata
-  e'4. d'4 cis'16 [b] cis'4
+  e'4. d'8 d' [cis'16 b] cis'4
   a1\fermata
   d'4 cis'8 [d'] e' [cis'] d' [e']
   fis' [g'] fis'4 e'2\fermata
   g'4 gis' a'4. gis'8
   e'1\fermata
-  fis'4 fis'8 [e'] fis' [g'] a'4~
+  fis'4 fis'8 [e'] fis' [g'] a'4
   a' g' fis'\fermata fis'
   e'8 [dis'] e'4 e' d'8 [c']
   b1\fermata
@@ -54,22 +54,22 @@ altoMusic = {
   gis'2. cis'4~
   cis' d'8 [e'] fis'4 e'8 [d']
   e'1
-  cis'8 [d'] e'4. d'8 e'4~
-  e'8 [cis'16 b] cis'4 a2\fermata \fine
+  cis'8 [d'] e'4~e'8 [d'8] e'4~
+  e'8 cis'16 [b] cis'4 a2\fermata \fine
 }
 
 tenorMusic = {
   d'4 e' e' d'
-  d'2 d'~\fermata
+  d'2 d'\fermata
   d'8 [cis'16 b] a4 b a8 [g]
   fis1\fermata
-  fis4 e a8 [g] fis4~
+  fis4 e a8 [g] fis4
   fis8 [e] b4 b2\fermata
   e'4 e' e'8 [a] f' [e']
   cis'1\fermata
   d'4 d'8 [cis'] d' [e'] fis' [e']
   d' [c'] d'4 d'\fermata d'8 [c']
-  b [a] g4. fis16 [e] fis4
+  b [a] g4~g8 fis16 [e] fis4
   g1\fermata
   e8 [g] fis [e] d [a] d'4~
   d'8 [cis'] c'4 b2\fermata
@@ -84,7 +84,7 @@ tenorMusic = {
   cis' b8 [a] gis [fis] gis4
   a b8 [cis'] d'2~
   d'4 d' cis' b
-  a2~ a16 [b] c'4 b16 [a]
+  a2~ a16 b [c'8]~c' b16 [a]
   b8 e4 fis16 [g] fis2\fermata \fine
 }
 
@@ -119,17 +119,57 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  O wir ar -- men Sün -- der! uns -- re Mis -- se -- that, da -- rin wir em -- pfan -- gen und ge -- bo -- ren sind, hat ge -- bracht uns al -- le in sol che gro -- ße Noth, dass wir un -- ter -- wor -- fen sind dem ew' -- gen Tod. Ky -- rie e -- lei -- _ son! Chri -- _ _ ste e -- lei -- _ son! Ky -- _ rie e -- lei son!
+  O wir ar -- men Sün -- der!
+  uns -- re Mis -- se -- that,
+  da -- rin wir em -- pfan -- gen
+  und ge -- bo -- ren sind,
+  hat ge -- bracht uns al -- le
+  in sol che gro -- ße Noth,
+  dass wir un -- ter -- wor -- fen
+  sind dem ew' -- gen Tod.
+  Ky -- rie e -- lei -- _ son!
+  Chri -- _ _ ste e -- lei -- _ son!
+  Ky -- _ rie e -- lei son!
 }
 
 altoLyrics = \lyricmode {
-  O wir ar -- men Sün -- der! uns -- re Mis -- se -- that, da -- rin wir em -- pfan -- _ gen und ge -- bo -- ren sind, hat ge -- bracht uns al -- le in sol che gro -- ße Noth, dass wir un -- ter -- wor -- _ fen _ sind dem ew' -- gen Tod. Ky -- rie _ e -- _ _ _ lei -- _ _ son! Chri -- _ ste _ e -- lei -- _ _ _ son! Ky rie _ e -- lei son!
+  O wir ar -- men Sün -- _ der!
+  uns -- re Mis -- se -- that,
+  da -- rin wir em -- pfan -- _ gen
+  und ge -- bo -- ren sind,
+  hat ge -- bracht uns al -- _ le
+  in sol che gro -- ße Noth,
+  dass wir un -- ter -- wor -- _ fen __ _
+  sind dem ew' -- gen Tod.
+  Ky -- rie _ e -- _ _ _ lei -- _ _ son!
+  Chri -- _ _ ste e -- lei -- _ _ _ son!
+  Ky rie __ e -- lei -- _ son!
 }
 
 tenorLyrics = \lyricmode {
-  O wir ar -- men Sün -- der! uns -- re Mis -- se -- that, da -- rin wir em -- pfan -- gen und ge -- bo -- ren sind, hat ge -- bracht uns al -- _ le in sol che gro -- ße Noth, dass wir un -- ter -- wor -- fen sind dem ew' -- gen Tod. Ky -- rie _ e -- _ _ _ lei -- _ _ son! Chri -- _ _ _ _ ste _ e -- _ _ _ lei -- _ son! _ _ _ Ky rie e -- lei _ _ son!
+  O wir ar -- men Sün -- der!
+  uns -- re Mis -- se -- that,
+  da -- rin wir em -- pfan -- _ gen
+  und ge -- bo -- ren sind,
+  hat ge -- bracht uns al -- _ le
+  in sol che gro -- ße Noth,
+  dass wir un -- ter -- wor -- fen
+  sind dem ew' -- gen Tod.
+  Ky -- rie _ e -- _ _ _ lei -- _ _ son!
+  Chri -- _ _ _ _ _ ste e -- _ _ _ lei -- _ _ son! __ _ _
+  Ky -- rie e -- lei _ _ son!
 }
 
 bassLyrics = \lyricmode {
-  O wir ar -- men Sün -- _ der! uns -- re Mis -- se -- that, da -- rin wir em -- pfan -- _ _ gen und ge -- bo -- ren sind, hat ge -- bracht uns al -- _ le in sol che gro -- ße Noth, dass wir un -- ter -- wor -- _ fen sind dem ew' -- gen Tod. Ky -- rie e -- _ lei -- _ _ son! Chri -- _ _ ste e -- _ lei -- _ son! Ky -- _ rie e -- lei _ son!
+  O wir ar -- men Sün -- _ der!
+  uns -- re Mis -- se -- that,
+  da -- rin wir em -- pfan -- _ _ gen
+  und ge -- bo -- ren sind,
+  hat ge -- bracht uns al -- _ le
+  in sol che gro -- ße Noth,
+  dass wir un -- ter -- wor -- _ fen
+  sind dem ew' -- gen Tod.
+  Ky -- rie e -- _ lei -- _ _ son!
+  Chri -- _ _ ste e -- _ lei -- _ son!
+  Ky -- _ rie e -- lei _ son!
 }
