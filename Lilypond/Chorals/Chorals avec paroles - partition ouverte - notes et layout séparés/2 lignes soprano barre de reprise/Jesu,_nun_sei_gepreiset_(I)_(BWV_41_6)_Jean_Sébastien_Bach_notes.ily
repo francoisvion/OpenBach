@@ -182,12 +182,25 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Dein ist al -- lein die Eh -- _ re, dein ist al -- lein der Ruhm; Ge -- duld im Kreuz uns leh -- _ re, re -- gier all un -- ser Tun, In -- des machs mit uns al -- len nach dei -- nem Wohl -- ge -- fal -- len: solchs sin get heut _ ohn Scher -- _ _ zen die christ -- _ gläu -- bi -- _ ge Schar, __ _ _ und wünscht __ _ mit Mund und Her -- zen ein se -- _ ligs neu -- _ es Jahr, __ _ _ _ und wünscht mit Mund und Her -- zen ein se -- ligs neu -- es Jahr.
+  Dein ist al -- lein die Eh -- _ re,
+  dein ist al -- lein der Ruhm;
+  Ge -- duld im Kreuz uns leh -- _ re,
+  re -- gier all un -- ser Tun,
+  In -- des machs mit uns al -- len
+  nach dei -- nem Wohl -- ge -- fal -- len:
+  solchs sin get heut _ ohn Scher -- _ _ zen
+  die christ -- _ gläu -- bi -- _ ge Schar, __ _ _
+  und wünscht __ _ mit Mund und Her -- zen
+  ein se -- _ ligs neu -- _ es Jahr, __ _ _ _
+  und wünscht mit Mund und Her -- zen ein se -- ligs neu -- es Jahr.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  bis wir fröh -- lich ab -- schei -- _ den ins e -- wig Him -- mel -- reich, zu wah -- rem Fried und Freu -- _ de, den Heil' -- gen Got -- tes gleich.
+  bis wir fröh -- lich ab -- schei -- _ den
+  ins e -- wig Him -- mel -- reich,
+  zu wah -- rem Fried und Freu -- _ de,
+  den Heil' -- gen Got -- tes gleich.
 }
 
 tenorLyricsOne = \lyricmode {
@@ -202,10 +215,23 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Dein ist al -- lein die Eh -- _ re, dein ist al -- lein der Ruhm; Ge -- duld im Kreuz uns leh -- re, re -- gier all un -- ser Tun, In -- des machs mit uns al -- len nach dei -- nem Wohl -- ge -- fal -- len: solchs sin -- _ get heut _ ohn Scher -- _ zen die christ -- _ gläu -- bi -- _ ge Schar, __ _ _ _ und wünscht __ _ mit Mund und Her -- zen ein se -- _ ligs neu -- _ es Jahr, __ _ _ _ und wünscht mit Mund und Her -- _ zen ein se -- ligs neu -- es Jahr.
+  Dein ist al -- lein die Eh -- _ re,
+  dein ist al -- lein der Ruhm;
+  Ge -- duld im Kreuz uns leh -- re,
+  re -- gier all un -- ser Tun,
+  In -- des machs mit uns al -- len
+  nach dei -- nem Wohl -- ge -- fal -- len:
+  solchs sin -- _ get heut _ ohn Scher -- _ zen
+  die christ -- _ gläu -- bi -- _ ge Schar, __ _ _ _
+  und wünscht __ _ mit Mund und Her -- zen
+  ein se -- _ ligs neu -- _ es Jahr, __ _ _ _
+  und wünscht mit Mund und Her -- _ zen ein se -- ligs neu -- es Jahr.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  bis wir fröh -- lich ab -- schei -- _ den ins e -- wig Him -- mel -- reich, zu wah -- rem Fried und Freu -- de, den Heil' -- gen Got -- tes gleich.
+  bis wir fröh -- lich ab -- schei -- _ den
+  ins e -- wig Him -- mel -- reich,
+  zu wah -- rem Fried und Freu -- de,
+  den Heil' -- gen Got -- tes gleich.
 }

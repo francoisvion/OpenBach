@@ -89,30 +89,54 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  So gehst du nun, mein Je -- su, hin, den Tod für mich zu lei -- _ den, Wohl -- an! fahr fort, du e -- dler Hort, mein Au -- gen sol -- len flie -- _ ßen ein Trä -- nen -- see, mich Ach und Weh, die Lei -- den zu be -- gie -- _ ßen.
+  So gehst du nun, mein Je -- su, hin,
+  den Tod für mich zu lei -- _ den,
+  Wohl -- an! fahr fort,
+  du e -- dler Hort,
+  mein Au -- gen sol -- len flie -- _ ßen
+  ein Trä -- nen -- see,
+  mich Ach und Weh,
+  die Lei -- den zu be -- gie -- _ ßen.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  für mich, der ich ein Sün -- der bin, der dich be -- trübt in Freu -- _ den.
+  für mich, der ich ein Sün -- der bin,
+  der dich be -- trübt in Freu -- _ den.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  So gehst du nun, mein Je -- su, hin, den Tod für mich zu lei -- _ den, Wohl -- an! fahr fort, du e -- dler Hort, mein Au -- gen sol -- len flie -- _ ßen ein Trä -- nen -- see, mich Ach und Weh, die Lei -- den zu be -- gie -- _ ßen.
+  So gehst du nun, mein Je -- su, hin,
+  den Tod für mich zu lei -- _ den,
+  Wohl -- an! fahr fort,
+  du e -- dler Hort,
+  mein Au -- gen sol -- len flie -- _ ßen
+  ein Trä -- nen -- see,
+  mich Ach und Weh,
+  die Lei -- den zu be -- gie -- _ ßen.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  für mich, der ich ein Sün -- der bin, der dich be -- trübt in Freu -- _ den.
+  für mich, der ich ein Sün -- der bin,
+  der dich be -- trübt in Freu -- _ den.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  So gehst du nun, mein Je -- su, hin, den Tod für mich zu lei -- _ den, Wohl -- an! fahr fort, du e -- dler Hort, mein Au -- gen sol -- len flie -- _ ßen ein Trä -- nen -- see, mich Ach und Weh, die Lei -- den zu be -- gie -- _ ßen.
+  So gehst du nun, mein Je -- su, hin,
+  den Tod für mich zu lei -- _ den,
+  Wohl -- an! fahr fort,
+  du e -- dler Hort,
+  mein Au -- gen sol -- len flie -- _ ßen
+  ein Trä -- nen -- see,
+  mich Ach und Weh,
+  die Lei -- den zu be -- gie -- _ ßen.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  für mich, der ich ein Sün -- der bin, der dich be -- trübt in Freu -- _ den.
+  für mich, der ich ein Sün -- der bin,
+  der dich be -- trübt in Freu -- _ den.
 }

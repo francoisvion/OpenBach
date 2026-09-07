@@ -93,7 +93,8 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Du, o schö -- nes Welt ge -- bäu -- de, magst ge -- fal -- len wem du willst, De -- nen, die den Him -- mel has -- _ sen, will ich ih -- re Welt -- lust las -- _ sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
+  Du, o schö -- nes Welt ge -- bäu -- de, magst ge -- fal -- len wem du willst,
+  De -- nen, die den Him -- mel has -- _ sen, will ich ih -- re Welt -- lust las -- _ sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
 }
 
 tenorLyricsTwo = \lyricmode {

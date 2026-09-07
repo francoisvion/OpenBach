@@ -102,7 +102,13 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Lass, o Herr, dein Ohr sich nei -- _ gen, und stoß mich nicht von dir hin, Weil ich arm und e -- lend bin. Hü -- te mei -- ne Seel und Le -- _ ben, die ich hei -- lig dir er -- ge -- _ ben, reiß mich dei -- nen Knecht aus Not, der auf dich nur hofft, o Gott!
+  Lass, o Herr, dein Ohr sich nei -- _ gen,
+  und stoß mich nicht von dir hin,
+  Weil ich arm und e -- lend bin.
+  Hü -- te mei -- ne Seel und Le -- _ ben,
+  die ich hei -- lig dir er -- ge -- _ ben,
+  reiß mich dei -- nen Knecht aus Not,
+  der auf dich nur hofft, o Gott!
 }
 
 altoLyricsTwo = \lyricmode {
@@ -122,7 +128,13 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Lass, o Herr, dein Ohr sich nei -- _ gen, und stoß mich nicht von dir hin, Weil ich arm und e -- lend bin. Hü -- te mei -- ne Seel und Le -- _ ben, die ich hei -- lig dir er -- ge -- _ ben, reiß mich dei -- nen Knecht aus Not, der auf dich nur hofft, o Gott!
+  Lass, o Herr, dein Ohr sich nei -- _ gen,
+  und stoß mich nicht von dir hin,
+  Weil ich arm und e -- lend bin.
+  Hü -- te mei -- ne Seel und Le -- _ ben,
+  die ich hei -- lig dir er -- ge -- _ ben,
+  reiß mich dei -- nen Knecht aus Not,
+  der auf dich nur hofft, o Gott!
 }
 
 bassLyricsTwo = \lyricmode {

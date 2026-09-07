@@ -87,30 +87,51 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Un -- ter dei -- nen Schir -- _ men bin ich für den Stür -- _ men al -- ler Fein -- de frei. Ob es jetzt gleich kracht und blitzt, ob gleich Sünd und Höl -- le schre -- _ cken, Je -- sus will mich de -- _ cken.
+  Un -- ter dei -- nen Schir -- _ men
+  bin ich für den Stür -- _ men
+  al -- ler Fein -- de frei.
+  Ob es jetzt gleich kracht und blitzt,
+  ob gleich Sünd und Höl -- le schre -- _ cken,
+  Je -- sus will mich de -- _ cken.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Lass den Sa -- tan wit -- _ tern, lass den Feind er -- bit -- _ tern, mir steht Je -- sus bei.
+  Lass den Sa -- tan wit -- _ tern,
+  lass den Feind er -- bit -- _ tern,
+  mir steht Je -- sus bei.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Un -- ter dei -- nen Schir -- _ men bin ich für den Stür -- _ men al -- ler Fein -- de frei. Ob es jetzt gleich kracht und blitzt, ob gleich Sünd und Höl -- le schre -- _ cken, Je -- sus will mich de -- _ cken.
+  Un -- ter dei -- nen Schir -- _ men
+  bin ich für den Stür -- _ men
+  al -- ler Fein -- de frei.
+  Ob es jetzt gleich kracht und blitzt,
+  ob gleich Sünd und Höl -- le schre -- _ cken,
+  Je -- sus will mich de -- _ cken.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Lass den Sa -- tan wit -- _ tern, lass den Feind er -- bit -- _ tern, mir steht Je -- sus bei.
+  Lass den Sa -- tan wit -- _ tern,
+  lass den Feind er -- bit -- _ tern,
+  mir steht Je -- sus bei.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Un -- ter dei -- nen Schir -- _ men bin ich für den Stür -- _ men al -- ler Fein -- de frei. Ob es jetzt gleich kracht und blitzt, ob gleich Sünd und Höl -- le schre -- cken, Je -- sus will mich de -- _ cken.
+  Un -- ter dei -- nen Schir -- _ men
+  bin ich für den Stür -- _ men
+  al -- ler Fein -- de frei.
+  Ob es jetzt gleich kracht und blitzt,
+  ob gleich Sünd und Höl -- le schre -- cken,
+  Je -- sus will mich de -- _ cken.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  Lass den Sa -- tan wit -- _ tern, lass den Feind er -- bit -- _ tern, mir steht Je -- sus bei.
+  Lass den Sa -- tan wit -- _ tern,
+  lass den Feind er -- bit -- _ tern,
+  mir steht Je -- sus bei.
 }

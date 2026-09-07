@@ -85,30 +85,45 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Herr, wie du willst, so schicks mit mir im Le -- ben und __ _ _ im Ster -- _ ben; Er -- halt mich nur in dei -- ner Huld, sonst wie du willst, gieb mir Ge -- duld, dein Will', der ist __ _ _ der be -- _ ste.
+  Herr, wie du willst, so schicks mit mir
+  im Le -- ben und __ _ _ im Ster -- _ ben;
+  Er -- halt mich nur in dei -- ner Huld,
+  sonst wie du willst, gieb mir Ge -- duld,
+  dein Will', der ist __ _ _ der be -- _ ste.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  al -- lein zu dir steht mein Be -- gier, lass mich, Herr, nicht __ _ _ ver -- der -- _ ben.
+  al -- lein zu dir steht mein Be -- gier,
+  lass mich, Herr, nicht __ _ _ ver -- der -- _ ben.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Herr, wie du willst, so schicks mit mir im Le -- ben und __ _ _ im Ster -- ben; Er -- halt mich nur in dei -- ner Huld, sonst wie du willst, gieb mir Ge -- duld, dein Will', der ist __ _ _ der be -- _ ste.
+  Herr, wie du willst, so schicks mit mir
+  im Le -- ben und __ _ _ im Ster -- ben;
+  Er -- halt mich nur in dei -- ner Huld,
+  sonst wie du willst, gieb mir Ge -- duld,
+  dein Will', der ist __ _ _ der be -- _ ste.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  al -- lein zu dir steht mein Be -- gier, lass mich, Herr, nicht __ _ _ ver -- der -- ben.
+  al -- lein zu dir steht mein Be -- gier,
+  lass mich, Herr, nicht __ _ _ ver -- der -- ben.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Herr, wie du willst, so schicks mit mir im Le -- ben und __ _ _ im Ster -- ben; Er -- halt mich nur in dei -- ner Huld, sonst wie du willst, gieb mir Ge -- duld, dein Will', der ist __ _ _ der be -- ste.
+  Herr, wie du willst, so schicks mit mir
+  im Le -- ben und __ _ _ im Ster -- ben;
+  Er -- halt mich nur in dei -- ner Huld,
+  sonst wie du willst, gieb mir Ge -- duld,
+  dein Will', der ist __ _ _ der be -- ste.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  al -- lein zu dir steht mein Be -- gier, lass mich, Herr, nicht __ _ _ ver -- der -- ben.
+  al -- lein zu dir steht mein Be -- gier,
+  lass mich, Herr, nicht __ _ _ ver -- der -- ben.
 }

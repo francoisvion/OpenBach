@@ -139,25 +139,36 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Die Wort' in Reim' zu brin -- _ _ gen, Zu Lob dem Na -- men dein, __ _ _
+  Die Wort' in Reim' zu brin -- _ _ gen,
+  Zu Lob dem Na -- men dein, __ _ _
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Hilf, Gott, dass mir's ge -- _ lin -- _ gen, du ed -- _ ler Schö -- _ pfer mein, __ _ _ _ dass ich mag fröh -- lich he -- _ ben an, von dei -- nem _ Wort zu sin -- _ _ _ _ _ gen, Herr, du _ wollst mir _ bei -- stahn. __ _ _ _
+  Hilf, Gott, dass mir's ge -- _ lin -- _ gen,
+  du ed -- _ ler Schö -- _ pfer mein, __ _ _ _
+  dass ich mag fröh -- lich he -- _ ben an,
+  von dei -- nem _ Wort zu sin -- _ _ _ _ _ gen,
+  Herr, du _ wollst mir _ bei -- stahn. __ _ _ _
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Die Wort' in Reim' zu _ brin -- _ gen, Zu Lob _ dem Na -- _ men dein, __ _ _ _
+  Die Wort' in Reim' zu _ brin -- _ gen,
+  Zu Lob _ dem Na -- _ men dein, __ _ _ _
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Hilf, Gott, dass mir's ge -- lin -- _ gen, du ed -- ler Schö -- pfer mein, __ _ _ _ dass ich _ mag fröh -- lich he -- _ ben an, von dei -- _ nem Wort _ zu sin -- _ _ _ _ _ gen, Herr, du _ wollst mir bei -- stahn. __ _ _ _
+  Hilf, Gott, dass mir's ge -- lin -- _ gen,
+  du ed -- ler Schö -- pfer mein, __ _ _ _
+  dass ich _ mag fröh -- lich he -- _ ben an,
+  von dei -- _ nem Wort _ zu sin -- _ _ _ _ _ gen,
+  Herr, du _ wollst mir bei -- stahn. __ _ _ _
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  Die Wort' in Reim' zu brin -- _ gen, Zu Lob dem Na -- men dein, __ _ _ _
+  Die Wort' in Reim' zu brin -- _ gen,
+  Zu Lob dem Na -- men dein, __ _ _ _
 }

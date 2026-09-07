@@ -86,12 +86,17 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Herr, straf' mich nicht in dei -- nem Zorn, das bitt ich dich von Her -- _ zen, und zücht -- ge mich nicht in dein'm Grimm, weil ich so voll Be -- trüb -- niss bin, und lei -- de gro -- ße Schmer -- zen.
+  Herr, straf' mich nicht in dei -- nem Zorn,
+  das bitt ich dich von Her -- _ zen,
+  und zücht -- ge mich nicht in dein'm Grimm,
+  weil ich so voll Be -- trüb -- niss bin,
+  und lei -- de gro -- ße Schmer -- zen.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  sonst bin ich ganz und gar ver -- lorn, mit dir ist nicht zu Scher -- _ zen;
+  sonst bin ich ganz und gar ver -- lorn,
+  mit dir ist nicht zu Scher -- _ zen;
 }
 
 tenorLyricsOne = \lyricmode {
@@ -106,10 +111,15 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Herr, straf' mich nicht in dei -- nem Zorn, das bitt ich dich von Her -- zen, und zücht -- ge mich nicht in dein'm Grimm, weil ich so voll Be -- trüb -- niss bin, und lei -- de gro -- ße Schmer -- zen.
+  Herr, straf' mich nicht in dei -- nem Zorn,
+  das bitt ich dich von Her -- zen,
+  und zücht -- ge mich nicht in dein'm Grimm,
+  weil ich so voll Be -- trüb -- niss bin,
+  und lei -- de gro -- ße Schmer -- zen.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  sonst bin ich ganz und gar ver -- lorn, mit dir ist nicht zu Scher -- zen;
+  sonst bin ich ganz und gar ver -- lorn,
+  mit dir ist nicht zu Scher -- zen;
 }

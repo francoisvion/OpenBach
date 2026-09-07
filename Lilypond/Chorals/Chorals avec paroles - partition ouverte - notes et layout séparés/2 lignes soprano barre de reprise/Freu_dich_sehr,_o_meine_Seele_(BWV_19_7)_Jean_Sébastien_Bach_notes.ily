@@ -142,30 +142,48 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Lass dein En -- gel mit _ mir fah -- _ ren, auf E -- li -- as Wa -- gen _ rot, Lass sie ruhn in dei -- nem _ Schoß, er -- füll sie _ mit Freud und Trost, bis der Leib kommt aus der _ Er -- de und mit ihr ver -- ei -- _ nigt wer -- de.
+  Lass dein En -- gel mit _ mir fah -- _ ren,
+  auf E -- li -- as Wa -- gen _ rot,
+  Lass sie ruhn in dei -- nem _ Schoß,
+  er -- füll sie _ mit Freud und Trost,
+  bis der Leib kommt aus der _ Er -- de
+  und mit ihr ver -- ei -- _ nigt wer -- de.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Und mein See -- le wohl _ be -- wah -- _ ren, wie Laz -- rum nach sei -- nem _ Tod,
+  Und mein See -- le wohl _ be -- wah -- _ ren,
+  wie Laz -- rum nach sei -- nem _ Tod,
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Lass dein En -- _ gel mit _ mir fah -- _ ren, auf E -- li -- as Wa -- gen rot, Lass sie ruhn in dei -- nem Schoß, er -- füll sie _ mit Freud und Trost, bis der Leib kommt aus der Er -- _ de und mit ihr ver -- ei -- nigt wer -- _ _ de.
+  Lass dein En -- _ gel mit _ mir fah -- _ ren,
+  auf E -- li -- as Wa -- gen rot,
+  Lass sie ruhn in dei -- nem Schoß,
+  er -- füll sie _ mit Freud und Trost,
+  bis der Leib kommt aus der Er -- _ de
+  und mit ihr ver -- ei -- nigt wer -- _ _ de.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Und mein See -- _ le wohl _ be -- wah -- _ ren, wie Laz -- rum nach sei -- nem Tod,
+  Und mein See -- _ le wohl _ be -- wah -- _ ren,
+  wie Laz -- rum nach sei -- nem Tod,
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Lass dein En -- gel mit _ mir fah -- _ ren, auf E -- li -- _ as Wa -- gen _ rot, Lass sie ruhn in dei -- nem _ Schoß, er -- füll _ sie mit Freud und _ Trost, bis der Leib kommt aus der _ Er -- _ de und mit ihr _ ver -- ei -- _ nigt wer -- de.
+  Lass dein En -- gel mit _ mir fah -- _ ren,
+  auf E -- li -- _ as Wa -- gen _ rot,
+  Lass sie ruhn in dei -- nem _ Schoß,
+  er -- füll _ sie mit Freud und _ Trost,
+  bis der Leib kommt aus der _ Er -- _ de
+  und mit ihr _ ver -- ei -- _ nigt wer -- de.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  Und mein See -- le wohl _ be -- wah -- _ ren, wie Laz -- rum _ nach sei -- nem _ Tod,
+  Und mein See -- le wohl _ be -- wah -- _ ren,
+  wie Laz -- rum _ nach sei -- nem _ Tod,
 }

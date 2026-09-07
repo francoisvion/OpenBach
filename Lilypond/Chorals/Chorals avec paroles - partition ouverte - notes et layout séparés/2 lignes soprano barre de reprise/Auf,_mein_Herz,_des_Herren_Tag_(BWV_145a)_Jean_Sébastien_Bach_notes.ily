@@ -64,30 +64,42 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Auf mein Herz des _ Her -- ren Tag hat die Nacht der Furcht ver -- trie -- ben: Nun -- mehr _ bin ich recht ge -- tröst, Je -- sus hat die Welt er -- löst.
+  Auf mein Herz des _ Her -- ren Tag
+  hat die Nacht der Furcht ver -- trie -- ben:
+  Nun -- mehr _ bin ich recht ge -- tröst,
+  Je -- sus hat die Welt er -- löst.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Chri -- stus, der ver -- _ gra -- ben lag, ist im To -- de nicht ge -- blie -- ben.
+  Chri -- stus, der ver -- _ gra -- ben lag,
+  ist im To -- de nicht ge -- blie -- ben.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Auf mein Herz des Her -- ren Tag hat die Nacht der Furcht ver -- trie -- _ ben: Nun -- mehr bin ich recht ge -- tröst, Je -- sus hat die Welt er -- löst.
+  Auf mein Herz des Her -- ren Tag
+  hat die Nacht der Furcht ver -- trie -- _ ben:
+  Nun -- mehr bin ich recht ge -- tröst,
+  Je -- sus hat die Welt er -- löst.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Chri -- stus, der ver -- gra -- ben lag, ist im To -- de nicht ge -- blie -- _ ben.
+  Chri -- stus, der ver -- gra -- ben lag,
+  ist im To -- de nicht ge -- blie -- _ ben.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Auf mein Herz des Her -- ren Tag hat die Nacht der Furcht ver -- trie -- ben: Nun -- mehr bin ich recht ge -- tröst, Je -- sus hat die Welt er -- löst.
+  Auf mein Herz des Her -- ren Tag
+  hat die Nacht der Furcht ver -- trie -- ben:
+  Nun -- mehr bin ich recht ge -- tröst,
+  Je -- sus hat die Welt er -- löst.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  Chri -- stus, der ver -- gra -- ben lag, ist im To -- de nicht ge -- blie -- ben.
+  Chri -- stus, der ver -- gra -- ben lag,
+  ist im To -- de nicht ge -- blie -- ben.
 }

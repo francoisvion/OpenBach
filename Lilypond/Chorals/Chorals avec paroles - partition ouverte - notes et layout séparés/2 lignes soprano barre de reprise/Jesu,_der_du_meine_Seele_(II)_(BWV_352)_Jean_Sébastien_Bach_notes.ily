@@ -87,25 +87,38 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  aus des Teu -- fels fin -- strer Höh -- le und der schwe -- ren _ Sün -- der -- noth
+  aus des Teu -- fels fin -- strer Höh -- le
+  und der schwe -- ren _ Sün -- der -- noth
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Je -- su, der du mei -- ne See -- le hast durch dei -- nen bit -- tern Tod kräf -- tig -- lich her -- aus -- ge -- ris -- sen und mich sol -- ches las -- sen wis -- sen durch dein an -- ge -- neh -- mes Wort: sei doch itzt, o Gott, mein Hort!
+  Je -- su, der du mei -- ne See -- le
+  hast durch dei -- nen bit -- tern Tod
+  kräf -- tig -- lich her -- aus -- ge -- ris -- sen
+  und mich sol -- ches las -- sen wis -- sen
+  durch dein an -- ge -- neh -- mes Wort:
+  sei doch itzt, o Gott, mein Hort!
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  aus des Teu -- fels fin -- strer Höh -- le und der schwe -- ren Sün -- der -- noth
+  aus des Teu -- fels fin -- strer Höh -- le
+  und der schwe -- ren Sün -- der -- noth
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Je -- su, der du mei -- ne See -- le hast durch dei -- nen bit -- tern Tod kräf -- tig -- lich her -- aus -- ge -- ris -- sen und mich sol -- ches las -- sen wis -- sen durch dein an -- ge -- neh -- mes Wort: sei doch itzt, o Gott, mein Hort!
+  Je -- su, der du mei -- ne See -- le
+  hast durch dei -- nen bit -- tern Tod
+  kräf -- tig -- lich her -- aus -- ge -- ris -- sen
+  und mich sol -- ches las -- sen wis -- sen
+  durch dein an -- ge -- neh -- mes Wort:
+  sei doch itzt, o Gott, mein Hort!
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  aus des Teu -- fels fin -- strer Höh -- le und der schwe -- ren Sün -- der -- noth
+  aus des Teu -- fels fin -- strer Höh -- le
+  und der schwe -- ren Sün -- der -- noth
 }

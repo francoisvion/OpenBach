@@ -110,6 +110,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2    
-  zu Lo -- be sei -- nen Eh -- ren, macht her -- rlich sei -- nen Ruhm.
+  \set stanza = 2
+  zu Lo -- be sei -- nen Eh -- ren,
+  macht her -- rlich sei -- nen Ruhm.
 }

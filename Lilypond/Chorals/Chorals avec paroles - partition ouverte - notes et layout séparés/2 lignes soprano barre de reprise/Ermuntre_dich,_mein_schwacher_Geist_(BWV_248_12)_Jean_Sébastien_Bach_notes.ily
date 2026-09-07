@@ -89,30 +89,48 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Brich an, o schö -- nes Mor -- gen -- licht, und lass dem Him -- mel ta -- gen! dass die -- ses schwa -- che Knä -- be -- lein soll un -- ser Trost und Freu -- de sein, da -- zu den Sa -- tan zwin -- gen und letzt -- lich Frie -- de brin -- _ gen!
+  Brich an, o schö -- nes Mor -- gen -- licht,
+  und lass dem Him -- mel ta -- gen!
+  dass die -- ses schwa -- che Knä -- be -- lein
+  soll un -- ser Trost und Freu -- de sein,
+  da -- zu den Sa -- tan zwin -- gen
+  und letzt -- lich Frie -- de brin -- _ gen!
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Du Hir -- ten -- volk, er -- schre -- cke nicht, weil dir die En -- gel sa -- gen,
+  Du Hir -- ten -- volk, er -- schre -- cke nicht,
+  weil dir die En -- gel sa -- gen,
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Brich an, o _ schö -- nes Mor -- gen -- licht, und lass dem Him -- mel ta -- _ gen! dass die -- ses schwa -- che Knä -- be -- lein soll un -- ser Trost und Freu -- de sein, da -- zu den Sa -- tan zwin -- _ gen und letzt -- lich Frie -- de brin -- _ gen!
+  Brich an, o _ schö -- nes Mor -- gen -- licht,
+  und lass dem Him -- mel ta -- _ gen!
+  dass die -- ses schwa -- che Knä -- be -- lein
+  soll un -- ser Trost und Freu -- de sein,
+  da -- zu den Sa -- tan zwin -- _ gen
+  und letzt -- lich Frie -- de brin -- _ gen!
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Du Hir -- ten -- _ volk, er -- schre -- cke nicht, weil dir die En -- gel sa -- _ gen,
+  Du Hir -- ten -- _ volk, er -- schre -- cke nicht,
+  weil dir die En -- gel sa -- _ gen,
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Brich an, o schö -- nes Mor -- gen -- licht, und lass dem Him -- _ mel ta -- _ gen! dass die -- ses schwa -- che Knä -- be -- lein soll un -- ser Trost und Freu -- de sein, da -- zu den Sa -- tan zwin -- _ gen und letzt -- lich Frie -- de brin -- _ gen!
+  Brich an, o schö -- nes Mor -- gen -- licht,
+  und lass dem Him -- _ mel ta -- _ gen!
+  dass die -- ses schwa -- che Knä -- be -- lein
+  soll un -- ser Trost und Freu -- de sein,
+  da -- zu den Sa -- tan zwin -- _ gen
+  und letzt -- lich Frie -- de brin -- _ gen!
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  Du Hir -- ten -- volk, er -- schre -- cke nicht, weil dir die En -- _ gel sa -- _ gen,
+  Du Hir -- ten -- volk, er -- schre -- cke nicht,
+  weil dir die En -- _ gel sa -- _ gen,
 }

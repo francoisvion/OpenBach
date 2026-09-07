@@ -74,30 +74,48 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Herr Je -- su Christ, mein's Le -- bens Licht, Mein Hort, mein Trost, mein Zu -- ver -- sicht, Auf Er -- den bin ich nur ein Gast, und drückt mich sehr der _ Sün -- den Last.
+  Herr Je -- su Christ, mein's Le -- bens Licht,
+  Mein Hort, mein Trost, mein Zu -- ver -- sicht,
+  Auf Er -- den bin ich nur ein Gast,
+  und drückt mich sehr der _ Sün -- den Last.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  O Je -- su, du mein Bräu -- ti -- gam, der du aus Lieb' am Kreu -- zes -- stamm für mich den Tod ge -- lit -- ten hast, ge -- nom -- men web der _ Sün -- den Last.
+  O Je -- su, du mein Bräu -- ti -- gam,
+  der du aus Lieb' am Kreu -- zes -- stamm
+  für mich den Tod ge -- lit -- ten hast,
+  ge -- nom -- men web der _ Sün -- den Last.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Herr Je -- su Christ, mein's Le -- bens Licht, Mein Hort, mein Trost, mein Zu -- ver -- sicht, Auf Er -- den bin ich nur ein Gast, und drückt mich sehr der Sün -- den Last.
+  Herr Je -- su Christ, mein's Le -- bens Licht,
+  Mein Hort, mein Trost, mein Zu -- ver -- sicht,
+  Auf Er -- den bin ich nur ein Gast,
+  und drückt mich sehr der Sün -- den Last.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  O Je -- su, du mein Bräu -- ti -- gam, der du aus Lieb' am Kreu -- zes -- stamm für mich den Tod ge -- lit -- ten hast, ge -- nom -- men web der Sün -- den Last.
+  O Je -- su, du mein Bräu -- ti -- gam,
+  der du aus Lieb' am Kreu -- zes -- stamm
+  für mich den Tod ge -- lit -- ten hast,
+  ge -- nom -- men web der Sün -- den Last.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Herr Je -- su Christ, mein's Le -- bens Licht, Mein Hort, mein Trost, mein Zu -- ver -- sicht, Auf Er -- den bin ich nur ein Gast, und drückt mich sehr der Sün -- den Last.
+  Herr Je -- su Christ, mein's Le -- bens Licht,
+  Mein Hort, mein Trost, mein Zu -- ver -- sicht,
+  Auf Er -- den bin ich nur ein Gast,
+  und drückt mich sehr der Sün -- den Last.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  O Je -- su, du mein Bräu -- ti -- gam, der du aus Lieb' am Kreu -- zes -- stamm für mich den Tod ge -- lit -- ten hast, ge -- nom -- men web der Sün -- den Last.
+  O Je -- su, du mein Bräu -- ti -- gam,
+  der du aus Lieb' am Kreu -- zes -- stamm
+  für mich den Tod ge -- lit -- ten hast,
+  ge -- nom -- men web der Sün -- den Last.
 }

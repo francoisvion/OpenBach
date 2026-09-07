@@ -76,22 +76,30 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Nun freut euch, lie -- ben Chri -- sten g'mein, und lasst uns frö -- hlich sprin gen, was Gott an _ uns ge -- wen -- det _ hat und sei -- ne sü -- ße Wun -- der -- tat; gar teu'r hat er's er -- wor -- _ ben.
+  Nun freut euch, lie -- ben Chri -- sten g'mein,
+  und lasst uns frö -- hlich sprin gen,
+  was Gott an _ uns ge -- wen -- det _ hat
+  und sei -- ne sü -- ße Wun -- der -- tat; gar teu'r hat er's er -- wor -- _ ben.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  dass wir ge -- trost und all in Ein mit Lust und Lie -- be sin gen:
+  dass wir ge -- trost und all in Ein
+  mit Lust und Lie -- be sin gen:
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Nun freut euch, lie -- ben Chri -- sten g'mein, und lasst uns frö -- hlich sprin -- _ gen, was Gott an uns ge -- wen -- det hat und sei -- ne sü -- ße Wun -- der -- tat; gar teu'r hat er's er -- wor ben.
+  Nun freut euch, lie -- ben Chri -- sten g'mein,
+  und lasst uns frö -- hlich sprin -- _ gen,
+  was Gott an uns ge -- wen -- det hat
+  und sei -- ne sü -- ße Wun -- der -- tat; gar teu'r hat er's er -- wor ben.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  dass wir ge -- trost und all in Ein mit Lust und Lie -- be sin -- _ gen:
+  dass wir ge -- trost und all in Ein
+  mit Lust und Lie -- be sin -- _ gen:
 }
 
 bassLyricsOne = \lyricmode {
@@ -101,5 +109,6 @@ bassLyricsOne = \lyricmode {
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  dass wir ge -- trost und all in Ein mit Lust und Lie -- be sin -- _ gen:
+  dass wir ge -- trost und all in Ein
+  mit Lust und Lie -- be sin -- _ gen:
 }

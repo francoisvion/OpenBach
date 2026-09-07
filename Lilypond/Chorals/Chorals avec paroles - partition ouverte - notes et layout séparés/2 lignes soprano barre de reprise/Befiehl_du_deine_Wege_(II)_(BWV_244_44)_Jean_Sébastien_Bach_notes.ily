@@ -94,30 +94,48 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Be -- fiehl du dei -- ne We -- _ ge und was dein Her -- ze kränkt, der Wol -- ken, Luft und Win -- _ den gibt We -- ge, Lauf und Bahn, der wird auch We -- ge fin -- _ den, da dein Fuß ge -- hen kann.
+  Be -- fiehl du dei -- ne We -- _ ge
+  und was dein Her -- ze kränkt,
+  der Wol -- ken, Luft und Win -- _ den
+  gibt We -- ge, Lauf und Bahn,
+  der wird auch We -- ge fin -- _ den,
+  da dein Fuß ge -- hen kann.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Der al -- ler -- treu -- sten Pfle -- _ ge des, der den Him -- mel lenkt.
+  Der al -- ler -- treu -- sten Pfle -- _ ge
+  des, der den Him -- mel lenkt.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Be -- fiehl du dei -- ne We -- _ ge und was dein Her -- ze kränkt, der Wol -- ken, Luft und Win -- _ den gibt We -- ge, Lauf und Bahn, der wird auch We -- ge fin -- _ den, da dein Fuß ge -- hen kann.
+  Be -- fiehl du dei -- ne We -- _ ge
+  und was dein Her -- ze kränkt,
+  der Wol -- ken, Luft und Win -- _ den
+  gibt We -- ge, Lauf und Bahn,
+  der wird auch We -- ge fin -- _ den,
+  da dein Fuß ge -- hen kann.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Der al -- ler -- treu -- sten Pfle -- _ ge des, der den Him -- mel lenkt.
+  Der al -- ler -- treu -- sten Pfle -- _ ge
+  des, der den Him -- mel lenkt.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Be -- fiehl du dei -- ne We -- _ ge und was dein Her -- ze kränkt, der Wol -- ken, Luft und Win -- den gibt We -- ge, Lauf und Bahn, der wird auch We -- ge fin -- _ den, da dein Fuß ge -- hen kann.
+  Be -- fiehl du dei -- ne We -- _ ge
+  und was dein Her -- ze kränkt,
+  der Wol -- ken, Luft und Win -- den
+  gibt We -- ge, Lauf und Bahn,
+  der wird auch We -- ge fin -- _ den,
+  da dein Fuß ge -- hen kann.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  Der al -- ler -- treu -- sten Pfle -- _ ge des, der den Him -- mel lenkt.
+  Der al -- ler -- treu -- sten Pfle -- _ ge
+  des, der den Him -- mel lenkt.
 }

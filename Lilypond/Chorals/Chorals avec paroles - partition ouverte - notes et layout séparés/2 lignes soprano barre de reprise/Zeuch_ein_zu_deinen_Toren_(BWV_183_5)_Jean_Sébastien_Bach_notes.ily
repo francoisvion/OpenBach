@@ -86,30 +86,48 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Du bist ein Geist, der leh -- _ ret, Wie man recht be -- ten soll; es steigt zum Him -- mel an, es steigt und lässt nicht a -- _ be, bis der ge -- hol -- fen ha -- _ be, der al -- len hel -- fen kann.
+  Du bist ein Geist, der leh -- _ ret,
+  Wie man recht be -- ten soll;
+  es steigt zum Him -- mel an,
+  es steigt und lässt nicht a -- _ be,
+  bis der ge -- hol -- fen ha -- _ be,
+  der al -- len hel -- fen kann.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  dein Be -- ten wird er -- hö -- _ ret, dein Sin -- gen klin -- get wohl.
+  dein Be -- ten wird er -- hö -- _ ret,
+  dein Sin -- gen klin -- get wohl.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Du bist ein Geist, der leh -- _ ret, Wie man recht be -- ten soll; es steigt zum Him -- mel an, es steigt und lässt nicht a -- _ be, bis der ge -- hol -- fen ha -- _ be, der al -- len hel -- fen kann.
+  Du bist ein Geist, der leh -- _ ret,
+  Wie man recht be -- ten soll;
+  es steigt zum Him -- mel an,
+  es steigt und lässt nicht a -- _ be,
+  bis der ge -- hol -- fen ha -- _ be,
+  der al -- len hel -- fen kann.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  dein Be -- ten wird er -- hö -- _ ret, dein Sin -- gen klin -- get wohl.
+  dein Be -- ten wird er -- hö -- _ ret,
+  dein Sin -- gen klin -- get wohl.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Du bist ein Geist, der leh -- _ _ ret, Wie man recht be -- ten soll; es steigt zum Him -- mel an, es steigt und lässt nicht a -- _ be, bis der ge -- hol -- fen ha -- _ be, der al -- len hel -- fen kann.
+  Du bist ein Geist, der leh -- _ _ ret,
+  Wie man recht be -- ten soll;
+  es steigt zum Him -- mel an,
+  es steigt und lässt nicht a -- _ be,
+  bis der ge -- hol -- fen ha -- _ be,
+  der al -- len hel -- fen kann.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  dein Be -- ten wird er -- hö -- _ _ ret, dein Sin -- gen klin -- get wohl.
+  dein Be -- ten wird er -- hö -- _ _ ret,
+  dein Sin -- gen klin -- get wohl.
 }

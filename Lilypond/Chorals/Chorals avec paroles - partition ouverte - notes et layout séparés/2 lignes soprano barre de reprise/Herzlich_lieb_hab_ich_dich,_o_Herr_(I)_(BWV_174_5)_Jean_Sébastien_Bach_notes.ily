@@ -119,30 +119,63 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Herz -- lich lieb hab' ich dich, o Herr, ich bitt': woll'st sein von mir nicht fern mit dei -- ner Hilf' und Gna -- _ den. Und wenn mir _ gleich mein Herz zer -- bricht, so bist du doch mein Zu -- ver -- sicht, mein Heil und mei -- nes Her -- zens Trost, der mich durch sein Blut hat er -- löst. Herr Je -- su Christ, mein Gott und Herr, mein Gott und Herr, in Schan -- den lass mich nim -- mer -- mehr!
+  Herz -- lich lieb hab' ich dich, o Herr,
+  ich bitt': woll'st sein von mir nicht fern
+  mit dei -- ner Hilf' und Gna -- _ den.
+  Und wenn mir _ gleich mein Herz zer -- bricht,
+  so bist du doch mein Zu -- ver -- sicht,
+  mein Heil und mei -- nes Her -- zens Trost,
+  der mich durch sein Blut hat er -- löst.
+  Herr Je -- su Christ,
+  mein Gott und Herr, mein Gott und Herr,
+  in Schan -- den lass mich nim -- mer -- mehr!
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Die gan -- ze Welt er -- freut mich nicht, nach Himm'l und Er -- de frag' ich nicht, wenn ich dich nur kann ha -- _ ben.
+  Die gan -- ze Welt er -- freut mich nicht,
+  nach Himm'l und Er -- de frag' ich nicht,
+  wenn ich dich nur kann ha -- _ ben.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Herz -- lich lieb hab' ich dich, o Herr, ich bitt': woll'st sein von mir nicht fern mit dei -- ner Hilf' und Gna -- _ den. Und wenn mir gleich mein Herz zer -- bricht, so bist du doch mein Zu -- ver -- sicht, mein Heil und mei -- nes Her -- zens Trost, der mich durch sein Blut hat er -- löst. Herr Je -- su Christ, mein Gott und Herr, mein Gott und Herr, in Schan -- den lass mich nim -- mer -- mehr!
+  Herz -- lich lieb hab' ich dich, o Herr,
+  ich bitt': woll'st sein von mir nicht fern
+  mit dei -- ner Hilf' und Gna -- _ den.
+  Und wenn mir gleich mein Herz zer -- bricht,
+  so bist du doch mein Zu -- ver -- sicht,
+  mein Heil und mei -- nes Her -- zens Trost,
+  der mich durch sein Blut hat er -- löst.
+  Herr Je -- su Christ,
+  mein Gott und Herr, mein Gott und Herr,
+  in Schan -- den lass mich nim -- mer -- mehr!
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Die gan -- ze Welt er -- freut mich nicht, nach Himm'l und Er -- de frag' ich nicht, wenn ich dich nur kann ha -- _ ben.
+  Die gan -- ze Welt er -- freut mich nicht,
+  nach Himm'l und Er -- de frag' ich nicht,
+  wenn ich dich nur kann ha -- _ ben.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Herz -- lich lieb hab' ich dich, o Herr, ich bitt': woll'st sein von mir nicht fern mit dei -- ner Hilf' und Gna den. Und wenn mir gleich mein Herz zer -- bricht, so bist du doch mein Zu -- ver -- sicht, mein Heil und mei -- nes Her -- zens Trost, der mich durch sein Blut hat er -- löst. Herr Je -- su Christ, mein Gott und Herr, mein Gott und Herr, in Schan -- den lass mich nim -- mer -- mehr!
+  Herz -- lich lieb hab' ich dich, o Herr,
+  ich bitt': woll'st sein von mir nicht fern
+  mit dei -- ner Hilf' und Gna den.
+  Und wenn mir gleich mein Herz zer -- bricht,
+  so bist du doch mein Zu -- ver -- sicht,
+  mein Heil und mei -- nes Her -- zens Trost,
+  der mich durch sein Blut hat er -- löst.
+  Herr Je -- su Christ,
+  mein Gott und Herr, mein Gott und Herr,
+  in Schan -- den lass mich nim -- mer -- mehr!
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  Die gan -- ze Welt er -- freut mich nicht, nach Himm'l und Er -- de frag' ich nicht, wenn ich dich nur kann ha ben.
+  Die gan -- ze Welt er -- freut mich nicht,
+  nach Himm'l und Er -- de frag' ich nicht,
+  wenn ich dich nur kann ha ben.
 }

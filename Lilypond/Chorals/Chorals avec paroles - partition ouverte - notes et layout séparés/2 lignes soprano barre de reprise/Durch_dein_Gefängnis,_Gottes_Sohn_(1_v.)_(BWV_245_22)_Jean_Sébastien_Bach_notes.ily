@@ -68,30 +68,42 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Durch dein Ge -- fäng -- nis, Got -- tes Sohn, muss uns die Frei -- heit kom -- _ men; denn gingst du nicht die Knecht -- schaft ein, müsst un -- sre Knecht -- schaft e -- wig _ sein.
+  Durch dein Ge -- fäng -- nis, Got -- tes Sohn,
+  muss uns die Frei -- heit kom -- _ men;
+  denn gingst du nicht die Knecht -- schaft ein,
+  müsst un -- sre Knecht -- schaft e -- wig _ sein.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Dein Ker -- ker ist der Gna -- den -- thron, die Frei -- statt al -- ler From -- _ men;
+  Dein Ker -- ker ist der Gna -- den -- thron,
+  die Frei -- statt al -- ler From -- _ men;
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Durch dein Ge -- fäng -- nis, Got -- tes Sohn, muss uns die Frei -- heit kom -- _ men; denn gingst du nicht die Knecht -- schaft ein, müsst un -- sre Knecht -- schaft e -- wig sein.
+  Durch dein Ge -- fäng -- nis, Got -- tes Sohn,
+  muss uns die Frei -- heit kom -- _ men;
+  denn gingst du nicht die Knecht -- schaft ein,
+  müsst un -- sre Knecht -- schaft e -- wig sein.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Dein Ker -- ker ist der Gna -- den -- thron, die Frei -- statt al -- ler From -- _ men;
+  Dein Ker -- ker ist der Gna -- den -- thron,
+  die Frei -- statt al -- ler From -- _ men;
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Durch dein Ge -- fäng -- nis, Got -- tes Sohn, muss uns die Frei -- heit kom -- _ men; denn gingst du nicht die Knecht -- schaft ein, müsst un -- sre Knecht -- schaft e -- wig sein.
+  Durch dein Ge -- fäng -- nis, Got -- tes Sohn,
+  muss uns die Frei -- heit kom -- _ men;
+  denn gingst du nicht die Knecht -- schaft ein,
+  müsst un -- sre Knecht -- schaft e -- wig sein.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  Dein Ker -- ker ist der Gna -- den -- thron, die Frei -- statt al -- ler From -- _ men;
+  Dein Ker -- ker ist der Gna -- den -- thron,
+  die Frei -- statt al -- ler From -- _ men;
 }

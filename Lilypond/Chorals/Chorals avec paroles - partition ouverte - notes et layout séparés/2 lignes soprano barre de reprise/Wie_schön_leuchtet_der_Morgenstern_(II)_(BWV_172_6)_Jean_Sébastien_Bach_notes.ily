@@ -96,30 +96,54 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Von Gott kommt mir ein Freu -- den -- schein, wenn du mit dei -- nen Äu -- ge -- lein mich freund -- lich tust an -- bli -- _ cken. Nimm mich freund -- lich in dein' Ar -- me, dass ich war -- me Werd' von Gna -- _ den: auf dein Wort komm' ich ge -- la -- _ den.
+  Von Gott kommt mir ein Freu -- den -- schein,
+  wenn du mit dei -- nen Äu -- ge -- lein
+  mich freund -- lich tust an -- bli -- _ cken.
+  Nimm mich
+  freund -- lich
+  in dein' Ar -- me, dass ich war -- me Werd' von Gna -- _ den:
+  auf dein Wort komm' ich ge -- la -- _ den.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  O Herr Je -- su, mein trau -- tes Gut, dein Wort, dein Geist, dein Leib und Blut mich in -- ner -- lich er -- qui -- _ cken!
+  O Herr Je -- su, mein trau -- tes Gut,
+  dein Wort, dein Geist, dein Leib und Blut
+  mich in -- ner -- lich er -- qui -- _ cken!
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Von Gott kommt mir ein Freu -- den -- schein, wenn du mit dei -- nen Äu -- ge -- lein mich freund -- lich tust an -- bli -- cken. Nimm mich freund -- lich in dein' Ar -- me, dass ich war -- me Werd' von Gna -- _ den: auf dein Wort komm' ich ge -- la -- _ den.
+  Von Gott kommt mir ein Freu -- den -- schein,
+  wenn du mit dei -- nen Äu -- ge -- lein
+  mich freund -- lich tust an -- bli -- cken.
+  Nimm mich
+  freund -- lich
+  in dein' Ar -- me, dass ich war -- me Werd' von Gna -- _ den:
+  auf dein Wort komm' ich ge -- la -- _ den.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  O Herr Je -- su, mein trau -- tes Gut, dein Wort, dein Geist, dein Leib und Blut mich in -- ner -- lich er -- qui -- cken!
+  O Herr Je -- su, mein trau -- tes Gut,
+  dein Wort, dein Geist, dein Leib und Blut
+  mich in -- ner -- lich er -- qui -- cken!
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Von Gott kommt mir ein Freu -- den -- schein, wenn du mit dei -- nen Äu -- ge -- lein mich freund -- lich tust an -- bli -- cken. Nimm mich freund -- lich in dein' Ar -- me, dass ich war -- me Werd' von Gna -- _ den: auf dein Wort komm' ich ge -- la -- _ den.
+  Von Gott kommt mir ein Freu -- den -- schein,
+  wenn du mit dei -- nen Äu -- ge -- lein
+  mich freund -- lich tust an -- bli -- cken.
+  Nimm mich
+  freund -- lich
+  in dein' Ar -- me, dass ich war -- me Werd' von Gna -- _ den:
+  auf dein Wort komm' ich ge -- la -- _ den.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  O Herr Je -- su, mein trau -- tes Gut, dein Wort, dein Geist, dein Leib und Blut mich in -- ner -- lich er -- qui -- cken!
+  O Herr Je -- su, mein trau -- tes Gut,
+  dein Wort, dein Geist, dein Leib und Blut
+  mich in -- ner -- lich er -- qui -- cken!
 }

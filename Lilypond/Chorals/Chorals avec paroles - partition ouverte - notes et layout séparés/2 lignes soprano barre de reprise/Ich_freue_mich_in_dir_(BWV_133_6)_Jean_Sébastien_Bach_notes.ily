@@ -87,30 +87,48 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Wohl -- an! so will ich mich an dich, o Je -- su hal -- _ ten, O Je -- su, dir, nur dir, dir leb ich ganz al -- lein; auf dich, al -- lein auf dich, mein Je -- su, schlaf ich ein.
+  Wohl -- an! so will ich mich
+  an dich, o Je -- su hal -- _ ten,
+  O Je -- su, dir, nur dir,
+  dir leb ich ganz al -- lein;
+  auf dich, al -- lein auf dich,
+  mein Je -- su, schlaf ich ein.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  und soll -- te gleich die Welt in tau -- send Stü -- cken spal -- _ ten.
+  und soll -- te gleich die Welt
+  in tau -- send Stü -- cken spal -- _ ten.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Wohl -- an! so will ich mich an dich, o Je -- su hal -- _ ten, O Je -- su, dir, nur dir, dir leb ich ganz al -- lein; auf dich, al -- lein auf dich, mein Je -- su, schlaf ich ein.
+  Wohl -- an! so will ich mich
+  an dich, o Je -- su hal -- _ ten,
+  O Je -- su, dir, nur dir,
+  dir leb ich ganz al -- lein;
+  auf dich, al -- lein auf dich,
+  mein Je -- su, schlaf ich ein.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  und soll -- te gleich die Welt in tau -- send Stü -- cken spal -- _ ten.
+  und soll -- te gleich die Welt
+  in tau -- send Stü -- cken spal -- _ ten.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Wohl -- an! so will ich mich an dich, o Je -- su hal -- ten, O Je -- su, dir, nur dir, dir leb ich ganz al -- lein; auf dich, al -- lein auf dich, mein Je -- su, schlaf ich ein.
+  Wohl -- an! so will ich mich
+  an dich, o Je -- su hal -- ten,
+  O Je -- su, dir, nur dir,
+  dir leb ich ganz al -- lein;
+  auf dich, al -- lein auf dich,
+  mein Je -- su, schlaf ich ein.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  und soll -- te gleich die Welt in tau -- send Stü -- cken spal -- ten.
+  und soll -- te gleich die Welt
+  in tau -- send Stü -- cken spal -- ten.
 }

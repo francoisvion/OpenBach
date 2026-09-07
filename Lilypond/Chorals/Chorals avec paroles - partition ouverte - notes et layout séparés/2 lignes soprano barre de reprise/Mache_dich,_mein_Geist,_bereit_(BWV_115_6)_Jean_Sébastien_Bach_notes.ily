@@ -74,30 +74,48 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Drum so lasst uns im -- mer -- dar wa -- chen, fle -- hen, be -- _ ten, denn di Zeit ist nicht weit, da uns Gott wird rich ten und die Welt ver -- nich -- _ ten.
+  Drum so lasst uns im -- mer -- dar
+  wa -- chen, fle -- hen, be -- _ ten,
+  denn di Zeit
+  ist nicht weit,
+  da uns Gott wird rich ten
+  und die Welt ver -- nich -- _ ten.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  weil die Angst, Not und Ge -- fahr im -- mer nä -- her tre -- _ ten;
+  weil die Angst, Not und Ge -- fahr
+  im -- mer nä -- her tre -- _ ten;
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Drum so lasst uns im -- mer -- dar wa -- chen, fle -- hen, be -- _ ten, denn di Zeit ist nicht weit, da uns Gott wird rich -- _ ten und die Welt ver -- nich -- _ ten.
+  Drum so lasst uns im -- mer -- dar
+  wa -- chen, fle -- hen, be -- _ ten,
+  denn di Zeit
+  ist nicht weit,
+  da uns Gott wird rich -- _ ten
+  und die Welt ver -- nich -- _ ten.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  weil die Angst, Not und Ge -- fahr im -- mer nä -- her tre -- _ ten;
+  weil die Angst, Not und Ge -- fahr
+  im -- mer nä -- her tre -- _ ten;
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Drum so lasst uns im -- mer -- dar wa -- chen, fle -- hen, be -- _ ten, denn di Zeit ist nicht weit, da uns Gott wird rich -- _ ten und die Welt ver -- nich -- _ ten.
+  Drum so lasst uns im -- mer -- dar
+  wa -- chen, fle -- hen, be -- _ ten,
+  denn di Zeit
+  ist nicht weit,
+  da uns Gott wird rich -- _ ten
+  und die Welt ver -- nich -- _ ten.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  weil die Angst, Not und Ge -- fahr im -- mer nä -- her tre -- _ ten;
+  weil die Angst, Not und Ge -- fahr
+  im -- mer nä -- her tre -- _ ten;
 }

@@ -86,30 +86,48 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Wenn ich ein -- mal soll schei -- _ den, so schei -- de nicht von mir; Wenn mir am al -- ler -- bäng -- _ sten wird um das Her -- ze sein, _ so reiß mich aus den Äng -- _ sten kraft dei -- ner Angst und Pein! _ _
+  Wenn ich ein -- mal soll schei -- _ den,
+  so schei -- de nicht von mir;
+  Wenn mir am al -- ler -- bäng -- _ sten
+  wird um das Her -- ze sein, _
+  so reiß mich aus den Äng -- _ sten
+  kraft dei -- ner Angst und Pein! _ _
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  wenn ich den Tod soll lei -- _ den, so tritt du dann her -- für;
+  wenn ich den Tod soll lei -- _ den,
+  so tritt du dann her -- für;
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Wenn ich ein -- mal soll schei -- _ den, so schei -- de nicht von mir; Wenn mir am al -- ler -- bäng -- _ _ sten wird um das Her -- ze sein, so reiß mich aus den Äng -- _ sten kraft dei -- ner Angst und Pein! _ _
+  Wenn ich ein -- mal soll schei -- _ den,
+  so schei -- de nicht von mir;
+  Wenn mir am al -- ler -- bäng -- _ _ sten
+  wird um das Her -- ze sein,
+  so reiß mich aus den Äng -- _ sten
+  kraft dei -- ner Angst und Pein! _ _
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  wenn ich den Tod soll lei -- _ den, so tritt du dann her -- für;
+  wenn ich den Tod soll lei -- _ den,
+  so tritt du dann her -- für;
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Wenn ich ein -- mal soll schei -- _ den, so schei -- de nicht von mir; Wenn mir am al -- ler -- bäng -- _ sten wird um das Her -- ze sein, so reiß mich aus den Äng -- _ sten kraft dei -- ner Angst und Pein! _ _
+  Wenn ich ein -- mal soll schei -- _ den,
+  so schei -- de nicht von mir;
+  Wenn mir am al -- ler -- bäng -- _ sten
+  wird um das Her -- ze sein,
+  so reiß mich aus den Äng -- _ sten
+  kraft dei -- ner Angst und Pein! _ _
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  wenn ich den Tod soll lei -- _ den, so tritt du dann her -- für;
+  wenn ich den Tod soll lei -- _ den,
+  so tritt du dann her -- für;
 }

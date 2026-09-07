@@ -90,30 +90,48 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Ei -- ne Stim -- me lässt sich hö -- _ ren in der Wüs -- te weit und breit, ma -- chet Gott ein eb -- ne Bahn, al -- le Welt soll he -- ben _ an, al -- le Tä -- ler zu er -- hö -- _ ren, dass die Ber -- ge nie -- drig ste -- _ hen.
+  Ei -- ne Stim -- me lässt sich hö -- _ ren
+  in der Wüs -- te weit und breit,
+  ma -- chet Gott ein eb -- ne Bahn,
+  al -- le Welt soll he -- ben _ an,
+  al -- le Tä -- ler zu er -- hö -- _ ren,
+  dass die Ber -- ge nie -- drig ste -- _ hen.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  al -- le Men -- schen zu be -- keh -- _ ren: macht dem Herrn den Weg be -- reit,
+  al -- le Men -- schen zu be -- keh -- _ ren:
+  macht dem Herrn den Weg be -- reit,
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Ei -- ne Stim -- me lässt sich hö -- _ ren in der Wüs -- te weit und breit, ma -- chet Gott ein eb -- ne _ Bahn, al -- le Welt soll he -- ben an, al -- le Tä -- ler zu er -- hö -- _ ren, dass die Ber -- ge nie -- drig ste -- _ hen.
+  Ei -- ne Stim -- me lässt sich hö -- _ ren
+  in der Wüs -- te weit und breit,
+  ma -- chet Gott ein eb -- ne _ Bahn,
+  al -- le Welt soll he -- ben an,
+  al -- le Tä -- ler zu er -- hö -- _ ren,
+  dass die Ber -- ge nie -- drig ste -- _ hen.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  al -- le Men -- schen zu be -- keh -- _ ren: macht dem Herrn den Weg be -- reit,
+  al -- le Men -- schen zu be -- keh -- _ ren:
+  macht dem Herrn den Weg be -- reit,
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Ei -- ne Stim -- me lässt sich hö -- _ ren in der Wüs -- te weit und breit, ma -- chet Gott ein eb -- ne Bahn, al -- le Welt soll he -- ben an, al -- le Tä -- ler zu er -- hö -- _ ren, dass die Ber -- ge nie -- drig ste -- _ hen.
+  Ei -- ne Stim -- me lässt sich hö -- _ ren
+  in der Wüs -- te weit und breit,
+  ma -- chet Gott ein eb -- ne Bahn,
+  al -- le Welt soll he -- ben an,
+  al -- le Tä -- ler zu er -- hö -- _ ren,
+  dass die Ber -- ge nie -- drig ste -- _ hen.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  al -- le Men -- schen zu be -- keh -- _ ren: macht dem Herrn den Weg be -- reit,
+  al -- le Men -- schen zu be -- keh -- _ ren:
+  macht dem Herrn den Weg be -- reit,
 }

@@ -7,7 +7,7 @@ from pathlib import Path
 
 def extract_var(text, name):
     m = re.search(
-        rf"^{name}\s*=\s*(?:\\lyricmode\s*)?(?:\\relative\s+\S+\s*)?(?:\\transpose\s+\S+\s+\S+\s*)?\{{",
+        rf"^[ \t]*{name}\s*=\s*(?:\\lyricmode\s*)?(?:\\relative\s+\S+\s*)?(?:\\transpose\s+\S+\s+\S+\s*)?\{{",
         text, re.MULTILINE,
     )
     if not m:

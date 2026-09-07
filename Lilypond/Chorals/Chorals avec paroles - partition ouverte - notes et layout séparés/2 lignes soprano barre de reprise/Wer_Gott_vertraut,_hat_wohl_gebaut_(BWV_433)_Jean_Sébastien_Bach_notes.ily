@@ -135,12 +135,25 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Wer Gott ver -- traut hat wohl -- ge -- baut im Him -- mel und auf Er -- _ den, im Him -- mel und auf Er -- _ den; Da -- rum auf dich all Hoff -- nung ich ganz fest und steif tu set -- _ zen, Herr Je -- su Christ, _ Mein Trost _ du bist In To -- des -- noth und Schmer -- _ zen, In To -- des -- noth und Schmer -- _ zen.
+  Wer Gott ver -- traut
+  hat wohl -- ge -- baut
+  im Him -- mel und auf Er -- _ den,
+  im Him -- mel und auf Er -- _ den;
+  Da -- rum auf dich
+  all Hoff -- nung ich
+  ganz fest und steif tu set -- _ zen,
+  Herr Je -- su Christ, _
+  Mein Trost _ du bist
+  In To -- des -- noth und Schmer -- _ zen,
+  In To -- des -- noth und Schmer -- _ zen.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  wer sich ver -- lässt auf Je -- sum Christ, dem muss der Him -- mel wer -- _ den, dem muss der Him -- mel wer -- _ den.
+  wer sich ver -- lässt
+  auf Je -- sum Christ,
+  dem muss der Him -- mel wer -- _ den,
+  dem muss der Him -- mel wer -- _ den.
 }
 
 bassLyricsOne = \lyricmode {
@@ -150,5 +163,8 @@ bassLyricsOne = \lyricmode {
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  wer sich ver -- lässt auf Je -- sum Christ, dem muss der Him -- mel wer -- den, dem muss der Him -- mel wer -- den.
+  wer sich ver -- lässt
+  auf Je -- sum Christ,
+  dem muss der Him -- mel wer -- den,
+  dem muss der Him -- mel wer -- den.
 }

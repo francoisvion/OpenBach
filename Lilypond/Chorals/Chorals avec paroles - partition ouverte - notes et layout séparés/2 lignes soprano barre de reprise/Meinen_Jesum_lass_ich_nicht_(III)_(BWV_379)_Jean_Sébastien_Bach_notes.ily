@@ -78,20 +78,28 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Mei -- nen Je -- sum lass' ich nicht, Je -- sus wird mich auch nicht las -- _ sen. Weiß ge -- wiss und glau -- be fest, dass mich Je -- sus auch nicht lässt.
+  Mei -- nen Je -- sum lass' ich nicht,
+  Je -- sus wird mich auch nicht las -- _ sen.
+  Weiß ge -- wiss und glau -- be fest,
+  dass mich Je -- sus auch nicht lässt.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Je -- su hab' ich mich ver -- pflicht't, ich will ihn in's Her -- ze fas -- _ sen.
+  Je -- su hab' ich mich ver -- pflicht't,
+  ich will ihn in's Her -- ze fas -- _ sen.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Mei -- nen Je -- sum lass' ich nicht, Je -- sus wird mich auch nicht las -- sen. Weiß ge -- wiss und glau -- be fest, dass mich _ Je -- sus _ auch nicht lässt.
+  Mei -- nen Je -- sum lass' ich nicht,
+  Je -- sus wird mich auch nicht las -- sen.
+  Weiß ge -- wiss und glau -- be fest,
+  dass mich _ Je -- sus _ auch nicht lässt.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  Je -- su hab' ich mich ver -- pflicht't, ich will ihn in's Her -- ze fas -- sen.
+  Je -- su hab' ich mich ver -- pflicht't,
+  ich will ihn in's Her -- ze fas -- sen.
 }

@@ -86,30 +86,48 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Er -- ken -- ne mich, mein Hü -- _ ter, mein Hir -- te, nimm mich an! Dein Mund hat mich ge -- la -- _ bet mit Milch und sü -- ßer Kost; dein Geist hat mich be -- ga -- _ bet mit man -- cher Him -- mel -- slust.
+  Er -- ken -- ne mich, mein Hü -- _ ter,
+  mein Hir -- te, nimm mich an!
+  Dein Mund hat mich ge -- la -- _ bet
+  mit Milch und sü -- ßer Kost;
+  dein Geist hat mich be -- ga -- _ bet
+  mit man -- cher Him -- mel -- slust.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Von dir, Quell al -- ler Gü -- _ ter, ist mir viel Gut's ge -- tan.
+  Von dir, Quell al -- ler Gü -- _ ter,
+  ist mir viel Gut's ge -- tan.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Er -- ken -- ne mich, mein Hü -- _ ter, mein Hir -- te, nimm mich an! Dein Mund hat mich ge -- la -- _ bet mit Milch und sü -- ßer Kost; dein Geist hat mich be -- ga -- _ bet mit man -- cher Him -- mel -- slust.
+  Er -- ken -- ne mich, mein Hü -- _ ter,
+  mein Hir -- te, nimm mich an!
+  Dein Mund hat mich ge -- la -- _ bet
+  mit Milch und sü -- ßer Kost;
+  dein Geist hat mich be -- ga -- _ bet
+  mit man -- cher Him -- mel -- slust.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Von dir, Quell al -- ler Gü -- _ ter, ist mir viel Gut's ge -- tan.
+  Von dir, Quell al -- ler Gü -- _ ter,
+  ist mir viel Gut's ge -- tan.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Er -- ken -- ne mich, mein Hü -- _ ter, mein Hir -- te, nimm mich an! Dein Mund hat mich ge -- la -- bet mit Milch und sü -- ßer Kost; dein Geist hat mich be -- ga -- _ bet mit man -- cher Him -- mel -- slust.
+  Er -- ken -- ne mich, mein Hü -- _ ter,
+  mein Hir -- te, nimm mich an!
+  Dein Mund hat mich ge -- la -- bet
+  mit Milch und sü -- ßer Kost;
+  dein Geist hat mich be -- ga -- _ bet
+  mit man -- cher Him -- mel -- slust.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  Von dir, Quell al -- ler Gü -- _ ter, ist mir viel Gut's ge -- tan.
+  Von dir, Quell al -- ler Gü -- _ ter,
+  ist mir viel Gut's ge -- tan.
 }

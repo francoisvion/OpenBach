@@ -80,7 +80,9 @@ sopranoLyricsOne = \lyricmode { \set stanza = 1
 
                                 altoLyricsOne = \lyricmode {
                                   \set stanza = 1
-                                  Wo Gott der Herr nicht bei uns hält, wenn uns -- re Fein -- de to -- _ ben, wo er Is -- ra -- els Schutz nicht ist, und sel -- ber bricht der Fein -- de List; so ists mit uns ver -- lo -- _ ren.
+                                  Wo Gott der Herr nicht bei uns hält, wenn uns -- re Fein -- de to -- _ ben,
+                                  wo er Is -- ra -- els Schutz nicht ist, und sel -- ber bricht der Fein -- de List;
+                                  so ists mit uns ver -- lo -- _ ren.
                                 }
 
                                 altoLyricsTwo = \lyricmode {
@@ -90,7 +92,9 @@ sopranoLyricsOne = \lyricmode { \set stanza = 1
 
                                 tenorLyricsOne = \lyricmode {
                                   \set stanza = 1
-                                  Wo Gott der Herr nicht bei uns hält, wenn uns -- re Fein -- de to -- _ ben, wo er Is -- ra -- els Schutz nicht ist, und sel -- ber bricht der Fein -- de List; so ists mit uns ver -- lo -- _ ren.
+                                  Wo Gott der Herr nicht bei uns hält, wenn uns -- re Fein -- de to -- _ ben,
+                                  wo er Is -- ra -- els Schutz nicht ist, und sel -- ber bricht der Fein -- de List;
+                                  so ists mit uns ver -- lo -- _ ren.
                                 }
 
                                 tenorLyricsTwo = \lyricmode {
@@ -100,7 +104,9 @@ sopranoLyricsOne = \lyricmode { \set stanza = 1
 
                                 bassLyricsOne = \lyricmode {
                                   \set stanza = 1
-                                  Wo Gott der Herr nicht bei uns hält, wenn uns -- re Fein -- de to -- _ ben, wo er Is -- ra -- els Schutz nicht ist, und sel -- ber bricht der Fein -- de List; so ists mit uns ver -- lo -- _ ren.
+                                  Wo Gott der Herr nicht bei uns hält, wenn uns -- re Fein -- de to -- _ ben,
+                                  wo er Is -- ra -- els Schutz nicht ist, und sel -- ber bricht der Fein -- de List;
+                                  so ists mit uns ver -- lo -- _ ren.
                                 }
 
                                 bassLyricsTwo = \lyricmode {

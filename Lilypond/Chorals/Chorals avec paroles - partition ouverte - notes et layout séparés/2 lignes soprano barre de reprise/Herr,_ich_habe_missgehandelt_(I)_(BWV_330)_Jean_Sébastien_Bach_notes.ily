@@ -65,7 +65,8 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Herr, ich ha -- be miss -- ge -- han -- delt, ja mich drückt der _ Sün -- den Last; und jetzt wollt' ich gern aus Schre -- cken mich vor dei -- nem Zorn ver -- ste -- _ cken.
+  Herr, ich ha -- be miss -- ge -- han -- delt, ja mich drückt der _ Sün -- den Last;
+  und jetzt wollt' ich gern aus Schre -- cken mich vor dei -- nem Zorn ver -- ste -- _ cken.
 }
 
 altoLyricsTwo = \lyricmode {
@@ -75,7 +76,8 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Herr, ich ha -- be miss -- ge -- han -- delt, ja mich drückt der Sün -- den _ Last; und jetzt wollt' ich gern aus Schre -- cken mich vor dei -- nem Zorn ver -- ste -- _ cken.
+  Herr, ich ha -- be miss -- ge -- han -- delt, ja mich drückt der Sün -- den _ Last;
+  und jetzt wollt' ich gern aus Schre -- cken mich vor dei -- nem Zorn ver -- ste -- _ cken.
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -85,7 +87,8 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Herr, ich ha -- be miss -- ge -- han -- delt, ja mich _ drückt der Sün -- den Last; und jetzt wollt' ich gern aus Schre -- cken mich vor dei -- nem Zorn ver -- ste -- _ cken.
+  Herr, ich ha -- be miss -- ge -- han -- delt, ja mich _ drückt der Sün -- den Last;
+  und jetzt wollt' ich gern aus Schre -- cken mich vor dei -- nem Zorn ver -- ste -- _ cken.
 }
 
 bassLyricsTwo = \lyricmode {

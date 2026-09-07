@@ -91,22 +91,36 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Ich lieg im Streit und wi -- der -- streb, hilf, o Herr Christ, dem Schwa -- _ _ chen! Kommt nun An -- fech -- tung, Herr, so wehr, dass sie mich nicht um -- sto -- _ ßen. Du kannst ma -- _ ßen, dass mirs nicht bring Ge -- fahr; ich weiß, du wirsts nicht las -- _ sen.
+  Ich lieg im Streit und wi -- der -- streb,
+  hilf, o Herr Christ, dem Schwa -- _ _ chen!
+  Kommt nun An -- fech -- tung, Herr, so wehr,
+  dass sie mich nicht um -- sto -- _ ßen.
+  Du kannst ma -- _ ßen,
+  dass mirs nicht bring Ge -- fahr;
+  ich weiß, du wirsts nicht las -- _ sen.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  An dei -- ner Gnad al -- lein ich kleb, du kannst mich stär -- ker ma -- _ _ chen.
+  An dei -- ner Gnad al -- lein ich kleb,
+  du kannst mich stär -- ker ma -- _ _ chen.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Ich lieg im Streit und wi -- der -- streb, hilf, o Herr Christ, dem Schwa -- _ chen! Kommt nun An -- fech -- tung, Herr, so wehr, dass sie mich nicht um -- sto -- _ _ ßen. Du kannst ma -- _ ßen, dass mirs nicht bring Ge -- fahr; ich weiß, du wirsts nicht las -- _ sen.
+  Ich lieg im Streit und wi -- der -- streb,
+  hilf, o Herr Christ, dem Schwa -- _ chen!
+  Kommt nun An -- fech -- tung, Herr, so wehr,
+  dass sie mich nicht um -- sto -- _ _ ßen.
+  Du kannst ma -- _ ßen,
+  dass mirs nicht bring Ge -- fahr;
+  ich weiß, du wirsts nicht las -- _ sen.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  An dei -- ner Gnad al -- lein ich kleb, du kannst mich stär -- ker ma -- _ chen.
+  An dei -- ner Gnad al -- lein ich kleb,
+  du kannst mich stär -- ker ma -- _ chen.
 }
 
 bassLyricsOne = \lyricmode {

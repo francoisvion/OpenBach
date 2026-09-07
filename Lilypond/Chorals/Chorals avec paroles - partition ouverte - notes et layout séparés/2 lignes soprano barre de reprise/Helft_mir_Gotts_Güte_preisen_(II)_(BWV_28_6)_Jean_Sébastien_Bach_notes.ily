@@ -89,7 +89,12 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  All solch dein Güt wir prei -- _ sen, Va -- ter ins Him -- mels Thron, und bit -- ten fer -- ner dich: gib uns ein fried -- sam Jah -- _ re, vor al -- lem Leid be -- wah -- _ re und nähr uns mil -- dig -- lich.
+  All solch dein Güt wir prei -- _ sen,
+  Va -- ter ins Him -- mels Thron,
+  und bit -- ten fer -- ner dich:
+  gib uns ein fried -- sam Jah -- _ re,
+  vor al -- lem Leid be -- wah -- _ re
+  und nähr uns mil -- dig -- lich.
 }
 
 altoLyricsTwo = \lyricmode {
@@ -99,7 +104,12 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  All solch dein Güt wir prei -- _ sen, Va -- ter ins Him -- mels Thron, und bit -- ten fer -- ner dich: gib uns ein fried -- sam Jah -- _ re, vor al -- lem Leid be -- wah -- _ re und nähr uns mil -- dig -- lich.
+  All solch dein Güt wir prei -- _ sen,
+  Va -- ter ins Him -- mels Thron,
+  und bit -- ten fer -- ner dich:
+  gib uns ein fried -- sam Jah -- _ re,
+  vor al -- lem Leid be -- wah -- _ re
+  und nähr uns mil -- dig -- lich.
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -109,7 +119,12 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  All solch dein Güt wir prei sen, Va -- ter ins Him -- mels Thron, und bit -- ten fer -- ner dich: gib uns ein fried -- sam Jah -- _ re, vor al -- lem Leid be -- wah -- _ re und nähr uns mil -- dig -- lich.
+  All solch dein Güt wir prei sen,
+  Va -- ter ins Him -- mels Thron,
+  und bit -- ten fer -- ner dich:
+  gib uns ein fried -- sam Jah -- _ re,
+  vor al -- lem Leid be -- wah -- _ re
+  und nähr uns mil -- dig -- lich.
 }
 
 bassLyricsTwo = \lyricmode {

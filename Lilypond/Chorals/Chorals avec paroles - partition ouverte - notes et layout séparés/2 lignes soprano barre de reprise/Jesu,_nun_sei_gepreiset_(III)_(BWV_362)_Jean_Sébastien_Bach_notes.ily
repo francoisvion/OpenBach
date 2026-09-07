@@ -177,7 +177,10 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Dass wir ha -- ben er -- le -- _ bet die neu fröh -- li -- che Zeit, die vol -- ler Gna -- den schwe -- _ bet und ew -- ger Se -- lig -- keit.
+  Dass wir ha -- ben er -- le -- _ bet
+  die neu fröh -- li -- che Zeit,
+  die vol -- ler Gna -- den schwe -- _ bet
+  und ew -- ger Se -- lig -- keit.
 }
 
 tenorLyricsOne = \lyricmode {
@@ -187,7 +190,10 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Dass wir ha -- ben er -- le -- _ bet die neu fröh -- li -- che Zeit, die vol -- ler Gna -- den schwe -- _ bet und ew -- ger Se -- lig -- keit.
+  Dass wir ha -- ben er -- le -- _ bet
+  die neu fröh -- li -- che Zeit,
+  die vol -- ler Gna -- den schwe -- _ bet
+  und ew -- ger Se -- lig -- keit.
 }
 
 bassLyricsOne = \lyricmode {
@@ -197,5 +203,8 @@ bassLyricsOne = \lyricmode {
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  Dass wir ha -- ben er -- le -- _ bet die neu fröh -- li -- che Zeit, die vol -- ler Gna -- den schwe -- _ bet und ew -- ger Se -- lig -- keit.
+  Dass wir ha -- ben er -- le -- _ bet
+  die neu fröh -- li -- che Zeit,
+  die vol -- ler Gna -- den schwe -- _ bet
+  und ew -- ger Se -- lig -- keit.
 }

@@ -80,7 +80,7 @@ altoLyricsOne = \lyricmode {\set stanza = 1
                             dass Got -- tes Sohn wird kom - men
                             Dann wird das La -- chen wer -- den teu'r,
                             wenn Al -- les wird ver -- gehn in Feu'r,
-                            wie Pe -- trus da -- von zeu - get.
+                            wie Pe -- trus da -- von zeu -- _ get.
 }
 
 altoLyricsTwo = \lyricmode {\set stanza = 2
@@ -93,7 +93,7 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
                              dass Got -- tes Sohn wird kom - men
                              Dann wird das La -- chen wer -- den teu'r,
                              wenn Al -- les wird ver -- gehn in Feu'r,
-                             wie Pe -- trus da -- von zeu - get.
+                             wie Pe -- trus da -- von zeu -- _ get.
 }
 
 tenorLyricsTwo = \lyricmode {\set stanza = 2
@@ -106,7 +106,7 @@ bassLyricsOne = \lyricmode {\set stanza = 1
                             dass Got -- tes Sohn wird kom - men
                             Dann wird das La -- chen wer -- den teu'r,
                             wenn Al -- les wird ver -- gehn in Feu'r,
-                            wie Pe -- trus da -- von zeu - get.
+                            wie Pe -- trus da -- von zeu -- _ get.
 }
 
 bassLyricsTwo = \lyricmode {\set stanza = 2

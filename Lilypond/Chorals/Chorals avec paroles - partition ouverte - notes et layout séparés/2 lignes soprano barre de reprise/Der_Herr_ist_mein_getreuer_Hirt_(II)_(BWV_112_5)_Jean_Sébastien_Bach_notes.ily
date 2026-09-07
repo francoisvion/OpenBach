@@ -77,30 +77,45 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Gu -- tes und die Barm -- her -- zig -- keit fol -- gen mir nach im Le -- _ ben, auf Erd in christ -- li -- cher Ge -- mein und nach dein Tod da werd ich sein bei Chri -- sto, mei -- nem _ Her -- _ ren.
+  Gu -- tes und die Barm -- her -- zig -- keit
+  fol -- gen mir nach im Le -- _ ben,
+  auf Erd in christ -- li -- cher Ge -- mein
+  und nach dein Tod da werd ich sein
+  bei Chri -- sto, mei -- nem _ Her -- _ ren.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  und ich werd blei -- ben al -- le -- zeit im Haus des Her -- ren e -- _ ben,
+  und ich werd blei -- ben al -- le -- zeit
+  im Haus des Her -- ren e -- _ ben,
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Gu -- tes und die Barm -- her -- zig -- keit fol -- gen mir nach im Le -- _ ben, auf Erd in christ -- li -- cher Ge -- mein und nach dein Tod da werd ich sein bei Chri -- sto, mei -- nem Her -- _ ren.
+  Gu -- tes und die Barm -- her -- zig -- keit
+  fol -- gen mir nach im Le -- _ ben,
+  auf Erd in christ -- li -- cher Ge -- mein
+  und nach dein Tod da werd ich sein
+  bei Chri -- sto, mei -- nem Her -- _ ren.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  und ich werd blei -- ben al -- le -- zeit im Haus des Her -- ren e -- _ ben,
+  und ich werd blei -- ben al -- le -- zeit
+  im Haus des Her -- ren e -- _ ben,
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Gu -- tes und die Barm -- her -- zig -- keit fol -- gen mir nach im Le -- _ ben, auf Erd in christ -- li -- cher Ge -- mein und nach dein Tod da werd ich sein bei Chri -- sto, mei -- nem Her -- _ ren.
+  Gu -- tes und die Barm -- her -- zig -- keit
+  fol -- gen mir nach im Le -- _ ben,
+  auf Erd in christ -- li -- cher Ge -- mein
+  und nach dein Tod da werd ich sein
+  bei Chri -- sto, mei -- nem Her -- _ ren.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  und ich werd blei -- ben al -- le -- zeit im Haus des Her -- ren e -- _ ben,
+  und ich werd blei -- ben al -- le -- zeit
+  im Haus des Her -- ren e -- _ ben,
 }

@@ -112,30 +112,48 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Auf, auf, mein Herz, mit Freu -- _ den, nimm wahr, __ _ was heut ge -- _ schicht, Mein Hei -- _ land ward __ _ ge -- legt, da, wo __ man uns __ _ hin -- trägt, wenn von __ uns un -- _ ser Geist gen Him mel ist __ _ ge -- reist.
+  Auf, auf, mein Herz, mit Freu -- _ den,
+  nimm wahr, __ _ was heut ge -- _ schicht,
+  Mein Hei -- _ land ward __ _ ge -- legt,
+  da, wo __ man uns __ _ hin -- trägt,
+  wenn von __ uns un -- _ ser Geist
+  gen Him mel ist __ _ ge -- reist.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  wie kommt nach gro -- ßen Lei -- _ den nun ein __ _ so gro -- ßes __ _ Licht!
+  wie kommt nach gro -- ßen Lei -- _ den
+  nun ein __ _ so gro -- ßes __ _ Licht!
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Auf, auf, mein Herz, mit Freu -- _ den, nimm wahr, __ _ was heut ge schicht, Mein Hei -- _ land ward __ _ ge -- legt, da, wo __ _ man uns __ _ hin -- trägt, wenn von __ uns un -- _ ser Geist gen Him -- _ mel ist __ _ ge -- reist.
+  Auf, auf, mein Herz, mit Freu -- _ den,
+  nimm wahr, __ _ was heut ge schicht,
+  Mein Hei -- _ land ward __ _ ge -- legt,
+  da, wo __ _ man uns __ _ hin -- trägt,
+  wenn von __ uns un -- _ ser Geist
+  gen Him -- _ mel ist __ _ ge -- reist.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  wie kommt nach gro -- ßen Lei -- _ den nun ein __ _ so gro -- ßes __ Licht!
+  wie kommt nach gro -- ßen Lei -- _ den
+  nun ein __ _ so gro -- ßes __ Licht!
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Auf, auf, mein Herz, mit Freu -- _ _ den, nimm wahr, __ was heut ge -- _ schicht, Mein Hei -- land ward __ ge -- legt, da, wo __ man uns __ hin -- trägt, wenn von __ _ uns un ser Geist gen Him -- _ mel ist __ ge -- reist.
+  Auf, auf, mein Herz, mit Freu -- _ _ den,
+  nimm wahr, __ was heut ge -- _ schicht,
+  Mein Hei -- land ward __ ge -- legt,
+  da, wo __ man uns __ hin -- trägt,
+  wenn von __ _ uns un ser Geist
+  gen Him -- _ mel ist __ ge -- reist.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  wie kommt nach gro -- ßen Lei -- _ _ den nun ein __ so gro -- ßes __ _ Licht!
+  wie kommt nach gro -- ßen Lei -- _ _ den
+  nun ein __ so gro -- ßes __ _ Licht!
 }

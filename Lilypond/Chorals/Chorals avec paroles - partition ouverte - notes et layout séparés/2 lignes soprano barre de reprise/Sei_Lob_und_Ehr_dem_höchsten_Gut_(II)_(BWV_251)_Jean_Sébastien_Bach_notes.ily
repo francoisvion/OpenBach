@@ -76,30 +76,45 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Sei Lob und Ehr' dem höch -- sten Gut, dem Va -- ter al -- ler Gü -- _ te, mit sei -- nem rei -- chen Trost er -- füllt, dem Gott, der al -- len Jam -- mer stillt: gebt un -- serm Gott die Eh _ re!
+  Sei Lob und Ehr' dem höch -- sten Gut,
+  dem Va -- ter al -- ler Gü -- _ te,
+  mit sei -- nem rei -- chen Trost er -- füllt,
+  dem Gott, der al -- len Jam -- mer stillt:
+  gebt un -- serm Gott die Eh _ re!
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  dem Gott, der al -- le Wun -- der thut, dem Gott, der mein Ge -- mü -- _ the
+  dem Gott, der al -- le Wun -- der thut,
+  dem Gott, der mein Ge -- mü -- _ the
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Sei Lob und Ehr' dem höch -- sten Gut, dem Va -- ter al -- ler Gü -- _ _ te, mit sei -- nem rei -- chen Trost er -- füllt, dem Gott, der al -- len Jam -- mer stillt: gebt un -- serm Gott die Eh _ re!
+  Sei Lob und Ehr' dem höch -- sten Gut,
+  dem Va -- ter al -- ler Gü -- _ _ te,
+  mit sei -- nem rei -- chen Trost er -- füllt,
+  dem Gott, der al -- len Jam -- mer stillt:
+  gebt un -- serm Gott die Eh _ re!
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  dem Gott, der al -- le Wun -- der thut, dem Gott, der mein Ge -- mü -- _ _ the
+  dem Gott, der al -- le Wun -- der thut,
+  dem Gott, der mein Ge -- mü -- _ _ the
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Sei Lob und Ehr' dem höch -- sten Gut, dem Va -- ter al -- ler Gü -- _ te, mit sei -- nem rei -- chen Trost er -- füllt, dem Gott, der al -- len Jam -- mer stillt: gebt un -- serm Gott die Eh _ re!
+  Sei Lob und Ehr' dem höch -- sten Gut,
+  dem Va -- ter al -- ler Gü -- _ te,
+  mit sei -- nem rei -- chen Trost er -- füllt,
+  dem Gott, der al -- len Jam -- mer stillt:
+  gebt un -- serm Gott die Eh _ re!
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  dem Gott, der al -- le Wun -- der thut, dem Gott, der mein Ge -- mü -- _ the
+  dem Gott, der al -- le Wun -- der thut,
+  dem Gott, der mein Ge -- mü -- _ the
 }

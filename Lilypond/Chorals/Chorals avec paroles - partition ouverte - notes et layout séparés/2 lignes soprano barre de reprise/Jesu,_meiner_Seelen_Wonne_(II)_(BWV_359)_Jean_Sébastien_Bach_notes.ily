@@ -82,30 +82,48 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Je -- su, mei -- ner See -- len Won -- ne, Je -- su, mei -- ne be -- ste Lust, wie ich dich so herz -- lich lieb' und mich oh -- ne dich be -- trüb'; d'rum, o Je -- su, komm zu mir, und bleib bei mir für end für!
+  Je -- su, mei -- ner See -- len Won -- ne,
+  Je -- su, mei -- ne be -- ste Lust,
+  wie ich dich so herz -- lich lieb'
+  und mich oh -- ne dich be -- trüb';
+  d'rum, o Je -- su, komm zu mir,
+  und bleib bei mir für end für!
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Je -- su, mei -- ne Freu -- den -- son -- ne, Je -- su, dir ist ja be -- wusst,
+  Je -- su, mei -- ne Freu -- den -- son -- ne,
+  Je -- su, dir ist ja be -- wusst,
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Je -- su, mei -- ner See -- len Won -- ne, Je -- su, mei -- ne be -- ste Lust, wie ich dich so herz -- lich lieb' und mich oh -- ne dich be -- trüb'; d'rum, o Je -- su, komm zu mir, und bleib bei mir für end für!
+  Je -- su, mei -- ner See -- len Won -- ne,
+  Je -- su, mei -- ne be -- ste Lust,
+  wie ich dich so herz -- lich lieb'
+  und mich oh -- ne dich be -- trüb';
+  d'rum, o Je -- su, komm zu mir,
+  und bleib bei mir für end für!
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Je -- su, mei -- ne Freu -- den -- son -- ne, Je -- su, dir ist ja be -- wusst,
+  Je -- su, mei -- ne Freu -- den -- son -- ne,
+  Je -- su, dir ist ja be -- wusst,
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Je -- su, mei -- ner See -- len Won -- ne, Je -- su, mei -- ne be -- ste Lust, wie ich dich so herz -- lich lieb' und mich oh -- ne dich be -- trüb'; d'rum, o Je -- su, komm zu mir, und bleib bei mir für end für!
+  Je -- su, mei -- ner See -- len Won -- ne,
+  Je -- su, mei -- ne be -- ste Lust,
+  wie ich dich so herz -- lich lieb'
+  und mich oh -- ne dich be -- trüb';
+  d'rum, o Je -- su, komm zu mir,
+  und bleib bei mir für end für!
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  Je -- su, mei -- ne Freu -- den -- son -- ne, Je -- su, dir ist ja be -- wusst,
+  Je -- su, mei -- ne Freu -- den -- son -- ne,
+  Je -- su, dir ist ja be -- wusst,
 }

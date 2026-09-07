@@ -77,30 +77,45 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Er tödt uns durch dein Gü -- _ te, er -- weckt uns durch dein Gnad; wohl hier auf die -- ser Er -- _ den, den Sinn und all Be -- gier -- _ den und G'dan -- ken hab'n zu dir.
+  Er tödt uns durch dein Gü -- _ te,
+  er -- weckt uns durch dein Gnad;
+  wohl hier auf die -- ser Er -- _ den,
+  den Sinn und all Be -- gier -- _ den
+  und G'dan -- ken hab'n zu dir.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  den al -- ten Men -- schen krän -- _ ke, dass der neu' Le -- ben hab
+  den al -- ten Men -- schen krän -- _ ke,
+  dass der neu' Le -- ben hab
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Er tödt uns durch dein Gü -- _ te, er -- weckt uns durch dein Gnad; wohl hier auf die -- ser Er -- den, den Sinn und all Be -- gier -- _ den und G'dan -- ken hab'n zu dir.
+  Er tödt uns durch dein Gü -- _ te,
+  er -- weckt uns durch dein Gnad;
+  wohl hier auf die -- ser Er -- den,
+  den Sinn und all Be -- gier -- _ den
+  und G'dan -- ken hab'n zu dir.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  den al -- ten Men -- schen krän -- _ ke, dass der neu' Le -- ben hab
+  den al -- ten Men -- schen krän -- _ ke,
+  dass der neu' Le -- ben hab
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Er tödt uns durch dein Gü -- _ te, er -- weckt uns durch dein Gnad; wohl hier auf die -- ser Er -- _ den, den Sinn und all Be -- gier -- _ den und G'dan -- ken hab'n zu dir.
+  Er tödt uns durch dein Gü -- _ te,
+  er -- weckt uns durch dein Gnad;
+  wohl hier auf die -- ser Er -- _ den,
+  den Sinn und all Be -- gier -- _ den
+  und G'dan -- ken hab'n zu dir.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  den al -- ten Men -- schen krän -- _ ke, dass der neu' Le -- ben hab
+  den al -- ten Men -- schen krän -- _ ke,
+  dass der neu' Le -- ben hab
 }

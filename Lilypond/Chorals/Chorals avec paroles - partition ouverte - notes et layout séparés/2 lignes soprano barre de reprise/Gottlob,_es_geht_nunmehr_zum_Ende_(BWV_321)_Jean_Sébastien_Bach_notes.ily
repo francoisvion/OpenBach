@@ -93,7 +93,8 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Gott -- lob, es geht nun -- mehr zum _ En -- de, der mei -- ste Kampf ist nun voll -- bracht; Drum lasst mich gehn, ich rei -- se fort, mein Je -- sus ist _ _ mein letz -- tes Wort.
+  Gott -- lob, es geht nun -- mehr zum _ En -- de, der mei -- ste Kampf ist nun voll -- bracht;
+  Drum lasst mich gehn, ich rei -- se fort, mein Je -- sus ist _ _ mein letz -- tes Wort.
 }
 
 altoLyricsTwo = \lyricmode {
@@ -103,7 +104,8 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Gott -- lob, es geht _ nun -- mehr zum En -- de, der mei -- ste Kampf ist nun _ voll -- bracht; Drum lasst mich gehn, ich rei -- _ se fort, mein Je -- sus ist mein letz -- tes Wort.
+  Gott -- lob, es geht _ nun -- mehr zum En -- de, der mei -- ste Kampf ist nun _ voll -- bracht;
+  Drum lasst mich gehn, ich rei -- _ se fort, mein Je -- sus ist mein letz -- tes Wort.
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -113,7 +115,8 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Gott -- lob, es geht _ nun -- mehr _ zum En -- de, der mei -- ste Kampf _ ist nun voll -- bracht; Drum lasst mich gehn, _ ich rei -- se fort, mein Je -- sus ist _ _ mein letz -- tes Wort.
+  Gott -- lob, es geht _ nun -- mehr _ zum En -- de, der mei -- ste Kampf _ ist nun voll -- bracht;
+  Drum lasst mich gehn, _ ich rei -- se fort, mein Je -- sus ist _ _ mein letz -- tes Wort.
 }
 
 bassLyricsTwo = \lyricmode {

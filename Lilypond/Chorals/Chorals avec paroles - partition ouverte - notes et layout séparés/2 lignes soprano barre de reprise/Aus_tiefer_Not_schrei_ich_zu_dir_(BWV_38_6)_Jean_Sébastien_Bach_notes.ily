@@ -90,30 +90,45 @@ altoLyrics = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Ob bei uns ist der Sün -- den viel, bei Gott ist viel mehr Gna -- _ de, Er ist al -- lein der gu -- te Hirt, der Is -- ra -- el er -- lö -- sen wird aus sei -- nen Sün -- den al -- _ len.
+  Ob bei uns ist der Sün -- den viel,
+  bei Gott ist viel mehr Gna -- _ de,
+  Er ist al -- lein der gu -- te Hirt,
+  der Is -- ra -- el er -- lö -- sen wird
+  aus sei -- nen Sün -- den al -- _ len.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  sein' Hand zu hel -- fen hat kein Ziel, Wie groß auch sei der Scha -- _ de.
+  sein' Hand zu hel -- fen hat kein Ziel,
+  Wie groß auch sei der Scha -- _ de.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Ob bei uns ist der Sün -- den viel, bei Gott ist viel mehr Gna -- _ de, Er ist al -- lein der gu -- te Hirt, der Is -- ra -- el er -- lö -- sen _ wird aus sei -- nen Sün -- den al -- _ len. _ _
+  Ob bei uns ist der Sün -- den viel,
+  bei Gott ist viel mehr Gna -- _ de,
+  Er ist al -- lein der gu -- te Hirt,
+  der Is -- ra -- el er -- lö -- sen _ wird
+  aus sei -- nen Sün -- den al -- _ len. _ _
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  sein' Hand zu hel -- fen hat kein Ziel, Wie groß auch sei der Scha -- _ de.
+  sein' Hand zu hel -- fen hat kein Ziel,
+  Wie groß auch sei der Scha -- _ de.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Ob bei uns ist der Sün -- den viel, bei Gott ist viel mehr Gna -- _ de, Er ist al -- lein der gu -- te Hirt, der Is -- ra -- el er -- lö -- sen wird aus sei -- nen Sün -- den al -- _ len. _ _
+  Ob bei uns ist der Sün -- den viel,
+  bei Gott ist viel mehr Gna -- _ de,
+  Er ist al -- lein der gu -- te Hirt,
+  der Is -- ra -- el er -- lö -- sen wird
+  aus sei -- nen Sün -- den al -- _ len. _ _
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  sein' Hand zu hel -- fen hat kein Ziel, Wie groß auch sei der Scha -- _ de.
+  sein' Hand zu hel -- fen hat kein Ziel,
+  Wie groß auch sei der Scha -- _ de.
 }

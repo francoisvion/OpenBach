@@ -118,30 +118,60 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Nun lob', mein' Seel', den Her -- _ ren, was in mir ist, den Na -- men sein, hat dir dein Sünd ver -- ge ben und heilt dein' Schwach -- heit groß, er -- rett' dein ar -- mes Le -- _ ben, nimmt dich in sei -- nen Schoß, mit rei -- chem Trost be -- schüt -- _ tet, ver -- jüngt dem Ad -- ler gleich, der Kön'g schafft recht, be -- hü -- _ tet, die leid'n in sei -- _ nem Reich.
+  Nun lob', mein' Seel', den Her -- _ ren,
+  was in mir ist, den Na -- men sein,
+  hat dir dein Sünd ver -- ge ben
+  und heilt dein' Schwach -- heit groß,
+  er -- rett' dein ar -- mes Le -- _ ben,
+  nimmt dich in sei -- nen Schoß,
+  mit rei -- chem Trost be -- schüt -- _ tet,
+  ver -- jüngt dem Ad -- ler gleich,
+  der Kön'g schafft recht, be -- hü -- _ tet,
+  die leid'n in sei -- _ nem Reich.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  sein' Wohl -- that thut er meh -- _ ren, Ver -- giss es nicht, o Her -- ze mein,
+  sein' Wohl -- that thut er meh -- _ ren,
+  Ver -- giss es nicht, o Her -- ze mein,
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Nun lob', mein' Seel', den Her -- _ ren, was in mir ist, den Na -- men sein, hat dir dein Sünd ver -- ge -- _ _ ben und heilt dein' Schwach -- heit groß, er -- rett' dein ar -- mes Le -- _ ben, nimmt dich in sei -- nen Schoß, mit rei -- chem Trost be -- schüt -- _ tet, ver -- jüngt dem Ad -- ler gleich, der Kön'g schafft recht, be -- hü -- _ tet, die leid'n in sei -- _ _ nem Reich.
+  Nun lob', mein' Seel', den Her -- _ ren,
+  was in mir ist, den Na -- men sein,
+  hat dir dein Sünd ver -- ge -- _ _ ben
+  und heilt dein' Schwach -- heit groß,
+  er -- rett' dein ar -- mes Le -- _ ben,
+  nimmt dich in sei -- nen Schoß,
+  mit rei -- chem Trost be -- schüt -- _ tet,
+  ver -- jüngt dem Ad -- ler gleich,
+  der Kön'g schafft recht, be -- hü -- _ tet,
+  die leid'n in sei -- _ _ nem Reich.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  sein' Wohl -- that thut er meh -- _ ren, Ver -- giss es nicht, o Her -- ze mein,
+  sein' Wohl -- that thut er meh -- _ ren,
+  Ver -- giss es nicht, o Her -- ze mein,
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Nun lob', mein' Seel', den Her -- _ ren, was in mir ist, den Na -- men sein, hat dir dein Sünd ver -- ge -- _ ben und heilt dein' Schwach -- heit groß, er -- rett' dein ar -- mes Le -- _ ben, nimmt dich in sei -- nen Schoß, mit rei -- chem Trost be -- schüt -- _ tet, ver -- jüngt dem Ad -- ler gleich, der Kön'g schafft recht, be -- hü -- _ tet, die leid'n in sei -- _ _ nem Reich.
+  Nun lob', mein' Seel', den Her -- _ ren,
+  was in mir ist, den Na -- men sein,
+  hat dir dein Sünd ver -- ge -- _ ben
+  und heilt dein' Schwach -- heit groß,
+  er -- rett' dein ar -- mes Le -- _ ben,
+  nimmt dich in sei -- nen Schoß,
+  mit rei -- chem Trost be -- schüt -- _ tet,
+  ver -- jüngt dem Ad -- ler gleich,
+  der Kön'g schafft recht, be -- hü -- _ tet,
+  die leid'n in sei -- _ _ nem Reich.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  sein' Wohl -- that thut er meh -- _ ren, Ver -- giss es nicht, o Her -- ze mein,
+  sein' Wohl -- that thut er meh -- _ ren,
+  Ver -- giss es nicht, o Her -- ze mein,
 }

@@ -94,30 +94,48 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Je -- su, wah -- res Brot des Le -- bens, Hilf, dass ich doch nicht ver -- ge -- bens Lass mich durch dies See -- len -- es -- _ sen dei -- ne Lie -- be recht er -- mes -- _ sen, dass ich auch, wie jetzt auf Er -- den, mög ein Gast im Him -- mel wer -- den.
+  Je -- su, wah -- res Brot des Le -- bens,
+  Hilf, dass ich doch nicht ver -- ge -- bens
+  Lass mich durch dies See -- len -- es -- _ sen
+  dei -- ne Lie -- be recht er -- mes -- _ sen,
+  dass ich auch, wie jetzt auf Er -- den,
+  mög ein Gast im Him -- mel wer -- den.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  o -- der mir viel -- leicht zum Scha -- den Sei zu dei -- nem Tisch ge -- la -- den.
+  o -- der mir viel -- leicht zum Scha -- den
+  Sei zu dei -- nem Tisch ge -- la -- den.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Je -- su, wah -- res Brot des Le -- _ bens, Hilf, dass ich doch nicht ver -- ge -- _ bens Lass mich durch dies See -- len -- es -- sen dei -- ne Lie -- be recht er -- mes -- _ sen, dass ich auch, wie jetzt auf Er -- den, mög ein Gast im Him -- mel wer -- _ den.
+  Je -- su, wah -- res Brot des Le -- _ bens,
+  Hilf, dass ich doch nicht ver -- ge -- _ bens
+  Lass mich durch dies See -- len -- es -- sen
+  dei -- ne Lie -- be recht er -- mes -- _ sen,
+  dass ich auch, wie jetzt auf Er -- den,
+  mög ein Gast im Him -- mel wer -- _ den.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  o -- der mir viel -- leicht zum Scha -- _ den Sei zu dei -- nem Tisch ge -- la -- _ den.
+  o -- der mir viel -- leicht zum Scha -- _ den
+  Sei zu dei -- nem Tisch ge -- la -- _ den.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Je -- su, wah -- res Brot des Le -- bens, Hilf, dass ich doch nicht ver -- ge -- bens Lass mich durch dies See -- len -- es -- _ sen dei -- ne Lie -- be recht er -- mes -- _ sen, dass ich auch, wie jetzt auf Er -- den, mög ein Gast im Him -- mel wer -- den.
+  Je -- su, wah -- res Brot des Le -- bens,
+  Hilf, dass ich doch nicht ver -- ge -- bens
+  Lass mich durch dies See -- len -- es -- _ sen
+  dei -- ne Lie -- be recht er -- mes -- _ sen,
+  dass ich auch, wie jetzt auf Er -- den,
+  mög ein Gast im Him -- mel wer -- den.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  o -- der mir viel -- leicht zum Scha -- den Sei zu dei -- nem Tisch ge -- la -- den.
+  o -- der mir viel -- leicht zum Scha -- den
+  Sei zu dei -- nem Tisch ge -- la -- den.
 }

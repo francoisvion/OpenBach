@@ -127,30 +127,63 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Ach Herr, lass dein lieb En -- ge -- lein m letz -- ten End die See -- le mein in A -- bra -- hams Schoß tra -- _ _ gen, Als -- denn vom Tod er -- we -- cke mich, dass mei -- ne Au -- gen se -- hen dich in al -- ler Freud, o Got -- tes Sohn, mein Hei -- land und Ge -- na -- den -- thron! Herr Je -- su Christ, er -- hö -- re mich, er -- hö -- re mich, ich will dich prei -- sen e -- wig -- lich!
+  Ach Herr, lass dein lieb En -- ge -- lein
+  m letz -- ten End die See -- le mein
+  in A -- bra -- hams Schoß tra -- _ _ gen,
+  Als -- denn vom Tod er -- we -- cke mich,
+  dass mei -- ne Au -- gen se -- hen dich
+  in al -- ler Freud, o Got -- tes Sohn,
+  mein Hei -- land und Ge -- na -- den -- thron!
+  Herr Je -- su Christ,
+  er -- hö -- re mich, er -- hö -- re mich,
+  ich will dich prei -- sen e -- wig -- lich!
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  den Leib in seim Schlaf -- käm -- mer -- lein gar sanft ohn ein -- ge Qual und Pein ruhn bis am jüng -- sten Ta -- _ _ ge!
+  den Leib in seim Schlaf -- käm -- mer -- lein
+  gar sanft ohn ein -- ge Qual und Pein
+  ruhn bis am jüng -- sten Ta -- _ _ ge!
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Ach Herr, lass dein lieb En -- ge -- lein m letz -- ten End die See -- le mein in A -- bra -- hams Schoß tra _ gen, Als -- denn vom Tod er -- we -- cke mich, dass mei -- ne Au -- gen se -- hen dich in al -- ler Freud, o Got -- tes Sohn, mein Hei -- land und Ge -- na -- den -- thron! Herr Je -- su Christ, er -- hö -- re mich, er -- hö -- re mich, ich will dich prei -- sen e -- wig -- lich!
+  Ach Herr, lass dein lieb En -- ge -- lein
+  m letz -- ten End die See -- le mein
+  in A -- bra -- hams Schoß tra _ gen,
+  Als -- denn vom Tod er -- we -- cke mich,
+  dass mei -- ne Au -- gen se -- hen dich
+  in al -- ler Freud, o Got -- tes Sohn,
+  mein Hei -- land und Ge -- na -- den -- thron!
+  Herr Je -- su Christ,
+  er -- hö -- re mich, er -- hö -- re mich,
+  ich will dich prei -- sen e -- wig -- lich!
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  den Leib in seim Schlaf -- käm -- mer -- lein gar sanft ohn ein -- ge Qual und Pein ruhn bis am jüng -- sten Ta _ ge!
+  den Leib in seim Schlaf -- käm -- mer -- lein
+  gar sanft ohn ein -- ge Qual und Pein
+  ruhn bis am jüng -- sten Ta _ ge!
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Ach Herr, lass dein lieb En -- ge -- lein m letz -- ten End die See -- le mein in A -- bra -- hams Schoß tra -- _ _ gen, Als -- denn vom Tod er -- we -- cke mich, dass mei -- ne Au -- gen se -- hen dich in al -- ler Freud, o Got -- tes Sohn, mein Hei -- land und Ge -- na -- den -- thron! Herr Je -- su Christ, er -- hö -- re mich, er -- hö -- re mich, ich will dich prei -- sen e -- wig -- lich!
+  Ach Herr, lass dein lieb En -- ge -- lein
+  m letz -- ten End die See -- le mein
+  in A -- bra -- hams Schoß tra -- _ _ gen,
+  Als -- denn vom Tod er -- we -- cke mich,
+  dass mei -- ne Au -- gen se -- hen dich
+  in al -- ler Freud, o Got -- tes Sohn,
+  mein Hei -- land und Ge -- na -- den -- thron!
+  Herr Je -- su Christ,
+  er -- hö -- re mich, er -- hö -- re mich,
+  ich will dich prei -- sen e -- wig -- lich!
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  den Leib in seim Schlaf -- käm -- mer -- lein gar sanft ohn ein -- ge Qual und Pein ruhn bis am jüng -- sten Ta -- _ _ ge!
+  den Leib in seim Schlaf -- käm -- mer -- lein
+  gar sanft ohn ein -- ge Qual und Pein
+  ruhn bis am jüng -- sten Ta -- _ _ ge!
 }

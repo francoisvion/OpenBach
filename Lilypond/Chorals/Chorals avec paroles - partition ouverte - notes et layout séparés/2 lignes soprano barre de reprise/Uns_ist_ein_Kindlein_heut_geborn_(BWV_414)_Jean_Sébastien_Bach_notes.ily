@@ -76,7 +76,10 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Uns ist ein Kind -- lein heut' ge -- bor'n von ei -- ner Jung frau aus -- er -- kor'n. Lob, Preis und Dank sei Gott be -- reit für sol -- che Gnad __ _ _ in E -- wig -- keit.
+  Uns ist ein Kind -- lein heut' ge -- bor'n
+  von ei -- ner Jung frau aus -- er -- kor'n.
+  Lob, Preis und Dank sei Gott be -- reit
+  für sol -- che Gnad __ _ _ in E -- wig -- keit.
 }
 
 altoLyricsTwo = \lyricmode {
@@ -91,7 +94,8 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Des freu -- en sich die En -- ge -- lein, soll -- ten wir Men schen nicht fröh -- lich sein?
+  Des freu -- en sich die En -- ge -- lein,
+  soll -- ten wir Men schen nicht fröh -- lich sein?
 }
 
 bassLyricsOne = \lyricmode {
@@ -101,5 +105,6 @@ bassLyricsOne = \lyricmode {
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  Des freu -- en sich die En -- ge -- lein, soll -- ten wir Men -- _ schen nicht fröh -- lich sein?
+  Des freu -- en sich die En -- ge -- lein,
+  soll -- ten wir Men -- _ schen nicht fröh -- lich sein?
 }

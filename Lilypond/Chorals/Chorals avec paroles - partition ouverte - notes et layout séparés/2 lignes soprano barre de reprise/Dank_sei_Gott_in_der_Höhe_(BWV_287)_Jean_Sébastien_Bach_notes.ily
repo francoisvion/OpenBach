@@ -90,7 +90,9 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Dank sei Gott in der Hö -- _ he in die -- ser Mor -- gen -- stund, Mich hat -- te zwar ge -- bun -- _ den mit Fins -- ter -- nis die Nacht, ich hab sie ü -- ber -- wun -- _ den mit Gott, der mich be -- wacht.
+  Dank sei Gott in der Hö -- _ he in die -- ser Mor -- gen -- stund,
+  Mich hat -- te zwar ge -- bun -- _ den mit Fins -- ter -- nis die Nacht,
+  ich hab sie ü -- ber -- wun -- _ den mit Gott, der mich be -- wacht.
 }
 
 altoLyricsTwo = \lyricmode {
@@ -100,7 +102,9 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Dank sei Gott in der Hö -- _ he in die -- ser Mor -- gen -- stund, Mich hat -- te zwar ge -- bun -- _ den mit Fins -- ter -- nis die Nacht, ich hab sie ü -- ber -- wun -- _ den mit Gott, der mich be -- wacht.
+  Dank sei Gott in der Hö -- _ he in die -- ser Mor -- gen -- stund,
+  Mich hat -- te zwar ge -- bun -- _ den mit Fins -- ter -- nis die Nacht,
+  ich hab sie ü -- ber -- wun -- _ den mit Gott, der mich be -- wacht.
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -110,7 +114,9 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Dank sei Gott in der Hö -- _ he in die -- ser Mor -- gen -- stund, Mich hat -- te zwar ge -- bun -- _ den mit Fins -- ter -- nis die Nacht, ich hab sie _ ü -- ber -- wun -- _ den mit Gott, der mich be -- wacht.
+  Dank sei Gott in der Hö -- _ he in die -- ser Mor -- gen -- stund,
+  Mich hat -- te zwar ge -- bun -- _ den mit Fins -- ter -- nis die Nacht,
+  ich hab sie _ ü -- ber -- wun -- _ den mit Gott, der mich be -- wacht.
 }
 
 bassLyricsTwo = \lyricmode {

@@ -86,22 +86,34 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  O Gott, du from -- mer Gott, du Brunn -- quell al -- ler Ga -- ben, ge -- sun -- den Leib gieb mir und lab in sol -- chem Leib ein un -- ver -- letz -- te Seel und rein Ge -- wis -- sen bleib.
+  O Gott, du from -- mer Gott,
+  du Brunn -- quell al -- ler Ga -- ben,
+  ge -- sun -- den Leib gieb mir
+  und lab in sol -- chem Leib
+  ein un -- ver -- letz -- te Seel
+  und rein Ge -- wis -- sen bleib.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Ohn' den nichts ist, was ist, von dem wir al -- les ha -- ben,
+  Ohn' den nichts ist, was ist,
+  von dem wir al -- les ha -- ben,
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  O Gott, du from -- mer Gott, du Brunn -- quell al -- ler Ga -- _ ben, ge -- sun -- den Leib gieb mir und lab in sol -- chem Leib ein un -- ver -- letz -- te Seel und rein Ge -- wis -- sen bleib.
+  O Gott, du from -- mer Gott,
+  du Brunn -- quell al -- ler Ga -- _ ben,
+  ge -- sun -- den Leib gieb mir
+  und lab in sol -- chem Leib
+  ein un -- ver -- letz -- te Seel
+  und rein Ge -- wis -- sen bleib.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Ohn' den nichts ist, was ist, von dem wir al -- les ha -- _ ben,
+  Ohn' den nichts ist, was ist,
+  von dem wir al -- les ha -- _ ben,
 }
 
 bassLyricsOne = \lyricmode {

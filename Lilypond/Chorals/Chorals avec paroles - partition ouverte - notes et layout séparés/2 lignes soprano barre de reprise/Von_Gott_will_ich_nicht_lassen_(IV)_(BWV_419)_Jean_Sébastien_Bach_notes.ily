@@ -86,30 +86,48 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Von Gott will ich nicht las -- _ sen, denn er lässt nicht von mir, Er reicht mir sei -- ne Hand, den A -- bend und den Mor -- _ gen thut er mich _ wohl ver -- sor -- _ gen, sei wo ich wolf im Land.
+  Von Gott will ich nicht las -- _ sen,
+  denn er lässt nicht von mir,
+  Er reicht mir sei -- ne Hand,
+  den A -- bend und den Mor -- _ gen
+  thut er mich _ wohl ver -- sor -- _ gen,
+  sei wo ich wolf im Land.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  führt mich durch al -- le Stra -- _ ßen, da ich sonst irr -- te sehr.
+  führt mich durch al -- le Stra -- _ ßen,
+  da ich sonst irr -- te sehr.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Von Gott will ich nicht las -- _ sen, denn er lässt nicht von mir, Er reicht mir sei -- ne Hand, den A -- bend und den Mor -- _ gen thut er mich wohl ver -- sor -- _ gen, sei wo ich wolf im Land.
+  Von Gott will ich nicht las -- _ sen,
+  denn er lässt nicht von mir,
+  Er reicht mir sei -- ne Hand,
+  den A -- bend und den Mor -- _ gen
+  thut er mich wohl ver -- sor -- _ gen,
+  sei wo ich wolf im Land.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  führt mich durch al -- le Stra -- _ ßen, da ich sonst irr -- te sehr.
+  führt mich durch al -- le Stra -- _ ßen,
+  da ich sonst irr -- te sehr.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Von Gott will ich nicht las -- _ sen, denn er lässt nicht von mir, Er reicht mir sei -- ne Hand, den A -- bend und den Mor -- _ gen thut er mich wohl ver -- sor -- _ gen, sei wo ich wolf im Land.
+  Von Gott will ich nicht las -- _ sen,
+  denn er lässt nicht von mir,
+  Er reicht mir sei -- ne Hand,
+  den A -- bend und den Mor -- _ gen
+  thut er mich wohl ver -- sor -- _ gen,
+  sei wo ich wolf im Land.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  führt mich durch al -- le Stra -- _ ßen, da ich sonst irr -- te sehr.
+  führt mich durch al -- le Stra -- _ ßen,
+  da ich sonst irr -- te sehr.
 }

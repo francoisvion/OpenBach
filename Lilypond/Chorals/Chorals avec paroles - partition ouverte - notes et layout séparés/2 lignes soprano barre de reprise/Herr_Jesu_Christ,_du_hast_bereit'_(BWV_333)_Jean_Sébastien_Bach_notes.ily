@@ -85,12 +85,17 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Herr Je -- su Christ, du hast be -- reit't für uns -- re mat -- te See -- len Wir tra -- gen _ uns -- re Sün -- den -- last, drum kom -- men wir bei _ dir zu Gast und su -- chen Rath und Hül -- fe.
+  Herr Je -- su Christ, du hast be -- reit't
+  für uns -- re mat -- te See -- len
+  Wir tra -- gen _ uns -- re Sün -- den -- last,
+  drum kom -- men wir bei _ dir zu Gast
+  und su -- chen Rath und Hül -- fe.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  dein'n Leib und Blut zu ein'r Mahl -- zeit, tust uns zu Gäs -- ten wäh -- len;
+  dein'n Leib und Blut zu ein'r Mahl -- zeit,
+  tust uns zu Gäs -- ten wäh -- len;
 }
 
 tenorLyricsOne = \lyricmode {
@@ -100,7 +105,8 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  dein'n Leib und Blut zu ein'r Mahl -- zeit, _ tust uns zu Gäs -- ten wäh -- _ len;
+  dein'n Leib und Blut zu ein'r Mahl -- zeit, _
+  tust uns zu Gäs -- ten wäh -- _ len;
 }
 
 bassLyricsOne = \lyricmode {
@@ -110,5 +116,6 @@ bassLyricsOne = \lyricmode {
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  dein'n Leib und Blut zu ein'r Mahl -- zeit, tust uns zu Gäs -- ten wäh -- _ len;
+  dein'n Leib und Blut zu ein'r Mahl -- zeit,
+  tust uns zu Gäs -- ten wäh -- _ len;
 }

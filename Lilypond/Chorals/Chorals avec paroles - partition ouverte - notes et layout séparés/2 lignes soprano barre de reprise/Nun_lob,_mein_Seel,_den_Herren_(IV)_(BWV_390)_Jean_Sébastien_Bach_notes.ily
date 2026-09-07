@@ -186,12 +186,22 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Nun lob', mein' Seel', _ den Her -- _ _ ren, was in _ mir ist, _ den Na -- men __ _ sein, hat dir dein Sünd _ ver -- ge _ ben und heilt _ dein Schwach -- heit groß, er rett' dein ar mes Le -- _ _ ben, nimmt dich in sei -- _ nen Schoß, mit rei -- chem Trost be -- schüt tet, ver -- jüngt, dem Ad -- ler gleich; der Herr _ schafft Recht, _ be -- hü -- _ _ tet, die lei -- den in sei -- nem Reich.
+  Nun lob', mein' Seel', _ den Her -- _ _ ren,
+  was in _ mir ist, _ den Na -- men __ _ sein,
+  hat dir dein Sünd _ ver -- ge _ ben
+  und heilt _ dein Schwach -- heit groß,
+  er rett' dein ar mes Le -- _ _ ben,
+  nimmt dich in sei -- _ nen Schoß,
+  mit rei -- chem Trost be -- schüt tet,
+  ver -- jüngt, dem Ad -- ler gleich;
+  der Herr _ schafft Recht, _ be -- hü -- _ _ tet,
+  die lei -- den in sei -- nem Reich.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  sein Wohl -- tat tut _ er meh -- _ _ ren, ver -- giss _ es nicht, _ o Her -- _ ze mein,
+  sein Wohl -- tat tut _ er meh -- _ _ ren,
+  ver -- giss _ es nicht, _ o Her -- _ ze mein,
 }
 
 tenorLyricsOne = \lyricmode {
@@ -201,15 +211,26 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  sein Wohl -- _ tat tut er meh -- _ ren, ver -- giss es nicht, o Her -- _ ze mein,
+  sein Wohl -- _ tat tut er meh -- _ ren,
+  ver -- giss es nicht, o Her -- _ ze mein,
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Nun lob', mein' Seel', den Her -- _ _ ren, was in _ mir ist, _ den Na -- men __ _ sein, hat dir dein Sünd _ ver -- ge -- _ ben und heilt dein Schwach -- heit groß, er rett' dein ar -- _ mes Le -- _ _ ben, nimmt dich in sei -- _ nen Schoß, mit rei -- _ chem Trost _ be -- schüt -- _ _ tet, ver -- jüngt, _ dem Ad -- ler gleich; der Herr schafft Recht, be -- hü -- _ _ tet, die lei -- den in sei -- nem _ Reich.
+  Nun lob', mein' Seel', den Her -- _ _ ren,
+  was in _ mir ist, _ den Na -- men __ _ sein,
+  hat dir dein Sünd _ ver -- ge -- _ ben
+  und heilt dein Schwach -- heit groß,
+  er rett' dein ar -- _ mes Le -- _ _ ben,
+  nimmt dich in sei -- _ nen Schoß,
+  mit rei -- _ chem Trost _ be -- schüt -- _ _ tet,
+  ver -- jüngt, _ dem Ad -- ler gleich;
+  der Herr schafft Recht, be -- hü -- _ _ tet,
+  die lei -- den in sei -- nem _ Reich.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  sein Wohl -- tat tut er meh -- _ _ ren, ver -- giss _ es nicht, _ o Her -- _ ze mein,
+  sein Wohl -- tat tut er meh -- _ _ ren,
+  ver -- giss _ es nicht, _ o Her -- _ ze mein,
 }

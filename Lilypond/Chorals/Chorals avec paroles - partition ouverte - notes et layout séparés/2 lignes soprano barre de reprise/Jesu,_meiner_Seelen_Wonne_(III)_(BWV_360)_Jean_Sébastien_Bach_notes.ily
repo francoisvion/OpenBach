@@ -82,30 +82,48 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Je -- su, mei -- ner Freu -- den Freu -- de, Je -- su, mei -- nes Glau -- bens Licht, o wie kommt dein Na -- me mir so ge -- wünscht und lieb -- lich vor dein Ge -- dächt -- nis, Je -- su, ma -- chet, dass mein trau -- rigs Her -- ze la -- chet.
+  Je -- su, mei -- ner Freu -- den Freu -- de,
+  Je -- su, mei -- nes Glau -- bens Licht,
+  o wie kommt dein Na -- me mir
+  so ge -- wünscht und lieb -- lich vor
+  dein Ge -- dächt -- nis, Je -- su, ma -- chet,
+  dass mein trau -- rigs Her -- ze la -- chet.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Je -- su, mei -- ner See -- len Wei -- de, Je -- su, mei -- ne Zu -- ver -- sicht,
+  Je -- su, mei -- ner See -- len Wei -- de,
+  Je -- su, mei -- ne Zu -- ver -- sicht,
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Je -- su, mei -- ner Freu -- den Freu -- de, Je -- su, mei -- nes Glau -- bens Licht, o wie kommt dein Na -- me mir so ge -- wünscht und lieb -- lich vor dein Ge -- dächt -- nis, Je -- su, ma -- chet, dass mein trau -- rigs Her -- ze la -- chet.
+  Je -- su, mei -- ner Freu -- den Freu -- de,
+  Je -- su, mei -- nes Glau -- bens Licht,
+  o wie kommt dein Na -- me mir
+  so ge -- wünscht und lieb -- lich vor
+  dein Ge -- dächt -- nis, Je -- su, ma -- chet,
+  dass mein trau -- rigs Her -- ze la -- chet.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Je -- su, mei -- ner See -- len Wei -- de, Je -- su, mei -- ne Zu -- ver -- sicht,
+  Je -- su, mei -- ner See -- len Wei -- de,
+  Je -- su, mei -- ne Zu -- ver -- sicht,
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Je -- su, mei -- ner Freu -- den Freu -- de, Je -- su, mei -- nes Glau -- bens Licht, o wie kommt dein Na -- me mir so ge -- wünscht und lieb -- lich vor dein Ge -- dächt -- nis, Je -- su, ma -- chet, dass mein trau -- rigs Her -- ze la -- chet.
+  Je -- su, mei -- ner Freu -- den Freu -- de,
+  Je -- su, mei -- nes Glau -- bens Licht,
+  o wie kommt dein Na -- me mir
+  so ge -- wünscht und lieb -- lich vor
+  dein Ge -- dächt -- nis, Je -- su, ma -- chet,
+  dass mein trau -- rigs Her -- ze la -- chet.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  Je -- su, mei -- ner See -- len Wei -- de, Je -- su, mei -- ne Zu -- ver -- sicht,
+  Je -- su, mei -- ner See -- len Wei -- de,
+  Je -- su, mei -- ne Zu -- ver -- sicht,
 }

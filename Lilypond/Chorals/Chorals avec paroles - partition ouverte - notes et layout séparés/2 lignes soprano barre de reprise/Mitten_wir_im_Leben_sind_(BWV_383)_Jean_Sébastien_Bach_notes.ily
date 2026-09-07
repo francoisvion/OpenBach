@@ -152,7 +152,8 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Wen such'n wir, der Hül -- fe thu', __ _ _ dass wir Gnad' er -- lan -- _ gen?
+  Wen such'n wir, der Hül -- fe thu', __ _ _
+  dass wir Gnad' er -- lan -- _ gen?
 }
 
 tenorLyricsOne = \lyricmode {
@@ -162,7 +163,8 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Wen such'n wir, der Hül -- fe thu', __ _ _ dass wir Gnad' er -- lan -- _ gen?
+  Wen such'n wir, der Hül -- fe thu', __ _ _
+  dass wir Gnad' er -- lan -- _ gen?
 }
 
 bassLyricsOne = \lyricmode {
@@ -172,5 +174,6 @@ bassLyricsOne = \lyricmode {
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  Wen such'n wir, der Hül -- fe thu', __ _ _ dass wir Gnad' er -- lan -- _ gen?
+  Wen such'n wir, der Hül -- fe thu', __ _ _
+  dass wir Gnad' er -- lan -- _ gen?
 }

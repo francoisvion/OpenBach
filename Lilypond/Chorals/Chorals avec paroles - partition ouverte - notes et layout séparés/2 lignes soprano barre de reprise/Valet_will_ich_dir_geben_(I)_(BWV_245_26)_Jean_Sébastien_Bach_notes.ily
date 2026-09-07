@@ -86,30 +86,48 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  In mei -- nes Her -- zen Grun -- de dein Nam und Kreuz al -- lein Er -- schein mir in dem Bil -- _ de zum Trost in mei -- ner Not, wie du, Herr Christ, so mil -- _ de dich hast ge -- blut't zu Tod.
+  In mei -- nes Her -- zen Grun -- de
+  dein Nam und Kreuz al -- lein
+  Er -- schein mir in dem Bil -- _ de
+  zum Trost in mei -- ner Not,
+  wie du, Herr Christ, so mil -- _ de
+  dich hast ge -- blut't zu Tod.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Fun -- kelt all Zeit und Stun -- de, drauf kann ich fröh -- lich sein.
+  Fun -- kelt all Zeit und Stun -- de,
+  drauf kann ich fröh -- lich sein.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  In mei -- nes Her -- zen Grun -- de dein Nam und Kreuz al -- lein Er -- schein mir in dem Bil -- _ de zum Trost in mei -- ner Not, wie du, Herr Christ, so mil de dich hast ge -- blut't zu Tod.
+  In mei -- nes Her -- zen Grun -- de
+  dein Nam und Kreuz al -- lein
+  Er -- schein mir in dem Bil -- _ de
+  zum Trost in mei -- ner Not,
+  wie du, Herr Christ, so mil de
+  dich hast ge -- blut't zu Tod.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Fun -- kelt all Zeit und Stun -- de, drauf kann ich fröh -- lich sein.
+  Fun -- kelt all Zeit und Stun -- de,
+  drauf kann ich fröh -- lich sein.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  In mei -- nes Her -- zen Grun -- de dein Nam und Kreuz al -- lein Er -- schein mir in dem Bil de zum Trost in mei -- ner Not, wie du, Herr Christ, so mil de dich hast ge -- blut't zu Tod.
+  In mei -- nes Her -- zen Grun -- de
+  dein Nam und Kreuz al -- lein
+  Er -- schein mir in dem Bil de
+  zum Trost in mei -- ner Not,
+  wie du, Herr Christ, so mil de
+  dich hast ge -- blut't zu Tod.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  Fun -- kelt all Zeit und Stun -- de, drauf kann ich fröh -- lich sein.
+  Fun -- kelt all Zeit und Stun -- de,
+  drauf kann ich fröh -- lich sein.
 }

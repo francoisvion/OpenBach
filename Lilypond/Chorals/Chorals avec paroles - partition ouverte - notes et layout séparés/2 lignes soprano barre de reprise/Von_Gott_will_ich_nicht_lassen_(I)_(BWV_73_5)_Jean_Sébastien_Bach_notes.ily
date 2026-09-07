@@ -86,30 +86,48 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Das ist des Va -- ters Wil -- _ le, der uns er -- schaf -- fen hat; auch Gott der Heil -- ge Geist im Glaub -- en uns re -- gie -- _ ret, zum Reich des Him -- mels füh -- _ ret. ihm sei Lob Ehr und Preis!
+  Das ist des Va -- ters Wil -- _ le,
+  der uns er -- schaf -- fen hat;
+  auch Gott der Heil -- ge Geist
+  im Glaub -- en uns re -- gie -- _ ret,
+  zum Reich des Him -- mels füh -- _ ret.
+  ihm sei Lob Ehr und Preis!
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  sein Sohn hat Guts die Fül -- _ le er -- wor -- ben und Ge -- nad;
+  sein Sohn hat Guts die Fül -- _ le
+  er -- wor -- ben und Ge -- nad;
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Das ist des Va -- ters Wil -- _ le, der uns er -- schaf -- fen hat; auch Gott der Heil -- ge Geist im Glaub -- en uns re -- gie -- _ ret, zum Reich des Him -- mels füh -- _ ret. ihm sei Lob Ehr und Preis!
+  Das ist des Va -- ters Wil -- _ le,
+  der uns er -- schaf -- fen hat;
+  auch Gott der Heil -- ge Geist
+  im Glaub -- en uns re -- gie -- _ ret,
+  zum Reich des Him -- mels füh -- _ ret.
+  ihm sei Lob Ehr und Preis!
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  sein Sohn hat Guts die Fül -- _ le er -- wor -- ben und Ge -- nad;
+  sein Sohn hat Guts die Fül -- _ le
+  er -- wor -- ben und Ge -- nad;
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Das ist des Va -- ters Wil -- _ le, der uns er -- schaf -- fen hat; auch Gott der Heil -- ge Geist im Glaub -- en uns re -- gie -- ret, zum Reich des Him -- mels füh -- _ ret. ihm sei Lob Ehr und Preis!
+  Das ist des Va -- ters Wil -- _ le,
+  der uns er -- schaf -- fen hat;
+  auch Gott der Heil -- ge Geist
+  im Glaub -- en uns re -- gie -- ret,
+  zum Reich des Him -- mels füh -- _ ret.
+  ihm sei Lob Ehr und Preis!
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  sein Sohn hat Guts die Fül -- _ le er -- wor -- ben und Ge -- nad;
+  sein Sohn hat Guts die Fül -- _ le
+  er -- wor -- ben und Ge -- nad;
 }

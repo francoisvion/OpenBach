@@ -110,22 +110,42 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Glo -- ri -- a sei dir ge -- sun -- _ gen mit Men -- schen und eng -- li -- schen Zun -- _ gen, mit Har -- fen und mit Zim -- beln schön Kein Aug hat je ge -- spürt, kein Ohr hat mehr ge -- hört sol -- che Freu -- de, des sind wir froh, i -- o, i -- o, e -- wig in dul -- ci ju -- bi -- lo.
+  Glo -- ri -- a sei dir ge -- sun -- _ gen
+  mit Men -- schen und eng -- li -- schen Zun -- _ gen,
+  mit Har -- fen und mit Zim -- beln schön
+  Kein Aug hat je ge -- spürt,
+  kein Ohr hat mehr ge -- hört
+  sol -- che Freu -- de,
+  des sind wir froh,
+  i -- o, i -- o,
+  e -- wig in dul -- ci ju -- bi -- lo.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Von zwölf Per -- len sind die Pfor -- _ ten an dei -- ner Stadt sind wir Kon -- sor -- _ ten der En -- gel hoch um dei -- nen Thron.
+  Von zwölf Per -- len sind die Pfor -- _ ten
+  an dei -- ner Stadt sind wir Kon -- sor -- _ ten
+  der En -- gel hoch um dei -- nen Thron.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Glo -- ri -- a sei dir ge -- sun -- _ gen mit Men -- schen und eng -- li -- schen Zun -- _ gen, mit Har -- fen und mit Zim -- beln schön Kein Aug hat je ge -- spürt, kein Ohr hat mehr ge -- _ hört sol -- che Freu -- de, des sind wir froh, i -- o, i -- o, e -- wig in dul -- ci ju -- bi -- lo.
+  Glo -- ri -- a sei dir ge -- sun -- _ gen
+  mit Men -- schen und eng -- li -- schen Zun -- _ gen,
+  mit Har -- fen und mit Zim -- beln schön
+  Kein Aug hat je ge -- spürt,
+  kein Ohr hat mehr ge -- _ hört
+  sol -- che Freu -- de,
+  des sind wir froh,
+  i -- o, i -- o,
+  e -- wig in dul -- ci ju -- bi -- lo.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Von zwölf Per -- len sind die Pfor -- _ ten an dei -- ner Stadt sind wir Kon -- sor -- _ ten der En -- gel hoch um dei -- nen Thron.
+  Von zwölf Per -- len sind die Pfor -- _ ten
+  an dei -- ner Stadt sind wir Kon -- sor -- _ ten
+  der En -- gel hoch um dei -- nen Thron.
 }
 
 bassLyricsOne = \lyricmode {

@@ -109,7 +109,8 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  O Haupt, zu Spott ge -- bun -- _ den mit ei -- ner Dor -- nen -- kron!
+  O Haupt, zu Spott ge -- bun -- _ den
+  mit ei -- ner Dor -- nen -- kron!
 }
 
 tenorLyricsOne = \lyricmode {
@@ -119,7 +120,8 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  O Haupt, zu Spott ge -- bun -- _ den mit ei -- ner Dor -- nen -- kron!
+  O Haupt, zu Spott ge -- bun -- _ den
+  mit ei -- ner Dor -- nen -- kron!
 }
 
 bassLyricsOne = \lyricmode {
@@ -129,5 +131,6 @@ bassLyricsOne = \lyricmode {
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  O Haupt, zu Spott ge -- bun -- _ den mit ei -- ner Dor -- nen -- kron!
+  O Haupt, zu Spott ge -- bun -- _ den
+  mit ei -- ner Dor -- nen -- kron!
 }

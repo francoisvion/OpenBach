@@ -89,30 +89,48 @@ sopranoVersoTwoLyrics = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Ich will al -- le mei -- ne Ta -- ge Rüh -- men dei -- ne star -- ke Hand, Nicht nur in der Ster -- blich -- keit Soll dein Ruhm sein aus -- ge -- breit': Ich wills auch her -- nach er -- wei -- _ sen Und dort e -- wi -- glich dich prei -- sen.
+  Ich will al -- le mei -- ne Ta -- ge
+  Rüh -- men dei -- ne star -- ke Hand,
+  Nicht nur in der Ster -- blich -- keit
+  Soll dein Ruhm sein aus -- ge -- breit':
+  Ich wills auch her -- nach er -- wei -- _ sen
+  Und dort e -- wi -- glich dich prei -- sen.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  dass du mei -- ne Plag und Kla -- ge hast so herz -- lich ab -- ge -- wandt.
+  dass du mei -- ne Plag und Kla -- ge
+  hast so herz -- lich ab -- ge -- wandt.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Ich will al -- le mei -- ne Ta -- ge Rüh -- men dei -- ne star -- ke Hand, Nicht nur in der Ster -- blich -- keit Soll dein Ruhm sein aus -- ge -- breit': Ich wills auch her -- nach er -- wei -- sen Und dort e -- wi -- glich dich prei -- _ sen.
+  Ich will al -- le mei -- ne Ta -- ge
+  Rüh -- men dei -- ne star -- ke Hand,
+  Nicht nur in der Ster -- blich -- keit
+  Soll dein Ruhm sein aus -- ge -- breit':
+  Ich wills auch her -- nach er -- wei -- sen
+  Und dort e -- wi -- glich dich prei -- _ sen.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  dass du mei -- ne Plag und Kla -- ge hast so herz -- lich ab -- ge -- wandt.
+  dass du mei -- ne Plag und Kla -- ge
+  hast so herz -- lich ab -- ge -- wandt.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Ich will al -- le mei -- ne Ta -- ge Rüh -- men dei -- ne star -- ke Hand, Nicht nur in der Ster -- blich -- keit Soll dein Ruhm sein aus -- ge -- breit': Ich wills auch her -- nach er -- wei -- _ sen Und dort e -- wi -- glich dich prei -- sen.
+  Ich will al -- le mei -- ne Ta -- ge
+  Rüh -- men dei -- ne star -- ke Hand,
+  Nicht nur in der Ster -- blich -- keit
+  Soll dein Ruhm sein aus -- ge -- breit':
+  Ich wills auch her -- nach er -- wei -- _ sen
+  Und dort e -- wi -- glich dich prei -- sen.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  dass du mei -- ne Plag und Kla -- ge hast so herz -- lich ab -- ge -- wandt.
+  dass du mei -- ne Plag und Kla -- ge
+  hast so herz -- lich ab -- ge -- wandt.
 }

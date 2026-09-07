@@ -87,7 +87,8 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  wasch mich mit dei -- nem To -- des -- schweiss in mei -- ner letz -- ten Stun -- den;
+  wasch mich mit dei -- nem To -- des -- schweiss
+  in mei -- ner letz -- ten Stun -- den;
 }
 
 tenorLyricsOne = \lyricmode {
@@ -97,7 +98,8 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  wasch mich mit dei -- nem To -- des -- schweiss in mei -- ner letz -- ten Stun -- _ den;
+  wasch mich mit dei -- nem To -- des -- schweiss
+  in mei -- ner letz -- ten Stun -- _ den;
 }
 
 bassLyricsOne = \lyricmode {
@@ -107,5 +109,6 @@ bassLyricsOne = \lyricmode {
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  wasch mich mit dei -- nem To -- des -- schweiss in mei -- ner letz -- ten Stun -- _ den;
+  wasch mich mit dei -- nem To -- des -- schweiss
+  in mei -- ner letz -- ten Stun -- _ den;
 }

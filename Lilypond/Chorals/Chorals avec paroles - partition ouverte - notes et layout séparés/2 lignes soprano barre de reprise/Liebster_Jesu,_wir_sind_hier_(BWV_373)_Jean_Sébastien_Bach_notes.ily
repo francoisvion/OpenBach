@@ -72,22 +72,30 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Lieb -- ster Je -- su, wir sind hier, dich und dein Wort an -- zu -- hö -- _ ren; dass die Her -- zen von der Er -- den ganz zu dir ge -- zo -- gen wer -- _ den.
+  Lieb -- ster Je -- su, wir sind hier,
+  dich und dein Wort an -- zu -- hö -- _ ren;
+  dass die Her -- zen von der Er -- den
+  ganz zu dir ge -- zo -- gen wer -- _ den.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  len -- ke Sin -- nen und Be -- gier auf die sü -- ßen Him -- mels -- leh -- _ ren,
+  len -- ke Sin -- nen und Be -- gier
+  auf die sü -- ßen Him -- mels -- leh -- _ ren,
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Lieb -- ster Je -- su, wir sind hier, dich und dein Wort an -- zu -- hö -- _ ren; dass die Her -- zen von der Er -- den ganz zu dir ge -- zo -- gen wer -- _ den.
+  Lieb -- ster Je -- su, wir sind hier,
+  dich und dein Wort an -- zu -- hö -- _ ren;
+  dass die Her -- zen von der Er -- den
+  ganz zu dir ge -- zo -- gen wer -- _ den.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  len -- ke Sin -- nen und Be -- gier auf die sü -- ßen Him -- mels -- leh -- _ ren,
+  len -- ke Sin -- nen und Be -- gier
+  auf die sü -- ßen Him -- mels -- leh -- _ ren,
 }
 
 bassLyricsOne = \lyricmode {

@@ -109,7 +109,12 @@ bassLyrics = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Was mein Gott will, das g'scheh' all -- zeit, sein Will' der ist der be -- _ _ ste; Er hilft aus Noth, __ _ _ der From -- me Gott, und züch -- ti -- get mit Ma -- _ ßen. Wer Gott ver -- traut, fest auf ihn baut, den will er nicht ver -- la -- _ _ ßen. _ _
+  Was mein Gott will, das g'scheh' all -- zeit,
+  sein Will' der ist der be -- _ _ ste;
+  Er hilft aus Noth, __ _ _ der From -- me Gott,
+  und züch -- ti -- get mit Ma -- _ ßen.
+  Wer Gott ver -- traut, fest auf ihn baut,
+  den will er nicht ver -- la -- _ _ ßen. _ _
 }
 
 altoLyricsTwo = \lyricmode {
@@ -119,7 +124,12 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Was mein Gott will, das g'scheh' all -- zeit, sein Will' der ist der be -- _ _ ste; Er hilft aus Noth, __ _ _ der From -- me Gott, und züch -- ti -- get mit Ma -- _ ßen. Wer Gott ver -- traut, fest auf ihn baut, den will er nicht _ ver -- la _ _ ßen. _ _
+  Was mein Gott will, das g'scheh' all -- zeit,
+  sein Will' der ist der be -- _ _ ste;
+  Er hilft aus Noth, __ _ _ der From -- me Gott,
+  und züch -- ti -- get mit Ma -- _ ßen.
+  Wer Gott ver -- traut, fest auf ihn baut,
+  den will er nicht _ ver -- la _ _ ßen. _ _
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -129,7 +139,12 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Was mein Gott will, das g'scheh' all -- zeit, sein Will' der ist der be -- _ _ ste; Er hilft aus Noth, __ _ _ der From -- me Gott, und züch -- ti -- get mit Ma -- _ ßen. Wer Gott ver -- traut, fest auf ihn baut, den will er nicht _ ver -- la -- _ _ ßen.
+  Was mein Gott will, das g'scheh' all -- zeit,
+  sein Will' der ist der be -- _ _ ste;
+  Er hilft aus Noth, __ _ _ der From -- me Gott,
+  und züch -- ti -- get mit Ma -- _ ßen.
+  Wer Gott ver -- traut, fest auf ihn baut,
+  den will er nicht _ ver -- la -- _ _ ßen.
 }
 
 bassLyricsTwo = \lyricmode {

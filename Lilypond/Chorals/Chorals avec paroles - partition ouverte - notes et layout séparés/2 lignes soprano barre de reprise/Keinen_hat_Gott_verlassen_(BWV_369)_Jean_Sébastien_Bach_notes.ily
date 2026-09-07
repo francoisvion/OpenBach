@@ -94,30 +94,48 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Kei -- nen hat Gott ver -- las sen der ihm ver -- traut all -- zeit; Gott will die Sei -- nen schüt -- zen, zu -- letzt er -- he -- ben hoch. und ge -- ben, was ihn'n nü -- tzet, hier zeit -- lich und auch dort.
+  Kei -- nen hat Gott ver -- las sen
+  der ihm ver -- traut all -- zeit;
+  Gott will die Sei -- nen schüt -- zen,
+  zu -- letzt er -- he -- ben hoch.
+  und ge -- ben, was ihn'n nü -- tzet,
+  hier zeit -- lich und auch dort.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  ob ihn schon drum viel has sen, so bringt's ihm doch kein Leid.
+  ob ihn schon drum viel has sen,
+  so bringt's ihm doch kein Leid.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Kei -- nen hat Gott ver -- las -- _ sen der ihm ver -- traut all -- zeit; Gott will die Sei -- nen schüt -- zen, zu -- letzt er -- he -- ben hoch. und ge -- ben, was ihn'n nü -- tzet, hier zeit -- lich und auch dort.
+  Kei -- nen hat Gott ver -- las -- _ sen
+  der ihm ver -- traut all -- zeit;
+  Gott will die Sei -- nen schüt -- zen,
+  zu -- letzt er -- he -- ben hoch.
+  und ge -- ben, was ihn'n nü -- tzet,
+  hier zeit -- lich und auch dort.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  ob ihn schon drum viel has -- _ sen, so bringt's ihm doch kein Leid.
+  ob ihn schon drum viel has -- _ sen,
+  so bringt's ihm doch kein Leid.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Kei -- nen hat Gott ver -- las sen der ihm ver -- traut all -- zeit; Gott will die Sei -- nen schüt -- _ zen, zu -- letzt er -- he -- ben hoch. und ge -- ben, was ihn'n nü -- _ tzet, hier zeit -- lich und auch dort.
+  Kei -- nen hat Gott ver -- las sen
+  der ihm ver -- traut all -- zeit;
+  Gott will die Sei -- nen schüt -- _ zen,
+  zu -- letzt er -- he -- ben hoch.
+  und ge -- ben, was ihn'n nü -- _ tzet,
+  hier zeit -- lich und auch dort.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  ob ihn schon drum viel has sen, so bringt's ihm doch kein Leid.
+  ob ihn schon drum viel has sen,
+  so bringt's ihm doch kein Leid.
 }

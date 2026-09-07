@@ -81,30 +81,45 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Das wollst du Gott be -- wah -- ren rein für die -- sem argn Ge -- schlech te, Der gott -- los Hauf sich um -- her findt, wo sol -- che lo -- se Leu -- te sind in dei -- nem Volk er -- ha -- _ _ _ _ ben.
+  Das wollst du Gott be -- wah -- ren rein
+  für die -- sem argn Ge -- schlech te,
+  Der gott -- los Hauf sich um -- her findt,
+  wo sol -- che lo -- se Leu -- te sind
+  in dei -- nem Volk er -- ha -- _ _ _ _ ben.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Und lass uns dir be -- foh -- len sein, dass sichs in uns nicht flech te,
+  Und lass uns dir be -- foh -- len sein,
+  dass sichs in uns nicht flech te,
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Das wollst du Gott be -- wah -- ren rein für die -- sem argn Ge -- schlech -- _ te, Der gott -- los Hauf sich um -- her findt, wo sol -- che lo -- se Leu -- te sind in dei -- nem Volk er -- ha -- _ _ ben.
+  Das wollst du Gott be -- wah -- ren rein
+  für die -- sem argn Ge -- schlech -- _ te,
+  Der gott -- los Hauf sich um -- her findt,
+  wo sol -- che lo -- se Leu -- te sind
+  in dei -- nem Volk er -- ha -- _ _ ben.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Und lass uns dir be -- foh -- len sein, dass sichs in uns nicht flech -- _ te,
+  Und lass uns dir be -- foh -- len sein,
+  dass sichs in uns nicht flech -- _ te,
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Das wollst du Gott be -- wah -- ren rein für die -- sem argn Ge -- schlech -- _ te, Der gott -- los Hauf sich um -- her findt, wo sol -- che lo -- se Leu -- te sind in dei -- nem Volk er -- ha -- _ _ ben.
+  Das wollst du Gott be -- wah -- ren rein
+  für die -- sem argn Ge -- schlech -- _ te,
+  Der gott -- los Hauf sich um -- her findt,
+  wo sol -- che lo -- se Leu -- te sind
+  in dei -- nem Volk er -- ha -- _ _ ben.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  Und lass uns dir be -- foh -- len sein, dass sichs in uns nicht flech -- _ te,
+  Und lass uns dir be -- foh -- len sein,
+  dass sichs in uns nicht flech -- _ te,
 }

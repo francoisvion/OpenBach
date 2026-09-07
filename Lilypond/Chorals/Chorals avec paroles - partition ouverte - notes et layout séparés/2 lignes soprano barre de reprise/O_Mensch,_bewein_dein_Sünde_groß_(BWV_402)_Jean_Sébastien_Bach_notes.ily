@@ -119,7 +119,9 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Von ei -- ner Jung -- frau zart und rein für uns er hier ge -- bo -- ren ward, er wollt der Mitt -- _ ler wer -- den.
+  Von ei -- ner Jung -- frau zart und rein
+  für uns er hier ge -- bo -- ren ward,
+  er wollt der Mitt -- _ ler wer -- den.
 }
 
 tenorLyricsOne = \lyricmode {
@@ -129,7 +131,9 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Von ei -- ner Jung -- frau zart und rein für uns er hier ge -- bo -- ren ward, er wollt der _ Mitt -- ler wer -- _ den.
+  Von ei -- ner Jung -- frau zart und rein
+  für uns er hier ge -- bo -- ren ward,
+  er wollt der _ Mitt -- ler wer -- _ den.
 }
 
 bassLyricsOne = \lyricmode {

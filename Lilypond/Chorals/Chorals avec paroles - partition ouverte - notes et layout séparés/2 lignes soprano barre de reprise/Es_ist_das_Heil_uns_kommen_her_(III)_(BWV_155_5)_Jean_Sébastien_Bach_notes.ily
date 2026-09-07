@@ -77,30 +77,45 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Ob sichs an -- ließ, als wollt er nicht, lass dich es nicht er -- schre -- _ cken, Sein Wort lass dir ge -- wis -- ser sein, und ob dein Herz spräch lau -- ter Nein, so lass doch dir nicht grau -- _ en.
+  Ob sichs an -- ließ, als wollt er nicht,
+  lass dich es nicht er -- schre -- _ cken,
+  Sein Wort lass dir ge -- wis -- ser sein,
+  und ob dein Herz spräch lau -- ter Nein,
+  so lass doch dir nicht grau -- _ en.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  denn wo er ist am be -- sten mit, da will ers nicht ent -- de -- _ cken.
+  denn wo er ist am be -- sten mit,
+  da will ers nicht ent -- de -- _ cken.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Ob sichs an -- ließ, als wollt er nicht, lass dich es nicht er -- schre -- _ _ cken, Sein Wort lass dir ge -- wis -- ser sein, und ob dein Herz spräch lau -- ter Nein, so lass doch dir nicht grau -- _ en.
+  Ob sichs an -- ließ, als wollt er nicht,
+  lass dich es nicht er -- schre -- _ _ cken,
+  Sein Wort lass dir ge -- wis -- ser sein,
+  und ob dein Herz spräch lau -- ter Nein,
+  so lass doch dir nicht grau -- _ en.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  denn wo er ist am be -- sten mit, da will ers nicht ent -- de -- _ _ cken.
+  denn wo er ist am be -- sten mit,
+  da will ers nicht ent -- de -- _ _ cken.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Ob sichs an -- ließ, als wollt er nicht, lass dich es nicht er -- schre -- _ cken, Sein Wort lass dir ge -- wis -- ser sein, und ob dein Herz spräch lau -- ter Nein, so lass doch dir nicht grau -- _ en.
+  Ob sichs an -- ließ, als wollt er nicht,
+  lass dich es nicht er -- schre -- _ cken,
+  Sein Wort lass dir ge -- wis -- ser sein,
+  und ob dein Herz spräch lau -- ter Nein,
+  so lass doch dir nicht grau -- _ en.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  denn wo er ist am be -- sten mit, da will ers nicht ent -- de -- _ cken.
+  denn wo er ist am be -- sten mit,
+  da will ers nicht ent -- de -- _ cken.
 }

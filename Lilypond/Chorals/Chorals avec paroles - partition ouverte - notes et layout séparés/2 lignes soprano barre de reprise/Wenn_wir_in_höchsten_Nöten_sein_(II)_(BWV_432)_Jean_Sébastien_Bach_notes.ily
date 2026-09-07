@@ -70,30 +70,48 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Wenn wir in höch -- sten Nö -- then sein und wis -- sen _ nicht wo aus und ein, und fin -- den we -- der Hülf' noch Rath, ob wir gleich sor -- gen früh und spat.
+  Wenn wir in höch -- sten Nö -- then sein
+  und wis -- sen _ nicht wo aus und ein,
+  und fin -- den we -- der Hülf' noch Rath,
+  ob wir gleich sor -- gen früh und spat.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  so ist das un -- ser Trost al -- lein, dass wir zu -- _ sam -- men ins -- ge -- mein an -- ru -- fen dich, du treu -- er Gott, um Ret -- tung aus der Angst und Noth.
+  so ist das un -- ser Trost al -- lein,
+  dass wir zu -- _ sam -- men ins -- ge -- mein
+  an -- ru -- fen dich, du treu -- er Gott,
+  um Ret -- tung aus der Angst und Noth.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Wenn wir in höch -- sten Nö -- then sein und wis -- sen _ nicht wo aus und ein, und fin -- den we -- der Hülf' noch Rath, ob wir gleich sor -- gen _ früh und spat.
+  Wenn wir in höch -- sten Nö -- then sein
+  und wis -- sen _ nicht wo aus und ein,
+  und fin -- den we -- der Hülf' noch Rath,
+  ob wir gleich sor -- gen _ früh und spat.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  so ist das un -- ser Trost al -- lein, dass wir zu -- _ sam -- men ins -- ge -- mein an -- ru -- fen dich, du treu -- er Gott, um Ret -- tung aus der _ Angst und Noth.
+  so ist das un -- ser Trost al -- lein,
+  dass wir zu -- _ sam -- men ins -- ge -- mein
+  an -- ru -- fen dich, du treu -- er Gott,
+  um Ret -- tung aus der _ Angst und Noth.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Wenn wir in höch -- sten Nö -- then sein und wis -- sen nicht wo aus und ein, und fin -- den we -- der Hülf' noch Rath, ob wir gleich sor -- gen früh und spat.
+  Wenn wir in höch -- sten Nö -- then sein
+  und wis -- sen nicht wo aus und ein,
+  und fin -- den we -- der Hülf' noch Rath,
+  ob wir gleich sor -- gen früh und spat.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  so ist das un -- ser Trost al -- lein, dass wir zu -- sam -- men ins -- ge -- mein an -- ru -- fen dich, du treu -- er Gott, um Ret -- tung aus der Angst und Noth.
+  so ist das un -- ser Trost al -- lein,
+  dass wir zu -- sam -- men ins -- ge -- mein
+  an -- ru -- fen dich, du treu -- er Gott,
+  um Ret -- tung aus der Angst und Noth.
 }

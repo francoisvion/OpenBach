@@ -77,30 +77,45 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Wir wa -- chen o -- der schla -- fen ein, so sind wir doch des Her -- _ ren; Durch A -- dam auf uns kömmt der Tod, Chri -- stus hilft uns aus al -- ler Not. Drum lo -- ben wir den Her -- _ ren.
+  Wir wa -- chen o -- der schla -- fen ein,
+  so sind wir doch des Her -- _ ren;
+  Durch A -- dam auf uns kömmt der Tod,
+  Chri -- stus hilft uns aus al -- ler Not.
+  Drum lo -- ben wir den Her -- _ ren.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  auf Chris -- tum wir ge -- tau -- fet sein, der kann dem Sa -- tan weh -- _ ren.
+  auf Chris -- tum wir ge -- tau -- fet sein,
+  der kann dem Sa -- tan weh -- _ ren.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Wir wa -- chen o -- der schla -- fen ein, so sind wir doch des Her -- _ ren; Durch A -- dam auf uns kömmt der Tod, Chri -- stus hilft uns aus al -- ler Not. Drum lo -- ben wir den Her -- _ ren.
+  Wir wa -- chen o -- der schla -- fen ein,
+  so sind wir doch des Her -- _ ren;
+  Durch A -- dam auf uns kömmt der Tod,
+  Chri -- stus hilft uns aus al -- ler Not.
+  Drum lo -- ben wir den Her -- _ ren.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  auf Chris -- tum wir ge -- tau -- fet sein, der kann dem Sa -- tan weh -- _ ren.
+  auf Chris -- tum wir ge -- tau -- fet sein,
+  der kann dem Sa -- tan weh -- _ ren.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Wir wa -- chen o -- der schla -- fen ein, so sind wir doch des Her -- _ ren; Durch A -- dam auf uns kömmt der Tod, Chri -- stus hilft uns aus al -- ler Not. Drum lo -- ben wir den Her -- _ ren.
+  Wir wa -- chen o -- der schla -- fen ein,
+  so sind wir doch des Her -- _ ren;
+  Durch A -- dam auf uns kömmt der Tod,
+  Chri -- stus hilft uns aus al -- ler Not.
+  Drum lo -- ben wir den Her -- _ ren.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  auf Chris -- tum wir ge -- tau -- fet sein, der kann dem Sa -- tan weh -- _ ren.
+  auf Chris -- tum wir ge -- tau -- fet sein,
+  der kann dem Sa -- tan weh -- _ ren.
 }

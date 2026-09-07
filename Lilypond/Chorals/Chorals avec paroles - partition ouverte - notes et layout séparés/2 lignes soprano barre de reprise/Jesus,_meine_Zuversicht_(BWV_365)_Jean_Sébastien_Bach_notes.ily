@@ -66,30 +66,39 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
                                altoLyricsOne = \lyricmode {
                                  \set stanza = 1
-                                 Je -- sus, mei -- ne Zu -- ver -- sicht und mein Hei -- land, ist im _ Le -- _ ben: was die lan -- ge To -- des -- nacht mir auch für Ge -- dan -- ken macht?
+                                 Je -- sus, mei -- ne Zu -- ver -- sicht
+                                 und mein Hei -- land, ist im _ Le -- _ ben:
+                                 was die lan -- ge To -- des -- nacht mir auch für Ge -- dan -- ken macht?
                                }
 
                                altoLyricsTwo = \lyricmode {
                                  \set stanza = 2
-                                 Die -- ses weiß ich, soll ich nicht da -- rum mich zu -- fried -- en _ ge -- _ ben?
+                                 Die -- ses weiß ich, soll ich nicht
+                                 da -- rum mich zu -- fried -- en _ ge -- _ ben?
                                }
 
                                tenorLyricsOne = \lyricmode {
                                  \set stanza = 1
-                                 Je -- sus, mei -- ne Zu -- ver -- sicht und mein Hei -- land, ist im Le -- _ ben: was die lan -- ge To -- des -- nacht mir auch für Ge -- dan -- ken macht?
+                                 Je -- sus, mei -- ne Zu -- ver -- sicht
+                                 und mein Hei -- land, ist im Le -- _ ben:
+                                 was die lan -- ge To -- des -- nacht mir auch für Ge -- dan -- ken macht?
                                }
 
                                tenorLyricsTwo = \lyricmode {
                                  \set stanza = 2
-                                 Die -- ses weiß ich, soll ich nicht da -- rum mich zu -- fried -- en ge -- _ ben?
+                                 Die -- ses weiß ich, soll ich nicht
+                                 da -- rum mich zu -- fried -- en ge -- _ ben?
                                }
 
                                bassLyricsOne = \lyricmode {
                                  \set stanza = 1
-                                 Je -- sus, mei -- ne Zu -- ver -- sicht und mein Hei -- land, ist im Le -- _ ben: was die lan -- ge To -- des -- nacht mir auch für Ge -- dan -- ken macht?
+                                 Je -- sus, mei -- ne Zu -- ver -- sicht
+                                 und mein Hei -- land, ist im Le -- _ ben:
+                                 was die lan -- ge To -- des -- nacht mir auch für Ge -- dan -- ken macht?
                                }
 
                                bassLyricsTwo = \lyricmode {
                                  \set stanza = 2
-                                 Die -- ses weiß ich, soll ich nicht da -- rum mich zu -- fried -- en ge -- _ ben?
+                                 Die -- ses weiß ich, soll ich nicht
+                                 da -- rum mich zu -- fried -- en ge -- _ ben?
                                }

@@ -83,7 +83,10 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Rich -- te dich, Lieb -- ste, nach mei -- nem Ge -- fal -- len und gläu -- be, der dich er -- götzt und in den Him -- mel ver -- setzt aus dem ge -- mar -- ter -- ten Lei -- _ be.
+  Rich -- te dich, Lieb -- ste, nach mei -- nem Ge -- fal -- len und gläu -- be,
+  der dich er -- götzt
+  und in den Him -- mel ver -- setzt
+  aus dem ge -- mar -- ter -- ten Lei -- _ be.
 }
 
 altoLyricsTwo = \lyricmode {
@@ -93,7 +96,10 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Rich -- te dich, Lieb -- ste, nach mei -- nem Ge -- fal -- len und gläu -- _ be, der dich er -- götzt und in den Him -- mel ver -- setzt aus dem ge -- mar -- ter -- ten Lei -- _ be.
+  Rich -- te dich, Lieb -- ste, nach mei -- nem Ge -- fal -- len und gläu -- _ be,
+  der dich er -- götzt
+  und in den Him -- mel ver -- setzt
+  aus dem ge -- mar -- ter -- ten Lei -- _ be.
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -103,7 +109,10 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Rich -- te dich, Lieb -- ste, nach mei -- nem Ge -- fal -- len und gläu -- be, der dich er -- götzt und in den Him -- mel ver -- setzt aus dem ge -- mar -- ter -- ten Lei -- be.
+  Rich -- te dich, Lieb -- ste, nach mei -- nem Ge -- fal -- len und gläu -- be,
+  der dich er -- götzt
+  und in den Him -- mel ver -- setzt
+  aus dem ge -- mar -- ter -- ten Lei -- be.
 }
 
 bassLyricsTwo = \lyricmode {

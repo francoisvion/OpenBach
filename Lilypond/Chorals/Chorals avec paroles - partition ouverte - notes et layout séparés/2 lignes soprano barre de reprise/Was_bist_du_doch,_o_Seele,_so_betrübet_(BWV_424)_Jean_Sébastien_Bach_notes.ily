@@ -71,7 +71,10 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Was bist du doch, o See -- le so be -- trü -- bet, Was grämst du dich, so äng -- stig -- lich, als wür -- dest du drum nicht von Gott ge -- lie -- bet?
+  Was bist du doch, o See -- le so be -- trü -- bet,
+  Was grämst du dich,
+  so äng -- stig -- lich,
+  als wür -- dest du drum nicht von Gott ge -- lie -- bet?
 }
 
 altoLyricsTwo = \lyricmode {
@@ -81,7 +84,10 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Was bist du doch, o See -- le so be -- trü -- bet, Was grämst du dich, so äng -- stig -- lich, als wür -- dest du drum nicht _ von Gott ge -- lie -- _ bet?
+  Was bist du doch, o See -- le so be -- trü -- bet,
+  Was grämst du dich,
+  so äng -- stig -- lich,
+  als wür -- dest du drum nicht _ von Gott ge -- lie -- _ bet?
 }
 
 tenorLyricsTwo = \lyricmode {

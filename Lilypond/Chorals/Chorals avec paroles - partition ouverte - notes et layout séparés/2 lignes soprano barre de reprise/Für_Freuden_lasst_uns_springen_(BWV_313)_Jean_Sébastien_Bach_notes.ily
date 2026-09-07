@@ -74,7 +74,9 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Für Freu -- den lasst uns _ sprin -- _ gen, ihr Chris -- ten all -- zu -- glei -- _ che! von ei -- ner Jung -- frau ist ge -- bor'n, wer hat zu -- vor ge -- hört von sol -- chen Din -- _ _ gen.
+  Für Freu -- den lasst uns _ sprin -- _ gen, ihr Chris -- ten all -- zu -- glei -- _ che!
+  von ei -- ner Jung -- frau ist ge -- bor'n,
+  wer hat zu -- vor ge -- hört von sol -- chen Din -- _ _ gen.
 }
 
 altoLyricsTwo = \lyricmode {
@@ -84,7 +86,9 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Für Freu -- den lasst uns sprin -- _ gen, ihr Chris -- ten all -- zu -- glei -- _ che! von ei -- ner Jung -- frau ist ge -- bor'n, wer hat zu -- vor ge -- hört von sol -- chen Din gen.
+  Für Freu -- den lasst uns sprin -- _ gen, ihr Chris -- ten all -- zu -- glei -- _ che!
+  von ei -- ner Jung -- frau ist ge -- bor'n,
+  wer hat zu -- vor ge -- hört von sol -- chen Din gen.
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -94,7 +98,9 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Für Freu -- den lasst uns sprin -- _ gen, ihr Chris -- ten all -- zu -- glei -- _ che! von ei -- ner Jung -- frau ist ge -- bor'n, wer hat zu -- vor ge -- hört von sol -- chen Din -- _ gen.
+  Für Freu -- den lasst uns sprin -- _ gen, ihr Chris -- ten all -- zu -- glei -- _ che!
+  von ei -- ner Jung -- frau ist ge -- bor'n,
+  wer hat zu -- vor ge -- hört von sol -- chen Din -- _ gen.
 }
 
 bassLyricsTwo = \lyricmode {

@@ -93,7 +93,9 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  ü -- ber Ho -- nig sü -- _ ße, tau -- send Zu -- cker -- küs -- _ se drü -- cket er ans Herz.
+  ü -- ber Ho -- nig sü -- _ ße,
+  tau -- send Zu -- cker -- küs -- _ se
+  drü -- cket er ans Herz.
 }
 
 tenorLyricsOne = \lyricmode {
@@ -103,7 +105,9 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  ü -- ber Ho -- nig sü -- _ ße, tau -- send Zu -- cker -- küs -- _ se drü -- cket er ans Herz.
+  ü -- ber Ho -- nig sü -- _ ße,
+  tau -- send Zu -- cker -- küs -- _ se
+  drü -- cket er ans Herz.
 }
 
 bassLyricsOne = \lyricmode {
@@ -113,5 +117,7 @@ bassLyricsOne = \lyricmode {
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  ü -- ber Ho -- nig sü -- _ ße, tau -- send Zu -- cker -- küs -- _ se drü -- cket er ans Herz.
+  ü -- ber Ho -- nig sü -- _ ße,
+  tau -- send Zu -- cker -- küs -- _ se
+  drü -- cket er ans Herz.
 }

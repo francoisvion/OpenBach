@@ -72,30 +72,42 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Du Frie -- de -- fürst, Herr Je -- su Christ, wahr' Mensch und wah -- rer Gott, drum wir al -- lein im Na -- men dein zu dei -- nem Va -- _ _ ter schrei -- _ en.
+  Du Frie -- de -- fürst, Herr Je -- su Christ,
+  wahr' Mensch und wah -- rer Gott,
+  drum wir al -- lein im Na -- men dein
+  zu dei -- nem Va -- _ _ ter schrei -- _ en.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  ein star -- ker Noth -- hel -- fer du bist im Le -- ben und im Tod:
+  ein star -- ker Noth -- hel -- fer du bist
+  im Le -- ben und im Tod:
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Du Frie -- de -- fürst, Herr Je -- su Christ, wahr' Mensch und wah -- rer Gott, drum wir al -- lein im Na -- men dein zu dei -- nem Va -- _ _ ter schrei -- en.
+  Du Frie -- de -- fürst, Herr Je -- su Christ,
+  wahr' Mensch und wah -- rer Gott,
+  drum wir al -- lein im Na -- men dein
+  zu dei -- nem Va -- _ _ ter schrei -- en.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  ein star -- ker Noth -- hel -- fer du bist im Le -- ben und im Tod:
+  ein star -- ker Noth -- hel -- fer du bist
+  im Le -- ben und im Tod:
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Du Frie -- de -- fürst, Herr Je -- su Christ, wahr' Mensch und wah -- rer Gott, drum wir al -- lein im Na -- men dein zu dei -- nem Va -- _ _ ter schrei -- _ en.
+  Du Frie -- de -- fürst, Herr Je -- su Christ,
+  wahr' Mensch und wah -- rer Gott,
+  drum wir al -- lein im Na -- men dein
+  zu dei -- nem Va -- _ _ ter schrei -- _ en.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  ein star -- ker Noth -- hel -- fer du bist im Le -- ben und im Tod:
+  ein star -- ker Noth -- hel -- fer du bist
+  im Le -- ben und im Tod:
 }
