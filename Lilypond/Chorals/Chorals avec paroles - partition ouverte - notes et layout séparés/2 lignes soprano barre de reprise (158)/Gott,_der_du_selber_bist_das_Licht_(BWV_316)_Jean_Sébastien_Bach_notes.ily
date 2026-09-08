@@ -1,5 +1,4 @@
 sopranoMusic = {
-  \voiceOne
   \repeat volta 2 {
     \partial 4  d''4
     g' a'8 [bes'] c''4 bes'
@@ -16,24 +15,22 @@ sopranoMusic = {
 }
 
 altoMusic = {
-  \voiceTwo
   \repeat volta 2 {
     \partial 4  g'4
-    g' fis'8 [g'] a'4. g'8~
+    g' fis'8 [g'] a'4. g'8
     g' [fis'16 e'] fis'4 d'\fermata g'
     f'8 [e'] f'4 f' f'
     bes'8 d''4 cis''8 d''4\fermata bes'
     a' d'8 [e'] fis'4 g'
     g' fis' d'\fermata }
   \partial 4 f'
-  f'8 bes'4 a'8 bes'4 c''~
+  f'8 bes'4 a'8 bes'4 c''
   c''8 bes'4 a'8 f'4\fermata f'
   f'8 [a'] g' [f'] f'4 ees'
   d'8 g'4 fis'8 d'4\fermata \fine
 }
 
 tenorMusic = {
-  \voiceOne
   \repeat volta 2 {
     \partial 4  bes8 [c']
     d'4 c'8 [d'] ees' [d'] d'4
@@ -50,7 +47,6 @@ tenorMusic = {
 }
 
 bassMusic = {
-  \voiceTwo
   \repeat volta 2 {
     \partial 4  g,8 [a,]
     bes,4 a,8 [g,] fis,4 g,
@@ -67,39 +63,45 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Gott, der du sel -- ber bist das Licht, dess Güt' und Treu -- e stir -- bet nicht, dir sei itzt Lob ge -- sun -- gen: und dei -- ne Gnad und Wun -- der -- tat mich, da ich schlief, er -- hal -- ten hat.
+   Gott, der du sel -- ber bist das Licht,
+   dess Güt' und Treu -- e stir -- bet nicht,
+   dir sei itzt Lob ge -- sun -- gen:
+   und dei -- ne Gnad und Wun -- der -- tat mich,
+   da ich schlief, er -- hal -- ten hat.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               nach -- dem durch dei -- ne gro -- ße Macht, der hel -- le Tag die fin -- stre Nacht So kräf -- tig hat ver -- drun -- gen,
+   nach -- dem durch dei -- ne gro -- ße Macht, 
+   der hel -- le Tag die fin -- stre Nacht
+   So kräf -- tig hat ver -- drun -- gen,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Gott, der du sel -- ber bist das Licht, dess Güt' und Treu -- e stir -- bet _ nicht, dir sei itzt Lob ge -- sun -- _ gen: und dei -- ne _ Gnad und Wun -- der -- tat mich, da ich schlief, er -- hal -- ten _ hat.
-}
+      \set stanza = 1
+   Gott, der du sel -- ber bist das Licht, dess Güt' und Treu -- e stir -- bet _ nicht, dir sei itzt Lob ge -- sun - gen: und dei -- ne _ Gnad und Wun -- der - tat mich, da ich schlief, er -- hal -- ten _ hat.
+    }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  nach -- dem durch dei -- ne gro -- ße Macht, der hel -- le Tag die fin -- stre _ Nacht So kräf -- tig hat ver -- drun -- _ gen,
-}
+      \set stanza = 2
+   nach -- dem durch dei -- ne gro -- ße Macht, der hel -- le Tag die fin -- stre _ Nacht So kräf -- tig hat ver -- drun - gen,
+    }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Gott, der du sel -- ber bist das Licht, dess Güt' und Treu -- e stir -- bet nicht, dir sei itzt Lob ge -- sun -- _ gen: und dei -- ne Gnad und Wun -- der -- tat mich, da ich schlief, er -- hal -- ten hat.
-}
+      \set stanza = 1
+   Gott, der du sel -- ber bist das Licht, dess Güt' und Treu -- e stir -- bet nicht, dir sei itzt Lob ge -- sun - gen: und dei -- ne Gnad und Wun -- der -- tat mich, da ich schlief, er -- hal -- ten hat.
+    }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  nach -- dem durch dei -- ne gro -- ße Macht, der hel -- le Tag die fin -- stre Nacht So kräf -- tig hat ver -- drun -- _ gen,
-}
+      \set stanza = 2
+   nach -- dem durch dei -- ne gro -- ße Macht, der hel -- le Tag die fin -- stre Nacht So kräf -- tig hat ver -- drun - gen,
+    }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Gott, der du sel -- ber bist das Licht, dess Güt' und Treu -- e _ stir -- bet nicht, dir sei itzt Lob ge -- sun -- _ gen: und dei -- ne Gnad und _ Wun -- der -- tat mich, da ich schlief, er -- hal -- ten hat.
-}
+      \set stanza = 1
+   Gott, der du sel -- ber bist das Licht, dess Güt' und Treu -- e _ stir -- bet nicht, dir sei itzt Lob ge -- sun - gen: und dei -- ne Gnad und _ Wun -- der -- tat mich, da ich schlief, er -- hal -- ten hat.
+    }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  nach -- dem durch dei -- ne gro -- ße Macht, der hel -- le Tag die _ fin -- stre Nacht So kräf -- tig hat ver -- drun -- _ gen,
-}
+      \set stanza = 2
+   nach -- dem durch dei -- ne gro -- ße Macht, der hel -- le Tag die _ fin -- stre Nacht So kräf -- tig hat ver -- drun - gen,
+    }

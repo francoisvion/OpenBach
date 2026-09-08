@@ -1,5 +1,4 @@
 sopranoMusic = {
-  \voiceOne
   \repeat volta 2 {
     \partial 4  g'4
     g' g' a' b'
@@ -21,7 +20,6 @@ sopranoMusic = {
 }
 
 altoMusic = {
-  \voiceTwo
   \repeat volta 2 {
     \partial 4  d'4
     e' e'4. fis'8 g'4
@@ -43,7 +41,6 @@ altoMusic = {
 }
 
 tenorMusic = {
-  \voiceOne
   \repeat volta 2 {
     \partial 4  b4
     b c' c' d'8 [f']
@@ -65,7 +62,6 @@ tenorMusic = {
 }
 
 bassMusic = {
-  \voiceTwo
   \repeat volta 2 {
     \partial 4  g8 [fis]
     e [d] c [b,] a,4 g,

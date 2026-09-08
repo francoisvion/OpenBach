@@ -1,5 +1,4 @@
 sopranoMusic = {
-  \voiceOne
   \repeat volta 2 {
     a'4 a' g' f'
     e'2 d'\fermata
@@ -17,7 +16,6 @@ sopranoMusic = {
 }
 
 altoMusic = {
-  \voiceTwo
   \repeat volta 2 {
     d'4 d' e' d'
     d' cis' a2\fermata
@@ -30,12 +28,11 @@ altoMusic = {
   c'4 f' e'8 [d'] c'4
   f' e'8 [f'] e'4. d'8
   cis'2\fermata d'4. cis'8
-  d' e'4 d' cis'16 [b] cis'4
+  d' [e'] e' [d'] d' [cis'16 b] cis'4
   a1\fermata \fine
 }
 
 tenorMusic = {
-  \voiceOne
   \repeat volta 2 {
     f8 [g] a4 bes8 [a] a4
     bes a8 [g] f2\fermata
@@ -53,7 +50,6 @@ tenorMusic = {
 }
 
 bassMusic = {
-  \voiceTwo
   \repeat volta 2 {
     d8 [e] f4 cis d
     g, a, d,2\fermata
@@ -71,60 +67,46 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Je -- su, mei -- ne Freu -- de,
-                               mei -- nes Her -- zens Wei -- de,
-                               Je -- su, mei -- ne Zier!
-                               Got -- tes Lamm, mein Bräu -- ti -- gam,
-                               au -- ßer dir soll mir auf Er -- den
-                               nichts sonst lie -- bers wer -- den.
+   Je -- su, mei -- ne Freu -- de,
+   mei -- nes Her -- zens Wei -- de,
+   Je -- su, mei -- ne Zier!
+   Got -- tes Lamm, mein Bräu -- ti -- gam,
+   au -- ßer dir soll mir auf Er -- den
+   nichts sonst lie -- bers wer -- den.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               ach wie lang', ach lan -- ge
-                               Ist dem Her -- zen ban -- ge,
+    ach wie lang', ach lan -- ge
+    Ist dem Her -- zen ban -- ge,
+    und ver -- langt nach dir.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Je -- su, mei -- ne Freu -- _ de,
-  mei -- nes Her -- zens Wei -- _ de,
-  Je -- su, mei -- ne Zier!
-  Got -- tes Lamm, mein Bräu -- ti -- gam,
-  au -- ßer dir soll mir auf Er -- _ den
-  nichts sonst lie -- bers wer -- _ _ den.
-}
+      \set stanza = 1
+   Je -- su, mei -- ne Freu - de, mei -- nes Her -- zens Wei - de, Je -- su, mei -- ne Zier! Got -- tes Lamm, mein Bräu -- ti -- gam, au -- ßer dir soll mir auf Er - den nichts sonst lie -- bers wer - den.
+    }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-                            ach wie lang', ach lan -- ge
-                            Ist dem Her -- zen ban -- ge,
-}
+altoLyricsTwo = \lyricmode {
+      \set stanza = 2
+    ach wie lang', ach lan - ge Ist dem Her -- zen ban - ge, und ver -- langt nach dir.
+    }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Je -- su, mei -- ne Freu -- _ de,
-  mei -- nes Her -- zens Wei -- _ de,
-  Je -- su, mei -- ne Zier!
-  Got -- tes Lamm, mein Bräu -- ti -- gam,
-  au -- ßer dir soll mir auf Er -- den
-  nichts sonst lie -- bers wer -- _ den.
-}
+      \set stanza = 1
+   Je -- su, mei -- ne Freu - de, mei -- nes Her -- zens Wei - de, Je -- su, mei -- ne Zier! Got -- tes Lamm, mein Bräu -- ti -- gam, au -- ßer dir soll mir auf Er -- den nichts sonst lie -- bers wer - den.
+    }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-                             ach wie lang', ach lan -- ge
-                             Ist dem Her -- zen ban -- ge,
-}
+tenorLyricsTwo = \lyricmode {
+      \set stanza = 2
+    ach wie lang', ach lan - ge Ist dem Her -- zen ban - ge, und ver -- langt nach dir.
+    }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Je -- su, mei -- ne Freu -- _ de,
-  mei -- nes Her -- zens Wei -- _ de,
-  Je -- su, mei -- ne Zier!
-  Got -- tes Lamm, mein Bräu -- ti -- gam,
-  au -- ßer dir soll mir auf Er -- den
-  nichts sonst lie -- bers wer -- _ den.
-}
+      \set stanza = 1
+   Je -- su, mei -- ne Freu - de, mei -- nes Her -- zens Wei - de, Je -- su, mei -- ne Zier! Got -- tes Lamm, mein Bräu -- ti -- gam, au -- ßer dir soll mir auf Er -- den nichts sonst lie -- bers wer - den.
+    }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-                            ach wie lang', ach lan -- ge
-                            Ist dem Her -- zen ban -- ge,
-}
+bassLyricsTwo = \lyricmode {
+      \set stanza = 2
+    ach wie lang', ach lan - ge Ist dem Her -- zen ban - ge, und ver -- langt nach dir.
+    }

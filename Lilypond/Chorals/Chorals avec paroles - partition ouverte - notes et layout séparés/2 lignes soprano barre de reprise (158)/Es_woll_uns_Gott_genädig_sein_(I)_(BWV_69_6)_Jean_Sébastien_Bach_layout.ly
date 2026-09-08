@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Es_woll_uns_Gott_genädig_sein_(I)_(BWV_69_6)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

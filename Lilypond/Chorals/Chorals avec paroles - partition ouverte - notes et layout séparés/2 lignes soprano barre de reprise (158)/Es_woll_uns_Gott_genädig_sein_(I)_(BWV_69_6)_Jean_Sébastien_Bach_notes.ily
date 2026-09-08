@@ -1,5 +1,4 @@
 sopranoMusic = \relative c' {
-  \voiceOne
   \repeat volta 2 {
     \partial 4 cis'4
     d cis b cis8 [d]
@@ -23,7 +22,6 @@ sopranoMusic = \relative c' {
 }
 
 altoMusic = \relative c' {
-  \voiceTwo
   \partial 4 fis4
   fis fis8 [e] d4 a'
   g fis8 [gis] a4 b
@@ -39,15 +37,14 @@ altoMusic = \relative c' {
   e [d] e4 d\fermata cis
   cis8 [a'] gis [fis] e [fis] g4
   fis8 b4 ais8 fis4\fermata b~
-  b8 a4 g8~g [fis16 e] d4~
-  d8 [e] fis4 e2
+  b8 a! a [g8]~g fis16 [e] d4~
+  d8 e fis4 e2
   d2.\fermata \fine
   
   \fine
 }
 
 tenorMusic = \relative c {
-  \voiceOne
   \partial 4 ais'4
   b ais b a8 [b]
   cis4 d e8 [fis] gis4
@@ -62,7 +59,7 @@ tenorMusic = \relative c {
   cis8 [fis] e [d] cis4 b
   e, a a\fermata a
   a e'8 [d] e [d] cis4~
-  cis8 [b] cis [e] d4\fermata e
+  cis8 b cis [e] d4\fermata e
   e d e8 [a,] a4
   d2. cis4 
   a2.\fermata \fine
@@ -71,7 +68,6 @@ tenorMusic = \relative c {
 }
 
 bassMusic = \relative c {
-  \voiceTwo
   \partial 4 fis4
   b, fis' g fis
   e d cis b
@@ -95,58 +91,46 @@ bassMusic = \relative c {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Es dan -- ke, Gott, und lo -- _ _ be dich
-                               das Volk in gu -- ten Ta -- _ _ _ ten;      
-                               Uns se -- gne Va -- ter und der Sohn,
-                               uns se -- gne Gott der Heil' -- ge Geist,
-                               dem al -- le Welt die Eh -- re tut,
-                               vor ihm sich fürch -- te al -- ler -- meist.
-                               Nun sprecht von Her -- zen: A -- _ men!
+   Es dan -- ke, Gott, und lo -- _ _ be dich
+   das Volk in gu -- ten Ta -- _ _ _ ten;      
+   Uns se -- gne Va -- ter und der Sohn,
+   uns se -- gne Gott der Heil' -- ge Geist,
+   dem al -- le Welt die Eh -- re tut,
+   vor ihm sich fürch -- te al -- ler -- meist.
+   Nun sprecht von Her -- zen: A -- _ men!
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               Das Land bringt Frucht und bes -- _ _ sert sich,
-                               dein Wort ist wohl ge -- ra -- _ _ _ ten.
+   Das Land bringt Frucht und bes -- _ _ sert sich,
+   dein Wort ist wohl ge -- ra -- _ _ _ ten.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Es dan -- ke, Gott, und lo -- _ _ be dich
-  das Volk in gu -- ten Ta _ ten;
-  Uns se -- gne Va -- ter und der Sohn,
-  uns se -- gne Gott der Heil' -- ge Geist,
-  dem al -- le Welt die Eh -- re tut,
-  vor ihm sich fürch -- te al -- ler -- _ meist.
-  Nun sprecht von Her -- zen: A men!
-}
+      \set stanza = 1
+   Es dan -- ke, Gott, und lo -- _ _ be dich das Volk in gu -- ten Ta _ ten; Uns se -- gne Va -- ter und der Sohn, uns se -- gne Gott der Heil' -- ge Geist, dem al -- le Welt die Eh -- re tut, vor ihm sich fürch -- te al -- ler - meist. Nun sprecht von Her -- zen: A - _ men!
+    }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Das Land bringt Frucht und bes -- _ _ sert sich, dein Wort ist wohl ge -- ra _ ten.
-}
+      \set stanza = 2
+   Das Land bringt Frucht und bes -- _ _ sert sich, dein Wort ist wohl ge -- ra _ ten.
+    }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Es dan -- ke, Gott, und lo -- _ _ be dich das Volk in gu -- ten Ta _ ten; Uns se -- gne Va -- ter und der Sohn, uns se -- gne Gott der Heil' -- ge Geist, dem al -- le Welt die Eh -- re tut, vor ihm sich fürch -- te al -- ler -- meist. Nun sprecht von Her -- zen: A -- _ men!
-}
+      \set stanza = 1
+   Es dan -- ke, Gott, und lo -- _ _ be dich das Volk in gu -- ten Ta _ ten; Uns se -- gne Va -- ter und der Sohn, uns se -- gne Gott der Heil' -- ge Geist, dem al -- le Welt die Eh -- re tut, vor ihm sich fürch -- te al -- ler -- meist. Nun sprecht von Her -- zen: A -- _ men!
+    }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Das Land bringt Frucht und bes -- _ _ sert sich, dein Wort ist wohl ge -- ra _ ten.
-}
+      \set stanza = 2
+   Das Land bringt Frucht und bes -- _ _ sert sich, dein Wort ist wohl ge -- ra _ ten.
+    }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Es dan -- ke, Gott, und lo -- _ _ be dich
-  das Volk in gu -- ten Ta -- _ _ _ ten;
-  Uns se -- gne Va -- ter und der Sohn,
-  uns se -- gne Gott der Heil' -- ge Geist,
-  dem al -- le Welt die Eh -- re tut,
-  vor ihm sich fürch -- te al -- ler -- meist.
-  Nun sprecht von Her -- zen: A -- _ _ men!
-}
+      \set stanza = 1
+   Es dan -- ke, Gott, und lo -- _ _ be dich das Volk in gu -- ten Ta -- _ _ _ ten; Uns se -- gne Va -- ter und der Sohn, uns se -- gne Gott der Heil' -- ge Geist, dem al -- le Welt die Eh -- re tut, vor ihm sich fürch -- te al -- ler -- meist. Nun sprecht von Her -- zen: A -- _ _ men!
+    }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Das Land bringt Frucht und bes -- _ _ sert sich, dein Wort ist wohl ge -- ra -- _ _ _ ten.
-}
+      \set stanza = 2
+   Das Land bringt Frucht und bes -- _ _ sert sich, dein Wort ist wohl ge -- ra -- _ _ _ ten.
+    }

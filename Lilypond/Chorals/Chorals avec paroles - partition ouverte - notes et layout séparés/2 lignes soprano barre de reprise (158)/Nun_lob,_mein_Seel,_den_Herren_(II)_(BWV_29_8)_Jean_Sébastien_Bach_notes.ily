@@ -1,5 +1,4 @@
 sopranoMusic = {
-  \voiceOne
   \repeat volta 2 {
     \partial 4  d''4
     d''2 cis''4
@@ -41,7 +40,6 @@ sopranoMusic = {
 }
 
 altoMusic = {
-  \voiceTwo
   \repeat volta 2 {
     \partial 4  a'4
     b' a' a'
@@ -63,7 +61,7 @@ altoMusic = {
   d'8 [e'] fis'4 b'
   b' a' a'
   a'2.~
-  a'4\fermata g' g'8 [a']
+  a'4 g'\fermata g'8 [a']
   b'4 a'8 [g'] c'' [b']
   a' [g'] c''4 b'8 [a']
   g'2\fermata
@@ -71,7 +69,7 @@ altoMusic = {
   a' b'2~
   b'4 a'8 [g'] c'' [b']
   a' [g'] a'2~
-  a'4\fermata g' a'
+  a'4 g'\fermata a'
   b'2 a'4
   a'2 gis'4
   e'2\fermata
@@ -86,7 +84,6 @@ altoMusic = {
 }
 
 tenorMusic = {
-  \voiceOne
   \repeat volta 2 {
     \partial 4  fis'4
     fis'2 fis'8 [e']
@@ -130,7 +127,6 @@ tenorMusic = {
 }
 
 bassMusic = {
-  \voiceTwo
   \repeat volta 2 {
     \partial 4  d'8 [cis']
     b4 fis2
@@ -158,7 +154,7 @@ bassMusic = {
   e2\fermata
   a4
   d'8 [cis'] b [a] g [fis]
-  e d' c' [b] a [g]
+  e [d'] c' [b] a [g]
   fis [g] fis [e] d4
   g2\fermata d'4
   gis8 [e] fis [gis] a [gis]
@@ -175,96 +171,49 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               \repeat unfold 8 { \skip1 }
-                               Gott Va -- ter, Sohn, Hei -- li -- gem Geist!
-                               \repeat unfold 31 { \skip1 }
-                               ihm tröst -- lich soll'n an -- han -- _ _ gen.
-                               \repeat unfold 7 { \skip1 }
-                               A -- men, wir wer -- dens er -- lan -- gen,
+   Sei Lob und Preis mit Eh -- _ ren
+   Gott Va -- ter, Sohn Hei -- li -- gem Geist!
+   daß wir __ _ ihm fest ver -- trau -- _ en,
+   gänz -- lich __ _ ver -- laß'n auf ihn,
+   von Her -- zen auf ihn bau -- _ _ en,
+   daß uns'r Herz, Mut und Sinn
+   ihm tröst -- lich soll'n an -- han -- _ _ gen.
+   drauf sin -- _ gen wir zur Stund:
+   A -- men, wir wer -- den's er -- lan -- gen,
+   glaub'n wir __ _ aus Her -- zens Grund.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               \repeat unfold 8 { \skip1 }
-                               Was er uns aus Gna -- den ver -- heißt,
+   Der woll' in uns ver -- meh -- _ ren,
+   Was er uns aus Gna -- den ver -- heißt,
 }
 
-altoVersoOneLyrics = \lyricmode {\set stanza = 1
-                                 Sei Lob __ _ und Preis __ _ mit Eh -- _ _ ren
-                                 Gott Va -- ter, Sohn __ _ Hei -- li -- gem __ _ Geist!      
-                                 dass wir __ _ ihm fest __ _ ver -- trau -- _ _ en,
-                                 gänz -- lich ver -- lass'n auf ihn,
-                                 von Her -- _ zen auf __ _ ihn bau -- en,
-                                 dass uns'r __ _ Herz, Mut und __ _ Sinn
-                                 ihm tröst -- _ lich soll'n an -- han -- gen.
-                                 drauf sin -- gen wir zur Stund:
-                                 A -- _ _ men, wir wer -- dens er -- lan -- gen,
-                                 Glaub'n wir __ _ aus Her -- zens -- _ grund.
-}
+altoLyricsOne = \lyricmode {
+      \set stanza = 1
+   Sei Lob _ und Preis _ mit Eh -- _ _ ren Gott Va -- ter, Sohn _ Hei -- li -- gem _ Geist! daß wir __ _ ihm fest _ ver -- trau -- _ _ en, gänz -- lich __ ver -- laß'n auf ihn, von Her -- zen auf ihn bau -- _ _ en, daß uns'r _ Herz, Mut und _ Sinn ihm tröst -- lich soll'n an -- han gen. _ drauf sin gen wir zur Stund: A -- men, _ wir wer - den's er -- lan -- gen, glaub'n wir __ _ aus Her -- zens _ Grund.
+    }
 
-altoVersoTwoLyrics = \lyricmode {\set stanza = 2
-                                 Der woll' __ _ in uns __ _ ver -- meh -- _ _ ren,
-                                 Was er uns aus __ _ Gna -- den __ _ ver -- heißt,
-}
+altoLyricsTwo = \lyricmode {
+      \set stanza = 2
+   Der woll' _ in uns _ ver -- meh -- _ _ ren, Was er uns aus _ Gna -- den ver - heißt,
+    }
 
-tenorVersoOneLyrics = \lyricmode {\set stanza = 1
-                                  \repeat unfold 50 { \skip1 }
-                                  ihm tröst -- lich soll'n an -- han -- _ gen.
-                                  \repeat unfold 7 { \skip1 }
-                                  A -- men, wir wer -- dens er -- lan -- _ gen,
-}
+tenorLyricsOne = \lyricmode {
+      \set stanza = 1
+   Sei Lob und Preis _ mit Eh - ren Gott Va -- ter, Sohn Hei -- li -- gem Geist! daß wir __ _ ihm fest _ ver -- trau - en, gänz -- lich __ _ ver -- laß'n auf _ ihn, von Her -- zen auf ihn bau -- _ _ en, daß uns'r Herz, Mut und Sinn ihm tröst -- lich soll'n an -- han - gen. drauf sin -- _ gen wir zur Stund: A -- men, wir wer - den's er -- lan -- gen, glaub'n wir __ aus Her -- zens Grund.
+    }
 
-bassVersoOneLyrics = \lyricmode {\set stanza = 1
-                                 \repeat unfold 10 { \skip1 }
-                                 Gott Va -- _ _ _ ter, Sohn Hei -- li -- gem Geist!      
-                                 \repeat unfold 37 { \skip1 }
-                                 ihm tröst -- _ lich soll'n an -- han -- _ _ _ _ gen.
-                                 \repeat unfold 18 { \skip1 }     
-                                 Glau -- _ ben wir aus Her -- zens -- grund.
-}
+tenorLyricsTwo = \lyricmode {
+      \set stanza = 2
+   Der woll' in uns _ ver -- meh - ren, Was er uns aus Gna -- den ver -- heißt,
+    }
 
-bassVersoTwoLyrics = \lyricmode {\set stanza = 2
-                                 \repeat unfold 10 { \skip1 }
-                                 Was er __ _ _ _ uns aus Gna -- den ver -- heißt,
-}
+bassLyricsOne = \lyricmode {
+      \set stanza = 1
+   Sei Lob und Preis _ mit Eh -- _ _ ren Gott Va -- ter, _ Sohn _ Hei -- li -- gem _ Geist! daß wir __ _ ihm fest ver -- trau -- _ _ en, gänz -- lich __ _ ver -- laß'n auf _ ihn, von Her - zen auf _ ihn bau -- _ _ en, daß uns'r _ Herz, Mut und _ Sinn ihm tröst - lich soll'n _ an -- han -- _ _ gen. drauf sin -- _ gen wir zur _ Stund: A -- men, _ wir wer - den's er -- lan -- gen, glaub'n wir __ _ aus Her -- zens _ Grund.
+    }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-                            \repeat unfold 8 { \skip1 }
-                            Gott Va -- ter, Sohn, Hei -- li -- gem Geist!
-                            \repeat unfold 31 { \skip1 }
-                            ihm tröst -- lich soll'n an -- han -- _ _ gen.
-                            \repeat unfold 7 { \skip1 }
-                            A -- men, wir wer -- dens er -- lan -- gen,
-}
-
-altoLyricsTwo = \lyricmode {\set stanza = 2
-                            \repeat unfold 8 { \skip1 }
-                            Was er uns aus Gna -- den ver -- heißt,
-}
-
-tenorLyricsOne = \lyricmode {\set stanza = 1
-                             \repeat unfold 8 { \skip1 }
-                             Gott Va -- ter, Sohn, Hei -- li -- gem Geist!
-                             \repeat unfold 31 { \skip1 }
-                             ihm tröst -- lich soll'n an -- han -- _ _ gen.
-                             \repeat unfold 7 { \skip1 }
-                             A -- men, wir wer -- dens er -- lan -- gen,
-}
-
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-                             \repeat unfold 8 { \skip1 }
-                             Was er uns aus Gna -- den ver -- heißt,
-}
-
-bassLyricsOne = \lyricmode {\set stanza = 1
-                            \repeat unfold 8 { \skip1 }
-                            Gott Va -- ter, Sohn, Hei -- li -- gem Geist!
-                            \repeat unfold 31 { \skip1 }
-                            ihm tröst -- lich soll'n an -- han -- _ _ gen.
-                            \repeat unfold 7 { \skip1 }
-                            A -- men, wir wer -- dens er -- lan -- gen,
-}
-
-bassLyricsTwo = \lyricmode {\set stanza = 2
-                            \repeat unfold 8 { \skip1 }
-                            Was er uns aus Gna -- den ver -- heißt,
-}
+bassLyricsTwo = \lyricmode {
+      \set stanza = 2
+   Der woll' in uns _ ver -- meh -- _ _ ren, Was er uns _ aus _ Gna -- den ver - heißt,
+    }

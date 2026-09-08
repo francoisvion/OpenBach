@@ -1,5 +1,4 @@
 sopranoMusic = {
-  \voiceOne
   \repeat volta 2 {
     d''4 a' d'' d''
     e'' c'' b'2
@@ -18,28 +17,26 @@ sopranoMusic = {
 }
 
 altoMusic = {
-  \voiceTwo
   \repeat volta 2 {
     f'4 a' a' gis'8 [a']
     b' [e'] e'4 f' e'8 [d']
     cis'2\fermata d'4 d'8 [c']
-    d' e'4 d'8 d'4 cis'
+    d' [e'] e' [d'] d'4 cis'
     a1\fermata }
   d'4 e' f' f'
   f'8 g'4 f'8 f'4 d'
-  c'2\fermata d'4. c'8~
-  c' [f'] a'4. g'4 f'8~
+  c'2\fermata d'4. c'8
+  c' [f'] a'4 a'8 [g'] g' [f']
   f' [e'16 d'] e'4 c'2\fermata
-  f'4 f' g'4. f'8
+  f'4 f' g'4 g'8 [f']
   f'4 f'8 [e'] e'2\fermata
   f'8 [g'] a'4 g' f'
   e' e' fis'2\fermata \fine
 }
 
 tenorMusic = {
-  \voiceOne
   \repeat volta 2 {
-    a4 f'8 [e'] d' [c'] b4~
+    a4 f'8 [e'] d' [c'] b4
     b4. a8 a4 gis
     e2\fermata a4 a
     d8 [a] a4 bes a8. [g16]
@@ -56,7 +53,6 @@ tenorMusic = {
 }
 
 bassMusic = {
-  \voiceTwo
   \repeat volta 2 {
     d4. c8 b,4. a,8
     gis,4 a, d e
@@ -70,44 +66,48 @@ bassMusic = {
   bes c' f2\fermata
   f8 [e] d4 e8 [c] f4
   bes8 [a] gis4 a2\fermata
-  f8 [e] d4~ d8 [cis] d [f]
+  f8 [e] d4 d8 [cis] d [f]
   g [e] a4 d2\fermata \fine
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Du, o schö -- nes Welt ge -- bäu -- de, magst ge -- fal -- len wem du willst,
-                               De -- nen, die den Him -- mel has -- sen, will ich ih -- re Welt -- lust las -- sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein. }
+   Du, o schö -- nes Welt ge -- bäu -- de,
+   magst ge -- fal -- len wem du willst,
+   De -- nen, die den Him -- mel has -- sen,
+   will ich ih -- re Welt -- lust las -- sen,
+   mich ver -- langt nach dir al -- lein,
+   al -- ler -- schön -- ster Je -- su mein. }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               dei -- ne schein -- bar -- li -- che -- Freu -- de, ist mit lau -- ter Angst um -- hüllt.  }
+   dei -- ne schein -- bar -- li -- che -- Freu -- de,
+   ist mit lau -- ter Angst um -- hüllt.  }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Du, o schö -- nes Welt ge -- bäu -- _ de, magst ge -- fal -- len _ wem du willst, De -- nen, die den Him -- mel _ has -- _ sen, will ich ih -- re Welt -- lust las -- sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
-}
+      \set stanza = 1
+   Du, o schö -- nes Welt ge -- bäu - de, magst ge -- fal -- len wem du willst, De -- nen, die den Him -- mel _ has - sen, will ich ih -- re Welt -- lust las - sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
+    }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  dei -- ne schein -- bar -- li -- che -- Freu -- _ de, ist mit lau -- ter _ Angst um -- hüllt.
-}
+      \set stanza = 2
+   dei -- ne schein -- bar -- li -- che -- Freu - de, ist mit lau -- ter Angst um -- hüllt.
+    }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Du, o schö -- nes Welt ge -- bäu -- de, magst ge -- fal -- len wem du willst,
-  De -- nen, die den Him -- mel has -- _ sen, will ich ih -- re Welt -- lust las -- _ sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
-}
+      \set stanza = 1
+   Du, o schö -- nes Welt ge -- bäu - de, magst ge -- fal -- len wem du willst, De -- nen, die den Him -- mel has - sen, will ich ih -- re Welt -- lust las - sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
+    }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  dei -- ne schein -- bar -- li -- che -- Freu -- de, ist mit lau -- ter Angst um -- hüllt.
-}
+      \set stanza = 2
+   dei -- ne schein -- bar -- li -- che -- Freu - de, ist mit lau -- ter Angst um -- hüllt.
+    }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Du, o schö -- nes Welt ge -- bäu -- _ de, magst ge -- fal -- len wem du willst, De -- nen, die den Him -- mel has -- _ sen, will ich ih -- re Welt -- lust las -- _ sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
-}
+      \set stanza = 1
+   Du, o schö -- nes Welt ge -- bäu - de, magst ge -- fal -- len wem du willst, De -- nen, die den Him -- mel has - sen, will ich ih -- re Welt -- lust las - sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
+    }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  dei -- ne schein -- bar -- li -- che -- Freu -- _ de, ist mit lau -- ter Angst um -- hüllt.
-}
+      \set stanza = 2
+   dei -- ne schein -- bar -- li -- che -- Freu - de, ist mit lau -- ter Angst um -- hüllt.
+    }

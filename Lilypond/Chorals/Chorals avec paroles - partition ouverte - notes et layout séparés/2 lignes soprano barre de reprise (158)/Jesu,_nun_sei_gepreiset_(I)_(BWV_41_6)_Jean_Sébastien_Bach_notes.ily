@@ -1,5 +1,4 @@
 sopranoMusic = {
-  \voiceOne
   \repeat volta 2 {
     \tempo \markup {\tiny \italic "Interludes instrumentaux absents"}
     \partial 4  e''4
@@ -40,7 +39,6 @@ sopranoMusic = {
 }
 
 altoMusic = {
-  \voiceTwo
   \repeat volta 2 {
     \partial 4  g'4
     g' g' g' g'
@@ -80,7 +78,6 @@ altoMusic = {
 }
 
 tenorMusic = {
-  \voiceOne
   \repeat volta 2 {
     \partial 4  c'4
     c'8 [d'] e'4 d' c'
@@ -120,7 +117,6 @@ tenorMusic = {
 }
 
 bassMusic = {
-  \voiceTwo
   \repeat volta 2 {
     \partial 4  c4
     c c' b bes

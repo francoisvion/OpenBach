@@ -1,5 +1,4 @@
 sopranoMusic = {
-  \voiceOne
   \repeat volta 2 {
     \partial 2  ees''4 d''8 [c'']
     g''4 f''8 [ees''] d''4 ees''8 [f'']
@@ -13,7 +12,6 @@ sopranoMusic = {
 }
 
 altoMusic = {
-  \voiceTwo
   \repeat volta 2 {
     \partial 2  g'4 f'
     ees'8 [f'] g'4 aes' g'8 [f']
@@ -28,7 +26,6 @@ altoMusic = {
 }
 
 tenorMusic = {
-  \voiceOne
   \repeat volta 2 {
     \partial 2 c'4 b
     c' c' c' b8 [c']
@@ -43,7 +40,6 @@ tenorMusic = {
 }
 
 bassMusic = {
-  \voiceTwo
   \repeat volta 2 {
     \partial 2 c4 d
     ees c f g8 [aes]
@@ -58,52 +54,43 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Nicht so Trau -- rig, nicht so sehr,
-                               mei -- ne See -- le, sei be -- trübt,
-                               Nimm für -- lieb mit dei -- nem Gott,
-                               hast du Gott, so hat's nicht Not.
+   Nicht so Trau -- rig, nicht so sehr,
+   mei -- ne See -- le, sei be -- trübt,
+   Nimm für -- lieb mit dei -- nem Gott,
+   hast du Gott, so hat's nicht Not.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               dass dir Gott Glück, Gut und Ehr'
-                               nicht so viel, wie Andern gibt;
+   dass dir Gott Glück, Gut und Ehr'
+   nicht so viel, wie An -- dern gibt;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Nicht so Trau -- rig, nicht so sehr,
-  mei -- ne See -- le, sei be -- trübt,
-  Nimm für -- lieb mit dei -- nem Gott,
-  hast du Gott, so hat's nicht Not.
-}
+      \set stanza = 1
+   Nicht so Trau -- rig, nicht so sehr, mei -- ne See -- le, sei be -- trübt, Nimm für -- lieb mit dei -- nem Gott, hast du Gott, so hat's nicht Not.
+    }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-                            dass dir Gott Glück, Gut und Ehr'
-                            nicht so viel, wie Andern gibt;
-}
+altoLyricsTwo = \lyricmode {
+      \set stanza = 2
+   dass dir Gott Glück, Gut und Ehr' nicht so viel, wie An -- dern gibt;
+    }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Nicht so Trau -- rig, nicht so sehr,
-  mei -- ne See -- le, sei be -- trübt,
-  Nimm für -- lieb mit dei -- nem Gott,
-  hast du Gott, so hat's nicht Not.
-}
+      \set stanza = 1
+   Nicht so Trau -- rig, nicht so sehr, mei -- ne See -- le, sei be -- trübt, Nimm für -- lieb mit dei -- nem Gott, hast du Gott, so hat's nicht Not.
+    }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-                             dass dir Gott Glück, Gut und Ehr'
-                             nicht so viel, wie Andern gibt;
-}
+tenorLyricsTwo = \lyricmode {
+      \set stanza = 2
+   dass dir Gott Glück, Gut und Ehr' nicht so viel, wie An -- dern gibt;
+    }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Nicht so Trau -- rig, nicht so sehr,
-  mei -- ne See -- le, sei be -- trübt,
-  Nimm für -- lieb mit dei -- nem Gott,
-  hast du Gott, so hat's nicht Not.
-}
+      \set stanza = 1
+   Nicht so Trau -- rig, nicht so sehr, mei -- ne See -- le, sei be -- trübt, Nimm für -- lieb mit dei -- nem Gott, hast du Gott, so hat's nicht Not.
+    }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-                            dass dir Gott Glück, Gut und Ehr'
-                            nicht so viel, wie Andern gibt;
-}
+bassLyricsTwo = \lyricmode {
+      \set stanza = 2
+   dass dir Gott Glück, Gut und Ehr' nicht so viel, wie An -- dern gibt;
+    }

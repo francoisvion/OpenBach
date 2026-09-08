@@ -1,5 +1,4 @@
 sopranoMusic = {
-  \voiceOne
   \tempo \markup{\tiny \italic "Interludes instrumentaux absents"}
   \once \textLengthOn s2.^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} }
   \repeat volta 2 {
@@ -27,7 +26,6 @@ sopranoMusic = {
 }
 
 altoMusic = {
-  \voiceTwo
   s2.
   \repeat volta 2 {
     a'4 f'2
@@ -54,7 +52,6 @@ altoMusic = {
 }
 
 tenorMusic = {
-  \voiceOne
   s2.
   \repeat volta 2 {
     f'4 c'2
@@ -81,7 +78,6 @@ tenorMusic = {
 }
 
 bassMusic = {
-  \voiceTwo
   s2.
   \repeat volta 2 {
     f8 [g] a4 f

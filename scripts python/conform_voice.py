@@ -267,9 +267,20 @@ def lyric_tokens_with_hyphens(body):
     (LilyPond's own way of writing a multi-word single syllable, e.g. a
     verse-number label fused with the first word: "16. Drum") and must be
     kept as ONE token even though it contains whitespace -- a naive
-    body.split() breaks it into two bogus half-tokens instead."""
+    body.split() breaks it into two bogus half-tokens instead.
+
+    "\\repeat unfold N {\\skip DURATION}" is how a stanza's text is made
+    to start N notes late (the earlier notes carry no syllable for this
+    stanza) -- each \\skip consumes one note-slot with no text, exactly
+    like this corpus's own "_" placeholder, so it's expanded to N "_"
+    tokens rather than being read as bogus words."""
     body = re.sub(r"\\tweak\s+\S+\s+\S+\s*", " ", body)
     body = re.sub(r"\\set\s+\S+\s*=\s*\S+\s*", " ", body)
+    body = re.sub(
+        r"\\repeat\s+unfold\s+(\d+)\s*\{\s*\\skip\s*\S+\s*\}",
+        lambda m: " ".join(["_"] * int(m.group(1))),
+        body,
+    )
     raw = re.findall(r'"[^"]*"|\S+', body)
     tokens = []
     hyphen_after = []

@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Es_spricht_der_Unweisen_Mund_wohl_(BWV_308)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
