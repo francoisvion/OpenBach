@@ -13,14 +13,14 @@ sopranoMusic = {
 
 altoMusic = {
   \repeat volta 2 {
-    g'4 g'8 [a'] g'4 g'~
+    g'4 g'8 [a'] g'4 g'
     g'8 [fis'16 e'] fis'4 g'2\fermata
     g'4 g'4. fis'8 g'4
-    a'4. g'4 fis'16 [e'] fis'4
+    a'4 a'8 [g'] g' [fis'16 e'] fis'4
     d'1\fermata }
-  g'4 g' g' fis'~
+  g'4 g' g' fis'
   fis' e' dis'2\fermata
-  e'8 [fis'] g'4. fis'8 g'4~
+  e'8 [fis'] g'4 g'8 [fis'] g'4
   g'8 [fis'16 e'] fis'4 d'2\fermata \fine
 }
 
@@ -41,7 +41,7 @@ bassMusic = {
   \repeat volta 2 {
     g8 [fis] e [dis] e [d] c [b,]
     a,4 d g,2\fermata
-    g,8 [a,] b, [c] d4 g~
+    g,8 [a,] b, [c] d4 g
     g8 [fis] g [b,] c4 d
     g,1\fermata }
   g,8 [a,] b, [c] d [e] fis [dis]
@@ -51,51 +51,49 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Mei -- nen Je -- sum lass' ich nicht,
-                               Je -- sus wird mich auch nicht las -- sen.
-                               Weiß ge -- wiss und glau -- be fest,
-                               dass mich Je -- sus auch nicht lässt.
+   Mei -- nen Je -- sum lass' ich nicht,
+   Je -- sus wird mich auch nicht las -- sen.
+   Weiß ge -- wiss und glau -- be fest,
+   dass mich Je -- sus auch nicht lässt.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               Je -- su hab' ich mich ver -- pflicht't,
-                               ich will ihn in's Her -- ze fas -- sen.                              
+   Je -- su hab' ich mich ver -- pflicht't,
+   ich will ihn in's Her -- ze fas -- sen.                              
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Mei -- nen Je -- sum lass' ich nicht, Je -- sus wird mich auch nicht las -- _ sen. Weiß ge -- wiss und glau -- be fest, dass mich Je -- sus auch nicht lässt.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Mei -- nen Je -- sum lass' ich nicht,
+   Je -- sus wird mich auch nicht las -- _ sen.
+   Weiß ge -- wiss und glau -- be fest,
+   dass mich Je -- sus auch nicht lässt.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Je -- su hab' ich mich ver -- pflicht't, ich will ihn in's Her -- ze fas -- _ sen.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   Je -- su hab' ich mich ver -- pflicht't,
+   ich will ihn in's Her -- ze fas -- _ sen.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Mei -- nen Je -- sum lass' ich nicht,
-  Je -- sus wird mich auch nicht las -- _ sen.
-  Weiß ge -- wiss und glau -- be fest,
-  dass mich Je -- sus auch nicht lässt.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Mei -- nen Je -- sum lass' ich nicht,
+   Je -- sus wird mich auch nicht las -- _ sen.
+   Weiß ge -- wiss und glau -- be fest,
+   dass mich Je -- sus auch nicht lässt.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Je -- su hab' ich mich ver -- pflicht't,
-  ich will ihn in's Her -- ze fas -- _ sen.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   Je -- su hab' ich mich ver -- pflicht't,
+   ich will ihn in's Her -- ze fas -- _ sen.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Mei -- nen Je -- sum lass' ich nicht,
-  Je -- sus wird mich auch nicht las -- sen.
-  Weiß ge -- wiss und glau -- be fest,
-  dass mich _ Je -- sus _ auch nicht lässt.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Mei -- nen Je -- sum lass' ich nicht,
+   Je -- sus wird mich auch nicht las -- _ sen.
+   Weiß ge -- wiss und glau -- be fest,
+   dass mich _ Je -- sus _ auch nicht lässt.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Je -- su hab' ich mich ver -- pflicht't,
-  ich will ihn in's Her -- ze fas -- sen.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   Je -- su hab' ich mich ver -- pflicht't,
+   ich will ihn in's Her -- ze fas -- _ sen.
 }
