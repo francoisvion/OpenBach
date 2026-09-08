@@ -59,6 +59,12 @@ def tokenize_events(body):
     in time order. bracket_group is an int id shared by a manual-beam group
     (opener note + every note inside the following [ ... ]); None if the
     note is not part of any bracket group."""
+    # a rest/skip glued straight onto the previous note's duration with no
+    # separating space (e.g. "e'2.r4") merges into one unmatchable token
+    # and silently drops the real note entirely (found via BWV_41_6 alto:
+    # a false "1 note short" report on a period the user confirmed correct
+    # by ear/eye) -- insert the missing space before splitting.
+    body = re.sub(r"([0-9.])(?=[rs]\d)", r"\1 ", body)
     spaced = body.replace("[", " [ ").replace("]", " ] ").replace("|", " ").replace("~", "~ ")
     tokens = spaced.split()
     events = []
