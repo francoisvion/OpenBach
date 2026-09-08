@@ -2,8 +2,7 @@ sopranoMusic = {
   \repeat volta 2 {
     g'4 g' fis' g'
     a' bes' a'2
-    g'\fermata }
-  \partial 32 * 16 bes'4 a'
+    g'\fermata } bes'4 a'
   g' bes' a' g'
   fis'2\fermata f'4 ees'
   d' g' g' fis'
@@ -23,8 +22,7 @@ altoMusic = {
   \repeat volta 2 {
     d'4 d' d' d'
     ees'8 [d'] d' [g'] g'4 fis'
-    d'2\fermata }
-  \partial 32 * 16 g'4 g'8 [fis']
+    d'2\fermata } g'4 g'8 [fis']
   g'4 g'8 [f'] ees' [d'] e'4
   d'2\fermata a8 [bes] c'4
   bes8 [c'] d'4 ees' d'
@@ -44,13 +42,12 @@ tenorMusic = {
   \repeat volta 2 {
     bes4 bes a bes
     c' bes8 [d'] ees'4 d'8 [c']
-    bes2\fermata }
-  \partial 32 * 16 d'4 d'8. [c'16]
+    bes2\fermata } d'4 d'8. [c'16]
   bes8 [c'] d'4 c' bes8 [a]
   a2\fermata f4 f
-  f bes a~ a16 [bes c'8]
+  f bes a a16 [bes c'8]
   bes2\fermata d'4 f'
-  f' f' ees'8 [c'] d' [bes]~
+  f' f' ees'8 [c'] d' [bes]
   bes [a16 g] a4 bes2\fermata
   d'4 c' c'8 [bes16 a] bes4
   a bes bes a
@@ -65,8 +62,7 @@ bassMusic = {
   \repeat volta 2 {
     g,8 [a,] bes, [c] d [c] bes, [g,]
     fis,4 g, c d
-    g,2\fermata }
-  \partial 32 * 16 g4 d
+    g,2\fermata } g4 d
   ees bes, c cis
   d2\fermata d8 [c] bes, [a,]
   bes, [a,] g, [bes,] c [a,] d4
@@ -83,21 +79,20 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Lass, o Herr, dein Ohr sich nei -- gen,
-                               und stoß mich nicht von dir hin,
-                               Weil ich arm und e -- lend bin.
-                               Hü -- te mei -- ne Seel und Le -- ben,
-                               die ich hei -- lig dir er -- ge -- ben,
-                               reiß mich dei -- nen Knecht aus Not,
-                               der auf dich nur hofft, o Gott!
+   Lass, o Herr, dein Ohr sich nei -- gen,
+   und stoß mich nicht von dir hin,
+   Weil ich arm und e -- lend bin.
+   Hü -- te mei -- ne Seel und Le -- ben,
+   die ich hei -- lig dir er -- ge -- ben,
+   reiß mich dei -- nen Knecht aus Not,
+   der auf dich nur hofft, o Gott!
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               dir mein Wort zu Her -- zen stei -- gen,
+   dir mein Wort zu Her -- zen stei -- gen,
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
+altoLyricsOne = \lyricmode {\set stanza = 1
   Lass, o Herr, dein Ohr sich nei -- _ gen,
   und stoß mich nicht von dir hin,
   Weil ich arm und e -- lend bin.
@@ -107,23 +102,11 @@ altoLyricsOne = \lyricmode {
   der auf dich nur hofft, o Gott!
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+altoLyricsTwo = \lyricmode {\set stanza = 2
   dir mein Wort zu Her -- zen stei -- _ gen,
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Lass, o Herr, dein Ohr sich nei -- _ gen, und stoß mich nicht von dir hin, Weil ich arm und e -- lend bin. Hü -- te mei -- ne Seel und Le -- ben, die ich hei -- lig dir er -- ge -- _ ben, reiß mich dei -- nen Knecht aus Not, der auf dich nur hofft, o Gott!
-}
-
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  dir mein Wort zu Her -- zen stei -- _ gen,
-}
-
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
+tenorLyricsOne = \lyricmode {\set stanza = 1
   Lass, o Herr, dein Ohr sich nei -- _ gen,
   und stoß mich nicht von dir hin,
   Weil ich arm und e -- lend bin.
@@ -133,7 +116,20 @@ bassLyricsOne = \lyricmode {
   der auf dich nur hofft, o Gott!
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+  dir mein Wort zu Her -- zen stei -- _ gen,
+}
+
+bassLyricsOne = \lyricmode {\set stanza = 1
+  Lass, o Herr, dein Ohr sich nei -- _ gen,
+  und stoß mich nicht von dir hin,
+  Weil ich arm und e -- lend bin.
+  Hü -- te mei -- ne Seel und Le -- _ ben,
+  die ich hei -- lig dir er -- ge -- _ ben,
+  reiß mich dei -- nen Knecht aus Not,
+  der auf dich nur hofft, o Gott!
+}
+
+bassLyricsTwo = \lyricmode {\set stanza = 2
   dir mein Wort zu Her -- zen stei -- _ gen,
 }
