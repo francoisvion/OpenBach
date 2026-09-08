@@ -8,8 +8,7 @@ sopranoMusic = {
     bes'2 d''4
     c''2 bes'4
     a'2.
-    g'2\fermata }
-  \partial 4  c''4
+    g'2\fermata } c''4
   c''2 c''4
   d''2 c''4
   bes' a' g'
@@ -28,20 +27,19 @@ sopranoMusic = {
 altoMusic = {
   \repeat volta 2 {
     \partial 4  d'8 [e']
-    f'2~ f'8 [e']
+    f'2 f'8 [e']
     d'4 a bes
     c'8 [ees'] d' [c'] b4
-    e'2\fermata e'8 [fis']
+    e'!2\fermata e'8 [fis']
     g' [fis'] g'2~
     g'4. fis'8 g'4
     g'2 fis'4
-    d'2\fermata }
-  \partial 4  g'4~
-  g'8 f'4 e'8 f'4~
-  f'8 [e'] f' [g'] a' [g']
-  f'2~ f'8 [e']
+    d'2\fermata } g'4~
+  g'8 f' f' [e'] f'4~
+  f'8 e' f' [g'] a' [g']
+  f'2 f'8 [e']
   c'2\fermata d'4
-  g'2 a'4~
+  g'2 a'4
   a'8 [d'] g'4 a'
   bes'8 [a'] g'4. fis'8
   g'4 d'4. c'8
@@ -62,8 +60,7 @@ tenorMusic = {
     d'4. c'8 bes [a]
     g [fis] g [a] d'4
     ees' d'8 [a] d' [c']
-    bes2\fermata }
-  \partial 4  c'8 [bes]
+    bes2\fermata } c'8 [bes]
   a4 bes c'~
   c' bes c'
   d'2 g8 [c']
@@ -72,8 +69,8 @@ tenorMusic = {
   d'2 ees'4
   f' ees'8 [d'] ees' [c']
   d' [ees'] f' [f] g4
-  a2\fermata d'4
-  d'8 [bes] ees'4 d'8 [bes]
+  a2\fermata d'4~	
+  d'8 bes ees'4 d'8 [bes]
   g4 c'8 [a] bes [d']
   ees' [d'] c' [bes] c' [a]
   b2\fermata \fine
@@ -89,8 +86,7 @@ bassMusic = {
     g,2 bes,4
     ees2 d4
     c d d,
-    g,2\fermata }
-  \partial 4  e4
+    g,2\fermata } e4
   f g a
   bes2 f8 [e]
   d [c] bes,4 c
@@ -107,64 +103,53 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Hilf, Gott, dass mir's ge -- lin -- gen,
-                               du ed -- ler Schö -- pfer mein, __ _
-                               dass ich mag fröh -- lich he -- _ ben an,
-                               von dei -- nem Wort zu sin -- _ _ _ _ gen,
-                               Herr, du wollst mir bei -- stahn. __ _    }
-
-altoVersoOneLyrics = \lyricmode {\set stanza = 1
-                                 \repeat unfold 10 {\skip1 }
-                                 ed -- _ _ ler Schö -- pfer mein,
+   Hilf, Gott, dass mir's ge -- lin -- gen,
+   du ed -- ler Schö -- pfer mein, __ _
+   dass ich mag fröh -- lich he -- _ ben an,
+   von dei -- nem Wort zu sin -- _ _ _ _ gen,
+   Herr, du wollst mir bei -- stahn. __ _
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               Die Wort' in Reim' zu brin -- gen,
-                               Zu Lob dem Na -- men dein, __ _
+   Die Wort' in Reim' zu brin -- gen,
+   Zu Lob dem Na -- men dein, __ _
 }
 
-altoVersoTwoLyrics = \lyricmode {\set stanza = 2
-                                 \repeat unfold 10 {\skip1 }
-                                 Lob _ _ dem Na -- men dein,
+altoLyricsOne = \lyricmode {\set stanza = 1
+  Hilf, Gott, dass mir's __ _ ge -- lin -- _ _ gen,
+  du ed -- _ _ ler Schö -- pfer mein,
+  dass ich __ _ mag fröh -- _ lich he -- ben an,
+  von dei -- nem Wort __ _ zu sin -- _ _ _ _ _ gen,
+  Herr, du wollst mir _ bei -- stahn. __ _ _
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Hilf, Gott, dass mir's ge -- lin -- _ _ gen, du ed -- ler Schö -- pfer mein, __ _ _ dass ich mag fröh -- lich he -- _ ben an, von dei -- nem Wort zu sin -- _ _ _ _ _ gen, Herr, du wollst mir _ bei -- stahn. __ _ _
+altoLyricsTwo = \lyricmode {\set stanza = 2
+  Die Wort' in Reim' __ _ zu brin -- _ _ gen,
+  Zu Lob __ _ _ dem Na -- men dein,
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Die Wort' in Reim' zu brin -- _ _ gen,
-  Zu Lob dem Na -- men dein, __ _ _
-}
-
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Hilf, Gott, dass mir's ge -- _ lin -- _ gen,
-  du ed -- _ ler Schö -- _ pfer mein, __ _ _ _
-  dass ich mag fröh -- lich he -- _ ben an,
+tenorLyricsOne = \lyricmode {\set stanza = 1
+  Hilf, Gott, dass mir's __ _ ge -- lin -- _ gen,
+  du ed -- _ _ _ _ ler Schö -- _ pfer mein,
+  dass ich __ _ mag fröh -- lich he -- ben an,
   von dei -- nem _ Wort zu sin -- _ _ _ _ _ gen,
   Herr, du _ wollst mir _ bei -- stahn. __ _ _ _
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Die Wort' in Reim' zu _ brin -- _ gen,
-  Zu Lob _ dem Na -- _ men dein, __ _ _ _
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+  Die Wort' in Reim' __ _ zu brin -- _ gen,
+  Zu Lob __ _ _ _ _ dem Na -- _ men dein,
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
+bassLyricsOne = \lyricmode {\set stanza = 1
   Hilf, Gott, dass mir's ge -- lin -- _ gen,
-  du ed -- ler Schö -- pfer mein, __ _ _ _
-  dass ich _ mag fröh -- lich he -- _ ben an,
+  du ed -- _ _ ler Schö -- _ pfer mein,
+  dass ich __ _ mag fröh -- lich he -- _ ben an,
   von dei -- _ nem Wort _ zu sin -- _ _ _ _ _ gen,
   Herr, du _ wollst mir bei -- stahn. __ _ _ _
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+bassLyricsTwo = \lyricmode {\set stanza = 2
   Die Wort' in Reim' zu brin -- _ gen,
-  Zu Lob dem Na -- men dein, __ _ _ _
+  Zu Lob __ _ _ dem Na -- _ men dein,
 }
