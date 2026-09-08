@@ -1,6 +1,6 @@
 sopranoMusic = {
   \repeat volta 2 {
-    b'4
+    \partial 4 b'4
     b' ais' b' cis''
     d'' cis'' b'\fermata b'
     cis'' cis'' fis'' e''
@@ -16,7 +16,7 @@ sopranoMusic = {
 
 altoMusic = {
   \repeat volta 2 {
-    fis'4
+    \partial 4 fis'4
     e' fis' fis' gis'8 [ais']
     b'4 ais' fis'\fermata fis'8 [gis']
     a'4 a'8 [g'] fis'4 gis'8 [ais']
@@ -32,7 +32,7 @@ altoMusic = {
 
 tenorMusic = {
   \repeat volta 2 {
-    d'4
+    \partial 4 d'4
     cis'8 [b] cis'4 d' e'
     fis'4. e'8 d'4\fermata d'
     e' a d'8 [cis'] b [cis']
@@ -48,7 +48,7 @@ tenorMusic = {
 
 bassMusic = {
   \repeat volta 2 {
-    b8 [a]
+    \partial 4 b8 [a]
     g4 fis8 [e] d4 cis
     b, fis, b,\fermata b
     a8 [g] fis [e] d4. cis8
@@ -63,48 +63,53 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Stärk mich mit dei -- nem Freu -- den -- geist,
-                               heil mich mit dei -- nen Wun -- den;
-                               und nimm mich einst, wenn dirs ge -- fällt,
-                               in wah -- ren Glau -- ben von der Welt
-                               zu dei -- nen Aus -- _ _ ser -- wähl -- ten! _ _
+   Stärk mich mit dei -- nem Freu -- den -- geist,
+   heil mich mit dei -- nen Wun -- den;
+   und nimm mich einst, wenn dirs ge -- fällt,
+   in wah -- ren Glau -- ben von der Welt
+   zu dei -- nen Aus -- _ _ ser -- wähl -- ten!
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               wasch mich mit dei -- nem To -- des -- schweiss
-                               in mei -- ner letz -- ten Stun -- den; 
-      
+   wasch mich mit dei -- nem To -- des -- schweiss
+   in mei -- ner letz -- ten Stun -- den;  
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Stärk mich mit dei -- nem Freu -- den -- geist, heil mich mit dei -- nen Wun -- den; und nimm mich einst, wenn dirs ge -- fällt, in wah -- ren Glau -- ben von der Welt zu dei -- nen Aus -- _ _ ser -- wähl -- ten! _ _
+altoLyricsOne = \lyricmode {\set stanza = 1
+  Stärk mich mit dei -- nem Freu -- den -- geist,
+  heil mich mit dei -- nen Wun -- den;
+  und nimm mich einst, wenn dirs ge -- fällt,
+  in wah -- ren Glau -- ben von der Welt
+  zu dei -- nen Aus -- _ _ ser -- wähl -- ten!
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  wasch mich mit dei -- nem To -- des -- schweiss
-  in mei -- ner letz -- ten Stun -- den;
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   wasch mich mit dei -- nem To -- des -- schweiss
+   in mei -- ner letz -- ten Stun -- den;
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Stärk mich mit dei -- nem Freu -- den -- geist, heil mich mit dei -- nen Wun -- _ den; und nimm mich einst, wenn dirs ge -- fällt, in wah -- ren Glau -- ben von der Welt zu dei -- nen Aus -- _ _ ser -- wähl -- ten! _ _ _
+tenorLyricsOne = \lyricmode {\set stanza = 1
+  Stärk mich mit dei -- nem Freu -- den -- geist,
+  heil mich mit dei -- nen Wun -- _ den;
+  und nimm mich einst, wenn dirs ge -- fällt,
+  in wah -- ren Glau -- ben von der Welt
+  zu dei -- nen Aus -- _ _ ser -- wähl -- _ ten!
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  wasch mich mit dei -- nem To -- des -- schweiss
-  in mei -- ner letz -- ten Stun -- _ den;
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   wasch mich mit dei -- nem To -- des -- schweiss
+   in mei -- ner letz -- ten Stun -- _ den;
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Stärk mich mit dei -- nem Freu -- den -- geist, heil mich mit dei -- nen Wun -- _ den; und nimm mich einst, wenn dirs ge -- fällt, in wah -- ren Glau -- ben von der Welt zu dei -- nen Aus -- _ _ ser -- wähl -- ten! _ _ _
+bassLyricsOne = \lyricmode {\set stanza = 1
+  Stärk mich mit dei -- nem Freu -- den -- geist,
+  heil mich mit dei -- nen Wun -- _ den;
+  und nimm mich einst, wenn dirs ge -- fällt,
+  in wah -- ren Glau -- ben von der Welt
+  zu dei -- nen Aus -- _ _ ser -- wähl -- _ ten!
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+bassLyricsTwo = \lyricmode {\set stanza = 2
   wasch mich mit dei -- nem To -- des -- schweiss
   in mei -- ner letz -- ten Stun -- _ den;
 }
