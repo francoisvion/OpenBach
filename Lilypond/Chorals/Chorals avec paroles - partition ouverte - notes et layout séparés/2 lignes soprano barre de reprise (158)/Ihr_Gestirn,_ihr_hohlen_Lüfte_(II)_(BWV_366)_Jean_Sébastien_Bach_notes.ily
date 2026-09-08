@@ -69,7 +69,7 @@ bassMusic = \relative c {
     a'2 a4\fermata
     d8 [e] f [e] d [cis]
     d2. ~
-    d8 [c] bes4 c
+    d8 c bes4 c
     f,2.\fermata
   }
   c'4 d e
@@ -83,51 +83,49 @@ bassMusic = \relative c {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Ihr Ge -- stirn', ihr hoh -- len Lüf -- te
-                               und du, lich -- tes Fir -- ma -- ment;
-                               Jauch -- zet fröh -- lich, lasst das Sin -- gen
-                               jetzt bis durch die Wol -- _ ken drin -- gen.
+   Ihr Ge -- stirn', ihr hoh -- len Lüf -- te
+   und du, lich -- tes Fir -- ma -- ment;
+   Jauch -- zet fröh -- lich, lasst das Sin -- gen
+   jetzt bis durch die Wol -- _ ken drin -- gen.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               tie -- fes Rund, ihr dun -- klen Klüf -- te,
-                               die der Wie -- der -- hall zer -- trennt.
+   tie -- fes Rund, ihr dun -- klen Klüf -- te,
+   die der Wie -- der -- hall zer -- trennt.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Ihr Ge -- stirn', ihr hoh -- _ len Lüf -- te und du, lich -- tes Fir -- ma -- ment; Jauch -- _ zet fröh -- _ lich, lasst _ das Sin -- gen jetzt bis durch _ die Wol -- _ ken drin -- gen.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Ihr Ge -- stirn', ihr hoh -- _ len Lüf -- te
+   und du, lich -- _ tes Fir -- ma -- ment;
+   Jauch -- _ zet __ fröh -- _ lich, lasst __ _ das Sin -- gen
+   jetzt bis durch __ _ die Wol -- _ ken drin -- gen.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  tie -- fes Rund, ihr dun -- _ klen Klüf -- te, die der Wie -- der -- hall zer -- trennt.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   tie -- fes Rund, ihr dun -- _ klen Klüf -- te,
+   die der Wie -- _ der -- hall zer -- trennt.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+tenorLyricsOne = \lyricmode {\set stanza = 1
   Ihr _ Ge -- stirn', ihr hoh -- _ len Lüf -- te
   und du, lich -- _ _ tes Fir -- ma -- ment;
   Jauch -- zet fröh -- _ lich, lasst das Sin -- gen
   jetzt bis durch die Wol -- _ ken drin -- gen.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  tie -- _ fes Rund, ihr dun -- _ klen Klüf -- te,
-  die der Wie -- _ _ der -- hall zer -- trennt.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   tie -- _ fes Rund, ihr dun -- _ klen Klüf -- te,
+   die der Wie -- _ _ der -- hall zer -- trennt.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
+bassLyricsOne = \lyricmode {\set stanza = 1
   Ihr _ Ge -- stirn', _ ihr hoh -- _ len Lüf -- te
-  und du, lich -- tes Fir -- ma -- ment;
+  und __ _ du, lich -- tes Fir -- ma -- ment;
   Jauch -- _ zet fröh -- _ lich, lasst _ das Sin -- gen
-  jetzt _ bis durch _ die Wol -- _ ken drin -- gen.
+  jetzt __ _ bis durch __ _ die Wol -- _ ken drin -- gen.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  tie -- _ fes Rund, _ ihr dun -- _ klen Klüf -- te,
-  die der Wie -- der -- hall zer -- trennt.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   tie -- _ fes Rund, _ ihr dun -- _ klen Klüf -- te,
+   die __ _ der Wie -- der -- hall zer -- trennt.
 }
