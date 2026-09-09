@@ -26,16 +26,16 @@ sopranoMusic = {
 altoMusic = {
   \repeat volta 2 {
     r4 d' e'8 g'4 fis'8
-    g'2\fermata r4 g'~
+    g'2\fermata r4 g'
     g'8 [fis'] g'4 g' fis'\fermata
-    r fis'4. e'4 d'8
+    r fis'4 fis'8 e'4 d'8
     d'4 d' d' cis'
-    d'\fermata d' d'8 [e'] fis'4~
+    d'\fermata d' d'8 [e'] fis'4
     fis'8 [e'] d' [e'] d'2
     d'1\fermata }
-  r4 g' g'8 a'4 g'8~
-  g' [fis'16 e'] fis'4\fermata r fis'~
-  fis' e'2 dis'4\fermata
+  r4 g' g'8 a'4 g'8
+  g' [fis'16 e'] fis'4\fermata r fis'
+  fis' e' e' dis'\fermata
   r fis' b8 [e'] dis'4
   e' b8 [c'] b2
   b\fermata r4 b8 [c']
@@ -44,7 +44,7 @@ altoMusic = {
   g'4 fis'\fermata r fis'
   g' d' d'8 [e'] fis' [e']
   d' [c'] d' [e'] fis'4\fermata a'~
-  a'8 g'4 fis'8 ~ fis' [e'] d' [e']
+  a'8 g'4 fis'8 ~ fis' e' d' [e']
   d'2 d'\fermata \fine
 }
 
@@ -53,7 +53,7 @@ tenorMusic = {
     r4 b b d'
     d'2\fermata r4 d'
     c' d' d'2\fermata
-    r4 d'8 [c'] b4 a~
+    r4 d'8 [c'] b4 a
     a8 g4 fis8 g [b] a [g]
     fis4\fermata d'8 [c'] b [cis'] d' [c']
     b4 b8 [a] a [b] c'4
@@ -61,11 +61,11 @@ tenorMusic = {
   r4 d' e'8 [d'] d'4
   d'2\fermata r4 b
   b b b2\fermata
-  r4 b8 [a] g c'4 b8~
+  r4 b8 [a] g [c'] c' [b]
   b [a] g [fis] fis [g] a4
   g2\fermata r4 g8 [a]
   b [a] a16 [b c'8] c'4 b\fermata
-  r d'8 e'4 d'8 d'4
+  r d'8 [e'] e' [d'] d'4
   d'2\fermata r4 d'
   d'4. c'8 b [c'] d'4
   g8 [a] b [c'16 b] a4\fermata d'
@@ -90,7 +90,7 @@ bassMusic = {
   c g,8 [a,] b,2
   e\fermata r4 e
   b,8 [c] d4 g,2\fermata
-  r4 g~ g8 [fis] g4
+  r4 g g8 [fis] g4
   d2\fermata r4 c
   b, fis, g, d8 [c]
   b, [a,] g,4 d\fermata fis
@@ -120,23 +120,36 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 }
 
 altoLyricsOne = \lyricmode {\set stanza = 1
-   Wer Gott ver -- _ traut hat wohl -- ge -- baut im Him -- mel und auf Er -- _ den, im Him -- mel und auf Er -- den; Da -- rum auf dich _ all Hoff -- nung ich ganz fest und steif tu set -- zen, Herr Je -- su Christ, Mein Trost du bist _ In To -- des -- noth und Schmer -- _ zen, In To -- des -- noth und Schmer -- zen.
+   Wer Gott ver -- _ traut
+   hat wohl -- ge -- baut __ _
+   im Him -- _ mel und auf Er -- _ den,
+   im Him -- mel und auf Er -- den;
+   Da -- rum __ _ auf dich __ _
+   all Hoff -- nung ich __ _
+   ganz fest und steif tu set -- zen,
+   Herr Je -- su Christ,
+   Mein Trost du bist _
+   In To -- des -- noth und Schmer -- _ zen,
+   In To -- des -- noth und Schmer -- zen.
 }
 
 altoLyricsTwo = \lyricmode {\set stanza = 2
-   wer sich ver -- _ lässt auf Je -- sum Christ, dem muss der Him -- mel wer -- _ den, dem muss der Him -- mel wer -- den.
+   wer sich ver -- _ lässt
+   auf Je -- sum Christ, __ _
+   dem muss __ _ der Him -- mel wer -- _ den,
+   dem muss der Him -- mel wer -- den.
 }
 
 tenorLyricsOne = \lyricmode {\set stanza = 1
    Wer Gott ver -- traut
    hat wohl -- ge -- baut
-   im Him -- mel und auf Er -- _ den,
+   im Him -- mel und __ _ auf Er -- _ den,
    im Him -- mel und auf Er -- _ den;
    Da -- rum auf dich
    all Hoff -- nung ich
    ganz fest und steif tu set -- _ zen,
    Herr Je -- su Christ, _
-   Mein Trost _ du bist
+   Mein Trost du bist
    In To -- des -- noth und Schmer -- _ zen,
    In To -- des -- noth und Schmer -- _ zen.
 }
@@ -144,12 +157,22 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
 tenorLyricsTwo = \lyricmode {\set stanza = 2
    wer sich ver -- lässt
    auf Je -- sum Christ,
-   dem muss der Him -- mel wer -- _ den,
+   dem muss der Him -- _ mel wer -- _ den,
    dem muss der Him -- mel wer -- _ den.
 }
 
 bassLyricsOne = \lyricmode {\set stanza = 1
-   Wer Gott ver -- traut hat wohl -- ge -- baut im Him -- mel und auf Er -- den, im Him -- mel und auf Er -- den; Da -- rum auf dich all Hoff -- nung ich ganz fest und steif tu set -- zen, Herr Je -- su Christ, Mein Trost du bist In To -- des -- noth und Schmer -- _ zen, In To -- des -- noth und Schmer -- zen.
+   Wer Gott ver -- traut
+   hat wohl -- ge -- baut
+   im Him -- mel und auf Er -- den,
+   im Him -- mel und auf Er -- den;
+   Da -- rum auf dich
+   all Hoff -- nung ich
+   ganz fest und steif tu set -- zen,
+   Herr Je -- su Christ,
+   Mein Trost du bist
+   In To -- des -- noth und Schmer -- _ zen,
+   In To -- des -- noth und Schmer -- zen.
 }
 
 bassLyricsTwo = \lyricmode {\set stanza = 2

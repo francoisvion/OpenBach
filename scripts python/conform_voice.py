@@ -252,6 +252,49 @@ def lyric_tokens(body):
     return out
 
 
+TWEAK_MARKUP_RE = re.compile(r"\\tweak\s+\S+\s+\S+\s+\\markup\s*\{")
+
+
+def strip_tweak_markup(body):
+    """"\\tweak PROPERTY \\markup{ ... }" (used instead of a plain quoted
+    string when the verse-number label needs its own font size, e.g.
+    "\\markup{\\concat{\\small "Texte 1. " "Du"}}") has a VALUE that spans
+    multiple whitespace-separated pieces with balanced braces -- the
+    simple "\\tweak PROPERTY VALUE" regex below only eats the first \\S+
+    token of it (just "\\markup{\\concat{\\small"), leaking the rest as
+    bogus "words" (found via BWV_77_6: exactly this pattern inflated the
+    real-token count for every period after it, not just the one
+    containing the markup, since token-to-period boundaries shift once
+    the count upstream is wrong). Only the LAST quoted string inside is
+    ever actually sung (earlier ones are pure verse-number decoration,
+    same convention as the plain-string case below) -- replace the whole
+    span with just that quoted string so it flows through as one normal
+    token."""
+    out = []
+    i = 0
+    while True:
+        m = TWEAK_MARKUP_RE.search(body, i)
+        if not m:
+            out.append(body[i:])
+            break
+        out.append(body[i:m.start()])
+        depth = 0
+        k = m.end() - 1
+        while True:
+            if body[k] == "{":
+                depth += 1
+            elif body[k] == "}":
+                depth -= 1
+                if depth == 0:
+                    break
+            k += 1
+        inner = body[m.end():k]
+        quoted = re.findall(r'"[^"]*"', inner)
+        out.append(" " + (quoted[-1] if quoted else "") + " ")
+        i = k + 1
+    return "".join(out)
+
+
 def lyric_tokens_with_hyphens(body):
     """Like lyric_tokens, but also returns two parallel lists of booleans:
     hyphen_after[i] is True if tokens[i] is immediately followed by a
@@ -280,6 +323,7 @@ def lyric_tokens_with_hyphens(body):
     stanza) -- each \\skip consumes one note-slot with no text, exactly
     like this corpus's own "_" placeholder, so it's expanded to N "_"
     tokens rather than being read as bogus words."""
+    body = strip_tweak_markup(body)
     body = re.sub(r"\\tweak\s+\S+\s+\S+\s*", " ", body)
     body = re.sub(r"\\set\s+\S+\s*=\s*\S+\s*", " ", body)
     body = re.sub(
