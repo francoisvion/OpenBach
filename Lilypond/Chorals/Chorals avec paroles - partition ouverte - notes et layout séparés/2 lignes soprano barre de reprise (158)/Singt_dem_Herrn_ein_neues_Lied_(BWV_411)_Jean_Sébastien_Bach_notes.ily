@@ -18,8 +18,8 @@ sopranoMusic = {
 altoMusic = {
   \repeat volta 2 {
     d'8 [c'] b [c'] d'4 d'
-    e'16 [fis'] g'4 fis'8 g'2\fermata
-    d'4 d'8 [g'] fis'4 a'
+    e'16 [fis' g'8]~g' fis' g'2\fermata
+    d'8 d' d' g' fis'4 a'
     b'8 [g'] e' [a'16 g'] fis'2\fermata }
   g'8 [e'] fis' [gis'] a'4 e'
   a'8 [gis'] a'4 a'8 [gis'16 fis'] gis'4
@@ -28,7 +28,7 @@ altoMusic = {
   e'2\fermata e'4. d'16 [c']
   d'8 g'4 f'16 [e'] a'4 g'
   g'2\fermata g'4 fis'
-  d' d' e'8 [fis'] g'4~
+  d' d' e'8 [fis'] g'4
   g'8 [fis'16 e'] fis'4 d'2\fermata \fine
 }
 
@@ -36,12 +36,12 @@ tenorMusic = {
   \repeat volta 2 {
     b8 [c'] d' [c'] b [c'] b [a]
     b4 e'8 [d'] d'2\fermata
-    b8 [a] g4 a d'~
+    b8 a g g a4 d'
     d'8 [cis'16 b] cis'4 a2\fermata }
   c'4 d' e'8 [d'] c' [b]
   a [b] c' [d'16 e'] f'8 [d'] b [e'16 d']
   c'2\fermata c'4 b
-  c' b4. a16 [gis] a4~
+  c' b4 b8 [a16 gis] a4
   a gis\fermata b8 [c'16 b] a4
   g8 [b] a16 [b c'8] d'4. f'8
   e'2\fermata d'4 a
@@ -53,13 +53,13 @@ bassMusic = {
   \repeat volta 2 {
     g8 [a] b [a] g [a] g [fis]
     e [d] c [d] g,2\fermata
-    g8 [fis] g [e] fis [e] d [e16 fis]
+    g8 fis g e fis [e d] e16 [fis]
     g8 [e] a4 d2\fermata }
   c'4. b8 a4. g8
   f4. e8 d [b,] e4
   a,2\fermata a,8 [c] e [d]
   c [b,] a, [gis,] a, [b,] c [d]
-  e2\fermata e8 [c] f4~
+  e2\fermata e8 [c] f4
   f8 [e] a [g] f [d] g4
   c2\fermata b,8 [c] d4
   g,8 g4 fis8 e [d] c [b,]
@@ -67,45 +67,57 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Singt dem Herrn ein neu -- es Lied:
-                               die Ge -- mei -- ne soll ihn lo -- ben,
-                               Is -- ra -- el er -- freu' sich des -- sen,
-                               wel -- cher ihn ge -- ma -- chet hat.
-                               und in Aeng -- sten schaf -- fet Rath:
-                               Sei -- ner soll er nicht ver -- ges -- sen.
+   Singt dem Herrn ein neu -- es Lied:
+   die Ge -- mei -- ne soll ihn lo -- ben,
+   Is -- ra -- el er -- freu' sich des -- sen,
+   wel -- cher ihn ge -- ma -- chet hat.
+   und in Aeng -- sten schaf -- fet Rath:
+   Sei -- ner soll er nicht ver -- ges -- sen.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               weil er ih -- ren Gren -- zen Fried'
-                               hat ver -- lie -- hen hoch von o -- ben.
+   weil er ih -- ren Gren -- zen Fried'
+   hat ver -- lie -- hen hoch von o -- ben.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Singt dem Herrn ein neu -- es _ Lied: die Ge -- mei -- ne soll ihn lo -- ben, Is -- ra -- el er -- freu' sich des -- _ sen, wel -- cher ihn ge -- ma -- chet hat. und in Aeng -- sten _ schaf -- fet Rath: Sei -- ner soll er nicht ver -- ges -- sen.
+altoLyricsOne = \lyricmode {\set stanza = 1
+  Singt dem Herrn ein neu -- es Lied:
+  die Ge -- mei -- ne soll ihn lo -- _ ben,
+  Is -- ra -- el er -- freu' sich des -- _ sen,
+  wel -- cher ihn ge -- ma -- chet hat.
+  und in Aeng -- _ sten schaf -- fet Rath:
+  Sei -- ner soll er nicht ver -- ges -- _ sen.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  weil er ih -- ren Gren -- zen _ Fried' hat ver -- lie -- hen hoch von o -- ben.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+  weil er ih -- ren Gren -- zen Fried'
+  hat ver -- lie -- hen hoch von o -- _ ben.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Singt dem Herrn ein neu -- es Lied: die Ge -- mei -- ne soll ihn lo -- ben, Is -- ra -- el er -- freu' sich des -- _ sen, wel -- cher ihn ge -- ma -- chet hat. und in Aeng -- sten schaf -- fet Rath: Sei -- ner soll er nicht ver -- ges -- _ sen.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+  Singt dem Herrn ein neu -- es Lied:
+  die Ge -- mei -- ne soll ihn lo -- _ ben,
+  Is -- ra -- el er -- freu' sich des -- _ sen,
+  wel -- cher ihn ge -- ma -- chet hat. __ _
+  und in Aeng -- sten schaf -- fet Rath:
+  Sei -- ner soll er nicht ver -- ges -- _ sen.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  weil er ih -- ren Gren -- zen Fried' hat ver -- lie -- hen hoch von o -- ben.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+  weil er ih -- ren Gren -- zen Fried'
+  hat ver -- lie -- hen hoch von o -- _ ben.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Singt dem Herrn ein neu -- es Lied: die Ge -- mei -- ne soll ihn lo -- ben, Is -- ra -- el er -- freu' sich des -- _ sen, wel -- cher ihn ge -- ma -- chet hat. und in Aeng -- sten schaf -- fet Rath: Sei -- ner soll er _ nicht ver -- ges -- _ sen.
+bassLyricsOne = \lyricmode {\set stanza = 1
+  Singt dem Herrn ein neu -- es Lied:
+  die Ge -- mei -- ne soll ihn lo -- _ ben,
+  Is -- ra -- el er -- freu' sich des -- _ sen,
+  wel -- cher ihn ge -- ma -- chet hat.
+  und in Aeng -- sten schaf -- fet Rath:
+  Sei -- ner soll er _ nicht ver -- ges -- _ sen.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  weil er ih -- ren Gren -- zen Fried' hat ver -- lie -- hen hoch von o -- ben.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+  weil er ih -- ren Gren -- zen Fried'
+  hat ver -- lie -- hen hoch von o -- _ ben.
 }
