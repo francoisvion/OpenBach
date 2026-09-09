@@ -34,29 +34,29 @@ altoMusic = {
     e'4 e' e' e'
     e'8 [fis'16 gis'] a'4 a' gis'
     e'2\fermata g'4 g'
-    a'8 [g'] f'4. e'4 d'16 [c']
+    a'8 [g'] f'4 f'8 [e']~e' [d'16 c']
     b1\fermata }
   r4 b c'8 [b] c'4
-  d'8 [e']~ e' [d']~ d' [c']~ c' [b]
+  d'8 [e'] e' [d'] d' c'4 b8
   g2\fermata r4 g
-  c'~ c'8 [e'] f'4~ f'8 e'
-  e' [a'16 gis'] a'4~ a'8 [gis'16 fis'] gis'4
-  e'2\fermata gis'4 a'~
-  a'8 [g'] f'4 e'~ e'8 [d']
+  c' c'8 [e'] f'4 f'8 [e']
+  e' [a'16 gis'] a'4~ a'8 gis'16 [fis'] gis'4
+  e'2\fermata gis'4 a'
+  a'8 [g'] f'4 e' e'8 [d']
   cis'2\fermata r4 f'8 [e']
-  d'4~ d'8 [c'] d'4 d'
+  d'4 d'8 [c'] d'4 d'
   c'2\fermata r4 e'
-  d'~ d'8 [c'16 b] a4 d'8 [b]
+  d' d'8 [c'16 b] a4 d'8 [b]
   c'2\fermata e'4 e'
-  e' e' e'8 [f'] g' [f']~
+  e' e' e'8 [f'] g' [f']
   f' [e']~ e' [d'16 c'] b4\fermata bes
-  c' f'~ f'8 [e']~ e' [d']
-  c'2\fermata e'4~ e'8 [d']
+  c' f'~ f'8 e'4 d'8
+  c'2\fermata e'4 e'8 [d']
   c'4 d' e'8 g'4 fis'8
   g'2\fermata g'4 g'
   a'8 [g'] f' [e'] d' [e'] a [d']
   cis'2\fermata r4 d'
-  d' c'8 [d'] e'4. d'16 [c']
+  d' c'8 [d'] e'4~e'8 d'16 [c']
   b1\fermata \fine
 }
 
@@ -65,29 +65,29 @@ tenorMusic = {
     b4 b c' b
     a4. e'8 f' [d'] b [e'16 d']
     c'2\fermata d'4 e'
-    f'8 [e'] d'4. c'16 [bes] a8 [b16 a]
+    f'8 [e'] d'4 d'8 [c'16 bes] a8 [b16 a]
     gis1\fermata }
   r4 g g c'8 [a]
   b4 c'8 [g] g4~ g8. [f16]
   e2\fermata r4 g
   g c' c'8 [d'] d'4
-  c'8 [d'] e'4~ e'8 [b] e' [d']
+  c'8 [d'] e'4~ e'8 b e' [d']
   c'2\fermata e'4 e'
-  d'~ d'8 [c'] bes4 a
-  a2\fermata r4 c'~
+  d' d'8 [c'] bes4 a
+  a2\fermata r4 c'
   c'8 [b] a4 a g8 [b]
   c'2\fermata r4 c'
   b g f8 [e] d [g]
   g2\fermata c'4 b
   c' b a d'
   g8 [c'16 b] a8 [b16 a] gis4\fermata g
-  a d'~ d'8 [b] c' [g]
+  a d'~ d'8 b c' [g]
   g2\fermata c'4 c'8 [bes]
   a [g] f4 g8 [e'] a [d'16 c']
   b2\fermata e'4 d'8 [e']
   f' [e'] d' [c'] b [cis'] d' [a]
   a2\fermata r4 a8 [g]
-  f [e] f4 e8 [a] a [b16 a]
+  f [e] f4 e8 [a]~a b16 [a]
   gis1\fermata \fine
 }
 
@@ -104,7 +104,7 @@ bassMusic = {
   e [d] e [c] f4 gis,
   a,8 [b,] c [d] e2
   a,\fermata e4 a8 [g]
-  f [e] d4~ d8 [cis] d [f]
+  f [e] d4~ d8 cis d [f]
   a2\fermata r4 f,
   g, a, d8 [c] b, [g,]
   a,2\fermata r4 a,
@@ -116,45 +116,68 @@ bassMusic = {
   c2\fermata c8 [d] e4
   f8 [e] d4 c d
   e2\fermata e8 [f] g4
-  d8 [e] f4~ f8 [e] d [f]
+  d8 [e] f4 f8 [e] d [f]
   a2\fermata r4 f8 [e]
   d4 a,8 [b,] c [cis] d4
   e1 \fermata \fine
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Mit -- ten wir im Le -- ben sind __ _
-                               mit dem Tod um -- fan -- _ gen;
-                               Das bist du, Herr, al -- lei -- _ ne.
-                               Uns reu -- et uns' -- re Mis -- se -- that, __ _
-                               die dich, Herr, er -- zür -- net hat.
-                               Hei -- li -- ger Her -- re Gott,
-                               hei -- li -- ger, star -- ker Gott,
-                               hei -- li -- ger, barm -- herz' -- ger Hei -- _ land,
-                               du e -- wi -- ger Gott,
-                               lass uns nicht ver -- sin -- _ ken
-                               in der bit -- tern To -- des -- noth.
-                               Ky -- rie e -- lei -- son!
+   Mit -- ten wir im Le -- ben sind __ _
+   mit dem Tod um -- fan -- _ gen;
+   Das bist du, Herr, al -- lei -- _ ne.
+   Uns reu -- et uns' -- re Mis -- se -- that, __ _
+   die dich, Herr, er -- zür -- net hat.
+   Hei -- li -- ger Her -- re Gott,
+   hei -- li -- ger, star -- ker Gott,
+   hei -- li -- ger, barm -- herz' -- ger Hei -- _ land,
+   du e -- wi -- ger Gott,
+   lass uns nicht ver -- sin -- _ ken
+   in der bit -- tern To -- des -- noth.
+   Ky -- rie e -- lei -- son!
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               Wen such'n wir, der Hül -- fe thu',  __ _
-                               dass wir Gnad' er -- lan -- _ gen?    }
+   Wen such'n wir, der Hül -- fe thu',  __ _
+   dass wir Gnad' er -- lan -- _ gen?
+}
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Mit -- ten wir im Le -- ben sind __ _ _ mit dem Tod um -- fan -- _ gen; Das bist du, Herr, al -- lei -- _ ne. Uns reu -- et uns' -- re Mis -- se -- that, __ die dich, Herr, er -- zür -- net hat. Hei -- li -- ger Her -- re Gott, hei -- li -- ger, star -- ker Gott, hei -- li -- ger, barm -- herz' -- ger Hei -- _ land, du e -- wi -- ger Gott, lass uns nicht ver -- sin -- _ ken in der bit -- tern To -- des -- noth. Ky -- rie _ e -- lei -- son!
+  Mit -- ten wir im Le -- ben sind __ _ _
+  mit dem Tod um -- fan -- gen;
+  Das bist du, Herr, al -- lei -- _ _ ne.
+  Uns reu -- et uns' -- re Mis -- se -- that, __ _ _
+  die dich, Herr, er -- zür -- net hat.
+  Hei -- li -- ger Her -- re Gott,
+  hei -- li -- ger, star -- ker Gott,
+  hei -- li -- ger, barm -- herz' -- ger Hei -- land,
+  du e -- _ wi -- ger Gott,
+  lass uns nicht ver -- sin -- _ _ ken
+  in der bit -- tern To -- des -- noth.
+  Ky -- rie _ e -- lei -- son!
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
   Wen such'n wir, der Hül -- fe thu', __ _ _
-  dass wir Gnad' er -- lan -- _ gen?
+  dass wir Gnad' er -- lan -- gen?
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Mit -- ten wir im Le -- ben sind __ _ _ mit dem Tod um -- fan -- _ gen; Das bist du, Herr, al -- lei ne. Uns reu -- et uns' -- re Mis -- se -- that, __ _ die dich, Herr, er -- zür -- net hat. Hei -- li -- ger Her -- re Gott, hei -- li -- ger, star -- ker Gott, hei -- li -- ger, barm -- herz' -- ger Hei -- _ land, du e -- wi -- ger Gott, lass uns nicht ver -- sin -- _ ken in der bit -- tern To -- des -- noth. Ky -- rie _ e -- lei -- son!
+  Mit -- ten wir im Le -- ben sind __ _ _
+  mit dem Tod um -- fan -- _ gen;
+  Das bist du, Herr, al -- lei -- ne.
+  Uns reu -- et uns' -- re Mis -- se -- that, __ _ _
+  die dich, Herr, er -- zür -- net hat.
+  Hei -- li -- ger Her -- re Gott,
+  hei -- li -- ger, star -- ker Gott,
+  hei -- li -- ger, barm -- herz' -- ger Hei -- _ land,
+  du e -- _ wi -- ger Gott,
+  lass uns nicht ver -- sin -- _ ken
+  in der bit -- tern To -- des -- noth.
+  Ky -- rie _ e -- lei -- son!
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -165,7 +188,18 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Mit -- ten wir im Le -- ben sind __ _ _ mit dem Tod um -- fan -- _ gen; Das bist du, Herr, al -- lei -- _ ne. Uns reu -- et uns' -- re Mis -- se -- that, __ _ die dich, Herr, er -- zür -- net hat. Hei -- li -- ger Her -- re Gott, hei -- li -- ger, star -- ker Gott, hei -- li -- ger, barm -- herz' -- ger Hei -- _ land, du e -- _ wi -- ger Gott, lass uns nicht ver -- sin -- _ ken in der bit -- tern To -- des -- noth. Ky -- rie _ e -- lei -- son!
+  Mit -- ten wir im Le -- ben sind __ _ _
+  mit dem Tod um -- fan -- _ gen;
+  Das bist du, Herr, al -- lei -- _ ne.
+  Uns reu -- et uns' -- re Mis -- se -- that, __ _
+  die dich, Herr, er -- zür -- net hat.
+  Hei -- li -- ger Her -- re Gott,
+  hei -- li -- ger, star -- ker Gott,
+  hei -- li -- ger, barm -- herz' -- ger Hei -- _ land,
+  du e -- _ wi -- ger Gott,
+  lass uns nicht ver -- sin -- _ ken
+  in der bit -- tern To -- des -- noth.
+  Ky -- rie _ e -- lei -- son!
 }
 
 bassLyricsTwo = \lyricmode {
