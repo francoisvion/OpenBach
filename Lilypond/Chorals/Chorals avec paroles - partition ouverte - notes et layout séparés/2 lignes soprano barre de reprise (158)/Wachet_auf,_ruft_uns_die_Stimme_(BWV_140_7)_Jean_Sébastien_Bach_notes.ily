@@ -33,10 +33,10 @@ altoMusic = {
       ees' d' bes2\fermata } r4 f'
     g'4. f'8 bes [c'] d'4
     c'2\fermata r4 d'8 [ees']
-    f'4 f'4. ees'4 d'8
+    f'4 f'4 f'8 ees'4 d'8
     bes2\fermata r4 d'
-    ees'4. d'8 ees'2\fermata r4 g'~
-    g'8 f'4 g'8 g'4\fermata g'8 [aes']
+    ees'4. d'8 ees'2\fermata r4 g'
+    g'8 [f'] f' [g'] g'4\fermata g'8 [aes']
     bes'4. aes'8 g'4\fermata g'8 [aes']
     bes' [aes'] bes' [g'] aes'4 ees'
     ees' d' bes2\fermata \fine }
@@ -67,7 +67,7 @@ tenorMusic = {
 bassMusic = {
   \shiftDurations #-1 #0 {
     \repeat volta 2 {
-      ees2~ ees8 [g] bes [aes]
+      ees2~ ees8 g bes aes
       g [f] ees [d] ees [c] f4
       bes,2\fermata r4 bes8 [aes]
       g [aes] g [f] ees4 ees'
@@ -91,7 +91,7 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
    mit Men -- schen und eng -- li -- schen Zun -- _ gen,
    mit Har -- fen und mit Zim -- beln schön
    Kein Aug hat je ge -- spürt,
-   kein Ohr hat mehr ge -- hört
+   kein Ohr hat je ge -- hört
    sol -- che Freu -- de,
    des sind wir froh,
    i -- o, i -- o,
@@ -109,7 +109,7 @@ altoLyricsOne = \lyricmode {\set stanza = 1
    mit Men -- schen und eng -- li -- schen Zun -- _ gen,
    mit Har -- fen und mit Zim -- beln schön
    Kein Aug hat je ge -- spürt,
-   kein Ohr hat mehr ge -- hört
+   kein Ohr hat je __ _ ge -- hört
    sol -- che Freu -- de,
    des sind wir froh,
    i -- o, i -- o,
@@ -127,7 +127,7 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
    mit Men -- schen und eng -- li -- schen Zun -- _ gen,
    mit Har -- fen und mit Zim -- beln schön
    Kein Aug hat je ge -- spürt,
-   kein Ohr hat mehr ge -- _ hört
+   kein Ohr hat je __ _ ge -- hört
    sol -- che Freu -- de,
    des sind wir froh,
    i -- o, i -- o,
@@ -141,9 +141,19 @@ tenorLyricsTwo = \lyricmode {\set stanza = 2
 }
 
 bassLyricsOne = \lyricmode {\set stanza = 1
-   Glo -- ri -- a sei dir ge -- sun -- gen mit Men -- schen und eng -- li -- schen Zun -- _ gen, mit Har -- fen und mit Zim -- beln schön Kein Aug hat je ge -- spürt, kein Ohr hat mehr ge -- hört sol -- che Freu -- de, des sind wir froh, i -- o, i -- o, e -- wig in dul -- ci ju -- bi -- lo.
+   Glo -- ri -- a sei dir ge -- sun -- _ gen
+   mit Men -- schen und eng -- li -- schen Zun -- _ gen,
+   mit Har -- fen und mit Zim -- beln schön
+   Kein Aug hat je ge -- spürt,
+   kein Ohr hat je ge -- hört
+   sol -- che Freu -- de,
+   des sind wir froh,
+   i -- o, i -- o,
+   e -- wig in dul -- ci ju -- bi -- lo.
 }
 
 bassLyricsTwo = \lyricmode {\set stanza = 2
-   Von zwölf Per -- len sind die Pfor -- ten an dei -- ner Stadt sind wir Kon -- sor -- _ ten der En -- gel hoch um dei -- nen Thron.
+   Von zwölf Per -- len sind die Pfor -- _ ten
+   an dei -- ner Stadt sind wir Kon -- sor -- _ ten
+   der En -- gel hoch um dei -- nen Thron.
 }
