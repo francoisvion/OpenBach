@@ -1,5 +1,6 @@
 sopranoMusic = {
   \repeat volta 2 {
+  \repeat volta 2 {
     \partial 4  f'8 [g']
     a'4 bes' c'' c''
     d'' e'' f''\fermata f'8 [g']
@@ -10,10 +11,11 @@ sopranoMusic = {
   g' a' bes' bes'
   a' a' g'\fermata c''
   d'' e'' f'' a'
-  g'4 g' f'\fermata \fine
+  g'4 g' f'\fermata }
 }
 
 altoMusic = {
+  \repeat volta 2 {
   \repeat volta 2 {
     \partial 4  c'4
     f' e' f' a'
@@ -25,10 +27,11 @@ altoMusic = {
   g' g' fis' g'
   g' fis' d'\fermata f'
   f' c''8 [bes'] a' [g'] f'4
-  f' e' c'\fermata \fine
+  f' e' c'\fermata }
 }
 
 tenorMusic = {
+  \repeat volta 2 {
   \repeat volta 2 {
     \partial 4  a8 [bes]
     c'4 bes a8 [c'] f'4
@@ -40,10 +43,11 @@ tenorMusic = {
   bes c' d' e'!
   a8 [bes] c'4 bes\fermata c'
   bes8 [a] g4 f8 [g] a [bes]
-  c' [g] c' [bes] a4\fermata \fine
+  c' [g] c' [bes] a4\fermata }
 }
 
 bassMusic = {
+  \repeat volta 2 {
   \repeat volta 2 {
     \partial 4  f4
     f g a f
@@ -55,69 +59,117 @@ bassMusic = {
   e ees d cis
   d d g,\fermata a,
   bes, c d8 [e] f4
-  c c f,\fermata \fine
+  c c f,\fermata }
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               \tweak X-offset #-4.0 \markup{"11. So"} -- lang ein Gott im Him -- mel lebt
-                               und ü -- ber al -- le Wol -- ken schwebt,
-                               Wird sol -- che Mar -- ter wäh -- ren:      
-                               Denn wird sich en -- den die -- se Pein,
-                               Wenn Gott nicht mehr wird e -- wig sein.
+   \tweak X-offset #-4.0 \markup{"11. So"} -- lang ein Gott im Him -- mel lebt
+   und ü -- ber al -- le Wol -- ken schwebt,
+   Wird sol -- che Mar -- ter wäh -- ren:      
+   Denn wird sich en -- den die -- se Pein,
+   Wenn Gott nicht mehr wird e -- wig sein.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               Es wird sie pla -- gen Kält und Hitz,
-                               Angst, Hun -- ger, Schre -- cken, Feu'r und Blitz
-                               und sie doch nicht ver -- zeh -- ren.
+   Es wird sie pla -- gen Kält und Hitz,
+   Angst, Hun -- ger, Schre -- cken, Feu'r und Blitz
+   und sie doch nicht ver -- zeh -- ren.
 }
 
-sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
-                                    \tweak X-offset #-4 \markup{"16. O"} E -- wig -- keit, du Don -- ner -- wort,
-                                    O Schwert, das durch die See -- le bohrt,
-                                    O An -- fang son -- der En -- de!      
-                                    Nimm du mich, wenn es dir ge -- fällt,
-                                    Herr Je -- su, in dein Freu -- den -- zelt!
+sopranoLyricsThree = \lyricmode {\set stanza = 1
+   \tweak X-offset #-4 \markup{"16. O"} E -- wig -- keit, du Don -- ner -- wort,
+   O Schwert, das durch die See -- le bohrt,
+   O An -- fang son -- der En -- de!      
+   Nimm du mich, wenn es dir ge -- fällt,
+   Herr Je -- su, in dein Freu -- den -- zelt!
 }
 
-sopranoVersoTwoLyrics = \lyricmode {\set stanza = 2
-                                    O E -- wig -- keit, Zeit oh -- ne Zeit,
-                                    ich weiß vor gro -- ßer Trau -- rigk -- eit
-                                    Nicht, wo ich mich hin -- wen -- de.
+sopranoLyricsFour = \lyricmode {\set stanza = 2
+   O E -- wig -- keit, Zeit oh -- ne Zeit,
+   ich weiß vor gro -- ßer Trau -- rig -- keit
+   Nicht, wo ich mich hin -- wen -- de.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  \markup{"11. So"} -- lang ein Gott im Him -- mel lebt und ü -- ber al -- le Wol -- ken schwebt, Wird sol -- che Mar -- ter wäh -- _ ren: Denn wird sich en -- den die -- se Pein, Wenn Gott nicht mehr wird e -- wig sein.
+altoLyricsOne = \lyricmode {\set stanza = 1
+  \markup{"11. So"} -- lang ein Gott im Him -- mel
+  lebt und ü -- ber al -- le Wol -- ken schwebt,
+  Wird sol -- che Mar -- ter wäh -- _ ren:
+  Denn wird sich en -- den die -- se Pein,
+  Wenn Gott nicht mehr wird e -- wig sein.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+altoLyricsTwo = \lyricmode {\set stanza = 2
   Es wird sie pla -- gen Kält und Hitz,
   Angst, Hun -- ger, Schre -- cken, Feu'r und Blitz
   und sie doch nicht ver -- zeh -- _ ren.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  \markup{"11. So"} -- lang ein Gott im Him -- mel lebt und ü -- ber al -- le Wol -- ken schwebt, Wird sol -- che Mar -- ter wäh -- _ ren: Denn wird sich en -- den die -- se Pein, Wenn Gott nicht mehr wird e -- wig sein.
+altoLyricsThree = \lyricmode {\set stanza = 1
+   \tweak X-offset #-4 \markup{"16. O"} E -- wig -- keit, du Don -- ner -- wort,
+   O Schwert, das durch die See -- le bohrt,
+   O An -- fang son -- der En -- _ de!      
+   Nimm du mich, wenn es dir ge -- fällt,
+   Herr Je -- su, in dein Freu -- den -- zelt!
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+altoLyricsFour = \lyricmode {\set stanza = 2
+   O E -- wig -- keit, Zeit oh -- ne Zeit,
+   ich weiß vor gro -- ßer Trau -- rig -- keit
+   Nicht, wo ich mich hin -- wen -- _ de.
+}
+
+tenorLyricsOne = \lyricmode {\set stanza = 1
+  \markup{"11. So"} -- lang ein Gott im Him -- mel
+  lebt und ü -- ber al -- le Wol -- ken schwebt,
+  Wird sol -- che Mar -- ter wäh -- _ ren:
+  Denn wird sich en -- den die -- se Pein,
+  Wenn Gott nicht mehr wird e -- wig sein.
+}
+
+tenorLyricsTwo = \lyricmode {\set stanza = 2
   Es wird sie pla -- gen Kält und Hitz,
   Angst, Hun -- ger, Schre -- cken, Feu'r und Blitz
   und sie doch nicht ver -- zeh -- _ ren.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  \markup{"11. So"} -- lang ein Gott im Him -- mel lebt und ü -- ber al -- le Wol -- ken schwebt, Wird sol -- che Mar -- ter wäh -- _ ren: Denn wird sich en -- den die -- se Pein, Wenn Gott nicht mehr wird e -- wig sein.
+tenorLyricsThree = \lyricmode {\set stanza = 1
+   \tweak X-offset #-4 \markup{"16. O"} E -- wig -- keit, du Don -- ner -- wort,
+   O Schwert, das durch die See -- le bohrt,
+   O An -- fang son -- der En -- _ de!      
+   Nimm du mich, wenn es dir ge -- fällt,
+   Herr Je -- su, in dein Freu -- den -- zelt!
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+tenorLyricsFour = \lyricmode {\set stanza = 2
+   O E -- wig -- keit, Zeit oh -- ne Zeit,
+   ich weiß vor gro -- ßer Trau -- rig -- keit
+   Nicht, wo ich mich hin -- wen -- _ de.
+}
+
+bassLyricsOne = \lyricmode {\set stanza = 1
+  \markup{"11. So"} -- lang ein Gott im Him -- mel
+  lebt und ü -- ber al -- le Wol -- ken schwebt,
+  Wird sol -- che Mar -- ter wäh -- _ ren:
+  Denn wird sich en -- den die -- se Pein,
+  Wenn Gott nicht mehr wird e -- wig sein.
+}
+
+bassLyricsTwo = \lyricmode {\set stanza = 2
   Es wird sie pla -- gen Kält und Hitz,
   Angst, Hun -- ger, Schre -- cken, Feu'r und Blitz
   und sie doch nicht ver -- zeh -- _ ren.
+}
+
+bassLyricsThree = \lyricmode {\set stanza = 1
+    \tweak X-offset #-4 \markup{"16. O"} E -- wig -- keit, du Don -- ner -- wort,
+    O Schwert, das durch die See -- le bohrt,
+    O An -- fang son -- der En -- _ de!      
+    Nimm du mich, wenn es dir ge -- fällt,
+    Herr Je -- su, in dein Freu -- den -- zelt!
+}
+
+bassLyricsFour = \lyricmode {\set stanza = 2
+    O E -- wig -- keit, Zeit oh -- ne Zeit,
+    ich weiß vor gro -- ßer Trau -- rig -- keit
+    Nicht, wo ich mich hin -- wen -- _ de.
 }
