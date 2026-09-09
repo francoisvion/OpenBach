@@ -26,21 +26,21 @@ altoMusic = {
     \partial 4  bes4
     c'4. b16 [c'] d'4. c'16 [d']
     ees'4. d'8 d'4\fermata g'~
-    g'8 f'4 ees' d'8 c' [d']
-    ees' [d'] ees'4 d'\fermata f'
-    f'8 [ees'16 d'] ees'8 bes4 ees'16 [d'] ees'4~
-    ees'8 [d'16 c'] d'4 bes\fermata } aes'
+    g'8 f'4 ees'8~ees' d'8 c' [d']
+    ees' [d'] ees'4 d'\fermata f'~
+    f'8 ees'16 [d'] ees'8 [bes] bes [ees'16 d'] ees'4~
+    ees'8 d'16 [c'] d'4 bes\fermata } aes'
   g'4 f' f' ees'
   ees'8 [des'] ees'4 ees'\fermata g'
   f' f' f' f'
   g' f'8 [ees'] d'4\fermata ees'8 [f']
-  g'4 aes' g' g'~
+  g'4 aes' g' g'
   g'8 [f'16 ees'] f'8 [d'] ees'4\fermata f'
   ees' ees' f' g'
-  c'8 [d'] ees'4. d'8\fermata f'4
-  f' f' g'8 [a'] bes'4~
+  c'8 [d'] ees'4 ees'8 [d']\fermata f'4
+  f' f' g'8 [a'] bes'4
   bes' a' g'\fermata ees'
-  d' ees' f'8 [d'] bes [ees']~
+  d' ees' f'8 [d'] bes [ees']
   ees' [d'16 c'] d'4 bes\fermata \fine
 }
 
@@ -53,9 +53,9 @@ tenorMusic = {
     c'8 [bes] c'4 bes\fermata aes
     aes8 g4 f8 ees4. bes8
     c' [aes] f [bes] g4\fermata } g8 [aes]
-  bes4 c'4. bes16 [aes] g4
+  bes4 c'4 c'8 [bes16 aes] g4
   aes aes bes\fermata c'
-  c'8 [bes] a4 bes8 [a] bes4~
+  c'8 [bes] a4 bes8 [a] bes4
   bes8 [a16 g] a4 bes\fermata bes
   ees' ees' ees'8 des'4 c'8
   c'4 d'8 [f'] c'4\fermata aes
@@ -72,16 +72,16 @@ bassMusic = {
     \partial 4  ees4
     aes8 [g] f4 b, c
     c fis, g,\fermata g
-    c8 [d] ees4 a,8 [b,] c4~
+    c8 [d] ees4 a,8 [b,] c4
     c f bes,\fermata f8 [ees]
     d [bes,] c [d] ees [d] c [bes,]
     aes, [f,] bes,4 ees,\fermata } ees,8 [f,]
   g,4 a, bes,8 [c] des4
   c8 [bes,] aes,4 ees\fermata c8 [bes,]
   a, [g,] f,4 bes,8 [c] d4
-  ees f bes,\fermata ees~
+  ees f bes,\fermata ees
   ees8 [des] c [d] ees4 e
-  f b, c\fermata des~
+  f b, c\fermata des
   des c bes,8 [aes,] g,4
   f, g,8 [aes,] bes,4\fermata bes
   a aes g4. f8
@@ -91,53 +91,73 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               O Mensch, be -- wein' dein' Sün -- de groß,
-                               da -- rum Chris -- tus sein's Va -- ters Schooß
-                               äu -- ßert und kam auf Er -- den,
-                               Den To -- ten er das Le -- ben gab
-                               und tat da -- bei all Krank -- heit ab,
-                               bis sich die Zeit her -- dran -- ge,
-                               Dass er für uns ge -- op -- fert würd',
-                               trüg' uns -- rer Sün -- den schwe -- re Bürd'
-                               Wohl an dem Kreu -- ze lan -- ge.
+   O Mensch, be -- wein' dein' Sün -- de groß,
+   da -- rum Chris -- tus sein's Va -- ters Schoß
+   äu -- ßert und kam auf Er -- den,
+   Den To -- ten er das Le -- ben gab
+   und tat da -- bei all Krank -- heit ab,
+   bis sich die Zeit her -- dran -- ge,
+   Dass er für uns ge -- op -- fert würd',
+   trüg' uns -- rer Sün -- den schwe -- re Bürd'
+   wohl an dem Kreu -- ze lan -- ge.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               Von ei -- ner Jung -- frau zart und rein
-                               für uns er hier ge -- bo -- ren ward,
-                               er wollt der Mitt -- ler wer -- den. 
+   Von ei -- ner Jung -- frau zart und rein
+   für uns er hier ge -- bo -- ren ward,
+   er wollt der Mitt -- ler wer -- den. 
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  O Mensch, be -- wein' dein' Sün -- de groß, da -- rum Chris -- tus sein's Va -- ters Schooß äu -- ßert und kam _ auf Er -- den, Den To -- ten er das Le -- ben gab und tat da -- bei all Krank -- heit ab, bis sich die Zeit her -- dran -- ge, Dass er für uns ge -- op -- fert würd', trüg' uns -- rer Sün -- den schwe -- re Bürd' Wohl an dem Kreu -- ze lan -- ge.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   O Mensch, be -- wein' dein' Sün -- de groß,
+   da -- rum Chris -- tus sein's Va -- ters Schoß
+   äu -- ßert und kam auf Er -- _ den,
+   Den To -- ten er das Le -- ben gab
+   und tat da -- bei all Krank -- heit ab,
+   bis sich die Zeit her -- dran -- _ ge,
+   Dass er für uns ge -- op -- fert würd',
+   trüg' uns -- rer Sün -- den schwe -- re Bürd'
+   wohl an dem Kreu -- ze lan -- _ ge.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Von ei -- ner Jung -- frau zart und rein
-  für uns er hier ge -- bo -- ren ward,
-  er wollt der Mitt -- _ ler wer -- den.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   Von ei -- ner Jung -- frau zart und rein
+   für uns er hier ge -- bo -- ren ward,
+   er wollt der Mitt -- ler wer -- _ den.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  O Mensch, be -- wein' dein' Sün -- de groß, da -- rum Chris -- tus sein's Va -- ters Schooß äu -- ßert und _ kam auf Er -- _ den, Den To -- ten er das Le -- ben gab und tat da -- bei all Krank -- heit ab, bis sich die Zeit her -- _ dran -- _ ge, Dass er für uns ge -- op -- fert würd', trüg' uns -- rer Sün -- den schwe -- re Bürd' Wohl an dem Kreu -- ze lan -- _ ge.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+  O Mensch, be -- wein' dein' Sün -- de groß,
+  da -- rum Chris -- tus sein's Va -- ters Schoß
+  äu -- ßert und _ kam auf Er -- _ den,
+  Den To -- ten er das Le -- ben gab
+  und tat da -- bei all Krank -- heit ab,
+  bis sich die Zeit her -- _ dran -- _ ge,
+  Dass er für uns ge -- op -- fert würd',
+  trüg' uns -- rer Sün -- den schwe -- re Bürd'
+  wohl an dem Kreu -- ze lan -- _ ge.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+tenorLyricsTwo = \lyricmode {\set stanza = 2
   Von ei -- ner Jung -- frau zart und rein
   für uns er hier ge -- bo -- ren ward,
   er wollt der _ Mitt -- ler wer -- _ den.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  O Mensch, be -- wein' dein' Sün -- de groß, da -- rum Chris -- tus sein's Va -- ters Schooß äu -- ßert und kam auf Er -- _ den, Den To -- ten er das Le -- ben gab und tat da -- bei all Krank -- heit ab, bis sich die Zeit her -- dran -- ge, Dass er für uns ge -- op -- fert würd', trüg' uns -- rer Sün -- den schwe -- re Bürd' Wohl an dem Kreu -- ze lan -- _ ge.
+bassLyricsOne = \lyricmode {\set stanza = 1
+  O Mensch, be -- wein' dein' Sün -- de groß,
+  da -- rum Chris -- tus sein's Va -- ters Schoß
+  äu -- ßert und kam auf Er -- _ den,
+  Den To -- ten er das Le -- ben gab
+  und tat da -- bei all Krank -- heit ab,
+  bis sich die Zeit her -- dran -- _ ge,
+  Dass er für uns ge -- op -- fert würd',
+  trüg' uns -- rer Sün -- den schwe -- re Bürd'
+  wohl an dem Kreu -- ze lan -- _ ge.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Von ei -- ner Jung -- frau zart und rein für uns er hier ge -- bo -- ren ward, er wollt der Mitt -- ler wer -- _ den.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+  Von ei -- ner Jung -- frau zart und rein
+  für uns er hier ge -- bo -- ren ward,
+  er wollt der Mitt -- ler wer -- _ den.
 }
