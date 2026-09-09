@@ -76,8 +76,8 @@
 
 \layout {
   \context {
-    \Staff
-    \consists "Merge_rests_engraver"
+    \Score
+    \numericTimeSignature
   }
 }
 \midi {}

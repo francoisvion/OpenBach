@@ -75,8 +75,8 @@ m\version "2.27.1"
 
 \layout {
   \context {
-    \Staff
-    \consists "Merge_rests_engraver"
+    \Score
+    \numericTimeSignature
   }
 }
 \midi {}
