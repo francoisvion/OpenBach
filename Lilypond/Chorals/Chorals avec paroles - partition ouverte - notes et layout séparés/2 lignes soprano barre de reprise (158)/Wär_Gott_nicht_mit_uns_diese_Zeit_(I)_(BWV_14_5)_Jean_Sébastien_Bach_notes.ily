@@ -24,7 +24,7 @@ altoMusic = {
   ees' a8 [d'] d'4\fermata d'
   g'8 [aes'] g' [f'] ees'4 d'8 [fis']
   g' d'4 cis'8 d'4\fermata d'
-  d' g' fis'8 [d'] g'4
+  d' g' fis'8 d' g'4
   g' fis' d'\fermata \fine
 }
 
@@ -34,12 +34,12 @@ tenorMusic = {
     d'4 d' ees' d'
     g8 g'4 f'8 ees'4\fermata ees'
     f' g' f'8 [ees'] d' [bes]
-    f'4 g'8 [f'16 ees'] d'4\fermata } c'
-  c'8 [bes] a [g] f4. g8
+    f'4 g'8 [f'16 ees'] d'4\fermata } c'~
+  c'8 bes a [g] f4. g8
   a g4 fis8 bes4\fermata b
   c' d' g8 [a] bes [a]
   g [a] bes [a] a4\fermata bes
-  bes8 [a] g4 a8 [bes16 c'] d'4
+  bes8 [a] g4 a8 [bes16 c'] d'8 d'
   d'4. c'8 b4\fermata \fine
 }
 
@@ -48,13 +48,13 @@ bassMusic = {
     \partial 4  g,4
     g8 [aes] g [f] ees [d] c [b,]
     c [ees] g [g,] c4\fermata c
-    d ees d8 [c] bes, ees~
+    d ees d8 [c] bes, [ees]
     ees d ees [f] bes,4\fermata } a,
   bes,8 [c] d [e] f [ees] d4
   c d g,\fermata g8 [f]
   ees4 d c g,
   g8 [f] e [a,] d4\fermata bes8 [a]
-  g [f] ees [d] c [bes,] a, [g,]
+  g [f] ees [d] c [bes,] a, g,
   d2 g,4\fermata \fine
 }
 
@@ -73,10 +73,10 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {\set stanza = 1
    Gott Lob und Dank, der nicht zu -- gab,
-   dass ihr Schlund _ uns möcht fan -- _ _ gen.
+   dass ihr __ _ Schlund uns möcht fan -- _ _ gen.
    Strick ist ent -- zwei und wir sind frei,
-   des Her -- ren Na -- men steht uns _ bei,
-   des Got -- tes Him -- mels und Er den.
+   des Her -- ren Na -- men steht __ _ uns bei,
+   des Got -- tes Him -- mels und Er -- _ den.
 }
 
 altoLyricsTwo = \lyricmode {\set stanza = 2
@@ -85,11 +85,11 @@ altoLyricsTwo = \lyricmode {\set stanza = 2
 }
 
 tenorLyricsOne = \lyricmode {\set stanza = 1
-   Gott Lob und Dank, der nicht zu -- _ gab,
+   Gott Lob und Dank, der nicht __ _ zu -- gab,
    dass ihr Schlund uns möcht fan -- _ gen.
-   Strick ist ent -- zwei und wir sind _ frei,
+   Strick ist ent -- zwei und wir __ _ sind frei,
    des Her -- ren Na -- men steht uns bei,
-   des Got -- tes Him -- mels und Er den.
+   des Got -- tes Him -- mels und Er -- _ den.
 }
 
 tenorLyricsTwo = \lyricmode {\set stanza = 2
@@ -98,7 +98,11 @@ tenorLyricsTwo = \lyricmode {\set stanza = 2
 }
 
 bassLyricsOne = \lyricmode {\set stanza = 1
-   Gott Lob und Dank, der nicht zu -- gab, dass ihr Schlund uns möcht fan -- _ _ gen. Strick ist ent -- zwei und wir sind frei, des Her -- ren Na -- men steht uns bei, des Got -- tes Him -- mels und Er -- _ den.
+   Gott Lob und Dank, der nicht zu -- gab,
+   dass ihr Schlund uns möcht fan -- _ _ gen.
+   Strick ist ent -- zwei und wir sind frei,
+   des Her -- ren Na -- men steht uns bei,
+   des Got -- tes Him -- mels und Er -- den.
 }
 
 bassLyricsTwo = \lyricmode {\set stanza = 2
