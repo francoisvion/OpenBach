@@ -20,9 +20,9 @@ altoMusic = {
     d' d'8. [c'16] b4\fermata b8 [cis']
     d' [f'] e' [fis'] g'4 d'8 [a16 b]
     c'2 b4\fermata } d'
-  g'8 a'4 g'16 [fis'] e'4 a'8 [fis']
-  e' g'4 fis'16 [e'] fis'4\fermata g'
-  g' g' a'8 [fis'] g' [a']~
+  g'8 [a']~a' g'16 [fis'] e'4 a'8 [fis']
+  e' [g']~g' fis'16 [e'] fis'4\fermata g'
+  g' g' a'8 [fis'] g' [a']
   a' g'4 fis'8 e'4\fermata e'
   e'8 [d'16 c'] b4 e'8 [d'] e' [fis']
   g'4. fis'8 d'4\fermata \fine
@@ -36,9 +36,9 @@ tenorMusic = {
     fis8 [gis] a4 d8 [e] fis4
     g a d\fermata } b
   e'8 [d'] d'4 cis' d'
-  b8 [e] a4 a\fermata d'~
+  b8 [e] a4 a\fermata d'
   d'8 [c'16 b] c'8 [e'] d' [c'] b [a]
-  b16 [c'] d'4 c'8 b4\fermata g
+  b16 [c' d'8]~d' c' b4\fermata g
   a g8 [a] b4 a
   d'~ d'8. [c'16] b4\fermata \fine
 }
@@ -50,7 +50,7 @@ bassMusic = {
     g,8 [b,] d4 g,\fermata e
     d a, b,8 [c] d4
     c8 [b,] a,4 g,\fermata } g8 [fis]
-  e [fis] g4~ g8 [a16 g] fis8 [b]
+  e [fis] g4 g8 [a16 g] fis8 [b]
   g4 a8 [a,] d4\fermata b,
   c8 [d] e4 fis8 [d] e [fis]
   g4 d e\fermata e
@@ -59,52 +59,53 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Nun freut euch, lie -- ben Chri -- sten g'mein,
-                               und lasst uns frö -- hlich sprin -- _ gen,
-                               was Gott an uns ge -- wen -- det hat
-                               und sei -- ne sü -- ße Wun -- der -- tat; gar teu'r hat er's er -- wor -- _ ben.
+   Nun freut euch, lie -- ben Chri -- sten g'mein,
+   und lasst uns frö -- hlich sprin -- _ gen,
+   was Gott an uns ge -- wen -- det hat
+   und sei -- ne sü -- ße Wun -- der -- tat;
+   gar teu'r hat er's er -- wor -- _ ben.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               dass wir ge -- trost und all in Ein
-                               mit Lust und Lie -- be sin -- _ gen:
+   dass wir ge -- trost und all in Ein
+   mit Lust und Lie -- be sin -- _ gen:
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Nun freut euch, lie -- ben Chri -- sten g'mein,
-  und lasst uns frö -- hlich sprin gen,
-  was Gott an _ uns ge -- wen -- det _ hat
-  und sei -- ne sü -- ße Wun -- der -- tat; gar teu'r hat er's er -- wor -- _ ben.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Nun freut euch, lie -- ben Chri -- sten g'mein,
+   und lasst uns frö -- hlich sprin gen,
+   was Gott an uns ge -- wen -- det hat
+   und sei -- ne sü -- ße Wun -- _ der -- tat;
+   gar teu'r hat er's er -- wor -- _ ben.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  dass wir ge -- trost und all in Ein
-  mit Lust und Lie -- be sin gen:
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   dass wir ge -- trost und all in Ein
+   mit Lust und Lie -- be sin gen:
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Nun freut euch, lie -- ben Chri -- sten g'mein,
+   und lasst uns frö -- hlich sprin -- _ gen,
+   was Gott an uns ge -- wen -- det hat
+   und sei -- ne sü -- ße Wun -- der -- tat;
+   gar teu'r hat er's er -- wor ben.
+}
+
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   dass wir ge -- trost und all in Ein
+   mit Lust und Lie -- be sin -- _ gen:
+}
+
+bassLyricsOne = \lyricmode {\set stanza = 1
   Nun freut euch, lie -- ben Chri -- sten g'mein,
   und lasst uns frö -- hlich sprin -- _ gen,
   was Gott an uns ge -- wen -- det hat
-  und sei -- ne sü -- ße Wun -- der -- tat; gar teu'r hat er's er -- wor ben.
+  und sei -- ne sü -- ße Wun -- der -- tat;
+  gar teu'r hat er's er -- wor -- _ ben.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  dass wir ge -- trost und all in Ein
-  mit Lust und Lie -- be sin -- _ gen:
-}
-
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Nun freut euch, lie -- ben Chri -- sten g'mein, und lasst uns frö -- hlich sprin -- _ gen, was Gott an uns ge -- wen -- det hat und sei -- ne sü -- ße Wun -- der -- tat; gar teu'r hat er's er -- wor -- _ ben.
-}
-
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+bassLyricsTwo = \lyricmode {\set stanza = 2
   dass wir ge -- trost und all in Ein
   mit Lust und Lie -- be sin -- _ gen:
 }
