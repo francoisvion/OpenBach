@@ -48,6 +48,8 @@
     }
     \new Lyrics \lyricsto "soprano" \sopranoLyricsOne
     \new Lyrics \lyricsto "soprano" \sopranoLyricsTwo
+    \new Lyrics \lyricsto "soprano" \sopranoLyricsThree
+    \new Lyrics \lyricsto "soprano" \sopranoLyricsFour
     \new Staff \with { \autoBeamOff instrumentName = "A" }
     {
       \clef treble
@@ -57,6 +59,8 @@
     }
     \new Lyrics \lyricsto "alto" \altoLyricsOne
     \new Lyrics \lyricsto "alto" \altoLyricsTwo
+    \new Lyrics \lyricsto "alto" \altoLyricsThree
+    \new Lyrics \lyricsto "alto" \altoLyricsFour
     \new Staff \with { \autoBeamOff instrumentName = "T" }
     {
       \clef "treble_8"
@@ -66,6 +70,8 @@
     }
     \new Lyrics \lyricsto "tenor" \tenorLyricsOne
     \new Lyrics \lyricsto "tenor" \tenorLyricsTwo
+    \new Lyrics \lyricsto "tenor" \tenorLyricsThree
+    \new Lyrics \lyricsto "tenor" \tenorLyricsFour
     \new Staff \with { \autoBeamOff instrumentName = "B" }
     {
       \clef bass
@@ -75,6 +81,8 @@
     }
     \new Lyrics \lyricsto "bass" \bassLyricsOne
     \new Lyrics \lyricsto "bass" \bassLyricsTwo
+    \new Lyrics \lyricsto "bass" \bassLyricsThree
+    \new Lyrics \lyricsto "bass" \bassLyricsFour
   >>
 }
 
