@@ -67,53 +67,47 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Muss ich sein be -- trü -- bet,
-                               So mich Je -- sus lie -- bet
-                               ist mir al -- ler Schmerz
-                               Wenn die Pein
-                               sich stel -- let ein,
-                               sei -- ne Lie -- be macht zu Freu -- den
-                               auch das bitt' -- re Lei -- den.
+   Muss ich sein be -- trü -- bet,
+   So mich Je -- sus lie -- bet
+   ist mir al -- ler Schmerz
+   Wenn die Pein
+   sich stel -- let ein,
+   sei -- ne Lie -- be macht zu Freu -- den
+   auch das bitt' -- re Lei -- den.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               ü -- ber Ho -- nig sü -- ße,
-                               tau -- send Zu -- cker -- küs -- se
-                               drü -- cket er ans Herz.
+   ü -- ber Ho -- nig sü -- ße,
+   tau -- send Zu -- cker -- küs -- se
+   drü -- cket er ans Herz.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Muss ich sein be -- trü -- _ bet, So mich Je -- sus lie -- _ bet ist mir al -- ler Schmerz Wenn die Pein sich stel -- let ein, sei -- ne Lie -- be macht zu Freu -- _ den auch das bitt' -- re Lei -- _ den.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Muss ich sein be -- trü -- _ bet, So mich Je -- sus lie -- _ bet ist mir al -- ler Schmerz Wenn die Pein sich stel -- let ein, sei -- ne Lie -- be macht zu Freu -- _ den auch das bitt' -- re Lei -- _ den.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  ü -- ber Ho -- nig sü -- _ ße,
-  tau -- send Zu -- cker -- küs -- _ se
-  drü -- cket er ans Herz.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   ü -- ber Ho -- nig sü -- _ ße,
+   tau -- send Zu -- cker -- küs -- _ se
+   drü -- cket er ans Herz.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Muss ich sein be -- trü -- _ bet, So mich Je -- sus lie -- _ bet ist mir al -- ler Schmerz Wenn die Pein sich stel -- let ein, sei -- ne Lie -- be macht zu Freu -- _ den auch das bitt' -- re Lei -- _ den.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Muss ich sein be -- trü -- _ bet, So mich Je -- sus lie -- _ bet ist mir al -- ler Schmerz Wenn die Pein sich stel -- let ein, sei -- ne Lie -- be macht zu Freu -- _ den auch das bitt' -- re Lei -- _ den.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  ü -- ber Ho -- nig sü -- _ ße,
-  tau -- send Zu -- cker -- küs -- _ se
-  drü -- cket er ans Herz.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   ü -- ber Ho -- nig sü -- _ ße,
+   tau -- send Zu -- cker -- küs -- _ se
+   drü -- cket er ans Herz.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Muss ich sein be -- trü -- _ bet, So mich Je -- sus lie -- _ bet ist mir al -- ler Schmerz Wenn die Pein sich stel -- let ein, sei -- ne Lie -- be macht zu Freu -- _ den auch das bitt' -- re Lei -- _ den.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Muss ich sein be -- trü -- _ bet, So mich Je -- sus lie -- _ bet ist mir al -- ler Schmerz Wenn die Pein sich stel -- let ein, sei -- ne Lie -- be macht zu Freu -- _ den auch das bitt' -- re Lei -- _ den.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  ü -- ber Ho -- nig sü -- _ ße,
-  tau -- send Zu -- cker -- küs -- _ se
-  drü -- cket er ans Herz.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   ü -- ber Ho -- nig sü -- _ ße,
+   tau -- send Zu -- cker -- küs -- _ se
+   drü -- cket er ans Herz.
 }

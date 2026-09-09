@@ -66,10 +66,11 @@ bassMusic = {
   e4 fis b,\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode { \set stanza = 1
-                                Wo Gott der Herr nicht bei uns hält, wenn uns -- re Fein -- de to -- ben,
-                                wo er Is -- ra -- els Schutz nicht ist, und sel -- ber bricht der Fein -- de List;
-                                so ists mit uns ver -- lo -- ren.}
+sopranoLyricsOne = \lyricmode {\set stanza = 1
+   Wo Gott der Herr nicht bei uns hält, wenn uns -- re Fein -- de to -- ben,
+   wo er Is -- ra -- els Schutz nicht ist, und sel -- ber bricht der Fein -- de List;
+   so ists mit uns ver -- lo -- ren.
+}
 
                                 sopranoLyricsTwo = \lyricmode { \set stanza = 2
                                                                 und er un -- srer Sach nicht zu -- fällt, im Him -- mel hoch dort o -- ben, }

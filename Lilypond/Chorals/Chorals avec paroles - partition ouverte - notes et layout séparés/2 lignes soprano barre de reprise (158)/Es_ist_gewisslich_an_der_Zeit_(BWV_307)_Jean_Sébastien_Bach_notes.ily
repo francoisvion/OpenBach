@@ -63,53 +63,53 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Es ist ge -- wiss -- lich an der Zeit,
-                               dass Got -- tes Sohn wird kom -- men
-                               Dann wird das La -- chen wer -- den teu'r,
-                               wenn Al -- les wird ver -- gehn in Feu'r,
-                               wie Pe -- trus da -- von zeu -- get.
+   Es ist ge -- wiss -- lich an der Zeit,
+   dass Got -- tes Sohn wird kom -- men
+   Dann wird das La -- chen wer -- den teu'r,
+   wenn Al -- les wird ver -- gehn in Feu'r,
+   wie Pe -- trus da -- von zeu -- get.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               In sei -- ner gros -- sen Herr -- lich -- keit,
-                               Zu rich -- ten Bös' und From -- men.
+   In sei -- ner gros -- sen Herr -- lich -- keit,
+   Zu rich -- ten Bös' und From -- men.
 }
 
 altoLyricsOne = \lyricmode {\set stanza = 1
-                            Es ist ge -- wiss -- lich an der Zeit,
-                            dass Got -- tes Sohn wird kom - men
-                            Dann wird das La -- chen wer -- den teu'r,
-                            wenn Al -- les wird ver -- gehn in Feu'r,
-                            wie Pe -- trus da -- von zeu -- _ get.
+   Es ist ge -- wiss -- lich an der Zeit,
+   dass Got -- tes Sohn wird kom - men
+   Dann wird das La -- chen wer -- den teu'r,
+   wenn Al -- les wird ver -- gehn in Feu'r,
+   wie Pe -- trus da -- von zeu -- _ get.
 }
 
 altoLyricsTwo = \lyricmode {\set stanza = 2
-                            In sei -- ner gros -- sen Herr -- lich -- keit,
-                            Zu rich -- ten Bös' und From - men.
+   In sei -- ner gros -- sen Herr -- lich -- keit,
+   Zu rich -- ten Bös' und From - men.
 }
 
 tenorLyricsOne = \lyricmode {\set stanza = 1
-                             Es ist ge -- wiss -- lich an der Zeit,
-                             dass Got -- tes Sohn wird kom - men
-                             Dann wird das La -- chen wer -- den teu'r,
-                             wenn Al -- les wird ver -- gehn in Feu'r,
-                             wie Pe -- trus da -- von zeu -- _ get.
+   Es ist ge -- wiss -- lich an der Zeit,
+   dass Got -- tes Sohn wird kom - men
+   Dann wird das La -- chen wer -- den teu'r,
+   wenn Al -- les wird ver -- gehn in Feu'r,
+   wie Pe -- trus da -- von zeu -- _ get.
 }
 
 tenorLyricsTwo = \lyricmode {\set stanza = 2
-                             In sei -- ner gros -- sen Herr -- lich -- keit,
-                             Zu rich -- ten Bös' und From - men.                          
+   In sei -- ner gros -- sen Herr -- lich -- keit,
+   Zu rich -- ten Bös' und From - men.
 }
 
 bassLyricsOne = \lyricmode {\set stanza = 1
-                            Es ist ge -- wiss -- lich an der Zeit,
-                            dass Got -- tes Sohn wird kom - men
-                            Dann wird das La -- chen wer -- den teu'r,
-                            wenn Al -- les wird ver -- gehn in Feu'r,
-                            wie Pe -- trus da -- von zeu -- _ get.
+   Es ist ge -- wiss -- lich an der Zeit,
+   dass Got -- tes Sohn wird kom - men
+   Dann wird das La -- chen wer -- den teu'r,
+   wenn Al -- les wird ver -- gehn in Feu'r,
+   wie Pe -- trus da -- von zeu -- _ get.
 }
 
 bassLyricsTwo = \lyricmode {\set stanza = 2
-                            In sei -- ner gros -- sen Herr -- lich -- keit,
-                            Zu rich -- ten Bös' und From - men.
+   In sei -- ner gros -- sen Herr -- lich -- keit,
+   Zu rich -- ten Bös' und From - men.
 }

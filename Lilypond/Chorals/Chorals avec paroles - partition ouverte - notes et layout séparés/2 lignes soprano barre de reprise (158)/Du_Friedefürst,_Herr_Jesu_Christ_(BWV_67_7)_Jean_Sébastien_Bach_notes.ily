@@ -55,55 +55,49 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Du Frie -- de -- fürst, Herr Je -- su Christ,
-                               wahr' Mensch und wah -- rer Gott,
-                               drum wir al -- lein im Na -- men dein
-                               zu dei -- nem Va -- _ _ ter schrei -- en.
+   Du Frie -- de -- fürst, Herr Je -- su Christ,
+   wahr' Mensch und wah -- rer Gott,
+   drum wir al -- lein im Na -- men dein
+   zu dei -- nem Va -- _ _ ter schrei -- en.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               ein star -- ker Noth -- hel -- fer du bist
-                               im Le -- ben und im Tod:
+   ein star -- ker Noth -- hel -- fer du bist
+   im Le -- ben und im Tod:
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Du Frie -- de -- fürst, Herr Je -- su Christ,
-  wahr' Mensch und wah -- rer Gott,
-  drum wir al -- lein im Na -- men dein
-  zu dei -- nem Va -- _ _ ter schrei -- _ en.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Du Frie -- de -- fürst, Herr Je -- su Christ,
+   wahr' Mensch und wah -- rer Gott,
+   drum wir al -- lein im Na -- men dein
+   zu dei -- nem Va -- _ _ ter schrei -- _ en.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  ein star -- ker Noth -- hel -- fer du bist
-  im Le -- ben und im Tod:
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   ein star -- ker Noth -- hel -- fer du bist
+   im Le -- ben und im Tod:
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Du Frie -- de -- fürst, Herr Je -- su Christ,
-  wahr' Mensch und wah -- rer Gott,
-  drum wir al -- lein im Na -- men dein
-  zu dei -- nem Va -- _ _ ter schrei -- en.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Du Frie -- de -- fürst, Herr Je -- su Christ,
+   wahr' Mensch und wah -- rer Gott,
+   drum wir al -- lein im Na -- men dein
+   zu dei -- nem Va -- _ _ ter schrei -- en.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  ein star -- ker Noth -- hel -- fer du bist
-  im Le -- ben und im Tod:
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   ein star -- ker Noth -- hel -- fer du bist
+   im Le -- ben und im Tod:
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Du Frie -- de -- fürst, Herr Je -- su Christ,
-  wahr' Mensch und wah -- rer Gott,
-  drum wir al -- lein im Na -- men dein
-  zu dei -- nem Va -- _ _ ter schrei -- _ en.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Du Frie -- de -- fürst, Herr Je -- su Christ,
+   wahr' Mensch und wah -- rer Gott,
+   drum wir al -- lein im Na -- men dein
+   zu dei -- nem Va -- _ _ ter schrei -- _ en.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  ein star -- ker Noth -- hel -- fer du bist
-  im Le -- ben und im Tod:
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   ein star -- ker Noth -- hel -- fer du bist
+   im Le -- ben und im Tod:
 }

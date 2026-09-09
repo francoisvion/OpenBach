@@ -75,71 +75,65 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Zwingt die Sai -- ten in Cy -- tha -- ra
-                               und lasst die sü -- ße Mu -- si -- ca
-                               ganz freu -- den -- reich er -- schal -- len,      
-                               Sin -- get,
-                               Sprin -- get,
-                               Ju -- bi -- lie -- ret, tri -- ump -- hie -- ret, dankt dem Her -- ren!
-                               Groß ist der Kö -- nig der Eh -- ren.
+   Zwingt die Sai -- ten in Cy -- tha -- ra
+   und lasst die sü -- ße Mu -- si -- ca
+   ganz freu -- den -- reich er -- schal -- len,
+   Sin -- get,
+   Sprin -- get,
+   Ju -- bi -- lie -- ret, tri -- ump -- hie -- ret, dankt dem Her -- ren!
+   Groß ist der Kö -- nig der Eh -- ren.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               dass ich mö -- ge mit Je -- su -- lein,
-                               dem wun -- der -- schö -- nen Bräut -- gam mein,
-                               in ste -- ter Lie -- be wal -- len!
+   dass ich mö -- ge mit Je -- su -- lein,
+   dem wun -- der -- schö -- nen Bräut -- gam mein,
+   in ste -- ter Lie -- be wal -- len!
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Zwingt die Sai -- ten in Cy -- tha -- ra
-  und lasst die sü -- ße Mu -- si -- ca
-  ganz freu -- den -- reich er -- schal -- _ len,
-  Sin -- get,
-  Sprin -- get,
-  Ju -- bi -- lie -- ret, tri -- ump -- hie -- ret, dankt dem Her -- _ ren!
-  Groß ist der Kö -- nig der Eh -- _ ren.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Zwingt die Sai -- ten in Cy -- tha -- ra
+   und lasst die sü -- ße Mu -- si -- ca
+   ganz freu -- den -- reich er -- schal -- _ len,
+   Sin -- get,
+   Sprin -- get,
+   Ju -- bi -- lie -- ret, tri -- ump -- hie -- ret, dankt dem Her -- _ ren!
+   Groß ist der Kö -- nig der Eh -- _ ren.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  dass ich mö -- ge mit Je -- su -- lein,
-  dem wun -- der -- schö -- nen Bräut -- gam mein,
-  in ste -- ter Lie -- be wal -- _ len!
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   dass ich mö -- ge mit Je -- su -- lein,
+   dem wun -- der -- schö -- nen Bräut -- gam mein,
+   in ste -- ter Lie -- be wal -- _ len!
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Zwingt die Sai -- ten in Cy -- tha -- ra
-  und lasst die sü -- ße Mu -- si -- ca
-  ganz freu -- den -- reich er -- schal -- _ len,
-  Sin -- get,
-  Sprin -- get,
-  Ju -- bi -- lie -- ret, tri -- ump -- hie -- ret, dankt dem Her -- _ ren!
-  Groß ist der Kö -- nig der Eh -- _ ren.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Zwingt die Sai -- ten in Cy -- tha -- ra
+   und lasst die sü -- ße Mu -- si -- ca
+   ganz freu -- den -- reich er -- schal -- _ len,
+   Sin -- get,
+   Sprin -- get,
+   Ju -- bi -- lie -- ret, tri -- ump -- hie -- ret, dankt dem Her -- _ ren!
+   Groß ist der Kö -- nig der Eh -- _ ren.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  dass ich mö -- ge mit Je -- su -- lein,
-  dem wun -- der -- schö -- nen Bräut -- gam mein,
-  in ste -- ter Lie -- be wal -- _ len!
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   dass ich mö -- ge mit Je -- su -- lein,
+   dem wun -- der -- schö -- nen Bräut -- gam mein,
+   in ste -- ter Lie -- be wal -- _ len!
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Zwingt die Sai -- ten in Cy -- tha -- ra
-  und lasst die sü -- ße Mu -- si -- ca
-  ganz freu -- den -- reich er -- schal -- len,
-  Sin -- get,
-  Sprin -- get,
-  Ju -- bi -- lie -- ret, tri -- ump -- hie -- ret, dankt dem Her -- _ ren!
-  Groß ist der Kö -- nig der Eh -- _ ren.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Zwingt die Sai -- ten in Cy -- tha -- ra
+   und lasst die sü -- ße Mu -- si -- ca
+   ganz freu -- den -- reich er -- schal -- len,
+   Sin -- get,
+   Sprin -- get,
+   Ju -- bi -- lie -- ret, tri -- ump -- hie -- ret, dankt dem Her -- _ ren!
+   Groß ist der Kö -- nig der Eh -- _ ren.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  dass ich mö -- ge mit Je -- su -- lein,
-  dem wun -- der -- schö -- nen Bräut -- gam mein,
-  in ste -- ter Lie -- be wal -- len!
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   dass ich mö -- ge mit Je -- su -- lein,
+   dem wun -- der -- schö -- nen Bräut -- gam mein,
+   in ste -- ter Lie -- be wal -- len!
 }

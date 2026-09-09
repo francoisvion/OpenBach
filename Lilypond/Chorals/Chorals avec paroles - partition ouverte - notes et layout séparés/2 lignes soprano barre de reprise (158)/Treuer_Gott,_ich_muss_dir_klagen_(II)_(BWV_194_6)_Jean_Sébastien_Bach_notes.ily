@@ -67,62 +67,56 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               \tweak X-offset #-5.0 "1. Heil" -- ger Geist ins Him -- mels Thro -- ne,
-                               Glei -- cher Gott von E -- wig -- keit
-                               Al -- len Glau -- ben, den ich find,
-                               hast du in mir an -- ge -- zündt,
-                               ü -- ber mir in Gna -- den wal -- te,
-                               fer -- ner dei -- ne Gnad er -- hal -- te.
+   \tweak X-offset #-5.0 "1. Heil" -- ger Geist ins Him -- mels Thro -- ne,
+   Glei -- cher Gott von E -- wig -- keit
+   Al -- len Glau -- ben, den ich find,
+   hast du in mir an -- ge -- zündt,
+   ü -- ber mir in Gna -- den wal -- te,
+   fer -- ner dei -- ne Gnad er -- hal -- te.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               mit dem Va -- ter und dem Soh -- ne,
-                               Der Be -- trüb -- ten Trost und Freud!
+   mit dem Va -- ter und dem Soh -- ne,
+   Der Be -- trüb -- ten Trost und Freud!
 }
 
 sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
-                                    \tweak X-offset #-4.0 "2. Dei" -- ne Hil -- fe zu mir sen -- de,
-                                    O du e -- dler Her -- zens -- gast!
-                                    Blas in mir das Fünk -- lein auf,
-                                    bis dass nach voll -- brach -- tem Lauf
-                                    ich den Au -- ser -- wähl -- ten glei -- che
-                                    und des Glau -- bens Ziel er -- rei -- che.
+   \tweak X-offset #-4.0 "2. Dei" -- ne Hil -- fe zu mir sen -- de,
+   O du e -- dler Her -- zens -- gast!
+   Blas in mir das Fünk -- lein auf,
+   bis dass nach voll -- brach -- tem Lauf
+   ich den Au -- ser -- wähl -- ten glei -- che
+   und des Glau -- bens Ziel er -- rei -- che.
 }
 
-sopranoVersoTwoLyrics = \lyricmode {\set stanza = 2 
-                                    Und das gu -- te Werk vol -- len -- de,
-                                    Das du an -- ge -- fan -- gen hast.
+sopranoVersoTwoLyrics = \lyricmode {\set stanza = 2
+   Und das gu -- te Werk vol -- len -- de,
+   Das du an -- ge -- fan -- gen hast.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  "1. Heil" -- ger Geist ins Him -- mels Thro -- ne, Glei -- cher Gott von E -- wig -- keit Al -- len Glau -- ben, den ich find, hast du in mir an -- ge -- zündt, ü -- ber mir in Gna -- den wal -- _ te, fer -- ner dei -- ne Gnad er -- hal -- te.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   "1. Heil" -- ger Geist ins Him -- mels Thro -- ne, Glei -- cher Gott von E -- wig -- keit Al -- len Glau -- ben, den ich find, hast du in mir an -- ge -- zündt, ü -- ber mir in Gna -- den wal -- _ te, fer -- ner dei -- ne Gnad er -- hal -- te.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  mit dem Va -- ter und dem Soh -- ne,
-  Der Be -- trüb -- ten Trost und Freud!
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   mit dem Va -- ter und dem Soh -- ne,
+   Der Be -- trüb -- ten Trost und Freud!
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  "1. Heil" -- ger Geist ins Him -- mels Thro -- ne, Glei -- cher Gott von E -- wig -- keit Al -- len Glau -- ben, den ich find, hast du in mir an -- ge -- zündt, ü -- ber mir in Gna -- den wal -- _ te, fer -- ner dei -- ne Gnad er -- hal -- _ te.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   "1. Heil" -- ger Geist ins Him -- mels Thro -- ne, Glei -- cher Gott von E -- wig -- keit Al -- len Glau -- ben, den ich find, hast du in mir an -- ge -- zündt, ü -- ber mir in Gna -- den wal -- _ te, fer -- ner dei -- ne Gnad er -- hal -- _ te.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  mit dem Va -- ter und dem Soh -- ne,
-  Der Be -- trüb -- ten Trost und Freud!
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   mit dem Va -- ter und dem Soh -- ne,
+   Der Be -- trüb -- ten Trost und Freud!
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  "1. Heil" -- ger Geist ins Him -- mels Thro -- ne, Glei -- cher Gott von E -- wig -- keit Al -- len Glau -- ben, den ich find, hast du in mir an -- ge -- zündt, ü -- ber mir in Gna -- den wal -- te, fer -- ner dei -- ne Gnad er -- hal -- _ te.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   "1. Heil" -- ger Geist ins Him -- mels Thro -- ne, Glei -- cher Gott von E -- wig -- keit Al -- len Glau -- ben, den ich find, hast du in mir an -- ge -- zündt, ü -- ber mir in Gna -- den wal -- te, fer -- ner dei -- ne Gnad er -- hal -- _ te.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  mit dem Va -- ter und dem Soh -- ne,
-  Der Be -- trüb -- ten Trost und Freud!
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   mit dem Va -- ter und dem Soh -- ne,
+   Der Be -- trüb -- ten Trost und Freud!
 }

@@ -71,62 +71,56 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               \tweak X-offset #-3.0 "1. O" Haupt voll Blut und Wun -- den,
-                               voll Schmerz und vol -- ler Hohn!
-                               O Haupt, sonst schön ge -- zie -- ret
-                               mit höch -- ster Ehr und Zier.
-                               jetzt ab -- er hoch schim -- pfi -- ret:
-                               ge -- grü -- sset seist du mir!
+   \tweak X-offset #-3.0 "1. O" Haupt voll Blut und Wun -- den,
+   voll Schmerz und vol -- ler Hohn!
+   O Haupt, sonst schön ge -- zie -- ret
+   mit höch -- ster Ehr und Zier.
+   jetzt ab -- er hoch schim -- pfi -- ret:
+   ge -- grü -- sset seist du mir!
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               O Haupt, zu Spott ge -- bun -- den
-                               mit ei -- ner Dor -- nen -- kron! 
+   O Haupt, zu Spott ge -- bun -- den
+   mit ei -- ner Dor -- nen -- kron!
 }
 
 sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
-                                    \tweak X-offset #-3.0 "2. Du" ed -- les An -- ge -- sich -- te,
-                                    Da -- für sonst schrickt und scheut 
-                                    Wie bist du so er -- blei -- chet!
-                                    Wer hat dein Au -- gen -- licht,
-                                    Dem sonst kein Licht nicht glei -- chet,
-                                    So schän -- dlich zu -- ge -- richt'?
+   \tweak X-offset #-3.0 "2. Du" ed -- les An -- ge -- sich -- te,
+   Da -- für sonst schrickt und scheut
+   Wie bist du so er -- blei -- chet!
+   Wer hat dein Au -- gen -- licht,
+   Dem sonst kein Licht nicht glei -- chet,
+   So schän -- dlich zu -- ge -- richt'?
 }
 
 sopranoVersoTwoLyrics = \lyricmode {\set stanza = 2
-                                    das gro -- ße Welt -- ge -- rich -- te,
-                                    wie bist du so be -- speit;
+   das gro -- ße Welt -- ge -- rich -- te,
+   wie bist du so be -- speit;
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  "1. O" Haupt voll Blut und Wun -- _ den, voll Schmerz und vol -- ler Hohn! O Haupt, sonst schön ge -- zie -- _ ret mit höch -- ster Ehr und Zier. jetzt ab -- er hoch schim -- pfi -- _ ret: ge -- grü -- sset seist du mir!
+altoLyricsOne = \lyricmode {\set stanza = 1
+   "1. O" Haupt voll Blut und Wun -- _ den, voll Schmerz und vol -- ler Hohn! O Haupt, sonst schön ge -- zie -- _ ret mit höch -- ster Ehr und Zier. jetzt ab -- er hoch schim -- pfi -- _ ret: ge -- grü -- sset seist du mir!
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  O Haupt, zu Spott ge -- bun -- _ den
-  mit ei -- ner Dor -- nen -- kron!
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   O Haupt, zu Spott ge -- bun -- _ den
+   mit ei -- ner Dor -- nen -- kron!
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  "1. O" Haupt voll Blut und Wun -- _ den, voll Schmerz und vol -- ler Hohn! O Haupt, sonst schön ge -- zie -- _ ret mit höch -- ster Ehr und Zier. jetzt ab -- er hoch schim -- pfi -- _ ret: ge -- grü -- sset seist du mir!
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   "1. O" Haupt voll Blut und Wun -- _ den, voll Schmerz und vol -- ler Hohn! O Haupt, sonst schön ge -- zie -- _ ret mit höch -- ster Ehr und Zier. jetzt ab -- er hoch schim -- pfi -- _ ret: ge -- grü -- sset seist du mir!
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  O Haupt, zu Spott ge -- bun -- _ den
-  mit ei -- ner Dor -- nen -- kron!
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   O Haupt, zu Spott ge -- bun -- _ den
+   mit ei -- ner Dor -- nen -- kron!
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  "1. O" Haupt voll Blut und Wun -- _ den, voll Schmerz und vol -- ler Hohn! O Haupt, sonst schön ge -- zie -- ret mit höch -- ster Ehr und Zier. jetzt ab -- er hoch schim -- pfi -- _ ret: ge -- grü -- sset seist du mir!
+bassLyricsOne = \lyricmode {\set stanza = 1
+   "1. O" Haupt voll Blut und Wun -- _ den, voll Schmerz und vol -- ler Hohn! O Haupt, sonst schön ge -- zie -- ret mit höch -- ster Ehr und Zier. jetzt ab -- er hoch schim -- pfi -- _ ret: ge -- grü -- sset seist du mir!
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  O Haupt, zu Spott ge -- bun -- _ den
-  mit ei -- ner Dor -- nen -- kron!
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   O Haupt, zu Spott ge -- bun -- _ den
+   mit ei -- ner Dor -- nen -- kron!
 }

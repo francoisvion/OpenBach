@@ -67,63 +67,57 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Se -- lig sind, die aus Er -- bar -- men
-                               sich an -- neh -- men frem -- der Not,
-                               Die be -- hilf -- lich sind mit Rat,
-                               auch, wo -- mög -- lich, mit der Tat,
-                               wer -- den wie -- der Hilf emp -- fan -- gen
-                               und Barm -- her -- zig -- keit er -- lan -- gen.
+   Se -- lig sind, die aus Er -- bar -- men
+   sich an -- neh -- men frem -- der Not,
+   Die be -- hilf -- lich sind mit Rat,
+   auch, wo -- mög -- lich, mit der Tat,
+   wer -- den wie -- der Hilf emp -- fan -- gen
+   und Barm -- her -- zig -- keit er -- lan -- gen.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               sind mit -- lei -- dig mit den Ar -- men,
-                               bit -- ten treu -- lich für sie Gott.
+   sind mit -- lei -- dig mit den Ar -- men,
+   bit -- ten treu -- lich für sie Gott.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Se -- lig sind, die aus Er -- bar -- men
-  sich an -- neh -- men frem -- der Not,
-  Die be -- hilf -- lich sind mit Rat,
-  auch, wo -- mög -- lich, mit der Tat,
-  wer -- den wie -- der Hilf emp -- fan -- _ gen
-  und Barm -- her -- zig -- keit er -- lan -- _ gen.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Se -- lig sind, die aus Er -- bar -- men
+   sich an -- neh -- men frem -- der Not,
+   Die be -- hilf -- lich sind mit Rat,
+   auch, wo -- mög -- lich, mit der Tat,
+   wer -- den wie -- der Hilf emp -- fan -- _ gen
+   und Barm -- her -- zig -- keit er -- lan -- _ gen.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  sind mit -- lei -- dig mit den Ar -- men,
-  bit -- ten treu -- lich für sie Gott.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   sind mit -- lei -- dig mit den Ar -- men,
+   bit -- ten treu -- lich für sie Gott.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Se -- lig sind, die aus Er -- bar -- men
-  sich an -- neh -- men frem -- der Not,
-  Die be -- hilf -- lich sind mit Rat,
-  auch, wo -- mög -- lich, mit der Tat,
-  wer -- den wie -- der Hilf emp -- fan -- _ gen
-  und Barm -- her -- zig -- keit er -- lan -- _ gen.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Se -- lig sind, die aus Er -- bar -- men
+   sich an -- neh -- men frem -- der Not,
+   Die be -- hilf -- lich sind mit Rat,
+   auch, wo -- mög -- lich, mit der Tat,
+   wer -- den wie -- der Hilf emp -- fan -- _ gen
+   und Barm -- her -- zig -- keit er -- lan -- _ gen.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  sind mit -- lei -- dig mit den Ar -- men,
-  bit -- ten treu -- lich für sie Gott.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   sind mit -- lei -- dig mit den Ar -- men,
+   bit -- ten treu -- lich für sie Gott.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Se -- lig sind, die aus Er -- bar -- men
-  sich an -- neh -- men frem -- der Not,
-  Die be -- hilf -- lich sind mit Rat,
-  auch, wo -- mög -- lich, mit der Tat,
-  wer -- den wie -- der Hilf emp -- fan -- _ gen
-  und Barm -- her -- zig -- keit er -- lan -- gen.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Se -- lig sind, die aus Er -- bar -- men
+   sich an -- neh -- men frem -- der Not,
+   Die be -- hilf -- lich sind mit Rat,
+   auch, wo -- mög -- lich, mit der Tat,
+   wer -- den wie -- der Hilf emp -- fan -- _ gen
+   und Barm -- her -- zig -- keit er -- lan -- gen.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  sind mit -- lei -- dig mit den Ar -- men,
-  bit -- ten treu -- lich für sie Gott.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   sind mit -- lei -- dig mit den Ar -- men,
+   bit -- ten treu -- lich für sie Gott.
 }

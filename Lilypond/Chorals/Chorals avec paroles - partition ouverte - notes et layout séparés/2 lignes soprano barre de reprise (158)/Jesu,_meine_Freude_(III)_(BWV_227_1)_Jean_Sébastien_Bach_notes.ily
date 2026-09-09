@@ -67,67 +67,61 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Je -- su, mei -- ne Freu -- de,
-                               mei -- nes Her -- zens Wei -- de,
-                               Je -- su, mei -- ne Zier!
-                               Got -- tes Lamm, mein Bräu -- ti -- gam,
-                               Au -- ßer dir soll mir auf Er -- den
-                               nichts sonst Lie -- bers wer -- den.
+   Je -- su, mei -- ne Freu -- de,
+   mei -- nes Her -- zens Wei -- de,
+   Je -- su, mei -- ne Zier!
+   Got -- tes Lamm, mein Bräu -- ti -- gam,
+   Au -- ßer dir soll mir auf Er -- den
+   nichts sonst Lie -- bers wer -- den.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               ach wie lang, ach lan -- ge
-                               ist dem Her -- zen ban -- ge
-                               und ver -- langt nach dir! 
+   ach wie lang, ach lan -- ge
+   ist dem Her -- zen ban -- ge
+   und ver -- langt nach dir!
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Je -- su, mei -- ne Freu -- _ de,
-  mei -- nes Her -- zens Wei -- _ de,
-  Je -- su, mei -- ne Zier!
-  Got -- tes Lamm, mein Bräu -- ti -- gam,
-  Au -- ßer dir soll mir auf Er -- _ den
-  nichts sonst Lie -- bers wer -- _ den.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Je -- su, mei -- ne Freu -- _ de,
+   mei -- nes Her -- zens Wei -- _ de,
+   Je -- su, mei -- ne Zier!
+   Got -- tes Lamm, mein Bräu -- ti -- gam,
+   Au -- ßer dir soll mir auf Er -- _ den
+   nichts sonst Lie -- bers wer -- _ den.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  ach wie lang, ach lan -- _ ge
-  ist dem Her -- zen ban -- _ ge
-  und ver -- langt nach dir!
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   ach wie lang, ach lan -- _ ge
+   ist dem Her -- zen ban -- _ ge
+   und ver -- langt nach dir!
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Je -- su, mei -- ne Freu -- _ de,
-  mei -- nes Her -- zens Wei -- _ de,
-  Je -- su, mei -- ne Zier!
-  Got -- tes Lamm, mein Bräu -- ti -- gam,
-  Au -- ßer dir soll mir auf Er -- _ den
-  nichts sonst Lie -- bers wer -- _ den.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Je -- su, mei -- ne Freu -- _ de,
+   mei -- nes Her -- zens Wei -- _ de,
+   Je -- su, mei -- ne Zier!
+   Got -- tes Lamm, mein Bräu -- ti -- gam,
+   Au -- ßer dir soll mir auf Er -- _ den
+   nichts sonst Lie -- bers wer -- _ den.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  ach wie lang, ach lan -- _ ge
-  ist dem Her -- zen ban -- _ ge
-  und ver -- langt nach dir!
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   ach wie lang, ach lan -- _ ge
+   ist dem Her -- zen ban -- _ ge
+   und ver -- langt nach dir!
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Je -- su, mei -- ne Freu -- _ de,
-  mei -- nes Her -- zens Wei -- _ de,
-  Je -- su, mei -- ne Zier!
-  Got -- tes Lamm, mein Bräu -- ti -- gam,
-  Au -- ßer dir soll mir auf Er -- _ den
-  nichts sonst Lie -- bers wer -- _ den.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Je -- su, mei -- ne Freu -- _ de,
+   mei -- nes Her -- zens Wei -- _ de,
+   Je -- su, mei -- ne Zier!
+   Got -- tes Lamm, mein Bräu -- ti -- gam,
+   Au -- ßer dir soll mir auf Er -- _ den
+   nichts sonst Lie -- bers wer -- _ den.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  ach wie lang, ach lan -- _ ge
-  ist dem Her -- zen ban -- _ ge
-  und ver -- langt nach dir!
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   ach wie lang, ach lan -- _ ge
+   ist dem Her -- zen ban -- _ ge
+   und ver -- langt nach dir!
 }

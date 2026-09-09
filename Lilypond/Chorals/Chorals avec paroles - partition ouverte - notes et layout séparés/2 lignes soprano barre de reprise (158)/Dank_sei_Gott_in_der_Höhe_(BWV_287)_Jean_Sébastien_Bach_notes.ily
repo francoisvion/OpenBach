@@ -75,47 +75,41 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Dank sei Gott in der Hö -- he in die -- ser Mor -- gen -- stund,
-                               Mich hat -- te zwar ge -- bun -- den mit Fins -- ter -- nis die Nacht,
-                               ich hab sie ü -- ber -- wun -- den mit Gott, der mich be -- wacht.
+   Dank sei Gott in der Hö -- he in die -- ser Mor -- gen -- stund,
+   Mich hat -- te zwar ge -- bun -- den mit Fins -- ter -- nis die Nacht,
+   ich hab sie ü -- ber -- wun -- den mit Gott, der mich be -- wacht.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               durch den ich auf -- er -- ste -- he, vom Schlaf frisch und ge -- sund.
+   durch den ich auf -- er -- ste -- he, vom Schlaf frisch und ge -- sund.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Dank sei Gott in der Hö -- _ he in die -- ser Mor -- gen -- stund,
-  Mich hat -- te zwar ge -- bun -- _ den mit Fins -- ter -- nis die Nacht,
-  ich hab sie ü -- ber -- wun -- _ den mit Gott, der mich be -- wacht.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Dank sei Gott in der Hö -- _ he in die -- ser Mor -- gen -- stund,
+   Mich hat -- te zwar ge -- bun -- _ den mit Fins -- ter -- nis die Nacht,
+   ich hab sie ü -- ber -- wun -- _ den mit Gott, der mich be -- wacht.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  durch den ich auf -- er -- ste -- _ he, vom Schlaf frisch und ge -- sund.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   durch den ich auf -- er -- ste -- _ he, vom Schlaf frisch und ge -- sund.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Dank sei Gott in der Hö -- _ he in die -- ser Mor -- gen -- stund,
-  Mich hat -- te zwar ge -- bun -- _ den mit Fins -- ter -- nis die Nacht,
-  ich hab sie ü -- ber -- wun -- _ den mit Gott, der mich be -- wacht.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Dank sei Gott in der Hö -- _ he in die -- ser Mor -- gen -- stund,
+   Mich hat -- te zwar ge -- bun -- _ den mit Fins -- ter -- nis die Nacht,
+   ich hab sie ü -- ber -- wun -- _ den mit Gott, der mich be -- wacht.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  durch den ich auf -- er -- ste -- _ he, vom Schlaf frisch und ge -- sund.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   durch den ich auf -- er -- ste -- _ he, vom Schlaf frisch und ge -- sund.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Dank sei Gott in der Hö -- _ he in die -- ser Mor -- gen -- stund,
-  Mich hat -- te zwar ge -- bun -- _ den mit Fins -- ter -- nis die Nacht,
-  ich hab sie _ ü -- ber -- wun -- _ den mit Gott, der mich be -- wacht.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Dank sei Gott in der Hö -- _ he in die -- ser Mor -- gen -- stund,
+   Mich hat -- te zwar ge -- bun -- _ den mit Fins -- ter -- nis die Nacht,
+   ich hab sie _ ü -- ber -- wun -- _ den mit Gott, der mich be -- wacht.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  durch den ich auf -- er -- ste -- _ he, vom Schlaf frisch und ge -- sund.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   durch den ich auf -- er -- ste -- _ he, vom Schlaf frisch und ge -- sund.
 }

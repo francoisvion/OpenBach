@@ -67,63 +67,57 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Was mein Gott will, das g'scheh' all -- zeit,
-                               sein Will' der ist der be -- ste;
-                               Er hilft aus Noth, der from -- me Gott,
-                               und züch -- ti -- get mit Ma -- ßen.
-                               Wer Gott ver -- traut, fest auf ihn baut,
-                               den will er nicht ver -- las -- sen.
+   Was mein Gott will, das g'scheh' all -- zeit,
+   sein Will' der ist der be -- ste;
+   Er hilft aus Noth, der from -- me Gott,
+   und züch -- ti -- get mit Ma -- ßen.
+   Wer Gott ver -- traut, fest auf ihn baut,
+   den will er nicht ver -- las -- sen.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               zu hel -- fen den'n er ist be -- reit,
-                               die an ihn glau -- ben fe -- ste.      
+   zu hel -- fen den'n er ist be -- reit,
+   die an ihn glau -- ben fe -- ste.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Was mein Gott will, das g'scheh' all -- zeit,
-  sein Will' der ist der be -- _ ste;
-  Er hilft aus Noth, der from -- me Gott,
-  und züch -- ti -- get mit Ma -- _ ßen.
-  Wer Gott ver -- traut, fest auf ihn baut,
-  den will er nicht ver -- las -- _ sen.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Was mein Gott will, das g'scheh' all -- zeit,
+   sein Will' der ist der be -- _ ste;
+   Er hilft aus Noth, der from -- me Gott,
+   und züch -- ti -- get mit Ma -- _ ßen.
+   Wer Gott ver -- traut, fest auf ihn baut,
+   den will er nicht ver -- las -- _ sen.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  zu hel -- fen den'n er ist be -- reit,
-  die an ihn glau -- ben fe -- _ ste.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   zu hel -- fen den'n er ist be -- reit,
+   die an ihn glau -- ben fe -- _ ste.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Was mein Gott will, das g'scheh' all -- zeit,
-  sein Will' der ist der be -- _ ste;
-  Er hilft aus Noth, der from -- me Gott,
-  und züch -- ti -- get mit Ma -- _ ßen.
-  Wer Gott ver -- traut, fest auf ihn baut,
-  den will er nicht ver -- las -- _ sen.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Was mein Gott will, das g'scheh' all -- zeit,
+   sein Will' der ist der be -- _ ste;
+   Er hilft aus Noth, der from -- me Gott,
+   und züch -- ti -- get mit Ma -- _ ßen.
+   Wer Gott ver -- traut, fest auf ihn baut,
+   den will er nicht ver -- las -- _ sen.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  zu hel -- fen den'n er ist be -- reit,
-  die an ihn glau -- ben fe -- _ ste.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   zu hel -- fen den'n er ist be -- reit,
+   die an ihn glau -- ben fe -- _ ste.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Was mein Gott will, das g'scheh' all -- zeit,
-  sein Will' der ist der be -- _ ste;
-  Er hilft aus Noth, der from -- me Gott,
-  und züch -- ti -- get mit Ma -- _ ßen.
-  Wer Gott ver -- traut, fest auf ihn baut,
-  den will er nicht ver -- las -- _ sen.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Was mein Gott will, das g'scheh' all -- zeit,
+   sein Will' der ist der be -- _ ste;
+   Er hilft aus Noth, der from -- me Gott,
+   und züch -- ti -- get mit Ma -- _ ßen.
+   Wer Gott ver -- traut, fest auf ihn baut,
+   den will er nicht ver -- las -- _ sen.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  zu hel -- fen den'n er ist be -- reit,
-  die an ihn glau -- ben fe -- _ ste.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   zu hel -- fen den'n er ist be -- reit,
+   die an ihn glau -- ben fe -- _ ste.
 }

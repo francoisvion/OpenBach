@@ -67,57 +67,51 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Von Gott will ich nicht las -- _ sen,
-                               denn er lässt nicht von mir,
-                               Er reicht mir sei -- ne Hand,
-                               den A -- bend wie den Mor -- _ gen
-                               tut er mich vohl ver -- sor -- _ gen.
-                               sei wo ich wolf im Land.
+   Von Gott will ich nicht las -- _ sen,
+   denn er lässt nicht von mir,
+   Er reicht mir sei -- ne Hand,
+   den A -- bend wie den Mor -- _ gen
+   tut er mich vohl ver -- sor -- _ gen.
+   sei wo ich wolf im Land.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               führt mich auf rech -- ter Stra -- _ ßen,
-                               da ich sonst ir -- ret' sehr.
+   führt mich auf rech -- ter Stra -- _ ßen,
+   da ich sonst ir -- ret' sehr.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Von Gott will ich nicht las -- _ sen,
-  denn er lässt nicht von mir,
-  Er reicht mir sei -- ne Hand,
-  den A -- bend wie den Mor -- _ gen
-  tut er mich vohl ver -- sor -- _ gen.
-  sei wo ich wolf im Land.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Von Gott will ich nicht las -- _ sen,
+   denn er lässt nicht von mir,
+   Er reicht mir sei -- ne Hand,
+   den A -- bend wie den Mor -- _ gen
+   tut er mich vohl ver -- sor -- _ gen.
+   sei wo ich wolf im Land.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  führt mich auf rech -- ter Stra -- _ ßen,
-  da ich sonst ir -- ret' sehr.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   führt mich auf rech -- ter Stra -- _ ßen,
+   da ich sonst ir -- ret' sehr.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Von Gott will ich nicht las -- _ sen, denn er lässt nicht von mir, Er reicht mir sei -- ne Hand, den A -- bend wie den Mor -- _ gen tut er mich vohl ver -- sor -- _ gen. sei wo ich wolf im Land.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Von Gott will ich nicht las -- _ sen, denn er lässt nicht von mir, Er reicht mir sei -- ne Hand, den A -- bend wie den Mor -- _ gen tut er mich vohl ver -- sor -- _ gen. sei wo ich wolf im Land.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  führt mich auf rech -- ter Stra -- _ ßen, da ich sonst ir -- ret' sehr.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   führt mich auf rech -- ter Stra -- _ ßen, da ich sonst ir -- ret' sehr.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Von Gott will ich nicht las -- _ sen,
-  denn er lässt nicht von mir,
-  Er reicht mir sei -- ne Hand,
-  den A -- bend wie den Mor -- _ gen
-  tut er mich _ vohl ver -- sor -- _ gen.
-  sei wo ich wolf im Land.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Von Gott will ich nicht las -- _ sen,
+   denn er lässt nicht von mir,
+   Er reicht mir sei -- ne Hand,
+   den A -- bend wie den Mor -- _ gen
+   tut er mich _ vohl ver -- sor -- _ gen.
+   sei wo ich wolf im Land.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  führt mich auf rech -- ter Stra -- _ ßen,
-  da ich sonst ir -- ret' sehr.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   führt mich auf rech -- ter Stra -- _ ßen,
+   da ich sonst ir -- ret' sehr.
 }

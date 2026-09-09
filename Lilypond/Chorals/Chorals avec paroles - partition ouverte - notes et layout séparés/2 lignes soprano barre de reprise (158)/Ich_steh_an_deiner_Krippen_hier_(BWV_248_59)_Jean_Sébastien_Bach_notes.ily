@@ -59,59 +59,53 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Ich steh an dei -- ner Krip -- pen hier,
-                               o Je -- su -- lein, mein Le -- _ ben;
-                               Nimm hin! Es ist mein Geist und Sinn,
-                               Herz, Seel und Mut, nimm al -- les hin,
-                               und lass dirs wohl -- ge -- fal -- _ len!
+   Ich steh an dei -- ner Krip -- pen hier,
+   o Je -- su -- lein, mein Le -- _ ben;
+   Nimm hin! Es ist mein Geist und Sinn,
+   Herz, Seel und Mut, nimm al -- les hin,
+   und lass dirs wohl -- ge -- fal -- _ len!
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               ich kom -- me, bring und schen -- ke dir,
-                               was du mir hast ge -- ge -- _ ben.
+   ich kom -- me, bring und schen -- ke dir,
+   was du mir hast ge -- ge -- _ ben.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Ich steh an dei -- ner Krip -- pen hier,
-  o Je -- su -- _ lein, mein Le -- _ ben;
-  Nimm hin! Es ist mein Geist und Sinn,
-  Herz, Seel und Mut, nimm al -- les hin,
-  und lass dirs wohl -- ge -- fal -- _ len!
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Ich steh an dei -- ner Krip -- pen hier,
+   o Je -- su -- _ lein, mein Le -- _ ben;
+   Nimm hin! Es ist mein Geist und Sinn,
+   Herz, Seel und Mut, nimm al -- les hin,
+   und lass dirs wohl -- ge -- fal -- _ len!
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  ich kom -- me, bring und schen -- ke dir,
-  was du mir _ hast ge -- ge -- _ ben.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   ich kom -- me, bring und schen -- ke dir,
+   was du mir _ hast ge -- ge -- _ ben.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Ich steh an dei -- ner Krip -- pen hier,
-  o Je -- su -- lein, mein Le -- _ ben;
-  Nimm hin! Es ist mein Geist und Sinn,
-  Herz, Seel und Mut, nimm al -- les hin,
-  und lass dirs wohl -- ge -- fal -- _ len!
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Ich steh an dei -- ner Krip -- pen hier,
+   o Je -- su -- lein, mein Le -- _ ben;
+   Nimm hin! Es ist mein Geist und Sinn,
+   Herz, Seel und Mut, nimm al -- les hin,
+   und lass dirs wohl -- ge -- fal -- _ len!
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  ich kom -- me, bring und schen -- ke dir,
-  was du mir hast ge -- ge -- _ ben.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   ich kom -- me, bring und schen -- ke dir,
+   was du mir hast ge -- ge -- _ ben.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Ich steh an dei -- ner Krip -- pen hier,
-  o Je -- su -- lein, mein Le -- _ ben;
-  Nimm hin! Es ist mein Geist und Sinn,
-  Herz, Seel und Mut, nimm al -- les hin,
-  und lass dirs wohl -- ge -- fal len!
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Ich steh an dei -- ner Krip -- pen hier,
+   o Je -- su -- lein, mein Le -- _ ben;
+   Nimm hin! Es ist mein Geist und Sinn,
+   Herz, Seel und Mut, nimm al -- les hin,
+   und lass dirs wohl -- ge -- fal len!
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  ich kom -- me, bring und schen -- ke dir,
-  was du mir hast ge -- ge -- _ ben.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   ich kom -- me, bring und schen -- ke dir,
+   was du mir hast ge -- ge -- _ ben.
 }

@@ -67,63 +67,57 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Und ob gleich al -- le Teu -- fel
-                               dir woll -- ten wi -- der -- stehn,
-                               was er ihm vor -- ge -- nom -- men
-                               und was er ha -- ben will,
-                               das muss doch end -- lich kom -- men
-                               zu sei -- nem Zweck und Ziel. __
+   Und ob gleich al -- le Teu -- fel
+   dir woll -- ten wi -- der -- stehn,
+   was er ihm vor -- ge -- nom -- men
+   und was er ha -- ben will,
+   das muss doch end -- lich kom -- men
+   zu sei -- nem Zweck und Ziel. __
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               So wird doch oh -- ne Zwei -- fel
-                               Gott nicht zu -- rü -- cke gehn;
+   So wird doch oh -- ne Zwei -- fel
+   Gott nicht zu -- rü -- cke gehn;
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Und ob gleich al -- le Teu -- fel
-  dir woll -- ten wi -- der -- stehn,
-  was er ihm vor -- ge -- nom -- _ men
-  und was er ha -- ben will,
-  das muss doch end -- lich kom -- _ men
-  zu sei -- nem Zweck und Ziel. __ _ _
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Und ob gleich al -- le Teu -- fel
+   dir woll -- ten wi -- der -- stehn,
+   was er ihm vor -- ge -- nom -- _ men
+   und was er ha -- ben will,
+   das muss doch end -- lich kom -- _ men
+   zu sei -- nem Zweck und Ziel. __ _ _
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  So wird doch oh -- ne Zwei -- fel
-  Gott nicht zu -- rü -- cke gehn;
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   So wird doch oh -- ne Zwei -- fel
+   Gott nicht zu -- rü -- cke gehn;
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Und ob gleich al -- le Teu -- _ fel
-  dir woll -- ten wi -- der -- stehn,
-  was er ihm vor -- ge -- nom -- _ men
-  und was er ha -- ben will,
-  das muss doch end -- lich kom -- _ men
-  zu sei -- nem Zweck und Ziel. __ _ _
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Und ob gleich al -- le Teu -- _ fel
+   dir woll -- ten wi -- der -- stehn,
+   was er ihm vor -- ge -- nom -- _ men
+   und was er ha -- ben will,
+   das muss doch end -- lich kom -- _ men
+   zu sei -- nem Zweck und Ziel. __ _ _
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  So wird doch oh -- ne Zwei -- _ fel
-  Gott nicht zu -- rü -- cke gehn;
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   So wird doch oh -- ne Zwei -- _ fel
+   Gott nicht zu -- rü -- cke gehn;
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Und ob gleich al -- le Teu -- _ fel
-  dir woll -- ten wi -- der -- stehn,
-  was er ihm vor -- ge -- nom -- _ men
-  und was er ha -- ben will,
-  das muss doch end -- lich kom -- _ men
-  zu sei -- nem Zweck und Ziel. __ _ _
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Und ob gleich al -- le Teu -- _ fel
+   dir woll -- ten wi -- der -- stehn,
+   was er ihm vor -- ge -- nom -- _ men
+   und was er ha -- ben will,
+   das muss doch end -- lich kom -- _ men
+   zu sei -- nem Zweck und Ziel. __ _ _
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  So wird doch oh -- ne Zwei -- _ fel
-  Gott nicht zu -- rü -- cke gehn;
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   So wird doch oh -- ne Zwei -- _ fel
+   Gott nicht zu -- rü -- cke gehn;
 }

@@ -75,63 +75,57 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Be -- fiehl du dei -- ne We -- ge
-                               und was dein Her -- ze kränkt,
-                               der Wol -- ken, Luft und Win -- den
-                               gibt We -- ge, Lauf und Bahn,
-                               der wird auch We -- ge fin -- den,
-                               da dein Fuß ge -- hen kann.
+   Be -- fiehl du dei -- ne We -- ge
+   und was dein Her -- ze kränkt,
+   der Wol -- ken, Luft und Win -- den
+   gibt We -- ge, Lauf und Bahn,
+   der wird auch We -- ge fin -- den,
+   da dein Fuß ge -- hen kann.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               Der al -- ler -- treu -- sten Pfle -- ge
-                               des, der den Him -- mel lenkt. 
+   Der al -- ler -- treu -- sten Pfle -- ge
+   des, der den Him -- mel lenkt.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Be -- fiehl du dei -- ne We -- _ ge
-  und was dein Her -- ze kränkt,
-  der Wol -- ken, Luft und Win -- _ den
-  gibt We -- ge, Lauf und Bahn,
-  der wird auch We -- ge fin -- _ den,
-  da dein Fuß ge -- hen kann.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Be -- fiehl du dei -- ne We -- _ ge
+   und was dein Her -- ze kränkt,
+   der Wol -- ken, Luft und Win -- _ den
+   gibt We -- ge, Lauf und Bahn,
+   der wird auch We -- ge fin -- _ den,
+   da dein Fuß ge -- hen kann.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Der al -- ler -- treu -- sten Pfle -- _ ge
-  des, der den Him -- mel lenkt.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   Der al -- ler -- treu -- sten Pfle -- _ ge
+   des, der den Him -- mel lenkt.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Be -- fiehl du dei -- ne We -- _ ge
-  und was dein Her -- ze kränkt,
-  der Wol -- ken, Luft und Win -- _ den
-  gibt We -- ge, Lauf und Bahn,
-  der wird auch We -- ge fin -- _ den,
-  da dein Fuß ge -- hen kann.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Be -- fiehl du dei -- ne We -- _ ge
+   und was dein Her -- ze kränkt,
+   der Wol -- ken, Luft und Win -- _ den
+   gibt We -- ge, Lauf und Bahn,
+   der wird auch We -- ge fin -- _ den,
+   da dein Fuß ge -- hen kann.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Der al -- ler -- treu -- sten Pfle -- _ ge
-  des, der den Him -- mel lenkt.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   Der al -- ler -- treu -- sten Pfle -- _ ge
+   des, der den Him -- mel lenkt.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Be -- fiehl du dei -- ne We -- _ ge
-  und was dein Her -- ze kränkt,
-  der Wol -- ken, Luft und Win -- den
-  gibt We -- ge, Lauf und Bahn,
-  der wird auch We -- ge fin -- _ den,
-  da dein Fuß ge -- hen kann.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Be -- fiehl du dei -- ne We -- _ ge
+   und was dein Her -- ze kränkt,
+   der Wol -- ken, Luft und Win -- den
+   gibt We -- ge, Lauf und Bahn,
+   der wird auch We -- ge fin -- _ den,
+   da dein Fuß ge -- hen kann.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Der al -- ler -- treu -- sten Pfle -- _ ge
-  des, der den Him -- mel lenkt.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   Der al -- ler -- treu -- sten Pfle -- _ ge
+   des, der den Him -- mel lenkt.
 }

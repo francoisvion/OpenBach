@@ -104,60 +104,54 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Nun lie -- get al -- _ les un -- ter dir,
-                               dich selbst nur aus -- ge -- nom -- men;
-                               Die Für -- sten stehn auch auf _ der Bahn,
-                               und sind dir wil -- _ lig un -- ter -- than;
-                               Luft, Was -- ser, Feu'r und Er -- den
-                               muss dir zu Dien -- ste wer -- _ den.
+   Nun lie -- get al -- _ les un -- ter dir,
+   dich selbst nur aus -- ge -- nom -- men;
+   Die Für -- sten stehn auch auf _ der Bahn,
+   und sind dir wil -- _ lig un -- ter -- than;
+   Luft, Was -- ser, Feu'r und Er -- den
+   muss dir zu Dien -- ste wer -- _ den.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               Die En -- gel müs -- _ sen für und für dir
-                               auf -- zu -- war -- ten kom -- men.
+   Die En -- gel müs -- _ sen für und für dir
+   auf -- zu -- war -- ten kom -- men.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Nun lie -- get al les un -- ter dir,
-  dich selbst nur aus -- _ ge -- nom -- _ _ men;
-  Die Für -- sten stehn auch auf _ der Bahn,
-  und sind dir wil -- _ lig un -- _ ter -- than;
-  Luft, Was -- ser, Feu'r _ und Er -- den
-  muss dir zu Dien -- ste wer -- _ den.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Nun lie -- get al les un -- ter dir,
+   dich selbst nur aus -- _ ge -- nom -- _ _ men;
+   Die Für -- sten stehn auch auf _ der Bahn,
+   und sind dir wil -- _ lig un -- _ ter -- than;
+   Luft, Was -- ser, Feu'r _ und Er -- den
+   muss dir zu Dien -- ste wer -- _ den.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Die En -- gel müs sen für und für dir auf -- zu -- war -- _ ten kom -- _ _ men.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   Die En -- gel müs sen für und für dir auf -- zu -- war -- _ ten kom -- _ _ men.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Nun lie -- get al -- _ les un -- _ ter dir,
-  dich selbst _ nur aus -- _ ge -- nom -- _ _ men;
-  Die Für -- sten stehn auch auf _ der Bahn,
-  und sind dir wil -- _ lig un -- _ ter -- than;
-  Luft, Was -- ser, _ Feu'r _ und _ Er -- den
-  muss dir zu Dien -- ste wer -- _ den.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Nun lie -- get al -- _ les un -- _ ter dir,
+   dich selbst _ nur aus -- _ ge -- nom -- _ _ men;
+   Die Für -- sten stehn auch auf _ der Bahn,
+   und sind dir wil -- _ lig un -- _ ter -- than;
+   Luft, Was -- ser, _ Feu'r _ und _ Er -- den
+   muss dir zu Dien -- ste wer -- _ den.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Die En -- gel müs -- _ sen für _ und für dir auf -- _ zu -- war -- _ ten kom -- _ _ men.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   Die En -- gel müs -- _ sen für _ und für dir auf -- _ zu -- war -- _ ten kom -- _ _ men.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Nun lie -- get al -- _ les un -- _ ter dir,
-  dich selbst nur _ aus -- _ ge -- nom -- _ _ men;
-  Die Für -- sten stehn _ auch auf _ der Bahn,
-  und sind dir wil -- _ lig un -- _ ter -- than;
-  Luft, Was -- ser, _ Feu'r _ und Er -- den
-  muss dir zu Dien -- ste wer den.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Nun lie -- get al -- _ les un -- _ ter dir,
+   dich selbst nur _ aus -- _ ge -- nom -- _ _ men;
+   Die Für -- sten stehn _ auch auf _ der Bahn,
+   und sind dir wil -- _ lig un -- _ ter -- than;
+   Luft, Was -- ser, _ Feu'r _ und Er -- den
+   muss dir zu Dien -- ste wer den.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Die En -- gel müs -- _ sen für _ und für dir auf -- zu -- _ war -- _ ten kom -- _ _ men.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   Die En -- gel müs -- _ sen für _ und für dir auf -- zu -- _ war -- _ ten kom -- _ _ men.
 }

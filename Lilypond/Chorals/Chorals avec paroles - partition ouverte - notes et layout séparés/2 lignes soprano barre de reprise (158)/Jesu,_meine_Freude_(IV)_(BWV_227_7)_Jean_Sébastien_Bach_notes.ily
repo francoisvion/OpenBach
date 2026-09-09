@@ -67,116 +67,110 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Weg mit al -- len Schä -- tzen,
-                               du bist mein Er -- gö -- tzen,
-                               Je -- su, mei -- ne Lust!
-                               E -- lend, Not, Kreuz, Schmach und Tod
-                               soll mich, ob ich viel muss lei -- den,
-                               nicht von Je -- su schei -- den.
+   Weg mit al -- len Schä -- tzen,
+   du bist mein Er -- gö -- tzen,
+   Je -- su, mei -- ne Lust!
+   E -- lend, Not, Kreuz, Schmach und Tod
+   soll mich, ob ich viel muss lei -- den,
+   nicht von Je -- su schei -- den.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               Weg ihr eit -- len Eh -- ren,
-                               ich mag euch nicht hö -- ren,
-                               bleibt mir un -- be -- wusst!
+   Weg ihr eit -- len Eh -- ren,
+   ich mag euch nicht hö -- ren,
+   bleibt mir un -- be -- wusst!
 }
 
 altoVersoOneLyrics = \lyricmode {\set stanza = 1
-                                 Weg, weg, mit al -- _ len Schä -- _ tzen,
-                                 mit al -- len Schä -- tzen,
-                                 du, du bist mein Er -- gö -- tzen,
-                                 Je -- _ su, mei -- ne Lust, mei -- _ ne Lust!
-                                 E -- lend, Not, Kreuz, Schmach und Tod,
-                                 Schmach und Tod soll mich, ob __ _ _ ich viel muss lei -- _ den,
-                                 nicht, nicht von Je -- _ su schei -- _ _ den.
+   Weg, weg, mit al -- _ len Schä -- _ tzen,
+   mit al -- len Schä -- tzen,
+   du, du bist mein Er -- gö -- tzen,
+   Je -- _ su, mei -- ne Lust, mei -- _ ne Lust!
+   E -- lend, Not, Kreuz, Schmach und Tod,
+   Schmach und Tod soll mich, ob __ _ _ ich viel muss lei -- _ den,
+   nicht, nicht von Je -- _ su schei -- _ _ den.
 }
 
 altoVersoTwoLyrics = \lyricmode {\set stanza = 2
-                                 Weg, weg, ihr eit -- _ len Eh -- _ ren,
-                                 ihr eit -- len Eh -- ren,
-                                 ich ich mag duch nicht hö -- ren,
-                                 bleibt __ _ mir un -- be -- wusst, un -- _ be -- wusst!
+   Weg, weg, ihr eit -- _ len Eh -- _ ren,
+   ihr eit -- len Eh -- ren,
+   ich ich mag duch nicht hö -- ren,
+   bleibt __ _ mir un -- be -- wusst, un -- _ be -- wusst!
 }
 
 tenorVersoOneLyrics = \lyricmode {\set stanza = 1
-                                  Weg, weg, weg, weg, mit al -- len Schä -- _ tzen,
-                                  mit al -- len Schä -- tzen,
-                                  Du, du bist mein Er -- gö -- tzen,
-                                  Je -- _ su, mei -- ne Lust!
-                                  E -- lend, Not, Kreuz, Schmach und Tod,
-                                  Schmach und Tod soll mich, ob ich viel __ muss lei -- _ _ den,
-                                  nicht, nicht von Je -- su schei -- den, von Je -- su schei -- _ den
+   Weg, weg, weg, weg, mit al -- len Schä -- _ tzen,
+   mit al -- len Schä -- tzen,
+   Du, du bist mein Er -- gö -- tzen,
+   Je -- _ su, mei -- ne Lust!
+   E -- lend, Not, Kreuz, Schmach und Tod,
+   Schmach und Tod soll mich, ob ich viel __ muss lei -- _ _ den,
+   nicht, nicht von Je -- su schei -- den, von Je -- su schei -- _ den
 }
 
 tenorVersoTwoLyrics = \lyricmode {\set stanza = 2
-                                  Weg, weg, weg, weg, ihr eit -- len Eh -- _ ren,
-                                  ihr eit -- len Eh -- ren,
-                                  ich, ich mag euch nicht hö -- ren,
-                                  bleibt __ _ mir un -- be -- wusst!
+   Weg, weg, weg, weg, ihr eit -- len Eh -- _ ren,
+   ihr eit -- len Eh -- ren,
+   ich, ich mag euch nicht hö -- ren,
+   bleibt __ _ mir un -- be -- wusst!
 }
 
 bassVersoOneLyrics = \lyricmode {\set stanza = 1
-                                 Weg, weg, weg, weg, mit al -- len Schä -- tzen,
-                                 Du, du bist mein Er -- gö -- _ _ tzen,
-                                 Je -- su, Je -- su mei -- ne Lust, mei -- ne Lust.
-                                 E -- lend, Not, Kreuz, Schmach und Tod
-                                 soll mich, ob ich viel muss lei -- _ _ _ den,
-                                 nicht, nicht, nicht, nicht von Je -- su schei -- den.
+   Weg, weg, weg, weg, mit al -- len Schä -- tzen,
+   Du, du bist mein Er -- gö -- _ _ tzen,
+   Je -- su, Je -- su mei -- ne Lust, mei -- ne Lust.
+   E -- lend, Not, Kreuz, Schmach und Tod
+   soll mich, ob ich viel muss lei -- _ _ _ den,
+   nicht, nicht, nicht, nicht von Je -- su schei -- den.
 }
 
 bassVersoTwoLyrics = \lyricmode {\set stanza = 2
-                                 Weg, weg, weg, weg,  ihr eit -- len Eh -- ren,
-                                 ich mag euch nicht hö -- ren,
-                                 mir un -- be -- wusst!
+   Weg, weg, weg, weg,  ihr eit -- len Eh -- ren,
+   ich mag euch nicht hö -- ren,
+   mir un -- be -- wusst!
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Weg _ mit _ al -- len Schä -- _ tzen,
-  du _ bist _ mein _ Er -- gö -- _ _ tzen, _
-  Je -- su, mei -- _ ne Lust! _ _ _ _
-  E -- lend, Not, Kreuz, Schmach und Tod
-  soll mich, _ ob ich viel _ muss _ lei -- _ _ den, _
-  nicht _ von Je -- su schei -- den. _ _ _
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Weg _ mit _ al -- len Schä -- _ tzen,
+   du _ bist _ mein _ Er -- gö -- _ _ tzen, _
+   Je -- su, mei -- _ ne Lust! _ _ _ _
+   E -- lend, Not, Kreuz, Schmach und Tod
+   soll mich, _ ob ich viel _ muss _ lei -- _ _ den, _
+   nicht _ von Je -- su schei -- den. _ _ _
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Weg _ ihr _ eit -- len Eh -- _ ren,
-  ich _ mag _ euch _ nicht hö -- _ _ ren, _
-  bleibt mir un -- _ be -- wusst! _ _ _ _
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   Weg _ ihr _ eit -- len Eh -- _ ren,
+   ich _ mag _ euch _ nicht hö -- _ _ ren, _
+   bleibt mir un -- _ be -- wusst! _ _ _ _
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Weg _ mit _ al -- _ len Schä -- _ tzen,
-  du _ bist _ mein _ Er -- _ gö -- _ _ tzen,
-  Je -- su, mei -- ne Lust! _
-  E -- lend, Not, Kreuz, Schmach und Tod
-  soll _ mich, _ ob ich _ viel muss lei -- _ den, _
-  nicht _ von Je -- su schei -- _ den. _ _ _ _ _
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Weg _ mit _ al -- _ len Schä -- _ tzen,
+   du _ bist _ mein _ Er -- _ gö -- _ _ tzen,
+   Je -- su, mei -- ne Lust! _
+   E -- lend, Not, Kreuz, Schmach und Tod
+   soll _ mich, _ ob ich _ viel muss lei -- _ den, _
+   nicht _ von Je -- su schei -- _ den. _ _ _ _ _
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Weg _ ihr _ eit -- _ len Eh -- _ ren,
-  ich _ mag _ euch _ nicht _ hö -- _ _ ren,
-  bleibt mir un -- be -- wusst! _
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   Weg _ ihr _ eit -- _ len Eh -- _ ren,
+   ich _ mag _ euch _ nicht _ hö -- _ _ ren,
+   bleibt mir un -- be -- wusst! _
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Weg _ mit _ al -- _ len Schä -- tzen,
-  du _ bist _ mein Er -- gö -- _ tzen,
-  Je -- su, mei -- _ ne Lust! _ _ _ _
-  E -- lend, Not, Kreuz, Schmach und Tod
-  soll mich, _ ob _ ich viel muss lei -- _ den,
-  nicht _ von _ Je -- su schei -- _ den. _
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Weg _ mit _ al -- _ len Schä -- tzen,
+   du _ bist _ mein Er -- gö -- _ tzen,
+   Je -- su, mei -- _ ne Lust! _ _ _ _
+   E -- lend, Not, Kreuz, Schmach und Tod
+   soll mich, _ ob _ ich viel muss lei -- _ den,
+   nicht _ von _ Je -- su schei -- _ den. _
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Weg _ ihr _ eit -- _ len Eh -- ren,
-  ich _ mag _ euch nicht hö -- _ ren,
-  bleibt mir un -- _ be -- wusst! _ _ _ _
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   Weg _ ihr _ eit -- _ len Eh -- ren,
+   ich _ mag _ euch nicht hö -- _ ren,
+   bleibt mir un -- _ be -- wusst! _ _ _ _
 }

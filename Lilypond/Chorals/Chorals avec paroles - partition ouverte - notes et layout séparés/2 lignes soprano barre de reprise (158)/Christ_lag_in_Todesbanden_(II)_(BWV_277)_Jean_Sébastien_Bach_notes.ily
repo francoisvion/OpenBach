@@ -67,59 +67,53 @@ bassMusic = \relative c {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Christ lag in To -- des -- ban -- _ den
-                               für un -- ser Sünd' ge -- ge -- _ ben,
-                               Dess wir sol -- len fröh -- lich sein,
-                               Gott lo -- ben und ihm dank -- bar sein,
-                               und sin -- gen Hal -- le -- lu -- _ ja, Hal -- le -- lu -- _ ja!
+   Christ lag in To -- des -- ban -- _ den
+   für un -- ser Sünd' ge -- ge -- _ ben,
+   Dess wir sol -- len fröh -- lich sein,
+   Gott lo -- ben und ihm dank -- bar sein,
+   und sin -- gen Hal -- le -- lu -- _ ja, Hal -- le -- lu -- _ ja!
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               der ist wie -- der er -- stan -- _ den
-                               und hat uns bracht das Le -- _ ben.
+   der ist wie -- der er -- stan -- _ den
+   und hat uns bracht das Le -- _ ben.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Christ lag in _ To -- des -- ban -- _ _ den
-  für un -- ser Sünd' ge -- ge -- _ _ ben,
-  Dess wir sol -- len fröh -- lich sein,
-  Gott lo -- ben und ihm dank -- bar _ sein,
-  und sin -- gen Hal -- le -- lu -- _ ja, Hal -- le -- lu -- _ _ ja!
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Christ lag in _ To -- des -- ban -- _ _ den
+   für un -- ser Sünd' ge -- ge -- _ _ ben,
+   Dess wir sol -- len fröh -- lich sein,
+   Gott lo -- ben und ihm dank -- bar _ sein,
+   und sin -- gen Hal -- le -- lu -- _ ja, Hal -- le -- lu -- _ _ ja!
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  der ist wie -- _ der er -- stan -- _ _ den
-  und hat uns bracht das Le -- _ _ ben.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   der ist wie -- _ der er -- stan -- _ _ den
+   und hat uns bracht das Le -- _ _ ben.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Christ lag in To -- des -- ban -- _ _ den
-  für un -- ser Sünd' ge -- ge -- _ ben,
-  Dess wir sol -- len fröh -- lich sein,
-  Gott lo -- ben und ihm dank -- bar _ sein,
-  und sin -- gen Hal -- le -- lu -- _ ja, Hal -- le -- lu ja! _ _
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Christ lag in To -- des -- ban -- _ _ den
+   für un -- ser Sünd' ge -- ge -- _ ben,
+   Dess wir sol -- len fröh -- lich sein,
+   Gott lo -- ben und ihm dank -- bar _ sein,
+   und sin -- gen Hal -- le -- lu -- _ ja, Hal -- le -- lu ja! _ _
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  der ist wie -- der er -- stan -- _ _ den
-  und hat uns bracht das Le -- _ ben.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   der ist wie -- der er -- stan -- _ _ den
+   und hat uns bracht das Le -- _ ben.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Christ lag in To -- des -- _ ban -- _ den
-  für un -- ser Sünd' ge -- ge -- _ ben,
-  Dess wir sol -- len fröh -- lich sein,
-  Gott lo -- ben und ihm dank -- bar sein,
-  und sin -- gen Hal -- le -- lu -- _ ja, Hal -- le -- lu ja!
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Christ lag in To -- des -- _ ban -- _ den
+   für un -- ser Sünd' ge -- ge -- _ ben,
+   Dess wir sol -- len fröh -- lich sein,
+   Gott lo -- ben und ihm dank -- bar sein,
+   und sin -- gen Hal -- le -- lu -- _ ja, Hal -- le -- lu ja!
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  der ist wie -- der er -- _ stan -- _ den
-  und hat uns bracht das Le -- _ ben.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   der ist wie -- der er -- _ stan -- _ den
+   und hat uns bracht das Le -- _ ben.
 }

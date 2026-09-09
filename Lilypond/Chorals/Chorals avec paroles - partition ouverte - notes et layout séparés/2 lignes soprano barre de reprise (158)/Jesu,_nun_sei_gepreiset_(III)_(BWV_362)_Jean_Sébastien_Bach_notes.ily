@@ -147,60 +147,54 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Je -- su, nun sei ge -- prei -- _ set
-                               zu die -- sem neu -- en Jahr,
-                               für dein' Güt' uns be -- wei -- set
-                               in al -- ler Noth und G'fahr:
-                               Dass wir in gu -- ter Stil -- le
-                               das alt' Jahr hab'n er -- fül -- let.
-                               Wir wolln uns dir er -- ge -- ben
-                               jetz -- und und im -- mer -- dar:
-                               be -- hüt' uns Leib und Le -- ben, hin -- fort das gan -- _ ze Jahr!
-                               be -- hüt' uns Leib und Le -- ben, hin -- fort das gan -- _ ze Jahr!
+   Je -- su, nun sei ge -- prei -- _ set
+   zu die -- sem neu -- en Jahr,
+   für dein' Güt' uns be -- wei -- set
+   in al -- ler Noth und G'fahr:
+   Dass wir in gu -- ter Stil -- le
+   das alt' Jahr hab'n er -- fül -- let.
+   Wir wolln uns dir er -- ge -- ben
+   jetz -- und und im -- mer -- dar:
+   be -- hüt' uns Leib und Le -- ben, hin -- fort das gan -- _ ze Jahr!
+   be -- hüt' uns Leib und Le -- ben, hin -- fort das gan -- _ ze Jahr!
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               Dass wir ha -- ben er -- le -- _ bet
-                               die neu fröh -- li -- che Zeit,
-                               die vol -- ler Gna -- den schwe -- bet 
-                               und ew -- ger Se -- lig -- keit. 
+   Dass wir ha -- ben er -- le -- _ bet
+   die neu fröh -- li -- che Zeit,
+   die vol -- ler Gna -- den schwe -- bet
+   und ew -- ger Se -- lig -- keit.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Je -- su, nun sei ge -- prei -- _ set zu die -- sem neu -- en Jahr, für dein' Güt' uns be -- wei -- _ set in al -- ler Noth und G'fahr: Dass wir in gu -- ter Stil -- _ le das alt' Jahr hab'n er -- fül -- _ let. Wir wolln uns dir er -- ge -- _ ben jetz -- und und im -- mer -- dar: be -- hüt' uns Leib _ und Le -- _ _ ben, _ hin -- fort _ das gan -- _ ze Jahr! be -- hüt' uns Leib und Le -- _ ben, hin -- fort das gan -- _ ze Jahr!
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Je -- su, nun sei ge -- prei -- _ set zu die -- sem neu -- en Jahr, für dein' Güt' uns be -- wei -- _ set in al -- ler Noth und G'fahr: Dass wir in gu -- ter Stil -- _ le das alt' Jahr hab'n er -- fül -- _ let. Wir wolln uns dir er -- ge -- _ ben jetz -- und und im -- mer -- dar: be -- hüt' uns Leib _ und Le -- _ _ ben, _ hin -- fort _ das gan -- _ ze Jahr! be -- hüt' uns Leib und Le -- _ ben, hin -- fort das gan -- _ ze Jahr!
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Dass wir ha -- ben er -- le -- _ bet
-  die neu fröh -- li -- che Zeit,
-  die vol -- ler Gna -- den schwe -- _ bet
-  und ew -- ger Se -- lig -- keit.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   Dass wir ha -- ben er -- le -- _ bet
+   die neu fröh -- li -- che Zeit,
+   die vol -- ler Gna -- den schwe -- _ bet
+   und ew -- ger Se -- lig -- keit.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Je -- su, nun sei ge -- prei -- _ set zu die -- sem neu -- en Jahr, für dein' Güt' uns be -- wei -- _ set in al -- ler Noth und G'fahr: Dass wir in gu -- ter Stil -- _ le das alt' Jahr hab'n er -- fül -- _ let. Wir wolln uns dir er -- ge -- _ ben jetz -- und und im -- mer -- dar: be -- hüt' _ uns Leib und Le -- ben, hin -- fort _ das gan -- _ ze Jahr! be -- hüt' _ uns Leib _ und Le -- _ _ ben, hin -- fort _ das gan -- _ ze Jahr!
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Je -- su, nun sei ge -- prei -- _ set zu die -- sem neu -- en Jahr, für dein' Güt' uns be -- wei -- _ set in al -- ler Noth und G'fahr: Dass wir in gu -- ter Stil -- _ le das alt' Jahr hab'n er -- fül -- _ let. Wir wolln uns dir er -- ge -- _ ben jetz -- und und im -- mer -- dar: be -- hüt' _ uns Leib und Le -- ben, hin -- fort _ das gan -- _ ze Jahr! be -- hüt' _ uns Leib _ und Le -- _ _ ben, hin -- fort _ das gan -- _ ze Jahr!
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Dass wir ha -- ben er -- le -- _ bet
-  die neu fröh -- li -- che Zeit,
-  die vol -- ler Gna -- den schwe -- _ bet
-  und ew -- ger Se -- lig -- keit.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   Dass wir ha -- ben er -- le -- _ bet
+   die neu fröh -- li -- che Zeit,
+   die vol -- ler Gna -- den schwe -- _ bet
+   und ew -- ger Se -- lig -- keit.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Je -- su, nun sei ge -- prei -- _ set zu die -- sem neu -- en Jahr, für dein' Güt' uns be -- wei -- _ set in al -- ler Noth und G'fahr: Dass wir in gu -- ter Stil -- _ le das alt' Jahr hab'n er -- fül -- _ let. Wir wolln uns dir er -- ge -- _ ben jetz -- und und im -- mer -- dar: be -- hüt' _ uns Leib _ und Le -- _ _ ben, _ hin -- fort _ das gan -- _ ze Jahr! be -- hüt' uns Leib und Le -- _ _ ben, _ hin -- fort _ das gan -- _ ze Jahr!
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Je -- su, nun sei ge -- prei -- _ set zu die -- sem neu -- en Jahr, für dein' Güt' uns be -- wei -- _ set in al -- ler Noth und G'fahr: Dass wir in gu -- ter Stil -- _ le das alt' Jahr hab'n er -- fül -- _ let. Wir wolln uns dir er -- ge -- _ ben jetz -- und und im -- mer -- dar: be -- hüt' _ uns Leib _ und Le -- _ _ ben, _ hin -- fort _ das gan -- _ ze Jahr! be -- hüt' uns Leib und Le -- _ _ ben, _ hin -- fort _ das gan -- _ ze Jahr!
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Dass wir ha -- ben er -- le -- _ bet
-  die neu fröh -- li -- che Zeit,
-  die vol -- ler Gna -- den schwe -- _ bet
-  und ew -- ger Se -- lig -- keit.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   Dass wir ha -- ben er -- le -- _ bet
+   die neu fröh -- li -- che Zeit,
+   die vol -- ler Gna -- den schwe -- _ bet
+   und ew -- ger Se -- lig -- keit.
 }

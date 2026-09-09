@@ -55,55 +55,49 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Sing, bet und geh auf Got -- tes We -- gen,
-                               cer -- richt das Dei -- ne nur ge -- treu
-                               denn wel -- cher sei -- ne Zu -- ver -- sicht
-                               auf Gott setzt, den ver -- lässt er nicht.
+   Sing, bet und geh auf Got -- tes We -- gen,
+   cer -- richt das Dei -- ne nur ge -- treu
+   denn wel -- cher sei -- ne Zu -- ver -- sicht
+   auf Gott setzt, den ver -- lässt er nicht.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               und trau des Him -- mels rei -- chem Se -- gen,
-                               So wird er bei dir wer -- den neu;
+   und trau des Him -- mels rei -- chem Se -- gen,
+   So wird er bei dir wer -- den neu;
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Sing, bet und geh auf Got -- tes We -- gen,
-  cer -- richt das Dei -- ne nur ge -- treu
-  denn wel -- cher sei -- ne Zu -- ver -- sicht
-  auf Gott setzt, den ver -- lässt er nicht.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Sing, bet und geh auf Got -- tes We -- gen,
+   cer -- richt das Dei -- ne nur ge -- treu
+   denn wel -- cher sei -- ne Zu -- ver -- sicht
+   auf Gott setzt, den ver -- lässt er nicht.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  und trau des Him -- mels rei -- chem Se -- gen,
-  So wird er bei dir wer -- den neu;
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   und trau des Him -- mels rei -- chem Se -- gen,
+   So wird er bei dir wer -- den neu;
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Sing, bet und geh auf Got -- tes We -- gen,
-  cer -- richt das Dei -- ne nur ge -- treu
-  denn wel -- cher sei -- ne Zu -- ver -- sicht
-  auf Gott setzt, den ver -- lässt er nicht.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Sing, bet und geh auf Got -- tes We -- gen,
+   cer -- richt das Dei -- ne nur ge -- treu
+   denn wel -- cher sei -- ne Zu -- ver -- sicht
+   auf Gott setzt, den ver -- lässt er nicht.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  und trau des Him -- mels rei -- chem Se -- gen,
-  So wird er bei dir wer -- den neu;
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   und trau des Him -- mels rei -- chem Se -- gen,
+   So wird er bei dir wer -- den neu;
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Sing, bet und geh auf Got -- tes We -- gen,
-  cer -- richt das Dei -- ne nur ge -- treu
-  denn wel -- cher sei -- ne Zu -- ver -- sicht
-  auf Gott setzt, den ver -- lässt er nicht.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Sing, bet und geh auf Got -- tes We -- gen,
+   cer -- richt das Dei -- ne nur ge -- treu
+   denn wel -- cher sei -- ne Zu -- ver -- sicht
+   auf Gott setzt, den ver -- lässt er nicht.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  und trau des Him -- mels rei -- chem Se -- gen,
-  So wird er bei dir wer -- den neu;
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   und trau des Him -- mels rei -- chem Se -- gen,
+   So wird er bei dir wer -- den neu;
 }

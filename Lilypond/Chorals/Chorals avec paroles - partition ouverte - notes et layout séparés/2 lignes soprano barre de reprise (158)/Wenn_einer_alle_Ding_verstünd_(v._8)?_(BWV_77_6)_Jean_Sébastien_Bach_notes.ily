@@ -71,60 +71,54 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               \tweak X-offset #-9 \markup{\concat{\small "Texte 1. " "Du"}} stellst, mein Je -- su, sel -- ber dich
-                               zum Vor -- bild wah -- rer Lie -- _ be:
-                               dass ich bei al -- lem, wo ich kann,
-                               stets lieb und hel -- fe je -- der -- mann
-                               Nach dei -- nem Wort und Wei -- _ se.
+   \tweak X-offset #-9 \markup{\concat{\small "Texte 1. " "Du"}} stellst, mein Je -- su, sel -- ber dich
+   zum Vor -- bild wah -- rer Lie -- _ be:
+   dass ich bei al -- lem, wo ich kann,
+   stets lieb und hel -- fe je -- der -- mann
+   Nach dei -- nem Wort und Wei -- _ se.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               gib mir auch Gnad und Kraft, dass ich
-                               Gott und den Näch -- sten lie -- _ be:
+   gib mir auch Gnad und Kraft, dass ich
+   Gott und den Näch -- sten lie -- _ be:
 }
 
 versoOneLyricsB = \lyricmode {\set stanza = 1
-                              \tweak X-offset #-9 \markup{\concat{\small "Texte 2. " "Herr,"}} durch den Glau -- ben wohn in mir,
-                              Lass ihn sich im -- mer stär -- _ ken,
-                              dass er sei tä -- tig durch die Lieb,
-                              mit Freu -- den und Ge -- duld sich üb,
-                              dem Näch -- sten fort zu die -- _ nen.
+   \tweak X-offset #-9 \markup{\concat{\small "Texte 2. " "Herr,"}} durch den Glau -- ben wohn in mir,
+   Lass ihn sich im -- mer stär -- _ ken,
+   dass er sei tä -- tig durch die Lieb,
+   mit Freu -- den und Ge -- duld sich üb,
+   dem Näch -- sten fort zu die -- _ nen.
 }
 
 versoTwoLyricsB = \lyricmode {\set stanza = 2
-                              dass er sei frucht -- bar für und für
-                              und reich in gu -- ten Wer -- _ ken;
+   dass er sei frucht -- bar für und für
+   und reich in gu -- ten Wer -- _ ken;
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  \markup{\concat{\small "Texte 1. " "Du" _ }} stellst, mein Je -- su, sel -- ber dich zum Vor -- bild wah -- rer Lie -- _ be: dass ich bei al -- lem, wo ich kann, stets lieb und hel -- fe je -- der -- mann Nach dei -- nem Wort und Wei -- _ se.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   \markup{\concat{\small "Texte 1. " "Du" _ }} stellst, mein Je -- su, sel -- ber dich zum Vor -- bild wah -- rer Lie -- _ be: dass ich bei al -- lem, wo ich kann, stets lieb und hel -- fe je -- der -- mann Nach dei -- nem Wort und Wei -- _ se.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  gib mir auch _ Gnad und Kraft, dass ich
-  Gott und den Näch -- sten lie -- _ be:
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   gib mir auch _ Gnad und Kraft, dass ich
+   Gott und den Näch -- sten lie -- _ be:
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  \markup{\concat{\small "Texte 1. " "Du" }} stellst, mein Je -- su, sel -- ber dich zum Vor -- bild wah -- rer Lie -- _ be: dass ich bei al -- lem, wo ich kann, stets lieb und hel -- fe je -- der -- mann Nach dei -- nem Wort und Wei -- _ se.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   \markup{\concat{\small "Texte 1. " "Du" }} stellst, mein Je -- su, sel -- ber dich zum Vor -- bild wah -- rer Lie -- _ be: dass ich bei al -- lem, wo ich kann, stets lieb und hel -- fe je -- der -- mann Nach dei -- nem Wort und Wei -- _ se.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  gib mir auch Gnad und Kraft, dass ich
-  Gott und den Näch -- sten lie -- _ be:
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   gib mir auch Gnad und Kraft, dass ich
+   Gott und den Näch -- sten lie -- _ be:
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  \markup{\concat{\small "Texte 1. " "Du" }} stellst, mein Je -- su, sel -- ber dich zum Vor -- bild wah -- rer Lie -- _ be: dass ich bei al -- lem, wo ich kann, stets lieb und hel -- fe je -- der -- mann Nach dei -- nem Wort und Wei -- _ se.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   \markup{\concat{\small "Texte 1. " "Du" }} stellst, mein Je -- su, sel -- ber dich zum Vor -- bild wah -- rer Lie -- _ be: dass ich bei al -- lem, wo ich kann, stets lieb und hel -- fe je -- der -- mann Nach dei -- nem Wort und Wei -- _ se.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  gib mir auch Gnad und Kraft, dass ich
-  Gott und den Näch -- sten lie be:
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   gib mir auch Gnad und Kraft, dass ich
+   Gott und den Näch -- sten lie be:
 }

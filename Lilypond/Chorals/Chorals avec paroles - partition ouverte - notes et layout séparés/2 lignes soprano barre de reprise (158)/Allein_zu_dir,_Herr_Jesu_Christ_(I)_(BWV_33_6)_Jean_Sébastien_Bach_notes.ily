@@ -83,67 +83,61 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Ehr sei Gott in dem höch -- _ sten Thron,
-                               dem Va -- ter al -- _ _ _ _ ler Gü -- _ te, 
-                               und Gott dem hei -- li -- gen Gei -- ste,
-                               der uns sein Hilf all -- zeit lei -- ste,
-                               da -- mit wir ihm ge -- fäl -- lig sein,
-                               hier in die -- ser Zeit
-                               und fol -- gends in der E -- _ _ wig -- keit.
+   Ehr sei Gott in dem höch -- _ sten Thron,
+   dem Va -- ter al -- _ _ _ _ ler Gü -- _ te,
+   und Gott dem hei -- li -- gen Gei -- ste,
+   der uns sein Hilf all -- zeit lei -- ste,
+   da -- mit wir ihm ge -- fäl -- lig sein,
+   hier in die -- ser Zeit
+   und fol -- gends in der E -- _ _ wig -- keit.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               und Je -- su Christ, seinm lieb -- _ sten Sohn,
-                               der uns all -- zeit __ _ _ _ _ be -- hü -- _ te,
+   und Je -- su Christ, seinm lieb -- _ sten Sohn,
+   der uns all -- zeit __ _ _ _ _ be -- hü -- _ te,
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Ehr sei Gott in dem höch -- _ sten Thron,
-  dem Va -- ter al -- _ _ _ _ ler Gü -- _ te,
-  und Gott dem hei -- li -- gen Gei -- ste,
-  der uns sein Hilf all -- zeit lei -- ste,
-  da -- mit wir ihm ge -- fäl -- lig sein,
-  hier in die -- _ ser Zeit
-  und fol -- gends in der E wig -- keit.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Ehr sei Gott in dem höch -- _ sten Thron,
+   dem Va -- ter al -- _ _ _ _ ler Gü -- _ te,
+   und Gott dem hei -- li -- gen Gei -- ste,
+   der uns sein Hilf all -- zeit lei -- ste,
+   da -- mit wir ihm ge -- fäl -- lig sein,
+   hier in die -- _ ser Zeit
+   und fol -- gends in der E wig -- keit.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  und Je -- su Christ, seinm lieb -- _ sten Sohn,
-  der uns all -- zeit __ _ _ _ _ be -- hü -- _ te,
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   und Je -- su Christ, seinm lieb -- _ sten Sohn,
+   der uns all -- zeit __ _ _ _ _ be -- hü -- _ te,
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Ehr sei Gott in dem höch -- _ _ sten Thron,
-  dem Va -- ter al -- _ _ _ _ ler Gü -- _ te,
-  und Gott dem hei -- li -- gen Gei -- ste,
-  der uns sein Hilf all -- zeit lei -- ste,
-  da -- mit wir ihm ge -- fäl -- lig sein,
-  hier in die -- ser Zeit
-  und fol -- gends in der E -- _ _ wig -- keit.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Ehr sei Gott in dem höch -- _ _ sten Thron,
+   dem Va -- ter al -- _ _ _ _ ler Gü -- _ te,
+   und Gott dem hei -- li -- gen Gei -- ste,
+   der uns sein Hilf all -- zeit lei -- ste,
+   da -- mit wir ihm ge -- fäl -- lig sein,
+   hier in die -- ser Zeit
+   und fol -- gends in der E -- _ _ wig -- keit.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  und Je -- su Christ, seinm lieb -- _ _ sten Sohn,
-  der uns all -- zeit __ _ _ _ _ be -- hü -- _ te,
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   und Je -- su Christ, seinm lieb -- _ _ sten Sohn,
+   der uns all -- zeit __ _ _ _ _ be -- hü -- _ te,
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Ehr sei Gott in dem höch -- _ _ sten Thron,
-  dem Va -- ter al -- _ _ _ _ ler Gü -- _ te,
-  und Gott dem hei -- li -- gen Gei -- ste,
-  der uns sein Hilf all -- zeit lei -- ste,
-  da -- mit wir ihm ge -- fäl -- lig sein,
-  hier in die -- _ ser Zeit
-  und fol -- gends in der E -- _ _ wig -- keit.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Ehr sei Gott in dem höch -- _ _ sten Thron,
+   dem Va -- ter al -- _ _ _ _ ler Gü -- _ te,
+   und Gott dem hei -- li -- gen Gei -- ste,
+   der uns sein Hilf all -- zeit lei -- ste,
+   da -- mit wir ihm ge -- fäl -- lig sein,
+   hier in die -- _ ser Zeit
+   und fol -- gends in der E -- _ _ wig -- keit.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  und Je -- su Christ, seinm lieb -- _ _ sten Sohn,
-  der uns all -- zeit __ _ _ _ _ be -- hü -- _ te,
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   und Je -- su Christ, seinm lieb -- _ _ sten Sohn,
+   der uns all -- zeit __ _ _ _ _ be -- hü -- _ te,
 }

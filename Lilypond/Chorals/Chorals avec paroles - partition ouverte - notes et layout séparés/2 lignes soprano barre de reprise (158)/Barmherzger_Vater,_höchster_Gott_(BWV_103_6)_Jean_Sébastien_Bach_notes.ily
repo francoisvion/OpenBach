@@ -67,63 +67,57 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Ich hab dich ei -- nen Au -- gen -- blick,
-                               o lie -- bes Kind, ver -- las -- sen;
-                               will ich dir schon die Freu -- den -- kron
-                               auf -- setz -- en und ver -- eh -- ren;
-                               dein kur -- zes Leid soll sich in Freud
-                               und e -- wig Wohl ver -- keh -- ren.
+   Ich hab dich ei -- nen Au -- gen -- blick,
+   o lie -- bes Kind, ver -- las -- sen;
+   will ich dir schon die Freu -- den -- kron
+   auf -- setz -- en und ver -- eh -- ren;
+   dein kur -- zes Leid soll sich in Freud
+   und e -- wig Wohl ver -- keh -- ren.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               sieh a -- ber, sieh, mit gro -- ßem Glück
-                               und Trost ohn al -- le Ma -- ßen;
+   sieh a -- ber, sieh, mit gro -- ßem Glück
+   und Trost ohn al -- le Ma -- ßen;
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Ich hab dich ei -- nen Au -- gen -- blick,
-  o lie -- bes Kind, ver -- las -- _ _ sen;
-  will ich dir schon die Freu -- den -- kron
-  auf -- setz -- en und ver -- eh -- _ ren;
-  dein kur -- zes Leid soll sich in Freud
-  und e -- wig Wohl ver -- keh -- _ ren.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Ich hab dich ei -- nen Au -- gen -- blick,
+   o lie -- bes Kind, ver -- las -- _ _ sen;
+   will ich dir schon die Freu -- den -- kron
+   auf -- setz -- en und ver -- eh -- _ ren;
+   dein kur -- zes Leid soll sich in Freud
+   und e -- wig Wohl ver -- keh -- _ ren.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  sieh a -- ber, sieh, mit gro -- ßem Glück
-  und Trost ohn al -- le Ma -- _ _ ßen;
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   sieh a -- ber, sieh, mit gro -- ßem Glück
+   und Trost ohn al -- le Ma -- _ _ ßen;
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Ich hab dich ei -- nen Au -- gen -- blick,
-  o lie -- bes Kind, ver -- las -- _ sen;
-  will ich dir schon die Freu -- den -- kron
-  auf -- setz -- en und ver -- eh -- _ ren;
-  dein kur -- zes Leid soll sich in Freud
-  und e -- wig Wohl ver -- keh -- _ _ ren.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Ich hab dich ei -- nen Au -- gen -- blick,
+   o lie -- bes Kind, ver -- las -- _ sen;
+   will ich dir schon die Freu -- den -- kron
+   auf -- setz -- en und ver -- eh -- _ ren;
+   dein kur -- zes Leid soll sich in Freud
+   und e -- wig Wohl ver -- keh -- _ _ ren.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  sieh a -- ber, sieh, mit gro -- ßem Glück
-  und Trost ohn al -- le Ma -- _ ßen;
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   sieh a -- ber, sieh, mit gro -- ßem Glück
+   und Trost ohn al -- le Ma -- _ ßen;
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Ich hab dich ei -- nen Au -- gen -- blick,
-  o lie -- bes Kind, ver -- las -- sen;
-  will ich dir schon die Freu -- den -- kron
-  auf -- setz -- en und ver -- eh -- _ ren;
-  dein kur -- zes Leid soll sich in Freud
-  und e -- wig Wohl ver -- keh -- _ ren.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Ich hab dich ei -- nen Au -- gen -- blick,
+   o lie -- bes Kind, ver -- las -- sen;
+   will ich dir schon die Freu -- den -- kron
+   auf -- setz -- en und ver -- eh -- _ ren;
+   dein kur -- zes Leid soll sich in Freud
+   und e -- wig Wohl ver -- keh -- _ ren.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  sieh a -- ber, sieh, mit gro -- ßem Glück
-  und Trost ohn al -- le Ma -- ßen;
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   sieh a -- ber, sieh, mit gro -- ßem Glück
+   und Trost ohn al -- le Ma -- ßen;
 }

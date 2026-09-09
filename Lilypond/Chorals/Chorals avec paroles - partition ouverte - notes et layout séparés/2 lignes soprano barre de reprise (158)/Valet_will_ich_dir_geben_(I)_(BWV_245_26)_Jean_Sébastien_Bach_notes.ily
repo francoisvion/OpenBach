@@ -67,63 +67,57 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               In mei -- nes Her -- zen Grun -- de
-                               dein Nam und Kreuz al -- lein
-                               Er -- schein mir in dem Bil -- _ de
-                               zum Trost in mei -- ner Not,
-                               wie du, Herr Christ, so mil -- _ de
-                               dich hast ge -- blut't zu Tod.
+   In mei -- nes Her -- zen Grun -- de
+   dein Nam und Kreuz al -- lein
+   Er -- schein mir in dem Bil -- _ de
+   zum Trost in mei -- ner Not,
+   wie du, Herr Christ, so mil -- _ de
+   dich hast ge -- blut't zu Tod.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               Fun -- kelt all Zeit und Stun -- de,
-                               drauf kann ich fröh -- lich sein.
+   Fun -- kelt all Zeit und Stun -- de,
+   drauf kann ich fröh -- lich sein.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  In mei -- nes Her -- zen Grun -- de
-  dein Nam und Kreuz al -- lein
-  Er -- schein mir in dem Bil -- _ de
-  zum Trost in mei -- ner Not,
-  wie du, Herr Christ, so mil -- _ de
-  dich hast ge -- blut't zu Tod.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   In mei -- nes Her -- zen Grun -- de
+   dein Nam und Kreuz al -- lein
+   Er -- schein mir in dem Bil -- _ de
+   zum Trost in mei -- ner Not,
+   wie du, Herr Christ, so mil -- _ de
+   dich hast ge -- blut't zu Tod.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Fun -- kelt all Zeit und Stun -- de,
-  drauf kann ich fröh -- lich sein.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   Fun -- kelt all Zeit und Stun -- de,
+   drauf kann ich fröh -- lich sein.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  In mei -- nes Her -- zen Grun -- de
-  dein Nam und Kreuz al -- lein
-  Er -- schein mir in dem Bil -- _ de
-  zum Trost in mei -- ner Not,
-  wie du, Herr Christ, so mil de
-  dich hast ge -- blut't zu Tod.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   In mei -- nes Her -- zen Grun -- de
+   dein Nam und Kreuz al -- lein
+   Er -- schein mir in dem Bil -- _ de
+   zum Trost in mei -- ner Not,
+   wie du, Herr Christ, so mil de
+   dich hast ge -- blut't zu Tod.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Fun -- kelt all Zeit und Stun -- de,
-  drauf kann ich fröh -- lich sein.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   Fun -- kelt all Zeit und Stun -- de,
+   drauf kann ich fröh -- lich sein.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  In mei -- nes Her -- zen Grun -- de
-  dein Nam und Kreuz al -- lein
-  Er -- schein mir in dem Bil de
-  zum Trost in mei -- ner Not,
-  wie du, Herr Christ, so mil de
-  dich hast ge -- blut't zu Tod.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   In mei -- nes Her -- zen Grun -- de
+   dein Nam und Kreuz al -- lein
+   Er -- schein mir in dem Bil de
+   zum Trost in mei -- ner Not,
+   wie du, Herr Christ, so mil de
+   dich hast ge -- blut't zu Tod.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Fun -- kelt all Zeit und Stun -- de,
-  drauf kann ich fröh -- lich sein.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   Fun -- kelt all Zeit und Stun -- de,
+   drauf kann ich fröh -- lich sein.
 }

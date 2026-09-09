@@ -51,14 +51,15 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Je -- sus, mei -- ne Zu -- ver -- sicht
-                               und mein Hei -- land, ist im Le -- ben:
-                               was die lan -- ge To -- des -- nacht mir auch für Ge -- dan -- ken macht?
+   Je -- sus, mei -- ne Zu -- ver -- sicht
+   und mein Hei -- land, ist im Le -- ben:
+   was die lan -- ge To -- des -- nacht mir auch für Ge -- dan -- ken macht?
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               Die -- ses weiß ich, soll ich nicht
-                               da -- rum mich zu -- fried -- en ge -- ben?}
+   Die -- ses weiß ich, soll ich nicht
+   da -- rum mich zu -- fried -- en ge -- ben?
+}
 
                                altoLyricsOne = \lyricmode {
                                  \set stanza = 1

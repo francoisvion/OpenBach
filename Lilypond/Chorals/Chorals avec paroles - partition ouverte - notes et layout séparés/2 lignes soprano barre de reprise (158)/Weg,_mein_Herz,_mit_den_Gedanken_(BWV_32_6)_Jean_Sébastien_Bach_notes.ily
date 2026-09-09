@@ -67,63 +67,57 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Mein Gott, öff -- ne mir die Pfor -- ten
-                               Sol -- cher Gnad und Gü -- tig -- keit,
-                               Lie -- be mich und treib mich an,
-                               dass ich dich, so gut ich kann,
-                               wie -- de -- rum um -- fang und lie -- be
-                               und ja nun nicht mehr be -- trü -- be.
+   Mein Gott, öff -- ne mir die Pfor -- ten
+   Sol -- cher Gnad und Gü -- tig -- keit,
+   Lie -- be mich und treib mich an,
+   dass ich dich, so gut ich kann,
+   wie -- de -- rum um -- fang und lie -- be
+   und ja nun nicht mehr be -- trü -- be.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               Lass mich all -- zeit al -- le -- ror -- ten
-                               Schme -- cken dei -- ne Sü -- ßig -- keit!
+   Lass mich all -- zeit al -- le -- ror -- ten
+   Schme -- cken dei -- ne Sü -- ßig -- keit!
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Mein Gott, öff -- ne mir die Pfor -- ten
-  Sol -- cher Gnad und Gü -- tig -- keit,
-  Lie -- be mich und treib mich an,
-  dass ich dich, so gut ich kann,
-  wie -- de -- rum um -- fang und lie -- be
-  und ja nun nicht mehr be -- trü -- _ be.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Mein Gott, öff -- ne mir die Pfor -- ten
+   Sol -- cher Gnad und Gü -- tig -- keit,
+   Lie -- be mich und treib mich an,
+   dass ich dich, so gut ich kann,
+   wie -- de -- rum um -- fang und lie -- be
+   und ja nun nicht mehr be -- trü -- _ be.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Lass mich all -- zeit al -- le -- ror -- ten
-  Schme -- cken dei -- ne Sü -- ßig -- keit!
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   Lass mich all -- zeit al -- le -- ror -- ten
+   Schme -- cken dei -- ne Sü -- ßig -- keit!
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Mein Gott, öff -- ne mir die Pfor -- ten
-  Sol -- cher Gnad und Gü -- tig -- keit,
-  Lie -- be mich und treib mich an,
-  dass ich dich, so gut ich kann,
-  wie -- de -- rum um -- fang und lie -- be
-  und ja nun nicht mehr be -- trü -- _ be.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Mein Gott, öff -- ne mir die Pfor -- ten
+   Sol -- cher Gnad und Gü -- tig -- keit,
+   Lie -- be mich und treib mich an,
+   dass ich dich, so gut ich kann,
+   wie -- de -- rum um -- fang und lie -- be
+   und ja nun nicht mehr be -- trü -- _ be.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Lass mich all -- zeit al -- le -- ror -- ten
-  Schme -- cken dei -- ne Sü -- ßig -- keit!
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   Lass mich all -- zeit al -- le -- ror -- ten
+   Schme -- cken dei -- ne Sü -- ßig -- keit!
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Mein Gott, öff -- ne mir die Pfor -- ten
-  Sol -- cher Gnad und Gü -- tig -- keit,
-  Lie -- be mich und treib mich an,
-  dass ich dich, so gut ich kann,
-  wie -- de -- rum um -- fang und lie -- _ be
-  und ja nun nicht mehr be -- trü -- be.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Mein Gott, öff -- ne mir die Pfor -- ten
+   Sol -- cher Gnad und Gü -- tig -- keit,
+   Lie -- be mich und treib mich an,
+   dass ich dich, so gut ich kann,
+   wie -- de -- rum um -- fang und lie -- _ be
+   und ja nun nicht mehr be -- trü -- be.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Lass mich all -- zeit al -- le -- ror -- ten
-  Schme -- cken dei -- ne Sü -- ßig -- keit!
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   Lass mich all -- zeit al -- le -- ror -- ten
+   Schme -- cken dei -- ne Sü -- ßig -- keit!
 }

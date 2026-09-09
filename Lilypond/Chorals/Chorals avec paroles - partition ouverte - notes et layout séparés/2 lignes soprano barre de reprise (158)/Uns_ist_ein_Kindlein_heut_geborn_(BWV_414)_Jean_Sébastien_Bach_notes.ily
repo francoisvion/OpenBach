@@ -59,48 +59,42 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Uns ist ein Kind -- lein heut' ge -- bor'n
-                               von ei -- ner Jung -- _ _ frau aus -- er -- kor'n.
-                               Lob, Preis und Dank sei Gott be -- reit
-                               für sol -- che Gnad __ _ _ in E -- wig -- keit.
+   Uns ist ein Kind -- lein heut' ge -- bor'n
+   von ei -- ner Jung -- _ _ frau aus -- er -- kor'n.
+   Lob, Preis und Dank sei Gott be -- reit
+   für sol -- che Gnad __ _ _ in E -- wig -- keit.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               Des freu -- en sich die En -- ge -- lein,
-                               soll -- ten wir Men -- _ schen nicht fröh -- lich sein?
+   Des freu -- en sich die En -- ge -- lein,
+   soll -- ten wir Men -- _ schen nicht fröh -- lich sein?
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Uns ist ein Kind -- lein heut' ge -- bor'n
-  von ei -- ner Jung frau aus -- er -- kor'n.
-  Lob, Preis und Dank sei Gott be -- reit
-  für sol -- che Gnad __ _ _ in E -- wig -- keit.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Uns ist ein Kind -- lein heut' ge -- bor'n
+   von ei -- ner Jung frau aus -- er -- kor'n.
+   Lob, Preis und Dank sei Gott be -- reit
+   für sol -- che Gnad __ _ _ in E -- wig -- keit.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Des freu -- en sich die En -- ge -- lein, soll -- ten wir Men -- _ schen nicht fröh -- lich sein?
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   Des freu -- en sich die En -- ge -- lein, soll -- ten wir Men -- _ schen nicht fröh -- lich sein?
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Uns ist ein Kind -- lein heut' ge -- bor'n von ei -- ner Jung _ frau aus -- er -- kor'n. Lob, Preis und Dank sei Gott be -- reit für sol -- che Gnad __ _ _ in E -- wig -- keit.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Uns ist ein Kind -- lein heut' ge -- bor'n von ei -- ner Jung _ frau aus -- er -- kor'n. Lob, Preis und Dank sei Gott be -- reit für sol -- che Gnad __ _ _ in E -- wig -- keit.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Des freu -- en sich die En -- ge -- lein,
-  soll -- ten wir Men schen nicht fröh -- lich sein?
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   Des freu -- en sich die En -- ge -- lein,
+   soll -- ten wir Men schen nicht fröh -- lich sein?
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Uns ist ein Kind -- lein heut' ge -- bor'n von ei -- ner Jung -- _ _ frau aus -- er -- kor'n. Lob, Preis und Dank sei Gott be -- reit für sol -- che Gnad __ _ _ in E -- wig -- keit.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Uns ist ein Kind -- lein heut' ge -- bor'n von ei -- ner Jung -- _ _ frau aus -- er -- kor'n. Lob, Preis und Dank sei Gott be -- reit für sol -- che Gnad __ _ _ in E -- wig -- keit.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Des freu -- en sich die En -- ge -- lein,
-  soll -- ten wir Men -- _ schen nicht fröh -- lich sein?
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   Des freu -- en sich die En -- ge -- lein,
+   soll -- ten wir Men -- _ schen nicht fröh -- lich sein?
 }

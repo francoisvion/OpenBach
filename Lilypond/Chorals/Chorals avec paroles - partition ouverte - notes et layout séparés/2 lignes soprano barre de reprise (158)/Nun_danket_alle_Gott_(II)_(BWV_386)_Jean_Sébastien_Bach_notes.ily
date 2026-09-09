@@ -75,63 +75,57 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Nun dan -- ket al -- le Gott
-                               mit Her -- zen, Mund und Hän -- den,
-                               der uns von Mut -- ter -- leib
-                               und Kin -- des -- bei -- nen an
-                               un -- zäh -- lig viel zu gut
-                               und noch jetz -- und ge -- tan.
+   Nun dan -- ket al -- le Gott
+   mit Her -- zen, Mund und Hän -- den,
+   der uns von Mut -- ter -- leib
+   und Kin -- des -- bei -- nen an
+   un -- zäh -- lig viel zu gut
+   und noch jetz -- und ge -- tan.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               der gro -- ße Din -- ge thut
-                               an uns und al -- len En -- den;
+   der gro -- ße Din -- ge thut
+   an uns und al -- len En -- den;
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Nun dan -- ket al -- le Gott
-  mit Her -- zen, Mund und Hän -- den,
-  der uns von Mut -- ter -- leib
-  und Kin -- des -- bei -- nen an
-  un -- zäh -- lig viel zu gut
-  und noch jetz -- und ge -- tan.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Nun dan -- ket al -- le Gott
+   mit Her -- zen, Mund und Hän -- den,
+   der uns von Mut -- ter -- leib
+   und Kin -- des -- bei -- nen an
+   un -- zäh -- lig viel zu gut
+   und noch jetz -- und ge -- tan.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  der gro -- ße Din -- ge thut
-  an uns und al -- len En -- den;
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   der gro -- ße Din -- ge thut
+   an uns und al -- len En -- den;
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Nun dan -- ket al -- le Gott
-  mit Her -- zen, Mund und Hän -- _ den,
-  der uns von Mut -- ter -- leib
-  und Kin -- des -- bei -- nen an
-  un -- zäh -- lig viel zu gut
-  und noch jetz -- und ge -- tan.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Nun dan -- ket al -- le Gott
+   mit Her -- zen, Mund und Hän -- _ den,
+   der uns von Mut -- ter -- leib
+   und Kin -- des -- bei -- nen an
+   un -- zäh -- lig viel zu gut
+   und noch jetz -- und ge -- tan.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  der gro -- ße Din -- ge thut
-  an uns und al -- len En -- _ den;
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   der gro -- ße Din -- ge thut
+   an uns und al -- len En -- _ den;
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Nun dan -- ket al -- le Gott
-  mit Her -- zen, Mund und Hän -- den,
-  der uns von Mut -- ter -- leib
-  und Kin -- des -- bei -- nen an
-  un -- zäh -- lig viel zu gut
-  und noch jetz -- und ge -- tan.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Nun dan -- ket al -- le Gott
+   mit Her -- zen, Mund und Hän -- den,
+   der uns von Mut -- ter -- leib
+   und Kin -- des -- bei -- nen an
+   un -- zäh -- lig viel zu gut
+   und noch jetz -- und ge -- tan.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  der gro -- ße Din -- ge thut
-  an uns und al -- len En -- den;
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   der gro -- ße Din -- ge thut
+   an uns und al -- len En -- den;
 }

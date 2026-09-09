@@ -55,56 +55,49 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Wer weiss wie na -- he mir mein En -- de!
-                               hin geht die Zeit, her kommt der Tod.
-                               Mein Gott, ich bitt' durch Chri -- sti Blut:
-                               mach's nur mit mei -- nem En -- de gut!
+   Wer weiss wie na -- he mir mein En -- de!
+   hin geht die Zeit, her kommt der Tod.
+   Mein Gott, ich bitt' durch Chri -- sti Blut:
+   mach's nur mit mei -- nem En -- de gut!
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               Ach wie ge -- schwin -- de und be -- hen -- de
-                               kann kom -- men mei -- ne To -- des -- noth.
-      
+   Ach wie ge -- schwin -- de und be -- hen -- de
+   kann kom -- men mei -- ne To -- des -- noth.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Wer weiss wie na -- he mir mein En -- de!
-  hin geht die Zeit, her kommt der Tod.
-  Mein Gott, ich bitt' durch Chri -- sti Blut:
-  mach's nur mit mei -- nem En -- de gut!
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Wer weiss wie na -- he mir mein En -- de!
+   hin geht die Zeit, her kommt der Tod.
+   Mein Gott, ich bitt' durch Chri -- sti Blut:
+   mach's nur mit mei -- nem En -- de gut!
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Ach wie ge -- schwin -- de und be -- hen -- de
-  kann kom -- men mei -- ne To -- des -- noth.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   Ach wie ge -- schwin -- de und be -- hen -- de
+   kann kom -- men mei -- ne To -- des -- noth.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Wer weiss wie na -- he mir mein En -- de!
-  hin geht die Zeit, her kommt der Tod.
-  Mein Gott, ich bitt' durch Chri -- sti Blut:
-  mach's nur mit mei -- nem En -- de gut!
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Wer weiss wie na -- he mir mein En -- de!
+   hin geht die Zeit, her kommt der Tod.
+   Mein Gott, ich bitt' durch Chri -- sti Blut:
+   mach's nur mit mei -- nem En -- de gut!
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Ach wie ge -- schwin -- de und be -- hen -- de
-  kann kom -- men mei -- ne To -- des -- noth.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   Ach wie ge -- schwin -- de und be -- hen -- de
+   kann kom -- men mei -- ne To -- des -- noth.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Wer weiss wie na -- he mir mein En -- de!
-  hin geht die Zeit, her kommt der Tod.
-  Mein Gott, ich bitt' durch Chri -- sti Blut:
-  mach's nur mit mei -- nem En -- de gut!
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Wer weiss wie na -- he mir mein En -- de!
+   hin geht die Zeit, her kommt der Tod.
+   Mein Gott, ich bitt' durch Chri -- sti Blut:
+   mach's nur mit mei -- nem En -- de gut!
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Ach wie ge -- schwin -- de und be -- hen -- de
-  kann kom -- men mei -- ne To -- des -- noth.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   Ach wie ge -- schwin -- de und be -- hen -- de
+   kann kom -- men mei -- ne To -- des -- noth.
 }

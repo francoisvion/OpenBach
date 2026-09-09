@@ -91,42 +91,37 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Es woll' uns Gott ge -- nä -- _ _ dig sein und sei -- nen Se -- gen ge -- _ _ _ ben; dass wir er -- ken -- nen sei -- ne Werk; und, was ihn liebt, auf Er -- _ den, und Je -- sus Chris -- tus Heil und Stärk be -- kannt den Hei -- den wer -- _ den und sie zu Gott be -- keh -- _ ren.
+   Es woll' uns Gott ge -- nä -- _ _ dig sein und sei -- nen Se -- gen ge -- _ _ _ ben; dass wir er -- ken -- nen sei -- ne Werk; und, was ihn liebt, auf Er -- _ den, und Je -- sus Chris -- tus Heil und Stärk be -- kannt den Hei -- den wer -- _ den und sie zu Gott be -- keh -- _ ren.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               sein Ant -- litz uns mit hel -- _ _ lem Schein, er -- leucht zum ew -- gen Le -- _ _ _ ben, }
+   sein Ant -- litz uns mit hel -- _ _ lem Schein, er -- leucht zum ew -- gen Le -- _ _ _ ben,
+}
 
 altoLyrics = \lyricmode {
   \repeat unfold 54 {\skip1} be -- keh -- _ _ ren.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Es woll' uns Gott ge -- nä -- _ _ dig sein und sei -- nen Se -- gen ge -- _ _ _ ben; dass wir er -- ken -- nen sei -- ne Werk; und, was ihn liebt, auf Er -- _ den, und Je -- sus Chris -- tus Heil und Stärk be -- kannt den Hei -- den wer -- _ den und sie zu Gott be -- keh ren. _ _
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Es woll' uns Gott ge -- nä -- _ _ dig sein und sei -- nen Se -- gen ge -- _ _ _ ben; dass wir er -- ken -- nen sei -- ne Werk; und, was ihn liebt, auf Er -- _ den, und Je -- sus Chris -- tus Heil und Stärk be -- kannt den Hei -- den wer -- _ den und sie zu Gott be -- keh ren. _ _
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  sein Ant -- litz uns mit hel -- _ _ lem Schein, er -- leucht zum ew -- gen Le -- _ _ _ ben,
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   sein Ant -- litz uns mit hel -- _ _ lem Schein, er -- leucht zum ew -- gen Le -- _ _ _ ben,
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Es woll' uns Gott ge -- nä -- _ _ dig sein und sei -- nen Se -- gen ge -- _ _ _ ben; dass wir er -- ken -- nen sei -- ne Werk; und, was ihn liebt, auf Er -- _ den, und Je -- sus Chris -- tus Heil und Stärk be -- kannt den Hei -- den wer den und sie zu Gott be -- keh -- _ ren. _ _ _
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Es woll' uns Gott ge -- nä -- _ _ dig sein und sei -- nen Se -- gen ge -- _ _ _ ben; dass wir er -- ken -- nen sei -- ne Werk; und, was ihn liebt, auf Er -- _ den, und Je -- sus Chris -- tus Heil und Stärk be -- kannt den Hei -- den wer den und sie zu Gott be -- keh -- _ ren. _ _ _
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  sein Ant -- litz uns mit hel -- _ _ lem Schein, er -- leucht zum ew -- gen Le -- _ _ _ ben,
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   sein Ant -- litz uns mit hel -- _ _ lem Schein, er -- leucht zum ew -- gen Le -- _ _ _ ben,
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Es woll' uns Gott ge -- nä -- _ _ dig sein und sei -- nen Se -- gen ge -- _ _ _ ben; dass wir er -- ken -- nen sei -- ne Werk; und, was ihn liebt, auf Er -- _ den, und Je -- sus Chris -- tus Heil und Stärk be -- kannt den Hei -- den wer -- _ den und sie zu Gott be -- keh -- _ ren. _ _
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Es woll' uns Gott ge -- nä -- _ _ dig sein und sei -- nen Se -- gen ge -- _ _ _ ben; dass wir er -- ken -- nen sei -- ne Werk; und, was ihn liebt, auf Er -- _ den, und Je -- sus Chris -- tus Heil und Stärk be -- kannt den Hei -- den wer -- _ den und sie zu Gott be -- keh -- _ ren. _ _
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  sein Ant -- litz uns mit hel -- _ _ lem Schein, er -- leucht zum ew -- gen Le -- _ _ _ ben,
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   sein Ant -- litz uns mit hel -- _ _ lem Schein, er -- leucht zum ew -- gen Le -- _ _ _ ben,
 }

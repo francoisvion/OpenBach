@@ -108,62 +108,56 @@ bassMusic = \relative c {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               \tweak X-offset #-3.5 "1. Du" \tweak X-offset #0 Le -- bens -- fürst, __ _ _ Herr Je -- su Christ,
-                               der du bist auf -- ge -- nom -- men
-                               wie soll ich dein -- en gro -- _ ßen Sieg,
-                               den du durch ei -- _ _ nen schwe -- ren Krieg
-                               er -- wor -- ben hast recht prei -- sen,
-                               und dir gnug Ehr er -- wei -- sen?
+   \tweak X-offset #-3.5 "1. Du" \tweak X-offset #0 Le -- bens -- fürst, __ _ _ Herr Je -- su Christ,
+   der du bist auf -- ge -- nom -- men
+   wie soll ich dein -- en gro -- _ ßen Sieg,
+   den du durch ei -- _ _ nen schwe -- ren Krieg
+   er -- wor -- ben hast recht prei -- sen,
+   und dir gnug Ehr er -- wei -- sen?
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               Gen Him -- mel, da __ _ _  dein Va -- ter ist,
-                               und die Ge -- mein der From -- men,
+   Gen Him -- mel, da __ _ _  dein Va -- ter ist,
+   und die Ge -- mein der From -- men,
 }
 
 sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
-                                    \tweak X-offset #-6 "13. Zieh" \tweak X-offset #0 uns dir nach, __ _ _   so lau -- fen wir,
-                                    gieb uns des Glau -- bens Flü -- gel!
-                                    Mein Gott! wann fahr ich doch __ _ da -- hin,
-                                    wo -- selbst ich e -- _ _ wig fröh -- lich bin?
-                                    Wann werd ich vor dir ste -- hen,
-                                    dein An -- ge -- sicht zu se -- hen?
+   \tweak X-offset #-6 "13. Zieh" \tweak X-offset #0 uns dir nach, __ _ _   so lau -- fen wir,
+   gieb uns des Glau -- bens Flü -- gel!
+   Mein Gott! wann fahr ich doch __ _ da -- hin,
+   wo -- selbst ich e -- _ _ wig fröh -- lich bin?
+   Wann werd ich vor dir ste -- hen,
+   dein An -- ge -- sicht zu se -- hen?
 }
 
 sopranoVersoTwoLyrics = \lyricmode {\set stanza = 2
-                                    hilf, dass wir flie -- _ _ hen weit von hier,
-                                    auf I -- sra -- e -- lis Hü -- gel.
+   hilf, dass wir flie -- _ _ hen weit von hier,
+   auf I -- sra -- e -- lis Hü -- gel.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  "1. Du" Le -- bens -- fürst, __ Herr Je -- su Christ, der du bist auf -- ge -- nom -- men wie soll ich dein -- en gro ßen Sieg, den du durch ei nen schwe -- ren Krieg er -- wor -- ben hast recht prei -- sen, und dir gnug Ehr er -- wei -- sen?
+altoLyricsOne = \lyricmode {\set stanza = 1
+   "1. Du" Le -- bens -- fürst, __ Herr Je -- su Christ, der du bist auf -- ge -- nom -- men wie soll ich dein -- en gro ßen Sieg, den du durch ei nen schwe -- ren Krieg er -- wor -- ben hast recht prei -- sen, und dir gnug Ehr er -- wei -- sen?
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Gen Him -- mel, da __ dein Va -- ter ist,
-  und die Ge -- mein der From -- men,
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   Gen Him -- mel, da __ dein Va -- ter ist,
+   und die Ge -- mein der From -- men,
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  "1. Du" Le -- bens -- fürst, __ _ _ Herr Je -- su Christ, der du bist auf -- ge -- nom -- men wie soll ich dein -- en gro -- _ ßen Sieg, den du durch ei -- _ _ nen schwe -- ren Krieg er -- wor -- ben hast recht prei -- sen, und dir gnug Ehr er -- wei -- _ sen?
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   "1. Du" Le -- bens -- fürst, __ _ _ Herr Je -- su Christ, der du bist auf -- ge -- nom -- men wie soll ich dein -- en gro -- _ ßen Sieg, den du durch ei -- _ _ nen schwe -- ren Krieg er -- wor -- ben hast recht prei -- sen, und dir gnug Ehr er -- wei -- _ sen?
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Gen Him -- mel, da __ _ _ dein Va -- ter ist,
-  und die Ge -- mein der From -- men,
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   Gen Him -- mel, da __ _ _ dein Va -- ter ist,
+   und die Ge -- mein der From -- men,
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  "1. Du" Le -- bens -- fürst, __ _ _ Herr Je -- su Christ, der du bist auf -- ge -- nom -- men wie soll ich dein -- en gro ßen Sieg, den du durch ei -- _ _ nen schwe -- ren Krieg er -- wor -- ben hast recht prei -- sen, und dir gnug Ehr er -- wei -- sen?
+bassLyricsOne = \lyricmode {\set stanza = 1
+   "1. Du" Le -- bens -- fürst, __ _ _ Herr Je -- su Christ, der du bist auf -- ge -- nom -- men wie soll ich dein -- en gro ßen Sieg, den du durch ei -- _ _ nen schwe -- ren Krieg er -- wor -- ben hast recht prei -- sen, und dir gnug Ehr er -- wei -- sen?
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Gen Him -- mel, da __ _ _ dein Va -- ter ist,
-  und die Ge -- mein der From -- men,
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   Gen Him -- mel, da __ _ _ dein Va -- ter ist,
+   und die Ge -- mein der From -- men,
 }

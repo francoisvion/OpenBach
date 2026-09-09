@@ -179,79 +179,73 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Wie sich ein Vatr er -- bar -- _ met
-                               Üb'r sei -- _ ne jun -- ge Kind -- lein klein:
-                               Er kennt __ _ das arm' Ge -- mäch -- _ te,
-                               er weiß, __ _ wir sind nur Staub.
-                               Gleich wie das Gras vom Re -- _ _ chen,
-                               Ein Blum' und fal -- _ lend Laub,
-                               der Wind nur drü -- ber we -- het,
-                               so ist __ _ es nim -- mer da:
-                               al -- so der Mensch ver -- ge -- _ het,
-                               sein End, das ist __ _ _ _ ihm nah.
+   Wie sich ein Vatr er -- bar -- _ met
+   Üb'r sei -- _ ne jun -- ge Kind -- lein klein:
+   Er kennt __ _ das arm' Ge -- mäch -- _ te,
+   er weiß, __ _ wir sind nur Staub.
+   Gleich wie das Gras vom Re -- _ _ chen,
+   Ein Blum' und fal -- _ lend Laub,
+   der Wind nur drü -- ber we -- het,
+   so ist __ _ es nim -- mer da:
+   al -- so der Mensch ver -- ge -- _ het,
+   sein End, das ist __ _ _ _ ihm nah.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               So tut der Herr uns Ar -- _ men,
-                               so wir __ _ ihn kind -- lich fürch -- ten rein.
+   So tut der Herr uns Ar -- _ men,
+   so wir __ _ ihn kind -- lich fürch -- ten rein.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Wie sich ein Vatr _ er -- bar -- _ _ met
-  Üb'r sei ne jun -- ge Kind -- lein klein:
-  Er kennt __ _ das arm' _ Ge -- mäch -- _ te,
-  er weiß, __ wir sind nur Staub.
-  Gleich wie das Gras vom Re -- _ _ chen,
-  Ein Blum' und fal -- _ lend Laub,
-  der Wind nur drü -- ber we -- _ _ het,
-  so ist __ es nim -- mer da:
-  al -- so _ der Mensch ver -- ge -- _ _ het,
-  sein End, das ist __ _ _ _ ihm nah.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Wie sich ein Vatr _ er -- bar -- _ _ met
+   Üb'r sei ne jun -- ge Kind -- lein klein:
+   Er kennt __ _ das arm' _ Ge -- mäch -- _ te,
+   er weiß, __ wir sind nur Staub.
+   Gleich wie das Gras vom Re -- _ _ chen,
+   Ein Blum' und fal -- _ lend Laub,
+   der Wind nur drü -- ber we -- _ _ het,
+   so ist __ es nim -- mer da:
+   al -- so _ der Mensch ver -- ge -- _ _ het,
+   sein End, das ist __ _ _ _ ihm nah.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  So tut der Herr _ uns Ar -- _ _ men,
-  so wir __ ihn kind -- lich fürch -- ten rein.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   So tut der Herr _ uns Ar -- _ _ men,
+   so wir __ ihn kind -- lich fürch -- ten rein.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Wie sich ein Vatr er -- bar -- _ met
-  Üb'r sei -- _ ne jun -- ge Kind -- lein klein:
-  Er kennt __ das arm' _ Ge -- mäch -- _ _ te,
-  er weiß, __ _ wir sind nur Staub.
-  Gleich wie das Gras vom Re chen,
-  Ein Blum' und fal -- _ lend Laub,
-  der Wind nur drü -- ber we -- _ _ het,
-  so ist __ _ es nim -- mer da:
-  al -- so der Mensch _ ver -- ge -- _ het,
-  sein End, _ das ist __ _ _ ihm _ nah.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Wie sich ein Vatr er -- bar -- _ met
+   Üb'r sei -- _ ne jun -- ge Kind -- lein klein:
+   Er kennt __ das arm' _ Ge -- mäch -- _ _ te,
+   er weiß, __ _ wir sind nur Staub.
+   Gleich wie das Gras vom Re chen,
+   Ein Blum' und fal -- _ lend Laub,
+   der Wind nur drü -- ber we -- _ _ het,
+   so ist __ _ es nim -- mer da:
+   al -- so der Mensch _ ver -- ge -- _ het,
+   sein End, _ das ist __ _ _ ihm _ nah.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  So tut der Herr uns Ar -- _ men,
-  so wir __ _ ihn kind -- lich fürch -- ten rein.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   So tut der Herr uns Ar -- _ men,
+   so wir __ _ ihn kind -- lich fürch -- ten rein.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Wie sich ein Vatr er -- bar -- _ _ met
-  Üb'r sei ne jun -- _ ge Kind -- lein _ klein:
-  Er kennt __ das arm' _ Ge -- mäch -- _ _ te,
-  er weiß, __ _ wir sind nur Staub.
-  Gleich wie _ das Gras _ vom Re _ chen,
-  Ein Blum' _ und fal -- _ lend Laub,
-  der Wind _ nur drü -- _ ber we -- het,
-  so ist __ es nim -- mer da:
-  al -- so der Mensch ver -- ge -- _ het,
-  sein End, _ das ist __ _ _ ihm _ nah.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Wie sich ein Vatr er -- bar -- _ _ met
+   Üb'r sei ne jun -- _ ge Kind -- lein _ klein:
+   Er kennt __ das arm' _ Ge -- mäch -- _ _ te,
+   er weiß, __ _ wir sind nur Staub.
+   Gleich wie _ das Gras _ vom Re _ chen,
+   Ein Blum' _ und fal -- _ lend Laub,
+   der Wind _ nur drü -- _ ber we -- het,
+   so ist __ es nim -- mer da:
+   al -- so der Mensch ver -- ge -- _ het,
+   sein End, _ das ist __ _ _ ihm _ nah.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  So tut der Herr uns Ar -- _ _ men,
-  so wir __ ihn kind -- _ lich fürch -- ten _ rein.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   So tut der Herr uns Ar -- _ _ men,
+   so wir __ ihn kind -- _ lich fürch -- ten _ rein.
 }

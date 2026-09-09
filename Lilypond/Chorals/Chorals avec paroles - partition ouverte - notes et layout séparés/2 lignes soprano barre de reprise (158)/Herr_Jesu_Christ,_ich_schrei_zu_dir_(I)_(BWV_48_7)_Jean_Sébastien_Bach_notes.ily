@@ -63,59 +63,53 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Herr Je -- su Christ, ei -- ni -- ger Trost, 
-                               zu dir will ich mich wen -- den;
-                               In dei -- nen Wil -- len seis ge -- stellt,
-                               machs, lie -- ber Gott, wie dirs ge -- fällt:
-                               dein bin und will ich blei -- _ _ ben.
+   Herr Je -- su Christ, ei -- ni -- ger Trost,
+   zu dir will ich mich wen -- den;
+   In dei -- nen Wil -- len seis ge -- stellt,
+   machs, lie -- ber Gott, wie dirs ge -- fällt:
+   dein bin und will ich blei -- _ _ ben.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               mein Herz -- leid ist dir wohl be -- wusst,
-                               du kannst und wirst es en -- den.
+   mein Herz -- leid ist dir wohl be -- wusst,
+   du kannst und wirst es en -- den.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Herr Je -- su Christ, ei -- ni -- ger Trost,
-  zu dir will ich mich wen -- _ den;
-  In dei -- nen Wil -- len seis ge -- stellt,
-  machs, lie -- ber Gott, wie dirs ge -- fällt:
-  dein bin und will ich blei -- _ _ ben.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Herr Je -- su Christ, ei -- ni -- ger Trost,
+   zu dir will ich mich wen -- _ den;
+   In dei -- nen Wil -- len seis ge -- stellt,
+   machs, lie -- ber Gott, wie dirs ge -- fällt:
+   dein bin und will ich blei -- _ _ ben.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  mein Herz -- leid ist dir wohl be -- wusst,
-  du kannst und wirst es en -- _ den.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   mein Herz -- leid ist dir wohl be -- wusst,
+   du kannst und wirst es en -- _ den.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Herr Je -- su Christ, ei -- ni -- ger Trost,
-  zu dir will ich mich wen -- _ den;
-  In dei -- nen Wil -- len seis ge -- stellt,
-  machs, lie -- ber Gott, wie dirs ge -- fällt:
-  dein bin und will ich blei -- _ _ _ ben.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Herr Je -- su Christ, ei -- ni -- ger Trost,
+   zu dir will ich mich wen -- _ den;
+   In dei -- nen Wil -- len seis ge -- stellt,
+   machs, lie -- ber Gott, wie dirs ge -- fällt:
+   dein bin und will ich blei -- _ _ _ ben.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  mein Herz -- leid ist dir wohl be -- wusst,
-  du kannst und wirst es en -- _ den.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   mein Herz -- leid ist dir wohl be -- wusst,
+   du kannst und wirst es en -- _ den.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Herr Je -- su Christ, ei -- ni -- ger Trost,
-  zu dir will ich mich wen -- _ den;
-  In dei -- nen Wil -- len seis ge -- stellt,
-  machs, lie -- ber Gott, wie dirs ge -- fällt:
-  dein bin und will ich blei -- _ _ _ ben.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Herr Je -- su Christ, ei -- ni -- ger Trost,
+   zu dir will ich mich wen -- _ den;
+   In dei -- nen Wil -- len seis ge -- stellt,
+   machs, lie -- ber Gott, wie dirs ge -- fällt:
+   dein bin und will ich blei -- _ _ _ ben.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  mein Herz -- leid ist dir wohl be -- wusst,
-  du kannst und wirst es en -- _ den.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   mein Herz -- leid ist dir wohl be -- wusst,
+   du kannst und wirst es en -- _ den.
 }

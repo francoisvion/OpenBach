@@ -68,71 +68,65 @@ bassMusic = \relative c {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               So gehst du nun, mein Je -- su, hin,
-                               den Tod für mich zu lei -- _ den,
-                               Wohl -- an! fahr fort,
-                               du e -- dler Hort,
-                               mein Au -- gen sol -- len flie -- _ ßen
-                               ein Trä -- nen -- see,
-                               mich Ach und Weh,
-                               die Lei -- den zu be -- gie -- _ ßen.
+   So gehst du nun, mein Je -- su, hin,
+   den Tod für mich zu lei -- _ den,
+   Wohl -- an! fahr fort,
+   du e -- dler Hort,
+   mein Au -- gen sol -- len flie -- _ ßen
+   ein Trä -- nen -- see,
+   mich Ach und Weh,
+   die Lei -- den zu be -- gie -- _ ßen.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               für mich, der ich ein Sün -- der bin,
-                               der dich be -- trübt in Freu -- _ den.
+   für mich, der ich ein Sün -- der bin,
+   der dich be -- trübt in Freu -- _ den.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  So gehst du nun, mein Je -- su, hin,
-  den Tod für mich zu lei -- _ den,
-  Wohl -- an! fahr fort,
-  du e -- dler Hort,
-  mein Au -- gen sol -- len flie -- _ ßen
-  ein Trä -- nen -- see,
-  mich Ach und Weh,
-  die Lei -- den zu be -- gie -- _ ßen.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   So gehst du nun, mein Je -- su, hin,
+   den Tod für mich zu lei -- _ den,
+   Wohl -- an! fahr fort,
+   du e -- dler Hort,
+   mein Au -- gen sol -- len flie -- _ ßen
+   ein Trä -- nen -- see,
+   mich Ach und Weh,
+   die Lei -- den zu be -- gie -- _ ßen.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  für mich, der ich ein Sün -- der bin,
-  der dich be -- trübt in Freu -- _ den.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   für mich, der ich ein Sün -- der bin,
+   der dich be -- trübt in Freu -- _ den.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  So gehst du nun, mein Je -- su, hin,
-  den Tod für mich zu lei -- _ den,
-  Wohl -- an! fahr fort,
-  du e -- dler Hort,
-  mein Au -- gen sol -- len flie -- _ ßen
-  ein Trä -- nen -- see,
-  mich Ach und Weh,
-  die Lei -- den zu be -- gie -- _ ßen.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   So gehst du nun, mein Je -- su, hin,
+   den Tod für mich zu lei -- _ den,
+   Wohl -- an! fahr fort,
+   du e -- dler Hort,
+   mein Au -- gen sol -- len flie -- _ ßen
+   ein Trä -- nen -- see,
+   mich Ach und Weh,
+   die Lei -- den zu be -- gie -- _ ßen.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  für mich, der ich ein Sün -- der bin,
-  der dich be -- trübt in Freu -- _ den.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   für mich, der ich ein Sün -- der bin,
+   der dich be -- trübt in Freu -- _ den.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  So gehst du nun, mein Je -- su, hin,
-  den Tod für mich zu lei -- _ den,
-  Wohl -- an! fahr fort,
-  du e -- dler Hort,
-  mein Au -- gen sol -- len flie -- _ ßen
-  ein Trä -- nen -- see,
-  mich Ach und Weh,
-  die Lei -- den zu be -- gie -- _ ßen.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   So gehst du nun, mein Je -- su, hin,
+   den Tod für mich zu lei -- _ den,
+   Wohl -- an! fahr fort,
+   du e -- dler Hort,
+   mein Au -- gen sol -- len flie -- _ ßen
+   ein Trä -- nen -- see,
+   mich Ach und Weh,
+   die Lei -- den zu be -- gie -- _ ßen.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  für mich, der ich ein Sün -- der bin,
-  der dich be -- trübt in Freu -- _ den.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   für mich, der ich ein Sün -- der bin,
+   der dich be -- trübt in Freu -- _ den.
 }

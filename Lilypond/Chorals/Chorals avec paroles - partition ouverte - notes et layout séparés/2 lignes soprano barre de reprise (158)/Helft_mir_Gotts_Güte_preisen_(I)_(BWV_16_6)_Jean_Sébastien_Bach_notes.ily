@@ -67,59 +67,53 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               All solch dein Güt wir prei -- _ sen,
-                               Va -- ter ins Him -- mels Thron,
-                               und bit -- ten fer -- ner dich,
-                               gib uns ein fried -- lich Jah -- re,
-                               vor al -- les Leid be -- wah -- _ re
-                               und nähr uns mil -- dig -- lich. _
+   All solch dein Güt wir prei -- _ sen,
+   Va -- ter ins Him -- mels Thron,
+   und bit -- ten fer -- ner dich,
+   gib uns ein fried -- lich Jah -- re,
+   vor al -- les Leid be -- wah -- _ re
+   und nähr uns mil -- dig -- lich. _
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               Die du uns tust be -- wei -- _ sen durch Je -- sum dein -- en Sohn,
+   Die du uns tust be -- wei -- _ sen durch Je -- sum dein -- en Sohn,
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  All solch dein Güt wir prei sen,
-  Va -- ter ins Him -- mels Thron,
-  und bit -- ten fer -- ner dich,
-  gib uns ein fried -- lich Jah -- _ re,
-  vor al -- les Leid be -- wah -- _ re
-  und nähr uns mil -- dig -- lich.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   All solch dein Güt wir prei sen,
+   Va -- ter ins Him -- mels Thron,
+   und bit -- ten fer -- ner dich,
+   gib uns ein fried -- lich Jah -- _ re,
+   vor al -- les Leid be -- wah -- _ re
+   und nähr uns mil -- dig -- lich.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Die du uns tust be -- wei sen durch Je -- sum dein -- en Sohn,
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   Die du uns tust be -- wei sen durch Je -- sum dein -- en Sohn,
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  All solch dein Güt wir prei -- _ sen,
-  Va -- ter ins Him -- mels Thron,
-  und bit -- ten fer -- ner dich,
-  gib uns ein fried -- lich Jah -- _ re,
-  vor al -- les Leid be -- wah re
-  und nähr uns mil -- dig -- lich.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   All solch dein Güt wir prei -- _ sen,
+   Va -- ter ins Him -- mels Thron,
+   und bit -- ten fer -- ner dich,
+   gib uns ein fried -- lich Jah -- _ re,
+   vor al -- les Leid be -- wah re
+   und nähr uns mil -- dig -- lich.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Die du uns tust be -- wei -- _ sen durch Je -- sum dein -- en Sohn,
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   Die du uns tust be -- wei -- _ sen durch Je -- sum dein -- en Sohn,
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  All solch dein Güt wir prei -- _ sen,
-  Va -- ter ins Him -- mels Thron,
-  und bit -- ten fer -- ner dich,
-  gib uns ein fried -- lich Jah -- _ re,
-  vor al -- les Leid be -- wah -- _ re
-  und nähr uns mil -- dig -- lich.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   All solch dein Güt wir prei -- _ sen,
+   Va -- ter ins Him -- mels Thron,
+   und bit -- ten fer -- ner dich,
+   gib uns ein fried -- lich Jah -- _ re,
+   vor al -- les Leid be -- wah -- _ re
+   und nähr uns mil -- dig -- lich.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Die du uns tust be -- wei -- _ sen durch Je -- sum dein -- en Sohn,
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   Die du uns tust be -- wei -- _ sen durch Je -- sum dein -- en Sohn,
 }

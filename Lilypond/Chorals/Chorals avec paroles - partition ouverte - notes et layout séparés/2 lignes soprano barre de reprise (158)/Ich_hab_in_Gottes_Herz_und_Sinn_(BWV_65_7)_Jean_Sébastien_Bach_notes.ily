@@ -75,63 +75,57 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Ei nun, mein Gott, so fall ich dir
-                               ge -- trost in dei -- _ _ ne Hän -- de.
-                               wie du wohl weißt, __ _ _ dass mei -- nem Geist
-                               da -- durch sein Nutz ent -- ste -- he,
-                               und dei -- ne Ehr je mehr und mehr
-                               sich in mir selbst __ _ _ er -- hö -- he.
+   Ei nun, mein Gott, so fall ich dir
+   ge -- trost in dei -- _ _ ne Hän -- de.
+   wie du wohl weißt, __ _ _ dass mei -- nem Geist
+   da -- durch sein Nutz ent -- ste -- he,
+   und dei -- ne Ehr je mehr und mehr
+   sich in mir selbst __ _ _ er -- hö -- he.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               nimm mich und mach es so mit mir
-                               bis an mein letz -- _ _ tes En -- de,
+   nimm mich und mach es so mit mir
+   bis an mein letz -- _ _ tes En -- de,
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Ei nun, mein Gott, so fall ich dir
-  ge -- trost in dei _ ne Hän -- de.
-  wie du wohl weißt, __ _ _ dass mei -- nem Geist
-  da -- durch sein Nutz ent -- ste -- _ he,
-  und dei -- ne Ehr je mehr und mehr
-  sich in mir selbst __ _ _ er -- hö -- he.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Ei nun, mein Gott, so fall ich dir
+   ge -- trost in dei _ ne Hän -- de.
+   wie du wohl weißt, __ _ _ dass mei -- nem Geist
+   da -- durch sein Nutz ent -- ste -- _ he,
+   und dei -- ne Ehr je mehr und mehr
+   sich in mir selbst __ _ _ er -- hö -- he.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  nimm mich und mach es so mit mir
-  bis an mein letz _ tes En -- de,
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   nimm mich und mach es so mit mir
+   bis an mein letz _ tes En -- de,
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Ei nun, mein Gott, so fall ich dir
-  ge -- trost in dei -- _ _ ne Hän -- _ de.
-  wie du wohl weißt, __ _ _ dass mei -- nem Geist
-  da -- durch sein Nutz ent -- ste -- _ he,
-  und dei -- ne Ehr je mehr und mehr
-  sich in mir selbst __ _ _ er -- hö -- he.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Ei nun, mein Gott, so fall ich dir
+   ge -- trost in dei -- _ _ ne Hän -- _ de.
+   wie du wohl weißt, __ _ _ dass mei -- nem Geist
+   da -- durch sein Nutz ent -- ste -- _ he,
+   und dei -- ne Ehr je mehr und mehr
+   sich in mir selbst __ _ _ er -- hö -- he.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  nimm mich und mach es so mit mir
-  bis an mein letz -- _ _ tes En -- _ de,
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   nimm mich und mach es so mit mir
+   bis an mein letz -- _ _ tes En -- _ de,
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Ei nun, mein Gott, so fall ich dir
-  ge -- trost in dei -- _ _ ne Hän -- de.
-  wie du wohl weißt, __ _ _ dass mei -- nem Geist
-  da -- durch sein Nutz ent -- ste -- _ he,
-  und dei -- ne Ehr je mehr und mehr
-  sich in mir selbst __ _ _ er -- hö -- he.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Ei nun, mein Gott, so fall ich dir
+   ge -- trost in dei -- _ _ ne Hän -- de.
+   wie du wohl weißt, __ _ _ dass mei -- nem Geist
+   da -- durch sein Nutz ent -- ste -- _ he,
+   und dei -- ne Ehr je mehr und mehr
+   sich in mir selbst __ _ _ er -- hö -- he.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  nimm mich und mach es so mit mir
-  bis an mein letz -- _ _ tes En -- de,
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   nimm mich und mach es so mit mir
+   bis an mein letz -- _ _ tes En -- de,
 }

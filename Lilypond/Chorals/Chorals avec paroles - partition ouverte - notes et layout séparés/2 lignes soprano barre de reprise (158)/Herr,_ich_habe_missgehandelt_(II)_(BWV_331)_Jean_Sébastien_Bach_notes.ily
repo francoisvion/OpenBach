@@ -55,44 +55,37 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Herr, ich ha -- be miss -- ge -- han -- delt, ja mich drückt der Sün -- den Last;
-                               und jetzt wollt' ich gern aus Schre -- cken mich vor dei -- nem Zorn ver -- ste -- cken.
-
+   Herr, ich ha -- be miss -- ge -- han -- delt, ja mich drückt der Sün -- den Last;
+   und jetzt wollt' ich gern aus Schre -- cken mich vor dei -- nem Zorn ver -- ste -- cken.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               ich bin nicht den Weg ge -- wan -- delt, den du mir ge -- zei -- get hast;
+   ich bin nicht den Weg ge -- wan -- delt, den du mir ge -- zei -- get hast;
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Herr, ich ha -- be miss -- ge -- han -- _ delt, ja mich drückt der Sün -- den Last;
-  und jetzt wollt' ich gern aus Schre -- _ cken mich vor dei -- nem Zorn ver -- ste -- _ cken.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Herr, ich ha -- be miss -- ge -- han -- _ delt, ja mich drückt der Sün -- den Last;
+   und jetzt wollt' ich gern aus Schre -- _ cken mich vor dei -- nem Zorn ver -- ste -- _ cken.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  ich bin nicht den Weg ge -- wan -- _ delt, den du mir ge -- zei -- get hast;
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   ich bin nicht den Weg ge -- wan -- _ delt, den du mir ge -- zei -- get hast;
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Herr, ich ha -- be _ miss -- ge -- han -- _ delt, ja mich drückt der Sün -- den Last;
-  und jetzt wollt' ich gern aus Schre -- _ cken mich vor dei -- nem Zorn ver -- ste -- _ cken.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Herr, ich ha -- be _ miss -- ge -- han -- _ delt, ja mich drückt der Sün -- den Last;
+   und jetzt wollt' ich gern aus Schre -- _ cken mich vor dei -- nem Zorn ver -- ste -- _ cken.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  ich bin nicht den _ Weg ge -- wan -- _ delt, den du mir ge -- zei -- get hast;
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   ich bin nicht den _ Weg ge -- wan -- _ delt, den du mir ge -- zei -- get hast;
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Herr, ich ha -- be miss -- ge -- han -- delt, ja mich drückt der Sün -- den Last;
-  und jetzt wollt' ich gern aus Schre -- cken mich vor dei -- nem Zorn ver -- ste -- cken.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Herr, ich ha -- be miss -- ge -- han -- delt, ja mich drückt der Sün -- den Last;
+   und jetzt wollt' ich gern aus Schre -- cken mich vor dei -- nem Zorn ver -- ste -- cken.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  ich bin nicht den Weg ge -- wan -- delt, den du mir ge -- zei -- get hast;
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   ich bin nicht den Weg ge -- wan -- delt, den du mir ge -- zei -- get hast;
 }

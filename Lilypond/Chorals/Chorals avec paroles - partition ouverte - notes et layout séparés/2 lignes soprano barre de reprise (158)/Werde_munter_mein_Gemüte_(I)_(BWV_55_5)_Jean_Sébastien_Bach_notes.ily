@@ -63,63 +63,57 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Bin ich gleich von dir ge -- wi -- chen,
-                               stell ich mich doch wie -- der ein;      
-                               Ich ver -- leu -- gne nicht die Schuld;
-                               a -- ber dei -- ne Gnad und Huld
-                               ist viel grö -- ßer als die Sün -- de,
-                               die ich stets in mir be -- fin -- de.
+   Bin ich gleich von dir ge -- wi -- chen,
+   stell ich mich doch wie -- der ein;
+   Ich ver -- leu -- gne nicht die Schuld;
+   a -- ber dei -- ne Gnad und Huld
+   ist viel grö -- ßer als die Sün -- de,
+   die ich stets in mir be -- fin -- de.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               hat uns doch dein Sohn ver -- gli -- chen
-                               durch sein Angst und To -- des -- pein.
+   hat uns doch dein Sohn ver -- gli -- chen
+   durch sein Angst und To -- des -- pein.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Bin ich gleich von dir ge -- wi -- chen,
-  stell ich mich doch wie -- der ein;
-  Ich ver -- leu -- gne nicht die Schuld;
-  a -- ber dei -- ne Gnad und Huld
-  ist viel grö -- ßer als die Sün -- de,
-  die ich stets in mir be -- fin -- de.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Bin ich gleich von dir ge -- wi -- chen,
+   stell ich mich doch wie -- der ein;
+   Ich ver -- leu -- gne nicht die Schuld;
+   a -- ber dei -- ne Gnad und Huld
+   ist viel grö -- ßer als die Sün -- de,
+   die ich stets in mir be -- fin -- de.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  hat uns doch dein Sohn ver -- gli -- chen
-  durch sein Angst und To -- des -- pein.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   hat uns doch dein Sohn ver -- gli -- chen
+   durch sein Angst und To -- des -- pein.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Bin ich gleich von dir ge -- wi -- chen,
-  stell ich mich doch wie -- der ein;
-  Ich ver -- leu -- gne nicht die Schuld;
-  a -- ber dei -- ne Gnad und Huld
-  ist viel grö -- ßer als die Sün -- de,
-  die ich stets in mir be -- fin -- de.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Bin ich gleich von dir ge -- wi -- chen,
+   stell ich mich doch wie -- der ein;
+   Ich ver -- leu -- gne nicht die Schuld;
+   a -- ber dei -- ne Gnad und Huld
+   ist viel grö -- ßer als die Sün -- de,
+   die ich stets in mir be -- fin -- de.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  hat uns doch dein Sohn ver -- gli -- chen
-  durch sein Angst und To -- des -- pein.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   hat uns doch dein Sohn ver -- gli -- chen
+   durch sein Angst und To -- des -- pein.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Bin ich gleich von dir ge -- wi -- chen,
-  stell ich mich doch wie -- der ein;
-  Ich ver -- leu -- gne nicht die Schuld;
-  a -- ber dei -- ne Gnad und Huld
-  ist viel grö -- ßer als die Sün -- de,
-  die ich stets in mir be -- fin -- de.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Bin ich gleich von dir ge -- wi -- chen,
+   stell ich mich doch wie -- der ein;
+   Ich ver -- leu -- gne nicht die Schuld;
+   a -- ber dei -- ne Gnad und Huld
+   ist viel grö -- ßer als die Sün -- de,
+   die ich stets in mir be -- fin -- de.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  hat uns doch dein Sohn ver -- gli -- chen
-  durch sein Angst und To -- des -- pein.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   hat uns doch dein Sohn ver -- gli -- chen
+   durch sein Angst und To -- des -- pein.
 }

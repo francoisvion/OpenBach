@@ -55,48 +55,42 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Was bist du doch, o See -- le so be -- trü -- bet,
-                               Was grämst du dich,
-                               so äng -- stig -- lich,
-                               als wür -- dest du drum nicht von Gott ge -- lie -- bet?
+   Was bist du doch, o See -- le so be -- trü -- bet,
+   Was grämst du dich,
+   so äng -- stig -- lich,
+   als wür -- dest du drum nicht von Gott ge -- lie -- bet?
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2  
-                               dass dir der Herr ein Kreuz zu tra -- gen gie -- bet?
+sopranoLyricsTwo = \lyricmode {\set stanza = 2
+   dass dir der Herr ein Kreuz zu tra -- gen gie -- bet?
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Was bist du doch, o See -- le so be -- trü -- bet,
-  Was grämst du dich,
-  so äng -- stig -- lich,
-  als wür -- dest du drum nicht von Gott ge -- lie -- bet?
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Was bist du doch, o See -- le so be -- trü -- bet,
+   Was grämst du dich,
+   so äng -- stig -- lich,
+   als wür -- dest du drum nicht von Gott ge -- lie -- bet?
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2  
-  dass dir der Herr ein Kreuz zu tra -- gen gie -- bet?
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   dass dir der Herr ein Kreuz zu tra -- gen gie -- bet?
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Was bist du doch, o See -- le so be -- trü -- bet,
-  Was grämst du dich,
-  so äng -- stig -- lich,
-  als wür -- dest du drum nicht _ von Gott ge -- lie -- _ bet?
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Was bist du doch, o See -- le so be -- trü -- bet,
+   Was grämst du dich,
+   so äng -- stig -- lich,
+   als wür -- dest du drum nicht _ von Gott ge -- lie -- _ bet?
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2  
-  dass dir der Herr ein Kreuz zu tra -- gen gie -- bet?
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   dass dir der Herr ein Kreuz zu tra -- gen gie -- bet?
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Was bist du doch, o See -- le so be -- trü -- bet, Was grämst du dich, so äng -- stig -- lich, als wür -- dest du drum nicht von Gott ge -- lie -- _ bet?
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Was bist du doch, o See -- le so be -- trü -- bet, Was grämst du dich, so äng -- stig -- lich, als wür -- dest du drum nicht von Gott ge -- lie -- _ bet?
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2  
-  dass dir der Herr ein Kreuz zu tra -- gen gie -- bet?
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   dass dir der Herr ein Kreuz zu tra -- gen gie -- bet?
 }

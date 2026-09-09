@@ -61,59 +61,53 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Die Hoff -- nung wart' der rech -- ten Zeit,
-                               was Got -- tes Wort zu -- sa -- _ get,
-                               Er weiss wohl, wenn's am be -- sten ist,
-                               und braucht an uns kein ar -- ge List;
-                               des solln wir ihm ver -- trau -- _ en.
+   Die Hoff -- nung wart' der rech -- ten Zeit,
+   was Got -- tes Wort zu -- sa -- _ get,
+   Er weiss wohl, wenn's am be -- sten ist,
+   und braucht an uns kein ar -- ge List;
+   des solln wir ihm ver -- trau -- _ en.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               wenn das ge -- sche -- hen soll zur Freud,
-                               setzt Gott kein g'wis -- se Ta -- _ ge. 
+   wenn das ge -- sche -- hen soll zur Freud,
+   setzt Gott kein g'wis -- se Ta -- _ ge.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Die Hoff -- nung wart' der rech -- ten _ Zeit,
-  was Got -- tes Wort zu -- sa -- _ get,
-  Er weiss wohl, wenn's am be -- sten ist,
-  und braucht an uns kein ar -- ge List;
-  des solln wir ihm ver -- trau -- _ en.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Die Hoff -- nung wart' der rech -- ten _ Zeit,
+   was Got -- tes Wort zu -- sa -- _ get,
+   Er weiss wohl, wenn's am be -- sten ist,
+   und braucht an uns kein ar -- ge List;
+   des solln wir ihm ver -- trau -- _ en.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  wenn das ge -- sche -- hen soll zur _ Freud,
-  setzt Gott kein g'wis -- se Ta -- _ ge.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   wenn das ge -- sche -- hen soll zur _ Freud,
+   setzt Gott kein g'wis -- se Ta -- _ ge.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Die Hoff -- nung wart' der rech -- ten _ Zeit,
-  was Got -- tes Wort zu -- sa -- _ _ get,
-  Er weiss wohl, wenn's am be -- sten ist,
-  und braucht an uns kein ar -- ge List;
-  des solln wir ihm ver -- trau en.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Die Hoff -- nung wart' der rech -- ten _ Zeit,
+   was Got -- tes Wort zu -- sa -- _ _ get,
+   Er weiss wohl, wenn's am be -- sten ist,
+   und braucht an uns kein ar -- ge List;
+   des solln wir ihm ver -- trau en.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  wenn das ge -- sche -- hen soll zur _ Freud,
-  setzt Gott kein g'wis -- se Ta -- _ _ ge.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   wenn das ge -- sche -- hen soll zur _ Freud,
+   setzt Gott kein g'wis -- se Ta -- _ _ ge.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Die Hoff -- nung wart' der rech -- ten Zeit,
-  was Got -- tes Wort zu -- sa -- _ get,
-  Er weiss wohl, wenn's am be -- sten ist,
-  und braucht an uns kein ar -- ge List;
-  des solln wir ihm ver -- trau -- _ en.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Die Hoff -- nung wart' der rech -- ten Zeit,
+   was Got -- tes Wort zu -- sa -- _ get,
+   Er weiss wohl, wenn's am be -- sten ist,
+   und braucht an uns kein ar -- ge List;
+   des solln wir ihm ver -- trau -- _ en.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  wenn das ge -- sche -- hen soll zur Freud,
-  setzt Gott kein g'wis -- se Ta -- _ ge.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   wenn das ge -- sche -- hen soll zur Freud,
+   setzt Gott kein g'wis -- se Ta -- _ ge.
 }

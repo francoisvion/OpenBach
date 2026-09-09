@@ -67,58 +67,52 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Va -- let will ich dir ge -- ben,
-                               du ar -- ge, fal -- sche Welt,
-                               Im Him -- mel ist gut woh -- _ nen,
-                               hin -- auf steht mein Be -- gier,
-                               da wird Gott herr -- lich loh -- _ nen
-                               dem, der ihm dient all -- hier.
+   Va -- let will ich dir ge -- ben,
+   du ar -- ge, fal -- sche Welt,
+   Im Him -- mel ist gut woh -- _ nen,
+   hin -- auf steht mein Be -- gier,
+   da wird Gott herr -- lich loh -- _ nen
+   dem, der ihm dient all -- hier.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               Dein sünd -- lich bö -- ses Le -- ben
-                               Durch -- aus mir nicht ge -- fällt.
+   Dein sünd -- lich bö -- ses Le -- ben
+   Durch -- aus mir nicht ge -- fällt.
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Va -- let will ich dir ge -- ben, du ar -- ge, fal -- sche Welt, Im Him -- mel ist gut woh -- _ nen, hin -- auf steht mein Be -- gier, da wird Gott herr -- lich loh -- _ nen dem, der ihm dient all -- hier.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Va -- let will ich dir ge -- ben, du ar -- ge, fal -- sche Welt, Im Him -- mel ist gut woh -- _ nen, hin -- auf steht mein Be -- gier, da wird Gott herr -- lich loh -- _ nen dem, der ihm dient all -- hier.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Dein sünd -- lich bö -- ses Le -- ben
-  Durch -- aus mir nicht ge -- fällt.
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   Dein sünd -- lich bö -- ses Le -- ben
+   Durch -- aus mir nicht ge -- fällt.
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Va -- let will ich dir ge -- _ ben,
-  du ar -- ge, fal -- sche Welt,
-  Im Him -- mel ist gut woh -- _ nen,
-  hin -- auf steht mein Be -- gier,
-  da wird Gott herr -- lich loh nen
-  dem, der ihm dient all -- hier.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Va -- let will ich dir ge -- _ ben,
+   du ar -- ge, fal -- sche Welt,
+   Im Him -- mel ist gut woh -- _ nen,
+   hin -- auf steht mein Be -- gier,
+   da wird Gott herr -- lich loh nen
+   dem, der ihm dient all -- hier.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Dein sünd -- lich bö -- ses Le -- _ ben
-  Durch -- aus mir nicht ge -- fällt.
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   Dein sünd -- lich bö -- ses Le -- _ ben
+   Durch -- aus mir nicht ge -- fällt.
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Va -- let will ich dir ge -- _ ben,
-  du ar -- ge, fal -- sche Welt,
-  Im Him -- mel ist gut woh -- _ nen,
-  hin -- auf steht mein Be -- gier,
-  da wird Gott herr -- lich loh -- _ nen
-  dem, der ihm dient all -- hier.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Va -- let will ich dir ge -- _ ben,
+   du ar -- ge, fal -- sche Welt,
+   Im Him -- mel ist gut woh -- _ nen,
+   hin -- auf steht mein Be -- gier,
+   da wird Gott herr -- lich loh -- _ nen
+   dem, der ihm dient all -- hier.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Dein sünd -- lich bö -- ses Le -- _ ben
-  Durch -- aus mir nicht ge -- fällt.
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   Dein sünd -- lich bö -- ses Le -- _ ben
+   Durch -- aus mir nicht ge -- fällt.
 }

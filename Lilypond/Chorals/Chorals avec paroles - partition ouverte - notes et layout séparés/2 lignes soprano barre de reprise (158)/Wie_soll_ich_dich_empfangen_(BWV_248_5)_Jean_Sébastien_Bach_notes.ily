@@ -67,63 +67,57 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Wie soll ich dich em -- pfan -- gen
-                               und wie be -- gegn ich dir?
-                               O Je -- su, Je -- su, se -- tze
-                               mir selbst die Fa -- ckel bei,
-                               da -- mit, was dich er -- gö -- tze,
-                               mir kund und wis -- send sei.
+   Wie soll ich dich em -- pfan -- gen
+   und wie be -- gegn ich dir?
+   O Je -- su, Je -- su, se -- tze
+   mir selbst die Fa -- ckel bei,
+   da -- mit, was dich er -- gö -- tze,
+   mir kund und wis -- send sei.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               o al -- ler Welt Ver -- lan -- gen,
-                               o mei -- ner See -- len Zier?
+   o al -- ler Welt Ver -- lan -- gen,
+   o mei -- ner See -- len Zier?
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Wie soll ich dich em -- pfan -- _ gen
-  und wie be -- gegn ich dir?
-  O Je -- su, Je -- su, se -- _ tze
-  mir selbst die Fa -- ckel bei,
-  da -- mit, was dich er -- gö -- _ tze,
-  mir kund und wis -- send sei. _ _
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Wie soll ich dich em -- pfan -- _ gen
+   und wie be -- gegn ich dir?
+   O Je -- su, Je -- su, se -- _ tze
+   mir selbst die Fa -- ckel bei,
+   da -- mit, was dich er -- gö -- _ tze,
+   mir kund und wis -- send sei. _ _
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  o al -- ler Welt Ver -- lan -- _ gen,
-  o mei -- ner See -- len Zier?
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   o al -- ler Welt Ver -- lan -- _ gen,
+   o mei -- ner See -- len Zier?
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Wie soll ich dich em -- pfan -- _ gen
-  und wie be -- gegn ich dir?
-  O Je -- su, Je -- su, se -- _ tze
-  mir selbst die Fa -- ckel bei,
-  da -- mit, was dich er -- gö -- _ tze,
-  mir kund und wis -- send sei. _ _
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Wie soll ich dich em -- pfan -- _ gen
+   und wie be -- gegn ich dir?
+   O Je -- su, Je -- su, se -- _ tze
+   mir selbst die Fa -- ckel bei,
+   da -- mit, was dich er -- gö -- _ tze,
+   mir kund und wis -- send sei. _ _
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  o al -- ler Welt Ver -- lan -- _ gen,
-  o mei -- ner See -- len Zier?
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   o al -- ler Welt Ver -- lan -- _ gen,
+   o mei -- ner See -- len Zier?
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Wie soll ich dich em -- pfan -- gen
-  und wie be -- gegn ich dir?
-  O Je -- su, Je -- su, se -- _ tze
-  mir selbst die Fa -- ckel bei,
-  da -- mit, was dich er -- gö -- _ tze,
-  mir kund und wis -- send sei. _ _
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Wie soll ich dich em -- pfan -- gen
+   und wie be -- gegn ich dir?
+   O Je -- su, Je -- su, se -- _ tze
+   mir selbst die Fa -- ckel bei,
+   da -- mit, was dich er -- gö -- _ tze,
+   mir kund und wis -- send sei. _ _
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  o al -- ler Welt Ver -- lan -- gen,
-  o mei -- ner See -- len Zier?
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   o al -- ler Welt Ver -- lan -- gen,
+   o mei -- ner See -- len Zier?
 }

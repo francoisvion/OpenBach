@@ -55,54 +55,49 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               So wan -- delt froh auf Got -- tes We -- gen,
-                               und was ihr tut, da tut ge -- treu!     
-                               denn wel -- cher sei -- ne Zu -- ver -- sicht
-                               auf Gott setzt, den ver -- lässt er nicht.    }
+   So wan -- delt froh auf Got -- tes We -- gen,
+   und was ihr tut, da tut ge -- treu!
+   denn wel -- cher sei -- ne Zu -- ver -- sicht
+   auf Gott setzt, den ver -- lässt er nicht.
+}
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               Ver -- die -- net eu -- res Got -- tes Se -- gen,
-                               denn der ist al -- le Morg -- en neu:
+   Ver -- die -- net eu -- res Got -- tes Se -- gen,
+   denn der ist al -- le Morg -- en neu:
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  So wan -- delt froh auf Got -- tes We -- gen,
-  und was ihr tut, da tut ge -- treu!
-  denn wel -- cher sei -- ne Zu -- ver -- sicht
-  auf Gott setzt, den ver -- lässt er nicht.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   So wan -- delt froh auf Got -- tes We -- gen,
+   und was ihr tut, da tut ge -- treu!
+   denn wel -- cher sei -- ne Zu -- ver -- sicht
+   auf Gott setzt, den ver -- lässt er nicht.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Ver -- die -- net eu -- res Got -- tes Se -- gen,
-  denn der ist al -- le Morg -- en neu:
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   Ver -- die -- net eu -- res Got -- tes Se -- gen,
+   denn der ist al -- le Morg -- en neu:
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  So wan -- delt froh auf Got -- tes We -- gen,
-  und was ihr tut, da tut ge -- treu!
-  denn wel -- cher sei -- ne Zu -- ver -- sicht
-  auf Gott setzt, den ver -- lässt er nicht.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   So wan -- delt froh auf Got -- tes We -- gen,
+   und was ihr tut, da tut ge -- treu!
+   denn wel -- cher sei -- ne Zu -- ver -- sicht
+   auf Gott setzt, den ver -- lässt er nicht.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Ver -- die -- net eu -- res Got -- tes Se -- gen,
-  denn der ist al -- le Morg -- en neu:
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   Ver -- die -- net eu -- res Got -- tes Se -- gen,
+   denn der ist al -- le Morg -- en neu:
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  So wan -- delt froh auf Got -- tes We -- gen,
-  und was ihr tut, da tut ge -- treu!
-  denn wel -- cher sei -- ne Zu -- ver -- sicht
-  auf Gott setzt, den ver -- lässt er nicht.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   So wan -- delt froh auf Got -- tes We -- gen,
+   und was ihr tut, da tut ge -- treu!
+   denn wel -- cher sei -- ne Zu -- ver -- sicht
+   auf Gott setzt, den ver -- lässt er nicht.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  Ver -- die -- net eu -- res Got -- tes Se -- gen,
-  denn der ist al -- le Morg -- en neu:
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   Ver -- die -- net eu -- res Got -- tes Se -- gen,
+   denn der ist al -- le Morg -- en neu:
 }

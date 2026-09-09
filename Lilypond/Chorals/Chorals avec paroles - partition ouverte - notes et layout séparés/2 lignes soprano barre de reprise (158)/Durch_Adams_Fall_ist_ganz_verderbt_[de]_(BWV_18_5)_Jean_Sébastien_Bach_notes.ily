@@ -73,63 +73,57 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
-                               Ich bitt, o Herr, aus Her -- zens Grund,
-                               du wollst nicht von mir neh -- _ men
-                               mein Sünd und Schuld, denn in dein Huld
-                               setz ich all mein Ver -- trau -- en.
-                               Wer sich nur fest da -- rauf ver -- lässt,
-                               der wird den Tod nicht schau -- _ _ en.
+   Ich bitt, o Herr, aus Her -- zens Grund,
+   du wollst nicht von mir neh -- _ men
+   mein Sünd und Schuld, denn in dein Huld
+   setz ich all mein Ver -- trau -- en.
+   Wer sich nur fest da -- rauf ver -- lässt,
+   der wird den Tod nicht schau -- _ _ en.
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-                               dein heil -- ges Wort aus mei -- nem Mund;
-                               so wird mich nicht be -- schä -- _ men
+   dein heil -- ges Wort aus mei -- nem Mund;
+   so wird mich nicht be -- schä -- _ men
 }
 
-altoLyricsOne = \lyricmode {
-  \set stanza = 1
-  Ich bitt, o Herr, aus Her -- zens Grund,
-  du wollst nicht von mir neh -- _ men
-  mein Sünd und Schuld, denn in dein Huld
-  setz ich all mein Ver -- trau -- _ en.
-  Wer sich nur fest da -- rauf ver -- lässt,
-  der wird den Tod nicht schau -- _ _ _ en.
+altoLyricsOne = \lyricmode {\set stanza = 1
+   Ich bitt, o Herr, aus Her -- zens Grund,
+   du wollst nicht von mir neh -- _ men
+   mein Sünd und Schuld, denn in dein Huld
+   setz ich all mein Ver -- trau -- _ en.
+   Wer sich nur fest da -- rauf ver -- lässt,
+   der wird den Tod nicht schau -- _ _ _ en.
 }
 
-altoLyricsTwo = \lyricmode {
-  \set stanza = 2
-  dein heil -- ges Wort aus mei -- nem Mund;
-  so wird mich nicht be -- schä -- _ men
+altoLyricsTwo = \lyricmode {\set stanza = 2
+   dein heil -- ges Wort aus mei -- nem Mund;
+   so wird mich nicht be -- schä -- _ men
 }
 
-tenorLyricsOne = \lyricmode {
-  \set stanza = 1
-  Ich bitt, o Herr, aus Her -- zens Grund,
-  du wollst nicht von mir neh -- _ _ men
-  mein Sünd und Schuld, denn in dein Huld
-  setz ich all mein Ver -- trau -- _ en.
-  Wer sich nur fest da -- rauf ver -- lässt,
-  der wird den Tod nicht schau -- _ _ en.
+tenorLyricsOne = \lyricmode {\set stanza = 1
+   Ich bitt, o Herr, aus Her -- zens Grund,
+   du wollst nicht von mir neh -- _ _ men
+   mein Sünd und Schuld, denn in dein Huld
+   setz ich all mein Ver -- trau -- _ en.
+   Wer sich nur fest da -- rauf ver -- lässt,
+   der wird den Tod nicht schau -- _ _ en.
 }
 
-tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
-  dein heil -- ges Wort aus mei -- nem Mund;
-  so wird mich nicht be -- schä -- _ _ men
+tenorLyricsTwo = \lyricmode {\set stanza = 2
+   dein heil -- ges Wort aus mei -- nem Mund;
+   so wird mich nicht be -- schä -- _ _ men
 }
 
-bassLyricsOne = \lyricmode {
-  \set stanza = 1
-  Ich bitt, o Herr, aus Her -- zens Grund,
-  du wollst nicht von mir neh men
-  mein Sünd und Schuld, denn in dein Huld
-  setz ich all mein Ver -- trau -- en.
-  Wer sich nur fest da -- rauf ver -- lässt,
-  der wird den Tod nicht schau -- _ _ _ en.
+bassLyricsOne = \lyricmode {\set stanza = 1
+   Ich bitt, o Herr, aus Her -- zens Grund,
+   du wollst nicht von mir neh men
+   mein Sünd und Schuld, denn in dein Huld
+   setz ich all mein Ver -- trau -- en.
+   Wer sich nur fest da -- rauf ver -- lässt,
+   der wird den Tod nicht schau -- _ _ _ en.
 }
 
-bassLyricsTwo = \lyricmode {
-  \set stanza = 2
-  dein heil -- ges Wort aus mei -- nem Mund;
-  so wird mich nicht be -- schä men
+bassLyricsTwo = \lyricmode {\set stanza = 2
+   dein heil -- ges Wort aus mei -- nem Mund;
+   so wird mich nicht be -- schä men
 }
