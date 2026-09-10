@@ -600,3 +600,124 @@ def merge_tied_events(events):
         else:
             out.append(e)
     return out
+
+
+def build_corrected_tokens_gen(ref_tokens, mapping, tgt_events, hyphen_after=None,
+                                underline_after=None, beam_skip_max_dur=None):
+    """Generation-pipeline variant of build_corrected_tokens (music21 -> fresh
+    file, NOT reading pre-existing corpus text -- kept separate so the
+    original, battle-tested function used by the 169-file reconciliation
+    tooling is never touched by this).
+
+    Same contract as build_corrected_tokens, PLUS: tgt_events is this
+    period's list of target-voice event dicts (each needs a 'dur' key, a
+    Fraction of a whole note) in the same order as mapping. Returns
+    (tokens, bracket_indices) where bracket_indices is the set of tgt_events
+    indices that must be rendered as `[note]` (manually beamed to the
+    PRECEDING note) in the generated music AND get NO lyric token at all --
+    not even "_".
+
+    Why: confirmed empirically (BWV_66_6 pilot, user's hand correction) that
+    in this corpus's LilyPond setup (`\\autoBeamOff` + manual beams),
+    \\lyricsto automatically skips a note that is the non-first member of a
+    manual beam group, exactly like it skips a tied note. An invented
+    "extra note, no reference syllable" placeholder that is short enough to
+    beam with its preceding note (<= an eighth, by default) should be
+    beamed+skipped rather than given a bare "_": every bracket the user
+    added was on an eighth note following another eighth note; every extra
+    note the user left as a bare "_" was a quarter or longer (doesn't
+    naturally beam).
+
+    "__" (extender line) is added automatically after a real word, WITHOUT
+    needing it in the passed-in underline_after, whenever: (a) that word's
+    own target note is tied (tie=='start' -- the sustain is real, draw the
+    line), or (b) at least one bare "_" (a NON-bracket-skipped invented
+    placeholder) immediately follows it before the next real word. If every
+    trailing invented placeholder for that word got bracket-skipped (none
+    left bare), no "__" is added -- the bracket notation alone already
+    shows the extension. Reverse-engineered from BWV_66_6's diff: every
+    word followed by a surviving bare "_" got "__"; every word whose extra
+    notes were fully absorbed into brackets did not, even when it had 2-3
+    extra notes originally. Confirmed by exact note-count arithmetic on
+    all 4 voices, not guessed."""
+    if beam_skip_max_dur is None:
+        beam_skip_max_dur = Fraction(1, 8)
+    if hyphen_after is None:
+        hyphen_after = [False] * len(ref_tokens)
+    if underline_after is None:
+        underline_after = [False] * len(ref_tokens)
+    auto_underline = set()
+    out = []
+    seen = set()
+    first_occurrence_idx = []
+    bracket_indices = set()
+    pending = []
+    last_real_idx = None
+    prev_bracketed = False  # a beam bracket attaches to the single note
+
+    # immediately before it -- 2 consecutive invented placeholders can NOT
+    # both be bracket-skipped (LilyPond errors "already have a beam"; the
+    # 2nd bracket has no valid unbracketed anchor to beam from). Confirmed
+    # against BWV_66_6's user correction: 3 consecutive eighth-note
+    # placeholders got bracket/bare/bracket, never bracket/bracket/bracket
+    # -- alternate, don't chain.
+    for ei, covered in enumerate(mapping):
+        new_indices = [idx for idx in covered if idx not in seen]
+        seen.update(new_indices)
+        real_new = [idx for idx in new_indices if ref_tokens[idx] not in ("-", "_")]
+        placeholder_new = [idx for idx in new_indices if ref_tokens[idx] in ("-", "_")]
+        pending.extend(real_new)
+        if pending:
+            idx = pending.pop(0)
+            out.append(ref_tokens[idx])
+            first_occurrence_idx.append(idx)
+            last_real_idx = idx
+            prev_bracketed = False
+            if tgt_events[ei].get("tie") == "start":
+                auto_underline.add(idx)
+        elif placeholder_new:
+            # this target note lines up with a placeholder the REFERENCE
+            # voice already carries (e.g. soprano's own bracket-skipped
+            # melisma note) -- this voice's OWN note there still gets an
+            # independent bracket-skip check: each voice decides for
+            # itself whether ITS note is short enough to beam+skip,
+            # regardless of why the reference happens to have no word
+            # there. Found via BWV_66_6 alto/tenor period2 (a direct 1:1
+            # note-count match bypasses align_period entirely, landing
+            # straight on the reference's own placeholder slot -- that
+            # slot was silently never bracket-checked before this fix).
+            if tgt_events[ei]["dur"] <= beam_skip_max_dur and not prev_bracketed:
+                bracket_indices.add(ei)
+                prev_bracketed = True
+            else:
+                out.append(ref_tokens[placeholder_new[0]])
+                first_occurrence_idx.append(placeholder_new[0])
+                prev_bracketed = False
+                if last_real_idx is not None:
+                    auto_underline.add(last_real_idx)
+        else:
+            if tgt_events[ei]["dur"] <= beam_skip_max_dur and not prev_bracketed:
+                bracket_indices.add(ei)
+                prev_bracketed = True
+            else:
+                out.append("_")
+                first_occurrence_idx.append(None)
+                prev_bracketed = False
+                if last_real_idx is not None:
+                    auto_underline.add(last_real_idx)
+
+    for idx in pending:
+        out.append(ref_tokens[idx])
+        first_occurrence_idx.append(idx)
+
+    result = []
+    for i, tok in enumerate(out):
+        result.append(tok)
+        cur_idx = first_occurrence_idx[i]
+        if cur_idx is None:
+            continue
+        if underline_after[cur_idx] or cur_idx in auto_underline:
+            result.append("__")
+        if hyphen_after[cur_idx]:
+            result.append("--")
+    return result, bracket_indices
