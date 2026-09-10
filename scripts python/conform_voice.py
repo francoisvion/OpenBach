@@ -505,12 +505,18 @@ def build_corrected_tokens(ref_tokens, mapping, hyphen_after=None, underline_aft
             # this whole target event is a passing tone with NO reference
             # counterpart at all (a genuinely extra target note) -- extend
             # whatever word was last assigned. This invented placeholder
-            # always consumes exactly the 1 note it stands for, so it's
-            # "-" or "_" (never "__" alone -- that consumes 0 and would be
-            # a decoration with nothing under it). "-" is ONLY for
-            # splitting one word across syllables still to come; once that
-            # word is complete, any further extension must use "_".
-            out.append("-" if word_still_open(last_ref_pos) else "_")
+            # always consumes exactly the 1 note it stands for. Previously
+            # emitted "-" here when word_still_open() (vs "_" otherwise) --
+            # but a bare single "-" never appears anywhere in the verified
+            # corpus (confirmed by grepping the fully-audited "1 ligne
+            # soprano" pool: zero matches), because word-continuation is
+            # already fully handled by the separate hyphen_after/"--"
+            # mechanism below -- this branch's job is only to mark "one
+            # extra silent note", which is always "_" regardless of
+            # whether the word is still open. Found via BWV_366 (dash
+            # miscounted as a real syllable) and reconfirmed generating
+            # BWV_79_6 from scratch.
+            out.append("_")
             first_occurrence_idx.append(None)
 
     # any words still queued when the period runs out of target events (a
@@ -521,10 +527,21 @@ def build_corrected_tokens(ref_tokens, mapping, hyphen_after=None, underline_aft
         out.append(ref_tokens[idx])
         first_occurrence_idx.append(idx)
 
-    # re-insert "--" between two adjacent first-occurrences of consecutive
-    # ref indices, when soprano had a hyphen-join there; re-insert "__"
-    # right after any token whose ref idx had one, no adjacency condition
-    # needed (unlike "--", "__" doesn't care what comes next).
+    # re-insert "--" right after a token whose ref idx had a hyphen-join in
+    # soprano's source text, and "__" right after any token whose ref idx
+    # had an extender -- NEITHER needs an adjacency condition on what comes
+    # next. A hyphen-join marks "this word keeps going," full stop; that
+    # stays true even when THIS voice has its own extra "_" passing-tone
+    # placeholder sitting between the two syllables (a melisma unique to
+    # this voice doesn't change which word is being sung) -- the corpus
+    # already shows this exact shape ("gro -- _ ssen"). The previous
+    # adjacency check (only emit "--" if the very next output token was
+    # literally the next ref index) silently dropped the hyphen whenever a
+    # placeholder intervened, making the SAME word appear hyphenated in one
+    # voice and not in another despite being the identical word every time
+    # -- found generating BWV_79_6 fresh and confirmed against the user's
+    # hand-corrected reference (kept for ALL voices, not soprano-only, by
+    # the exact same reasoning).
     result = []
     for i, tok in enumerate(out):
         result.append(tok)
@@ -533,9 +550,7 @@ def build_corrected_tokens(ref_tokens, mapping, hyphen_after=None, underline_aft
             continue
         if underline_after[cur_idx]:
             result.append("__")
-        if not hyphen_after[cur_idx]:
-            continue
-        if i + 1 < len(out) and first_occurrence_idx[i + 1] == cur_idx + 1:
+        if hyphen_after[cur_idx]:
             result.append("--")
     return result
 
@@ -557,4 +572,31 @@ def verbatim_with_hyphens(tokens, hyphen_after, underline_after=None):
             out.append("__")
         if i < len(hyphen_after) and hyphen_after[i]:
             out.append("--")
+    return out
+
+
+def merge_tied_events(events):
+    """For generation pipelines building a voice's event list from music21
+    (each event a dict with a 'dur' and a 'tie' key: None/'start'/'stop').
+    \\lyricsto silently SKIPS a tied-continuation note (tie=='stop') -- it
+    never receives its own syllable, unlike a "_" placeholder note. Left as
+    a separate ref/target event, it causes a silent off-by-one that
+    corrupts every token after it in that period (LilyPond warns
+    "unterminated hyphen; removing" right at the desync point, and the
+    period's last word or two silently vanish from the render). Fold each
+    tie=='stop' event's duration into the PRECEDING event so the merged
+    list has exactly as many entries as \\lyricsto will actually assign
+    syllables to -- use this MERGED list for period-splitting / align_period
+    / build_corrected_tokens, while the actual notation output still emits
+    both tied notes separately (with a literal "~") since that's real
+    engraving, not a lyric concern. Found generating BWV_66_6 (soprano had
+    a tied pair inside a fermata-bound period; tenor also had one, in a
+    different period, of the same piece)."""
+    out = []
+    for e in events:
+        if e.get('tie') == 'stop' and out:
+            out[-1] = dict(out[-1])
+            out[-1]['dur'] = out[-1]['dur'] + e['dur']
+        else:
+            out.append(e)
     return out
