@@ -22,7 +22,7 @@ altoMusic = {
   \partial 4  g'
   g'8 [a'] bes'4 bes'8 [a'16 g'] f'4
   f' f' f'\fermata f'
-  f' f' f'8. ees'16 d'4~
+  f' f' f'8. [ees'16] d'4
   d' e' d'\fermata d'
   g'8 [a'] bes'4 bes' a'
   a'8 g'4 fis'8 d'4\fermata \fine
@@ -37,8 +37,8 @@ tenorMusic = {
   \partial 4  d'
   ees' f' f' c'
   bes4. a8 bes4\fermata bes
-  bes bes4~bes8 a8 a4~
-  a8 g g [a16 bes] a4\fermata bes8 [c']
+  bes bes4 bes8 [a8] a4
+  a8 [g] g [a16 bes] a4\fermata bes8 [c']
   d' [c'] bes [a] g4 d'
   d'8 [ees'] a [d'] bes4\fermata \fine
 }

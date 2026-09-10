@@ -8,8 +8,8 @@ sopranoMusic = {
   \partial4 cis''4
   b' cis'' a' fis' |
   b' a' b'\fermata cis'' |
-  a' a' a'4. b' 8 |
-  cis''4 cis'' b' 8 [a'] b' 4 |
+  a' a' a'4. b'8 |
+  cis''4 cis'' b'8 [a'] b'4 |
   a'2.\fermata \fine
 }
 
