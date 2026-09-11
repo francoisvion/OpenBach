@@ -653,20 +653,26 @@ def build_corrected_tokens_gen(ref_tokens, mapping, tgt_events, hyphen_after=Non
     bracket_indices = set()
     pending = []
     last_real_idx = None
-    prev_bracketed = False  # a beam bracket attaches to the single note
-    last_note_dur = None  # a bracket also needs its ANCHOR (the note right
-
-    # before it) to have the SAME duration -- you cannot beam an eighth to a
-    # quarter (quarters have no flag/beam at all to attach to). LilyPond
-    # warns "stem does not fit in beam" and mis-renders otherwise. Confirmed
-    # on BWV_188_6: every bad bracket was an eighth placed right after a
-    # quarter-note real word; every good one followed another eighth.
-    # immediately before it -- 2 consecutive invented placeholders can NOT
-    # both be bracket-skipped (LilyPond errors "already have a beam"; the
-    # 2nd bracket has no valid unbracketed anchor to beam from). Confirmed
-    # against BWV_66_6's user correction: 3 consecutive eighth-note
-    # placeholders got bracket/bare/bracket, never bracket/bracket/bracket
-    # -- alternate, don't chain.
+    last_note_dur = None  # a bracket also needs its ANCHOR -- the note (or
+    # the immediately preceding note OF THE SAME RUN, even if that one was
+    # itself bracketed) -- to have the SAME duration; you cannot beam an
+    # eighth to a quarter (quarters have no flag/beam at all to attach to).
+    # LilyPond warns "stem does not fit in beam" and mis-renders otherwise.
+    # Confirmed on BWV_188_6: every bad bracket was an eighth placed right
+    # after a quarter-note real word; every good one followed another
+    # eighth.
+    run_len = 0  # AT MOST 2 consecutive invented placeholders share one
+    # bracket group (`anchor [extra1 extra2]`); a 3rd in a row forces a
+    # bare "_" instead of extending the group further. Confirmed against
+    # BWV_188_6: a run of exactly 2 (both 16ths) got grouped into one
+    # bracket, but longer runs (4+) got bracket/bare pairs, NEVER one
+    # giant bracket -- grouping unboundedly silently ate a placeholder the
+    # user deliberately kept (a real "_" that should have survived,
+    # confirmed by exact token-count arithmetic against their correction).
+    # This 2-cap is an empirical compromise, not fully explained; the
+    # underlying musical rule for exactly where a run must break is still
+    # open (see project memory), so still expect occasional manual
+    # correction on periods with 3+ consecutive short passing notes.
     for ei, covered in enumerate(mapping):
         new_indices = [idx for idx in covered if idx not in seen]
         seen.update(new_indices)
@@ -678,8 +684,8 @@ def build_corrected_tokens_gen(ref_tokens, mapping, tgt_events, hyphen_after=Non
             out.append(ref_tokens[idx])
             first_occurrence_idx.append(idx)
             last_real_idx = idx
-            prev_bracketed = False
             last_note_dur = tgt_events[ei]["dur"]
+            run_len = 0
             if tgt_events[ei].get("tie") == "start":
                 auto_underline.add(idx)
         elif placeholder_new:
@@ -693,27 +699,29 @@ def build_corrected_tokens_gen(ref_tokens, mapping, tgt_events, hyphen_after=Non
             # note-count match bypasses align_period entirely, landing
             # straight on the reference's own placeholder slot -- that
             # slot was silently never bracket-checked before this fix).
-            if (tgt_events[ei]["dur"] == beam_skip_max_dur and not prev_bracketed
-                    and tgt_events[ei]["dur"] == last_note_dur):
+            if (tgt_events[ei]["dur"] <= beam_skip_max_dur and tgt_events[ei]["dur"] == last_note_dur
+                    and run_len < 2):
                 bracket_indices.add(ei)
-                prev_bracketed = True
+                last_note_dur = tgt_events[ei]["dur"]
+                run_len += 1
             else:
                 out.append(ref_tokens[placeholder_new[0]])
                 first_occurrence_idx.append(placeholder_new[0])
-                prev_bracketed = False
                 last_note_dur = tgt_events[ei]["dur"]
+                run_len = 0
                 if last_real_idx is not None:
                     auto_underline.add(last_real_idx)
         else:
-            if (tgt_events[ei]["dur"] == beam_skip_max_dur and not prev_bracketed
-                    and tgt_events[ei]["dur"] == last_note_dur):
+            if (tgt_events[ei]["dur"] <= beam_skip_max_dur and tgt_events[ei]["dur"] == last_note_dur
+                    and run_len < 2):
                 bracket_indices.add(ei)
-                prev_bracketed = True
+                last_note_dur = tgt_events[ei]["dur"]
+                run_len += 1
             else:
                 out.append("_")
                 first_occurrence_idx.append(None)
-                prev_bracketed = False
                 last_note_dur = tgt_events[ei]["dur"]
+                run_len = 0
                 if last_real_idx is not None:
                     auto_underline.add(last_real_idx)
 
