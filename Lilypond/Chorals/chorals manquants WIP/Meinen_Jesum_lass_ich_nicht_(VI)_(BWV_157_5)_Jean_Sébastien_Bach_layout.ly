@@ -2,7 +2,7 @@
 
 
 
-\include "Meinen_Jesum_lass_ich_nicht_(V)_(BWV_124_6)_Jean_Sébastien_Bach_notes.ily"
+\include "Meinen_Jesum_lass_ich_nicht_(VI)_(BWV_157_5)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,11 +28,11 @@
 }
 
 \header {
-  title = \markup{\concat{"Meinen Jesum lass ich nicht (V)" \small " (v. 6)"}}
-  subtitle = "tiré de la cantate : Meinen Jesum lass ich nicht"
+  title = \markup{\concat{"Meinen Jesum lass ich nicht (VI)" \small " (v. 6)"}}
+  subtitle = "tiré de la cantate : Ich lass dich nicht, du segnest mich denn!"
   poet = "Auteur : Christian Keymann (1658)"
   composer = "Jean-Sébastien Bach (1685-1750)"
-  opus = "BWV 124/6"
+  opus = "BWV 157/5"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
 }
@@ -42,7 +42,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "S" }
     {
       \clef treble
-      \key e \major
+      \key d \major
       \time 4/4
       \new Voice = "soprano" \sopranoMusic
     }
@@ -50,7 +50,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "A" }
     {
       \clef treble
-      \key e \major
+      \key d \major
       \time 4/4
       \new Voice = "alto" \altoMusic
     }
@@ -58,7 +58,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "T" }
     {
       \clef "treble_8"
-      \key e \major
+      \key d \major
       \time 4/4
       \new Voice = "tenor" \tenorMusic
     }
@@ -66,7 +66,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "B" }
     {
       \clef bass
-      \key e \major
+      \key d \major
       \time 4/4
       \new Voice = "bass" \bassMusic
     }
