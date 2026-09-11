@@ -2,7 +2,7 @@
 
 
 
-\include "Erschienen_ist_der_herrlich_Tag_(II)_(BWV_67_4)_Jean_Sébastien_Bach_notes.ily"
+\include "Meinen_Jesum_lass_ich_nicht_(V)_(BWV_124_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,11 +28,11 @@
 }
 
 \header {
-  title = \markup{\concat{"Erschienen ist der herrlich Tag (II)" \small " (v. 1)"}}
-  subtitle = "tiré de la cantate : Halt im Gedächtnis Jesum Christ"
-  poet = "Auteur : Nikolaus Herman (1560)"
+  title = \markup{\concat{"Meinen Jesum lass ich nicht (V)" \small " (v. 6)"}}
+  subtitle = "tiré de la cantate : Meinen Jesum lass ich nicht"
+  poet = "Auteur : Christian Keymann (1658)"
   composer = "Jean-Sébastien Bach (1685-1750)"
-  opus = "BWV 67/4"
+  opus = "BWV 124/6"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
 }
@@ -42,32 +42,32 @@
     \new Staff \with { \autoBeamOff instrumentName = "S" }
     {
       \clef treble
-      \key fis \minor
-      \time 3/4
+      \key e \major
+      \time 4/4
       \new Voice = "soprano" \sopranoMusic
     }
     \new Lyrics \lyricsto "soprano" \sopranoLyrics
     \new Staff \with { \autoBeamOff instrumentName = "A" }
     {
       \clef treble
-      \key fis \minor
-      \time 3/4
+      \key e \major
+      \time 4/4
       \new Voice = "alto" \altoMusic
     }
     \new Lyrics \lyricsto "alto" \altoLyrics
     \new Staff \with { \autoBeamOff instrumentName = "T" }
     {
       \clef "treble_8"
-      \key fis \minor
-      \time 3/4
+      \key e \major
+      \time 4/4
       \new Voice = "tenor" \tenorMusic
     }
     \new Lyrics \lyricsto "tenor" \tenorLyrics
     \new Staff \with { \autoBeamOff instrumentName = "B" }
     {
       \clef bass
-      \key fis \minor
-      \time 3/4
+      \key e \major
+      \time 4/4
       \new Voice = "bass" \bassMusic
     }
     \new Lyrics \lyricsto "bass" \bassLyrics
