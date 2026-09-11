@@ -661,18 +661,21 @@ def build_corrected_tokens_gen(ref_tokens, mapping, tgt_events, hyphen_after=Non
     # Confirmed on BWV_188_6: every bad bracket was an eighth placed right
     # after a quarter-note real word; every good one followed another
     # eighth.
-    run_len = 0  # AT MOST 2 consecutive invented placeholders share one
-    # bracket group (`anchor [extra1 extra2]`); a 3rd in a row forces a
-    # bare "_" instead of extending the group further. Confirmed against
-    # BWV_188_6: a run of exactly 2 (both 16ths) got grouped into one
-    # bracket, but longer runs (4+) got bracket/bare pairs, NEVER one
-    # giant bracket -- grouping unboundedly silently ate a placeholder the
-    # user deliberately kept (a real "_" that should have survived,
-    # confirmed by exact token-count arithmetic against their correction).
-    # This 2-cap is an empirical compromise, not fully explained; the
-    # underlying musical rule for exactly where a run must break is still
-    # open (see project memory), so still expect occasional manual
-    # correction on periods with 3+ consecutive short passing notes.
+    run_len = 0  # a bracket wraps exactly ONE note: `anchor [extra]`, never
+    # `anchor [extra1 extra2]` -- user's explicit correction (2026-09-11):
+    # "si une syllabe sur 2 croches l'ecriture dans lilypond est a [b] et
+    # non [a b]". 2 consecutive invented placeholders can NOT both be
+    # bracket-skipped in a row either (the 2nd has no unbracketed anchor to
+    # beam from -- confirmed lilypond repro: `d8 [e8] [f8]` still warns
+    # "already have a beam" even with SEPARATE single-note brackets, not
+    # just a merged one) -- so a run of 2+ alternates bracket/bare/bracket,
+    # never groups. This occasionally still doesn't match the user's exact
+    # choice on a specific run (sometimes THEY group 2 together when it's
+    # genuinely one syllable stretched over both notes) -- that's a manual
+    # per-period call the algorithm can't make (it can't tell "one syllable
+    # held over 2 decorative notes" from "two independent decorative
+    # fillers") -- expect occasional hand touch-up, alternating is just the
+    # correct DEFAULT per the user's rule.
     for ei, covered in enumerate(mapping):
         new_indices = [idx for idx in covered if idx not in seen]
         seen.update(new_indices)
@@ -700,7 +703,7 @@ def build_corrected_tokens_gen(ref_tokens, mapping, tgt_events, hyphen_after=Non
             # straight on the reference's own placeholder slot -- that
             # slot was silently never bracket-checked before this fix).
             if (tgt_events[ei]["dur"] <= beam_skip_max_dur and tgt_events[ei]["dur"] == last_note_dur
-                    and run_len < 2):
+                    and run_len < 1):
                 bracket_indices.add(ei)
                 last_note_dur = tgt_events[ei]["dur"]
                 run_len += 1
@@ -713,7 +716,7 @@ def build_corrected_tokens_gen(ref_tokens, mapping, tgt_events, hyphen_after=Non
                     auto_underline.add(last_real_idx)
         else:
             if (tgt_events[ei]["dur"] <= beam_skip_max_dur and tgt_events[ei]["dur"] == last_note_dur
-                    and run_len < 2):
+                    and run_len < 1):
                 bracket_indices.add(ei)
                 last_note_dur = tgt_events[ei]["dur"]
                 run_len += 1
