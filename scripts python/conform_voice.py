@@ -632,14 +632,20 @@ def build_corrected_tokens_gen(ref_tokens, mapping, tgt_events, hyphen_after=Non
     needing it in the passed-in underline_after, whenever: (a) that word's
     own target note is tied (tie=='start' -- the sustain is real, draw the
     line), or (b) at least one bare "_" (a NON-bracket-skipped invented
-    placeholder) immediately follows it before the next real word. If every
-    trailing invented placeholder for that word got bracket-skipped (none
-    left bare), no "__" is added -- the bracket notation alone already
-    shows the extension. Reverse-engineered from BWV_66_6's diff: every
-    word followed by a surviving bare "_" got "__"; every word whose extra
-    notes were fully absorbed into brackets did not, even when it had 2-3
-    extra notes originally. Confirmed by exact note-count arithmetic on
-    all 4 voices, not guessed."""
+    placeholder) immediately follows it before the next real word AND that
+    word is NOT itself hyphen-joined to what comes next (hyphen_after is
+    False). If every trailing invented placeholder for that word got
+    bracket-skipped (none left bare), no "__" is added -- the bracket
+    notation alone already shows the extension. Likewise if the word has
+    hyphen_after==True (e.g. "Sei -- _ ten" from "Seiten"), the "--" itself
+    already signals the word keeps going -- adding "__" on top of that is
+    redundant and WRONG (found on BWV_124_6: every "__" the user removed
+    was on a hyphen-joined word; the ones on standalone/final words with a
+    genuine surviving placeholder stayed). Reverse-engineered from
+    BWV_66_6's diff first (every word followed by a surviving bare "_" got
+    "__"), refined by BWV_124_6's diff (except when hyphen_after is
+    already True). Confirmed by exact note-count arithmetic on all 4
+    voices, not guessed."""
     if beam_skip_max_dur is None:
         beam_skip_max_dur = Fraction(1, 8)
     if hyphen_after is None:
@@ -712,7 +718,7 @@ def build_corrected_tokens_gen(ref_tokens, mapping, tgt_events, hyphen_after=Non
                 first_occurrence_idx.append(placeholder_new[0])
                 last_note_dur = tgt_events[ei]["dur"]
                 run_len = 0
-                if last_real_idx is not None:
+                if last_real_idx is not None and not hyphen_after[last_real_idx]:
                     auto_underline.add(last_real_idx)
         else:
             if (tgt_events[ei]["dur"] <= beam_skip_max_dur and tgt_events[ei]["dur"] == last_note_dur
@@ -725,7 +731,7 @@ def build_corrected_tokens_gen(ref_tokens, mapping, tgt_events, hyphen_after=Non
                 first_occurrence_idx.append(None)
                 last_note_dur = tgt_events[ei]["dur"]
                 run_len = 0
-                if last_real_idx is not None:
+                if last_real_idx is not None and not hyphen_after[last_real_idx]:
                     auto_underline.add(last_real_idx)
 
     for idx in pending:
