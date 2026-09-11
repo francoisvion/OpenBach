@@ -2,7 +2,7 @@
 
 
 
-\include "Christ_ist_erstanden_(II)_(BWV_66_6)_Jean_Sébastien_Bach_notes.ily"
+\include "Wo_soll_ich_fliehen_hin_(IV)_(BWV_188_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,11 +28,11 @@
 }
 
 \header {
-  title = \markup{\concat{"Christ ist erstanden" \small " (v. 3)"}}
-  subtitle = "tiré de la cantate : Erfreut euch, ihr Herzen"
-  poet = "Auteur : anonyme (XIIe siècle)"
+  title = \markup{\concat{"Wo soll ich fliehen hin (IV)" \small " (v. 1)"}}
+  subtitle = "tiré de la cantate : Ich habe meine Zuversicht"
+  poet = "Auteur : anonyme (avant 1603, hymnaire de Lübeck)"
   composer = "Jean-Sébastien Bach (1685-1750)"
-  opus = "BWV 66/6"
+  opus = "BWV 188/6"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
 }
@@ -42,7 +42,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "S" }
     {
       \clef treble
-      \key fis \minor
+      \key a \minor
       \time 4/4
       \new Voice = "soprano" \sopranoMusic
     }
@@ -50,7 +50,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "A" }
     {
       \clef treble
-      \key fis \minor
+      \key a \minor
       \time 4/4
       \new Voice = "alto" \altoMusic
     }
@@ -58,7 +58,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "T" }
     {
       \clef "treble_8"
-      \key fis \minor
+      \key a \minor
       \time 4/4
       \new Voice = "tenor" \tenorMusic
     }
@@ -66,7 +66,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "B" }
     {
       \clef bass
-      \key fis \minor
+      \key a \minor
       \time 4/4
       \new Voice = "bass" \bassMusic
     }
