@@ -383,8 +383,20 @@ def align_period(ref_durs, tgt_events):
     tgt_durs = [e["dur"] for e in tgt_events]
     n_ref = len(ref_durs)
     n_tgt = len(tgt_durs)
-    if n_ref == n_tgt:
-        return [[i] for i in range(n_ref)]
+    # NOTE: equal COUNT does not imply equal SEGMENTATION -- a voice can
+    # have the same number of notes as the reference while subdividing the
+    # beats completely differently (e.g. ref eighth+eighth where this voice
+    # has quarter+[eighth+eighth] elsewhere, same total count by
+    # coincidence). A prior version special-cased n_ref==n_tgt as a
+    # positional identity mapping, which silently misaligned tokens onto
+    # the wrong notes whenever counts matched by accident but rhythms
+    # differed (found on BWV_125_6 bass period5: ref [1,1,.5,.5,1,1,.5,.5,1,1]
+    # vs bass [1,1,1,.5,.5,1,.5,.5,1,1] -- both length 10, but position 3
+    # is a quarter in bass vs an eighth in ref, so identity mapping put
+    # "Ehr," + its melisma placeholder on the wrong notes). Always run the
+    # onset-based match below -- when durations truly do coincide 1:1 it
+    # naturally reduces to the identity mapping anyway, so this is strictly
+    # safer with no regression for genuine identity cases.
 
     # onset time of each ref/target note (cumulative duration BEFORE it)
     ref_onset = []

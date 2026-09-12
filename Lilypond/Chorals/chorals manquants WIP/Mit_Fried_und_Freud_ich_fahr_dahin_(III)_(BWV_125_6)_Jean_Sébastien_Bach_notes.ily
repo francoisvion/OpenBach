@@ -20,12 +20,12 @@ altoMusic = {
   b'4 ais' fis'\fermata fis'
   g'8 [a'] b'4 b' ais'
   fis'2.\fermata fis'4
-  fis'8 g' a'4 a' g'8 fis'
+  fis'8 [g'] a'4 a' g'8 [fis']
   e'2. dis'4
   b2\fermata e'4 fis'
   e' ais b2\fermata
   d'4 e'8 [fis'] g'4 g'
-  fis'8 g'4 fis'8 g'4\fermata fis'8 e'
+  fis'8 g'4 fis'8 g'4\fermata fis'8 [e']
   d'4 c' b e'
   dis'8 e'4 dis'8 b4\fermata \fine
 }
@@ -65,7 +65,7 @@ bassMusic = {
 sopranoLyrics = \lyricmode {
   Er ist das Heil und se -- lig Licht
   für die Hei -- _ _ den,
-  Zu er -- leuch -- ten, die dich ken -- _ nen nicht,
+  "zu er" -- leuch -- ten, die dich ken -- _ _ nen nicht,
   und zu wei -- _ den.
   Er ist deins Volks I -- sra -- el
   der Preis, Ehr, Freud und Won -- _ ne.
@@ -74,16 +74,16 @@ sopranoLyrics = \lyricmode {
 altoLyrics = \lyricmode {
   Er ist das Heil und se -- lig Licht
   für die Hei -- _ _ den,
-  Zu er -- leuch -- ten, die dich ken -- _ nen nicht,
+  "zu er" -- leuch -- ten, die dich ken -- nen nicht,
   und zu wei -- _ den.
-  Er ist deins Volks I -- sra -- _ el
-  der Preis, Ehr, __ _ Freud und Won -- _ _ ne.
+  Er ist deins Volks I -- _ sra -- el
+  der Preis, Ehr, Freud und Won -- _ _ ne.
 }
 
 tenorLyrics = \lyricmode {
   Er ist das Heil und se -- lig Licht
   für die Hei -- _ _ den,
-  Zu er -- leuch -- ten, die dich ken -- _ nen nicht,
+  "zu er" -- leuch -- ten, die dich ken -- _ _ nen nicht,
   und zu wei -- _ den.
   Er ist deins Volks I -- sra -- el
   der Preis, Ehr, Freud und Won -- _ ne.
@@ -92,8 +92,8 @@ tenorLyrics = \lyricmode {
 bassLyrics = \lyricmode {
   Er ist das Heil und se -- lig Licht
   für die Hei -- _ den,
-  Zu er -- leuch -- ten, die dich ken -- _ nen nicht,
+  "zu er" -- leuch -- ten, die dich ken -- _ _ nen nicht,
   und zu wei -- _ den.
   Er ist deins Volks I -- sra -- el
-  der Preis, Ehr, __ _ Freud und Won -- _ ne.
+  der Preis, Ehr, Freud __ _ und Won -- _ ne.
 }
