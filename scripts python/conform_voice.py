@@ -673,27 +673,47 @@ def build_corrected_tokens_gen(ref_tokens, mapping, tgt_events, hyphen_after=Non
     last_real_idx = None
     last_note_dur = None  # a bracket also needs its ANCHOR -- the note (or
     # the immediately preceding note OF THE SAME RUN, even if that one was
-    # itself bracketed) -- to have the SAME duration; you cannot beam an
-    # eighth to a quarter (quarters have no flag/beam at all to attach to).
-    # LilyPond warns "stem does not fit in beam" and mis-renders otherwise.
-    # Confirmed on BWV_188_6: every bad bracket was an eighth placed right
-    # after a quarter-note real word; every good one followed another
-    # eighth.
-    run_len = 0  # a bracket wraps exactly ONE note: `anchor [extra]`, never
-    # `anchor [extra1 extra2]` -- user's explicit correction (2026-09-11):
-    # "si une syllabe sur 2 croches l'ecriture dans lilypond est a [b] et
-    # non [a b]". 2 consecutive invented placeholders can NOT both be
-    # bracket-skipped in a row either (the 2nd has no unbracketed anchor to
-    # beam from -- confirmed lilypond repro: `d8 [e8] [f8]` still warns
-    # "already have a beam" even with SEPARATE single-note brackets, not
-    # just a merged one) -- so a run of 2+ alternates bracket/bare/bracket,
-    # never groups. This occasionally still doesn't match the user's exact
-    # choice on a specific run (sometimes THEY group 2 together when it's
-    # genuinely one syllable stretched over both notes) -- that's a manual
-    # per-period call the algorithm can't make (it can't tell "one syllable
-    # held over 2 decorative notes" from "two independent decorative
-    # fillers") -- expect occasional hand touch-up, alternating is just the
-    # correct DEFAULT per the user's rule.
+    # itself bracketed) -- to ALSO be beam-eligible (<= beam_skip_max_dur,
+    # i.e. has its own flag/beam to attach to); you cannot beam an eighth
+    # to a quarter (quarters have no flag/beam at all). LilyPond warns
+    # "stem does not fit in beam" and mis-renders otherwise. Confirmed on
+    # BWV_188_6: every bad bracket was an eighth placed right after a
+    # quarter-note real word; every good one followed another eighth.
+    # NOTE: the FIRST note opening a new bracket group only needs its
+    # anchor to ALSO be beam-eligible (not identical duration) -- an
+    # eighth can legitimately beam together with 16ths in the same group
+    # (`d8 [e16 f16]` is completely normal notation; BWV_97_9's
+    # "erschaffen" needed `d''8 [ees''16 f'']`, an eighth anchor beaming 2
+    # 16ths). But every note AFTER the first one in an already-open group
+    # must match the PREVIOUS note's duration exactly (`run_len == 0`
+    # gates the relaxed check) -- allowing relaxed matching throughout an
+    # entire run caused runaway over-grouping on the SAME pilot (a 4-note
+    # span of genuinely unrelated durations all chained into one bracket,
+    # when the correct reading was 2 separate groups with a bare note
+    # between them: `[f] ees16 [f g8]`, not `[f ees16 f g8]`).
+    run_len = 0  # tracks consecutive bracket-eligible notes -- NOT capped
+    # anymore (see BWV_97_9 finding below). A single bracket spanning
+    # MULTIPLE consecutive notes (`anchor [extra1 extra2]`) is correct
+    # LilyPond when those notes are genuinely all decorative with no real
+    # word between them (confirmed on BWV_97_9: user's correction grouped
+    # a 16th-16th run into one `[ees''16 f'']` bracket, and a mixed
+    # 16th+eighth run into `[f g8]`) -- what's actually invalid, per the
+    # earlier `d8 [e8] [f8]` repro (2026-09-11), is TWO SEPARATE bracket
+    # GROUPS back to back with no real note in between either one (each
+    # `[...]` needs an unbracketed anchor immediately before it). Those are
+    # different things: `[e8 f8]` is one group (fine), `[e8] [f8]` is two
+    # groups (errors). This function only ever emits one bracket per
+    # contiguous run of eligible indices (`music_text()`'s grouping loop
+    # merges them), so removing the old `run_len < 1` gate is safe -- it
+    # was preventing exactly the valid grouped case, not just the invalid
+    # double-group case. A previous version of this file went the other
+    # direction (grouping capped at 2, based on a misread single example)
+    # and was reverted back to "never group" on 2026-09-11 -- THIS version
+    # groups whenever duration-eligibility naturally chains, which is a
+    # well-defined condition, not a guess; still only a DEFAULT, a real
+    # decorative run occasionally needs a real word wedged inside it
+    # instead (breaking the chain), which is exactly what `pending`
+    # real-word handling already does.
     for ei, covered in enumerate(mapping):
         new_indices = [idx for idx in covered if idx not in seen]
         seen.update(new_indices)
@@ -720,8 +740,9 @@ def build_corrected_tokens_gen(ref_tokens, mapping, tgt_events, hyphen_after=Non
             # note-count match bypasses align_period entirely, landing
             # straight on the reference's own placeholder slot -- that
             # slot was silently never bracket-checked before this fix).
-            if (tgt_events[ei]["dur"] <= beam_skip_max_dur and tgt_events[ei]["dur"] == last_note_dur
-                    and run_len < 1):
+            if (tgt_events[ei]["dur"] <= beam_skip_max_dur and last_note_dur is not None
+                    and (tgt_events[ei]["dur"] == last_note_dur
+                         or (run_len == 0 and last_note_dur <= beam_skip_max_dur))):
                 bracket_indices.add(ei)
                 last_note_dur = tgt_events[ei]["dur"]
                 run_len += 1
@@ -733,8 +754,9 @@ def build_corrected_tokens_gen(ref_tokens, mapping, tgt_events, hyphen_after=Non
                 if last_real_idx is not None and not hyphen_after[last_real_idx]:
                     auto_underline.add(last_real_idx)
         else:
-            if (tgt_events[ei]["dur"] <= beam_skip_max_dur and tgt_events[ei]["dur"] == last_note_dur
-                    and run_len < 1):
+            if (tgt_events[ei]["dur"] <= beam_skip_max_dur and last_note_dur is not None
+                    and (tgt_events[ei]["dur"] == last_note_dur
+                         or (run_len == 0 and last_note_dur <= beam_skip_max_dur))):
                 bracket_indices.add(ei)
                 last_note_dur = tgt_events[ei]["dur"]
                 run_len += 1
