@@ -57,27 +57,27 @@ bassMusic = {
 sopranoLyrics = \lyricmode {
   Dies hat er al -- les uns ge -- tan,
   sein groß Lieb zu zei -- gen an;
-  Des freu' sich al le Chris -- ten -- heit
-  Und dank' ihm des in E -- wig -- keit. Ky -- ri -- e -- _ leis!
+  des freu' sich al -- le Chris -- ten -- heit
+  und dank' ihm des in E -- wig -- keit. __ _ _ Ky -- rie -- leis!
 }
 
 altoLyrics = \lyricmode {
   Dies hat er al -- les uns ge -- tan,
-  sein groß Lieb zu zei -- gen __ _ an;
-  Des freu' sich __ _ al le Chris -- ten -- heit
-  Und dank' ihm des in E -- wig -- keit. Ky __ -- ri -- e __ -- leis! __ _
+  sein groß Lieb zu zei -- _ gen an;
+  Des freu' __ _ sich al -- le Chris -- ten -- heit
+  und dank' ihm des in E -- wig -- keit. __ _ _ Ky -- rie -- leis!
 }
 
 tenorLyrics = \lyricmode {
-  Dies hat er al -- les uns ge -- _ tan,
-  sein groß Lieb zu zei -- gen __ _ an;
-  Des freu' sich al le Chris -- ten -- heit
-  Und dank' ihm des in E -- wig -- keit. Ky -- ri -- e -- leis! __ _ _
+  Dies hat er al -- les uns __ _ ge -- tan,
+  sein groß Lieb zu zei -- _ gen an;
+  des freu' sich al -- le Chris -- ten -- heit
+  und dank' ihm des in E -- wig -- keit. __ _ _ _ Ky -- rie -- leis!
 }
 
 bassLyrics = \lyricmode {
   Dies hat er al -- les uns ge -- tan,
   sein groß Lieb zu zei -- gen an;
-  Des freu' sich al le Chris -- ten __ -- heit
-  Und dank' ihm des in E -- wig -- keit. Ky -- ri -- e -- _ leis!
+  des freu' sich al -- le Chris -- ten __ -- heit
+  und dank' ihm des in E -- wig -- keit. __ _ _ Ky -- rie -- leis!
 }
