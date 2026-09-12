@@ -2,7 +2,7 @@ sopranoMusic = {
   \partial 4 b'4
   b' b' a' cis''
   cis'' b' b'\fermata b'
-  b' a' b'8 cis'' d''4
+  b' a' b'8 [cis''] d''4
   a' a' fis'\fermata g'
   e' g' fis' e'
   fis' gis' a'\fermata a'
@@ -22,7 +22,7 @@ altoMusic = {
   \partial 4 fis'4
   fis' gis' cis' a'
   e'8 [fis'] g'4 fis'\fermata fis'
-  g' fis'8 [e'] d' e' fis'4
+  g' fis'8 [e'] d' [e'] fis'4
   fis' e' d'\fermata d'
   e' cis' d' e'
   d' d' e'\fermata e'
@@ -62,7 +62,7 @@ bassMusic = {
   \partial 4 b4
   a gis fis fis8 [gis]
   a4 e b\fermata b,
-  e fis g fis8 e
+  e fis g fis8 [e]
   fis [g] a4 d\fermata b,
   cis a, d cis
   d8 [cis] b,4 a,\fermata a,
@@ -80,7 +80,7 @@ bassMusic = {
 
 sopranoLyrics = \lyricmode {
   Nun hilf uns, Herr, den Die -- nern dein,
-  die mit deim Blut er -- lö -- set __ _ sein!
+  die mit deim Blut er -- lö -- set sein!
   Lass uns im Him -- mel ha -- ben teil
   mit den Heil -- gen im ew -- gen Heil.
   Hilf dei -- nem Volk, Herr Je -- su Christ,
@@ -91,7 +91,7 @@ sopranoLyrics = \lyricmode {
 
 altoLyrics = \lyricmode {
   Nun hilf uns, Herr, den Die -- nern dein,
-  die mit deim Blut er -- lö -- set __ _ sein!
+  die mit deim Blut er -- lö -- set sein!
   Lass uns im Him -- mel ha -- ben teil
   mit den Heil -- gen im ew -- gen Heil.
   Hilf dei -- nem Volk, Herr Je -- su Christ,
@@ -113,7 +113,7 @@ tenorLyrics = \lyricmode {
 
 bassLyrics = \lyricmode {
   Nun hilf uns, Herr, den Die -- nern dein,
-  die mit deim Blut er -- lö -- set __ _ sein!
+  die mit deim Blut er -- lö -- set sein!
   Lass uns im Him -- mel ha -- ben teil
   mit den Heil -- gen im ew -- gen Heil.
   Hilf dei -- nem Volk, Herr Je -- su Christ,
