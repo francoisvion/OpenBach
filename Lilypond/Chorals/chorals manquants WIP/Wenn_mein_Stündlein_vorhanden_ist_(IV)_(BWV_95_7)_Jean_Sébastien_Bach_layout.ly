@@ -2,7 +2,7 @@
 
 
 
-\include "O_Gott,_du_frommer_Gott_(VI)_(BWV_128_5)_Jean_Sébastien_Bach_notes.ily"
+\include "Wenn_mein_Stündlein_vorhanden_ist_(IV)_(BWV_95_7)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,11 +28,11 @@
 }
 
 \header {
-  title = \markup{\concat{"O Gott, du frommer Gott (VI)" \small " (v. 4)"}}
-  subtitle = "tiré de la cantate : Auf Christi Himmelfahrt allein"
-  poet = "Auteur : Matthäus Avenarius (1673)"
+  title = \markup{\concat{"Wenn mein Stündlein vorhanden ist (IV)" \small " (v. 4)"}}
+  subtitle = "tiré de la cantate : Christus, der ist mein Leben"
+  poet = "Auteur : Nikolaus Herman (1562)"
   composer = "Jean-Sébastien Bach (1685-1750)"
-  opus = "BWV 128/5"
+  opus = "BWV 95/7"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
 }
