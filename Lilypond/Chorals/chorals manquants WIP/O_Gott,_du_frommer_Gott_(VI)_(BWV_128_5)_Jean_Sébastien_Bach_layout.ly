@@ -2,7 +2,7 @@
 
 
 
-\include "Herr_Gott,_dich_loben_wir_(III)_(BWV_119_9)_Jean_Sébastien_Bach_notes.ily"
+\include "O_Gott,_du_frommer_Gott_(VI)_(BWV_128_5)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,11 +28,11 @@
 }
 
 \header {
-  title = \markup{\concat{"Herr Gott, dich loben wir (III)" \small " (Hilf deinem Volk)"}}
-  subtitle = "tiré de la cantate : Preise, Jerusalem, den Herrn"
-  poet = "Auteur : Martin Luther (1529), d'après le Te Deum laudamus"
+  title = \markup{\concat{"O Gott, du frommer Gott (VI)" \small " (v. 4)"}}
+  subtitle = "tiré de la cantate : Auf Christi Himmelfahrt allein"
+  poet = "Auteur : Matthäus Avenarius (1673)"
   composer = "Jean-Sébastien Bach (1685-1750)"
-  opus = "BWV 119/9"
+  opus = "BWV 128/5"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
 }
@@ -42,7 +42,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "S" }
     {
       \clef treble
-      \key c \major
+      \key g \major
       \time 4/4
       \new Voice = "soprano" \sopranoMusic
     }
@@ -50,7 +50,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "A" }
     {
       \clef treble
-      \key c \major
+      \key g \major
       \time 4/4
       \new Voice = "alto" \altoMusic
     }
@@ -58,7 +58,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "T" }
     {
       \clef "treble_8"
-      \key c \major
+      \key g \major
       \time 4/4
       \new Voice = "tenor" \tenorMusic
     }
@@ -66,7 +66,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "B" }
     {
       \clef bass
-      \key c \major
+      \key g \major
       \time 4/4
       \new Voice = "bass" \bassMusic
     }
