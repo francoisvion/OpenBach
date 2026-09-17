@@ -4,13 +4,13 @@ sopranoMusic = {
   e''2.\fermata e''4
   a' a' d'' c''
   b' a' g'\fermata d''
-  e'' e'' d'' c''16 [b'] c''8
+  e'' e'' d'' c''16 [b' c''8]
   b'2.\fermata a'4
   b' cis'' d'' e''8 [fis''16 g'']
   fis''4 e''8 [d''] d''4\fermata d''
-  d'' d'' g'' f''8 e''
+  d'' d'' g'' f''8 [e'']
   e''2.\fermata e''4
-  e'' e'' fis''8 [g''16 a''] g''8 fis''
+  e'' e'' fis''8 [g''16 a''] g''8 [fis'']
   fis''2.\fermata d''4
   e'' d'' e'' fis''
   g''2.\fermata d''4
@@ -43,7 +43,7 @@ tenorMusic = {
   d' fis' g' g'8 [d']
   c'2.\fermata g4
   d' d' d' d'
-  d'~ d'8 a b4\fermata g'
+  d'4. a8 b4\fermata g'
   e' e' fis' fis'
   g'2.\fermata d'4
   d' g a e'
@@ -54,7 +54,7 @@ tenorMusic = {
   d'2.\fermata d'4
   c' g' c'8 [a'] fis'4
   e'2.\fermata a4
-  d' e' e' d'8 a
+  d' e' e' d'8 [a]
   b2.\fermata \fine
 }
 
@@ -81,10 +81,10 @@ bassMusic = {
 sopranoLyrics = \lyricmode {
   Als -- denn so wirst du mich
   Zu dei -- ner Rech -- ten stel -- _ len
-  Und mir als dei -- nem __ _ Kind,
-  Ein gnä -- dig Ur -- teil fäl -- _ len,
-  Mich brin -- gen zu der Lust, __ _
-  Wo dei -- ne Herr -- lich -- keit __ _
+  und mir als dei -- nem __ Kind,
+  ein gnä -- dig Ur -- teil fäl -- _ len,
+  Mich brin -- gen zu der Lust,
+  Wo dei -- ne Herr -- lich -- keit
   Ich wer -- de schau -- en an
   In al -- le E -- wig -- keit.
 }
@@ -92,8 +92,8 @@ sopranoLyrics = \lyricmode {
 altoLyrics = \lyricmode {
   Als -- denn so wirst du mich
   Zu dei -- ner Rech -- ten stel -- _ len
-  Und mir als dei -- nem Kind,
-  Ein gnä -- dig Ur -- teil fäl -- len,
+  und mir als dei -- nem Kind,
+  ein gnä -- dig Ur -- teil fäl -- len,
   Mich brin -- gen zu der Lust,
   Wo dei -- ne Herr -- lich -- keit
   Ich wer -- de schau -- en an
@@ -102,20 +102,20 @@ altoLyrics = \lyricmode {
 
 tenorLyrics = \lyricmode {
   Als -- denn so wirst du mich
-  Zu dei -- ner Rech -- ten stel __ -- _ len
-  Und mir als dei -- nem Kind,
-  Ein gnä -- dig Ur -- teil fäl -- len,
+  Zu dei -- ner Rech -- ten stel -- _ len
+  und mir als dei -- nem Kind,
+  ein gnä -- dig Ur -- teil fäl -- len,
   Mich brin -- gen zu der Lust,
   Wo dei -- ne Herr -- lich -- keit
   Ich wer -- de schau -- en an
-  In al -- le E -- _ wig -- keit.
+  In al -- le E -- wig -- keit.
 }
 
 bassLyrics = \lyricmode {
   Als -- denn so wirst du mich
   Zu dei -- ner Rech -- ten stel -- _ len
-  Und mir als dei -- nem Kind,
-  Ein gnä -- dig Ur -- teil fäl -- _ len,
+  und mir als dei -- nem Kind,
+  ein gnä -- dig Ur -- teil fäl -- _ len,
   Mich brin -- gen zu der Lust,
   Wo dei -- ne Herr -- lich -- keit
   Ich wer -- de schau -- en an
