@@ -19,7 +19,7 @@ sopranoMusic = {
   b'1\fermata
   e''4. d''8 c''4. b'8
   a'2 b'
-  c''\breve\fermata \fine
+  c''1\fermata \fine
 }
 
 altoMusic = {
@@ -43,7 +43,7 @@ altoMusic = {
   g'1\fermata
   g'4. f'8 e'4. d'8
   c'2 d'8 [e'] f'4
-  e'\breve\fermata \fine
+  e'1\fermata \fine
 }
 
 tenorMusic = {
@@ -67,7 +67,7 @@ tenorMusic = {
   d'1\fermata
   r4 e'4. d'8 c'4~
   c'8 b [a g] f4 g
-  g\breve\fermata \fine
+  g1\fermata \fine
 }
 
 bassMusic = {
@@ -91,7 +91,7 @@ bassMusic = {
   g1\fermata
   r4 c'4. b8 a4~
   a8 g [f e] d4 g
-  c\breve\fermata \fine
+  c1\fermata \fine
 }
 
 sopranoLyrics = \lyricmode {
