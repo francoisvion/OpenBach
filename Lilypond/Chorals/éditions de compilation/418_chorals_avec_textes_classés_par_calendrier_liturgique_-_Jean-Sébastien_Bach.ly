@@ -277,7 +277,7 @@
     ("Jesu_Leiden,_Pein_und_Tod_(I)_(BWV_159_5)_Jean_Sébastien_Bach" . 19)
     ("Jesu_Leiden,_Pein_und_Tod_(II)_(BWV_245_14)_Jean_Sébastien_Bach" . 26)
     ("Jesu_Leiden,_Pein_und_Tod_(III)_(BWV_245_28)_Jean_Sébastien_Bach" . 26)
-    ("Komm,_Heiliger_Geist,_Herre_Gott_(BWV_226_2)_Jean_Sébastien_Bach" . 74)
+    ("Komm,_Heiliger_Geist,_Herre_Gott_(I)_(BWV_226_2)_Jean_Sébastien_Bach" . 74)
     ("Kommt,_lasst_euch_den_Herren_lehren_(BWV_39_7)_Jean_Sébastien_Bach" . 41)
     ("Lasst_Furcht_und_Pein_(BWV_248_35)_Jean_Sébastien_Bach" . 6)
     ("Liebster_Gott,_wenn_werd_ich_sterben_(BWV_8_6)_Jean_Sébastien_Bach" . 56)

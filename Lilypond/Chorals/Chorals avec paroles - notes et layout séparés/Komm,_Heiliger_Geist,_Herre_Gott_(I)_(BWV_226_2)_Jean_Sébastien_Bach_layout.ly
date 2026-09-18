@@ -1,6 +1,8 @@
 \version "2.27.1"
 
-\include "Komm,_Heiliger_Geist,_Herre_Gott_(BWV_226_2)_Jean_Sébastien_Bach_notes.ily"
+
+
+\include "Komm,_Heiliger_Geist,_Herre_Gott_(I)_(BWV_226_2)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -26,8 +28,9 @@
 }
 
 \header {
- title = "Komm, Heiliger Geist, Herre Gott"
+ title = "Komm, Heiliger Geist, Herre Gott (I)"
  subtitle = "tiré du motet : Der Geist hilft unser Schwachheit auf"
+ poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 226/2"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
@@ -36,23 +39,22 @@
 
 \score {
   \new ChoirStaff <<
-    \new Staff \with { instrumentName = \markup \center-column {S A} }
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {S A} }
     {
       \clef treble
       \key bes \major
       \time 4/4
-      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "soprano" \sopranoMusic
         \new Voice = "alto" \altoMusic
       >>
     }
-    \new Staff \with { instrumentName = \markup \center-column {T B} }
+    \new Lyrics \lyricsto "soprano" \sopranoLyrics
+    \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass
       \key bes \major
       \time 4/4
-      \set Timing.beatStructure = #'(2 2)
       <<
         \new Voice = "tenor" \tenorMusic
         \new Voice = "bass" \bassMusic

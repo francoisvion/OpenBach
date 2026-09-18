@@ -396,7 +396,7 @@
     ("Jesus_Christus,_unser_Heiland,_der_von_uns_den_Gottes_Zorn_wandt_(BWV_363)_Jean_Sébastien_Bach" . 120)
     ("Keinen_hat_Gott_verlassen_(BWV_369)_Jean_Sébastien_Bach" . 123)
     ("Komm,_Gott_Schöpfer,_Heiliger_Geist_(BWV_370)_Jean_Sébastien_Bach" . 124)
-    ("Komm,_Heiliger_Geist,_Herre_Gott_(BWV_226_2)_Jean_Sébastien_Bach" . 125)
+    ("Komm,_Heiliger_Geist,_Herre_Gott_(I)_(BWV_226_2)_Jean_Sébastien_Bach" . 125)
     ("Kommt,_lasst_euch_den_Herren_lehren_(BWV_39_7)_Jean_Sébastien_Bach" . 64)
     ("Kyrie,_Gott_Vater_in_Ewigkeit_(choral)_(BWV_371)_Jean_Sébastien_Bach" . 128)
     ("Lass,_o_Herr,_dein_Ohr_sich_neigen_(BWV_372)_Jean_Sébastien_Bach" . 129)
