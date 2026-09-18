@@ -2,7 +2,7 @@
 
 
 
-\include "Kommt_her,_ihr_lieben_Schwesterlein_(BWV_195_6)_Jean_Sébastien_Bach_notes.ily"
+\include "In_dich_hab_ich_gehoffet,_Herr_(BWV_52_6)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,11 +28,11 @@
 }
 
 \header {
-  title = \markup{\concat{"Kommt her, ihr lieben Schwesterlein" \small " (v. 1)"}}
-  subtitle = "tiré de la cantate : Dem Gerechten muß das Licht immer wieder aufgehen"
-  poet = "Auteur : Paul Gerhardt (1647)"
+  title = \markup{\concat{"In dich hab ich gehoffet, Herr" \small " (v. 1)"}}
+  subtitle = "tiré de la cantate : Falsche Welt, dir trau ich nicht!"
+  poet = "Auteur : Adam Reusner (1533)"
   composer = "Jean-Sébastien Bach (1685-1750)"
-  opus = "BWV 195/6"
+  opus = "BWV 52/6"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
 }
@@ -42,7 +42,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "S" }
     {
       \clef treble
-      \key g \major
+      \key f \major
       \time 4/4
       \new Voice = "soprano" \sopranoMusic
     }
@@ -50,7 +50,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "A" }
     {
       \clef treble
-      \key g \major
+      \key f \major
       \time 4/4
       \new Voice = "alto" \altoMusic
     }
@@ -58,7 +58,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "T" }
     {
       \clef "treble_8"
-      \key g \major
+      \key f \major
       \time 4/4
       \new Voice = "tenor" \tenorMusic
     }
@@ -66,7 +66,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "B" }
     {
       \clef bass
-      \key g \major
+      \key f \major
       \time 4/4
       \new Voice = "bass" \bassMusic
     }
