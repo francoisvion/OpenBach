@@ -2,7 +2,7 @@
 
 
 
-\include "In_dich_hab_ich_gehoffet,_Herr_(BWV_52_6)_Jean_Sébastien_Bach_notes.ily"
+\include "Komm,_Jesu,_komm_(BWV_229_2)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,11 +28,11 @@
 }
 
 \header {
-  title = \markup{\concat{"In dich hab ich gehoffet, Herr" \small " (v. 1)"}}
-  subtitle = "tiré de la cantate : Falsche Welt, dir trau ich nicht!"
-  poet = "Auteur : Adam Reusner (1533)"
+  title = "Komm, Jesu, komm"
+  subtitle = "tiré du motet : Komm, Jesu, komm"
+  poet = "Auteur : Paul Thymich"
   composer = "Jean-Sébastien Bach (1685-1750)"
-  opus = "BWV 52/6"
+  opus = "BWV 229/2"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
 }
@@ -42,32 +42,32 @@
     \new Staff \with { \autoBeamOff instrumentName = "S" }
     {
       \clef treble
-      \key f \major
-      \time 4/4
+      \key g \minor
+      \time 3/4
       \new Voice = "soprano" \sopranoMusic
     }
     \new Lyrics \lyricsto "soprano" \sopranoLyrics
     \new Staff \with { \autoBeamOff instrumentName = "A" }
     {
       \clef treble
-      \key f \major
-      \time 4/4
+      \key g \minor
+      \time 3/4
       \new Voice = "alto" \altoMusic
     }
     \new Lyrics \lyricsto "alto" \altoLyrics
     \new Staff \with { \autoBeamOff instrumentName = "T" }
     {
       \clef "treble_8"
-      \key f \major
-      \time 4/4
+      \key g \minor
+      \time 3/4
       \new Voice = "tenor" \tenorMusic
     }
     \new Lyrics \lyricsto "tenor" \tenorLyrics
     \new Staff \with { \autoBeamOff instrumentName = "B" }
     {
       \clef bass
-      \key f \major
-      \time 4/4
+      \key g \minor
+      \time 3/4
       \new Voice = "bass" \bassMusic
     }
     \new Lyrics \lyricsto "bass" \bassLyrics
