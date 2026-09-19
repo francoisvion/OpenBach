@@ -740,7 +740,17 @@ def build_corrected_tokens_gen(ref_tokens, mapping, tgt_events, hyphen_after=Non
             # note-count match bypasses align_period entirely, landing
             # straight on the reference's own placeholder slot -- that
             # slot was silently never bracket-checked before this fix).
-            if (tgt_events[ei]["dur"] <= beam_skip_max_dur and last_note_dur is not None
+            # A fermata-flagged note must NEVER be bracket-eligible even if
+            # its own duration happens to be short -- found on BWV_229_2's
+            # bass: a manually-patched missing-fermata note (added for the
+            # music21 fermata-tagging gap, see the caller's offset patch)
+            # got silently absorbed into a decorative bracket group,
+            # producing a nonsensical rendering (`[... d\fermata ...]`, a
+            # phrase-ending fermata buried inside a beamed passing-tone
+            # group with no lyric of its own). Structural markers like a
+            # fermata must always win over the duration-only heuristic.
+            if (not tgt_events[ei]["is_fermata"]
+                    and tgt_events[ei]["dur"] <= beam_skip_max_dur and last_note_dur is not None
                     and (tgt_events[ei]["dur"] == last_note_dur
                          or (run_len == 0 and last_note_dur <= beam_skip_max_dur))):
                 bracket_indices.add(ei)
@@ -754,7 +764,8 @@ def build_corrected_tokens_gen(ref_tokens, mapping, tgt_events, hyphen_after=Non
                 if last_real_idx is not None and not hyphen_after[last_real_idx]:
                     auto_underline.add(last_real_idx)
         else:
-            if (tgt_events[ei]["dur"] <= beam_skip_max_dur and last_note_dur is not None
+            if (not tgt_events[ei]["is_fermata"]
+                    and tgt_events[ei]["dur"] <= beam_skip_max_dur and last_note_dur is not None
                     and (tgt_events[ei]["dur"] == last_note_dur
                          or (run_len == 0 and last_note_dur <= beam_skip_max_dur))):
                 bracket_indices.add(ei)
