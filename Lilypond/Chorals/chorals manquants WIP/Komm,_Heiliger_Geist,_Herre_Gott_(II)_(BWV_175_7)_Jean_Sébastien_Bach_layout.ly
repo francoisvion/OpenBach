@@ -2,7 +2,7 @@
 
 
 
-\include "Komm,_Jesu,_komm_(BWV_229_2)_Jean_Sébastien_Bach_notes.ily"
+\include "Komm,_Heiliger_Geist,_Herre_Gott_(II)_(BWV_175_7)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,11 +28,11 @@
 }
 
 \header {
-  title = "Komm, Jesu, komm"
-  subtitle = "tiré du motet : Komm, Jesu, komm"
-  poet = "Auteur : Paul Thymich"
+  title = \markup{\concat{"Komm, Heiliger Geist, Herre Gott (II)" \small " (v. 9)"}}
+  subtitle = "tiré de la cantate : Er rufet seinen Schafen mit Namen"
+  poet = "Auteur : Johann Rist (1651)"
   composer = "Jean-Sébastien Bach (1685-1750)"
-  opus = "BWV 229/2"
+  opus = "BWV 175/7"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
 }
@@ -42,32 +42,32 @@
     \new Staff \with { \autoBeamOff instrumentName = "S" }
     {
       \clef treble
-      \key g \minor
-      \time 3/4
+      \key g \major
+      \time 4/4
       \new Voice = "soprano" \sopranoMusic
     }
     \new Lyrics \lyricsto "soprano" \sopranoLyrics
     \new Staff \with { \autoBeamOff instrumentName = "A" }
     {
       \clef treble
-      \key g \minor
-      \time 3/4
+      \key g \major
+      \time 4/4
       \new Voice = "alto" \altoMusic
     }
     \new Lyrics \lyricsto "alto" \altoLyrics
     \new Staff \with { \autoBeamOff instrumentName = "T" }
     {
       \clef "treble_8"
-      \key g \minor
-      \time 3/4
+      \key g \major
+      \time 4/4
       \new Voice = "tenor" \tenorMusic
     }
     \new Lyrics \lyricsto "tenor" \tenorLyrics
     \new Staff \with { \autoBeamOff instrumentName = "B" }
     {
       \clef bass
-      \key g \minor
-      \time 3/4
+      \key g \major
+      \time 4/4
       \new Voice = "bass" \bassMusic
     }
     \new Lyrics \lyricsto "bass" \bassLyrics
