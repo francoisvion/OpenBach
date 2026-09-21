@@ -49,14 +49,14 @@ altoMusic = {
   r4 g' g' g'
   fis' e' d' d'
   d'2.\fermata d'4
-  d' c'8 [d'] e'4 d'8 [e' fis' g']
+  d' c'8 [d'] e'4 d'8 [e'] fis' [g']
   fis' [e'] d'4 d'
   d' cis' d'2\fermata
   r4 d' e' fis'
   g'4. a'8 b'4 a'
   g'8 [fis'] e'4 e' d'
   d'2.\fermata fis'4
-  g' d'~ d'8 c'16 [b] c'4
+  g' d'~ d'8 [c'16 b] c'4
   b2.\fermata dis'4
   e'8 [fis'] g'2 fis'4
   d'2.\fermata r4 \fine
@@ -73,7 +73,7 @@ tenorMusic = {
   d'8 [c' b a] g4 d'8 [c']
   b [a16 g] a4 a2
   fis2.\fermata fis4
-  g d' d'8 [c' b a gis fis]
+  g d' d'8 [c' b a] gis [fis]
   e4 dis e
   fis2.\fermata g4
   d' c'8 [b] a4 d'8 [c']
@@ -113,7 +113,7 @@ bassMusic = {
   r4 g c b,8 [c]
   d4 e8 [fis] g [c] d4
   g,2.\fermata g,4
-  d a, e b,8 [c d e]
+  d a, e b,8 [c] d [e]
   d [cis] b, [a, g, fis,]
   g,4 a, d2\fermata
   r4 g8 [fis] e4 d8 [c]
@@ -132,8 +132,8 @@ sopranoLyrics = \lyricmode {
   er -- füll mit dei -- ner Gna -- den Gut
   dei -- ner Gläu -- bi -- gen Herz, Mut __ _ und Sinn.
   Dein brün -- stig Lieb __ _ ent -- zünd in ihn'n.
-  O Herr, durch dei -- nes Lich -- tes Glanz
-  zu dem Glau -- ben ver -- sam -- mlet hast
+  O __ Herr, durch dei -- nes Lich -- tes Glanz
+  zu dem Glau -- ben ver -- sam -- melt hast
   das Volk aus al -- _ ler Welt __ _ Zun -- gen;
   das sei dir, Herr, __ _ zu Lob ge -- sun -- _ gen.
   Al -- le -- lu -- ja,
@@ -147,10 +147,10 @@ altoLyrics = \lyricmode {
   dei -- ner Gläu __ -- bi -- gen Herz, Mut __ _ und Sinn.
   Dein brün -- stig Lieb __ _ ent -- zünd in ihn'n.
   O Herr, durch dei -- nes Lich -- tes Glanz
-  zu dem Glau -- ben ver -- sam -- mlet hast
-  das Volk aus al -- _ ler Welt __ _ Zun -- _ gen;
+  zu dem Glau -- ben ver -- sam -- melt hast
+  das Volk aus al -- _ _ ler Welt __ _ Zun -- _ gen;
   das sei dir, Herr, __ _ _ zu Lob ge -- sun -- _ gen.
-  Al -- le -- _ _ lu -- ja,
+  Al -- le -- _ lu -- ja,
   al -- le -- _ lu -- ja.
 }
 
@@ -159,9 +159,9 @@ tenorLyrics = \lyricmode {
   Her -- re Gott,
   er -- füll mit dei -- ner Gna -- den Gut
   dei -- ner Gläu -- bi -- gen Herz, Mut __ _ und Sinn.
-  Dein brün -- stig Lieb ent -- zünd in ihn'n.
+  Dein brün -- stig Lieb __ _ ent -- zünd in ihn'n.
   O Herr, durch dei -- nes Lich -- tes Glanz
-  zu dem Glau -- ben ver -- sam -- mlet hast
+  zu dem Glau -- ben ver -- sam -- melt hast
   das Volk aus al -- _ _ ler Welt __ _ Zun -- _ gen;
   das sei dir, Herr, __ _ _ zu Lob ge -- sun -- _ gen.
   Al -- le -- lu -- ja,
@@ -175,8 +175,8 @@ bassLyrics = \lyricmode {
   dei -- ner Gläu -- bi -- _ gen Herz, Mut __ _ und __ _ Sinn.
   Dein brün -- stig Lieb __ _ _ ent -- zünd in ihn'n.
   O Herr, durch dei -- nes Lich -- tes Glanz
-  zu dem Glau -- ben ver -- sam -- mlet hast
-  das Volk aus al -- _ ler Welt Zun -- _ gen;
+  zu dem Glau -- ben ver -- sam -- melt hast
+  das Volk aus al -- _ _ ler Welt __ Zun -- _ gen;
   das sei dir, Herr, __ _ zu Lob ge -- sun -- _ gen.
   Al -- le -- _ lu -- ja,
   al -- le -- _ lu -- ja.
