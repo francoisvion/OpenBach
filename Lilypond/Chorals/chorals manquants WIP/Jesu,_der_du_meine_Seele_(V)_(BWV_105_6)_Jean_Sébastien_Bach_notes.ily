@@ -1,26 +1,28 @@
 sopranoMusic = {
+  \tempo \markup{\tiny \italic "Interludes instrumentaux absents"}
   d''4 d'' a' b'
   c'' bes' a'2
-  g'4 r r2
+  g'4 \bar "'" \once r4^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } r2
   bes'4 bes' a' g'
-  fis' g' a' r
+  fis' g' a' \bar "'" \once r4^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} }
   r2 d''4 d''
   a'4. bes'8 c''4 bes'
-  a'2 g'4 r
-  r2 bes'4 bes'
+  a'2 g'4 \bar "'" r4
+  \once r2^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} }
+  \bar "'" bes'4 bes'
   a' g' fis' g'
-  a' r r2
+  a' \bar "'" \bar "'" \once r4^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } r2
   a'4 bes' c'' a'
   bes' a' g'2
-  f'4 r r2
+  f'4 \bar "'" \once r4^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } r2
   bes'4 c'' d'' d''
   ees'' d'' c''2
-  bes'4 r r2
+  bes'4 \bar "'" \once r4^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } r2
   d''4 d'' c'' d''
-  bes' c'' d'' r
+  bes' c'' d'' \bar "'" \once r4^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} }
   r2 d''4 d''
   c'' bes' a' a'
-  g' r r2
+  g' \bar "'" \once r4^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } r2
   r1
   r \fine
 }
@@ -107,17 +109,45 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Nun, ich weiß, du wirst mir stil -- len mein Ge -- wis -- sen, das mich plagt. Es wird dei -- ne Treu er -- fül -- len, was du sel -- ber hast ge -- sagt: dass auf die -- ser wei -- ten Er -- den Kei -- ner soll ver -- lo -- ren wer -- den, son -- dern e -- wig le -- ben soll, wenn er nur ist Glau -- bens voll.
+  Nun, ich weiß, du wirst mir stil -- len
+  mein Ge -- wis -- sen, das mich plagt.
+  Es wird dei -- ne Treu er -- fül -- len,
+  was du sel -- ber hast ge -- sagt:
+  dass auf die -- ser wei -- ten Er -- den
+  Kei -- ner soll ver -- lo -- ren wer -- den,
+  son -- dern e -- wig le -- ben soll,
+  wenn er nur ist Glau -- bens voll.
 }
 
 altoLyrics = \lyricmode {
-  Nun, ich weiß, du wirst mir stil -- _ len mein Ge -- wis -- sen, das mich plagt. Es wird dei -- ne Treu er -- fül -- _ len, was du sel -- ber hast ge -- sagt: wass auf die -- ser wei -- ten Er -- _ den Kei -- ner soll ver -- lo -- ren wer -- _ den, son -- dern e -- wig le -- ben soll, wenn er nur ist Glau -- bens voll.
+  Nun, ich weiß, du wirst mir stil -- _ len
+  mein Ge -- wis -- sen, das mich plagt.
+  Es wird dei -- ne Treu er -- fül -- _ len,
+  was du sel -- ber hast ge -- sagt:
+  dass auf die -- ser wei -- ten Er -- _ den
+  Kei -- ner soll ver -- lo -- ren wer -- _ den,
+  son -- dern e -- wig le -- ben soll,
+  wenn er nur ist Glau -- bens voll.
 }
 
 tenorLyrics = \lyricmode {
-  Nun, ich weiß, du wirst mir stil -- _ len mein Ge -- wis -- sen, das mich plagt. Es wird dei -- ne Treu er -- fül -- _ len, was du sel -- ber hast ge -- sagt: wass auf die -- ser wei -- ten Er -- _ den Kei -- ner soll ver -- lo -- ren wer -- _ den, son -- dern e -- wig le -- ben soll, wenn er nur ist Glau -- bens voll.
+  Nun, ich weiß, du wirst mir stil -- _ len
+  mein Ge -- wis -- sen, das mich plagt.
+  Es wird dei -- ne Treu er -- fül -- _ len,
+  was du sel -- ber hast ge -- sagt:
+  dass auf die -- ser wei -- ten Er -- _ den
+  Kei -- ner soll ver -- lo -- ren wer -- _ den,
+  son -- dern e -- wig le -- ben soll,
+  wenn er nur ist Glau -- bens voll.
 }
 
 bassLyrics = \lyricmode {
-  Nun, ich weiß, du wirst mir stil -- _ len mein Ge -- wis -- sen, das mich plagt. Es wird dei -- ne Treu er -- fül -- _ len, was du sel -- ber hast ge -- sagt: wass auf die -- ser wei -- ten Er -- den Kei -- ner soll ver -- lo -- ren wer -- _ den, son -- dern e -- wig le -- ben soll, wenn er nur ist Glau -- bens voll.
+  Nun, ich weiß, du wirst mir stil -- _ len
+  mein Ge -- wis -- sen, das mich plagt.
+  Es wird dei -- ne Treu er -- fül -- _ len,
+  was du sel -- ber hast ge -- sagt:
+  dass auf die -- ser wei -- ten Er -- den
+  Kei -- ner soll ver -- lo -- ren wer -- _ den,
+  son -- dern e -- wig le -- ben soll,
+  wenn er nur ist Glau -- bens voll.
 }
