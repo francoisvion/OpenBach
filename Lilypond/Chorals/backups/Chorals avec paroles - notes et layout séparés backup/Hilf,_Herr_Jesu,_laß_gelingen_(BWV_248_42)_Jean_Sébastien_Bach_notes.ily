@@ -1,14 +1,13 @@
 sopranoMusic = {
           \voiceOne
           \tempo \markup{\tiny \italic "Interludes instrumentaux absents"}
-          \once \textLengthOn s2.^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} }
           \repeat volta 2 {
           c''4 a'2
           g' f'4
           bes' c''4. d''16 [ees'']
           d''2.
           c''2 \bar "'" r4
-          \once \textLengthOn s2.^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } \bar "'"
+          \once \textLengthOn s2.^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } 
           d''4 bes'2
           c'' f'4
           bes' a'2

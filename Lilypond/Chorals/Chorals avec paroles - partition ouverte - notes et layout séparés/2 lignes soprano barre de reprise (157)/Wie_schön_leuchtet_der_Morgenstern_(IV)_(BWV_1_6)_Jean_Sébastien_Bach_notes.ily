@@ -86,8 +86,8 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
   Er wird mich doch zu sei -- nem Preis
-  auf neh men in das Pa ra deis,
-  des klopf -- ich in die Hän -- de.
+  auf neh -- men in das Pa -- ra -- deis,
+  des klopf ich in die Hän -- de.
 }
 
 altoLyricsOne = \lyricmode {\set stanza = 1
@@ -102,8 +102,8 @@ altoLyricsOne = \lyricmode {\set stanza = 1
 
 altoLyricsTwo = \lyricmode {\set stanza = 2
   Er wird mich doch zu sei -- nem Preis
-  auf neh men in das Pa ra deis,
-  des klopf -- ich in die Hän -- _ de.
+  auf neh -- men in das Pa -- ra -- deis,
+  des klopf ich in die Hän -- _ de.
 }
 
 tenorLyricsOne = \lyricmode {\set stanza = 1
@@ -118,8 +118,8 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
 
 tenorLyricsTwo = \lyricmode {\set stanza = 2
   Er wird mich doch zu sei -- nem Preis
-  auf neh men in das Pa ra deis,
-  des klopf -- ich in die Hän -- _ de.
+  auf neh -- men in das Pa -- ra -- deis,
+  des klopf ich in die Hän -- _ de.
 }
 
 bassLyricsOne = \lyricmode {\set stanza = 1
@@ -134,6 +134,6 @@ bassLyricsOne = \lyricmode {\set stanza = 1
 
 bassLyricsTwo = \lyricmode {\set stanza = 2
   Er wird mich doch zu sei -- nem Preis
-  auf neh men in das Pa ra deis,
-  des klopf -- ich in die Hän -- de.
+  auf neh -- men in das Pa -- ra -- deis,
+  des klopf ich in die Hän -- de.
 }

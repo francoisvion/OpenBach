@@ -66,8 +66,8 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
-  Es mag mich auf die rau -- he -- Bahn
-  Not, -- Tod und E lend -- trei -- ben.
+  Es mag mich auf die rau -- he Bahn
+  Not, Tod und E -- lend trei -- ben.
 }
 
 altoLyricsOne = \lyricmode {\set stanza = 1
@@ -78,8 +78,8 @@ altoLyricsOne = \lyricmode {\set stanza = 1
 }
 
 altoLyricsTwo = \lyricmode {\set stanza = 2
-  Es mag mich auf die rau -- he -- Bahn
-  Not, -- Tod und E lend -- trei -- ben.
+  Es mag mich auf die rau -- he Bahn
+  Not, Tod und E -- lend trei -- ben.
 }
 
 tenorLyricsOne = \lyricmode {\set stanza = 1
@@ -102,6 +102,6 @@ bassLyricsOne = \lyricmode {\set stanza = 1
 }
 
 bassLyricsTwo = \lyricmode {\set stanza = 2
-  Es mag mich auf die rau -- he -- Bahn
-  Not, -- Tod und E lend -- trei -- ben.
+  Es mag mich auf die rau -- he Bahn
+  Not, Tod und E -- lend trei -- ben.
 }
