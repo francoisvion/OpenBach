@@ -114,21 +114,21 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {\set stanza = 1
   Al -- lein zu dir, Herr Je -- su Christ, __ _ _ _
-  mein Hoff -- nung steht auf Er -- den. __ _ _ _ _ _ _ _ _
+  mein Hoff -- nung steht auf Er -- _ _ _ _ _ _ _ _ _ den.
   Von An -- be -- ginn ist nichts er -- korn,
   auf Er -- den ist kein Mensch ge -- born, __
   der mir aus Nö -- ten hel -- fen kann; ich ruf dich an, __
-  zu dem ich mein Ver -- trau -- en han. __ _ _ _ _ _ _ _ _
+  zu dem ich mein Ver -- trau -- _ _ _ _ en han. __ _ _ _ _
 }
 
 altoLyricsTwo = \lyricmode {\set stanza = 2
   Ich weiß, dass du mein Trö -- ster bist, __ _ _ _
-  kein Trost mag mir sonst wer -- den. __ _ _ _ _ _ _ _ _
+  kein Trost mag mir sonst wer -- _ _ _ _ _ _ _ _ _ den.
 }
 
 tenorLyricsOne = \lyricmode {\set stanza = 1
   Al -- lein zu dir, Herr Je -- su Christ, __ _ _
-  mein Hoff -- nung steht auf Er -- den. __ _ _ _ _ _ _
+  mein Hoff -- nung steht auf Er -- _ _ _ _ _ _ _ den.
   Von An -- be -- ginn ist nichts er -- korn, __ _
   auf Er -- den ist kein Mensch ge -- born, __
   der mir aus Nö -- ten hel -- fen kann; ich ruf dich an, __ _ _ _ _ _ _ _
@@ -137,19 +137,19 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
 
 tenorLyricsTwo = \lyricmode {\set stanza = 2
   Ich weiß, dass du mein Trö -- ster bist, __ _ _
-  kein Trost mag mir sonst wer -- den. __ _ _ _ _ _ _
+  kein Trost mag mir sonst wer -- _ _ _ _ _ _ _ den.
 }
 
 bassLyricsOne = \lyricmode {\set stanza = 1
   Al -- lein zu dir, Herr Je -- su Christ, __ _ _ _
-  mein Hoff -- nung steht auf Er -- den. __ _ _ _ _ _ _ _ _ _
+  mein Hoff -- nung steht auf Er -- _ _ _ _ _ _ _ _ _ _ den.
   Von An -- be -- ginn ist nichts er -- korn, __
   auf Er -- den ist kein Mensch ge -- born, __ _ _
   der mir aus Nö -- ten hel -- fen kann; ich ruf dich an, __ _ _ _ _
-  zu dem ich mein Ver -- trau -- en han. __ _ _ _ _ _ _
+  zu dem ich mein Ver -- trau -- _ _ _ _ en han. __ _ _
 }
 
 bassLyricsTwo = \lyricmode {\set stanza = 2
   Ich weiß, dass du mein Trö -- ster bist, __ _ _ _
-  kein Trost mag mir sonst wer -- den. __ _ _ _ _ _ _ _ _ _
+  kein Trost mag mir sonst wer -- _ _ _ _ _ _ _ _ _ _ den.
 }
