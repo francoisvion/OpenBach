@@ -9,7 +9,7 @@ sopranoMusic = {
   g''4 g''4. f''8 e''4
   d''2.\fermata g'4
   a' b' c'' d''
-  e''8. f''16 d''2 c''4\fermata \fine
+  e''8. [f''16] d''2 c''4\fermata \fine
 }
 
 altoMusic = {
@@ -58,7 +58,7 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
   Lo -- be den Her -- ren, was in mir ist, lo -- be den Na -- men!
   Er ist dein Licht,
   See -- le, ver -- giss es ja nicht;
-  Lo -- ben -- de, schlie -- ße mit __ A -- men!
+  Lo -- ben -- de, schlie -- ße mit A -- men!
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
