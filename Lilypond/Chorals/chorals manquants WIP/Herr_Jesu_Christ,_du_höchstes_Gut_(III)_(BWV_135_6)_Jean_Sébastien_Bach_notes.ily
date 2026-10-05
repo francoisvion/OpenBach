@@ -29,7 +29,7 @@ altoMusic = {
   e'4 d' g' g'8 [d']
   d' [g'] g'4 fis' g'\fermata
   e'8 [d'] c'4 c' f'8 [e']
-  d'4~ d'8 b c'4 b\fermata \fine
+  d'4~ d'8 [b] c'4 b\fermata \fine
 }
 
 tenorMusic = {
@@ -46,7 +46,7 @@ tenorMusic = {
   g8 [a] b4 b b8 [a]
   b [c'16 d'] e'4 d' d'\fermata
   b a g a
-  b~ b8 gis a4 gis\fermata \fine
+  b~ b8 [gis] a4 gis\fermata \fine
 }
 
 bassMusic = {
@@ -86,7 +86,7 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   dem Heil -- gen Geist mit Eh -- _ ren
   in al -- le E -- wig -- keit,
   der woll uns all'n be -- sche -- _ ren
-  die ew -- ge Se -- _ _ lig -- keit.
+  die ew -- ge Se -- _ lig -- keit.
 }
 
 altoLyricsTwo = \lyricmode {\set stanza = 2
@@ -100,7 +100,7 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   dem Heil -- gen Geist mit Eh -- ren
   in al -- le E -- wig -- keit,
   der woll uns all'n be -- sche -- _ ren
-  die ew -- ge Se -- lig -- _ _ keit.
+  die ew -- ge Se -- _ lig -- keit.
 }
 
 tenorLyricsTwo = \lyricmode {\set stanza = 2
