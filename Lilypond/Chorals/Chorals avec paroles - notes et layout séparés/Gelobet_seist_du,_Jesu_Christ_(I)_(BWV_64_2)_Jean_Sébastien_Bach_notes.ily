@@ -38,7 +38,7 @@ tenorMusic = {
   c' d' d' d'8 [c']
   b4 a8 [g] fis4\fermata fis8 [g]
   a [b] cis'4 d' d'
-  e' c' c' d'
+  e' c' c' d'~
   d'8 [a] d' c' b4 c' ~
   c' b8 [a] b2\fermata \fine
 }
@@ -62,20 +62,26 @@ sopranoLyrics = \lyricmode {
   Das hat er al -- les uns ge -- tan,
   sein groß Lieb zu zei -- gen an.
   Des freu sich al -- le Chri -- sten -- heit
-  und dank ihm des in E -- wig -- keit. __ _ _ Ky -- rie leis! _
+  und dank ihm des in E -- wig -- keit. __ _ _ Ky -- rie leis!
 }
 
 altoLyrics = \lyricmode {
-  \repeat unfold 30 {\skip1}
-  keit. __ _ Ky -- ri -- e e -- leis!
+  Das hat er al -- les uns ge -- tan,
+  sein groß Lieb zu zei -- gen an.
+  Des freu sich al -- le Chri -- sten -- heit
+  und dank ihm des in E -- wig -- keit. __ _ Ky -- ri -- e e -- leis!
 }
 
 tenorLyrics = \lyricmode {
-  \repeat unfold 30 {\skip1}
-  keit. __ _ _ Ky -- ri -- e e -- _ leis!
+  Das hat er al -- les uns ge -- tan,
+  sein groß Lieb zu zei -- gen an.
+  Des freu sich al -- le Chri -- sten -- heit
+  und dank ihm des in E -- wig -- keit. __ _ Ky -- ri -- e e -- _ leis!
 }
 
 bassLyrics = \lyricmode {
-  \repeat unfold 28 {\skip1}
-  E -- _ _ wig -- keit. Ky -- ri -- e e -- leis!
+  Das hat er al -- les uns ge -- tan,
+  sein groß Lieb zu zei -- gen an.
+  Des freu sich al -- le Chri -- sten -- heit
+  und dank ihm des in E -- _ _ wig -- keit. Ky -- ri -- e e -- leis!
 }

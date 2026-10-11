@@ -39,7 +39,7 @@ altoMusic = {
   g' g' a' g'8 [f']
   e'2\fermata f'4 f'8 [e']
   d'4 c' c'8 [d'16 e'] f'4~
-  f'8 [e'16 d'] e'4 c'2\fermata \fine
+  f'8 e'16 [d'] e'4 c'2\fermata \fine
 }
 
 tenorMusic = {
@@ -47,7 +47,7 @@ tenorMusic = {
   a8 [bes] c'4. g8 c' [bes]
   a2\fermata c'4. b8
   e'2\fermata a4 d'~
-  d'8 [c'16 b] c'4. b16 [a] b4
+  d'8 c'16 [b] c'4. b16 [a] b4
   g2\fermata a4 bes8 [a]
   g4 f8 [g] a2\fermata
   r4 c' c' c'
@@ -61,7 +61,7 @@ tenorMusic = {
   d' d'8 c'4 b16 [a] b4
   g2\fermata a4 a
   bes8 [a] g4 f8 [a] d'4~
-  d'8 [bes] g [c'16 bes] a2\fermata \fine
+  d'8 bes g [c'16 bes] a2\fermata \fine
 }
 
 bassMusic = {
@@ -87,5 +87,5 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Hei -- lig, hei -- lig, hei -- _ lig bist du Herr Gott Ze -- ba -- oth! Al -- le Lan -- _ de sind sei -- ner Eh -- re voll. Ho -- si -- an -- na _ in der Hö -- he. Ge -- lobt seit der da kommt im Na -- _ men des Herrn. Ho -- si -- an -- na in der Hö -- he, in der Hö -- he!
+  Hei -- lig, hei -- lig, hei -- _ lig bist du Herr Gott Ze -- ba -- oth! Al -- le Lan -- _ de sind sei -- ner Eh -- re voll. Ho -- si -- an -- na __ _ in der Hö -- he. Ge -- lobt seit der da kommt im Na -- _ men des Herrn. Ho -- si -- an -- na in der Hö -- he!
 }

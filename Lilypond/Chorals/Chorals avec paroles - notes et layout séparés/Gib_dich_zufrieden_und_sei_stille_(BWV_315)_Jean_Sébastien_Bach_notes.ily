@@ -12,7 +12,7 @@ sopranoMusic = {
   r c'' fis' e''8 [dis'']
   e'' [d''] c'' [b'] a' [g''] fis'' [e'']
   dis'' [cis''] b'4\fermata r e''
-  c'' b'8 [a'] b' [dis'] e' a'
+  \appoggiatura d''!8 c''!4 b'8 [a'] b' [dis'] e' a'
   g'4 fis'8 [e'] e'4\fermata \fine
 }
 
@@ -66,15 +66,21 @@ bassMusic = {
   r a b8 [c'] b [a]
   g [fis] e [d] c [b,] a,4
   b, b,\fermata r gis
-  a8 [a,] a4~ a8 [fis] g c
+  a8 [a,] a4~ a8 fis g c
   b, [a,] b,4 e\fermata \fine
 }
 
 sopranoLyrics = \lyricmode {
-  Gieb dich zu -- frie -- den und sei stil -- _ le in dem Got -- te dei -- nes Le -- bens,
-  Er ist dein Quell und dei -- ne Son -- ne, scheint täg -- lich hell zu dei -- ner Won -- ne, gib dich zu -- frie -- den, zu frie -- _ den.
+\set stanza = 1
+  Gieb dich zu -- frie -- den und sei stil -- _ le
+  in dem Got -- te dei -- nes Le -- bens,
+  Er ist dein Quell und dei -- ne Son -- ne,
+  scheint täg -- lich hell zu dei -- ner Won -- ne,
+  gib dich zu -- frie -- den, zu frie -- _ den.
 }
 
 sopranoLyricsTwo = \lyricmode {
-  in ihm ruht al -- ler Freu -- den Fül -- _ le ohn ihn mühst du dich ver -- ge -- bens.
+\set stanza = 2
+  in ihm ruht al -- ler Freu -- den Fül -- _ le
+  ohn ihn mühst du dich ver -- ge -- bens.
 }

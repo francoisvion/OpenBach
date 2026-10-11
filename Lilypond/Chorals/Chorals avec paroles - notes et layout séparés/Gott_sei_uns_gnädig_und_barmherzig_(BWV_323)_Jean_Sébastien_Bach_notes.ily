@@ -59,9 +59,11 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Gott _ sei uns gnä -- dig und barm -- her -- zig und _ geb' uns sei -- nen gött -- li -- chen Se -- _ gen.
+  Gott __ _ sei uns gnä -- dig und barm -- her -- zig
+  und __ _ geb' uns sei -- nen gött -- li -- chen Se -- _ gen. __ _
 }
 
 altoLyrics = \lyricmode {
-  \repeat unfold 17 {\skip1} gött -- li -- _ chen Se -- _ gen.
+  Gott __ _ sei uns gnä -- dig und __ _ barm -- her -- _ zig
+  und geb' uns sei -- nen gött -- li -- _ chen Se -- _ gen.
 }

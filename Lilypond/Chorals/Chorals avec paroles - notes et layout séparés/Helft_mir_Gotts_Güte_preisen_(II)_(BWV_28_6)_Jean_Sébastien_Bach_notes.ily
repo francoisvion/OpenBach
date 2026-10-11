@@ -24,7 +24,7 @@ altoMusic = {
     d' g'8 [fis'] g'4\fermata e'
     e' a' a' gis'
     e'2.\fermata } a'4
-  a'8 [gis'] a'4 a'8 [gis'] a' [a]
+  a'8 [gis'] a'4~a'8 gis' a' [a]
   e'2.\fermata gis'4
   a' g' g' a'
   a' g'8 [fis'] g'4\fermata g'
@@ -74,15 +74,18 @@ bassMusic = {
   a,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             All solch dein Güt wir prei -- _ sen,
-                             Va -- ter ins Him -- mels Thron,
-                             und bit -- ten fer -- ner dich:
-                             gib uns ein fried -- sam Jah -- _ re,
-                             vor al -- lem Leid be -- wah -- _ re
-                             und nähr uns mil -- dig -- lich.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   All solch dein Güt wir prei -- _ sen,
+   Va -- ter ins Him -- mels Thron,
+   und bit -- ten fer -- ner dich:
+   gib uns ein fried -- sam Jah -- _ re,
+   vor al -- lem Leid be -- wah -- _ re
+   und nähr uns mil -- dig -- lich.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             die du uns tust be -- wei -- _ sen, durch Chri -- stum, dei -- nen Sohn,
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   die du uns tust be -- wei -- _ sen,
+   durch Chri -- stum, dei -- nen Sohn,
 }

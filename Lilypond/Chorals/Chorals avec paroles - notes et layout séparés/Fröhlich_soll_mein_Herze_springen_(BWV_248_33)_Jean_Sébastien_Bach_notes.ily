@@ -51,7 +51,7 @@ tenorMusic = {
 
 bassMusic = {
   \voiceTwo
-  g4 c~ c b,
+  g4 c c b,
   a, aes, g,2
   c\fermata g4 gis
   a2\fermata e4 b,8 [c]
@@ -62,7 +62,7 @@ bassMusic = {
   g4 gis a2\fermata
   b4 e a2\fermata
   e4 d8 [e] fis2\fermata
-  g8 [a] b4~ b8 a b [c']
+  g8 [a] b4 b8 [a] b [c']
   d'4 d g,2\fermata \fine
 }
 

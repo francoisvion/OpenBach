@@ -167,5 +167,5 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Gott leb -- et noch; See -- _ le, was _ ver -- zagst _ du doch? Gott ist gut, _ der aus Er -- bar -- _ men al -- le Hülf' auf Er -- den thut, der mit Kraft und Star -- ken Ar -- men ma -- chet Al -- _ les wohl und gut. Gott kann bes -- _ ser als _ wir den -- _ ken al -- le Noth _ zum be -- _ sten len -- ken. See -- _ le, so be -- den -- _ ke doch: lebt _ doch un -- _ ser Herr Gott noch.
+  Gott leb -- et noch; See -- _ le, was _ ver -- zagst _ du doch? Gott ist gut, _ der aus Er -- bar -- _ men al -- le Hülf' auf Er -- den thut, der mit Kraft und Star -- ken Ar -- men ma -- chet Al -- _ les wohl und gut. Gott kann bes -- _ ser als _ wir den -- _ ken al -- le Noth __ _ zum be -- _ sten len -- ken. See -- _ le, so be -- den -- _ ke doch: lebt __ _ doch un -- _ ser Herr Gott noch.
 }

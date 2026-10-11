@@ -70,15 +70,17 @@ bassMusic = {
   a,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             All solch dein Güt wir prei -- _ sen,
-                             Va -- ter ins Him -- mels Thron,
-                             und bit -- ten fer -- ner dich,
-                             gib uns ein fried -- lich Jah -- re,
-                             vor al -- les Leid be -- wah -- _ re
-                             und nähr uns mil -- dig -- lich. _
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   All solch dein Güt wir prei -- _ sen,
+   Va -- ter ins Him -- mels Thron,
+   und bit -- ten fer -- ner dich,
+   gib uns ein fried -- lich Jah -- re,
+   vor al -- les Leid be -- wah -- _ re
+   und nähr uns mil -- dig -- lich. _
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             Die du uns tust be -- wei -- _ sen durch Je -- sum dein -- en Sohn,
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   Die du uns tust be -- wei -- _ sen durch Je -- sum dein -- en Sohn,
 }
