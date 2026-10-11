@@ -4,7 +4,7 @@ sopranoMusic = {
     d''4 d'' d''8 [e''] f''4
     e'' d'' c''\fermata d''
     b'8 [a'] g' [a'] b'4 cis''
-    d''4 [e''4] d''4\fermata } d''4
+    d''4 e''4 d''4\fermata } d''4
   g'' fis'' e'' fis''
   g''8 [fis''] e''4 d''\fermata d''
   g'' d'' e'' b'8 [c'']
@@ -60,7 +60,7 @@ bassMusic = {
 
 sopranoLyricsOne = \lyricmode {\set stanza = 1
    Sei Lob und Ehr' dem höch -- sten Gut,
-   dem Va -- ter al -- ler Gü -- te,
+   dem Va -- ter al -- ler Gü -- _ te,
    mit sei -- nem rei -- chen Trost er -- füllt,
    dem Gott, der al -- len Jam -- mer stillt:
    gebt un -- serm Gott die Eh -- _ _ re!
@@ -68,7 +68,7 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
    dem Gott, der al -- le Wun -- der tut,
-   dem Gott, der mein Ge -- mü -- te
+   dem Gott, der mein Ge -- mü -- _ te
 }
 
 altoLyricsOne = \lyricmode {\set stanza = 1

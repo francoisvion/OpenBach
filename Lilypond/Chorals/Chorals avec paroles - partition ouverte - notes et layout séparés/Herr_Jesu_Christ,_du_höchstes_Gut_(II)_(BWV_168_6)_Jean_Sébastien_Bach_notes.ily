@@ -42,7 +42,7 @@ tenorMusic = {
   e' d'8 [cis'] cis' [b] a [gis]
   fis [a] d'4 e'\fermata e'
   d'8 [g'] fis' [e'] d'4 cis'~
-  cis'8 [fis] b2 ais4
+  cis'8 fis b4 b ais
   fis2.\fermata \fine
 }
 
@@ -93,7 +93,7 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
    heil mich mit dei -- nen Wun -- _ den,
    und nimm mich einst, wenn dirs ge -- fällt,
    in wah -- rem Glau -- ben von der Welt
-   zu dei -- nen Aus -- er -- wähl -- _ _ ten.
+   zu dei -- nen Aus -- er -- wähl -- _ _ _ ten.
 }
 
 tenorLyricsTwo = \lyricmode {\set stanza = 2

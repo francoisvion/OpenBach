@@ -10,7 +10,7 @@ sopranoMusic = {
   e'' e'' d''4 d''\fermata
   cis''4 d'' e'' e''
   d'' cis'' b'2\fermata
-  cis''4 d'' e''8 [d''] [cis''4]
+  cis''4 d'' e''8 [d''] cis''4
   b'4 b' a'2\fermata \fine
 }
 

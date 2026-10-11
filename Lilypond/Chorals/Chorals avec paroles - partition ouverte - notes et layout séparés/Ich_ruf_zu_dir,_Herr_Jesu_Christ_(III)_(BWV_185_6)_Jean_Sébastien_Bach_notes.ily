@@ -2,7 +2,7 @@ sopranoMusic = {
 \repeat volta 2 {
   \partial 4 cis''8 [b']
   a'4 b' a'8 [gis'] fis' [gis']
-  a' [b'] b'8. a'32 [b'] cis''4\fermata cis''8 [d'']
+  a' [b'] b'8. [a'32 b'] cis''4\fermata cis''8 [d'']
   e'' [d''] cis'' [b'] a'4 b'8 [cis'']
   d''2 cis''4\fermata }
   e'' fis'' e''8 [d''] cis'' [b']
@@ -40,7 +40,7 @@ tenorMusic = {
   cis' cis' cis'8 [b] a [gis]
   fis4 fis cis'\fermata a
   b cis' d'8 [cis'] d' [e']
-  fis' [e' d'] cis'16 [b] cis'4\fermata }
+  fis' [e'] d' [cis'16 b] cis'4\fermata }
   cis'8 [b] a4 e' e'8 [d']
   cis' [b] a4 b cis'\fermata
   cis'8 [b] a4 a gis
@@ -73,7 +73,7 @@ bassMusic = {
 sopranoLyricsOne = \lyricmode {\set stanza = 1
   Ich ruf zu dir, Herr Je -- su __ Christ,
   ich bitt, er -- hör mein Kla -- gen,
-  den rech -- ten Glau -- ben, Herr, ich mein,
+  den rech -- ten Glau -- ben, Herr, __ ich mein,
   den wol -- lest du mir ge -- ben,
   dir zu le -- ben,
   meinm Näch -- sten nütz zu sein, dein Wort zu hal -- ten e -- _ ben.
@@ -87,7 +87,7 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 altoLyricsOne = \lyricmode {\set stanza = 1
   Ich ruf zu dir, Herr Je -- su Christ,
   ich bitt, er -- hör mein Kla -- gen,
-  den rech -- ten Glau -- ben, Herr, ich mein,
+  den rech -- ten Glau -- ben, Herr, __ ich mein,
   den wol -- lest du mir ge -- ben,
   dir zu le -- _ ben,
   meinm Näch -- sten nütz zu sein, dein Wort zu hal -- ten e -- _ ben.

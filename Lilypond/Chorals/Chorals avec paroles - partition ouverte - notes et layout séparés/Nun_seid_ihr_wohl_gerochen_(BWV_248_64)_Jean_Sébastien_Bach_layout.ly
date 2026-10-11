@@ -1,8 +1,7 @@
 \version "2.27.1"
 
+\include "Nun_seid_ihr_wohl_gerochen_(BWV_248_64)_Jean_Sébastien_Bach_notes.ily"
 
-
-\include "Christ_lag_in_Todesbanden_(V)_(BWV_158_4)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,10 +27,10 @@
 }
 
 \header {
-  title = "Christ lag in Todesbanden (V)"
-  subtitle = "tiré de la cantate : Der Friede sei mit dir"
-  poet = "Auteur : Martin Luther (1483-1546)"
-  opus = "BWV 158/4"
+  title = "Nun seid ihr wohl gerochen"
+  subtitle = "tiré de l'Oratorio de Noël, cantate VI"
+  poet = "Auteur : Paul Gerhardt (1607-1676)"
+  opus = "BWV 248/64"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -42,7 +41,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "S" }
     {
       \clef treble
-      \key g \major
+      \key d \major
       \time 4/4
       \new Voice = "soprano" \sopranoMusic
     }
@@ -51,7 +50,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "A" }
     {
       \clef treble
-      \key g \major
+      \key d \major
       \time 4/4
       \new Voice = "alto" \altoMusic
     }
@@ -60,7 +59,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "T" }
     {
       \clef "treble_8"
-      \key g \major
+      \key d \major
       \time 4/4
       \new Voice = "tenor" \tenorMusic
     }
@@ -69,7 +68,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "B" }
     {
       \clef bass
-      \key g \major
+      \key d \major
       \time 4/4
       \new Voice = "bass" \bassMusic
     }

@@ -2,7 +2,7 @@
 
 \include "Es_woll_uns_Gott_genädig_sein_(II)_(BWV_311)_Jean_Sébastien_Bach_notes.ily"
 
-m\paper {
+\paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
   

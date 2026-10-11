@@ -1,6 +1,6 @@
 sopranoMusic = {
   \tempo \markup{\tiny \italic "Interludes instrumentaux absents"}
-\repeat volta 2 {
+  \repeat volta 2 {
   \once \textLengthOn s1^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } \bar "'"
   r4 b' c'' b'
   a' b'8 [c''] d''4 e''

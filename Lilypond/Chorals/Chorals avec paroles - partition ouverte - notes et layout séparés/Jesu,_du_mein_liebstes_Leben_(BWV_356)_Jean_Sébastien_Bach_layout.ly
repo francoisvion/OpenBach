@@ -1,8 +1,7 @@
-mmm\version "2.27.1"
-
-
+\version "2.27.1"
 
 \include "Jesu,_du_mein_liebstes_Leben_(BWV_356)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

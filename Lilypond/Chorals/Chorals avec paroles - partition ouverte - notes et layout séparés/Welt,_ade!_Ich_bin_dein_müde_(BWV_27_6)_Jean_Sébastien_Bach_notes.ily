@@ -33,7 +33,7 @@ sopranoTwoMusic = {
   f'4. f'8 f'2
   d''4 c'' a' bes'
   a' g' g' fis'
-  g'4 bes'8 bes' bes'2~
+  g'4 bes'8 bes' bes'2
   f'4 bes'2 a'4
   bes'1
   f'4 f' g' a'
@@ -147,7 +147,7 @@ sopranoOneLyrics = \lyricmode {
 sopranoTwoLyrics = \lyricmode {
   Welt, a -- de! ich bin dein mü -- de,
   ich will nach dem Him -- mel zu,
-  da wird sein der rech -- te Frie -- de
+  da wird sein der rech -- te Frie -- _ de
   und die ew' -- ge stol -- ze Ruh.
   Welt, bei dir ist Krieg und Streit,
   nichts, denn lau -- ter Ei -- tel -- keit;

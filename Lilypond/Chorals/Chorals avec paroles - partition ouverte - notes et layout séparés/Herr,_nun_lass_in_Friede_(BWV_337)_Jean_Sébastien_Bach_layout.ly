@@ -2,7 +2,7 @@
 
 \include "Herr,_nun_lass_in_Friede_(BWV_337)_Jean_Sébastien_Bach_notes.ily"
 
-m\paper {
+\paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
   

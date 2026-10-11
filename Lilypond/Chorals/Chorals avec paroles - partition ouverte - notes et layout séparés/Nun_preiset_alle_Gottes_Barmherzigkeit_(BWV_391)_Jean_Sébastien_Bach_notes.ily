@@ -48,7 +48,7 @@ tenorMusic = {
   e'2.\fermata
   d'4 d' e'
   a d'2\fermata
-  d'4 a d'~
+  d'4 a d'
   d'8 [c'] b4 a
   a2.\fermata
   d'4 d' d'
@@ -83,17 +83,37 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Nun prei -- set al -- le Got -- tes Barm -- her -- zig -- keit, lob' ihn mit Schal -- le, du wer -- the Chri -- sten -- heit! Er lässt dich freund -- _ lich zu sich la -- den. freu -- e dich, I -- _ sra -- el, sei -- ner Gna -- den, Gna -- den.
+  Nun prei -- set al -- le
+  Got -- tes Barm -- her -- zig -- keit,
+  lob' ihn mit Schal -- le,
+  du wer -- the Chri -- sten -- heit!
+  Er lässt dich freund -- _ lich zu sich la -- den.
+  freu -- e dich, I -- _ sra -- el, sei -- ner Gna -- den, Gna -- den.
 }
 
 altoLyrics = \lyricmode {
-  Nun prei -- set al -- le Got -- tes Barm -- her -- zig -- keit, lob' ihn mit Schal -- le, du wer -- the Chri -- _ sten -- heit! Er lässt dich freund -- _ lich zu _ sich la -- _ den. freu -- e dich, I -- _ sra -- el, sei -- ner Gna -- _ den,
+  Nun prei -- set al -- le
+  Got -- tes Barm -- her -- zig -- keit,
+  lob' ihn mit Schal -- le,
+  du wer -- the Chri -- _ sten -- heit!
+  Er lässt dich freund -- _ lich zu _ sich la -- _ den.
+  freu -- e dich, I -- _ sra -- el, sei -- ner Gna -- _ den,
 }
 
 tenorLyrics = \lyricmode {
-  Nun prei -- set al -- le Got -- tes Barm -- her -- zig -- keit, lob' ihn mit Schal -- le, du wer -- the Chri -- _ sten -- heit! Er lässt dich freund -- _ lich zu _ sich la -- _ den. freu -- e dich, I -- _ sra -- el, sei -- ner Gna -- den,
+  Nun prei -- set al -- le
+  Got -- tes Barm -- her -- zig -- keit,
+  lob' ihn mit Schal -- le,
+  du wer -- the Chri -- _ sten -- heit!
+  Er lässt dich freund -- _ lich zu _ sich la -- _ den.
+  freu -- e dich, I -- sra -- el, sei -- ner Gna -- _ den,
 }
 
 bassLyrics = \lyricmode {
-  Nun prei -- set al -- le Got -- tes Barm -- her -- _ zig -- keit, lob' ihn mit Schal -- le, du wer -- the Chri -- _ sten -- heit! Er lässt dich freund -- _ lich zu sich la -- _ den. freu -- e dich, I -- _ sra -- el, sei -- ner Gna -- _ den,
+  Nun prei -- set al -- le
+  Got -- tes Barm -- her -- _ zig -- keit,
+  lob' ihn mit Schal -- le,
+  du wer -- the Chri -- _ sten -- heit!
+  Er lässt dich freund -- _ lich zu sich la -- _ den.
+  freu -- e dich, I -- _ sra -- el, sei -- ner Gna -- _ den,
 }

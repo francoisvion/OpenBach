@@ -281,10 +281,10 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
    Täg -- lich, Herr Gott, wir lo -- ben dich
    und ehr'n dein'n Na -- men ste -- tig -- lich.
    Be -- hüt' uns heut', o treu -- er Gott,
-   vor al -- ler Sünd und Mis -- se -- that,
+   vor al -- ler Sünd und Mis -- se -- tat,
    Auf dich hof -- fen wir, lie -- ber Herr,
    in Scha -- den lass uns nim -- mer -- mehr.
-   A -- _ _ _ men!
+   A -- _ _ _ men! __
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
@@ -298,7 +298,7 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
    "zu er" -- lö -- sen das mensch -- lich' Ge -- schlecht,
    \repeat unfold 64 { \skip1 }
    sei gnä -- dig uns, o Her -- re Gott,
-   sei gnä -- dig uns in al -- ler Noth!
+   sei gnä -- dig uns in al -- ler Not!
 }
 
 sopranoLyricsThree = \lyricmode {\set stanza = 3
@@ -337,7 +337,7 @@ altoLyricsOne = \lyricmode {
    Täg -- lich, Herr Gott, wir lo -- ben dich
    und ehr'n dein'n Na -- men ste -- tig -- lich.
    Be -- hüt' uns heut', o treu -- er Gott,
-   vor al -- ler Sünd und Mis -- se -- that,
+   vor al -- ler Sünd und Mis -- se -- tat,
    Auf dich hof -- fen wir, lie -- ber Herr,
    in Scha -- den lass uns nim -- mer -- mehr.
    A -- _ _ _ _ _ _ _ _ men!
@@ -355,7 +355,7 @@ altoLyricsTwo = \lyricmode {
    "zu er" -- lö -- sen das mensch -- lich' Ge -- schlecht,
    \repeat unfold 65 { \skip1 }
    sei gnä -- dig uns, o Her -- re Gott,
-   sei gnä -- dig uns in al -- ler Noth! _
+   sei gnä -- dig uns in al -- ler Not!
     }
 
 altoLyricsThree = \lyricmode {\set stanza = 3
@@ -394,7 +394,7 @@ tenorLyricsOne = \lyricmode {
    Täg -- lich, Herr Gott, wir lo -- ben dich
    und ehr'n dein'n Na -- men ste -- tig -- _ lich.
    Be -- hüt' uns heut', o treu -- er Gott,
-   vor al -- ler Sünd und Mis -- se -- that,
+   vor al -- ler Sünd und Mis -- se -- tat,
    Auf dich hof -- fen wir, lie -- ber Herr,
    in Scha -- den lass uns nim -- mer -- mehr.
    A -- _ _ _ _ _ _ _ men!
@@ -412,7 +412,7 @@ tenorLyricsTwo = \lyricmode {
    "zu er" -- lö -- sen das mensch -- lich' Ge -- schlecht,
    \repeat unfold 65 { \skip1 }
    sei gnä -- dig uns, o Her -- re Gott,
-   sei gnä -- dig uns in al -- ler Noth!
+   sei gnä -- dig uns in al -- ler Not!
     }
 
 tenorLyricsThree = \lyricmode {\set stanza = 3
@@ -451,7 +451,7 @@ bassLyricsOne = \lyricmode {
   Täg -- lich, Herr Gott, wir lo -- ben dich
   und ehr'n dein'n Na -- men ste -- tig -- lich.
   Be -- hüt' uns heut', o treu -- er Gott,
-  vor al -- ler Sünd und Mis -- se -- that,
+  vor al -- ler Sünd und Mis -- se -- tat,
   Auf dich hof -- fen wir, lie -- ber Herr,
   in Scha -- den lass uns nim -- mer -- mehr.
   A -- _ _ _ _ _ _ _ men!
@@ -466,10 +466,10 @@ bassLyricsTwo = \lyricmode {
   Der hei -- li -- gen zwölf Bo ten Zahl,
   und die lie -- ben Pro -- phe ten all',
   Der Jung -- frau Leib nicht hast ver -- schmäht,
-  "zu er" -- lö -- sen das mensch -- lich' Ge -- schlecht,
-  \repeat unfold 64 { \skip1 }
+  zu er -- lö -- sen das mensch -- lich' Ge -- schlecht,
+  \repeat unfold 63 { \skip1 }
   sei gnä -- dig uns, o Her -- re Gott,
-  sei gnä -- dig uns in al -- ler Noth!
+  sei gnä -- dig uns in al -- ler Not!
     }
 
 bassLyricsThree = \lyricmode {\set stanza = 3

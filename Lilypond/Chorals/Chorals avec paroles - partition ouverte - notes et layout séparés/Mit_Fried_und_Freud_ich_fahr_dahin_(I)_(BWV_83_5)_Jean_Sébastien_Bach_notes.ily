@@ -63,17 +63,33 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Er ist das Heil und se -- lig Licht für __ _ die Hei -- _ den, "zu er" -- leuch -- ten, die dich ken -- _ _ nen nicht, und zu wei -- _ den. es ist deins Volks I -- sra -- el der Preis, Ehr, Freud und Won -- _ ne.
+  Er ist das Heil und se -- lig Licht
+  für __ _ die Hei -- _ den,
+  "zu er" -- leuch -- ten, die dich ken -- _ _ nen nicht,
+  und zu wei -- _ den.
+  Er ist deins Volks I -- sra -- el der Preis, Ehr, Freud und Won -- _ ne.
 }
 
 altoLyrics = \lyricmode {
-  Er ist das Heil und se -- lig Licht für __ _ die Hei -- _ den, "zu er" -- leuch -- ten, die dich ken -- _ _ nen nicht, und zu wei -- _ den. es ist deins Volks I -- sra el der Preis, Ehr, Freud und Won ne.
+  Er ist das Heil und se -- lig Licht
+  für __ _ die Hei -- _ den,
+  "zu er" -- leuch -- ten, die dich ken -- _ _ nen nicht,
+  und zu wei -- _ den.
+  Er ist deins Volks I -- sra el der Preis, Ehr, Freud und Won -- _ ne.
 }
 
 tenorLyrics = \lyricmode {
-  Er ist das Heil und se -- lig Licht für __ _ die Hei -- _ _ den, "zu er" -- leuch -- ten, die dich ken -- _ _ nen nicht, und zu wei -- _ den. es ist deins Volks I -- sra el der Preis, Ehr, Freud und Won ne.
+  Er ist das Heil und se -- lig Licht
+  für __ _ die Hei -- _ _ den,
+  "zu er" -- leuch -- ten, die dich ken -- _ _ nen nicht,
+  und zu wei -- _ den.
+  Er ist deins Volks I -- sra el der Preis, Ehr, Freud und Won -- _ ne.
 }
 
 bassLyrics = \lyricmode {
-  Er ist das Heil und se -- lig Licht für __ _ die Hei den, "zu er" -- leuch -- ten, die dich ken -- _ _ nen nicht, und zu wei -- _ den. es ist deins Volks I -- sra el der Preis, Ehr, Freud und Won ne.
+  Er ist das Heil und se -- lig Licht
+  für __ _ die Hei den,
+  "zu er" -- leuch -- ten, die dich ken -- _ _ nen nicht,
+  und zu wei -- _ den.
+  Er ist deins Volks I -- sra el der Preis, Ehr, Freud und Won -- _ ne.
 }

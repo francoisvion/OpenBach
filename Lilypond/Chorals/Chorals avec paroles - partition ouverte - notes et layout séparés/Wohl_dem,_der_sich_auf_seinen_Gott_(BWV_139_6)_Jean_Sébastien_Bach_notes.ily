@@ -54,7 +54,7 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
   Da -- he -- ro Trotz der Höl -- len Heer!
   Trotz auch des To -- des Ra -- chen!
   Gott ist mein Schutz, mein Hilf und Rat;
-  Wohl dem, der Gott zum Freun -- de hat!
+  wohl dem, der Gott zum Freun -- de hat!
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
@@ -66,7 +66,7 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   Da -- he -- ro Trotz der Höl -- len Heer!
   Trotz auch des To -- des Ra -- _ chen!
   Gott ist mein Schutz, mein Hilf und Rat;
-  Wohl dem, der Gott zum Freun -- de hat!
+  wohl dem, der Gott zum Freun -- de hat!
 }
 
 altoLyricsTwo = \lyricmode {\set stanza = 2
@@ -78,7 +78,7 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   Da -- he -- ro Trotz der Höl -- len Heer!
   Trotz auch des To -- des Ra -- _ chen!
   Gott ist mein Schutz, mein Hilf und Rat;
-  Wohl dem, der Gott zum Freun -- de hat!
+  wohl dem, der Gott zum Freun -- de hat!
 }
 
 tenorLyricsTwo = \lyricmode {\set stanza = 2
@@ -90,7 +90,7 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   Da -- he -- ro Trotz der Höl -- len Heer!
   Trotz auch des To -- des Ra -- _ chen!
   Gott ist mein Schutz, mein Hilf und Rat;
-  Wohl dem, der Gott zum Freun -- de hat!
+  wohl dem, der Gott zum Freun -- de hat!
 }
 
 bassLyricsTwo = \lyricmode {\set stanza = 2

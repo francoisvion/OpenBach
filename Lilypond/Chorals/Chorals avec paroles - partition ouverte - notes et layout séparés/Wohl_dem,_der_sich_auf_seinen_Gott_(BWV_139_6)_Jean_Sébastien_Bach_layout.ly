@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Wohl_dem,_der_sich_auf_seinen_Gott_(BWV_139_6)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

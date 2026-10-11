@@ -7,7 +7,7 @@ sopranoOneMusic = {
   e''8 [fis''] g''4 fis''4. e''8
   e''1\fermata }
   b'4 b' c'' b'
-  r8 g' [g'] fis' g'2\fermata
+  r8 g' g' fis' g'2\fermata
   b'4 cis'' d'' b'
   e'' d''8 [cis''] cis''2
   b'\fermata b'8 [a'] b'4
@@ -87,7 +87,7 @@ sopranoOneLyricsOne = \lyricmode {\set stanza = 1
   Un -- ter dei -- nen Schir -- men
   bin ich für den Stür -- men
   al -- ler Fein -- de frei.
-  Ob es jetzt gleich kracht und blitzt,
+  Ob es jetzt gleich kracht __ _ und blitzt,
   ob gleich Sünd und Höl -- le schre -- cken;
   Je -- sus will mich de -- cken.
 }
@@ -132,7 +132,7 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   Un -- ter dei -- nen Schir -- men
   bin ich für den Stür -- _ men
   al -- ler Fein -- de frei.
-  Ob __ es jetzt gleich kracht und kracht und blitzt,
+  Ob __ _ es jetzt gleich kracht, blitzt, kracht und blitzt,
   ob gleich Sünd und Höl -- le schre -- cken;
   Je -- sus will mich de -- cken.
 }

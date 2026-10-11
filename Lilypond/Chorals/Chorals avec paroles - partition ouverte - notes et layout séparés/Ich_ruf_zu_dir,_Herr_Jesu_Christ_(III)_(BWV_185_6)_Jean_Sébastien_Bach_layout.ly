@@ -1,8 +1,7 @@
 \version "2.27.1"
 
+\include "Ich_ruf_zu_dir,_Herr_Jesu_Christ_(III)_(BWV_185_6)_Jean_Sébastien_Bach_notes.ily"
 
-
-\include "Ich_will_hier_bei_dir_stehen_(BWV_244_17)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,10 +27,10 @@
 }
 
 \header {
-  title = "Ich will hier bei dir stehen"
-  subtitle = "tiré de la Passion selon Saint Matthieu"
-  poet = "Auteur : Paul Gerhardt (1607-1676)"
-  opus = "BWV 244/17"
+  title = \markup{\concat{"Ich ruf zu dir, Herr Jesu Christ (III)" \small " (v. 6)"}}
+  subtitle = "tiré de la cantate : Barmherziges Herze der ewigen Liebe"
+  poet = "Auteur : Johann Agricola (1492-1566)"
+  opus = "BWV 185/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -42,7 +41,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "S" }
     {
       \clef treble
-      \key ees \major
+      \key a \major
       \time 4/4
       \new Voice = "soprano" \sopranoMusic
     }
@@ -51,7 +50,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "A" }
     {
       \clef treble
-      \key ees \major
+      \key a \major
       \time 4/4
       \new Voice = "alto" \altoMusic
     }
@@ -60,7 +59,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "T" }
     {
       \clef "treble_8"
-      \key ees \major
+      \key a \major
       \time 4/4
       \new Voice = "tenor" \tenorMusic
     }
@@ -69,7 +68,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "B" }
     {
       \clef bass
-      \key ees \major
+      \key a \major
       \time 4/4
       \new Voice = "bass" \bassMusic
     }

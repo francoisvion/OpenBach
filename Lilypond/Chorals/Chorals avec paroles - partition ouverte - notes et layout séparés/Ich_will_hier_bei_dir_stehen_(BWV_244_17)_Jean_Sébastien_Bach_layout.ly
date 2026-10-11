@@ -2,7 +2,7 @@
 
 
 
-\include "Nun_seid_ihr_wohl_gerochen_(BWV_248_64)_Jean_Sébastien_Bach_notes.ily"
+\include "Ich_will_hier_bei_dir_stehen_(BWV_244_17)_Jean_Sébastien_Bach_notes.ily"
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -28,10 +28,10 @@
 }
 
 \header {
-  title = "Nun seid ihr wohl gerochen"
-  subtitle = "tiré de l'Oratorio de Noël, cantate VI"
+  title = "Ich will hier bei dir stehen"
+  subtitle = "tiré de la Passion selon saint Matthieu"
   poet = "Auteur : Paul Gerhardt (1607-1676)"
-  opus = "BWV 248/64"
+  opus = "BWV 244/17"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
@@ -42,7 +42,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "S" }
     {
       \clef treble
-      \key d \major
+      \key ees \major
       \time 4/4
       \new Voice = "soprano" \sopranoMusic
     }
@@ -51,7 +51,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "A" }
     {
       \clef treble
-      \key d \major
+      \key ees \major
       \time 4/4
       \new Voice = "alto" \altoMusic
     }
@@ -60,7 +60,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "T" }
     {
       \clef "treble_8"
-      \key d \major
+      \key ees \major
       \time 4/4
       \new Voice = "tenor" \tenorMusic
     }
@@ -69,7 +69,7 @@
     \new Staff \with { \autoBeamOff instrumentName = "B" }
     {
       \clef bass
-      \key d \major
+      \key ees \major
       \time 4/4
       \new Voice = "bass" \bassMusic
     }
