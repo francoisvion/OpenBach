@@ -45,7 +45,7 @@ tenorMusic = {
   e' d'8 [cis'] cis' [b] a [gis]
   fis [a] d'4 e'\fermata e'
   d'8 [g'] fis' [e'] d'4 cis'~
-  cis'8 fis b2 ais4
+  cis'8 fis b4 b ais
   fis2.\fermata \fine
 }
 
@@ -66,15 +66,17 @@ bassMusic = {
   b,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Stärk mich mit dei -- nem Freu -- den -- geist,
-                             heil mich mit dei -- nen Wun -- den,
-                             und nimm mich einst, wenn dirs ge -- fällt,
-                             in wah -- rem Glau -- ben von der Welt
-                             zu dei -- nen Aus -- er -- wähl -- _ _ ten.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Stärk mich mit dei -- nem Freu -- den -- geist,
+   heil mich mit dei -- nen Wun -- den,
+   und nimm mich einst, wenn dirs ge -- fällt,
+   in wah -- rem Glau -- ben von der Welt
+   zu dei -- nen Aus -- er -- wähl -- _ _ ten.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             wasch mich mit dei -- nem To -- des -- schweiß
-                             min mei -- ner letz -- ten Stun -- den;
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   wasch mich mit dei -- nem To -- des -- schweiß
+   in mei -- ner letz -- ten Stun -- den;
 }

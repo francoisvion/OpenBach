@@ -1,7 +1,7 @@
 sopranoMusic = {
   \voiceOne
   \repeat volta 2 {
-    b'4
+    \partial 4 b'4
     b' ais' b' cis''
     d'' cis'' b'\fermata b'
     cis'' cis'' fis'' e''
@@ -18,7 +18,7 @@ sopranoMusic = {
 altoMusic = {
   \voiceTwo
   \repeat volta 2 {
-    fis'4
+    \partial 4 fis'4
     e' fis' fis' gis'8 [ais']
     b'4 ais' fis'\fermata fis'8 [gis']
     a'4 a'8 [g'] fis'4 gis'8 [ais']
@@ -35,7 +35,7 @@ altoMusic = {
 tenorMusic = {
   \voiceOne
   \repeat volta 2 {
-    d'4
+    \partial 4 d'4
     cis'8 [b] cis'4 d' e'
     fis'4. e'8 d'4\fermata d'
     e' a d'8 [cis'] b [cis']
@@ -52,7 +52,7 @@ tenorMusic = {
 bassMusic = {
   \voiceTwo
   \repeat volta 2 {
-    b8 [a]
+    \partial 4 b8 [a]
     g4 fis8 [e] d4 cis
     b, fis, b,\fermata b
     a8 [g] fis [e] d4. cis8
@@ -66,16 +66,17 @@ bassMusic = {
   b,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Stärk mich mit dei -- nem Freu -- den -- geist,
-                             heil mich mit dei -- nen Wun -- den;
-                             und nimm mich einst, wenn dirs ge -- fällt,
-                             in wah -- ren Glau -- ben von der Welt
-                             zu dei -- nen Aus -- _ _ ser -- wähl -- ten! _ _
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Stärk mich mit dei -- nem Freu -- den -- geist,
+   heil mich mit dei -- nen Wun -- den;
+   und nimm mich einst, wenn dirs ge -- fällt,
+   in wah -- ren Glau -- ben von der Welt
+   zu dei -- nen Aus -- _ _ ser -- wähl -- ten!
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             wasch mich mit dei -- nem To -- des -- schweiss
-                             in mei -- ner letz -- ten Stun -- den; 
-      
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   wasch mich mit dei -- nem To -- des -- schweiss
+   in mei -- ner letz -- ten Stun -- den;
 }

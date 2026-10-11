@@ -36,7 +36,7 @@ altoMusic = {
   cis'4 d' e' fis'8 [gis']
   a'2 e'4\fermata b'
   a'8 [gis'] fis'4 e' fis'8 [gis']
-  a'2 a'4 gis'
+  a'2. gis'4
   e'2.\fermata \fine
 }
 
@@ -82,16 +82,18 @@ bassMusic = {
   a,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Ich dank' dir, lie -- ber Her -- _ re,
-                             dass du mich hast__ _ _ be -- wahrt
-                             mit Fins -- ter -- nis um -- fan -- _ gen,
-                             da -- zu in gro -- ßer Not,
-                             da -- raus ich bin ent -- gan -- _ gen,
-                             halfst du mir, Her -- _ _ _ _ re Gott.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Ich dank' dir, lie -- ber Her -- _ re,
+   dass du mich hast __ _ _ be -- wahrt
+   mit Fins -- ter -- nis um -- fan -- _ gen,
+   da -- zu in gro -- ßer Not,
+   da -- raus ich bin ent -- gan -- _ gen,
+   halfst du mir, Her -- _ _ _ _ re Gott.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             in die -- ser Nacht Ge -- fäh -- _ re,
-                             da -- rin ich lag__ _ _ so hart
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   in die -- ser Nacht Ge -- fäh -- _ re,
+   da -- rin ich lag __ _ _ so hart
 }

@@ -66,15 +66,17 @@ bassMusic = {
   g,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Herr Je -- su Christ, ei -- ni -- ger Trost, 
-                             zu dir will ich mich wen -- den;
-                             In dei -- nen Wil -- len seis ge -- stellt,
-                             machs, lie -- ber Gott, wie dirs ge -- fällt:
-                             dein bin und will ich blei -- _ _ ben.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Herr Je -- su Christ, ei -- ni -- ger Trost,
+   zu dir will ich mich wen -- den;
+   In dei -- nen Wil -- len seis ge -- stellt,
+   machs, lie -- ber Gott, wie dirs ge -- fällt:
+   dein bin und will ich blei -- _ _ ben.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             mein Herz -- leid ist dir wohl be -- wusst,
-                             du kannst und wirst es en -- den.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   mein Herz -- leid ist dir wohl be -- wusst,
+   du kannst und wirst es en -- den.
 }

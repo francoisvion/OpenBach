@@ -79,7 +79,5 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Ich dank' dir schon durch dei -- nen Sohn,
-  o Gott, für dei -- ne Gü -- te,
-  dass du mich heut in die -- _ ser Nacht so gnä -- dig hast be -- hü -- _ tet.
+  Ich dank' dir schon durch dei -- nen Sohn, o Gott, für dei -- ne Gü -- te, dass du mich heut in die -- _ ser Nacht so gnä -- dig hast be -- hü -- _ tet.
 }

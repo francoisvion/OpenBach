@@ -33,7 +33,7 @@ altoMusic = {
     fis'4 eis' fis'\fermata fis'8 [e']
     d' [b'] a' [g'] fis' [g'] a' [b']
     e' [fis'] g'4 fis'\fermata } a'
-  a'8 g'4 fis'8 fis'4 e'
+  a'8 [g'] g' [fis'] fis'4 e'
   e' e' e'\fermata e'
   fis' g' fis' e'
   d'8 [e'] fis'4 fis'\fermata fis'
@@ -80,7 +80,7 @@ bassMusic = {
     a, b, cis d
     g,8 [a,] b, [cis] d4\fermata b,
     fis g a b8 [a]
-    gis4 cis fis\fermata r
+    gis4 cis fis\fermata d
     g a b a8 [g]
     a4 a, d\fermata } d'8 [cis']
   b4 ais b8 [a] gis [fis]
@@ -98,21 +98,23 @@ bassMusic = {
   a a, d\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Herz -- lich lieb hab' ich dich, o Herr,
-                             ich bitt': woll'st sein von mir nicht fern
-                             mit dei -- ner Hilf' und Gna -- _ den.
-                             Und wenn mir gleich mein Herz zer -- bricht,
-                             so bist du doch mein Zu -- ver -- sicht,
-                             mein Heil und mei -- nes Her -- zens Trost,
-                             der mich durch sein Blut hat er -- löst.
-                             Herr Je -- su Christ,
-                             mein Gott und Herr, mein Gott und Herr,
-                             in Schan -- den lass mich nim -- mer -- mehr!
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Herz -- lich lieb hab' ich dich, o Herr,
+   ich bitt': woll'st sein von mir nicht fern
+   mit dei -- ner Hilf' und Gna -- _ den.
+   Und wenn mir gleich mein Herz zer -- bricht,
+   so bist du doch mein Zu -- ver -- sicht,
+   mein Heil und mei -- nes Her -- zens Trost,
+   der mich durch sein Blut hat er -- löst.
+   Herr Je -- su Christ,
+   mein Gott und Herr, mein Gott und Herr,
+   in Schan -- den lass mich nim -- mer -- mehr!
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             Die gan -- ze Welt er -- freut mich nicht,
-                             nach Himm'l und Er -- de frag' ich nicht,
-                             wenn ich dich nur kann ha -- _ ben.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   Die gan -- ze Welt er -- freut mich nicht,
+   nach Himm'l und Er -- den frag' ich nicht,
+   wenn ich dich nur kann ha -- _ ben.
 }

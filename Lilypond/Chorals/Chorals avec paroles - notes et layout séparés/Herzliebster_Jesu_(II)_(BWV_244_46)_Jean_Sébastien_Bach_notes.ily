@@ -63,8 +63,5 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Wie wun -- der -- bar -- lich ist doch die -- se Stra -- _ fe!
-  Der gu -- te Hir -- te lei -- det für die Scha -- fe,
-  die Schuld be -- zahlt der Her -- re, der Ge -- rech -- te,
-  für sei -- ne Knech -- te. _
+  Wie wun -- der -- bar -- lich ist doch die -- se Stra -- _ fe! Der gu -- te Hir -- te lei -- det für die Scha -- fe, die Schuld be -- zahlt der Her -- re, der Ge -- rech -- te, für sei -- ne Knech -- te.
 }

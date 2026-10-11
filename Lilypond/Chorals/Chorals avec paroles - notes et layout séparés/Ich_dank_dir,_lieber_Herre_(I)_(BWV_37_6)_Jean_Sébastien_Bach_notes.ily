@@ -38,7 +38,7 @@ altoMusic = {
   cis' e' e' fis'
   e' fis' gis'\fermata fis'
   e' e'8 [fis'] gis'4 a'
-  e'2~ e'8 d' d' [cis']
+  e'2~ e'8 [d'] d' [cis']
   cis'2.\fermata \fine
 }
 
@@ -93,11 +93,17 @@ sopranoLyrics = \lyricmode {
   all -- hier zu die -- _ _ ser Frist.
   Du wirst mir nicht ver -- sa -- _ gen,
   was du ver -- hei -- ßen hast,
-  dass er mein Sünd tu tra -- _ {\markup \concat{"      gen"   \hspace #1  \tiny "(SAB :)"}}
-  und lös mich von __ _ _ _ _ der Last.
+  dass er mein Sünd tu tra -- _ gen
+  und lös mich von __ _ _ _ der Last.
 }
 
 tenorLyrics = \lyricmode {
-  \repeat unfold 53 {\skip1 } {\markup \concat{"                "   \hspace #1  \tiny "(T :)"}}
+  Den Glau -- ben mir ver -- lei -- _ he
+  an dein' Sohn Je -- _ _ sum Christ,
+  mein Sünd mir auch ver -- zei -- _ he
+  all -- hier zu die -- _ _ ser Frist.
+  Du wirst mir nicht ver -- sa -- _ gen,
+  was du ver -- hei -- ßen hast,
+  dass er mein Sünd tu tra -- _ gen
   und lös __ _ _ mich von der Last.
 }

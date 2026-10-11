@@ -10,7 +10,7 @@ sopranoMusic = {
     d''2 c''4\fermata c''
     b' a' g'8 [fis'] e' [fis']
     g'4 g' a' g'
-    f'2 e'4\fermata e''
+    f'!2 e'4\fermata e''
     d'' c''8 [b'] b'2
     a'2.\fermata }
 }
@@ -66,16 +66,18 @@ bassMusic = {
     a,2.\fermata }
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             \tweak X-offset #-4 "8. Ach," gro -- ßer Kö -- nig, groß zu al -- len Zei -- _ ten,
-                             wie kann ich gnug -- sam die -- se Treu aus -- brei -- ten? 
-                             Keins Men -- schen Her -- ze mag in -- des aus -- den -- ken,
-                             was dir zu schen -- ken.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   \tweak X-offset #-3 "8. Ach," gro -- ßer Kö -- nig, groß zu al -- len Zei -- _ ten,
+   wie kann ich gnug -- sam die -- se Treu aus -- brei -- ten? 
+   Keins Men -- schen Her -- ze mag in -- des aus -- den -- ken,
+   was dir zu schen -- ken.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             \tweak X-offset #-4 "9. Ich" kann's mit mei -- nen Sin -- nen nicht er -- rei -- _ chen,
-                             wo -- mit doch dein Er -- bar -- men zu ver -- glei -- chen.
-                             Wie kann ich dir denn dei -- ne Lie -- bes -- ta -- ten
-                             im Werk er -- stat -- ten? _
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   \tweak X-offset #-3 "9. Ich" kann's mit mei -- nen Sin -- nen nicht er -- rei -- _ chen,
+   wo -- mit doch dein Er -- bar -- men zu ver -- glei -- chen.
+   Wie kann ich dir denn dei -- ne Lie -- bes -- ta -- ten
+   im Werk er -- stat -- ten?
 }
