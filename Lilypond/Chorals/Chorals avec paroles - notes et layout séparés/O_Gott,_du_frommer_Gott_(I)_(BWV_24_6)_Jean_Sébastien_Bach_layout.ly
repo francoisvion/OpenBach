@@ -53,7 +53,6 @@
     
     \new Lyrics \lyricsto "soprano" \versoOneLyrics
     
-    \new Lyrics \lyricsto "soprano" \versoTwoLyrics
     
     \new Lyrics \lyricsto "alto" \altoVersoTwoLyrics
     
