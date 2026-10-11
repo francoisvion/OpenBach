@@ -73,7 +73,7 @@ bassMusic = {
   c d g,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Brich an, o schö -- nes Mor -- gen -- licht,
    und lass dem Him -- mel ta -- gen!
@@ -83,7 +83,7 @@ versoOneLyrics = \lyricmode {
    und letzt -- lich Frie -- de brin -- gen!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Du Hir -- ten -- volk, er -- schre -- cke nicht,
    weil dir die En -- gel sa -- gen,

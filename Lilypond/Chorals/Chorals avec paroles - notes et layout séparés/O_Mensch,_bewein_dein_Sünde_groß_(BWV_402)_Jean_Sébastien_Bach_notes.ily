@@ -94,7 +94,7 @@ bassMusic = {
   aes,4 bes, ees,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    O Mensch, be -- wein' dein' Sün -- de groß,
    da -- rum Chris -- tus sein's Va -- ters Schoß
@@ -107,7 +107,7 @@ versoOneLyrics = \lyricmode {
    wohl an dem Kreu -- ze lan -- ge.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Von ei -- ner Jung -- frau zart und rein
    für uns er hier ge -- bo -- ren ward,

@@ -58,7 +58,7 @@ bassMusic = {
   c [a,] d4 g,2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Drum so lasst uns im -- mer -- dar
    wa -- chen, fle -- hen, be -- ten,
@@ -68,7 +68,7 @@ versoOneLyrics = \lyricmode {
    und die Welt ver -- nich -- ten.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    weil die Angst, Not und Ge -- fahr
    im -- mer nä -- her tre -- ten;

@@ -50,7 +50,7 @@ bassMusic = {
   e4 e, a, a,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Zwar ist sol -- che Her -- zens -- stu -- be
    wohl kein schö -- ner Für -- sten -- saal,
@@ -58,7 +58,7 @@ versoOneLyrics = \lyricmode {
    wird sie vol -- ler Son -- nen dün -- ken.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    son -- dern ei -- ne fin -- stre Gru -- be;
    doch, so -- bald dein Gna -- den -- strahl

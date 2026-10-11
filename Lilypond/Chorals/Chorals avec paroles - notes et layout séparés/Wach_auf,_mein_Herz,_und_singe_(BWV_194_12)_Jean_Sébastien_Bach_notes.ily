@@ -86,7 +86,7 @@ bassMusic = {
     bes,2.\fermata }
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    \tweak X-offset #-5 "9. Sprich" Ja zu mei -- _ nen Ta -- ten,
    hilf selbst das Bes -- _ te ra -- ten;
@@ -94,7 +94,7 @@ versoOneLyrics = \lyricmode {
    ach, Herr, zum be -- _ sten __ wen -- _ de!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    \tweak X-offset #-5 "10. Mit" Se -- gen mich __ _ be -- schüt -- te,
    mein Herz sei dei -- _ ne Hüt -- te,

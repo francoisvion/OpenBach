@@ -62,7 +62,7 @@ bassMusic = {
   g4 c f,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Ob sichs an -- ließ, als wollt er nicht,
    lass dich es nicht er -- schre -- _ cken,
@@ -71,7 +71,7 @@ versoOneLyrics = \lyricmode {
    so lass doch dir nicht grau -- _ en.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    denn wo er ist am be -- sten mit,
    da will ers nicht ent -- de -- _ cken.

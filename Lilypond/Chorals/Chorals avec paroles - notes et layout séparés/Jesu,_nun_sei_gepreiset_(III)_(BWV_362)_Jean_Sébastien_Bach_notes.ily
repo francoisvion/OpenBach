@@ -146,7 +146,7 @@ bassMusic = {
   bes,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Je -- su, nun sei ge -- prei -- _ set
    zu die -- sem neu -- en Jahr,
@@ -160,7 +160,7 @@ versoOneLyrics = \lyricmode {
    be -- hüt' uns Leib und Le -- ben, hin -- fort das gan -- _ ze Jahr!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Dass wir ha -- ben er -- le -- _ bet
    die neu fröh -- li -- che Zeit,

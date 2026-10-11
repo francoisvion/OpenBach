@@ -78,7 +78,7 @@ bassMusic = {
   f,1\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Je -- su, wah -- res Brot des Le -- bens,
    hilf, dass ich doch nicht ver -- ge -- bens
@@ -88,7 +88,7 @@ versoOneLyrics = \lyricmode {
    mög ein Gast im Him -- mel wer -- den.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    o -- der mir viel -- leicht zum Scha -- den
    sei zu dei -- nem Tisch ge -- la -- den.

@@ -70,7 +70,7 @@ bassMusic = {
   d,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Er -- ken -- ne mich, mein Hü -- ter,
    mein Hir -- te, nimm mich an!
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    mit man -- cher Him -- mels -- lust.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Von dir, Quell al -- ler Gü -- ter,
    ist mir viel Gut's ge -- tan.

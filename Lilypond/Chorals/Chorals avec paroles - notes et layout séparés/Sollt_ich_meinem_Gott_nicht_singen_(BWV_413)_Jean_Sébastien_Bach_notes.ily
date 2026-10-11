@@ -146,7 +146,7 @@ bassMusic = {
   d2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Sollt' _ ich mei -- nem Gott __ _ nicht sin -- gen?
    sollt' ich ihm nicht dank -- bar sein?
@@ -158,7 +158,7 @@ versoOneLyrics = \lyricmode {
    Got -- tes Lieb __ _ in E -- _ wig -- keit.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Denn _ ich seh' in al -- _ len Din -- gen,
    wie so gut er's mit mir meint.

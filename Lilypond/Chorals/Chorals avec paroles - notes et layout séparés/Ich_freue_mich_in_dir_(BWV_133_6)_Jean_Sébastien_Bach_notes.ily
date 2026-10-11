@@ -71,7 +71,7 @@ bassMusic = {
   d2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Wohl -- an! so will ich mich
    an dich, o Je -- su hal -- ten,
@@ -81,7 +81,7 @@ versoOneLyrics = \lyricmode {
    mein Je -- su, schlaf ich ein.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    und soll -- te gleich die Welt
    in tau -- send Stü -- cken spal -- ten.

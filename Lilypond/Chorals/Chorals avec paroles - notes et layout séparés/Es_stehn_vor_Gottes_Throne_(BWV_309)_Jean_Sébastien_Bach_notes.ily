@@ -74,7 +74,7 @@ bassMusic = {
   g8 [c] d4 g,\fermata \fine
 }
 
-sopranoLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
   Es stehn vor Got -- tes Thro -- ne,
   es stehn vor Got -- tes Thro -- ne

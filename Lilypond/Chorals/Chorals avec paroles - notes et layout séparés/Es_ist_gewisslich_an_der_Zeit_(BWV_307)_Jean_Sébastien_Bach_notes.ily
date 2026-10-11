@@ -62,7 +62,7 @@ bassMusic = {
   ees f bes,\fermata \fine
 }
 
-sopranoLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
   Es ist ge -- wiss -- lich an der Zeit,
   dass Got -- tes Sohn wird kom -- men
   Dann wird das La -- chen wer -- den teu'r,

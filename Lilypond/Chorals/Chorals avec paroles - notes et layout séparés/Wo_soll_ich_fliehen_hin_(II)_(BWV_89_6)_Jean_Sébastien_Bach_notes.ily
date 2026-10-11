@@ -74,7 +74,7 @@ bassMusic = {
   c4 d g,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyrics = \lyricmode {
   Mir man -- gelt zwar sehr viel,
   doch, was ich ha -- ben will,
   ist al -- les mir zu gu -- te,

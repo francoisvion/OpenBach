@@ -78,7 +78,7 @@ bassMusic = {
   bes, [g,] c4 f,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Von Gott kommt mir ein Freu -- den -- schein,
    wenn du mit dei -- nen Äu -- ge -- lein
@@ -89,7 +89,7 @@ versoOneLyrics = \lyricmode {
    auf dein Wort komm' ich ge -- la -- den.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    O Herr Je -- su, mein trau -- tes Gut,
    dein Wort, dein Geist, dein Leib und Blut

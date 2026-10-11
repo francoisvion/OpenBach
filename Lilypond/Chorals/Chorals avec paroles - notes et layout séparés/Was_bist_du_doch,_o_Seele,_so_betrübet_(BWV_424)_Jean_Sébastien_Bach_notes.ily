@@ -58,7 +58,7 @@ bassMusic = {
   a,2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Was bist du doch, o See -- le so be -- trü -- bet,
    Was grämst du dich,
@@ -66,7 +66,7 @@ versoOneLyrics = \lyricmode {
    als wür -- dest du drum nicht von Gott ge -- lie -- bet?
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    dass dir der Herr
    ein Kreuz zu tra -- gen gie -- bet?

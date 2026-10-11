@@ -70,7 +70,7 @@ bassMusic = {
   c2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Herr, wie du willst, so schicks mit mir
    im Le -- ben und __ _ _ im Ster -- ben;
@@ -79,7 +79,7 @@ versoOneLyrics = \lyricmode {
    dein Will', der ist __ _ _ der be -- ste.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    al -- lein zu dir steht mein Be -- gier,
    lass mich, Herr, nicht  __ _ _ ver -- der -- ben.

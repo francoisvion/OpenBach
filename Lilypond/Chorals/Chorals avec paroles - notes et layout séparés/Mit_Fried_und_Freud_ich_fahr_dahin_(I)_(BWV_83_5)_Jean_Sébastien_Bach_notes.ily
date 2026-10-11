@@ -66,7 +66,7 @@ bassMusic = {
   cis [d] a,4 d\fermata \fine
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyrics = \lyricmode {
   Er ist das Heil und se -- lig Licht
   für __ _ die Hei -- _ den,
   "zu er" -- leuch -- ten, die dich ken -- _ _ nen nicht,

@@ -78,14 +78,14 @@ bassMusic = {
   f2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Dank sei Gott in der Hö -- he in die -- ser Mor -- gen -- stund,
    Mich hat -- te zwar ge -- bun -- den mit Fins -- ter -- nis die Nacht,
    ich hab sie ü -- ber -- wun -- den mit Gott, der mich be -- wacht.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    durch den ich auf -- er -- ste -- he, vom Schlaf frisch und ge -- sund.
 }

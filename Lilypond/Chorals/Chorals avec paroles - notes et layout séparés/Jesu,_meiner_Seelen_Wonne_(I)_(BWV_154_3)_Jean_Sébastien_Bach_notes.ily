@@ -66,7 +66,7 @@ bassMusic = {
   e e a,2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Je -- su, mein Hort und Er -- ret -- ter,
    Je -- su, mei -- ne Zu -- ver -- sicht,
@@ -76,7 +76,7 @@ versoOneLyrics = \lyricmode {
    komm, o lieb -- stes Je -- su -- lein!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Je -- su, star -- ker Schlan -- gen -- tre -- ter,
    Je -- su, mei -- nes Le -- bens Licht!

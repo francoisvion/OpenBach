@@ -66,7 +66,7 @@ bassMusic = {
   ees4 f bes, bes,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Bin ich gleich von dir ge -- wi -- chen,
    stell ich mich doch wie -- der ein;
@@ -76,7 +76,7 @@ versoOneLyrics = \lyricmode {
    die ich stets in mir be -- fin -- de.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    hat uns doch dein Sohn ver -- gli -- chen
    durch sein Angst und To -- des -- pein.

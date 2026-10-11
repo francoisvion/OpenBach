@@ -87,7 +87,7 @@ bassMusic = {
     d2.\fermata }
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    \tweak X-offset #-4.5 "7. Was" frag' ich nach der Welt!
    Im Hui muss sie ver -- schwin -- _ den;
@@ -99,7 +99,7 @@ versoOneLyrics = \lyricmode {
    was frag' ich nach der Welt!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    \tweak X-offset #-4.5 "8. Was" frag' ich nach der Welt!
    mein Je -- sus ist mein Le -- _ ben,

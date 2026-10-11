@@ -98,7 +98,7 @@ bassMusic = {
   g4 g, c\fermata \fine
 }
 
-sopranoLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
   Herz -- lich lieb hab' ich dich, o Herr,
   ich bitt, woll'st sein von mir nicht fern

@@ -66,7 +66,7 @@ bassMusic = {
   e2.\fermata \fine
 }
 
-sopranoLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
   Christ lag in To -- des -- ban -- _ den
   für un -- ser Sünd' ge -- ge -- ben,

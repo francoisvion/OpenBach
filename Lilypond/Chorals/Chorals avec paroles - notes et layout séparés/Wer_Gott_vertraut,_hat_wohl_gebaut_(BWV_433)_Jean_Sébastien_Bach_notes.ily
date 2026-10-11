@@ -102,7 +102,7 @@ bassMusic = {
   d2 g,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Wer Gott ver -- traut
    hat wohl -- ge -- baut
@@ -117,7 +117,7 @@ versoOneLyrics = \lyricmode {
    In To -- des -- noth und Schmer -- zen.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    wer sich ver -- lässt
    auf Je -- sum Christ,

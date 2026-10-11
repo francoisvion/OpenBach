@@ -62,7 +62,7 @@ bassMusic = {
   c [a,] d4 g,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Herr Je -- su Christ, du hast be -- reit't
    für uns -- re mat -- te See -- len
@@ -71,7 +71,7 @@ versoOneLyrics = \lyricmode {
    und su -- chen Rath und Hil -- fe.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    dein'n Leib und Blut zu ein'r Mahl -- zeit,
    tust uns zu Gäs -- ten wäh -- len;

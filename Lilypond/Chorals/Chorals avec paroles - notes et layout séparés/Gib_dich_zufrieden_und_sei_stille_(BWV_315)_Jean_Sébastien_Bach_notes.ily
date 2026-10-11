@@ -70,7 +70,7 @@ bassMusic = {
   b, [a,] b,4 e\fermata \fine
 }
 
-sopranoLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
   Gieb dich zu -- frie -- den und sei stil -- _ le
   in dem Got -- te dei -- nes Le -- bens,

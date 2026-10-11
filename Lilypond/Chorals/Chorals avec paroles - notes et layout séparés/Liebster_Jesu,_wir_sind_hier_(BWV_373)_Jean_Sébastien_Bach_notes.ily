@@ -58,7 +58,7 @@ bassMusic = {
   g,1\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Lieb -- ster Je -- su, wir sind hier,
    dich und dein Wort an -- zu -- hö -- ren;
@@ -66,7 +66,7 @@ versoOneLyrics = \lyricmode {
    ganz zu dir ge -- zo -- gen wer -- den.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    len -- ke Sin -- nen und Be -- gier
    auf die sü -- ßen Him -- mels -- leh -- ren,

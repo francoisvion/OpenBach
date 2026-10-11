@@ -54,7 +54,7 @@ bassMusic = {
   a,2.\fermata r4 \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Herr, ich ha -- be miss -- ge -- han -- delt,
    ja mich drückt der Sün -- den Last;
@@ -62,7 +62,7 @@ versoOneLyrics = \lyricmode {
    mich vor dei -- nem Zorn ver -- ste -- cken.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    ich bin nicht den Weg ge -- wan -- delt,
    den du mir ge -- zei -- get hast;

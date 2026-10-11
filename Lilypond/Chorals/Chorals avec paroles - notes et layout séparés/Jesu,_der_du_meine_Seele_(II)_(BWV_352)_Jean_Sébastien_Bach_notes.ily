@@ -66,7 +66,7 @@ bassMusic = {
   e [d] e4 a,2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Je -- su, der du mei -- ne See -- le
    hast durch dei -- nen bit -- tern Tod
@@ -76,7 +76,7 @@ versoOneLyrics = \lyricmode {
    sei doch itzt, o Gott, mein Hort!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    aus des Teu -- fels fin -- strer Höh -- le
    und der schwe -- ren Sün -- der -- noth

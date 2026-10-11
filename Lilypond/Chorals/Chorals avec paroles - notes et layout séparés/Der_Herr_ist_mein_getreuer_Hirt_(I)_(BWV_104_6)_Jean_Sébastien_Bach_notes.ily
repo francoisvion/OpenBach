@@ -62,7 +62,7 @@ bassMusic = {
   cis8 [d] e4 a,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Der Herr ist mein ge -- treu -- er Hirt,
    dem ich mich ganz ver -- trau -- _ e,
@@ -71,7 +71,7 @@ versoOneLyrics = \lyricmode {
    durchs se -- lig Wort der Gna -- _ den.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    zu Weid er mich, sein Schäf -- lein, führt,
    auf schö -- ner grü -- nen Au -- _ e,

@@ -57,7 +57,7 @@ bassMusic = {
   c2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Nicht so Trau -- rig, nicht so sehr,
    mei -- ne See -- le, sei be -- trübt,
@@ -65,7 +65,7 @@ versoOneLyrics = \lyricmode {
    hast du Gott, so hat's nicht Not.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    dass dir Gott Glück, Gut und Ehr'
    nicht so viel, wie An -- dern gibt;

@@ -102,7 +102,7 @@ bassMusic = {
     g,2.\fermata }
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Je -- su, du __ _ mein lieb -- stes Le -- ben,
    mei -- _ ner See -- _ len Bräu -- ti -- gam,
@@ -111,7 +111,7 @@ versoOneLyrics = \lyricmode {
    mein' Er -- lö -- _ sung, Schmuck und Heil,
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    der du bist __ _ für mich ge -- ge -- ben
    an __ _ des bit -- _ tern Kreu -- zes -- stamm.

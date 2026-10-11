@@ -62,7 +62,7 @@ bassMusic = {
   d2 g,4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Gott Lob und Dank, der nicht zu -- gab,
    dass ihr Schlund uns möcht fan -- _ gen.
@@ -71,7 +71,7 @@ versoOneLyrics = \lyricmode {
    des Got -- tes Him -- mels und Er -- _ den.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Wie ein Vo -- gel des Stricks kommt ab,
    ist un -- ser Seel ent -- gan -- _ gen,

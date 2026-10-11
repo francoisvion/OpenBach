@@ -46,7 +46,7 @@ bassMusic = {
   ais [b] fis4 b,2\fermata \fine
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyrics = \lyricmode {
 Lob sei Gott, dem Va -- ter, g'tan,
                             Lob sei Gott, sein'm ein -- gen Sohn,
                             Lob sei Gott, dem Heil -- gen Geist,

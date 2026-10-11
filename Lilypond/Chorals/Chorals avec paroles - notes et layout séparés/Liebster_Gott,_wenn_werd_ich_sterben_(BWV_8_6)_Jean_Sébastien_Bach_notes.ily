@@ -78,7 +78,7 @@ bassMusic = {
   b,2 e\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Herr -- scher ü -- ber Tod und Le -- _ _ ben
    mach ein -- mal mein En -- _ de gut,
@@ -88,13 +88,13 @@ versoOneLyrics = \lyricmode {
    nim -- mer -- mehr zu -- schan -- _ _ den wer -- _ _ de.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Leh -- re mich den Geist auf -- ge -- _ _ ben
    mit recht wohl -- ge -- fasst -- _ tem Mut.
 }
 
-altoVersoOneLyrics = \lyricmode {
+altoLyricsOne = \lyricmode {
 \set stanza = 1
    Herr -- scher ü -- ber Tod __ _ und Le -- ben
    mach ein -- mal mein En -- de gut,
@@ -104,13 +104,13 @@ altoVersoOneLyrics = \lyricmode {
    nim -- mer -- mehr zu -- schan -- _ _ den wer -- _ _ de.
 }
 
-altoVersoTwoLyrics = \lyricmode {
+altoLyricsTwo = \lyricmode {
 \set stanza = 2
    Leh -- re mich den Geist __ _ auf -- ge -- ben
    mit recht wohl -- ge -- fasst -- tem Mut.
 }
 
-tenorVersoOneLyrics = \lyricmode {
+tenorLyricsOne = \lyricmode {
 \set stanza = 1
    Herr -- scher ü -- ber Tod und Le -- ben
    mach ein -- mal mein En -- de gut,
@@ -120,13 +120,13 @@ tenorVersoOneLyrics = \lyricmode {
    nim -- mer -- mehr zu -- schan -- _ _ _ den wer -- _ de.
 }
 
-tenorVersoTwoLyrics = \lyricmode {
+tenorLyricsTwo = \lyricmode {
 \set stanza = 2
   Leh -- re mich den Geist auf -- ge -- ben
   mit recht wohl -- ge -- fasst -- tem Mut.
 }
 
-bassVersoOneLyrics = \lyricmode {
+bassLyricsOne = \lyricmode {
 \set stanza = 1
    Herr -- scher ü -- ber Tod und Le -- ben
    mach ein -- mal mein En -- de gut,
@@ -136,7 +136,7 @@ bassVersoOneLyrics = \lyricmode {
    nim -- mer -- mehr zu -- schan -- _ _ _ den wer -- de.
 }
 
-bassVersoTwoLyrics = \lyricmode {
+bassLyricsTwo = \lyricmode {
 \set stanza = 2
    Leh -- re mich den Geist auf -- ge -- ben
    mit recht wohl -- ge -- fasst -- tem Mut.

@@ -58,7 +58,7 @@ bassMusic = {
   d8 [c] d4 g,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Wer weiss wie na -- he mir mein En -- de!
    Hin geht die Zeit, her kommt der Tod.
@@ -66,7 +66,7 @@ versoOneLyrics = \lyricmode {
    mach's nur mit mei -- nem En -- de gut!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Ach wie ge -- schwin -- de und be -- hän -- de
    kann kom -- men mei -- ne To -- des -- not.

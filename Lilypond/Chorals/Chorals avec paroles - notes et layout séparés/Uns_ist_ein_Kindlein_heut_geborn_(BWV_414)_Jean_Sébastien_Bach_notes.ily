@@ -62,7 +62,7 @@ bassMusic = {
   g,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Uns ist ein Kind -- lein heut' ge -- bor'n
    von ei -- ner Jung -- _ _ frau aus -- er -- kor'n.
@@ -70,7 +70,7 @@ versoOneLyrics = \lyricmode {
    für sol -- che Gnad __ _ _ in E -- wig -- keit.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Des freu -- en sich die En -- ge -- lein,
    soll -- ten wir Men -- _ schen nicht fröh -- lich sein?

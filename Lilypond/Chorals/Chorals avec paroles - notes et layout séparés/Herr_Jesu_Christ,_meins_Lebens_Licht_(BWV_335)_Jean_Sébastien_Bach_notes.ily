@@ -54,7 +54,7 @@ bassMusic = {
     e fis b,\fermata }
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Herr Je -- su Christ, mein's Le -- bens Licht,
    mein Hort, mein Trost, mein Zu -- ver -- sicht,
@@ -62,7 +62,7 @@ versoOneLyrics = \lyricmode {
    und drückt mich sehr der Sün -- den Last.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    O Je -- su, du mein Bräu -- ti -- gam,
    der du aus Lieb' am Kreu -- zes -- stamm

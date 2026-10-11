@@ -171,7 +171,7 @@ bassMusic = {
   r2 r4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Dein ist al -- lein die Eh -- re,
    dein ist al -- lein der Ruhm;
@@ -186,7 +186,7 @@ versoOneLyrics = \lyricmode {
    und wünscht mit Mund und Her -- zen ein se -- ligs neu -- es Jahr.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    bis wir fröh -- lich ab -- schei -- den
    ins e -- wig Him -- mel -- reich,

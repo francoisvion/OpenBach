@@ -70,7 +70,7 @@ bassMusic = {
   g,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Nun dan -- ket al -- le Gott
    mit Her -- zen, Mund und Hän -- den,
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    und noch jetz -- und ge -- tan.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    der gro -- sse Din -- ge tut
    an uns und al -- len En -- den;

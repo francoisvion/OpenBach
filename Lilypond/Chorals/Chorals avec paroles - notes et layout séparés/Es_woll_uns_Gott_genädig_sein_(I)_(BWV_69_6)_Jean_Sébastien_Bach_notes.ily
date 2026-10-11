@@ -94,7 +94,7 @@ bassMusic = \relative c {
   \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Es dan -- ke, Gott, und lo -- _ _ be dich
    das Volk in gu -- ten Ta -- _ _ _ ten;      
@@ -105,7 +105,7 @@ versoOneLyrics = \lyricmode {
    Nun sprecht von Her -- zen: A -- _ men!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Das Land bringt Frucht und bes -- _ _ sert sich,
    dein Wort ist wohl ge -- ra -- _ _ _ ten.

@@ -54,7 +54,7 @@ bassMusic = {
   c4 d g,2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Mei -- nen Je -- sum lass' ich nicht,
    Je -- sus wird mich auch nicht las -- sen.
@@ -62,7 +62,7 @@ versoOneLyrics = \lyricmode {
    dass mich Je -- sus auch nicht lässt.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Je -- su hab' ich mich ver -- pflicht't,
    ich will ihn in's Her -- ze fas -- sen.

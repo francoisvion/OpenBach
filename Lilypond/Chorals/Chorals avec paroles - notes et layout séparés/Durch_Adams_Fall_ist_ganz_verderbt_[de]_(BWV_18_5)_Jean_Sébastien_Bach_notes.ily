@@ -76,7 +76,7 @@ bassMusic = {
   a,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Ich bitt, o Herr, aus Her -- zens Grund,
    du wollst nicht von mir neh -- _ men
@@ -86,7 +86,7 @@ versoOneLyrics = \lyricmode {
    der wird den Tod nicht schau -- _ _ en.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    dein heil -- ges Wort aus mei -- nem Mund;
    so wird mich nicht be -- schä -- _ men

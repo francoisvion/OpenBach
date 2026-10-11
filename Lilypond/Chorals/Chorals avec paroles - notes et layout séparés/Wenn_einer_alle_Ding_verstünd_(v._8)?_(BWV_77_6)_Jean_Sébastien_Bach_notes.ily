@@ -74,7 +74,7 @@ bassMusic = {
   c' cis' d'\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    \tweak X-offset #-9 \markup{\concat{\small "Texte 1. " "Du"}} stellst, mein Je -- su, sel -- ber dich
    zum Vor -- bild wah -- rer Lie -- _ be:
@@ -83,13 +83,13 @@ versoOneLyrics = \lyricmode {
    Nach dei -- nem Wort und Wei -- _ se.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    gib mir auch Gnad und Kraft, dass ich
    Gott und den Näch -- sten lie -- _ be:
 }
 
-versoOneLyricsB = \lyricmode {
+sopranoLyricsThree = \lyricmode {
 \set stanza = 1
    \tweak X-offset #-9 \markup{\concat{\small "Texte 2. " "Herr,"}} durch den Glau -- ben wohn in mir,
    Lass ihn sich im -- mer stär -- _ ken,
@@ -98,7 +98,7 @@ versoOneLyricsB = \lyricmode {
    dem Näch -- sten fort zu die -- _ nen.
 }
 
-versoTwoLyricsB = \lyricmode {
+sopranoLyricsFour = \lyricmode {
 \set stanza = 2
    dass er sei frucht -- bar für und für
    und reich in gu -- ten Wer -- _ ken;

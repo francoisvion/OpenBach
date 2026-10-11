@@ -265,7 +265,7 @@ bassMusic = {
   e2 e,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Herr Gott, dich lo -- ben wir
    Herr Gott, wir dan -- ken dir.
@@ -293,7 +293,7 @@ versoOneLyrics = \lyricmode {
    A -- _ _ _ men! __
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    \repeat unfold 12 { \skip1 }
    All' En -- gel und all' Him -- mels -- heer,
@@ -308,7 +308,7 @@ versoTwoLyrics = \lyricmode {
    sei gnä -- dig uns in al -- ler Not!
 }
 
-versoThreeLyrics = \lyricmode {
+sopranoLyricsThree = \lyricmode {
 \set stanza = 3
    \repeat unfold 12 { \skip1 }
    Auch Che -- ru -- bim und Se -- ra -- phim

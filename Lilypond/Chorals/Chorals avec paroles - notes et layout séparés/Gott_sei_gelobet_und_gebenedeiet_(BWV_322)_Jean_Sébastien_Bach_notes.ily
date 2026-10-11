@@ -106,7 +106,7 @@ bassMusic = {
   g,2.\fermata \fine
 }
 
-sopranoLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
   Gott sei ge -- lo -- bet und ge -- be -- ne -- dei -- et, der uns sel -- ber hat ge -- spei -- set
   Ky -- rie e -- lei -- _ _ _ son. Herr, durch dei -- nen heil -- gen Leich -- nam,
   der von dei -- ner Mutt'r Ma -- ri -- a kam, und das hei -- li -- ge Blut

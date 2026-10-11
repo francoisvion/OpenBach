@@ -70,7 +70,7 @@ bassMusic = {
   g, a, d,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Ein' fe -- ste Burg ist un -- ser Gott,
    ein' gu -- te Wehr und Waf -- _ fen.
@@ -79,7 +79,7 @@ versoOneLyrics = \lyricmode {
    auf Erd ist nicht seins -- Glei -- _ _ chen.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    er hilft uns frei aus al -- ler Not,
    die uns jetz hat be -- tro -- _ fen.

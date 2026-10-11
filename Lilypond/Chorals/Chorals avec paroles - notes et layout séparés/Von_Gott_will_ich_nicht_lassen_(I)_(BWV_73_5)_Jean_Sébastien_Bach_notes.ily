@@ -70,7 +70,7 @@ bassMusic = {
   c2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Das ist des Va -- ters Wil -- le,
    der uns er -- schaf -- fen hat;
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    Ihm sei Lob Ehr und Preis!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    sein Sohn hat Guts die Fül -- le
    er -- wor -- ben und Ge -- nad;

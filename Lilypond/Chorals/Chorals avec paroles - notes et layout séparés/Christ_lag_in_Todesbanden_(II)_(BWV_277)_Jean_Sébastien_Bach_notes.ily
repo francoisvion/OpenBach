@@ -70,7 +70,7 @@ bassMusic = \relative c {
   d,1\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Christ lag in To -- des -- ban -- _ den
    für un -- ser Sünd' ge -- ge -- _ ben,
@@ -79,7 +79,7 @@ versoOneLyrics = \lyricmode {
    und sin -- gen Al -- le -- lu -- _ ia, Al -- le -- lu -- _ ia!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    der ist wie -- der er -- stan -- _ den
    und hat uns bracht das Le -- _ ben.

@@ -58,7 +58,7 @@ bassMusic = {
   dis e a,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Wer nur den lie -- ben Gott lässt wal -- _ ten
    und hof -- fet auf ihn al -- le -- zeit,
@@ -66,7 +66,7 @@ versoOneLyrics = \lyricmode {
    der hat auf kei -- nen Sand ge -- baut.
 }
 
-sopranoVersoOneLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    den wird er wun -- der -- bar er -- hal -- _ ten
    in al -- ler Not und Trau -- rig -- keit.

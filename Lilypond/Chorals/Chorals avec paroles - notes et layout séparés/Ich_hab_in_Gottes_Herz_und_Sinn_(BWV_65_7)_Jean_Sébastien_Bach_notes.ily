@@ -78,7 +78,7 @@ bassMusic = {
   e2 a,4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Ei nun, mein Gott, so fall ich dir
    ge -- trost in dei -- _ _ ne Hän -- de.
@@ -88,7 +88,7 @@ versoOneLyrics = \lyricmode {
    sich in mir selbst __ _ _ er -- hö -- he.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    nimm mich und mach es so mit mir
    bis an mein letz -- _ _ tes En -- de,

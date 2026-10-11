@@ -70,7 +70,7 @@ bassMusic = {
   gis [e] a [a,] e2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Weg mit al -- len Schä -- tzen,
    du bist mein Er -- gö -- tzen,
@@ -80,14 +80,14 @@ versoOneLyrics = \lyricmode {
    nicht von Je -- su schei -- den.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Weg ihr eit -- len Eh -- ren,
    ich mag euch nicht hö -- ren,
    bleibt mir un -- be -- wusst!
 }
 
-altoVersoOneLyrics = \lyricmode {
+altoLyricsOne = \lyricmode {
 \set stanza = 1
    Weg, weg mit al -- _ len Schä -- _ tzen,
    mit al -- len Schä -- tzen, du, du bist mein Er -- gö -- tzen,
@@ -97,14 +97,14 @@ altoVersoOneLyrics = \lyricmode {
    nicht von Je -- _ su schei -- _ _ den.
 }
 
-altoVersoTwoLyrics = \lyricmode {
+altoLyricsTwo = \lyricmode {
 \set stanza = 2
    Weg, weg ihr eit -- _ len Eh -- _ ren, ihr eit -- len
    Eh -- ren, ich, ich mag euch nicht hö -- ren,
    bleibt __ _ mir un -- be -- wusst, un -- be -- _ wusst!
 }
 
-tenorVersoOneLyrics = \lyricmode {
+tenorLyricsOne = \lyricmode {
 \set stanza = 1
    Weg, weg mit al -- len Schä -- _ tzen, mit al -- len
    Schä -- tzen, du, du bist mein Er -- gö -- tzen,
@@ -114,14 +114,14 @@ tenorVersoOneLyrics = \lyricmode {
    nicht, nicht von Je -- su __ schei -- den, von Je -- su schei -- _ den.
 }
 
-tenorVersoTwoLyrics = \lyricmode {
+tenorLyricsTwo = \lyricmode {
 \set stanza = 2
    Weg, weg ihr eit -- len Eh -- _ ren, ihr eit -- len
    Eh -- ren, ich, ich mag euch nicht hö -- ren,
    bleibt mir un -- _ be -- wusst!
 }
 
-bassVersoOneLyrics = \lyricmode {
+bassLyricsOne = \lyricmode {
 \set stanza = 1
    Weg, weg mit _ al -- len Schä -- tzen,
    du bist mein Er -- gö -- tzen,
@@ -131,7 +131,7 @@ bassVersoOneLyrics = \lyricmode {
    nicht, nicht, nicht, nicht von Je -- su schei -- _ den.
 }
 
-bassVersoTwoLyrics = \lyricmode {
+bassLyricsTwo = \lyricmode {
 \set stanza = 2
    Weg, weg ihr _ eit -- len Eh -- ren,
    ich mag euch nicht __ hö -- ren,

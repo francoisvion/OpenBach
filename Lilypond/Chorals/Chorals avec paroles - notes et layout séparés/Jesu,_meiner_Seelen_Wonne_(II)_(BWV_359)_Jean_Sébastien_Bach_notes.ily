@@ -66,7 +66,7 @@ bassMusic = {
   d [b,] e4 a,2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Je -- su, mei -- ner See -- len Won -- ne,
    Je -- su, mei -- ne be -- ste Lust,
@@ -76,7 +76,7 @@ versoOneLyrics = \lyricmode {
    und bleib bei mir für end für!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Je -- su, mei -- ne Freu -- den -- son -- ne,
    Je -- su, dir ist ja be -- wusst,

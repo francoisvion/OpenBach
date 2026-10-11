@@ -70,7 +70,7 @@ bassMusic = {
   d,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Va -- let will ich dir ge -- ben,
    du ar -- ge, fal -- sche Welt,
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    dem, der ihm dient all -- hier.
 }
 
-sopranoVersoOneLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Dein sünd -- lich bö -- ses Le -- ben
    Durch -- aus mir nicht ge -- fällt.

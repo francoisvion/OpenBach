@@ -82,7 +82,7 @@ bassMusic = {
   g,2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Lass, o Herr, dein Ohr sich nei -- gen,
    und stoß mich nicht von dir hin,
@@ -93,7 +93,7 @@ versoOneLyrics = \lyricmode {
    der auf dich nur hofft, o Gott!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    dir mein Wort zu Her -- zen stei -- gen,
 }

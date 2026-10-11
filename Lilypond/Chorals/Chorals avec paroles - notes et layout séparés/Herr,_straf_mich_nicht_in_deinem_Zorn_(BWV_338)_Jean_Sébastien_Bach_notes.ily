@@ -62,7 +62,7 @@ bassMusic = {
   e2 a,4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Herr, straf' mich nicht in dei -- nem Zorn,
    das bitt ich dich von Her -- zen,
@@ -71,7 +71,7 @@ versoOneLyrics = \lyricmode {
    und lei -- de gro -- ße Schmer -- zen.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    sonst bin ich ganz und gar ver -- lorn,
    mit dir ist nicht zu Scher -- zen;

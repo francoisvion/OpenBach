@@ -66,7 +66,7 @@ bassMusic = {
     a,2.\fermata }
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    \tweak X-offset #-3 "8. Ach," gro -- ßer Kö -- nig, groß zu al -- len Zei -- _ ten,
    wie kann ich gnug -- sam die -- se Treu aus -- brei -- ten? 
@@ -74,7 +74,7 @@ versoOneLyrics = \lyricmode {
    was dir zu schen -- ken.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    \tweak X-offset #-3 "9. Ich" kann's mit mei -- nen Sin -- nen nicht er -- rei -- _ chen,
    wo -- mit doch dein Er -- bar -- men zu ver -- glei -- chen.

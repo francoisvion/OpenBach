@@ -54,7 +54,7 @@ bassMusic = {
   a,8 [g,] a,4 d,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Mach's mit mir, Gott, nach dei -- ner Güt,
    hilf mir in mei -- nem Lei -- den,
@@ -62,7 +62,7 @@ versoOneLyrics = \lyricmode {
    ist Al -- les gut, wenn gut das End.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    was ich dich bitt', ver -- sag' mir nicht,
    wenn mei -- ne Seel' will schei -- den:

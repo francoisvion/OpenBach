@@ -70,7 +70,7 @@ bassMusic = {
   a,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    All solch dein Güt wir prei -- _ sen,
    Va -- ter ins Him -- mels Thron,
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    und nähr uns mil -- dig -- lich. _
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Die du uns tust be -- wei -- _ sen durch Je -- sum dein -- en Sohn,
 }

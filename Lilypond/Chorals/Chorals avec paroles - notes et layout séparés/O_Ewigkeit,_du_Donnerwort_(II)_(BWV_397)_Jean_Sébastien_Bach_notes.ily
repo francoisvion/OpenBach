@@ -70,7 +70,7 @@ bassMusic = {
   bes [g] c' [c] f2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    O _ E -- wig -- keit, du Don -- ner -- wort!
    O _ Schwert, das durch die See -- le bohrt!
@@ -79,7 +79,7 @@ versoOneLyrics = \lyricmode {
    Herr Je -- su, in dein Freu -- den -- zelt.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    \repeat unfold 5 {\skip1} Zeit oh -- ne -- Zeit!
    Ich _ weiß vor gro -- ßer Trau -- rig -- keit

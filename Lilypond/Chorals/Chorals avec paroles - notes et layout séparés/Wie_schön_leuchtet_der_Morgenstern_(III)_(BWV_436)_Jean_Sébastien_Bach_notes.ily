@@ -78,7 +78,7 @@ bassMusic = {
   ais, b, e\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Wie schön leuch -- tet der Mor -- gen -- stern
    voll Gnad' und Wahr -- heit von dem Herrn,
@@ -89,7 +89,7 @@ versoOneLyrics = \lyricmode {
    hoch und sehr präch -- tig er -- ha -- ben.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    du Sohn Da -- vids aus Ja -- kobs Stamm
    mein Kö -- nig und mein Bräu -- ti -- gam,

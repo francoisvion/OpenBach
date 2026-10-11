@@ -70,7 +70,7 @@ bassMusic = {
   eis fis b,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Was mein Gott will, das g'scheh' all -- zeit,
    sein Will' der ist der be -- ste;
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    den will er nicht ver -- las -- sen.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    zu hel -- fen den'n er ist be -- reit,
    die an ihn glau -- ben fe -- ste.

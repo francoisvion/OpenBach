@@ -58,7 +58,7 @@ bassMusic = {
     b,8 [c] d4 g,\fermata }
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Wenn wir in höch -- sten Nö -- then sein
    und wis -- sen nicht wo aus und ein,
@@ -66,7 +66,7 @@ versoOneLyrics = \lyricmode {
    ob wir gleich sor -- gen früh und spat.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    so ist das un -- ser Trost al -- lein,
    dass wir zu -- sam -- men ins -- ge -- mein

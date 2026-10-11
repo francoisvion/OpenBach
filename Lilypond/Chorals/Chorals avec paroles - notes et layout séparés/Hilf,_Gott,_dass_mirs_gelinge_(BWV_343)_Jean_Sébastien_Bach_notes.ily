@@ -106,7 +106,7 @@ bassMusic = {
   g,2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Hilf, Gott, dass mir's ge -- lin -- gen,
    du ed -- ler Schö -- pfer mein, __ _
@@ -115,7 +115,7 @@ versoOneLyrics = \lyricmode {
    Herr, du wollst mir bei -- stahn. __ _
 }
 
-altoVersoOneLyrics = \lyricmode {
+altoLyricsOne = \lyricmode {
 \set stanza = 1
   Hilf, Gott, dass mir's __ _ ge -- lin -- _ _ gen,
   du ed -- _ _ ler Schö -- pfer mein,
@@ -124,13 +124,13 @@ altoVersoOneLyrics = \lyricmode {
   Herr, du wollst mir _ bei -- stahn. __ _ _
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Die Wort' in Reim' zu brin -- gen,
    Zu Lob dem Na -- men dein, __ _
 }
 
-altoVersoTwoLyrics = \lyricmode {
+altoLyricsTwo = \lyricmode {
 \set stanza = 2
   Die Wort' in Reim' __ _ zu brin -- _ _ gen,
   Zu Lob __ _ _ dem Na -- men dein,

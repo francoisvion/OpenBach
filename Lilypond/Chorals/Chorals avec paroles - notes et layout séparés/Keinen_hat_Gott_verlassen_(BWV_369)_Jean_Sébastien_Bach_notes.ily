@@ -70,7 +70,7 @@ bassMusic = {
   e,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Kei -- nen hat Gott ver -- las -- _ sen
    der ihm ver -- traut all -- zeit;
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    hier zeit -- lich und auch dort.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    ob ihn schon drum viel has -- _ sen,
    so bringt's ihm doch kein Leid.

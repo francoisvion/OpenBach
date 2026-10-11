@@ -70,7 +70,7 @@ bassMusic = {
   a,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Du bist ein Geist, der leh -- _ ret,
    wie man recht be -- ten soll;
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    der al -- len hel -- fen kann.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    dein Be -- ten wird er -- hö -- _ ret,
    dein Sin -- gen klin -- get wohl.

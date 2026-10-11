@@ -90,7 +90,7 @@ bassMusic = {
   d8 [c] d4 g,\fermata \fine
 }
 
-sopranoLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
   \tweak X-offset #-4 "1. An" Was -- ser -- flüs -- sen Ba -- by -- lon,
   da sa -- ßen wir mit Schmer -- _ zen,
   Wir hing -- en auf mit schwe -- rem Mut

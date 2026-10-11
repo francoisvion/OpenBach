@@ -62,7 +62,7 @@ bassMusic = {
   b,8 [c] d4 g,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Nun freut euch, lie -- ben Chri -- sten g'mein,
    und lasst uns frö -- hlich sprin -- _ gen,
@@ -71,7 +71,7 @@ versoOneLyrics = \lyricmode {
    gar teu'r hat er's er -- wor -- _ ben.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    dass wir ge -- trost und all in Ein
    mit Lust und Lie -- be sin -- _ gen:

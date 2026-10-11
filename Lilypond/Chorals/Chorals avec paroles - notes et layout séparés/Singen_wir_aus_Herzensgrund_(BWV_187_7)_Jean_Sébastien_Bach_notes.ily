@@ -126,7 +126,7 @@ bassMusic = {
   g,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    \tweak X-offset #-4 "4. Gott" hat die Er -- de zu -- ge -- _ richt',
    lässts an __ _ Nah -- rung man -- geln nicht;
@@ -137,7 +137,7 @@ versoOneLyrics = \lyricmode {
    dass der __ _ Mensch sein Le -- ben hat.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    \tweak X-offset #-4 "6. Wir" dan -- ken sehr und bit -- ten __ _ ihn,
    dass er uns geb des Geis -- tes Sinn,

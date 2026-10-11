@@ -70,7 +70,7 @@ bassMusic = {
   a,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Von Gott will ich nicht las -- _ sen,
    denn er lässt nicht von mir,
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    sei wo ich wolf im Land.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    führt mich durch al -- le Stra -- _ ßen,
    da ich sonst ir -- ret sehr.

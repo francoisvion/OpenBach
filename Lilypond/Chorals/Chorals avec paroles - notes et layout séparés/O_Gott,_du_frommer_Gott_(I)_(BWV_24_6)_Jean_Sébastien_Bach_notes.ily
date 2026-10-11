@@ -102,7 +102,7 @@ bassMusic = {
   f4 r4 r2 \fine
 }
 
-sopranoLyricsOne = \lyricmode {
+sopranoLyrics = \lyricmode {
   O Gott, du from -- mer Gott,
   du Brunn -- quell al -- ler Ga -- ben,
   ohn' den nichts ist, was ist,

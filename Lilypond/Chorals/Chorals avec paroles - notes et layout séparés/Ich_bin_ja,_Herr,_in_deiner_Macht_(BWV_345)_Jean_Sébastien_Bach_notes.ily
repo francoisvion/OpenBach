@@ -62,7 +62,7 @@ bassMusic = {
   g d g,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Ich bin ja, Herr, in dei -- ner Macht,
    du hast mich an das Licht __ ge -- bracht,
@@ -71,7 +71,7 @@ versoOneLyrics = \lyricmode {
    das weißt du, Va -- ter, mehr als wohl.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    du ken -- nest mei -- ner Mon -- den Zahl,
    weißt wann ich die -- sem Jam -- mer -- thal

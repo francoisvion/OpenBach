@@ -86,7 +86,7 @@ bassMusic = {
   a a, d2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Gott der Va -- ter wohn' uns bei
    und lass' uns nicht ver -- der -- _ ben,
@@ -98,7 +98,7 @@ versoOneLyrics = \lyricmode {
    so sin -- gen wir Al -- le -- lu -- ia.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Mach uns al -- ler Sün -- den frei
    und helf uns se -- lig ster -- _ ben.

@@ -78,7 +78,7 @@ bassMusic = {
   g, a, d\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Zwingt die Sai -- ten in Cy -- tha -- ra
    und lasst die sü -- ße Mu -- si -- ca
@@ -89,7 +89,7 @@ versoOneLyrics = \lyricmode {
    Groß ist der Kö -- nig der Eh -- ren.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    dass ich mö -- ge mit Je -- su -- lein,
    dem wun -- der -- schö -- nen Bräut -- gam mein,

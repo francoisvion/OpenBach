@@ -62,7 +62,7 @@ bassMusic = {
   d2 g,4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Ich steh an dei -- ner Krip -- pen hier,
    o Je -- su -- lein, mein Le -- _ ben;
@@ -71,7 +71,7 @@ versoOneLyrics = \lyricmode {
    und lass dirs wohl -- ge -- fal -- _ len!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    ich kom -- me, bring und schen -- ke dir,
    was du mir hast ge -- ge -- _ ben.

@@ -74,7 +74,7 @@ bassMusic = {
   e4 e, a,2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Ei -- ne Stim -- me lässt sich hö -- ren
    in der Wüs -- te weit und breit,
@@ -84,7 +84,7 @@ versoOneLyrics = \lyricmode {
    dass die Ber -- ge nie -- drig ste -- hen.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    al -- le Men -- schen zu be -- keh -- ren:
    macht dem Herrn den Weg be -- reit,

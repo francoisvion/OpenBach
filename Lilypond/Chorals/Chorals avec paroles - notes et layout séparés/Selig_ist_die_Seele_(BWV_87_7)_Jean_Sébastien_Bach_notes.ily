@@ -70,7 +70,7 @@ bassMusic = {
   d1\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Muss ich sein be -- trü -- bet?
    So mich Je -- sus lie -- bet
@@ -81,7 +81,7 @@ versoOneLyrics = \lyricmode {
    auch das bitt' -- re Lei -- den.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    ü -- ber Ho -- nig sü -- ße,
    tau -- send Zu -- cker -- küs -- se

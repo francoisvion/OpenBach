@@ -66,7 +66,7 @@ bassMusic = {
   b,4 cis fis,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    \tweak X-offset #-9 \markup{\concat{\tiny"Texte 1 : " "Führ,"}} Herr, mein Herz und Sinn
    durch dei -- nen Geist da -- hin,
@@ -76,7 +76,7 @@ versoOneLyrics = \lyricmode {
    ein Glied -- maß e -- wig blei -- be.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    \tweak X-offset #-9 \markup{\concat{\tiny"Texte 2 :    " "A"}} -- men zu al -- ler Stund
    sprech ich aus Her -- zens -- grund;

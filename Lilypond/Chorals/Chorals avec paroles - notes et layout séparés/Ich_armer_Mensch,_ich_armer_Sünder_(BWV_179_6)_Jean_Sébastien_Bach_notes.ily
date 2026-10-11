@@ -58,7 +58,7 @@ bassMusic = {
   fis8 [dis] e [e,] a,4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Ich ar -- mer Mensch, ich ar -- mer Sün -- _ der
    steh hier vor Got -- tes An -- ge -- sicht.
@@ -66,7 +66,7 @@ versoOneLyrics = \lyricmode {
    Gott, mein Er -- bar -- mer, ü -- ber mich!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Ach Gott, ach Gott, ver -- fahr ge -- lin -- _ der
    und geh nicht mit mir ins Ge -- richt!

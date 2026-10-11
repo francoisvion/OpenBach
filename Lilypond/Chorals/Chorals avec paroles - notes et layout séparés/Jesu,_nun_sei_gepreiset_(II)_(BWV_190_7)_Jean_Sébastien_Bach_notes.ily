@@ -118,7 +118,7 @@ bassMusic = {
   d,2. \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Lass uns das Jahr voll -- brin -- gen
    zu Lob dem Na -- men dein,
@@ -131,7 +131,7 @@ versoOneLyrics = \lyricmode {
    die Heuch -- ler mach zu -- schan -- den hier und an al -- lem Ort.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    wollst uns das Le -- ben fris -- ten
    durch dein all -- mäch -- tig Hand,

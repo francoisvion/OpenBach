@@ -86,7 +86,7 @@ bassMusic = {
   bes,2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Dir, dir, _ Je -- ho -- va, will _ ich sin -- gen,
    denn wo ist doch ein sol -- cher Gott wie du?
@@ -94,7 +94,7 @@ versoOneLyrics = \lyricmode {
    so wie es __ _ dir durch inn ge -- fäl -- lig ist.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    dir will _ ich mei -- ne Lie -- _ der brin -- gen
    ach gib mir dei -- nes Geis -- tes Kraft da -- zu,

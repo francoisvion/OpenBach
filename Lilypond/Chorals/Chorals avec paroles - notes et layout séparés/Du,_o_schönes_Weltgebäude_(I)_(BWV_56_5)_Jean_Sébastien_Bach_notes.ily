@@ -74,7 +74,7 @@ bassMusic = {
   g g, c,2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Komm, o Tod, du Schla -- fes Bru -- der,
    Komm und füh -- re mich nur fort;
@@ -83,7 +83,7 @@ versoOneLyrics = \lyricmode {
    zu dem schön -- sten Je -- su -- lein.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    lö -- se mei -- nes Schiff -- leins Ru -- der,
    brin -- ge mich an si -- chern Port!

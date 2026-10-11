@@ -54,7 +54,7 @@ bassMusic = {
   f [d] g4 c2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Je -- sus, mei -- ne Zu -- ver -- sicht
    und mein Hei -- land, ist im Le -- ben:
@@ -62,7 +62,7 @@ versoOneLyrics = \lyricmode {
    mir auch für Ge -- dan -- ken macht?
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Die -- ses weiß ich, soll ich nicht
    da -- rum mich zu -- fried -- en ge -- ben?

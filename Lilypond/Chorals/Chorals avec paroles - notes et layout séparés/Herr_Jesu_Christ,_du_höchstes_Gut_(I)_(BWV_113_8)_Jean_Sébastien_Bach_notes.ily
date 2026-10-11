@@ -66,7 +66,7 @@ bassMusic = {
   b,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Stärk mich mit dei -- nem Freu -- den -- geist,
    heil mich mit dei -- nen Wun -- den;
@@ -75,7 +75,7 @@ versoOneLyrics = \lyricmode {
    zu dei -- nen Aus -- _ _ ser -- wähl -- ten!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    wasch mich mit dei -- nem To -- des -- schweiss
    in mei -- ner letz -- ten Stun -- den;

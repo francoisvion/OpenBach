@@ -62,7 +62,7 @@ bassMusic = {
   fis2 b,4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyrics = \lyricmode {
 Al -- le -- lu -- ia!
                             Al -- le -- lu -- ia!
                             Ge -- lobt sei Gott,

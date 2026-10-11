@@ -49,8 +49,8 @@
       >>
     }
     
-    \new Lyrics \lyricsto "soprano" \versoOneLyrics
-    \new Lyrics \lyricsto "soprano" \versoTwoLyrics
+    \new Lyrics \lyricsto "soprano" \sopranoLyricsOne
+    \new Lyrics \lyricsto "soprano" \sopranoLyricsTwo
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
       \clef bass

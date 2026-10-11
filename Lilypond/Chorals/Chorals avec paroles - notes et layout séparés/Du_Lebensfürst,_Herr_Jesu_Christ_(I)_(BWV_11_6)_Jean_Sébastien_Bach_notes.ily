@@ -107,7 +107,7 @@ bassMusic = {
   d,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Nun lie -- get al -- _ les un -- ter dir,
    dich selbst nur aus -- ge -- nom -- men;
@@ -117,7 +117,7 @@ versoOneLyrics = \lyricmode {
    muss dir zu Dien -- ste wer -- _ den.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Die En -- gel müs -- _ sen für und für dir
    auf -- zu -- war -- ten kom -- men.

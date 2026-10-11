@@ -174,7 +174,7 @@ bassMusic = {
   d2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Sei Lob und Preis mit Eh -- _ ren
    Gott Va -- ter, Sohn Hei -- li -- gem Geist!
@@ -188,40 +188,40 @@ versoOneLyrics = \lyricmode {
    glaub'n wir __ _ aus Her -- zens Grund.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Der woll' in uns ver -- meh -- _ ren,
    Was er uns aus Gna -- den ver -- heißt,
 }
 
-altoVersoOneLyrics = \lyricmode {
+altoLyricsOne = \lyricmode {
       \set stanza = 1
    Sei Lob _ und Preis _ mit Eh -- _ _ ren Gott Va -- ter, Sohn _ Hei -- li -- gem _ Geist! daß wir __ _ ihm fest _ ver -- trau -- _ _ en, gänz -- lich __ ver -- laß'n auf ihn, von Her -- zen auf ihn bau -- _ _ en, daß uns'r _ Herz, Mut und _ Sinn ihm tröst -- lich soll'n an -- han gen. _ drauf sin gen wir zur Stund: A -- men, _ wir wer - den's er -- lan -- gen, glaub'n wir __ _ aus Her -- zens _ Grund.
 }
 
-altoVersoTwoLyrics = \lyricmode {
+altoLyricsTwo = \lyricmode {
       \set stanza = 2
    Der woll' _ in uns _ ver -- meh -- _ _ ren, Was er uns aus _ Gna -- den ver - heißt,
 }
 
-tenorVersoOneLyrics = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {\set stanza = 1
                                   \repeat unfold 50 { \skip1 }
                                   ihm tröst -- lich soll'n an -- han -- _ gen.
                                   \repeat unfold 7 { \skip1 }
                                   A -- men, wir wer -- dens er -- lan -- _ gen,
 }
 
-bassVersoOneLyrics = \lyricmode {
+bassLyricsOne = \lyricmode {
       \set stanza = 1
    Sei Lob und Preis _ mit Eh -- _ _ ren Gott Va -- ter, _ Sohn _ Hei -- li -- gem _ Geist! daß wir __ _ ihm fest ver -- trau -- _ _ en, gänz -- lich __ _ ver -- laß'n auf _ ihn, von Her - zen auf _ ihn bau -- _ _ en, daß uns'r _ Herz, Mut und _ Sinn ihm tröst - lich soll'n _ an -- han -- _ _ gen. drauf sin -- _ gen wir zur _ Stund: A -- men, _ wir wer - den's er -- lan -- gen, glaub'n wir __ _ aus Her -- zens _ Grund.
 }
 
-bassVersoTwoLyrics = \lyricmode {
+bassLyricsTwo = \lyricmode {
       \set stanza = 2
    Der woll' in uns _ ver -- meh -- _ _ ren, Was er uns _ aus _ Gna -- den ver - heißt,
 }
 
-tenorVersoTwoLyrics = \lyricmode {
+tenorLyricsTwo = \lyricmode {
       \set stanza = 2
    Der woll' in uns _ ver -- meh - ren, Was er uns aus Gna -- den ver -- heißt,
 }

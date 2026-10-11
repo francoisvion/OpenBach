@@ -109,7 +109,7 @@ bassMusic = \relative c {
   g,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    \tweak X-offset #-3.5 "1. Du" \tweak X-offset #0 Le -- bens -- fürst, __ _ _ Herr Je -- su Christ,
    der du bist auf -- ge -- nom -- men
@@ -119,13 +119,13 @@ versoOneLyrics = \lyricmode {
    und dir gnug Ehr er -- wei -- sen?
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Gen Him -- mel, da __ _ _  dein Va -- ter ist,
    und die Ge -- mein der From -- men,
 }
 
-sopranoVersoOneLyrics = \lyricmode {
+sopranoLyricsThree = \lyricmode {
 \set stanza = 1
    \tweak X-offset #-6 "13. Zieh" \tweak X-offset #0 uns dir nach, __ _ _   so lau -- fen wir,
    gieb uns des Glau -- bens Flü -- gel!
@@ -135,7 +135,7 @@ sopranoVersoOneLyrics = \lyricmode {
    dein An -- ge -- sicht zu se -- hen?
 }
 
-sopranoVersoTwoLyrics = \lyricmode {
+sopranoLyricsFour = \lyricmode {
 \set stanza = 2
    hilf, dass wir flie -- _ _ hen weit von hier,
    auf I -- sra -- e -- lis Hü -- gel.

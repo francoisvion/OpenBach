@@ -82,7 +82,7 @@ bassMusic = {
   a,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Ich dank' dir, lie -- ber Her -- _ re,
    dass du mich hast __ _ _ be -- wahrt
@@ -92,7 +92,7 @@ versoOneLyrics = \lyricmode {
    halfst du mir, Her -- _ _ _ _ re Gott.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    in die -- ser Nacht Ge -- fäh -- _ re,
    da -- rin ich lag __ _ _ so hart

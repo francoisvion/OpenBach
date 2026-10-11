@@ -182,7 +182,7 @@ bassMusic = {
   a,2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Wie sich ein Vatr er -- bar -- _ met
    üb'r sei -- _ ne jun -- ge Kind -- lein klein:
@@ -196,7 +196,7 @@ versoOneLyrics = \lyricmode {
    sein End, das ist __ _ _ _ ihm nah.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    So tut der Herr uns Ar -- _ men,
    so wir __ _ ihn kind -- lich fürch -- ten rein.

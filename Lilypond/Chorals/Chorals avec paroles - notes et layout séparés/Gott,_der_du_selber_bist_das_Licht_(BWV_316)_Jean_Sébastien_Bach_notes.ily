@@ -66,7 +66,7 @@ bassMusic = {
   bes,8 [g,] d4 g,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Gott, der du sel -- ber bist das Licht,
    dess Güt' und Treu -- e stir -- bet nicht,
@@ -75,7 +75,7 @@ versoOneLyrics = \lyricmode {
    da ich schlief, er -- hal -- ten hat.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    nach -- dem durch dei -- ne gro -- ße Macht, 
    der hel -- le Tag die fin -- stre Nacht

@@ -74,7 +74,7 @@ bassMusic = {
   c8 [bes,] c4 f,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyrics = \lyricmode {
 Wer hat dich so ge -- schla -- gen,
                             mein Heil, und dich mit Pla -- gen
                             so ü -- bel zu -- ge -- richt'?

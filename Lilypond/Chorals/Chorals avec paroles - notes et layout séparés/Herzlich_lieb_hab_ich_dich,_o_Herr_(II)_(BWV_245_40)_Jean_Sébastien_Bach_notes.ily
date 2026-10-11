@@ -106,7 +106,7 @@ bassMusic = {
   ees,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Ach Herr, lass dein lieb En -- ge -- lein
    am letz -- ten End die See -- le mein
@@ -120,7 +120,7 @@ versoOneLyrics = \lyricmode {
    ich will dich prei -- sen e -- wig -- lich!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    den Leib in seim Schlaf -- käm -- mer -- lein
    gar sanft ohn ein -- ge Qual und Pein

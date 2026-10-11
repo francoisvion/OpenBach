@@ -166,7 +166,7 @@ bassMusic = {
   c2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Nun lob', mein' Seel', den Her -- _ ren,
    was in mir ist, den Na -- men __ _ sein,
@@ -180,7 +180,7 @@ versoOneLyrics = \lyricmode {
    die leid'n __ _ in sei -- nem _ Reich.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    sein Wohl -- tat tut er meh -- _ ren,
    ver -- giss es nicht, o Her -- _ ze mein,

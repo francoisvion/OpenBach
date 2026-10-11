@@ -70,7 +70,7 @@ bassMusic = {
     g g, c\fermata }
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    \tweak X-offset #-5 "6. Heut" lebst du, heut be -- keh -- re dich,
    eh Mor -- gen kommt, kann's än -- dern sich;
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    dein Seel und Leib dort lei -- den muss.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    \tweak X-offset #-4.5 "7. Hilf," o Herr Je -- su, hilf du mir,
    dass ich noch heu -- te komm zu dir,

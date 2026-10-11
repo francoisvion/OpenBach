@@ -70,7 +70,7 @@ bassMusic = {
   b, [g,] a,4 d\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Das Wort sie sol -- len las -- sen stahn
    und kein' Dank da -- zu ha -- _ ben.
@@ -81,7 +81,7 @@ versoOneLyrics = \lyricmode {
    das Reich muss uns doch blei -- _ ben.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Er ist bei uns wohl auf dem Plan
    mit sei -- nem Geist und Ga -- _ ben.

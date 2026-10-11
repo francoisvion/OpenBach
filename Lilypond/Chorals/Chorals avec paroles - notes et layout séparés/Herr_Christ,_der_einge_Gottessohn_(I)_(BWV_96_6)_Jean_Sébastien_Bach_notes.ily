@@ -62,7 +62,7 @@ bassMusic = {
   f,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Er tödt uns durch dein Gü -- te,
    er -- weckt uns durch dein Gnad;
@@ -71,7 +71,7 @@ versoOneLyrics = \lyricmode {
    und G'dan -- ken hab'n zu dir.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    den al -- ten Men -- schen krän -- ke,
    dass der neu' Le -- ben hab

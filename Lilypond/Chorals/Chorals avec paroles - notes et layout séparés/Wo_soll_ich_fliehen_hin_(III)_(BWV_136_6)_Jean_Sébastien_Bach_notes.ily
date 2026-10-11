@@ -66,7 +66,7 @@ bassMusic = {
   e [cis] fis [fis,] b,4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyrics = \lyricmode {
   Dein Blut, der ed -- le Saft,
   hat sol -- che Stärk und Kraft,
   dass auch ein Tröpf -- lein klei -- ne die gan -- ze Welt könnt rei -- ne,

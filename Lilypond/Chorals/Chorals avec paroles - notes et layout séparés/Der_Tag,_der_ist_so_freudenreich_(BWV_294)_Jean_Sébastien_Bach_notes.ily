@@ -86,12 +86,12 @@ bassMusic = {
   b, [g,] d4 g,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Der Tag, der ist so freu -- den -- reich al -- ler Cre -- a -- tu -- _ re, von ei -- ner Jung -- frau ist ge -- bor'n, Ma -- ri -- a du bist aus -- er -- kor'n, dass du Mut -- ter wä -- _ rest. Was ge -- schah so wun -- der -- lich? Got -- tes Sohn vom Him -- mel -- reich der __ _ ist Mensch ge -- bo -- _ ren.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    denn Got -- tes Sohn vom Him -- mel reich, ü -- ber die Na -- tu -- _ re,
 }

@@ -70,7 +70,7 @@ bassMusic = {
   d2 g,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Mein Gott, öff -- ne mir die Pfor -- ten
    Sol -- cher Gnad und Gü -- tig -- keit,
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    und ja nun nicht mehr be -- trü -- be.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Lass mich all -- zeit al -- le -- ror -- ten
    Schme -- cken dei -- ne Sü -- ßig -- keit!

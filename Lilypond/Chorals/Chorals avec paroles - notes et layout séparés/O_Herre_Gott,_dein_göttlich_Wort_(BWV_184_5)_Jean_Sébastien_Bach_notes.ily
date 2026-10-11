@@ -82,7 +82,7 @@ bassMusic = {
   a2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Herr, ich hoff je, du wer -- dest die
    in kei -- ner Not ver -- las -- _ _ sen,
@@ -93,7 +93,7 @@ versoOneLyrics = \lyricmode {
    fröh -- lich und wil -- lig ster -- _ _ ben.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    die dein Wort recht als treu -- e Knecht
    im Herzn und Glau -- ben fas -- _ _ sen;

@@ -62,7 +62,7 @@ bassMusic = {
   e [b,] c [d] g,4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Gu -- tes und die Barm -- her -- zig -- keit
    fol -- gen mir nach im Le -- _ ben,
@@ -71,7 +71,7 @@ versoOneLyrics = \lyricmode {
    bei Chri -- sto, mei -- nem Her -- _ ren.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    und ich werd blei -- ben al -- le -- zeit
    im Haus des Her -- ren e -- _ ben,

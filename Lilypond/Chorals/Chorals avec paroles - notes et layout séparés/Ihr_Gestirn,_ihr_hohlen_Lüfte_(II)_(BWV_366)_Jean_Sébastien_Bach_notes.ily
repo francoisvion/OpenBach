@@ -86,7 +86,7 @@ bassMusic = \relative c {
   d,2 d4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Ihr Ge -- stirn', ihr hoh -- len Lüf -- te
    und du, lich -- tes Fir -- ma -- ment;
@@ -94,7 +94,7 @@ versoOneLyrics = \lyricmode {
    jetzt bis durch die Wol -- _ ken drin -- gen.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    tie -- fes Rund, ihr dun -- klen Klüf -- te,
    die der Wie -- der -- hall zer -- trennt.

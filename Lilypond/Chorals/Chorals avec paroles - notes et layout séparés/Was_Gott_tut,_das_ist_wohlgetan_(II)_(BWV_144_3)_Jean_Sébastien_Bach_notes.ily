@@ -62,7 +62,7 @@ bassMusic = {
   d2 g,4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Was Gott thut, das ist wohl -- ge -- tan,
    es bleibt ge -- recht sein Wil -- le
@@ -72,7 +72,7 @@ versoOneLyrics = \lyricmode {
    drum lass' ich ihn nur wal -- ten.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    wie er fängt mei -- ne Sa -- chen an,
    will ich ihm hal -- ten stil -- le.

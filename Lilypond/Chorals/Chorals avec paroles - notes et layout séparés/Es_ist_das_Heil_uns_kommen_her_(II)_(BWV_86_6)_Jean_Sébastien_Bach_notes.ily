@@ -64,7 +64,7 @@ bassMusic = {
   ais, b, e,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Die Hoff -- nung wart' der rech -- ten Zeit,
    was Got -- tes Wort zu -- sa -- _ get,
@@ -73,7 +73,7 @@ versoOneLyrics = \lyricmode {
    des solln wir ihm ver -- trau -- _ en.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    wenn das ge -- sche -- hen soll zur Freud,
    setzt Gott kein g'wis -- se Ta -- _ ge.

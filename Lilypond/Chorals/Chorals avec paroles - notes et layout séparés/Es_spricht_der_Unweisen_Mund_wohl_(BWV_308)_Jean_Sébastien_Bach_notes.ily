@@ -62,7 +62,7 @@ bassMusic = {
   f2 bes,4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Es spricht der Un -- wei -- sen Mund wohl:
    Den rech -- ten Gott wir mei -- _ nen,
@@ -71,7 +71,7 @@ versoOneLyrics = \lyricmode {
    es tut Ihr Kei -- ner kein -- _ Gut.
 }
 
-sopranoVersoOneLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    doch ist ihr Herz Un -- glau -- bens voll,
    mit Tat sie ihn ver -- nei -- _ nen,

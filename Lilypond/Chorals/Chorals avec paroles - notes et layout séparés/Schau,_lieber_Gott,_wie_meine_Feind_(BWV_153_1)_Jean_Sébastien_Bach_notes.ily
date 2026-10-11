@@ -62,7 +62,7 @@ bassMusic = {
   d4 dis e\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Schau, lie -- ber Gott, wie mei -- ne Feind,
    da -- mit ich stets muss käm -- _ pfen!
@@ -71,7 +71,7 @@ versoOneLyrics = \lyricmode {
    mich leicht in Un -- glück stür -- _ zen.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    So li -- stig und so mäch -- tig seind,
    dass sie mich leicht -- lich däm -- _ pfen!

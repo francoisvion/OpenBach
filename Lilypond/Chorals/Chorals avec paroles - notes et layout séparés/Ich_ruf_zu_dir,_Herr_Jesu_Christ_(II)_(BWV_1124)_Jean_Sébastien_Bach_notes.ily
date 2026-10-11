@@ -82,7 +82,7 @@ bassMusic = {
   b,2 e2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
     Ich ruf' zu dir, Herr Je -- su Christ!
     Ich bitt' er -- hör' mein kla -- gen,
@@ -93,7 +93,7 @@ versoOneLyrics = \lyricmode {
     Dein wort zu hal -- ten e -- _ ben.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2    
     Ver -- leih' mir gnad' zu die -- ser frist,
     Lass mich doch nicht ver -- za -- gen,

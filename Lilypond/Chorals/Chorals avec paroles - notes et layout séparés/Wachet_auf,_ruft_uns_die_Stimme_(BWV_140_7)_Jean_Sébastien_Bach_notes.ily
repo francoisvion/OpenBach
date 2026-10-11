@@ -90,7 +90,7 @@ bassMusic = {
     f, bes, ees,2\fermata \fine}
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Glo -- ri -- a sei dir ge -- sun -- gen
    mit Men -- schen und __ _ eng -- li -- schen Zun -- _ gen,
@@ -103,7 +103,7 @@ versoOneLyrics = \lyricmode {
    e -- wig in dul -- ci ju -- _ bi -- lo.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Von zwölf Per -- len sind die Pfor -- ten
    an dei -- ner Stadt __ _ sind wir Kon -- sor -- _ ten

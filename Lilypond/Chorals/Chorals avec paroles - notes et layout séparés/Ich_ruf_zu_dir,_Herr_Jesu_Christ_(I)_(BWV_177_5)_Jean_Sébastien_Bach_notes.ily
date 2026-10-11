@@ -74,7 +74,7 @@ bassMusic = {
   d'4 d g,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Ich lieg im Streit und wi -- der -- streb,
    hilf, o Herr Christ, dem Schwa -- chen!
@@ -85,7 +85,7 @@ versoOneLyrics = \lyricmode {
    ich weiß, du wirsts nicht las -- _ sen.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    An dei -- ner Gnad al -- lein ich kleb,
    du kannst mich stär -- ker ma -- chen.

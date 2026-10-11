@@ -82,7 +82,7 @@ bassMusic = {
   bes,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Gott -- lob, es geht nun -- mehr zu En -- de,
    der mei -- ste Kampf ist nun voll -- bracht;
@@ -90,7 +90,7 @@ versoOneLyrics = \lyricmode {
    mein Je -- sus ist mein letz -- tes Wort.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    mein Je -- sus reicht mir schon die Hän -- de,
    mein Je -- sus, der mich se -- lig macht.

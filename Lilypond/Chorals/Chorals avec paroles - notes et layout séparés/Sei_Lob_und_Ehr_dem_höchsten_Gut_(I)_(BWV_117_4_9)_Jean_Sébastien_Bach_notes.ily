@@ -62,7 +62,7 @@ bassMusic = {
   cis d g,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    \tweak X-offset #-3.5 "4. Ich" \tweak X-offset #0 rief zum Herrn in mei -- ner Not:
    Ach Gott, ver -- nimm mein Schrei -- _ en!
@@ -71,13 +71,13 @@ versoOneLyrics = \lyricmode {
    Gebt un -- serm Gott die Eh -- _ re!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Da half mein Hel -- fer mir vom Tod
    und ließ mir Trost ge -- dei -- _ hen.
 }
 
-versoThreeLyrics = \lyricmode {
+sopranoLyricsThree = \lyricmode {
 \set stanza = 3
    \tweak X-offset #-3.5 "9. So" \tweak X-offset #0 kom -- met vor sein An -- ge -- sicht
    mit jauch -- zen -- vol -- lem Sprin -- _ gen;
@@ -86,7 +86,7 @@ versoThreeLyrics = \lyricmode {
    Gebt un -- serm Gott die Eh -- _ re!
 }
 
-versoFourLyrics = \lyricmode {
+sopranoLyricsFour = \lyricmode {
 \set stanza = 4
    be -- zah -- let die ge -- lob -- te Pflicht
    und lasst uns fröh -- lich sin -- _ gen:

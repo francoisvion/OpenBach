@@ -50,13 +50,13 @@
       >>
     }
     
-    \new Lyrics \with { alignAboveContext = #"upper" } \lyricsto "soprano" \versoOneLyrics
+    \new Lyrics \with { alignAboveContext = #"upper" } \lyricsto "soprano" \sopranoLyricsOne
     
-    \new Lyrics \with { alignAboveContext = #"upper" } \lyricsto "soprano" \versoTwoLyrics
+    \new Lyrics \with { alignAboveContext = #"upper" } \lyricsto "soprano" \sopranoLyricsTwo
     
-       \new Lyrics \lyricsto "alto" \altoVersoOneLyrics
+       \new Lyrics \lyricsto "alto" \altoLyricsOne
     
-    \new Lyrics \lyricsto "alto" \altoVersoTwoLyrics
+    \new Lyrics \lyricsto "alto" \altoLyricsTwo
     
     \new Staff = "lower" \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -68,12 +68,12 @@
         
         \new Voice = "bass" \bassMusic
         
-    \new Lyrics \with { alignAboveContext = #"lower" } \lyricsto "tenor" \tenorVersoOneLyrics
-    \new Lyrics \lyricsto "tenor" \tenorVersoTwoLyrics
+    \new Lyrics \with { alignAboveContext = #"lower" } \lyricsto "tenor" \tenorLyricsOne
+    \new Lyrics \lyricsto "tenor" \tenorLyricsTwo
     
-    \new Lyrics \lyricsto "bass" \bassVersoOneLyrics
+    \new Lyrics \lyricsto "bass" \bassLyricsOne
     
-    \new Lyrics \lyricsto "bass" \bassVersoTwoLyrics
+    \new Lyrics \lyricsto "bass" \bassLyricsTwo
       >>
     }
   >>

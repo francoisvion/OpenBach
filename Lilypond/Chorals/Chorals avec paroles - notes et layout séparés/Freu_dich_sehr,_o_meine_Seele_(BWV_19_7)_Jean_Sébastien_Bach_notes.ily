@@ -126,7 +126,7 @@ bassMusic = {
   c\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Lass dein En -- gel mit mir fah -- ren,
    auf E -- li -- as Wa -- gen rot,
@@ -136,7 +136,7 @@ versoOneLyrics = \lyricmode {
    und mit ihr ver -- ei -- nigt wer -- de.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Und mein See -- le wohl be -- wah -- ren,
    wie Laz -- rum nach sei -- nem Tod,

@@ -70,7 +70,7 @@ bassMusic = {
   e,1\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Un -- ter dei -- nen Schir -- men
    bin ich für den Stür -- men
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    Je -- sus will mich de -- cken.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Lass den Sa -- tan wit -- tern,
    lass den Feind er -- bit -- tern,

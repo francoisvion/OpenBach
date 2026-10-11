@@ -74,7 +74,7 @@ bassMusic = {
     e4 e, a,2\fermata }
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    \tweak X-offset #-5 "1. Herr," wie du willst, so schick's mit mir
    im Le -- ben wie im Ster -- ben,     
@@ -83,13 +83,13 @@ versoOneLyrics = \lyricmode {
    dein Will', der ist __ _ der __ _ bes -- te.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Al -- lein zu dir steht mein Be -- gier,
    lass mich, Herr, nicht ver -- der -- ben.
 }
 
-versoThreeLyrics = \lyricmode {
+sopranoLyricsThree = \lyricmode {
 \set stanza = 3
    \tweak X-offset #-5 "2. Wer" in dem Schutz des Höch -- sten ist,
    und sich Gott thut er -- ge -- ben,      
@@ -98,7 +98,7 @@ versoThreeLyrics = \lyricmode {
    und von der Pe -- _ sti -- _ len -- ze.
 }
 
-versoFourLyrics = \lyricmode {
+sopranoLyricsFour = \lyricmode {
 \set stanza = 4
    der spricht: du, Herr, mein' Zu -- flucht bist,
    mein Gott, Hoff -- nung und Le -- ben,

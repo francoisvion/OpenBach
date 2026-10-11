@@ -70,7 +70,7 @@ bassMusic = {
   f2 bes,4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Rich -- te dich, Lieb -- ste, nach mei -- nem Ge -- fal -- len und gläu -- be,
    der dich er -- götzt
@@ -78,7 +78,7 @@ versoOneLyrics = \lyricmode {
    aus dem ge -- mar -- ter -- ten Lei -- be.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    dass ich dein See -- len -- freund im -- mer und e -- wig ver -- blei -- be,
 }

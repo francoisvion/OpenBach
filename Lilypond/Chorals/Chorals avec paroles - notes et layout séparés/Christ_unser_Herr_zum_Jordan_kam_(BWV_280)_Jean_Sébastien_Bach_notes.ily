@@ -78,7 +78,7 @@ bassMusic = {
   e8 [d] e4 a,\fermata \fine
 }
 
-sopranoLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
   Christ, un -- ser Herr, zum Jor -- dan kam
   nach sei -- nes Va -- ters Wil -- _ len,

@@ -70,7 +70,7 @@ bassMusic = {
   ees,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    In mei -- nes Her -- zen Grun -- de
    dein Nam und Kreuz al -- lein
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    dich hast ge -- blut't zu Tod.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Fun -- kelt all Zeit und Stun -- de,
    drauf kann ich fröh -- lich sein.

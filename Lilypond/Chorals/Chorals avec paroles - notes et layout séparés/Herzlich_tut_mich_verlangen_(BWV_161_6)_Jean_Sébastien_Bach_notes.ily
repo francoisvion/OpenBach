@@ -70,7 +70,7 @@ bassMusic = {
   gis, a, e,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Der Leib zwar in der Er -- den
    von Wür -- mern wird ver -- zehrt,
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    Was schadt mir denn der Tod?
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    doch auf -- er -- weckt soll wer -- den,
    durch Chri -- stum schön ver -- klärt,

@@ -74,7 +74,7 @@ bassMusic = {
   f2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    \tweak X-offset #-3.0 "1. O" Haupt voll Blut und Wun -- den,
    voll Schmerz und vol -- ler Hohn,
@@ -84,13 +84,13 @@ versoOneLyrics = \lyricmode {
    ge -- grü -- ßet seist du mir!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    O Haupt, zu Spott ge -- bun -- den
    mit ei -- ner Dor -- nen -- kron,
 }
 
-sopranoVersoOneLyrics = \lyricmode {
+sopranoLyricsThree = \lyricmode {
 \set stanza = 1
    \tweak X-offset #-3.0 "2. Du" ed -- les An -- ge -- sich -- te,
    da -- für sonst schrickt und scheut
@@ -100,7 +100,7 @@ sopranoVersoOneLyrics = \lyricmode {
    so schän -- dlich zu -- ge -- richt'?
 }
 
-sopranoVersoTwoLyrics = \lyricmode {
+sopranoLyricsFour = \lyricmode {
 \set stanza = 2
    das gro -- ße Welt -- ge -- rich -- te,
    wie bist du so be -- speit;

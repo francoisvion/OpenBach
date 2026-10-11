@@ -70,7 +70,7 @@ bassMusic = {
   e,1\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Gu -- te Nacht, o We -- sen,
    das die Welt er -- le -- sen!
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    gu -- te Nacht ge -- ge -- ben!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    \repeat unfold 3 {\skip1} ihr Sün -- den,
    blei -- bet weit da -- hin -- ten,

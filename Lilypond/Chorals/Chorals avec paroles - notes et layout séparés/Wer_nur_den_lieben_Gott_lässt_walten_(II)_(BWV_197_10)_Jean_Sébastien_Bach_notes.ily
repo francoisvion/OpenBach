@@ -58,7 +58,7 @@ bassMusic = {
   fis8 [e] fis4 b,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    So wan -- delt froh auf Got -- tes We -- gen,
    und was ihr tut, da tut ge -- treu!
@@ -66,7 +66,7 @@ versoOneLyrics = \lyricmode {
    auf Gott setzt, den ver -- lässt er nicht.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Ver -- die -- net eu -- res Got -- tes Se -- gen,
    denn der ist al -- le Morg -- en neu;

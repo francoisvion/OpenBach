@@ -70,7 +70,7 @@ bassMusic = {
     e4 e a,\fermata }
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    \tweak X-offset #-4 "3. Wer" hat dich so ge -- schla -- gen,
    mein Heil, und dich mit Pla -- gen
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    von Mis -- se -- ta -- ten weißt du nicht.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    \tweak X-offset #-4 "4. Ich," ich und mei -- ne Sün -- den,
    die sich wie Körn -- lein fin -- den

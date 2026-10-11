@@ -70,7 +70,7 @@ bassMusic = {
   c [a,] d4 g,2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Singt dem Herrn ein neu -- es Lied:
    die Ge -- mei -- ne soll ihn lo -- ben,
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    Sei -- ner soll er nicht ver -- ges -- sen.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    weil er ih -- ren Gren -- zen Fried'
    hat ver -- lie -- hen hoch von o -- ben.

@@ -66,7 +66,7 @@ bassMusic = {
   c c f,\fermata }
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    \tweak X-offset #-4.0 \markup{"11. So"} -- lang ein Gott im Him -- mel lebt
    und ü -- ber al -- le Wol -- ken schwebt,
@@ -75,14 +75,14 @@ versoOneLyrics = \lyricmode {
    Wenn Gott nicht mehr wird e -- wig sein.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Es wird sie pla -- gen Kält und Hitz,
    Angst, Hun -- ger, Schre -- cken, Feu'r und Blitz
    und sie doch nicht ver -- zeh -- ren.
 }
 
-sopranoVersoOneLyrics = \lyricmode {
+sopranoLyricsThree = \lyricmode {
 \set stanza = 1
    \tweak X-offset #-4 \markup{"16. O"} E -- wig -- keit, du Don -- ner -- wort,
    O Schwert, das durch die See -- le bohrt,
@@ -91,7 +91,7 @@ sopranoVersoOneLyrics = \lyricmode {
    Herr Je -- su, in dein Freu -- den -- zelt!
 }
 
-sopranoVersoTwoLyrics = \lyricmode {
+sopranoLyricsFour = \lyricmode {
 \set stanza = 2
    O E -- wig -- keit, Zeit oh -- ne Zeit,
    ich weiß vor gro -- ßer Trau -- rig -- keit

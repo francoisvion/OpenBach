@@ -66,7 +66,7 @@ bassMusic = {
   a,4 a, d\fermata \fine
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyrics = \lyricmode {
 Leit uns mit dei -- ner rech -- ten Hand,
                             Und se -- gne un -- ser Stadt und Land;
                             Gieb uns all -- zeit dein hei -- lges Wort,

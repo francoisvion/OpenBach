@@ -54,7 +54,7 @@ bassMusic = {
   e b, e,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Durch dein Ge -- fäng -- nis, Got -- tes Sohn,
    muss uns die Frei -- heit kom -- men;
@@ -62,7 +62,7 @@ versoOneLyrics = \lyricmode {
    müsst un -- sre Knecht -- schaft e -- wig sein.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Dein Ker -- ker ist der Gna -- den -- thron,
    die Frei -- statt al -- ler From -- men;

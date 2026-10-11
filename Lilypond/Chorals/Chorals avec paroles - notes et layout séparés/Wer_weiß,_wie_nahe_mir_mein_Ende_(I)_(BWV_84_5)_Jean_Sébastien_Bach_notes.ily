@@ -58,7 +58,7 @@ bassMusic = {
   fis8 [e] fis4 b,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Ich leb' in -- des in Gott ver -- gnü -- get
    und sterb' ohn al -- le Küm -- mer -- nis;
@@ -66,7 +66,7 @@ versoOneLyrics = \lyricmode {
    machst du's mit mei -- nem En -- de gut!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    mir g'nü -- get, wie es mein Gott fü -- get,
    ich glaub' und bin es ganz ge -- wiss:

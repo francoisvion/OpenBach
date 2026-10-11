@@ -70,7 +70,7 @@ bassMusic = {
   gis,4 a, e,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Wie soll ich dich em -- pfan -- gen
    und wie be -- gegn ich dir?
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    mir kund und wis -- send sei.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    o al -- ler Welt Ver -- lan -- gen,
    o mei -- ner See -- len Zier!

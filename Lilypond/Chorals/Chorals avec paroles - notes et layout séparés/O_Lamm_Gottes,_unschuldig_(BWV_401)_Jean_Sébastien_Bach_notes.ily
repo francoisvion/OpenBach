@@ -66,7 +66,7 @@ bassMusic = {
   f,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    O Lamm Got -- tes, un -- schul -- dig,
    am Stamm des Kreuz ge -- schlach -- _ tet,
@@ -75,7 +75,7 @@ versoOneLyrics = \lyricmode {
    Er -- barm' dich un -- ser, o __ _ Je -- su!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    all -- zeit er -- fund'n ge -- dul -- dig,
    wie -- wohl du warst ver -- ach -- _ tet;

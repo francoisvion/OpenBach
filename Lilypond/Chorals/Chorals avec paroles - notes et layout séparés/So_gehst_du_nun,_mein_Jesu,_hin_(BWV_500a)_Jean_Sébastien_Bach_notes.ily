@@ -71,7 +71,7 @@ bassMusic = \relative c {
   \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    So gehst du nun, mein Je -- su, hin,
    den Tod für mich zu lei -- _ den,
@@ -83,7 +83,7 @@ versoOneLyrics = \lyricmode {
    die Lei -- den zu be -- gie -- _ ßen.
 }
 
-sopranoVersoOneLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    für mich, der ich ein Sün -- der bin,
    der dich be -- trübt in Freu -- _ den.

@@ -58,7 +58,7 @@ bassMusic = {
   fis [e] fis4 b,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Sing, bet und geh auf Got -- tes We -- gen,
    ver -- richt das Dei -- ne nur ge -- treu
@@ -66,7 +66,7 @@ versoOneLyrics = \lyricmode {
    auf Gott setzt, den ver -- lässt er nicht.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    und trau des Him -- mels rei -- chem Se -- gen,
    so wird er bei dir wer -- den neu;

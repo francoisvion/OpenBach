@@ -70,7 +70,7 @@ bassMusic = {
   g,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    O Gott, du from -- mer Gott,
    du Brunn -- quell al -- ler Ga -- ben,
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    und rein Ge -- wis -- sen bleib.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Ohn' den nichts ist, was ist,
    von dem wir al -- les ha -- ben,

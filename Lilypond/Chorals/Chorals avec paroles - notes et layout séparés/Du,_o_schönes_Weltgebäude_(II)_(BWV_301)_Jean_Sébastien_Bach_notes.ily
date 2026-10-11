@@ -74,7 +74,7 @@ bassMusic = {
   g [e] a4 d2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Du, o schö -- nes Welt ge -- bäu -- de,
    magst ge -- fal -- len wem du willst,
@@ -84,7 +84,7 @@ versoOneLyrics = \lyricmode {
    al -- ler -- schön -- ster Je -- su mein.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    dei -- ne schein -- bar -- li -- che -- Freu -- de,
    ist mit lau -- ter Angst um -- hüllt.

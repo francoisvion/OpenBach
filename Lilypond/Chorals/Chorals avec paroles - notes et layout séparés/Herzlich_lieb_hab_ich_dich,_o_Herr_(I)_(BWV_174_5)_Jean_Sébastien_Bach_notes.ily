@@ -98,7 +98,7 @@ bassMusic = {
   a a, d\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Herz -- lich lieb hab' ich dich, o Herr,
    ich bitt': woll'st sein von mir nicht fern
@@ -112,7 +112,7 @@ versoOneLyrics = \lyricmode {
    in Schan -- den lass mich nim -- mer -- mehr!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Die gan -- ze Welt er -- freut mich nicht,
    nach Himm'l und Er -- den frag' ich nicht,

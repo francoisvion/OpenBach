@@ -126,7 +126,7 @@ bassMusic = {
   e1 \fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Mit -- ten wir im Le -- ben sind __ _
    mit dem Tod um -- fan -- _ gen;
@@ -142,7 +142,7 @@ versoOneLyrics = \lyricmode {
    Ky -- rie e -- lei -- son!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Wen such'n wir, der Hül -- fe thu',  __ _
    dass wir Gnad' er -- lan -- _ gen?

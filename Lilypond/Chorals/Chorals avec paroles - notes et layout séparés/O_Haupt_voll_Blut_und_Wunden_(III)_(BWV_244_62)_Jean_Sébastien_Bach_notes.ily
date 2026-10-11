@@ -70,7 +70,7 @@ bassMusic = {
   gis, a, e,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Wenn ich ein -- mal soll schei -- den,
    so schei -- de nicht von mir;
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    kraft dei -- ner Angst und Pein!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    wenn ich den Tod soll lei -- den,
    so tritt du dann her -- für;

@@ -73,7 +73,7 @@ bassMusic = {
   d4. d8 e4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Er -- barm' dich mein, o Her -- re Gott,
    nach dei -- ner gross'n Barm -- her -- zig -- keit,
@@ -83,7 +83,7 @@ versoOneLyrics = \lyricmode {
    du bleibst __ _ ge -- recht, ob man ur -- tei -- le dich.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    wasch ab, mach' rein mein Mi -- se -- that,
    ich kenn mein Sünd' und ist mir leid.

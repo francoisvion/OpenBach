@@ -62,14 +62,14 @@ bassMusic = {
   d [b,] e4 a,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
  \set stanza = 1
                                 Wär' Gott nicht mit uns die -- se Zeit, so soll I -- sra -- el sa -- gen,
                                 die so ein ar -- mes Haüf -- lein sind, ver -- acht vor so viel Men -- schen kind,
                                 die an uns se -- tzen al -- le.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
  \set stanza = 2
                                 \repeat unfold 8 {\skip1} wir hät -- ten müsst ver -- za -- gen,
 }

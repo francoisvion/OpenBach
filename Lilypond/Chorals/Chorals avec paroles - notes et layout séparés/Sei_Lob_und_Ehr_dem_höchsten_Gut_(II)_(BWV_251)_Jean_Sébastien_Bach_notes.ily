@@ -61,7 +61,7 @@ bassMusic = {
   e4 c8 [d8] g,4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Sei Lob und Ehr' dem höch -- sten Gut,
    dem Va -- ter al -- ler Gü -- _ te,
@@ -70,7 +70,7 @@ versoOneLyrics = \lyricmode {
    gebt un -- serm Gott die Eh -- _ _ re!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    dem Gott, der al -- le Wun -- der tut,
    dem Gott, der mein Ge -- mü -- _ te

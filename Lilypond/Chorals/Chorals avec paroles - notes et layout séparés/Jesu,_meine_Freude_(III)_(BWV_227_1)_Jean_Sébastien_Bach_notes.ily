@@ -70,7 +70,7 @@ bassMusic = {
   e1\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Je -- su, mei -- ne Freu -- de,
    mei -- nes Her -- zens Wei -- de,
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    nichts sonst Lie -- bers wer -- den.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    ach wie lang, ach lan -- ge
    ist dem Her -- zen ban -- ge

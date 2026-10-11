@@ -58,13 +58,13 @@ bassMusic = {
   e2 a,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Herr, ich ha -- be miss -- ge -- han -- delt, ja mich drückt der Sün -- den Last;
    und jetzt wollt' ich gern aus Schre -- cken mich vor dei -- nem Zorn ver -- ste -- cken.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    ich bin nicht den Weg ge -- wan -- delt, den du mir ge -- zei -- get hast;
 }

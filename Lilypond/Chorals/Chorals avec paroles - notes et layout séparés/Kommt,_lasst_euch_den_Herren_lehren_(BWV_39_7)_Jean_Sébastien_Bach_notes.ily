@@ -70,7 +70,7 @@ bassMusic = {
   f2 bes,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Se -- lig sind, die aus Er -- bar -- men
    sich an -- neh -- men frem -- der Not,
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    und Barm -- her -- zig -- keit er -- lan -- gen.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    sind mit -- lei -- dig mit den Ar -- men,
    bit -- ten treu -- lich für sie Gott.

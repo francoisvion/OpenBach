@@ -58,7 +58,7 @@ bassMusic = {
   d2 g4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Für Freu -- den lasst uns sprin -- gen,
    ihr Chris -- ten all -- zu -- glei -- che!
@@ -66,7 +66,7 @@ versoOneLyrics = \lyricmode {
    wer hat zu -- vor ge -- hört von sol -- chen Din -- _ gen.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Mit Mund und Her -- zen sin -- gen,
    denn Christ vom Him -- mel rei -- che.
