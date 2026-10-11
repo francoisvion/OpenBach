@@ -37,10 +37,10 @@ altoMusic = {
   d'1\fermata
   g'2 a'
   f'2. fis'4
-  g' a' bes'2~
-  bes'4 bes' bes' a'
+  g' a' bes'2
+  bes'4 bes'2 a'4
   f'1\fermata
-  r
+  R1
   f'4 g' a' bes'
   c''2 c'
   d' d'4 c'
@@ -103,28 +103,29 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  \repeat unfold 6 {\skip1}
-  Va -- ter 
-  \repeat unfold 14 {\skip1}
-  war im An -- fang jetzt und im -- mer -- dar
-  und von E -- wig -- keit zu E -- wig -- keit, A -- _ men.
+  Lob und Preis sei Gott dem Va -- ter und dem Sohn
+  und __ _ dem hei -- li -- gen Gei -- _ ste,
+  wie es war im An -- fang jetzt und im -- mer -- dar
+  und von E -- wig -- keit zu E -- wig -- keit, A -- _ men. __
 }
 
 altoLyrics = \lyricmode {
   Lob und Preis sei Gott dem Va -- _ ter und dem Sohn
-  und __ dem hei -- li -- gen Gei -- _ ste,
+  und dem hei -- li -- gen Gei -- _ ste,
   wie es war im An -- fang jetzt und im -- mer -- dar
   und von E -- wig -- keit zu E -- wig -- keit, A -- _ _ _ _ _ _ _ men.
 }
 
 tenorLyrics = \lyricmode {
-  \repeat unfold 22 {\skip1}
-  war im An -- fang jetzt __ _ und __ _ im -- mer -- _ dar
-  und von E -- wig -- keit zu E -- wig -- keit, A -- _ _ _ _ _ _ _ _ _ men.
+  Lob und Preis sei Gott dem Va -- _ ter und dem Sohn
+  und dem hei -- li -- gen Gei -- _ ste,
+  wie es war __ _ _ im An -- fang jetzt __ _ und im -- mer -- dar
+  und von E -- wig -- keit __ zu E -- wig -- keit, A -- _ _ _ _ _ _ _ _ _ men.
 }
 
 bassLyrics = \lyricmode {
-  \repeat unfold 26 {\skip1}
-  war im An -- fang jetzt und im -- _ mer -- dar
+  Lob und Preis sei Gott dem Va -- _ ter __ _ und __ _ dem Sohn
+  und __ _ dem hei -- li -- gen Gei -- _ _ ste,
+  wie es war im An -- fang jetzt und im -- _ mer -- dar
   und von E -- wig -- keit zu E -- wig -- keit, A -- _ _ _ _ _ _ _ _ _ _ _ men.
 }

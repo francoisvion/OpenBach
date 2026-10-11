@@ -15,7 +15,7 @@ sopranoMusic = {
   r4. \bar "'" g'' fis'' e''
   d'' e''4 d''8 c''4 b'8 a'4.
   g' \bar "'" r^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } r2.
-  R1. \fine
+  R1.\fermata \fine
 }
 
 altoMusic = {
@@ -34,7 +34,7 @@ altoMusic = {
   r4. \bar "'" b' c''4 b'8 b'4 a'8
   a'4 g'8 g'4. g' g'4 fis'8
   d'4. \bar "'" r r2.
-  R1. \fine
+  R1.\fermata \fine
 }
 
 tenorMusic = {
@@ -53,7 +53,7 @@ tenorMusic = {
   r4. \bar "'" e' e'4 d'8 d'4 c'8
   c'4 b8 c'4 b8 c'4 d'8 e'4 d'8
   b4. \bar "'" r r2.
-  R1. \fine
+  R1.\fermata \fine
 }
 
 bassMusic = {
@@ -72,12 +72,9 @@ bassMusic = {
   r4. e4 g8 a4 b8 g4 a8
   fis4 g8 c4 d8 e4 d8 c4 d8
   g,4. \bar "'" r r2.
-  R1. \fine
+  R1.\fermata \fine
 }
 
 sopranoLyrics = \lyricmode {
-  Wir sin -- gen dir in dei -- nem Heer
-  aus al -- ler Kraft, __ _ Lob, __ _ Preis und Ehr,
-  dass du, o lang __ _ ge -- wünsch -- _ ter Gast,
-  dich nun -- mehr ein -- ge -- _ stel -- _ let hast.
+  Wir sin -- gen dir in dei -- nem Heer aus al -- ler Kraft, __ _ Lob, __ _ Preis und Ehr, dass du, o lang __ _ ge -- wünsch -- _ ter Gast, dich nun -- mehr ein -- ge -- _ stel -- _ let hast.
 }

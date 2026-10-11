@@ -82,19 +82,21 @@ bassMusic = {
   b,1.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Drum fahrt nur im -- mer hin,
-                             ihr Ei -- tel -- _ kei -- ten,
-                             du, Je -- su, du bist mein,
-                             und __ _ ich bin dein;
-                             Mein gan -- zes Le -- ben
-                             sei dir er -- ge -- ben,
-                             bis man mich ein -- sten legt ins __ _ Grab hin -- ein.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+    Drum fahrt nur im -- mer hin,
+    ihr Ei -- tel -- _ kei -- ten,
+    du, Je -- su, du bist mein,
+    und __ _ ich bin dein;
+    Mein gan -- zes Le -- ben
+    sei dir er -- ge -- ben,
+    bis man mich ein -- sten legt ins __ _ Grab hin -- ein.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             ich will mich von der Welt
-                             zu dir be -- _ rei -- ten;
-                             du sollst in mei -- nem Herz
-                             und __ _ Mun -- de sein.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+    ich will mich von der Welt
+    zu dir be -- _ rei -- ten;
+    du sollst in mei -- nem Herz
+    und __ _ Mun -- de sein.
 }
