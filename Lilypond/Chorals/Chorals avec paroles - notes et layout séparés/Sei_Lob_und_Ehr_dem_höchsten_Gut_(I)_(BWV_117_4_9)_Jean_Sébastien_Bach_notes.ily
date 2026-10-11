@@ -62,28 +62,32 @@ bassMusic = {
   cis d g,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             \tweak X-offset #-3.5 "4. Ich" \tweak X-offset #0 rief zum Herrn in mei -- ner Not:
-                             Ach Gott, ver -- nimm mein Schrei -- _ en!
-                             Drum dank, ach Gott, drum dank ich dir;
-                             ach dan -- ket, dan -- ket Gott mit mir!
-                             Gebt un -- serm Gott die Eh -- _ re!
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   \tweak X-offset #-3.5 "4. Ich" \tweak X-offset #0 rief zum Herrn in mei -- ner Not:
+   Ach Gott, ver -- nimm mein Schrei -- _ en!
+   Drum dank, ach Gott, drum dank ich dir;
+   ach dan -- ket, dan -- ket Gott mit mir!
+   Gebt un -- serm Gott die Eh -- _ re!
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             Da half mein Hel -- fer mir vom Tod
-                             und ließ mir Trost ge -- dei -- _ hen.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   Da half mein Hel -- fer mir vom Tod
+   und ließ mir Trost ge -- dei -- _ hen.
 }
 
-versoThreeLyrics = \lyricmode {\set stanza = 3
-                               \tweak X-offset #-3.5 "9. So" \tweak X-offset #0 kom -- met vor sein An -- ge -- sicht
-                               mit jauch -- zen -- vol -- lem Sprin -- _ gen;
-                               Gott hat es al -- les wohl be -- dacht
-                               und al -- les, al -- les recht ge -- macht.
-                               Gebt un -- serm Gott die Eh -- _ re!
+versoThreeLyrics = \lyricmode {
+\set stanza = 3
+   \tweak X-offset #-3.5 "9. So" \tweak X-offset #0 kom -- met vor sein An -- ge -- sicht
+   mit jauch -- zen -- vol -- lem Sprin -- _ gen;
+   Gott hat es al -- les wohl be -- dacht
+   und al -- les, al -- les recht ge -- macht.
+   Gebt un -- serm Gott die Eh -- _ re!
 }
 
-versoFourLyrics = \lyricmode {\set stanza = 4
-                              be -- zah -- let die ge -- lob -- te Pflicht
-                              und lasst uns fröh -- lich sin -- _ gen:
+versoFourLyrics = \lyricmode {
+\set stanza = 4
+   be -- zah -- let die ge -- lob -- te Pflicht
+   und lasst uns fröh -- lich sin -- _ gen:
 }

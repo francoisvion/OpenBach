@@ -13,7 +13,7 @@ sopranoMusic = \relative c' {
   c c d\fermata d
   d d es\fermata d
   c bes a bes
-  a4. g8 g4\fermata \fine 
+  a4. g8 g4\fermata \fine
 }
 
 altoMusic = \relative c' {
@@ -71,18 +71,20 @@ bassMusic = \relative c {
   \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             So gehst du nun, mein Je -- su, hin,
-                             den Tod für mich zu lei -- _ den,
-                             Wohl -- an! fahr fort,
-                             du e -- dler Hort,
-                             mein Au -- gen sol -- len flie -- _ ßen
-                             ein Trä -- nen -- see,
-                             mich Ach und Weh,
-                             die Lei -- den zu be -- gie -- _ ßen.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   So gehst du nun, mein Je -- su, hin,
+   den Tod für mich zu lei -- _ den,
+   Wohl -- an! fahr fort,
+   du ed -- ler Hort,
+   mein Au -- gen sol -- len flie -- _ ßen
+   ein Trä -- nen -- see,
+   mich Ach und Weh,
+   die Lei -- den zu be -- gie -- _ ßen.
 }
 
-sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
-                                    für mich, der ich ein Sün -- der bin,
-                                    der dich be -- trübt in Freu -- _ den.
+sopranoVersoOneLyrics = \lyricmode {
+\set stanza = 2
+   für mich, der ich ein Sün -- der bin,
+   der dich be -- trübt in Freu -- _ den.
 }

@@ -15,8 +15,8 @@ sopranoMusic = {
 
 altoMusic = {
   \voiceTwo
-  f'4 g' g' f'~
-  f'8 [e'] f'4. e'8 f'4
+  f'4 g' g' f'
+  f'8 [e'] f'4 f'8 [e'] f'4
   f' e' c'2\fermata
   f'4 g'8 [a'] g'4 g'
   a'8 [b'] a'4 a' a'

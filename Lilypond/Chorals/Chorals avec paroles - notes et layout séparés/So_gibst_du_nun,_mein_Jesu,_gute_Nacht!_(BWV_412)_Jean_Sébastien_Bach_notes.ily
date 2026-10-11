@@ -28,7 +28,7 @@ altoMusic = {
   d' g'8 [f'] g'4 ees'
   d' a\fermata r f'
   g'8 [f'] g'4 f'8 [a'] g' [f']
-  e'4 f'2~ f'8 [e']
+  e'4 f' f' f'8 [e']
   f'2\fermata r4 f'
   f' f' f'\fermata f'
   bes'8 [a'] bes'4 a' a'
@@ -86,6 +86,6 @@ sopranoLyrics = \lyricmode {
   Ja, du bist hin, dein Lei -- den ist voll -- bracht.
   Mein Gott is tot,
   sein Geist ist auf -- ge -- ge -- _ ben,
-  mein Gott ist tot, 
+  mein Gott ist tot,
   ein Geist ist auf -- ge -- ge -- _ ben.
 }

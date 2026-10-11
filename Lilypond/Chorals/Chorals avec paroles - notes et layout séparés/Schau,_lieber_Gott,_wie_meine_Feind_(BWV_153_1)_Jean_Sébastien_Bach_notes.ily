@@ -62,15 +62,17 @@ bassMusic = {
   d4 dis e\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Schau, lie -- ber Gott, wie mei -- ne Feind,
-                             da -- mit ich stets muss käm -- _ pfen!
-                             Herr, wo mich dei -- ne Gnad nicht hält,
-                             So kann der Teu -- fel, Fleisch und Welt
-                             mich leicht in Un -- glück stür -- _ zen.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Schau, lie -- ber Gott, wie mei -- ne Feind,
+   da -- mit ich stets muss käm -- _ pfen!
+   Herr, wo mich dei -- ne Gnad nicht hält,
+   so kann der Teu -- fel, Fleisch und Welt
+   mich leicht in Un -- glück stür -- _ zen.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             So li -- stig und so mäch -- tig seind,
-                             dass sie mich leicht -- lich däm -- _ pfen!
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   So li -- stig und so mäch -- tig seind,
+   dass sie mich leicht -- lich däm -- _ pfen!
 }

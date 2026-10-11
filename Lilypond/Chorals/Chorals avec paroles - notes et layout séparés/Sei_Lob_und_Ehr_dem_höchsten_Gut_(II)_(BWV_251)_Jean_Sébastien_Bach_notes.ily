@@ -5,7 +5,7 @@ sopranoMusic = {
     d''4 d'' d''8 [e''] f''4
     e'' d'' c''\fermata d''
     b'8 [a'] g' [a'] b'4 cis''
-    d''4 [e''4] d''4\fermata } d''4
+    d''4 e''4 d''4\fermata } d''4
   g'' fis'' e'' fis''
   g''8 [fis''] e''4 d''\fermata d''
   g'' d'' e'' b'8 [c'']
@@ -27,11 +27,11 @@ altoMusic = {
   b'8 [c''8] b'8 [a'8] g'4 g'4
   fis'8 [e'8] e'8 [fis'8] gis'4\fermata g'4
   a'8 [d'8] g'8 [a'8] d'8 g'4 fis'8
-  [g'8 b8] e'8 [d'8] d'4\fermata \fine
+  g'8 [b8] e'8 [d'8] d'4\fermata \fine
 }
 
 tenorMusic = {
-  \voiceOne\repeat volta 2 {
+  \repeat volta 2 {
     \partial 4  g'4
     d'4 a g8 [b] a [g]
     c'4 d'8 [e'16 f'] e'4\fermata d'
@@ -61,15 +61,17 @@ bassMusic = {
   e4 c8 [d8] g,4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Sei Lob und Ehr' dem höch -- sten Gut,
-                             dem Va -- ter al -- ler Gü -- te,
-                             mit sei -- nem rei -- chen Trost er -- füllt,
-                             dem Gott, der al -- len Jam -- mer stillt:
-                             gebt un -- serm Gott die Eh -- _ _ re!
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Sei Lob und Ehr' dem höch -- sten Gut,
+   dem Va -- ter al -- ler Gü -- _ te,
+   mit sei -- nem rei -- chen Trost er -- füllt,
+   dem Gott, der al -- len Jam -- mer stillt:
+   gebt un -- serm Gott die Eh -- _ _ re!
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             dem Gott, der al -- le Wun -- der thut,
-                             dem Gott, der mein Ge -- mü -- the 
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   dem Gott, der al -- le Wun -- der tut,
+   dem Gott, der mein Ge -- mü -- _ te
 }

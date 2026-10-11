@@ -82,17 +82,19 @@ bassMusic = {
   a2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Herr, ich hoff je, du wer -- dest die
-                             in kei -- ner Not ver -- la -- _ _ ßen,
-                             gibst ihn' be -- reit
-                             die Se -- lig -- keit
-                             und lässt sie nicht ver -- der -- ben.
-                             O Herr, durch dich bitt ich, lass mich
-                             Fröh -- lich und wil -- lig ster -- _ _ ben.    }
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Herr, ich hoff je, du wer -- dest die
+   in kei -- ner Not ver -- las -- _ _ sen,
+   gibst ihn' be -- reit
+   die Se -- lig -- keit
+   und lässt sie nicht ver -- der -- ben.
+   O Herr, durch dich bitt ich, lass mich
+   fröh -- lich und wil -- lig ster -- _ _ ben.
+}
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             die dein Wort recht als treu -- e Knecht
-                             im Herzn und Glau -- ben fa -- _ _ ßen;
- 
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   die dein Wort recht als treu -- e Knecht
+   im Herzn und Glau -- ben fas -- _ _ sen;
 }

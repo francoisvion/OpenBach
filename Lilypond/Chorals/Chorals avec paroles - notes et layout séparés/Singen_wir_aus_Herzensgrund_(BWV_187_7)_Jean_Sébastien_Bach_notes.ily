@@ -68,7 +68,7 @@ tenorMusic = {
   ees' d'8 [c'] bes4
   a g8 [a] bes4
   fis2.\fermata
-  d'2 d'4
+  d'4 d' d'
   c'8 [bes] a [g] a4
   g2 fis4
   bes2.\fermata
@@ -126,22 +126,24 @@ bassMusic = {
   g,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             \tweak X-offset #-4 "4. Gott" hat die Er -- de zu -- ge -- _ richt',
-                             lässts an Nah -- _ rung man -- geln nicht;
-                             Berg und Tal, die macht er nass,
-                             dass __ _ dem Vieh auch wächst sein Gras;
-                             aus der Er -- _ den Wein __ _ und Brot
-                             schaf -- fet Gott __ _ und gibts __ _ uns satt,
-                             dass der __ _ Mensch sein Le -- ben hat.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   \tweak X-offset #-4 "4. Gott" hat die Er -- de zu -- ge -- _ richt',
+   lässts an __ _ Nah -- rung man -- geln nicht;
+   Berg und Tal, die macht er nass,
+   dass __ _ dem Vieh auch wächst sein Gras;
+   aus der Er -- _ den Wein __ _ und Brot
+   schaf -- fet Gott __ _ und gibts __ _ uns satt,
+   dass der __ _ Mensch sein Le -- ben hat.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             \tweak X-offset #-4 "6. Wir" dan -- ken sehr und bit -- _ ten ihn,
-                             dass er uns geb des Geis -- tes Sinn,
-                             dass wir sol -- ches recht ver -- stehn,
-                             stets __ _ in sein' Ge -- bo -- ten gehn,
-                             Sei -- nen Na -- _ men ma -- _ chen groß
-                             In Chris -- to __ _ ohn Un -- _ ter -- lass:
-                             So sing'n __ _ wir das Gra -- ti -- as.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   \tweak X-offset #-4 "6. Wir" dan -- ken sehr und bit -- ten __ _ ihn,
+   dass er uns geb des Geis -- tes Sinn,
+   dass wir sol -- ches recht ver -- stehn,
+   stets __ _ in sein' Ge -- bo -- ten gehn,
+   sei -- nen Na -- _ men ma -- _ chen groß
+   In Chris -- to __ _ ohn Un -- _ ter -- lass:
+   So sing'n __ _ wir das Gra -- ti -- as.
 }
