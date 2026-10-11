@@ -72,7 +72,7 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
    Chri -- stus will die Ko -- ste sein
    und spei -- _ sen die Seel al -- lein,
    der Glaub will keins an -- dern le -- ben.
-   Hal -- _ le -- lu -- jah!
+   Al -- _ le -- lu -- ia!
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
@@ -86,7 +86,7 @@ altoLyricsOne = \lyricmode {\set stanza = 1
    Chri -- stus will die Ko -- ste sein
    und spei -- _ sen die Seel al -- lein,
    der Glaub will keins an -- dern le -- ben.
-   Hal le -- _ lu -- jah!
+   Al le -- _ lu -- ia!
 }
 
 altoLyricsTwo = \lyricmode {\set stanza = 2
@@ -100,7 +100,7 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
    Chri -- stus will die Ko -- ste sein
    und spei -- _ sen die Seel al -- lein,
    der Glaub will keins an -- dern le -- ben.
-   Hal -- _ le -- _ lu -- jah!
+   Al -- _ le -- _ lu -- ia!
 }
 
 tenorLyricsTwo = \lyricmode {\set stanza = 2
@@ -114,7 +114,7 @@ bassLyricsOne = \lyricmode {\set stanza = 1
    Chri -- stus will die Ko -- ste sein
    und spei -- _ sen die Seel al -- lein,
    der Glaub will keins an -- dern le -- ben.
-   Hal -- _ le -- _ lu -- _ jah!
+   Al -- _ le -- _ lu -- _ ia!
 }
 
 bassLyricsTwo = \lyricmode {\set stanza = 2

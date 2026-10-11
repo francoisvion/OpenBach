@@ -72,7 +72,7 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
   des Blut zeich -- net uns -- re Tür,
   das hält der Glaub dem To -- de für;
   der Wür -- ger kann uns nicht rüh -- ren.
-  Al -- _ le -- lu -- ja!
+  Al -- _ le -- lu -- ia!
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
@@ -86,7 +86,7 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   des Blut zeich -- net uns -- re Tür,
   das hält der Glaub dem To -- de für;
   der Wür -- ger kann uns nicht rüh -- ren.
-  Al -- le -- lu -- ja!
+  Al -- le -- lu -- ia!
 }
 
 altoLyricsTwo = \lyricmode {\set stanza = 2
@@ -100,7 +100,7 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   des Blut zeich -- net uns -- re Tür,
   das hält der Glaub dem To -- de für;
   der Wür -- ger kann uns nicht rüh -- ren.
-  Al -- le -- lu -- ja!
+  Al -- le -- lu -- ia!
 }
 
 tenorLyricsTwo = \lyricmode {\set stanza = 2
@@ -114,7 +114,7 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   des Blut zeich -- net uns -- re Tür,
   das hält der Glaub dem To -- de für;
   der Wür -- ger kann uns nicht rüh -- ren.
-  Al -- _ le -- lu -- ja!
+  Al -- _ le -- lu -- ia!
 }
 
 bassLyricsTwo = \lyricmode {\set stanza = 2

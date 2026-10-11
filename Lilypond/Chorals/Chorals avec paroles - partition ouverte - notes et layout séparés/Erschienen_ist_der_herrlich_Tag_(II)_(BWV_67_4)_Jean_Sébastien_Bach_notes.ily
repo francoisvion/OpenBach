@@ -71,7 +71,7 @@ sopranoLyrics = \lyricmode {
   dran sich nei -- mand gnug freu -- en mag:
   Christ, un -- ser Herr, heut tri -- _ um -- phiert,
   all sein Feind er ge -- fan -- gen führt.
-  Al -- le -- lu -- ja!
+  Al -- le -- lu -- ia!
 }
 
 altoLyrics = \lyricmode {
@@ -79,7 +79,7 @@ altoLyrics = \lyricmode {
   dran sich nei -- mand __ _ gnug freu -- en __ _ mag:
   Christ, un -- _ ser Herr, heut tri -- um -- phiert,
   all sein __ _ Feind er ge -- fan -- gen __ _ führt.
-  Al -- le -- lu -- ja!
+  Al -- le -- lu -- ia!
 }
 
 tenorLyrics = \lyricmode {
@@ -87,7 +87,7 @@ tenorLyrics = \lyricmode {
   dran sich nei -- mand gnug freu -- en mag:
   Christ, un __ -- _ ser Herr, __ _ heut tri -- _ um -- phiert,
   all sein Feind er __ _ ge -- fan -- gen __ _ führt.
-  Al -- le -- lu __ -- _ ja!
+  Al -- le -- lu __ -- _ ia!
 }
 
 bassLyrics = \lyricmode {
@@ -95,5 +95,5 @@ bassLyrics = \lyricmode {
   dran sich __ _ nei -- mand __ _ gnug freu -- en __ _ mag:
   Christ, un __ -- _ ser Herr, __ _ heut tri -- _ um -- phiert,
   all sein __ _ Feind er __ _ ge -- fan -- gen __ _ führt.
-  Al -- le -- lu __ -- _ ja!
+  Al -- le -- lu __ -- _ ia!
 }

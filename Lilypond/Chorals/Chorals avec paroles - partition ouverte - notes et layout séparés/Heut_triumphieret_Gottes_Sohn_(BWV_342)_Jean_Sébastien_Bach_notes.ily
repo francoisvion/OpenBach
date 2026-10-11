@@ -107,17 +107,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Heut' tri -- um -- phi -- ret Got -- tes Sohn, der von dem Tod _ er -- stan -- den schon, Hal -- le -- lu -- ja, _ hal -- le -- _ lu -- ja! mit gro -- ßer Pracht und Her -- _ lich -- keit, dess dank'n wir ihm _ in E -- wig -- keit. Hal -- le -- lu -- ja, hal -- le -- lu -- ja!
+  Heut' tri -- um -- phi -- ret Got -- tes Sohn, der von dem Tod _ er -- stan -- den schon, Al -- le -- lu -- ia, _ al -- le -- _ lu -- ia! mit gro -- ßer Pracht und Her -- _ lich -- keit, dess dank'n wir ihm _ in E -- wig -- keit. Al -- le -- lu -- ia, al -- le -- lu -- ia!
 }
 
 altoLyrics = \lyricmode {
-  Heut' tri -- um -- phi -- ret Got -- tes Sohn, der von dem Tod _ er -- stan -- _ den schon, Hal -- le -- lu -- ja, hal -- le -- _ lu -- ja! mit gro -- ßer Pracht und Her -- _ lich -- keit, dess dank'n wir ihm _ in E -- _ wig -- keit. Hal -- le -- lu -- ja, hal -- le -- lu -- _ ja!
+  Heut' tri -- um -- phi -- ret Got -- tes Sohn, der von dem Tod _ er -- stan -- _ den schon, Al -- le -- lu -- ia, al -- le -- _ lu -- ia! mit gro -- ßer Pracht und Her -- _ lich -- keit, dess dank'n wir ihm _ in E -- _ wig -- keit. Al -- le -- lu -- ia, al -- le -- lu -- _ ia!
 }
 
 tenorLyrics = \lyricmode {
-  Heut' tri -- um -- phi -- _ ret Got -- _ tes Sohn, der von dem Tod _ er -- stan -- den schon, Hal -- le -- lu -- ja, _ hal -- le -- _ lu -- ja! mit gro -- ßer Pracht und Her -- _ lich -- keit, dess dank'n wir ihm _ in E -- wig -- keit. Hal -- le -- _ lu -- ja, hal -- le -- lu -- ja!
+  Heut' tri -- um -- phi -- _ ret Got -- _ tes Sohn, der von dem Tod _ er -- stan -- den schon, Al -- le -- lu -- ia, _ al -- le -- _ lu -- ia! mit gro -- ßer Pracht und Her -- _ lich -- keit, dess dank'n wir ihm _ in E -- wig -- keit. Al -- le -- _ lu -- ia, al -- le -- lu -- ia!
 }
 
 bassLyrics = \lyricmode {
-  Heut' tri -- um -- phi -- ret Got -- _ tes Sohn, der von dem Tod _ er -- stan -- _ den schon, Hal -- le -- lu -- ja, hal -- le -- _ lu -- ja! mit gro -- ßer Pracht und Her -- _ lich -- keit, dess dank'n wir ihm _ in E -- _ wig -- keit. Hal -- le -- lu -- ja, _ hal -- le -- lu -- ja!
+  Heut' tri -- um -- phi -- ret Got -- _ tes Sohn, der von dem Tod _ er -- stan -- _ den schon, Al -- le -- lu -- ia, al -- le -- _ lu -- ia! mit gro -- ßer Pracht und Her -- _ lich -- keit, dess dank'n wir ihm _ in E -- _ wig -- keit. Al -- le -- lu -- ia, _ al -- le -- lu -- ia!
 }

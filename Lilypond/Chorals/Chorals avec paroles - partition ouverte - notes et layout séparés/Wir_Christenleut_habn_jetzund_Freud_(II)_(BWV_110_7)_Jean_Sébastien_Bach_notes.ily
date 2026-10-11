@@ -58,8 +58,8 @@ bassMusic = {
   fis2 b,4\fermata \fine
 }
 
-sopranoLyrics = \lyricmode {Al -- le -- lu -- ja!
-                            Al -- le -- lu -- ja!
+sopranoLyrics = \lyricmode {Al -- le -- lu -- ia!
+                            Al -- le -- lu -- ia!
                             Ge -- lobt sei Gott,
                             sin -- gen wir all aus un -- sers Her -- zens Grun -- de.
                             Denn Gott hat heut
@@ -69,8 +69,8 @@ sopranoLyrics = \lyricmode {Al -- le -- lu -- ja!
 }
 
 altoLyrics = \lyricmode {
-  Al -- le -- lu -- ja!
-  Al -- le -- lu -- ja!
+  Al -- le -- lu -- ia!
+  Al -- le -- lu -- ia!
   Ge -- lobt sei Gott,
   sin -- gen wir all aus un -- sers Her -- zens Grun -- _ de.
   Denn Gott hat heut
@@ -79,8 +79,8 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Al -- le -- lu -- ja!
-  Al -- le -- lu -- ja!
+  Al -- le -- lu -- ia!
+  Al -- le -- lu -- ia!
   Ge -- lobt sei Gott,
   sin -- gen wir all aus un -- sers Her -- zens Grun -- _ de.
   Denn Gott hat heut
@@ -89,8 +89,8 @@ tenorLyrics = \lyricmode {
 }
 
 bassLyrics = \lyricmode {
-  Al -- le -- lu -- ja!
-  Al -- le -- lu -- ja!
+  Al -- le -- lu -- ia!
+  Al -- le -- lu -- ia!
   Ge -- lobt sei Gott,
   sin -- gen wir all aus un -- sers Her -- zens Grun -- de.
   Denn Gott hat heut

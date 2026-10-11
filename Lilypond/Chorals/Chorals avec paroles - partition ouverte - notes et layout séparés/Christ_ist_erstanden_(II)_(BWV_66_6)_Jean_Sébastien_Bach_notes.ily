@@ -35,36 +35,36 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Al -- le -- lu -- ja!
-  Al -- le -- lu -- ja!
-  Al -- le -- lu -- ja!
+  Al -- le -- lu -- ia!
+  Al -- le -- lu -- ia!
+  Al -- le -- lu -- ia!
   Des solln wir al -- le froh __ _ sein,
   Chri -- stus will un -- ser Trost __ _ sein.
   Ky -- ri -- e __ e -- leis!
 }
 
 altoLyrics = \lyricmode {
-  Al -- le -- lu -- ja!
-  Al -- le -- lu -- ja!
-  Al -- le -- lu -- ja!
+  Al -- le -- lu -- ia!
+  Al -- le -- lu -- ia!
+  Al -- le -- lu -- ia!
   Des solln wir al -- le froh __ _ sein,
   Chri -- stus will un -- ser Trost __ _ sein.
   Ky -- _ ri -- e e -- leis!
 }
 
 tenorLyrics = \lyricmode {
-  Al -- le -- lu -- ja!
-  Al -- le -- lu -- ja!
-  Al -- le -- lu -- ja!
+  Al -- le -- lu -- ia!
+  Al -- le -- lu -- ia!
+  Al -- le -- lu -- ia!
   Des solln wir al -- le froh __ _ sein,
   Chri -- stus will un -- ser Trost __ _ _ sein.
   Ky -- _ ri -- e e -- leis!
 }
 
 bassLyrics = \lyricmode {
-  Al -- le -- lu -- ja!
-  Al -- le -- lu -- ja!
-  Al -- le -- lu -- ja!
+  Al -- le -- lu -- ia!
+  Al -- le -- lu -- ia!
+  Al -- le -- lu -- ia!
   Des solln wir al -- le froh __ _ sein,
   Chri -- stus will un -- ser Trost __ _ sein.
   Ky -- ri -- e __ _ e -- leis!

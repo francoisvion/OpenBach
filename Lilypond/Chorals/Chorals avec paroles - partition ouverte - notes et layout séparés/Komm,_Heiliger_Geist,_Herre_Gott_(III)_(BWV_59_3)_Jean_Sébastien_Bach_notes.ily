@@ -136,8 +136,8 @@ sopranoLyrics = \lyricmode {
   zu dem Glau -- ben ver -- sam -- melt hast
   das Volk aus al -- _ ler Welt __ _ Zun -- gen;
   das sei dir, Herr, __ _ zu Lob ge -- sun -- _ gen.
-  Al -- le -- lu -- ja,
-  al -- le -- lu -- ja.
+  Al -- le -- lu -- ia,
+  al -- le -- lu -- ia.
 }
 
 altoLyrics = \lyricmode {
@@ -150,8 +150,8 @@ altoLyrics = \lyricmode {
   zu dem Glau -- ben ver -- sam -- melt hast
   das Volk aus al -- _ _ ler Welt __ _ Zun -- _ gen;
   das sei dir, Herr, __ _ _ zu Lob ge -- sun -- _ gen.
-  Al -- le -- _ lu -- ja,
-  al -- le -- _ lu -- ja.
+  Al -- le -- _ lu -- ia,
+  al -- le -- _ lu -- ia.
 }
 
 tenorLyrics = \lyricmode {
@@ -164,8 +164,8 @@ tenorLyrics = \lyricmode {
   zu dem Glau -- ben ver -- sam -- melt hast
   das Volk aus al -- _ _ ler Welt __ _ Zun -- _ gen;
   das sei dir, Herr, __ _ _ zu Lob ge -- sun -- _ gen.
-  Al -- le -- lu -- ja,
-  al -- le -- lu -- _ ja.
+  Al -- le -- lu -- ia,
+  al -- le -- lu -- _ ia.
 }
 
 bassLyrics = \lyricmode {
@@ -178,6 +178,6 @@ bassLyrics = \lyricmode {
   zu dem Glau -- ben ver -- sam -- melt hast
   das Volk aus al -- _ _ ler Welt __ Zun -- _ gen;
   das sei dir, Herr, __ _ zu Lob ge -- sun -- _ gen.
-  Al -- le -- _ lu -- ja,
-  al -- le -- _ lu -- ja.
+  Al -- le -- _ lu -- ia,
+  al -- le -- _ lu -- ia.
 }

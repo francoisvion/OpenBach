@@ -71,7 +71,7 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
    für un -- ser Sünd' ge -- ge -- _ ben,
    Dess wir sol -- len fröh -- lich sein,
    Gott lo -- ben und ihm dank -- bar sein,
-   und sin -- gen Hal -- le -- lu -- _ ja, Hal -- le -- lu -- _ ja!
+   und sin -- gen Al -- le -- lu -- _ ia, Al -- le -- lu -- _ ia!
 }
 
 sopranoLyricsTwo = \lyricmode {\set stanza = 2
@@ -84,7 +84,7 @@ altoLyricsOne = \lyricmode {\set stanza = 1
    für un -- ser Sünd' ge -- ge -- _ _ ben,
    Dess wir sol -- len fröh -- lich sein,
    Gott lo -- ben und ihm dank -- _ bar sein,
-   und sin -- gen Hal -- le -- lu -- _ ja, Hal -- le -- lu -- _ _ ja!
+   und sin -- gen Al -- le -- lu -- _ ia, Al -- le -- lu -- _ _ ia!
 }
 
 altoLyricsTwo = \lyricmode {\set stanza = 2
@@ -97,7 +97,7 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
    für un -- ser Sünd' ge -- ge -- _ ben,
    Dess wir sol -- len fröh -- lich sein,
    Gott lo -- ben und ihm dank -- _ bar sein,
-   und sin -- gen Hal -- le -- lu -- _ ja, Hal -- le -- lu -- _ _ ja!
+   und sin -- gen Al -- le -- lu -- _ ia, Al -- le -- lu -- _ _ ia!
 }
 
 tenorLyricsTwo = \lyricmode {\set stanza = 2
@@ -110,7 +110,7 @@ bassLyricsOne = \lyricmode {\set stanza = 1
    für un -- ser Sünd' ge -- ge -- _ ben,
    Dess wir sol -- len fröh -- lich sein,
    Gott lo -- ben und ihm dank -- bar sein,
-   und sin -- gen Hal -- le -- lu -- _ ja, Hal -- le -- lu ja!
+   und sin -- gen Al -- le -- lu -- _ ia, Al -- le -- lu ia!
 }
 
 bassLyricsTwo = \lyricmode {\set stanza = 2
