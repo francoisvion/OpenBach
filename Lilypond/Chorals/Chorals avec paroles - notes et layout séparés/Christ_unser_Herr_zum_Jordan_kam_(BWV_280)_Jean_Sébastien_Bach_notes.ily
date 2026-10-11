@@ -5,8 +5,7 @@ sopranoMusic = {
     f'4 g' a' g'
     c'' b'8 [a'] a'4\fermata g'
     c'' b' a' g'
-    f' e' d'\fermata }
-  \partial 4  d'
+    f' e' d'\fermata } d'
   g' g' e' a'
   a' gis' a'\fermata a'
   d'' d'' e''8 [d''] c''4
@@ -26,8 +25,7 @@ altoMusic = {
     d' e' f' e'
     e' e' e'\fermata e'
     e' e' f'8 [e'] d'4
-    a8 d'4 cis'8 a4\fermata }
-  \partial 4  a
+    a8 d'4 cis'8 a4\fermata } a
   d' c'8 [b] c' [d'] e'4
   e' e' e'\fermata e'
   a' g' g' a'8 [g']
@@ -47,15 +45,14 @@ tenorMusic = {
     a [b] c'4 c' c'8 [b]
     a4 gis c'\fermata b
     a b8 [cis'] d'4 d8 [e]
-    f [g] a4 f\fermata }
-  \partial 4  f8 [e]
+    f [g] a4 f\fermata } f8 [e]
   d4 g g c'
   b8 [a] b4 c'\fermata c'
   c' b c'8 [b] a4
   b8 [a] gis4 e\fermata gis
   a8 [g] f [g] a [b] cis' [d']
   e'4 a a\fermata f8 [e]
-  d [f] bes4 a bes~
+  d [f] bes4 a bes
   bes e8 [f16 g] f4\fermata d
   b8 [c'] d' [b] c' [b] a4
   a gis e\fermata \fine
@@ -68,8 +65,7 @@ bassMusic = {
     d c f c
     c8 [d] e4 a,\fermata e
     a g f b,8 [cis]
-    d4 a, d\fermata }
-  \partial 4  d8 [c]
+    d4 a, d\fermata } d8 [c]
   b, [a,] g,4 c b,8 [a,]
   e4 e, a,\fermata a8 [g]
   fis4 g c f8 [e]
@@ -83,16 +79,18 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
+\set stanza = 1
   Christ, un -- ser Herr, zum Jor -- dan kam
   nach sei -- nes Va -- ters Wil -- _ len,
   da wollt er stif -- ten uns ein Bad,
   zu wa -- schen uns von Sün -- _ den,
   er -- säu -- fen auch den bit -- tern Tod
   durch sein selbs Blut und Wun -- _ den;
-  es galt ein neu -- es Le -- _ ben.
+  Es galt ein neu -- es Le -- _ ben.
 }
 
 sopranoLyricsTwo = \lyricmode {
+\set stanza = 2
   Von Sankt Jo -- hanns die Tau -- fe nahm,
   sein Werk und Amt zu 'rfül -- _ len;
 }

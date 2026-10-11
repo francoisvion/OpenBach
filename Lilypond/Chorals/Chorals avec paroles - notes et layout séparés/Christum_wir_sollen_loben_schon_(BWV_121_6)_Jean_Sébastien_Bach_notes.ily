@@ -15,8 +15,8 @@ sopranoMusic = {
   g'4 g'8 [a'] b' [c''] d''4~
   d'' b' a'8 [g'] fis' [g']
   a'4 g' fis'2~
-  fis'1 ~
-  fis'
+  fis'1~
+  fis'~
   fis'\fermata \fine
 }
 
@@ -54,12 +54,12 @@ tenorMusic = {
   d'8 [e']
   fis'4 b2 a4
   b8 [cis'] d'4 g8 [a] b4~
-  b8 cis' d'4 cis'8 [dis'] e'4
+  b8 [cis'] d'4 cis'8 [dis'] e'4
   dis'2.\fermata b4
   b b8 [c'] d' [e'] fis'4
   g' g d'8 [e'] fis'4~
   fis' e'8 [d'] cis'4 fis
-  b8 fis b4. ais8 b [cis']
+  b8 fis b4~b8 [ais] b [cis']
   d'1~
   d'4 cis'8 [b] cis'2\fermata \fine
 }
@@ -90,15 +90,19 @@ sopranoLyrics = \lyricmode {
   Lob, Ehr und Dank __ _ sei dir ge -- sagt,
   Christ ge -- born von __ _ der rei -- nen Magd,
   samt Va -- _ ter und dem Heil -- _ _ _ gen Geist
-  von nun an bis __ _ in E -- _ _ wig -- keit. __ _ 
+  von nun an bis in __ in E -- _ _ wig -- keit.
 }
 
 altoLyrics = \lyricmode {
-  \repeat unfold 34 {\skip1 }
-  in E -- _ _ _ _ _ _ _ _ _ _ wig -- keit.
+  Lob, Ehr und Dank __ _ sei dir ge -- sagt,
+  Christ ge -- born __ _ von __ _ der rei -- nen Magd,
+  samt Va -- _ ter und dem Heil -- _ _ gen Geist
+  von nun an bis in E -- _ _ _ _ _ _ _ _ _ _ wig -- keit.
 }
 
 tenorLyrics = \lyricmode {
-  \repeat unfold 37 {\skip1 }
-  E -- _ _ _ _ _ wig -- keit, in E -- _ _ _ wig -- keit.
+  Lob, Ehr und Dank __ _ sei dir ge -- sagt, __
+  Christ ge -- born __ _ von __ _ der rei -- nen Magd,
+  samt Va -- _ ter und dem Heil -- _ _ _ gen Geist
+  von nun an bis in E -- _ _ _ _ _ wig -- keit, in E -- _ _ wig -- keit.
 }

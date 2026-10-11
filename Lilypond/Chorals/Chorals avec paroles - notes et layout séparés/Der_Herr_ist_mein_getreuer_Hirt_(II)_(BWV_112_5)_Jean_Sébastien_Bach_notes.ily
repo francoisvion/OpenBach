@@ -21,7 +21,7 @@ altoMusic = {
     g'4 g' fis' e'8 [fis']
     g'4 g'8 [fis'] g'4\fermata g'
     g' fis'8 [g'] a' [g'] fis'4
-    g'~ g'8 fis' d'4\fermata } d'
+    g'4. fis'8 d'4\fermata } d'
   d' d' e' e'
   e'8 [c'] f' [e'] e'4\fermata fis'
   g' f' e' e'8 [fis']
@@ -62,15 +62,17 @@ bassMusic = {
   e [b,] c [d] g,4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Gu -- tes und die Barm -- her -- zig -- keit
-                             fol -- gen mir nach im Le -- _ ben,
-                             auf Erd in christ -- li -- cher Ge -- mein
-                             und nach dein Tod da werd ich sein
-                             bei Chri -- sto, mei -- nem Her -- _ ren.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Gu -- tes und die Barm -- her -- zig -- keit
+   fol -- gen mir nach im Le -- _ ben,
+   auf Erd in christ -- li -- cher Ge -- mein
+   und nach dein Tod da werd ich sein
+   bei Chri -- sto, mei -- nem Her -- _ ren.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             und ich werd blei -- ben al -- le -- zeit
-                             im Haus des Her -- ren e -- _ ben,
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   und ich werd blei -- ben al -- le -- zeit
+   im Haus des Her -- ren e -- _ ben,
 }

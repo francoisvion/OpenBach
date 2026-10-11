@@ -16,7 +16,7 @@ sopranoMusic = \relative c' {
   g8 [f] es4 d2\fermata
   f4 f g g
   f es d2~
-  d1\fermata \fine 
+  d1\fermata \fine
 }
 
 altoMusic = \relative c' {
@@ -78,17 +78,10 @@ bassMusic = \relative c {
   bes'4 fis g es
   a,8 [b] c4 g2\fermata
   d'4 c b c~
-  c8 [b] c4 fis, g
+  c8 b c4 fis, g
   d'1\fermata \fine
 }
 
 sopranoLyrics = \lyricmode {
-  O hilf, Chris -- te, Got -- tes Sohn
-  durch dein bit -- ter Lei -- _ den,
-  dass wir dir stets un -- ter -- tan,
-  all Un -- tu -- gend mei -- _ den,
-  dei -- nen Tod und sein Ur -- sach
-  frucht -- bar -- lich be -- den -- _ ken,
-  da -- für, wie -- wohl arm und schwach,
-  dir Dank -- op -- fer schen -- _ ken. __
+  O hilf, Chris -- te, Got -- tes Sohn durch dein bit -- ter Lei -- _ den, dass wir dir stets un -- ter -- tan, all Un -- tu -- gend mei -- _ den, dei -- nen Tod und sein Ur -- sach frucht -- bar -- lich be -- den -- _ ken, da -- für, wie -- wohl arm und schwach, dir Dank -- op -- fer schen -- _ ken. __
 }

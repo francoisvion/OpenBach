@@ -36,7 +36,6 @@ altoMusic = \relative c' {
   d2\fermata r4 cis4
   d d d cis
   a2.\fermata \fine
-  
 }
 
 tenorMusic = \relative c {
@@ -57,7 +56,6 @@ tenorMusic = \relative c {
   bes2\fermata r4 a
   a g8 [bes] a [e] a [g]
   fis2.\fermata \fine
-  
 }
 
 bassMusic = \relative c {
@@ -75,15 +73,11 @@ bassMusic = \relative c {
   e f8 [e] d4 e
   a,2\fermata r4 a
   bes b c d
-  g,2 r4 a
+  g,2\fermata r4 a
   d8 [c] bes [g] a2
   d2.\fermata \fine
-  
 }
 
 sopranoLyrics = \lyricmode {
-  Chris -- te, du Bei -- stand dei -- ner Kreuz -- ge -- mein -- e,
-  ei -- le, mit Hülf' und Ret -- tung uns er -- schei -- ne;
-  steu -- re den Fein -- den: ih -- re Blut -- ge -- ri -- chte
-  ma -- che zu ni -- _ chte, ma -- che zu nich -- te.
+  Chris -- te, du Bei -- stand dei -- ner Kreuz -- ge -- mein -- e, ei -- le, mit Hülf' und Ret -- tung uns er -- schei -- ne; steu -- re den Fein -- den: ih -- re Blut -- ge -- ri -- chte ma -- che zu ni -- _ chte, ma -- che zu nich -- te.
 }

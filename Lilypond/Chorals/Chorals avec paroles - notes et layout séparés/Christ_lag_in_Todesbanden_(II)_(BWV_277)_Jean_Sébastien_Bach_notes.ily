@@ -70,15 +70,17 @@ bassMusic = \relative c {
   d,1\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Christ lag in To -- des -- ban -- _ den
-                             für un -- ser Sünd' ge -- ge -- _ ben,
-                             Dess wir sol -- len fröh -- lich sein,
-                             Gott lo -- ben und ihm dank -- bar sein,
-                             und sin -- gen Hal -- le -- lu -- _ ja, Hal -- le -- lu -- _ ja!
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Christ lag in To -- des -- ban -- _ den
+   für un -- ser Sünd' ge -- ge -- _ ben,
+   Dess wir sol -- len fröh -- lich sein,
+   Gott lo -- ben und ihm dank -- bar sein,
+   und sin -- gen Hal -- le -- lu -- _ ja, Hal -- le -- lu -- _ ja!
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             der ist wie -- der er -- stan -- _ den
-                             und hat uns bracht das Le -- _ ben.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   der ist wie -- der er -- stan -- _ den
+   und hat uns bracht das Le -- _ ben.
 }

@@ -30,7 +30,7 @@ altoMusic = {
     b8 [g] d'4 d'\fermata } d'
   d' g'8 [a'] b' [c''] b' [a']
   g'4 g' a'\fermata a'
-  g' g' g' a'~
+  g' g' g' a'
   a'8 g'4 fis'8 d'2\fermata
   c'4 c' d'8 b4 a8
   a [b] a4 a2\fermata
@@ -48,7 +48,7 @@ tenorMusic = {
     \partial 4  b4
     b c' c' d'8 [f']
     e'4 a8 [d'16 c'] b2\fermata
-    d'4 c'8 b4 a b16 [a]
+    d'4 c'8 [b] b [a] a [b16 a]
     g4. fis8 b4\fermata } b
   a8 [c'] b [a] g4 d'
   d' e' fis'\fermata d'8 [c']
@@ -59,7 +59,7 @@ tenorMusic = {
   b4 c' c' d'8 [f']
   e'4 a8 [d'16 c'] b2\fermata
   fis8 [g] a4 a a
-  b e8 [a16 g] fis4\fermata g
+  b e8 [a16 g] fis4\fermata g~
   g e a a
   g fis g\fermata \fine
 }
@@ -86,8 +86,12 @@ bassMusic = {
   b, [g,] d4 g,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Der Tag, der ist so freu -- den -- reich al -- ler Cre -- a -- tu -- _ re, von ei -- ner Jung -- frau ist ge -- bor'n, Ma -- ri -- a du bist aus -- er -- kor'n, dass du Mut -- ter wä -- _ rest. Was ge -- schah so wun -- der -- lich? Got -- tes Sohn vom Him -- mel -- reich der __ _ ist Mensch ge -- bo -- _ ren. }
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Der Tag, der ist so freu -- den -- reich al -- ler Cre -- a -- tu -- _ re, von ei -- ner Jung -- frau ist ge -- bor'n, Ma -- ri -- a du bist aus -- er -- kor'n, dass du Mut -- ter wä -- _ rest. Was ge -- schah so wun -- der -- lich? Got -- tes Sohn vom Him -- mel -- reich der __ _ ist Mensch ge -- bo -- _ ren.
+}
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             denn Got -- tes Sohn vom Him -- mel reich, ü -- ber die Na -- tu -- _ re, }
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   denn Got -- tes Sohn vom Him -- mel reich, ü -- ber die Na -- tu -- _ re,
+}

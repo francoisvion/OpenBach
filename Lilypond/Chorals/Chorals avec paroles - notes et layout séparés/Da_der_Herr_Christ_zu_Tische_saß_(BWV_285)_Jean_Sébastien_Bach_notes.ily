@@ -32,7 +32,7 @@ altoMusic = {
   \partial 4 c'
   ees'8 [f'] g'4 ees' f'
   g' f' g'\fermata g'8 [aes']~
-  aes' [g'] g'4 f'8 [aes'] g' [f']
+  aes' g' g'4 f'8 [aes'] g' [f']
   ees' [d'16 c'] d'8 f'4 e'8\fermata \fine
 }
 
@@ -51,16 +51,16 @@ tenorMusic = {
   \partial 4 g8 [aes]
   bes [aes] bes [des'] c' [bes] aes4
   bes bes bes\fermata c'
-  d'4. c'4 b8 c' [aes]
+  d'4. c'8~c' b8 c' [aes]
   g2 g4\fermata \fine
 }
 
 bassMusic = {
   \voiceTwo
   \partial 4  c4
-  b, c d ees~
+  b, c d ees
   ees d c\fermata b,
-  c2~ c8 [ees] g [f]
+  c2~ c8 ees g f
   ees4 aes g\fermata
   \partial 4  g8 [f]
   ees [d] c4 f8 [g] aes4
@@ -70,7 +70,7 @@ bassMusic = {
   \partial 4 c
   g,8 [f,] ees,4 aes,8 [g,] f,4
   ees,8 [g,] bes,4 ees\fermata c~
-  c8 [b,] c4 d ees8 [f]
+  c8 b, c4 d ees8 [f]
   g4 g, c\fermata \fine
 }
 
