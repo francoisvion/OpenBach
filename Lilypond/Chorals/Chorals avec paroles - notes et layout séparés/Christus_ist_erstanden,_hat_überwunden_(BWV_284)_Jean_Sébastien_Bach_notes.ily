@@ -83,5 +83,12 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Chri -- stus ist er -- stan -- den, hat ü -- ber -- wun -- den, Gnad' ist nun vor -- han -- _ den, Wahr -- heit wird fun -- den. Da -- rum, lie -- ben Leu -- _ te, freut euch heu -- _ te, lo -- bet eu -- ren Her -- ren, Je -- sum, den Kö -- nig der Eh -- _ ren.
+  Chri -- stus ist er -- stan -- den,
+  hat ü -- ber -- wun -- den,
+  Gnad' ist nun vor -- han -- _ den,
+  Wahr -- heit wird fun -- den.
+  Da -- rum, lie -- ben Leu -- _ te,
+  freut euch heu -- _ te,
+  lo -- bet eu -- ren Her -- ren,
+  Je -- sum, den Kö -- nig der Eh -- _ ren.
 }
