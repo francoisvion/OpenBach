@@ -1,5 +1,6 @@
 sopranoMusic = {
   \voiceOne
+  \voiceOne
   \repeat volta 3 {
     c''4 c'' c''
     a' b' c''
@@ -20,6 +21,7 @@ sopranoMusic = {
 }
 
 altoMusic = {
+  \voiceTwo
   \voiceTwo
   \repeat volta 3 {
     e'4 g' g'
@@ -42,6 +44,7 @@ altoMusic = {
 
 tenorMusic = {
   \voiceOne
+  \voiceOne
   \repeat volta 3 {
     g4 c' e'
     c' d' e'
@@ -63,6 +66,7 @@ tenorMusic = {
 
 bassMusic = {
   \voiceTwo
+  \voiceTwo
   \repeat volta 3 {
     c4 e c
     f2 e4
@@ -82,23 +86,26 @@ bassMusic = {
     c2.\fermata }
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             \tweak X-offset #-5.0 "16. Drum" will ich, weil __ _ ich le -- _ be noch, 
-                             das Kreuz dir fröh -- lich tra -- gen nach;
-                             mein Gott, mach mich __ _ da -- zu be -- reit,
-                             es dient zum Be -- sten al -- le Zeit!
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   \tweak X-offset #-5.0 "16. Drum" will ich, weil __ _ ich le -- _ be noch, 
+   das Kreuz dir fröh -- lich tra -- gen nach;
+   mein Gott, mach mich __ _ da -- zu be -- reit,
+   es dient zum Be -- sten al -- le Zeit!
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             \tweak X-offset #-5.0 "17. Hilf" mir mein Sach __ _ recht grei -- _ fen an,
-                             dass ich mein Lauf vol -- len -- den kann,
-                             hilf mir auch zwin -- _ gen Fleisch und Blut,
-                             für Sünd und Schan -- den mich be -- hüt!
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   \tweak X-offset #-5.0 "17. Hilf" mir mein Sach __ _ recht grei -- _ fen an,
+   dass ich mein Lauf vol -- len -- den kann,
+   hilf mir auch zwin -- _ gen Fleisch und Blut,
+   für Sünd und Schan -- den mich be -- hüt!
 }
 
-versoThreeLyrics = \lyricmode {\set stanza = 3
-                               \tweak X-offset #-5.0 "18. Er" -- halt mein Herz __ _ im Glau -- _ ben rein,
-                               so leb und sterb ich dir al -- lein; Je -- su,
-                               mein Trost, __ _ hör mein Be -- gier,
-                               o mein Hei -- land, wär ich bei dir!
+versoThreeLyrics = \lyricmode {
+\set stanza = 3
+   \tweak X-offset #-5.0 "18. Er" -- halt mein Herz __ _ im Glau -- _ ben rein,
+   so leb und sterb ich dir al -- lein; Je -- su,
+   mein Trost, __ _ hör mein Be -- gier,
+   o mein Hei -- land, wär ich bei dir!
 }

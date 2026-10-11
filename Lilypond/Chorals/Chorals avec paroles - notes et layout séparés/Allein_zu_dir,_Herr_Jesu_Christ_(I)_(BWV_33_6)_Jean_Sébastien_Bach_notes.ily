@@ -27,7 +27,7 @@ altoMusic = {
     e'8 [d'] c' [d'] e' [f'] g'4
     g'4. fis'8 g'2
     g'\fermata r4 g'
-    g'8 [f'] e'4 e' e'
+    g'8 [f'] e'4 e'2~
     e'8 [fis'] gis' [a'] b'4 a'
     a' gis' e'\fermata } a'
   a' a' gis' e'
@@ -79,24 +79,26 @@ bassMusic = {
   a, b, c8 [d] e4
   fis gis a\fermata e8 [fis]
   g4 cis8 [dis] e4 a,
-  d8 [f] e [d] a4\fermata f
+  d8 [f] e [d] a4\fermata f~
   f e8 [d] e [f] g4
-  c\fermata c~ c8 d c [b,]
+  c\fermata c c8 [d] c [b,]
   a, [b,] a, [g,] f,4. e,8
   d,4 e, a,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Ehr sei Gott in dem höch -- _ sten Thron,
-                             dem Va -- ter al -- _ _ _ _ ler Gü -- _ te, 
-                             und Gott dem hei -- li -- gen Gei -- ste,
-                             der uns sein Hilf all -- zeit lei -- ste,
-                             da -- mit wir ihm ge -- fäl -- lig sein,
-                             hier in die -- ser Zeit
-                             und fol -- gends in der E -- _ _ wig -- keit.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Ehr sei Gott in dem höch -- _ sten Thron,
+   dem Va -- ter al -- _ _ _ _ ler Gü -- _ te,
+   und Gott dem hei -- li -- gen Gei -- ste,
+   der uns sein Hilf all -- zeit lei -- ste,
+   da -- mit wir ihm ge -- fäl -- lig sein,
+   hier in die -- ser Zeit
+   und fol -- gends in der E -- _ _ wig -- keit.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             und Je -- su Christ, seinm lieb -- _ sten Sohn,
-                             der uns all -- zeit __ _ _ _ _ be -- hü -- _ te,
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   und Je -- su Christ, seinm lieb -- _ sten Sohn,
+   der uns all -- zeit __ _ _ _ _ be -- hü -- _ te,
 }

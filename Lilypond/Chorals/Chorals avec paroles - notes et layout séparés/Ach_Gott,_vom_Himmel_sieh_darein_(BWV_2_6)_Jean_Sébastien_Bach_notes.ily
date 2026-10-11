@@ -45,7 +45,7 @@ tenorMusic = {
   g f8 [g] a [g] fis4
   g8 [c'] a4 bes\fermata bes
   a g g g
-  g2~ g8 f e4
+  g2~ g8 [f] e4
   fis2.\fermata \fine
 }
 
@@ -66,15 +66,17 @@ bassMusic = {
   d2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Das wollst du Gott be -- wah -- ren rein
-                             für die -- sem argn Ge -- schlech -- _ te,
-                             Der gott -- los Hauf sich um -- her findt,
-                             wo sol -- che lo -- se Leu -- te sind
-                             in dei -- nem Volk er -- ha -- _ _ ben.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Das wollst du Gott be -- wah -- ren rein
+   für die -- sem argn Ge -- schlech -- _ te,
+   Der gott -- los Hauf sich um -- her findt,
+   wo sol -- che lo -- se Leu -- te sind
+   in dei -- nem Volk er -- ha -- _ _ ben.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             Und lass uns dir be -- foh -- len sein,
-                             dass sichs in uns nicht flech -- _ te,
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   Und lass uns dir be -- foh -- len sein,
+   dass sichs in uns nicht flech -- _ te,
 }

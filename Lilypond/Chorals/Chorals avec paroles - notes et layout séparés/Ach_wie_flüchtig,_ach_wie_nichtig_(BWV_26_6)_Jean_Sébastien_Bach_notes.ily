@@ -16,7 +16,7 @@ altoMusic = {
   \voiceTwo
   e'4 e' e' e'\fermata
   e' g' g' g'\fermata
-  g' c''4. b'4 a'8
+  g' c''4~c''8 b'4 a'8
   a'4 gis' e'2\fermata
   a'4 a' a' bes'
   bes' a'8 [g'] g' [e'] fis'4\fermata
@@ -55,10 +55,5 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Ach wie flüch -- tig,
-  ach wie nich -- tig
-  sind der Men -- schen Sa -- _ chen!
-  Al -- les, Al -- les was wir se -- hen,
-  das muss fal -- len und ver -- ge -- hen.
-  Wer Gott fürcht, bleibt e -- wig ste -- hen.
+  Ach wie flüch -- tig, ach wie nich -- tig sind der Men -- schen Sa -- _ chen! Al -- les, Al -- les was wir se -- hen, das muss fal -- len und ver -- ge -- hen. Wer Gott fürcht, bleibt e -- wig ste -- hen.
 }

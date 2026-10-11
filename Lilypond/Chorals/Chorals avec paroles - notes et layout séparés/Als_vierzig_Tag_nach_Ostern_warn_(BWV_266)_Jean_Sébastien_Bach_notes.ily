@@ -14,8 +14,7 @@ sopranoMusic = {
   g'2 g'4
   fis'2.\fermata
   e'4 fis' dis'
-  e'2\fermata
-  \partial 4  e'4
+  e'2\fermata e'4
   a'2 a'4
   b'2 b'4
   g'2 g'4
@@ -33,7 +32,7 @@ altoMusic = {
   fis' e'8 [g'] fis' [e']
   fis'2\fermata b8 [cis']
   d'2 e'8 [fis']
-  g'4. fis'4 e'8
+  g'4. fis'8~fis' e'
   e' [d'] c'4 d'
   d'2\fermata fis'4
   g'2 g'4
@@ -41,8 +40,7 @@ altoMusic = {
   e'8 [dis'] e'2~
   e'4 dis'2\fermata
   e'4 c' b
-  b2\fermata
-  \partial 4 b4
+  b2\fermata b4
   e' d' c'
   d' e' fis'~
   fis' e'8 [dis'] e'4
@@ -68,8 +66,7 @@ tenorMusic = {
   b2 b4
   b2.\fermata
   g4 a fis
-  g2\fermata
-  \partial 4 g4~
+  g2\fermata g4~
   g fis fis
   g b2
   b b4
@@ -95,8 +92,7 @@ bassMusic = {
   e g e
   b,2.\fermata
   c4 a, b,
-  e2\fermata
-  \partial 4 e4
+  e2\fermata e4
   cis d8 [c] b, [a,]
   g,4 g8 [fis] e [dis]
   e4 e,8 [fis,] g, [a,]
@@ -107,10 +103,5 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Als vier -- zig Tag' nach O -- _ _ _ _ stern war'n
-  und Chri -- _ stus wollt' _ gen Him -- mel fahr'n,
-  b'schied er sein' Jün -- ger auf ein Berg,
-  auf _ ein Berg,
-  vol -- len -- det da sein Amt und Werk.
-  Hal -- _ _ le -- lu -- ja!
+  Als vier -- zig Tag' nach O -- _ _ _ _ stern war'n und Chri -- _ stus wollt' __ _ gen Him -- mel fahr'n, b'schied er sein' Jün -- ger auf ein Berg, auf __ _ ein Berg, vol -- len -- det da sein Amt und Werk. Hal -- _ _ le -- lu -- ja!
 }

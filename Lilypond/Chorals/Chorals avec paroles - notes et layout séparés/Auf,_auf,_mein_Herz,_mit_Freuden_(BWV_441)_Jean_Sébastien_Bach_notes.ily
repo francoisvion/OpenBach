@@ -20,7 +20,7 @@ sopranoMusic = \relative c' {
   c2\fermata c4
   d4. e8 f4
   e4. d8 e4
-  f2\fermata \fine 
+  f2\fermata \fine
 }
 
 altoMusic = \relative c' {
@@ -96,16 +96,18 @@ bassMusic = \relative c {
   f2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Auf, auf, mein Herz, mit Freu -- _ den,
-                             nimm wahr, __ _ was heut ge -- _ schicht,
-                             Mein Hei -- land ward __ _ ge -- legt,
-                             da, wo __ man uns __ _ hin -- trägt,
-                             wenn von __ _ uns un -- _ ser Geist
-                             gen Him -- _ mel ist __ _ ge -- reist.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Auf, auf, __ _ mein Herz, mit Freu -- den,
+   nimm wahr, __ _ was heut ge -- _ schicht,
+   Mein Hei -- land ward __ _ ge -- legt,
+   da, wo __ man uns __ _ hin -- trägt,
+   wenn von __ _ uns un -- _ ser Geist
+   gen Him -- _ mel ist __ _ ge -- reist.
 }
 
-sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
-                                    wie kommt nach gro -- ßen Lei -- _ den
-                                    nun ein __ _ so gro -- ßes __ _ Licht!
+sopranoVersoOneLyrics = \lyricmode {
+\set stanza = 2
+   wie kommt __ _ nach gro -- ßen Lei -- den
+   nun ein __ _ so gro -- ßes __ _ Licht!
 }
