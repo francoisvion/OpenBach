@@ -24,7 +24,7 @@ altoMusic = {
   \voiceTwo
   d'4 e' fis'
   g'8 [f'] e'2\fermata
-  f' f'4
+  f'4 f' f'
   g'2 g'4
   g'2.\fermata
   g'4 g' g'
@@ -46,12 +46,12 @@ tenorMusic = {
   \voiceOne
   b4 b d'
   d' c'2\fermata
-  c' d'4
+  c'4 c' d'
   e'2 d'8 [f']
   e'2.\fermata
   d'4 d' e'
   a d'2\fermata
-  d'4 a d'~
+  d'4 a d'
   d'8 [c'] b4 a
   a2.\fermata
   d'4 d' d'

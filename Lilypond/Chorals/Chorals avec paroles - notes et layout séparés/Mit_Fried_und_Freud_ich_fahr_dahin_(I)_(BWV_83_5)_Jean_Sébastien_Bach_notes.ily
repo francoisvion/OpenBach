@@ -66,11 +66,10 @@ bassMusic = {
   cis [d] a,4 d\fermata \fine
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             Er ist das Heil und se -- lig Licht
-                             für __ _ die Hei -- _ den,
-                             "zu er" -- leuch -- ten, die dich ken -- _ _ nen nicht,
-                             und zu wei -- _ den.
-                             es ist deins Volks I -- sra -- el
-                             der Preis, Ehr, Freud und Won -- _ ne.
+versoTwoLyrics = \lyricmode {
+  Er ist das Heil und se -- lig Licht
+  für __ _ die Hei -- _ den,
+  "zu er" -- leuch -- ten, die dich ken -- _ _ nen nicht,
+  und zu wei -- _ den.
+  Er ist deins Volks I -- sra -- el der Preis, Ehr, Freud und Won -- _ ne.
 }

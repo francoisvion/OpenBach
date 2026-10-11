@@ -182,20 +182,22 @@ bassMusic = {
   a,2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Wie sich ein Vatr er -- bar -- _ met
-                             Üb'r sei -- _ ne jun -- ge Kind -- lein klein:
-                             Er kennt __ _ das arm' Ge -- mäch -- _ te,
-                             er weiß, __ _ wir sind nur Staub.
-                             Gleich wie das Gras vom Re -- _ _ chen,
-                             Ein Blum' und fal -- _ lend Laub,
-                             der Wind nur drü -- ber we -- het,
-                             so ist __ _ es nim -- mer da:
-                             al -- so der Mensch ver -- ge -- _ het,
-                             sein End, das ist __ _ _ _ ihm nah.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Wie sich ein Vatr er -- bar -- _ met
+   üb'r sei -- _ ne jun -- ge Kind -- lein klein:
+   Er kennt __ _ das arm' Ge -- mäch -- _ te,
+   er weiß, __ _ wir sind nur Staub.
+   Gleich wie das Gras vom Re -- _ _ chen,
+   ein Blum' und fal -- _ lend Laub,
+   der Wind nur drü -- ber we -- het,
+   so ist __ _ es nim -- mer da:
+   al -- so der Mensch ver -- ge -- _ het,
+   sein End, das ist __ _ _ _ ihm nah.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             So tut der Herr uns Ar -- _ men,
-                             so wir __ _ ihn kind -- lich fürch -- ten rein.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   So tut der Herr uns Ar -- _ men,
+   so wir __ _ ihn kind -- lich fürch -- ten rein.
 }

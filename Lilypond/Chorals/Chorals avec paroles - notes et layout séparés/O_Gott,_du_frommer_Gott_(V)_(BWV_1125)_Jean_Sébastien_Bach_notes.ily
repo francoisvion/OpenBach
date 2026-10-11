@@ -45,8 +45,8 @@ tenorMusic = {
   \partial 4 a4
   a4 fis4 fis8 [e8] fis4
   g2.\fermata g4
-  a4. a4 s4.
-  a8 [a8] a8 [g8] fis4\fermata d'4
+  a4 a a2~
+  a8 a a [g] fis4\fermata d'4
   d'4 d'8 [e'8] cis'8 [d'8] e'8 [cis'8]
   a2.\fermata a8 [g8]
   fis4 d'4 e'4 b4
@@ -66,8 +66,8 @@ bassMusic = {
   \partial 4 cis4
   d4. e8 d8 [c8] b,8 [a,8]
   g,2.\fermata g4
-  d4. d4 s4.
-  d8 [fis8] a4 d4\fermata d4
+  g4. g8 fis [e] d [cis]
+  d [fis] a4 d4\fermata d4
   g8 [a8] b8 [g8] a8 [b8] cis'8 [a8]
   d2.\fermata cis4
   d8 [cis8] b,8 [d8] cis8 [b,8] a,8 [gis,8]
@@ -83,12 +83,5 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  O Gott, du from -- mer Gott,
-  du Brunn -- quell gu -- ter Ga -- _ ben,
-  Ohn' den nichts ist, was ist,
-  Von dem wir al -- les ha -- _ ben:
-  Ge -- sun -- den Leib gib mir,
-  und dass in sol -- chem Leib
-  Ein' un -- ver -- letz -- te Seel'
-  Und rein Ge -- wis -- sen bleib'.
+  O Gott, du from -- mer Gott, du Brunn -- quell gu -- ter Ga -- _ ben, Ohn' den nichts ist, was ist, Von dem wir al -- les ha -- _ ben: Ge -- sun -- den Leib gib mir, und dass in sol -- chem Leib Ein' un -- ver -- letz -- te Seel' Und rein Ge -- wis -- sen bleib'.
 }

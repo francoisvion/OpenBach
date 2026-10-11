@@ -75,10 +75,5 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Du sü -- ße Lieb, schenk __ _ uns dei -- ne Gunst,
-  lass uns em -- pfin -- _ den der Lie -- be Brunst,
-  dass wir uns von Her -- zen
-  ein -- an -- der lie -- _ ben
-  und in Fried auf ei -- nem Sin -- ne blei -- _ ben.
-  Ky -- ri -- e __ e -- leis!
+  Du sü -- ße Lieb, schenk __ _ uns dei -- ne Gunst, lass uns em -- pfin -- _ den der Lie -- be Brunst, dass wir uns von Her -- zen ein -- an -- der lie -- _ ben und in Fried auf ei -- nem Sin -- ne blei -- _ ben. Ky -- ri -- e __ e -- leis!
 }

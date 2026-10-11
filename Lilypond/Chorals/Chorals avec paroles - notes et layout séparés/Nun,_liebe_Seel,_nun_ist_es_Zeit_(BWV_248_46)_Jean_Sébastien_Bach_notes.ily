@@ -66,11 +66,6 @@ bassMusic = {
   a,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Dein Glanz all Fin -- _ _ ster -- nis ver -- zehrt,
-                             Die trü -- be Nacht in Licht ver -- kehrt.
-                             Leit uns auf dei -- nen We -- _ gen,
-                             dass dein Ge -- sicht
-                             und herr -- lichs Licht
-                             Wir e -- wig schau -- _ _ en mö -- gen!
+versoOneLyrics = \lyricmode {
+  Dein Glanz all Fin -- _ _ ster -- nis ver -- zehrt, Die trü -- be Nacht in Licht ver -- kehrt. Leit uns auf dei -- nen We -- _ gen, dass dein Ge -- sicht und herr -- lichs Licht Wir e -- wig schau -- _ _ en mö -- gen!
 }

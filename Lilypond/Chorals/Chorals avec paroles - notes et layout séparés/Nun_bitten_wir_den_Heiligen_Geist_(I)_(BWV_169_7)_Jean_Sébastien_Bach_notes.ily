@@ -51,7 +51,7 @@ tenorMusic = {
   cis'4\fermata d' d'8 [cis'] b4
   a8 [g] fis [e] fis2\fermata
   e4 b a2~
-  a4 gis8 [fis] e [gis] a [gis]
+  a4 gis8 fis e gis a [gis]
   fis4 b b cis'8 [b]
   gis2\fermata b4 b
   a2. gis4
@@ -71,7 +71,7 @@ bassMusic = {
   fis4\fermata d8 [cis] b, [a,] gis,4
   a,2 d\fermata
   gis4 fis8 [e] a4 cis
-  d2~ d4 cis
+  d2. cis4
   dis8 [b,] cis [dis] e [gis,] a, [b,]
   e,2\fermata b,4 eis,
   fis, cis d e
@@ -79,10 +79,5 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Du sü -- ße Lie -- be, schenk uns dei -- ne Gunst,
-  lass uns em -- pfin -- _ den der Lie -- be Brunst,
-  dass wir uns von Her -- zen
-  ein -- an -- der lie -- _ ben,
-  und im Frie -- de auf ei -- nem Sinn blei -- _ _ _ ben.
-  Ky -- rie -- e -- lei -- son.
+  Du sü -- ße Lie -- be, schenk uns dei -- ne Gunst, lass uns em -- pfin -- _ den der Lie -- be Brunst, dass wir uns von Her -- zen ein -- an -- der lie -- _ ben, und im Frie -- de auf ei -- nem Sinn blei -- _ _ _ ben. Ky -- rie -- e -- lei -- son.
 }

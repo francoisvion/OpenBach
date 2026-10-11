@@ -36,7 +36,7 @@ sopranoMusic = {
   d'' e''4. d''8
   d''2\fermata e''4
   f'' e'' d''
-  c''8 [d''] d''4. c''8
+  c''8 [d''] d''4.\trill c''8
   c''2\fermata \fine
 }
 
@@ -166,20 +166,22 @@ bassMusic = {
   c2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Nun lob', mein' Seel', den Her -- _ ren,
-                             was in mir ist, den Na -- men __ _ sein,
-                             hat dir _ dein Sünd ver -- ge -- _ _ ben
-                             und heilt _ dein Schwach -- heit groß,
-                             er rett' dein ar -- _ mes Le -- _ _ ben,
-                             nimmt dich in sei -- _ nen Schoß,
-                             mit rei -- chem Trost be -- schüt -- _ _ tet,
-                             ver -- jüngt, _ dem Ad -- ler gleich;
-                             der Herr schafft Recht, be -- hü -- _ _ tet,
-                             die lei -- den in sei -- nem _ Reich.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Nun lob', mein' Seel', den Her -- _ ren,
+   was in mir ist, den Na -- men __ _ sein,
+   hat dir __ _ dein Sünd ver -- ge -- _ _ ben
+   und heilt __ _ dein Schwach -- heit groß,
+   er rett' dein ar -- _ mes Le -- _ _ ben,
+   nimmt dich in sei -- _ nen Schoß,
+   mit rei -- chem Trost be -- schüt -- _ _ tet,
+   ver -- jüngt, _ dem Ad -- ler gleich;
+   der Herr schafft Recht, be -- hü -- _ _ tet,
+   die leid'n __ _ in sei -- nem _ Reich.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             sein Wohl -- tat tut er meh -- _ ren,
-                             ver -- giss es nicht, o Her -- _ ze mein,
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   sein Wohl -- tat tut er meh -- _ ren,
+   ver -- giss es nicht, o Her -- _ ze mein,
 }
