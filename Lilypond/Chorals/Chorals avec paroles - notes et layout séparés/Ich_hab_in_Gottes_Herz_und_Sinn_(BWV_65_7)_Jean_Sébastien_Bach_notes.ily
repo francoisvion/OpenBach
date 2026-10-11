@@ -44,13 +44,13 @@ tenorMusic = {
     \partial 4  a4
     b a8 [b] c'4 c'8 [d']
     e' [d'16 c'] d'4 e'\fermata e'
-    d' d' a e'
+    d' d' a e'~
     e' e' e'4. d'8
     c'2.\fermata } c'8 [b]
   a4 d' d'4. dis'8
   e'4 b a a
   b\fermata c' a d'
-  c'8 [d'] e'4~ e'8 d' c' [fis]
+  c'8 [d'] e'4 e'8 [d'] c' [fis]
   gis4\fermata g8 [a] b4 c'
   b c' d' d'
   e'\fermata e' f'8 [e'] e' [d']
@@ -78,16 +78,18 @@ bassMusic = {
   e2 a,4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Ei nun, mein Gott, so fall ich dir
-                             ge -- trost in dei -- _ _ ne Hän -- de.
-                             wie du wohl weißt, __ _ _ dass mei -- nem Geist
-                             da -- durch sein Nutz ent -- ste -- he,
-                             und dei -- ne Ehr je mehr und mehr
-                             sich in mir selbst __ _ _ er -- hö -- he.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Ei nun, mein Gott, so fall ich dir
+   ge -- trost in dei -- _ _ ne Hän -- de.
+   wie du wohl weißt, __ _ _ dass mei -- nem Geist
+   da -- durch sein Nutz ent -- ste -- he,
+   und dei -- ne Ehr je mehr und mehr
+   sich in mir selbst __ _ _ er -- hö -- he.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             nimm mich und mach es so mit mir
-                             bis an mein letz -- _ _ tes En -- de,
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   nimm mich und mach es so mit mir
+   bis an mein letz -- _ _ tes En -- de,
 }

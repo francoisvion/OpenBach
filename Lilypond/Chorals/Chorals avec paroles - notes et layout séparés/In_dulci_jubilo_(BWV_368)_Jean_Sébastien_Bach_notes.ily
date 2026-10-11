@@ -147,12 +147,5 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  In dul -- ci ju -- bi -- lo __ _ _
-  sin -- get und seid froh, __ _ _
-  un -- sers Her -- zens Won -- _ _ ne
-  liegt in prae -- se -- pi -- o __ _ _
-  leuch -- tet als die Son -- _ _ ne
-  ma -- tris in pre -- mi -- o __ _ _
-  Al -- pha es et O, __ _ _ _
-  Al -- pha es et O. __ _ 
+  In dul -- ci ju -- bi -- lo __ _ _ sin -- get und seid froh, __ _ _ un -- sers Her -- zens Won -- _ _ ne liegt in prae -- se -- pi -- o __ _ _ leuch -- tet als die Son -- _ _ ne ma -- tris in pre -- mi -- o __ _ _ Al -- pha es et O, __ _ _ _ Al -- pha es et O. __ _
 }

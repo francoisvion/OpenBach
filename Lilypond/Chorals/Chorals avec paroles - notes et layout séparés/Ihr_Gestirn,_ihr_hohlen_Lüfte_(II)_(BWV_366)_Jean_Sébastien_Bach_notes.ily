@@ -73,7 +73,7 @@ bassMusic = \relative c {
     a'2 a4\fermata
     d8 [e] f [e] d [cis]
     d2. ~
-    d8 [c] bes4 c
+    d8 c bes4 c
     f,2.\fermata
   }
   c'4 d e
@@ -86,14 +86,16 @@ bassMusic = \relative c {
   d,2 d4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Ihr Ge -- stirn', ihr hoh -- len Lüf -- te
-                             und du, lich -- tes Fir -- ma -- ment;
-                             Jauch -- zet fröh -- lich, lasst das Sin -- gen
-                             jetzt bis durch die Wol -- _ ken drin -- gen.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Ihr Ge -- stirn', ihr hoh -- len Lüf -- te
+   und du, lich -- tes Fir -- ma -- ment;
+   Jauch -- zet fröh -- lich, lasst das Sin -- gen
+   jetzt bis durch die Wol -- _ ken drin -- gen.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             tie -- fes Rund, ihr dun -- klen Klüf -- te,
-                             die der Wie -- der -- hall zer -- trennt.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   tie -- fes Rund, ihr dun -- klen Klüf -- te,
+   die der Wie -- der -- hall zer -- trennt.
 }

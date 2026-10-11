@@ -29,7 +29,7 @@ altoMusic = {
   \repeat volta 2 {
     d'2 a'4~
     a'8 [g'] f' [ees'] d'4
-    g' a'4. g'8
+    g' a'4 a'8 [g']
     g'4 fis' d'\fermata
     bes' a'8 [g'] f'4
     g' f'8 [ees'] d'4
@@ -38,7 +38,7 @@ altoMusic = {
   \repeat volta 2 {
     f'2 g'4~
     g'8 [f'] e' [d'] c'4
-    f' g'4. f'8
+    f' g'4 g'8 [f']
     f'4 e' c'\fermata
     f' g' d'~
     d'8 [g'] f' [ees'] d'4
@@ -94,26 +94,28 @@ bassMusic = {
     bes, c f,\fermata
     d e fis
     g a bes
-    ees2.
-    d\fermata
+    ees2 ees4
+    d2.\fermata
     d8 [d,] d [c] bes, [a,]
     bes, [a,] g, [fis,] g,4
     c a, d
     g,2.\fermata }
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Je -- su, du _ mein lieb -- stes Le -- ben,
-                             mei -- _ ner See -- _ len Bräu -- ti -- gam,
-                             Je -- su, mei -- _ ne Freud und Won -- ne,
-                             du mein Hoff -- _ nung, Schatz und Theil,
-                             mein' Er -- lö -- _ sung, Schmuck und Heil,
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Je -- su, du __ _ mein lieb -- stes Le -- ben,
+   mei -- _ ner See -- _ len Bräu -- ti -- gam,
+   Je -- su, mei -- _ ne Freud und Won -- ne,
+   du mein Hoff -- _ nung, Schatz und Teil,
+   mein' Er -- lö -- _ sung, Schmuck und Heil,
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             der du bist _ für mich ge -- ge -- ben
-                             an _ des bit -- _ tern Kreu -- zes -- stamm.
-                             Hirt und Kö -- _ nig, Licht und Son -- ne,
-                             ach, wie soll _ ich wür -- dig -- lich,
-                             mein Herr Je -- _ su, prei -- sen dich?
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   der du bist __ _ für mich ge -- ge -- ben
+   an __ _ des bit -- _ tern Kreu -- zes -- stamm.
+   Hirt und Kö -- _ nig, Licht und Son -- ne,
+   ach, wie soll __ _ ich wür -- dig -- lich,
+   mein Herr Je -- _ su, prei -- sen dich?
 }

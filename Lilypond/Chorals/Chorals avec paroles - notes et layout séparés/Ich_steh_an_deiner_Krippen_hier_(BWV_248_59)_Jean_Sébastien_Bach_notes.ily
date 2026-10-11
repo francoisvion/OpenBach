@@ -20,7 +20,7 @@ altoMusic = {
     \partial 4  d'4
     e'8 [fis'] g'4 g'8 [fis'] g'4
     g' fis' g'\fermata e'8 [fis']
-    g' b'4 a'16 [g'] fis'4 g'
+    g' b'4 a'16 [g'] fis'4 g'~
     g' fis' d'\fermata } g'
   g'4. fis'8 fis' [e'] e' [dis']
   e'4 d' d'\fermata d'
@@ -62,15 +62,17 @@ bassMusic = {
   d2 g,4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Ich steh an dei -- ner Krip -- pen hier,
-                             o Je -- su -- lein, mein Le -- _ ben;
-                             Nimm hin! Es ist mein Geist und Sinn,
-                             Herz, Seel und Mut, nimm al -- les hin,
-                             und lass dirs wohl -- ge -- fal -- _ len!
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Ich steh an dei -- ner Krip -- pen hier,
+   o Je -- su -- lein, mein Le -- _ ben;
+   Nimm hin! Es ist mein Geist und Sinn,
+   Herz, Seel und Mut, nimm al -- les hin,
+   und lass dirs wohl -- ge -- fal -- _ len!
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             ich kom -- me, bring und schen -- ke dir,
-                             was du mir hast ge -- ge -- _ ben.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   ich kom -- me, bring und schen -- ke dir,
+   was du mir hast ge -- ge -- _ ben.
 }

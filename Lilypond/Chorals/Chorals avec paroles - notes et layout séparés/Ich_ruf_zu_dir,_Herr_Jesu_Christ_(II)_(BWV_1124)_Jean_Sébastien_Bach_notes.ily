@@ -5,7 +5,7 @@ sopranoMusic = {
     g'4 e'4 g'4 a'4
     b'2\fermata r4 b'4
     d''4 b'4 g'4 a'4
-    <a' c''>2 b'2\fermata }
+    c''2 b'\fermata }
   r4 d''4 e''4 d''4
   b'4 g'4 b'4 a'4
   g'2\fermata r4 b'
@@ -26,7 +26,7 @@ altoMusic = {
     e'4 c'4 e'4 fis'4
     g'2\fermata r4 g'4
     a'4 d'4 e'4 fis'4
-    s2 gis'2\fermata }
+    a'2 gis'2\fermata }
   s4 g'!4 g'4 fis'4
   g'4 g'4 g'4 fis'4
   d'2\fermata r4 g'4
@@ -82,17 +82,19 @@ bassMusic = {
   b,2 e2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Ich ruf' zu dir, Herr Je -- su Christ!
-                             Ich bitt' er -- hör' mein kla -- gen,     
-                             Den rech -- ten weg, o Herr! ich mein',
-                             Den wol -- lest du mir ge -- ben,
-                             Dir zu le -- ben,
-                             Mein'm näch -- sten nütz zu sein,
-                             Dein wort zu hal -- ten e -- _ ben.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+    Ich ruf' zu dir, Herr Je -- su Christ!
+    Ich bitt' er -- hör' mein kla -- gen,
+    Den rech -- ten weg, o Herr! ich mein',
+    Den wol -- lest du mir ge -- ben,
+    Dir zu le -- ben,
+    Mein'm näch -- sten nütz zu sein,
+    Dein wort zu hal -- ten e -- _ ben.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2    
-                             Ver -- leih' mir gnad' zu die -- ser frist,
-                             Lass mich doch nicht ver -- za -- gen,
+versoTwoLyrics = \lyricmode {
+\set stanza = 2    
+    Ver -- leih' mir gnad' zu die -- ser frist,
+    Lass mich doch nicht ver -- za -- gen,
 }
