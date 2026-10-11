@@ -7,8 +7,7 @@ sopranoMusic = {
     cis''2\fermata r4 e''
     d'' cis'' d'' b'
     a' fis'8 [g'] a'4 g'
-    fis'2.\fermata }
-  \partial 4  a'4
+    fis'2.\fermata } a'4
   g' fis' e' fis'
   d' e' fis'\fermata cis''
   d'' cis'' b' cis''8 [d'']
@@ -31,12 +30,11 @@ altoMusic = {
     ais'2\fermata r4 cis''
     b'8 [a'] g'4 a' g'8 [fis']
     e'4 d'8 [e'] fis'4 e'8 [d']
-    cis'2.\fermata }
-  \partial 4  cis'4
+    cis'2.\fermata } cis'4
   d' d' cis' cis'
   d'8 [cis'] b4 cis'\fermata fis'
   fis'8 [gis'] ais'4 b' ais'8 [b']
-  cis'' [fis'] fis'4 fis'\fermata a'
+  cis'' fis'4. fis'4\fermata a'
   gis' a' e' e'
   e'8 [d'] e' [cis'] d'4\fermata cis'
   cis'8 [dis'] e'4 e'8 [fis'] g' [fis']
@@ -55,15 +53,14 @@ tenorMusic = {
     fis'2\fermata r4 fis'
     fis' e' d' d'
     e' a8 [b] c'4 b
-    ais2.\fermata }
-  \partial 4  a4
+    ais2.\fermata } a4
   b a a8 [g] fis4
   fis b ais\fermata ais
   b e' fis' e'8 [d']
   cis'4 b ais\fermata b
   b a b8 [a] gis4
   a a a\fermata a
-  a gis ais8 [b] cis'4~
+  a gis ais8 [b] cis'4
   cis'8 [b] e'4 e'\fermata a8 [b]
   cis'4 d' d' a
   a b cis' b~
@@ -79,8 +76,7 @@ bassMusic = {
     fis2\fermata r4 ais
     b e fis g
     cis d dis e
-    fis2.\fermata }
-  \partial 4  fis4
+    fis2.\fermata } fis4
   b,8 [cis] d4 a, ais,
   b, g, fis,\fermata fis
   b cis' d' cis'8 [b]
@@ -94,13 +90,29 @@ bassMusic = {
   fis,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Es woll' uns Gott ge -- nä -- _ _ dig sein und sei -- nen Se -- gen ge -- _ _ _ ben; dass wir er -- ken -- nen sei -- ne Werk; und, was ihn liebt, auf Er -- _ den, und Je -- sus Chris -- tus Heil und Stärk be -- kannt den Hei -- den wer -- _ den und sie zu Gott be -- keh -- _ ren.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Es woll' uns Gott ge -- nä -- _ _ dig sein
+   und sei -- nen Se -- gen ge -- _ _ _ ben;
+   dass wir er -- ken -- nen sei -- ne Werk;
+   und, was ihn liebt, auf Er -- _ den,
+   und Je -- sus Chris -- tus Heil und Stärk
+   be -- kannt den Hei -- den wer -- _ den
+   und sie zu Gott be -- keh -- _ ren.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             sein Ant -- litz uns mit hel -- _ _ lem Schein, er -- leucht zum ew -- gen Le -- _ _ _ ben, }
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   sein Ant -- litz uns mit hel -- _ _ lem Schein,
+   er -- leucht zum ew -- gen Le -- _ _ _ ben,
+}
 
 altoLyrics = \lyricmode {
   \repeat unfold 54 {\skip1} be -- keh -- _ _ ren.
+}
+
+altoLyricsTwo = \lyricmode {
+\set stanza = 2
+   sein Ant -- litz uns mit hel -- _ _ lem Schein,
+   er -- leucht zum ew -- gen Le -- _ _ _ ben,
 }

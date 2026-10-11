@@ -27,7 +27,7 @@ altoMusic = {
     d' d' d' d'8 [e']
     fis' [g'] a'4 a'\fermata a'
     a' g' g' fis'
-    fis'2~ fis'8 g' fis' [e']
+    fis'2~ fis'8 [g' fis' e']
     d'2.\fermata } fis'4
   e' d' cis' dis'8 [eis']
   fis'4 fis' fis' e'
@@ -84,17 +84,19 @@ bassMusic = {
   b,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Was mein Gott will, das g'scheh' all -- zeit,
-                             sein Will' der ist der be -- _ _ ste;
-                             Er hilft aus Noth, __ _ _ der From -- me Gott,
-                             und züch -- ti -- get mit Ma -- ßen.
-                             Wer Gott ver -- traut, fest auf ihn baut, 
-                             den will er nicht ver -- la -- _ _ ßen.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Was mein Gott will, das g'scheh' all -- zeit,
+   sein Will' der ist __ _ _ der be -- ste;
+   Er hilft aus Noth, __ _ _ der from -- me Gott,
+   und züch -- ti -- get mit Ma -- ßen.
+   Wer Gott ver -- traut, fest auf ihn baut,
+   den will er nicht __ _ _ ver -- las -- sen.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             zu hel -- fen den'n er ist be -- reit, die an ihn glau -- ben fe -- _ _ ste.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   zu hel -- fen den'n er ist be -- reit, die an ihn glau -- _ _ ben fe -- ste.
 }
 
 tenorLyrics = \lyricmode {
@@ -105,4 +107,14 @@ tenorLyrics = \lyricmode {
 bassLyrics = \lyricmode {
   \repeat unfold 47 {\skip1}
   \tweak X-offset #-6.0 "(B.) ver" -- la -- _ _ _ ßen.
+}
+
+tenorLyricsTwo = \lyricmode {
+\set stanza = 2
+   zu hel -- fen den'n er ist be -- reit, die an ihn glau -- ben fe -- _ _ ste.
+}
+
+bassLyricsTwo = \lyricmode {
+\set stanza = 2
+   zu hel -- fen den'n er ist be -- reit, die an ihn glau -- ben fe -- _ _ ste.
 }

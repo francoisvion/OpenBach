@@ -70,20 +70,28 @@ bassMusic = {
   gis, a, e,2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Ob bei uns ist der Sün -- den viel,
-                             bei Gott ist viel mehr Gna -- _ de,
-                             Er ist al -- lein der gu -- te Hirt,
-                             der Is -- ra -- el er -- lö -- sen wird
-                             aus sei -- nen Sün -- den al -- _ len.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Ob bei uns ist der Sün -- den viel,
+   bei Gott ist viel mehr Gna -- _ de,
+   Er ist al -- lein der gu -- te Hirt,
+   der Is -- ra -- el er -- lö -- sen wird
+   aus sei -- nen Sün -- den al -- _ len.
 }
 
-sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
-                                    sein' Hand zu hel -- fen hat kein Ziel,
-                                    Wie groß auch sei der Scha -- _ de.
+sopranoVersoOneLyrics = \lyricmode {
+\set stanza = 2
+   sein' Hand zu hel -- fen hat kein Ziel,
+   Wie groß auch sei der Scha -- _ de.
 }
 
 altoLyrics = \lyricmode {
   \repeat unfold 37 {\skip1}
   al -- _ len.
+}
+
+altoLyricsTwo = \lyricmode {
+\set stanza = 2
+   sein' Hand zu hel -- fen hat kein Ziel,
+   Wie groß auch sei der Scha -- _ de.
 }

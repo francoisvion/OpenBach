@@ -70,6 +70,7 @@
         \new Voice = "bass" \bassMusic
         
     \new Lyrics \with { alignAboveContext = #"lower" } \lyricsto "tenor" \tenorVersoOneLyrics
+    \new Lyrics \lyricsto "tenor" \tenorVersoTwoLyrics
     
     \new Lyrics \lyricsto "bass" \bassVersoOneLyrics
     
