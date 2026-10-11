@@ -28,8 +28,8 @@ altoMusic = {
   bes'2.\fermata bes'4
   bes' aes' bes' c''8 [bes']
   a' [g'] a'4 f'\fermata bes'
-  bes' g' ees' aes'~
-  aes'8 g' a'4 g'\fermata f'
+  bes' g' ees' aes'
+  aes'8 [g'] a'4 g'\fermata f'
   ees' f' g' g'
   g'2.\fermata \fine
 }
@@ -44,8 +44,8 @@ tenorMusic = {
     c'2.\fermata } ees'4
   f' aes' g' f'
   g'2.\fermata f'4
-  ees'4. d'4 bes8 ees' [d']
-  c' [ees'] d' [c'] bes4\fermata f'
+  ees'4. d'8 d' [bes] ees'4~
+  ees' d'8 [c'] bes4\fermata f'
   ees' bes c'8 [d'] ees'4
   f' ees' d'\fermata bes
   bes c'8 [d'] ees' [d'16 c'] d'8 [d']
@@ -70,16 +70,18 @@ bassMusic = {
   c2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Das ist des Va -- ters Wil -- le,
-                             der uns er -- schaf -- fen hat;      
-                             auch Gott der Heil -- ge Geist
-                             im Glaub -- en uns re -- gie -- ret,
-                             zum Reich des Him -- mels füh -- _ ret.
-                             ihm sei Lob Ehr und Preis!
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Das ist des Va -- ters Wil -- le,
+   der uns er -- schaf -- fen hat;
+   auch Gott der Heil -- ge Geist
+   im Glaub -- en uns re -- gie -- ret,
+   zum Reich des Him -- mels füh -- _ ret.
+   Ihm sei Lob Ehr und Preis!
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             sein Sohn hat Guts die Fül -- le
-                             er -- wor -- ben und Ge -- nad;
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   sein Sohn hat Guts die Fül -- le
+   er -- wor -- ben und Ge -- nad;
 }

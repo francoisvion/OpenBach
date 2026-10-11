@@ -16,7 +16,7 @@ sopranoMusic = {
     c''2\fermata d''4
     ees''2 d''4
     c'' d''8 [c''] bes'4~
-    bes'8 c'' c''4. bes'8
+    bes'8 [c''] c''4. bes'8
     bes'2.\fermata }
 }
 
@@ -86,16 +86,18 @@ bassMusic = {
     bes,2.\fermata }
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             \tweak X-offset #-5 "9. Sprich" Ja zu mei -- _ nen Ta -- ten,
-                             hilf selbst das Bes -- _ te ra -- ten;
-                             den An -- fang, Mittl und En -- de,
-                             ach, Herr, zum be -- _ sten wen -- _ _ de!  
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   \tweak X-offset #-5 "9. Sprich" Ja zu mei -- _ nen Ta -- ten,
+   hilf selbst das Bes -- _ te ra -- ten;
+   den An -- fang, Mittl und En -- de,
+   ach, Herr, zum be -- _ sten __ wen -- _ de!
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             \tweak X-offset #-5 "10. Mit" Se -- gen mich __ _ be -- schüt -- te,
-                             mein Herz sei dei -- _ ne Hüt -- te,
-                             dein Wort sei mei -- ne Spei -- se,
-                             bis ich gen Him -- _ mel rei -- _ _ se!
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   \tweak X-offset #-5 "10. Mit" Se -- gen mich __ _ be -- schüt -- te,
+   mein Herz sei dei -- _ ne Hüt -- te,
+   dein Wort sei mei -- ne Spei -- se,
+   bis ich gen Him -- _ mel __ rei -- _ se!
 }

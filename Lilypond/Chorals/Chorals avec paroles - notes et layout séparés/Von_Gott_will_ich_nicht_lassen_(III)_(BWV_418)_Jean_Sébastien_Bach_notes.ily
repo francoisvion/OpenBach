@@ -48,7 +48,7 @@ tenorMusic = {
   c'8 [b] a4 g8 [a] b4
   a2.\fermata gis4
   a d' e' a~
-  a8 [gis] a4 b\fermata b
+  a8 gis a4 b\fermata b
   a8 [b] a [g] fis [g] a4
   gis2.\fermata a4
   a d' d'8 [e'] f' [d']
@@ -83,12 +83,5 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Von Gott will ich nicht las -- _ sen,
-  denn er lässt nicht von mir,
-  führt mich auf rech -- ter Stra -- _ Ben,
-  da ich sonst ir -- ret sehr.
-  Er reicht mir sei -- ne Hand,
-  den A -- bend wie den Mor -- _ gen,
-  thut er mich wohl ver -- sor -- _ gen,
-  sei wo ich woll' im Land, im Land, im Land.
+  Von Gott will ich nicht las -- _ sen, denn er lässt nicht von mir, führt mich auf rech -- ter Stra -- _ ßen, da ich sonst ir -- ret sehr. Er reicht mir sei -- ne Hand, den A -- bend wie den Mor -- _ gen, thut er mich wohl ver -- sor -- _ gen, sei wo ich woll' im Land.
 }

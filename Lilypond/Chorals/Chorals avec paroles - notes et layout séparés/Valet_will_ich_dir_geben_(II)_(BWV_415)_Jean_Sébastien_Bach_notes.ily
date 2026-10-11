@@ -20,17 +20,17 @@ altoMusic = {
   \voiceTwo
   \repeat volta 2 {
     \partial 4  a4
-    d' d' d' g'~
+    d' d' d' g'
     g' fis'8 [e'] fis'4\fermata a'8 [b']
     cis''4 b' b' a'
     a'2.\fermata } a'4
   d'' d''8 [cis''] b' [gis'] a' [b']
-  e' [fis'] gis'4 fis'\fermata a'~
-  a'8 [gis'] a'2 g'4
+  e' [fis'] gis'4 fis'\fermata a'
+  a'8 [gis'] a'4 a' gis'
   e'2.\fermata e'4
   d' d' d'8 [e'] fis'4
   fis' e' dis'\fermata d'
-  d' d'2 cis'4
+  d' d' d' cis'
   a2.\fermata \fine
 }
 
@@ -62,7 +62,7 @@ bassMusic = {
     d2.\fermata } d4
   d'8 [cis'] b [a] gis [e] fis [gis]
   a [gis] fis [eis] fis4\fermata fis
-  b8 [b,] cis [d] e [d] e [e,]
+  b8 [b,] cis [d] e! [d] e [e,]
   a,2.\fermata cis4
   d8 [e] fis [d] g4 fis8 [e]
   dis4 e b,\fermata fis,
@@ -70,16 +70,18 @@ bassMusic = {
   d,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Va -- let will ich dir ge -- ben,
-                             du ar -- ge, fal -- sche Welt,
-                             Im Him -- mel ist gut woh -- _ nen,
-                             hin -- auf steht mein Be -- gier,
-                             da wird Gott herr -- lich loh -- _ nen
-                             dem, der ihm dient all -- hier.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Va -- let will ich dir ge -- ben,
+   du ar -- ge, fal -- sche Welt,
+   Im Him -- mel ist gut woh -- _ nen,
+   hin -- auf steht mein Be -- gier,
+   da wird Gott herr -- lich loh -- _ nen
+   dem, der ihm dient all -- hier.
 }
 
-sopranoVersoOneLyrics = \lyricmode {\set stanza = 1
-                                    Dein sünd -- lich bö -- ses Le -- ben
-                                    Durch -- aus mir nicht ge -- fällt.
+sopranoVersoOneLyrics = \lyricmode {
+\set stanza = 2
+   Dein sünd -- lich bö -- ses Le -- ben
+   Durch -- aus mir nicht ge -- fällt.
 }

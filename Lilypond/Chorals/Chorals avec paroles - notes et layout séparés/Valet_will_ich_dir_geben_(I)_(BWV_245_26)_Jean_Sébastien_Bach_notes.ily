@@ -70,16 +70,18 @@ bassMusic = {
   ees,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             In mei -- nes Her -- zen Grun -- de
-                             dein Nam und Kreuz al -- lein
-                             Er -- schein mir in dem Bil -- _ de
-                             zum Trost in mei -- ner Not,
-                             wie du, Herr Christ, so mil -- _ de
-                             dich hast ge -- blut't zu Tod.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   In mei -- nes Her -- zen Grun -- de
+   dein Nam und Kreuz al -- lein
+   Er -- schein mir in dem Bil -- _ de
+   zu Trost in mei -- ner Not,
+   wie du, Herr Christ, so mil -- _ de
+   dich hast ge -- blut't zu Tod.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             Fun -- kelt all Zeit und Stun -- de,
-                             drauf kann ich fröh -- lich sein.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   Fun -- kelt all Zeit und Stun -- de,
+   drauf kann ich fröh -- lich sein.
 }

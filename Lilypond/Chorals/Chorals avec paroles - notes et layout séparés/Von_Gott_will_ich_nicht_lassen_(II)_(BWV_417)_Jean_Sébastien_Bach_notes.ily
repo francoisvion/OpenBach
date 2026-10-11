@@ -40,7 +40,7 @@ tenorMusic = {
     \partial 4  ais4
     b4. ais8 b4. b8
     b [a] gis [cis'] cis'4\fermata cis'
-    b8 [a] g2 fis4
+    b8 [a] g4 g fis
     fis2.\fermata } d'4
   e'8 [fis'] g'4 fis'8 [e'16 d'] e'8 [fis'16 g']
   fis'2.\fermata e'4
@@ -70,16 +70,18 @@ bassMusic = {
   b,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Von Gott will ich nicht las -- _ sen,
-                             denn er lässt nicht von mir,
-                             Er reicht mir sei -- ne Hand,
-                             den A -- bend wie den Mor -- _ gen
-                             tut er mich vohl ver -- sor -- _ gen.
-                             sei wo ich wolf im Land.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Von Gott will ich nicht las -- _ sen,
+   denn er lässt nicht von mir,
+   Er reicht mir sei -- ne Hand,
+   den A -- bend wie den Mor -- _ gen
+   tut er mich vohl ver -- sor -- _ gen.
+   sei wo ich wolf im Land.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             führt mich auf rech -- ter Stra -- _ ßen,
-                             da ich sonst ir -- ret' sehr.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   führt mich auf rech -- ter Stra -- _ ßen,
+   da ich sonst ir -- ret' sehr.
 }

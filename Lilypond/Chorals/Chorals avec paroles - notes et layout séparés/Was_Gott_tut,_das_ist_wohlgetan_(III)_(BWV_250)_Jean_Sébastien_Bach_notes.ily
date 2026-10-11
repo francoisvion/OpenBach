@@ -62,16 +62,18 @@ bassMusic = {
   c8 [a,8] d4 g,4\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Was Gott thut, das ist wohl -- ge -- than,
-                             es bleibt ge -- recht sein Wil -- _ le;
-                             Er ist mein Gott,
-                             der in der Noth
-                             mich wohl weiß zu er -- hal -- ten:
-                             drum lass' ich ihn nur wal -- ten.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Was Gott thut, das ist wohl -- ge -- tan,
+   es bleibt ge -- recht sein Wil -- _ le;
+   Er ist mein Gott,
+   der in der Not
+   mich wohl weiß zu er -- hal -- ten:
+   drum lass ich ihn nur wal -- ten.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             wie er fängt mei -- ne Sa -- chen an,
-                             will ich ihm hal -- ten stil -- _ le. 
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   wie er fängt mei -- ne Sa -- chen an,
+   will ich ihm hal -- ten stil -- _ le.
 }

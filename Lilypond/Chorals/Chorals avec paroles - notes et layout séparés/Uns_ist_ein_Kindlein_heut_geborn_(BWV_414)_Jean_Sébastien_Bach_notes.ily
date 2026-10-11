@@ -19,7 +19,7 @@ altoMusic = {
   \repeat volta 2 {
     \partial 4  g'4
     g' a' g' g'
-    f'8 [e'] d'4 e'\fermata d'~
+    f'8 [e'] d'4 e'\fermata d'
     d'8 [c'] b4 e'2
     d'4 d' d'4. c'8
     b2.\fermata } g'4
@@ -42,7 +42,7 @@ tenorMusic = {
   d'8 [c'] b4 b a
   a g fis\fermata fis
   g c' b8 [c'] b [a]
-  g4 g2 fis4
+  g4 g g fis
   d2.\fermata \fine
 }
 
@@ -58,18 +58,20 @@ bassMusic = {
   d dis e a8 [g]
   fis4 e d\fermata b,
   e8 [d] e [fis] g [a] g [fis]
-  e4 b,8 [c] d2
+  e4 b,8 [c] d4 d
   g,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Uns ist ein Kind -- lein heut' ge -- bor'n
-                             von ei -- ner Jung -- _ _ frau aus -- er -- kor'n.
-                             Lob, Preis und Dank sei Gott be -- reit
-                             für sol -- che Gnad __ _ _ in E -- wig -- keit.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Uns ist ein Kind -- lein heut' ge -- bor'n
+   von ei -- ner Jung -- _ _ frau aus -- er -- kor'n.
+   Lob, Preis und Dank sei Gott be -- reitt
+   für sol -- che Gnad __ _ _ in E -- wig -- keit.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             Des freu -- en sich die En -- ge -- lein,
-                             soll -- ten wir Men -- _ schen nicht fröh -- lich sein?
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   Des freu -- en sich die En -- ge -- lein,
+   soll -- ten wir Men -- _ schen nicht fröh -- lich sein?
 }

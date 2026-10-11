@@ -33,10 +33,10 @@ sopranoMusic = {
 altoMusic = {
   \voiceTwo
   \partial 4  cis'4
-  d' d' cis'2
-  cis'8 [fis'] fis' [eis'] cis'4\fermata fis'
-  e'8 [fis'] gis'4 a'2
-  a'8 [gis'16 fis'] gis'4 a'\fermata a'
+  d' d' cis'2~
+  cis'8 fis' fis' eis' cis'4\fermata fis'
+  e'8 [fis'] gis'4 a'2~
+  a'8 gis'16 [fis'] gis'4 a'\fermata a'
   a' eis'8 [fis'] gis'4 fis'
   fis' e' dis'\fermata dis'8 [eis']
   fis'4 fis' gis'8 [fis'] eis'4
@@ -107,15 +107,15 @@ bassMusic = {
   d cis8 [b,] fis4\fermata e
   a gis8 [a] b4 a8 [b]
   cis'4 cis fis\fermata fis,8 [gis,]
-  a, [b,] cis4~ cis8 d cis [b,]
+  a, [b,] cis4 cis8 [d] cis [b,]
   a, [eis] fis [cis] d [b,] e4
   a,2\fermata b,
   cis4 d e e,
   a,2.\fermata eis4
   fis4. fis8 gis [ais] b4
   fis2\fermata e4 e
-  e2~ e
-  e4 fis gis a
+  e4 e8 e e4 e
+  e fis gis a
   d e a,2\fermata
   a,8 [b,] cis [a,] d [cis] d [e]
   fis4 gis8 [a] b2\fermata
@@ -128,14 +128,15 @@ bassMusic = {
 
 sopranoLyrics = \lyricmode {
   Ver -- leih' uns Frie -- den gnä -- dig -- lich,
-  Herr Gott, zu uns -- ern Zei -- ten,
+  Herr Gott, zu un -- sern Zei -- ten,
   es ist ja doch kein An -- drer nicht
   der für uns könn -- te strei -- ten
   denn du, uns'r Gott al -- lei -- _ ne.
-  Gieb un -- sern Für -- sten und der Ob -- rig -- keit
+  Gieb un -- sern Für -- sten und der Ob -- rig -- keit 
   Fried' und gut Re -- gi -- ment,
   dass wir un -- ter ih -- nen
-  ein ge -- ruh -- ig und stil -- les Le -- ben füh -- ren mö -- gen
+  ein ge -- ru -- hig und stil -- les Le -- ben füh -- ren mö -- gen
   in al -- ler Gott -- se -- lig -- keit
-  und Ehr -- _ bar -- keit A -- _ _ _ _ _ _ men.
+  und Ehr -- _ bar -- keit
+  A -- _ _ _ _ _ _ men.
 }

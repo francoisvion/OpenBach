@@ -91,13 +91,5 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Auf dass wir al -- so all -- zu -- gleich
-  zur Him -- mels -- pfor -- te drin -- _ gen
-  und der -- ma -- leins in dei -- nem Reich
-  ohn al -- les En -- de sin -- _ gen,
-  dass du al -- lei -- ne Kö -- nig seist,
-  hoch ü -- ber al -- le Göt -- _ ter,
-  Gott Va -- ter, Sohn und heil -- ger Geist,
-  der From -- men Schutz und Ret -- _ ter,
-  ein We -- sen, drei Per -- so -- _ nen.
+  Auf dass wir al -- so all -- zu -- gleich zur Him -- mels -- pfor -- te drin -- _ gen und der -- ma -- leins in dei -- nem Reich ohn al -- les En -- de sin -- _ gen, dass du al -- lei -- ne Kö -- nig seist, hoch ü -- ber al -- le Göt -- _ ter, Gott Va -- ter, Sohn und heil -- ger Geist, der From -- men Schutz und Ret -- _ ter, ein We -- sen, drei Per -- so -- _ nen.
 }

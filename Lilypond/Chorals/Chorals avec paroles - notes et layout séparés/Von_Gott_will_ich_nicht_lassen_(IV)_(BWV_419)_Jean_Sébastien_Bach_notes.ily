@@ -22,7 +22,7 @@ altoMusic = {
     \partial 4  e'4
     f' f' g' a'
     g' fis' e'\fermata e'
-    e' d'8 [e'] f'4 e'8 [d']~
+    e' d'8 [e'] f'4 e'8 [d']
     d' [c'16 b] c'2\fermata } e'8 [fis']
   gis'4 a'8 [g'] f'4 e'8 [fis']
   gis'2.\fermata gis'4
@@ -70,16 +70,18 @@ bassMusic = {
   a,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Von Gott will ich nicht las -- _ sen,
-                             denn er lässt nicht von mir,
-                             Er reicht mir sei -- ne Hand,
-                             den A -- bend und den Mor -- gen
-                             thut er mich wohl ver -- sor -- _ gen,
-                             sei wo ich wolf im Land.      
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Von Gott will ich nicht las -- _ sen,
+   denn er lässt nicht von mir,
+   Er reicht mir sei -- ne Hand,
+   den A -- bend wie den Mor -- gen
+   tut er mich wohl ver -- sor -- _ gen,
+   sei wo ich wolf im Land.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             führt mich durch al -- le Stra -- _ ßen,
-                             da ich sonst irr -- te sehr.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   führt mich durch al -- le Stra -- _ ßen,
+   da ich sonst ir -- ret sehr.
 }
