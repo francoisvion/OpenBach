@@ -57,7 +57,7 @@ bassMusic = {
   \repeat volta 2 {
     \partial 4  a,4
     a gis a fis
-    g8 a~ a g16 [a] b4\fermata gis
+    g8 [a]~ a [g16 a] b4\fermata gis
     a f e8 [d] e4
     a,2.\fermata } a,4
   b, c8 [d] e4 f
@@ -70,16 +70,18 @@ bassMusic = {
   a,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Du bist ein Geist, der leh -- _ ret,
-                             Wie man recht be -- ten soll;
-                             es steigt zum Him -- mel an,
-                             es steigt und lässt nicht a -- _ be,
-                             bis der ge -- hol -- fen ha -- _ be,
-                             der al -- len hel -- fen kann.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Du bist ein Geist, der leh -- _ ret,
+   wie man recht be -- ten soll;
+   es steigt zum Him -- mel an,
+   es steigt und lässt nicht a -- _ be,
+   bis der ge -- hol -- fen ha -- _ be,
+   der al -- len hel -- fen kann.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             dein Be -- ten wird er -- hö -- _ ret,
-                             dein Sin -- gen klin -- get wohl.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   dein Be -- ten wird er -- hö -- _ ret,
+   dein Sin -- gen klin -- get wohl.
 }

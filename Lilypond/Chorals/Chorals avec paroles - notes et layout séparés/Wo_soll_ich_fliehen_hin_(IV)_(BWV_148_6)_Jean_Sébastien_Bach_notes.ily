@@ -20,15 +20,15 @@ altoMusic = {
   \partial 4  cis'4
   cis' dis'8 [eis'] fis' [eis'] fis' [gis']
   eis'2\fermata r4 e'
-  e'8 [fis'] gis'4. a'8 eis' [fis']
+  e'8 [fis'] gis'4 gis'8 [a'] eis' [fis']
   eis'2\fermata r4 eis'
   fis' e' e' fis'
   fis' e' e'\fermata e'
   fis' fis'8 [gis'] a'4 a'
   a' gis' e'\fermata a'
-  b' a' a' a'~
+  b' a' a' a'
   a' gis'8 [fis'] gis'4\fermata gis'
-  gis'8 [fis'] eis'4 fis'2~
+  gis'8 [fis'] eis'4 fis'4 fis'
   fis'4 eis' cis'\fermata \fine
 }
 
@@ -39,7 +39,7 @@ tenorMusic = {
   gis2\fermata r4 a
   a gis cis' d'
   cis'2\fermata r4 cis'
-  cis'8 [d'] cis' [b] a4 a~
+  cis'8 [d'] cis' [b] a4 a
   a gis a\fermata a
   a d' cis' fis'
   e' d'8 [cis'] cis'4\fermata e'
@@ -66,20 +66,22 @@ bassMusic = {
   b,4 cis fis,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             \tweak X-offset #-9 \markup{\concat{\tiny"Texte 1 : " "Führ,"}} Herr, mein Herz und Sinn
-                             durch dei -- nen Geist da -- hin,
-                             dass ich mög al -- les mei -- den,
-                             was mich und dich kann schei -- _ den,
-                             und ich an dei -- nem Lei -- be
-                             ein Glied -- maß e -- wig blei -- be.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   \tweak X-offset #-9 \markup{\concat{\tiny"Texte 1 : " "Führ,"}} Herr, mein Herz und Sinn
+   durch dei -- nen Geist da -- hin,
+   dass ich mög al -- les mei -- den,
+   was mich und dich kann schei -- _ den,
+   und ich an dei -- nem Lei -- be
+   ein Glied -- maß e -- wig blei -- be.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             \tweak X-offset #-9 \markup{\concat{\tiny"Texte 2 :    " "A"}} -- men zu al -- ler Stund
-                             sprech ich aus Her -- zens -- grund;
-                             du woll -- test uns tun lei -- ten,
-                             Herr Christ, zu al -- len Zei -- _ ten,
-                             auf dass wir dei -- nen Na -- men
-                             E -- wig -- lich prei -- sen. A -- men.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   \tweak X-offset #-9 \markup{\concat{\tiny"Texte 2 :    " "A"}} -- men zu al -- ler Stund
+   sprech ich aus Her -- zens -- grund;
+   du woll -- test uns tun lei -- ten,
+   Herr Christ, zu al -- len Zei -- _ ten,
+   auf dass wir dei -- nen Na -- men
+   e -- wig -- lich prei -- sen. A -- men.
 }

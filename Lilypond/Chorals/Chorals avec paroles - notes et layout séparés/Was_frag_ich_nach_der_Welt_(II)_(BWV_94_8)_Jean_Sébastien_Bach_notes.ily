@@ -87,24 +87,26 @@ bassMusic = {
     d2.\fermata }
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             \tweak X-offset #-4.5 "7. Was" frag' ich nach der Welt!
-                             Im Hui muss sie ver -- schwin -- _ den;
-                             Ihr An -- sehn kann durch -- aus
-                             den blas -- sen Tod nicht bin -- _ den;
-                             Die Gü -- ter müs -- sen fort,
-                             und al -- le Lust ver -- fällt.
-                             bleibt Je -- sus nur bei mir,
-                             was frag' ich nach der Welt!
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   \tweak X-offset #-4.5 "7. Was" frag' ich nach der Welt!
+   Im Hui muss sie ver -- schwin -- _ den;
+   ihr An -- sehn kann durch -- aus
+   den blas -- sen Tod nicht bin -- _ den;
+   Die Gü -- ter müs -- sen fort,
+   und al -- le Lust ver -- fällt.
+   bleibt Je -- sus nur bei mir:
+   was frag' ich nach der Welt!
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             \tweak X-offset #-4.5 "8. Was" frag' ich nach der Welt!
-                             mein Je -- sus ist mein Le -- _ ben,
-                             mein Schatz, mein Ei -- gen -- tum,
-                             dem ich mich ganz er -- ge -- _ ben,
-                             mein gan -- zes Him -- mel -- reich,
-                             und was mir sonst ge -- fällt.
-                             Drum sag' ich noch ein -- mal:
-                             was frag' ich nach der Welt!
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   \tweak X-offset #-4.5 "8. Was" frag' ich nach der Welt!
+   mein Je -- sus ist mein Le -- _ ben,
+   mein Schatz, mein Ei -- gen -- tum,
+   dem ich mich ganz er -- ge -- _ ben,
+   mein gan -- zes Him -- mel -- reich,
+   und was mir sonst ge -- fällt.
+   Drum sag' ich noch ein -- mal:
+   was frag' ich nach der Welt!
 }

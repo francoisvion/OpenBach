@@ -28,8 +28,8 @@ altoMusic = {
     d'2.\fermata } d'4
   e' d' cis' d'
   c' d'8 [e'] f'2\fermata
-  r4 f' f'8 [ees'] d' [g']
-  g' [fis'] g'4 g'8 [c'] d'4
+  r4 f' f'8 [ees'] d' [g']~
+  g' fis' g'4 g'8 [c'] d'4
   d'2.\fermata
   d'4
   d' g' f' f'8 [g']
@@ -74,28 +74,32 @@ bassMusic = {
   c' cis' d'\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             \tweak X-offset #-9 \markup{\concat{\small "Texte 1. " "Du"}} stellst, mein Je -- su, sel -- ber dich
-                             zum Vor -- bild wah -- rer Lie -- _ be:
-                             dass ich bei al -- lem, wo ich kann,
-                             stets lieb und hel -- fe je -- der -- mann
-                             Nach dei -- nem Wort und Wei -- _ se.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   \tweak X-offset #-9 \markup{\concat{\small "Texte 1. " "Du"}} stellst, mein Je -- su, sel -- ber dich
+   zum Vor -- bild wah -- rer Lie -- _ be:
+   dass ich bei al -- lem, wo ich kann,
+   stets lieb und hel -- fe je -- der -- mann
+   Nach dei -- nem Wort und Wei -- _ se.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             gib mir auch Gnad und Kraft, dass ich
-                             Gott und den Näch -- sten lie -- _ be:
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   gib mir auch Gnad und Kraft, dass ich
+   Gott und den Näch -- sten lie -- _ be:
 }
 
-versoOneLyricsB = \lyricmode {\set stanza = 1
-                              \tweak X-offset #-9 \markup{\concat{\small "Texte 2. " "Herr,"}} durch den Glau -- ben wohn in mir,
-                              Lass ihn sich im -- mer stär -- _ ken,
-                              dass er sei tä -- tig durch die Lieb,
-                              mit Freu -- den und Ge -- duld sich üb,
-                              dem Näch -- sten fort zu die -- _ nen.
+versoOneLyricsB = \lyricmode {
+\set stanza = 1
+   \tweak X-offset #-9 \markup{\concat{\small "Texte 2. " "Herr,"}} durch den Glau -- ben wohn in mir,
+   Lass ihn sich im -- mer stär -- _ ken,
+   dass er sei tä -- tig durch die Lieb,
+   mit Freu -- den und Ge -- duld sich üb,
+   dem Näch -- sten fort zu die -- _ nen.
 }
 
-versoTwoLyricsB = \lyricmode {\set stanza = 2
-                              dass er sei frucht -- bar für und für
-                              und reich in gu -- ten Wer -- _ ken;
+versoTwoLyricsB = \lyricmode {
+\set stanza = 2
+   dass er sei frucht -- bar für und für
+   und reich in gu -- ten Wer -- _ ken;
 }

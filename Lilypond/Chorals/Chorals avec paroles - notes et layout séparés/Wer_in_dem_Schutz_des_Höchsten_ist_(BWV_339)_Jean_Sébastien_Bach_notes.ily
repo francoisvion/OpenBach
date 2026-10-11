@@ -31,8 +31,8 @@ altoMusic = {
     cis'2\fermata r4 dis'
     e'8 d'4 cis'8 dis' [e'] e'4
     d'8 [fis'] g'4 g' fis'\fermata
-    r b'4. a'16 [gis'] a'4~
-    a'8 [gis'16 fis'] e'4 e' e'
+    r b'4~b'8 a'16 [gis'] a'4~
+    a'8 gis'16 [fis'] e'4 e' e'
     e'4. d'8 cis'2\fermata }
 }
 
@@ -48,10 +48,10 @@ tenorMusic = {
     r4 cis' d'8 [cis'] b [a]
     gis4 a8 [gis] fis4 cis'8 [b]
     a2\fermata r4 gis
-    gis a fis8 [gis] g [fis]~
+    gis a fis8 [gis] g [fis]
     fis [d] d'4 d'2\fermata
     r4 e' e' cis'8 [d'16 e']
-    fis'8 [e'] a4 d'8 [b] a4
+    fis'8 [e'] a4 d'8 [b] a4~
     a gis e2\fermata }
 }
 
@@ -64,38 +64,42 @@ bassMusic = {
       cis2\fermata r4 fis8 [gis]
       a4~ a8 [gis] fis [e] d [cis]
       d [b,] e4 a,2\fermata }
-    r4 a2 gis8 [fis]
+    r4 a a gis8 [fis]
     eis4 fis8 [e] d [b,] cis4
     fis,2\fermata r4 bis,
-    cis8 [b,] a,4~ a,8 gis, ais,4
-    b,~ b,8 [cis] d2\fermata
+    cis8 [b,] a,4 a,8 [gis,] ais,4
+    b,4. cis8 d2\fermata
     r4 gis, a,8 [cis] fis [e]
-    d4~ d8 [cis] b, [e] cis [a,]
+    d4. cis8 b, [e] cis [a,]
     e4 e, a,2\fermata }
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             \tweak X-offset #-5 "1. Herr," wie du willst, so schick's mit mir
-                             im Le -- ben wie im Ster -- ben,     
-                             Er -- halt' mich nur in dei -- ner Huld,
-                             sonst wie du willst, gieb mir Ge -- duld,
-                             dein Will', der ist _ der _ bes -- te.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   \tweak X-offset #-5 "1. Herr," wie du willst, so schick's mit mir
+   im Le -- ben wie im Ster -- ben,     
+   Er -- halt' mich nur in dei -- ner Huld,
+   sonst wie du willst, gieb mir Ge -- duld,
+   dein Will', der ist __ _ der __ _ bes -- te.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             Al -- lein zu dir steht mein Be -- gehr,
-                             Lass mich, Herr, nicht ver -- derb -- en.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   Al -- lein zu dir steht mein Be -- gier,
+   lass mich, Herr, nicht ver -- der -- ben.
 }
 
-versoThreeLyrics = \lyricmode {\set stanza = 3
-                               \tweak X-offset #-5 "2. Wer" in dem Schutz des Höch -- sten ist,
-                               und sich Gott thut er -- ge -- ben,      
-                               der du ja wirst er -- ret -- ten mich
-                               von Teu -- fels Stri -- cken gnä -- dig -- lich
-                               dnd von der Pe -- _ sti -- _ len -- ze.
+versoThreeLyrics = \lyricmode {
+\set stanza = 3
+   \tweak X-offset #-5 "2. Wer" in dem Schutz des Höch -- sten ist,
+   und sich Gott thut er -- ge -- ben,      
+   der du ja wirst er -- ret -- ten mich
+   von Teu -- fels Stri -- cken gnä -- dig -- lich
+   und von der Pe -- _ sti -- _ len -- ze.
 }
 
-versoFourLyrics = \lyricmode {\set stanza = 4
-                              der spricht: du, Herr, mein' Zu -- flucht bist,
-                              mein Gott, Hoff -- nung und Le -- ben,
+versoFourLyrics = \lyricmode {
+\set stanza = 4
+   der spricht: du, Herr, mein' Zu -- flucht bist,
+   mein Gott, Hoff -- nung und Le -- ben,
 }
