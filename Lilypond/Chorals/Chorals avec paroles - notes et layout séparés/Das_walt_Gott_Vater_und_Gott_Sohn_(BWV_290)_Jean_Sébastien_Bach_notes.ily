@@ -15,13 +15,13 @@ sopranoMusic = {
 altoMusic = {
   \voiceTwo
   \partial 4  c'4
-  f' f' e' e'~
-  e'8 d' c'4 c'\fermata c'
+  f' f' e' e'
+  e'8 [d'] c'4 c'\fermata c'
   f' g' a'8 [b'] c''4
   c''4. b'8 g'4\fermata
   \partial 4  g'
   g'8 [f'16 e'] f'4 f' f'
-  g'8 [c'] c' f'4 e'8\fermata g'4
+  g'8 [c'] c' [f'] f' [e']\fermata g'4
   f' f' f' e'
   d'16 [e'] f'4 e'8 c'4\fermata \fine
 }
@@ -34,7 +34,7 @@ tenorMusic = {
   a c' f' e'
   a' d'8 [g'16 f'] e'4\fermata
   \partial 4  c'
-  c' c'4~c'8 bes4 a8
+  c' c'4 c'8 [bes] bes [a]
   g4 a8. [bes16] c'4\fermata c'
   c' c' d' c'8 [bes]
   a [g16 f] c'8. [bes16] a4\fermata \fine
@@ -48,8 +48,8 @@ bassMusic = {
   f4. e8 d4 a8 [g]
   f4 g c\fermata
   \partial 4  e
-  f a,8 [f,] bes,4 f~
-  f8 e f4 c\fermata e
+  f a,8 [f,] bes,4 f
+  f8 [e] f4 c\fermata e
   f a, bes, c
   d c f\fermata \fine
 }

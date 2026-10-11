@@ -60,10 +60,10 @@ bassMusic = {
   fis2 g4
   bes, a, g,
   d2.\fermata
-  bes4 a8 [g] cis4
-  d2 e4
+  bes4 a8 [g] cis'4
+  d' d e
   f8 [g] a4 a,
-  d,2.\fermata
+  d2.\fermata
   g,4 g fis
   g4. a8 bes4
   ees f f,
@@ -83,9 +83,9 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Es bringt das rech -- _ te Ju -- bel -- jahr, was trau -- ern wir _ denn im -- mer -- dar? Frisch auf! jetzt ist __ _ _ es Sin -- gens -- zeit, das Je -- su -- lein __ _ _ wendt al -- les Leid.
+  Es bringt das rech -- _ te Ju -- bel -- jahr, was trau -- ern wir __ _ denn im -- mer -- dar? Frisch auf! jetzt ist __ _ _ es Sin -- gens -- zeit, das Je -- su -- lein __ _ _ wendt al -- les Leid.
 }
 
 bassLyrics = \lyricmode {
-  Es bringt das rech -- _ te Ju -- bel -- jahr, was trau -- ern wir denn im -- mer -- _ dar? Frisch auf! jetzt ist __ _ _ es Sin -- gens -- zeit, das Je -- su -- lein __ _ wendt al -- les Leid.
+  Es bringt das rech -- _ te Ju -- bel -- jahr, was trau -- ern wir __ _ denn im -- mer -- _ dar? Frisch auf! jetzt ist __ _ _ es Sin -- gens -- zeit, das Je -- su -- lein __ _ wendt al -- les Leid.
 }

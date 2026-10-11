@@ -9,8 +9,7 @@ sopranoMusic = \transpose c d {
   d'8 [e'] f'4 g' d'8 [e']
   f'4 g' a'\fermata a'
   d'' cis'' d'' e''8 [d'']
-  c''4 b' a'\fermata
-  b'
+  c''4 b' a'\fermata b'
   c'' a'8 [bes'] c''4 g'
   f' e' d'2\fermata
   a'4 g' f'2
@@ -28,11 +27,10 @@ altoMusic = \transpose c d {
   a d' d'4. cis'8
   d'4 c' c'\fermata f'8 [g']
   a'4 g' a' e'
-  e' e'8 [d'] c'4\fermata
-  d'
+  e' e'8 [d'] c'4\fermata d'
   e' c' f' e'~
   e'8 d'4 cis'8 d'2\fermata
-  c'8 [d'] e'4. cis'8 d'4~
+  c'!8 [d'] e'4~e'8 [cis'] d'4~
   d' cis' a2\fermata \fine
 }
 
@@ -47,8 +45,7 @@ tenorMusic = \transpose c d {
   f8 [g] a4 g8 [a] bes4
   a g f\fermata c'
   f' e' d'8 [c'] b4
-  a gis e\fermata
-  f
+  a gis e\fermata f
   g f f c'8 [bes]
   a4 g f2\fermata
   f4 e8 [a] a4 bes~
@@ -66,8 +63,7 @@ bassMusic = \transpose c d {
   d4. c8 bes, [a,] g,4
   d e f\fermata f8 [e]
   d4 e fis gis
-  a e a,\fermata
-  d
+  a e a,\fermata d
   c f a,8 [bes,] c4
   d a, bes,2\fermata
   f4 cis d bes,

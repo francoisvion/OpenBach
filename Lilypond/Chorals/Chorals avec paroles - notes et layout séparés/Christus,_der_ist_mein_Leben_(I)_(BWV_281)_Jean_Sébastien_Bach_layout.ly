@@ -28,7 +28,7 @@
 
 \header { 
  title = "Christus, der ist mein Leben (I)"
- poet = "Geneva 1609"
+ poet = "Genève 1609"
   opus = "BWV 281"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f   

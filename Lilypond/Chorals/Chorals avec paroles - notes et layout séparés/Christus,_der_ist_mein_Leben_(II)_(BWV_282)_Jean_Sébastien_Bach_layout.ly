@@ -61,6 +61,9 @@
     } \lyricsto "tenor" \tenorLyrics
 
         \new Voice = "bass" \bassMusic
+        \new Lyrics \with {
+      alignAboveContext = "lower"
+    } \lyricsto "bass" \bassLyrics
       >>
     }
   >>

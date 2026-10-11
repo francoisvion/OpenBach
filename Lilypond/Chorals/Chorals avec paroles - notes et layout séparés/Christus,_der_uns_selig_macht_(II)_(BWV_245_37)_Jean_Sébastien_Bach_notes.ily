@@ -83,5 +83,12 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  O hilf, Chri -- ste, Got -- tes Sohn, durch dein bit -- ter Lei -- _ den, dass wir der stets un -- ter -- tan all Un -- tu -- gend mei -- _ den, dei -- nen Tod und sein Ur -- sach frucht -- bar -- lich be -- den -- _ ken, da -- für, wie -- wohl arm und schwach, dir Dank -- o -- pfer schen -- _ ken. __
+  O hilf, Chri -- ste, Got -- tes Sohn,
+  durch dein bit -- ter Lei -- _ den,
+  dass wir der stets un -- ter -- tan
+  all Un -- tu -- gend mei -- _ den,
+  dei -- nen Tod und sein Ur -- sach
+  frucht -- bar -- lich be -- den -- _ ken,
+  da -- für, wie -- wohl arm und schwach,
+  dir Dank -- o -- pfer schen -- _ ken. __
 }

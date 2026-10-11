@@ -103,17 +103,16 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Chri -- stus, der ist mein Le -- _ _ ben
-  Ster -- _ _ _ ben
-  ist mein Ge winn;
-  dem tu ich mich er -- ge -- _ _ ben,
-  mit Freud' __ _ fahr' ich da hin.
+  \repeat unfold 9 {\skip1}
+  Ster -- _ _ _ \hide LyricText ben
 }
 
 tenorLyrics = \lyricmode {
-  Chri -- stus, der ist mein Le -- _ _ ben
-  Ster -- _ ben
-  ist mein Ge winn;
-  dem tu ich mich er -- ge -- _ _ ben,
-  mit Freud' __ _ fahr' ich __ _ da hin.
+  \repeat unfold 9 {\skip1}
+  Ster -- _ \hide LyricText ben
+}
+
+bassLyrics = \lyricmode {
+  \repeat unfold 10 {\skip1}
+  Ster -- _ _ _ \hide LyricText ben
 }

@@ -25,10 +25,7 @@ altoMusic = \relative c' {
   e8 [f] g [e] c [d] e4
   e4. d8 cis4\fermata a8 [b]
   c!4. e8 f4 f~
-  f8 e~e16 [d c8] b4\fermata
-  
-  
-  \fine
+  f8 e~e16 [d c8] b4\fermata \fine
 }
 
 tenorMusic = \relative c {
@@ -62,5 +59,9 @@ bassMusic = \relative c {
 }
 
 sopranoLyrics = \lyricmode {
-  Da Je -- sus an dem Kreu -- tze stund und ihm sein Leib ward sehr ver -- wundt so -- gar mit bit -- tern Schmer -- _ zen, die sie -- ben Wort, die Je -- sus sprach, be -- tracht in dei -- nem Her -- _ zen.
+  Da Je -- sus an dem Kreu -- tze stund
+  und ihm sein Leib ward sehr ver -- wundt
+  so -- gar mit bit -- tern Schmer -- _ zen,
+  die sie -- ben Wort, die Je -- sus sprach,
+  be -- tracht in dei -- nem Her -- _ zen.
 }

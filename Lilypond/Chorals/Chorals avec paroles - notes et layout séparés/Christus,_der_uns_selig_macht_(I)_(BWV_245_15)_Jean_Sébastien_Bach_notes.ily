@@ -94,12 +94,6 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Chris -- tus, der uns se -- lig macht,
-  kein Bös hat be -- gan -- _ gen,
-  der ward vor uns in der Nacht
-  als ein Dieb ge -- fan -- gen,
-  ge -- führt vor gott -- lo -- se Leut
-  und fälsch -- lich ver -- kla -- _ get,
-  ver -- lacht, ver -- höhnt und ver -- speit,
-  wie denn die Schrift sa -- _ _ get.
+  \repeat unfold 52 {\skip1}
+  sa -- _ _ get.
 }

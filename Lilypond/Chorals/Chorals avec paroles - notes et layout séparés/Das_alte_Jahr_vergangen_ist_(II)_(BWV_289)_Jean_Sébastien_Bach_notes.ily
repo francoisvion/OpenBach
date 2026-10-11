@@ -3,10 +3,10 @@ sopranoMusic = {
   \partial 4  b'4
   b' a'8 [g'] fis'4 b'
   a'8 [g'] fis'4 g'\fermata b'
-  b' a'8 [g'] fis'4 b'
+  b' a'8 [g'!] fis'4 b'
   a'8 [g'] fis'4 g'\fermata b'
   cis'' dis'' e'' b'8 [cis'']
-  d''4 cis'' b'\fermata cis''
+  d''!4 cis'' b'\fermata cis''
   d'' cis'' b' b'
   a'8 [g'] fis'4 g'\fermata a'
   a' b' a'8 [g'] fis'4
@@ -24,10 +24,10 @@ altoMusic = {
   c' c'8 [b] b4\fermata g'
   g' fis' e' e'
   fis' fis' fis'\fermata fis'
-  fis' fis'4. d'8 g' [fis']
+  fis' fis'4 fis'8 [d'] g' [fis']
   e'4 d'8 [c'] b4\fermata e'
   d' d' cis' dis'
-  e' e'4. d'8\fermata fis'4
+  e' e'4 e'8 [d'!]\fermata fis'4
   fis' g' fis' fis'
   fis' eis' fis'\fermata \fine
 }
@@ -35,14 +35,14 @@ altoMusic = {
 tenorMusic = {
   \voiceOne
   \partial 4  dis'4
-  e' a a d'
+  e' a a d'!
   d' c'8 [b] b4\fermata e'
   e' a a f
   e fis e\fermata b
   a b b b
   b ais8 [e'] d'4\fermata cis'
-  cis'8 b4 a8 b4 b
-  c'8 [b] a4 g\fermata g
+  cis'8 [b] b [a] b4 b
+  c'!8 [b] a4 g\fermata g
   fis g8 [fis] e4 b
   b b b\fermata cis'
   b ais b8 [cis'] d' [cis']
