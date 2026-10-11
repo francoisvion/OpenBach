@@ -102,7 +102,7 @@ bassMusic = {
   f4 r4 r2 \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
   O Gott, du from -- mer Gott,
   du Brunn -- quell al -- ler Ga -- ben,
   ohn' den nichts ist, was ist,
@@ -112,13 +112,7 @@ versoOneLyrics = \lyricmode {
   ein' un -- ver -- letz -- te Seel' und rein Ge -- wis -- sen bleib. __
 }
 
-altoVersoTwoLyrics = \lyricmode {
-  O Gott, du from -- mer Gott,
-  du Brunn -- quell al -- ler Ga -- _ ben,
-  ohn' den nichts ist, was ist,
-  von dem wir al -- les ha -- _ ben,
-  ge -- sun -- den Leib gib mir,
-  und dass in sol -- chem Leib
-  ein' un -- ver -- letz -- te Seel'
-  und rein Ge -- wis -- sen bleib, und rein ge -- wis -- sen bleib.
+altoLyrics = \lyricmode {
+  \repeat unfold 52 {\skip1}
+  und rein ge -- wis -- sen bleib.
 }

@@ -66,7 +66,7 @@ bassMusic = {
   d2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Das wollst du Gott be -- wah -- ren rein
    für die -- sem argn Ge -- schlech -- _ te,
@@ -75,7 +75,7 @@ versoOneLyrics = \lyricmode {
    in dei -- nem Volk er -- ha -- _ _ ben.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Und lass uns dir be -- foh -- len sein,
    dass sichs in uns nicht flech -- _ te,

@@ -106,11 +106,11 @@ bassMusic = {
   g,2\fermata \fine
 }
 
-sopranoLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
   Aus mei -- nes Her -- _ zens Grun -- _ _ de
   sag' ich dir Lob und Dank,
-  O Gott __ in dei -- nem __ Thron,
+  O Gott __ _ in dei -- _ nem __ Thron,
   dir zu Lob, Preis und Eh -- ren,
   durch Chris -- tum, un -- sern Her -- _ _ ren,
   dein ein -- ge -- bor -- nen Sohn.

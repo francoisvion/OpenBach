@@ -70,7 +70,7 @@ bassMusic = {
   d4 cis8 [b,] fis4\fermata \fine
 }
 
-sopranoLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
   Be -- fiehl du dei -- ne We -- ge,
   und was dein Her -- ze kränkt,
   Der Wol -- ken, Luft und Win -- den

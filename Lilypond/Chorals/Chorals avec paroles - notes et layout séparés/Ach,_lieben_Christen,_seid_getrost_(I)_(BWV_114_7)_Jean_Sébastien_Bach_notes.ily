@@ -62,7 +62,7 @@ bassMusic = {
   c4 d g,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Wir wa -- chen o -- der schla -- fen ein,
    so sind wir doch des Her -- ren;
@@ -71,7 +71,7 @@ versoOneLyrics = \lyricmode {
    Drum lo -- ben wir den Her -- ren.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    auf Chris -- tum wir ge -- tau -- fet sein,
    der kann dem Sa -- tan weh -- ren.

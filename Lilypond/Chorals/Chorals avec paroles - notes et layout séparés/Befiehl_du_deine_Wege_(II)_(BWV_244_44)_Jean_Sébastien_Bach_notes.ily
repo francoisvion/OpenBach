@@ -78,18 +78,18 @@ bassMusic = {
   d2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
-\set stanza = 1
-   Be -- fiehl du dei -- ne We -- ge
-   und was dein Her -- ze kränkt,
-   der Wol -- ken, Luft und Win -- den
-   gibt We -- ge, Lauf und Bahn,
-   der wird auch We -- ge fin -- den,
-   da dein Fuß ge -- hen kann.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Be -- fiehl du dei -- ne We -- ge
+  und was dein Her -- ze kränkt,
+  der Wol -- ken, Luft und Win -- den
+  gibt We -- ge, Lauf und Bahn,
+  der wird auch We -- ge fin -- den,
+  da dein Fuß ge -- hen kann.
 }
 
-versoTwoLyrics = \lyricmode {
-\set stanza = 2
-   Der al -- ler -- treu -- sten Pfle -- ge
-   des, der den Him -- mel lenkt.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Der al -- ler -- treu -- sten Pfle -- ge
+  des, der den Him -- mel lenkt.
 }

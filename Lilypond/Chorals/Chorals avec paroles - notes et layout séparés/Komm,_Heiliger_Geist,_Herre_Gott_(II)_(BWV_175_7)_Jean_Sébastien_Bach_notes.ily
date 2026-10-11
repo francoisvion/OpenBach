@@ -139,6 +139,6 @@ sopranoLyrics = \lyricmode {
   der herr -- lich leuch -- tet nah und fern.
   Drum will ich die __ _ mich an -- ders leh -- ren,
   in E -- wig keit, __ _ mein Gott, nicht hö -- _ ren. 
-  Al -- le -- lu -- ja,
-  Al -- le lu -- ja!
+  Al -- le -- lu -- ia,
+  Al -- le lu -- ia!
 }

@@ -77,7 +77,7 @@ sopranoLyricsOne = \lyricmode {
   des Blut zeich -- net uns -- re Tür,
   das hält der Glaub dem To -- de für;
   der Wür -- ger kann uns nicht rüh -- ren.
-  Al -- _ le -- lu -- ja!
+  Al -- _ le -- lu -- ia!
 }
 
 sopranoLyricsTwo = \lyricmode {

@@ -70,9 +70,9 @@ bassMusic = {
   d4 r4 r2\fine
 }
 
-versoOneLyrics = \lyricmode {
-Ach, mein herz -- lie -- bes Je -- su -- lein,
-                            Mach dir ein rein, sanft Bet -- te -- lein,
-                            Zu ru -- hen in meins Her -- zens Schrein,
-                            dass ich nim -- mer ver -- ge -- sse dein.
+sopranoLyrics = \lyricmode {
+  Ach, mein herz -- lie -- bes Je -- su -- lein,
+  Mach dir ein rein, sanft Bet -- te -- lein,
+  Zu ru -- hen in meins Her -- zens Schrein,
+  dass ich nim -- mer ver -- ge -- sse dein.
 }

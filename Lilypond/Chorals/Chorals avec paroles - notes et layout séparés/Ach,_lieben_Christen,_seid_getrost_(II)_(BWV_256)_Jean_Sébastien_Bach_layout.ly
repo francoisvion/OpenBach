@@ -48,7 +48,7 @@
         \new Voice = "alto" \altoMusic
       >>
     }
-    \new Lyrics \lyricsto "soprano" \sopranoLyrics
+    \new Lyrics \lyricsto "soprano" \sopranoLyricsOne
     \new Lyrics \lyricsto "soprano" \sopranoLyricsTwo
     
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B}}
@@ -63,61 +63,6 @@
       >>
     }
   >>
-}
-\markup {\fontsize #-1.5
-  \fill-line {
-%
-    \column { 
-      \line { 2. }
-      \line { In deine Hand uns geben wir, }
-      \line { o Gott, du lieber Vater, }
-      \line { denn unser Wandel ist bei dir, }
-      \line { hier wird uns nicht geraten. }
-      \line { Weil wir in dieser Hütte sein, }
-      \line { ist nur Elend, Trübsal und Pein, }
-      \line { bei dir der Freud' wir warten. }
-      \vspace #1
-      \line { 3. }
-      \line { Kein' Frucht das Weizenkörnlein bringt, }
-      \line { es fall' denn in die Erden: }
-      \line { so muß auch unser ird'scher Leib }
-      \line { zu Staub und Asche werden, }
-      \line { eh' er kommt zu der Herrlichkeit, }
-      \line { die du, Herr Christ, uns hast bereit't }
-      \line { durch deinem Gang zum Vater. }
-    }
-
-    \column {
-      \line { 4. }
-      \line { Was wollen wir denn fürchten sehr }
-      \line { den Tod auf dieser Erden? }
-      \line { Es muß einmal gestorben sein, }
-      \line { O wohl ist hier gewesen, }
-      \line { welcher wie Simeon entschläft, }
-      \line { sein Sünd' erkennt, Christum ergreifst! }
-      \line { so muß man selig sterben }
-      \vspace #1
-      \line { 5. }
-      \line { Dein' Seel' bedenk', bewahr dein'n Leib, }
-      \line { laß Gott den Vater sorgen, }
-      \line { sein' Engel deine Wächter sein, }
-      \line { b'hüt'n dich vor allem Argen. }
-      \line { Ja, wie die Henn' ihr' Küchelein }
-      \line { bedeckt mit ihren Flügelein, }
-      \line { so tut der Herr uns Armen. }
-    }
-
-    \column {
-      \line { 6. }
-      \line { Wir wachen oder schlafen ein, }
-      \line { so sind wir doch wir doch des Herren. }
-      \line { Auf Christum wir getaufet sein, }
-      \line { der kann dem Satan wehren. }
-      \line { Durch Adam auf uns kommt der Tod, }
-      \line { Christus hilft uns aus aller Not, }
-      \line { drum loben wir den Herren. }
-    }
-  }
 }
  
 \layout {

@@ -82,7 +82,7 @@ bassMusic = {
   b,1.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
     Drum fahrt nur im -- mer hin,
     ihr Ei -- tel -- _ kei -- ten,
@@ -93,7 +93,7 @@ versoOneLyrics = \lyricmode {
     bis man mich ein -- sten legt ins __ _ Grab hin -- ein.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
     ich will mich von der Welt
     zu dir be -- _ rei -- ten;

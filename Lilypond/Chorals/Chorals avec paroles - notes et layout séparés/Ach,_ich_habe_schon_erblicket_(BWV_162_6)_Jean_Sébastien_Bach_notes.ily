@@ -1,10 +1,10 @@
 sopranoMusic = {
   \voiceOne
-\repeat volta 2 {
-  a'4 b' c'' b'
-  a' b'8 [c''16 d''] c''4 b'\fermata
-  c'' b' a' b'
-  c'' d'' e''2\fermata }
+  \repeat volta 2 {
+    a'4 b' c'' b'
+    a' b'8 [c''16 d''] c''4 b'\fermata
+    c'' b' a' b'
+    c'' d'' e''2\fermata }
   b'4 c'' d''8 [c''] b'4
   c'' b'8 [a'] a'4 g'\fermata
   b' b' a' g'
@@ -17,11 +17,11 @@ sopranoMusic = {
 
 altoMusic = {
   \voiceTwo
-\repeat volta 2 {
-  e'4 e' e' e'8 [d']
-  c'4 f' e' e'\fermata
-  e' e' e'8 [fis'] gis'4
-  a'8 [c''] b' [a'] gis'2\fermata }
+  \repeat volta 2 {
+    e'4 e' e' e'8 [d']
+    c'4 f' e' e'\fermata
+    e' e' e'8 [fis'] gis'4
+    a'8 [c''] b' [a'] gis'2\fermata }
   gis'4 a' a' g'
   g' g' fis' d'\fermata
   g'8 [a'] g' [fis'] e'4 e'
@@ -34,11 +34,11 @@ altoMusic = {
 
 tenorMusic = {
   \voiceOne
-\repeat volta 2 {
-  c'4 b a gis
-  a a a gis\fermata
-  a gis a d'
-  e' f' b2\fermata }
+  \repeat volta 2 {
+    c'4 b a gis
+    a a a gis\fermata
+    a gis a d'
+    e' f' b2\fermata }
   e'4 e' d' d'
   c'8 [d'] e'4 a8 [b16 c'] b4\fermata
   d' e' a8 [b] c'4
@@ -51,11 +51,11 @@ tenorMusic = {
 
 bassMusic = {
   \voiceTwo
-\repeat volta 2 {
-  a4 gis a e
-  f8 [e] d4 a, e\fermata
-  a e8 [d] c4 b,
-  a,8 [g,] f,4 e,2\fermata }
+  \repeat volta 2 {
+    a4 gis a e
+    f8 [e] d4 a, e\fermata
+    a e8 [d] c4 b,
+    a,8 [g,] f,4 e,2\fermata }
   e4 a8 [g] fis4 g8 [fis]
   e [d] c4 d g,\fermata
   g8 [fis] e [d] c [b,] a,4
@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-\set stanza = 1
+  \set stanza = 1
   Ach, ich ha -- be schon er -- bli -- cket
   die -- se gro -- ße Herr -- lich -- keit.
   mit der güld -- nen Eh -- ren -- kro -- ne
@@ -77,7 +77,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-\set stanza = 2
+  \set stanza = 2
   Jetz -- und werd ich schön ge -- schmü -- cket
   mit dem wei -- ßen Him -- mels -- kleid;
 }

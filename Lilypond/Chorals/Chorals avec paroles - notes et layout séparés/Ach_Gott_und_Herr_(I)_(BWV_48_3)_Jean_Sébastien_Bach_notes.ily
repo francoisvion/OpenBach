@@ -1,6 +1,6 @@
 sopranoMusic = {
   \voiceOne
-  \partial 4  bes'4
+  \partial 4 bes'4
   a' g' f'\fermata f'
   g' a' bes'\fermata c''
   bes' a' g' a'8 [bes']
@@ -15,7 +15,7 @@ sopranoMusic = {
 
 altoMusic = {
   \voiceTwo
-  \partial 4  f'4
+  \partial 4 f'4
   f' e' c'\fermata c'
   f' fis' g'\fermata a'
   g' f' c' c'
@@ -30,7 +30,7 @@ altoMusic = {
 
 tenorMusic = {
   \voiceOne
-  \partial 4  d'4
+  \partial 4 d'4
   c' c'8 [bes] a4\fermata a
   bes ees' d'\fermata d'
   d' d' e' f'
@@ -45,7 +45,7 @@ tenorMusic = {
 
 bassMusic = {
   \voiceTwo
-  \partial 4  bes,4
+  \partial 4 bes,4
   f c f,\fermata ees
   des c g\fermata fis
   g d'8 [c'] bes [a] g [f]
@@ -59,5 +59,10 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Solls ja so sein, dass Straf und Pein auf Sün -- de fol -- gen müs -- sen, so fahr hier fort und scho -- ne dort, und lass mich hier wohl bü -- _ _ _ ßen.
+  Solls ja so sein,
+  dass Straf und Pein
+  auf Sün -- de fol -- gen müs -- sen,
+  so fahr hier fort
+  und scho -- ne dort,
+  und lass mich hier wohl bü -- _ _ _ ßen.
 }

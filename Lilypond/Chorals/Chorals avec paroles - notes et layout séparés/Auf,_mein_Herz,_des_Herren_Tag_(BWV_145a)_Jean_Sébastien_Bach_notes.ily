@@ -50,7 +50,7 @@ bassMusic = {
   g a d2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Auf mein Herz des Her -- ren Tag
    hat die Nacht der Furcht ver -- trie -- ben:
@@ -58,7 +58,7 @@ versoOneLyrics = \lyricmode {
    Je -- sus hat die Welt er -- löst.
 }
 
-sopranoVersoOneLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Chri -- stus, der ver -- gra -- ben lag,
    ist im To -- de nicht ge -- blie -- ben.

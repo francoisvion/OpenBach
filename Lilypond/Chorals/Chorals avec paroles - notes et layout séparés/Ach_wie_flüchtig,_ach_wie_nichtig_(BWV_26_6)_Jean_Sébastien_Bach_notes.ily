@@ -55,5 +55,10 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Ach wie flüch -- tig, ach wie nich -- tig sind der Men -- schen Sa -- _ chen! Al -- les, Al -- les was wir se -- hen, das muss fal -- len und ver -- ge -- hen. Wer Gott fürcht, bleibt e -- wig ste -- hen.
+  Ach wie flüch -- tig,
+  ach wie nich -- tig
+  sind der Men -- schen Sa -- _ chen!
+  Al -- les, Al -- les was wir se -- hen,
+  das muss fal -- len und ver -- ge -- hen.
+  Wer Gott fürcht, bleibt e -- wig ste -- hen.
 }

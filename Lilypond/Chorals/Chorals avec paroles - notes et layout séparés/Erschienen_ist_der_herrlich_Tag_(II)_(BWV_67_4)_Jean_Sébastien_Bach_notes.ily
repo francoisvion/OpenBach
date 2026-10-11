@@ -75,5 +75,5 @@ sopranoLyrics = \lyricmode {
   dran sich nei -- mand gnug freu -- en mag:
   Christ, un -- ser Herr, heut tri -- _ um -- phiert,
   all sein Feind er ge -- fan -- gen führt.
-  Al -- le -- lu -- ja!
+  Al -- le -- lu -- ia!
 }

@@ -107,7 +107,7 @@ bassMusic = {
   f,2 r4 s2. \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Je -- sus rich -- te mein Be -- _ gin -- nen,
    Je -- sus blei -- be stets bei mir,
@@ -115,7 +115,7 @@ versoOneLyrics = \lyricmode {
    Je -- _ su, las -- _ se mich __ _ nicht wan -- ken!
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    Je -- sus zäu -- me mir die _ Sin -- nen,
    Je -- sus sei nur mein Be -- gier,

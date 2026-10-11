@@ -70,7 +70,7 @@ bassMusic = {
   g,2 c\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Ich will al -- le mei -- ne Ta -- ge
    Rüh -- men dei -- ne star -- ke Hand,
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    und dort e -- wi -- glich dich prei -- sen.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    dass du mei -- ne Plag und Kla -- ge
    hast so herz -- lich ab -- ge -- wandt.

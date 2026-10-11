@@ -63,8 +63,8 @@ bassMusic = {
 }
 
 versoOneLyrics = \lyricmode {
-Al -- le -- lu -- ja!
-                            Al -- le -- lu -- ja!
+Al -- le -- lu -- ia!
+                            Al -- le -- lu -- ia!
                             Ge -- lobt sei Gott,
                             sin -- gen wir all aus un -- sers Her -- zens Grun -- de.
                             Denn Gott hat heut

@@ -70,18 +70,18 @@ bassMusic = {
   fis8 [e] fis4 b,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
-\set stanza = 1
-   Ich hab dich ei -- nen Au -- gen -- blick,
-   o lie -- bes Kind, ver -- las -- sen;
-   will ich dir schon die Freu -- den -- kron
-   auf -- setz -- en und ver -- eh -- ren;
-   dein kur -- zes Leid soll sich in Freud
-   und e -- wig Wohl ver -- keh -- ren.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ich hab dich ei -- nen Au -- gen -- blick,
+  o lie -- bes Kind, ver -- las -- sen;
+  will ich dir schon die Freu -- den -- kron
+  auf -- setz -- en und ver -- eh -- ren;
+  dein kur -- zes Leid soll sich in Freud
+  und e -- wig Wohl ver -- keh -- ren.
 }
 
-versoTwoLyrics = \lyricmode {
-\set stanza = 2
-   sieh a -- ber, sieh, mit gro -- ßem Glück
-   und Trost ohn al -- le Ma -- ßen;
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  sieh a -- ber, sieh, mit gro -- ßem Glück
+  und Trost ohn al -- le Ma -- ßen;
 }

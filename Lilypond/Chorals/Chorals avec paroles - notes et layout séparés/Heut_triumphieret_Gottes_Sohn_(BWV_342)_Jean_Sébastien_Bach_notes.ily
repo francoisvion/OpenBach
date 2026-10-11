@@ -111,5 +111,5 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Heut' tri -- um -- phi -- ret Got -- tes Sohn, der von dem Tod _ er -- stan -- den schon, Hal -- le -- lu -- ja, _ hal -- le -- _ lu -- ja! mit gro -- ßer Pracht und Her -- _ lich -- keit, dess dank'n wir ihm _ in E -- wig -- keit. Hal -- le -- lu -- ja, hal -- le -- lu -- ja!
+  Heut' tri -- um -- phi -- ret Got -- tes Sohn, der von dem Tod _ er -- stan -- den schon, Al -- le -- lu -- ia, _ al -- le -- _ lu -- ia! mit gro -- ßer Pracht und Her -- _ lich -- keit, dess dank'n wir ihm _ in E -- wig -- keit. Al -- le -- lu -- ia, al -- le -- lu -- ia!
 }

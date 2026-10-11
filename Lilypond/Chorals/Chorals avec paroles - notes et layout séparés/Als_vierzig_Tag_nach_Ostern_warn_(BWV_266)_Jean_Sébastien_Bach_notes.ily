@@ -103,5 +103,10 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Als vier -- zig Tag' nach O -- _ _ _ _ stern war'n und Chri -- _ stus wollt' __ _ gen Him -- mel fahr'n, b'schied er sein' Jün -- ger auf ein Berg, auf __ _ ein Berg, vol -- len -- det da sein Amt und Werk. Hal -- _ _ le -- lu -- ja!
+  Als vier -- zig Tag' nach O -- _ _ _ _ stern war'n
+  und Chri -- _ stus wollt' __ _ gen Him -- mel fahr'n,
+  b'schied er sein' Jün -- ger auf ein Berg,
+  auf __ _ ein Berg,
+  vol -- len -- det da sein Amt und Werk.
+  Al -- _ _ le -- lu -- ia!
 }

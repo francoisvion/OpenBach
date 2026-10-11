@@ -1,7 +1,7 @@
 sopranoMusic = {
   \voiceOne
   \repeat volta 2 {
-    \partial 4  e'4
+    \partial 4 e'4
     a' g' f' e'
     d'2 e'4\fermata b'
     c'' c'' b' b'
@@ -19,7 +19,7 @@ sopranoMusic = {
 altoMusic = {
   \voiceTwo
   \repeat volta 2 {
-    \partial 4  b4
+    \partial 4 b4
     e' e' d' cis'
     d'2 cis'4\fermata e'
     dis' e' fis' e'8 [d']
@@ -37,7 +37,7 @@ altoMusic = {
 tenorMusic = {
   \voiceOne
   \repeat volta 2 {
-    \partial 4  gis4
+    \partial 4 gis4
     a bes a g
     a8 [g16 f] g8 [d] a4\fermata b
     a a a gis
@@ -55,7 +55,7 @@ tenorMusic = {
 bassMusic = {
   \voiceTwo
   \repeat volta 2 {
-    \partial 4  d4
+    \partial 4 d4
     c cis d e
     f bes, a,\fermata g
     fis e dis e
@@ -70,7 +70,7 @@ bassMusic = {
   gis a e\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Und ob gleich al -- le Teu -- fel
    dir woll -- ten wi -- der -- stehn,
@@ -80,7 +80,7 @@ versoOneLyrics = \lyricmode {
    zu sei -- nem Zweck und Ziel. __
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
    So wird doch oh -- ne Zwei -- fel
    Gott nicht zu -- rü -- cke gehn;

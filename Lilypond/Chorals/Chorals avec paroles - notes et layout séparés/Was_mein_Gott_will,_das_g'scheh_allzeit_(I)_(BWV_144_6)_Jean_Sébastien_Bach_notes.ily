@@ -84,19 +84,20 @@ bassMusic = {
   b,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
 \set stanza = 1
    Was mein Gott will, das g'scheh' all -- zeit,
    sein Will' der ist __ _ _ der be -- ste;
-   Er hilft aus Noth, __ _ _ der from -- me Gott,
+   Er hilft aus Not, __ _ _ der from -- me Gott,
    und züch -- ti -- get mit Ma -- ßen.
    Wer Gott ver -- traut, fest auf ihn baut,
    den will er nicht __ _ _ ver -- las -- sen.
 }
 
-versoTwoLyrics = \lyricmode {
+sopranoLyricsTwo = \lyricmode {
 \set stanza = 2
-   zu hel -- fen den'n er ist be -- reit, die an ihn glau -- _ _ ben fe -- ste.
+   zu hel -- fen den'n er ist be -- reit,
+   die an ihn glau -- _ _ ben fe -- ste.
 }
 
 tenorLyrics = \lyricmode {
@@ -107,14 +108,4 @@ tenorLyrics = \lyricmode {
 bassLyrics = \lyricmode {
   \repeat unfold 47 {\skip1}
   \tweak X-offset #-6.0 "(B.) ver" -- la -- _ _ _ ßen.
-}
-
-tenorLyricsTwo = \lyricmode {
-\set stanza = 2
-   zu hel -- fen den'n er ist be -- reit, die an ihn glau -- ben fe -- _ _ ste.
-}
-
-bassLyricsTwo = \lyricmode {
-\set stanza = 2
-   zu hel -- fen den'n er ist be -- reit, die an ihn glau -- ben fe -- _ _ ste.
 }

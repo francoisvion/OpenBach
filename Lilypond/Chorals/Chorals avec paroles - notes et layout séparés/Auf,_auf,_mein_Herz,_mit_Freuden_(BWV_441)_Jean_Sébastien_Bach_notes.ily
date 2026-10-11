@@ -96,18 +96,18 @@ bassMusic = \relative c {
   f2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
-\set stanza = 1
-   Auf, auf, __ _ mein Herz, mit Freu -- den,
-   nimm wahr, __ _ was heut ge -- _ schicht,
-   Mein Hei -- land ward __ _ ge -- legt,
-   da, wo __ man uns __ _ hin -- trägt,
-   wenn von __ _ uns un -- _ ser Geist
-   gen Him -- _ mel ist __ _ ge -- reist.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Auf, auf, __ _ mein Herz, mit Freu -- den,
+  nimm wahr, __ _ was heut ge -- _ schicht,
+  Mein Hei -- land ward __ _ ge -- legt,
+  da, wo __ man uns __ _ hin -- trägt,
+  wenn von __ _ uns un -- _ ser Geist
+  gen Him -- _ mel ist __ _ ge -- reist.
 }
 
-sopranoVersoOneLyrics = \lyricmode {
-\set stanza = 2
-   wie kommt __ _ nach gro -- ßen Lei -- den
-   nun ein __ _ so gro -- ßes __ _ Licht!
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wie kommt __ _ nach gro -- ßen Lei -- den
+  nun ein __ _ so gro -- ßes __ _ Licht!
 }

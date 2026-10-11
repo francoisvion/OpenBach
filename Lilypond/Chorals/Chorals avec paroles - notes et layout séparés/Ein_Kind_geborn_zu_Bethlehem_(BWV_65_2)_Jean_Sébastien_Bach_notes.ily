@@ -86,5 +86,5 @@ sopranoLyrics = \lyricmode {
   Die Kön -- ge aus Sa -- ba ka -- _ men da,
   ka -- _ _ men da,
   Gold, Weih -- rauch, Myrr -- hen brach -- ten sie da,
-  Al -- le -- lu -- ja, Al -- le -- _ _ lu -- ja!
+  Al -- le -- lu -- ia, Al -- le -- _ _ lu -- ia!
 }

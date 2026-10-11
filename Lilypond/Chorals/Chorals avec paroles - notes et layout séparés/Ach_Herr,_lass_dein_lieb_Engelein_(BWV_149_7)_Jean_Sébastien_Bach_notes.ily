@@ -1,13 +1,13 @@
 sopranoMusic = {
   \voiceOne
-\repeat volta 2 {
-  \partial 4 c''4
-  b' a' g'8 [fis'] e'4
-  a' a' g'\fermata c''
-  b' a' g'8 [fis'] e'4
-  a' a' g'\fermata g'
-  a' b' c''8 [d''] e''4
-  d''2 c''4\fermata }
+  \repeat volta 2 {
+    \partial 4 c''4
+    b' a' g'8 [fis'] e'4
+    a' a' g'\fermata c''
+    b' a' g'8 [fis'] e'4
+    a' a' g'\fermata g'
+    a' b' c''8 [d''] e''4
+    d''2 c''4\fermata }
   c'' c'' d'' c''8 [b']
   a' [b'] c''4 c'' b'\fermata
   b' c'' d'' c''8 [b']
@@ -26,14 +26,14 @@ sopranoMusic = {
 
 altoMusic = {
   \voiceTwo
-\repeat volta 2 {
-  \partial 4 e'4
-  d'8 [e'] f'4 e'8 [d'] c'4
-  c' f' e'\fermata fis'
-  g' dis' e' b
-  e'4. dis'8 e'4\fermata e'
-  e'8 [d'] c' [b] a4 a'
-  a' g'8 [f'] e'4\fermata }
+  \repeat volta 2 {
+    \partial 4 e'4
+    d'8 [e'] f'4 e'8 [d'] c'4
+    c' f' e'\fermata fis'
+    g' dis' e' b
+    e'4. dis'8 e'4\fermata e'
+    e'8 [d'] c' [b] a4 a'
+    a' g'8 [f'] e'4\fermata }
   e' f' f' e'8 [d']
   c' [b] a4 fis' g'\fermata
   g' g'8 [f'] e' [d'] e'4
@@ -52,14 +52,14 @@ altoMusic = {
 
 tenorMusic = {
   \voiceOne
-\repeat volta 2 {
-  \partial 4 g8 [a]
-  b [c'] d' [c'] b4 c'8 [b]
-  a [b] c'4 c'\fermata c'
-  d'8 [e'] fis'4 b8 [a] g4
-  g8 [fis16 e] c'8 [b] b4\fermata c'8 [b]
-  a4 e' e'8 [d'] c'4
-  c' b g\fermata }
+  \repeat volta 2 {
+    \partial 4 g8 [a]
+    b [c'] d' [c'] b4 c'8 [b]
+    a [b] c'4 c'\fermata c'
+    d'8 [e'] fis'4 b8 [a] g4
+    g8 [fis16 e] c'8 [b] b4\fermata c'8 [b]
+    a4 e' e'8 [d'] c'4
+    c' b g\fermata }
   g a a8 [b] c' [d']
   e'4 d'8 [c'] d'4 d'\fermata
   d' g g g
@@ -78,14 +78,14 @@ tenorMusic = {
 
 bassMusic = {
   \voiceTwo
-\repeat volta 2 {
-  \partial 4 c4
-  g d e a8 [g]
-  f [g] a [b] c'4\fermata a
-  g fis e~ e8 d
-  c [a,] fis, [b,] e4\fermata e
-  fis gis a~ a8 g
-  f [d] g4 c\fermata }
+  \repeat volta 2 {
+    \partial 4 c4
+    g d e a8 [g]
+    f [g] a [b] c'4\fermata a
+    g fis e~ e8 d
+    c [a,] fis, [b,] e4\fermata e
+    fis gis a~ a8 g
+    f [d] g4 c\fermata }
   c f8 [e] d4 a~
   a8 g fis [e] d4 g\fermata
   g8 [f] e [d] c [b,] c4
@@ -103,7 +103,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-\set stanza = 1
+  \set stanza = 1
   Ach, Herr, lass dein lieb En -- ge -- lein
   am letz -- ten End die See -- le mein
   in A -- bra -- hams Schoß tra -- gen,
@@ -117,7 +117,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-\set stanza = 2
+  \set stanza = 2
   den Leib in seim Schlaf -- käm -- mer -- lein
   gar sanft ohn ein -- ge Qual und Pein
   ruhn bis am jüng -- sten Ta -- ge!

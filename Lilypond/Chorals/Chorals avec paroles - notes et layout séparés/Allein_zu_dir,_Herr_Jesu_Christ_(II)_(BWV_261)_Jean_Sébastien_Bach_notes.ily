@@ -1,14 +1,14 @@
 sopranoMusic = {
   \voiceOne
-\repeat volta 2 {
-  \partial 4 d''4
-  a' b'8 [cis''] d'' [e''] fis''4
-  e'' d''2 cis''4
-  d''2\fermata r4 fis''
-  e'' d'' cis''8 [b'] a'4
-  b' cis''8 [d''] e''2~
-  e''4 d'' cis''2
-  b'\fermata r4 }
+  \repeat volta 2 {
+    \partial 4 d''4
+    a' b'8 [cis''] d'' [e''] fis''4
+    e'' d''2 cis''4
+    d''2\fermata r4 fis''
+    e'' d'' cis''8 [b'] a'4
+    b' cis''8 [d''] e''2~
+    e''4 d'' cis''2
+    b'\fermata r4 }
   fis'' 
   g'' e'' fis'' d'' e'' fis''
   b'\fermata fis'' 
@@ -27,15 +27,15 @@ sopranoMusic = {
 
 altoMusic = {
   \voiceTwo
-\repeat volta 2 {
-  \partial 4 fis'8 [g']
-  a'4 g' a' ais'8 [b']
-  cis''4 fis' e' e'
-  fis'2\fermata r4 a'
-  a'8 [g'] fis'4 g' fis'
-  g'2. fis'8 [gis']
-  ais'4 b'8 [a'] g'4 fis'8 [e']
-  d'2\fermata r4 }
+  \repeat volta 2 {
+    \partial 4 fis'8 [g']
+    a'4 g' a' ais'8 [b']
+    cis''4 fis' e' e'
+    fis'2\fermata r4 a'
+    a'8 [g'] fis'4 g' fis'
+    g'2. fis'8 [gis']
+    ais'4 b'8 [a'] g'4 fis'8 [e']
+    d'2\fermata r4 }
   b' b' a'
   a' g' g' fis'
   fis'\fermata b' b' a'
@@ -55,15 +55,15 @@ altoMusic = {
 
 tenorMusic = {
   \voiceOne
-\repeat volta 2 {
-  \partial 4 a4
-  d' d' d' d'
-  cis' d'8 [cis'] b4 a
-  a2\fermata r4 d'
-  cis' d' e'8 [d'] cis'4
-  d' e' ais8 [b] cis'4~
-  cis' b2 ais4
-  b2\fermata r4 }
+  \repeat volta 2 {
+    \partial 4 a4
+    d' d' d' d'
+    cis' d'8 [cis'] b4 a
+    a2\fermata r4 d'
+    cis' d' e'8 [d'] cis'4
+    d' e' ais8 [b] cis'4~
+    cis' b2 ais4
+    b2\fermata r4 }
   d' d'8 [b] cis'4
   cis'8 [a] b4 b cis'
   d'\fermata fis' e' e'
@@ -81,15 +81,15 @@ tenorMusic = {
 
 bassMusic = {
   \voiceTwo
-\repeat volta 2 {
-  \partial 4 d8 [e]
-  fis4 g fis4. gis8
-  ais4 b8 [a] gis4 a
-  d2\fermata r4 d'
-  a b e fis~
-  fis e8 [d] cis [b,] ais, [cis]
-  fis4 g8 [fis] e4 fis
-  b,2\fermata r4 }
+  \repeat volta 2 {
+    \partial 4 d8 [e]
+    fis4 g fis4. gis8
+    ais4 b8 [a] gis4 a
+    d2\fermata r4 d'
+    a b e fis~
+    fis e8 [d] cis [b,] ais, [cis]
+    fis4 g8 [fis] e4 fis
+    b,2\fermata r4 }
   b e a
   d g8 [fis] e4 ais,
   b,\fermata d' d' cis'
@@ -107,8 +107,8 @@ bassMusic = {
   b,2\fermata \fine
 }
 
-sopranoLyrics = \lyricmode {
-\set stanza = 1
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
   Al -- lein zu dir, Herr Je -- _ su Christ,
   mein Hoff -- nung steht auf Er -- _ _ _ _ den.
   Von An -- be -- ginn ist nichts er -- korn,
@@ -118,7 +118,7 @@ sopranoLyrics = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-\set stanza = 2
+  \set stanza = 2
   Ich weiß, dass du mein Trö -- _ ster bist,
   kein Trost mag mir sonst wer -- _ _ _ _ en.
 }

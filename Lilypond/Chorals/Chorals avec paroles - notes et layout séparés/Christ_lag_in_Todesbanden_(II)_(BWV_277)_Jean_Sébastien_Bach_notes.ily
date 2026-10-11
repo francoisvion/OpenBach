@@ -76,7 +76,7 @@ versoOneLyrics = \lyricmode {
    für un -- ser Sünd' ge -- ge -- _ ben,
    Dess wir sol -- len fröh -- lich sein,
    Gott lo -- ben und ihm dank -- bar sein,
-   und sin -- gen Hal -- le -- lu -- _ ja, Hal -- le -- lu -- _ ja!
+   und sin -- gen Al -- le -- lu -- _ ia, Al -- le -- lu -- _ ia!
 }
 
 versoTwoLyrics = \lyricmode {

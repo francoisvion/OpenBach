@@ -87,5 +87,9 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Drum wir auch bil -- lig fröh -- _ lich sein, sin -- gen das Hal -- le -- lu -- ja fein und lo -- _ ben dich, __ _ Herr Je -- su Christ; zu Trost du uns er -- stan -- den bist. Hal -- le -- lu -- jah!
+  Drum wir auch bil -- lig fröh -- _ lich sein,
+  sin -- gen das Al -- le -- lu -- ia fein
+  und lo -- _ ben dich, __ _ Herr Je -- su Christ;
+  zu Trost du uns er -- stan -- den bist.
+  Al -- le -- lu -- ia!
 }

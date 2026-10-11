@@ -70,7 +70,8 @@ bassMusic = {
   d2.\fermata \fine
 }
 
-sopranoLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
   Be -- fiehl du dei -- ne We -- ge,
   und was dein Her -- ze kränkt,
   Der Wol -- ken, Luft und Win -- _ den
@@ -80,6 +81,7 @@ sopranoLyrics = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
   der al -- ler -- treu -- sten Pfle -- ge
   des, der den Him -- mel lenkt.
 }

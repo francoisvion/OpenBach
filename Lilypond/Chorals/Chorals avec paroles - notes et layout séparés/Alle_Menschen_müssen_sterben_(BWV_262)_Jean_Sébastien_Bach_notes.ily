@@ -70,7 +70,7 @@ bassMusic = {
   g8 [e] a [a,] d2\fermata \fine
 }
 
-sopranoLyrics = \lyricmode {
+sopranoLyricsOne = \lyricmode {
   Al -- le Men -- schen müs -- sen ster -- ben,
   al -- les Fleisch ver -- geht wie Heu;
   Die -- ser Leib der muss ver -- we -- sen,

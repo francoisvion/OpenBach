@@ -50,9 +50,9 @@
       >>
     }
     
-    \new Lyrics \lyricsto "soprano" \versoOneLyrics
+    \new Lyrics \lyricsto "soprano" \sopranoLyricsOne
     
-    \new Lyrics \lyricsto "soprano" \versoTwoLyrics
+    \new Lyrics \lyricsto "soprano" \sopranoLyricsTwo
     
     \new Staff = "lower" \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {
@@ -63,12 +63,10 @@
         \new Voice = "tenor" \tenorMusic
         
         \new Lyrics \with {alignAboveContext = "lower"} \lyricsto "tenor" \tenorLyrics
-    \new Lyrics \lyricsto "tenor" \tenorLyricsTwo
     
         \new Voice = "bass" \bassMusic
         
         \new Lyrics \lyricsto "bass" \bassLyrics
-    \new Lyrics \lyricsto "bass" \bassLyricsTwo
         
       >>
     }

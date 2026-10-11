@@ -140,6 +140,6 @@ sopranoLyrics = \lyricmode {
   zu dem Glau -- ben ver -- sam -- melt hast
   das Volk aus al -- _ ler Welt __ _ Zun -- gen;
   das sei dir, Herr, __ _ zu Lob ge -- sun -- _ gen.
-  Al -- le -- lu -- ja,
-  al -- le -- lu -- ja.
+  Al -- le -- lu -- ia,
+  al -- le -- lu -- ia.
 }

@@ -74,18 +74,18 @@ bassMusic = \transpose c d {
   g, a, d,2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {
-\set stanza = 1
-   Wir es -- sen und wir le -- ben wohl
-   im rech -- ten O -- ster -- fla -- _ den,
-   Chri -- stus will die Ko -- ste sein
-   und spei -- _ sen die Seel al -- lein,
-   der Glaub will keins an -- dern le -- ben.
-   Hal -- _ le -- lu -- jah!
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wir es -- sen und wir le -- ben wohl
+  im rech -- ten O -- ster -- fla -- _ den,
+  Chri -- stus will die Ko -- ste sein
+  und spei -- _ sen die Seel al -- lein,
+  der Glaub will keins an -- dern le -- ben.
+  Al -- _ le -- lu -- ia!
 }
 
-versoTwoLyrics = \lyricmode {
-\set stanza = 2
-   Der al -- te Sau -- er -- teig nicht soll
-   sein bei dem Wort der Gna -- _ den,
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Der al -- te Sau -- er -- teig nicht soll
+  sein bei dem Wort der Gna -- _ den,
 }
