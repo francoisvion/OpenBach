@@ -58,14 +58,16 @@ bassMusic = {
   a,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Du Frie -- de -- fürst, Herr Je -- su Christ,
-                             wahr' Mensch und wah -- rer Gott,
-                             drum wir al -- lein im Na -- men dein
-                             zu dei -- nem Va -- _ _ ter schrei -- en.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Du Frie -- de -- fürst, Herr Je -- su Christ,
+   wahr' Mensch und wah -- rer Gott,
+   drum wir al -- lein im Na -- men dein
+   zu dei -- nem Va -- _ _ ter schrei -- en.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             ein star -- ker Noth -- hel -- fer du bist
-                             im Le -- ben und im Tod:
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   ein star -- ker Noth -- hel -- fer du bist
+   im Le -- ben und im Tod:
 }

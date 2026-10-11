@@ -62,15 +62,17 @@ bassMusic = {
   b8 [ais] b4 e\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Ob sichs an -- ließ, als wollt er nicht,
-                             lass dich es nicht er -- schre -- _ cken;
-                             Sein Wort lass dir ge -- wis -- ser sein,
-                             und ob dein Herz spräch lau -- ter Nein,
-                             so lass doch dir nicht grau -- _ en.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Ob sichs an -- ließ, als wollt er nicht,
+   lass dich es nicht er -- schre -- _ cken;
+   Sein Wort lass dir ge -- wis -- ser sein,
+   und ob dein Herz spräch lau -- ter Nein,
+   so lass doch dir nicht grau -- _ en.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             Denn wo er ist am be -- sten mit,
-                             da will ers nicht ent -- de -- _ cken.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   Denn wo er ist am be -- sten mit,
+   da will ers nicht ent -- de -- _ cken.
 }

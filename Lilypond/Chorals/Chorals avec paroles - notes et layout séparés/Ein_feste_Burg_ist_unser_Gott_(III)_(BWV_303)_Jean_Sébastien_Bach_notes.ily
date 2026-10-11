@@ -1,6 +1,5 @@
 sopranoMusic = {
   \repeat volta 2 {
-    \voiceOne
     \partial 4  d''4
     d'' d'' a'8 [b'] cis''4
     d''8 [cis''] b'4 a'\fermata d''
@@ -9,8 +8,8 @@ sopranoMusic = {
   \partial 4  d'
   a' b' a' gis'
   a'\fermata d' a' b'8 cis''
-  d''4\fermata cis'' d''8 cis'' b' [b']
-  a'4\fermata
+  d''4\fermata cis'' d''8 cis'' b'4
+  a'\fermata
   \partial 32 * 24  b' b' a'
   b'8 [a'] g'4 fis'\fermata d''
   cis'' b' a' b'8 [a']
@@ -28,7 +27,7 @@ altoMusic = {
   \partial 4  d'
   cis'8 [fis'] e'4 cis'8 [d'] b4
   a\fermata d' d' g'8 g'
-  fis'4\fermata fis' fis'16 [gis' a'8] a' [gis']
+  fis'4\fermata fis' fis'16 [gis'] a'8 a' [gis']
   a'4\fermata
   \partial 32 * 24 g' g' fis'
   fis' e' dis'\fermata fis'8 [gis']
@@ -74,10 +73,18 @@ bassMusic = {
   b, [g,] a,4 d\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Ein' fe -- ste Burg ist un -- ser Gott, ein' gu -- te Wehr und Waf -- _ fen.
-                             Der _ alt bö -- se Feind, mit Ernst er's jetzt meint,
-                             groß Macht und viel List sein grau -- sam Rüst -- zeug ist, auf Erd ist nicht seins Glei -- _ chen.}
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Ein' fe -- ste Burg ist un -- ser Gott,
+   ein' gu -- te Wehr und Waf -- _ fen.
+   Der __ _ alt bö -- se Feind,
+   mit Ernst er's jetzt meint,
+   groß Macht und viel List sein grau -- sam Rüst -- zeug ist,
+   auf Erd ist nicht seins Glei -- _ chen.
+}
 
-                             versoTwoLyrics = \lyricmode {\set stanza = 2
-                                                          Er hilf uns frei aus al -- ler Not, die uns jetz hat be -- tro -- _ fen.}
+                             versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   Er hilf uns frei aus al -- ler Not,
+   die uns jetz hat be -- tro -- _ fen.
+}

@@ -1,7 +1,7 @@
 sopranoMusic = {
   \voiceOne
   \partial 4  a'4
-  a'2 a'4
+  a'4 a' a'4
   b'2 b'4
   c'' b' a'
   g'2.\fermata
@@ -22,7 +22,7 @@ sopranoMusic = {
 altoMusic = {
   \voiceTwo
   \partial 4  e'4
-  e'2 a'4
+  e'4 e' a'4
   g'2 g'4
   g'2 f'4
   e'2.\fermata
@@ -30,7 +30,7 @@ altoMusic = {
   a'2 g'4
   g'2\fermata g'4
   a'2 fis'4
-  g'2 g'4~
+  g'2 g'4
   g' fis' e'
   e'2\fermata d'4
   d' e' d'
@@ -43,7 +43,7 @@ altoMusic = {
 tenorMusic = {
   \voiceOne
   \partial 4  c'4
-  c'2 d'4
+  c'4 c' d'4
   d'2 d'4
   c' e' c'
   c'2.\fermata
@@ -74,7 +74,7 @@ bassMusic = {
   a fis d
   g e cis
   d dis e
-  a,2\fermata f4~
+  a,2\fermata f4
   f e fis
   g fis gis
   a d e
@@ -83,7 +83,7 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Die Kön -- ge aus Sa -- ba ka -- men da,
+  Die Kön -- ge aus Sa -- ba ka -- _ men da,
   ka -- _ _ men da,
   Gold, Weih -- rauch, Myrr -- hen brach -- ten sie da,
   Al -- le -- lu -- ja, Al -- le -- _ _ lu -- ja!

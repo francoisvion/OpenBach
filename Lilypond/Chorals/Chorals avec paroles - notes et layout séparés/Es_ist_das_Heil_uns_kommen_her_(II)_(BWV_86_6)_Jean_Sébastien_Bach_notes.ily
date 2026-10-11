@@ -19,7 +19,7 @@ altoMusic = {
   \repeat volta 2 {
     \partial 4  gis'4
     fis'8 [gis'] a'4 gis' fis'
-    e'8 a'4 gis'8 e'4\fermata fis'
+    e'8 [a'] a' [gis'] e'4\fermata fis'
     e' e'8 [dis'] e'4 cis'
     fis'8 [e'16 dis'] e'4 dis'\fermata }
   e'8 [fis']
@@ -64,15 +64,17 @@ bassMusic = {
   ais, b, e,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Die Hoff -- nung wart' der rech -- ten Zeit,
-                             was Got -- tes Wort zu -- sa -- _ get,
-                             Er weiss wohl, wenn's am be -- sten ist,
-                             und braucht an uns kein ar -- ge List;
-                             des solln wir ihm ver -- trau -- _ en.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Die Hoff -- nung wart' der rech -- ten Zeit,
+   was Got -- tes Wort zu -- sa -- _ get,
+   Er weiss wohl, wenn's am be -- sten ist,
+   und braucht an uns kein ar -- ge List;
+   des solln wir ihm ver -- trau -- _ en.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             wenn das ge -- sche -- hen soll zur Freud,
-                             setzt Gott kein g'wis -- se Ta -- _ ge. 
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   wenn das ge -- sche -- hen soll zur Freud,
+   setzt Gott kein g'wis -- se Ta -- _ ge.
 }

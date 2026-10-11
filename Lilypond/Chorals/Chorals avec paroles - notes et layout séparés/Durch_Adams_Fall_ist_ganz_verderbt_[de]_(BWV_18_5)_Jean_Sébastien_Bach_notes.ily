@@ -22,8 +22,8 @@ altoMusic = {
   \voiceTwo
   \repeat volta 2 {
     \partial 4  e'4
-    f' f' f' e'~
-    e'8 d'4 cis'8 d'4\fermata f'
+    f' f' f' e'
+    e'8 [d'] d' [cis'] d'4\fermata f'
     e' d'8 [e'] f'4 f'
     e' d' cis'\fermata } a'
   g'8 [f'] e' [d'] c'4 d'8 [e']
@@ -76,16 +76,18 @@ bassMusic = {
   a,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Ich bitt, o Herr, aus Her -- zens Grund,
-                             du wollst nicht von mir neh -- _ men
-                             mein Sünd und Schuld, denn in dein Huld
-                             setz ich all mein Ver -- trau -- en.
-                             Wer sich nur fest da -- rauf ver -- lässt,
-                             der wird den Tod nicht schau -- _ _ en.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Ich bitt, o Herr, aus Her -- zens Grund,
+   du wollst nicht von mir neh -- _ men
+   mein Sünd und Schuld, denn in dein Huld
+   setz ich all mein Ver -- trau -- en.
+   Wer sich nur fest da -- rauf ver -- lässt,
+   der wird den Tod nicht schau -- _ _ en.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             dein heil -- ges Wort aus mei -- nem Mund;
-                             so wird mich nicht be -- schä -- _ men
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   dein heil -- ges Wort aus mei -- nem Mund;
+   so wird mich nicht be -- schä -- _ men
 }

@@ -46,10 +46,10 @@ altoMusic = {
   g'8 [fis'] e' [d'] e'4
   d'2\fermata fis'4
   fis'8 [e'] d'2
-  cis'8 [d'] e'4 d'~
-  d'8 b cis'4\fermata d'
+  cis'8 [d'] e'4 d'
+  d'8 [b] cis'4\fermata d'
   d' g'8 [fis'] fis' [e']
-  d'4. b8 cis'4
+  d'4 d'8 [b8] cis'4
   a2.\fermata \fine
 }
 
@@ -60,14 +60,14 @@ tenorMusic = {
     a8 [fis] b4 a
     b b8 [cis'] d'4
     cis'2\fermata a4
-    g a8 [g] a4
+    g a8 [g] a4~
     a4. g8 fis4
     b a4. g8
-    fis2.\fermata
-    a8 [gis] a4 a
-    b8 [a] g2
-    c'4 b4. a8
-    g2.\fermata }
+    fis2.\fermata }
+  a8 [gis] a4 a
+  b8 [a] g2
+  c'4 b4. a8
+  g2.\fermata 
   b4 fis8 [g] a [b]
   g [fis] e4 e'8 [d']
   cis'4. b8 cis'4
@@ -107,16 +107,18 @@ bassMusic = {
   d,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Nun lie -- get al -- _ les un -- ter dir,
-                             dich selbst nur aus -- ge -- nom -- men;
-                             Die Für -- sten stehn auch auf _ der Bahn,
-                             und sind dir wil -- _ lig un -- ter -- than;
-                             Luft, Was -- ser, Feu'r und Er -- den
-                             muss dir zu Dien -- ste wer -- _ den.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Nun lie -- get al -- _ les un -- ter dir,
+   dich selbst nur aus -- ge -- nom -- men;
+   Die Für -- sten stehn auch auf _ der Bahn,
+   und sind dir wil -- _ lig un -- ter -- than;
+   Luft, Was -- ser, Feu -- er, Er -- den
+   muss dir zu Dien -- ste wer -- _ den.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             Die En -- gel müs -- _ sen für und für dir
-                             auf -- zu -- war -- ten kom -- men.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   Die En -- gel müs -- _ sen für und für dir
+   auf -- zu -- war -- ten kom -- men.
 }

@@ -1,7 +1,7 @@
 sopranoMusic = {
   \voiceOne
   \repeat volta 2 {
-    \partial 4  d''8 r
+    \partial 4  d''4
     d''4 d'' a'8 [b'] cis''4
     d''8 [cis''] b'4 a'\fermata d''
     cis'' b' a' b'8 [a']
@@ -70,17 +70,19 @@ bassMusic = {
   b, [g,] a,4 d\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Das Wort sie sol -- len las -- sen stahn
-                             und kein' Dank da -- zu ha -- _ ben.
-                             Neh -- men sie uns den Leib,
-                             Gut, Ehr, Kind und Weib,
-                             lass fah -- ren da -- hin,
-                             sie ha -- bens kein' Ge -- winn;
-                             das Reich muss uns doch blei -- _ ben.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Das Wort sie sol -- len las -- sen stahn
+   und kein' Dank da -- zu ha -- _ ben.
+   Neh -- men sie uns den Leib,
+   Gut, Ehr, Kind und Weib,
+   lass fah -- ren da -- hin,
+   sie ha -- bens kein' Ge -- winn;
+   das Reich muss uns doch blei -- _ ben.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             Er ist bei uns wohl auf dem Plan
-                             mit sei -- nem Geist und Ga -- _ ben.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   Er ist bei uns wohl auf dem Plan
+   mit sei -- nem Geist und Ga -- _ ben.
 }

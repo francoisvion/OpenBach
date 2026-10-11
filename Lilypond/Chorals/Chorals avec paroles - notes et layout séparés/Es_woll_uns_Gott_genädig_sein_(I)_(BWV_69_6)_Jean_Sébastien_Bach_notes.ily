@@ -19,7 +19,7 @@ sopranoMusic = \relative c' {
   cis b a fis8 [g]
   a2 g
   fis2.\fermata \fine
-  \fine 
+  \fine
 }
 
 altoMusic = \relative c' {
@@ -39,8 +39,8 @@ altoMusic = \relative c' {
   e [d] e4 d\fermata cis
   cis8 [a'] gis [fis] e [fis] g4
   fis8 b4 ais8 fis4\fermata b~
-  b8 a4 g8~g [fis16 e] d4~
-  d8 [e] fis4 e2
+  b8 a! a [g8]~g fis16 [e] d4~
+  d8 e fis4 e2
   d2.\fermata \fine
   
   \fine
@@ -62,7 +62,7 @@ tenorMusic = \relative c {
   cis8 [fis] e [d] cis4 b
   e, a a\fermata a
   a e'8 [d] e [d] cis4~
-  cis8 [b] cis [e] d4\fermata e
+  cis8 b cis [e] d4\fermata e
   e d e8 [a,] a4
   d2. cis4 
   a2.\fermata \fine
@@ -94,17 +94,19 @@ bassMusic = \relative c {
   \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Es dan -- ke, Gott, und lo -- _ _ be dich
-                             das Volk in gu -- ten Ta -- _ _ _ ten;      
-                             Uns se -- gne Va -- ter und der Sohn,
-                             uns se -- gne Gott der Heil' -- ge Geist,
-                             dem al -- le Welt die Eh -- re tut,
-                             vor ihm sich fürch -- te al -- ler -- meist.
-                             Nun sprecht von Her -- zen: A -- _ men!
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Es dan -- ke, Gott, und lo -- _ _ be dich
+   das Volk in gu -- ten Ta -- _ _ _ ten;      
+   Uns se -- gne Va -- ter und der Sohn,
+   uns se -- gne Gott der Heil' -- ge Geist,
+   dem al -- le Welt die Eh -- re tut,
+   vor ihm sich fürch -- te al -- ler -- meist.
+   Nun sprecht von Her -- zen: A -- _ men!
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             Das Land bringt Frucht und bes -- _ _ sert sich,
-                             dein Wort ist wohl ge -- ra -- _ _ _ ten.
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   Das Land bringt Frucht und bes -- _ _ sert sich,
+   dein Wort ist wohl ge -- ra -- _ _ _ ten.
 }
