@@ -103,6 +103,11 @@ sopranoLyricsTwo = \lyricmode {
    er -- leucht' zum ew' -- gen Le -- _ ben,
 }
 
-altoLyrics = \lyricmode {
+altoLyricsOne = \lyricmode {
   \repeat unfold 55 {\skip1} be -- keh -- _ _ _ ren.
+}
+
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+   sein Ant -- litz uns mit hel -- _ _ lem Schein er -- leucht' zum ew' -- gen Le -- _ ben,
 }

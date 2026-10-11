@@ -109,3 +109,13 @@ bassLyrics = \lyricmode {
   \repeat unfold 47 {\skip1}
   \tweak X-offset #-6.0 "(B.) ver" -- la -- _ _ _ ßen.
 }
+
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+   zu hel -- fen den'n er ist be -- reit, die an ihn glau -- ben fe -- _ _ ste.
+}
+
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+   zu hel -- fen den'n er ist be -- reit, die an ihn glau -- ben fe -- _ _ ste.
+}
