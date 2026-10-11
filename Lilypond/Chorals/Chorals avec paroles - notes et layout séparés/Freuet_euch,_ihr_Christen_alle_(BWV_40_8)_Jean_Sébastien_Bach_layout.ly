@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Freuet_euch,_ihr_Christen_alle_(BWV_40_8)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

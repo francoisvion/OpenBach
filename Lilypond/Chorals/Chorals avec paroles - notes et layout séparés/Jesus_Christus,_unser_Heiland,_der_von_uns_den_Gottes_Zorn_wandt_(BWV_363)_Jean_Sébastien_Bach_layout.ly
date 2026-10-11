@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Jesus_Christus,_unser_Heiland,_der_von_uns_den_Gottes_Zorn_wandt_(BWV_363)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

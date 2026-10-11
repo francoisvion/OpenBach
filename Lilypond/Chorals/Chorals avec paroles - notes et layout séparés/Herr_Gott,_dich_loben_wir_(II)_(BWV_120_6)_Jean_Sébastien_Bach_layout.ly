@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Herr_Gott,_dich_loben_wir_(II)_(BWV_120_6)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Helft_mir_Gotts_Güte_preisen_(II)_(BWV_28_6)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

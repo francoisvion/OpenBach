@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Was_mein_Gott_will,_das_g'scheh_allzeit_(II)_(BWV_244_25)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

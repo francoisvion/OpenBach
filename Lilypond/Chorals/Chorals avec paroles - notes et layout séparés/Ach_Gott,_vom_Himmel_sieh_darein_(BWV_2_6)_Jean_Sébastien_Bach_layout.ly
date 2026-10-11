@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Ach_Gott,_vom_Himmel_sieh_darein_(BWV_2_6)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

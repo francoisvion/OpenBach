@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Was_willst_du_dich,_o_meine_Seele,_kränken_(BWV_425)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

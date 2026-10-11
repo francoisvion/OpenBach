@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Singen_wir_aus_Herzensgrund_(BWV_187_7)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

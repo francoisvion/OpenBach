@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Herr_Jesu_Christ,_dich_zu_uns_wend_(BWV_332)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

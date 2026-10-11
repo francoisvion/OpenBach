@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Wir_Christenleut_habn_jetzund_Freud_(II)_(BWV_110_7)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

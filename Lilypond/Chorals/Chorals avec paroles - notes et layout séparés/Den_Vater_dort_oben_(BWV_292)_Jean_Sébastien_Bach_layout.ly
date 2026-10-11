@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Den_Vater_dort_oben_(BWV_292)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Heut_ist,_o_Mensch,_ein_großer_Trauertag_(BWV_341)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

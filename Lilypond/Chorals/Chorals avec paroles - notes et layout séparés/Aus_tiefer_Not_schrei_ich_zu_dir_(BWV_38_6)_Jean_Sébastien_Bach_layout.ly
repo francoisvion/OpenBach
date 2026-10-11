@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Aus_tiefer_Not_schrei_ich_zu_dir_(BWV_38_6)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

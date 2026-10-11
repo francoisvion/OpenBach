@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Erbarm_dich_mein,_o_Herre_Gott_(BWV_305)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Lasst_Furcht_und_Pein_(BWV_248_35)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

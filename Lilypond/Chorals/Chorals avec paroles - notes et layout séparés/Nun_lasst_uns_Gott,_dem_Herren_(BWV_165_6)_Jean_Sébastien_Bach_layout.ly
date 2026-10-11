@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Nun_lasst_uns_Gott,_dem_Herren_(BWV_165_6)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

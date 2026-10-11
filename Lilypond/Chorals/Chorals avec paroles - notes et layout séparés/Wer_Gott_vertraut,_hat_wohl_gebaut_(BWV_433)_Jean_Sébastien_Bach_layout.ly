@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Wer_Gott_vertraut,_hat_wohl_gebaut_(BWV_433)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

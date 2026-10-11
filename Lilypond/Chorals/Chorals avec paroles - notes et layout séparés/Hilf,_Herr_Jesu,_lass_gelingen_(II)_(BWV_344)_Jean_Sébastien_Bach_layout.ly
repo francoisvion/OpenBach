@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Hilf,_Herr_Jesu,_lass_gelingen_(II)_(BWV_344)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

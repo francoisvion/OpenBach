@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Nun_bitten_wir_den_Heiligen_Geist_(III)_(BWV_385)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

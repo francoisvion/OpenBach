@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Werde_munter_mein_Gemüte_(IV)_(BWV_147_6_10)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

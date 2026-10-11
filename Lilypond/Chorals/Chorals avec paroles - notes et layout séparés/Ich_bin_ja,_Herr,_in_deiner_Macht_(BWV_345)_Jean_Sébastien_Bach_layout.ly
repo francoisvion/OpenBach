@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Ich_bin_ja,_Herr,_in_deiner_Macht_(BWV_345)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

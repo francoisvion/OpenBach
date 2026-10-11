@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Das_walt_Gott_Vater_und_Gott_Sohn_(BWV_290)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Sei_gegrüßet,_Jesu_gütig_(BWV_410)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Komm,_Gott_Schöpfer,_Heiliger_Geist_(BWV_370)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Zeuch_ein_zu_deinen_Toren_(BWV_183_5)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

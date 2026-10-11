@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Herr_Christ,_der_einge_Gottessohn_(II)_(BWV_164_6)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

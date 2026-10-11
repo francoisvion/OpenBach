@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Nun_freut_euch,_Gottes_Kinder_all_(BWV_387)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

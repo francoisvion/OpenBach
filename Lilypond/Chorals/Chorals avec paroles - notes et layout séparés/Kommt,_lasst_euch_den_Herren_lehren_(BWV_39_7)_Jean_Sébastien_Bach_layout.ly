@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Kommt,_lasst_euch_den_Herren_lehren_(BWV_39_7)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

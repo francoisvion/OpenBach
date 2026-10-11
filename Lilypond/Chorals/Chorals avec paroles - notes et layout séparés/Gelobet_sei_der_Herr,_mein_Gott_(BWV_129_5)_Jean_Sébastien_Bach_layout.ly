@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Gelobet_sei_der_Herr,_mein_Gott_(BWV_129_5)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

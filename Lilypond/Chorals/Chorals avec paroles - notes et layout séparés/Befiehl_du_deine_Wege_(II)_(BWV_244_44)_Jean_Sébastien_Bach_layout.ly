@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Befiehl_du_deine_Wege_(II)_(BWV_244_44)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

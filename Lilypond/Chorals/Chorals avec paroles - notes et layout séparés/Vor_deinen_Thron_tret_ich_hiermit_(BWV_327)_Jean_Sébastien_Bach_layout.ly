@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Vor_deinen_Thron_tret_ich_hiermit_(BWV_327)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

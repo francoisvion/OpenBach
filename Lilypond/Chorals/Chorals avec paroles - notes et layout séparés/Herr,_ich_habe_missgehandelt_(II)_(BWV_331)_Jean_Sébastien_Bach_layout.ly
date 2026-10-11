@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Herr,_ich_habe_missgehandelt_(II)_(BWV_331)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Nun_freut_euch,_lieben_Christen_gmein_(BWV_388)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

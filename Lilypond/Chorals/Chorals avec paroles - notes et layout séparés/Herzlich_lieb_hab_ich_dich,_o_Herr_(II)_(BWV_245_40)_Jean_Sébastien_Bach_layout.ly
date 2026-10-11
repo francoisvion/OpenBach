@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Herzlich_lieb_hab_ich_dich,_o_Herr_(II)_(BWV_245_40)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Ich_dank_dir,_lieber_Herre_(II)_(BWV_347)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

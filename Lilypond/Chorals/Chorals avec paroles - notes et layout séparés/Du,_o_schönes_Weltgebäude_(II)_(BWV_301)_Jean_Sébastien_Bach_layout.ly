@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Du,_o_schönes_Weltgebäude_(II)_(BWV_301)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Allein_zu_dir,_Herr_Jesu_Christ_(II)_(BWV_261)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Meinen_Jesum_lass_ich_nicht_(I)_(BWV_70_11)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

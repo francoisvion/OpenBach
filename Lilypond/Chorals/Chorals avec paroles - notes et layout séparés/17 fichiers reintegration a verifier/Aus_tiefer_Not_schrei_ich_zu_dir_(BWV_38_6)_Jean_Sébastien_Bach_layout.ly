@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Aus_tiefer_Not_schrei_ich_zu_dir_(BWV_38_6)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
@@ -51,12 +50,11 @@
       >>
     }
     
-    \new Lyrics \lyricsto "soprano" \versoOneLyrics
+    \new Lyrics \lyricsto "soprano" \sopranoLyricsOne
     
-    \new Lyrics \lyricsto "soprano" \sopranoVersoOneLyrics
+    \new Lyrics \lyricsto "soprano" \sopranoLyricsTwo
 
     \new Lyrics \lyricsto "alto" \altoLyrics
-    \new Lyrics \lyricsto "alto" \altoLyricsTwo
     
     \new Staff \with { \autoBeamOff instrumentName = \markup \center-column {T B} }
     {

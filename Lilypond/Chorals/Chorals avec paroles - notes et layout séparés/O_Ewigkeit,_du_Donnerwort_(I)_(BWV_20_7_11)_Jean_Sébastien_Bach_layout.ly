@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "O_Ewigkeit,_du_Donnerwort_(I)_(BWV_20_7_11)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

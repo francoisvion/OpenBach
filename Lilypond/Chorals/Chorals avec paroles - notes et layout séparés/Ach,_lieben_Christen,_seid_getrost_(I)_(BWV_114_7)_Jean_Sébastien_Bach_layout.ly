@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Ach,_lieben_Christen,_seid_getrost_(I)_(BWV_114_7)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

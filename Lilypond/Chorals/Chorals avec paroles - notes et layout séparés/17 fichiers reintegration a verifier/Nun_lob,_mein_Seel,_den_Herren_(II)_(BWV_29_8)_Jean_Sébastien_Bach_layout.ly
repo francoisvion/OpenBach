@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Nun_lob,_mein_Seel,_den_Herren_(II)_(BWV_29_8)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

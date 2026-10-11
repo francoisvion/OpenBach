@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Wenn_mein_Stündlein_vorhanden_ist_(IV)_(BWV_95_7)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
