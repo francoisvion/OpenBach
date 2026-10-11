@@ -67,5 +67,5 @@ sopranoLyrics = \lyricmode {
   der den Tod ü -- ber -- wand,
   ist auf -- er -- stan -- _ den,
   die Sünd hat er ge -- fan -- _ gen,
-  Ky -- rie e -- le -- i -- son, e -- lei -- son.
+  Ky -- rie e -- le -- i -- son.
 }

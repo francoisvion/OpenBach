@@ -22,7 +22,7 @@ altoMusic = {
     g' fis' d'2\fermata }
   a'8 [g'] fis' [a'] g'2\fermata
   e'4 e' e'2\fermata
-  a'4 a'4. g'8 fis'4
+  a'4 a'4 a'8 [g'] fis'4
   e'2 fis'\fermata
   a'4 a' g' g'
   g' fis' d'2\fermata \fine
@@ -37,10 +37,10 @@ tenorMusic = {
     e' d'8 [c'] b2\fermata }
   d'4 d' d'2\fermata
   b8 [a] gis [b] a2\fermata
-  d'8 [e'] fis'4 fis'8 [e'] d' [cis']
+  d'8 [e'] fis'4~fis'8 e' d' [cis']
   b4 a a2\fermata
   c'4 d' d' d'
-  e' d'8 [c'] b2\fermata \fine
+  e'8 [d'16 c'] d'8 [a] b2\fermata \fine
 }
 
 bassMusic = {
@@ -58,16 +58,18 @@ bassMusic = {
   c [a,] d4 g,2\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Drum so lasst uns im -- mer -- dar
-                             wa -- chen, fle -- hen, be -- ten,
-                             denn di Zeit
-                             ist nicht weit,
-                             da uns Gott wird rich -- _ ten
-                             und die Welt ver -- nich -- ten.
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Drum so lasst uns im -- mer -- dar
+   wa -- chen, fle -- hen, be -- ten,
+   denn di Zeit
+   ist nicht weit,
+   da uns Gott wird rich -- _ ten
+   und die Welt ver -- nich -- ten.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             weil die Angst, Not und Ge -- fahr
-                             im -- mer nä -- her tre -- ten;
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   weil die Angst, Not und Ge -- fahr
+   im -- mer nä -- her tre -- ten;
 }

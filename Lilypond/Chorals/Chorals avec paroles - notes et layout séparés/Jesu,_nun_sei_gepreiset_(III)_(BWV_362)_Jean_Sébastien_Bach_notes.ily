@@ -9,8 +9,7 @@ sopranoMusic = {
     c'' c'' c''8 [d''16 ees''] d''8 [c'']
     bes'2 bes'4\fermata bes'
     a'8 [f'] bes' [ees''] d'' [c''] c''4
-    bes'2.\fermata }
-  \partial 4  a'4
+    bes'2.\fermata } a'4
   a' a' a' a'
   bes'2 bes'4\fermata bes'
   a' a' a' a'
@@ -47,8 +46,7 @@ altoMusic = {
     f' [g'] a' [g'] a'4. fis'8
     d' [ees'] f'4 ees'\fermata g'
     f'8 [ees'] d' [ees'] f' [g'] f' [ees']
-    d'2.\fermata }
-  \partial 4 c'4
+    d'2.\fermata } c'4
   f' f' fis'8 [g'] a' [fis']
   g' [ees'] f'4 ees'\fermata g'
   f' ees'8 [d'] c'4 f'
@@ -85,8 +83,7 @@ tenorMusic = {
     c' [d'] ees'4 d' a
     bes aes g\fermata c'
     c' bes bes a
-    f2.\fermata }
-  \partial 4 f8 [a]
+    f2.\fermata } f8 [a]
   c'4 c' d' d'8 [c']
   bes4 aes g\fermata c'
   c' c' f' c'
@@ -97,7 +94,7 @@ tenorMusic = {
   \time 3/4
   g2 d'4
   c' bes aes
-  a2 bes4~
+  a2 bes4
   b c'2~
   c'4 bes bes
   bes aes8 [bes] c' [d']
@@ -123,8 +120,7 @@ bassMusic = {
     a [bes] c'4 fis4. d8
     g [f] ees [d] ees4\fermata e
     f g f8 [ees] f4
-    bes,2.\fermata }
-  \partial 4 f,4
+    bes,2.\fermata } f,4
   f8 [g] f [ees] d [e] fis [d]
   g [f] ees [d] ees4\fermata e
   f c8 [d] ees [g] f [ees]
@@ -134,8 +130,8 @@ bassMusic = {
   a aes g8 [f] g4 \bar "||"
   \time 3/4
   c2 d4
-  ees e f
-  f fis g
+  ees e f~
+  f fis g~
   g aes g
   fis g f
   e f8 [g] aes4
@@ -150,22 +146,24 @@ bassMusic = {
   bes,2.\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-                             Je -- su, nun sei ge -- prei -- _ set
-                             zu die -- sem neu -- en Jahr,
-                             für dein' Güt' uns be -- wei -- set
-                             in al -- ler Noth und G'fahr:
-                             Dass wir in gu -- ter Stil -- le
-                             das alt' Jahr hab'n er -- fül -- let.
-                             Wir wolln uns dir er -- ge -- ben
-                             jetz -- und und im -- mer -- dar:
-                             be -- hüt' uns Leib und Le -- ben, hin -- fort das gan -- _ ze Jahr!
-                             be -- hüt' uns Leib und Le -- ben, hin -- fort das gan -- _ ze Jahr!
+versoOneLyrics = \lyricmode {
+\set stanza = 1
+   Je -- su, nun sei ge -- prei -- _ set
+   zu die -- sem neu -- en Jahr,
+   für dein' Güt' uns be -- wei -- set
+   in al -- ler Noth und G'fahr:
+   Dass wir in gu -- ter Stil -- le
+   das alt' Jahr hab'n er -- fül -- let.
+   Wir wolln uns dir er -- ge -- ben
+   jetz -- und und im -- mer -- dar:
+   be -- hüt' uns Leib und Le -- ben, hin -- fort das gan -- _ ze Jahr!
+   be -- hüt' uns Leib und Le -- ben, hin -- fort das gan -- _ ze Jahr!
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-                             Dass wir ha -- ben er -- le -- _ bet
-                             die neu fröh -- li -- che Zeit,
-                             die vol -- ler Gna -- den schwe -- bet 
-                             und ew -- ger Se -- lig -- keit. 
+versoTwoLyrics = \lyricmode {
+\set stanza = 2
+   Dass wir ha -- ben er -- le -- _ bet
+   die neu fröh -- li -- che Zeit,
+   die vol -- ler Gna -- den schwe -- bet
+   und ew -- ger Se -- lig -- keit.
 }

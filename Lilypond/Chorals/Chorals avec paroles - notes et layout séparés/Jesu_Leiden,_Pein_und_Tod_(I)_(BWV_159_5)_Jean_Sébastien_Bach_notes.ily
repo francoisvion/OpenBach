@@ -65,7 +65,7 @@ bassMusic = {
   aes4 bes c' bes8 [aes]
   bes4 bes, ees2\fermata
   ees8 [d] d [c] c2~
-  c8 b, c [ees] g2\fermata
+  c8 b, c ees g2\fermata
   c8 [c'] bes [aes] g [f] ees [d]
   c [f] d [bes,] ees2\fermata
   c4 bes,8 [aes,] g, g4 f8~
@@ -79,12 +79,5 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Je -- su, dei -- ne Pas -- si -- on
-  ist mir lau -- ter Freu -- de,
-  dei -- ne Wun -- den, Kron und Hohn
-  mei -- nes Her -- zens Wei -- de;
-  mei -- ne Seel auf Ro -- sen geht,
-  wenn ich dran ge -- den -- _ ke,
-  in dem Him -- mel ei -- ne Stätt
-  mir des -- we -- gen schen -- ke!
+  Je -- su, dei -- ne Pas -- si -- on ist mir lau -- ter Freu -- de, dei -- ne Wun -- den, Kron und Hohn mei -- nes Her -- zens Wei -- de; mei -- ne Seel auf Ro -- sen geht, wenn ich dran ge -- den -- _ ke, in dem Him -- mel ei -- ne Stätt mir des -- we -- gen schen -- ke!
 }
