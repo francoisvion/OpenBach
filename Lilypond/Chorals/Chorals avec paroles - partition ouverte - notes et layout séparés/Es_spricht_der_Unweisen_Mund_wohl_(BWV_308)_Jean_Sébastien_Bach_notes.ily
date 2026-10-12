@@ -72,7 +72,7 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
       \set stanza = 1
-   Es spricht der Un -- wei -- sen Mund wohl: Den rech -- ten Gott wir mei nen, Ihr We -- sen ist ver -- der -- bet zwar, vor Gott ist es ein Greu -- el _ gar, es tut Ihr Kei -- ner kein Gut.
+   Es spricht der Un -- wei -- sen Mund wohl: Den rech -- ten Gott wir mei nen, Ihr We -- sen ist ver -- der -- bet zwar, vor Gott ist es ein Greu -- el __ _ gar, es tut Ihr Kei -- ner kein Gut.
     }
 
 altoLyricsTwo = \lyricmode {
@@ -92,7 +92,7 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
       \set stanza = 1
-   Es spricht der Un -- wei -- sen Mund wohl: Den rech -- ten Gott wir mei nen, Ihr We -- sen ist ver -- der -- bet zwar, vor Gott ist es ein _ Greu -- el gar, es tut Ihr Kei -- ner kein Gut.
+   Es spricht der Un -- wei -- sen Mund wohl: Den rech -- ten Gott wir mei nen, Ihr We -- sen ist ver -- der -- bet zwar, vor Gott ist es ein __ _ Greu -- el gar, es tut Ihr Kei -- ner kein Gut.
     }
 
 bassLyricsTwo = \lyricmode {

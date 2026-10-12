@@ -100,7 +100,7 @@ tenorLyrics = \lyricmode {
   Je -- su, Je -- su, du bist mein, _
   weil ich muss auf Er -- den Wal -- len;
   lass mich ganz dein ei -- gen sein,
-  lass mein Le -- ben _ dir ge -- fal -- len
+  lass mein Le -- ben __ _ dir ge -- fal -- len
   Dir will ich mich ganz er -- ge -- ben,
   und im To -- de an dir kle -- ben,
   dir ver -- trau -- e ich al -- lein,

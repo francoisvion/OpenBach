@@ -84,7 +84,7 @@ tenorLyrics = \lyricmode {
   Dein Will ge -- scheh, Herr Gott, zu -- gleich
   auf Er -- den wie im Him -- mel -- reich.
   Gib uns Ge -- duld in Lei -- dens -- zeit,
-  Ge -- hor -- sam _ sein in Lieb und Leid;
+  Ge -- hor -- sam __ _ sein in Lieb und Leid;
   wehr und steur al -- lem Fleisch und Blut,
   das wi -- der dei -- nen Wil -- len tut!
 }

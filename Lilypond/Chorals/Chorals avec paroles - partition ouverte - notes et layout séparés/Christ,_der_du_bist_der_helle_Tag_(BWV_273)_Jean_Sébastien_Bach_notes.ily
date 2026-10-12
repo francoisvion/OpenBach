@@ -71,11 +71,11 @@ altoLyrics = \lyricmode {
   vor dir die Nacht nicht blei -- ben mag;
   du leuch -- test uns vom Va -- ter her
   und bist des Lich -- tes Pre -- di -- ger,
-  und bist des Lich -- tes Pre -- di -- _ ger.
+  und bist des Lich -- tes Pre -- di __ -- _ ger.
 }
 
 tenorLyrics = \lyricmode {
-  Christ, der du bist der hel -- le _ Tag,
+  Christ, der du bist der hel -- le __ _ Tag,
   vor dir die Nacht nicht blei -- ben mag;
   du leuch -- test uns vom Va -- ter her
   und bist des Lich -- tes Pre -- di -- ger,

@@ -129,10 +129,10 @@ altoLyricsTwo = \lyricmode {\set stanza = 2
 tenorLyricsOne = \lyricmode {\set stanza = 1
   O Mensch, be -- wein' dein' Sün -- de groß,
   da -- rum Chris -- tus sein's Va -- ters Schoß
-  äu -- ßert und _ kam auf Er -- _ den,
+  äu -- ßert und __ _ kam auf Er -- _ den,
   Den To -- ten er das Le -- ben gab
   und tat da -- bei all Krank -- heit ab,
-  bis sich die Zeit her -- _ dran -- _ ge,
+  bis sich die Zeit her __ -- _ dran -- _ ge,
   Dass er für uns ge -- op -- fert würd',
   trüg' uns -- rer Sün -- den schwe -- re Bürd'
   wohl an dem Kreu -- ze lan -- _ ge.

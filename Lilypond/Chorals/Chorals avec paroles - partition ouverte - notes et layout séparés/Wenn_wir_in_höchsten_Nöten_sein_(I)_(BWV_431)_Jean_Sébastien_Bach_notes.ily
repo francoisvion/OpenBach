@@ -66,7 +66,7 @@ altoLyrics = \lyricmode {
 
 tenorLyrics = \lyricmode {
   Wenn wir in höch -- sten Nö -- _ _ then sein
-  und wis -- sen nicht, wo _ aus und ein,
+  und wis -- sen nicht, wo __ _ aus und ein,
   und fin -- den we -- der Hilf' noch Rath,
   ob wir gleich sor -- gen früh und spat.
 }

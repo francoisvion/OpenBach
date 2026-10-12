@@ -63,7 +63,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Als der gü -- _ ti -- ge Gott,
+  Als der gü __ -- _ ti -- ge Gott,
   vol -- len -- den wollt' sein _ Wort,
   sandt er ein En -- gel schnell,
   des Na -- me Ga -- bri __ _ el, __ _ _

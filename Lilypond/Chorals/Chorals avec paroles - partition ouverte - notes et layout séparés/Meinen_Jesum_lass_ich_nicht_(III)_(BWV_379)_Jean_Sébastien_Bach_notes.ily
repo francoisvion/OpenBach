@@ -90,7 +90,7 @@ bassLyricsOne = \lyricmode {\set stanza = 1
    Mei -- nen Je -- sum lass' ich nicht,
    Je -- sus wird mich auch nicht las -- _ sen.
    Weiß ge -- wiss und glau -- be fest,
-   dass mich _ Je -- sus _ auch nicht lässt.
+   dass mich __ _ Je -- sus __ _ auch nicht lässt.
 }
 
 bassLyricsTwo = \lyricmode {\set stanza = 2

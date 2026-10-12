@@ -87,8 +87,8 @@ sopranoLyrics = \lyricmode {
 altoLyrics = \lyricmode {
   Welt -- lich Ehr' und zeit -- _ lich __ _ Gut, _
   Wol -- lust und al -- ler Ü -- _ ber -- muth
-  ist e -- ben _ wie ein Gras;
-  al -- le Pracht und stol -- zer _ Ruhm
+  ist e -- ben __ _ wie ein Gras;
+  al -- le Pracht und stol -- zer __ _ Ruhm
   ver -- fällt wie ein' Wie -- sen -- blum;
   o Mensch, be -- denk' e -- ben das
   und ver -- sor -- _ _ ge -- dich doch bass.

@@ -75,7 +75,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Das walt' mein Gott, Va -- ter, Sohn und heil' -- ger Geist, _
+  Das walt' mein Gott, Va -- ter, Sohn und heil' -- ger Geist, __ _
   der mich er -- schaf -- fen hat,
   mir Lieb und Seel ge -- ge -- ben
   im Mut -- ter -- leib das Le -- _ ben,

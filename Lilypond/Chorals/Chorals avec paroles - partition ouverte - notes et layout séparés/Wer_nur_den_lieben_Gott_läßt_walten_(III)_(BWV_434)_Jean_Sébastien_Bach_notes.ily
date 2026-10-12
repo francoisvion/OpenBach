@@ -80,7 +80,7 @@ altoLyricsTwo = \lyricmode {\set stanza = 2
 
 tenorLyricsOne = \lyricmode {\set stanza = 1
    Wer nur den lie -- ben Gott lässt wal -- _ ten
-   und hof -- fet auf ihn al -- le -- _ zeit,
+   und hof -- fet auf ihn al -- le __ -- _ zeit,
    Wer Gott, dem Al -- ler -- höch -- sten, traut,
    der hat auf kei -- nen Sand ge -- baut.
 }

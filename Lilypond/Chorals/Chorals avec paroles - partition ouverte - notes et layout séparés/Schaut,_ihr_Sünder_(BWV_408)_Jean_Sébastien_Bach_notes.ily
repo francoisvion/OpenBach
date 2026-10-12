@@ -94,9 +94,9 @@ tenorLyrics = \lyricmode {
 bassLyrics = \lyricmode {
   Schaut, ihr Sün -- der!
   Ihr macht mir gro -- ße Pein!
-  Ihr sollt _ Kin -- der
+  Ihr sollt __ _ Kin -- der
   des To -- des e -- wig sein:
-  durch mein _ Ster -- ben
+  durch mein __ _ Ster -- ben
   seid ihr hier -- von be -- freit
   und nun Er -- ben
   der wah -- ren Se -- lig -- keit.

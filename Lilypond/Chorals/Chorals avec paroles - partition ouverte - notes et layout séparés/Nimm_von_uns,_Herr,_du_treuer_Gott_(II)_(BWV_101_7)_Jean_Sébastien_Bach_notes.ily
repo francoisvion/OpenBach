@@ -76,7 +76,7 @@ altoLyrics = \lyricmode {
   Gieb uns all -- zeit dein hei -- lges Wort,
   Be -- hüt vors Teu -- fels List und Mord,
   Ver -- leih ein sel -- ges Stün -- de -- lein,
-  Auf dass wir e -- wig bei dir _ sein.
+  Auf dass wir e -- wig bei dir __ _ sein.
 }
 
 tenorLyrics = \lyricmode {

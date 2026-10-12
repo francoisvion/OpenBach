@@ -68,7 +68,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Al -- les ist an _ Got -- tes Se -- gen
+  Al -- les ist an __ _ Got -- tes Se -- gen
   und an sei -- ner Gnad' ge -- le -- gen,
   ü -- ber al -- les Geld und Gut.
   Wer auf Gott sein' Hoff -- nung se -- tzet,

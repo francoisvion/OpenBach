@@ -114,7 +114,7 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   Is -- ra -- el er -- freu' sich des -- _ sen,
   wel -- cher ihn ge -- ma -- chet hat.
   und in Aeng -- sten schaf -- fet Rath:
-  Sei -- ner soll er _ nicht ver -- ges -- _ sen.
+  Sei -- ner soll er __ _ nicht ver -- ges -- _ sen.
 }
 
 bassLyricsTwo = \lyricmode {\set stanza = 2

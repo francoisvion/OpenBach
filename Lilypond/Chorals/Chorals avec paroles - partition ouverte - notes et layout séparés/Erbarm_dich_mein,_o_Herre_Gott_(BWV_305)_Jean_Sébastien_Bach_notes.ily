@@ -86,7 +86,7 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
       \set stanza = 1
-   Er -- barm' dich mein, o Her -- re _ Gott, nach dei -- ner gross'n Barm -- her -- zig - keit, Al -- lein ich dir ge -- sün -- digt _ hab', das ist wi -- der mich ste -- tig -- lich; das Bös' _ vor dir nicht mag be -- stahn, du bleibst __ _ _ ge -- recht, ob man ur -- tei - le dich.
+   Er -- barm' dich mein, o Her -- re __ _ Gott, nach dei -- ner gross'n Barm -- her -- zig - keit, Al -- lein ich dir ge -- sün -- digt __ _ hab', das ist wi -- der mich ste -- tig -- lich; das Bös' _ vor dir nicht mag be -- stahn, du bleibst __ _ _ ge -- recht, ob man ur -- tei - le dich.
     }
 
 altoLyricsTwo = \lyricmode {
@@ -106,7 +106,7 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
       \set stanza = 1
-   Er -- barm' dich mein, o _ Her -- re Gott, nach dei -- ner gross'n Barm -- her -- zig -- keit, Al -- lein ich dir ge -- sün -- digt hab', das ist wi -- der mich ste -- tig -- lich; das Bös' vor dir nicht mag be -- stahn, du bleibst __ _ _ ge -- recht, ob man ur -- tei -- le dich.
+   Er -- barm' dich mein, o __ _ Her -- re Gott, nach dei -- ner gross'n Barm -- her -- zig -- keit, Al -- lein ich dir ge -- sün -- digt hab', das ist wi -- der mich ste -- tig -- lich; das Bös' vor dir nicht mag be -- stahn, du bleibst __ _ _ ge -- recht, ob man ur -- tei -- le dich.
     }
 
 bassLyricsTwo = \lyricmode {

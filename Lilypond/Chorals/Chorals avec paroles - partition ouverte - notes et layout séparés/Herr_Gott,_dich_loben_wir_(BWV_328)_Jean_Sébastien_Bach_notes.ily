@@ -375,7 +375,7 @@ altoLyricsThree = \lyricmode {\set stanza = 3
 tenorLyricsOne = \lyricmode {
       \set stanza = 1
    Herr Gott, dich lo -- ben wir
-   Herr Gott, wir dan -- ken _ dir.
+   Herr Gott, wir dan -- ken __ _ dir.
    Dich, Gott Va -- ter in E -- wig -- keit,
    Eh -- ret die Welt __ _ weit und breit.
    Hei -- lig ist un -- ser Gott!
@@ -392,7 +392,7 @@ tenorLyricsOne = \lyricmode {
    wart' und pfleg' ihr' zu al -- ler Zeit
    und heb' sie hoch in E -- wig -- keit.
    Täg -- lich, Herr Gott, wir lo -- ben dich
-   und ehr'n dein'n Na -- men ste -- tig -- _ lich.
+   und ehr'n dein'n Na -- men ste -- tig __ -- _ lich.
    Be -- hüt' uns heut', o treu -- er Gott,
    vor al -- ler Sünd und Mis -- se -- tat,
    Auf dich hof -- fen wir, lie -- ber Herr,

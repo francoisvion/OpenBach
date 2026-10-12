@@ -119,7 +119,7 @@ sopranoLyricsFour = \lyricmode {
 }
 
 altoLyricsOne = \lyricmode {
-  \tweak X-offset #-4 "1. An" Was -- ser -- flüs -- sen Ba -- by -- _ lon,
+  \tweak X-offset #-4 "1. An" Was -- ser -- flüs -- sen Ba -- by __ -- _ lon,
   da sa -- ßen wir mit Schmer -- _ zen,
   Wir hing -- en auf mit schwe -- rem Mut
   die Har -- fen und die Or -- geln gut
@@ -153,10 +153,10 @@ altoLyricsFour = \lyricmode {
 tenorLyricsOne = \lyricmode {
   \tweak X-offset #-4 "1. An" Was -- ser -- flüs -- sen Ba -- by -- lon,
   da sa -- ßen wir mit Schmer -- _ zen,
-  Wir hing -- en auf mit schwe -- rem _ Mut
+  Wir hing -- en auf mit schwe -- rem __ _ Mut
   die Har -- fen und die Or -- geln gut
   an ih -- re Bäum' der Wei -- den,
-  die drin -- nen sind in ih -- rem _ Land;
+  die drin -- nen sind in ih -- rem __ _ Land;
   da muss -- ten wir viel Schmach und Schand'
   täg -- lich von ih -- _ _ nen lei -- _ _ den.
 }

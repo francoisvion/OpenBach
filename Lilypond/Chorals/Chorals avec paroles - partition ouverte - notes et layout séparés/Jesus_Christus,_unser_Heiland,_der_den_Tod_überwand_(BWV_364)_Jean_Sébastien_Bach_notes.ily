@@ -67,9 +67,9 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Je -- sus Chris -- tus un -- ser _ Hei -- _ land,
+  Je -- sus Chris -- tus un -- ser __ _ Hei -- _ land,
   der den Tod ü -- ber -- wand,
-  ist auf -- er -- stan _ -- _ den,
+  ist auf -- er -- stan __ _ -- _ den,
   die Sünd __ _ hat er ge -- fan -- _ gen,
   Ky -- rie e -- le -- i -- son.
 }

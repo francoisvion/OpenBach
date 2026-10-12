@@ -127,7 +127,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Was willst du dich, o _ mei -- ne See -- le, krän -- _ ken?
+  Was willst du dich, o __ _ mei -- ne See -- le, krän -- _ ken?
   Meinst du, dass Gott nicht kann an dich ge -- den -- ken?
   Er weiss gar wohl, __ _ wann er dir hel -- fen soll;
   denn er ist selbst der Gnad' und Gü -- te voll.

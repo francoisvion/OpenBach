@@ -116,7 +116,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Du hei -- _ li -- ge Brunst, sü -- ßer Trost, nun hilf uns, fröh -- lich und ge -- trost in dei -- nem Dienst be -- _ stän -- dig blei -- ben, die Trüb -- sal uns nicht ab -- _ trei -- _ ben, O Herr, duch dein Kraft uns be -- reit und stärk des Flei -- sches Blö -- dig -- keit, dass wir hier rit -- ter -- lich rin -- _ gen, durch Tod und Le -- ben zu dir drin -- _ _ gen, Al -- le -- _ lu -- ia! Al -- le -- lu -- ia!
+  Du hei -- _ li -- ge Brunst, sü -- ßer Trost, nun hilf uns, fröh -- lich und ge -- trost in dei -- nem Dienst be -- _ stän -- dig blei -- ben, die Trüb -- sal uns nicht ab -- _ trei -- _ ben, O Herr, duch dein Kraft uns be -- reit und stärk des Flei -- sches Blö -- dig -- keit, dass wir hier rit -- ter -- lich rin __ -- _ gen, durch Tod und Le -- ben zu dir drin -- _ _ gen, Al -- le -- _ lu -- ia! Al -- le -- lu -- ia!
 }
 
 tenorLyrics = \lyricmode {

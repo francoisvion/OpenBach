@@ -59,7 +59,7 @@ sopranoLyrics = \lyricmode {
 
 altoLyrics = \lyricmode {
   Es wird Schier der letz -- te Tag her -- kom -- _ men,
-  denn die Bos -- heit hat sehr _ zu -- ge -- nom -- _ men;
+  denn die Bos -- heit hat sehr __ _ zu -- ge -- nom -- _ men;
   was Chri -- stus hat vor ge -- sagt,
   das wird jetzt be -- klagt.
 }

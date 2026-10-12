@@ -89,7 +89,7 @@ altoLyricsOne = \lyricmode {\set stanza = 1
    Komm und füh -- re mich nur fort;
    Es mag, __ _ wer da will, dich scheu -- _ en,
    denn durch dich komm ich her -- ein
-   zu dem schön -- sten _ Je -- su -- lein.
+   zu dem schön -- sten __ _ Je -- su -- lein.
 }
 
 altoLyricsTwo = \lyricmode {\set stanza = 2

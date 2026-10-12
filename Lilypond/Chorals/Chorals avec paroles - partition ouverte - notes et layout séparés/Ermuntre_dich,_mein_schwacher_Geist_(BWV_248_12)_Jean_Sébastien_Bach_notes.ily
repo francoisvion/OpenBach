@@ -98,7 +98,7 @@ altoLyricsTwo = \lyricmode {\set stanza = 2
 }
 
 tenorLyricsOne = \lyricmode {\set stanza = 1
-   Brich an, o _ schö -- nes Mor -- gen -- licht,
+   Brich an, o __ _ schö -- nes Mor -- gen -- licht,
    und lass dem Him -- mel ta -- _ gen!
    dass die -- ses schwa -- che Knä -- be -- lein
    soll un -- ser Trost und Freu -- de sein,

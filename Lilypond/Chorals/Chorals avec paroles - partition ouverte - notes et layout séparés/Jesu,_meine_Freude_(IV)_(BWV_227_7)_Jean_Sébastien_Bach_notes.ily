@@ -131,7 +131,7 @@ bassVersoTwoLyrics = \lyricmode {\set stanza = 2
 }
 
 altoLyricsOne = \lyricmode {\set stanza = 1
-   Weg, weg mit al -- len _ Schä -- _ tzen,
+   Weg, weg mit al -- len __ _ Schä -- _ tzen,
    mit al -- len Schä -- tzen, du, du bist mein Er -- gö -- tzen,
    Je -- _ su, mei -- ne Lust, mei -- _ ne Lust!
    E -- lend, Not, Kreuz, Schmach und Tod, Schmach und Tod

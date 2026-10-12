@@ -113,7 +113,7 @@ bassLyricsOne = \lyricmode {\set stanza = 1
    denn er lässt nicht von mir,
    Er reicht mir sei -- ne Hand,
    den A -- bend wie den Mor -- _ gen
-   tut er mich _ vohl ver -- sor -- _ gen.
+   tut er mich __ _ vohl ver -- sor -- _ gen.
    sei wo ich wolf im Land.
 }
 

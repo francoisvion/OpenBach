@@ -90,7 +90,7 @@ altoLyrics = \lyricmode {
   so g'leit du mich, Herr Je -- su Christ,
   mit Hilf' mich nicht ver -- las -- _ se;
   mein' Seel' an mei -- nem letz -- ten End'
-  be -- fehl' ich, Herr, in dei -- ne _ Händ',
+  be -- fehl' ich, Herr, in dei -- ne __ _ Händ',
   du wirst sie wohl be -- wah -- _ _ _ ren.
 }
 
@@ -109,7 +109,7 @@ bassLyrics = \lyricmode {
   und ich soll fahr'n mein' Stra -- _ be,
   so g'leit du mich, Herr Je -- su Christ,
   mit Hilf' mich nicht ver -- las -- _ se;
-  mein' Seel' an mei -- nem letz -- ten _ End'
+  mein' Seel' an mei -- nem letz -- ten __ _ End'
   be -- fehl' ich, Herr, in dei -- ne Händ',
   du wirst sie wohl be -- wah -- _ _ _ ren.
 }

@@ -73,7 +73,7 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
       \set stanza = 1
-   Herr, straf' mich nicht in dei -- nem _ Zorn, das bitt ich dich von Her - zen, und zücht -- ge mich nicht in dein'm Grimm, weil ich so _ voll Be -- trüb -- niss bin, und lei -- de gro -- ße Schmer - zen.
+   Herr, straf' mich nicht in dei -- nem __ _ Zorn, das bitt ich dich von Her - zen, und zücht -- ge mich nicht in dein'm Grimm, weil ich so __ _ voll Be -- trüb -- niss bin, und lei -- de gro -- ße Schmer - zen.
     }
 
 altoLyricsTwo = \lyricmode {

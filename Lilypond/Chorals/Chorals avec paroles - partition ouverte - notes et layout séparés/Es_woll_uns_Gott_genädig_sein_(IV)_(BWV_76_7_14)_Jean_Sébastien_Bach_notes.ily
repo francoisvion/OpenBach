@@ -164,7 +164,7 @@ altoLyricsTwo = \lyricmode {\set stanza = 2
   uns seg -- ne Gott, der heil -- ge Geist,
   dem al -- le Welt die Eh -- re tu,
   vor ihm sich fürch -- te al -- ler meist
-  und sprech von Her -- zen: _ A -- _ men, und sprech von Her -- zen, von Her -- zen: A -- men!
+  und sprech von Her -- zen: __ _ A -- _ men, und sprech von Her -- zen, von Her -- zen: A -- men!
 }
 
 altoLyricsThree = \lyricmode {\set stanza = 3

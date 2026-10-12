@@ -84,7 +84,7 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {
       \set stanza = 1
-   Du, o schö -- nes Welt ge -- bäu - de, magst ge -- fal -- len wem du willst, De -- nen, die den Him -- mel _ has - sen, will ich ih -- re Welt -- lust las - sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
+   Du, o schö -- nes Welt ge -- bäu - de, magst ge -- fal -- len wem du willst, De -- nen, die den Him -- mel __ _ has - sen, will ich ih -- re Welt -- lust las - sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
     }
 
 altoLyricsTwo = \lyricmode {

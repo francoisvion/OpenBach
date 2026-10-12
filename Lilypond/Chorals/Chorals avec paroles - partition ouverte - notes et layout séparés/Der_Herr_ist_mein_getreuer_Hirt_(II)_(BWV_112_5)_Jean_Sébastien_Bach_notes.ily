@@ -76,7 +76,7 @@ altoLyricsOne = \lyricmode {\set stanza = 1
    fol -- gen mir nach im Le -- _ ben,
    auf Erd in christ -- li -- cher Ge -- mein
    und nach dein Tod da werd ich sein
-   bei Chri -- sto, mei -- nem _ Her -- _ ren.
+   bei Chri -- sto, mei -- nem __ _ Her -- _ ren.
 }
 
 altoLyricsTwo = \lyricmode {\set stanza = 2
