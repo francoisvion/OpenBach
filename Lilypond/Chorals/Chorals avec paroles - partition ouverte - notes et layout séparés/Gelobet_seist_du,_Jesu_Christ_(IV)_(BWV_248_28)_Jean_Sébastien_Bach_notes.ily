@@ -63,14 +63,14 @@ sopranoLyrics = \lyricmode {
 
 altoLyrics = \lyricmode {
   Dies hat er al -- les uns ge -- tan,
-  sein groß Lieb zu zei -- _ gen an;
+  sein groß Lieb zu zei -- gen _ an;
   Des freu' __ _ sich al -- le Chris -- ten -- heit
   und dank' ihm des in E -- wig -- keit. __ _ _ Ky -- rie -- leis!
 }
 
 tenorLyrics = \lyricmode {
   Dies hat er al -- les uns __ _ ge -- tan,
-  sein groß Lieb zu zei -- _ gen an;
+  sein groß Lieb zu zei -- gen _ an;
   des freu' sich al -- le Chris -- ten -- heit
   und dank' ihm des in E -- wig -- keit. __ _ _ _ Ky -- rie -- leis!
 }

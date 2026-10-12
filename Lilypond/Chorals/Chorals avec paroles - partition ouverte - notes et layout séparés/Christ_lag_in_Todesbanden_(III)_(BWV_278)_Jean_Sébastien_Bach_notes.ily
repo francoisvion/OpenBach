@@ -82,7 +82,7 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {\set stanza = 1
   Christ lag in To -- des -- ban -- _ den
-  für un -- _ ser Sünd' ge -- ge -- _ ben __
+  für un -- ser _ Sünd' ge -- ge -- _ ben __
   Dess wir sol -- len fröh -- lich sein,
   Gott lo -- ben und ihm dank -- – bar sein
   und sin -- gen Al -- le -- lu -- ia
@@ -95,8 +95,8 @@ altoLyricsTwo = \lyricmode {\set stanza = 2
 }
 
 tenorLyricsOne = \lyricmode {\set stanza = 1
-  Christ lag in To -- _ des -- ban -- _ den
-  für un -- _ ser Sünd' ge -- ge -- _ ben
+  Christ lag in To -- des _ -- ban -- _ den
+  für un -- ser _ Sünd' ge -- ge -- _ ben
   Dess wir sol -- len fröh -- lich sein,
   Gott lo -- ben und ihm dank -- bar sein,
   und sin -- gen Al -- le -- lu -- _ ia
@@ -109,12 +109,12 @@ tenorLyricsTwo = \lyricmode {\set stanza = 2
 }
 
 bassLyricsOne = \lyricmode {\set stanza = 1
-  Christ lag in To -- _ des -- ban -- _ den
+  Christ lag in To -- des _ -- ban -- _ den
   für un -- ser Sünd' ge -- ge -- _ ben
   Dess wir sol -- len fröh -- lich sein,
   Gott lo -- ben und ihm dank -- bar sein,
   und sin -- gen Al -- le -- lu -- _ ia
-  Al -- _ le -- lu -- _ ia!
+  Al -- le _ -- lu -- _ ia!
 }
 
 bassLyricsTwo = \lyricmode {\set stanza = 2

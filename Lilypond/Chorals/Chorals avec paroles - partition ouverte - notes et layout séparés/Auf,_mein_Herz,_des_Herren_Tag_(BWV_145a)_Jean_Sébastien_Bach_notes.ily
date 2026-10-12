@@ -61,7 +61,7 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 altoLyricsOne = \lyricmode {\set stanza = 1
    Auf mein Herz __ _ des Her -- ren Tag
    hat die Nacht der Furcht ver -- trie -- ben:
-   Nun -- _ mehr bin ich recht ge -- tröst,
+   Nun -- mehr _ bin ich recht ge -- tröst,
    Je -- sus hat die Welt er -- löst.
 }
 

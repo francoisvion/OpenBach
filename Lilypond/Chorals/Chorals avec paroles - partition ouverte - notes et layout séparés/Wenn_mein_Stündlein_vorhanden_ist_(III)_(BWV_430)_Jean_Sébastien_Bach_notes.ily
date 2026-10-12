@@ -109,7 +109,7 @@ bassLyrics = \lyricmode {
   und ich soll fahr'n mein' Stra -- _ be,
   so g'leit du mich, Herr Je -- su Christ,
   mit Hilf' mich nicht ver -- las -- _ se;
-  mein' Seel' an mei -- nem letz -- _ ten End'
+  mein' Seel' an mei -- nem letz -- ten _ End'
   be -- fehl' ich, Herr, in dei -- ne Händ',
   du wirst sie wohl be -- wah -- _ _ _ ren.
 }

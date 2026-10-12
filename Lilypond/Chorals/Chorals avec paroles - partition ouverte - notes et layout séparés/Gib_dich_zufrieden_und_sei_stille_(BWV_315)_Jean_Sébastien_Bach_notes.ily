@@ -107,7 +107,7 @@ tenorLyricsTwo = \lyricmode {\set stanza = 2
 
 bassLyricsOne = \lyricmode {\set stanza = 1
   Gieb dich zu -- frie -- den und sei stil -- le
-  in dem Got -- _ te dei -- nes Le -- _ bens,
+  in dem Got -- te _ dei -- nes Le -- _ bens,
   Er ist dein Quell und dei -- ne Son -- ne,
   scheint täg -- lich hell zu dei -- ner Won -- ne,
   gib dich zu -- frie -- den, zu frie -- _ den.

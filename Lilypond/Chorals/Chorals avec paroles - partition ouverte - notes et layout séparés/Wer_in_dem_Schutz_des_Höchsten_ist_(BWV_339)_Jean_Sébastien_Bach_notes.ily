@@ -113,7 +113,7 @@ altoLyricsThree = \lyricmode {\set stanza = 3
    \tweak X-offset #-5 "2. Wer" in dem Schutz des Höch -- sten ist,
    und sich Gott thut er -- ge -- _ ben,      
    der du ja wirst er -- ret -- ten mich
-   von Teu -- _ fels Stri -- cken gnä -- dig -- lich __ _ 
+   von Teu -- fels _ Stri -- cken gnä -- dig -- lich __ _ 
    und von der Pe -- _ sti -- _ len -- _ ze.
 }
 

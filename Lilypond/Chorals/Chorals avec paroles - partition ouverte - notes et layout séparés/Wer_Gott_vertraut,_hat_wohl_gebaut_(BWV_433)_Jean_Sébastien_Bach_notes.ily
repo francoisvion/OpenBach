@@ -122,7 +122,7 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 altoLyricsOne = \lyricmode {\set stanza = 1
    Wer Gott ver -- _ traut
    hat wohl -- ge -- baut __ _
-   im Him -- _ mel und auf Er -- _ den,
+   im Him -- mel _ und auf Er -- _ den,
    im Him -- mel und auf Er -- den;
    Da -- rum __ _ auf dich __ _
    all Hoff -- nung ich __ _

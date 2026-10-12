@@ -86,7 +86,7 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
    Wenn wir in höch -- sten Nö -- then sein
    und wis -- sen nicht wo aus und ein,
    und fin -- den we -- der Hülf' noch Rath,
-   ob wir gleich sor -- _ gen früh und spat.
+   ob wir gleich sor -- gen _ früh und spat.
 }
 
 tenorLyricsTwo = \lyricmode {\set stanza = 2
