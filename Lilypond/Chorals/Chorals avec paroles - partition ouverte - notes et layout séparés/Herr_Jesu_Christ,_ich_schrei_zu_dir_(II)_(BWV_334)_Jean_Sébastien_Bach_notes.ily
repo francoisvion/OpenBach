@@ -78,8 +78,8 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 altoLyricsOne = \lyricmode {\set stanza = 1
    Herr Je -- su Christ, du höch -- stes Gut,
    du Brunn -- quell al -- ler Gna -- den,
-   und in mir hab der Pfei -- _ le viel,
-   die im Ge -- wis -- sen oh -- _ ne Ziel
+   und in mir hab der Pfei -- le __ _ viel,
+   die im Ge -- wis -- sen oh -- ne __ _ Ziel
    mich ar -- men Sün -- _ der drü -- _ cken.
 }
 
@@ -89,7 +89,7 @@ altoLyricsTwo = \lyricmode {\set stanza = 2
 }
 
 tenorLyricsOne = \lyricmode {\set stanza = 1
-   Herr Je -- su Christ, du höch -- _ stes Gut,
+   Herr Je -- su Christ, du höch -- stes __ _ Gut,
    du Brunn -- quell al -- ler Gna -- _ den,
    und in mir hab der Pfei -- le viel,
    die im Ge -- wis -- sen oh -- ne Ziel

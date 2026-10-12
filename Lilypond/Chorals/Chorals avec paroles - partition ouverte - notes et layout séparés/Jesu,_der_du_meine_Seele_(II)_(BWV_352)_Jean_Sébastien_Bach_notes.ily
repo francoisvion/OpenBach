@@ -78,7 +78,7 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {\set stanza = 1
   Je -- su, der du mei -- ne See -- le
-  hast durch dei -- _ nen bit -- tern Tod
+  hast durch dei -- nen __ _ bit -- tern Tod
   kräf -- tig -- lich her -- aus -- ge -- ris -- sen
   und mich sol -- ches las -- sen wis -- sen
   durch dein an -- ge -- neh -- mes Wort:

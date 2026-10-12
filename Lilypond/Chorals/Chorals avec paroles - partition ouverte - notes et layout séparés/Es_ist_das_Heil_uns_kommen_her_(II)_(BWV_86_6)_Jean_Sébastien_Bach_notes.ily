@@ -87,7 +87,7 @@ altoLyricsTwo = \lyricmode {\set stanza = 2
 }
 
 tenorLyricsOne = \lyricmode {\set stanza = 1
-   Die Hoff -- nung wart' der rech -- _ ten Zeit,
+   Die Hoff -- nung wart' der rech -- ten __ _ Zeit,
    was Got -- tes Wort zu -- sa -- _ _ get,
    Er weiss wohl, wenn's am be -- sten ist,
    und braucht an uns kein ar -- ge List;

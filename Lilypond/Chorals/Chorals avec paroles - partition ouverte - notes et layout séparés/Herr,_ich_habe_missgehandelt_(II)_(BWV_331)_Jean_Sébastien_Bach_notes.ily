@@ -73,7 +73,7 @@ altoLyricsTwo = \lyricmode {\set stanza = 2
 }
 
 tenorLyricsOne = \lyricmode {\set stanza = 1
-   Herr, ich ha -- _ be miss -- ge -- han -- _ delt, ja mich drückt der Sün -- den Last;
+   Herr, ich ha -- be __ _ miss -- ge -- han -- _ delt, ja mich drückt der Sün -- den Last;
    und jetzt wollt' ich gern aus Schre -- _ cken mich vor dei -- nem Zorn ver -- ste -- _ cken.
 }
 

@@ -67,7 +67,7 @@ altoLyrics = \lyricmode {
   See -- len -- bräu -- ti -- gam,
   Je -- su, Got -- tes Lamm,
   Ha -- be Dank für dei -- ne Lie -- _ be,
-  die mich zieht aus rei -- _ nem Trie -- _ be
+  die mich zieht aus rei -- nem __ _ Trie -- _ be
   von der Sün -- den Schlamm,
   Je -- su, Got -- tes Lamm.
 }

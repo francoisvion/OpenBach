@@ -90,7 +90,7 @@ tenorLyrics = \lyricmode {
   dein Heil sinkt in den Tod,
   der gros -- se Fürst der Eh -- _ _ ren
   lässt wil -- lig sich be -- schwe -- _ _ ren
-  mit Schlä -- gen, Hohn und gros -- _ sem Spott.
+  mit Schlä -- gen, Hohn und gros -- sem __ _ Spott.
 }
 
 bassLyrics = \lyricmode {

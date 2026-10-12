@@ -88,7 +88,7 @@ altoLyricsOne = \lyricmode {\set stanza = 1
    Ei -- ne Stim -- me lässt sich hö -- _ ren
    in der Wüs -- te weit und breit,
    ma -- chet Gott ein eb -- ne Bahn,
-   al -- le Welt soll he -- _ ben an,
+   al -- le Welt soll he -- ben __ _ an,
    al -- le Tä -- ler zu er -- hö -- _ ren,
    dass die Ber -- ge nie -- drig ste -- _ hen.
 }
@@ -101,7 +101,7 @@ altoLyricsTwo = \lyricmode {\set stanza = 2
 tenorLyricsOne = \lyricmode {\set stanza = 1
    Ei -- ne Stim -- me lässt sich hö -- _ ren
    in der Wüs -- te weit und breit,
-   ma -- chet Gott ein eb -- _ ne Bahn,
+   ma -- chet Gott ein eb -- ne __ _ Bahn,
    al -- le Welt soll he -- ben an,
    al -- le Tä -- ler zu er -- hö -- _ ren,
    dass die Ber -- ge nie -- drig ste -- _ hen.

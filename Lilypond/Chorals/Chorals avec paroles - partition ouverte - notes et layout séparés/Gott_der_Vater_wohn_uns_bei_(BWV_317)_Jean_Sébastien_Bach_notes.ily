@@ -104,13 +104,13 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {\set stanza = 1
    Gott der Va -- ter wohn' uns bei
-   und lass' uns nicht ver -- _ der -- _ ben,
-   Vor dem Teu -- _ fel uns be -- wahr',
+   und lass' uns nicht ver __ -- _ der -- _ ben,
+   Vor dem Teu -- fel __ _ uns be -- wahr',
    halt' uns bei fe -- stem Glau -- _ ben,
    und auf dich lass uns bau -- _ en,
    aus Herz -- zens -- grund ver -- trau -- _ _ en,
    A -- men, a -- men, das sei wahr,
-   so sin -- gen wir Al -- le -- lu -- _ ja.
+   so sin -- gen wir Al -- le -- lu __ -- _ ja.
     }
 
 altoLyricsTwo = \lyricmode {\set stanza = 2

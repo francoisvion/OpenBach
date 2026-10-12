@@ -81,7 +81,7 @@ altoLyrics = \lyricmode {
   Ach wie bist du so zer -- schmis -- sen,
   und dein gan -- zer Leib zer -- ris -- _ sen!
   Lass mich dei -- ne Lieb' er -- er -- ben
-  und da -- rin -- _ nen se -- lig ster -- _ ben!
+  und da -- rin -- nen __ _ se -- lig ster -- _ ben!
 }
 
 tenorLyrics = \lyricmode {

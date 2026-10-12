@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Jesu,_Jesu,_du_bist_mein_(BWV_357)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

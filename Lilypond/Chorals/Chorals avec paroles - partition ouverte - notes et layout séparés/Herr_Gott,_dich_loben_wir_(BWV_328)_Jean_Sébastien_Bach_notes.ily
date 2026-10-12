@@ -319,18 +319,18 @@ altoLyricsOne = \lyricmode {
       \set stanza = 1
    Herr Gott, dich lo -- ben wir
    Herr Gott, wir dan -- ken dir.
-   Dich, Gott Va -- ter in E -- wig _ -- keit,
+   Dich, Gott Va -- ter in E -- wig __ _ -- keit,
    Eh -- ret __ _ die Welt __ _ weit __ _ und breit.
-   Hei -- lig ist un -- ser _ Gott!
+   Hei -- lig ist un -- ser __ _ Gott!
    Hei -- lig ist un -- ser Gott!
-   der Herr __ _ Ze -- ba _ -- oth!
+   der Herr __ _ Ze -- ba __ _ -- oth!
    Dein' gött -- lich Macht und Herr -- lich -- keit,
    geht ü -- ber Himm'l und Er -- den weit.
    Du Kön'g der Eh -- ren, Je -- su Christ,
    Gott Va -- ters ew' -- ger Sohn du bist,
    Lass uns im Him -- mel ha -- ben Theil
    Mit den Heil' -- gen im ew' -- gen Heil!
-   Hilf dei -- nem Volk, Herr Je -- su _ Christ
+   Hilf dei -- nem Volk, Herr Je -- su __ _ Christ
    und se -- gne was dein Erb -- theil ist,
    wart' und pfleg' ihr' zu al -- ler Zeit
    und heb' sie hoch in E -- wig -- keit.

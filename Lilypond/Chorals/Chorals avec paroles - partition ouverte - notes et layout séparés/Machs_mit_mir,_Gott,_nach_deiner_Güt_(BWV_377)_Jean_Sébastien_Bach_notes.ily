@@ -66,7 +66,7 @@ altoLyricsOne = \lyricmode {\set stanza = 1
    Mach's mit mir, Gott, nach dei -- ner Güt,
    hilf mir in mei -- nem Lei -- _ den,
    so nimm sie, Herr, in dei -- ne Händ,
-   ist Al -- _ les gut, wenn gut das End.
+   ist Al -- les __ _ gut, wenn gut das End.
 }
 
 altoLyricsTwo = \lyricmode {\set stanza = 2

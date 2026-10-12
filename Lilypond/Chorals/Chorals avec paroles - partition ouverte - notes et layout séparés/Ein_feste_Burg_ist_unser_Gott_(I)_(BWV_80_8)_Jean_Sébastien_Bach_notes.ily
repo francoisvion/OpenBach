@@ -82,7 +82,7 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 }
 
 altoLyricsOne = \lyricmode {\set stanza = 1
-   Das Wort sie sol -- len las -- _ sen stahn
+   Das Wort sie sol -- len las -- sen __ _ stahn
    und kein' Dank da -- zu ha -- _ ben.
    Neh -- men sie uns den Leib,
    Gut, Ehr, Kind und Weib,

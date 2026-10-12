@@ -96,7 +96,7 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
    Ob bei uns ist der Sün -- den viel,
    bei Gott ist viel mehr Gna -- _ de,
    Er ist al -- lein der gu -- te Hirt,
-   der Is -- ra -- el er -- lö -- _ sen wird
+   der Is -- ra -- el er -- lö -- sen __ _ wird
    aus sei -- nen Sün -- den al -- _ _ _ len.
 }
 

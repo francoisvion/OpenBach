@@ -91,7 +91,7 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 }
 
 altoLyricsOne = \lyricmode {\set stanza = 1
-   Der Tag, der ist so freu -- den -- reich al -- ler Cre -- a -- tu -- _ re, von ei -- ner Jung -- frau ist ge -- bor'n, Ma -- ri -- a du bist aus -- _ er -- kor'n, dass du Mut -- _ ter wä -- _ rest. Was ge -- schah so wun -- der -- lich? Got -- tes Sohn vom Him -- mel -- reich der __ _ ist Mensch ge -- bo -- _ ren.
+   Der Tag, der ist so freu -- den -- reich al -- ler Cre -- a -- tu -- _ re, von ei -- ner Jung -- frau ist ge -- bor'n, Ma -- ri -- a du bist aus -- er __ _ -- kor'n, dass du Mut -- ter __ _ wä -- _ rest. Was ge -- schah so wun -- der -- lich? Got -- tes Sohn vom Him -- mel -- reich der __ _ ist Mensch ge -- bo -- _ ren.
 }
 
 altoLyricsTwo = \lyricmode {\set stanza = 2
@@ -99,7 +99,7 @@ altoLyricsTwo = \lyricmode {\set stanza = 2
 }
 
 tenorLyricsOne = \lyricmode {\set stanza = 1
-   Der Tag, der ist so freu -- den -- reich al -- ler Cre -- a -- tu -- _ re, von ei -- ner Jung -- frau ist ge -- bor'n, Ma -- ri -- a du bist aus -- er -- kor'n, dass du Mut -- _ ter wä -- _ rest. Was ge -- schah so wun -- der -- lich? Got -- tes Sohn vom Him -- mel -- reich der __ ist Mensch ge -- bo -- _ ren.
+   Der Tag, der ist so freu -- den -- reich al -- ler Cre -- a -- tu -- _ re, von ei -- ner Jung -- frau ist ge -- bor'n, Ma -- ri -- a du bist aus -- er -- kor'n, dass du Mut -- ter __ _ wä -- _ rest. Was ge -- schah so wun -- der -- lich? Got -- tes Sohn vom Him -- mel -- reich der __ ist Mensch ge -- bo -- _ ren.
 }
 
 tenorLyricsTwo = \lyricmode {\set stanza = 2

@@ -81,7 +81,7 @@ altoLyricsTwo = \lyricmode {\set stanza = 2
 tenorLyricsOne = \lyricmode {\set stanza = 1
    Ich ar -- mer Mensch, ich ar -- mer Sün -- _ der
    steh hier vor Got -- tes An -- ge -- sicht.
-   Er -- bar -- _ me dich, er -- bar -- me dich,
+   Er -- bar -- me __ _ dich, er -- bar -- me dich,
    Gott, mein Er -- bar -- mer, ü -- ber mich!
 }
 

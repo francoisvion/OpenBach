@@ -143,7 +143,7 @@ altoLyrics = \lyricmode {
   Herr Gott, zu un -- sern Zei -- ten;
   es ist doch ja kein an -- drer nicht,
   der für uns könn -- te strei -- _ ten,
-  denn du, un -- ser Gott al -- _ lei -- ne.
+  denn du, un -- ser Gott al -- lei __ _ -- ne.
   Gieb un -- sern Für -- sten und der Ob -- rig -- keit
   Fried' und gut Re -- gi -- ment,
   dass wir un -- ter ih -- nen
@@ -162,7 +162,7 @@ tenorLyrics = \lyricmode {
   Gieb un -- sern Für -- sten und der Ob -- rig -- keit
   Fried' und gut Re -- gi -- ment,
   dass wir un -- ter ih -- nen
-  ein ge -- ruh'g und stil -- _ les Le -- ben füh -- ren mö -- gen
+  ein ge -- ruh'g und stil -- les __ _ Le -- ben füh -- ren mö -- gen
   in al -- ler Gott -- se -- lig -- keit
   und Ehr -- _ bar -- keit,
   A -- _ _ _ _ _ _ _ _ men.

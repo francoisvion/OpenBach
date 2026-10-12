@@ -1,0 +1,442 @@
+Scan prosodie : syncope croche-noire-croche sur 2 syllabes
+Regle attendue : syllabe1=1ere croche, syllabe2=noire PROLONGEE(_) sur la derniere croche
+420 fichiers scannes, 72 fichiers avec au moins 1 occurrence suspecte, 147 occurrences totales.
+906 paires voix/couplet non analysees (nb notes != nb syllabes, deficits pre-existants hors scope).
+
+=== Ach,_was_soll_ich_Sünder_machen_(BWV_259)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyrics] syllabes actuelles: ['mei', '_', 'ne']
+    contexte: is mei _ ne Zu
+
+=== Allein_Gott_in_der_Höh_sei_Ehr_(BWV_260)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['an', '_', 'uns']
+    contexte: Gott an _ uns hat,
+
+=== An_Wasserflüssen_Babylon_(BWV_267)_Jean_Sébastien_Bach (7 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['Schmach', '_', 'und']
+    contexte: viel Schmach _ und Schand'
+  [alto/altoLyricsThree] syllabes actuelles: ['trägt', '_', 'die']
+    contexte: und trägt _ die Schuld
+  [alto/altoLyricsThree] syllabes actuelles: ['Kreuz', '_', 'und']
+    contexte: men, Kreuz _ und Tod
+  [tenor/tenorLyricsOne] syllabes actuelles: ['schwe', '_', 'rem']
+    contexte: mit schwe _ rem Mut
+  [tenor/tenorLyricsOne] syllabes actuelles: ['ih', '_', 'rem']
+    contexte: in ih _ rem Land;
+  [tenor/tenorLyricsThree] syllabes actuelles: ['matt', '_', 'und']
+    contexte: wird matt _ und krank,
+  [tenor/tenorLyricsThree] syllabes actuelles: ['Hohn', '_', 'und']
+    contexte: Schmach, Hohn _ und Spott,
+
+=== Auf,_auf,_mein_Herz,_und_du,_mein_ganzer_Sinn_(BWV_268)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyrics] syllabes actuelles: ['ist,', 'er', 'lan']
+    contexte: lich ist, er lan _
+
+=== Auf,_mein_Herz,_des_Herren_Tag_(BWV_145a)_Jean_Sébastien_Bach (3 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['Herz', '_', 'des']
+    contexte: mein Herz _ des Her
+  [alto/altoLyricsOne] syllabes actuelles: ['Nun', '_', 'mehr']
+    contexte: ben: Nun _ mehr bin
+  [tenor/tenorLyricsOne] syllabes actuelles: ['Herz', '_', 'des']
+    contexte: mein Herz _ des Her
+
+=== Aus_tiefer_Not_schrei_ich_zu_dir_(BWV_38_6)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [tenor/tenorLyricsOne] syllabes actuelles: ['lö', '_', 'sen']
+    contexte: er lö _ sen wird
+
+=== Christ_lag_in_Todesbanden_(II)_(BWV_277)_Jean_Sébastien_Bach (4 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['lag', '_', 'in']
+    contexte: Christ lag _ in To
+  [alto/altoLyricsOne] syllabes actuelles: ['dank', '_', 'bar']
+    contexte: ihm dank _ bar sein,
+  [tenor/tenorLyricsOne] syllabes actuelles: ['dank', '_', 'bar']
+    contexte: ihm dank _ bar sein,
+  [bass/bassLyricsOne] syllabes actuelles: ['To', '_', 'des']
+    contexte: in To _ des ban
+
+=== Christ_lag_in_Todesbanden_(III)_(BWV_278)_Jean_Sébastien_Bach (6 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['un', '_', 'ser']
+    contexte: für un _ ser Sünd'
+  [alto/altoLyricsOne] syllabes actuelles: ['dank', '–', 'bar']
+    contexte: ihm dank – bar sein
+  [tenor/tenorLyricsOne] syllabes actuelles: ['To', '_', 'des']
+    contexte: in To _ des ban
+  [tenor/tenorLyricsOne] syllabes actuelles: ['un', '_', 'ser']
+    contexte: für un _ ser Sünd'
+  [bass/bassLyricsOne] syllabes actuelles: ['To', '_', 'des']
+    contexte: in To _ des ban
+  [bass/bassLyricsOne] syllabes actuelles: ['Al', '_', 'le']
+    contexte: ia Al _ le lu
+
+=== Christe,_der_du_bist_Tag_und_Licht_(BWV_274)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyrics] syllabes actuelles: ['Lich', '_', 'tes']
+    contexte: ches Lich _ tes Glanz,
+
+=== Christus,_der_uns_selig_macht_(III)_(BWV_283)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [tenor/tenorLyrics] syllabes actuelles: ['und', 'fälsch', 'lich']
+    contexte: Leut', und fälsch lich ver
+
+=== Dank_sei_Gott_in_der_Höhe_(BWV_287)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [bass/bassLyricsOne] syllabes actuelles: ['hab', '_', 'sie']
+    contexte: ich hab _ sie ü
+
+=== Der_Tag,_der_ist_so_freudenreich_(BWV_294)_Jean_Sébastien_Bach (3 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['aus', '_', 'er']
+    contexte: bist aus _ er kor'n,
+  [alto/altoLyricsOne] syllabes actuelles: ['Mut', '_', 'ter']
+    contexte: du Mut _ ter wä
+  [tenor/tenorLyricsOne] syllabes actuelles: ['Mut', '_', 'ter']
+    contexte: du Mut _ ter wä
+
+=== Der_du_bist_drei_in_Einigkeit_(BWV_293)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [tenor/tenorLyrics] syllabes actuelles: ['dem', '_', 'Tag']
+    contexte: mit dem _ Tag von
+
+=== Ein_feste_Burg_ist_unser_Gott_(I)_(BWV_80_8)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['las', '_', 'sen']
+    contexte: len las _ sen stahn
+
+=== Erbarm_dich_mein,_o_Herre_Gott_(BWV_305)_Jean_Sébastien_Bach (2 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['her', 'zig', '-']
+    contexte: Barm her zig - keit,
+  [alto/altoLyricsOne] syllabes actuelles: ['tei', '-', 'le']
+    contexte: ur tei - le dich.
+
+=== Es_ist_das_Heil_uns_kommen_her_(II)_(BWV_86_6)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [tenor/tenorLyricsOne] syllabes actuelles: ['rech', '_', 'ten']
+    contexte: der rech _ ten Zeit,
+
+=== Es_woll_uns_Gott_genädig_sein_(I)_(BWV_69_6)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['al', 'ler', '-']
+    contexte: te al ler - meist.
+
+=== Es_woll_uns_Gott_genädig_sein_(IV)_(BWV_76_7_14)_Jean_Sébastien_Bach (4 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['Gott', '_', 'be']
+    contexte: zu Gott _ be keh
+  [alto/altoLyricsOne] syllabes actuelles: ['Gott', 'sie', 'zu']
+    contexte: zu Gott sie zu Gott
+  [alto/altoLyricsTwo] syllabes actuelles: ['Her', '_', 'zen:']
+    contexte: von Her _ zen: A
+  [alto/altoLyricsTwo] syllabes actuelles: ['Her', 'zen,', 'von']
+    contexte: von Her zen, von Her
+
+=== Für_Freuden_lasst_uns_springen_(BWV_313)_Jean_Sébastien_Bach (2 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['lasst', '_', 'uns']
+    contexte: den lasst _ uns sprin
+  [bass/bassLyricsOne] syllabes actuelles: ['hört', '_', 'von']
+    contexte: ge hört _ von sol
+
+=== Gelobet_seist_du,_Jesu_Christ_(IV)_(BWV_248_28)_Jean_Sébastien_Bach (4 occurrence(s)) ===
+  [alto/altoLyrics] syllabes actuelles: ['zei', '_', 'gen']
+    contexte: zu zei _ gen an;
+  [alto/altoLyrics] syllabes actuelles: ["freu'", '_', 'sich']
+    contexte: Des freu' _ sich al
+  [tenor/tenorLyrics] syllabes actuelles: ['uns', '_', 'ge']
+    contexte: les uns _ ge tan,
+  [tenor/tenorLyrics] syllabes actuelles: ['zei', '_', 'gen']
+    contexte: zu zei _ gen an;
+
+=== Gib_dich_zufrieden_und_sei_stille_(BWV_315)_Jean_Sébastien_Bach (2 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['zu', 'frie', 'den,']
+    contexte: dich zu frie den, zu
+  [bass/bassLyricsOne] syllabes actuelles: ['Got', '_', 'te']
+    contexte: dem Got _ te dei
+
+=== Gott,_der_du_selber_bist_das_Licht_(BWV_316)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['Wun', 'der', '-']
+    contexte: und Wun der - tat
+
+=== Gott_der_Vater_wohn_uns_bei_(BWV_317)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['Teu', '_', 'fel']
+    contexte: dem Teu _ fel uns
+
+=== Herr,_gib,_dass_ich_dein_Ehre_(BWV_107_7)_Jean_Sébastien_Bach (3 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['_', '_', 'ben']
+    contexte: Le _ _ ben lang
+  [tenor/tenorLyricsOne] syllabes actuelles: ['_', '_', 'ben']
+    contexte: Le _ _ ben lang
+  [bass/bassLyricsOne] syllabes actuelles: ['_', '_', 'ben']
+    contexte: Le _ _ ben lang
+
+=== Herr,_ich_habe_missgehandelt_(I)_(BWV_330)_Jean_Sébastien_Bach (3 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['drückt', '_', 'der']
+    contexte: mich drückt _ der Sün
+  [tenor/tenorLyricsOne] syllabes actuelles: ['Sün', '_', 'den']
+    contexte: der Sün _ den Last;
+  [bass/bassLyricsOne] syllabes actuelles: ['ja', '_', 'mich']
+    contexte: delt, ja _ mich drückt
+
+=== Herr,_ich_habe_missgehandelt_(II)_(BWV_331)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [tenor/tenorLyricsOne] syllabes actuelles: ['ha', '_', 'be']
+    contexte: ich ha _ be miss
+
+=== Herr_Gott,_dich_loben_wir_(BWV_328)_Jean_Sébastien_Bach (7 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['E', '_', 'wig']
+    contexte: in E _ wig keit,
+  [alto/altoLyricsOne] syllabes actuelles: ['ret', '_', 'die']
+    contexte: Eh ret _ die Welt
+  [alto/altoLyricsOne] syllabes actuelles: ['weit', '_', 'und']
+    contexte: _ weit _ und breit.
+  [alto/altoLyricsOne] syllabes actuelles: ['un', '_', 'ser']
+    contexte: ist un _ ser Gott!
+  [alto/altoLyricsOne] syllabes actuelles: ['Ze', '_', 'ba']
+    contexte: _ Ze _ ba oth!
+  [alto/altoLyricsOne] syllabes actuelles: ['Je', '_', 'su']
+    contexte: Herr Je _ su Christ
+  [tenor/tenorLyricsOne] syllabes actuelles: ['dan', '_', 'ken']
+    contexte: wir dan _ ken dir.
+
+=== Herr_Jesu_Christ,_du_hast_bereit'_(BWV_333)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['wir', '_', 'bei']
+    contexte: men wir _ bei dir
+
+=== Herr_Jesu_Christ,_ich_schrei_zu_dir_(II)_(BWV_334)_Jean_Sébastien_Bach (3 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['Pfei', '_', 'le']
+    contexte: der Pfei _ le viel,
+  [alto/altoLyricsOne] syllabes actuelles: ['oh', '_', 'ne']
+    contexte: sen oh _ ne Ziel
+  [tenor/tenorLyricsOne] syllabes actuelles: ['höch', '_', 'stes']
+    contexte: du höch _ stes Gut,
+
+=== Ich_armer_Mensch,_ich_armer_Sünder_(BWV_179_6)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [tenor/tenorLyricsOne] syllabes actuelles: ['bar', '_', 'me']
+    contexte: Er bar _ me dich,
+
+=== Ich_dank_dir,_lieber_Herre_(II)_(BWV_347)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [tenor/tenorLyricsOne] syllabes actuelles: ['zu', '_', 'in']
+    contexte: da zu _ in gro
+
+=== Ich_ruf_zu_dir,_Herr_Jesu_Christ_(I)_(BWV_177_5)_Jean_Sébastien_Bach (2 occurrence(s)) ===
+  [tenor/tenorLyricsOne] syllabes actuelles: ['lieg', 'im', 'Streit']
+    contexte: Ich lieg im Streit und
+  [bass/bassLyricsOne] syllabes actuelles: ['im', 'Streit', 'und']
+    contexte: lieg im Streit und wi
+
+=== Jesu,_der_du_meine_Seele_(II)_(BWV_352)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['dei', '_', 'nen']
+    contexte: durch dei _ nen bit
+
+=== Jesu,_meine_Freude_(IV)_(BWV_227_7)_Jean_Sébastien_Bach (5 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['al', '_', 'len']
+    contexte: mit al _ len Schä
+  [alto/altoLyricsOne] syllabes actuelles: ['Tod,', 'Schmach', 'und']
+    contexte: und Tod, Schmach und Tod
+  [tenor/tenorLyricsOne] syllabes actuelles: ['Tod,', 'Schmach', 'und']
+    contexte: und Tod, Schmach und Tod
+  [tenor/tenorLyricsOne] syllabes actuelles: ['mich,', 'ob', 'ich']
+    contexte: soll mich, ob ich viel
+  [tenor/tenorLyricsOne] syllabes actuelles: ['von', 'Je', 'su']
+    contexte: den, von Je su schei
+
+=== Jesus_Christus,_unser_Heiland,_der_den_Tod_überwand_(BWV_364)_Jean_Sébastien_Bach (3 occurrence(s)) ===
+  [alto/altoLyrics] syllabes actuelles: ['un', '_', 'ser']
+    contexte: tus un _ ser Hei
+  [alto/altoLyrics] syllabes actuelles: ['er', '_', 'stan']
+    contexte: auf er _ stan _
+  [alto/altoLyrics] syllabes actuelles: ['Sünd', '_', 'hat']
+    contexte: die Sünd _ hat er
+
+=== Kyrie,_Gott_Vater_in_Ewigkeit_(choral)_(BWV_371)_Jean_Sébastien_Bach (3 occurrence(s)) ===
+  [alto/altoLyrics] syllabes actuelles: ['_', '_', 'uns']
+    contexte: Trost! _ _ uns Sün
+  [alto/altoLyrics] syllabes actuelles: ['_', 'al', 'lein']
+    contexte: der _ al lein du
+  [tenor/tenorLyrics] syllabes actuelles: ['aus', 'Her', 'zens']
+    contexte: wir aus Her zens be
+
+=== Liebster_Gott,_wenn_werd_ich_sterben_(BWV_8_6)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [bass/bassLyricsOne] syllabes actuelles: ['lich', 'Grab', 'ne']
+    contexte: ehr lich Grab ne ben
+
+=== Liebster_Jesu,_wir_sind_hier_(BWV_373)_Jean_Sébastien_Bach (3 occurrence(s)) ===
+  [bass/bassLyricsOne] syllabes actuelles: ['dich', '_', 'und']
+    contexte: hier, dich _ und dein
+  [bass/bassLyricsOne] syllabes actuelles: ['dein', '_', 'Wort']
+    contexte: und dein _ Wort an
+  [bass/bassLyricsOne] syllabes actuelles: ['dass', '_', 'die']
+    contexte: ren; dass _ die Her
+
+=== Machs_mit_mir,_Gott,_nach_deiner_Güt_(BWV_377)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['Al', '_', 'les']
+    contexte: ist Al _ les gut,
+
+=== Meines_Lebens_letzte_Zeit_(BWV_381)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyrics] syllabes actuelles: ['Gott', '_', 'das']
+    contexte: schen Gott _ das Le
+
+=== Mit_Fried_und_Freud_ich_fahr_dahin_(III)_(BWV_125_6)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyrics] syllabes actuelles: ['I', '_', 'sra']
+    contexte: Volks I _ sra el
+
+=== Nun_danket_alle_Gott_(II)_(BWV_386)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['viel', '_', 'zu']
+    contexte: lig viel _ zu gut
+
+=== Nun_freut_euch,_Gottes_Kinder_all_(BWV_387)_Jean_Sébastien_Bach (2 occurrence(s)) ===
+  [soprano/sopranoLyrics] syllabes actuelles: ['gro', '_', 'ßem']
+    contexte: mit gro _ ßem Schall,
+  [alto/altoLyrics] syllabes actuelles: ['hel', '_', 'ler']
+    contexte: mit hel _ ler Stimm'!
+
+=== Nun_freut_euch,_lieben_Christen_gmein_(BWV_388)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['Wun', '_', 'der']
+    contexte: ße Wun _ der tat;
+
+=== O_Gott,_du_frommer_Gott_(IV)_(BWV_399)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [bass/bassLyricsOne] syllabes actuelles: ['Gott,', '_', 'du']
+    contexte: O Gott, _ du from
+
+=== O_Welt,_sieh_hier_dein_Leben_(IV)_(BWV_393)_Jean_Sébastien_Bach (2 occurrence(s)) ===
+  [alto/altoLyrics] syllabes actuelles: ['Kreu', '_', 'zes']
+    contexte: des Kreu _ zes schwe
+  [alto/altoLyrics] syllabes actuelles: ['gros', '_', 'se']
+    contexte: der gros _ se Fürst
+
+=== O_Welt,_sieh_hier_dein_Leben_(V)_(BWV_394)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [tenor/tenorLyrics] syllabes actuelles: ['gros', '_', 'sem']
+    contexte: und gros _ sem Spott.
+
+=== Seelenbräutigam_(BWV_409)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyrics] syllabes actuelles: ['rei', '_', 'nem']
+    contexte: aus rei _ nem Trie
+
+=== Sei_Lob_und_Ehr_dem_höchsten_Gut_(II)_(BWV_251)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['Gott', '_', 'die']
+    contexte: serm Gott _ die Eh
+
+=== Sei_gegrüßet,_Jesu_gütig_(BWV_410)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyrics] syllabes actuelles: ['rin', '_', 'nen']
+    contexte: da rin _ nen se
+
+=== Singt_dem_Herrn_ein_neues_Lied_(BWV_411)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['Aeng', '_', 'sten']
+    contexte: in Aeng _ sten schaf
+
+=== Tröstet,_tröstet_meine_Lieben_(BWV_30_6)_Jean_Sébastien_Bach (2 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['he', '_', 'ben']
+    contexte: soll he _ ben an,
+  [tenor/tenorLyricsOne] syllabes actuelles: ['eb', '_', 'ne']
+    contexte: ein eb _ ne Bahn,
+
+=== Unter_deinen_Schirmen_(BWV_227_3)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [tenor/tenorLyricsOne] syllabes actuelles: ['Ob', '_', 'es']
+    contexte: frei. Ob _ es jetzt
+
+=== Vater_unser_im_Himmelreich_(III)_(BWV_416)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [tenor/tenorLyrics] syllabes actuelles: ['willst', '_', 'das']
+    contexte: und willst _ das Be
+
+=== Verleih_uns_Frieden_gnädlich_(II)_(BWV_126_6)_Jean_Sébastien_Bach (2 occurrence(s)) ===
+  [alto/altoLyrics] syllabes actuelles: ['al', '_', 'lei']
+    contexte: Gott al _ lei ne.
+  [tenor/tenorLyrics] syllabes actuelles: ['stil', '_', 'les']
+    contexte: und stil _ les Le
+
+=== Von_Gott_will_ich_nicht_lassen_(IV)_(BWV_419)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['er', '_', 'mich']
+    contexte: tut er _ mich wohl
+
+=== Wachet_auf,_ruft_uns_die_Stimme_(BWV_140_7)_Jean_Sébastien_Bach (8 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['je', '_', 'ge']
+    contexte: hat je _ ge hört
+  [alto/altoLyricsOne] syllabes actuelles: ['_', 'froh,', 'i']
+    contexte: wir _ froh, i _
+  [alto/altoLyricsOne] syllabes actuelles: ['i', 'o,', 'e']
+    contexte: o, i o, e _
+  [tenor/tenorLyricsOne] syllabes actuelles: ['_', 'je', 'ge']
+    contexte: hat _ je ge _
+  [tenor/tenorLyricsOne] syllabes actuelles: ['_', 'hat', 'je']
+    contexte: Ohr _ hat je _
+  [tenor/tenorLyricsOne] syllabes actuelles: ['je', '_', 'ge']
+    contexte: hat je _ ge hört
+  [bass/bassLyricsOne] syllabes actuelles: ['_', 'fen', 'und']
+    contexte: Har _ fen und _
+  [bass/bassLyricsOne] syllabes actuelles: ['_', 'hat', 'je']
+    contexte: Ohr _ hat je _
+
+=== Warum_betrübst_du_dich,_mein_Herz_(I)_(BWV_47_5)_Jean_Sébastien_Bach (2 occurrence(s)) ===
+  [alto/altoLyrics] syllabes actuelles: ['chen', 'Ehrn', 'will']
+    contexte: li chen Ehrn will ich
+  [tenor/tenorLyrics] syllabes actuelles: ['chen', 'Ehrn', 'will']
+    contexte: li chen Ehrn will ich
+
+=== Warum_sollt_ich_mich_denn_grämen_(BWV_422)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyrics] syllabes actuelles: ['mir', '_', 'den']
+    contexte: will mir _ den neh
+
+=== Was_Gott_tut,_das_ist_wohlgetan_(V)_(BWV_75_7_14)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['ich', '_', 'den']
+    contexte: muss ich _ den Kelch
+
+=== Was_Gott_tut,_das_ist_wohlgetan_(VII)_(BWV_100_6)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['bei', '_', 'will']
+    contexte: da bei _ will ich
+
+=== Was_betrübst_du_dich,_mein_Herz_(BWV_423)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [tenor/tenorLyrics] syllabes actuelles: ['Muth', '_', 'in']
+    contexte: kein Muth _ in dir?
+
+=== Was_willst_du_dich,_o_meine_Seele,_kränken_(BWV_425)_Jean_Sébastien_Bach (2 occurrence(s)) ===
+  [alto/altoLyrics] syllabes actuelles: ['an', 'dich', 'ge']
+    contexte: kann an dich ge den
+  [alto/altoLyrics] syllabes actuelles: ['wohl,', '_', 'wann']
+    contexte: gar wohl, _ wann er
+
+=== Wenn_einer_alle_Ding_verstünd_(v._8)?_(BWV_77_6)_Jean_Sébastien_Bach (2 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['stellst,', '_', 'mein']
+    contexte: "Du" stellst, _ mein Je
+  [alto/altoLyricsThree] syllabes actuelles: ['durch', '_', 'den']
+    contexte: "Herr," durch _ den Glau
+
+=== Wenn_mein_Stündlein_vorhanden_ist_(II)_(BWV_429)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyrics] syllabes actuelles: ['wirst', '_', 'sie']
+    contexte: du wirst _ sie wohl
+
+=== Wenn_mein_Stündlein_vorhanden_ist_(III)_(BWV_430)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [bass/bassLyrics] syllabes actuelles: ['letz', '_', 'ten']
+    contexte: nem letz _ ten End'
+
+=== Wenn_wir_in_höchsten_Nöten_sein_(II)_(BWV_432)_Jean_Sébastien_Bach (2 occurrence(s)) ===
+  [tenor/tenorLyricsOne] syllabes actuelles: ['sor', '_', 'gen']
+    contexte: gleich sor _ gen früh
+  [tenor/tenorLyricsTwo] syllabes actuelles: ['aus', '_', 'der']
+    contexte: tung aus _ der Angst
+
+=== Wer_Gott_vertraut,_hat_wohl_gebaut_(BWV_433)_Jean_Sébastien_Bach (3 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['Him', '_', 'mel']
+    contexte: im Him _ mel und
+  [alto/altoLyricsOne] syllabes actuelles: ['rum', '_', 'auf']
+    contexte: Da rum _ auf dich
+  [tenor/tenorLyricsOne] syllabes actuelles: ['und', '_', 'auf']
+    contexte: mel und _ auf Er
+
+=== Wer_in_dem_Schutz_des_Höchsten_ist_(BWV_339)_Jean_Sébastien_Bach (2 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['wie', '_', 'du']
+    contexte: sonst wie _ du willst,
+  [alto/altoLyricsThree] syllabes actuelles: ['Teu', '_', 'fels']
+    contexte: von Teu _ fels Stri
+
+=== Wir_glauben_all_an_einen_Gott_(choral)_(BWV_437)_Jean_Sébastien_Bach (1 occurrence(s)) ===
+  [alto/altoLyrics] syllabes actuelles: ['_', 'Al', 'les']
+    contexte: steht _ Al les in
+
+=== Wir_singen_dir,_Immanuel_(BWV_248_23)_Jean_Sébastien_Bach (5 occurrence(s)) ===
+  [alto/altoLyrics] syllabes actuelles: ['_', 'Gast,', 'dich']
+    contexte: ter _ Gast, dich nun
+  [alto/altoLyrics] syllabes actuelles: ['stel', '_', 'let']
+    contexte: ge stel _ let _
+  [alto/altoLyrics] syllabes actuelles: ['let', '_', 'hast.']
+    contexte: _ let _ hast. _
+  [tenor/tenorLyrics] syllabes actuelles: ['_', 'dei', 'nem']
+    contexte: in _ dei nem Heer
+  [bass/bassLyrics] syllabes actuelles: ['_', 'Gast,', 'dich']
+    contexte: ter _ Gast, dich nun
+
+=== Wär_Gott_nicht_mit_uns_diese_Zeit_(I)_(BWV_14_5)_Jean_Sébastien_Bach (4 occurrence(s)) ===
+  [alto/altoLyricsOne] syllabes actuelles: ['ihr', '_', 'Schlund']
+    contexte: dass ihr _ Schlund uns
+  [alto/altoLyricsOne] syllabes actuelles: ['steht', '_', 'uns']
+    contexte: men steht _ uns bei,
+  [tenor/tenorLyricsOne] syllabes actuelles: ['nicht', '_', 'zu']
+    contexte: der nicht _ zu gab,
+  [tenor/tenorLyricsOne] syllabes actuelles: ['wir', '_', 'sind']
+    contexte: und wir _ sind frei,

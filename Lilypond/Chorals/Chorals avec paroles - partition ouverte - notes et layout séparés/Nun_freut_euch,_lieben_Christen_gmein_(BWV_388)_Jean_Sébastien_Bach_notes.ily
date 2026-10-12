@@ -75,7 +75,7 @@ altoLyricsOne = \lyricmode {\set stanza = 1
    Nun freut euch, lie -- ben Chri -- sten g'mein,
    und lasst uns frö -- hlich sprin gen,
    was Gott an uns ge -- wen -- det hat
-   und sei -- ne sü -- ße Wun -- _ der -- tat;
+   und sei -- ne sü -- ße Wun -- der __ _ -- tat;
    gar teu'r hat er's er -- wor -- _ ben.
 }
 

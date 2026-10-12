@@ -82,7 +82,7 @@ sopranoLyricsTwo = \lyricmode {\set stanza = 2
 
 altoLyricsOne = \lyricmode {\set stanza = 1
   Christ lag in To -- des -- ban -- _ den
-  für un -- ser _ Sünd' ge -- ge -- _ ben __
+  für un -- ser __ _ Sünd' ge -- ge -- _ ben __
   Dess wir sol -- len fröh -- lich sein,
   Gott lo -- ben und ihm dank -- – bar sein
   und sin -- gen Al -- le -- lu -- ia

@@ -85,7 +85,7 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   die Ge -- mei -- ne soll ihn lo -- _ ben,
   Is -- ra -- el er -- freu' sich des -- _ sen,
   wel -- cher ihn ge -- ma -- chet hat.
-  und in Aeng -- _ sten schaf -- fet Rath:
+  und in Aeng -- sten __ _ schaf -- fet Rath:
   Sei -- ner soll er nicht ver -- ges -- _ sen.
 }
 

@@ -52,7 +52,7 @@ sopranoLyrics = \lyricmode {
 altoLyrics = \lyricmode {
   Chris -- te, der du bist Tag und Licht,
   Vor dir ist, Herr, ver -- bor -- gen nichts;
-  du vä -- ter -- li -- ches Lich -- _ tes Glanz,
+  du vä -- ter -- li -- ches Lich -- tes __ _ Glanz,
   Lehr' uns den Weg der Wahr -- heit ganz.
 }
 
