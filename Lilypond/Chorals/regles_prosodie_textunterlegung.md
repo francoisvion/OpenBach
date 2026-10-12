@@ -115,9 +115,13 @@ texte (contrairement à la synthèse orale donnée précédemment, qui mentionna
 Fort+Fort). À reconfirmer si besoin — pour l'instant seuls Faible+Fort et Fort+Faible sont
 sourcés du PDF.
 
-**Statut d'implémentation** : reçu le 2026-10-12, **pas encore appliqué** au corpus — requiert
-un lexique de mots-outils allemands + re-scan des deux formes de motif ([mot1,`_`,mot2] et
-[mot1,mot2,`_`], cette dernière jamais vérifiée jusqu'ici).
+**Statut d'implémentation** : fait le 2026-10-12. Lexique allemand faible construit (articles,
+prépositions, conjonctions, pronoms brefs, auxiliaires ET verbes modaux conjugués — confirmé
+par recherche que les modaux sont non-accentués comme les auxiliaires). Détecteur vérifie les
+deux formes de motif, ne flague que les cas non-ambigus (un mot clairement faible ET l'autre
+clairement fort, dans le mauvais sens — les cas faible+faible/fort+fort ne sont pas tranchés
+par la règle, pas flagués). 17 corrections appliquées (14 fichiers), toutes vérifiées par le
+harnais `scripts python/prosody_safety.py`, compilation propre, 0 reliquat au re-scan.
 
 ## 5. Croches de passage et notes répétées
 
@@ -130,6 +134,36 @@ un lexique de mots-outils allemands + re-scan des deux formes de motif ([mot1,`_
   noires identiques) reçoivent chacune une **nouvelle syllabe** — jamais de prolongement
   silencieux sur une répétition de hauteur à l'identique. C'est l'exception explicite à la
   règle générale "mélisme, pas de réattaque" du §1.
+
+**Statut d'implémentation (2026-10-12) : essayé, abandonné pour l'instant — signal pas assez
+fiable pour un parser automatique.**
+
+- *Repercussio* : détecteur basé sur "2 événements consécutifs même hauteur, durées égales,
+  2e sans nouvelle syllabe". Repère de calibrage utilisé : après 3 semaines de relecture
+  manuelle, le taux de violations réelles attendu est faible (sous les 5% des fichiers, par
+  analogie avec les 2 règles de syncope validées à ~3-14%). Premier essai : 23% des fichiers
+  (254 occurrences) — très au-dessus. Resserré 2 fois (exclusion mélisme déjà engagé, durées
+  égales) : toujours ~20% (160 occurrences, 87 fichiers). Inspection manuelle de l'échantillon :
+  immense majorité de mélismes de fin de mot parfaitement normaux et idiomatiques (*lo -- _ ben*,
+  *Le -- _ ben*, *Her -- _ ren*), pas des violations. Terme "Repercussio" lui-même ambigu : en
+  chant grégorien il désigne l'inverse (plusieurs notes même hauteur SOUS LA MÊME syllabe,
+  articulées séparément) — voir Wikipedia "Repercussion (singing)". Conclusion : mauvaise
+  interprétation de la règle de ma part, pas un simple réglage de seuil. Nécessite un critère
+  plus précis avant de retenter.
+- *Croches de passage* : détecteur basé sur mouvement mélodique par degrés conjoints (3+
+  notes consécutives, pas de bracket, durée croche, pas à pas même direction). Taux obtenu :
+  3% des fichiers (31 occurrences, 12 fichiers) — dans la fourchette attendue numériquement,
+  mais inspection manuelle révèle une confusion de fond : "mouvement par degrés conjoints"
+  (ce que je détecte, pure mélodie) ≠ "note de passage non-harmonique entre deux notes
+  principales de l'accord" (ce que dit la règle — nécessite une analyse harmonique des 4 voix
+  ensemble, pas juste la forme mélodique d'une voix). Beaucoup de faux positifs sont de
+  simples suites de mots normales dont la mélodie monte/descend par hasard par degrés
+  conjoints (*ben wir den Her ren* = "loben wir den Herren", 3 mots distincts légitimes).
+  Nécessite une analyse harmonique (hors de portée de l'approche actuelle, tokens de durée
+  et hauteur seuls) avant de retenter.
+
+Les deux restent des guides de relecture manuelle valables, juste pas automatisables en
+l'état avec la méthode utilisée pour les syncopes.
 
 ## 6. Table de synthèse (codage LilyPond)
 
