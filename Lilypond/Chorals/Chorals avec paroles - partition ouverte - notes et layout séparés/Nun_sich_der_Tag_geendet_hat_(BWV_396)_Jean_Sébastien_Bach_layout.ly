@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Nun_sich_der_Tag_geendet_hat_(BWV_396)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

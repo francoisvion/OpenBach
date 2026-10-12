@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Es_wird_schier_der_letzte_Tag_herkommen_(BWV_310)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

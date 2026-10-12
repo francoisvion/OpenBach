@@ -1,6 +1,5 @@
 \version "2.27.1"
 
-
 \include "Komm,_Heiliger_Geist,_Herre_Gott_(III)_(BWV_59_3)_Jean_Sébastien_Bach_notes.ily"
 
 \paper {

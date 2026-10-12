@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "O_Haupt_voll_Blut_und_Wunden_(III)_(BWV_244_62)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

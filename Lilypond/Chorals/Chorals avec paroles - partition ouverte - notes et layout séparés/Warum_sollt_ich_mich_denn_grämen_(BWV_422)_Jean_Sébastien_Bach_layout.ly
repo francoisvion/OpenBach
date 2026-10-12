@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Warum_sollt_ich_mich_denn_grämen_(BWV_422)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

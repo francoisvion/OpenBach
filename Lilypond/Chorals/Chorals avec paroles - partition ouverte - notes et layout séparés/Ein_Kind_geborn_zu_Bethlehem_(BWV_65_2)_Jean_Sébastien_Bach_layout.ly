@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Ein_Kind_geborn_zu_Bethlehem_(BWV_65_2)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

@@ -1,7 +1,5 @@
 \version "2.27.1"
 
-
-
 \include "Seelenbräutigam_(BWV_409)_Jean_Sébastien_Bach_notes.ily"
 
 \paper {

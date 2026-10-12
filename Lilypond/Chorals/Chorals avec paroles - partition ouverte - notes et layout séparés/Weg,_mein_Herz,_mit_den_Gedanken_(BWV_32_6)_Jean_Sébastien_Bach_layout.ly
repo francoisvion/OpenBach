@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Weg,_mein_Herz,_mit_den_Gedanken_(BWV_32_6)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Die_Sonn_hat_sich_mit_ihrem_Glanz_gewendet_(BWV_297)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

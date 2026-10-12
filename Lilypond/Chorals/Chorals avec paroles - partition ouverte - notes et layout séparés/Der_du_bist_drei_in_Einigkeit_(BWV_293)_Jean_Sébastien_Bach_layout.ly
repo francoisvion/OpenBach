@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Der_du_bist_drei_in_Einigkeit_(BWV_293)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

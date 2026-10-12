@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Durch_dein_Gefängnis,_Gottes_Sohn_(1_v.)_(BWV_245_22)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

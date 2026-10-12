@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Als_vierzig_Tag_nach_Ostern_warn_(BWV_266)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

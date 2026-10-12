@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Nun,_liebe_Seel,_nun_ist_es_Zeit_(BWV_248_46)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

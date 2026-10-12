@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Keinen_hat_Gott_verlassen_(BWV_369)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

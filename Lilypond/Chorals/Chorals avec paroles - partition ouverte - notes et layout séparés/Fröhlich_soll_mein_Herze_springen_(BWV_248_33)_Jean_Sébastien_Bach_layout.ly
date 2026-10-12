@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Fröhlich_soll_mein_Herze_springen_(BWV_248_33)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Nun_komm,_der_Heiden_Heiland_(II)_(BWV_62_6)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

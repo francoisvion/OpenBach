@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Ich_steh_an_deiner_Krippen_hier_(BWV_248_59)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

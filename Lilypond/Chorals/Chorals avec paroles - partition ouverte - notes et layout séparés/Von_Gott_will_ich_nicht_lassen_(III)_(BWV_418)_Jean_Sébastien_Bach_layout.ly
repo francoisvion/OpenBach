@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Von_Gott_will_ich_nicht_lassen_(III)_(BWV_418)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

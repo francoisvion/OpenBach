@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Liebster_Immanuel,_Herzog_der_Frommen_(BWV_123_6)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

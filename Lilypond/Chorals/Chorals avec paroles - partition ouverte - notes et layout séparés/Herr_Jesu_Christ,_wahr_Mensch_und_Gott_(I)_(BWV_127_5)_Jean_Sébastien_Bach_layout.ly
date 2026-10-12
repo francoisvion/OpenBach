@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Herr_Jesu_Christ,_wahr_Mensch_und_Gott_(I)_(BWV_127_5)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

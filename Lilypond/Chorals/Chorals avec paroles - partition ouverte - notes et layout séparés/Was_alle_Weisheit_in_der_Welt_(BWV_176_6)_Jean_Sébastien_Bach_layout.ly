@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Was_alle_Weisheit_in_der_Welt_(BWV_176_6)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

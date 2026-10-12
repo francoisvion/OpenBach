@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Herzliebster_Jesu,_was_hast_du_verbrochen_(I)_(BWV_245_3a)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

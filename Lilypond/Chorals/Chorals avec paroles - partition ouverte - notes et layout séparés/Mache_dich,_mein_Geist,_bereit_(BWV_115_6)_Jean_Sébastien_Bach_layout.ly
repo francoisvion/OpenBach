@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Mache_dich,_mein_Geist,_bereit_(BWV_115_6)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

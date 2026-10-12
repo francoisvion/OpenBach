@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Vom_Himmel_hoch,_da_komm_ich_her_(II)_(BWV_248_17)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)

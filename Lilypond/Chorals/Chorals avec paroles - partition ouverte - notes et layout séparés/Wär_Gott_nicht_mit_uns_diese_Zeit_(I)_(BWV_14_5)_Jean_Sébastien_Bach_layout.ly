@@ -1,8 +1,7 @@
 \version "2.27.1"
 
-
-
 \include "Wär_Gott_nicht_mit_uns_diese_Zeit_(I)_(BWV_14_5)_Jean_Sébastien_Bach_notes.ily"
+
 \paper {
   #(set-paper-size "a4")
   #(set-global-staff-size 18)
