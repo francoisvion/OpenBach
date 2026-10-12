@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Lobet_den_Herren,_denn_er_ist_sehr_freundlich_(BWV_374)_Jean_Sébastien_Bach_notes.ily"
 

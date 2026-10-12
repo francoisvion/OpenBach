@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Hilf,_Gott,_dass_mirs_gelinge_(BWV_343)_Jean_Sébastien_Bach_notes.ily"
 

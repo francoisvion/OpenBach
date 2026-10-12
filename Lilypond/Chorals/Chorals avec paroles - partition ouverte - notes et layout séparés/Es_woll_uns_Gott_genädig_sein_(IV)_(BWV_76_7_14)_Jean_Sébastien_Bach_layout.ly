@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Es_woll_uns_Gott_genädig_sein_(IV)_(BWV_76_7_14)_Jean_Sébastien_Bach_notes.ily"
 

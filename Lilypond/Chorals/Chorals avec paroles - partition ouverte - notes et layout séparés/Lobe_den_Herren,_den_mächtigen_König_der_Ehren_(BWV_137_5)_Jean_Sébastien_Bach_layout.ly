@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Lobe_den_Herren,_den_mächtigen_König_der_Ehren_(BWV_137_5)_Jean_Sébastien_Bach_notes.ily"
 

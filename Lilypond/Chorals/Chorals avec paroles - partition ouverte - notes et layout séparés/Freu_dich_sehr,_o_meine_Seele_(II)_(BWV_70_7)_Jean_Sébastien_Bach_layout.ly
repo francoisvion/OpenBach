@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Freu_dich_sehr,_o_meine_Seele_(II)_(BWV_70_7)_Jean_Sébastien_Bach_notes.ily"
 

@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Herr_Jesu_Christ,_du_höchstes_Gut_(II)_(BWV_168_6)_Jean_Sébastien_Bach_notes.ily"
 

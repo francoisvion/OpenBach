@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Werde_munter_mein_Gemüte_(II)_(BWV_244_40)_Jean_Sébastien_Bach_notes.ily"
 

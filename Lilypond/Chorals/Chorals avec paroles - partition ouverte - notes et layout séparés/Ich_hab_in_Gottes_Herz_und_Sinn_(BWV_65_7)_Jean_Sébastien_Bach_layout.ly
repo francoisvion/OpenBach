@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Ich_hab_in_Gottes_Herz_und_Sinn_(BWV_65_7)_Jean_Sébastien_Bach_notes.ily"
 

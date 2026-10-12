@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Jesu,_der_du_meine_Seele_(I)_(BWV_78_7)_Jean_Sébastien_Bach_notes.ily"
 

@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Wer_weiß,_wie_nahe_mir_mein_Ende_(I)_(BWV_84_5)_Jean_Sébastien_Bach_notes.ily"
 

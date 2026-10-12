@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Wer_in_dem_Schutz_des_Höchsten_ist_(BWV_339)_Jean_Sébastien_Bach_notes.ily"
 

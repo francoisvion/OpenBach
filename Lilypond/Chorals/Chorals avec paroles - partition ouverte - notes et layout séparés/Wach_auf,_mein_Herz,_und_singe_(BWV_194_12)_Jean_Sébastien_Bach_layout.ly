@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Wach_auf,_mein_Herz,_und_singe_(BWV_194_12)_Jean_Sébastien_Bach_notes.ily"
 

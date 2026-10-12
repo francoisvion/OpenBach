@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Da_Jesus_an_dem_Kreuze_stund_(BWV_1089)_Jean_Sébastien_Bach_notes.ily"
 

@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Was_bist_du_doch,_o_Seele,_so_betrübet_(BWV_424)_Jean_Sébastien_Bach_notes.ily"
 

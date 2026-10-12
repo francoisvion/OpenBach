@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Fröhlich_soll_mein_Herze_springen_(BWV_248_33)_Jean_Sébastien_Bach_notes.ily"
 

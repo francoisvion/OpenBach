@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Ermuntre_dich,_mein_schwacher_Geist_(BWV_248_12)_Jean_Sébastien_Bach_notes.ily"
 

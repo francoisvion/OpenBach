@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Helft_mir_Gotts_Güte_preisen_(II)_(BWV_28_6)_Jean_Sébastien_Bach_notes.ily"
 

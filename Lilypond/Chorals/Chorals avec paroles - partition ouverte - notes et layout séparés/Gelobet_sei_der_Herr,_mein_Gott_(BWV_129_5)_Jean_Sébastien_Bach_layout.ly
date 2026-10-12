@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Gelobet_sei_der_Herr,_mein_Gott_(BWV_129_5)_Jean_Sébastien_Bach_notes.ily"
 

@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Ist_Gott_mein_Schild_und_Helfersmann_(BWV_85_6)_Jean_Sébastien_Bach_notes.ily"
 

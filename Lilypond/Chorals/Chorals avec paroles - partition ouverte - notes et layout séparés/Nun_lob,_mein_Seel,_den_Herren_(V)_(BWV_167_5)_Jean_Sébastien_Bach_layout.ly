@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Nun_lob,_mein_Seel,_den_Herren_(V)_(BWV_167_5)_Jean_Sébastien_Bach_notes.ily"
 

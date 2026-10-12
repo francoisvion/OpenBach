@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Wo_Gott_zum_Haus_nicht_gibt_sein_Gunst_(I)_(BWV_438)_Jean_Sébastien_Bach_notes.ily"
 

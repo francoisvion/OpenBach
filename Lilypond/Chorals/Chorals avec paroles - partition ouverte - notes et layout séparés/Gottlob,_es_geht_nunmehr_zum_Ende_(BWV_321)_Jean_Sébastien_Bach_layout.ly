@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Gottlob,_es_geht_nunmehr_zum_Ende_(BWV_321)_Jean_Sébastien_Bach_notes.ily"
 

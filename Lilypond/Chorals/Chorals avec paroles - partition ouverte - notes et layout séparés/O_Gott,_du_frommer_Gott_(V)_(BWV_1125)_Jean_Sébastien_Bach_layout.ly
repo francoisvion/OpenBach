@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "O_Gott,_du_frommer_Gott_(V)_(BWV_1125)_Jean_Sébastien_Bach_notes.ily"
 

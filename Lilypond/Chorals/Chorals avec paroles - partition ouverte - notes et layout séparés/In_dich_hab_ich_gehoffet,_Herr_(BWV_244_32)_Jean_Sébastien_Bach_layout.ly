@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "In_dich_hab_ich_gehoffet,_Herr_(BWV_244_32)_Jean_Sébastien_Bach_notes.ily"
 

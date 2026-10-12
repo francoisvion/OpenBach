@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Es_wird_schier_der_letzte_Tag_herkommen_(BWV_310)_Jean_Sébastien_Bach_notes.ily"
 

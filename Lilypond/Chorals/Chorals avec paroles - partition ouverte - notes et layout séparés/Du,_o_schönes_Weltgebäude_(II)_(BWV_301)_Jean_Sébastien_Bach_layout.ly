@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Du,_o_schönes_Weltgebäude_(II)_(BWV_301)_Jean_Sébastien_Bach_notes.ily"
 

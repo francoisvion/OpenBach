@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Du_großer_Schmerzensmann_(BWV_300)_Jean_Sébastien_Bach_notes.ily"
 

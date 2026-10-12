@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "O_Mensch,_bewein_dein_Sünde_groß_(BWV_402)_Jean_Sébastien_Bach_notes.ily"
 

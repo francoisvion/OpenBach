@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Dank_sei_Gott_in_der_Höhe_(BWV_287)_Jean_Sébastien_Bach_notes.ily"
 

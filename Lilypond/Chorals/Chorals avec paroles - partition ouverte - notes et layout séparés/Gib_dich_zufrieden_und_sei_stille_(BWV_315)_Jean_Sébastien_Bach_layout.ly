@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Gib_dich_zufrieden_und_sei_stille_(BWV_315)_Jean_Sébastien_Bach_notes.ily"
 

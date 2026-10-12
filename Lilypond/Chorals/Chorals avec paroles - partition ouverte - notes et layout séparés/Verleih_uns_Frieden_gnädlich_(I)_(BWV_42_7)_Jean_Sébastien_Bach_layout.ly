@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Verleih_uns_Frieden_gnädlich_(I)_(BWV_42_7)_Jean_Sébastien_Bach_notes.ily"
 

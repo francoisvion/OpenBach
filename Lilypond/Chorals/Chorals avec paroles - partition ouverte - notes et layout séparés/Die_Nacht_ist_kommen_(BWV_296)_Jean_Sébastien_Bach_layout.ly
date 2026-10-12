@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Die_Nacht_ist_kommen_(BWV_296)_Jean_Sébastien_Bach_notes.ily"
 

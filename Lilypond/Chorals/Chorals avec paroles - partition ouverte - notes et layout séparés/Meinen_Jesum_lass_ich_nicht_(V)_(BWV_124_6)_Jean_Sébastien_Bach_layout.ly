@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Meinen_Jesum_lass_ich_nicht_(V)_(BWV_124_6)_Jean_Sébastien_Bach_notes.ily"
 

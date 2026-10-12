@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Ihr_Gestirn,_ihr_hohlen_Lüfte_(I)_(BWV_248_53)_Jean_Sébastien_Bach_notes.ily"
 

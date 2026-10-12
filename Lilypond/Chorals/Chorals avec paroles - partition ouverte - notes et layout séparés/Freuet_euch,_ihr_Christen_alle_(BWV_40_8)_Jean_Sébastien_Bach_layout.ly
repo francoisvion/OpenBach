@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Freuet_euch,_ihr_Christen_alle_(BWV_40_8)_Jean_Sébastien_Bach_notes.ily"
 

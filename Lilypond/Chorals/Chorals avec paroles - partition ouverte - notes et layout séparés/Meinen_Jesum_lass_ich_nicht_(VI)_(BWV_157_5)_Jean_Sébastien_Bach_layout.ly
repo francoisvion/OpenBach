@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Meinen_Jesum_lass_ich_nicht_(VI)_(BWV_157_5)_Jean_Sébastien_Bach_notes.ily"
 

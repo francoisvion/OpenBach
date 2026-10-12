@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Was_willst_du_dich,_o_meine_Seele,_kränken_(BWV_425)_Jean_Sébastien_Bach_notes.ily"
 

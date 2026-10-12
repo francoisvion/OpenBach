@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Christ_ist_erstanden_(II)_(BWV_66_6)_Jean_Sébastien_Bach_notes.ily"
 

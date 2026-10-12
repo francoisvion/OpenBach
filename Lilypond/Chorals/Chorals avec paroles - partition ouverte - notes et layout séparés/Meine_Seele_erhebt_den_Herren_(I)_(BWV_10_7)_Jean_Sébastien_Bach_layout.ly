@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Meine_Seele_erhebt_den_Herren_(I)_(BWV_10_7)_Jean_Sébastien_Bach_notes.ily"
 

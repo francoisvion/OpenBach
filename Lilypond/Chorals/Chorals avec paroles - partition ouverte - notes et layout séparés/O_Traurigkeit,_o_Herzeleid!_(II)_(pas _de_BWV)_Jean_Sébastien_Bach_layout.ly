@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "O_Traurigkeit,_o_Herzeleid!_(II)_(pas _de_BWV)_Jean_Sébastien_Bach_notes.ily"
 

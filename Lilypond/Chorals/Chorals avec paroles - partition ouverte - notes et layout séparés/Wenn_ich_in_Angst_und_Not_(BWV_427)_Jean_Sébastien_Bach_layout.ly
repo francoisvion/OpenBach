@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Wenn_ich_in_Angst_und_Not_(BWV_427)_Jean_Sébastien_Bach_notes.ily"
 

@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Du_Lebensfürst,_Herr_Jesu_Christ_(II)_(BWV_43_11)_Jean_Sébastien_Bach_notes.ily"
 

@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Der_Herr_ist_mein_getreuer_Hirt_(I)_(BWV_104_6)_Jean_Sébastien_Bach_notes.ily"
 

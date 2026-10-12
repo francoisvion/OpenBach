@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Der_Tag,_der_ist_so_freudenreich_(BWV_294)_Jean_Sébastien_Bach_notes.ily"
 

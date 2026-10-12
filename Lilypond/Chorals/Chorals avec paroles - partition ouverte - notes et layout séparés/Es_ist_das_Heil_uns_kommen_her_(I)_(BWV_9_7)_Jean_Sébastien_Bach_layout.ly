@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Es_ist_das_Heil_uns_kommen_her_(I)_(BWV_9_7)_Jean_Sébastien_Bach_notes.ily"
 

@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Das_walt_Gott_Vater_und_Gott_Sohn_(BWV_290)_Jean_Sébastien_Bach_notes.ily"
 

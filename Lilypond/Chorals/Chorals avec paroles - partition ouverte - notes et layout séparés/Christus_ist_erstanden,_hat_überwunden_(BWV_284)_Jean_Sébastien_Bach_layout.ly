@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Christus_ist_erstanden,_hat_überwunden_(BWV_284)_Jean_Sébastien_Bach_notes.ily"
 

@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "O_Welt,_sieh_hier_dein_Leben_(V)_(BWV_394)_Jean_Sébastien_Bach_notes.ily"
 

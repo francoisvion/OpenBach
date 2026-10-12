@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Ein_feste_Burg_ist_unser_Gott_(I)_(BWV_80_8)_Jean_Sébastien_Bach_notes.ily"
 

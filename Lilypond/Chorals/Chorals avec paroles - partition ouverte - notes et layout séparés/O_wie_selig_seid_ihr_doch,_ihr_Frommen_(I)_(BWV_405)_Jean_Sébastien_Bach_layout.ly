@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "O_wie_selig_seid_ihr_doch,_ihr_Frommen_(I)_(BWV_405)_Jean_Sébastien_Bach_notes.ily"
 

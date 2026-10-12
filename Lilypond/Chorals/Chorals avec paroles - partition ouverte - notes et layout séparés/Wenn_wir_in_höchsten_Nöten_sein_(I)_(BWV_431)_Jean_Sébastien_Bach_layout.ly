@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Wenn_wir_in_höchsten_Nöten_sein_(I)_(BWV_431)_Jean_Sébastien_Bach_notes.ily"
 

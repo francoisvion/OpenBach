@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Es_ist_genug_(BWV_60_5)_Jean_Sébastien_Bach_notes.ily"
 

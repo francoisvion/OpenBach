@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Ach,_lieben_Christen,_seid_getrost_(I)_(BWV_114_7)_Jean_Sébastien_Bach_notes.ily"
 

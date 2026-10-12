@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Befiehl_du_deine_Wege_(III)_(BWV_270)_Jean_Sébastien_Bach_notes.ily"
 

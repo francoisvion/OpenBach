@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Was_Gott_tut,_das_ist_wohlgetan_(III)_(BWV_250)_Jean_Sébastien_Bach_notes.ily"
 

@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Nun_bitten_wir_den_Heiligen_Geist_(I)_(BWV_169_7)_Jean_Sébastien_Bach_notes.ily"
 

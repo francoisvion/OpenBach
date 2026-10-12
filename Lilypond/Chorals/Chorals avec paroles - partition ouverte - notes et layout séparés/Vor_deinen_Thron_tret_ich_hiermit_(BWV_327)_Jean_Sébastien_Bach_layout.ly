@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Vor_deinen_Thron_tret_ich_hiermit_(BWV_327)_Jean_Sébastien_Bach_notes.ily"
 

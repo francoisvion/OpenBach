@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Wie_bist_du,_Seele,_in_mir_so_gar_betrübt_(BWV_435)_Jean_Sébastien_Bach_notes.ily"
 

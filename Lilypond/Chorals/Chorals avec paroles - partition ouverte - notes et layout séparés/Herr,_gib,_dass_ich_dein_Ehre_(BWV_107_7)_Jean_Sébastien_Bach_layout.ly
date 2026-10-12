@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Herr,_gib,_dass_ich_dein_Ehre_(BWV_107_7)_Jean_Sébastien_Bach_notes.ily"
 

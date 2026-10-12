@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Herr_Gott,_dich_loben_alle_wir_(BWV_326)_Jean_Sébastien_Bach_notes.ily"
 

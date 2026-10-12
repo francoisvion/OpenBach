@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Uns_ist_ein_Kindlein_heut_geborn_(BWV_414)_Jean_Sébastien_Bach_notes.ily"
 

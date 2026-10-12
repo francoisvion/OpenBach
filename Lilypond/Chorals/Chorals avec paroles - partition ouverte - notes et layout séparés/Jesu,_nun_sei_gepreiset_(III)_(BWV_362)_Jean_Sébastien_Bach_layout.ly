@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Jesu,_nun_sei_gepreiset_(III)_(BWV_362)_Jean_Sébastien_Bach_notes.ily"
 

@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Ach_Gott,_wie_manches_Herzeleid_(I)_(BWV_3_6)_Jean_Sébastien_Bach_notes.ily"
 

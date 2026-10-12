@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Danket_dem_Herrn,_denn_er_ist_sehr_freundlich_(BWV_286)_Jean_Sébastien_Bach_notes.ily"
 

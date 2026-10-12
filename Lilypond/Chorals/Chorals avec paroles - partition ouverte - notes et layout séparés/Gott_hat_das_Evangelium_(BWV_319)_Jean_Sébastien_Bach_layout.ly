@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Gott_hat_das_Evangelium_(BWV_319)_Jean_Sébastien_Bach_notes.ily"
 

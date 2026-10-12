@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Herr,_straf_mich_nicht_in_deinem_Zorn_(BWV_338)_Jean_Sébastien_Bach_notes.ily"
 

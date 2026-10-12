@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Gott_Vater,_sende_deinen_Geist_(I)_(BWV_74_8)_Jean_Sébastien_Bach_notes.ily"
 

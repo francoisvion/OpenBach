@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Treuer_Gott,_ich_muss_dir_klagen_(I)_(BWV_25_6)_Jean_Sébastien_Bach_notes.ily"
 

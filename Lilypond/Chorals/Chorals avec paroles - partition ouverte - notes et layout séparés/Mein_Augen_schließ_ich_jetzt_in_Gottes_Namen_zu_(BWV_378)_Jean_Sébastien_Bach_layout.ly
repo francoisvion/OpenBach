@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Mein_Augen_schließ_ich_jetzt_in_Gottes_Namen_zu_(BWV_378)_Jean_Sébastien_Bach_notes.ily"
 

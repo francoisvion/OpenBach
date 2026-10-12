@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Warum_betrübst_du_dich,_mein_Herz_(III)_(BWV_421)_Jean_Sébastien_Bach_notes.ily"
 

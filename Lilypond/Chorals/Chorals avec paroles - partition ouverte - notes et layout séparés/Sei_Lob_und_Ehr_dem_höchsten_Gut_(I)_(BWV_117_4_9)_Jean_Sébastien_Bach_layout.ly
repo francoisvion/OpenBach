@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Sei_Lob_und_Ehr_dem_höchsten_Gut_(I)_(BWV_117_4_9)_Jean_Sébastien_Bach_notes.ily"
 

@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "So_gehst_du_nun,_mein_Jesu,_hin_(BWV_500a)_Jean_Sébastien_Bach_notes.ily"
 

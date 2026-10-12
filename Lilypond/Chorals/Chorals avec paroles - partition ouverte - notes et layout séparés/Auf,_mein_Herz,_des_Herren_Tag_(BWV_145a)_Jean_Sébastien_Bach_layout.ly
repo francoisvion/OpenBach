@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Auf,_mein_Herz,_des_Herren_Tag_(BWV_145a)_Jean_Sébastien_Bach_notes.ily"
 

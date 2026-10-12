@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Alle_Menschen_müssen_sterben_(BWV_262)_Jean_Sébastien_Bach_notes.ily"
 

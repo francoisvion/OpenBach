@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Was_alle_Weisheit_in_der_Welt_(BWV_176_6)_Jean_Sébastien_Bach_notes.ily"
 

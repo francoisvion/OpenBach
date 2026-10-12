@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Hast_du_denn,_Jesu,_dein_Angesicht_gänzlich_verborgen_(BWV_57_8)_Jean_Sébastien_Bach_notes.ily"
 

@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Wir_Christenleut_habn_jetzund_Freud_(I)_(BWV_40_3)_Jean_Sébastien_Bach_notes.ily"
 

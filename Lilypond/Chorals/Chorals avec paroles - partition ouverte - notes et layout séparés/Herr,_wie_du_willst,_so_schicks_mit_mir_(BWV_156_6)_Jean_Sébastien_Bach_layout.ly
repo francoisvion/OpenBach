@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Herr,_wie_du_willst,_so_schicks_mit_mir_(BWV_156_6)_Jean_Sébastien_Bach_notes.ily"
 

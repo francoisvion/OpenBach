@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Christus,_der_uns_selig_macht_(II)_(BWV_245_37)_Jean_Sébastien_Bach_notes.ily"
 

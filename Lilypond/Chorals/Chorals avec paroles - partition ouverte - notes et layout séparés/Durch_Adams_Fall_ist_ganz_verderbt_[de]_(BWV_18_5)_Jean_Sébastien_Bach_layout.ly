@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Durch_Adams_Fall_ist_ganz_verderbt_[de]_(BWV_18_5)_Jean_Sébastien_Bach_notes.ily"
 

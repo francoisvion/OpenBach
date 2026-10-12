@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Erschienen_ist_der_herrlich_Tag_(BWV_145_5)_Jean_Sébastien_Bach_notes.ily"
 

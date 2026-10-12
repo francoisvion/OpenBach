@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Das_walt_mein_Gott,_Vater,_Sohn_und_heiliger_Geist_(BWV_291)_Jean_Sébastien_Bach_notes.ily"
 

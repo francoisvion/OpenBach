@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Ich_armer_Mensch,_ich_armer_Sünder_(BWV_179_6)_Jean_Sébastien_Bach_notes.ily"
 

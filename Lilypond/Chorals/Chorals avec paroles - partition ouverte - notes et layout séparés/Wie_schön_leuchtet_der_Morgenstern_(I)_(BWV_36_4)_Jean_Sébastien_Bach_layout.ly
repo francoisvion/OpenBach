@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Wie_schön_leuchtet_der_Morgenstern_(I)_(BWV_36_4)_Jean_Sébastien_Bach_notes.ily"
 

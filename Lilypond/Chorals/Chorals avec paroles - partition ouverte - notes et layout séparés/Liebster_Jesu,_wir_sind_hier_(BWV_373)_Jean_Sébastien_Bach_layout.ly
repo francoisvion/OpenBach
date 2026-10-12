@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Liebster_Jesu,_wir_sind_hier_(BWV_373)_Jean_Sébastien_Bach_notes.ily"
 

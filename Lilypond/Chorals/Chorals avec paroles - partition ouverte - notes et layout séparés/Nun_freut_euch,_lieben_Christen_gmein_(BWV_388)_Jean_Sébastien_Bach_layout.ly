@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Nun_freut_euch,_lieben_Christen_gmein_(BWV_388)_Jean_Sébastien_Bach_notes.ily"
 

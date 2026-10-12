@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Ach_wie_flüchtig,_ach_wie_nichtig_(BWV_26_6)_Jean_Sébastien_Bach_notes.ily"
 

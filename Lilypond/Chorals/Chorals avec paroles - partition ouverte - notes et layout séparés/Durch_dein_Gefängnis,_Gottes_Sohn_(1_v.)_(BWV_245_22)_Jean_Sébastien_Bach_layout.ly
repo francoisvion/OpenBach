@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Durch_dein_Gefängnis,_Gottes_Sohn_(1_v.)_(BWV_245_22)_Jean_Sébastien_Bach_notes.ily"
 

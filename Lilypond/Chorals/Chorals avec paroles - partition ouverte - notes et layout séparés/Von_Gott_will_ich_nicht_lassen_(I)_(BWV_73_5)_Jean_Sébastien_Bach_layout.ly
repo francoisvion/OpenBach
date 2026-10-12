@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Von_Gott_will_ich_nicht_lassen_(I)_(BWV_73_5)_Jean_Sébastien_Bach_notes.ily"
 

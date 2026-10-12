@@ -1,4 +1,4 @@
-\version "2.27.1"
+\version "2.27.3"
 
 \include "Wer_nur_den_lieben_Gott_lässt_walten_(V)_(BWV_92_9)_Jean_Sébastien_Bach_notes.ily"
 
