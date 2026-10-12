@@ -61,14 +61,17 @@ def imslp_page(work, cache):
         return cache[work]
     query = f'"BWV {work}" Bach, Johann Sebastian'
     url = ("https://imslp.org/api.php?action=query&list=search&format=json"
-           "&srlimit=10&srsearch=" + urllib.parse.quote(query))
+           "&srlimit=50&srsearch=" + urllib.parse.quote(query))
     req = urllib.request.Request(url, headers={"User-Agent": "OpenBach/1.0"})
     with urllib.request.urlopen(req, timeout=30) as r:
         hits = [h["title"] for h in json.load(r)["query"]["search"]]
-    # Titre exact ", BWV 48 (Bach" ou plage "BWV 250-252" ; jamais "BWV 48a"
-    # quand on cherche 48.
-    pat = re.compile(rf"BWV {re.escape(work)}(?![0-9a-z])[^(]*\(Bach, Johann Sebastian\)")
-    title = next((t for t in hits if pat.search(t)), "")
+    # Page de l'oeuvre : "<titre>, BWV 48 (Bach, Johann Sebastian)". Jamais
+    # "BWV 48a" quand on cherche 48, ni une page-liste "Cantatas, BWV 41-50".
+    w = re.escape(work)
+    exact = re.compile(rf", BWV {w}\s*\(Bach, Johann Sebastian\)$")
+    loose = re.compile(rf"^(?!Cantatas,).*BWV {w}(?![0-9a-z-])[^(]*\(Bach, Johann Sebastian\)$")
+    title = (next((t for t in hits if exact.search(t)), "")
+             or next((t for t in hits if loose.search(t)), ""))
     cache[work] = title
     time.sleep(0.5)
     return title
