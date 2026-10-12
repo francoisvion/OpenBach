@@ -98,7 +98,7 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
       \set stanza = 1
-   Gott, der du sel -- ber bist das Licht, dess Güt' und Treu -- e _ stir -- bet nicht, dir sei itzt Lob ge -- sun - gen: und dei -- ne Gnad und _ Wun -- der -- tat mich, da ich schlief, er -- hal -- ten hat.
+   Gott, der du sel -- ber bist das Licht, dess Güt' und Treu -- e _ stir -- bet nicht, dir sei itzt Lob ge -- sun - gen: und dei -- ne Gnad _ und Wun -- der -- tat mich, da ich schlief, er -- hal -- ten hat.
     }
 
 bassLyricsTwo = \lyricmode {

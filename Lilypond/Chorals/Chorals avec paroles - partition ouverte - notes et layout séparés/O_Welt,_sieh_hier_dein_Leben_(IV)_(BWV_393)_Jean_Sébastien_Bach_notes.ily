@@ -73,9 +73,9 @@ sopranoLyrics = \lyricmode {
 
 altoLyrics = \lyricmode {
   O Welt, sieh' hier dein Le -- _ ben
-  am Stamm des Kreu -- _ zes schwe -- _ ben,
+  am Stamm des Kreu -- zes _ schwe -- _ ben,
   dein Heil sinkt in den Tod,
-  der gros -- _ se Fürst der Eh -- ren
+  der gros -- se _ Fürst der Eh -- ren
   lässt wil -- lig sich be -- schwe -- ren
   mit Schlä -- gen, Hohn und gros -- sem Spott.
 }
@@ -95,5 +95,5 @@ bassLyrics = \lyricmode {
   dein Heil sinkt in den Tod,
   der gros -- se Fürst der Eh -- ren
   lässt wil -- lig sich be -- schwe -- _ ren
-  mit Schlä -- gen, Hohn und _ gros -- sem Spott.
+  mit Schlä -- gen, Hohn _ und gros -- sem Spott.
 }

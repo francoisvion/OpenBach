@@ -87,7 +87,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Herr, ich denk' an _ je -- ne Zeit,
+  Herr, ich denk' _ an je -- ne Zeit,
   wenn ich die -- sem kur -- zen Le -- ben
   we -- gen mei -- ner Sterb -- lich -- keit
   gu -- te Nacht muss ge -- _ ben,

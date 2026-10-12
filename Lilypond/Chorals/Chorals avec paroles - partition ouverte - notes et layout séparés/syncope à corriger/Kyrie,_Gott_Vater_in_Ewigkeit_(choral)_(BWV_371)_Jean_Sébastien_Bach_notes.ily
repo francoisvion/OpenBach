@@ -183,7 +183,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Ky -- ri -- _ _ e! Gott Va -- ter in E -- wig -- keit! Groß ist dein Barm -- her -- zig -- keit, al -- ler Ding ein _ Schöp -- fer und _ Re -- gie -- _ _ rer! E -- _ _ _ le -- i -- son! _ _ Chri -- _ _ _ ste, _ al -- _ ler Welt Trost! _ _ uns Sün -- der _ al -- lein du hast _ er -- löst; Je -- _ _ su Got -- tes Sohn! Un -- ser Mitt -- _ _ ler bist in dem höch -- sten _ Thron, zu dir schrei -- en wir aus Her -- zens -- be -- _ gier! E -- _ _ le -- i -- son! _ _ Ky -- ri -- e! Gott hei -- _ li -- ger Geist! Tröst', stärk' uns im Glau -- ben al -- ler meist, dass wir am letz -- ten End' fröh -- lich ab -- schei -- _ den aus die -- sem E -- _ _ lend! E -- _ _ _ le -- i -- son! _ _
+  Ky -- ri -- _ _ e! Gott Va -- ter in E -- wig -- keit! Groß ist dein Barm -- her -- zig -- keit, al -- ler Ding _ ein Schöp -- fer und _ Re -- gie -- _ _ rer! E -- _ _ _ le -- i -- son! _ _ Chri -- _ _ _ ste, _ al -- _ ler Welt Trost! _ _ uns Sün -- der _ al -- lein du hast _ er -- löst; Je -- _ _ su Got -- tes Sohn! Un -- ser Mitt -- _ _ ler bist in dem höch -- sten _ Thron, zu dir schrei -- en wir aus Her -- zens -- be -- _ gier! E -- _ _ le -- i -- son! _ _ Ky -- ri -- e! Gott hei -- _ li -- ger Geist! Tröst', stärk' uns im Glau -- ben al -- ler meist, dass wir am letz -- ten End' fröh -- lich ab -- schei -- _ den aus die -- sem E -- _ _ lend! E -- _ _ _ le -- i -- son! _ _
 }
 
 tenorLyrics = \lyricmode {
@@ -191,5 +191,5 @@ tenorLyrics = \lyricmode {
 }
 
 bassLyrics = \lyricmode {
-  Ky -- _ ri -- _ e! Gott Va -- ter in E -- wig -- keit! Groß ist dein Barm -- her -- zig -- keit, al -- ler Ding ein _ Schöp -- fer _ und Re -- _ gie -- _ rer! E -- _ _ _ le -- i -- son! Chri -- _ _ ste, al -- _ ler Welt Trost! uns Sün -- der al -- lein _ du hast er -- löst; Je -- _ _ su Got -- tes Sohn! Un -- ser Mitt -- _ ler bist in dem höch -- sten Thron, zu dir schrei -- en wir aus Her -- zens -- be -- _ gier! E -- _ _ _ le -- i -- son! _ Ky -- ri -- _ e! Gott hei -- _ li -- ger Geist! Tröst', stärk' uns im _ Glau -- ben al -- ler meist, dass wir am letz -- ten End' fröh -- lich _ ab -- schei -- den aus die -- sem E -- _ lend! E -- _ _ _ le -- i -- son! _ _
+  Ky -- _ ri -- _ e! Gott Va -- ter in E -- wig -- keit! Groß ist dein Barm -- her -- zig -- keit, al -- ler Ding _ ein Schöp -- fer _ und Re -- _ gie -- _ rer! E -- _ _ _ le -- i -- son! Chri -- _ _ ste, al -- _ ler Welt Trost! uns Sün -- der al -- lein _ du hast er -- löst; Je -- _ _ su Got -- tes Sohn! Un -- ser Mitt -- _ ler bist in dem höch -- sten Thron, zu dir schrei -- en wir aus Her -- zens -- be -- _ gier! E -- _ _ _ le -- i -- son! _ Ky -- ri -- _ e! Gott hei -- _ li -- ger Geist! Tröst', stärk' uns im _ Glau -- ben al -- ler meist, dass wir am letz -- ten End' fröh -- lich _ ab -- schei -- den aus die -- sem E -- _ lend! E -- _ _ _ le -- i -- son! _ _
 }
