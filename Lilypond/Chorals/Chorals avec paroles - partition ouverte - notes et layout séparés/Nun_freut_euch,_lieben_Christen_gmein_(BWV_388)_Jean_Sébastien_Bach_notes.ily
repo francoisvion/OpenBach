@@ -58,46 +58,8 @@ bassMusic = {
   b,8 [c] d4 g,\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Nun freut euch, lie -- ben Chri -- sten g'mein,
-   und lasst uns frö -- hlich sprin -- _ gen,
-   was Gott an uns ge -- wen -- det hat
-   und sei -- ne sü -- ße Wun -- der -- tat;
-   gar teu'r hat er's er -- wor -- _ ben.
-}
-
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   dass wir ge -- trost und all in Ein
-   mit Lust und Lie -- be sin -- _ gen:
-}
-
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Nun freut euch, lie -- ben Chri -- sten g'mein,
-   und lasst uns frö -- hlich sprin gen,
-   was Gott an uns ge -- wen -- det hat
-   und sei -- ne sü -- ße Wun -- der __ _ -- tat;
-   gar teu'r hat er's er -- wor -- _ ben.
-}
-
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   dass wir ge -- trost und all in Ein
-   mit Lust und Lie -- be sin gen:
-}
-
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Nun freut euch, lie -- ben Chri -- sten g'mein,
-   und lasst uns frö -- hlich sprin -- _ gen,
-   was Gott an uns ge -- wen -- det hat
-   und sei -- ne sü -- ße Wun -- der -- tat;
-   gar teu'r hat er's er -- wor ben.
-}
-
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   dass wir ge -- trost und all in Ein
-   mit Lust und Lie -- be sin -- _ gen:
-}
-
-bassLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
   Nun freut euch, lie -- ben Chri -- sten g'mein,
   und lasst uns frö -- hlich sprin -- _ gen,
   was Gott an uns ge -- wen -- det hat
@@ -105,7 +67,53 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   gar teu'r hat er's er -- wor -- _ ben.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dass wir ge -- trost und all in Ein
+  mit Lust und Lie -- be sin -- _ gen:
+}
+
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Nun freut euch, lie -- ben Chri -- sten g'mein,
+  und lasst uns frö -- hlich sprin gen,
+  was Gott an uns ge -- wen -- det hat
+  und sei -- ne sü -- ße Wun -- der __ _ -- tat;
+  gar teu'r hat er's er -- wor -- _ ben.
+}
+
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dass wir ge -- trost und all in Ein
+  mit Lust und Lie -- be sin gen:
+}
+
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Nun freut euch, lie -- ben Chri -- sten g'mein,
+  und lasst uns frö -- hlich sprin -- _ gen,
+  was Gott an uns ge -- wen -- det hat
+  und sei -- ne sü -- ße Wun -- der -- tat;
+  gar teu'r hat er's er -- wor ben.
+}
+
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dass wir ge -- trost und all in Ein
+  mit Lust und Lie -- be sin -- _ gen:
+}
+
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Nun freut euch, lie -- ben Chri -- sten g'mein,
+  und lasst uns frö -- hlich sprin -- _ gen,
+  was Gott an uns ge -- wen -- det hat
+  und sei -- ne sü -- ße Wun -- der -- tat;
+  gar teu'r hat er's er -- wor -- _ ben.
+}
+
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   dass wir ge -- trost und all in Ein
   mit Lust und Lie -- be sin -- _ gen:
 }

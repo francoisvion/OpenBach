@@ -27,14 +27,14 @@
 }
 
 \header {
- title = \markup{\concat{"Herr Jesu Christ, ich schrei zu dir (I)" \small " (v. 12)"}}
- subtitle = "tiré de la cantate : Ich elender Mensch, wer wird mich erlösen"
- poet = "Freiberg 1670"
+  title = \markup{\concat{"Herr Jesu Christ, ich schrei zu dir (I)" \small " (v. 12)"}}
+  subtitle = "tiré de la cantate : Ich elender Mensch, wer wird mich erlösen"
+  poet = "Freiberg 1670"
   opus = "BWV 48/7"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

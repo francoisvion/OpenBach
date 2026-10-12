@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Wer nur den lieben Gott lässt walten (III)"
- poet = "Auteur : Georg Neumark (1621-1681)"
+  title = "Wer nur den lieben Gott lässt walten (III)"
+  poet = "Auteur : Georg Neumark (1621-1681)"
   opus = "BWV 434"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

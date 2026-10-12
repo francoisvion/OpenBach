@@ -98,86 +98,94 @@ bassMusic = {
   d2 g,\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Wer Gott ver -- traut
-   hat wohl -- ge -- baut
-   im Him -- mel und auf Er -- den,
-   im Him -- mel und auf Er -- den;
-   Da -- rum auf dich
-   all Hoff -- nung ich
-   ganz fest und steif tu set -- zen,
-   Herr Je -- su Christ,
-   Mein Trost du bist
-   In To -- des -- noth und Schmer -- zen,
-   In To -- des -- noth und Schmer -- zen.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wer Gott ver -- traut
+  hat wohl -- ge -- baut
+  im Him -- mel und auf Er -- den,
+  im Him -- mel und auf Er -- den;
+  Da -- rum auf dich
+  all Hoff -- nung ich
+  ganz fest und steif tu set -- zen,
+  Herr Je -- su Christ,
+  Mein Trost du bist
+  In To -- des -- noth und Schmer -- zen,
+  In To -- des -- noth und Schmer -- zen.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   wer sich ver -- lässt
-   auf Je -- sum Christ,
-   dem muss der Him -- mel wer -- den,
-   dem muss der Him -- mel wer -- den.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wer sich ver -- lässt
+  auf Je -- sum Christ,
+  dem muss der Him -- mel wer -- den,
+  dem muss der Him -- mel wer -- den.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Wer Gott ver __ -- _ traut
-   hat wohl -- ge -- baut __ _
-   im Him -- mel __ _ und auf Er -- _ den,
-   im Him -- mel und auf Er -- den;
-   Da -- rum __ _ auf dich __ _
-   all Hoff -- nung ich __ _
-   ganz fest und steif tu set -- zen,
-   Herr Je -- su Christ,
-   Mein Trost du bist _
-   In To -- des -- noth und Schmer -- _ zen,
-   In To -- des -- noth und Schmer -- zen.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wer Gott ver __ -- _ traut
+  hat wohl -- ge -- baut __ _
+  im Him -- mel __ _ und auf Er -- _ den,
+  im Him -- mel und auf Er -- den;
+  Da -- rum __ _ auf dich __ _
+  all Hoff -- nung ich __ _
+  ganz fest und steif tu set -- zen,
+  Herr Je -- su Christ,
+  Mein Trost du bist _
+  In To -- des -- noth und Schmer -- _ zen,
+  In To -- des -- noth und Schmer -- zen.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   wer sich ver -- _ lässt
-   auf Je -- sum Christ, __ _
-   dem muss __ _ der Him -- mel wer -- _ den,
-   dem muss der Him -- mel wer -- den.
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wer sich ver -- _ lässt
+  auf Je -- sum Christ, __ _
+  dem muss __ _ der Him -- mel wer -- _ den,
+  dem muss der Him -- mel wer -- den.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Wer Gott ver -- traut
-   hat wohl -- ge -- baut
-   im Him -- mel und __ _ auf Er -- _ den,
-   im Him -- mel und auf Er -- _ den;
-   Da -- rum auf dich
-   all Hoff -- nung ich
-   ganz fest und steif tu set -- _ zen,
-   Herr Je -- su Christ, _
-   Mein Trost du bist
-   In To -- des -- noth und Schmer -- _ zen,
-   In To -- des -- noth und Schmer -- _ zen.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wer Gott ver -- traut
+  hat wohl -- ge -- baut
+  im Him -- mel und __ _ auf Er -- _ den,
+  im Him -- mel und auf Er -- _ den;
+  Da -- rum auf dich
+  all Hoff -- nung ich
+  ganz fest und steif tu set -- _ zen,
+  Herr Je -- su Christ, _
+  Mein Trost du bist
+  In To -- des -- noth und Schmer -- _ zen,
+  In To -- des -- noth und Schmer -- _ zen.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   wer sich ver -- lässt
-   auf Je -- sum Christ,
-   dem muss der Him -- _ mel wer -- _ den,
-   dem muss der Him -- mel wer -- _ den.
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wer sich ver -- lässt
+  auf Je -- sum Christ,
+  dem muss der Him -- _ mel wer -- _ den,
+  dem muss der Him -- mel wer -- _ den.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Wer Gott ver -- traut
-   hat wohl -- ge -- baut
-   im Him -- mel und auf Er -- den,
-   im Him -- mel und auf Er -- den;
-   Da -- rum auf dich
-   all Hoff -- nung ich
-   ganz fest und steif tu set -- zen,
-   Herr Je -- su Christ,
-   Mein Trost du bist
-   In To -- des -- noth und Schmer -- _ zen,
-   In To -- des -- noth und Schmer -- zen.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wer Gott ver -- traut
+  hat wohl -- ge -- baut
+  im Him -- mel und auf Er -- den,
+  im Him -- mel und auf Er -- den;
+  Da -- rum auf dich
+  all Hoff -- nung ich
+  ganz fest und steif tu set -- zen,
+  Herr Je -- su Christ,
+  Mein Trost du bist
+  In To -- des -- noth und Schmer -- _ zen,
+  In To -- des -- noth und Schmer -- zen.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   wer sich ver -- lässt
-   auf Je -- sum Christ,
-   dem muss der Him -- mel wer -- den,
-   dem muss der Him -- mel wer -- den.
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wer sich ver -- lässt
+  auf Je -- sum Christ,
+  dem muss der Him -- mel wer -- den,
+  dem muss der Him -- mel wer -- den.
 }

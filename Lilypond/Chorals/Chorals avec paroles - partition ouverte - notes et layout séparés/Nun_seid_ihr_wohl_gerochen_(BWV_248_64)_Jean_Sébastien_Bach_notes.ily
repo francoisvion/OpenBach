@@ -1,12 +1,12 @@
 sopranoMusic = {
   \tempo \markup{\tiny \italic "Interludes instrumentaux absents"}
   \repeat volta 2 {
-  \once \textLengthOn s2.^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} }  \bar "'" fis'4
-  b' a' g' fis'
-  e'2 fis'4 \bar "'" \once s4^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} }
-  \bar "" s2. \bar "'" cis''4
-  d'' d'' cis''8. [d''32 e''] cis''4
-  b'\bar "'" \once s^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } }
+    \once \textLengthOn s2.^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} }  \bar "'" fis'4
+    b' a' g' fis'
+    e'2 fis'4 \bar "'" \once s4^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} }
+    \bar "" s2. \bar "'" cis''4
+    d'' d'' cis''8. [d''32 e''] cis''4
+    b'\bar "'" \once s^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } }
   s \bar "'" d''
   cis'' a' b' cis''
   d''2 d''4 \bar "'" \once \textLengthOn s^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} }  \bar "'"
@@ -23,12 +23,12 @@ sopranoMusic = {
 
 altoMusic = {
   \repeat volta 2 { 
-  s2. d'4
-  d'8 [e'] fis'4 b8 [cis'] d'4
-  d' cis' d' s
-  s2. ais'4
-  b' b' b' ais'
-  fis' s }
+    s2. d'4
+    d'8 [e'] fis'4 b8 [cis'] d'4
+    d' cis' d' s
+    s2. ais'4
+    b' b' b' ais'
+    fis' s }
   s b'
   a' a'8 [g'16 fis'] g'4 g'8 [e']
   d'4. b'8 a'4 s
@@ -45,12 +45,12 @@ altoMusic = {
 
 tenorMusic = {
   \repeat volta 2 { 
-  s2. a4
-  b8 [cis'] d'4 g a
-  b8 [g e a] a4 s
-  s2. fis'4
-  fis' d'8 [fis'] g' [e'] fis' [cis']
-  d'4 s }
+    s2. a4
+    b8 [cis'] d'4 g a
+    b8 [g e a] a4 s
+    s2. fis'4
+    fis' d'8 [fis'] g' [e'] fis' [cis']
+    d'4 s }
   s e'
   e' d' d' e'8 [cis']
   fis'4. b8 fis'4 s
@@ -67,12 +67,12 @@ tenorMusic = {
 
 bassMusic = {
   \repeat volta 2 { 
-  s2. d4
-  g fis b a
-  g a d s
-  s2. fis4
-  b8 [fis] g [d] e [cis] fis4
-  b, s }
+    s2. d4
+    g fis b a
+    g a d s
+    s2. fis4
+    b8 [fis] g [d] e [cis] fis4
+    b, s }
   s a8 [gis]
   a [g] fis [d] g [fis] e [a]
   b [a b g] d4 s
@@ -87,7 +87,8 @@ bassMusic = {
   s1 \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
   Nun seid ihr wohl ge -- ro -- chen
   an eu -- rer Fein -- de Schar,
   Tod, Teu -- fel, Sünd und Höl -- le
@@ -96,12 +97,14 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
   das mensch -- li -- che Ge -- schlecht.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
   denn Chris -- tus hat zer -- bro -- chen,
   was euch zu -- wi -- der war.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   Nun seid ihr wohl ge -- ro -- _ chen,
   an eu -- rer Fein -- de Schar,
   Tod, Teu -- fel, Sünd und Höl -- _ le
@@ -110,12 +113,14 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   das mensch -- li -- che Ge -- schlecht.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   denn Chris -- tus hat zer -- bro -- _ chen,
   was euch zu -- wi -- der war.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   Nun seid ihr wohl ge -- ro -- chen,
   an eu -- rer Fein -- de Schar,
   Tod, Teu -- fel, Sünd und Höl -- _ le
@@ -124,12 +129,14 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   das mensch -- li -- che Ge -- schlecht.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   denn Chris -- tus hat zer -- bro -- chen,
   was euch zu -- wi -- der war.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Nun seid ihr wohl ge -- ro -- _ chen,
   an eu -- rer Fein -- de Schar,
   Tod, Teu -- fel, Sünd und Höl -- le
@@ -138,7 +145,8 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   das mensch -- li -- che Ge -- schlecht.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   denn Chris -- tus hat zer -- bro -- _ chen,
   was euch zu -- wi -- der war.
 }

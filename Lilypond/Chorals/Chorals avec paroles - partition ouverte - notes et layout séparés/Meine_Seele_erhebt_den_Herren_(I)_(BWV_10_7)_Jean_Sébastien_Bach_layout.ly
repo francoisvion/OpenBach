@@ -27,14 +27,14 @@
 }
 
 \header {
- title = "Meine Seele erhebt den Herren (I)"
- subtitle = "tiré de la cantate : Meine Seel erhebt den Herren"
- poet = "Luc 1, 46 et suivants"
+  title = "Meine Seele erhebt den Herren (I)"
+  subtitle = "tiré de la cantate : Meine Seel erhebt den Herren"
+  poet = "Luc 1, 46 et suivants"
   opus = "BWV 10/7"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

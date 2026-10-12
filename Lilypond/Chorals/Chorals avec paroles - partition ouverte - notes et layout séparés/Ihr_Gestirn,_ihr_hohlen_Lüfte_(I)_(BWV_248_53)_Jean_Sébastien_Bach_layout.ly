@@ -28,14 +28,14 @@
 }
 
 \header {
- title = \markup{\concat{"Ihr Gestirn, ihr hohlen Lüfte (I)" \small " (v. 9)"}}
- subtitle = "tiré de l'Oratorio de Noël, partie V : Ehre sei dir, Gott, gesungen"
- poet = "Auteur : Johann Franck (1618-1677)"
+  title = \markup{\concat{"Ihr Gestirn, ihr hohlen Lüfte (I)" \small " (v. 9)"}}
+  subtitle = "tiré de l'Oratorio de Noël, partie V : Ehre sei dir, Gott, gesungen"
+  poet = "Auteur : Johann Franck (1618-1677)"
   opus = "BWV 248/53"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

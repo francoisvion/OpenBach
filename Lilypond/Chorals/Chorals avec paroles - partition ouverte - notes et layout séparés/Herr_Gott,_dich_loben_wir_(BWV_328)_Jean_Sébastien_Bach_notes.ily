@@ -260,177 +260,182 @@ bassMusic = {
   e2 e,\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Herr Gott, dich lo -- ben wir
-   Herr Gott, wir dan -- ken dir.
-   Dich, Gott Va -- ter in E -- wig -- keit,
-   Eh -- ret die Welt __ _ weit und breit.
-   Hei -- lig ist un -- ser Gott!
-   Hei -- lig ist un -- ser Gott!
-   der Herr __ _ Ze -- ba -- oth!
-   Dein' gött -- lich Macht und Herr -- lich -- keit,
-   geht ü -- ber Himm'l und Er -- den weit.
-   Du Kön'g der Eh -- ren, Je -- su Christ,
-   Gott Va -- ters ew' -- ger Sohn du bist,
-   Lass uns im Him -- mel ha -- ben Theil
-   Mit den Heil' -- gen im ew' -- gen Heil!
-   Hilf dei -- nem Volk, Herr Je -- su Christ
-   und se -- gne was dein Erb -- theil ist,
-   wart' und pfleg' ihr' zu al -- ler Zeit
-   und heb' sie hoch in E -- wig -- keit.
-   Täg -- lich, Herr Gott, wir lo -- ben dich
-   und ehr'n dein'n Na -- men ste -- tig -- lich.
-   Be -- hüt' uns heut', o treu -- er Gott,
-   vor al -- ler Sünd und Mis -- se -- tat,
-   Auf dich hof -- fen wir, lie -- ber Herr,
-   in Scha -- den lass uns nim -- mer -- mehr.
-   A -- _ _ _ men! __
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Herr Gott, dich lo -- ben wir
+  Herr Gott, wir dan -- ken dir.
+  Dich, Gott Va -- ter in E -- wig -- keit,
+  Eh -- ret die Welt __ _ weit und breit.
+  Hei -- lig ist un -- ser Gott!
+  Hei -- lig ist un -- ser Gott!
+  der Herr __ _ Ze -- ba -- oth!
+  Dein' gött -- lich Macht und Herr -- lich -- keit,
+  geht ü -- ber Himm'l und Er -- den weit.
+  Du Kön'g der Eh -- ren, Je -- su Christ,
+  Gott Va -- ters ew' -- ger Sohn du bist,
+  Lass uns im Him -- mel ha -- ben Theil
+  Mit den Heil' -- gen im ew' -- gen Heil!
+  Hilf dei -- nem Volk, Herr Je -- su Christ
+  und se -- gne was dein Erb -- theil ist,
+  wart' und pfleg' ihr' zu al -- ler Zeit
+  und heb' sie hoch in E -- wig -- keit.
+  Täg -- lich, Herr Gott, wir lo -- ben dich
+  und ehr'n dein'n Na -- men ste -- tig -- lich.
+  Be -- hüt' uns heut', o treu -- er Gott,
+  vor al -- ler Sünd und Mis -- se -- tat,
+  Auf dich hof -- fen wir, lie -- ber Herr,
+  in Scha -- den lass uns nim -- mer -- mehr.
+  A -- _ _ _ men! __
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   \repeat unfold 12 { \skip1 }
-   All' En -- gel und all' Him -- mels -- heer,
-   Und was da die -- net dei -- ner Ehr',
-   \repeat unfold 18 { \skip1 }
-   Der hei -- li -- gen zwölf Bo -- ten Zahl,
-   und die lie -- ben Pro -- phe -- ten all',
-   Der Jung -- frau Leib nicht hast ver -- schmäht,
-   "zu er" -- lö -- sen das mensch -- lich' Ge -- schlecht,
-   \repeat unfold 64 { \skip1 }
-   sei gnä -- dig uns, o Her -- re Gott,
-   sei gnä -- dig uns in al -- ler Not!
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  \repeat unfold 12 { \skip1 }
+  All' En -- gel und all' Him -- mels -- heer,
+  Und was da die -- net dei -- ner Ehr',
+  \repeat unfold 18 { \skip1 }
+  Der hei -- li -- gen zwölf Bo -- ten Zahl,
+  und die lie -- ben Pro -- phe -- ten all',
+  Der Jung -- frau Leib nicht hast ver -- schmäht,
+  "zu er" -- lö -- sen das mensch -- lich' Ge -- schlecht,
+  \repeat unfold 64 { \skip1 }
+  sei gnä -- dig uns, o Her -- re Gott,
+  sei gnä -- dig uns in al -- ler Not!
 }
 
-sopranoLyricsThree = \lyricmode {\set stanza = 3
-   \repeat unfold 12 { \skip1 }
-   Auch Che -- ru -- bim und Se -- ra -- phim
-   sin -- gen im -- mer mit ho -- her Stimm':
-   \repeat unfold 18 { \skip1 }
-   die theu -- ren Mär -- trer all -- zu -- mal
-   lo -- ben dich, Herr, mit gro -- ßem Schall.
-   Du hast dem Tod zer -- stört sein Macht
-   und all' Chri -- sten zum Him -- mel bracht.
-   \repeat unfold 64 { \skip1 }
-   zeig' uns dei -- ne Barm -- her -- zig -- keit,
-   wie un -- ser Hoff -- nung zu dir steht.
+sopranoLyricsThree = \lyricmode {
+  \set stanza = 3
+  \repeat unfold 12 { \skip1 }
+  Auch Che -- ru -- bim und Se -- ra -- phim
+  sin -- gen im -- mer mit ho -- her Stimm':
+  \repeat unfold 18 { \skip1 }
+  die theu -- ren Mär -- trer all -- zu -- mal
+  lo -- ben dich, Herr, mit gro -- ßem Schall.
+  Du hast dem Tod zer -- stört sein Macht
+  und all' Chri -- sten zum Him -- mel bracht.
+  \repeat unfold 64 { \skip1 }
+  zeig' uns dei -- ne Barm -- her -- zig -- keit,
+  wie un -- ser Hoff -- nung zu dir steht.
 }
 
 altoLyricsOne = \lyricmode {
-      \set stanza = 1
-   Herr Gott, dich lo -- ben wir
-   Herr Gott, wir dan -- ken dir.
-   Dich, Gott Va -- ter in E -- wig __ _ -- keit,
-   Eh -- ret __ _ die Welt __ _ weit __ _ und breit.
-   Hei -- lig ist un -- ser __ _ Gott!
-   Hei -- lig ist un -- ser Gott!
-   der Herr __ _ Ze -- ba __ _ -- oth!
-   Dein' gött -- lich Macht und Herr -- lich -- keit,
-   geht ü -- ber Himm'l und Er -- den weit.
-   Du Kön'g der Eh -- ren, Je -- su Christ,
-   Gott Va -- ters ew' -- ger Sohn du bist,
-   Lass uns im Him -- mel ha -- ben Theil
-   Mit den Heil' -- gen im ew' -- gen Heil!
-   Hilf dei -- nem Volk, Herr Je -- su __ _ Christ
-   und se -- gne was dein Erb -- theil ist,
-   wart' und pfleg' ihr' zu al -- ler Zeit
-   und heb' sie hoch in E -- wig -- keit.
-   Täg -- lich, Herr Gott, wir lo -- ben dich
-   und ehr'n dein'n Na -- men ste -- tig -- lich.
-   Be -- hüt' uns heut', o treu -- er Gott,
-   vor al -- ler Sünd und Mis -- se -- tat,
-   Auf dich hof -- fen wir, lie -- ber Herr,
-   in Scha -- den lass uns nim -- mer -- mehr.
-   A -- _ _ _ _ _ _ _ _ men!
-    }
+  \set stanza = 1
+  Herr Gott, dich lo -- ben wir
+  Herr Gott, wir dan -- ken dir.
+  Dich, Gott Va -- ter in E -- wig __ _ -- keit,
+  Eh -- ret __ _ die Welt __ _ weit __ _ und breit.
+  Hei -- lig ist un -- ser __ _ Gott!
+  Hei -- lig ist un -- ser Gott!
+  der Herr __ _ Ze -- ba __ _ -- oth!
+  Dein' gött -- lich Macht und Herr -- lich -- keit,
+  geht ü -- ber Himm'l und Er -- den weit.
+  Du Kön'g der Eh -- ren, Je -- su Christ,
+  Gott Va -- ters ew' -- ger Sohn du bist,
+  Lass uns im Him -- mel ha -- ben Theil
+  Mit den Heil' -- gen im ew' -- gen Heil!
+  Hilf dei -- nem Volk, Herr Je -- su __ _ Christ
+  und se -- gne was dein Erb -- theil ist,
+  wart' und pfleg' ihr' zu al -- ler Zeit
+  und heb' sie hoch in E -- wig -- keit.
+  Täg -- lich, Herr Gott, wir lo -- ben dich
+  und ehr'n dein'n Na -- men ste -- tig -- lich.
+  Be -- hüt' uns heut', o treu -- er Gott,
+  vor al -- ler Sünd und Mis -- se -- tat,
+  Auf dich hof -- fen wir, lie -- ber Herr,
+  in Scha -- den lass uns nim -- mer -- mehr.
+  A -- _ _ _ _ _ _ _ _ men!
+}
 
 altoLyricsTwo = \lyricmode {
-      \set stanza = 2
-   \repeat unfold 12 { \skip1 }
-   All' En gel und all' Him -- _ mels -- heer,
-   Und was __ _ da die -- net dei -- _ ner Ehr',
-   \repeat unfold 20 { \skip1 }
-   Der hei -- li -- gen zwölf Bo ten Zahl,
-   und die lie -- ben Pro -- phe ten all',
-   Der Jung -- frau Leib nicht hast ver -- schmäht,
-   "zu er" -- lö -- sen das mensch -- lich' Ge -- schlecht,
-   \repeat unfold 65 { \skip1 }
-   sei gnä -- dig uns, o Her -- re Gott,
-   sei gnä -- dig uns in al -- ler Not!
-    }
+  \set stanza = 2
+  \repeat unfold 12 { \skip1 }
+  All' En gel und all' Him -- _ mels -- heer,
+  Und was __ _ da die -- net dei -- _ ner Ehr',
+  \repeat unfold 20 { \skip1 }
+  Der hei -- li -- gen zwölf Bo ten Zahl,
+  und die lie -- ben Pro -- phe ten all',
+  Der Jung -- frau Leib nicht hast ver -- schmäht,
+  "zu er" -- lö -- sen das mensch -- lich' Ge -- schlecht,
+  \repeat unfold 65 { \skip1 }
+  sei gnä -- dig uns, o Her -- re Gott,
+  sei gnä -- dig uns in al -- ler Not!
+}
 
-altoLyricsThree = \lyricmode {\set stanza = 3
-   \repeat unfold 12 { \skip1 }
-   Auch Che -- ru -- bim und Se -- _ ra -- phim
-   sin -- gen __ _ im -- mer mit ho -- _ her Stimm':
-   \repeat unfold 20 { \skip1 }
-   die theu -- ren Mär -- trer all -- zu -- mal
-   lo -- ben dich, Herr, mit gro -- ßem Schall.
-   Du hast dem Tod zer -- stört sein Macht
-   und all' Chri -- sten zum Him -- mel bracht.
-   \repeat unfold 65 { \skip1 }
-   zeig' uns dei -- ne Barm -- her -- zig -- keit,
-   wie un -- ser Hoff -- nung zu dir steht.
+altoLyricsThree = \lyricmode {
+  \set stanza = 3
+  \repeat unfold 12 { \skip1 }
+  Auch Che -- ru -- bim und Se -- _ ra -- phim
+  sin -- gen __ _ im -- mer mit ho -- _ her Stimm':
+  \repeat unfold 20 { \skip1 }
+  die theu -- ren Mär -- trer all -- zu -- mal
+  lo -- ben dich, Herr, mit gro -- ßem Schall.
+  Du hast dem Tod zer -- stört sein Macht
+  und all' Chri -- sten zum Him -- mel bracht.
+  \repeat unfold 65 { \skip1 }
+  zeig' uns dei -- ne Barm -- her -- zig -- keit,
+  wie un -- ser Hoff -- nung zu dir steht.
 }
 
 tenorLyricsOne = \lyricmode {
-      \set stanza = 1
-   Herr Gott, dich lo -- ben wir
-   Herr Gott, wir dan -- ken __ _ dir.
-   Dich, Gott Va -- ter in E -- wig -- keit,
-   Eh -- ret die Welt __ _ weit und breit.
-   Hei -- lig ist un -- ser Gott!
-   Hei -- lig ist un -- ser Gott!
-   der Herr __ _ Ze -- ba -- oth!
-   Dein' gött -- lich Macht und Herr -- lich -- keit,
-   geht ü -- ber Himm'l und Er -- den weit.
-   Du Kön'g der Eh -- ren, Je -- su Christ,
-   Gott Va -- ters ew' -- ger Sohn du bist,
-   Lass uns im Him -- mel ha -- ben Theil
-   Mit den Heil' -- gen im ew' -- gen Heil!
-   Hilf dei -- nem Volk, Herr Je -- su Christ
-   und se -- gne was dein Erb -- theil ist,
-   wart' und pfleg' ihr' zu al -- ler Zeit
-   und heb' sie hoch in E -- wig -- keit.
-   Täg -- lich, Herr Gott, wir lo -- ben dich
-   und ehr'n dein'n Na -- men ste -- tig __ -- _ lich.
-   Be -- hüt' uns heut', o treu -- er Gott,
-   vor al -- ler Sünd und Mis -- se -- tat,
-   Auf dich hof -- fen wir, lie -- ber Herr,
-   in Scha -- den lass uns nim -- mer -- mehr.
-   A -- _ _ _ _ _ _ _ men!
-    }
+  \set stanza = 1
+  Herr Gott, dich lo -- ben wir
+  Herr Gott, wir dan -- ken __ _ dir.
+  Dich, Gott Va -- ter in E -- wig -- keit,
+  Eh -- ret die Welt __ _ weit und breit.
+  Hei -- lig ist un -- ser Gott!
+  Hei -- lig ist un -- ser Gott!
+  der Herr __ _ Ze -- ba -- oth!
+  Dein' gött -- lich Macht und Herr -- lich -- keit,
+  geht ü -- ber Himm'l und Er -- den weit.
+  Du Kön'g der Eh -- ren, Je -- su Christ,
+  Gott Va -- ters ew' -- ger Sohn du bist,
+  Lass uns im Him -- mel ha -- ben Theil
+  Mit den Heil' -- gen im ew' -- gen Heil!
+  Hilf dei -- nem Volk, Herr Je -- su Christ
+  und se -- gne was dein Erb -- theil ist,
+  wart' und pfleg' ihr' zu al -- ler Zeit
+  und heb' sie hoch in E -- wig -- keit.
+  Täg -- lich, Herr Gott, wir lo -- ben dich
+  und ehr'n dein'n Na -- men ste -- tig __ -- _ lich.
+  Be -- hüt' uns heut', o treu -- er Gott,
+  vor al -- ler Sünd und Mis -- se -- tat,
+  Auf dich hof -- fen wir, lie -- ber Herr,
+  in Scha -- den lass uns nim -- mer -- mehr.
+  A -- _ _ _ _ _ _ _ men!
+}
 
 tenorLyricsTwo = \lyricmode {
-      \set stanza = 2
-   \repeat unfold 13 { \skip1 }
-   All' En -- gel und all' Him -- mels -- heer,
-   Und was da die -- net dei -- ner Ehr',
-   \repeat unfold 18 { \skip1 }
-   Der hei -- li -- gen zwölf Bo -- ten Zahl,
-   und die lie -- ben Pro -- phe ten all',
-   Der Jung -- frau Leib nicht hast ver -- schmäht,
-   "zu er" -- lö -- sen das mensch -- lich' Ge -- schlecht,
-   \repeat unfold 65 { \skip1 }
-   sei gnä -- dig uns, o Her -- re Gott,
-   sei gnä -- dig uns in al -- ler Not!
-    }
+  \set stanza = 2
+  \repeat unfold 13 { \skip1 }
+  All' En -- gel und all' Him -- mels -- heer,
+  Und was da die -- net dei -- ner Ehr',
+  \repeat unfold 18 { \skip1 }
+  Der hei -- li -- gen zwölf Bo -- ten Zahl,
+  und die lie -- ben Pro -- phe ten all',
+  Der Jung -- frau Leib nicht hast ver -- schmäht,
+  "zu er" -- lö -- sen das mensch -- lich' Ge -- schlecht,
+  \repeat unfold 65 { \skip1 }
+  sei gnä -- dig uns, o Her -- re Gott,
+  sei gnä -- dig uns in al -- ler Not!
+}
 
-tenorLyricsThree = \lyricmode {\set stanza = 3
-   \repeat unfold 13 { \skip1 }
-   Auch Che -- ru -- bim und Se -- ra -- phim
-   sin -- gen im -- mer mit ho -- her Stimm':
-   \repeat unfold 18 { \skip1 }
-   die theu -- ren Mär -- trer all -- zu -- mal
-   lo -- ben dich, Herr, mit gro -- ßem Schall.
-   Du hast dem Tod zer -- stört sein Macht
-   und all' Chri -- sten zum Him -- mel bracht.
-   \repeat unfold 65 { \skip1 }
-   zeig' uns dei -- ne Barm -- her -- zig -- keit,
-   wie un -- ser Hoff -- nung zu dir steht.
+tenorLyricsThree = \lyricmode {
+  \set stanza = 3
+  \repeat unfold 13 { \skip1 }
+  Auch Che -- ru -- bim und Se -- ra -- phim
+  sin -- gen im -- mer mit ho -- her Stimm':
+  \repeat unfold 18 { \skip1 }
+  die theu -- ren Mär -- trer all -- zu -- mal
+  lo -- ben dich, Herr, mit gro -- ßem Schall.
+  Du hast dem Tod zer -- stört sein Macht
+  und all' Chri -- sten zum Him -- mel bracht.
+  \repeat unfold 65 { \skip1 }
+  zeig' uns dei -- ne Barm -- her -- zig -- keit,
+  wie un -- ser Hoff -- nung zu dir steht.
 }
 
 bassLyricsOne = \lyricmode {
-      \set stanza = 1
+  \set stanza = 1
   Herr Gott, dich lo -- ben wir
   Herr Gott, wir dan -- ken dir. Dich,
   Gott Va -- ter in E -- wig -- keit,
@@ -455,10 +460,10 @@ bassLyricsOne = \lyricmode {
   Auf dich hof -- fen wir, lie -- ber Herr,
   in Scha -- den lass uns nim -- mer -- mehr.
   A -- _ _ _ _ _ _ _ men!
-    }
+}
 
 bassLyricsTwo = \lyricmode {
-      \set stanza = 2
+  \set stanza = 2
   \repeat unfold 12 { \skip1 }
   All' En gel und all' Him -- mels -- heer,
   Und was da die -- net dei -- ner Ehr',
@@ -470,18 +475,19 @@ bassLyricsTwo = \lyricmode {
   \repeat unfold 63 { \skip1 }
   sei gnä -- dig uns, o Her -- re Gott,
   sei gnä -- dig uns in al -- ler Not!
-    }
+}
 
-bassLyricsThree = \lyricmode {\set stanza = 3
-   \repeat unfold 12 { \skip1 }
-   Auch Che -- ru -- bim und Se -- ra -- phim
-   sin -- gen im -- mer mit ho -- her Stimm':
-   \repeat unfold 18 { \skip1 }
-   die theu -- ren Mär -- trer all -- zu -- mal
-   lo -- ben dich, Herr, mit gro -- ßem Schall.
-   Du hast dem Tod zer -- stört sein Macht
-   und all' Chri -- sten zum Him -- mel bracht.
-   \repeat unfold 64 { \skip1 }
-   zeig' uns dei -- ne Barm -- her -- zig -- keit,
-   wie un -- ser Hoff -- nung zu dir steht.
+bassLyricsThree = \lyricmode {
+  \set stanza = 3
+  \repeat unfold 12 { \skip1 }
+  Auch Che -- ru -- bim und Se -- ra -- phim
+  sin -- gen im -- mer mit ho -- her Stimm':
+  \repeat unfold 18 { \skip1 }
+  die theu -- ren Mär -- trer all -- zu -- mal
+  lo -- ben dich, Herr, mit gro -- ßem Schall.
+  Du hast dem Tod zer -- stört sein Macht
+  und all' Chri -- sten zum Him -- mel bracht.
+  \repeat unfold 64 { \skip1 }
+  zeig' uns dei -- ne Barm -- her -- zig -- keit,
+  wie un -- ser Hoff -- nung zu dir steht.
 }

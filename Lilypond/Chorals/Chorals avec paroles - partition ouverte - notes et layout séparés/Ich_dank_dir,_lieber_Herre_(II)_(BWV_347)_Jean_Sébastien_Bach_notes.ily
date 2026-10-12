@@ -78,58 +78,66 @@ bassMusic = {
   a,2.\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Ich dank' dir, lie -- ber Her -- _ re,
-   dass du mich hast __ _ _ be -- wahrt
-   mit Fins -- ter -- nis um -- fan -- _ gen,
-   da -- zu in gro -- ßer Not,
-   da -- raus ich bin ent -- gan -- _ gen,
-   halfst du mir, Her -- _ _ _ _ re Gott.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ich dank' dir, lie -- ber Her -- _ re,
+  dass du mich hast __ _ _ be -- wahrt
+  mit Fins -- ter -- nis um -- fan -- _ gen,
+  da -- zu in gro -- ßer Not,
+  da -- raus ich bin ent -- gan -- _ gen,
+  halfst du mir, Her -- _ _ _ _ re Gott.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   in die -- ser Nacht Ge -- fäh -- _ re,
-   da -- rin ich lag __ _ _ so hart
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  in die -- ser Nacht Ge -- fäh -- _ re,
+  da -- rin ich lag __ _ _ so hart
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Ich dank' dir, lie -- ber Her -- _ re,
-   dass du mich hast __ be -- wahrt
-   mit Fins -- ter -- nis um -- fan -- _ gen,
-   da -- zu in gro -- ßer Not,
-   da -- raus ich bin ent -- gan -- gen,
-   halfst du mir, Her -- _ _ re Gott.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ich dank' dir, lie -- ber Her -- _ re,
+  dass du mich hast __ be -- wahrt
+  mit Fins -- ter -- nis um -- fan -- _ gen,
+  da -- zu in gro -- ßer Not,
+  da -- raus ich bin ent -- gan -- gen,
+  halfst du mir, Her -- _ _ re Gott.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   in die -- ser Nacht Ge -- fäh -- _ re,
-   da -- rin ich lag __ so hart
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  in die -- ser Nacht Ge -- fäh -- _ re,
+  da -- rin ich lag __ so hart
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Ich dank' dir, lie -- ber Her -- _ re,
-   dass du mich hast __ _ be -- wahrt
-   mit Fins -- ter -- nis um -- fan -- _ gen,
-   da -- zu __ _ in gro -- ßer Not,
-   da -- raus ich bin ent -- gan -- _ gen,
-   halfst du mir, Her -- _ _ _ _ re Gott.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ich dank' dir, lie -- ber Her -- _ re,
+  dass du mich hast __ _ be -- wahrt
+  mit Fins -- ter -- nis um -- fan -- _ gen,
+  da -- zu __ _ in gro -- ßer Not,
+  da -- raus ich bin ent -- gan -- _ gen,
+  halfst du mir, Her -- _ _ _ _ re Gott.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   in die -- ser Nacht Ge -- fäh -- _ re,
-   da -- rin ich lag __ _ so  hart
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  in die -- ser Nacht Ge -- fäh -- _ re,
+  da -- rin ich lag __ _ so  hart
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Ich dank' dir, lie -- ber Her -- _ re,
-   dass du mich hast __ _ _ be -- wahrt
-   mit Fins -- ter -- nis um -- fan -- _ gen,
-   da -- zu in gro -- ßer Not,
-   da -- raus ich bin ent -- gan -- _ gen,
-   halfst du mir, Her -- _ _ _ re Gott.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ich dank' dir, lie -- ber Her -- _ re,
+  dass du mich hast __ _ _ be -- wahrt
+  mit Fins -- ter -- nis um -- fan -- _ gen,
+  da -- zu in gro -- ßer Not,
+  da -- raus ich bin ent -- gan -- _ gen,
+  halfst du mir, Her -- _ _ _ re Gott.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   in die -- ser Nacht Ge -- fäh -- _ re,
-   da -- rin ich lag __ _ _ so hart
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  in die -- ser Nacht Ge -- fäh -- _ re,
+  da -- rin ich lag __ _ _ so hart
 }

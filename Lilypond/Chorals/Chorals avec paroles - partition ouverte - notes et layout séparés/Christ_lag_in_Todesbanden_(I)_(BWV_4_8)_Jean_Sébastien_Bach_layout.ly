@@ -28,14 +28,14 @@
 }
 
 \header {
- title = \markup{\concat{"Christ lag in Todesbanden (I)" \small " (v. 7)"}}
- subtitle = "tiré de la cantate : Christ lag in Todesbanden"
- poet = "Auteur : Martin Luther (1483-1546)"
+  title = \markup{\concat{"Christ lag in Todesbanden (I)" \small " (v. 7)"}}
+  subtitle = "tiré de la cantate : Christ lag in Todesbanden"
+  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 4/8"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

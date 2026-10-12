@@ -27,14 +27,14 @@
 }
 
 \header {
- title = \markup{\concat{"Der Herr ist mein getreuer Hirt (I)" \small " (v. 1)"}}
- subtitle = "tiré de la cantate : Du Hirte Israel, höre"
- poet = "Auteur : Cornelius Becker (1561-1604)"
+  title = \markup{\concat{"Der Herr ist mein getreuer Hirt (I)" \small " (v. 1)"}}
+  subtitle = "tiré de la cantate : Du Hirte Israel, höre"
+  poet = "Auteur : Cornelius Becker (1561-1604)"
   opus = "BWV 104/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

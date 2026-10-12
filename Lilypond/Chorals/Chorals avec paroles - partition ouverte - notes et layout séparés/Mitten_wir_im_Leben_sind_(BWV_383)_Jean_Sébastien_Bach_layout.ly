@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Mitten wir im Leben sind"
- poet = "Salzburg 1456"
+  title = "Mitten wir im Leben sind"
+  poet = "Salzburg 1456"
   opus = "BWV 383"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

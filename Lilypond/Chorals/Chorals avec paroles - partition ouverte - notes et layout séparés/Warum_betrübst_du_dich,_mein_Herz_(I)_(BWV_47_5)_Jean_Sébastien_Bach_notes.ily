@@ -76,7 +76,7 @@ altoLyrics = \lyricmode {
   das du er -- wor -- ben hast
   durch dei -- nen her -- ben, bit -- tern Tod;
   Das bitt ich dich, mein Herr und Gott.
-    }
+}
 
 tenorLyrics = \lyricmode {
   Der zeit -- li -- chen Ehrn will ich gern ent -- behr',
@@ -84,7 +84,7 @@ tenorLyrics = \lyricmode {
   das du er -- wor -- ben hast
   durch dei -- nen her -- ben, bit -- tern Tod;
   Das bitt ich dich, mein Herr und Gott.
-    }
+}
 
 bassLyrics = \lyricmode {
   Der zeit -- li -- chen Ehrn will ich gern ent -- behr',
@@ -92,4 +92,4 @@ bassLyrics = \lyricmode {
   das du er -- wor -- ben hast
   durch dei -- nen her -- ben, bit -- tern Tod;
   Das bitt ich dich, mein Herr und Gott.
-    }
+}

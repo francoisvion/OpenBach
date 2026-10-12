@@ -94,7 +94,8 @@ bassMusic = {
   g4 g, c\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
   Herz -- lich lieb hab' ich dich, o Herr,
   ich bitt, woll'st sein von mir nicht fern
   mit dei -- ner Huld und Gna -- de.
@@ -107,13 +108,15 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
   in Schan -- den lass mich nim -- mer -- mehr.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
   Die gan -- ze Welt nicht freu -- et mich,
   nach Himm'l und Erd' nicht fra -- ge ich,
   wenn ich nur, Herz, dich ha -- be.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   Herz -- lich lieb hab' ich dich, o Herr,
   ich bitt, woll'st sein von mir nicht fern
   mit dei -- ner Huld und Gna -- _ de.
@@ -126,13 +129,15 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   in Schan -- den lass mich nim -- mer -- mehr.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   Die gan -- ze Welt nicht freu -- et mich,
   nach Himm'l und Erd' nicht fra -- ge ich,
   wenn ich nur, Herz, dich ha -- _ be.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   Herz -- lich lieb hab' ich dich, o Herr,
   ich bitt, woll'st sein von mir nicht fern
   mit dei -- ner Huld und Gna -- _ de.
@@ -145,13 +150,15 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   in Schan -- den lass mich nim -- mer -- mehr.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   Die gan -- ze Welt nicht freu -- et mich,
   nach Himm'l und Erd' nicht fra -- ge ich,
   wenn ich nur, Herz, dich ha -- _ be.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Herz -- lich lieb hab' ich dich, o Herr,
   ich bitt, woll'st sein von mir nicht fern
   mit dei -- ner Huld und Gna -- _ de.
@@ -164,7 +171,8 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   in Schan -- den lass mich nim -- mer -- mehr.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   Die gan -- ze Welt nicht freu -- et mich,
   nach Himm'l und Erd' nicht fra -- ge ich,
   wenn ich nur, Herz, dich ha -- _ be.

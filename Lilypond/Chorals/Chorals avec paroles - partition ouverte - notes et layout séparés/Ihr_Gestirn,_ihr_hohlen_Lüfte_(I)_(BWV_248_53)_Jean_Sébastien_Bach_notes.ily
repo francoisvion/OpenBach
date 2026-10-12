@@ -46,50 +46,58 @@ bassMusic = {
   e4 e, a, a,\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Zwar ist sol -- che Her -- zens -- stu -- be
-   wohl kein schö -- ner Für -- sten -- saal,
-   in den -- sel -- ben nur wird blin -- ken,
-   wird sie vol -- ler Son -- nen dün -- ken.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Zwar ist sol -- che Her -- zens -- stu -- be
+  wohl kein schö -- ner Für -- sten -- saal,
+  in den -- sel -- ben nur wird blin -- ken,
+  wird sie vol -- ler Son -- nen dün -- ken.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   son -- dern ei -- ne fin -- stre Gru -- be;
-   doch, so -- bald dein Gna -- den -- strahl
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  son -- dern ei -- ne fin -- stre Gru -- be;
+  doch, so -- bald dein Gna -- den -- strahl
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Zwar ist sol -- che Her -- zens -- stu -- be
-   wohl kein schö -- ner Für -- sten -- saal,
-   in den -- sel -- ben nur wird blin -- ken,
-   wird sie vol -- ler Son -- nen dün -- ken.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Zwar ist sol -- che Her -- zens -- stu -- be
+  wohl kein schö -- ner Für -- sten -- saal,
+  in den -- sel -- ben nur wird blin -- ken,
+  wird sie vol -- ler Son -- nen dün -- ken.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   son -- dern ei -- ne fin -- stre Gru -- be;
-   doch, so -- bald dein Gna -- den -- strahl
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  son -- dern ei -- ne fin -- stre Gru -- be;
+  doch, so -- bald dein Gna -- den -- strahl
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Zwar ist sol -- che Her -- zens -- stu -- be
-   wohl kein schö -- ner Für -- sten -- saal,
-   in den -- sel -- ben nur wird blin -- ken,
-   wird sie vol -- ler Son -- nen dün -- ken.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Zwar ist sol -- che Her -- zens -- stu -- be
+  wohl kein schö -- ner Für -- sten -- saal,
+  in den -- sel -- ben nur wird blin -- ken,
+  wird sie vol -- ler Son -- nen dün -- ken.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   son -- dern ei -- ne fin -- stre Gru -- be;
-   doch, so -- bald dein Gna -- den -- strahl
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  son -- dern ei -- ne fin -- stre Gru -- be;
+  doch, so -- bald dein Gna -- den -- strahl
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Zwar ist sol -- che Her -- zens -- stu -- be
-   wohl kein schö -- ner Für -- sten -- saal,
-   in den -- sel -- ben nur wird blin -- ken,
-   wird sie vol -- ler Son -- nen dün -- ken.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Zwar ist sol -- che Her -- zens -- stu -- be
+  wohl kein schö -- ner Für -- sten -- saal,
+  in den -- sel -- ben nur wird blin -- ken,
+  wird sie vol -- ler Son -- nen dün -- ken.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   son -- dern ei -- ne fin -- stre Gru -- be;
-   doch, so -- bald dein Gna -- den -- strahl
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  son -- dern ei -- ne fin -- stre Gru -- be;
+  doch, so -- bald dein Gna -- den -- strahl
 }

@@ -28,14 +28,14 @@
 }
 
 \header {
- title = \markup{\concat{"Freu dich sehr, o meine Seele" \small " (v. 9)"}}
- subtitle = "tiré de la cantate : Es erhub sich ein Streit"
- poet = "Anonyme"
+  title = \markup{\concat{"Freu dich sehr, o meine Seele" \small " (v. 9)"}}
+  subtitle = "tiré de la cantate : Es erhub sich ein Streit"
+  poet = "Anonyme"
   opus = "BWV 19/7"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

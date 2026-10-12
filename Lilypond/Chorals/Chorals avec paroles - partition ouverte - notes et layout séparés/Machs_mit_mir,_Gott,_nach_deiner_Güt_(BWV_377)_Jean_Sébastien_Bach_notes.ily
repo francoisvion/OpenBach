@@ -50,50 +50,58 @@ bassMusic = {
   a,8 [g,] a,4 d,\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Mach's mit mir, Gott, nach dei -- ner Güt,
-   hilf mir in mei -- nem Lei -- den,
-   so nimm sie, Herr, in dei -- ne Händ,
-   ist Al -- les gut, wenn gut das End.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Mach's mit mir, Gott, nach dei -- ner Güt,
+  hilf mir in mei -- nem Lei -- den,
+  so nimm sie, Herr, in dei -- ne Händ,
+  ist Al -- les gut, wenn gut das End.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   was ich dich bitt', ver -- sag' mir nicht,
-   wenn mei -- ne Seel' will schei -- den:
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  was ich dich bitt', ver -- sag' mir nicht,
+  wenn mei -- ne Seel' will schei -- den:
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Mach's mit mir, Gott, nach dei -- ner Güt,
-   hilf mir in mei -- nem Lei -- _ den,
-   so nimm sie, Herr, in dei -- ne Händ,
-   ist Al -- les __ _ gut, wenn gut das End.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Mach's mit mir, Gott, nach dei -- ner Güt,
+  hilf mir in mei -- nem Lei -- _ den,
+  so nimm sie, Herr, in dei -- ne Händ,
+  ist Al -- les __ _ gut, wenn gut das End.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   was ich dich bitt', ver -- sag' mir nicht,
-   wenn mei -- ne Seel' will schei -- _ den:
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  was ich dich bitt', ver -- sag' mir nicht,
+  wenn mei -- ne Seel' will schei -- _ den:
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Mach's mit mir, Gott, nach dei -- ner Güt,
-   hilf mir in mei -- nem Lei -- _ den,
-   so nimm sie, Herr, in dei -- ne Händ,
-   ist Al -- les gut, wenn gut das End.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Mach's mit mir, Gott, nach dei -- ner Güt,
+  hilf mir in mei -- nem Lei -- _ den,
+  so nimm sie, Herr, in dei -- ne Händ,
+  ist Al -- les gut, wenn gut das End.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   was ich dich bitt', ver -- sag' mir nicht,
-   wenn mei -- ne Seel' will schei -- _ den:
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  was ich dich bitt', ver -- sag' mir nicht,
+  wenn mei -- ne Seel' will schei -- _ den:
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Mach's mit mir, Gott, nach dei -- ner Güt,
-   hilf mir in mei -- nem Lei -- _ den,
-   so nimm sie, Herr, in dei -- ne Händ,
-   ist Al -- les gut, wenn gut das End.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Mach's mit mir, Gott, nach dei -- ner Güt,
+  hilf mir in mei -- nem Lei -- _ den,
+  so nimm sie, Herr, in dei -- ne Händ,
+  ist Al -- les gut, wenn gut das End.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   was ich dich bitt', ver -- sag' mir nicht,
-   wenn mei -- ne Seel' will schei -- _ den:
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  was ich dich bitt', ver -- sag' mir nicht,
+  wenn mei -- ne Seel' will schei -- _ den:
 }

@@ -66,49 +66,24 @@ bassMusic = {
   d,2.\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Lo -- bet Gott, un -- sern Her -- ren,
-   in sei -- nem Hei -- lig -- thum,  
-   Lobt Ihn im Fir -- ma -- men -- te,
-   da sei -- ne groß' Ge -- walt
-   und sein stark Re -- gi -- men -- te
-   zu sehn ist man -- nig -- falt.
-}
-
-sopranoLyricsTwo = \lyricmode {\set stanza = 2    
-   zu Lo -- be sei -- nen Eh -- ren,
-   macht herr -- lich sei -- nen Ruhm.
-}
-
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Lo -- bet Gott, un -- sern Her -- ren,
-   in sei -- nem Hei -- lig -- thum,
-   Lobt Ihn im Fir -- ma -- men -- _ te,
-   da sei -- ne groß' Ge -- walt
-   und sein stark Re -- gi -- men -- _ te
-   zu sehn ist man -- nig -- falt.
-}
-
-altoLyricsTwo = \lyricmode {\set stanza = 2    
-  zu Lo -- be sei -- nen Eh -- ren,
-  macht herr -- lich sei -- nen Ruhm.
-}
-
-tenorLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
   Lo -- bet Gott, un -- sern Her -- ren,
-  in sei -- nem Hei -- lig -- thum,
+  in sei -- nem Hei -- lig -- thum,  
   Lobt Ihn im Fir -- ma -- men -- te,
   da sei -- ne groß' Ge -- walt
   und sein stark Re -- gi -- men -- te
   zu sehn ist man -- nig -- falt.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2    
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2    
   zu Lo -- be sei -- nen Eh -- ren,
   macht herr -- lich sei -- nen Ruhm.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   Lo -- bet Gott, un -- sern Her -- ren,
   in sei -- nem Hei -- lig -- thum,
   Lobt Ihn im Fir -- ma -- men -- _ te,
@@ -117,7 +92,40 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   zu sehn ist man -- nig -- falt.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2    
+  zu Lo -- be sei -- nen Eh -- ren,
+  macht herr -- lich sei -- nen Ruhm.
+}
+
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Lo -- bet Gott, un -- sern Her -- ren,
+  in sei -- nem Hei -- lig -- thum,
+  Lobt Ihn im Fir -- ma -- men -- te,
+  da sei -- ne groß' Ge -- walt
+  und sein stark Re -- gi -- men -- te
+  zu sehn ist man -- nig -- falt.
+}
+
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2    
+  zu Lo -- be sei -- nen Eh -- ren,
+  macht herr -- lich sei -- nen Ruhm.
+}
+
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Lo -- bet Gott, un -- sern Her -- ren,
+  in sei -- nem Hei -- lig -- thum,
+  Lobt Ihn im Fir -- ma -- men -- _ te,
+  da sei -- ne groß' Ge -- walt
+  und sein stark Re -- gi -- men -- _ te
+  zu sehn ist man -- nig -- falt.
+}
+
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   zu Lo -- be sei -- nen Eh -- ren,
   macht herr -- lich sei -- nen Ruhm.
 }

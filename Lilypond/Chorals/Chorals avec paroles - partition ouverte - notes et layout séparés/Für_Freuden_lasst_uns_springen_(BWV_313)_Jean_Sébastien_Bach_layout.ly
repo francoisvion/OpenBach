@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Für Freuden lasst uns springen"
- poet = "Auteur : Kaspar Peltsch"
+  title = "Für Freuden lasst uns springen"
+  poet = "Auteur : Kaspar Peltsch"
   opus = "BWV 313"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

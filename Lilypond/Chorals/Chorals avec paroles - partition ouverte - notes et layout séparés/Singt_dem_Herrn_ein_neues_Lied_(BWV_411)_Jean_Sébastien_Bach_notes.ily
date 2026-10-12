@@ -66,21 +66,24 @@ bassMusic = {
   c [a,] d4 g,2\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Singt dem Herrn ein neu -- es Lied:
-   die Ge -- mei -- ne soll ihn lo -- ben,
-   Is -- ra -- el er -- freu' sich des -- sen,
-   wel -- cher ihn ge -- ma -- chet hat.
-   und in Aeng -- sten schaf -- fet Rath:
-   Sei -- ner soll er nicht ver -- ges -- sen.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Singt dem Herrn ein neu -- es Lied:
+  die Ge -- mei -- ne soll ihn lo -- ben,
+  Is -- ra -- el er -- freu' sich des -- sen,
+  wel -- cher ihn ge -- ma -- chet hat.
+  und in Aeng -- sten schaf -- fet Rath:
+  Sei -- ner soll er nicht ver -- ges -- sen.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   weil er ih -- ren Gren -- zen Fried'
-   hat ver -- lie -- hen hoch von o -- ben.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  weil er ih -- ren Gren -- zen Fried'
+  hat ver -- lie -- hen hoch von o -- ben.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   Singt dem Herrn ein neu -- es Lied:
   die Ge -- mei -- ne soll ihn lo -- _ ben,
   Is -- ra -- el er -- freu' sich des -- _ sen,
@@ -89,12 +92,14 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   Sei -- ner soll er nicht ver -- ges -- _ sen.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   weil er ih -- ren Gren -- zen Fried'
   hat ver -- lie -- hen hoch von o -- _ ben.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   Singt dem Herrn ein neu -- es Lied:
   die Ge -- mei -- ne soll ihn lo -- _ ben,
   Is -- ra -- el er -- freu' sich des -- _ sen,
@@ -103,12 +108,14 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   Sei -- ner soll er nicht ver -- ges -- _ sen.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   weil er ih -- ren Gren -- zen Fried'
   hat ver -- lie -- hen hoch von o -- _ ben.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Singt dem Herrn ein neu -- es Lied:
   die Ge -- mei -- ne soll ihn lo -- _ ben,
   Is -- ra -- el er -- freu' sich des -- _ sen,
@@ -117,7 +124,8 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   Sei -- ner soll er __ _ nicht ver -- ges -- _ sen.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   weil er ih -- ren Gren -- zen Fried'
   hat ver -- lie -- hen hoch von o -- _ ben.
 }

@@ -28,14 +28,14 @@
 }
 
 \header {
- title = \markup{\concat{"Helft mir Gotts Güte preisen (I)" \small " (v. 6)"}}
- subtitle = "tiré de la cantate : Herr Gott, dich loben wir"
- poet = "Auteur : Paul Eber (1511-1569)"
+  title = \markup{\concat{"Helft mir Gotts Güte preisen (I)" \small " (v. 6)"}}
+  subtitle = "tiré de la cantate : Herr Gott, dich loben wir"
+  poet = "Auteur : Paul Eber (1511-1569)"
   opus = "BWV 16/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

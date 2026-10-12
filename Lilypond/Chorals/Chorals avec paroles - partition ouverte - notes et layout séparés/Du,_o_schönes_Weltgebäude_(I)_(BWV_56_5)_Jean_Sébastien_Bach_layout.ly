@@ -27,14 +27,14 @@
 }
 
 \header {
- title = \markup{\concat{"Du, o schönes Weltgebäude (I)" \small " (v. 6)"}}
- subtitle = "tiré de la cantate : Ich will den Kreuzstab gerne tragen"
- poet = "Auteur : Johann Franck (1618-1677)"
+  title = \markup{\concat{"Du, o schönes Weltgebäude (I)" \small " (v. 6)"}}
+  subtitle = "tiré de la cantate : Ich will den Kreuzstab gerne tragen"
+  poet = "Auteur : Johann Franck (1618-1677)"
   opus = "BWV 56/5"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

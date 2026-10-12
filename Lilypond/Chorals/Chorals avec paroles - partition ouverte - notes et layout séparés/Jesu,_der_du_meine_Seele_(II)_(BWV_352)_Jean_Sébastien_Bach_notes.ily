@@ -62,21 +62,24 @@ bassMusic = {
   e [d] e4 a,2\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Je -- su, der du mei -- ne See -- le
-   hast durch dei -- nen bit -- tern Tod
-   kräf -- tig -- lich her -- aus -- ge -- ris -- sen
-   und mich sol -- ches las -- sen wis -- sen
-   durch dein an -- ge -- neh -- mes Wort:
-   sei doch itzt, o Gott, mein Hort!
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Je -- su, der du mei -- ne See -- le
+  hast durch dei -- nen bit -- tern Tod
+  kräf -- tig -- lich her -- aus -- ge -- ris -- sen
+  und mich sol -- ches las -- sen wis -- sen
+  durch dein an -- ge -- neh -- mes Wort:
+  sei doch itzt, o Gott, mein Hort!
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   aus des Teu -- fels fin -- strer Höh -- le
-   und der schwe -- ren Sün -- der -- noth
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  aus des Teu -- fels fin -- strer Höh -- le
+  und der schwe -- ren Sün -- der -- noth
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   Je -- su, der du mei -- ne See -- le
   hast durch dei -- nen __ _ bit -- tern Tod
   kräf -- tig -- lich her -- aus -- ge -- ris -- sen
@@ -85,12 +88,14 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   sei doch itzt, o Gott, mein Hort!
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   aus des Teu -- fels fin -- strer Höh -- le
   und der schwe -- _ ren Sün -- der -- noth
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   Je -- su, der du mei -- ne See -- le
   hast durch dei -- nen bit -- tern Tod
   kräf -- tig -- lich her -- aus -- ge -- ris -- sen
@@ -99,12 +104,14 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   sei doch itzt, o Gott, mein Hort!
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   aus des Teu -- fels fin -- strer Höh -- le
   und der schwe -- ren Sün -- der -- noth
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Je -- su, der du mei -- ne See -- le
   hast durch dei -- nen bit -- tern Tod
   kräf -- tig -- lich her -- aus -- ge -- ris -- sen
@@ -113,7 +120,8 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   sei doch itzt, o Gott, mein Hort!
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   aus des Teu -- fels fin -- strer Höh -- le
   und der schwe -- ren Sün -- der -- noth
 }

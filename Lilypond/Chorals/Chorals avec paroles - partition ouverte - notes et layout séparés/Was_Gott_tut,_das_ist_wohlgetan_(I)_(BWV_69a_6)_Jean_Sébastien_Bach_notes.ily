@@ -62,46 +62,48 @@ bassMusic = {
   d2 g,4\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Was Gott thut, das ist wohl -- ge -- than,
-   dar -- bei will ich ver -- blei -- ben.      
-   so wird Gott mich
-   ganz vä -- ter -- lich
-   in sei -- nen Ar -- men hal -- ten.
-   Drum lass ich ihn nur wal -- ten.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Was Gott thut, das ist wohl -- ge -- than,
+  dar -- bei will ich ver -- blei -- ben.      
+  so wird Gott mich
+  ganz vä -- ter -- lich
+  in sei -- nen Ar -- men hal -- ten.
+  Drum lass ich ihn nur wal -- ten.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   Es mag mich auf die rau -- he Bahn
-   Not, Tod und E -- lend trei -- ben:
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Es mag mich auf die rau -- he Bahn
+  Not, Tod und E -- lend trei -- ben:
 }
 
 altoLyricsOne = \lyricmode {
-      \set stanza = 1
-   Was Gott thut, das ist wohl -- ge -- than, dar -- bei will ich ver -- blei -- ben. so wird Gott mich ganz vä -- ter -- lich in sei -- nen Ar -- men hal -- ten. Drum lass ich ihn nur wal -- ten.
-    }
+  \set stanza = 1
+  Was Gott thut, das ist wohl -- ge -- than, dar -- bei will ich ver -- blei -- ben. so wird Gott mich ganz vä -- ter -- lich in sei -- nen Ar -- men hal -- ten. Drum lass ich ihn nur wal -- ten.
+}
 
 altoLyricsTwo = \lyricmode {
-      \set stanza = 2
-   Es mag mich auf die rau -- he Bahn Not, Tod und E -- lend trei -- ben:
-    }
+  \set stanza = 2
+  Es mag mich auf die rau -- he Bahn Not, Tod und E -- lend trei -- ben:
+}
 
 tenorLyricsOne = \lyricmode {
-      \set stanza = 1
-   Was Gott thut, das ist wohl -- ge -- than, dar -- bei will ich ver -- blei - ben. so wird Gott mich ganz vä -- ter -- lich in sei -- nen Ar -- men hal - ten. Drum lass ich ihn nur wal - ten.
-    }
+  \set stanza = 1
+  Was Gott thut, das ist wohl -- ge -- than, dar -- bei will ich ver -- blei - ben. so wird Gott mich ganz vä -- ter -- lich in sei -- nen Ar -- men hal - ten. Drum lass ich ihn nur wal - ten.
+}
 
 tenorLyricsTwo = \lyricmode {
-      \set stanza = 2
-   Es mag mich auf die rau -- he Bahn Not, Tod und E -- lend trei - ben:
-    }
+  \set stanza = 2
+  Es mag mich auf die rau -- he Bahn Not, Tod und E -- lend trei - ben:
+}
 
 bassLyricsOne = \lyricmode {
-      \set stanza = 1
-   Was Gott thut, das ist wohl -- ge -- than, dar -- bei will ich ver -- blei -- ben. so wird Gott mich ganz vä -- ter -- lich in sei -- nen Ar -- men hal -- ten. Drum lass ich ihn nur wal -- ten.
-    }
+  \set stanza = 1
+  Was Gott thut, das ist wohl -- ge -- than, dar -- bei will ich ver -- blei -- ben. so wird Gott mich ganz vä -- ter -- lich in sei -- nen Ar -- men hal -- ten. Drum lass ich ihn nur wal -- ten.
+}
 
 bassLyricsTwo = \lyricmode {
-      \set stanza = 2
-   Es mag mich auf die rau -- he Bahn Not, Tod und E -- lend trei -- ben:
-    }
+  \set stanza = 2
+  Es mag mich auf die rau -- he Bahn Not, Tod und E -- lend trei -- ben:
+}

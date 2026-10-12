@@ -86,62 +86,70 @@ bassMusic = {
   fis,2.\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Es woll' uns Gott ge -- nä -- _ _ dig sein
-   und sei -- nen Se -- gen ge -- _ _ _ ben;
-   dass wir er -- ken -- nen sei -- ne Werk;
-   und, was ihn liebt, auf Er -- _ den,
-   und Je -- sus Chris -- tus Heil und Stärk
-   be -- kannt den Hei -- den wer -- _ den
-   und sie zu Gott be -- keh -- _ ren.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Es woll' uns Gott ge -- nä -- _ _ dig sein
+  und sei -- nen Se -- gen ge -- _ _ _ ben;
+  dass wir er -- ken -- nen sei -- ne Werk;
+  und, was ihn liebt, auf Er -- _ den,
+  und Je -- sus Chris -- tus Heil und Stärk
+  be -- kannt den Hei -- den wer -- _ den
+  und sie zu Gott be -- keh -- _ ren.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   sein Ant -- litz uns mit hel -- _ _ lem Schein,
-   er -- leucht zum ew -- gen Le -- _ _ _ ben,
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  sein Ant -- litz uns mit hel -- _ _ lem Schein,
+  er -- leucht zum ew -- gen Le -- _ _ _ ben,
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Es woll' uns Gott ge -- nä -- _ _ dig sein
-   und sei -- nen Se -- gen ge -- _ _ _ ben;
-   dass wir er -- ken -- nen sei -- ne Werk;
-   und, was ihn liebt, auf Er -- _ den,
-   und Je -- sus Chris -- tus Heil und Stärk
-   be -- kannt den Hei -- den wer -- _ den
-   und sie zu Gott be -- keh -- _ _ ren.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Es woll' uns Gott ge -- nä -- _ _ dig sein
+  und sei -- nen Se -- gen ge -- _ _ _ ben;
+  dass wir er -- ken -- nen sei -- ne Werk;
+  und, was ihn liebt, auf Er -- _ den,
+  und Je -- sus Chris -- tus Heil und Stärk
+  be -- kannt den Hei -- den wer -- _ den
+  und sie zu Gott be -- keh -- _ _ ren.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   sein Ant -- litz uns mit hel -- _ _ lem Schein,
-   er -- leucht zum ew -- gen Le -- _ _ _ ben,
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  sein Ant -- litz uns mit hel -- _ _ lem Schein,
+  er -- leucht zum ew -- gen Le -- _ _ _ ben,
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Es woll' uns Gott ge -- nä -- _ _ dig sein
-   und sei -- nen Se -- gen ge -- _ _ _ ben;
-   dass wir er -- ken -- nen sei -- ne Werk;
-   und, was ihn liebt, auf Er -- _ den,
-   und Je -- sus Chris -- tus Heil und Stärk
-   be -- kannt den Hei -- den wer -- _ den
-   und sie zu Gott be -- keh -- _ _ _ _ ren.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Es woll' uns Gott ge -- nä -- _ _ dig sein
+  und sei -- nen Se -- gen ge -- _ _ _ ben;
+  dass wir er -- ken -- nen sei -- ne Werk;
+  und, was ihn liebt, auf Er -- _ den,
+  und Je -- sus Chris -- tus Heil und Stärk
+  be -- kannt den Hei -- den wer -- _ den
+  und sie zu Gott be -- keh -- _ _ _ _ ren.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   sein Ant -- litz uns mit hel -- _ _ lem Schein,
-   er -- leucht zum ew -- gen Le -- _ _ _ ben,
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  sein Ant -- litz uns mit hel -- _ _ lem Schein,
+  er -- leucht zum ew -- gen Le -- _ _ _ ben,
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Es woll' uns Gott ge -- nä -- _ _ dig sein
-   und sei -- nen Se -- gen ge -- _ _ _ ben;
-   dass wir er -- ken -- nen sei -- ne Werk;
-   und, was ihn liebt, auf Er -- _ den,
-   und Je -- sus Chris -- tus Heil und Stärk
-   be -- kannt den Hei -- den wer -- _ den
-   und sie zu Gott be -- keh -- _ _ _ ren.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Es woll' uns Gott ge -- nä -- _ _ dig sein
+  und sei -- nen Se -- gen ge -- _ _ _ ben;
+  dass wir er -- ken -- nen sei -- ne Werk;
+  und, was ihn liebt, auf Er -- _ den,
+  und Je -- sus Chris -- tus Heil und Stärk
+  be -- kannt den Hei -- den wer -- _ den
+  und sie zu Gott be -- keh -- _ _ _ ren.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   sein Ant -- litz uns mit hel -- _ _ lem Schein,
-   er -- leucht zum ew -- gen Le -- _ _ _ ben,
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  sein Ant -- litz uns mit hel -- _ _ lem Schein,
+  er -- leucht zum ew -- gen Le -- _ _ _ ben,
 }

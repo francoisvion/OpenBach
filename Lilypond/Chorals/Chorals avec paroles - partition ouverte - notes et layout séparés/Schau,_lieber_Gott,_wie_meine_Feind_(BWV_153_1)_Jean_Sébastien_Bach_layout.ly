@@ -28,13 +28,13 @@
 }
 
 \header {
- title = \markup{\concat{"Schau, lieber Gott, wie meine Feind" \small " (v. 1)"}}
- poet = "Auteur : David Denicke (1603-1680)"
+  title = \markup{\concat{"Schau, lieber Gott, wie meine Feind" \small " (v. 1)"}}
+  poet = "Auteur : David Denicke (1603-1680)"
   opus = "BWV 153/1"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

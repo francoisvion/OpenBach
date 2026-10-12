@@ -27,14 +27,14 @@
 }
 
 \header {
- title = \markup{\concat{"Ich hab in Gottes Herz und Sinn" \small " (v. 10)"}}
- subtitle = "tiré de la cantate : Sie werden aus Saba alle kommen"
- poet = "Auteur : Paul Gerhardt (1607-1676)"
+  title = \markup{\concat{"Ich hab in Gottes Herz und Sinn" \small " (v. 10)"}}
+  subtitle = "tiré de la cantate : Sie werden aus Saba alle kommen"
+  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 65/7"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

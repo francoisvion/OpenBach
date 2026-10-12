@@ -78,49 +78,51 @@ bassMusic = {
   b,1.\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-    Drum fahrt nur im -- mer hin,
-    ihr Ei -- tel -- _ kei -- ten,
-    du, Je -- su, du bist mein,
-    und __ _ ich bin dein;
-    Mein gan -- zes Le -- ben
-    sei dir er -- ge -- ben,
-    bis man mich ein -- sten legt ins __ _ Grab hin -- ein.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Drum fahrt nur im -- mer hin,
+  ihr Ei -- tel -- _ kei -- ten,
+  du, Je -- su, du bist mein,
+  und __ _ ich bin dein;
+  Mein gan -- zes Le -- ben
+  sei dir er -- ge -- ben,
+  bis man mich ein -- sten legt ins __ _ Grab hin -- ein.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-    ich will mich von der Welt
-    zu dir be -- _ rei -- ten;
-    du sollst in mei -- nem Herz
-    und __ _ Mun -- de sein.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  ich will mich von der Welt
+  zu dir be -- _ rei -- ten;
+  du sollst in mei -- nem Herz
+  und __ _ Mun -- de sein.
 }
 
 altoLyricsOne = \lyricmode {
-      \set stanza = 1
-    Drum fahrt nur _ im -- mer hin, ihr Ei -- tel -- _ kei -- ten, du, Je -- su, du bist mein, und __ ich _ _ bin dein; Mein gan -- zes Le -- ben sei dir er -- ge -- ben, bis man mich ein -- sten legt ins __ Grab hin -- ein.
-    }
+  \set stanza = 1
+  Drum fahrt nur _ im -- mer hin, ihr Ei -- tel -- _ kei -- ten, du, Je -- su, du bist mein, und __ ich _ _ bin dein; Mein gan -- zes Le -- ben sei dir er -- ge -- ben, bis man mich ein -- sten legt ins __ Grab hin -- ein.
+}
 
 altoLyricsTwo = \lyricmode {
-      \set stanza = 2
-    ich will mich _ von der Welt zu dir be -- _ rei -- ten; du sollst in mei -- nem Herz und __ Mun -- _ _ de sein.
-    }
+  \set stanza = 2
+  ich will mich _ von der Welt zu dir be -- _ rei -- ten; du sollst in mei -- nem Herz und __ Mun -- _ _ de sein.
+}
 
 tenorLyricsOne = \lyricmode {
-      \set stanza = 1
-    Drum fahrt nur _ im -- mer hin, ihr Ei -- _ tel kei -- _ ten, du, Je -- su, du _ bist mein, und __ ich bin dein; Mein gan -- zes Le -- ben sei dir er -- ge -- ben, bis man mich ein -- sten legt ins __ _ Grab hin -- ein.
-    }
+  \set stanza = 1
+  Drum fahrt nur _ im -- mer hin, ihr Ei -- _ tel kei -- _ ten, du, Je -- su, du _ bist mein, und __ ich bin dein; Mein gan -- zes Le -- ben sei dir er -- ge -- ben, bis man mich ein -- sten legt ins __ _ Grab hin -- ein.
+}
 
 tenorLyricsTwo = \lyricmode {
-      \set stanza = 2
-    ich will mich _ von der Welt zu dir _ be rei -- _ ten; du sollst in mei -- _ nem Herz und __ Mun -- de sein.
-    }
+  \set stanza = 2
+  ich will mich _ von der Welt zu dir _ be rei -- _ ten; du sollst in mei -- _ nem Herz und __ Mun -- de sein.
+}
 
 bassLyricsOne = \lyricmode {
-      \set stanza = 1
-    Drum fahrt _ nur _ im -- mer hin, ihr Ei -- tel -- _ kei -- ten, du, Je -- su, du bist mein, und __ ich bin dein; Mein gan -- zes Le -- ben sei dir er -- ge -- ben, bis man mich ein -- sten legt ins __ Grab hin -- ein.
-    }
+  \set stanza = 1
+  Drum fahrt _ nur _ im -- mer hin, ihr Ei -- tel -- _ kei -- ten, du, Je -- su, du bist mein, und __ ich bin dein; Mein gan -- zes Le -- ben sei dir er -- ge -- ben, bis man mich ein -- sten legt ins __ Grab hin -- ein.
+}
 
 bassLyricsTwo = \lyricmode {
-      \set stanza = 2
-    ich will _ mich _ von der Welt zu dir be -- _ rei -- ten; du sollst in mei -- nem Herz und __ Mun -- de sein.
-    }
+  \set stanza = 2
+  ich will _ mich _ von der Welt zu dir be -- _ rei -- ten; du sollst in mei -- nem Herz und __ Mun -- de sein.
+}

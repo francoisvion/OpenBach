@@ -27,13 +27,13 @@
 }
 
 \header {
- title = "Herr Jesu Christ, meins Lebens Licht"
- poet = "Auteur : Martin Behm (1557-1622)"
+  title = "Herr Jesu Christ, meins Lebens Licht"
+  poet = "Auteur : Martin Behm (1557-1622)"
   opus = "BWV 335"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

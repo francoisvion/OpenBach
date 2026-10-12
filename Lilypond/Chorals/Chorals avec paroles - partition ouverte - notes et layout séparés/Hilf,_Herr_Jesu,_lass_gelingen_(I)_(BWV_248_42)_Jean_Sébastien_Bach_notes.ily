@@ -1,7 +1,7 @@
 sopranoMusic = {
   \tempo \markup{\tiny \italic "Interludes instrumentaux absents"}
   \repeat volta 2 {
-  \once \textLengthOn s2.^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} }  \bar "'"
+    \once \textLengthOn s2.^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} }  \bar "'"
     c''4 a'2
     g' f'4
     bes' c''4. d''16 [ees'']
@@ -103,50 +103,58 @@ bassMusic = {
   f,2 r4 s2. \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Je -- sus rich -- te mein Be -- _ gin -- nen,
-   Je -- sus blei -- be stets bei mir,
-   Je -- sus sei mir in Ge -- _ dan -- ken,
-   Je -- _ su, las -- _ se mich __ _ nicht wan -- ken!
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Je -- sus rich -- te mein Be -- _ gin -- nen,
+  Je -- sus blei -- be stets bei mir,
+  Je -- sus sei mir in Ge -- _ dan -- ken,
+  Je -- _ su, las -- _ se mich __ _ nicht wan -- ken!
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   Je -- sus zäu -- me mir die _ Sin -- nen,
-   Je -- sus sei nur mein Be -- gier,
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Je -- sus zäu -- me mir die _ Sin -- nen,
+  Je -- sus sei nur mein Be -- gier,
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Je -- sus rich -- _ te mein Be -- _ gin -- nen,
-   Je -- sus blei -- _ be stets bei __ _ mir,
-   Je -- sus __ _ sei __ _ mir in Ge -- _ dan -- _ _ ken,
-   Je -- _ su, las -- _ se mich __ _ nicht wan -- _ _ ken!
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Je -- sus rich -- _ te mein Be -- _ gin -- nen,
+  Je -- sus blei -- _ be stets bei __ _ mir,
+  Je -- sus __ _ sei __ _ mir in Ge -- _ dan -- _ _ ken,
+  Je -- _ su, las -- _ se mich __ _ nicht wan -- _ _ ken!
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   Je -- sus zäu -- _ me mir die _ Sin -- nen,
-   Je -- sus sei __ _ nur mein Be -- _ gier,
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Je -- sus zäu -- _ me mir die _ Sin -- nen,
+  Je -- sus sei __ _ nur mein Be -- _ gier,
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Je -- sus rich -- _ te mein Be gin -- _ _ nen,
-   Je -- sus blei -- _ be stets bei mir,
-   Je -- sus sei mir __ in Ge -- dan -- _ _ ken,
-   Je -- _ su, las -- se mich nicht wan -- _ _ ken!
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Je -- sus rich -- _ te mein Be gin -- _ _ nen,
+  Je -- sus blei -- _ be stets bei mir,
+  Je -- sus sei mir __ in Ge -- dan -- _ _ ken,
+  Je -- _ su, las -- se mich nicht wan -- _ _ ken!
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   Je -- sus zäu -- _ me mir die Sin -- _ _ nen,
-   Je -- sus sei __ _ nur mein Be -- gier,
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Je -- sus zäu -- _ me mir die Sin -- _ _ nen,
+  Je -- sus sei __ _ nur mein Be -- gier,
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Je -- sus _ rich -- te mein Be -- _ gin -- _ _ nen,
-   Je -- sus _ blei -- _ be stets bei __ _ mir,
-   Je -- sus _ sei __ _ mir in Ge -- _ dan -- _ _ ken,
-   Je -- _ su, las -- _ se mich nicht wan -- _ ken!
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Je -- sus _ rich -- te mein Be -- _ gin -- _ _ nen,
+  Je -- sus _ blei -- _ be stets bei __ _ mir,
+  Je -- sus _ sei __ _ mir in Ge -- _ dan -- _ _ ken,
+  Je -- _ su, las -- _ se mich nicht wan -- _ ken!
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   Je -- sus _ zäu -- me mir die _ Sin -- _ _ nen,
-   Je -- sus _ sei __ _ nur mein Be -- _ gier,
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Je -- sus _ zäu -- me mir die _ Sin -- _ _ nen,
+  Je -- sus _ sei __ _ nur mein Be -- _ gier,
 }

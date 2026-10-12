@@ -66,61 +66,70 @@ bassMusic = {
   g,2 c\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Ich will al -- le mei -- ne Ta -- ge
-   Rüh -- men dei -- ne star -- ke Hand,
-   Nicht nur in der Sterb -- lich -- keit
-   soll dein Ruhm sein aus -- ge -- breit:
-   ich wills auch her -- nach er -- wei -- sen
-   und dort e -- wi -- glich dich prei -- sen.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ich will al -- le mei -- ne Ta -- ge
+  Rüh -- men dei -- ne star -- ke Hand,
+  Nicht nur in der Sterb -- lich -- keit
+  soll dein Ruhm sein aus -- ge -- breit:
+  ich wills auch her -- nach er -- wei -- sen
+  und dort e -- wi -- glich dich prei -- sen.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   dass du mei -- ne Plag und Kla -- ge
-   hast so herz -- lich ab -- ge -- wandt.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dass du mei -- ne Plag und Kla -- ge
+  hast so herz -- lich ab -- ge -- wandt.
 }
 
-sopranoVersoTwoLyrics = \lyricmode {\set stanza = 2
+sopranoVersoTwoLyrics = \lyricmode {
+  \set stanza = 2
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Ich will al -- le mei -- ne Ta -- ge
-   Rüh -- men dei -- ne star -- ke Hand,
-   Nicht nur in der Sterb -- lich -- keit
-   soll dein Ruhm sein aus -- ge -- breit:
-   ich wills auch her -- nach er -- wei -- _ sen
-   und dort e -- wi -- glich dich prei -- sen.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ich will al -- le mei -- ne Ta -- ge
+  Rüh -- men dei -- ne star -- ke Hand,
+  Nicht nur in der Sterb -- lich -- keit
+  soll dein Ruhm sein aus -- ge -- breit:
+  ich wills auch her -- nach er -- wei -- _ sen
+  und dort e -- wi -- glich dich prei -- sen.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   dass du mei -- ne Plag und Kla -- ge
-   hast so herz -- lich ab -- ge -- wandt.
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dass du mei -- ne Plag und Kla -- ge
+  hast so herz -- lich ab -- ge -- wandt.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Ich will al -- le mei -- ne Ta -- ge
-   Rüh -- men dei -- ne star -- ke Hand,
-   Nicht nur in der Sterb -- lich -- keit
-   soll dein Ruhm sein aus -- ge -- breit:
-   ich wills auch her -- nach er -- wei -- sen
-   und dort e -- wi -- glich dich prei -- _ sen.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ich will al -- le mei -- ne Ta -- ge
+  Rüh -- men dei -- ne star -- ke Hand,
+  Nicht nur in der Sterb -- lich -- keit
+  soll dein Ruhm sein aus -- ge -- breit:
+  ich wills auch her -- nach er -- wei -- sen
+  und dort e -- wi -- glich dich prei -- _ sen.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   dass du mei -- ne Plag und Kla -- ge
-   hast so herz -- lich ab -- ge -- wandt.
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dass du mei -- ne Plag und Kla -- ge
+  hast so herz -- lich ab -- ge -- wandt.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Ich will al -- le mei -- ne Ta -- ge
-   Rüh -- men dei -- ne star -- ke Hand,
-   Nicht nur in der Sterb -- lich -- keit
-   soll dein Ruhm sein aus -- ge -- breit:
-   ich wills auch her -- nach er -- wei -- _ sen
-   und dort e -- wi -- glich dich prei -- sen.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ich will al -- le mei -- ne Ta -- ge
+  Rüh -- men dei -- ne star -- ke Hand,
+  Nicht nur in der Sterb -- lich -- keit
+  soll dein Ruhm sein aus -- ge -- breit:
+  ich wills auch her -- nach er -- wei -- _ sen
+  und dort e -- wi -- glich dich prei -- sen.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   dass du mei -- ne Plag und Kla -- ge
-   hast so herz -- lich ab -- ge -- wandt.
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dass du mei -- ne Plag und Kla -- ge
+  hast so herz -- lich ab -- ge -- wandt.
 }

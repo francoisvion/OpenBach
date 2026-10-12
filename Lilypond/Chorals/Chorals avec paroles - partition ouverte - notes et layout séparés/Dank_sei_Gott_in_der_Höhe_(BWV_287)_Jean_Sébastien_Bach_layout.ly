@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Dank sei Gott in der Höhe"
- poet = "Auteur : Johannes Mühlmann (1573-1613)"
+  title = "Dank sei Gott in der Höhe"
+  poet = "Auteur : Johannes Mühlmann (1573-1613)"
   opus = "BWV 287"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

@@ -29,13 +29,13 @@
 \header {
   title = \markup{\concat{"Es woll uns Gott genädig sein (I)" \small " (v. 3)"}}
   subtitle = "tiré de la cantate : Lobe den Herrn, meine Seele"
- poet = "Auteur : Martin Luther (1483-1546)"
+  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 69/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f   
   copyright = "© 2026 — OpenBach"
-  } 
- 
+} 
+
 \score {
   \new ChoirStaff <<
     \new Staff \with { \autoBeamOff instrumentName = "S" }
@@ -76,7 +76,7 @@
     \new Lyrics \lyricsto "bass" \bassLyricsTwo
   >>
 } 
- 
+
 \layout {
   \context {
     \Score

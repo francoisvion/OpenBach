@@ -70,106 +70,122 @@ bassMusic = {
     e4 e, a,2\fermata }
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   \tweak X-offset #-5 "1. Herr," wie du willst, so schick's mit mir
-   im Le -- ben wie im Ster -- ben,     
-   Er -- halt' mich nur in dei -- ner Huld,
-   sonst wie du willst, gieb mir Ge -- duld,
-   dein Will', der ist __ _ der __ _ bes -- te.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-5 "1. Herr," wie du willst, so schick's mit mir
+  im Le -- ben wie im Ster -- ben,     
+  Er -- halt' mich nur in dei -- ner Huld,
+  sonst wie du willst, gieb mir Ge -- duld,
+  dein Will', der ist __ _ der __ _ bes -- te.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   Al -- lein zu dir steht mein Be -- gier,
-   lass mich, Herr, nicht ver -- der -- ben.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Al -- lein zu dir steht mein Be -- gier,
+  lass mich, Herr, nicht ver -- der -- ben.
 }
 
-sopranoLyricsThree = \lyricmode {\set stanza = 3
-   \tweak X-offset #-5 "2. Wer" in dem Schutz des Höch -- sten ist,
-   und sich Gott thut er -- ge -- ben,      
-   der du ja wirst er -- ret -- ten mich
-   von Teu -- fels Stri -- cken gnä -- dig -- lich
-   und von der Pe -- _ sti -- _ len -- ze.
+sopranoLyricsThree = \lyricmode {
+  \set stanza = 3
+  \tweak X-offset #-5 "2. Wer" in dem Schutz des Höch -- sten ist,
+  und sich Gott thut er -- ge -- ben,      
+  der du ja wirst er -- ret -- ten mich
+  von Teu -- fels Stri -- cken gnä -- dig -- lich
+  und von der Pe -- _ sti -- _ len -- ze.
 }
 
-sopranoLyricsFour = \lyricmode {\set stanza = 4
-   der spricht: du, Herr, mein' Zu -- flucht bist,
-   mein Gott, Hoff -- nung und Le -- ben,
+sopranoLyricsFour = \lyricmode {
+  \set stanza = 4
+  der spricht: du, Herr, mein' Zu -- flucht bist,
+  mein Gott, Hoff -- nung und Le -- ben,
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   \tweak X-offset #-5 "1. Herr," wie du willst, so schick's mit mir
-   im Le -- ben wie im Ster -- _ ben,
-   Er -- halt' mich nur in dei -- ner Huld,
-   sonst wie __ _ du willst, gieb mir Ge -- duld, __ _
-   dein Will', der ist __ _ der __ _ bes -- _ te.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-5 "1. Herr," wie du willst, so schick's mit mir
+  im Le -- ben wie im Ster -- _ ben,
+  Er -- halt' mich nur in dei -- ner Huld,
+  sonst wie __ _ du willst, gieb mir Ge -- duld, __ _
+  dein Will', der ist __ _ der __ _ bes -- _ te.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   Al -- lein zu dir steht mein Be -- gier,
-   lass mich, Herr, nicht ver -- der -- _ ben.
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Al -- lein zu dir steht mein Be -- gier,
+  lass mich, Herr, nicht ver -- der -- _ ben.
 }
 
-altoLyricsThree = \lyricmode {\set stanza = 3
-   \tweak X-offset #-5 "2. Wer" in dem Schutz des Höch -- sten ist,
-   und sich Gott thut er -- ge -- _ ben,      
-   der du ja wirst er -- ret -- ten mich
-   von Teu -- fels __ _ Stri -- cken gnä -- dig -- lich __ _ 
-   und von der Pe -- _ sti -- _ len -- _ ze.
+altoLyricsThree = \lyricmode {
+  \set stanza = 3
+  \tweak X-offset #-5 "2. Wer" in dem Schutz des Höch -- sten ist,
+  und sich Gott thut er -- ge -- _ ben,      
+  der du ja wirst er -- ret -- ten mich
+  von Teu -- fels __ _ Stri -- cken gnä -- dig -- lich __ _ 
+  und von der Pe -- _ sti -- _ len -- _ ze.
 }
 
-altoLyricsFour = \lyricmode {\set stanza = 4
-   der spricht: du, Herr, mein' Zu -- flucht bist,
-   mein Gott, Hoff -- nung und Le -- _ ben,
+altoLyricsFour = \lyricmode {
+  \set stanza = 4
+  der spricht: du, Herr, mein' Zu -- flucht bist,
+  mein Gott, Hoff -- nung und Le -- _ ben,
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   \tweak X-offset #-5 "1. Herr," wie du willst, so schick's mit mir
-   im Le -- ben wie im Ster -- _ ben,
-   Er -- halt' mich nur in dei -- ner Huld,
-   sonst wie du willst, gieb mir Ge -- duld,
-   dein Will', der ist __ _ der __ _ bes -- te.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-5 "1. Herr," wie du willst, so schick's mit mir
+  im Le -- ben wie im Ster -- _ ben,
+  Er -- halt' mich nur in dei -- ner Huld,
+  sonst wie du willst, gieb mir Ge -- duld,
+  dein Will', der ist __ _ der __ _ bes -- te.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   Al -- lein zu dir steht mein Be -- gier,
-   lass mich, Herr, nicht ver -- der -- _ ben.
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Al -- lein zu dir steht mein Be -- gier,
+  lass mich, Herr, nicht ver -- der -- _ ben.
 }
 
-tenorLyricsThree = \lyricmode {\set stanza = 3
-   \tweak X-offset #-5 "2. Wer" in dem Schutz des Höch -- sten ist,
-   und sich Gott thut er -- ge -- _ ben,      
-   der du ja wirst er -- ret -- ten mich
-   von Teu -- fels Stri -- cken gnä -- dig -- lich
-   und von der Pe -- _ sti -- _ len -- ze.
+tenorLyricsThree = \lyricmode {
+  \set stanza = 3
+  \tweak X-offset #-5 "2. Wer" in dem Schutz des Höch -- sten ist,
+  und sich Gott thut er -- ge -- _ ben,      
+  der du ja wirst er -- ret -- ten mich
+  von Teu -- fels Stri -- cken gnä -- dig -- lich
+  und von der Pe -- _ sti -- _ len -- ze.
 }
 
-tenorLyricsFour = \lyricmode {\set stanza = 4
-   der spricht: du, Herr, mein' Zu -- flucht bist,
-   mein Gott, Hoff -- nung und Le -- _ ben,
+tenorLyricsFour = \lyricmode {
+  \set stanza = 4
+  der spricht: du, Herr, mein' Zu -- flucht bist,
+  mein Gott, Hoff -- nung und Le -- _ ben,
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   \tweak X-offset #-5 "1. Herr," wie du willst, so schick's mit mir
-   im Le -- ben wie im Ster -- ben,
-   Er -- halt' mich nur in dei -- ner Huld,
-   sonst wie du willst, gieb mir Ge -- duld,
-   dein Will', der ist __ _ der __ _ bes -- _ te.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-5 "1. Herr," wie du willst, so schick's mit mir
+  im Le -- ben wie im Ster -- ben,
+  Er -- halt' mich nur in dei -- ner Huld,
+  sonst wie du willst, gieb mir Ge -- duld,
+  dein Will', der ist __ _ der __ _ bes -- _ te.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   Al -- lein zu dir steht mein Be -- gier,
-   lass mich, Herr, nicht ver -- der -- ben.
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Al -- lein zu dir steht mein Be -- gier,
+  lass mich, Herr, nicht ver -- der -- ben.
 }
 
-bassLyricsThree = \lyricmode {\set stanza = 3
-   \tweak X-offset #-5 "2. Wer" in dem Schutz des Höch -- sten ist,
-   und sich Gott thut er -- ge -- ben,      
-   der du ja wirst er -- ret -- ten mich
-   von Teu -- fels Stri -- cken gnä -- dig -- lich
-   und von der Pe -- _ sti -- _ len -- _ ze.
+bassLyricsThree = \lyricmode {
+  \set stanza = 3
+  \tweak X-offset #-5 "2. Wer" in dem Schutz des Höch -- sten ist,
+  und sich Gott thut er -- ge -- ben,      
+  der du ja wirst er -- ret -- ten mich
+  von Teu -- fels Stri -- cken gnä -- dig -- lich
+  und von der Pe -- _ sti -- _ len -- _ ze.
 }
 
-bassLyricsFour = \lyricmode {\set stanza = 4
-   der spricht: du, Herr, mein' Zu -- flucht bist,
-   mein Gott, Hoff -- nung und Le -- ben,
+bassLyricsFour = \lyricmode {
+  \set stanza = 4
+  der spricht: du, Herr, mein' Zu -- flucht bist,
+  mein Gott, Hoff -- nung und Le -- ben,
 }

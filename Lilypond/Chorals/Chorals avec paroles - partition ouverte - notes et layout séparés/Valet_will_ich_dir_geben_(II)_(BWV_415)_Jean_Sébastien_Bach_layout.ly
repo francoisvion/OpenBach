@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Valet will ich dir geben (II)"
- poet = "Auteur : Valerius Herberger (1562-1627)"
+  title = "Valet will ich dir geben (II)"
+  poet = "Auteur : Valerius Herberger (1562-1627)"
   opus = "BWV 415"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

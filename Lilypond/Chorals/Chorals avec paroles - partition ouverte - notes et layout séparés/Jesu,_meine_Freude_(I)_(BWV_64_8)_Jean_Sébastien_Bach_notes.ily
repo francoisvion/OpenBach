@@ -66,62 +66,70 @@ bassMusic = {
   e,1\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Gu -- te Nacht, o We -- sen,
-   das die Welt er -- le -- sen!
-   Mir ge -- fällst du nicht.
-   Gu -- te Nacht, du Stolz und Pracht!
-   Dir sei ganz, o La -- ster -- le -- ben,
-   gu -- te Nacht ge -- ge -- ben!
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Gu -- te Nacht, o We -- sen,
+  das die Welt er -- le -- sen!
+  Mir ge -- fällst du nicht.
+  Gu -- te Nacht, du Stolz und Pracht!
+  Dir sei ganz, o La -- ster -- le -- ben,
+  gu -- te Nacht ge -- ge -- ben!
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   \repeat unfold 3 {\skip1} ihr Sün -- den,
-   blei -- bet weit da -- hin -- ten,
-   kommt nicht mehr ans Licht!
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  \repeat unfold 3 {\skip1} ihr Sün -- den,
+  blei -- bet weit da -- hin -- ten,
+  kommt nicht mehr ans Licht!
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Gu -- te Nacht, o We -- _ sen,
-   das die Welt er -- le -- _ sen!
-   Mir ge -- fällst du nicht.
-   Gu -- te Nacht, du Stolz und Pracht!
-   Dir sei ganz, o La -- ster -- le -- _ ben,
-   gu -- te Nacht ge -- ge -- _ ben!
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Gu -- te Nacht, o We -- _ sen,
+  das die Welt er -- le -- _ sen!
+  Mir ge -- fällst du nicht.
+  Gu -- te Nacht, du Stolz und Pracht!
+  Dir sei ganz, o La -- ster -- le -- _ ben,
+  gu -- te Nacht ge -- ge -- _ ben!
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   \repeat unfold 3 {\skip1} ihr Sün -- _ den,
-   blei -- bet weit da -- hin -- _ ten,
-   kommt nicht mehr ans Licht!
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  \repeat unfold 3 {\skip1} ihr Sün -- _ den,
+  blei -- bet weit da -- hin -- _ ten,
+  kommt nicht mehr ans Licht!
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Gu -- te Nacht, o We -- _ sen,
-   das die Welt er -- le -- _ sen!
-   Mir ge -- fällst du nicht.
-   Gu -- te Nacht, du Stolz und Pracht!
-   Dir sei ganz, o La -- ster -- le -- _ ben,
-   gu -- te Nacht ge -- ge -- _ ben!
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Gu -- te Nacht, o We -- _ sen,
+  das die Welt er -- le -- _ sen!
+  Mir ge -- fällst du nicht.
+  Gu -- te Nacht, du Stolz und Pracht!
+  Dir sei ganz, o La -- ster -- le -- _ ben,
+  gu -- te Nacht ge -- ge -- _ ben!
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   \repeat unfold 3 {\skip1} ihr Sün -- _ den,
-   blei -- bet weit da -- hin -- _ ten,
-   kommt nicht mehr ans Licht!
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  \repeat unfold 3 {\skip1} ihr Sün -- _ den,
+  blei -- bet weit da -- hin -- _ ten,
+  kommt nicht mehr ans Licht!
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Gu -- te Nacht, o We -- _ sen,
-   das die Welt er -- le -- _ sen!
-   Mir ge -- fällst du nicht.
-   Gu -- te Nacht, du Stolz und Pracht!
-   Dir sei ganz, o La -- ster -- le -- ben,
-   gu -- te Nacht ge -- ge -- _ ben!
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Gu -- te Nacht, o We -- _ sen,
+  das die Welt er -- le -- _ sen!
+  Mir ge -- fällst du nicht.
+  Gu -- te Nacht, du Stolz und Pracht!
+  Dir sei ganz, o La -- ster -- le -- ben,
+  gu -- te Nacht ge -- ge -- _ ben!
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-    \repeat unfold 3 {\skip1} ihr Sün -- _ den,
-    blei -- bet weit da -- hin -- _ ten,
-    kommt nicht mehr ans Licht!
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  \repeat unfold 3 {\skip1} ihr Sün -- _ den,
+  blei -- bet weit da -- hin -- _ ten,
+  kommt nicht mehr ans Licht!
 }

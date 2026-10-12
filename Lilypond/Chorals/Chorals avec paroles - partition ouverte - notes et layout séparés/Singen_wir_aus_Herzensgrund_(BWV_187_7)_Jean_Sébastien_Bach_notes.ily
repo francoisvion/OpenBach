@@ -122,27 +122,30 @@ bassMusic = {
   g,2.\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   \tweak X-offset #-4 "4. Gott" hat die Er -- de zu -- ge -- _ richt',
-   lässts an __ _ Nah -- rung man -- geln nicht;
-   Berg und Tal, die macht er nass,
-   dass __ _ dem Vieh auch wächst sein Gras;
-   aus der Er -- _ den Wein __ _ und Brot
-   schaf -- fet Gott __ _ und gibts __ _ uns satt,
-   dass der __ _ Mensch sein Le -- ben hat.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-4 "4. Gott" hat die Er -- de zu -- ge -- _ richt',
+  lässts an __ _ Nah -- rung man -- geln nicht;
+  Berg und Tal, die macht er nass,
+  dass __ _ dem Vieh auch wächst sein Gras;
+  aus der Er -- _ den Wein __ _ und Brot
+  schaf -- fet Gott __ _ und gibts __ _ uns satt,
+  dass der __ _ Mensch sein Le -- ben hat.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   \tweak X-offset #-4 "6. Wir" dan -- ken sehr und bit -- ten __ _ ihn,
-   dass er uns geb des Geis -- tes Sinn,
-   dass wir sol -- ches recht ver -- stehn,
-   stets __ _ in sein' Ge -- bo -- ten gehn,
-   sei -- nen Na -- _ men ma -- _ chen groß
-   In Chris -- to __ _ ohn Un -- _ ter -- lass:
-   So sing'n __ _ wir das Gra -- ti -- as.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  \tweak X-offset #-4 "6. Wir" dan -- ken sehr und bit -- ten __ _ ihn,
+  dass er uns geb des Geis -- tes Sinn,
+  dass wir sol -- ches recht ver -- stehn,
+  stets __ _ in sein' Ge -- bo -- ten gehn,
+  sei -- nen Na -- _ men ma -- _ chen groß
+  In Chris -- to __ _ ohn Un -- _ ter -- lass:
+  So sing'n __ _ wir das Gra -- ti -- as.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   \tweak X-offset #-4  "4. Gott" hat die Er -- _ de zu -- ge -- _ richt',
   lässts an Nah -- _ rung man -- geln __ _ nicht;
   Berg und Tal, __ _ die macht er nass,
@@ -152,7 +155,8 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   dass der __ _ Mensch __ _ sein Le -- ben hat.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   \tweak X-offset #-4 "6. Wir" dan -- ken sehr __ _ und bit -- ten __ _ ihn,
   dass er uns geb des Geis -- tes __ _ Sinn,
   dass wir sol -- _ ches recht ver -- stehn,
@@ -162,7 +166,8 @@ altoLyricsTwo = \lyricmode {\set stanza = 2
   So sing'n __ _ wir __ _ das Gra -- ti -- as.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   \tweak X-offset #-4  "4. Gott" hat die Er -- _ de zu -- ge -- _ richt',
   lässts an __ _ Nah -- _ rung man -- geln nicht; __
   Berg und Tal, __ _ die macht er __ _ nass,
@@ -172,7 +177,8 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   dass der Mensch __ _ sein Le -- _ ben hat.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   \tweak X-offset #-4 "6. Wir" dan -- ken sehr __ _ und bit -- ten __ _ ihn,
   dass er uns geb __ _ des Geis -- tes Sinn,
   dass wir sol -- _ ches recht ver -- _ stehn,
@@ -182,7 +188,8 @@ tenorLyricsTwo = \lyricmode {\set stanza = 2
   So sing'n wir __ _ das Gra -- _ ti -- as.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   \tweak X-offset #-4  "4. Gott" hat die Er -- _ de zu -- ge -- _ richt',
   lässts an __ _ Nah -- _ rung man -- geln __ _ nicht;
   Berg __ _ und Tal, __ _ die macht er __ _ nass,
@@ -192,7 +199,8 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   dass __ _ der Mensch __ _ sein Le -- _ ben hat.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   \tweak X-offset #-4 "6. Wir" dan -- ken sehr __ _ und bit -- ten __ _ ihn,
   dass er uns geb __ _ des Geis -- tes __ _ Sinn,
   dass __ _ wir sol -- _ ches recht ver -- _ stehn,

@@ -28,14 +28,14 @@
 }
 
 \header {
- title = \markup{\concat{"Jesu, nun sei gepreiset (I)" \small " (v. 3)"}}
- subtitle = "tiré de la cantate : Jesu, nun sei gepreiset"
- poet = "Auteur : Johannes Herman (1515-1593)"
+  title = \markup{\concat{"Jesu, nun sei gepreiset (I)" \small " (v. 3)"}}
+  subtitle = "tiré de la cantate : Jesu, nun sei gepreiset"
+  poet = "Auteur : Johannes Herman (1515-1593)"
   opus = "BWV 41/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

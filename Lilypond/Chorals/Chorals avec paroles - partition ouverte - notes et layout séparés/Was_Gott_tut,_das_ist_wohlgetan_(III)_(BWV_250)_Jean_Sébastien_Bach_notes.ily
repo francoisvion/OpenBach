@@ -58,58 +58,66 @@ bassMusic = {
   c8 [a,8] d4 g,4\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Was Gott thut, das ist wohl -- ge -- tan,
-   es bleibt ge -- recht sein Wil -- _ le;
-   Er ist mein Gott,
-   der in der Not
-   mich wohl weiß zu er -- hal -- ten:
-   drum lass ich ihn nur wal -- ten.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Was Gott thut, das ist wohl -- ge -- tan,
+  es bleibt ge -- recht sein Wil -- _ le;
+  Er ist mein Gott,
+  der in der Not
+  mich wohl weiß zu er -- hal -- ten:
+  drum lass ich ihn nur wal -- ten.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   wie er fängt mei -- ne Sa -- chen an,
-   will ich ihm hal -- ten stil -- _ le.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wie er fängt mei -- ne Sa -- chen an,
+  will ich ihm hal -- ten stil -- _ le.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Was Gott thut, das ist wohl -- ge -- tan,
-   es bleibt ge -- recht sein Wil le;
-   Er ist mein Gott,
-   der in der Not
-   mich wohl weiß zu er -- hal -- _ ten:
-   drum lass ich ihn nur wal -- _ ten.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Was Gott thut, das ist wohl -- ge -- tan,
+  es bleibt ge -- recht sein Wil le;
+  Er ist mein Gott,
+  der in der Not
+  mich wohl weiß zu er -- hal -- _ ten:
+  drum lass ich ihn nur wal -- _ ten.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   wie er fängt mei -- ne Sa -- chen an,
-   will ich ihm hal -- ten stil le.
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wie er fängt mei -- ne Sa -- chen an,
+  will ich ihm hal -- ten stil le.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Was Gott thut, das ist wohl -- ge -- tan,
-   es bleibt ge -- recht sein Wil -- _ le;
-   Er ist mein Gott,
-   der in der Not
-   mich wohl weiß zu er -- hal -- _ ten:
-   drum lass ich ihn nur wal -- _ ten.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Was Gott thut, das ist wohl -- ge -- tan,
+  es bleibt ge -- recht sein Wil -- _ le;
+  Er ist mein Gott,
+  der in der Not
+  mich wohl weiß zu er -- hal -- _ ten:
+  drum lass ich ihn nur wal -- _ ten.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   wie er fängt mei -- ne Sa -- chen an,
-   will ich ihm hal -- ten stil -- _ le.
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wie er fängt mei -- ne Sa -- chen an,
+  will ich ihm hal -- ten stil -- _ le.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Was Gott thut, das ist wohl -- ge -- tan,
-   es bleibt ge -- recht sein Wil le;
-   Er ist mein Gott,
-   der in der Not
-   mich wohl weiß zu er -- hal -- _ ten:
-   drum lass ich ihn nur wal -- _ ten.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Was Gott thut, das ist wohl -- ge -- tan,
+  es bleibt ge -- recht sein Wil le;
+  Er ist mein Gott,
+  der in der Not
+  mich wohl weiß zu er -- hal -- _ ten:
+  drum lass ich ihn nur wal -- _ ten.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   wie er fängt mei -- ne Sa -- chen an,
-   will ich ihm hal -- ten stil le.
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wie er fängt mei -- ne Sa -- chen an,
+  will ich ihm hal -- ten stil le.
 }

@@ -28,14 +28,14 @@
 }
 
 \header {
- title = \markup{\concat{"Kommt, lasst euch den Herren lehren" \small " (v. 6)"}}
- subtitle = "tiré de la cantate : Brich dem Hungrigen dein Brot"
- poet = "Auteur : David Denicke (1603-1680)"
+  title = \markup{\concat{"Kommt, lasst euch den Herren lehren" \small " (v. 6)"}}
+  subtitle = "tiré de la cantate : Brich dem Hungrigen dein Brot"
+  poet = "Auteur : David Denicke (1603-1680)"
   opus = "BWV 39/7"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

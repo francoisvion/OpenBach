@@ -62,54 +62,62 @@ bassMusic = {
   g,2.\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Herr Je -- su Christ, du höch -- stes Gut,
-   du Brunn -- quell al -- ler Gna -- den,
-   und in mir hab der Pfei -- le viel,
-   die im Ge -- wis -- sen oh -- ne Ziel
-   mich ar -- men Sün -- _ _ der drü -- cken.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Herr Je -- su Christ, du höch -- stes Gut,
+  du Brunn -- quell al -- ler Gna -- den,
+  und in mir hab der Pfei -- le viel,
+  die im Ge -- wis -- sen oh -- ne Ziel
+  mich ar -- men Sün -- _ _ der drü -- cken.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   sieh doch, wie ich in mei -- nem Muth
-   mit Schmer -- zen bin be -- lad -- en,                                 
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  sieh doch, wie ich in mei -- nem Muth
+  mit Schmer -- zen bin be -- lad -- en,                                 
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Herr Je -- su Christ, du höch -- stes Gut,
-   du Brunn -- quell al -- ler Gna -- den,
-   und in mir hab der Pfei -- le __ _ viel,
-   die im Ge -- wis -- sen oh -- ne __ _ Ziel
-   mich ar -- men Sün -- _ der drü -- _ cken.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Herr Je -- su Christ, du höch -- stes Gut,
+  du Brunn -- quell al -- ler Gna -- den,
+  und in mir hab der Pfei -- le __ _ viel,
+  die im Ge -- wis -- sen oh -- ne __ _ Ziel
+  mich ar -- men Sün -- _ der drü -- _ cken.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   sieh doch, wie ich in mei -- nem Muth
-   mit Schmer -- zen bin be -- lad -- en,
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  sieh doch, wie ich in mei -- nem Muth
+  mit Schmer -- zen bin be -- lad -- en,
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Herr Je -- su Christ, du höch -- stes __ _ Gut,
-   du Brunn -- quell al -- ler Gna -- _ den,
-   und in mir hab der Pfei -- le viel,
-   die im Ge -- wis -- sen oh -- ne Ziel
-   mich ar -- men Sün -- _ _ der drü -- cken.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Herr Je -- su Christ, du höch -- stes __ _ Gut,
+  du Brunn -- quell al -- ler Gna -- _ den,
+  und in mir hab der Pfei -- le viel,
+  die im Ge -- wis -- sen oh -- ne Ziel
+  mich ar -- men Sün -- _ _ der drü -- cken.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   sieh doch, wie ich in mei -- _ nem Muth
-   mit Schmer -- zen bin be -- lad -- _ en,
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  sieh doch, wie ich in mei -- _ nem Muth
+  mit Schmer -- zen bin be -- lad -- _ en,
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Herr Je -- su Christ, du höch -- stes Gut,
-   du Brunn -- quell al -- ler Gna -- _ den,
-   und in mir hab der Pfei -- le viel,
-   die im Ge -- wis -- sen oh -- ne Ziel
-   mich ar -- men Sün -- _ _ der drü -- _ cken.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Herr Je -- su Christ, du höch -- stes Gut,
+  du Brunn -- quell al -- ler Gna -- _ den,
+  und in mir hab der Pfei -- le viel,
+  die im Ge -- wis -- sen oh -- ne Ziel
+  mich ar -- men Sün -- _ _ der drü -- _ cken.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   sieh doch, wie ich in mei -- nem Muth
   mit Schmer -- zen bin be -- lad -- _ en,
 }

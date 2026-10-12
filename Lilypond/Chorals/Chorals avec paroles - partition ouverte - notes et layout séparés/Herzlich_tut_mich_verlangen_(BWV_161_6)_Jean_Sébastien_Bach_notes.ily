@@ -66,58 +66,66 @@ bassMusic = {
   gis, a, e,\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Der Leib zwar in der Er -- den
-   von Wür -- mern wird ver -- zehrt,
-   wird leuch -- ten als die Son -- ne
-   und le -- ben oh -- ne Not
-   in himml' -- scher Freud und Won -- ne.
-   Was schadt mir denn der Tod?
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Der Leib zwar in der Er -- den
+  von Wür -- mern wird ver -- zehrt,
+  wird leuch -- ten als die Son -- ne
+  und le -- ben oh -- ne Not
+  in himml' -- scher Freud und Won -- ne.
+  Was schadt mir denn der Tod?
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   doch auf -- er -- weckt soll wer -- den,
-   durch Chri -- stum schön ver -- klärt,
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  doch auf -- er -- weckt soll wer -- den,
+  durch Chri -- stum schön ver -- klärt,
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Der Leib zwar in der Er -- den
-   von Wür -- mern wird ver -- zehrt, __ _ _
-   wird leuch -- ten als die Son -- _ ne
-   und le -- ben oh -- ne Not
-   in himml' -- scher Freud und Won -- _ ne.
-   Was schadt mir denn der Tod? __ _
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Der Leib zwar in der Er -- den
+  von Wür -- mern wird ver -- zehrt, __ _ _
+  wird leuch -- ten als die Son -- _ ne
+  und le -- ben oh -- ne Not
+  in himml' -- scher Freud und Won -- _ ne.
+  Was schadt mir denn der Tod? __ _
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   doch auf -- er -- weckt soll wer -- den,
-   durch Chri -- stum schön ver -- klärt, __ _ _
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  doch auf -- er -- weckt soll wer -- den,
+  durch Chri -- stum schön ver -- klärt, __ _ _
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Der Leib zwar in der Er -- _ den
-   von Wür -- mern wird ver -- zehrt, __ _ _
-   wird leuch -- ten als die Son -- _ ne
-   und le -- ben oh -- ne Not
-   in himml' -- scher Freud und Won -- _ ne.
-   Was schadt mir denn der Tod? __ _ _
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Der Leib zwar in der Er -- _ den
+  von Wür -- mern wird ver -- zehrt, __ _ _
+  wird leuch -- ten als die Son -- _ ne
+  und le -- ben oh -- ne Not
+  in himml' -- scher Freud und Won -- _ ne.
+  Was schadt mir denn der Tod? __ _ _
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   doch auf -- er -- weckt soll wer -- _ den,
-   durch Chri -- stum schön ver -- klärt, __ _ _
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  doch auf -- er -- weckt soll wer -- _ den,
+  durch Chri -- stum schön ver -- klärt, __ _ _
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Der Leib zwar in der Er -- den
-   von Wür -- mern wird ver -- zehrt,
-   wird leuch -- ten als die Son -- ne
-   und le -- ben oh -- ne Not
-   in himml' -- scher Freud und Won -- ne.
-   Was schadt mir denn der Tod? __ _ _
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Der Leib zwar in der Er -- den
+  von Wür -- mern wird ver -- zehrt,
+  wird leuch -- ten als die Son -- ne
+  und le -- ben oh -- ne Not
+  in himml' -- scher Freud und Won -- ne.
+  Was schadt mir denn der Tod? __ _ _
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   doch auf -- er -- weckt soll wer -- den,
-   durch Chri -- stum schön ver -- klärt,
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  doch auf -- er -- weckt soll wer -- den,
+  durch Chri -- stum schön ver -- klärt,
 }

@@ -122,24 +122,26 @@ bassMusic = {
   e1 \fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Mit -- ten wir im Le -- ben sind __ _
-   mit dem Tod um -- fan -- _ gen;
-   Das bist du, Herr, al -- lei -- _ ne.
-   Uns reu -- et uns' -- re Mis -- se -- that, __ _
-   die dich, Herr, er -- zür -- net hat.
-   Hei -- li -- ger Her -- re Gott,
-   hei -- li -- ger, star -- ker Gott,
-   hei -- li -- ger, barm -- herz' -- ger Hei -- _ land,
-   du e -- wi -- ger Gott,
-   lass uns nicht ver -- sin -- _ ken
-   in der bit -- tern To -- des -- noth.
-   Ky -- rie e -- lei -- son!
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Mit -- ten wir im Le -- ben sind __ _
+  mit dem Tod um -- fan -- _ gen;
+  Das bist du, Herr, al -- lei -- _ ne.
+  Uns reu -- et uns' -- re Mis -- se -- that, __ _
+  die dich, Herr, er -- zür -- net hat.
+  Hei -- li -- ger Her -- re Gott,
+  hei -- li -- ger, star -- ker Gott,
+  hei -- li -- ger, barm -- herz' -- ger Hei -- _ land,
+  du e -- wi -- ger Gott,
+  lass uns nicht ver -- sin -- _ ken
+  in der bit -- tern To -- des -- noth.
+  Ky -- rie e -- lei -- son!
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   Wen such'n wir, der Hül -- fe thu',  __ _
-   dass wir Gnad' er -- lan -- _ gen?
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Wen such'n wir, der Hül -- fe thu',  __ _
+  dass wir Gnad' er -- lan -- _ gen?
 }
 
 altoLyricsOne = \lyricmode {

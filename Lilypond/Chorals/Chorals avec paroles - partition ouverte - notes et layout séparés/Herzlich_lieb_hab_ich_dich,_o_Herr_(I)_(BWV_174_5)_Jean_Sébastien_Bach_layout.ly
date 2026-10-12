@@ -27,14 +27,14 @@
 }
 
 \header {
- title = \markup{\concat{"Herzlich lieb hab ich dich, o Herr (I)" \small " (v. 1)"}}
- subtitle = "tiré de la cantate : Ich liebe den Höchsten von ganzem Gemüte"
- poet = "Auteur : Martin Schalling (1532-1608)"
+  title = \markup{\concat{"Herzlich lieb hab ich dich, o Herr (I)" \small " (v. 1)"}}
+  subtitle = "tiré de la cantate : Ich liebe den Höchsten von ganzem Gemüte"
+  poet = "Auteur : Martin Schalling (1532-1608)"
   opus = "BWV 174/5"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

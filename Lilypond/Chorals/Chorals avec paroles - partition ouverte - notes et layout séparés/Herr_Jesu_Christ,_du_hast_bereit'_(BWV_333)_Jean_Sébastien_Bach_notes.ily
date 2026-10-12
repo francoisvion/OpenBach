@@ -58,54 +58,62 @@ bassMusic = {
   c [a,] d4 g,\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Herr Je -- su Christ, du hast be -- reit't
-   für uns -- re mat -- te See -- len
-   Wir tra -- gen uns -- re Sün -- den -- last,
-   drum kom -- men wir bei dir zu Gast
-   und su -- chen Rath und Hil -- fe.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Herr Je -- su Christ, du hast be -- reit't
+  für uns -- re mat -- te See -- len
+  Wir tra -- gen uns -- re Sün -- den -- last,
+  drum kom -- men wir bei dir zu Gast
+  und su -- chen Rath und Hil -- fe.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   dein'n Leib und Blut zu ein'r Mahl -- zeit,
-   tust uns zu Gäs -- ten wäh -- len;
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dein'n Leib und Blut zu ein'r Mahl -- zeit,
+  tust uns zu Gäs -- ten wäh -- len;
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Herr Je -- su Christ, du hast be -- reit't
-   für uns -- re mat -- te See -- _ len
-   Wir tra -- gen uns -- re Sün -- den -- last,
-   drum kom -- men wir __ _ bei dir zu Gast
-   und su -- chen Rath und Hil -- _ fe.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Herr Je -- su Christ, du hast be -- reit't
+  für uns -- re mat -- te See -- _ len
+  Wir tra -- gen uns -- re Sün -- den -- last,
+  drum kom -- men wir __ _ bei dir zu Gast
+  und su -- chen Rath und Hil -- _ fe.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   dein'n Leib und Blut zu ein'r Mahl -- zeit,
-   tust uns zu Gäs -- ten wäh -- _ len;
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dein'n Leib und Blut zu ein'r Mahl -- zeit,
+  tust uns zu Gäs -- ten wäh -- _ len;
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Herr Je -- su Christ, du hast be -- reit't
-   für uns -- re mat -- te See -- _ len
-   Wir tra -- gen uns -- re Sün -- den -- last,
-   drum kom -- men wir bei dir zu Gast
-   und su -- chen Rath und Hil -- _ fe.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Herr Je -- su Christ, du hast be -- reit't
+  für uns -- re mat -- te See -- _ len
+  Wir tra -- gen uns -- re Sün -- den -- last,
+  drum kom -- men wir bei dir zu Gast
+  und su -- chen Rath und Hil -- _ fe.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   dein'n Leib und Blut zu ein'r Mahl -- zeit,
-   tust uns zu Gäs -- ten wäh -- _ len;
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dein'n Leib und Blut zu ein'r Mahl -- zeit,
+  tust uns zu Gäs -- ten wäh -- _ len;
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Herr Je -- su Christ, du hast be -- reit't
-   für uns -- re mat -- te See -- _ len
-   Wir tra -- gen uns -- re Sün -- den -- last,
-   drum kom -- men wir bei dir zu Gast
-   und su -- chen Rath und Hil -- _ fe.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Herr Je -- su Christ, du hast be -- reit't
+  für uns -- re mat -- te See -- _ len
+  Wir tra -- gen uns -- re Sün -- den -- last,
+  drum kom -- men wir bei dir zu Gast
+  und su -- chen Rath und Hil -- _ fe.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   dein'n Leib und Blut zu ein'r Mahl -- zeit,
-   tust uns zu Gäs -- ten wäh -- _ len;
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dein'n Leib und Blut zu ein'r Mahl -- zeit,
+  tust uns zu Gäs -- ten wäh -- _ len;
 }

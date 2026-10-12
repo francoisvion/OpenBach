@@ -27,14 +27,14 @@
 }
 
 \header {
- title = \markup{\concat{"Liebster Gott, wenn werd ich sterben" \small " (v. 5)"}}
- subtitle = "tiré de la cantate : Liebster Gott, wenn werd ich sterben"
- poet = "Auteur : Kaspar Neumann (1648-1715)"
+  title = \markup{\concat{"Liebster Gott, wenn werd ich sterben" \small " (v. 5)"}}
+  subtitle = "tiré de la cantate : Liebster Gott, wenn werd ich sterben"
+  poet = "Auteur : Kaspar Neumann (1648-1715)"
   opus = "BWV 8/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

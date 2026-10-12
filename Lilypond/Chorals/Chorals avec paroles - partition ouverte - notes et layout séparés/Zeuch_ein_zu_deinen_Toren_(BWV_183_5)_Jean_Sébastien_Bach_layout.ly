@@ -29,12 +29,12 @@
 \header {
   title = \markup{\concat{"Zeuch ein zu deinen Toren" \small " (v. 5)"}}
   subtitle = "tiré de la cantate : Sie werden euch in den Bann tun"
- poet = "Auteur : Paul Gerhardt (1607-1676)"
+  poet = "Auteur : Paul Gerhardt (1607-1676)"
   opus = "BWV 183/5"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

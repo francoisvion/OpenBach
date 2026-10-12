@@ -1,10 +1,10 @@
 sopranoMusic = {
-\repeat volta 2 {
-  \partial 4 c''4
-  g' a' b' c''
-  d'' e'' c''\fermata e''8 [f'']
-  g''4 g'' e''8 [f''] g''4
-  f''2 e''4\fermata } e''
+  \repeat volta 2 {
+    \partial 4 c''4
+    g' a' b' c''
+    d'' e'' c''\fermata e''8 [f'']
+    g''4 g'' e''8 [f''] g''4
+    f''2 e''4\fermata } e''
   f'' e'' d'' c''8 [d'']
   e''4 e''8 [d''] c''4\fermata d''
   e'' e'' a' b'
@@ -15,12 +15,12 @@ sopranoMusic = {
 }
 
 altoMusic = {
-\repeat volta 2 {
-  \partial 4 e'4
-  e' fis' g' g'
-  f' e' a'\fermata g'
-  g'8 [f'] e' [d'] c'4 b
-  c' g' g'\fermata } g'
+  \repeat volta 2 {
+    \partial 4 e'4
+    e' fis' g' g'
+    f' e' a'\fermata g'
+    g'8 [f'] e' [d'] c'4 b
+    c' g' g'\fermata } g'
   d' c' g'4. f'8
   e' [f'] g'4 g'8 [f'\fermata] b4
   c'8 [d'] e' [a] fis'4 g'
@@ -31,12 +31,12 @@ altoMusic = {
 }
 
 tenorMusic = {
-\repeat volta 2 {
-  \partial 4 g4
-  c' c' d' g8 [a]
-  b4 c' c'\fermata c'8 [d']
-  e' [f'] g' [g] c'4 g
-  a8 [f] g4 c\fermata } c'
+  \repeat volta 2 {
+    \partial 4 g4
+    c' c' d' g8 [a]
+    b4 c' c'\fermata c'8 [d']
+    e' [f'] g' [g] c'4 g
+    a8 [f] g4 c\fermata } c'
   c'8 [b16 a] g4 d'8 [e'16 f'] e'8 [d']
   c'4 c' c'\fermata f
   g c'8 [d'16 e'] d'4. c'16 [b]
@@ -46,12 +46,12 @@ tenorMusic = {
 }
 
 bassMusic = {
-\repeat volta 2 {
-  \partial 4 c4
-  c'8 [b] a4 g8 [f] e4
-  d c f\fermata c
-  c' g a e
-  a, b, c\fermata } c
+  \repeat volta 2 {
+    \partial 4 c4
+    c'8 [b] a4 g8 [f] e4
+    d c f\fermata c
+    c' g a e
+    a, b, c\fermata } c
   d e8 [f] g4 a8 [b]
   c'4 c f\fermata d
   c c c' b
@@ -61,7 +61,8 @@ bassMusic = {
   c2.\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
   So fahr ich hin zu Je -- su Christ,
   mein' Arm tu ich aus -- stre -- cken;
   denn Je -- sus Chris -- tus, Got -- tes Sohn,
@@ -69,12 +70,14 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
   mich führn zum ew -- _ _ gen Le -- ben.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
   so schlaf ich ein und ru -- he fein,
   kein Mensch kann mich auf -- we -- cken,
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   So fahr ich hin zu Je -- su Christ,
   mein' Arm tu ich aus -- stre -- _ cken;
   denn Je -- sus Chris -- tus, Got -- tes Sohn,
@@ -82,12 +85,14 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   mich führn zum ew -- _ _ gen Le -- _ ben.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   so schlaf ich ein und ru -- he fein,
   kein Mensch kann mich auf -- we -- _ cken,
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   So fahr ich hin zu Je -- su Christ,
   mein' Arm tu ich aus -- stre -- _ cken;
   denn Je -- sus Chris -- tus, Got -- tes Sohn,
@@ -95,12 +100,14 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   mich führn zum ew -- _ _ gen Le -- _ ben.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   so schlaf ich ein und ru -- he fein,
   kein Mensch kann mich auf -- we -- _ cken,
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   So fahr ich hin zu Je -- su Christ,
   mein' Arm tu ich aus -- stre -- _ cken;
   denn Je -- sus Chris -- tus, Got -- tes Sohn,
@@ -108,7 +115,8 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   mich führn zum ew -- _ gen Le -- _ ben.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   so schlaf ich ein und ru -- he fein,
   kein Mensch kann mich auf -- we -- _ cken,
 }

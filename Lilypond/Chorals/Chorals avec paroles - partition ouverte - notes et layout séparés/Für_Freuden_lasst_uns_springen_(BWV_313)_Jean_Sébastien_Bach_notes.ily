@@ -54,50 +54,58 @@ bassMusic = {
   d2 g4\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Für Freu -- den lasst uns sprin -- gen,
-   ihr Chris -- ten all -- zu -- glei -- che!
-   von ei -- ner Jung -- frau ist ge -- bor'n,
-   wer hat zu -- vor ge -- hört von sol -- chen Din -- _ gen.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Für Freu -- den lasst uns sprin -- gen,
+  ihr Chris -- ten all -- zu -- glei -- che!
+  von ei -- ner Jung -- frau ist ge -- bor'n,
+  wer hat zu -- vor ge -- hört von sol -- chen Din -- _ gen.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   Mit Mund und Her -- zen sin -- gen,
-   denn Christ vom Him -- mel rei -- che.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Mit Mund und Her -- zen sin -- gen,
+  denn Christ vom Him -- mel rei -- che.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Für Freu -- den lasst __ _ uns sprin -- _ gen,
-   ihr Chris -- ten all -- zu -- glei -- _ che!
-   von ei -- ner Jung -- frau ist ge -- bor'n,
-   wer hat zu -- vor ge -- hört von sol -- chen Din -- _ _ gen.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Für Freu -- den lasst __ _ uns sprin -- _ gen,
+  ihr Chris -- ten all -- zu -- glei -- _ che!
+  von ei -- ner Jung -- frau ist ge -- bor'n,
+  wer hat zu -- vor ge -- hört von sol -- chen Din -- _ _ gen.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   Mit Mund und Her -- _ zen sin -- _ gen,
-   denn Christ vom Him -- mel rei -- _ che.
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Mit Mund und Her -- _ zen sin -- _ gen,
+  denn Christ vom Him -- mel rei -- _ che.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Für Freu -- den lasst uns sprin -- _ gen,
-   ihr Chris -- ten all -- zu -- glei -- _ che!
-   von ei -- ner Jung -- frau ist ge -- bor'n,
-   wer hat zu -- vor ge -- hört von sol -- chen Din -- _ gen.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Für Freu -- den lasst uns sprin -- _ gen,
+  ihr Chris -- ten all -- zu -- glei -- _ che!
+  von ei -- ner Jung -- frau ist ge -- bor'n,
+  wer hat zu -- vor ge -- hört von sol -- chen Din -- _ gen.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   Mit Mund und Her -- zen sin -- _ gen,
-   denn Christ vom Him -- mel rei -- _ che.
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Mit Mund und Her -- zen sin -- _ gen,
+  denn Christ vom Him -- mel rei -- _ che.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Für Freu -- den lasst uns sprin -- _ gen,
-   ihr Chris -- ten all -- zu -- glei -- _ che!
-   von ei -- ner Jung -- frau ist ge -- bor'n,
-   wer hat zu -- vor ge -- hört __ _ von sol -- chen Din -- 	gen.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Für Freu -- den lasst uns sprin -- _ gen,
+  ihr Chris -- ten all -- zu -- glei -- _ che!
+  von ei -- ner Jung -- frau ist ge -- bor'n,
+  wer hat zu -- vor ge -- hört __ _ von sol -- chen Din -- 	gen.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   Mit Mund und Her -- zen sin -- _ gen,
-   denn Christ vom Him -- mel rei -- _ che.
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Mit Mund und Her -- zen sin -- _ gen,
+  denn Christ vom Him -- mel rei -- _ che.
 }

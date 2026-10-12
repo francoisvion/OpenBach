@@ -78,62 +78,70 @@ bassMusic = {
   a2.\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Herr, ich hoff je, du wer -- dest die
-   in kei -- ner Not ver -- las -- _ _ sen,
-   gibst ihn' be -- reit
-   die Se -- lig -- keit
-   und lässt sie nicht ver -- der -- ben.
-   O Herr, durch dich bitt ich, lass mich
-   fröh -- lich und wil -- lig ster -- _ _ ben.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Herr, ich hoff je, du wer -- dest die
+  in kei -- ner Not ver -- las -- _ _ sen,
+  gibst ihn' be -- reit
+  die Se -- lig -- keit
+  und lässt sie nicht ver -- der -- ben.
+  O Herr, durch dich bitt ich, lass mich
+  fröh -- lich und wil -- lig ster -- _ _ ben.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   die dein Wort recht als treu -- e Knecht
-   im Herzn und Glau -- ben fas -- _ _ sen;
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  die dein Wort recht als treu -- e Knecht
+  im Herzn und Glau -- ben fas -- _ _ sen;
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Herr, ich hoff je, du wer -- dest die
-   in kei -- ner Not ver -- las -- _ _ _ sen,
-   gibst ihn' be -- reit
-   die Se -- lig -- keit
-   und lässt sie nicht ver -- der -- _ ben.
-   O Herr, durch dich bitt ich, lass mich
-   fröh -- lich und wil -- lig ster -- _ _ _ ben.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Herr, ich hoff je, du wer -- dest die
+  in kei -- ner Not ver -- las -- _ _ _ sen,
+  gibst ihn' be -- reit
+  die Se -- lig -- keit
+  und lässt sie nicht ver -- der -- _ ben.
+  O Herr, durch dich bitt ich, lass mich
+  fröh -- lich und wil -- lig ster -- _ _ _ ben.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   die dein Wort recht als treu -- e Knecht
-   im Herzn und Glau -- ben fas -- _ _ _ sen;
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  die dein Wort recht als treu -- e Knecht
+  im Herzn und Glau -- ben fas -- _ _ _ sen;
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Herr, ich hoff je, du wer -- dest die
-   in kei -- ner Not ver -- las -- _ sen,
-   gibst ihn' be -- reit
-   die Se -- lig -- keit
-   und lässt sie nicht ver -- der -- _ ben.
-   O Herr, durch dich bitt ich, lass mich
-   fröh -- lich und wil -- lig ster -- _ ben.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Herr, ich hoff je, du wer -- dest die
+  in kei -- ner Not ver -- las -- _ sen,
+  gibst ihn' be -- reit
+  die Se -- lig -- keit
+  und lässt sie nicht ver -- der -- _ ben.
+  O Herr, durch dich bitt ich, lass mich
+  fröh -- lich und wil -- lig ster -- _ ben.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   die dein Wort recht als treu -- e Knecht
-   im Herzn und Glau -- ben fas -- _ sen;
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  die dein Wort recht als treu -- e Knecht
+  im Herzn und Glau -- ben fas -- _ sen;
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Herr, ich hoff je, du wer -- dest die
-   in kei -- ner Not ver -- las -- _ _ sen,
-   gibst ihn' be -- reit
-   die Se -- lig -- keit
-   und lässt sie nicht ver -- der -- _ ben.
-   O Herr, durch dich bitt ich, lass mich
-   fröh -- lich und wil -- lig ster -- _ _ ben.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Herr, ich hoff je, du wer -- dest die
+  in kei -- ner Not ver -- las -- _ _ sen,
+  gibst ihn' be -- reit
+  die Se -- lig -- keit
+  und lässt sie nicht ver -- der -- _ ben.
+  O Herr, durch dich bitt ich, lass mich
+  fröh -- lich und wil -- lig ster -- _ _ ben.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   die dein Wort recht als treu -- e Knecht
-   im Herzn und Glau -- ben fas -- _ _ sen;
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  die dein Wort recht als treu -- e Knecht
+  im Herzn und Glau -- ben fas -- _ _ sen;
 }

@@ -74,58 +74,66 @@ bassMusic = {
   b,2 e\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Herr -- scher ü -- ber Tod und Le -- _ _ ben
-   mach ein -- mal mein En -- _ de gut,
-   Hilf, dass ich ein ehr -- lich Grab
-   ne -- ben from -- men Chri -- sten hab
-   und auch end -- lich in der Er -- _ _ de
-   nim -- mer -- mehr zu -- schan -- _ _ den wer -- _ _ de.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Herr -- scher ü -- ber Tod und Le -- _ _ ben
+  mach ein -- mal mein En -- _ de gut,
+  Hilf, dass ich ein ehr -- lich Grab
+  ne -- ben from -- men Chri -- sten hab
+  und auch end -- lich in der Er -- _ _ de
+  nim -- mer -- mehr zu -- schan -- _ _ den wer -- _ _ de.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   Leh -- re mich den Geist auf -- ge -- _ _ ben
-   mit recht wohl -- ge -- fasst -- _ tem Mut.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Leh -- re mich den Geist auf -- ge -- _ _ ben
+  mit recht wohl -- ge -- fasst -- _ tem Mut.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Herr -- scher ü -- ber Tod __ _ und Le -- ben
-   mach ein -- mal mein En -- de gut,
-   Hilf, dass ich ein ehr -- lich Grab
-   ne -- ben from -- men Chri -- sten hab
-   und auch end -- lich in der Er -- de
-   nim -- mer -- mehr zu -- schan -- _ _ den wer -- _ _ de.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Herr -- scher ü -- ber Tod __ _ und Le -- ben
+  mach ein -- mal mein En -- de gut,
+  Hilf, dass ich ein ehr -- lich Grab
+  ne -- ben from -- men Chri -- sten hab
+  und auch end -- lich in der Er -- de
+  nim -- mer -- mehr zu -- schan -- _ _ den wer -- _ _ de.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   Leh -- re mich den Geist __ _ auf -- ge -- ben
-   mit recht wohl -- ge -- fasst -- tem Mut.
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Leh -- re mich den Geist __ _ auf -- ge -- ben
+  mit recht wohl -- ge -- fasst -- tem Mut.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Herr -- scher ü -- ber Tod und Le -- ben
-   mach ein -- mal mein En -- de gut,
-   Hilf, dass ich ein ehr -- lich Grab
-   ne -- ben from -- men Chri -- sten hab
-   und auch end -- lich in der Er -- de
-   nim -- mer -- mehr zu -- schan -- _ _ _ den wer -- _ de.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Herr -- scher ü -- ber Tod und Le -- ben
+  mach ein -- mal mein En -- de gut,
+  Hilf, dass ich ein ehr -- lich Grab
+  ne -- ben from -- men Chri -- sten hab
+  und auch end -- lich in der Er -- de
+  nim -- mer -- mehr zu -- schan -- _ _ _ den wer -- _ de.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   Leh -- re mich den Geist auf -- ge -- ben
   mit recht wohl -- ge -- fasst -- tem Mut.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Herr -- scher ü -- ber Tod und Le -- ben
-   mach ein -- mal mein En -- de gut,
-   Hilf, dass ich ein ehr -- lich Grab
-   ne -- ben from -- men Chri -- sten hab
-   und auch end -- lich in der Er -- de
-   nim -- mer -- mehr zu -- schan -- _ _ _ den wer -- de.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Herr -- scher ü -- ber Tod und Le -- ben
+  mach ein -- mal mein En -- de gut,
+  Hilf, dass ich ein ehr -- lich Grab
+  ne -- ben from -- men Chri -- sten hab
+  und auch end -- lich in der Er -- de
+  nim -- mer -- mehr zu -- schan -- _ _ _ den wer -- de.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   Leh -- re mich den Geist auf -- ge -- ben
-   mit recht wohl -- ge -- fasst -- tem Mut.
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Leh -- re mich den Geist auf -- ge -- ben
+  mit recht wohl -- ge -- fasst -- tem Mut.
 }

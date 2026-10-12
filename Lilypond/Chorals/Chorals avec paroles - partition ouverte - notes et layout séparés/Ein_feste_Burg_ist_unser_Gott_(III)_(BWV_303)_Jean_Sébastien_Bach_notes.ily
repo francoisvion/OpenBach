@@ -70,46 +70,48 @@ bassMusic = {
   b, [g,] a,4 d\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Ein' fe -- ste Burg ist un -- ser Gott,
-   ein' gu -- te Wehr und Waf -- _ fen.
-   Der __ _ alt bö -- se Feind,
-   mit Ernst er's jetzt meint,
-   groß Macht und viel List sein grau -- sam Rüst -- zeug ist,
-   auf Erd ist nicht seins Glei -- _ chen.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ein' fe -- ste Burg ist un -- ser Gott,
+  ein' gu -- te Wehr und Waf -- _ fen.
+  Der __ _ alt bö -- se Feind,
+  mit Ernst er's jetzt meint,
+  groß Macht und viel List sein grau -- sam Rüst -- zeug ist,
+  auf Erd ist nicht seins Glei -- _ chen.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   Er hilf uns frei aus al -- ler Not,
-   die uns jetz hat be -- tro -- _ fen.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Er hilf uns frei aus al -- ler Not,
+  die uns jetz hat be -- tro -- _ fen.
 }
 
 altoLyricsOne = \lyricmode {
-      \set stanza = 1
-   Ein' fe -- ste Burg ist un -- ser Gott, ein' gu -- te Wehr und Waf -- _ fen. Der __ _ alt bö -- se Feind, mit Ernst er's jetzt meint, groß Macht und viel List sein grau -- sam Rüst -- zeug ist, auf Erd ist nicht seins Glei -- _ chen.
-    }
+  \set stanza = 1
+  Ein' fe -- ste Burg ist un -- ser Gott, ein' gu -- te Wehr und Waf -- _ fen. Der __ _ alt bö -- se Feind, mit Ernst er's jetzt meint, groß Macht und viel List sein grau -- sam Rüst -- zeug ist, auf Erd ist nicht seins Glei -- _ chen.
+}
 
 altoLyricsTwo = \lyricmode {
-      \set stanza = 2
-   Er hilf uns frei aus al -- ler Not, die uns jetz hat be -- tro -- _ fen.
-    }
+  \set stanza = 2
+  Er hilf uns frei aus al -- ler Not, die uns jetz hat be -- tro -- _ fen.
+}
 
 tenorLyricsOne = \lyricmode {
-      \set stanza = 1
-   Ein' fe -- ste Burg ist un -- ser Gott, ein' gu -- te Wehr und Waf -- _ fen. Der __ _ alt bö -- se Feind, mit Ernst er's jetzt meint, groß Macht und viel List sein grau -- sam Rüst -- zeug ist, auf Erd ist nicht seins Glei -- _ chen.
-    }
+  \set stanza = 1
+  Ein' fe -- ste Burg ist un -- ser Gott, ein' gu -- te Wehr und Waf -- _ fen. Der __ _ alt bö -- se Feind, mit Ernst er's jetzt meint, groß Macht und viel List sein grau -- sam Rüst -- zeug ist, auf Erd ist nicht seins Glei -- _ chen.
+}
 
 tenorLyricsTwo = \lyricmode {
-      \set stanza = 2
-   Er hilf uns frei aus al -- ler Not, die uns jetz hat be -- tro -- _ fen.
-    }
+  \set stanza = 2
+  Er hilf uns frei aus al -- ler Not, die uns jetz hat be -- tro -- _ fen.
+}
 
 bassLyricsOne = \lyricmode {
-      \set stanza = 1
-   Ein' fe -- ste Burg ist un -- ser Gott, ein' gu -- te Wehr und Waf -- _ fen. Der __ _ alt bö -- se Feind, mit Ernst er's jetzt meint, groß Macht und viel List sein grau -- sam Rüst -- zeug ist, auf Erd ist nicht seins Glei -- _ chen.
-    }
+  \set stanza = 1
+  Ein' fe -- ste Burg ist un -- ser Gott, ein' gu -- te Wehr und Waf -- _ fen. Der __ _ alt bö -- se Feind, mit Ernst er's jetzt meint, groß Macht und viel List sein grau -- sam Rüst -- zeug ist, auf Erd ist nicht seins Glei -- _ chen.
+}
 
 bassLyricsTwo = \lyricmode {
-      \set stanza = 2
-   Er hilf uns frei aus al -- ler Not, die uns jetz hat be -- tro -- _ fen.
-    }
+  \set stanza = 2
+  Er hilf uns frei aus al -- ler Not, die uns jetz hat be -- tro -- _ fen.
+}

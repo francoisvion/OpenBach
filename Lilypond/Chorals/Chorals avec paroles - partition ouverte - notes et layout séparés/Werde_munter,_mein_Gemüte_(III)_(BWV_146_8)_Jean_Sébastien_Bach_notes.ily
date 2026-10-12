@@ -1,9 +1,9 @@
 sopranoMusic = {
-\repeat volta 2 {
-  a'4 bes' c'' c''
-  bes' a' g' g'\fermata
-  a' bes' c''8 [bes'] a'4
-  g'8 [a'16 bes'] g'4 f'2\fermata }
+  \repeat volta 2 {
+    a'4 bes' c'' c''
+    bes' a' g' g'\fermata
+    a' bes' c''8 [bes'] a'4
+    g'8 [a'16 bes'] g'4 f'2\fermata }
   \partial 4 g'4
   a' bes' bes' a'4.
   g'8 g'2\fermata bes'4
@@ -16,11 +16,11 @@ sopranoMusic = {
 }
 
 altoMusic = {
-\repeat volta 2 {
-  f'4 f' f' f'8 [e']
-  d' [e'] f'4 e' e'\fermata
-  f' f' g' f'
-  f' e' c'2\fermata }
+  \repeat volta 2 {
+    f'4 f' f' f'8 [e']
+    d' [e'] f'4 e' e'\fermata
+    f' f' g' f'
+    f' e' c'2\fermata }
   \partial 4 e'4
   fis' g' g' g'
   fis' d'2\fermata d'4
@@ -33,11 +33,11 @@ altoMusic = {
 }
 
 tenorMusic = {
-\repeat volta 2 {
-  c'4 d' c'8 [bes] a4
-  bes c' c' c'\fermata
-  c' d' c' c'
-  d' c'8 [bes] a2\fermata }
+  \repeat volta 2 {
+    c'4 d' c'8 [bes] a4
+    bes c' c' c'\fermata
+    c' d' c' c'
+    d' c'8 [bes] a2\fermata }
   \partial 4 c'4
   c' d' bes ees'
   d'8 [c'] bes2\fermata bes4
@@ -50,11 +50,11 @@ tenorMusic = {
 }
 
 bassMusic = {
-\repeat volta 2 {
-  f4 d a, d
-  g, a,8 [bes,] c4 c\fermata
-  f e8 [d] e4 f
-  bes, c f,2\fermata }
+  \repeat volta 2 {
+    f4 d a, d
+    g, a,8 [bes,] c4 c\fermata
+    f e8 [d] e4 f
+    bes, c f,2\fermata }
   \partial 4 c4
   bes,8 [a,] g, [bes,] ees [d] c [a,]
   d4 g,2\fermata g4
@@ -66,7 +66,8 @@ bassMusic = {
   c f,2\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
   Freu dich sehr, o mei -- ne See -- le,
   und ver -- giß all Not und Qual,
   Aus Trüb -- sal und gro -- ßem Leid
@@ -75,12 +76,14 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
   und in E -- wig -- keit auch währt.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
   weil dich nun Chris -- tus, dein Her -- re,
   ruft aus die -- sem Jam -- mer -- tal.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   Freu dich sehr, o mei -- ne See -- le,
   und ver -- giß all Not und Qual,
   Aus Trüb -- sal und gro -- ßem Leid
@@ -89,12 +92,14 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   und in E -- wig -- keit auch währt.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   weil dich nun Chris tus -- dein Her -- re,
   ruft aus -- die sem Jam mer tal.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   Freu dich sehr, o mei -- ne See -- le,
   und ver -- giß all Not und Qual,
   Aus Trüb -- sal und gro -- ßem Leid
@@ -103,12 +108,14 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   und in E -- wig -- keit auch währt.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   weil dich nun Chris -- tus, dein Her -- re,
   ruft aus die -- sem Jam -- mer -- tal.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Freu dich sehr, o mei -- ne See -- le,
   und ver -- giß all Not und Qual,
   Aus Trüb -- sal und gro -- ßem Leid
@@ -117,7 +124,8 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   und in E -- wig -- keit auch währt.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   weil dich nun Chris -- tus, dein Her -- re,
   ruft aus die -- sem Jam -- mer -- tal.
 }

@@ -58,54 +58,62 @@ bassMusic = {
   d2 g,4\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Gott Lob und Dank, der nicht zu -- gab,
-   dass ihr Schlund uns möcht fan -- _ gen.
-   Strick ist ent -- zwei und wir sind frei,
-   des Her -- ren Na -- men steht uns bei,
-   des Got -- tes Him -- mels und Er -- _ den.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Gott Lob und Dank, der nicht zu -- gab,
+  dass ihr Schlund uns möcht fan -- _ gen.
+  Strick ist ent -- zwei und wir sind frei,
+  des Her -- ren Na -- men steht uns bei,
+  des Got -- tes Him -- mels und Er -- _ den.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   Wie ein Vo -- gel des Stricks kommt ab,
-   ist un -- ser Seel ent -- gan -- _ gen,
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Wie ein Vo -- gel des Stricks kommt ab,
+  ist un -- ser Seel ent -- gan -- _ gen,
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Gott Lob und Dank, der nicht zu -- gab,
-   dass ihr __ _ Schlund uns möcht fan -- _ _ gen.
-   Strick ist ent -- zwei und wir sind frei,
-   des Her -- ren Na -- men steht __ _ uns bei,
-   des Got -- tes Him -- mels und Er -- _ den.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Gott Lob und Dank, der nicht zu -- gab,
+  dass ihr __ _ Schlund uns möcht fan -- _ _ gen.
+  Strick ist ent -- zwei und wir sind frei,
+  des Her -- ren Na -- men steht __ _ uns bei,
+  des Got -- tes Him -- mels und Er -- _ den.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   Wie ein Vo -- gel des Stricks kommt ab,
-   ist un -- ser _ Seel ent -- gan -- _ _ gen,
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Wie ein Vo -- gel des Stricks kommt ab,
+  ist un -- ser _ Seel ent -- gan -- _ _ gen,
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Gott Lob und Dank, der nicht __ _ zu -- gab,
-   dass ihr Schlund uns möcht fan -- _ gen.
-   Strick ist ent -- zwei und wir __ _ sind frei,
-   des Her -- ren Na -- men steht uns bei,
-   des Got -- tes Him -- mels und Er -- _ den.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Gott Lob und Dank, der nicht __ _ zu -- gab,
+  dass ihr Schlund uns möcht fan -- _ gen.
+  Strick ist ent -- zwei und wir __ _ sind frei,
+  des Her -- ren Na -- men steht uns bei,
+  des Got -- tes Him -- mels und Er -- _ den.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   Wie ein Vo -- gel des Stricks kommt _ ab,
-   ist un -- ser Seel ent -- gan -- _ gen,
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Wie ein Vo -- gel des Stricks kommt _ ab,
+  ist un -- ser Seel ent -- gan -- _ gen,
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Gott Lob und Dank, der nicht zu -- gab,
-   dass ihr Schlund uns möcht fan -- _ _ gen.
-   Strick ist ent -- zwei und wir sind frei,
-   des Her -- ren Na -- men steht uns bei,
-   des Got -- tes Him -- mels und Er -- den.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Gott Lob und Dank, der nicht zu -- gab,
+  dass ihr Schlund uns möcht fan -- _ _ gen.
+  Strick ist ent -- zwei und wir sind frei,
+  des Her -- ren Na -- men steht uns bei,
+  des Got -- tes Him -- mels und Er -- den.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   Wie ein Vo -- gel des Stricks kommt ab,
-   ist un -- ser Seel ent -- gan -- _ _ gen,
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Wie ein Vo -- gel des Stricks kommt ab,
+  ist un -- ser Seel ent -- gan -- _ _ gen,
 }

@@ -66,102 +66,118 @@ bassMusic = {
   f4 f, bes,2\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   \tweak X-offset #-5.0 "1. Heil" -- ger Geist ins Him -- mels Thro -- ne,
-   glei -- cher Gott von E -- wig -- keit
-   Al -- len Glau -- ben, den ich find,
-   hast du in mir an -- ge -- zündt,
-   ü -- ber mir in Gna -- den wal -- te,
-   fer -- ner dei -- ne Gnad er -- hal -- te.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-5.0 "1. Heil" -- ger Geist ins Him -- mels Thro -- ne,
+  glei -- cher Gott von E -- wig -- keit
+  Al -- len Glau -- ben, den ich find,
+  hast du in mir an -- ge -- zündt,
+  ü -- ber mir in Gna -- den wal -- te,
+  fer -- ner dei -- ne Gnad er -- hal -- te.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   mit dem Va -- ter und dem Soh -- ne,
-   der Be -- trüb -- ten Trost und Freud!
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  mit dem Va -- ter und dem Soh -- ne,
+  der Be -- trüb -- ten Trost und Freud!
 }
 
-sopranoLyricsThree = \lyricmode {\set stanza = 3
-   \tweak X-offset #-4.5 "2. Dei" -- ne Hil -- fe zu mir sen -- de,
-   i du e -- dler Her -- zens -- gast!
-   Blas in mir das Fünk -- lein auf,
-   bis dass nach voll -- brach -- tem Lauf
-   ich den Au -- ser -- wähl -- ten glei -- che
-   und des Glau -- bens Ziel er -- rei -- che.
+sopranoLyricsThree = \lyricmode {
+  \set stanza = 3
+  \tweak X-offset #-4.5 "2. Dei" -- ne Hil -- fe zu mir sen -- de,
+  i du e -- dler Her -- zens -- gast!
+  Blas in mir das Fünk -- lein auf,
+  bis dass nach voll -- brach -- tem Lauf
+  ich den Au -- ser -- wähl -- ten glei -- che
+  und des Glau -- bens Ziel er -- rei -- che.
 }
 
-sopranoLyricsFour = \lyricmode {\set stanza = 4
-   Und das gu -- te Werk vol -- len -- de,
-   das du an -- ge -- fan -- gen hast.
+sopranoLyricsFour = \lyricmode {
+  \set stanza = 4
+  Und das gu -- te Werk vol -- len -- de,
+  das du an -- ge -- fan -- gen hast.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   \tweak X-offset #-5.0 "1. Heil" -- ger Geist ins Him -- mels Thro -- ne,
-   glei -- cher Gott von E -- wig -- keit Al -- len Glau -- ben, den ich find, hast du in mir an -- ge -- zündt, ü -- ber mir in Gna -- den wal -- _ te, fer -- ner dei -- ne Gnad er -- hal -- te.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-5.0 "1. Heil" -- ger Geist ins Him -- mels Thro -- ne,
+  glei -- cher Gott von E -- wig -- keit Al -- len Glau -- ben, den ich find, hast du in mir an -- ge -- zündt, ü -- ber mir in Gna -- den wal -- _ te, fer -- ner dei -- ne Gnad er -- hal -- te.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   mit dem Va -- ter und dem Soh -- ne,
-   der Be -- trüb -- ten Trost und Freud!
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  mit dem Va -- ter und dem Soh -- ne,
+  der Be -- trüb -- ten Trost und Freud!
 }
 
-altoLyricsThree = \lyricmode {\set stanza = 3
-   \tweak X-offset #-4.5 "2. Dei" -- ne Hil -- fe zu mir sen -- de,
-   o du e -- dler Her -- zens -- gast!
-   Blas in mir das Fünk -- lein auf,
-   bis dass nach voll -- brach -- tem Lauf
-   ich den Au -- ser -- wähl -- ten glei -- _ che
-   und des Glau -- bens Ziel er -- rei -- che.
+altoLyricsThree = \lyricmode {
+  \set stanza = 3
+  \tweak X-offset #-4.5 "2. Dei" -- ne Hil -- fe zu mir sen -- de,
+  o du e -- dler Her -- zens -- gast!
+  Blas in mir das Fünk -- lein auf,
+  bis dass nach voll -- brach -- tem Lauf
+  ich den Au -- ser -- wähl -- ten glei -- _ che
+  und des Glau -- bens Ziel er -- rei -- che.
 }
 
-altoLyricsFour = \lyricmode {\set stanza = 4
-   Und das gu -- te Werk vol -- len -- de,
-   das du an -- ge -- fan -- gen hast.
+altoLyricsFour = \lyricmode {
+  \set stanza = 4
+  Und das gu -- te Werk vol -- len -- de,
+  das du an -- ge -- fan -- gen hast.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   \tweak X-offset #-5.0 "1. Heil" -- ger Geist ins Him -- mels Thro -- ne,
-   glei -- cher Gott von E -- wig -- keit Al -- len Glau -- ben, den ich find, hast du in mir an -- ge -- zündt, ü -- ber mir in Gna -- den wal -- _ te, fer -- ner dei -- ne Gnad er -- hal -- _ te.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-5.0 "1. Heil" -- ger Geist ins Him -- mels Thro -- ne,
+  glei -- cher Gott von E -- wig -- keit Al -- len Glau -- ben, den ich find, hast du in mir an -- ge -- zündt, ü -- ber mir in Gna -- den wal -- _ te, fer -- ner dei -- ne Gnad er -- hal -- _ te.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   mit dem Va -- ter und dem Soh -- ne,
-   der Be -- trüb -- ten Trost und Freud!
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  mit dem Va -- ter und dem Soh -- ne,
+  der Be -- trüb -- ten Trost und Freud!
 }
 
-tenorLyricsThree = \lyricmode {\set stanza = 3
-   \tweak X-offset #-4.5 "2. Dei" -- ne Hil -- fe zu mir sen -- de,
-   o du e -- dler Her -- zens -- gast!
-   Blas in mir das Fünk -- lein auf,
-   bis dass nach voll -- brach -- tem Lauf
-   ich den Au -- ser -- wähl -- ten glei -- _ che
-   und des Glau -- bens Ziel er -- rei -- _ che.
+tenorLyricsThree = \lyricmode {
+  \set stanza = 3
+  \tweak X-offset #-4.5 "2. Dei" -- ne Hil -- fe zu mir sen -- de,
+  o du e -- dler Her -- zens -- gast!
+  Blas in mir das Fünk -- lein auf,
+  bis dass nach voll -- brach -- tem Lauf
+  ich den Au -- ser -- wähl -- ten glei -- _ che
+  und des Glau -- bens Ziel er -- rei -- _ che.
 }
 
-tenorLyricsFour = \lyricmode {\set stanza = 4
-   Und das gu -- te Werk vol -- len -- de,
-   das du an -- ge -- fan -- gen hast.
+tenorLyricsFour = \lyricmode {
+  \set stanza = 4
+  Und das gu -- te Werk vol -- len -- de,
+  das du an -- ge -- fan -- gen hast.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   \tweak X-offset #-5.0 "1. Heil" -- ger Geist ins Him -- mels Thro -- ne,
-   glei -- cher Gott von E -- wig -- keit Al -- len Glau -- ben, den ich find, hast du in mir an -- ge -- zündt, ü -- ber mir in Gna -- den wal -- te, fer -- ner dei -- ne Gnad er -- hal -- _ te.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-5.0 "1. Heil" -- ger Geist ins Him -- mels Thro -- ne,
+  glei -- cher Gott von E -- wig -- keit Al -- len Glau -- ben, den ich find, hast du in mir an -- ge -- zündt, ü -- ber mir in Gna -- den wal -- te, fer -- ner dei -- ne Gnad er -- hal -- _ te.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   mit dem Va -- ter und dem Soh -- ne,
-   der Be -- trüb -- ten Trost und Freud!
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  mit dem Va -- ter und dem Soh -- ne,
+  der Be -- trüb -- ten Trost und Freud!
 }
 
-bassLyricsThree = \lyricmode {\set stanza = 3
-   \tweak X-offset #-4.5 "2. Dei" -- ne Hil -- fe zu mir sen -- de,
-   o du e -- dler Her -- zens -- gast!
-   Blas in mir das Fünk -- lein auf,
-   bis dass nach voll -- brach -- tem Lauf
-   ich den Au -- ser -- wähl -- ten glei -- che
-   und des Glau -- bens Ziel er -- rei -- _ che.
+bassLyricsThree = \lyricmode {
+  \set stanza = 3
+  \tweak X-offset #-4.5 "2. Dei" -- ne Hil -- fe zu mir sen -- de,
+  o du e -- dler Her -- zens -- gast!
+  Blas in mir das Fünk -- lein auf,
+  bis dass nach voll -- brach -- tem Lauf
+  ich den Au -- ser -- wähl -- ten glei -- che
+  und des Glau -- bens Ziel er -- rei -- _ che.
 }
 
-bassLyricsFour = \lyricmode {\set stanza = 4
-   Und das gu -- te Werk vol -- len -- de,
-   das du an -- ge -- fan -- gen hast.
+bassLyricsFour = \lyricmode {
+  \set stanza = 4
+  Und das gu -- te Werk vol -- len -- de,
+  das du an -- ge -- fan -- gen hast.
 }

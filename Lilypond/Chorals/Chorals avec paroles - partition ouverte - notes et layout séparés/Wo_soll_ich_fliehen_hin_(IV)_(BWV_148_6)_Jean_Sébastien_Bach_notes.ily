@@ -62,25 +62,28 @@ bassMusic = {
   b,4 cis fis,\fermata \fine
 }
 
-versoOneLyrics = \lyricmode {\set stanza = 1
-   \tweak X-offset #-9 \markup{\concat{\tiny"Texte 1 : " "Führ,"}} Herr, mein Herz und Sinn
-   durch dei -- nen Geist da -- hin,
-   dass ich mög al -- les mei -- den,
-   was mich und dich kann schei -- _ den,
-   und ich an dei -- nem Lei -- be
-   ein Glied -- maß e -- wig blei -- be.
+versoOneLyrics = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-9 \markup{\concat{\tiny"Texte 1 : " "Führ,"}} Herr, mein Herz und Sinn
+  durch dei -- nen Geist da -- hin,
+  dass ich mög al -- les mei -- den,
+  was mich und dich kann schei -- _ den,
+  und ich an dei -- nem Lei -- be
+  ein Glied -- maß e -- wig blei -- be.
 }
 
-versoTwoLyrics = \lyricmode {\set stanza = 2
-   \tweak X-offset #-9 \markup{\concat{\tiny"Texte 2 :    " "A"}} -- men zu al -- ler Stund
-   sprech ich aus Her -- zens -- grund;
-   du woll -- test uns tun lei -- ten,
-   Herr Christ, zu al -- len Zei -- _ ten,
-   auf dass wir dei -- nen Na -- men
-   e -- wig -- lich prei -- sen. A -- men.
+versoTwoLyrics = \lyricmode {
+  \set stanza = 2
+  \tweak X-offset #-9 \markup{\concat{\tiny"Texte 2 :    " "A"}} -- men zu al -- ler Stund
+  sprech ich aus Her -- zens -- grund;
+  du woll -- test uns tun lei -- ten,
+  Herr Christ, zu al -- len Zei -- _ ten,
+  auf dass wir dei -- nen Na -- men
+  e -- wig -- lich prei -- sen. A -- men.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   \tweak X-offset #-9 \markup{\concat{\tiny"Texte 1 : " "Führ,"}} Herr, mein Herz und Sinn
   durch dei -- nen Geist da -- hin,
   dass ich mög al -- les mei -- _ den,
@@ -89,7 +92,8 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   ein Glied maß e -- wig blei -- _ be.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   \tweak X-offset #-9 \markup{\concat{\tiny"Texte 2 :    " "A"}} -- men zu al -- ler Stund
   sprech ich aus Her -- zens -- grund;
   du woll -- test uns tun lei -- _ ten,
@@ -98,7 +102,8 @@ altoLyricsTwo = \lyricmode {\set stanza = 2
   e -- wig lich prei -- sen. A -- _ men.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   \tweak X-offset #-9 \markup{\concat{\tiny"Texte 1 : " "Führ,"}} Herr, mein Herz und Sinn
   durch dei -- nen Geist da -- hin,
   dass ich mög al -- les mei -- _ den,
@@ -107,7 +112,8 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   ein Glied -- maß e -- wig blei -- _ be.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   \tweak X-offset #-9 \markup{\concat{\tiny"Texte 2 :    " "A"}} -- men zu al -- ler Stund
   sprech ich aus Her -- zens -- grund;
   du woll -- test uns tun lei -- _ ten,
@@ -116,7 +122,8 @@ tenorLyricsTwo = \lyricmode {\set stanza = 2
   e -- wig -- lich prei -- sen. A -- _ men.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   \tweak X-offset #-9 \markup{\concat{\tiny"Texte 1 : " "Führ,"}} Herr, mein Herz und Sinn
   durch dei -- nen Geist da -- hin,
   dass ich mög al -- les mei -- _ den,
@@ -125,7 +132,8 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   ein Glied -- maß e -- wig blei -- _ be.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   \tweak X-offset #-9 \markup{\concat{\tiny"Texte 2 :    " "A"}} -- men zu al -- ler Stund
   sprech ich aus Her -- zens -- grund;
   du woll -- test uns tun lei -- _ ten,

@@ -102,7 +102,8 @@ bassMusic = {
   g,2\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
   Aus mei -- nes Her -- _ zens Grun -- _ _ de
   sag' ich dir Lob und Dank,
   O Gott __ in dei -- nem __ Thron,
@@ -111,12 +112,14 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
   dein ein -- ge -- bor -- nen Sohn.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
   In die -- ser Mor -- _ gen -- stun -- _ _ de,
   da -- zu mein Le -- be -- lang,
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   Aus mei -- _ nes Her -- zens Grun -- _ _ de
   sag' ich dir Lob und Dank, __
   O Gott __ in dei -- nem __ Thron,
@@ -125,12 +128,14 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   dein ein -- ge -- bor -- nen Sohn.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   In die -- _ ser Mor -- gen -- stun -- _ _ de,
   da -- zu mein Le -- be -- lang, __
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   Aus mei -- _ nes Her -- _ zens Grun -- _ _ de
   sag' ich dir Lob und Dank, __ _
   O Gott __ in dei -- nem __ Thron,
@@ -139,12 +144,14 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   dein ein -- ge -- bor -- nen Sohn.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   In die -- _ ser Mor -- _ gen -- stun -- _ _ de,
   da -- zu mein Le -- be -- lang, __ _
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Aus mei -- _ nes Her -- _ zens Grun -- _ _ de
   sag' ich dir Lob und Dank, __ _
   O Gott __ in dei -- nem __ Thron,
@@ -153,7 +160,8 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   dein ein -- _ ge -- bor -- _ nen Sohn.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   In die -- _ ser Mor -- _ gen -- stun -- _ _ de,
   da -- zu mein Le -- be -- lang, __ _
 }

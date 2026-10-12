@@ -54,58 +54,66 @@ bassMusic = {
     b,8 [c] d4 g,\fermata }
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Wenn wir in höch -- sten Nö -- then sein
-   und wis -- sen nicht wo aus und ein,
-   und fin -- den we -- der Hülf' noch Rath,
-   ob wir gleich sor -- gen früh und spat.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wenn wir in höch -- sten Nö -- then sein
+  und wis -- sen nicht wo aus und ein,
+  und fin -- den we -- der Hülf' noch Rath,
+  ob wir gleich sor -- gen früh und spat.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   so ist das un -- ser Trost al -- lein,
-   dass wir zu -- sam -- men ins -- ge -- mein
-   an -- ru -- fen dich, du treu -- er Gott,
-   um Ret -- tung aus der Angst und Not.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  so ist das un -- ser Trost al -- lein,
+  dass wir zu -- sam -- men ins -- ge -- mein
+  an -- ru -- fen dich, du treu -- er Gott,
+  um Ret -- tung aus der Angst und Not.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Wenn wir in höch -- sten Nö -- then sein
-   und wis -- sen nicht wo aus und ein,
-   und fin -- den we -- der Hülf' noch Rath,
-   ob wir gleich sor -- gen früh und spat.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wenn wir in höch -- sten Nö -- then sein
+  und wis -- sen nicht wo aus und ein,
+  und fin -- den we -- der Hülf' noch Rath,
+  ob wir gleich sor -- gen früh und spat.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   so ist das un -- ser Trost al -- lein,
-   dass wir zu -- sam -- men ins -- ge -- mein
-   an -- ru -- fen dich, du treu -- er Gott,
-   um Ret -- tung aus der Angst und Not.
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  so ist das un -- ser Trost al -- lein,
+  dass wir zu -- sam -- men ins -- ge -- mein
+  an -- ru -- fen dich, du treu -- er Gott,
+  um Ret -- tung aus der Angst und Not.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Wenn wir in höch -- sten Nö -- then sein
-   und wis -- sen nicht wo aus und ein,
-   und fin -- den we -- der Hülf' noch Rath,
-   ob wir gleich sor -- gen __ _ früh und spat.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wenn wir in höch -- sten Nö -- then sein
+  und wis -- sen nicht wo aus und ein,
+  und fin -- den we -- der Hülf' noch Rath,
+  ob wir gleich sor -- gen __ _ früh und spat.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   so ist das un -- ser Trost al -- lein,
-   dass wir zu -- sam -- men ins -- ge -- mein
-   an -- ru -- fen dich, du treu -- er Gott,
-   um Ret -- tung aus __ _ der Angst und Not.
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  so ist das un -- ser Trost al -- lein,
+  dass wir zu -- sam -- men ins -- ge -- mein
+  an -- ru -- fen dich, du treu -- er Gott,
+  um Ret -- tung aus __ _ der Angst und Not.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Wenn wir in höch -- sten Nö -- then sein
-   und wis -- sen nicht wo aus und ein,
-   und fin -- den we -- der Hülf' noch Rath,
-   ob wir gleich sor -- gen früh und spat.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wenn wir in höch -- sten Nö -- then sein
+  und wis -- sen nicht wo aus und ein,
+  und fin -- den we -- der Hülf' noch Rath,
+  ob wir gleich sor -- gen früh und spat.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   so ist das un -- ser Trost al -- lein,
-   dass wir zu -- sam -- men ins -- ge -- mein
-   an -- ru -- fen dich, du treu -- er Gott,
-   um Ret -- tung aus der Angst und Not.
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  so ist das un -- ser Trost al -- lein,
+  dass wir zu -- sam -- men ins -- ge -- mein
+  an -- ru -- fen dich, du treu -- er Gott,
+  um Ret -- tung aus der Angst und Not.
 }

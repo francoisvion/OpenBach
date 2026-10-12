@@ -66,62 +66,70 @@ bassMusic = {
   b, [g,] a,4 d\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Das Wort sie sol -- len las -- sen stahn
-   und kein' Dank da -- zu ha -- _ ben.
-   Neh -- men sie uns den Leib,
-   Gut, Ehr, Kind und Weib,
-   lass fah -- ren da -- hin,
-   sie ha -- bens kein' Ge -- winn;
-   das Reich muss uns doch blei -- _ ben.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Das Wort sie sol -- len las -- sen stahn
+  und kein' Dank da -- zu ha -- _ ben.
+  Neh -- men sie uns den Leib,
+  Gut, Ehr, Kind und Weib,
+  lass fah -- ren da -- hin,
+  sie ha -- bens kein' Ge -- winn;
+  das Reich muss uns doch blei -- _ ben.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   Er ist bei uns wohl auf dem Plan
-   mit sei -- nem Geist und Ga -- _ ben.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Er ist bei uns wohl auf dem Plan
+  mit sei -- nem Geist und Ga -- _ ben.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Das Wort sie sol -- len las -- sen __ _ stahn
-   und kein' Dank da -- zu ha -- _ ben.
-   Neh -- men sie uns den Leib,
-   Gut, Ehr, Kind und Weib,
-   lass fah -- ren da -- _ hin,
-   sie ha -- bens kein' Ge -- winn;
-   das Reich muss uns doch blei -- _ ben.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Das Wort sie sol -- len las -- sen __ _ stahn
+  und kein' Dank da -- zu ha -- _ ben.
+  Neh -- men sie uns den Leib,
+  Gut, Ehr, Kind und Weib,
+  lass fah -- ren da -- _ hin,
+  sie ha -- bens kein' Ge -- winn;
+  das Reich muss uns doch blei -- _ ben.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   Er ist bei uns wohl auf __ _ dem Plan
-   mit sei -- nem Geist und Ga -- _ ben.
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Er ist bei uns wohl auf __ _ dem Plan
+  mit sei -- nem Geist und Ga -- _ ben.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Das Wort sie sol -- len las -- sen stahn
-   und kein' Dank da -- zu ha -- _ ben.
-   Neh -- men sie uns den Leib,
-   Gut, Ehr, Kind und Weib,
-   lass fah -- ren da -- _ hin,
-   sie ha -- bens kein' Ge -- winn;
-   das Reich muss uns doch blei -- _ ben.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Das Wort sie sol -- len las -- sen stahn
+  und kein' Dank da -- zu ha -- _ ben.
+  Neh -- men sie uns den Leib,
+  Gut, Ehr, Kind und Weib,
+  lass fah -- ren da -- _ hin,
+  sie ha -- bens kein' Ge -- winn;
+  das Reich muss uns doch blei -- _ ben.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   Er ist bei uns wohl auf dem Plan
-   mit sei -- nem Geist und Ga -- _ ben.
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Er ist bei uns wohl auf dem Plan
+  mit sei -- nem Geist und Ga -- _ ben.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Das Wort sie sol -- len las -- sen stahn
-   und kein' Dank da -- zu ha -- _ ben.
-   Neh -- men sie uns den Leib,
-   Gut, Ehr, Kind und Weib,
-   lass fah -- ren da -- _ hin,
-   sie ha -- bens kein' Ge -- winn;
-   das Reich muss uns doch blei -- _ ben.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Das Wort sie sol -- len las -- sen stahn
+  und kein' Dank da -- zu ha -- _ ben.
+  Neh -- men sie uns den Leib,
+  Gut, Ehr, Kind und Weib,
+  lass fah -- ren da -- _ hin,
+  sie ha -- bens kein' Ge -- winn;
+  das Reich muss uns doch blei -- _ ben.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   Er ist bei uns wohl auf dem Plan
-   mit sei -- nem Geist und Ga -- _ ben.
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Er ist bei uns wohl auf dem Plan
+  mit sei -- nem Geist und Ga -- _ ben.
 }

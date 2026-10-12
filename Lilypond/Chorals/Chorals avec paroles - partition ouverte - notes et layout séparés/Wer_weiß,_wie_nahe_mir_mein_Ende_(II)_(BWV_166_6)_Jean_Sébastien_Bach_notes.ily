@@ -54,50 +54,58 @@ bassMusic = {
   d8 [c] d4 g,\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Wer weiss wie na -- he mir mein En -- de!
-   Hin geht die Zeit, her kommt der Tod.
-   Mein Gott, ich bitt' durch Chri -- sti Blut:
-   mach's nur mit mei -- nem En -- de gut!
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wer weiss wie na -- he mir mein En -- de!
+  Hin geht die Zeit, her kommt der Tod.
+  Mein Gott, ich bitt' durch Chri -- sti Blut:
+  mach's nur mit mei -- nem En -- de gut!
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   Ach wie ge -- schwin -- de und be -- hän -- de
-   kann kom -- men mei -- ne To -- des -- not.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Ach wie ge -- schwin -- de und be -- hän -- de
+  kann kom -- men mei -- ne To -- des -- not.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Wer weiss wie na -- he mir mein En -- de!
-   hin geht die Zeit, her kommt der Tod.
-   Mein Gott, ich bitt' durch Chri -- sti Blut:
-   mach's nur mit mei -- nem En -- de gut!
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wer weiss wie na -- he mir mein En -- de!
+  hin geht die Zeit, her kommt der Tod.
+  Mein Gott, ich bitt' durch Chri -- sti Blut:
+  mach's nur mit mei -- nem En -- de gut!
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   Ach wie ge -- schwin -- de und be -- hän -- de
-   kann kom -- men mei -- ne To -- des -- not.
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Ach wie ge -- schwin -- de und be -- hän -- de
+  kann kom -- men mei -- ne To -- des -- not.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Wer weiss wie na -- he mir mein En -- de!
-   Hin geht die Zeit, her kommt der Tod.
-   Mein Gott, ich bitt' durch Chri -- sti Blut:
-   mach's nur mit mei -- nem En -- de gut!
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wer weiss wie na -- he mir mein En -- de!
+  Hin geht die Zeit, her kommt der Tod.
+  Mein Gott, ich bitt' durch Chri -- sti Blut:
+  mach's nur mit mei -- nem En -- de gut!
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   Ach wie ge -- schwin -- de und be -- hän -- de
-   kann kom -- men mei -- ne To -- des -- not.
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Ach wie ge -- schwin -- de und be -- hän -- de
+  kann kom -- men mei -- ne To -- des -- not.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Wer weiss wie na -- he mir mein En -- de!
-   Hin geht die Zeit, her kommt der Tod.
-   Mein Gott, ich bitt' durch Chri -- sti Blut:
-   mach's nur mit mei -- nem En -- de gut!
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wer weiss wie na -- he mir mein En -- de!
+  Hin geht die Zeit, her kommt der Tod.
+  Mein Gott, ich bitt' durch Chri -- sti Blut:
+  mach's nur mit mei -- nem En -- de gut!
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   Ach wie ge -- schwin -- de und be -- hän -- de
-   kann kom -- men mei -- ne To -- des -- not.
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Ach wie ge -- schwin -- de und be -- hän -- de
+  kann kom -- men mei -- ne To -- des -- not.
 }

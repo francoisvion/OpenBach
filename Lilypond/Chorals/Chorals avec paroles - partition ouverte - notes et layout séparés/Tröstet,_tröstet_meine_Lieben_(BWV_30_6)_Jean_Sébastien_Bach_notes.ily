@@ -70,58 +70,66 @@ bassMusic = {
   e4 e, a,2\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Ei -- ne Stim -- me lässt sich hö -- ren
-   in der Wüs -- te weit und breit,
-   ma -- chet Gott ein eb -- ne Bahn,
-   al -- le Welt soll he -- ben an,
-   al -- le Tä -- ler zu er -- hö -- ren,
-   dass die Ber -- ge nie -- drig ste -- hen.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ei -- ne Stim -- me lässt sich hö -- ren
+  in der Wüs -- te weit und breit,
+  ma -- chet Gott ein eb -- ne Bahn,
+  al -- le Welt soll he -- ben an,
+  al -- le Tä -- ler zu er -- hö -- ren,
+  dass die Ber -- ge nie -- drig ste -- hen.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   al -- le Men -- schen zu be -- keh -- ren:
-   macht dem Herrn den Weg be -- reit,
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  al -- le Men -- schen zu be -- keh -- ren:
+  macht dem Herrn den Weg be -- reit,
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Ei -- ne Stim -- me lässt sich hö -- _ ren
-   in der Wüs -- te weit und breit,
-   ma -- chet Gott ein eb -- ne Bahn,
-   al -- le Welt soll he -- ben __ _ an,
-   al -- le Tä -- ler zu er -- hö -- _ ren,
-   dass die Ber -- ge nie -- drig ste -- _ hen.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ei -- ne Stim -- me lässt sich hö -- _ ren
+  in der Wüs -- te weit und breit,
+  ma -- chet Gott ein eb -- ne Bahn,
+  al -- le Welt soll he -- ben __ _ an,
+  al -- le Tä -- ler zu er -- hö -- _ ren,
+  dass die Ber -- ge nie -- drig ste -- _ hen.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   al -- le Men -- schen zu be -- keh -- _ ren:
-   macht dem Herrn den Weg be -- reit,
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  al -- le Men -- schen zu be -- keh -- _ ren:
+  macht dem Herrn den Weg be -- reit,
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Ei -- ne Stim -- me lässt sich hö -- _ ren
-   in der Wüs -- te weit und breit,
-   ma -- chet Gott ein eb -- ne __ _ Bahn,
-   al -- le Welt soll he -- ben an,
-   al -- le Tä -- ler zu er -- hö -- _ ren,
-   dass die Ber -- ge nie -- drig ste -- _ hen.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ei -- ne Stim -- me lässt sich hö -- _ ren
+  in der Wüs -- te weit und breit,
+  ma -- chet Gott ein eb -- ne __ _ Bahn,
+  al -- le Welt soll he -- ben an,
+  al -- le Tä -- ler zu er -- hö -- _ ren,
+  dass die Ber -- ge nie -- drig ste -- _ hen.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   al -- le Men -- schen zu be -- keh -- _ ren:
-   macht dem Herrn den Weg be -- reit,
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  al -- le Men -- schen zu be -- keh -- _ ren:
+  macht dem Herrn den Weg be -- reit,
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Ei -- ne Stim -- me lässt sich hö -- _ ren
-   in der Wüs -- te weit und breit,
-   ma -- chet Gott ein eb -- ne Bahn,
-   al -- le Welt soll he -- ben an,
-   al -- le Tä -- ler zu er -- hö -- _ ren,
-   dass die Ber -- ge nie -- drig ste -- _ hen.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ei -- ne Stim -- me lässt sich hö -- _ ren
+  in der Wüs -- te weit und breit,
+  ma -- chet Gott ein eb -- ne Bahn,
+  al -- le Welt soll he -- ben an,
+  al -- le Tä -- ler zu er -- hö -- _ ren,
+  dass die Ber -- ge nie -- drig ste -- _ hen.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   al -- le Men -- schen zu be -- keh -- _ ren:
-   macht dem Herrn den Weg be -- reit,
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  al -- le Men -- schen zu be -- keh -- _ ren:
+  macht dem Herrn den Weg be -- reit,
 }

@@ -70,52 +70,59 @@ bassMusic = {
   d'4 d g,\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Ich lieg im Streit und wi -- der -- streb,
-   hilf, o Herr Christ, dem Schwa -- chen!
-   Kommt nun An -- fech -- tung, Herr, so wehr,
-   dass sie mich nicht um -- sto -- ßen.
-   Du kannst ma -- ßen,
-   dass mirs nicht bring Ge -- fahr;
-   ich weiß, du wirsts nicht las -- _ sen.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ich lieg im Streit und wi -- der -- streb,
+  hilf, o Herr Christ, dem Schwa -- chen!
+  Kommt nun An -- fech -- tung, Herr, so wehr,
+  dass sie mich nicht um -- sto -- ßen.
+  Du kannst ma -- ßen,
+  dass mirs nicht bring Ge -- fahr;
+  ich weiß, du wirsts nicht las -- _ sen.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   An dei -- ner Gnad al -- lein ich kleb,
-   du kannst mich stär -- ker ma -- chen.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  An dei -- ner Gnad al -- lein ich kleb,
+  du kannst mich stär -- ker ma -- chen.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Ich lieg im Streit und wi -- der -- streb,
-   hilf, o Herr Christ, dem Schwa -- _ _ chen!
-   Kommt nun An -- fech -- tung, Herr, so wehr,
-   dass sie mich nicht um -- sto -- _ ßen.
-   Du kannst ma -- _ ßen,
-   dass mirs nicht bring Ge -- fahr;
-   ich weiß, du wirsts nicht las -- _ sen.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ich lieg im Streit und wi -- der -- streb,
+  hilf, o Herr Christ, dem Schwa -- _ _ chen!
+  Kommt nun An -- fech -- tung, Herr, so wehr,
+  dass sie mich nicht um -- sto -- _ ßen.
+  Du kannst ma -- _ ßen,
+  dass mirs nicht bring Ge -- fahr;
+  ich weiß, du wirsts nicht las -- _ sen.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   An dei -- ner Gnad al -- lein ich kleb,
-   du kannst mich stär -- ker ma -- _ _ chen.
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  An dei -- ner Gnad al -- lein ich kleb,
+  du kannst mich stär -- ker ma -- _ _ chen.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Ich lieg im Streit und wi -- der -- streb,
-   hilf, o Herr Christ, dem Schwa -- _ chen!
-   Kommt nun An -- fech -- tung, Herr, so wehr,
-   dass sie mich nicht um -- sto -- _ _ ßen.
-   Du kannst ma -- _ ßen,
-   dass mirs nicht bring Ge -- fahr;
-   ich weiß, du wirsts nicht las -- _ sen.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ich lieg im Streit und wi -- der -- streb,
+  hilf, o Herr Christ, dem Schwa -- _ chen!
+  Kommt nun An -- fech -- tung, Herr, so wehr,
+  dass sie mich nicht um -- sto -- _ _ ßen.
+  Du kannst ma -- _ ßen,
+  dass mirs nicht bring Ge -- fahr;
+  ich weiß, du wirsts nicht las -- _ sen.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   An dei -- ner Gnad al -- lein ich kleb,
-   du kannst mich stär -- ker ma -- _ chen.
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  An dei -- ner Gnad al -- lein ich kleb,
+  du kannst mich stär -- ker ma -- _ chen.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Ich lieg im Streit und wi -- der -- streb,
   hilf, o Herr Christ, dem Schwa -- chen!
   Kommt nun An -- fech -- tung, Herr, so wehr,
@@ -125,7 +132,8 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   ich weiß, du wirsts nicht las -- _ sen.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   An dei -- ner Gnad al -- lein ich kleb,
   du kannst mich stär -- ker ma -- chen.
 }

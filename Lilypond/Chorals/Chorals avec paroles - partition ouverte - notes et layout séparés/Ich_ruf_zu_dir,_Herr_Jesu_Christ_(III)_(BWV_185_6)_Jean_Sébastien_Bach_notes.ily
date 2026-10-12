@@ -1,10 +1,10 @@
 sopranoMusic = {
-\repeat volta 2 {
-  \partial 4 cis''8 [b']
-  a'4 b' a'8 [gis'] fis' [gis']
-  a' [b'] b'8. [a'32 b'] cis''4\fermata cis''8 [d'']
-  e'' [d''] cis'' [b'] a'4 b'8 [cis'']
-  d''2 cis''4\fermata }
+  \repeat volta 2 {
+    \partial 4 cis''8 [b']
+    a'4 b' a'8 [gis'] fis' [gis']
+    a' [b'] b'8. [a'32 b'] cis''4\fermata cis''8 [d'']
+    e'' [d''] cis'' [b'] a'4 b'8 [cis'']
+    d''2 cis''4\fermata }
   e'' fis'' e''8 [d''] cis'' [b']
   a' [b'] cis'' [d''16 e''] b'4 a'\fermata
   cis'' cis'' cis'' b'
@@ -17,12 +17,12 @@ sopranoMusic = {
 }
 
 altoMusic = {
-\repeat volta 2 {
-  \partial 4 gis'4
-  a' gis' fis' cis''8 [b']
-  a' [gis'] fis'4 gis'\fermata a'
-  gis'8 [fis'] e'4 fis'4. e'8
-  d' [e' fis' gis'] a'4\fermata }
+  \repeat volta 2 {
+    \partial 4 gis'4
+    a' gis' fis' cis''8 [b']
+    a' [gis'] fis'4 gis'\fermata a'
+    gis'8 [fis'] e'4 fis'4. e'8
+    d' [e' fis' gis'] a'4\fermata }
   a'8 [gis'] fis'4 gis' a'8 [fis']
   e' [d'] cis' [b16 a] e'4 e'\fermata
   e' fis' fis'8 [e'] d'4
@@ -35,12 +35,12 @@ altoMusic = {
 }
 
 tenorMusic = {
-\repeat volta 2 {
-  \partial 4 cis'4
-  cis' cis' cis'8 [b] a [gis]
-  fis4 fis cis'\fermata a
-  b cis' d'8 [cis'] d' [e']
-  fis' [e'] d' [cis'16 b] cis'4\fermata }
+  \repeat volta 2 {
+    \partial 4 cis'4
+    cis' cis' cis'8 [b] a [gis]
+    fis4 fis cis'\fermata a
+    b cis' d'8 [cis'] d' [e']
+    fis' [e'] d' [cis'16 b] cis'4\fermata }
   cis'8 [b] a4 e' e'8 [d']
   cis' [b] a4 b cis'\fermata
   cis'8 [b] a4 a gis
@@ -53,12 +53,12 @@ tenorMusic = {
 }
 
 bassMusic = {
-\repeat volta 2 {
-  \partial 4 eis4
-  fis cis fis, fis
-  e d cis\fermata fis
-  gis a d cis
-  b,2 fis,4\fermata }
+  \repeat volta 2 {
+    \partial 4 eis4
+    fis cis fis, fis
+    e d cis\fermata fis
+    gis a d cis
+    b,2 fis,4\fermata }
   cis d e a,8 [b,]
   cis [d] e4 e, a,\fermata
   a8 [gis] fis [e] dis4 eis
@@ -70,7 +70,8 @@ bassMusic = {
   cis fis,2.\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
   Ich ruf zu dir, Herr Je -- su __ Christ,
   ich bitt, er -- hör mein Kla -- gen,
   den rech -- ten Glau -- ben, Herr, __ ich mein,
@@ -79,12 +80,14 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
   meinm Näch -- sten nütz zu sein, dein Wort zu hal -- ten e -- _ ben.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
   ver -- leih mir Gnad zu die -- ser __ Frist,
   lass mich doch nicht ver -- za -- gen;
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   Ich ruf zu dir, Herr Je -- su Christ,
   ich bitt, er -- hör mein Kla -- gen,
   den rech -- ten Glau -- ben, Herr, __ ich mein,
@@ -93,12 +96,14 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   meinm Näch -- sten nütz zu sein, dein Wort zu hal -- ten e -- _ ben.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   ver -- leih mir Gnad zu die -- ser Frist,
   lass mich doch nicht ver -- za -- gen;
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   Ich ruf zu dir, Herr Je -- su Christ,
   ich bitt, er -- hör mein Kla -- _ gen,
   den rech -- ten Glau -- ben, Herr, ich mein,
@@ -107,12 +112,14 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   meinm Näch -- sten nütz zu sein, dein Wort zu hal -- ten e -- _ ben.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   ver -- leih mir Gnad zu die -- ser Frist,
   lass mich doch nicht ver -- za -- _ gen;
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Ich ruf zu dir, Herr Je -- su Christ,
   ich bitt, er -- hör mein Kla -- gen,
   den rech -- ten Glau -- ben, Herr, ich mein,
@@ -121,7 +128,8 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   meinm Näch -- sten nütz zu sein, dein Wort zu hal -- ten e -- _ ben.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   ver -- leih mir Gnad zu die -- ser Frist,
   lass mich doch nicht ver -- za -- gen;
 }

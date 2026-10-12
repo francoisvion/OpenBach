@@ -27,13 +27,13 @@
 }
 
 \header {
- title = "Was Gott tut, das ist wohlgetan (III)"
- poet = "Auteur : Samuel Rodigast (1649-1708)"
+  title = "Was Gott tut, das ist wohlgetan (III)"
+  poet = "Auteur : Samuel Rodigast (1649-1708)"
   opus = "BWV 250"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

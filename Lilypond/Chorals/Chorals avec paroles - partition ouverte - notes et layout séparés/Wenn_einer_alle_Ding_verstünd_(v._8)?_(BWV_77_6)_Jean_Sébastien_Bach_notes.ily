@@ -70,106 +70,122 @@ bassMusic = {
   c' cis' d'\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   \tweak X-offset #-9 \markup{\concat{\small "Texte 1. " "Du"}} stellst, mein Je -- su, sel -- ber dich
-   zum Vor -- bild wah -- rer Lie -- _ be:
-   dass ich bei al -- lem, wo ich kann,
-   stets lieb und hel -- fe je -- der -- mann
-   Nach dei -- nem Wort und Wei -- _ se.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-9 \markup{\concat{\small "Texte 1. " "Du"}} stellst, mein Je -- su, sel -- ber dich
+  zum Vor -- bild wah -- rer Lie -- _ be:
+  dass ich bei al -- lem, wo ich kann,
+  stets lieb und hel -- fe je -- der -- mann
+  Nach dei -- nem Wort und Wei -- _ se.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   gib mir auch Gnad und Kraft, dass ich
-   Gott und den Näch -- sten lie -- _ be:
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  gib mir auch Gnad und Kraft, dass ich
+  Gott und den Näch -- sten lie -- _ be:
 }
 
-sopranoLyricsThree = \lyricmode {\set stanza = 1
-   \tweak X-offset #-9 \markup{\concat{\small "Texte 2. " "Herr,"}} durch den Glau -- ben wohn in mir,
-   Lass ihn sich im -- mer stär -- _ ken,
-   dass er sei tä -- tig durch die Lieb,
-   mit Freu -- den und Ge -- duld sich üb,
-   dem Näch -- sten fort zu die -- _ nen.
+sopranoLyricsThree = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-9 \markup{\concat{\small "Texte 2. " "Herr,"}} durch den Glau -- ben wohn in mir,
+  Lass ihn sich im -- mer stär -- _ ken,
+  dass er sei tä -- tig durch die Lieb,
+  mit Freu -- den und Ge -- duld sich üb,
+  dem Näch -- sten fort zu die -- _ nen.
 }
 
-sopranoLyricsFour = \lyricmode {\set stanza = 2
-   dass er sei frucht -- bar für und für
-   und reich in gu -- ten Wer -- _ ken;
+sopranoLyricsFour = \lyricmode {
+  \set stanza = 2
+  dass er sei frucht -- bar für und für
+  und reich in gu -- ten Wer -- _ ken;
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   \tweak X-offset #-9 \markup{\concat{\small "Texte 1. " "Du" _ }} stellst, __ _ mein Je -- su, sel -- ber dich
-   zum Vor -- bild wah -- rer Lie -- _ be:
-   dass ich bei al -- lem, wo ich kann, 
-   stets lieb und hel -- fe je -- der -- mann
-   Nach dei -- nem Wort und Wei -- _ se.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-9 \markup{\concat{\small "Texte 1. " "Du" _ }} stellst, __ _ mein Je -- su, sel -- ber dich
+  zum Vor -- bild wah -- rer Lie -- _ be:
+  dass ich bei al -- lem, wo ich kann, 
+  stets lieb und hel -- fe je -- der -- mann
+  Nach dei -- nem Wort und Wei -- _ se.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   gib mir __ _ auch Gnad und Kraft, dass ich
-   Gott und den Näch -- sten lie -- _ be:
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  gib mir __ _ auch Gnad und Kraft, dass ich
+  Gott und den Näch -- sten lie -- _ be:
 }
 
-altoLyricsThree = \lyricmode {\set stanza = 1
-   \tweak X-offset #-9 \markup{\concat{\small "Texte 2. " "Herr,"}} durch __ _ den Glau -- ben wohn in mir,
-   Lass ihn sich im -- mer stär -- _ ken,
-   dass er sei tä -- tig durch die Lieb,
-   mit Freu -- den und Ge -- duld sich üb,
-   dem Näch -- sten fort zu die -- _ nen.
+altoLyricsThree = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-9 \markup{\concat{\small "Texte 2. " "Herr,"}} durch __ _ den Glau -- ben wohn in mir,
+  Lass ihn sich im -- mer stär -- _ ken,
+  dass er sei tä -- tig durch die Lieb,
+  mit Freu -- den und Ge -- duld sich üb,
+  dem Näch -- sten fort zu die -- _ nen.
 }
 
-altoLyricsFour = \lyricmode {\set stanza = 2
-   dass er __ _ sei frucht -- bar für und für
-   und reich in gu -- ten Wer -- _ ken;
+altoLyricsFour = \lyricmode {
+  \set stanza = 2
+  dass er __ _ sei frucht -- bar für und für
+  und reich in gu -- ten Wer -- _ ken;
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   \tweak X-offset #-9  \markup{\concat{\small "Texte 1. " "Du" }} stellst, mein Je -- su, sel -- ber dich
-   zum Vor -- bild wah -- rer Lie -- _ be:
-   dass ich bei al -- lem, wo ich kann,
-   stets lieb und hel -- fe je -- der -- mann
-   Nach dei -- nem Wort und Wei -- _ se.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-9  \markup{\concat{\small "Texte 1. " "Du" }} stellst, mein Je -- su, sel -- ber dich
+  zum Vor -- bild wah -- rer Lie -- _ be:
+  dass ich bei al -- lem, wo ich kann,
+  stets lieb und hel -- fe je -- der -- mann
+  Nach dei -- nem Wort und Wei -- _ se.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   gib mir auch Gnad und Kraft, dass ich
-   Gott und den Näch -- sten lie -- _ be:
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  gib mir auch Gnad und Kraft, dass ich
+  Gott und den Näch -- sten lie -- _ be:
 }
 
-tenorLyricsThree = \lyricmode {\set stanza = 1
-   \tweak X-offset #-9 \markup{\concat{\small "Texte 2. " "Herr,"}} durch den Glau -- ben wohn in mir,
-   Lass ihn sich im -- mer stär -- _ ken,
-   dass er sei tä -- tig durch die Lieb,
-   mit Freu -- den und Ge -- duld sich üb,
-   dem Näch -- sten fort zu die -- _ nen.
+tenorLyricsThree = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-9 \markup{\concat{\small "Texte 2. " "Herr,"}} durch den Glau -- ben wohn in mir,
+  Lass ihn sich im -- mer stär -- _ ken,
+  dass er sei tä -- tig durch die Lieb,
+  mit Freu -- den und Ge -- duld sich üb,
+  dem Näch -- sten fort zu die -- _ nen.
 }
 
-tenorLyricsFour = \lyricmode {\set stanza = 2
-   dass er sei frucht -- bar für und für
-   und reich in gu -- ten Wer -- _ ken;
+tenorLyricsFour = \lyricmode {
+  \set stanza = 2
+  dass er sei frucht -- bar für und für
+  und reich in gu -- ten Wer -- _ ken;
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   \tweak X-offset #-9 \markup{\concat{\small "Texte 1. " "Du" }} stellst, mein Je -- su, sel -- ber dich
-   zum Vor -- bild wah -- rer Lie -- be:
-   dass ich bei al -- lem, wo ich kann,
-   stets lieb und hel -- fe je -- der -- mann
-   Nach dei -- nem Wort und Wei -- _ se.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-9 \markup{\concat{\small "Texte 1. " "Du" }} stellst, mein Je -- su, sel -- ber dich
+  zum Vor -- bild wah -- rer Lie -- be:
+  dass ich bei al -- lem, wo ich kann,
+  stets lieb und hel -- fe je -- der -- mann
+  Nach dei -- nem Wort und Wei -- _ se.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   gib mir auch Gnad und Kraft, dass ich
-   Gott und den Näch -- sten lie be:
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  gib mir auch Gnad und Kraft, dass ich
+  Gott und den Näch -- sten lie be:
 }
 
-bassLyricsThree = \lyricmode {\set stanza = 1
-   \tweak X-offset #-9 \markup{\concat{\small "Texte 2. " "Herr,"}} durch den Glau -- ben wohn in mir,
-   Lass ihn sich im -- mer stär -- ken,
-   dass er sei tä -- tig durch die Lieb,
-   mit Freu -- den und Ge -- duld sich üb,
-   dem Näch -- sten fort zu die -- _ nen.
+bassLyricsThree = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-9 \markup{\concat{\small "Texte 2. " "Herr,"}} durch den Glau -- ben wohn in mir,
+  Lass ihn sich im -- mer stär -- ken,
+  dass er sei tä -- tig durch die Lieb,
+  mit Freu -- den und Ge -- duld sich üb,
+  dem Näch -- sten fort zu die -- _ nen.
 }
 
-bassLyricsFour = \lyricmode {\set stanza = 2
-   dass er sei frucht -- bar für und für
-   und reich in gu -- ten Wer -- ken;
+bassLyricsFour = \lyricmode {
+  \set stanza = 2
+  dass er sei frucht -- bar für und für
+  und reich in gu -- ten Wer -- ken;
 }

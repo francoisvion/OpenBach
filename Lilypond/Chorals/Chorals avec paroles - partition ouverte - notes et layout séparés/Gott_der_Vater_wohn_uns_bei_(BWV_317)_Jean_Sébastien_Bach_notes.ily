@@ -82,82 +82,90 @@ bassMusic = {
   a a, d2\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Gott der Va -- ter wohn' uns bei
-   und lass' uns nicht ver -- der -- _ ben,
-   Vor dem Teu -- fel uns be -- wahr',
-   halt' uns bei fe -- stem Glau -- _ ben,
-   und auf dich lass uns bau -- _ en,
-   aus Herz -- zens -- grund ver -- trau -- _ en,
-   A -- men, a -- men, das sei wahr,
-   so sin -- gen wir Al -- le -- lu -- ia.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Gott der Va -- ter wohn' uns bei
+  und lass' uns nicht ver -- der -- _ ben,
+  Vor dem Teu -- fel uns be -- wahr',
+  halt' uns bei fe -- stem Glau -- _ ben,
+  und auf dich lass uns bau -- _ en,
+  aus Herz -- zens -- grund ver -- trau -- _ en,
+  A -- men, a -- men, das sei wahr,
+  so sin -- gen wir Al -- le -- lu -- ia.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   Mach uns al -- ler Sün -- den frei
-   und helf uns se -- lig ster -- _ ben.
-   dir uns las -- sen ganz und gar,
-   mit al -- len rech -- ten Chris -- _ ten
-   ent -- flie -- hen Teu -- fels Lis -- _ ten,
-   mit Waf -- fen Gotts uns fris -- _ ten.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Mach uns al -- ler Sün -- den frei
+  und helf uns se -- lig ster -- _ ben.
+  dir uns las -- sen ganz und gar,
+  mit al -- len rech -- ten Chris -- _ ten
+  ent -- flie -- hen Teu -- fels Lis -- _ ten,
+  mit Waf -- fen Gotts uns fris -- _ ten.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Gott der Va -- ter wohn' uns bei
-   und lass' uns nicht ver __ -- _ der -- _ ben,
-   Vor dem Teu -- fel __ _ uns be -- wahr',
-   halt' uns bei fe -- stem Glau -- _ ben,
-   und auf dich lass uns bau -- _ en,
-   aus Herz -- zens -- grund ver -- trau -- _ _ en,
-   A -- men, a -- men, das sei wahr,
-   so sin -- gen wir Al -- le -- lu __ -- _ ja.
-    }
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Gott der Va -- ter wohn' uns bei
+  und lass' uns nicht ver __ -- _ der -- _ ben,
+  Vor dem Teu -- fel __ _ uns be -- wahr',
+  halt' uns bei fe -- stem Glau -- _ ben,
+  und auf dich lass uns bau -- _ en,
+  aus Herz -- zens -- grund ver -- trau -- _ _ en,
+  A -- men, a -- men, das sei wahr,
+  so sin -- gen wir Al -- le -- lu __ -- _ ja.
+}
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   Mach uns al -- ler Sün -- den frei
-   und helf uns se -- lig _ ster -- _ ben.
-   dir uns las -- _ sen ganz und gar,
-   mit al -- len rech -- ten Chris -- _ ten 
-   ent -- flie -- hen Teu -- fels Lis -- _ ten,
-   mit Waf -- fen Gotts uns fris -- _ _ ten.
-    }
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Mach uns al -- ler Sün -- den frei
+  und helf uns se -- lig _ ster -- _ ben.
+  dir uns las -- _ sen ganz und gar,
+  mit al -- len rech -- ten Chris -- _ ten 
+  ent -- flie -- hen Teu -- fels Lis -- _ ten,
+  mit Waf -- fen Gotts uns fris -- _ _ ten.
+}
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Gott der Va -- ter wohn' uns bei
-   und lass' uns nicht ver -- der -- _ ben,
-   Vor dem Teu -- fel uns be -- wahr',
-   halt' uns bei fe -- stem Glau -- _ ben,
-   und auf dich lass uns bau -- _ en,
-   aus Herz -- zens -- grund ver -- trau -- _ en,
-   A -- men, a -- men, das sei wahr,
-   so sin -- gen wir Al -- le -- lu -- ja.
-    }
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Gott der Va -- ter wohn' uns bei
+  und lass' uns nicht ver -- der -- _ ben,
+  Vor dem Teu -- fel uns be -- wahr',
+  halt' uns bei fe -- stem Glau -- _ ben,
+  und auf dich lass uns bau -- _ en,
+  aus Herz -- zens -- grund ver -- trau -- _ en,
+  A -- men, a -- men, das sei wahr,
+  so sin -- gen wir Al -- le -- lu -- ja.
+}
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   Mach uns al -- ler Sün -- den frei
-   und helf uns se -- lig ster -- _ ben.
-   dir uns las -- sen ganz und gar,
-   mit al -- len rech -- ten Chris -- _ ten
-   ent -- flie -- hen Teu -- fels Lis -- _ ten,
-   mit Waf -- fen Gotts uns fris -- _ ten.
-    }
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Mach uns al -- ler Sün -- den frei
+  und helf uns se -- lig ster -- _ ben.
+  dir uns las -- sen ganz und gar,
+  mit al -- len rech -- ten Chris -- _ ten
+  ent -- flie -- hen Teu -- fels Lis -- _ ten,
+  mit Waf -- fen Gotts uns fris -- _ ten.
+}
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Gott der Va -- ter wohn' uns bei
-   und lass' uns nicht ver -- der -- _ ben,
-   Vor dem Teu -- fel uns be -- wahr',
-   halt' uns bei fe -- stem Glau -- _ ben,
-   und auf dich lass uns bau -- _ en,
-   aus Herz -- zens -- grund ver -- trau -- _ en,
-   A -- men, a -- men, das sei __ _ wahr,
-   so sin -- gen wir Al -- le -- lu -- ja.
-    }
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Gott der Va -- ter wohn' uns bei
+  und lass' uns nicht ver -- der -- _ ben,
+  Vor dem Teu -- fel uns be -- wahr',
+  halt' uns bei fe -- stem Glau -- _ ben,
+  und auf dich lass uns bau -- _ en,
+  aus Herz -- zens -- grund ver -- trau -- _ en,
+  A -- men, a -- men, das sei __ _ wahr,
+  so sin -- gen wir Al -- le -- lu -- ja.
+}
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   Mach uns al -- ler Sün -- den frei
-   und helf uns se -- lig ster -- _ ben.
-   dir uns las -- sen ganz und gar,
-   mit al -- len rech -- ten Chris -- _ ten
-   ent -- flie -- hen Teu -- fels Lis -- _ ten,
-   mit Waf -- fen Gotts uns fris -- _ ten.
-    }
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Mach uns al -- ler Sün -- den frei
+  und helf uns se -- lig ster -- _ ben.
+  dir uns las -- sen ganz und gar,
+  mit al -- len rech -- ten Chris -- _ ten
+  ent -- flie -- hen Teu -- fels Lis -- _ ten,
+  mit Waf -- fen Gotts uns fris -- _ ten.
+}

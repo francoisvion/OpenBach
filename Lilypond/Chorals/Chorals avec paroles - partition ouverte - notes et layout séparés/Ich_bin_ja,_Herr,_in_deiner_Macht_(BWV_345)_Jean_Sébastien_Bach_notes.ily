@@ -58,21 +58,24 @@ bassMusic = {
   g d g,\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Ich bin ja, Herr, in dei -- ner Macht,
-   du hast mich an das Licht __ ge -- bracht,
-   und du er -- hältst mir auch das Le -- ben,
-   Wo, wie und wann ich ster -- _ ben soll,
-   das weißt du, Va -- ter, mehr als wohl.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ich bin ja, Herr, in dei -- ner Macht,
+  du hast mich an das Licht __ ge -- bracht,
+  und du er -- hältst mir auch das Le -- ben,
+  Wo, wie und wann ich ster -- _ ben soll,
+  das weißt du, Va -- ter, mehr als wohl.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   du ken -- nest mei -- ner Mon -- den Zahl,
-   weißt wann ich die -- sem Jam -- mer -- thal
-   auch wie -- der gu -- te Nacht soll ge -- ben.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  du ken -- nest mei -- ner Mon -- den Zahl,
+  weißt wann ich die -- sem Jam -- mer -- thal
+  auch wie -- der gu -- te Nacht soll ge -- ben.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   Ich bin ja, Herr, in dei -- ner Macht,
   du hast mich an das Licht ge -- bracht,
   und du er -- hältst mir auch das Le -- _ ben,
@@ -80,13 +83,15 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   das weißt du, Va -- ter, mehr als wohl.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   du ken -- nest mei -- ner Mon -- den Zahl,
   weißt wann ich die -- sem Jam -- mer -- thal
   auch wie -- der gu -- te Nacht soll ge -- _ ben.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   Ich bin ja, Herr, in dei -- ner Macht,
   du hast mich an das Licht ge -- bracht,
   und du er -- hältst mir auch das Le -- _ ben,
@@ -94,13 +99,15 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   das weißt du, Va -- ter, mehr als wohl.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   du ken -- nest mei -- ner Mon -- den Zahl,
   weißt wann ich die -- sem Jam -- mer -- thal
   auch wie -- der gu -- te Nacht soll ge -- _ ben.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Ich bin ja, Herr, in dei -- ner Macht,
   du hast mich an das Licht ge -- bracht,
   und du er -- hältst mir auch das Le -- _ ben,
@@ -108,7 +115,8 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   das weißt du, Va -- ter, mehr als wohl.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   du ken -- nest mei -- ner Mon -- den Zahl,
   weißt wann ich die -- sem Jam -- mer -- thal
   auch wie -- der gu -- te Nacht soll ge -- _ ben.

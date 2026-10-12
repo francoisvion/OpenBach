@@ -66,58 +66,66 @@ bassMusic = \transpose c d {
   g, a, d,2\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Wir es -- sen und wir le -- ben wohl
-   im rech -- ten O -- ster -- fla -- _ den,
-   Chri -- stus will die Ko -- ste sein
-   und spei -- _ sen die Seel al -- lein,
-   der Glaub will keins an -- dern le -- ben.
-   Al -- _ le -- lu -- ia!
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wir es -- sen und wir le -- ben wohl
+  im rech -- ten O -- ster -- fla -- _ den,
+  Chri -- stus will die Ko -- ste sein
+  und spei -- _ sen die Seel al -- lein,
+  der Glaub will keins an -- dern le -- ben.
+  Al -- _ le -- lu -- ia!
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   Der al -- te Sau -- er -- teig nicht soll
-   sein bei dem Wort der Gna -- _ den,
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Der al -- te Sau -- er -- teig nicht soll
+  sein bei dem Wort der Gna -- _ den,
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Wir es -- sen und wir le -- ben wohl
-   im rech -- ten O -- ster -- fla -- _ den,
-   Chri -- stus will die Ko -- ste sein
-   und spei -- _ sen die Seel al -- lein,
-   der Glaub will keins an -- dern le -- ben.
-   Al le -- _ lu -- ia!
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wir es -- sen und wir le -- ben wohl
+  im rech -- ten O -- ster -- fla -- _ den,
+  Chri -- stus will die Ko -- ste sein
+  und spei -- _ sen die Seel al -- lein,
+  der Glaub will keins an -- dern le -- ben.
+  Al le -- _ lu -- ia!
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   Der al -- te Sau -- er -- teig nicht soll
-   sein bei dem Wort der Gna -- _ den,
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Der al -- te Sau -- er -- teig nicht soll
+  sein bei dem Wort der Gna -- _ den,
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Wir es -- sen und wir le -- ben wohl
-   im rech -- ten O -- ster -- fla -- _ den,
-   Chri -- stus will die Ko -- ste sein
-   und spei -- _ sen die Seel al -- lein,
-   der Glaub will keins an -- dern le -- ben.
-   Al -- _ le -- _ lu -- ia!
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wir es -- sen und wir le -- ben wohl
+  im rech -- ten O -- ster -- fla -- _ den,
+  Chri -- stus will die Ko -- ste sein
+  und spei -- _ sen die Seel al -- lein,
+  der Glaub will keins an -- dern le -- ben.
+  Al -- _ le -- _ lu -- ia!
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   Der al -- te Sau -- er -- teig nicht soll
-   sein bei dem Wort der Gna -- _ den,
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Der al -- te Sau -- er -- teig nicht soll
+  sein bei dem Wort der Gna -- _ den,
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Wir es -- sen und wir le -- ben wohl
-   im rech -- ten O -- ster -- fla -- _ den,
-   Chri -- stus will die Ko -- ste sein
-   und spei -- _ sen die Seel al -- lein,
-   der Glaub will keins an -- dern le -- ben.
-   Al -- _ le -- _ lu -- _ ia!
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wir es -- sen und wir le -- ben wohl
+  im rech -- ten O -- ster -- fla -- _ den,
+  Chri -- stus will die Ko -- ste sein
+  und spei -- _ sen die Seel al -- lein,
+  der Glaub will keins an -- dern le -- ben.
+  Al -- _ le -- _ lu -- _ ia!
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   Der al -- te Sau -- er -- teig nicht soll
-   sein bei dem Wort der Gna -- _ den,
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Der al -- te Sau -- er -- teig nicht soll
+  sein bei dem Wort der Gna -- _ den,
 }

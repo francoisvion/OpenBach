@@ -74,58 +74,66 @@ bassMusic = {
   fis b,2.\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Soll ich den auch des To -- des Weg
-   und fin -- stre Stra -- _ _ ße rei -- sen,
-   Du bist mein Hirt, der al -- les wird
-   zu sol -- chem En -- de keh -- ren,
-   dass ich ein -- mal in dei -- nem Saal
-   dich e -- wig mö -- _ _ ge eh -- ren.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Soll ich den auch des To -- des Weg
+  und fin -- stre Stra -- _ _ ße rei -- sen,
+  Du bist mein Hirt, der al -- les wird
+  zu sol -- chem En -- de keh -- ren,
+  dass ich ein -- mal in dei -- nem Saal
+  dich e -- wig mö -- _ _ ge eh -- ren.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   wohl -- an! ich tret auf Bahn und Steg,
-   den mir dein Au -- _ _ gen wei -- sen.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wohl -- an! ich tret auf Bahn und Steg,
+  den mir dein Au -- _ _ gen wei -- sen.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Soll ich den auch des To -- des Weg
-   und fin -- stre Stra -- _ ße rei -- _ sen,
-   Du bist mein Hirt, der al -- les wird
-   zu sol -- chem En -- de keh -- _ ren,
-   dass ich ein -- mal in dei -- nem Saal
-   dich e -- wig mö -- _ ge eh -- _ ren.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Soll ich den auch des To -- des Weg
+  und fin -- stre Stra -- _ ße rei -- _ sen,
+  Du bist mein Hirt, der al -- les wird
+  zu sol -- chem En -- de keh -- _ ren,
+  dass ich ein -- mal in dei -- nem Saal
+  dich e -- wig mö -- _ ge eh -- _ ren.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   wohl -- an! ich tret auf Bahn und Steg,
-   den mir dein Au -- _ gen wei -- _ sen.
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wohl -- an! ich tret auf Bahn und Steg,
+  den mir dein Au -- _ gen wei -- _ sen.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Soll ich den auch des To -- des Weg
-   und fin -- stre Stra -- _ _ ße rei -- sen,
-   Du bist mein Hirt, der al -- les wird
-   zu sol -- chem En -- de keh -- _ ren,
-   dass ich ein -- mal in dei -- nem Saal
-   dich e -- wig mö -- _ _ ge eh -- ren.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Soll ich den auch des To -- des Weg
+  und fin -- stre Stra -- _ _ ße rei -- sen,
+  Du bist mein Hirt, der al -- les wird
+  zu sol -- chem En -- de keh -- _ ren,
+  dass ich ein -- mal in dei -- nem Saal
+  dich e -- wig mö -- _ _ ge eh -- ren.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   wohl -- an! ich tret auf Bahn und Steg,
-   den mir dein Au -- _ _ gen wei -- sen.
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wohl -- an! ich tret auf Bahn und Steg,
+  den mir dein Au -- _ _ gen wei -- sen.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Soll ich den auch des To -- des Weg
-   und fin -- stre Stra -- _ _ ße rei -- _ sen,
-   Du bist mein Hirt, der al -- les wird
-   zu sol -- chem En -- de keh -- _ ren,
-   dass ich ein -- mal in dei -- nem Saal
-   dich e -- wig mö -- _ _ ge eh -- _ ren.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Soll ich den auch des To -- des Weg
+  und fin -- stre Stra -- _ _ ße rei -- _ sen,
+  Du bist mein Hirt, der al -- les wird
+  zu sol -- chem En -- de keh -- _ ren,
+  dass ich ein -- mal in dei -- nem Saal
+  dich e -- wig mö -- _ _ ge eh -- _ ren.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   wohl -- an! ich tret auf Bahn und Steg,
-   den mir dein Au -- _ _ gen wei -- _ sen.
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wohl -- an! ich tret auf Bahn und Steg,
+  den mir dein Au -- _ _ gen wei -- _ sen.
 }

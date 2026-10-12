@@ -27,14 +27,14 @@
 }
 
 \header {
- title = \markup{\concat{"O Ewigkeit, du Donnerwort (I)" \small " (v. 11 & 16)"}}
- subtitle = "tiré de la cantate : O Ewigkeit, du Donnerwort"
- poet = "Auteur : Johann Rist (1607-1667)"
+  title = \markup{\concat{"O Ewigkeit, du Donnerwort (I)" \small " (v. 11 & 16)"}}
+  subtitle = "tiré de la cantate : O Ewigkeit, du Donnerwort"
+  poet = "Auteur : Johann Rist (1607-1667)"
   opus = "BWV 20/7-11"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

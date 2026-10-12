@@ -114,78 +114,86 @@ bassMusic = {
   d,2. \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Lass uns das Jahr voll -- brin -- gen
-   zu Lob dem Na -- men dein,
-   dass wir dem -- sel -- ben sin -- gen
-   in der Chri -- sten ge -- mein;
-   dein Se -- gen zu uns wen -- de,
-   gib Fried an al -- lem En -- de;
-   gib un -- ver -- fälscht im Lan -- de dein se -- lig -- ma -- chend Wort.
-   Die Heuch -- ler mach zu -- schan -- den hier und an al -- lem Ort,
-   die Heuch -- ler mach zu -- schan -- den hier und an al -- lem Ort.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Lass uns das Jahr voll -- brin -- gen
+  zu Lob dem Na -- men dein,
+  dass wir dem -- sel -- ben sin -- gen
+  in der Chri -- sten ge -- mein;
+  dein Se -- gen zu uns wen -- de,
+  gib Fried an al -- lem En -- de;
+  gib un -- ver -- fälscht im Lan -- de dein se -- lig -- ma -- chend Wort.
+  Die Heuch -- ler mach zu -- schan -- den hier und an al -- lem Ort,
+  die Heuch -- ler mach zu -- schan -- den hier und an al -- lem Ort.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   wollst uns das Le -- ben fris -- ten
-   durch dein all -- mäch -- tig Hand,
-   er -- halt dein lie -- ben Chri -- sten
-   und un -- ser Va -- ter -- land.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wollst uns das Le -- ben fris -- ten
+  durch dein all -- mäch -- tig Hand,
+  er -- halt dein lie -- ben Chri -- sten
+  und un -- ser Va -- ter -- land.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Lass uns das Jahr voll -- brin -- gen
-   zu Lob dem Na -- men dein,
-   dass wir dem -- sel -- ben sin -- gen
-   in der Chri -- sten ge -- mein;
-   dein Se -- gen zu uns wen -- de,
-   gib Fried an al -- lem En -- de;
-   gib un -- ver -- fälscht im Lan -- _ de dein se -- lig -- ma -- chend Wort.
-   Die Heuch -- ler mach zu -- schan -- _ den hier und an al -- lem Ort,
-   die Heuch -- ler mach zu -- schan -- _ den hier und an al -- lem Ort.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Lass uns das Jahr voll -- brin -- gen
+  zu Lob dem Na -- men dein,
+  dass wir dem -- sel -- ben sin -- gen
+  in der Chri -- sten ge -- mein;
+  dein Se -- gen zu uns wen -- de,
+  gib Fried an al -- lem En -- de;
+  gib un -- ver -- fälscht im Lan -- _ de dein se -- lig -- ma -- chend Wort.
+  Die Heuch -- ler mach zu -- schan -- _ den hier und an al -- lem Ort,
+  die Heuch -- ler mach zu -- schan -- _ den hier und an al -- lem Ort.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   wollst uns das Le -- ben fris -- ten
-   durch dein all -- mäch -- tig Hand,
-   er -- halt dein lie -- ben Chri -- sten
-   und un -- ser Va -- ter -- land.
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wollst uns das Le -- ben fris -- ten
+  durch dein all -- mäch -- tig Hand,
+  er -- halt dein lie -- ben Chri -- sten
+  und un -- ser Va -- ter -- land.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Lass uns das Jahr voll -- brin -- gen
-   zu Lob dem Na -- men dein,
-   dass wir dem -- sel -- ben sin -- _ gen
-   in der Chri -- sten ge -- mein;
-   dein Se -- gen zu uns wen -- de,
-   gib Fried an al -- lem En -- de;
-   gib un -- ver -- fälscht im Lan -- _ de dein se -- lig -- ma -- chend Wort.
-   Die Heuch -- ler mach zu -- schan -- _ den hier und an al -- lem Ort,
-   die Heuch -- ler mach zu -- schan -- den hier und an al -- lem Ort.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Lass uns das Jahr voll -- brin -- gen
+  zu Lob dem Na -- men dein,
+  dass wir dem -- sel -- ben sin -- _ gen
+  in der Chri -- sten ge -- mein;
+  dein Se -- gen zu uns wen -- de,
+  gib Fried an al -- lem En -- de;
+  gib un -- ver -- fälscht im Lan -- _ de dein se -- lig -- ma -- chend Wort.
+  Die Heuch -- ler mach zu -- schan -- _ den hier und an al -- lem Ort,
+  die Heuch -- ler mach zu -- schan -- den hier und an al -- lem Ort.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   wollst uns das Le -- ben fris -- ten
-   durch dein all -- mäch -- tig Hand,
-   er -- halt dein lie -- ben Chri -- _ sten
-   und un -- ser Va -- ter -- land.
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wollst uns das Le -- ben fris -- ten
+  durch dein all -- mäch -- tig Hand,
+  er -- halt dein lie -- ben Chri -- _ sten
+  und un -- ser Va -- ter -- land.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Lass uns das Jahr voll -- brin -- gen
-   zu Lob dem Na -- men dein,
-   dass wir dem -- sel -- ben sin -- gen
-   in der Chri -- sten ge -- mein;
-   dein Se -- gen zu uns wen -- de,
-   gib Fried an al -- lem En -- de;
-   gib un -- ver -- fälscht im Lan -- _ de dein se -- lig -- ma -- chend Wort.
-   Die Heuch -- ler mach zu -- schan -- _ den hier und an al -- lem Ort,
-   die Heuch -- ler mach zu -- schan -- _ den hier und an al -- lem Ort.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Lass uns das Jahr voll -- brin -- gen
+  zu Lob dem Na -- men dein,
+  dass wir dem -- sel -- ben sin -- gen
+  in der Chri -- sten ge -- mein;
+  dein Se -- gen zu uns wen -- de,
+  gib Fried an al -- lem En -- de;
+  gib un -- ver -- fälscht im Lan -- _ de dein se -- lig -- ma -- chend Wort.
+  Die Heuch -- ler mach zu -- schan -- _ den hier und an al -- lem Ort,
+  die Heuch -- ler mach zu -- schan -- _ den hier und an al -- lem Ort.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   wollst uns das Le -- ben fris -- ten
-   durch dein all -- mäch -- tig Hand,
-   er -- halt dein lie -- ben Chri -- sten
-   und un -- ser Va -- ter -- land.
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wollst uns das Le -- ben fris -- ten
+  durch dein all -- mäch -- tig Hand,
+  er -- halt dein lie -- ben Chri -- sten
+  und un -- ser Va -- ter -- land.
 }

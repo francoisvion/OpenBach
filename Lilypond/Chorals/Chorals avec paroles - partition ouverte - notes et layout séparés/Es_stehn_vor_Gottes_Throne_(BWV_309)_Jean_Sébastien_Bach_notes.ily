@@ -70,7 +70,8 @@ bassMusic = {
   g8 [c] d4 g,\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
   Es stehn vor Got -- tes Thro -- ne,
   es stehn vor Got -- tes Thro -- ne
   die un -- sre Wäch -- ter sind, 
@@ -78,13 +79,15 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
   als je -- mals ist ge -- born, als je -- mals ist ge -- born.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
   der in sein'm lie -- ben Soh -- ne,
   der in seim lie -- ben Soh -- ne
   liebt al -- le Men -- schen -- Kind,
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   Es stehn vor Got -- tes Thro -- _ ne,
   es stehn vor Got -- tes Thro -- _ ne
   die un sre Wäch ter sind,
@@ -94,13 +97,15 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   als je -- mals ist ge -- born.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   der in sein'm lie -- ben Soh -- _ ne,
   der in seim lie -- ben Soh -- _ ne
   liebt al le Men schen Kind,
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   Es stehn vor Got -- tes Thro -- _ ne,
   es stehn vor Got -- tes Thro -- _ ne
   die un -- sre Wäch -- ter sind,
@@ -110,13 +115,15 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   als je -- mals ist ge -- born.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   der in sein'm lie -- ben Soh -- _ ne,
   der in seim lie -- ben Soh -- _ ne
   liebt al -- le Men -- schen -- Kind,
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Es stehn vor Got -- tes Thro -- _ ne,
   es stehn vor Got -- tes Thro -- _ ne
   die un -- sre Wäch -- ter sind,
@@ -126,7 +133,8 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   als je -- mals ist ge -- born.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   der in sein'm lie -- ben Soh -- _ ne,
   der in seim lie -- ben Soh -- _ ne
   liebt al -- le Men -- schen -- Kind,

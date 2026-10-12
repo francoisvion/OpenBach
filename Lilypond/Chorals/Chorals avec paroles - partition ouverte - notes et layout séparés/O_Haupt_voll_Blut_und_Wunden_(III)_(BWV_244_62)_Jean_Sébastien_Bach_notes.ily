@@ -66,58 +66,66 @@ bassMusic = {
   gis, a, e,\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Wenn ich ein -- mal soll schei -- den,
-   so schei -- de nicht von mir;
-   Wenn mir am al -- ler -- bäng -- sten
-   wird um das Her -- ze sein,
-   so reiß mich aus den Äng -- sten
-   kraft dei -- ner Angst und Pein!
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wenn ich ein -- mal soll schei -- den,
+  so schei -- de nicht von mir;
+  Wenn mir am al -- ler -- bäng -- sten
+  wird um das Her -- ze sein,
+  so reiß mich aus den Äng -- sten
+  kraft dei -- ner Angst und Pein!
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   wenn ich den Tod soll lei -- den,
-   so tritt du dann her -- für;
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wenn ich den Tod soll lei -- den,
+  so tritt du dann her -- für;
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Wenn ich ein -- mal soll schei -- _ den,
-   so schei -- de nicht von mir;
-   Wenn mir am al -- ler -- bäng -- _ sten
-   wird um das Her -- ze sein, __ _
-   so reiß mich aus den Äng -- _ sten
-   kraft dei -- ner Angst und Pein! __ _ _
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wenn ich ein -- mal soll schei -- _ den,
+  so schei -- de nicht von mir;
+  Wenn mir am al -- ler -- bäng -- _ sten
+  wird um das Her -- ze sein, __ _
+  so reiß mich aus den Äng -- _ sten
+  kraft dei -- ner Angst und Pein! __ _ _
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   wenn ich den Tod soll lei -- _ den,
-   so tritt du dann her -- für;
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wenn ich den Tod soll lei -- _ den,
+  so tritt du dann her -- für;
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Wenn ich ein -- mal soll schei -- _ den,
-   so schei -- de nicht von mir;
-   Wenn mir am al -- ler -- bäng -- _ _ sten
-   wird um das Her -- ze sein,
-   so reiß mich aus den Äng -- _ sten
-   kraft dei -- ner Angst und Pein! __ _ _
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wenn ich ein -- mal soll schei -- _ den,
+  so schei -- de nicht von mir;
+  Wenn mir am al -- ler -- bäng -- _ _ sten
+  wird um das Her -- ze sein,
+  so reiß mich aus den Äng -- _ sten
+  kraft dei -- ner Angst und Pein! __ _ _
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   wenn ich den Tod soll lei -- _ den,
-   so tritt du dann her -- für;
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wenn ich den Tod soll lei -- _ den,
+  so tritt du dann her -- für;
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Wenn ich ein -- mal soll schei -- _ den,
-   so schei -- de nicht von mir;
-   Wenn mir am al -- ler -- bäng -- _ sten
-   wird um das Her -- ze sein,
-   so reiß mich aus den Äng -- _ sten
-   kraft dei -- ner Angst und Pein! __ _ _
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Wenn ich ein -- mal soll schei -- _ den,
+  so schei -- de nicht von mir;
+  Wenn mir am al -- ler -- bäng -- _ sten
+  wird um das Her -- ze sein,
+  so reiß mich aus den Äng -- _ sten
+  kraft dei -- ner Angst und Pein! __ _ _
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   wenn ich den Tod soll lei -- _ den,
-   so tritt du dann her -- für;
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  wenn ich den Tod soll lei -- _ den,
+  so tritt du dann her -- für;
 }

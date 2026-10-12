@@ -1,10 +1,10 @@
 sopranoMusic = {
-\repeat volta 2 {
-  \partial 4 g'4
-  c'' bes' aes' g'
-  f'2 g'4\fermata d''
-  ees'' ees'' d''8 [c''] d''4
-  c''2.\fermata }
+  \repeat volta 2 {
+    \partial 4 g'4
+    c'' bes' aes' g'
+    f'2 g'4\fermata d''
+    ees'' ees'' d''8 [c''] d''4
+    c''2.\fermata }
   ees''4 d''8 [c''] bes'4 c''
   d'' ees''2 ees''4\fermata
   bes' c'' bes' aes'
@@ -16,12 +16,12 @@ sopranoMusic = {
 }
 
 altoMusic = {
-\repeat volta 2 {
-  \partial 4 ees'4
-  ees' ees' ees'8 [f'] f' [ees']
-  ees'4 d' ees'\fermata f'
-  ees'8 [f'] g'4 g' g'8 [f']
-  ees'2.\fermata }
+  \repeat volta 2 {
+    \partial 4 ees'4
+    ees' ees' ees'8 [f'] f' [ees']
+    ees'4 d' ees'\fermata f'
+    ees'8 [f'] g'4 g' g'8 [f']
+    ees'2.\fermata }
   c''8 [bes'] aes'4 g'8 [f'] ees'4
   aes' aes' g'8 [f'] g'4\fermata
   g' aes' g' g'
@@ -33,12 +33,12 @@ altoMusic = {
 }
 
 tenorMusic = {
-\repeat volta 2 {
-  \partial 4 bes4
-  aes bes c'8 [bes] bes4
-  c' bes bes\fermata b
-  g c' c' b
-  c'2.\fermata }
+  \repeat volta 2 {
+    \partial 4 bes4
+    aes bes c'8 [bes] bes4
+    c' bes bes\fermata b
+    g c' c' b
+    c'2.\fermata }
   g'4 f'8 [ees'] d'4 c'8 [bes]
   aes [bes] c'4 bes8 [aes] bes4\fermata
   ees' ees' ees'8 [d'] c'4
@@ -50,12 +50,12 @@ tenorMusic = {
 }
 
 bassMusic = {
-\repeat volta 2 {
-  \partial 4 ees4
-  aes g c8 [d] ees4
-  aes, bes, ees\fermata d
-  c8 [d] ees [f] g4 g,
-  c2.\fermata }
+  \repeat volta 2 {
+    \partial 4 ees4
+    aes g c8 [d] ees4
+    aes, bes, ees\fermata d
+    c8 [d] ees [f] g4 g,
+    c2.\fermata }
   c'4 f g aes8 [g]
   f4 ees2 ees4\fermata
   ees aes ees f8 [g]
@@ -66,7 +66,8 @@ bassMusic = {
   bes, ees2.\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
   Ich will hier bei dir ste -- hen;
   ver -- ach -- te mich doch nicht,
   Wenn dein Herz wird er -- blas -- sen
@@ -75,12 +76,14 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
   in mei -- nen Arm und Schoß.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
   Von dir will ich nicht ge -- hen,
   wenn dir dein Her -- ze bricht,
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   Ich will hier bei dir ste -- _ hen;
   ver -- ach -- te mich doch nicht,
   Wenn dein Herz wird er -- blas -- _ sen
@@ -89,12 +92,14 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   in mei -- nen Arm und Schoß.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   Von dir will ich nicht ge -- _ hen,
   wenn dir dein Her -- ze bricht,
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   Ich will hier bei dir ste -- _ hen;
   ver -- ach -- te mich doch nicht,
   Wenn dein Herz wird er -- blas -- _ sen
@@ -103,12 +108,14 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   in mei -- nen Arm und Schoß.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   Von dir will ich nicht ge -- _ hen,
   wenn dir dein Her -- ze bricht,
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Ich will hier bei dir ste -- _ hen;
   ver -- ach -- te mich doch nicht,
   Wenn dein Herz wird er -- blas -- sen
@@ -117,7 +124,8 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   in mei -- nen Arm und Schoß.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   Von dir will ich nicht ge -- _ hen,
   wenn dir dein Her -- ze bricht,
 }

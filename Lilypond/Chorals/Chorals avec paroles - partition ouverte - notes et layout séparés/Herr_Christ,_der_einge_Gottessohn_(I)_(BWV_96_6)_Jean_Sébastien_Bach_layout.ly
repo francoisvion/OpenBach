@@ -28,14 +28,14 @@
 }
 
 \header {
- title = \markup{\concat{"Herr Christ, der einge Gottessohn (I)" \small " (v. 5)"}}
- subtitle = "tiré de la cantate : Herr Christ, der einge Gottessohn"
- poet = "Auteur : Elisabeth Creutziger (v.1500-v.1535)"
+  title = \markup{\concat{"Herr Christ, der einge Gottessohn (I)" \small " (v. 5)"}}
+  subtitle = "tiré de la cantate : Herr Christ, der einge Gottessohn"
+  poet = "Auteur : Elisabeth Creutziger (v.1500-v.1535)"
   opus = "BWV 96/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

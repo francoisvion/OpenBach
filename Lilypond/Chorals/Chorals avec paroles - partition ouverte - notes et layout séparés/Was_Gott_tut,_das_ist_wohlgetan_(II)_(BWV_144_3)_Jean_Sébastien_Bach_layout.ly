@@ -29,12 +29,12 @@
 \header {
   title = \markup{\concat{"Was Gott tut, das ist wohlgetan (II)" \small " (v. 1)"}}
   subtitle = "tiré de Nimm, was dein ist, und gehe hin"
- poet = "Auteur : Samuel Rodigast (1649-1708)"
+  poet = "Auteur : Samuel Rodigast (1649-1708)"
   opus = "BWV 144/3"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

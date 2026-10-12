@@ -29,12 +29,12 @@
 \header {
   title = \markup{\concat{"Treuer Gott, ich muss dir klagen (I)" \small " (v. 12)"}}
   subtitle = "tiré de la cantate : Es ist nichts Gesundes an meinem Leibe"
- poet = "Auteur : Johann Heermann (1585-1647)"
+  poet = "Auteur : Johann Heermann (1585-1647)"
   opus = "BWV 25/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

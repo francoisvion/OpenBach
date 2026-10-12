@@ -66,7 +66,8 @@ bassMusic = {
   b, [a,] b,4 e\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
   Gieb dich zu -- frie -- den und sei stil -- _ le
   in dem Got -- te dei -- nes Le -- bens,
   Er ist dein Quell und dei -- ne Son -- ne,
@@ -74,12 +75,14 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
   gib dich zu -- frie -- den, zu frie -- _ den.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
   in ihm ruht al -- ler Freu -- den Fül -- _ le
   ohn ihn mühst du dich ver -- ge -- bens.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   Gieb dich zu -- frie -- den und sei stil -- _ le
   in dem Got -- te dei -- nes Le -- _ bens,
   Er ist dein Quell und dei -- ne Son -- ne,
@@ -87,12 +90,14 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   gib dich zu -- frie -- den, zu frie -- _ den.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   in ihm ruht al -- ler Freu -- den Fül -- _ le
   ohn ihn mühst du dich ver -- ge -- _ bens.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   Gieb dich zu -- frie -- den und sei stil -- _ le
   in dem Got -- te dei -- nes Le -- _ bens,
   Er ist dein Quell und dei -- ne Son -- ne,
@@ -100,12 +105,14 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   gib dich zu -- frie -- den, zu frie -- _ den.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   in ihm ruht al -- ler Freu -- den Fül -- _ le
   ohn ihn mühst du dich ver -- ge -- _ bens.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Gieb dich zu -- frie -- den und sei stil -- le
   in dem Got -- te __ _ dei -- nes Le -- _ bens,
   Er ist dein Quell und dei -- ne Son -- ne,
@@ -113,7 +120,8 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   gib dich zu -- frie -- den, zu frie -- _ den.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   in ihm ruht al -- ler Freu -- den Fül -- le
   ohn ihn mühst __ _ du dich ver -- ge -- _ bens.
 }

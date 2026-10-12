@@ -28,14 +28,14 @@
 }
 
 \header {
- title = \markup{\concat{"Es ist das Heil uns kommen her (II)" \small " (v. 7 & 8)"}}
- subtitle = "tiré de la cantate : Wahrlich, wahrlich, ich sage euch"
- poet = "Auteur : Paul Speratus (1489-1551)"
+  title = \markup{\concat{"Es ist das Heil uns kommen her (II)" \small " (v. 7 & 8)"}}
+  subtitle = "tiré de la cantate : Wahrlich, wahrlich, ich sage euch"
+  poet = "Auteur : Paul Speratus (1489-1551)"
   opus = "BWV 86/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

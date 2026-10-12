@@ -27,14 +27,14 @@
 }
 
 \header {
- title = \markup{\concat{"Jesu, meiner Seelen Wonne (I)" \small " (v. 2)"}}
- subtitle = "tiré de la cantate : Mein liebster Jesus ist verloren"
- poet = "Auteur : Martin Jahn (v.1620-v.1682)"
+  title = \markup{\concat{"Jesu, meiner Seelen Wonne (I)" \small " (v. 2)"}}
+  subtitle = "tiré de la cantate : Mein liebster Jesus ist verloren"
+  poet = "Auteur : Martin Jahn (v.1620-v.1682)"
   opus = "BWV 154/3"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

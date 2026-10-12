@@ -66,58 +66,66 @@ bassMusic = {
   d,2.\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Er -- ken -- ne mich, mein Hü -- ter,
-   mein Hir -- te, nimm mich an!
-   Dein Mund hat mich ge -- la -- bet
-   mit Milch und sü -- ßer Kost;
-   dein Geist hat mich be -- ga -- bet
-   mit man -- cher Him -- mels -- lust.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Er -- ken -- ne mich, mein Hü -- ter,
+  mein Hir -- te, nimm mich an!
+  Dein Mund hat mich ge -- la -- bet
+  mit Milch und sü -- ßer Kost;
+  dein Geist hat mich be -- ga -- bet
+  mit man -- cher Him -- mels -- lust.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   Von dir, Quell al -- ler Gü -- ter,
-   ist mir viel Gut's ge -- tan.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Von dir, Quell al -- ler Gü -- ter,
+  ist mir viel Gut's ge -- tan.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Er -- ken -- ne mich, mein Hü -- _ ter,
-   mein Hir -- te, nimm mich an!
-   Dein Mund hat mich ge -- la -- _ bet
-   mit Milch und sü -- ßer Kost;
-   dein Geist hat mich be -- ga -- _ bet
-   mit man -- cher Him -- mels -- lust.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Er -- ken -- ne mich, mein Hü -- _ ter,
+  mein Hir -- te, nimm mich an!
+  Dein Mund hat mich ge -- la -- _ bet
+  mit Milch und sü -- ßer Kost;
+  dein Geist hat mich be -- ga -- _ bet
+  mit man -- cher Him -- mels -- lust.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   Von dir, Quell al -- ler Gü -- _ ter,
-   ist mir viel Gut's ge -- tan.
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Von dir, Quell al -- ler Gü -- _ ter,
+  ist mir viel Gut's ge -- tan.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Er -- ken -- ne mich, mein Hü -- _ ter,
-   mein Hir -- te, nimm mich an!
-   Dein Mund hat mich ge -- la -- _ bet
-   mit Milch und sü -- ßer Kost;
-   dein Geist hat mich be -- ga -- _ bet
-   mit man -- cher Him -- mels -- lust.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Er -- ken -- ne mich, mein Hü -- _ ter,
+  mein Hir -- te, nimm mich an!
+  Dein Mund hat mich ge -- la -- _ bet
+  mit Milch und sü -- ßer Kost;
+  dein Geist hat mich be -- ga -- _ bet
+  mit man -- cher Him -- mels -- lust.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   Von dir, Quell al -- ler Gü -- _ ter,
-   ist mir viel Gut's ge -- tan.
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Von dir, Quell al -- ler Gü -- _ ter,
+  ist mir viel Gut's ge -- tan.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Er -- ken -- ne mich, mein Hü -- _ ter,
-   mein Hir -- te, nimm mich an!
-   Dein Mund hat mich ge -- la -- bet
-   mit Milch und sü -- ßer Kost;
-   dein Geist hat mich be -- ga -- _ bet
-   mit man -- cher Him -- mels -- lust.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Er -- ken -- ne mich, mein Hü -- _ ter,
+  mein Hir -- te, nimm mich an!
+  Dein Mund hat mich ge -- la -- bet
+  mit Milch und sü -- ßer Kost;
+  dein Geist hat mich be -- ga -- _ bet
+  mit man -- cher Him -- mels -- lust.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   Von dir, Quell al -- ler Gü -- _ ter,
-   ist mir viel Gut's ge -- tan.
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Von dir, Quell al -- ler Gü -- _ ter,
+  ist mir viel Gut's ge -- tan.
 }

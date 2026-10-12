@@ -27,14 +27,14 @@
 }
 
 \header {
- title = \markup{\concat{"Herr Jesu Christ, du höchstes Gut (II)" \small " (v. 8)"}}
- subtitle = "tiré de la cantate : Tue Rechnung! Donnerwort"
- poet = "Auteur : Bartholomäus Ringwaldt (1532-1599)"
+  title = \markup{\concat{"Herr Jesu Christ, du höchstes Gut (II)" \small " (v. 8)"}}
+  subtitle = "tiré de la cantate : Tue Rechnung! Donnerwort"
+  poet = "Auteur : Bartholomäus Ringwaldt (1532-1599)"
   opus = "BWV 168/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "O Mensch, bewein dein Sünde groß"
- poet = "Auteur : Sebald Heyden (1499-1561)"
+  title = "O Mensch, bewein dein Sünde groß"
+  poet = "Auteur : Sebald Heyden (1499-1561)"
   opus = "BWV 402"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

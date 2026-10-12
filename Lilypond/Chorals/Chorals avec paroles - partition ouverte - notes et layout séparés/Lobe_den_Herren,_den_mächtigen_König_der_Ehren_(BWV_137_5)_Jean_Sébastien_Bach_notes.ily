@@ -1,9 +1,9 @@
 sopranoMusic = {
-\repeat volta 2 {
-  c''4 c'' g'' e''4.
-  d''8 c''4 b'4. a'8
-  g'4 c'' d'' e''8 [f'']
-  d''2 c''4\fermata }
+  \repeat volta 2 {
+    c''4 c'' g'' e''4.
+    d''8 c''4 b'4. a'8
+    g'4 c'' d'' e''8 [f'']
+    d''2 c''4\fermata }
   e''4. d''8 e''4 f''2.\fermata
   e''4. f''8
   g''4 g''4. f''8 e''4
@@ -13,11 +13,11 @@ sopranoMusic = {
 }
 
 altoMusic = {
-\repeat volta 2 {
-  g'4 g' g' g'4.
-  g'8 fis'4 d' g'
-  g' g' b' g'
-  g' f' e'\fermata }
+  \repeat volta 2 {
+    g'4 g' g' g'4.
+    g'8 fis'4 d' g'
+    g' g' b' g'
+    g' f' e'\fermata }
   g'4. g'8 cis'4 a'2.\fermata
   a'4. a'8
   d'4 c' g' g'
@@ -27,11 +27,11 @@ altoMusic = {
 }
 
 tenorMusic = {
-\repeat volta 2 {
-  e'4 e' d' c'4.
-  g8 c'4 g' g
-  d' c' f c'
-  d' b g\fermata }
+  \repeat volta 2 {
+    e'4 e' d' c'4.
+    g8 c'4 g' g
+    d' c' f c'
+    d' b g\fermata }
   e'4. e'8 e' [cis'] d'2.\fermata
   e'4. c'8
   b [a] g4 b c'
@@ -41,11 +41,11 @@ tenorMusic = {
 }
 
 bassMusic = {
-\repeat volta 2 {
-  c4 c' b c'4.
-  b8 a4 g g,
-  f e d c
-  g g, c\fermata }
+  \repeat volta 2 {
+    c4 c' b c'4.
+    b8 a4 g g,
+    f e d c
+    g g, c\fermata }
   c e a d2.\fermata
   a4 g
   f e4. d8 c4
@@ -54,46 +54,54 @@ bassMusic = {
   c g g, c\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
   Lo -- be den Her -- ren, was in mir ist, lo -- be den Na -- men!
   Er ist dein Licht,
   See -- le, ver -- giss es ja nicht;
   Lo -- ben -- de, schlie -- ße mit A -- men!
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
   Al -- les, was O -- dem hat, lo -- be mit A -- bra -- hams Sa -- men!
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   Lo -- be den Her -- ren, was in mir ist, lo -- be den Na -- _ men!
   Er ist dein Licht,
   See -- le, ver -- giss es ja nicht;
   Lo -- ben -- de, schlie -- ße mit A -- men!
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   Al -- les, was O -- dem hat, lo -- be mit A -- bra -- hams Sa -- _ men!
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   Lo -- be den Her -- ren, was in mir ist, lo -- be den Na -- _ men!
   Er ist dein Licht,
   See -- le, ver -- giss es ja nicht;
   Lo -- ben -- de, schlie -- ße mit A -- _ men!
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   Al -- les, was O -- dem hat, lo -- be mit A -- bra -- hams Sa -- _ men!
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Lo -- be den Her -- ren, was in mir ist, lo -- be den Na -- _ men!
   Er ist dein Licht,
   See -- le, ver -- giss es ja nicht;
   Lo -- ben -- de, schlie -- ße mit A -- _ men!
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   Al -- les, was O -- dem hat, lo -- be mit A -- bra -- hams Sa -- _ men!
 }

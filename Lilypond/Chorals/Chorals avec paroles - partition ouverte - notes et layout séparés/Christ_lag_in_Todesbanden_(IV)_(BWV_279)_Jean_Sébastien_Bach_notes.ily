@@ -62,7 +62,8 @@ bassMusic = {
   e2.\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
   Christ lag in To -- des -- ban -- _ den
   für un -- ser Sünd' ge -- ge -- ben,
   Dess wir sol -- len fröh -- lich sein,
@@ -71,12 +72,14 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
   Al -- le -- lu -- _ ia!
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
   der ist wie -- der er -- stan -- _ den
   und hat uns bracht das Le -- ben.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   Christ lag in To -- des -- ban -- _ den
   für un -- ser Sünd' ge -- ge -- _ ben
   Dess wir sol -- len fröh -- lich sein,
@@ -85,12 +88,14 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   Al -- le -- lu -- _ ia!
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   der ist wie -- der er -- stan -- _ den
   und hat uns bracht das Le -- _ ben
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   Christ lag in To -- des -- ban -- _ den
   für un -- ser Sünd' ge -- ge -- _ ben
   Dess wir sol -- len fröh -- lich sein,
@@ -99,12 +104,14 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   Al -- le -- lu -- ia!
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   der ist wie -- der er -- stan -- _ den
   und hat uns bracht das Le -- _ ben
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Christ lag in To -- des -- ban -- _ den
   für un -- ser Sünd' ge -- ge -- _ ben
   Dess wir sol -- len fröh -- lich sein,
@@ -113,7 +120,8 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   Al -- le -- lu -- _ ia!
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   der ist wie -- der er -- stan -- _ den
   und hat uns bracht das Le -- _ ben
 }

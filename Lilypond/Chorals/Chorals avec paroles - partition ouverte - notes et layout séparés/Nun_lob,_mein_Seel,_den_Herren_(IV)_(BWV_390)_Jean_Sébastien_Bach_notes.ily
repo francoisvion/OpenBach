@@ -162,22 +162,24 @@ bassMusic = {
   c2\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Nun lob', mein' Seel', den Her -- _ ren,
-   was in mir ist, den Na -- men __ _ sein,
-   hat dir __ _ dein Sünd ver -- ge -- _ _ ben
-   und heilt __ _ dein Schwach -- heit groß,
-   er rett' dein ar -- _ mes Le -- _ _ ben,
-   nimmt dich in sei -- _ nen Schoß,
-   mit rei -- chem Trost be -- schüt -- _ _ tet,
-   ver -- jüngt, _ dem Ad -- ler gleich;
-   der Herr schafft Recht, be -- hü -- _ _ tet,
-   die leid'n __ _ in sei -- nem _ Reich.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Nun lob', mein' Seel', den Her -- _ ren,
+  was in mir ist, den Na -- men __ _ sein,
+  hat dir __ _ dein Sünd ver -- ge -- _ _ ben
+  und heilt __ _ dein Schwach -- heit groß,
+  er rett' dein ar -- _ mes Le -- _ _ ben,
+  nimmt dich in sei -- _ nen Schoß,
+  mit rei -- chem Trost be -- schüt -- _ _ tet,
+  ver -- jüngt, _ dem Ad -- ler gleich;
+  der Herr schafft Recht, be -- hü -- _ _ tet,
+  die leid'n __ _ in sei -- nem _ Reich.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   sein Wohl -- tat tut er meh -- _ ren,
-   ver -- giss es nicht, o Her -- _ ze mein,
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  sein Wohl -- tat tut er meh -- _ ren,
+  ver -- giss es nicht, o Her -- _ ze mein,
 }
 
 altoLyricsOne = \lyricmode {

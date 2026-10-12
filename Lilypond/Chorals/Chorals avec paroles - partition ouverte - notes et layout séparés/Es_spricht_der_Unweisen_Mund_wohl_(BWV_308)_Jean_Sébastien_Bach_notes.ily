@@ -58,44 +58,46 @@ bassMusic = {
   f2 bes,4\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Es spricht der Un -- wei -- sen Mund wohl:
-   Den rech -- ten Gott wir mei -- _ nen,
-   Ihr We -- sen ist ver -- der -- bet zwar,
-   vor Gott ist es ein Greu -- el gar,
-   es tut Ihr Kei -- ner kein -- _ Gut.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Es spricht der Un -- wei -- sen Mund wohl:
+  Den rech -- ten Gott wir mei -- _ nen,
+  Ihr We -- sen ist ver -- der -- bet zwar,
+  vor Gott ist es ein Greu -- el gar,
+  es tut Ihr Kei -- ner kein -- _ Gut.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   doch ist ihr Herz Un -- glau -- bens voll,
-   mit Tat sie ihn ver -- nei -- _ nen, }
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  doch ist ihr Herz Un -- glau -- bens voll,
+  mit Tat sie ihn ver -- nei -- _ nen, }
 
 altoLyricsOne = \lyricmode {
-      \set stanza = 1
-   Es spricht der Un -- wei -- sen Mund wohl: Den rech -- ten Gott wir mei nen, Ihr We -- sen ist ver -- der -- bet zwar, vor Gott ist es ein Greu -- el __ _ gar, es tut Ihr Kei -- ner kein Gut.
-    }
+  \set stanza = 1
+  Es spricht der Un -- wei -- sen Mund wohl: Den rech -- ten Gott wir mei nen, Ihr We -- sen ist ver -- der -- bet zwar, vor Gott ist es ein Greu -- el __ _ gar, es tut Ihr Kei -- ner kein Gut.
+}
 
 altoLyricsTwo = \lyricmode {
-      \set stanza = 2
-   doch ist ihr Herz Un -- glau -- bens voll, mit Tat sie ihn ver -- nei nen,
-    }
+  \set stanza = 2
+  doch ist ihr Herz Un -- glau -- bens voll, mit Tat sie ihn ver -- nei nen,
+}
 
 tenorLyricsOne = \lyricmode {
-      \set stanza = 1
-   Es spricht der Un -- wei -- sen Mund wohl: Den rech -- ten Gott wir mei -- _ nen, Ihr We -- sen ist ver -- der -- bet zwar, vor Gott ist es ein Greu -- el gar, es tut Ihr Kei -- ner kein -- _ Gut.
-    }
+  \set stanza = 1
+  Es spricht der Un -- wei -- sen Mund wohl: Den rech -- ten Gott wir mei -- _ nen, Ihr We -- sen ist ver -- der -- bet zwar, vor Gott ist es ein Greu -- el gar, es tut Ihr Kei -- ner kein -- _ Gut.
+}
 
 tenorLyricsTwo = \lyricmode {
-      \set stanza = 2
-   doch ist ihr Herz Un -- glau -- bens voll, mit Tat sie ihn ver -- nei -- _ nen,
-    }
+  \set stanza = 2
+  doch ist ihr Herz Un -- glau -- bens voll, mit Tat sie ihn ver -- nei -- _ nen,
+}
 
 bassLyricsOne = \lyricmode {
-      \set stanza = 1
-   Es spricht der Un -- wei -- sen Mund wohl: Den rech -- ten Gott wir mei nen, Ihr We -- sen ist ver -- der -- bet zwar, vor Gott ist es ein __ _ Greu -- el gar, es tut Ihr Kei -- ner kein Gut.
-    }
+  \set stanza = 1
+  Es spricht der Un -- wei -- sen Mund wohl: Den rech -- ten Gott wir mei nen, Ihr We -- sen ist ver -- der -- bet zwar, vor Gott ist es ein __ _ Greu -- el gar, es tut Ihr Kei -- ner kein Gut.
+}
 
 bassLyricsTwo = \lyricmode {
-      \set stanza = 2
-   doch ist ihr Herz Un -- glau -- bens voll, mit Tat sie ihn ver -- nei nen,
-    }
+  \set stanza = 2
+  doch ist ihr Herz Un -- glau -- bens voll, mit Tat sie ihn ver -- nei nen,
+}

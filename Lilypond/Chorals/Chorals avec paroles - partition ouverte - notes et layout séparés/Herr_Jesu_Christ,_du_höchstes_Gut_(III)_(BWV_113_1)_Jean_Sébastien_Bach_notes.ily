@@ -82,7 +82,7 @@ altoMusic = {
   b' ais' fis'
   g'4. fis'16 [e'] fis'4
   fis'2.
-   r2.
+  r2.
   r \fine
 }
 

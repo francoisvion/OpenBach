@@ -1,10 +1,10 @@
 sopranoMusic = {
-\repeat volta 2 {
-  \partial 4 b'4
-  a' b'8 [cis''] d''4 e''
-  d'' cis'' b'\fermata b'
-  g' a' b' a'8 [g']
-  fis'2 e'4\fermata }
+  \repeat volta 2 {
+    \partial 4 b'4
+    a' b'8 [cis''] d''4 e''
+    d'' cis'' b'\fermata b'
+    g' a' b' a'8 [g']
+    fis'2 e'4\fermata }
   r e' g' a'
   e' g' a' b'\fermata
   b' e'' dis'' e''
@@ -16,12 +16,12 @@ sopranoMusic = {
 }
 
 altoMusic = {
-\repeat volta 2 {
-  \partial 4 g'4
-  fis' fis'8 [ais'] b'4 cis''
-  b' ais' fis'\fermata fis'
-  e' d' d' e'
-  e' dis' b\fermata }
+  \repeat volta 2 {
+    \partial 4 g'4
+    fis' fis'8 [ais'] b'4 cis''
+    b' ais' fis'\fermata fis'
+    e' d' d' e'
+    e' dis' b\fermata }
   r b e'8 [d'] e'4
   c' b d' d'\fermata
   d' g' a' g'
@@ -33,12 +33,12 @@ altoMusic = {
 }
 
 tenorMusic = {
-\repeat volta 2 {
-  \partial 4 e'8 [d']
-  cis'4 d'8 [e'] fis'4 fis'
-  fis' fis'8 [e'] dis'4\fermata b
-  b a g8 [a] b4
-  c' b8 [a] g4\fermata }
+  \repeat volta 2 {
+    \partial 4 e'8 [d']
+    cis'4 d'8 [e'] fis'4 fis'
+    fis' fis'8 [e'] dis'4\fermata b
+    b a g8 [a] b4
+    c' b8 [a] g4\fermata }
   r g g c'
   a g d' b\fermata
   g b a b
@@ -50,12 +50,12 @@ tenorMusic = {
 }
 
 bassMusic = {
-\repeat volta 2 {
-  \partial 4 e4
-  fis8 [e] d [cis] b,4 ais,
-  b, fis b,\fermata dis
-  e fis g e
-  a, b, e\fermata }
+  \repeat volta 2 {
+    \partial 4 e4
+    fis8 [e] d [cis] b,4 ais,
+    b, fis b,\fermata dis
+    e fis g e
+    a, b, e\fermata }
   r e8 [d] c [b,] a, [b,]
   c [d] e4 fis g\fermata
   g e fis g
@@ -66,7 +66,8 @@ bassMusic = {
   b,4 e2.\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
   Hier ist das rech -- te O -- ster -- lamm,
   da -- von Gott hat ge -- bo -- ten,
   des Blut zeich -- net uns -- re Tür,
@@ -75,12 +76,14 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
   Al -- _ le -- lu -- ia!
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
   das ist hoch an des Kreu zes Stamm
   in hei -- ßer Lieb ge -- bra -- ten,
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   Hier ist das rech -- te O -- ster -- lamm,
   da -- von Gott hat ge -- bo -- _ ten,
   des Blut zeich -- net uns -- re Tür,
@@ -89,12 +92,14 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   Al -- le -- lu -- ia!
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   das ist hoch an des Kreu zes Stamm
   in hei -- ßer Lieb ge -- bra -- _ ten,
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   Hier ist das rech -- te O -- ster -- lamm,
   da -- von Gott hat ge -- bo -- _ ten,
   des Blut zeich -- net uns -- re Tür,
@@ -103,12 +108,14 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   Al -- le -- lu -- ia!
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   das ist hoch an des Kreu zes Stamm
   in hei ßer Lieb ge -- bra -- _ ten,
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Hier ist das rech -- te O -- ster -- lamm,
   da -- von Gott hat ge -- bo -- _ ten,
   des Blut zeich -- net uns -- re Tür,
@@ -117,7 +124,8 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   Al -- _ le -- lu -- ia!
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   das ist hoch an des Kreu zes Stamm
   in hei ßer Lieb ge -- bra -- _ ten,
 }

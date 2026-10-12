@@ -74,7 +74,8 @@ bassMusic = {
   e8 [d] e4 a,\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
   Christ, un -- ser Herr, zum Jor -- dan kam
   nach sei -- nes Va -- ters Wil -- _ len,
   da wollt er stif -- ten uns ein Bad,
@@ -84,12 +85,14 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
   Es galt ein neu -- es Le -- _ ben.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
   Von Sankt Jo -- hanns die Tau -- fe nahm,
   sein Werk und Amt zu 'rfül -- _ len;
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   Christ, un -- ser Herr, zum Jor -- dan kam
   nach sei -- nes Va -- ters Wil -- _ _ len
   da wollt er stif -- ten uns ein Bad,
@@ -99,12 +102,14 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   Es galt ein neu -- es Le -- _ ben.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   Von Sankt Jo -- hanns die Tau -- fe nahm,
   sein Werk und Amt zu 'rfül -- _ _ len
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   Christ, un -- ser Herr, zum Jor -- dan kam
   nach sei -- nes Va -- ters Wil -- _ len
   da wollt er stif -- ten uns ein Bad,
@@ -114,12 +119,14 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   Es galt ein neu -- es Le -- _ ben.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   Von Sankt Jo -- hanns die Tau -- fe nahm,
   sein Werk und Amt zu 'rfül -- _ len
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Christ, un -- ser Herr, zum Jor -- dan kam
   nach sei -- nes Va -- ters Wil -- _ len
   da wollt er stif -- ten uns ein Bad,
@@ -129,7 +136,8 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   Es galt ein neu -- es Le -- _ ben.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   Von Sankt Jo -- hanns die Tau -- fe nahm,
   sein Werk und Amt zu 'rfül -- _ len
 }

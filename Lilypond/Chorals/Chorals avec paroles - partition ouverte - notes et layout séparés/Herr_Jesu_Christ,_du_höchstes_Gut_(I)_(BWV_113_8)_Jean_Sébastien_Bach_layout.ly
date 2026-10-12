@@ -28,14 +28,14 @@
 }
 
 \header {
- title = \markup{\concat{"Herr Jesu Christ, du höchstes Gut (I)" \small " (v. 8)"}}
- subtitle = "tiré de la cantate : Herr Jesu Christ, du höchstes Gut"
- poet = "Auteur : Bartholomäus Ringwaldt (1532-1599)"
+  title = \markup{\concat{"Herr Jesu Christ, du höchstes Gut (I)" \small " (v. 8)"}}
+  subtitle = "tiré de la cantate : Herr Jesu Christ, du höchstes Gut"
+  poet = "Auteur : Bartholomäus Ringwaldt (1532-1599)"
   opus = "BWV 113/8"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

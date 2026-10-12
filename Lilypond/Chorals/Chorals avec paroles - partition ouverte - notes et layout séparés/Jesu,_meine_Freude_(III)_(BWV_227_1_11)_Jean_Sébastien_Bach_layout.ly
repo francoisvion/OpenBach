@@ -27,14 +27,14 @@
 }
 
 \header {
- title = \markup{\concat{"Jesu, meine Freude (III)" \small " (v. 1 & 6)"}}
- subtitle = "tiré du motet : Jesu, meine Freude"
- poet = "Auteur : Johann Franck (1618-1677)"
+  title = \markup{\concat{"Jesu, meine Freude (III)" \small " (v. 1 & 6)"}}
+  subtitle = "tiré du motet : Jesu, meine Freude"
+  poet = "Auteur : Johann Franck (1618-1677)"
   opus = "BWV 227/1-11"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

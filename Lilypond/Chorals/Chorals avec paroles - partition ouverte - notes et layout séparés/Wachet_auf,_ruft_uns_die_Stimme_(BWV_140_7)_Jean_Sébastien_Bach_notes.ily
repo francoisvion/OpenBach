@@ -86,74 +86,82 @@ bassMusic = {
     f, bes, ees,2\fermata \fine}
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Glo -- ri -- a sei dir ge -- sun -- gen
-   mit Men -- schen und __ _ eng -- li -- schen Zun -- _ gen,
-   mit Har -- fen und mit Zim -- _ beln schön
-   Kein Aug hat je ge -- spürt,
-   kein Ohr hat je ge -- hört
-   sol -- che Freu -- de,
-   des sind wir froh,
-   i -- _ o, i -- o,
-   e -- wig in dul -- ci ju -- _ bi -- lo.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Glo -- ri -- a sei dir ge -- sun -- gen
+  mit Men -- schen und __ _ eng -- li -- schen Zun -- _ gen,
+  mit Har -- fen und mit Zim -- _ beln schön
+  Kein Aug hat je ge -- spürt,
+  kein Ohr hat je ge -- hört
+  sol -- che Freu -- de,
+  des sind wir froh,
+  i -- _ o, i -- o,
+  e -- wig in dul -- ci ju -- _ bi -- lo.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   Von zwölf Per -- len sind die Pfor -- ten
-   an dei -- ner Stadt __ _ sind wir Kon -- sor -- _ ten
-   der En -- gel hoch um dei -- _ nen Thron.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Von zwölf Per -- len sind die Pfor -- ten
+  an dei -- ner Stadt __ _ sind wir Kon -- sor -- _ ten
+  der En -- gel hoch um dei -- _ nen Thron.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Glo -- ri -- a sei dir ge -- sun -- _ gen
-   mit Men -- schen und __ _ eng -- li -- schen Zun -- _ gen,
-   mit Har -- fen und mit Zim -- beln schön
-   Kein Aug hat je __ _ ge -- spürt,
-   kein __ _ Ohr hat je __ _ ge -- hört
-   sol -- che Freu -- de,
-   des sind __ _ wir __ _ froh,
-   i -- _ o, i -- o,
-   e -- _ wig __ _ in __ _ dul -- ci ju -- bi -- lo.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Glo -- ri -- a sei dir ge -- sun -- _ gen
+  mit Men -- schen und __ _ eng -- li -- schen Zun -- _ gen,
+  mit Har -- fen und mit Zim -- beln schön
+  Kein Aug hat je __ _ ge -- spürt,
+  kein __ _ Ohr hat je __ _ ge -- hört
+  sol -- che Freu -- de,
+  des sind __ _ wir __ _ froh,
+  i -- _ o, i -- o,
+  e -- _ wig __ _ in __ _ dul -- ci ju -- bi -- lo.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   Von zwölf Per -- len sind die Pfor -- _ ten
-   an dei -- ner Stadt __ _ sind wir Kon -- sor -- _ ten
-   der En -- gel hoch um dei -- nen Thron.
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Von zwölf Per -- len sind die Pfor -- _ ten
+  an dei -- ner Stadt __ _ sind wir Kon -- sor -- _ ten
+  der En -- gel hoch um dei -- nen Thron.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Glo -- ri -- a sei dir ge -- sun -- _ gen
-   mit Men -- schen und eng -- li -- schen Zun -- _ gen,
-   mit Har -- fen und mit Zim -- _ beln schön
-   Kein Aug __ _ hat __ _ je ge -- _ spürt,
-   kein Ohr __ _ hat je __ _ ge -- hört
-   sol -- che Freu -- _ de,
-   des sind wir froh,
-   i -- o, i -- o,
-   e -- wig in dul -- ci ju -- _ bi -- lo.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Glo -- ri -- a sei dir ge -- sun -- _ gen
+  mit Men -- schen und eng -- li -- schen Zun -- _ gen,
+  mit Har -- fen und mit Zim -- _ beln schön
+  Kein Aug __ _ hat __ _ je ge -- _ spürt,
+  kein Ohr __ _ hat je __ _ ge -- hört
+  sol -- che Freu -- _ de,
+  des sind wir froh,
+  i -- o, i -- o,
+  e -- wig in dul -- ci ju -- _ bi -- lo.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   Von zwölf Per -- len sind die Pfor -- _ ten
-   an dei -- ner Stadt sind wir Kon -- sor -- _ ten
-   der En -- gel hoch um dei -- _ nen Thron.
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Von zwölf Per -- len sind die Pfor -- _ ten
+  an dei -- ner Stadt sind wir Kon -- sor -- _ ten
+  der En -- gel hoch um dei -- _ nen Thron.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Glo -- ri -- a sei dir __ _ ge -- _ sun -- _ _ gen
-   mit __ _ Men -- _ schen __ _ und eng -- li -- _ schen __ _ Zun -- _ gen,
-   mit __ _ Har -- _ fen und __ _ mit Zim -- beln schön
-   Kein Aug hat je __ _ ge -- _ spürt,
-   kein Ohr __ _ hat je __ _ ge -- _ hört
-   sol -- _ che Freu -- de,
-   des sind wir froh,
-   i -- o, __ _ i -- o,
-   e -- _ wig __ _ in __ _ dul -- _ ci ju -- bi -- lo.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Glo -- ri -- a sei dir __ _ ge -- _ sun -- _ _ gen
+  mit __ _ Men -- _ schen __ _ und eng -- li -- _ schen __ _ Zun -- _ gen,
+  mit __ _ Har -- _ fen und __ _ mit Zim -- beln schön
+  Kein Aug hat je __ _ ge -- _ spürt,
+  kein Ohr __ _ hat je __ _ ge -- _ hört
+  sol -- _ che Freu -- de,
+  des sind wir froh,
+  i -- o, __ _ i -- o,
+  e -- _ wig __ _ in __ _ dul -- _ ci ju -- bi -- lo.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   Von zwölf Per -- len sind __ _ die __ _ Pfor -- _ _ ten
-   an __ _ dei -- _ ner __ _ Stadt sind wir __ _ Kon -- _ sor -- _ ten
-   der __ _ En -- _ gel hoch __ _ um dei -- nen Thron.
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Von zwölf Per -- len sind __ _ die __ _ Pfor -- _ _ ten
+  an __ _ dei -- _ ner __ _ Stadt sind wir __ _ Kon -- _ sor -- _ ten
+  der __ _ En -- _ gel hoch __ _ um dei -- nen Thron.
 }

@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "O Lamm Gottes, unschuldig"
- poet = "Auteur : Nikolaus Decius (v.1485-1541)"
+  title = "O Lamm Gottes, unschuldig"
+  poet = "Auteur : Nikolaus Decius (v.1485-1541)"
   opus = "BWV 401"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

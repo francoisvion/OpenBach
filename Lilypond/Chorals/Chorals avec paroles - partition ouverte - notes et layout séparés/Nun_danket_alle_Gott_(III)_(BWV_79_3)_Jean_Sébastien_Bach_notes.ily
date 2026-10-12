@@ -1,16 +1,16 @@
 sopranoMusic = {
   \tempo \markup{\tiny \italic "Interludes instrumentaux absents"}
   \repeat volta 2 {
-  r2  d''
-  d'' d''
-  e'' e''
-  d''1
-  \bar "'" \once \textLengthOn s1^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } \bar "'"
-  r2 b'
-  c'' b'
-  a' b'
-  a'1
-  g' }
+    r2  d''
+    d'' d''
+    e'' e''
+    d''1
+    \bar "'" \once \textLengthOn s1^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } \bar "'"
+    r2 b'
+    c'' b'
+    a' b'
+    a'1
+    g' }
   \once \textLengthOn s1^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } \bar "'"
   r2 a'
   a' a'
@@ -36,16 +36,16 @@ sopranoMusic = {
 
 altoMusic = {
   \repeat volta 2 {
-  r2 g'2
-  g' b'
-  c'' c''
-  b'1
-  s1
-  r2 g'
-  a' g'
-  fis' g'
-  g' fis'
-  d'1 }
+    r2 g'2
+    g' b'
+    c'' c''
+    b'1
+    s1
+    r2 g'
+    a' g'
+    fis' g'
+    g' fis'
+    d'1 }
   s1
   r2 fis'
   fis' fis'
@@ -72,16 +72,16 @@ altoMusic = {
 
 tenorMusic = {
   \repeat volta 2 {
-  r2 b2
-  b4 d' g'2
-  g' g'
-  g'1
-  s1
-  r2 d'
-  d' d'
-  d' d'
-  d'2. a4
-  b1 }
+    r2 b2
+    b4 d' g'2
+    g' g'
+    g'1
+    s1
+    r2 d'
+    d' d'
+    d' d'
+    d'2. a4
+    b1 }
   s1
   r2 d'
   d' d'
@@ -107,16 +107,16 @@ tenorMusic = {
 
 bassMusic = {
   \repeat volta 2 { 
-  r2 g2
-  g g
-  c' c
-  g1
-  s1
-  r2 g
-  fis g
-  d4 c b, g,
-  d1
-  g, }
+    r2 g2
+    g g
+    c' c
+    g1
+    s1
+    r2 g
+    fis g
+    d4 c b, g,
+    d1
+    g, }
   s1
   r2 d
   d d
@@ -141,7 +141,8 @@ bassMusic = {
   \bar "'" s1 \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
   Nun dan -- ket al -- le Gott
   mit Her -- zen, Mund und Hän -- den,
   der uns von Mut -- ter -- leib
@@ -150,12 +151,14 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
   und noch it -- zund ge -- tan!
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
   der gro -- ße Din -- ge tut
   an uns und al -- len En -- den,
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   Nun dan -- ket al -- le Gott
   mit Her -- zen, Mund und Hän -- _ den,
   der uns von Mut -- ter -- leib
@@ -164,12 +167,14 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   und noch it -- zund ge -- tan!
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   der gro -- ße Din -- ge tut
   an uns und al -- len En -- _ den,
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   Nun dan -- _ ket al -- le Gott
   mit Her -- zen, Mund und Hän -- _ den,
   der uns von Mut -- ter -- _ leib
@@ -178,12 +183,14 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   und noch it -- zund ge -- tan!
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   der gro -- _ ße Din -- ge tut
   an uns und al -- len En -- _ den,
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Nun dan -- ket al -- le Gott
   mit Her -- zen, Mund __ _ und __ _ Hän -- den,
   der uns von Mut -- ter -- leib
@@ -192,7 +199,8 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   und noch it -- zund ge -- tan!
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   der gro -- ße Din -- ge tut
   an uns und al -- _ len __ _ En -- den,
 }

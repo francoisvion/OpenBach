@@ -54,50 +54,58 @@ bassMusic = {
   fis8 [e] fis4 b,\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Ich leb' in -- des in Gott ver -- gnü -- get
-   und sterb' ohn al -- le Küm -- mer -- nis;
-   durch dei -- ne Gnad' und Chris -- ti Blut
-   machst du's mit mei -- nem En -- de gut!
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ich leb' in -- des in Gott ver -- gnü -- get
+  und sterb' ohn al -- le Küm -- mer -- nis;
+  durch dei -- ne Gnad' und Chris -- ti Blut
+  machst du's mit mei -- nem En -- de gut!
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   mir g'nü -- get, wie es mein Gott fü -- get,
-   ich glaub' und bin es ganz ge -- wiss:
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  mir g'nü -- get, wie es mein Gott fü -- get,
+  ich glaub' und bin es ganz ge -- wiss:
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Ich leb' in -- des in Gott ver -- gnü -- get
-   und sterb' ohn al -- le Küm -- mer -- nis;
-   durch dei -- ne Gnad' und Chris -- ti Blut
-   machst du's mit mei -- nem En -- de gut!
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ich leb' in -- des in Gott ver -- gnü -- get
+  und sterb' ohn al -- le Küm -- mer -- nis;
+  durch dei -- ne Gnad' und Chris -- ti Blut
+  machst du's mit mei -- nem En -- de gut!
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   mir g'nü -- get, wie es mein Gott fü -- get,
-   ich glaub' und bin es ganz ge -- wiss:
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  mir g'nü -- get, wie es mein Gott fü -- get,
+  ich glaub' und bin es ganz ge -- wiss:
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Ich leb' in -- des in Gott ver -- gnü -- get
-   und sterb' ohn al -- le Küm -- mer -- nis;
-   durch dei -- ne Gnad' und Chris -- ti Blut
-   machst du's mit mei -- nem En -- de gut!
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ich leb' in -- des in Gott ver -- gnü -- get
+  und sterb' ohn al -- le Küm -- mer -- nis;
+  durch dei -- ne Gnad' und Chris -- ti Blut
+  machst du's mit mei -- nem En -- de gut!
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   mir g'nü -- get, wie es mein Gott fü -- get,
-   ich glaub' und bin es ganz ge -- wiss:
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  mir g'nü -- get, wie es mein Gott fü -- get,
+  ich glaub' und bin es ganz ge -- wiss:
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Ich leb' in -- des in Gott ver -- gnü -- get
-   und sterb' ohn al -- le Küm -- mer -- nis;
-   durch dei -- ne Gnad' und Chris -- ti Blut:
-   machst du's mit mei -- nem En -- de gut!
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ich leb' in -- des in Gott ver -- gnü -- get
+  und sterb' ohn al -- le Küm -- mer -- nis;
+  durch dei -- ne Gnad' und Chris -- ti Blut:
+  machst du's mit mei -- nem En -- de gut!
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   mir g'nü -- get, wie es mein Gott fü -- get,
-   ich glaub' und bin es ganz ge -- wiss:
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  mir g'nü -- get, wie es mein Gott fü -- get,
+  ich glaub' und bin es ganz ge -- wiss:
 }

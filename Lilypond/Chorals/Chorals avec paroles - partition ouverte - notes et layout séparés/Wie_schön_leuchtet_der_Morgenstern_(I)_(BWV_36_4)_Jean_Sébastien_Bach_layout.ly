@@ -30,12 +30,12 @@
 \header {
   title = \markup{\concat{"Wie schön leuchtet der Morgenstern (I)" \small " (v. 6)"}}
   subtitle = "tiré de la cantate : Liebster Gott, wenn werd ich sterben?"
- poet = "Auteur : Philipp Nicolai (1556-1608)"
+  poet = "Auteur : Philipp Nicolai (1556-1608)"
   opus = "BWV 36/4"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

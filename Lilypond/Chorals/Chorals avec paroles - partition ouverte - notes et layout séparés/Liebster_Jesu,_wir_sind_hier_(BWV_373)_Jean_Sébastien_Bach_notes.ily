@@ -54,50 +54,58 @@ bassMusic = {
   g,1\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Lieb -- ster Je -- su, wir sind hier,
-   dich und dein Wort an -- zu -- hö -- ren;
-   dass die Her -- zen von der Er -- den
-   ganz zu dir ge -- zo -- gen wer -- den.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Lieb -- ster Je -- su, wir sind hier,
+  dich und dein Wort an -- zu -- hö -- ren;
+  dass die Her -- zen von der Er -- den
+  ganz zu dir ge -- zo -- gen wer -- den.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   len -- ke Sin -- nen und Be -- gier
-   auf die sü -- ßen Him -- mels -- leh -- ren,
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  len -- ke Sin -- nen und Be -- gier
+  auf die sü -- ßen Him -- mels -- leh -- ren,
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Lieb -- ster Je -- su, wir sind hier,
-   dich und dein Wort an -- zu -- hö -- _ ren;
-   dass die Her -- zen von der Er -- den
-   ganz zu dir ge -- zo -- gen wer -- _ den.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Lieb -- ster Je -- su, wir sind hier,
+  dich und dein Wort an -- zu -- hö -- _ ren;
+  dass die Her -- zen von der Er -- den
+  ganz zu dir ge -- zo -- gen wer -- _ den.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   len -- ke Sin -- nen und Be -- gier
-   auf die sü -- ßen Him -- mels -- leh -- _ ren,
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  len -- ke Sin -- nen und Be -- gier
+  auf die sü -- ßen Him -- mels -- leh -- _ ren,
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Lieb -- ster Je -- su, wir sind hier,
-   dich und dein Wort an -- zu -- hö -- _ ren;
-   dass die Her -- zen von der Er -- den
-   ganz zu dir ge -- zo -- gen wer -- _ den.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Lieb -- ster Je -- su, wir sind hier,
+  dich und dein Wort an -- zu -- hö -- _ ren;
+  dass die Her -- zen von der Er -- den
+  ganz zu dir ge -- zo -- gen wer -- _ den.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   len -- ke Sin -- nen und Be -- gier
-   auf die sü -- ßen Him -- mels -- leh -- _ ren,
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  len -- ke Sin -- nen und Be -- gier
+  auf die sü -- ßen Him -- mels -- leh -- _ ren,
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Lieb -- ster Je -- su, wir sind hier,
   dich __ _ und dein __ _ Wort an -- zu -- hö -- _ ren;
   dass __ _ die Her -- zen von der Er -- den
   ganz zu dir ge -- zo -- gen wer -- den.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   len -- ke Sin -- nen und Be -- gier
   auf __ _ die sü -- _ ßen Him -- mels -- leh -- _ ren,
 }

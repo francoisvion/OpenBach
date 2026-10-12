@@ -66,58 +66,66 @@ bassMusic = {
   a,2.\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Du bist ein Geist, der leh -- _ ret,
-   wie man recht be -- ten soll;
-   es steigt zum Him -- mel an,
-   es steigt und lässt nicht a -- _ be,
-   bis der ge -- hol -- fen ha -- _ be,
-   der al -- len hel -- fen kann.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Du bist ein Geist, der leh -- _ ret,
+  wie man recht be -- ten soll;
+  es steigt zum Him -- mel an,
+  es steigt und lässt nicht a -- _ be,
+  bis der ge -- hol -- fen ha -- _ be,
+  der al -- len hel -- fen kann.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   dein Be -- ten wird er -- hö -- _ ret,
-   dein Sin -- gen klin -- get wohl.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dein Be -- ten wird er -- hö -- _ ret,
+  dein Sin -- gen klin -- get wohl.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Du bist ein Geist, der leh -- _ ret,
-   wie man recht be -- ten soll;
-   es steigt zum Him -- mel an,
-   es steigt und lässt nicht a -- _ be,
-   bis der ge -- hol -- fen ha -- _ be,
-   der al -- len hel -- fen kann.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Du bist ein Geist, der leh -- _ ret,
+  wie man recht be -- ten soll;
+  es steigt zum Him -- mel an,
+  es steigt und lässt nicht a -- _ be,
+  bis der ge -- hol -- fen ha -- _ be,
+  der al -- len hel -- fen kann.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   dein Be -- ten wird er -- hö -- _ ret,
-   dein Sin -- gen klin -- get wohl.
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dein Be -- ten wird er -- hö -- _ ret,
+  dein Sin -- gen klin -- get wohl.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Du bist ein Geist, der leh -- _ ret,
-   wie man recht be -- ten soll;
-   es steigt zum Him -- mel an,
-   es steigt und lässt nicht a -- _ be,
-   bis der ge -- hol -- fen ha -- _ be,
-   der al -- len hel -- fen kann.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Du bist ein Geist, der leh -- _ ret,
+  wie man recht be -- ten soll;
+  es steigt zum Him -- mel an,
+  es steigt und lässt nicht a -- _ be,
+  bis der ge -- hol -- fen ha -- _ be,
+  der al -- len hel -- fen kann.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   dein Be -- ten wird er -- hö -- _ ret,
-   dein Sin -- gen klin -- get wohl.
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dein Be -- ten wird er -- hö -- _ ret,
+  dein Sin -- gen klin -- get wohl.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Du bist ein Geist, der leh -- ret,
-   wie man recht be -- ten soll;
-   es steigt zum Him -- mel an,
-   es steigt und lässt nicht a -- _ be,
-   bis der ge -- hol -- fen ha -- _ be,
-   der al -- len hel -- fen kann.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Du bist ein Geist, der leh -- ret,
+  wie man recht be -- ten soll;
+  es steigt zum Him -- mel an,
+  es steigt und lässt nicht a -- _ be,
+  bis der ge -- hol -- fen ha -- _ be,
+  der al -- len hel -- fen kann.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   dein Be -- ten wird er -- hö -- ret,
-   dein Sin -- gen klin -- get wohl.
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dein Be -- ten wird er -- hö -- ret,
+  dein Sin -- gen klin -- get wohl.
 }

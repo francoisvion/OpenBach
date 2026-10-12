@@ -28,14 +28,14 @@
 }
 
 \header {
- title = \markup{\concat{"Ich ruf zu dir, Herr Jesu Christ (I)" \small " (v. 5)"}}
- subtitle = "tiré de la cantate : Ich ruf zu dir, Herr Jesu Christ"
- poet = "Auteur : Johann Agricola (1492-1566)"
+  title = \markup{\concat{"Ich ruf zu dir, Herr Jesu Christ (I)" \small " (v. 5)"}}
+  subtitle = "tiré de la cantate : Ich ruf zu dir, Herr Jesu Christ"
+  poet = "Auteur : Johann Agricola (1492-1566)"
   opus = "BWV 177/5"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

@@ -98,66 +98,74 @@ bassMusic = {
     g,2.\fermata }
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Je -- su, du __ _ mein lieb -- stes Le -- ben,
-   mei -- _ ner See -- _ len Bräu -- ti -- gam,
-   Je -- su, mei -- _ ne Freud und Won -- ne,
-   du mein Hoff -- _ nung, Schatz und Teil,
-   mein' Er -- lö -- _ sung, Schmuck und Heil,
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Je -- su, du __ _ mein lieb -- stes Le -- ben,
+  mei -- _ ner See -- _ len Bräu -- ti -- gam,
+  Je -- su, mei -- _ ne Freud und Won -- ne,
+  du mein Hoff -- _ nung, Schatz und Teil,
+  mein' Er -- lö -- _ sung, Schmuck und Heil,
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   der du bist __ _ für mich ge -- ge -- ben
-   an __ _ des bit -- _ tern Kreu -- zes -- stamm.
-   Hirt und Kö -- _ nig, Licht und Son -- ne,
-   ach, wie soll __ _ ich wür -- dig -- lich,
-   mein Herr Je -- _ su, prei -- sen dich?
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  der du bist __ _ für mich ge -- ge -- ben
+  an __ _ des bit -- _ tern Kreu -- zes -- stamm.
+  Hirt und Kö -- _ nig, Licht und Son -- ne,
+  ach, wie soll __ _ ich wür -- dig -- lich,
+  mein Herr Je -- _ su, prei -- sen dich?
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Je -- su, __ du mein lieb -- _ stes Le -- _ ben,
-   mei -- _ ner See -- _ len Bräu -- _ ti -- gam,
-   Je -- su, __ mei ne Freud __ _ und Won -- _ ne,
-   du __ _ mein __ Hoff nung, Schatz __ _ und Teil,
-   mein' Er -- lö -- _ sung, Schmuck __ _ und Heil,
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Je -- su, __ du mein lieb -- _ stes Le -- _ ben,
+  mei -- _ ner See -- _ len Bräu -- _ ti -- gam,
+  Je -- su, __ mei ne Freud __ _ und Won -- _ ne,
+  du __ _ mein __ Hoff nung, Schatz __ _ und Teil,
+  mein' Er -- lö -- _ sung, Schmuck __ _ und Heil,
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   der du __ bist für mich __ _ ge -- ge -- _ ben
-   an __ _ des bit -- _ tern Kreu -- _ zes -- stamm.
-   Hirt und __ Kö nig, Licht __ _ und Son -- _ ne,
-   ach, __ _ wie __ soll ich wür -- _ dig -- lich,
-   mein Herr Je -- _ su, prei -- _ sen dich?
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  der du __ bist für mich __ _ ge -- ge -- _ ben
+  an __ _ des bit -- _ tern Kreu -- _ zes -- stamm.
+  Hirt und __ Kö nig, Licht __ _ und Son -- _ ne,
+  ach, __ _ wie __ soll ich wür -- _ dig -- lich,
+  mein Herr Je -- _ su, prei -- _ sen dich?
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Je -- su, du __ _ mein __ lieb -- stes Le -- _ ben,
-   mei -- _ ner See -- len __ Bräu -- ti -- gam,
-   Je -- su, mei -- _ ne Freud und Won -- _ ne,
-   du mein Hoff -- _ nung, __ Schatz und Teil,
-   mein' Er -- lö -- _ sung, Schmuck und Heil,
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Je -- su, du __ _ mein __ lieb -- stes Le -- _ ben,
+  mei -- _ ner See -- len __ Bräu -- ti -- gam,
+  Je -- su, mei -- _ ne Freud und Won -- _ ne,
+  du mein Hoff -- _ nung, __ Schatz und Teil,
+  mein' Er -- lö -- _ sung, Schmuck und Heil,
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   der du bist __ _ für __ mich ge -- ge -- _ ben
-   an __ _ des bit -- tern __ Kreu -- zes -- stamm.
-   Hirt und Kö -- _ nig, Licht und Son -- _ ne,
-   ach, wie soll __ _ ich __ wür -- dig -- lich,
-   mein Herr Je -- _ su, prei -- sen dich?
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  der du bist __ _ für __ mich ge -- ge -- _ ben
+  an __ _ des bit -- tern __ Kreu -- zes -- stamm.
+  Hirt und Kö -- _ nig, Licht und Son -- _ ne,
+  ach, wie soll __ _ ich __ wür -- dig -- lich,
+  mein Herr Je -- _ su, prei -- sen dich?
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Je -- _ su, du __ _ mein lieb -- _ stes Le -- _ ben,
-   mei -- _ ner See -- _ len Bräu -- _ ti -- gam,
-   Je -- _ su, mei -- _ ne Freud __ _ und Won -- _ ne,
-   du __ _ mein Hoff -- _ nung, Schatz und Teil,
-   mein' __ _ Er -- lö -- _ sung, Schmuck __ _ und Heil,
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Je -- _ su, du __ _ mein lieb -- _ stes Le -- _ ben,
+  mei -- _ ner See -- _ len Bräu -- _ ti -- gam,
+  Je -- _ su, mei -- _ ne Freud __ _ und Won -- _ ne,
+  du __ _ mein Hoff -- _ nung, Schatz und Teil,
+  mein' __ _ Er -- lö -- _ sung, Schmuck __ _ und Heil,
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   der _ du bist __ _ für mich __ _ ge -- ge -- _ ben
-   an __ _ des bit -- _ tern Kreu -- _ zes -- stamm.
-   Hirt _ und Kö -- _ nig, Licht __ _ und Son -- _ ne,
-   ach, __ _ wie soll __ _ ich wür -- dig -- lich,
-   mein __ _ Herr Je -- _ su, prei -- _ sen dich?
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  der _ du bist __ _ für mich __ _ ge -- ge -- _ ben
+  an __ _ des bit -- _ tern Kreu -- _ zes -- stamm.
+  Hirt _ und Kö -- _ nig, Licht __ _ und Son -- _ ne,
+  ach, __ _ wie soll __ _ ich wür -- dig -- lich,
+  mein __ _ Herr Je -- _ su, prei -- _ sen dich?
 }

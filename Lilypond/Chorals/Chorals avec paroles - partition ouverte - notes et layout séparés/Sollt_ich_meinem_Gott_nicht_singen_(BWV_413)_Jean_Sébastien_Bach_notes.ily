@@ -142,66 +142,74 @@ bassMusic = {
   d2.\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Sollt' _ ich mei -- nem Gott __ _ nicht sin -- gen?
-   sollt' ich ihm nicht dank -- bar sein?
-   Ist doch nichts, als lau -- ter Lie -- ben,
-   das sein treu -- es Her -- _ ze regt,
-   das ohn En -- de hebt und trägt,
-   die in sei -- _ nem Dienst __ _ sich ü -- ben.
-   Al -- les Ding währt sei -- ne Zeit,
-   Got -- tes Lieb __ _ in E -- _ wig -- keit.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Sollt' _ ich mei -- nem Gott __ _ nicht sin -- gen?
+  sollt' ich ihm nicht dank -- bar sein?
+  Ist doch nichts, als lau -- ter Lie -- ben,
+  das sein treu -- es Her -- _ ze regt,
+  das ohn En -- de hebt und trägt,
+  die in sei -- _ nem Dienst __ _ sich ü -- ben.
+  Al -- les Ding währt sei -- ne Zeit,
+  Got -- tes Lieb __ _ in E -- _ wig -- keit.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   Denn _ ich seh' in al -- _ len Din -- gen,
-   wie so gut er's mit mir meint.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Denn _ ich seh' in al -- _ len Din -- gen,
+  wie so gut er's mit mir meint.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Sollt' _ ich mei -- _ nem Gott __ _ nicht sin -- gen?
-   sollt' ich ihm nicht dank -- bar __ _ sein?
-   Ist doch nichts, __ _ als lau -- ter Lie -- _ ben,
-   das __ _ sein treu -- _ es __ Her -- ze regt,
-   das __ _ ohn En -- _ de hebt und trägt, __ _
-   die in sei -- _ nem Dienst __ _ sich ü -- ben.
-   Al -- les Ding __ _ währt sei -- ne Zeit,
-   Got -- tes Lieb __ _ in __ E -- wig -- keit.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Sollt' _ ich mei -- _ nem Gott __ _ nicht sin -- gen?
+  sollt' ich ihm nicht dank -- bar __ _ sein?
+  Ist doch nichts, __ _ als lau -- ter Lie -- _ ben,
+  das __ _ sein treu -- _ es __ Her -- ze regt,
+  das __ _ ohn En -- _ de hebt und trägt, __ _
+  die in sei -- _ nem Dienst __ _ sich ü -- ben.
+  Al -- les Ding __ _ währt sei -- ne Zeit,
+  Got -- tes Lieb __ _ in __ E -- wig -- keit.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   Denn _ ich seh' __ _ in al -- _ len Din -- gen,
-   wie so gut er's mit mir __ _ meint.
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Denn _ ich seh' __ _ in al -- _ len Din -- gen,
+  wie so gut er's mit mir __ _ meint.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Sollt' _ ich __ mei -- nem Gott __ _ nicht sin -- _ gen?
-   sollt' ich __ ihm nicht dank -- bar __ _ sein?
-   Ist doch nichts, als lau -- ter Lie -- ben,
-   das __ _ sein treu -- es Her -- _ ze regt,
-   das __ _ ohn En -- de hebt und trägt,
-   die __ _ in sei -- nem Dienst __ _ sich ü -- ben.
-   Al -- les Ding währt sei -- ne Zeit,
-   Got -- _ tes __ Lieb __ in E -- _ wig -- keit.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Sollt' _ ich __ mei -- nem Gott __ _ nicht sin -- _ gen?
+  sollt' ich __ ihm nicht dank -- bar __ _ sein?
+  Ist doch nichts, als lau -- ter Lie -- ben,
+  das __ _ sein treu -- es Her -- _ ze regt,
+  das __ _ ohn En -- de hebt und trägt,
+  die __ _ in sei -- nem Dienst __ _ sich ü -- ben.
+  Al -- les Ding währt sei -- ne Zeit,
+  Got -- _ tes __ Lieb __ in E -- _ wig -- keit.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   Denn _ ich __ seh' in al -- _ len Din -- _ gen,
-   wie so __ gut er's mit mir __ _ meint.
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Denn _ ich __ seh' in al -- _ len Din -- _ gen,
+  wie so __ gut er's mit mir __ _ meint.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Sollt' _ ich mei -- _ nem Gott __ _ nicht sin -- gen?
-   sollt' __ _ ich ihm __ _ nicht dank -- bar __ _ sein?
-   Ist __ _ doch nichts, __ _ als lau -- _ ter Lie -- ben,
-   das __ _ sein treu -- _ es Her -- _ ze regt,
-   das __ _ ohn En -- _ de hebt __ _ und trägt,
-   die __ _ in sei -- _ nem Dienst __ _ sich ü -- ben.
-   Al -- _ les Ding __ _ währt sei -- _ ne Zeit,
-   Got -- _ tes Lieb __ _ in E -- _ wig -- keit.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Sollt' _ ich mei -- _ nem Gott __ _ nicht sin -- gen?
+  sollt' __ _ ich ihm __ _ nicht dank -- bar __ _ sein?
+  Ist __ _ doch nichts, __ _ als lau -- _ ter Lie -- ben,
+  das __ _ sein treu -- _ es Her -- _ ze regt,
+  das __ _ ohn En -- _ de hebt __ _ und trägt,
+  die __ _ in sei -- _ nem Dienst __ _ sich ü -- ben.
+  Al -- _ les Ding __ _ währt sei -- _ ne Zeit,
+  Got -- _ tes Lieb __ _ in E -- _ wig -- keit.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   Denn _ ich seh' __ _ in al -- _ len Din -- gen,
-   wie _ so gut __ _ er's mit mir __ _ meint.
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Denn _ ich seh' __ _ in al -- _ len Din -- gen,
+  wie _ so gut __ _ er's mit mir __ _ meint.
 }

@@ -78,21 +78,24 @@ bassMusic = {
   g,2\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Lass, o Herr, dein Ohr sich nei -- gen,
-   und stoß mich nicht von dir hin,
-   Weil ich arm und e -- lend bin.
-   Hü -- te mei -- ne Seel und Le -- ben,
-   die ich hei -- lig dir er -- ge -- ben,
-   reiß mich dei -- nen Knecht aus Not,
-   der auf dich nur hofft, o Gott!
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Lass, o Herr, dein Ohr sich nei -- gen,
+  und stoß mich nicht von dir hin,
+  Weil ich arm und e -- lend bin.
+  Hü -- te mei -- ne Seel und Le -- ben,
+  die ich hei -- lig dir er -- ge -- ben,
+  reiß mich dei -- nen Knecht aus Not,
+  der auf dich nur hofft, o Gott!
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   dir mein Wort zu Her -- zen stei -- gen,
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dir mein Wort zu Her -- zen stei -- gen,
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   Lass, o Herr, dein Ohr sich nei -- _ gen,
   und stoß mich nicht von dir hin,
   Weil ich arm und e -- lend bin.
@@ -102,11 +105,13 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   der auf dich nur hofft, o Gott!
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   dir mein Wort zu Her -- zen stei -- _ gen,
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   Lass, o Herr, dein Ohr sich nei -- _ gen,
   und stoß mich nicht von dir hin,
   Weil ich arm und e -- lend bin.
@@ -116,11 +121,13 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   der auf dich nur hofft, o Gott!
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   dir mein Wort zu Her -- zen stei -- _ gen,
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Lass, o Herr, dein Ohr sich nei -- _ gen,
   und stoß mich nicht von dir hin,
   Weil ich arm und e -- lend bin.
@@ -130,6 +137,7 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   der auf dich nur hofft, o Gott!
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   dir mein Wort zu Her -- zen stei -- _ gen,
 }

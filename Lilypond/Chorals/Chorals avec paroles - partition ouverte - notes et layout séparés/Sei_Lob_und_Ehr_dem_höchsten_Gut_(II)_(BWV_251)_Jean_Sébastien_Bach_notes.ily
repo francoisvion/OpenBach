@@ -58,54 +58,62 @@ bassMusic = {
   e4 c8 [d8] g,4\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Sei Lob und Ehr' dem höch -- sten Gut,
-   dem Va -- ter al -- ler Gü -- _ te,
-   mit sei -- nem rei -- chen Trost er -- füllt,
-   dem Gott, der al -- len Jam -- mer stillt:
-   gebt un -- serm Gott die Eh -- _ _ re!
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Sei Lob und Ehr' dem höch -- sten Gut,
+  dem Va -- ter al -- ler Gü -- _ te,
+  mit sei -- nem rei -- chen Trost er -- füllt,
+  dem Gott, der al -- len Jam -- mer stillt:
+  gebt un -- serm Gott die Eh -- _ _ re!
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   dem Gott, der al -- le Wun -- der tut,
-   dem Gott, der mein Ge -- mü -- _ te
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dem Gott, der al -- le Wun -- der tut,
+  dem Gott, der mein Ge -- mü -- _ te
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Sei Lob und Ehr' dem höch -- sten Gut,
-   dem Va -- ter al -- ler Gü -- _ te,
-   mit sei -- nem rei -- chen Trost er -- füllt,
-   dem Gott, der al -- len Jam -- mer stillt:
-   gebt un -- serm Gott __ _ die Eh -- _ re!
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Sei Lob und Ehr' dem höch -- sten Gut,
+  dem Va -- ter al -- ler Gü -- _ te,
+  mit sei -- nem rei -- chen Trost er -- füllt,
+  dem Gott, der al -- len Jam -- mer stillt:
+  gebt un -- serm Gott __ _ die Eh -- _ re!
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   dem Gott, der al -- le Wun -- der tut,
-   dem Gott, der mein Ge -- mü -- _ te
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dem Gott, der al -- le Wun -- der tut,
+  dem Gott, der mein Ge -- mü -- _ te
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Sei Lob und Ehr' dem höch -- sten Gut,
-   dem Va -- ter al -- ler Gü -- _ _ te,
-   mit sei -- nem rei -- chen Trost er -- füllt,
-   dem Gott, der al -- len Jam -- mer stillt:
-   gebt un -- serm Gott die Eh -- _ re!
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Sei Lob und Ehr' dem höch -- sten Gut,
+  dem Va -- ter al -- ler Gü -- _ _ te,
+  mit sei -- nem rei -- chen Trost er -- füllt,
+  dem Gott, der al -- len Jam -- mer stillt:
+  gebt un -- serm Gott die Eh -- _ re!
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   dem Gott, der al -- le Wun -- der tut,
-   dem Gott, der mein Ge -- mü -- _ _ te
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dem Gott, der al -- le Wun -- der tut,
+  dem Gott, der mein Ge -- mü -- _ _ te
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Sei Lob und Ehr' dem höch -- sten Gut,
-   dem Va -- ter al -- ler Gü -- _ te,
-   mit sei -- nem rei -- chen Trost er -- füllt,
-   dem Gott, der al -- len Jam -- mer stillt:
-   gebt un -- serm Gott die Eh -- _ re!
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Sei Lob und Ehr' dem höch -- sten Gut,
+  dem Va -- ter al -- ler Gü -- _ te,
+  mit sei -- nem rei -- chen Trost er -- füllt,
+  dem Gott, der al -- len Jam -- mer stillt:
+  gebt un -- serm Gott die Eh -- _ re!
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   dem Gott, der al -- le Wun -- der tut,
-   dem Gott, der mein Ge -- mü -- _ te
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  dem Gott, der al -- le Wun -- der tut,
+  dem Gott, der mein Ge -- mü -- _ te
 }

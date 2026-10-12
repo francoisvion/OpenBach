@@ -28,13 +28,13 @@
 }
 
 \header {
- title = \markup{\concat{"Nun lob, mein Seel, den Herren (I)" \small " (v. 3)"}}
- poet = "Auteur : Johann Gramann (1487-1541)"
+  title = \markup{\concat{"Nun lob, mein Seel, den Herren (I)" \small " (v. 3)"}}
+  poet = "Auteur : Johann Gramann (1487-1541)"
   opus = "BWV 17/7"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

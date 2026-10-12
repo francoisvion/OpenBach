@@ -58,45 +58,47 @@ bassMusic = {
   cis8 [d] e4 a,\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Der Herr ist mein ge -- treu -- er Hirt,
-   dem ich mich ganz ver -- trau -- _ e,
-   zum fri -- schen Was -- ser leit' er mich,
-   mein Seel zu la -- ben kräf -- tig -- lich
-   durchs se -- lig Wort der Gna -- _ den.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Der Herr ist mein ge -- treu -- er Hirt,
+  dem ich mich ganz ver -- trau -- _ e,
+  zum fri -- schen Was -- ser leit' er mich,
+  mein Seel zu la -- ben kräf -- tig -- lich
+  durchs se -- lig Wort der Gna -- _ den.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   zu Weid er mich, sein Schäf -- lein, führt,
-   auf schö -- ner grü -- nen Au -- _ e,
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  zu Weid er mich, sein Schäf -- lein, führt,
+  auf schö -- ner grü -- nen Au -- _ e,
 }
 
 altoLyricsOne = \lyricmode {
-      \set stanza = 1
-   Der Herr ist mein ge -- treu -- er Hirt, dem ich mich ganz ver -- trau -- _ _ e, zum fri -- schen Was -- ser leit' er mich, mein Seel zu la -- ben kräf -- tig -- lich durchs se -- lig Wort der Gna -- _ den.
-    }
+  \set stanza = 1
+  Der Herr ist mein ge -- treu -- er Hirt, dem ich mich ganz ver -- trau -- _ _ e, zum fri -- schen Was -- ser leit' er mich, mein Seel zu la -- ben kräf -- tig -- lich durchs se -- lig Wort der Gna -- _ den.
+}
 
 altoLyricsTwo = \lyricmode {
-      \set stanza = 2
-   zu Weid er mich, sein Schäf -- lein, führt, auf schö -- ner grü -- nen Au -- _ _ e,
-    }
+  \set stanza = 2
+  zu Weid er mich, sein Schäf -- lein, führt, auf schö -- ner grü -- nen Au -- _ _ e,
+}
 
 tenorLyricsOne = \lyricmode {
-      \set stanza = 1
-   Der Herr ist mein ge -- treu -- er Hirt, dem ich mich ganz ver -- trau e, zum fri -- schen Was -- ser leit' er mich, mein Seel zu la -- ben kräf -- tig -- lich durchs se -- lig Wort der Gna -- _ den.
-    }
+  \set stanza = 1
+  Der Herr ist mein ge -- treu -- er Hirt, dem ich mich ganz ver -- trau e, zum fri -- schen Was -- ser leit' er mich, mein Seel zu la -- ben kräf -- tig -- lich durchs se -- lig Wort der Gna -- _ den.
+}
 
 tenorLyricsTwo = \lyricmode {
-      \set stanza = 2
-   zu Weid er mich, sein Schäf -- lein, führt, auf schö -- ner grü -- nen Au e,
-    }
+  \set stanza = 2
+  zu Weid er mich, sein Schäf -- lein, führt, auf schö -- ner grü -- nen Au e,
+}
 
 bassLyricsOne = \lyricmode {
-      \set stanza = 1
-   Der Herr ist mein ge -- treu -- er Hirt, dem ich mich ganz ver -- trau -- _ e, zum fri -- schen Was -- ser leit' er mich, mein Seel zu la -- ben kräf -- tig -- lich durchs se -- lig Wort der Gna -- _ den.
-    }
+  \set stanza = 1
+  Der Herr ist mein ge -- treu -- er Hirt, dem ich mich ganz ver -- trau -- _ e, zum fri -- schen Was -- ser leit' er mich, mein Seel zu la -- ben kräf -- tig -- lich durchs se -- lig Wort der Gna -- _ den.
+}
 
 bassLyricsTwo = \lyricmode {
-      \set stanza = 2
-   zu Weid er mich, sein Schäf -- lein, führt, auf schö -- ner grü -- nen Au -- _ e,
-    }
+  \set stanza = 2
+  zu Weid er mich, sein Schäf -- lein, führt, auf schö -- ner grü -- nen Au -- _ e,
+}

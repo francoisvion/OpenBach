@@ -1,16 +1,16 @@
 sopranoMusic = {
   \repeat volta 2 {
-  \tempo \markup{\tiny \italic "Interludes instrumentaux absents"}
-  \once \textLengthOn s2.^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} }  \bar "'" 
-  r4 r g'4
-  g'2 fis'4
-  e'2 d'4
-  g'2 a'4
-  b'2 b'4
-  b'2 b'4
-  b' c'' a'
-  g'8 [a'] a'2
-  g' r4 }
+    \tempo \markup{\tiny \italic "Interludes instrumentaux absents"}
+    \once \textLengthOn s2.^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} }  \bar "'" 
+    r4 r g'4
+    g'2 fis'4
+    e'2 d'4
+    g'2 a'4
+    b'2 b'4
+    b'2 b'4
+    b' c'' a'
+    g'8 [a'] a'2
+    g' r4 }
   r r g'
   g'2 b'4
   a'2 b'4
@@ -51,14 +51,14 @@ sopranoMusic = {
 
 altoMusic = {
   \repeat volta 2 { 
-  s2.
-  r4 r d'4
-  d'4. e'8
-  d'4 d'8 [c' b c'] d'4
-  d'8 [c'16 b] e'8 [g'] fis'4 g'2
-  g'8 [a'] g'4. fis'8
-  g' [d'] e'2 fis'4
-  g'16 [fis' g' e'] fis'4. d'8 d'2 r4 }
+    s2.
+    r4 r d'4
+    d'4. e'8
+    d'4 d'8 [c' b c'] d'4
+    d'8 [c'16 b] e'8 [g'] fis'4 g'2
+    g'8 [a'] g'4. fis'8
+    g' [d'] e'2 fis'4
+    g'16 [fis' g' e'] fis'4. d'8 d'2 r4 }
   r4 r4 e'8 [d']
   e'2 e'4
   e' dis'8 [e'] fis'4 e'2
@@ -95,14 +95,14 @@ altoMusic = {
 
 tenorMusic = {
   \repeat volta 2 { 
-  s2.
-  r4 r b8
-  [c'] d' [c' b a]
-  b4 b8 [a g fis] g [a]
-  b [c'16 d'] g8 [a16 b] c'8 [d'] d'2
-  d'8 [fis'] e'4. fis'8
-  e' [g'] g4 a4. b8
-  b [e'] d'4 c' b2 r4 }
+    s2.
+    r4 r b8
+    [c'] d' [c' b a]
+    b4 b8 [a g fis] g [a]
+    b [c'16 d'] g8 [a16 b] c'8 [d'] d'2
+    d'8 [fis'] e'4. fis'8
+    e' [g'] g4 a4. b8
+    b [e'] d'4 c' b2 r4 }
   r r b
   g c' b8 [gis]
   c'2 b4 b
@@ -137,14 +137,14 @@ tenorMusic = {
 
 bassMusic = {
   \repeat volta 2 { 
-  s2.
-  r4 r g8
-  [a] b [a b c']
-  d' [d] e [fis g a] b [b,]
-  e [d c b, a, d] g,2
-  g8 [fis] e4. dis8
-  e [b,] c [b, a, b,] c [d]
-  e [c] d [c] d4 g,2 r4 }
+    s2.
+    r4 r g8
+    [a] b [a b c']
+    d' [d] e [fis g a] b [b,]
+    e [d c b, a, d] g,2
+    g8 [fis] e4. dis8
+    e [b,] c [b, a, b,] c [d]
+    e [c] d [c] d4 g,2 r4 }
   r4 r e8 [b,]
   c [d e fis] gis [e]
   a [g fis e] dis [b,] e [g a fis b b,]
@@ -178,7 +178,8 @@ bassMusic = {
   s2. \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
   Sei Lob und Preis mit Eh -- _ ren Gott Va -- ter, Sohn, __ _ Hei -- li -- ger Geist!
   Dass wir ihm fest ver -- trau -- _ en, gänz -- lich __ _ ver -- las -- sen auf ihn,
   von Her -- zen auf __ _ ihn bau -- _ _ en,
@@ -188,11 +189,13 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
   A -- men, wir wer -- dens er -- lan -- gen, glaubn wir __ aus Her -- _ zens -- grund.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
   Der woll in uns ver -- meh -- _ ren, was er uns aus __ _ Ge -- nad ver -- heißt,
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
   Sei Lob __ _ und Preis __ mit Eh -- _ _ ren Gott Va -- _ ter, Sohn, Hei -- li -- ger __ _ Geist!
   Dass wir ihm fest __ _ ver -- trau -- _ en, gänz -- lich __ ver -- las -- sen auf ihn,
   von Her -- zen auf __ _ ihn bau -- _ _ en,
@@ -202,11 +205,13 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   A -- men, wir wer -- _ dens er -- _ lan -- gen, glaubn wir aus Her -- zens -- grund.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
   Der woll __ _ in uns __ ver -- meh -- _ _ ren, was er __ _ uns aus Ge -- nad ver -- _ heißt,
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
   Sei Lob __ und Preis __ mit Eh -- _ _ ren Gott Va -- _ ter, Sohn, __ _ Hei -- li -- ger __ _ Geist!
   Dass wir __ _ ihm fest ver -- trau -- _ _ en, gänz -- lich ver -- las -- sen auf ihn,
   von Her -- _ zen auf ihn bau -- _ _ en,
@@ -216,11 +221,13 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   A -- men, wir wer -- dens er -- _ lan -- gen, glaubn wir __ _ aus Her -- zens -- grund.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
   Der woll __ in uns __ ver -- meh -- _ _ ren, was er __ _ uns aus __ _ Ge -- nad ver -- _ heißt,
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
   Sei Lob __ und Preis __ mit Eh -- ren Gott Va -- _ ter, Sohn, Hei -- li -- ger __ _ Geist!
   Dass wir __ ihm fest __ ver -- trau -- en, gänz -- lich __ ver -- las -- sen auf ihn,
   von Her -- _ zen auf __ _ ihn bau -- _ _ en,
@@ -230,6 +237,7 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   A -- men, wir wer -- dens er -- lan -- gen, glaubn wir __ _ aus __ Her -- zens -- grund.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
   Der woll __ in uns __ ver -- meh -- ren, was er __ _ uns aus Ge -- nad ver -- _ heißt,
 }

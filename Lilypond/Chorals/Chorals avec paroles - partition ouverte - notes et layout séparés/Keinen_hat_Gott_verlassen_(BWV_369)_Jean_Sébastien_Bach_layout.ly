@@ -28,13 +28,13 @@
 }
 
 \header {
- title = "Keinen hat Gott verlassen"
- poet = "Anonyme"
+  title = "Keinen hat Gott verlassen"
+  poet = "Anonyme"
   opus = "BWV 369"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

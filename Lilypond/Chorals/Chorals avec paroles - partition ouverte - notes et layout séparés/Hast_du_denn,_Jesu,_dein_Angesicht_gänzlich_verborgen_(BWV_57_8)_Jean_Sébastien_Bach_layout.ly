@@ -28,14 +28,14 @@
 }
 
 \header {
- title = \markup{\concat{"Hast du denn, Jesu, dein Angesicht gänzlich verborgen" \small " (v. 6)"}}
- subtitle = "tiré de la cantate : Selig ist der Mann"
- poet = "Auteur : Ahasverus Fritsch (1629-1701)"
+  title = \markup{\concat{"Hast du denn, Jesu, dein Angesicht gänzlich verborgen" \small " (v. 6)"}}
+  subtitle = "tiré de la cantate : Selig ist der Mann"
+  poet = "Auteur : Ahasverus Fritsch (1629-1701)"
   opus = "BWV 57/8"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

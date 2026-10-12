@@ -28,14 +28,14 @@
 }
 
 \header {
- title = \markup{\concat{"Ich freue mich in dir" \small " (v. 4)"}}
- subtitle = "tiré de la cantate : Ich freue mich in dir"
- poet = "Auteur : Kaspar Ziegler (1621-1690)"
+  title = \markup{\concat{"Ich freue mich in dir" \small " (v. 4)"}}
+  subtitle = "tiré de la cantate : Ich freue mich in dir"
+  poet = "Auteur : Kaspar Ziegler (1621-1690)"
   opus = "BWV 133/6"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

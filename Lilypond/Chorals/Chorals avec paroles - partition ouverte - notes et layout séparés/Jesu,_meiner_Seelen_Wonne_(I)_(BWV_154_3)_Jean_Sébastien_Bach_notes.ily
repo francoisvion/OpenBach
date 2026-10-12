@@ -62,58 +62,66 @@ bassMusic = {
   e e a,2\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Je -- su, mein Hort und Er -- ret -- ter,
-   Je -- su, mei -- ne Zu -- ver -- sicht,
-   Wie ver -- lan -- get mei -- nem Her -- zen,
-   Je -- su -- lein, nach dir mit Schmer -- zen!
-   Komm, ach komm, ich war -- te dein,
-   komm, o lieb -- stes Je -- su -- lein!
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Je -- su, mein Hort und Er -- ret -- ter,
+  Je -- su, mei -- ne Zu -- ver -- sicht,
+  Wie ver -- lan -- get mei -- nem Her -- zen,
+  Je -- su -- lein, nach dir mit Schmer -- zen!
+  Komm, ach komm, ich war -- te dein,
+  komm, o lieb -- stes Je -- su -- lein!
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   Je -- su, star -- ker Schlan -- gen -- tre -- ter,
-   Je -- su, mei -- nes Le -- bens Licht!
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Je -- su, star -- ker Schlan -- gen -- tre -- ter,
+  Je -- su, mei -- nes Le -- bens Licht!
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Je -- su, mein Hort und Er -- ret -- ter,
-   Je -- su, mei -- ne Zu -- ver -- sicht,
-   Wie ver -- lan -- get mei -- nem Her -- zen,
-   Je -- su -- lein, nach dir mit Schmer -- zen!
-   Komm, ach komm, ich war -- te dein,
-   komm, o lieb -- stes Je -- su -- lein!
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Je -- su, mein Hort und Er -- ret -- ter,
+  Je -- su, mei -- ne Zu -- ver -- sicht,
+  Wie ver -- lan -- get mei -- nem Her -- zen,
+  Je -- su -- lein, nach dir mit Schmer -- zen!
+  Komm, ach komm, ich war -- te dein,
+  komm, o lieb -- stes Je -- su -- lein!
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   Je -- su, star -- ker Schlan -- gen -- tre -- ter,
-   Je -- su, mei -- nes Le -- bens Licht!
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Je -- su, star -- ker Schlan -- gen -- tre -- ter,
+  Je -- su, mei -- nes Le -- bens Licht!
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Je -- su, mein Hort und Er -- ret -- ter,
-   Je -- su, mei -- ne Zu -- ver -- sicht,
-   Wie ver -- lan -- get mei -- nem Her -- zen,
-   Je -- su -- lein, nach dir mit Schmer -- zen!
-   Komm, ach komm, ich war -- te dein,
-   komm, o lieb -- stes Je -- su -- lein!
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Je -- su, mein Hort und Er -- ret -- ter,
+  Je -- su, mei -- ne Zu -- ver -- sicht,
+  Wie ver -- lan -- get mei -- nem Her -- zen,
+  Je -- su -- lein, nach dir mit Schmer -- zen!
+  Komm, ach komm, ich war -- te dein,
+  komm, o lieb -- stes Je -- su -- lein!
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   Je -- su, star -- ker Schlan -- gen -- tre -- ter,
-   Je -- su, mei -- nes Le -- bens Licht!
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Je -- su, star -- ker Schlan -- gen -- tre -- ter,
+  Je -- su, mei -- nes Le -- bens Licht!
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Je -- su, mein Hort und Er -- ret -- ter,
-   Je -- su, mei -- ne Zu -- ver -- sicht,
-   Wie ver -- lan -- get mei -- nem Her -- zen,
-   Je -- su -- lein, nach dir mit Schmer -- zen!
-   Komm, ach komm, ich war -- te dein,
-   komm, o lieb -- stes Je -- su -- lein!
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Je -- su, mein Hort und Er -- ret -- ter,
+  Je -- su, mei -- ne Zu -- ver -- sicht,
+  Wie ver -- lan -- get mei -- nem Her -- zen,
+  Je -- su -- lein, nach dir mit Schmer -- zen!
+  Komm, ach komm, ich war -- te dein,
+  komm, o lieb -- stes Je -- su -- lein!
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   Je -- su, star -- ker Schlan -- gen -- tre -- ter,
-   Je -- su, mei -- nes Le -- bens Licht!
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Je -- su, star -- ker Schlan -- gen -- tre -- ter,
+  Je -- su, mei -- nes Le -- bens Licht!
 }

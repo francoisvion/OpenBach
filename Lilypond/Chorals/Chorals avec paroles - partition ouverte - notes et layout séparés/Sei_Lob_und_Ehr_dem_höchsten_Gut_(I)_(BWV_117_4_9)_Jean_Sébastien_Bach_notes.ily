@@ -58,106 +58,122 @@ bassMusic = {
   cis d g,\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   \tweak X-offset #-3.5 "4. Ich" \tweak X-offset #0 rief zum Herrn in mei -- ner Not:
-   Ach Gott, ver -- nimm mein Schrei -- _ en!
-   Drum dank, ach Gott, drum dank ich dir;
-   ach dan -- ket, dan -- ket Gott mit mir!
-   Gebt un -- serm Gott die Eh -- _ re!
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-3.5 "4. Ich" \tweak X-offset #0 rief zum Herrn in mei -- ner Not:
+  Ach Gott, ver -- nimm mein Schrei -- _ en!
+  Drum dank, ach Gott, drum dank ich dir;
+  ach dan -- ket, dan -- ket Gott mit mir!
+  Gebt un -- serm Gott die Eh -- _ re!
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   Da half mein Hel -- fer mir vom Tod
-   und ließ mir Trost ge -- dei -- _ hen.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Da half mein Hel -- fer mir vom Tod
+  und ließ mir Trost ge -- dei -- _ hen.
 }
 
-sopranoLyricsThree = \lyricmode {\set stanza = 3
-   \tweak X-offset #-3.5 "9. So" \tweak X-offset #0 kom -- met vor sein An -- ge -- sicht
-   mit jauch -- zen -- vol -- lem Sprin -- _ gen;
-   Gott hat es al -- les wohl be -- dacht
-   und al -- les, al -- les recht ge -- macht.
-   Gebt un -- serm Gott die Eh -- _ re!
+sopranoLyricsThree = \lyricmode {
+  \set stanza = 3
+  \tweak X-offset #-3.5 "9. So" \tweak X-offset #0 kom -- met vor sein An -- ge -- sicht
+  mit jauch -- zen -- vol -- lem Sprin -- _ gen;
+  Gott hat es al -- les wohl be -- dacht
+  und al -- les, al -- les recht ge -- macht.
+  Gebt un -- serm Gott die Eh -- _ re!
 }
 
-sopranoLyricsFour = \lyricmode {\set stanza = 4
-   be -- zah -- let die ge -- lob -- te Pflicht
-   und lasst uns fröh -- lich sin -- _ gen:
+sopranoLyricsFour = \lyricmode {
+  \set stanza = 4
+  be -- zah -- let die ge -- lob -- te Pflicht
+  und lasst uns fröh -- lich sin -- _ gen:
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   \tweak X-offset #-3.5 "4. Ich" rief zum Herrn in mei -- ner Not: Ach Gott,
-   ver -- nimm mein Schrei -- _ en! Drum dank,
-   ach Gott, drum dank ich dir;
-   ach dan -- ket, dan -- ket Gott mit mir!
-   Gebt un -- serm Gott die Eh -- _ re!
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-3.5 "4. Ich" rief zum Herrn in mei -- ner Not: Ach Gott,
+  ver -- nimm mein Schrei -- _ en! Drum dank,
+  ach Gott, drum dank ich dir;
+  ach dan -- ket, dan -- ket Gott mit mir!
+  Gebt un -- serm Gott die Eh -- _ re!
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   Da half mein Hel -- fer mir vom Tod
-   und ließ mir Trost ge -- dei -- _ hen.
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Da half mein Hel -- fer mir vom Tod
+  und ließ mir Trost ge -- dei -- _ hen.
 }
 
-altoLyricsThree = \lyricmode {\set stanza = 3
-   \tweak X-offset #-3.5 "9. So" \tweak X-offset #0 kom -- met vor sein An -- ge -- sicht
-   mit jauch -- zen -- vol -- lem Sprin -- _ gen;
-   Gott hat es al -- les wohl be -- dacht
-   und al -- les, al -- les recht ge -- macht.
-   Gebt un -- serm Gott die Eh -- _ re!
+altoLyricsThree = \lyricmode {
+  \set stanza = 3
+  \tweak X-offset #-3.5 "9. So" \tweak X-offset #0 kom -- met vor sein An -- ge -- sicht
+  mit jauch -- zen -- vol -- lem Sprin -- _ gen;
+  Gott hat es al -- les wohl be -- dacht
+  und al -- les, al -- les recht ge -- macht.
+  Gebt un -- serm Gott die Eh -- _ re!
 }
 
-altoLyricsFour = \lyricmode {\set stanza = 4
-   be -- zah -- let die ge -- lob -- te Pflicht
-   und lasst uns fröh -- lich sin -- _ gen:
+altoLyricsFour = \lyricmode {
+  \set stanza = 4
+  be -- zah -- let die ge -- lob -- te Pflicht
+  und lasst uns fröh -- lich sin -- _ gen:
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   \tweak X-offset #-3.5 "4. Ich" rief zum Herrn in mei -- ner Not:
-   Ach Gott, ver -- nimm mein Schrei -- _ _ en!
-   Drum dank, ach Gott, drum dank ich dir;
-   ach dan -- ket, dan -- ket Gott mit mir!
-   Gebt un -- serm Gott die Eh -- re!
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-3.5 "4. Ich" rief zum Herrn in mei -- ner Not:
+  Ach Gott, ver -- nimm mein Schrei -- _ _ en!
+  Drum dank, ach Gott, drum dank ich dir;
+  ach dan -- ket, dan -- ket Gott mit mir!
+  Gebt un -- serm Gott die Eh -- re!
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   Da half mein Hel -- fer mir vom Tod
-   und ließ mir Trost ge -- dei -- _ _ hen.
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Da half mein Hel -- fer mir vom Tod
+  und ließ mir Trost ge -- dei -- _ _ hen.
 }
 
-tenorLyricsThree = \lyricmode {\set stanza = 3
-   \tweak X-offset #-3.5 "9. So" \tweak X-offset #0 kom -- met vor sein An -- ge -- sicht
-   mit jauch -- zen -- vol -- lem Sprin -- _ _ gen;
-   Gott hat es al -- les wohl be -- dacht
-   und al -- les, al -- les recht ge -- macht.
-   Gebt un -- serm Gott die Eh -- re!
+tenorLyricsThree = \lyricmode {
+  \set stanza = 3
+  \tweak X-offset #-3.5 "9. So" \tweak X-offset #0 kom -- met vor sein An -- ge -- sicht
+  mit jauch -- zen -- vol -- lem Sprin -- _ _ gen;
+  Gott hat es al -- les wohl be -- dacht
+  und al -- les, al -- les recht ge -- macht.
+  Gebt un -- serm Gott die Eh -- re!
 }
 
-tenorLyricsFour = \lyricmode {\set stanza = 4
-   be -- zah -- let die ge -- lob -- te Pflicht
-   und lasst uns fröh -- lich sin -- _ _ gen:
+tenorLyricsFour = \lyricmode {
+  \set stanza = 4
+  be -- zah -- let die ge -- lob -- te Pflicht
+  und lasst uns fröh -- lich sin -- _ _ gen:
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   \tweak X-offset #-3.5 "4. Ich" rief zum Herrn in mei -- ner Not:
-   Ach Gott, ver -- nimm mein Schrei -- _ en!
-   Drum dank, ach Gott, drum dank ich dir;
-   ach dan -- ket, dan -- ket Gott mit mir!
-   Gebt un -- serm Gott die Eh -- _ re!
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  \tweak X-offset #-3.5 "4. Ich" rief zum Herrn in mei -- ner Not:
+  Ach Gott, ver -- nimm mein Schrei -- _ en!
+  Drum dank, ach Gott, drum dank ich dir;
+  ach dan -- ket, dan -- ket Gott mit mir!
+  Gebt un -- serm Gott die Eh -- _ re!
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   Da half mein Hel -- fer mir vom Tod
-   und ließ mir Trost ge -- dei -- _ hen.
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  Da half mein Hel -- fer mir vom Tod
+  und ließ mir Trost ge -- dei -- _ hen.
 }
 
-bassLyricsThree = \lyricmode {\set stanza = 3
-   \tweak X-offset #-3.5 "9. So" \tweak X-offset #0 kom -- met vor sein An -- ge -- sicht
-   mit jauch -- zen -- vol -- lem Sprin -- _ gen;
-   Gott hat es al -- les wohl be -- dacht
-   und al -- les, al -- les recht ge -- macht.
-   Gebt un -- serm Gott die Eh -- _ re!
+bassLyricsThree = \lyricmode {
+  \set stanza = 3
+  \tweak X-offset #-3.5 "9. So" \tweak X-offset #0 kom -- met vor sein An -- ge -- sicht
+  mit jauch -- zen -- vol -- lem Sprin -- _ gen;
+  Gott hat es al -- les wohl be -- dacht
+  und al -- les, al -- les recht ge -- macht.
+  Gebt un -- serm Gott die Eh -- _ re!
 }
 
-bassLyricsFour = \lyricmode {\set stanza = 4
-   be -- zah -- let die ge -- lob -- te Pflicht
-   und lasst uns fröh -- lich sin -- _ gen:
+bassLyricsFour = \lyricmode {
+  \set stanza = 4
+  be -- zah -- let die ge -- lob -- te Pflicht
+  und lasst uns fröh -- lich sin -- _ gen:
 }

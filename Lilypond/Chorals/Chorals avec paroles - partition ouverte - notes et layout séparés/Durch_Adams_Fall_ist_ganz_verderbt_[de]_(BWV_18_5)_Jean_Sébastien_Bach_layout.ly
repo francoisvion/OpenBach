@@ -28,14 +28,14 @@
 }
 
 \header {
- title = \markup{\concat{"Durch Adams Fall ist ganz verderbt" \small " (v. 8)"}}
- subtitle = "tiré de la cantate : Gleichwie der Regen und Schnee vom Himmel fällt "
- poet = "Auteur : Lazarus Spengler (1479-1534)"
+  title = \markup{\concat{"Durch Adams Fall ist ganz verderbt" \small " (v. 8)"}}
+  subtitle = "tiré de la cantate : Gleichwie der Regen und Schnee vom Himmel fällt "
+  poet = "Auteur : Lazarus Spengler (1479-1534)"
   opus = "BWV 18/5"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

@@ -70,58 +70,66 @@ bassMusic = {
   g g, c,2\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Komm, o Tod, du Schla -- fes Bru -- der,
-   Komm und füh -- re mich nur fort;
-   Es mag, __ _ wer da will, dich scheu -- en,
-   denn durch dich komm ich her -- ein
-   zu dem schön -- sten Je -- su -- lein.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Komm, o Tod, du Schla -- fes Bru -- der,
+  Komm und füh -- re mich nur fort;
+  Es mag, __ _ wer da will, dich scheu -- en,
+  denn durch dich komm ich her -- ein
+  zu dem schön -- sten Je -- su -- lein.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   lö -- se mei -- nes Schiff -- leins Ru -- der,
-   brin -- ge mich an si -- chern Port!
-   du kannst __ _ mich viel mehr er -- freu -- en;
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  lö -- se mei -- nes Schiff -- leins Ru -- der,
+  brin -- ge mich an si -- chern Port!
+  du kannst __ _ mich viel mehr er -- freu -- en;
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Komm, o Tod, du Schla -- fes Bru -- _ der,
-   Komm und füh -- re mich nur fort;
-   Es mag, __ _ wer da will, dich scheu -- _ en,
-   denn durch dich komm ich her -- ein
-   zu dem schön -- sten __ _ Je -- su -- lein.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Komm, o Tod, du Schla -- fes Bru -- _ der,
+  Komm und füh -- re mich nur fort;
+  Es mag, __ _ wer da will, dich scheu -- _ en,
+  denn durch dich komm ich her -- ein
+  zu dem schön -- sten __ _ Je -- su -- lein.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   lö -- se mei -- nes Schiff -- leins Ru -- _ der,
-   brin -- ge mich an si -- chern Port!
-   du kannst __ _ mich viel mehr er -- freu -- _ en;
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  lö -- se mei -- nes Schiff -- leins Ru -- _ der,
+  brin -- ge mich an si -- chern Port!
+  du kannst __ _ mich viel mehr er -- freu -- _ en;
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Komm, o Tod, du Schla -- fes Bru -- _ der,
-   Komm und füh -- re mich nur fort;
-   Es mag, wer da will, dich scheu -- _ en,
-   denn durch dich komm ich her -- ein
-   zu dem schön -- sten Je -- su -- lein.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Komm, o Tod, du Schla -- fes Bru -- _ der,
+  Komm und füh -- re mich nur fort;
+  Es mag, wer da will, dich scheu -- _ en,
+  denn durch dich komm ich her -- ein
+  zu dem schön -- sten Je -- su -- lein.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   lö -- se mei -- nes Schiff -- leins Ru -- _ der,
-   brin -- ge mich an si -- chern Port!
-   du kannst mich viel mehr er -- freu -- _ en;
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  lö -- se mei -- nes Schiff -- leins Ru -- _ der,
+  brin -- ge mich an si -- chern Port!
+  du kannst mich viel mehr er -- freu -- _ en;
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Komm, o Tod, du Schla -- fes Bru -- der,
-   Komm und füh -- re mich nur fort;
-   Es __ _ mag, __ _ wer da will, dich scheu -- _ en,
-   denn durch dich komm ich her -- ein
-   zu dem schön -- sten Je -- su -- lein.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Komm, o Tod, du Schla -- fes Bru -- der,
+  Komm und füh -- re mich nur fort;
+  Es __ _ mag, __ _ wer da will, dich scheu -- _ en,
+  denn durch dich komm ich her -- ein
+  zu dem schön -- sten Je -- su -- lein.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   lö -- se mei -- nes Schiff -- leins Ru -- der,
-   brin -- ge mich an si -- chern Port!
-   du __ _ kannst __ _ mich viel mehr er -- freu -- _ en;
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  lö -- se mei -- nes Schiff -- leins Ru -- der,
+  brin -- ge mich an si -- chern Port!
+  du __ _ kannst __ _ mich viel mehr er -- freu -- _ en;
 }

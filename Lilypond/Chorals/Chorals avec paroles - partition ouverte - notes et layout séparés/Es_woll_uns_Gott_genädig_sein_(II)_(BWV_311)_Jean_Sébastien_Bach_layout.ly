@@ -27,13 +27,13 @@
 }
 
 \header {
- title = "Es woll uns Gott genädig sein (II)"
- poet = "Auteur : Martin Luther (1483-1546)"
+  title = "Es woll uns Gott genädig sein (II)"
+  poet = "Auteur : Martin Luther (1483-1546)"
   opus = "BWV 311"
   composer = "Jean-Sébastien Bach (1685-1750)"
   tagline = ##f
   copyright = "© 2026 — OpenBach"
-  }
+}
 
 \score {
   \new ChoirStaff <<

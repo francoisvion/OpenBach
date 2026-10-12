@@ -66,54 +66,62 @@ bassMusic = {
   gis, a, e,2\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
-   Ob bei uns ist der Sün -- den viel,
-   bei Gott ist viel mehr Gna -- _ de,
-   Er ist al -- lein der gu -- te Hirt,
-   der Is -- ra -- el er -- lö -- sen wird
-   aus sei -- nen Sün -- den al -- _ len.
+sopranoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ob bei uns ist der Sün -- den viel,
+  bei Gott ist viel mehr Gna -- _ de,
+  Er ist al -- lein der gu -- te Hirt,
+  der Is -- ra -- el er -- lö -- sen wird
+  aus sei -- nen Sün -- den al -- _ len.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
-   sein' Hand zu hel -- fen hat kein Ziel,
-   Wie groß auch sei der Scha -- _ de.
+sopranoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  sein' Hand zu hel -- fen hat kein Ziel,
+  Wie groß auch sei der Scha -- _ de.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
-   Ob bei uns ist der Sün -- den viel,
-   bei Gott ist viel mehr Gna -- _ de,
-   Er ist al -- lein der gu -- te Hirt,
-   der Is -- ra -- el er -- lö -- sen wird
-   aus sei -- nen Sün -- den al -- _ len.
+altoLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ob bei uns ist der Sün -- den viel,
+  bei Gott ist viel mehr Gna -- _ de,
+  Er ist al -- lein der gu -- te Hirt,
+  der Is -- ra -- el er -- lö -- sen wird
+  aus sei -- nen Sün -- den al -- _ len.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
-   sein' Hand zu hel -- fen hat kein Ziel,
-   Wie groß auch sei der Scha -- _ de.
+altoLyricsTwo = \lyricmode {
+  \set stanza = 2
+  sein' Hand zu hel -- fen hat kein Ziel,
+  Wie groß auch sei der Scha -- _ de.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
-   Ob bei uns ist der Sün -- den viel,
-   bei Gott ist viel mehr Gna -- _ de,
-   Er ist al -- lein der gu -- te Hirt,
-   der Is -- ra -- el er -- lö -- sen __ _ wird
-   aus sei -- nen Sün -- den al -- _ _ _ len.
+tenorLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ob bei uns ist der Sün -- den viel,
+  bei Gott ist viel mehr Gna -- _ de,
+  Er ist al -- lein der gu -- te Hirt,
+  der Is -- ra -- el er -- lö -- sen __ _ wird
+  aus sei -- nen Sün -- den al -- _ _ _ len.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
-   sein' Hand zu hel -- fen hat kein Ziel,
-   Wie groß auch sei der Scha -- _ de.
+tenorLyricsTwo = \lyricmode {
+  \set stanza = 2
+  sein' Hand zu hel -- fen hat kein Ziel,
+  Wie groß auch sei der Scha -- _ de.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
-   Ob bei uns ist der Sün -- den viel,
-   bei Gott ist viel mehr Gna -- _ de,
-   Er ist al -- lein der gu -- te Hirt,
-   der Is -- ra -- el er -- lö -- sen wird
-   aus sei -- nen Sün -- den al -- _ _ _ len.
+bassLyricsOne = \lyricmode {
+  \set stanza = 1
+  Ob bei uns ist der Sün -- den viel,
+  bei Gott ist viel mehr Gna -- _ de,
+  Er ist al -- lein der gu -- te Hirt,
+  der Is -- ra -- el er -- lö -- sen wird
+  aus sei -- nen Sün -- den al -- _ _ _ len.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
-   sein' Hand zu hel -- fen hat kein Ziel,
-   Wie groß auch sei der Scha -- _ de.
+bassLyricsTwo = \lyricmode {
+  \set stanza = 2
+  sein' Hand zu hel -- fen hat kein Ziel,
+  Wie groß auch sei der Scha -- _ de.
 }
