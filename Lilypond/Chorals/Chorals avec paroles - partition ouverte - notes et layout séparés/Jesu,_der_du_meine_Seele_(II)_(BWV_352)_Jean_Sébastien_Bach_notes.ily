@@ -17,7 +17,7 @@ sopranoMusic = {
 altoMusic = {
   \repeat volta 2 {
     a'8 [b'] c''4 b' a'8 [gis']
-    a' [b'] a'4. gis'8 e'4\fermata
+    a' [b'] a'4~a'8 gis'8 e'4\fermata
     e' a'8 [g'] f' e'4 d'8
     d' [e'16 f'] e'8 [fis'] gis'2\fermata }
   gis'4 a' a' g'

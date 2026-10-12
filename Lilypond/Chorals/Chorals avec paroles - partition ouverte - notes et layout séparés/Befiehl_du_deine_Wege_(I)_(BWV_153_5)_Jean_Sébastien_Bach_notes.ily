@@ -26,7 +26,7 @@ altoMusic = {
   g' f' e'\fermata g'
   f' e'8 [d'] e'4 d'
   cis'2.\fermata d'4
-  d' g'4. fis'8 g'4
+  d' g'4~g'8 fis'8 g'4
   g' fis' g'\fermata g'
   d' c' c' b8 [c']
   d'4\fermata c' b \fine

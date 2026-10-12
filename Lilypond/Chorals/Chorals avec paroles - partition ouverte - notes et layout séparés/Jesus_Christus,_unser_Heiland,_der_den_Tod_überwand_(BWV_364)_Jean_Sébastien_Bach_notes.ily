@@ -14,8 +14,8 @@ sopranoMusic = {
 }
 
 altoMusic = {
-  d'4 d' d'4. c'8
-  c' f'4 e'8 d'4. cis'8
+  d'4 d' d'4~d'8 c'8
+  c' f'4 e'8 d'4~d'8 cis'8
   a2\fermata r4 d'
   d' ees'8 [d'] d'4 d'
   d'2\fermata r4 g'8 [f']
@@ -34,7 +34,7 @@ tenorMusic = {
   f2\fermata r4 a
   bes8 [g] c'4. bes8 a4
   bes2\fermata r4 c'
-  c' d' d'4. c'8
+  c' d' d'4~d'8 c'8
   fis2\fermata r4
   \partial 4  bes
   a c' c' bes

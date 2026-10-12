@@ -78,7 +78,7 @@ bassMusic = {
   \partial 4  e
   a,8 [b,] c4~ c8 b, c [b,]
   a, [g,] f,4 e,\fermata e
-  a,4. b,8 c4. b,8
+  a,4~a,8 b,8 c4. b,8
   a, [a] f [d] e4\fermata
   \partial 4 c
   g g,8 [a,] b, [c] d4

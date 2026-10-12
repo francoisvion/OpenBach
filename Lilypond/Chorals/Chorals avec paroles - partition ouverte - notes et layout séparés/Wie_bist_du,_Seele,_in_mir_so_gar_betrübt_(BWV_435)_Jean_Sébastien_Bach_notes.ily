@@ -16,7 +16,7 @@ sopranoMusic = {
 altoMusic = {
   \partial 4  e'8 [dis']
   e' [b] cis' [dis'] e' [dis'] e'4
-  e'8 [dis']\fermata e'4. dis'8 e'4
+  e'8 [dis']\fermata e'4~e'8 dis'8 e'4
   e' dis' b\fermata dis'
   e' d'8 [c'] b [d'] g'4
   fis'\fermata e' d' d'

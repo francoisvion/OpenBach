@@ -20,7 +20,7 @@ sopranoMusic = {
 altoMusic = {
   e'4 e' fis' e'
   e' fis' gis'2\fermata
-  gis'4 a'4. gis'8 a'4
+  gis'4 a'4~a'8 gis'8 a'4
   a' gis' e'2\fermata
   gis'4 gis' gis' ais'
   fis' fis' fis'2\fermata

@@ -23,14 +23,14 @@ sopranoMusic = {
 
 altoMusic = {
   \partial 4  d'4
-  g'8 [f'] ees' [d'] c'4. bes8
+  g'8 [f'] ees' [d'] c'4~c'8 bes8
   d'4 ees'8 [d'] ees'4 d'
   ees' d' d'\fermata g'
   g'8 [fis'] g' [ees'] c'4 c'8 [bes16 c']
   d'8 [c'] bes4 ees'8 [d'] e'4
   d' d' d'\fermata g'
   g'4. fis'8 g'4 g'
-  d' d'4. c'8 bes [d']
+  d' d'4~d'8 c'8 bes [d']
   c' [bes] c'4 bes\fermata
   \partial 4 d'
   d'8 [ees'] d' [c'] bes [c'] d'4

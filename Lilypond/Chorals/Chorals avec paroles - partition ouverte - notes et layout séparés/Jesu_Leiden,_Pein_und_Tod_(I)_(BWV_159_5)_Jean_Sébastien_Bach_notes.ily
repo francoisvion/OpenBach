@@ -18,7 +18,7 @@ sopranoMusic = {
 }
 
 altoMusic = {
-  ees'4 d'4. c'4 bes8
+  ees'4 d'4~d'8 c'4 bes8
   bes4 ees'8 [des'] ees'2\fermata
   ees'8 aes'4 g' f'8 ees'4~
   ees' d' bes2\fermata
@@ -70,7 +70,7 @@ bassMusic = {
   f8 [ees] f4 bes,2\fermata
   d8 [bes,] ees4~ ees8 c g4~
   g8 f g [aes] bes2\fermata
-  ees4. d8 c4 bes,8 [aes,]
+  ees4~ees8 d8 c4 bes,8 [aes,]
   bes,2 ees,\fermata \fine
 }
 

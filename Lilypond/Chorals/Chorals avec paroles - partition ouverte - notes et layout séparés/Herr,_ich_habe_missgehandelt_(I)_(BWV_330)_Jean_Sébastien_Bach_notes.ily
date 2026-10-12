@@ -27,7 +27,7 @@ altoMusic = {
 tenorMusic = {
   \repeat volta 2 {
     c'8 [b] a4 e8 [e'] a4
-    b8 [gis] a4. gis8 c'4\fermata
+    b8 [gis] a4~a8 gis8 c'4\fermata
     e' d' c' f8 [e]
     e a4 gis16 [a] b2\fermata }
   c'4 d'4 d'8 [c'] c'4

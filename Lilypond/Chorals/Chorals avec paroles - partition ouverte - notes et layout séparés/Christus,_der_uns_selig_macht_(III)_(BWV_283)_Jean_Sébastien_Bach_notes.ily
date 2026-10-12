@@ -21,13 +21,13 @@ sopranoMusic = {
 altoMusic = {
   gis'8 [a'] b' [gis'] a'4 a'
   a'8 [e'] e'4 e'2\fermata
-  c'8 [d'] e'4. fis'8 gis' [a']
+  c'8 [d'] e'4~e'8 fis'8 gis' [a']
   b'4. a'8 a'4 gis'\fermata
   a'8 [g'] f'4 g'4. f'8
-  e'4. d'8 cis'2\fermata
+  e'4~e'8 d'8 cis'2\fermata
   d'8 [g] a4 a8 [b] cis' [d']
   e'4. d'8 cis'2\fermata
-  c'4 f'4. e'16 [d'] e'4~
+  c'4 f'4~f'8 e'16 [d'] e'4~
   e'8 d'4 cis'8 d'2\fermata
   b8 e'4 d'8 d'4 e'
   f'8 g'4 a' g'8 g'4

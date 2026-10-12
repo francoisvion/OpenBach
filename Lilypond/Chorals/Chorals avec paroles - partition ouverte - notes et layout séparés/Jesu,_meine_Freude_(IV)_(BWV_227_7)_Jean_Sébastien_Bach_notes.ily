@@ -38,7 +38,7 @@ tenorMusic = {
     c' [b16 a] b8 [a] g a g fis
     e e r4 r8 fis d' a
     b a16 [g] e' [dis' e'8] fis'4 r
-    r8 dis' e'4. e'8 d'4~
+    r8 dis' e'4~e'8 e'8 d'4~
     d' c'16 [b c'8] b2 }
   e'8 [fis'] fis' [e'] e' [d'] d' [e']
   e'4 d'8 [c'] c' b [c'] a

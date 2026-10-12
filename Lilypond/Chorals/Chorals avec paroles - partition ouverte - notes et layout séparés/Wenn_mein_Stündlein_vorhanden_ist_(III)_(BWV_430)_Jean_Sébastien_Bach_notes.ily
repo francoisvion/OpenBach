@@ -32,7 +32,7 @@ altoMusic = {
   e'8 [gis'] fis' [e'] dis'4 e'
   fis'8 e'4 dis'8 e'4\fermata b
   e' e' e'8 [d'16 e'] fis'4~
-  fis'8 gis' a'4. gis'16 [fis'] gis'4
+  fis'8 gis' a'4~a'8 gis'16 [fis'] gis'4
   e'2.\fermata \fine
 }
 

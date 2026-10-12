@@ -37,7 +37,7 @@ altoMusic = {
   r4 f' f'8 [ees'] d'4 
   e' f' f' e' 
   c' \bar "'" s2 \bar "'"  d'4
-  e' f'4. e'16 [d'] e'4
+  e' f'4~f'8 e'16 [d'] e'4
   f' \bar "'" s2 \bar "'" ees'4
   d' g'
   f'8 [aes'] g' [f'] 

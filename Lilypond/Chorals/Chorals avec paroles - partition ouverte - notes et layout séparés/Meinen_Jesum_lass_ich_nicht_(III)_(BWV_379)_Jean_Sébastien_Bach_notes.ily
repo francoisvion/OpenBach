@@ -15,7 +15,7 @@ altoMusic = {
   \repeat volta 2 {
     g'4 g'8 [a'] g'4 g'
     g'8 [fis'16 e'] fis'4 g'2\fermata
-    g'4 g'4. fis'8 g'4
+    g'4 g'4~g'8 fis'8 g'4
     a'4 a'8 [g'] g' [fis'16 e'] fis'4
     d'1\fermata }
   g'4 g' g' fis'

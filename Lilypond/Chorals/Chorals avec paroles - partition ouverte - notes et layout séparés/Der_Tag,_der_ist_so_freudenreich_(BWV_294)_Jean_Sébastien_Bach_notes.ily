@@ -22,7 +22,7 @@ sopranoMusic = {
 altoMusic = {
   \repeat volta 2 {
     \partial 4  d'4
-    e' e'4. fis'8 g'4
+    e' e'4~e'8 fis'8 g'4
     g'4. fis'8 d'2\fermata
     fis'4 e'8 [d'] e'4. d'16 [c']
     b8 [g] d'4 d'\fermata } d'

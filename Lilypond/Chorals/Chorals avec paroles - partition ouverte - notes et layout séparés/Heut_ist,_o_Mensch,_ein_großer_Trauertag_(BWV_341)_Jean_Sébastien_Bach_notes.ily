@@ -40,7 +40,7 @@ tenorMusic = {
 bassMusic = {
   \partial 4  g,4
   d bes,8 [c] f4\fermata g
-  d e4. fis8 g4
+  d e4~e8 fis8 g4
   d2\fermata r4 bes,
   f g d ees
   bes,8 [a,] g,4 a,8 [g,] a, [f,]

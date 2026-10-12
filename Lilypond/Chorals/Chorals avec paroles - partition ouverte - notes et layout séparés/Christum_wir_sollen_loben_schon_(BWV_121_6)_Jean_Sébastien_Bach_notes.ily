@@ -45,7 +45,7 @@ tenorMusic = {
   b4 b a2
   g8 [a] b4 a b
   b2.\fermata a4
-  e' a4. b8 cis' [d']
+  e' a4~a8 b8 cis' [d']
   e' [d'] cis'4 b b
   a2.\fermata
   d'8 [e']

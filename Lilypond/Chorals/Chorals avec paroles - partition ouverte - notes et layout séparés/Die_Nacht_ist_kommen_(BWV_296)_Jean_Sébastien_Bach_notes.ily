@@ -25,12 +25,12 @@ altoMusic = {
   b4 e' f' e'8 [d']
   c'2\fermata r4
   \partial 4  a'
-  g'8 [f'] g'4. f'16 [e'] f'8 [g']
+  g'8 [f'] g'4~g'8 f'16 [e'] f'8 [g']
   a'2\fermata r4 g'
-  g' a'4. g'4 fis'8
+  g' a'4~a'8 g'4 fis'8
   d'2\fermata r4
   \partial 4 g'
-  a'8 [d'] g'4. f'8 g' [e']
+  a'8 [d'] g'4~g'8 f'8 g' [e']
   f'2\fermata r4 g'
   a'4. g'8 g'4 g'
   fis'2\fermata r4 g'~

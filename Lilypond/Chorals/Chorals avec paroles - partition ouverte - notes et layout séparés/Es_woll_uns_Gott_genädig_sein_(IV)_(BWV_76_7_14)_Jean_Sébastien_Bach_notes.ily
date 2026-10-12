@@ -85,7 +85,7 @@ tenorMusic = {
   r2 r4 e'4
   e'4. d'8 g' [b] c' [d']
   e'4 a b8 gis a b
-  c' a e'4. e'8 c' [a]
+  c' a e'4~e'8 e'8 c' [a]
   b2 b \fine
 }
 

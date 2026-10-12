@@ -14,7 +14,7 @@ altoMusic = {
   \partial 4  f'4
   g'4. f'4 e'8 f'4
   f'4. e'8 c'4\fermata a'~
-  a'8 gis' a'4. gis'8 a'4
+  a'8 gis' a'4~a'8 gis'8 a'4
   a' gis' e'\fermata cis'
   d' d' d'8 [b] cis' [d']
   e' [d'] e' [cis'] d'4\fermata a8 [b]

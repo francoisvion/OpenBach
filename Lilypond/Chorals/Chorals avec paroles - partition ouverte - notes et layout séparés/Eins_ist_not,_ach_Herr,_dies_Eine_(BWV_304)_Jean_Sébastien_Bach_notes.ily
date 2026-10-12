@@ -79,7 +79,7 @@ tenorMusic = {
   b a8 [gis] a4
   a b cis'
   a2 a4
-  d'8 [cis'] b4. b8
+  d'8 [cis'] b4~b8 b8
   a4. cis'8 d'4
   d a a8 [g]
   fis2.\fermata \fine

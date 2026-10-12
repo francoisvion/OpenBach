@@ -3,7 +3,7 @@ sopranoMusic = {
   \repeat volta 2 {
   \once \textLengthOn s2.^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } \bar "'" d'4
   g' a' b' e''
-  d''4. c''8 b'4 \bar "'" s^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } \bar "'"
+  d''4~d''8 c''8 b'4 \bar "'" s^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } \bar "'"
   r e'' d''4. c''8
   b'4 b' a'2
   g'4  \bar "'" \once \textLengthOn s^\markup { \tiny \override #'(baseline-skip . 1.5) \column{"interlude" "instrumental"} } s2 }

@@ -22,9 +22,9 @@ altoMusic = {
   cis'2.\fermata
   \partial4 a'4
   gis' gis' fis'8 [e'] dis'4 |
-  e'4. dis'8 e'4\fermata eis' |
+  e'4~e'8 dis'8 e'4\fermata eis' |
   cis' fis' e' fis'8 [gis'] |
-  a'4 e' e'4. d'8 
+  a'4 e' e'4~e'8 d'8 
   cis'2.\fermata \fine
 }
 
