@@ -60,12 +60,10 @@ from conform_voice import (
     DeficitError, period_boundaries, split_by_boundaries, BoundaryError,
 )
 
-FOLDER = Path(
-    "/Users/francoisvion/Documents/OpenBach/Lilypond/Chorals/"
-    "Chorals avec paroles - partition ouverte - notes et layout séparés/1 ligne soprano (170)"
-)
+CHORALS_DIR = Path(__file__).resolve().parent.parent
+FOLDER = CHORALS_DIR / "Chorals avec paroles - partition ouverte - notes et layout séparés"
 
-REPO_ROOT = Path("/Users/francoisvion/Documents/OpenBach")
+REPO_ROOT = CHORALS_DIR.parent.parent
 
 
 def committed_text(path):
@@ -541,7 +539,7 @@ def main(file_list):
             n_changed += 1
 
     print(f"files processed: {len(file_list)}, changed: {n_changed}, with flagged issue: {n_issue}")
-    out = Path("/Users/francoisvion/.claude/jobs/4e2a67e6/tmp/voice_lyrics/derive_atb_report.txt")
+    out = Path(__file__).resolve().parent / "rapports" / "derive_atb_report.txt"
     with out.open("w", encoding="utf-8") as f:
         for fname, voice, msg in report:
             f.write(f"{fname}\t{voice}\t{msg}\n")

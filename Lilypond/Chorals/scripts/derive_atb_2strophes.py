@@ -13,11 +13,9 @@ from conform_voice import (
     DeficitError, period_boundaries, split_by_boundaries, BoundaryError,
 )
 
-FOLDER = Path(
-    "/Users/francoisvion/Documents/OpenBach/Lilypond/Chorals/"
-    "Chorals avec paroles - partition ouverte - notes et layout séparés/2 lignes soprano barre de reprise"
-)
-TARGET_LIST = Path("/Users/francoisvion/.claude/jobs/4e2a67e6/tmp/target_164.txt")
+CHORALS_DIR = Path(__file__).resolve().parent.parent
+FOLDER = CHORALS_DIR / "Chorals avec paroles - partition ouverte - notes et layout séparés"
+TARGET_LIST = Path(__file__).resolve().parent / "target_164.txt"
 
 REPEAT_RE = re.compile(r"\\repeat\s+volta\s+2\s*\{")
 STANZA_RE = re.compile(r"^\s*\\set\s+stanza\s*=\s*\d+\s*")
@@ -247,7 +245,7 @@ def main():
         if changed:
             n_changed += 1
     print(f"files processed: {len(bases)}, changed: {n_changed}, with flagged issue: {n_issue}")
-    out = Path("/Users/francoisvion/.claude/jobs/4e2a67e6/tmp/voice_lyrics/derive_atb_2strophes_report.txt")
+    out = Path(__file__).resolve().parent / "rapports" / "derive_atb_2strophes_report.txt"
     with out.open("w", encoding="utf-8") as f:
         for fname, voice, msg in report:
             f.write(f"{fname}\t{voice}\t{msg}\n")

@@ -13,8 +13,9 @@ Three checks, in order (fail-fast):
    must be byte-identical before/after.
 """
 import sys
+from pathlib import Path
 
-sys.path.insert(0, "/Users/francoisvion/Documents/OpenBach/scripts python")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 import conform_voice as cv
 
 
