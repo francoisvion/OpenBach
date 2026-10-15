@@ -1,10 +1,11 @@
 \version "2.27.3"
 
+#(set-global-staff-size 18)
+
 \include "Wach_auf,_mein_Herz,_und_singe_(BWV_194_12)_Jean_Sébastien_Bach_notes.ily"
 
 \paper {
   #(set-paper-size "a4")
-  #(set-global-staff-size 18)
   
   left-margin = 20\mm
   right-margin = 20\mm

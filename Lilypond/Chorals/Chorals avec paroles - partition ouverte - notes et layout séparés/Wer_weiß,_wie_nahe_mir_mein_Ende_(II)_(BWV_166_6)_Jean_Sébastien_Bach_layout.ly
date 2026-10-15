@@ -1,10 +1,11 @@
 \version "2.27.3"
 
+#(set-global-staff-size 18)
+
 \include "Wer_weiß,_wie_nahe_mir_mein_Ende_(II)_(BWV_166_6)_Jean_Sébastien_Bach_notes.ily"
 
 \paper {
   #(set-paper-size "a4")
-  #(set-global-staff-size 18)
   
   left-margin = 20\mm
   right-margin = 20\mm

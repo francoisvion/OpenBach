@@ -1,10 +1,11 @@
 \version "2.27.3"
 
+#(set-global-staff-size 18)
+
 \include "Gelobet_seist_du,_Jesu_Christ_(I)_(BWV_64_2)_Jean_Sébastien_Bach_notes.ily"
 
 \paper {
   #(set-paper-size "a4")
-  #(set-global-staff-size 18)
   
   left-margin = 20\mm
   right-margin = 20\mm

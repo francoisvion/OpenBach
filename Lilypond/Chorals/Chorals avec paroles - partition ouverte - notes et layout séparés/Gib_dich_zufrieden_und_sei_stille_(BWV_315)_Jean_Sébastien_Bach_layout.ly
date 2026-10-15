@@ -1,10 +1,11 @@
 \version "2.27.3"
 
+#(set-global-staff-size 18)
+
 \include "Gib_dich_zufrieden_und_sei_stille_(BWV_315)_Jean_Sébastien_Bach_notes.ily"
 
 \paper {
   #(set-paper-size "a4")
-  #(set-global-staff-size 18)
   
   left-margin = 20\mm
   right-margin = 20\mm

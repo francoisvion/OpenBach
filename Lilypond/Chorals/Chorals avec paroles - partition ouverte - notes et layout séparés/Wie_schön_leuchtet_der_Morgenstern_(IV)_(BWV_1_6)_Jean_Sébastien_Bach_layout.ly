@@ -1,10 +1,11 @@
 \version "2.27.3"
 
+#(set-global-staff-size 18)
+
 \include "Wie_schön_leuchtet_der_Morgenstern_(IV)_(BWV_1_6)_Jean_Sébastien_Bach_notes.ily"
 
 \paper {
   #(set-paper-size "a4")
-  #(set-global-staff-size 18)
 
   left-margin = 20\mm
   right-margin = 20\mm

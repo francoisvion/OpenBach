@@ -1,10 +1,11 @@
 \version "2.27.3"
 
+#(set-global-staff-size 18)
+
 \include "Lobe_den_Herren,_den_mächtigen_König_der_Ehren_(BWV_137_5)_Jean_Sébastien_Bach_notes.ily"
 
 \paper {
   #(set-paper-size "a4")
-  #(set-global-staff-size 18)
 
   left-margin = 20\mm
   right-margin = 20\mm

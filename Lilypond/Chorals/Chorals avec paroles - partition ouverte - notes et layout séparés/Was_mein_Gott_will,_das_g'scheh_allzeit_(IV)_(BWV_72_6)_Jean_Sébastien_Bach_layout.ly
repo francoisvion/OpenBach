@@ -1,10 +1,11 @@
 \version "2.27.3"
 
+#(set-global-staff-size 18)
+
 \include "Was_mein_Gott_will,_das_g'scheh_allzeit_(IV)_(BWV_72_6)_Jean_Sébastien_Bach_notes.ily"
 
 \paper {
   #(set-paper-size "a4")
-  #(set-global-staff-size 18)
 
   left-margin = 20\mm
   right-margin = 20\mm

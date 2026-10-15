@@ -1,10 +1,11 @@
 \version "2.27.3"
 
+#(set-global-staff-size 18)
+
 \include "Nun_seid_ihr_wohl_gerochen_(BWV_248_64)_Jean_Sébastien_Bach_notes.ily"
 
 \paper {
   #(set-paper-size "a4")
-  #(set-global-staff-size 18)
 
   left-margin = 20\mm
   right-margin = 20\mm
