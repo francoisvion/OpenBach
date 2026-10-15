@@ -43,3 +43,15 @@ Pour chaque écart : choral, voix, mesure, notre découpe, celle de Bach, puis v
 | 121/6 | B | 15-16 | *wig* sur fa#2, *keit* sur fa#1 (continuo) | *wig* sur do#-si croches (fin m. 15), *keit* sur la ronde | suit la correction des notes |
 | 121/6 | B | notes | notre basse = ligne du **continuo** : levée mi2, fa#2 (m. 3), m. 4-6 une octave trop bas, fin fa#3 + fa#2 | basse **vocale** : levée mi3, fa#3, m. 4-6 à l'octave supérieure, fin = ronde fa#3 | **notes** : notre source (= Riemenschneider/music21) donne le continuo, pas la basse chantée |
 | 121/6 | B | 13 | do bécarre | **do#** (dièse explicite, voix et continuo) | **notes** : erreur de notre source |
+| 175/7 | A | 1 | *ter* sur le 3ᵉ temps | *wer* tient sol-fa#-sol, *ter* au 4ᵉ temps | erreur de notre fichier |
+| 175/7 | T, B | 10-11 | *aus* prolongé sur le temps suivant | *Gna-* dès le temps suivant, mélisme sur *ge-* | erreur de notre fichier |
+| 175/7 | A, T, B | 18-19 | « die __ _ _ mich » (mélisme du soprano recopié) | « die mich » syllabique, mélisme sur *an-ders* | **règle** : ne pas recopier un mélisme du soprano sur A/T/B quand leur rythme est syllabique |
+| 175/7 | A | 23 | *hö-* sur le 2ᵉ mi | *nicht* tient les deux mi liés, *hö-* sur ré | erreur de notre fichier |
+| 175/7 | A | 25 | « Al -- _ le lu » | *le* sur sol, *lu* sur ré, mélisme jusqu'au do | erreur de notre fichier |
+| 175/7 | T | 22-23 | « keit, __ _ _ mein Gott, nicht hö- » décalé de 2 temps | *keit* ré-do, *mein* si, *Gott* mi, *nicht* mi-fa#, *hö-* sol-la-sib-la | erreur de notre fichier |
+| 175/7 | S A T B | — | traits d'union manquants : *Mor-gen stern*, *E-wig keit*, *Al-le lu-ia* | *Mor-gen-stern*, *E-wig-keit*, *Al-le-lu-ia* | erreur de notre fichier (à détecter par le validateur) |
+
+## Chorals vérifiés
+
+Conformes à la NBA, voix par voix (étiquette Finder **verte** posée par
+`../scripts/marquer_verifie.py`) : BWV 121/6, BWV 175/7.

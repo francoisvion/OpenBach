@@ -131,24 +131,24 @@ sopranoLyrics = \lyricmode {
   hilf, dass ich su -- che für und für
   nach dei -- nem Wort, __ _ ein an -- der Le -- ben,
   das du mir willst aus __ Gna -- den ge -- ben.
-  Dein Wort ist ja der Mor -- gen stern,
+  Dein Wort ist ja der Mor -- gen -- stern,
   der herr -- lich leuch -- tet nah und fern.
   Drum will ich die __ _ mich an -- ders leh -- ren,
-  in E -- wig keit, __ _ mein Gott, nicht hö -- _ ren. 
+  in E -- wig -- keit, __ _ mein Gott, nicht hö -- _ ren. 
   Al -- le -- lu -- ia,
-  Al -- le lu -- ia!
+  Al -- le -- lu -- ia!
 }
 
 altoLyrics = \lyricmode {
-  Nun, wer -- _ ter __ _ Geist, ich folg dir,
+  Nun, wer -- _ _ ter Geist, ich folg dir,
   hilf, dass ich su -- che für und für
   nach dei -- nem Wort, __ _ _ ein an -- der Le -- ben,
   das du mir willst aus __ Gna -- den ge -- ben.
-  Dein Wort ist ja der Mor -- gen stern,
+  Dein Wort ist ja der Mor -- gen -- stern,
   der herr -- lich leuch -- tet nah und fern.
-  Drum will ich die __ _ _ mich an -- ders leh -- _ ren,
-  in E -- wig keit, __ _ _ mein Gott, nicht hö -- _ ren. 
-  Al -- _ le lu -- ia,
+  Drum will ich die mich an -- _ _ ders leh -- _ ren,
+  in E -- wig -- keit, __ _ _ mein Gott, nicht __ _ hö -- ren. 
+  Al -- le -- lu -- _ ia,
   Al -- le -- _ lu -- ia!
 }
 
@@ -156,11 +156,11 @@ tenorLyrics = \lyricmode {
   Nun, wer -- _ ter __ _ Geist, ich folg dir,
   hilf, dass ich su -- che für und für
   nach dei -- nem Wort, __ _ _ ein an -- der Le -- ben,
-  das du mir willst aus __ _ Gna -- den ge -- ben.
-  Dein Wort ist ja der Mor -- gen stern,
+  das du mir willst aus Gna -- den ge -- _ ben.
+  Dein Wort ist ja der Mor -- gen -- stern,
   der herr -- lich leuch -- tet nah und fern.
-  Drum will ich die __ _ _ mich an -- ders leh -- _ ren,
-  in E -- wig keit, __ _ _ mein Gott, nicht hö -- _ ren. 
+  Drum will ich die mich an -- _ _ ders leh -- _ ren,
+  in E -- wig -- keit, mein Gott, nicht hö -- _ _ _ ren. 
   Al -- le -- lu -- ia,
   Al -- le -- lu -- _ ia!
 }
@@ -169,11 +169,11 @@ bassLyrics = \lyricmode {
   Nun, wer -- _ ter __ _ Geist, ich folg dir,
   hilf, dass ich su -- che für und für
   nach dei -- nem Wort, __ _ _ ein an -- der Le -- _ ben,
-  das du mir willst aus __ _ Gna -- den ge -- ben.
-  Dein Wort ist ja der Mor -- gen stern,
+  das du mir willst aus Gna -- den ge -- _ ben.
+  Dein Wort ist ja der Mor -- gen -- stern,
   der herr -- lich leuch -- tet nah und fern.
-  Drum will ich die __ _ _ mich an -- ders leh -- _ ren,
-  in E -- wig keit, __ _ _ mein Gott, nicht hö -- _ ren. 
+  Drum will ich die mich an -- _ ders __ _ leh -- _ ren,
+  in E -- wig -- keit, __ _ _ mein Gott, nicht hö -- _ ren. 
   Al -- _ le -- lu -- ia,
   Al -- le -- _ lu -- ia!
 }
