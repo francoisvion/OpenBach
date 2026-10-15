@@ -38,7 +38,7 @@ altoMusic = {
   \partial 4  c'4
   d'2 d'4
   e'2 e'4
-  f'2.
+  f'2.~
   f'\fermata
   f'4 e' d'
   c'2 d'4
@@ -147,7 +147,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  In dul -- ci ju -- bi -- lo __ _ sin -- _ get und seid froh, __ _ _ _ un -- sers Her -- _ zens Won -- _ _ ne liegt in prae -- se -- pi -- o __ _ _ _ leuch -- tet als __ _ die Son -- _ _ ne ma -- tris in pre -- mi -- o __ _ _ Al -- pha es et O, __ Al -- pha __ _ es et O. __ _ _ _ _
+  In dul -- ci ju -- bi -- lo __ sin -- _ get und seid froh, __ _ _ _ un -- sers Her -- _ zens Won -- _ _ ne liegt in prae -- se -- pi -- o __ _ _ _ leuch -- tet als __ _ die Son -- _ _ ne ma -- tris in pre -- mi -- o __ _ _ Al -- pha es et O, __ Al -- pha __ _ es et O. __ _ _ _ _
 }
 
 tenorLyrics = \lyricmode {
