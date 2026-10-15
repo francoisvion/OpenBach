@@ -37,7 +37,7 @@ tenorMusic = {
   a2 a\fermata
   a4 a a8 [bes] a [g]
   f [a] g [f] g4 a8 [bes]
-  a4 a a2\fermata \fine
+  a2 a\fermata \fine
 }
 
 bassMusic = {
@@ -72,7 +72,7 @@ tenorLyrics = \lyricmode {
   O wie se -- lig seid ihr doch, ihr From -- _ men,
   die ihr durch den Tod zu Gott ge -- kom -- _ _ men!
   Ihr seid ent -- gan -- gen
-  al -- ler Noth, die uns noch hält ge -- fan -- _ gen.
+  al -- ler Noth, die uns noch hält ge -- fan -- gen.
 }
 
 bassLyrics = \lyricmode {
