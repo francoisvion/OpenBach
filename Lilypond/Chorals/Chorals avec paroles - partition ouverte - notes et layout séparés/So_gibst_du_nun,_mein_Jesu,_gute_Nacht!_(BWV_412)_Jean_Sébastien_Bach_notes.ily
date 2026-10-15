@@ -33,7 +33,7 @@ altoMusic = {
   a' a' a'\fermata d'
   d' d' d'\fermata g'8 [f']
   ees' [d'] e'4 d' d'
-  d' d' d'\fermata \fine
+  d'2 d'4\fermata \fine
 }
 
 tenorMusic = {
@@ -95,7 +95,7 @@ altoLyrics = \lyricmode {
   Mein Gott is tot,
   sein Geist ist auf -- ge -- ge -- _ ben,
   mein Gott ist tot,
-  ein Geist ist auf -- ge -- ge -- _ ben.
+  ein Geist ist auf -- ge -- ge -- ben.
 }
 
 tenorLyrics = \lyricmode {
