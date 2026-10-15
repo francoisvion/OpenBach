@@ -184,7 +184,7 @@ def comparer(bwv):
     return [l for *_, l in lignes], n_notes
 
 
-PRIO = {"différent": 0, "absent chez nous": 1, "altération ?": 2, "absent du scan (OMR ?)": 3,
+PRIO = {"octave": 0, "différent": 0, "absent chez nous": 1, "altération ?": 2, "absent du scan (OMR ?)": 3,
         "liaison ou note répétée": 4}
 
 
@@ -219,6 +219,12 @@ def classer(nous_seuls, eux_seuls, a, b, mesures):
             groupes.setdefault(("liaison ou note répétée", mesure_de(y[0], mesures)), [[], []])[1].append(y)
             reste_e.discard(y)
     for x in sorted(reste_n):
+        y = next((y for y in sorted(reste_e) if y[0] == x[0] and y[2] == x[2] and abs(y[1] - x[1]) == 12), None)
+        if y:
+            g = groupes.setdefault(("octave", mesure_de(x[0], mesures)), [[], []])
+            g[0].append(x); g[1].append(y)
+            reste_n.discard(x); reste_e.discard(y)
+    for x in sorted(reste_n):
         y = next((y for y in sorted(reste_e) if y[0] == x[0] and y[2] == x[2] and abs(y[1] - x[1]) == 1), None)
         if y:
             g = groupes.setdefault(("altération ?", mesure_de(x[0], mesures)), [[], []])
@@ -251,7 +257,7 @@ def main(ids):
     out.sort(key=lambda b: -int(re.search(r"— (\d+) écart", b).group(1)))
     entete = (f"{len(ids)} chorals : {propres} identiques au scan, {len(out)} avec écarts, "
               f"{len(ko)} non comparés\n"
-              "Mesures numérotées dans l'ordre (levée = 0, une mesure coupée en deux compte double) ; note(durée en noires)@temps. Priorité : différent > absent chez nous > "
+              "Mesures numérotées dans l'ordre (levée = 0, une mesure coupée en deux compte double) ; note(durée en noires)@temps. Priorité : octave = différent > absent chez nous > "
               "altération ? > absent du scan (OMR ?) > liaison ou note répétée.\n")
     return entete + "\n" + "\n\n".join(out) + ("\n\nNon comparés :\n" + "\n".join(ko) if ko else "")
 
