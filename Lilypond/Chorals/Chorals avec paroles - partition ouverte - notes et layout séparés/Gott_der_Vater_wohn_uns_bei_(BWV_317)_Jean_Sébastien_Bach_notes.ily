@@ -52,7 +52,7 @@ tenorMusic = {
     b8 [a] fis'4 e' cis'8 [d']
     e'4. d'8 cis'4\fermata cis'
     d' a a8 [g] fis4
-    b b b\fermata b8 [a]
+    b2 b4\fermata b8 [a]
     a4 g fis8 [a] b4
     a4. g8 fis2\fermata }
   a4 a a a
@@ -132,7 +132,7 @@ tenorLyricsOne = \lyricmode {
   und lass' uns nicht ver -- der -- _ ben,
   Vor dem Teu -- fel uns be -- wahr',
   halt' uns bei fe -- stem Glau -- _ ben,
-  und auf dich lass uns bau -- _ en,
+  und auf dich lass uns bau -- en,
   aus Herz -- zens -- grund ver -- trau -- _ en,
   A -- men, a -- men, das sei wahr,
   so sin -- gen wir Al -- le -- lu -- ia.
@@ -144,7 +144,7 @@ tenorLyricsTwo = \lyricmode {
   und helf uns se -- lig ster -- _ ben.
   dir uns las -- sen ganz und gar,
   mit al -- len rech -- ten Chris -- _ ten
-  ent -- flie -- hen Teu -- fels Lis -- _ ten,
+  ent -- flie -- hen Teu -- fels Lis -- ten,
   mit Waf -- fen Gotts uns fris -- _ ten.
 }
 
