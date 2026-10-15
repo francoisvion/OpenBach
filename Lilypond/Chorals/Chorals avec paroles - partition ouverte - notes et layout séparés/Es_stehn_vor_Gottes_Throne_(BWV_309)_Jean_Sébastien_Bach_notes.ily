@@ -90,7 +90,7 @@ altoLyricsOne = \lyricmode {
   \stanza "1."
   Es stehn vor Got -- tes Thro -- _ ne,
   es stehn vor Got -- tes Thro -- _ ne
-  die un sre Wäch ter sind,
+  die un -- sre Wäch -- ter sind,
   dass er auch nicht der Ei -- _ nes
   ver -- acht will habn so klei -- _ nes,
   als je -- mals ist ge -- born,
@@ -101,7 +101,7 @@ altoLyricsTwo = \lyricmode {
   \stanza "2."
   der in sein'm lie -- ben Soh -- _ ne,
   der in seim lie -- ben Soh -- _ ne
-  liebt al le Men schen Kind,
+  liebt al -- le Men -- schen -- Kind,
 }
 
 tenorLyricsOne = \lyricmode {

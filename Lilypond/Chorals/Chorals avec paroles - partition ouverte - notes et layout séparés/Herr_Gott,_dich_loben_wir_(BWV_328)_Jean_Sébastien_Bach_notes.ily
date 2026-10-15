@@ -322,11 +322,11 @@ altoLyricsOne = \lyricmode {
   \stanza "1."
   Herr Gott, dich lo -- ben wir
   Herr Gott, wir dan -- ken dir.
-  Dich, Gott Va -- ter in E -- wig __ _ -- keit,
+  Dich, Gott Va -- ter in E -- wig -- _ keit,
   Eh -- ret __ _ die Welt __ _ weit __ _ und breit.
   Hei -- lig ist un -- ser __ _ Gott!
   Hei -- lig ist un -- ser Gott!
-  der Herr __ _ Ze -- ba __ _ -- oth!
+  der Herr __ _ Ze -- ba -- _ oth!
   Dein' gött -- lich Macht und Herr -- lich -- keit,
   geht ü -- ber Himm'l und Er -- den weit.
   Du Kön'g der Eh -- ren, Je -- su Christ,
@@ -349,11 +349,11 @@ altoLyricsOne = \lyricmode {
 altoLyricsTwo = \lyricmode {
   \stanza "2."
   \repeat unfold 12 { \skip1 }
-  All' En gel und all' Him -- _ mels -- heer,
+  All' En -- gel und all' Him -- _ mels -- heer,
   Und was __ _ da die -- net dei -- _ ner Ehr',
   \repeat unfold 20 { \skip1 }
-  Der hei -- li -- gen zwölf Bo ten Zahl,
-  und die lie -- ben Pro -- phe ten all',
+  Der hei -- li -- gen zwölf Bo -- ten Zahl,
+  und die lie -- ben Pro -- phe -- ten all',
   Der Jung -- frau Leib nicht hast ver -- schmäht,
   "zu er" -- lö -- sen das mensch -- lich' Ge -- schlecht,
   \repeat unfold 65 { \skip1 }
@@ -411,7 +411,7 @@ tenorLyricsTwo = \lyricmode {
   Und was da die -- net dei -- ner Ehr',
   \repeat unfold 18 { \skip1 }
   Der hei -- li -- gen zwölf Bo -- ten Zahl,
-  und die lie -- ben Pro -- phe ten all',
+  und die lie -- ben Pro -- phe -- ten all',
   Der Jung -- frau Leib nicht hast ver -- schmäht,
   "zu er" -- lö -- sen das mensch -- lich' Ge -- schlecht,
   \repeat unfold 65 { \skip1 }
@@ -465,11 +465,11 @@ bassLyricsOne = \lyricmode {
 bassLyricsTwo = \lyricmode {
   \stanza "2."
   \repeat unfold 12 { \skip1 }
-  All' En gel und all' Him -- mels -- heer,
+  All' En -- gel und all' Him -- mels -- heer,
   Und was da die -- net dei -- ner Ehr',
   \repeat unfold 18 { \skip1 }
-  Der hei -- li -- gen zwölf Bo ten Zahl,
-  und die lie -- ben Pro -- phe ten all',
+  Der hei -- li -- gen zwölf Bo -- ten Zahl,
+  und die lie -- ben Pro -- phe -- ten all',
   Der Jung -- frau Leib nicht hast ver -- schmäht,
   zu er -- lö -- sen das mensch -- lich' Ge -- schlecht,
   \repeat unfold 63 { \skip1 }

@@ -69,7 +69,7 @@ sopranoLyricsTwo = \lyricmode { \stanza "2."
 
                                 altoLyricsOne = \lyricmode {
        \stanza "1."
-                                Wär' Gott nicht mit uns die -- se Zeit, so soll I -- sra -- el sa -- _ gen, die so ein ar -- mes Haüf -- lein sind, ver -- acht vor so viel Men -- schen kind, die an uns se -- tzen al - le.
+                                Wär' Gott nicht mit uns die -- se Zeit, so soll I -- sra -- el sa -- _ gen, die so ein ar -- mes Haüf -- lein sind, ver -- acht vor so viel Men -- schen kind, die an uns se -- tzen al -- _ le.
     }
 
                                 altoLyricsTwo = \lyricmode {
@@ -79,7 +79,7 @@ sopranoLyricsTwo = \lyricmode { \stanza "2."
 
                                                              tenorLyricsOne = \lyricmode {
        \stanza "1."
-                                Wär' Gott nicht mit uns die -- se Zeit, so soll I -- sra -- el sa -- _ gen, die so ein ar -- mes Haüf -- lein sind, ver -- acht vor so viel Men -- schen kind, die an uns se -- tzen al - le.
+                                Wär' Gott nicht mit uns die -- se Zeit, so soll I -- sra -- el sa -- _ gen, die so ein ar -- mes Haüf -- lein sind, ver -- acht vor so viel Men -- schen kind, die an uns se -- tzen al -- _ le.
     }
 
                                                              tenorLyricsTwo = \lyricmode {
@@ -89,7 +89,7 @@ sopranoLyricsTwo = \lyricmode { \stanza "2."
 
                                                                                            bassLyricsOne = \lyricmode {
        \stanza "1."
-                                Wär' Gott nicht mit uns die -- se Zeit, so soll I -- sra -- el sa -- _ gen, die so ein ar -- mes Haüf -- lein sind, ver -- acht vor so viel Men -- schen kind, die an uns se -- tzen al - le.
+                                Wär' Gott nicht mit uns die -- se Zeit, so soll I -- sra -- el sa -- _ gen, die so ein ar -- mes Haüf -- lein sind, ver -- acht vor so viel Men -- schen kind, die an uns se -- tzen al -- _ le.
     }
 
                                                                                            bassLyricsTwo = \lyricmode {

@@ -256,6 +256,18 @@ vocale** NBA (notes **et** texte). À signaler dans les notices des compilations
 
 ### 9.5 Contrôles de forme (validateur)
 
+Convention d'écriture des paroles (utilisateur, 2026-10-15) :
+
+| Situation | Notation | Exemple |
+|---|---|---|
+| coupure dans un mot | `--` | `Freu -- de` |
+| … en sautant 1 / 2 notes | `-- _` / `-- _ _` | `Freu -- _ de` |
+| prolongation en fin de mot | `__` | `Gott __` |
+| … en sautant 1 / 2 notes | `__ _` / `__ _ _` | `Gott __ _ _` |
+
+Jamais de `__` à l'intérieur d'un mot, jamais de tiret simple `-` (LilyPond l'imprime comme
+une syllabe sous la note).
+
 - Mots composés : traits d'union obligatoires entre toutes les syllabes (*Mor -- gen -- stern*,
   *E -- wig -- keit*, *Al -- le -- lu -- ia*) — oublis trouvés dans 175/7.
 - Coquilles (*duch* pour *durch*, 226/2), mot en double (*bis in __ in*, 121/6).

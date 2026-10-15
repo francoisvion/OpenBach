@@ -80,7 +80,7 @@ bassMusic = {
 
 sopranoLyrics = \lyricmode {
   Wohl -- an! so will ich mich
-  an dich, o Je su hal -- _ ten,
+  an dich, o Je -- su hal -- _ ten,
   und soll -- te gleich die Welt
   in tau -- send Stü -- cken spal -- _ ten.
   O Je -- su, dir, nur dir,
@@ -91,7 +91,7 @@ sopranoLyrics = \lyricmode {
 
 altoLyrics = \lyricmode {
   Wohl -- an! so will ich mich
-  an dich, o Je su hal -- _ ten,
+  an dich, o Je -- su hal -- _ ten,
   und soll -- te gleich die Welt
   in tau -- send Stü -- cken spal -- _ ten.
   O Je -- su, dir, nur dir,
@@ -102,7 +102,7 @@ altoLyrics = \lyricmode {
 
 tenorLyrics = \lyricmode {
   Wohl -- an! so will ich mich
-  an dich, o Je su hal -- _ ten,
+  an dich, o Je -- su hal -- _ ten,
   und soll -- te gleich die Welt
   in tau -- send Stü -- cken spal -- _ ten.
   O Je -- su, dir, nur dir,

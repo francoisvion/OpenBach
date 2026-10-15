@@ -143,7 +143,7 @@ altoLyrics = \lyricmode {
   Herr Gott, zu un -- sern Zei -- ten;
   es ist doch ja kein an -- drer nicht,
   der für uns könn -- te strei -- _ ten,
-  denn du, un -- ser Gott al -- lei __ _ -- ne.
+  denn du, un -- ser Gott al -- lei -- _ ne.
   Gieb un -- sern Für -- sten und der Ob -- rig -- keit
   Fried' und gut Re -- gi -- ment,
   dass wir un -- ter ih -- nen

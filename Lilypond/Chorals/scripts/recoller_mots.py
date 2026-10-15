@@ -112,3 +112,101 @@ if __name__ == "__main__":
             f.write_text(nouveau, encoding="utf-8")
     print(f"\n{total} trait(s) d'union à ajouter dans {fichiers} fichier(s)"
           + (" — appliqué" if "--appliquer" in sys.argv else " — simulation"))
+
+
+# --- Seconde passe : recoupe générale des mots (coupés OU soudés), 2026-10-15 ---------------
+
+def syllabes_pos(corps):
+    """Syllabes (hors « _ ») avec position (début, fin) dans le corps."""
+    out, brut, k, saute = [], list(re.finditer(r'"[^"]*"|\S+', corps)), 0, 0
+    while k < len(brut):
+        t = brut[k].group(0)
+        if t == "\\stanza":
+            saute = 2
+        elif t.startswith("\\set") or t.startswith("\\tweak"):
+            saute = 4 if t.startswith("\\set") else 3
+        if saute:
+            saute -= 1; k += 1; continue
+        if t not in ("--", "__", "{", "}", "_") and not t.startswith("\\"):
+            out.append((t, brut[k].start(), brut[k].end()))
+        k += 1
+    return out
+
+
+def recouper(corps, cibles):
+    """cibles : liste de (début, fin, [mots]) en positions de la chaîne normalisée de la voix ;
+    force les « -- » entre syllabes pour que les mots de ces zones soient ceux demandés."""
+    syl = syllabes_pos(corps)
+    lng = [len(norm(s)) for s, _, _ in syl]
+    fins, x = [], 0
+    for L in lng:
+        x += L; fins.append(x)
+    modifs = []  # (position, texte à insérer) ou (début, fin) à supprimer
+    for deb, fin, mots_cibles in cibles:
+        bornes, y = set(), deb
+        for m in mots_cibles:
+            y += len(m); bornes.add(y)
+        for i in range(len(syl) - 1):
+            if not (deb < fins[i] < fin):
+                continue
+            ecart = corps[syl[i][2]:syl[i + 1][1]]
+            veut = fins[i] not in bornes
+            a = "--" in ecart.split()
+            if veut and not a:
+                modifs.append((syl[i][2], syl[i][2], " --"))
+            elif a and not veut:
+                j = corps.index("--", syl[i][2], syl[i + 1][1])
+                modifs.append((j - 1 if corps[j - 1] == " " else j, j + 2, ""))
+    for d, f, txt in sorted(modifs, reverse=True):
+        corps = corps[:d] + txt + corps[f:]
+    return corps
+
+
+def seconde_passe(appliquer_=False):
+    import collections
+    vocab = collections.Counter()
+    textes = {f: f.read_text(encoding="utf-8") for f in sorted(FOLDER.glob("*_notes.ily"))}
+    for t in textes.values():
+        for v in VOIX:
+            for suf in COUPLETS:
+                sp = corps_span(t, f"{v}Lyrics{suf}")
+                if sp:
+                    vocab.update(norm(m) for m in mots(t[sp[0]:sp[1]]))
+    # Le soprano fait référence, sauf erreurs connues du soprano (vérifiées à la main) :
+    CORRECTIONS_SOPRANO = {"jesu": ["jesu"]}
+    total = 0
+    for f, t in textes.items():
+        nouveau = t
+        for suf in COUPLETS:
+            spans = {v: corps_span(nouveau, f"{v}Lyrics{suf}") for v in VOIX}
+            if not spans["soprano"]:
+                continue
+            corps = {v: nouveau[s[0]:s[1]] for v, s in spans.items() if s}
+            ws = {v: [norm(m) for m in mots(c)] for v, c in corps.items()}
+            cibles = {v: [] for v in corps}
+            for v in corps:
+                if v == "soprano":
+                    continue
+                sm = difflib.SequenceMatcher(a=ws["soprano"], b=ws[v], autojunk=False)
+                for op, i1, i2, j1, j2 in sm.get_opcodes():
+                    a, b = ws["soprano"][i1:i2], ws[v][j1:j2]
+                    if op != "replace" or "".join(a) != "".join(b):
+                        continue
+                    bon = CORRECTIONS_SOPRANO.get("".join(a), a)
+                    for w, (k1, k2), cur in (("soprano", (i1, i2), a), (v, (j1, j2), b)):
+                        if cur != bon:
+                            deb = sum(len(x) for x in ws[w][:k1])
+                            cibles[w].append((deb, deb + len("".join(cur)), bon))
+                            print(f"{f.name.split('_Jean')[0]} | {w}{suf} | {' '.join(cur)} → {' '.join(bon)}")
+                            total += 1
+            for v, c in cibles.items():
+                if c:
+                    nc = recouper(corps[v], list({x[0]: x for x in c}.values()))
+                    if lyric_tokens_with_hyphens(nc)[0] != lyric_tokens_with_hyphens(corps[v])[0]:
+                        print("  !! syllabes modifiées, ignoré :", f.name.split("_Jean")[0], v + suf)
+                        continue
+                    s = corps_span(nouveau, f"{v}Lyrics{suf}")
+                    nouveau = nouveau[:s[0]] + nc + nouveau[s[1]:]
+        if appliquer_ and nouveau != t:
+            f.write_text(nouveau, encoding="utf-8")
+    print(f"{total} recoupe(s)" + (" appliquée(s)" if appliquer_ else " (simulation)"))

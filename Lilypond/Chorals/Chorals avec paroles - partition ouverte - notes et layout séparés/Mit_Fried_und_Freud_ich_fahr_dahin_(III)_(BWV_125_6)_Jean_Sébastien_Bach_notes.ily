@@ -76,7 +76,7 @@ altoLyrics = \lyricmode {
   für die Hei -- _ _ den,
   "zu er" -- leuch -- ten, die dich ken -- nen nicht,
   und zu wei -- _ den.
-  Er ist deins Volks I -- sra __ _ -- el
+  Er ist deins Volks I -- sra -- _ el
   der Preis, Ehr, Freud und Won -- _ _ ne.
 }
 

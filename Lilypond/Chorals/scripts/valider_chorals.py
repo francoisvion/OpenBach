@@ -37,14 +37,20 @@ COUPLETS = ("", "One", "Two", "Three", "Four", "Five", "Six")
 def mots(corps):
     """Suite des mots d'un texte : syllabes recollées le long des « -- »."""
     toks, hyph, _ = lyric_tokens_with_hyphens(corps)
-    out, cur = [], ""
+    out, cur, lie = [], "", False   # lie : un « -- » depuis la dernière syllabe (même après des « _ »)
     for t, h in zip(toks, hyph):
         if t == "_":
+            lie = lie or h
             continue
-        cur += t.strip('"')
-        if not h:
+        if cur and not lie:
             out.append(cur)
             cur = ""
+        parts = t.strip('"').split()  # syllabe entre guillemets « "zu er" » : plusieurs mots sur une note
+        for x in parts[:-1]:
+            out.append(cur + x)
+            cur = ""
+        cur += parts[-1] if parts else ""
+        lie = h
     if cur:
         out.append(cur)
     return out
@@ -68,6 +74,8 @@ SYNTAXE = [
     (re.compile(r"\S__(?=\s|$)"), "« __ » collé au mot"),
     (re.compile(r"__\s+--"), "« __ » suivi de « -- »"),
     (re.compile(r"--\s+--"), "« -- » doublé"),
+    (re.compile(r"__(?:\s+_)*\s+--"), "« __ » à l'intérieur d'un mot (convention : « -- _ _ »)"),
+    (re.compile(r"(?<=\s)-(?=\s)"), "tiret simple « - » (imprimé sous la note ; « -- _ » attendu)"),
     (re.compile(r"\\lyricmode\s*\{\s*(?:\\set[^\n]*\n\s*)*(--|__)"), "texte commençant par « -- » ou « __ »"),
 ]
 
@@ -133,6 +141,7 @@ def main(fichiers, avec_compil):
 
 if __name__ == "__main__":
     assert mots("las -- sen _ dich __ _ nicht") == ["lassen", "dich", "nicht"]
+    assert mots("auf -- er -- stan __ _ -- _ den, und") == ["auferstanden,", "und"]
     assert diff_mots(["a", "b"], ["a", "b"]) is None
     args = [a for a in sys.argv[1:] if a != "--compiler"]
     fichiers = (sorted(f for a in args for f in FOLDER.glob(f"*({a})*_notes.ily")) if args

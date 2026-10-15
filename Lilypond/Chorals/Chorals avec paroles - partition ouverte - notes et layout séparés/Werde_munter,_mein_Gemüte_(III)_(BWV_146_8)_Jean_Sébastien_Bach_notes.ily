@@ -94,8 +94,8 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \stanza "2."
-  weil dich nun Chris tus -- dein Her -- re,
-  ruft aus -- die sem Jam mer tal.
+  weil dich nun Chris -- tus dein Her -- re,
+  ruft aus die -- sem Jam -- mer -- tal.
 }
 
 tenorLyricsOne = \lyricmode {

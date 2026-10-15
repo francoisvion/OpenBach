@@ -113,7 +113,7 @@ altoLyricsOne = \lyricmode {
   und auf dich lass uns bau -- _ en,
   aus Herz -- zens -- grund ver -- trau -- _ _ en,
   A -- men, a -- men, das sei wahr,
-  so sin -- gen wir Al -- le -- lu -- _ ja.
+  so sin -- gen wir Al -- le -- lu -- _ ia.
 }
 
 altoLyricsTwo = \lyricmode {

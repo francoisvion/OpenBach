@@ -96,8 +96,8 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
-  Es mag mich auf die rau -- he -- Bahn
-  Not, -- Tod und E lend -- trei -- _ ben.
+  Es mag mich auf die rau -- he Bahn
+  Not, Tod und E -- lend trei -- _ ben.
 }
 
 bassLyricsOne = \lyricmode {

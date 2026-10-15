@@ -100,7 +100,7 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
-  Christ lag in To -- des __ _ -- ban -- _ den
+  Christ lag in To -- des -- _ ban -- _ den
   für un -- ser __ _ Sünd' ge -- ge -- _ ben
   Dess wir sol -- len fröh -- lich sein,
   Gott lo -- ben und ihm dank -- bar sein,
@@ -116,12 +116,12 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
-  Christ lag in To -- des __ _ -- ban -- _ den
+  Christ lag in To -- des -- _ ban -- _ den
   für un -- ser Sünd' ge -- ge -- _ ben
   Dess wir sol -- len fröh -- lich sein,
   Gott lo -- ben und ihm dank -- bar sein,
   und sin -- gen Al -- le -- lu -- _ ia
-  Al -- le __ _ -- lu -- _ ia!
+  Al -- le -- _ lu -- _ ia!
 }
 
 bassLyricsTwo = \lyricmode {
