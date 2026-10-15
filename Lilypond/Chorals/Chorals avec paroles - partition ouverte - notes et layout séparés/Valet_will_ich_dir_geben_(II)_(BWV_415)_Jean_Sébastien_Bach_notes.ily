@@ -59,7 +59,7 @@ bassMusic = {
   d'8 [cis'] b [a] gis [e] fis [gis]
   a [gis] fis [eis] fis4\fermata fis
   b8 [b,] cis [d] e! [d] e [e,]
-  a,2.\fermata cis4
+  a,2.\fermata a,4
   d8 [e] fis [d] g4 fis8 [e]
   dis4 e b,\fermata fis,
   g,8 [a,] b, [a,] g, [e,] a,4
