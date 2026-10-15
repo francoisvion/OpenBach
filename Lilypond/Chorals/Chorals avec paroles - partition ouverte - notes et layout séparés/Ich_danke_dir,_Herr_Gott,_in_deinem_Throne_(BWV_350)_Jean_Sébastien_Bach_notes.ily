@@ -28,7 +28,7 @@ altoMusic = {
   ees' d' d'\fermata g'
   g'8 [fis'] g' [ees'] c'4 c'8 [bes16 c']
   d'8 [c'] bes4 ees'8 [d'] e'4
-  d' d' d'\fermata g'
+  d'2 d'4\fermata g'
   g'4. fis'8 g'4 g'
   d' d'4~d'8 c'8 bes [d']
   c' [bes] c'4 bes\fermata
@@ -95,7 +95,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Ich dan -- ke dir, o Gott, in dei -- nem Thro -- _ ne, durch Je -- sum Chri -- tum, dei -- nen lie -- ben Soh -- _ ne, dass du mich hast in die -- ser Nacht be -- vah -- _ ret vor Scha -- den und vor man -- cher -- lei Ge -- fah -- ren, und bit -- te dich, wollst mich an die -- sem Ta -- _ ge be -- hü -- ten auch vor Sün -- den, Schand' und Pla -- _ ge.
+  Ich dan -- ke dir, o Gott, in dei -- nem Thro -- _ ne, durch Je -- sum Chri -- tum, dei -- nen lie -- ben Soh -- ne, dass du mich hast in die -- ser Nacht be -- vah -- _ ret vor Scha -- den und vor man -- cher -- lei Ge -- fah -- ren, und bit -- te dich, wollst mich an die -- sem Ta -- _ ge be -- hü -- ten auch vor Sün -- den, Schand' und Pla -- _ ge.
 }
 
 tenorLyrics = \lyricmode {
