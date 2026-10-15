@@ -33,7 +33,7 @@ altoMusic = {
 tenorMusic = {
   \partial 4  f4
   a d' b a8 [b]
-  c' [d'] e' [d'] c'4\fermata c'
+  c' [d'] e' [d'] c'4\fermata c'~
   c'8 [b] a4 gis8 a4 gis8
   a2.\fermata f4
   g d' c' c'
@@ -80,7 +80,7 @@ altoLyrics = \lyricmode {
 
 tenorLyrics = \lyricmode {
   Er ist das Heil und se -- lig Licht
-  für __ _ die Hei -- _ _ den,
+  für __ die Hei -- _ _ den,
   "zu er" -- leuch -- ten, die dich ken -- _ _ nen nicht,
   und zu wei -- _ den.
   Er ist deins Volks I -- sra -- el der Preis, Ehr, Freud und Won -- _ ne.
