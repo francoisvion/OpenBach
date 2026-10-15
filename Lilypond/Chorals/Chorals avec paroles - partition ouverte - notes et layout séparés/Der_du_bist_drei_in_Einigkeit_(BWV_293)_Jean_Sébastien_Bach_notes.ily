@@ -67,7 +67,7 @@ altoLyrics = \lyricmode {
 tenorLyrics = \lyricmode {
   Der du bist drei in Ei -- nig -- keit,
   ein wah -- rer Gott von E -- wig -- keit;
-  die Sonn' mit dem __ _ Tag von uns weicht,
+  die Sonn' mit dem Tag __ _ von uns weicht,
   lass uns leuch -- ten dein gött -- lich Licht.
 }
 
