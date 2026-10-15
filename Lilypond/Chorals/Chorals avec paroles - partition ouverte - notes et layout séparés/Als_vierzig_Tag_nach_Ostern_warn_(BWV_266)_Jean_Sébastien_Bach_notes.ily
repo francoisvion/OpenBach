@@ -51,7 +51,7 @@ altoMusic = {
 tenorMusic = {
   g4 g g
   fis dis' e'
-  e' b b
+  e' b b~
   b c'8 [e'] dis' [e']
   dis'2\fermata e'4
   a b c'
@@ -107,7 +107,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Als vier -- zig Tag' __ _ nach O -- _ _ _ _ stern war'n und Chri -- _ stus wollt' __ _ gen Him -- _ mel fahr'n, b'schied er sein' Jün -- _ ger auf ein Berg, auf __ _ ein Berg, vol -- len -- det da sein Amt und Werk. Al -- _ _ le -- _ lu -- ia!
+  Als vier -- zig Tag' __ _ nach O -- _ _ _ stern war'n und Chri -- _ stus wollt' __ _ gen Him -- _ mel fahr'n, b'schied er sein' Jün -- _ ger auf ein Berg, auf __ _ ein Berg, vol -- len -- det da sein Amt und Werk. Al -- _ _ le -- _ lu -- ia!
 }
 
 bassLyrics = \lyricmode {
