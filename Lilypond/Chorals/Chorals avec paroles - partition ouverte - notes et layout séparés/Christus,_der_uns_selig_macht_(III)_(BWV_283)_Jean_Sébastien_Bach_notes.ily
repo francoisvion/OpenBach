@@ -30,7 +30,7 @@ altoMusic = {
   c'4 f'4~f'8 e'16 [d'] e'4~
   e'8 d'4 cis'8 d'2\fermata
   b8 e'4 d'8 d'4 e'
-  f'8 g'4 a' g'8 g'4
+  f'8 g'4 a' g'4.
   g'2\fermata e'8 [fis'] g'4
   g' a'8 [g'] f' [e'] d'4
   d' cis'\fermata d'8 [a] bes [g]
@@ -83,7 +83,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Chris -- tus, der uns se -- lig macht, kein Bös's hat be -- gan -- _ gen, __ _ der ward für uns in der Nacht als ein Dieb ge -- fan -- _ gen, ge -- führt vor gott -- lo -- se Leut', und fälsch -- _ lich ver -- kla -- _ _ _ _ get, ver -- lacht, ver -- höhnt und ver -- speit, __ _ wie denn die Schrift sa -- _ _ _ get.
+  Chris -- tus, der uns se -- lig macht, kein Bös's hat be -- gan -- _ gen, __ _ der ward für uns in der Nacht als ein Dieb ge -- fan -- _ gen, ge -- führt vor gott -- lo -- se Leut', und fälsch -- _ lich ver -- kla -- _ _ _ get, ver -- lacht, ver -- höhnt und ver -- speit, __ _ wie denn die Schrift sa -- _ _ _ get.
 }
 
 tenorLyrics = \lyricmode {
