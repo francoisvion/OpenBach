@@ -62,7 +62,7 @@ Pour chaque écart : choral, voix, mesure, notre découpe, celle de Bach, puis v
 | 226/2 | S | 20-21 | *drin-* sur do (4ᵉ temps) | *dir* tient ré-do, *drin-* sur sol | erreur de notre fichier |
 | 226/2 | A, T, B | 19-21 | mélisme sur *drin-* trop court / *ben* décalé | *Le-* tient ré + mib-fa ; *drin-* porte le mélisme jusqu'à *gen* | **règle** (mélisme recopié) |
 | 226/2 | B | 23-24 | « le -- _ lu -- _ ia » | *le* tient tout le trait, *lu* sur fa | erreur de notre fichier |
-| 226/2 | S A T B | 21-24 | *Alleluia* | *Halleluja* (NBA **et scan**) | texte aligné sur le scan (175/7 : *Alleluja*) |
+| 226/2 | S A T B | 21-24 | *Alleluia* | *Halleluja* (NBA et scan) | **choix éditorial : Alleluia** partout ; autres graphies selon la réforme de 1996 |
 | 248/46 | A | 1 | « Glanz all Fin -- _ _ ster » | *Glanz* tient mi-fa#-sol#-la-si, *all* sur mi, *Fin-* sur ré# | **règle** (mélisme recopié) |
 | 248/46 | A | 5 | mi-fa# doubles + sol# croche | mi croche + fa#-sol# doubles + la croche (NBA **et scan**) | **notes** : erreur de saisie de notre fichier |
 | 248/46 | A | 9-11 | la-la non liés ; la blanche m. 11 | la lié (m. 9-10), si lié (m. 10-11), **deux la noires** m. 11 (NBA **et scan**) | **notes** : liaisons / note répétée perdues |

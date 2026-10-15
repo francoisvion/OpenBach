@@ -261,5 +261,7 @@ vocale** NBA (notes **et** texte). À signaler dans les notices des compilations
 - Coquilles (*duch* pour *durch*, 226/2), mot en double (*bis in __ in*, 121/6).
 - Syntaxe LilyPond : `__` suivi de `--` (*rin __ -- _*) ; `[` s'attache à la note qui
   **précède** (`c8 [d16 e]` = un seul groupe de 3 notes = une seule syllabe).
-- Variantes de texte à trancher (non corrigées) : NBA *Halleluja* / nos fichiers *Alleluia*
-  (226/2), *willt* / *willst*, *folge* / *folg*.
+- Orthographe (décision 2026-10-15) : **Alleluia** partout (même si la NBA / le scan écrivent
+  *Halleluja*, *Alleluja*) ; pour le reste, graphie de la **réforme allemande de 1996** (*dass*,
+  *willst*…). Les variantes de mot ou d'élision (*vor*/*für*, *folg*/*folge*) ne sont pas de
+  l'orthographe : on suit le scan.

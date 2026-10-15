@@ -135,8 +135,8 @@ sopranoLyrics = \lyricmode {
   der herr -- lich leuch -- tet nah und fern.
   Drum will ich die __ _ mich an -- ders leh -- ren,
   in E -- wig -- keit, __ _ mein Gott, nicht hö -- _ ren. 
-  Al -- le -- lu -- ja,
-  Al -- le -- lu -- ja!
+  Al -- le -- lu -- ia,
+  Al -- le -- lu -- ia!
 }
 
 altoLyrics = \lyricmode {
@@ -148,8 +148,8 @@ altoLyrics = \lyricmode {
   der herr -- lich leuch -- tet nah und fern.
   Drum will ich die mich an -- _ _ ders leh -- _ ren,
   in E -- wig -- keit, __ _ _ mein Gott, nicht __ _ hö -- ren. 
-  Al -- le -- lu -- _ ja,
-  Al -- le -- _ lu -- ja!
+  Al -- le -- lu -- _ ia,
+  Al -- le -- _ lu -- ia!
 }
 
 tenorLyrics = \lyricmode {
@@ -161,8 +161,8 @@ tenorLyrics = \lyricmode {
   der herr -- lich leuch -- tet nah und fern.
   Drum will ich die mich an -- _ _ ders leh -- _ ren,
   in E -- wig -- keit, mein Gott, nicht hö -- _ _ _ ren. 
-  Al -- le -- lu -- ja,
-  Al -- le -- lu -- _ ja!
+  Al -- le -- lu -- ia,
+  Al -- le -- lu -- _ ia!
 }
 
 bassLyrics = \lyricmode {
@@ -174,6 +174,6 @@ bassLyrics = \lyricmode {
   der herr -- lich leuch -- tet nah und fern.
   Drum will ich die mich an -- _ ders __ _ leh -- _ ren,
   in E -- wig -- keit, __ _ _ mein Gott, nicht hö -- _ ren. 
-  Al -- _ le -- lu -- ja,
-  Al -- le -- _ lu -- ja!
+  Al -- _ le -- lu -- ia,
+  Al -- le -- _ lu -- ia!
 }
