@@ -88,7 +88,7 @@ sopranoLyrics = \lyricmode {
   lob' ihn mit Schal -- le,
   du wer -- the Chri -- sten -- heit!
   Er lässt dich freund -- _ lich zu sich la -- den.
-  freu -- e dich, I -- _ sra -- el, sei -- ner Gna -- den, Gna -- den.
+  freu -- e dich, I -- _ sra -- el, sei -- ner Gna -- den.
 }
 
 altoLyrics = \lyricmode {

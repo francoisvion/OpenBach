@@ -85,7 +85,7 @@ sopranoLyricsTwo = \lyricmode {
 sopranoLyricsThree = \lyricmode {
   \stanza "3."
   \tweak X-offset #-4.5 "2. Dei" -- ne Hil -- fe zu mir sen -- de,
-  i du e -- dler Her -- zens -- gast!
+  o du e -- dler Her -- zens -- gast!
   Blas in mir das Fünk -- lein auf,
   bis dass nach voll -- brach -- tem Lauf
   ich den Au -- ser -- wähl -- ten glei -- che

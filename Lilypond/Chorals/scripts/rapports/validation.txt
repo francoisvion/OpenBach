@@ -1,4 +1,4 @@
-420 chorals, 8 avec problème(s) — loi 0 : 25
+420 chorals, 5 avec problème(s) — loi 0 : 16
 
 Christum_wir_sollen_loben_schon_(BWV_121_6)_Jean_Sébastien_Bach_notes.ily
   [loi 0] tenor : soprano « in Ewigkeit. » / tenor « in Ewigkeit, in Ewigkeit. »
@@ -14,11 +14,6 @@ Gelobet_seist_du,_Jesu_Christ_(I)_(BWV_64_2)_Jean_Sébastien_Bach_notes.ily
   [loi 0] tenor : soprano « in Ewigkeit. Kyrieleis! » / tenor « in Ewigkeit. Kyrie eleis! »
   [loi 0] bass : soprano « in Ewigkeit. Kyrieleis! » / bass « in Ewigkeit. Kyrie eleis! »
 
-Ich_danke_dir,_Herr_Gott,_in_deinem_Throne_(BWV_350)_Jean_Sébastien_Bach_notes.ily
-  [loi 0] alto : soprano « und Plage, Plage. » / alto « und Plage. »
-  [loi 0] tenor : soprano « und Plage, Plage. » / tenor « und Plage. »
-  [loi 0] bass : soprano « und Plage, Plage. » / bass « und Plage. »
-
 Jesu,_meine_Freude_(IV)_(BWV_227_7)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoOne : soprano « Weg mit allen Schätzen, » / alto « Weg, weg mit allen »
   [loi 0] tenorOne : soprano « Weg mit allen Schätzen, » / tenor « Weg, weg mit allen »
@@ -27,19 +22,9 @@ Jesu,_meine_Freude_(IV)_(BWV_227_7)_Jean_Sébastien_Bach_notes.ily
   [loi 0] tenorTwo : soprano « Weg ihr eitlen Ehren, » / tenor « Weg, weg ihr eitlen »
   [loi 0] bassTwo : soprano « Weg ihr eitlen Ehren, » / bass « Weg, weg ihr eitlen »
 
-Nun_preiset_alle_Gottes_Barmherzigkeit_(BWV_391)_Jean_Sébastien_Bach_notes.ily
-  [loi 0] alto : soprano « seiner Gnaden, Gnaden. » / alto « seiner Gnaden, »
-  [loi 0] tenor : soprano « seiner Gnaden, Gnaden. » / tenor « seiner Gnaden, »
-  [loi 0] bass : soprano « seiner Gnaden, Gnaden. » / bass « seiner Gnaden, »
-
 O_Gott,_du_frommer_Gott_(I)_(BWV_24_6)_Jean_Sébastien_Bach_notes.ily
   [loi 0] alto : soprano « Gewissen bleib. » / alto « Gewissen bleib, und rein gewissen »
   [loi 0] tenor : soprano « Gewissen bleib. » / tenor « Gewissen bleib, und rein gewissen »
-
-Treuer_Gott,_ich_muss_dir_klagen_(II)_(BWV_194_6)_Jean_Sébastien_Bach_notes.ily
-  [loi 0] altoThree : soprano « mir sende, i du edler » / alto « mir sende, o du edler »
-  [loi 0] tenorThree : soprano « mir sende, i du edler » / tenor « mir sende, o du edler »
-  [loi 0] bassThree : soprano « mir sende, i du edler » / bass « mir sende, o du edler »
 
 Mots rares (1 seule occurrence dans le corpus, à relire) : 2
 glied, lich
