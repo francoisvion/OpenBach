@@ -42,11 +42,11 @@ tenorMusic = {
   b4 e'8 [d'] c' [d'] e' [c']~
   c' b4 a8 a4 gis\fermata
   a b c' d'8 [e']
-  f' [e'] e'4 e'2\fermata
+  f' [e']~ e'4 e'2\fermata
   c'4 d' c'4. d'8
   a4 a a2\fermata
   f8 [d] e4 f g8 [a]
-  bes [a] a4 a2\fermata
+  bes [a]~ a4 a2\fermata
   a8 [bes] c'4 c'4. bes8
   a4. a16 [g] f2\fermata
   g8 c'4 d'16 [c'] b8 [d'] g [c']~
@@ -87,7 +87,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Chris -- tus, der uns se -- lig macht, __ _ kein Bös's hat be -- gan -- _ gen, der ward für uns in der Nacht als ein Dieb ge -- fan -- _ gen, ge -- führt vor gott -- lo -- se Leut', und fälsch -- lich ver -- kla -- _ _ _ get, ver -- lacht, ver -- höhnt und ver -- speit, wie denn die Schrift sa -- _ _ get.
+  Chris -- tus, der uns se -- lig macht, __ _ kein Bös's hat be -- gan -- gen, der ward für uns in der Nacht als ein Dieb ge -- fan -- gen, ge -- führt vor gott -- lo -- se Leut', und fälsch -- lich ver -- kla -- _ _ _ get, ver -- lacht, ver -- höhnt und ver -- speit, wie denn die Schrift sa -- _ _ get.
 }
 
 bassLyrics = \lyricmode {
