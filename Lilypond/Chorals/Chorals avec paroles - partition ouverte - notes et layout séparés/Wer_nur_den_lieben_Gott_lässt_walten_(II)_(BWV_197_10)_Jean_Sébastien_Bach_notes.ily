@@ -44,7 +44,7 @@ bassMusic = {
   \repeat volta 2 {
     \partial 4  b,4
     b ais b fis
-    g8 [fis] e4 fis fis,\fermata
+    g8 [fis] e4 fis fis\fermata
     r fis b, cis
     d g8 [fis] e4 fis
     b,2.\fermata } fis4
