@@ -99,12 +99,12 @@ sopranoLyricsTwo = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \stanza "1."
-  Drum fahrt nur __ _ im -- mer hin, ihr Ei -- tel -- _ kei -- ten, du, Je -- su, du bist mein, und __ ich __ _ _ bin dein; Mein gan -- zes Le -- ben sei dir er -- ge -- ben, bis man mich ein -- sten legt ins __ Grab hin -- ein.
+  Drum fahrt nur __ _ im -- mer hin, ihr Ei -- tel -- kei -- _ ten, du, Je -- su, du bist mein, und __ ich __ _ _ bin dein; Mein gan -- zes Le -- ben sei dir er -- ge -- ben, bis man mich ein -- sten legt ins __ Grab hin -- ein.
 }
 
 altoLyricsTwo = \lyricmode {
   \stanza "2."
-  ich will mich __ _ von der Welt zu dir be -- _ rei -- ten; du sollst in mei -- nem Herz und __ Mun -- _ _ de sein.
+  ich will mich __ _ von der Welt zu dir be -- rei -- _ ten; du sollst in mei -- nem Herz und __ Mun -- _ _ de sein.
 }
 
 tenorLyricsOne = \lyricmode {
