@@ -59,7 +59,7 @@ bassMusic = {
   f e a,\fermata
   \partial 4 g8 [f]
   e4 d c d8 [c]
-  bes,4 c f,\fermata fis
+  bes,4 c f\fermata fis
   g cis d8 [c] bes, [a,]
   gis,4 a, d\fermata \fine
 }
