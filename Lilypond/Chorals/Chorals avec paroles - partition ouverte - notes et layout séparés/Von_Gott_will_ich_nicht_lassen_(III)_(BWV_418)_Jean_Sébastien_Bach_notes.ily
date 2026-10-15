@@ -39,7 +39,7 @@ altoMusic = {
 }
 
 tenorMusic = {
-  \partial 4  g8 [a]
+  \partial 4  a8 [b]
   c'4 b a a
   b2 b4\fermata c'
   c'8 [b] a4 g8 [a] b4
