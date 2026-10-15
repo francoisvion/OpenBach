@@ -147,7 +147,7 @@ tenorLyricsTwo = \lyricmode {
   \stanza "2."
   Von ei -- ner Jung -- frau zart und rein
   für uns er hier ge -- bo -- ren ward,
-  er wollt der _ Mitt -- ler wer -- _ den.
+  er wollt der __ _ Mitt -- ler wer -- _ den.
 }
 
 bassLyricsOne = \lyricmode {

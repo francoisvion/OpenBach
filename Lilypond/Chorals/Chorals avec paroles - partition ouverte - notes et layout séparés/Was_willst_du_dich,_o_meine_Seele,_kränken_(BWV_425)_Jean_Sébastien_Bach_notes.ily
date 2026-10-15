@@ -142,7 +142,7 @@ tenorLyrics = \lyricmode {
   Was willst du dich, o mei -- ne See -- le, krän -- _ ken?
   Meinst du, dass Gott nicht kann an dich ge -- den -- ken?
   Er weiss gar wohl, wann er dir hel -- fen soll;
-  denn er ist selbst der Gnad' _ und Gü -- te voll.
+  denn er ist selbst der Gnad' __ _ und Gü -- te voll.
   Halt ihm nur stil -- _ le;
   es ge -- het so sein Wil -- _ le,
   Wie kann er dich doch las -- sen in den Ban -- den.

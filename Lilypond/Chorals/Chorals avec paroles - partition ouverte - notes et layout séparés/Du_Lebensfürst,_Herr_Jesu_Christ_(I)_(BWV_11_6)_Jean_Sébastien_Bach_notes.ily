@@ -107,7 +107,7 @@ sopranoLyricsOne = \lyricmode {
   \stanza "1."
   Nun lie -- get al -- _ les un -- ter dir,
   dich selbst nur aus -- ge -- nom -- men;
-  Die Für -- sten stehn auch auf _ der Bahn,
+  Die Für -- sten stehn auch auf __ _ der Bahn,
   und sind dir wil -- _ lig un -- ter -- than;
   Luft, Was -- ser, Feu -- er, Er -- den
   muss dir zu Dien -- ste wer -- _ den.
@@ -154,7 +154,7 @@ tenorLyricsTwo = \lyricmode {
 bassLyricsOne = \lyricmode {
   \stanza "1."
   Nun lie -- get al -- _ les un -- _ ter dir,
-  dich selbst nur _ aus -- _ ge -- nom -- _ _ men;
+  dich selbst nur __ _ aus -- _ ge -- nom -- _ _ men;
   Die Für -- sten stehn __ _ _ auch auf der Bahn,
   und sind dir wil -- _ lig un -- _ ter -- than;
   Luft, Was -- _ ser, Feu -- _ er,  Er -- den

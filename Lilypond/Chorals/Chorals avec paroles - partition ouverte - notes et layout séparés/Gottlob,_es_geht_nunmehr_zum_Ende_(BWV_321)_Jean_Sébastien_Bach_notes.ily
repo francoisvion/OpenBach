@@ -116,20 +116,20 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
-  mein Je -- sus reicht _ mir schon die Hän -- de,
+  mein Je -- sus reicht __ _ mir schon die Hän -- de,
   mein Je -- sus, der mich se -- _ lig macht.
 }
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
   Gott -- lob, es geht __ _ nun -- mehr __ _ zu En -- de,
-  der mei -- ste Kampf _ ist nun voll -- bracht;
+  der mei -- ste Kampf __ _ ist nun voll -- bracht;
   Drum lasst mich gehn, __ _ ich rei -- se fort,
   mein Je -- sus ist __ _ _ mein letz -- tes Wort.
 }
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
-  mein Je -- sus reicht _ mir schon __ _ die Hän -- de,
-  mein Je -- sus, der _ mich se -- lig macht.
+  mein Je -- sus reicht __ _ mir schon __ _ die Hän -- de,
+  mein Je -- sus, der __ _ mich se -- lig macht.
 }

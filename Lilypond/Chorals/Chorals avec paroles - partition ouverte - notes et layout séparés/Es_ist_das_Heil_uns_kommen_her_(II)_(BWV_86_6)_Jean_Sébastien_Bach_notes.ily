@@ -101,7 +101,7 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
-  wenn das ge -- sche -- hen soll zur _ Freud,
+  wenn das ge -- sche -- hen soll zur __ _ Freud,
   setzt Gott kein g'wis -- se Ta -- _ _ ge.
 }
 

@@ -99,30 +99,30 @@ sopranoLyricsTwo = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \stanza "1."
-  Drum fahrt nur _ im -- mer hin, ihr Ei -- tel -- _ kei -- ten, du, Je -- su, du bist mein, und __ ich _ _ bin dein; Mein gan -- zes Le -- ben sei dir er -- ge -- ben, bis man mich ein -- sten legt ins __ Grab hin -- ein.
+  Drum fahrt nur __ _ im -- mer hin, ihr Ei -- tel -- _ kei -- ten, du, Je -- su, du bist mein, und __ ich __ _ _ bin dein; Mein gan -- zes Le -- ben sei dir er -- ge -- ben, bis man mich ein -- sten legt ins __ Grab hin -- ein.
 }
 
 altoLyricsTwo = \lyricmode {
   \stanza "2."
-  ich will mich _ von der Welt zu dir be -- _ rei -- ten; du sollst in mei -- nem Herz und __ Mun -- _ _ de sein.
+  ich will mich __ _ von der Welt zu dir be -- _ rei -- ten; du sollst in mei -- nem Herz und __ Mun -- _ _ de sein.
 }
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
-  Drum fahrt nur _ im -- mer hin, ihr Ei -- _ tel -- kei -- _ ten, du, Je -- su, du _ bist mein, und __ ich bin dein; Mein gan -- zes Le -- ben sei dir er -- ge -- ben, bis man mich ein -- sten legt ins __ _ Grab hin -- ein.
+  Drum fahrt nur __ _ im -- mer hin, ihr Ei -- _ tel -- kei -- _ ten, du, Je -- su, du __ _ bist mein, und __ ich bin dein; Mein gan -- zes Le -- ben sei dir er -- ge -- ben, bis man mich ein -- sten legt ins __ _ Grab hin -- ein.
 }
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
-  ich will mich _ von der Welt zu dir _ be -- rei -- _ ten; du sollst in mei -- _ nem Herz und __ Mun -- de sein.
+  ich will mich __ _ von der Welt zu dir __ _ be -- rei -- _ ten; du sollst in mei -- _ nem Herz und __ Mun -- de sein.
 }
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
-  Drum fahrt _ nur _ im -- mer hin, ihr Ei -- tel -- _ kei -- ten, du, Je -- su, du bist mein, und __ ich bin dein; Mein gan -- zes Le -- ben sei dir er -- ge -- ben, bis man mich ein -- sten legt ins __ Grab hin -- ein.
+  Drum fahrt __ _ nur __ _ im -- mer hin, ihr Ei -- tel -- _ kei -- ten, du, Je -- su, du bist mein, und __ ich bin dein; Mein gan -- zes Le -- ben sei dir er -- ge -- ben, bis man mich ein -- sten legt ins __ Grab hin -- ein.
 }
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
-  ich will _ mich _ von der Welt zu dir be -- _ rei -- ten; du sollst in mei -- nem Herz und __ Mun -- de sein.
+  ich will __ _ mich __ _ von der Welt zu dir be -- _ rei -- ten; du sollst in mei -- nem Herz und __ Mun -- de sein.
 }

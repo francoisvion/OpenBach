@@ -97,7 +97,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Je -- su, Je -- su, du bist mein, _
+  Je -- su, Je -- su, du bist mein, __ _
   weil ich muss auf Er -- den Wal -- len;
   lass mich ganz dein ei -- gen sein,
   lass mein Le -- ben __ _ dir ge -- fal -- len

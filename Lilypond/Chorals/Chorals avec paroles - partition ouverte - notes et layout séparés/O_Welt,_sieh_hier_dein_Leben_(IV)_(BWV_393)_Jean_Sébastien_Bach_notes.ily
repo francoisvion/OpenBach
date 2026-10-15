@@ -95,5 +95,5 @@ bassLyrics = \lyricmode {
   dein Heil sinkt in den Tod,
   der gros -- se Fürst der Eh -- ren
   lässt wil -- lig sich be -- schwe -- _ ren
-  mit Schlä -- gen, Hohn _ und gros -- sem Spott.
+  mit Schlä -- gen, Hohn __ _ und gros -- sem Spott.
 }

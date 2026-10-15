@@ -141,7 +141,7 @@ altoLyrics = \lyricmode {
   in sol che gro -- ße Noth,
   dass wir un -- ter -- wor -- _ fen __ _
   sind dem ew' -- gen Tod.
-  Ky -- rie _ e -- _ _ _ lei -- _ _ son!
+  Ky -- rie __ _ e -- _ _ _ lei -- _ _ son!
   Chri -- _ _ ste __ _ e -- _ lei -- _ _ son!
   Ky -- rie __ e -- lei -- _ son!
 }
@@ -155,7 +155,7 @@ tenorLyrics = \lyricmode {
   in sol che gro -- ße Noth,
   dass wir un -- ter -- wor -- fen
   sind dem ew' -- gen Tod.
-  Ky -- rie _ e -- _ _ _ lei -- _ _ son!
+  Ky -- rie __ _ e -- _ _ _ lei -- _ _ son!
   Chri -- _ _ _ _ _ ste e -- _ _ _ lei -- _ _ son! __ _ _
   Ky -- rie e -- lei -- son!
 }

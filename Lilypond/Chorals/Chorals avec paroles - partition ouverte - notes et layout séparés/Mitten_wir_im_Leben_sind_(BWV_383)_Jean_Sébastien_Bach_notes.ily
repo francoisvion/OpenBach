@@ -157,7 +157,7 @@ altoLyricsOne = \lyricmode {
   du e -- _ wi -- ger Gott,
   lass uns nicht ver -- sin -- _ _ ken
   in der bit -- tern To -- des -- noth.
-  Ky -- rie _ e -- lei -- son!
+  Ky -- rie __ _ e -- lei -- son!
 }
 
 altoLyricsTwo = \lyricmode {
@@ -179,7 +179,7 @@ tenorLyricsOne = \lyricmode {
   du e -- _ wi -- ger Gott,
   lass uns nicht ver -- sin -- _ ken
   in der bit -- tern To -- des -- noth.
-  Ky -- rie _ e -- lei -- son!
+  Ky -- rie __ _ e -- lei -- son!
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -201,7 +201,7 @@ bassLyricsOne = \lyricmode {
   du e -- _ wi -- ger Gott,
   lass uns nicht ver -- sin -- _ ken
   in der bit -- tern To -- des -- noth.
-  Ky -- rie _ e -- lei -- son!
+  Ky -- rie __ _ e -- lei -- son!
 }
 
 bassLyricsTwo = \lyricmode {

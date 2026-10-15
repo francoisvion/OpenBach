@@ -116,7 +116,7 @@ sopranoLyricsOne = \lyricmode {
 sopranoLyricsTwo = \lyricmode {
   \stanza "2."
   Ich weiß, dass du mein Trö -- _ ster bist,
-  kein Trost mag mir sonst wer -- _ _ _ _ en.
+  kein Trost mag mir sonst wer -- _ _ _ _ den.
 }
 
 altoLyricsOne = \lyricmode {

@@ -102,7 +102,7 @@ sopranoLyricsFour = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \stanza "1."
-  \tweak X-offset #-9 \markup{\concat{\small "Texte 1. " "Du" _ }} stellst, __ _ mein Je -- su, sel -- ber dich
+  \tweak X-offset #-9 \markup{\concat{\small "Texte 1. " "Du" __ _ }} stellst, __ _ mein Je -- su, sel -- ber dich
   zum Vor -- bild wah -- rer Lie -- _ be:
   dass ich bei al -- lem, wo ich kann, 
   stets lieb und hel -- fe je -- der -- mann

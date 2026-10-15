@@ -91,7 +91,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Ich dank' dir, Gott für all' Wohl -- that, dass du uns hast so gnä -- _ _ dig -- lich die Nacht be -- hüt't durch dei -- _ _ ne Güt', und bitt' nun fort, ach Gott, mein Hort, vor Sünd' _ und G'fahr mich heut' be -- wahr', dass mir kein Bö -- ses wi -- _ _ der fahr.
+  Ich dank' dir, Gott für all' Wohl -- that, dass du uns hast so gnä -- _ _ dig -- lich die Nacht be -- hüt't durch dei -- _ _ ne Güt', und bitt' nun fort, ach Gott, mein Hort, vor Sünd' __ _ und G'fahr mich heut' be -- wahr', dass mir kein Bö -- ses wi -- _ _ der fahr.
 }
 
 bassLyrics = \lyricmode {

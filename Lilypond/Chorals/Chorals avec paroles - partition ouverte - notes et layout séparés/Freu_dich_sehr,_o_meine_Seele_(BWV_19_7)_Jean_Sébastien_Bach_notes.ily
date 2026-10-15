@@ -140,9 +140,9 @@ sopranoLyricsTwo = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \stanza "1."
-  Lass dein En -- gel mit _ mir fah -- _ ren,
+  Lass dein En -- gel mit __ _ mir fah -- _ ren,
   auf E -- li -- as Wa -- gen __ _ rot,
-  Lass sie ruhn in dei -- nem _ Schoß,
+  Lass sie ruhn in dei -- nem __ _ Schoß,
   er -- füll sie __ _ mit Freud und Trost,
   bis der Leib kommt aus der __ _ Er -- de
   und mit ihr ver -- ei -- _ nigt wer -- de.
@@ -150,13 +150,13 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \stanza "2."
-  Und mein See -- le wohl _ be -- wah -- _ ren,
+  Und mein See -- le wohl __ _ be -- wah -- _ ren,
   wie Laz -- rum nach sei -- nem __ _ Tod,
 }
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
-  Lass dein En -- _ gel mit _ mir fah -- _ ren,
+  Lass dein En -- _ gel mit __ _ mir fah -- _ ren,
   auf E -- li -- as Wa -- gen rot,
   Lass sie ruhn in dei -- nem Schoß,
   er -- füll sie __ _ mit Freud und Trost,
@@ -166,22 +166,22 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
-  Und mein See -- _ le wohl _ be -- wah -- _ ren,
+  Und mein See -- _ le wohl __ _ be -- wah -- _ ren,
   wie Laz -- rum nach sei -- nem Tod,
 }
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
-  Lass dein En -- gel mit _ mir fah -- _ ren,
+  Lass dein En -- gel mit __ _ mir fah -- _ ren,
   auf E -- li -- _ as Wa -- gen __ _ rot,
-  Lass sie ruhn in dei -- nem _ Schoß,
+  Lass sie ruhn in dei -- nem __ _ Schoß,
   er -- füll __ _ sie mit Freud __ _ und Trost,
   bis der Leib kommt aus der __ _ Er -- _ de
-  und mit ihr _ ver -- ei -- _ nigt wer -- de.
+  und mit ihr __ _ ver -- ei -- _ nigt wer -- de.
 }
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
-  Und mein See -- le wohl _ be -- wah -- _ ren,
-  wie Laz -- rum _ nach sei -- nem __ _ Tod,
+  Und mein See -- le wohl __ _ be -- wah -- _ ren,
+  wie Laz -- rum __ _ nach sei -- nem __ _ Tod,
 }

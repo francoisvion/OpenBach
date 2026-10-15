@@ -69,7 +69,7 @@ sopranoLyrics = \lyricmode {
 
 altoLyrics = \lyricmode {
   Herr, nun lass in Frie -- _ de
-  le -- bens -- satt und mü -- de, _
+  le -- bens -- satt und mü -- de, __ _
   dei -- nen Die -- ner fah -- _ ren
   zu den Him -- mels -- scha -- ren,
   se -- lig und im Stil -- len,
@@ -81,7 +81,7 @@ tenorLyrics = \lyricmode {
   le -- bens -- satt und mü -- de,
   dei -- nen Die -- ner fah -- _ ren
   zu den Him -- mels -- scha -- _ ren,
-  se -- lig und im Stil -- _ len, _
+  se -- lig und im Stil -- _ len, __ _
   doch nach dei -- nem Wil -- _ len.
 }
 

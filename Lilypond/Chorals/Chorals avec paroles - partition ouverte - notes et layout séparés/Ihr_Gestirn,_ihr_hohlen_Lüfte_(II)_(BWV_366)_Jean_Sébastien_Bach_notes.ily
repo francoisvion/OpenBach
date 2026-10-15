@@ -112,7 +112,7 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
-  Ihr _ Ge -- stirn', ihr hoh -- _ len Lüf -- te
+  Ihr __ _ Ge -- stirn', ihr hoh -- _ len Lüf -- te
   und du, lich -- _ _ tes Fir -- ma -- ment;
   Jauch -- zet fröh -- _ lich, lasst das Sin -- gen
   jetzt bis durch die Wol -- _ ken drin -- gen.
@@ -126,14 +126,14 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
-  Ihr _ Ge -- stirn', _ ihr hoh -- _ len Lüf -- te
+  Ihr __ _ Ge -- stirn', __ _ ihr hoh -- _ len Lüf -- te
   und __ _ du, lich -- tes Fir -- ma -- ment;
-  Jauch -- _ zet fröh -- _ lich, lasst _ das Sin -- gen
+  Jauch -- _ zet fröh -- _ lich, lasst __ _ das Sin -- gen
   jetzt __ _ bis durch __ _ die Wol -- _ ken drin -- gen.
 }
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
-  tie -- _ fes Rund, _ ihr dun -- _ klen Klüf -- te,
+  tie -- _ fes Rund, __ _ ihr dun -- _ klen Klüf -- te,
   die __ _ der Wie -- der -- hall zer -- trennt.
 }

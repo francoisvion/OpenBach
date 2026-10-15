@@ -119,12 +119,12 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
-  Es woll' uns Gott ge -- nä -- _ _ dig sein _ und sei -- nen Se -- gen ge -- _ _ ben; dass wir er -- ken -- nen sei -- ne Werk; und, was _ ihn liebt, auf Er -- _ den, und Je -- sus Chris -- tus Heil und Stärk be -- kannt den Hei -- den wer -- _ den und sie zu Gott be -- keh -- _ ren. __ _ _ _
+  Es woll' uns Gott ge -- nä -- _ _ dig sein __ _ und sei -- nen Se -- gen ge -- _ _ ben; dass wir er -- ken -- nen sei -- ne Werk; und, was __ _ ihn liebt, auf Er -- _ den, und Je -- sus Chris -- tus Heil und Stärk be -- kannt den Hei -- den wer -- _ den und sie zu Gott be -- keh -- _ ren. __ _ _ _
 }
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
-  sein Ant -- litz uns mit hel -- _ _ lem Schein _ er -- leucht' zum ew' -- gen Le -- _ _ ben,
+  sein Ant -- litz uns mit hel -- _ _ lem Schein __ _ er -- leucht' zum ew' -- gen Le -- _ _ ben,
 }
 
 bassLyricsOne = \lyricmode {

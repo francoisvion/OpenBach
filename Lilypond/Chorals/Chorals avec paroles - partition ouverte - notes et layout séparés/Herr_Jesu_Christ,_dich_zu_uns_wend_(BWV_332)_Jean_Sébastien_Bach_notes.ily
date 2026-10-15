@@ -61,12 +61,12 @@ altoLyrics = \lyricmode {
   Herr Je -- su Christ, dich zu uns wend',
   dein'n heil' -- gen Geist du zu uns send',
   mit Hülf' und Gnad', Herr, uns re -- gier'
-  und uns den Weg zur _ Wahr -- heit führ'.
+  und uns den Weg zur __ _ Wahr -- heit führ'.
 }
 
 tenorLyrics = \lyricmode {
   Herr Je -- su Christ, dich zu uns wend',
-  dein'n heil' -- gen Geist du zu uns _ send',
+  dein'n heil' -- gen Geist du zu uns __ _ send',
   mit Hülf' und Gnad', Herr, uns re -- gier'
   und uns den Weg zur Wahr -- heit führ'.
 }

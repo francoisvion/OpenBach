@@ -89,7 +89,7 @@ bassLyrics = \lyricmode {
   Al -- les ist an Got -- tes Se -- gen
   und an sei -- ner Gnad' ge -- le -- gen,
   ü -- ber al -- les Geld und Gut.
-  Wer _ auf Gott sein' Hoff -- nung se -- tzet,
+  Wer __ _ auf Gott sein' Hoff -- nung se -- tzet,
   der be -- hält ganz un -- ver -- let -- zet
   ei -- nen frei -- en Hel -- den -- mut.
 }

@@ -85,7 +85,7 @@ altoLyricsOne = \lyricmode {
 altoLyricsTwo = \lyricmode {
   \stanza "2."
   ich kom -- me, bring und schen -- ke dir,
-  was du mir _ hast ge -- ge -- ben.
+  was du mir __ _ hast ge -- ge -- ben.
 }
 
 tenorLyricsOne = \lyricmode {

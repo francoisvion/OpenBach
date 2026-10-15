@@ -63,7 +63,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Solls ja so sein, dass Straf und Pein auf Sün -- de fol -- gen müs -- _ sen, so fahr hier fort und scho -- ne dort, und lass mich hier wohl bü -- _ _ _ ßen. _ _
+  Solls ja so sein, dass Straf und Pein auf Sün -- de fol -- gen müs -- _ sen, so fahr hier fort und scho -- ne dort, und lass mich hier wohl bü -- _ _ _ ßen. __ _ _
 }
 
 bassLyrics = \lyricmode {

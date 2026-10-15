@@ -67,7 +67,7 @@ altoLyrics = \lyricmode {
   sein groß Lieb zu zei -- gen an.
   des freu sich al -- le Chri -- sten -- heit
   und dank ihm des in E -- wig -- _ keit. __ _ _
-  Ky -- ri -- e _ leis!
+  Ky -- ri -- e __ _ leis!
 }
 
 tenorLyrics = \lyricmode {
@@ -75,7 +75,7 @@ tenorLyrics = \lyricmode {
   sein groß Lieb zu zei -- gen an.
   des freu sich al -- le Chri -- sten -- heit
   und dank ihm des in E -- wig -- keit. __ _ _ _
-  Ky -- ri -- e _ leis!
+  Ky -- ri -- e __ _ leis!
 }
 
 bassLyrics = \lyricmode {
@@ -83,5 +83,5 @@ bassLyrics = \lyricmode {
   sein groß Lieb zu zei -- gen an.
   des freu sich al -- le Chri -- sten -- heit
   und dank ihm des in E -- wig -- keit. __ _ _
-  Ky -- ri -- e _ leis!
+  Ky -- ri -- e __ _ leis!
 }

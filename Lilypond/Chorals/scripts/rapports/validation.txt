@@ -1,23 +1,18 @@
-420 chorals, 9 avec problème(s) — loi 0 : 28
-
-Allein_zu_dir,_Herr_Jesu_Christ_(II)_(BWV_261)_Jean_Sébastien_Bach_notes.ily
-  [loi 0] altoTwo : soprano « mir sonst weren. » / alto « mir sonst werden. »
-  [loi 0] tenorTwo : soprano « mir sonst weren. » / tenor « mir sonst werden. »
-  [loi 0] bassTwo : soprano « mir sonst weren. » / bass « mir sonst werden. »
+420 chorals, 8 avec problème(s) — loi 0 : 25
 
 Christum_wir_sollen_loben_schon_(BWV_121_6)_Jean_Sébastien_Bach_notes.ily
   [loi 0] tenor : soprano « in Ewigkeit. » / tenor « in Ewigkeit, in Ewigkeit. »
 
 Es_woll_uns_Gott_genädig_sein_(IV)_(BWV_76_7_14)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoOne : soprano « Gott bekehren! » / alto « Gott bekehren, und sie zu »
-  [loi 0] tenorOne : soprano « lieb auf Erden, und Jesus » / tenor « lieb auf Erge den, und »
+  [loi 0] tenorOne : soprano « Gott bekehren! » / tenor « Gott bekehren, und sie zu »
   [loi 0] altoTwo : soprano « Herzen: Amen! » / alto « Herzen: Amen, und sprech von »
   [loi 0] tenorTwo : soprano « Herzen: Amen! » / tenor « Herzen: Amen, und sprech von »
 
 Gelobet_seist_du,_Jesu_Christ_(I)_(BWV_64_2)_Jean_Sébastien_Bach_notes.ily
-  [loi 0] alto : soprano « Ewigkeit. Kyrie leis! » / alto « Ewigkeit. Kyrie eleis! »
-  [loi 0] tenor : soprano « Ewigkeit. Kyrie leis! » / tenor « Ewigkeit. Kyrie eleis! »
-  [loi 0] bass : soprano « Ewigkeit. Kyrie leis! » / bass « Ewigkeit. Kyrie eleis! »
+  [loi 0] alto : soprano « in Ewigkeit. Kyrieleis! » / alto « in Ewigkeit. Kyrie eleis! »
+  [loi 0] tenor : soprano « in Ewigkeit. Kyrieleis! » / tenor « in Ewigkeit. Kyrie eleis! »
+  [loi 0] bass : soprano « in Ewigkeit. Kyrieleis! » / bass « in Ewigkeit. Kyrie eleis! »
 
 Ich_danke_dir,_Herr_Gott,_in_deinem_Throne_(BWV_350)_Jean_Sébastien_Bach_notes.ily
   [loi 0] alto : soprano « und Plage, Plage. » / alto « und Plage. »
@@ -46,5 +41,5 @@ Treuer_Gott,_ich_muss_dir_klagen_(II)_(BWV_194_6)_Jean_Sébastien_Bach_notes.ily
   [loi 0] tenorThree : soprano « mir sende, i du edler » / tenor « mir sende, o du edler »
   [loi 0] bassThree : soprano « mir sende, i du edler » / bass « mir sende, o du edler »
 
-Mots rares (1 seule occurrence dans le corpus, à relire) : 4
-erge, glied, lich, weren
+Mots rares (1 seule occurrence dans le corpus, à relire) : 2
+glied, lich

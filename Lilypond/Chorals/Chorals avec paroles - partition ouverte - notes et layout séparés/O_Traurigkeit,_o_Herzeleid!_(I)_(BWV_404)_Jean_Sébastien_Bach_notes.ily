@@ -67,7 +67,7 @@ tenorLyrics = \lyricmode {
   o Her -- ze -- leid!
   Ist das nicht zu be -- kla -- _ gen?
   Got -- tes Va -- ters ei -- nigs Kind
-  wird zu Grab _ ge -- tra -- _ gen.
+  wird zu Grab __ _ ge -- tra -- _ gen.
 }
 
 bassLyrics = \lyricmode {

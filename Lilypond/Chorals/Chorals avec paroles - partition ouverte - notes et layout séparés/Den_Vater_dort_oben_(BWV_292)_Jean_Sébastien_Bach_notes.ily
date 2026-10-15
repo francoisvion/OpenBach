@@ -77,11 +77,11 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Den Va -- ter dort o -- ben _
+  Den Va -- ter dort o -- ben __ _
   wol -- len wir nun lo -- _ ben,
   der uns als ein mil -- der __ _ Gott
   gnä -- dig -- lich ge -- spei -- set hat,
-  und Chris -- tum sei -- nen _ Sohn,
+  und Chris -- tum sei -- nen __ _ Sohn,
   durch wel -- chen der Se -- gen kommt
   vom al -- ler -- _ höch -- sten Thron.
 }
@@ -91,9 +91,9 @@ tenorLyrics = \lyricmode {
   wol -- len wir nun lo -- ben,
   der uns als ein mil -- der Gott
   gnä -- dig -- lich ge -- spei -- set hat,
-  und Chris -- tum sei -- nen _ Sohn,
+  und Chris -- tum sei -- nen __ _ Sohn,
   durch wel -- chen der Se -- gen kommt
-  vom al -- ler -- höch -- sten _ Thron.
+  vom al -- ler -- höch -- sten __ _ Thron.
 }
 
 bassLyrics = \lyricmode {
@@ -101,7 +101,7 @@ bassLyrics = \lyricmode {
   wol -- len wir nun lo -- _ ben,
   der uns __ _ als ein mil -- der Gott
   gnä -- dig -- lich ge -- spei -- set hat,
-  und Chris -- tum sei -- nen _ Sohn,
+  und Chris -- tum sei -- nen __ _ Sohn,
   durch wel -- chen der Se -- gen kommt
-  vom al -- ler -- höch -- sten _ Thron.
+  vom al -- ler -- höch -- sten __ _ Thron.
 }

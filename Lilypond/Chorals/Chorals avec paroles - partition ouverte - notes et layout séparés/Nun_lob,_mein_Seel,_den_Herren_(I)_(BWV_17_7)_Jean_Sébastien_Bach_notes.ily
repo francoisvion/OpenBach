@@ -229,7 +229,7 @@ tenorLyricsOne = \lyricmode {
   der Wind nur drü -- ber we -- _ _ het,
   so ist es nim -- _ mer da:
   al -- so der Mensch __ _ ver -- ge -- _ het,
-  sein End, _ das ist __ _ _ _ ihm nah.
+  sein End, __ _ das ist __ _ _ _ ihm nah.
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -241,7 +241,7 @@ tenorLyricsTwo = \lyricmode {
 bassLyricsOne = \lyricmode {
   \stanza "1."
   Wie sich ein Vatr er -- bar -- _ _ met
-  üb'r sei -- ne jun -- _ ge Kind -- lein _ klein:
+  üb'r sei -- ne jun -- _ ge Kind -- lein __ _ klein:
   Er kennt das arm' __ _ Ge -- mäch -- _ _ te,
   er weiß, wir sind __ _ nur Staub.
   Gleich wie __ _ das Gras __ _  vom Re -- _ chen,
@@ -249,11 +249,11 @@ bassLyricsOne = \lyricmode {
   der Wind __ _ nur drü -- _ ber we -- het,
   so ist es nim -- mer da:
   al -- so der Mensch ver -- ge -- _ het,
-  sein End, _ das ist __ _ _ _ ihm nah.
+  sein End, __ _ das ist __ _ _ _ ihm nah.
 }
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
   So tut der Herr uns Ar -- _ _ men,
-  so wir ihn kind -- _ lich fürch -- ten _ rein.
+  so wir ihn kind -- _ lich fürch -- ten __ _ rein.
 }

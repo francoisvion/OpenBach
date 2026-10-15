@@ -66,7 +66,7 @@ altoLyrics = \lyricmode {
 
 tenorLyrics = \lyricmode {
   Nun sich der Tag ge -- en -- det hat,
-  und kei -- ne Sonn' mehr scheint, _
+  und kei -- ne Sonn' mehr scheint, __ _
   schläft Al -- les, was sich ab -- ge -- matt',
   und was zu -- vor ge -- weint.
 }

@@ -68,8 +68,8 @@ bassMusic = {
 
 sopranoLyricsOne = \lyricmode {
   \stanza "1."
-  O _ E -- wig -- keit, du Don -- ner -- wort!
-  O _ Schwert, das durch die See -- le bohrt!
+  O __ _ E -- wig -- keit, du Don -- ner -- wort!
+  O __ _ Schwert, das durch die See -- le bohrt!
   O An -- fang son -- der En -- de!
   Nimm du mich, wenn es dir ge -- fällt,
   Herr Je -- su, in dein Freu -- den -- zelt.
@@ -78,33 +78,33 @@ sopranoLyricsOne = \lyricmode {
 sopranoLyricsTwo = \lyricmode {
   \stanza "2."
   \repeat unfold 5 {\skip1} Zeit oh -- ne -- Zeit!
-  Ich _ weiß vor gro -- ßer Trau -- rig -- keit
+  Ich __ _ weiß vor gro -- ßer Trau -- rig -- keit
   nicht, wo ich mich hin -- wen -- de.
 }
 
 altoLyricsOne = \lyricmode {
   \stanza "1."
-  O _ E -- wig -- keit, du Don -- ner -- wort! O _ Schwert, das durch die See -- le bohrt! O An -- fang son -- der En -- _ de! Nimm du mich, wenn es dir ge -- fällt, Herr _ Je -- su, in dein Freu -- den -- zelt.
+  O __ _ E -- wig -- keit, du Don -- ner -- wort! O __ _ Schwert, das durch die See -- le bohrt! O An -- fang son -- der En -- _ de! Nimm du mich, wenn es dir ge -- fällt, Herr __ _ Je -- su, in dein Freu -- den -- zelt.
 }
 
 altoLyricsTwo = \lyricmode {
   \stanza "2."
-  _ _ _ _ _ Zeit oh -- ne -- Zeit! Ich _ weiß vor gro -- ßer Trau -- rig -- keit nicht, wo ich mich hin -- wen -- _ de.
+  _ _ _ _ _ Zeit oh -- ne -- Zeit! Ich __ _ weiß vor gro -- ßer Trau -- rig -- keit nicht, wo ich mich hin -- wen -- _ de.
 }
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
-  O _ E -- wig -- keit, du Don -- ner -- wort! O _ Schwert, das durch die See -- le bohrt! O _ An -- fang son -- der En -- _ de! Nimm du mich, wenn es dir ge -- fällt, Herr Je -- su, in dein Freu -- den -- zelt.
+  O __ _ E -- wig -- keit, du Don -- ner -- wort! O __ _ Schwert, das durch die See -- le bohrt! O __ _ An -- fang son -- der En -- _ de! Nimm du mich, wenn es dir ge -- fällt, Herr Je -- su, in dein Freu -- den -- zelt.
 }
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
-  _ _ _ _ _ Zeit oh -- ne -- Zeit! Ich _ weiß vor gro -- ßer Trau -- rig -- keit nicht, _ wo ich mich hin -- wen -- _ de.
+  _ _ _ _ _ Zeit oh -- ne -- Zeit! Ich __ _ weiß vor gro -- ßer Trau -- rig -- keit nicht, __ _ wo ich mich hin -- wen -- _ de.
 }
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
-  O E -- wig -- keit, du Don -- ner -- wort! O Schwert, das durch die See -- le bohrt! O An -- fang son -- der En -- _ de! Nimm _ du mich, wenn es dir ge -- fällt, Herr Je -- su, in dein Freu -- den -- zelt.
+  O E -- wig -- keit, du Don -- ner -- wort! O Schwert, das durch die See -- le bohrt! O An -- fang son -- der En -- _ de! Nimm __ _ du mich, wenn es dir ge -- fällt, Herr Je -- su, in dein Freu -- den -- zelt.
 }
 
 bassLyricsTwo = \lyricmode {

@@ -174,7 +174,7 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
-  Weg, weg mit _ al -- len Schä -- tzen,
+  Weg, weg mit __ _ al -- len Schä -- tzen,
   du bist mein Er -- gö -- tzen,
   Je -- su, __ mei -- ne Lust, mei -- ne Lust!
   E -- lend, Not, Kreuz, Schmach und Tod
@@ -184,7 +184,7 @@ bassLyricsOne = \lyricmode {
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
-  Weg, weg ihr _ eit -- len Eh -- ren,
+  Weg, weg ihr __ _ eit -- len Eh -- ren,
   ich mag euch nicht __ hö -- ren,
   bleibt mir __ un -- be -- wusst, un -- be -- wusst!
 }

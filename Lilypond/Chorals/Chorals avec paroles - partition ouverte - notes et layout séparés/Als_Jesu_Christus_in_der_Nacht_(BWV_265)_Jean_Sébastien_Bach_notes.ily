@@ -70,6 +70,6 @@ tenorLyrics = \lyricmode {
 bassLyrics = \lyricmode {
   Als Je -- sus Chri -- stus in der Nacht,
   da -- rin er ward ver -- ra -- _ then,
-  auf un -- ser __ _ Heil _ war ganz be -- dacht,
+  auf un -- ser __ _ Heil __ _ war ganz be -- dacht,
   das -- selb' uns zu er -- stat -- ten.
 }

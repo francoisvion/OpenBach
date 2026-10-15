@@ -144,7 +144,7 @@ bassMusic = {
 
 sopranoLyricsOne = \lyricmode {
   \stanza "1."
-  Sollt' _ ich mei -- nem Gott __ _ nicht sin -- gen?
+  Sollt' __ _ ich mei -- nem Gott __ _ nicht sin -- gen?
   sollt' ich ihm nicht dank -- bar sein?
   Ist doch nichts, als lau -- ter Lie -- ben,
   das sein treu -- es Her -- _ ze regt,
@@ -156,13 +156,13 @@ sopranoLyricsOne = \lyricmode {
 
 sopranoLyricsTwo = \lyricmode {
   \stanza "2."
-  Denn _ ich seh' in al -- _ len Din -- gen,
+  Denn __ _ ich seh' in al -- _ len Din -- gen,
   wie so gut er's mit mir meint.
 }
 
 altoLyricsOne = \lyricmode {
   \stanza "1."
-  Sollt' _ ich mei -- _ nem Gott __ _ nicht sin -- gen?
+  Sollt' __ _ ich mei -- _ nem Gott __ _ nicht sin -- gen?
   sollt' ich ihm nicht dank -- bar __ _ sein?
   Ist doch nichts, __ _ als lau -- ter Lie -- _ ben,
   das __ _ sein treu -- _ es __ Her -- ze regt,
@@ -174,13 +174,13 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \stanza "2."
-  Denn _ ich seh' __ _ in al -- _ len Din -- gen,
+  Denn __ _ ich seh' __ _ in al -- _ len Din -- gen,
   wie so gut er's mit mir __ _ meint.
 }
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
-  Sollt' _ ich __ mei -- nem Gott __ _ nicht sin -- _ gen?
+  Sollt' __ _ ich __ mei -- nem Gott __ _ nicht sin -- _ gen?
   sollt' ich __ ihm nicht dank -- bar __ _ sein?
   Ist doch nichts, als lau -- ter Lie -- ben,
   das __ _ sein treu -- es Her -- _ ze regt,
@@ -192,13 +192,13 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
-  Denn _ ich __ seh' in al -- _ len Din -- _ gen,
+  Denn __ _ ich __ seh' in al -- _ len Din -- _ gen,
   wie so __ gut er's mit mir __ _ meint.
 }
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
-  Sollt' _ ich mei -- _ nem Gott __ _ nicht sin -- gen?
+  Sollt' __ _ ich mei -- _ nem Gott __ _ nicht sin -- gen?
   sollt' __ _ ich ihm __ _ nicht dank -- bar __ _ sein?
   Ist __ _ doch nichts, __ _ als lau -- _ ter Lie -- ben,
   das __ _ sein treu -- _ es Her -- _ ze regt,
@@ -210,6 +210,6 @@ bassLyricsOne = \lyricmode {
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
-  Denn _ ich seh' __ _ in al -- _ len Din -- gen,
-  wie _ so gut __ _ er's mit mir __ _ meint.
+  Denn __ _ ich seh' __ _ in al -- _ len Din -- gen,
+  wie __ _ so gut __ _ er's mit mir __ _ meint.
 }

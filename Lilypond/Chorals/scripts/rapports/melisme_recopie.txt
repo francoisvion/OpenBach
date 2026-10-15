@@ -1,4 +1,4 @@
-178 tenue(s) suspecte(s) dans 68 fichier(s)
+179 tenue(s) suspecte(s) dans 69 fichier(s)
 
 Ach,_was_soll_ich_Sünder_machen_(BWV_259)_Jean_Sébastien_Bach_notes.ily
   alto  m.9   « ne  (syncope → §4) »
@@ -125,6 +125,8 @@ Ich_dank_dir,_Gott,_für_deine_Wohltat_(BWV_346)_Jean_Sébastien_Bach_notes.ily
 Ich_dank_dir,_lieber_Herre_(I)_(BWV_37_6)_Jean_Sébastien_Bach_notes.ily
   alto  m.15  « von »
   bass  m.15  « von »
+Ich_dank_dir,_lieber_Herre_(III)_(BWV_348)_Jean_Sébastien_Bach_notes.ily
+  alto  m.4   « hast  (syncope → §4) »
 Ich_dank_dir_schon_durch_deinen_Sohn_(BWV_349)_Jean_Sébastien_Bach_notes.ily
   bass  m.2   « schon »
   tenor m.2   « schon »

@@ -95,5 +95,5 @@ tenorLyrics = \lyricmode {
 }
 
 bassLyrics = \lyricmode {
-  Er -- stan -- den __ _ ist _ der heil' -- _ ge Christ, al -- le -- _ lu -- ia, __ _ al -- le -- _ lu -- ia! Der al -- _ ler Welt __ _ ein Trö -- _ ster ist, al -- le -- _ lu -- ia, _ al -- le -- _ lu -- ia!
+  Er -- stan -- den __ _ ist __ _ der heil' -- _ ge Christ, al -- le -- _ lu -- ia, __ _ al -- le -- _ lu -- ia! Der al -- _ ler Welt __ _ ein Trö -- _ ster ist, al -- le -- _ lu -- ia, __ _ al -- le -- _ lu -- ia!
 }

@@ -131,7 +131,7 @@ altoLyricsOne = \lyricmode {
   all Hoff -- nung ich __ _
   ganz fest und steif tu set -- zen,
   Herr Je -- su Christ,
-  Mein Trost du bist _
+  Mein Trost du bist __ _
   In To -- des -- noth und Schmer -- _ zen,
   In To -- des -- noth und Schmer -- zen.
 }
@@ -153,7 +153,7 @@ tenorLyricsOne = \lyricmode {
   Da -- rum auf dich
   all Hoff -- nung ich
   ganz fest und steif tu set -- _ zen,
-  Herr Je -- su Christ, _
+  Herr Je -- su Christ, __ _
   Mein Trost du bist
   In To -- des -- noth und Schmer -- _ zen,
   In To -- des -- noth und Schmer -- _ zen.

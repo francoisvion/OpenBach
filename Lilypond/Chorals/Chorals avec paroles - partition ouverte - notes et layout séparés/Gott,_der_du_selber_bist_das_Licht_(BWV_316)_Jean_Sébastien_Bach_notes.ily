@@ -85,7 +85,7 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \stanza "2."
-  nach -- dem durch dei -- ne gro -- ße Macht, der hel -- le Tag die fin -- stre _ Nacht So kräf -- tig hat ver -- drun -- _ gen,
+  nach -- dem durch dei -- ne gro -- ße Macht, der hel -- le Tag die fin -- stre __ _ Nacht So kräf -- tig hat ver -- drun -- _ gen,
 }
 
 tenorLyricsOne = \lyricmode {
@@ -100,10 +100,10 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
-  Gott, der du sel -- ber bist das Licht, dess Güt' und Treu -- e __ _ stir -- bet nicht, dir sei itzt Lob ge -- sun -- _ gen: und dei -- ne Gnad _ und Wun -- der -- tat mich, da ich schlief, er -- hal -- ten hat.
+  Gott, der du sel -- ber bist das Licht, dess Güt' und Treu -- e __ _ stir -- bet nicht, dir sei itzt Lob ge -- sun -- _ gen: und dei -- ne Gnad __ _ und Wun -- der -- tat mich, da ich schlief, er -- hal -- ten hat.
 }
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
-  nach -- dem durch dei -- ne gro -- ße Macht, der hel -- le Tag die _ fin -- stre Nacht So kräf -- tig hat ver -- drun -- _ gen,
+  nach -- dem durch dei -- ne gro -- ße Macht, der hel -- le Tag die __ _ fin -- stre Nacht So kräf -- tig hat ver -- drun -- _ gen,
 }

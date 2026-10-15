@@ -113,7 +113,7 @@ sopranoLyricsOne = \lyricmode {
 
 sopranoLyricsTwo = \lyricmode {
   \stanza "2."
-  Je -- sus zäu -- me mir die _ Sin -- nen,
+  Je -- sus zäu -- me mir die __ _ Sin -- nen,
   Je -- sus sei nur mein Be -- gier,
 }
 
@@ -127,7 +127,7 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \stanza "2."
-  Je -- sus zäu -- _ me mir die _ Sin -- nen,
+  Je -- sus zäu -- _ me mir die __ _ Sin -- nen,
   Je -- sus sei __ _ nur mein Be -- _ gier,
 }
 
@@ -147,14 +147,14 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
-  Je -- sus _ rich -- te mein Be -- _ gin -- _ _ nen,
-  Je -- sus _ blei -- _ be stets bei __ _ mir,
-  Je -- sus _ sei __ _ mir in Ge -- _ dan -- _ _ ken,
+  Je -- sus __ _ rich -- te mein Be -- _ gin -- _ _ nen,
+  Je -- sus __ _ blei -- _ be stets bei __ _ mir,
+  Je -- sus __ _ sei __ _ mir in Ge -- _ dan -- _ _ ken,
   Je -- _ su, las -- _ se mich nicht wan -- _ ken!
 }
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
-  Je -- sus _ zäu -- me mir die _ Sin -- _ _ nen,
-  Je -- sus _ sei __ _ nur mein Be -- _ gier,
+  Je -- sus __ _ zäu -- me mir die __ _ Sin -- _ _ nen,
+  Je -- sus __ _ sei __ _ nur mein Be -- _ gier,
 }

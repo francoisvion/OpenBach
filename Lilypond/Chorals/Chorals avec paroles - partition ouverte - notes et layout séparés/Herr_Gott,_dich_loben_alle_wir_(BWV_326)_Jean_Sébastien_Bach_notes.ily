@@ -90,22 +90,22 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Herr Gott, dich lo -- ben al -- le _ wir
+  Herr Gott, dich lo -- ben al -- le __ _ wir
   und sol -- len bil -- _ lig dan -- ken dir
-  für dein Ge -- schöpf _ der En -- gel _ schon,
-  die um dich schweb'n in dei -- nem _ Thron.
+  für dein Ge -- schöpf __ _ der En -- gel __ _ schon,
+  die um dich schweb'n in dei -- nem __ _ Thron.
 }
 
 tenorLyrics = \lyricmode {
   Herr Gott, dich lo -- ben al -- le wir
   und sol -- len bil -- _ lig dan -- ken dir
-  für dein Ge -- schöpf _ der En -- gel _ schon,
+  für dein Ge -- schöpf __ _ der En -- gel __ _ schon,
   die um dich schweb'n in dei -- nem Thron.
 }
 
 bassLyrics = \lyricmode {
-  Herr Gott, _ dich lo -- _ ben al -- le _ wir
-  und sol -- _ len bil -- _ lig dan -- ken _ dir
-  für dein _ Ge -- schöpf _ der En -- gel _ schon,
-  die um _ dich schweb'n _ in dei -- nem _ Thron.
+  Herr Gott, __ _ dich lo -- _ ben al -- le __ _ wir
+  und sol -- _ len bil -- _ lig dan -- ken __ _ dir
+  für dein __ _ Ge -- schöpf __ _ der En -- gel __ _ schon,
+  die um __ _ dich schweb'n __ _ in dei -- nem __ _ Thron.
 }

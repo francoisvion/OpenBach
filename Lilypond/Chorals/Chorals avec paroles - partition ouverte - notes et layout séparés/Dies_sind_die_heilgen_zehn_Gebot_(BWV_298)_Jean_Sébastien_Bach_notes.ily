@@ -74,7 +74,7 @@ tenorLyrics = \lyricmode {
   durch Mo -- se, sei -- nen Die -- ner treu,
   hoch auf dem Berg
   Si -- na -- i.
-  Ky -- rie e -- leis'. _
+  Ky -- rie e -- leis'. __ _
 }
 
 bassLyrics = \lyricmode {

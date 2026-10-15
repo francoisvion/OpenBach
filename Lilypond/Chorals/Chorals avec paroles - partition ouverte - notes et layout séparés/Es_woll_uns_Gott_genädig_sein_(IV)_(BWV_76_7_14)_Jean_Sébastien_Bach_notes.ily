@@ -190,7 +190,7 @@ tenorLyricsOne = \lyricmode {
   \tweak X-offset #-4.0 "7. Es" woll uns Gott ge -- nä -- _ _ dig sein
   und sei -- nen Se -- gen ge -- ben;
   dass wir er -- ken -- nen sei -- ne Werk,
-  und was ihm lieb auf Er -- ge den,
+  und was ihm lieb auf Er -- _ den,
   und Je -- sus Chris -- tus' Heil und Stärk
   be -- kannt den Hei -- den wer -- _ den
   und sie zu Gott be -- keh -- _ ren, und sie zu Gott sie zu Gott be -- keh -- ren!

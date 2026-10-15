@@ -86,14 +86,14 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Er -- halt _ uns in __ _ der Wahr -- _ _ heit,
+  Er -- halt __ _ uns in __ _ der Wahr -- _ _ heit,
   gib e -- _ wig -- li -- _ che Frei -- heit,
   zu prei -- sen dei -- nem Na -- _ men
   durch Je -- sum Chri -- stum, A -- men!
 }
 
 tenorLyrics = \lyricmode {
-  Er -- halt _ uns in __ _ der Wahr -- _ heit,
+  Er -- halt __ _ uns in __ _ der Wahr -- _ heit,
   gib e -- wig -- li -- che Frei -- _ _ heit,
   zu prei -- sen dei -- nem Na -- _ men
   durch Je -- _ sum Chri -- stum, A -- _ men!

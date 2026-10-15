@@ -85,7 +85,7 @@ altoLyricsOne = \lyricmode {
 altoLyricsTwo = \lyricmode {
   \stanza "2."
   Wie ein Vo -- gel des Stricks kommt ab,
-  ist un -- ser _ Seel ent -- gan -- _ _ gen,
+  ist un -- ser __ _ Seel ent -- gan -- _ _ gen,
 }
 
 tenorLyricsOne = \lyricmode {
@@ -99,7 +99,7 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
-  Wie ein Vo -- gel des Stricks kommt _ ab,
+  Wie ein Vo -- gel des Stricks kommt __ _ ab,
   ist un -- ser Seel ent -- gan -- _ gen,
 }
 

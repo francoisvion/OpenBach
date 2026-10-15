@@ -171,9 +171,9 @@ sopranoLyricsOne = \lyricmode {
   er rett' dein ar -- _ mes Le -- _ _ ben,
   nimmt dich in sei -- _ nen Schoß,
   mit rei -- chem Trost be -- schüt -- _ _ tet,
-  ver -- jüngt, _ dem Ad -- ler gleich;
+  ver -- jüngt, __ _ dem Ad -- ler gleich;
   der Herr schafft Recht, be -- hü -- _ _ tet,
-  die leid'n __ _ in sei -- nem _ Reich.
+  die leid'n __ _ in sei -- nem __ _ Reich.
 }
 
 sopranoLyricsTwo = \lyricmode {
@@ -184,8 +184,8 @@ sopranoLyricsTwo = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \stanza "1."
-  Nun lob', mein' Seel', _ den Her -- _ _ ren,
-  was in _ mir ist, _ den Na -- men __ _ sein,
+  Nun lob', mein' Seel', __ _ den Her -- _ _ ren,
+  was in __ _ mir ist, __ _ den Na -- men __ _ sein,
   hat dir dein Sünd __ _ ver -- ge -- _ ben
   und heilt dein Schwach -- heit __ _ groß,
   er rett' dein ar -- mes Le -- _ _ ben,
@@ -198,13 +198,13 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \stanza "2."
-  sein Wohl -- tat tut _ er meh -- _ _ ren,
-  ver -- giss _ es nicht, _ o Her -- ze __ _ mein,
+  sein Wohl -- tat tut __ _ er meh -- _ _ ren,
+  ver -- giss __ _ es nicht, __ _ o Her -- ze __ _ mein,
 }
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
-  Nun lob', _ mein' Seel', den Her -- _ ren,
+  Nun lob', __ _ mein' Seel', den Her -- _ ren,
   was in __ _ mir ist, den Na -- men sein,
   hat dir __ _ dein Sünd __ _ ver -- ge -- _ ben
   und heilt dein Schwach -- heit groß,
@@ -225,12 +225,12 @@ tenorLyricsTwo = \lyricmode {
 bassLyricsOne = \lyricmode {
   \stanza "1."
   Nun lob', mein' Seel', den Her -- _ _ ren,
-  was in _ mir ist, __ _ den Na -- men __ _ sein,
-  hat dir dein Sünd _ ver -- ge -- _ ben
+  was in __ _ mir ist, __ _ den Na -- men __ _ sein,
+  hat dir dein Sünd __ _ ver -- ge -- _ ben
   und heilt dein Schwach -- heit groß,
   er rett' __ _ dein ar -- _ mes Le -- _ ben,
   nimmt dich __ _ in sei -- nen Schoß,
-  mit rei -- _ chem Trost _ be -- schüt -- _ _ tet,
+  mit rei -- _ chem Trost __ _ be -- schüt -- _ _ tet,
   ver -- jüngt, dem Ad -- ler __ _ gleich;
   der Herr __ _ schafft Recht, be -- hü -- _ tet,
   die leid'n __ _ in sei -- nem __ _ Reich.
@@ -239,5 +239,5 @@ bassLyricsOne = \lyricmode {
 bassLyricsTwo = \lyricmode {
   \stanza "2."
   sein Wohl -- tat tut er meh -- _ _ ren,
-  ver -- giss _ es nicht, __ _ o Her -- ze __ _ mein,
+  ver -- giss __ _ es nicht, __ _ o Her -- ze __ _ mein,
 }

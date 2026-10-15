@@ -76,6 +76,7 @@ SYNTAXE = [
     (re.compile(r"--\s+--"), "« -- » doublé"),
     (re.compile(r"__(?:\s+_)*\s+--"), "« __ » à l'intérieur d'un mot (convention : « -- _ _ »)"),
     (re.compile(r"(?<=\s)-(?=\s)"), "tiret simple « - » (imprimé sous la note ; « -- _ » attendu)"),
+    (re.compile(r"(?<=[^\s_\-\"{}])\s+_(?=\s)"), "« _ » isolé après une syllabe (« __ _ » ou « -- _ » attendu)"),
     (re.compile(r"\\lyricmode\s*\{\s*(?:\\set[^\n]*\n\s*)*(--|__)"), "texte commençant par « -- » ou « __ »"),
 ]
 

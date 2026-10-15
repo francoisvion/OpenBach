@@ -119,7 +119,7 @@ altoLyricsOne = \lyricmode {
 altoLyricsTwo = \lyricmode {
   \stanza "2."
   Mach uns al -- ler Sün -- den frei
-  und helf uns se -- lig _ ster -- _ ben.
+  und helf uns se -- lig __ _ ster -- _ ben.
   dir uns las -- _ sen ganz und gar,
   mit al -- len rech -- ten Chris -- _ ten 
   ent -- flie -- hen Teu -- fels Lis -- _ ten,

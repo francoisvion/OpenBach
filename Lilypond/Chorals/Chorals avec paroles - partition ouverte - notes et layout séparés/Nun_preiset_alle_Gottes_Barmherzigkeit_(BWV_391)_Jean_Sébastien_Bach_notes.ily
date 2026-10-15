@@ -96,7 +96,7 @@ altoLyrics = \lyricmode {
   Got -- tes Barm -- her -- zig -- keit,
   lob' ihn mit Schal -- le,
   du wer -- the Chri -- _ sten -- heit!
-  Er lässt dich freund -- _ lich zu _ sich la -- _ den.
+  Er lässt dich freund -- _ lich zu __ _ sich la -- _ den.
   freu -- e dich, I -- _ sra -- el, sei -- ner Gna -- _ den,
 }
 
@@ -105,7 +105,7 @@ tenorLyrics = \lyricmode {
   Got -- tes Barm -- her -- zig -- keit,
   lob' ihn mit Schal -- le,
   du wer -- the Chri -- _ sten -- heit!
-  Er lässt dich freund -- _ lich zu _ sich la -- _ den.
+  Er lässt dich freund -- _ lich zu __ _ sich la -- _ den.
   freu -- e dich, I -- sra -- el, sei -- ner Gna -- _ den,
 }
 

@@ -117,27 +117,27 @@ sopranoLyrics = \lyricmode {
 
 altoLyrics = \lyricmode {
   Hilf, Herr Je -- _ su, lass ge -- lin -- _ gen,
-  hilf, das neu -- e _ Jahr, geht an,
+  hilf, das neu -- e __ _ Jahr, geht an,
   lass es neu -- e Kräf -- te brin -- gen,
-  dass _ aufs neu' _ ich wan -- deln kann.
+  dass __ _ aufs neu' __ _ ich wan -- deln kann.
   Neu -- es Glück und neu -- _ es Le -- ben
   wollst du mir aus Gna -- de ge -- ben.
 }
 
 tenorLyrics = \lyricmode {
-  Hilf, Herr Je -- _ su, lass _ ge -- lin -- gen,
-  hilf, das neu -- _ e Jahr, geht _ an,
+  Hilf, Herr Je -- _ su, lass __ _ ge -- lin -- gen,
+  hilf, das neu -- _ e Jahr, geht __ _ an,
   lass es neu -- e Kräf -- te brin -- gen,
-  dass _ aufs neu' _ ich wan -- _ deln kann.
+  dass __ _ aufs neu' __ _ ich wan -- _ deln kann.
   Neu -- es Glück und neu -- _ es Le -- ben
   wollst du mir aus Gna -- _ de ge -- ben.
 }
 
 bassLyrics = \lyricmode {
-  Hilf, _ Herr Je -- _ su, lass ge -- lin -- gen,
-  hilf, _ das neu -- _ e Jahr, _ geht an,
-  lass _ es neu -- _ e Kräf -- _ te brin -- gen,
-  dass _ aufs neu' _ ich wan -- _ deln kann.
-  Neu -- _ es Glück _ und neu -- _ es Le -- ben
-  wollst _ du mir _ aus Gna -- _ de ge -- ben.
+  Hilf, __ _ Herr Je -- _ su, lass ge -- lin -- gen,
+  hilf, __ _ das neu -- _ e Jahr, __ _ geht an,
+  lass __ _ es neu -- _ e Kräf -- _ te brin -- gen,
+  dass __ _ aufs neu' __ _ ich wan -- _ deln kann.
+  Neu -- _ es Glück __ _ und neu -- _ es Le -- ben
+  wollst __ _ du mir __ _ aus Gna -- _ de ge -- ben.
 }

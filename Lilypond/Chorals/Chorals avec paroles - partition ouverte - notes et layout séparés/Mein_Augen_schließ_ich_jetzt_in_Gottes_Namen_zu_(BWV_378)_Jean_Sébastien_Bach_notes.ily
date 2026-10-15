@@ -94,7 +94,7 @@ altoLyrics = \lyricmode {
   in Got -- tes Na -- men zu,
   die -- weil der mü -- de Leib
   be -- geh -- ret sei -- ne Ruh',
-  weiß a -- ber nicht, ob ich _
+  weiß a -- ber nicht, ob ich __ _
   den Mor -- gen möcht' er -- le -- ben;
   es könn -- te __ _ mich der Tod
   viel -- leicht noch heut' um -- ge -- _ ben.

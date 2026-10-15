@@ -73,7 +73,7 @@ sopranoLyricsOne = \lyricmode {
   und bit -- ten fer -- ner dich,
   gib uns ein fried -- lich Jah -- re,
   vor al -- les Leid be -- wah -- _ re
-  und nähr uns mil -- dig -- lich. _
+  und nähr uns mil -- dig -- lich. __ _
 }
 
 sopranoLyricsTwo = \lyricmode {

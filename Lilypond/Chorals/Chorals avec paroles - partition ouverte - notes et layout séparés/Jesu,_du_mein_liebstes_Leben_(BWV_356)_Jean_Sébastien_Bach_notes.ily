@@ -163,9 +163,9 @@ bassLyricsOne = \lyricmode {
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
-  der _ du bist __ _ für mich __ _ ge -- ge -- _ ben
+  der __ _ du bist __ _ für mich __ _ ge -- ge -- _ ben
   an __ _ des bit -- _ tern Kreu -- _ zes -- stamm.
-  Hirt _ und Kö -- _ nig, Licht __ _ und Son -- _ ne,
+  Hirt __ _ und Kö -- _ nig, Licht __ _ und Son -- _ ne,
   ach, __ _ wie soll __ _ ich wür -- dig -- lich,
   mein __ _ Herr Je -- _ su, prei -- _ sen dich?
 }

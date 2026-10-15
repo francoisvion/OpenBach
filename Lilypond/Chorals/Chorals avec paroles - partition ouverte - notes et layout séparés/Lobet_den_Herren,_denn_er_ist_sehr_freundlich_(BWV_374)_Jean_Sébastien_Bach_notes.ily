@@ -113,7 +113,7 @@ altoLyrics = \lyricmode {
   Lo -- bet den Her -- _ ren,
   lo -- bet den Her -- ren,
   denn er ist sehr freund -- _ lich,
-  es ist sehr köst -- lich, un -- sern Gott zu _ lo -- _ ben,
+  es ist sehr köst -- lich, un -- sern Gott zu __ _ lo -- _ ben,
   un -- sern Gott zu lo -- _ ben
   sein Lob ist schön und lieb -- lich an -- zu -- hö -- _ ren.
   Lo -- bet den Herr -- _ ren,
@@ -125,7 +125,7 @@ tenorLyrics = \lyricmode {
   lo -- bet den Her -- _ ren,
   denn er ist sehr freund -- _ lich,
   es ist sehr köst -- lich, un -- sern Gott zu lo -- _ _ ben,
-  un -- sern Gott zu lo -- ben _
+  un -- sern Gott zu lo -- ben __ _
   sein Lob ist schön und lieb -- lich an -- zu -- hö -- _ ren.
   Lo -- bet den Herr -- _ ren,
   lo -- bet den Her -- ren!

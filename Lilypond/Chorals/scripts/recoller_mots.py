@@ -210,3 +210,55 @@ def seconde_passe(appliquer_=False):
         if appliquer_ and nouveau != t:
             f.write_text(nouveau, encoding="utf-8")
     print(f"{total} recoupe(s)" + (" appliquée(s)" if appliquer_ else " (simulation)"))
+
+
+# --- « _ » isolé après une syllabe (convention : toujours « -- _ » ou « __ _ »), 2026-10-15 ---
+
+def normaliser_soulignes(corps):
+    """« X _ _ Y » -> « X __ _ _ Y » (fin de mot) ; « X _ -- Y » -> « X -- _ Y » (mot continué)."""
+    parts = re.split(r"(\s+)", corps)            # alterne jetons / espaces
+    tok = [i for i, x in enumerate(parts) if x and not x.isspace()]
+    n = 0
+    k = 0
+    while k < len(tok):
+        t = parts[tok[k]]
+        prev = parts[tok[k - 1]] if k else None
+        avant = parts[tok[k - 2]] if k > 1 else None
+        syllabe = (prev is not None and prev not in ("--", "__", "_", "{", "}")
+                   and not prev.startswith("\\") and avant != "\\stanza" and not re.match(r"^\{?\\skip", prev))
+        if t == "_" and syllabe:
+            fin = k
+            while fin + 1 < len(tok) and parts[tok[fin + 1]] == "_":
+                fin += 1
+            suivant = parts[tok[fin + 1]] if fin + 1 < len(tok) else None
+            if suivant in ("--", "__"):
+                parts[tok[fin + 1]] = "_"          # le « -- » / « __ » remonte devant la série
+                parts[tok[k]] = suivant
+            else:
+                parts[tok[k]] = "__ _"
+            n += 1
+            k = fin + 1
+        k += 1
+    return "".join(parts), n
+
+
+def appliquer_soulignes():
+    total = 0
+    for f in sorted(FOLDER.glob("*_notes.ily")):
+        t = f.read_text(encoding="utf-8")
+        u = t
+        for nom in sorted(set(re.findall(r"(\w*Lyrics\w*)\s*=\s*\\lyricmode", t))):
+            m = re.search(rf"{nom}\s*=\s*\\lyricmode\s*\{{", u)
+            i, prof = m.end(), 1
+            while prof:
+                prof += {"{": 1, "}": -1}.get(u[i], 0); i += 1
+            corps = u[m.end():i - 1]
+            nc, n = normaliser_soulignes(corps)
+            if n:
+                avant, apres = lyric_tokens_with_hyphens(corps)[0], lyric_tokens_with_hyphens(nc)[0]
+                assert avant == apres, (f.name, nom)
+                u = u[:m.end()] + nc + u[i - 1:]
+                total += n
+        if u != t:
+            f.write_text(u, encoding="utf-8")
+    print(total, "« _ » isolés normalisés")

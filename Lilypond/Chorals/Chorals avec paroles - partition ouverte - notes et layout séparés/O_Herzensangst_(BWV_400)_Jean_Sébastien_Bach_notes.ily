@@ -83,7 +83,7 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  O Her -- zens -- angst, o Ban -- gig -- keit und Za -- gen! was seh' ich hier für ei -- ne Lei -- che tra -- gen! wess ist das Grab, wie ist der Fels zu nen -- nen? Ich soll _ ihn ken -- _ nen.
+  O Her -- zens -- angst, o Ban -- gig -- keit und Za -- gen! was seh' ich hier für ei -- ne Lei -- che tra -- gen! wess ist das Grab, wie ist der Fels zu nen -- nen? Ich soll __ _ ihn ken -- _ nen.
 }
 
 altoLyrics = \lyricmode {
@@ -91,7 +91,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  O Her -- zens -- angst, o Ban -- gig -- keit _ und Za -- gen! was seh' ich hier für ei -- ne Lei -- che tra -- gen! wess ist das Grab, wie ist der Fels zu nen -- nen? Ich soll __ _ ihn ken -- _ nen.
+  O Her -- zens -- angst, o Ban -- gig -- keit __ _ und Za -- gen! was seh' ich hier für ei -- ne Lei -- che tra -- gen! wess ist das Grab, wie ist der Fels zu nen -- nen? Ich soll __ _ ihn ken -- _ nen.
 }
 
 bassLyrics = \lyricmode {

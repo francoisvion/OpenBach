@@ -123,7 +123,7 @@ altoLyricsOne = \lyricmode {
   du ed -- _ _ ler Schö -- pfer mein,
   dass ich __ _ mag fröh -- _ lich he -- ben an,
   von dei -- nem Wort __ _ zu sin -- _ _ _ _ _ gen,
-  Herr, du wollst mir _ bei -- stahn. __ _ _
+  Herr, du wollst mir __ _ bei -- stahn. __ _ _
 }
 
 altoLyricsTwo = \lyricmode {
@@ -137,8 +137,8 @@ tenorLyricsOne = \lyricmode {
   Hilf, Gott, dass mir's __ _ ge -- lin -- _ gen,
   du ed -- _ _ _ _ ler Schö -- _ pfer mein,
   dass ich __ _ mag fröh -- lich he -- ben an,
-  von dei -- nem _ Wort zu sin -- _ _ _ _ _ gen,
-  Herr, du _ wollst mir _ bei -- stahn. __ _ _ _
+  von dei -- nem __ _ Wort zu sin -- _ _ _ _ _ gen,
+  Herr, du __ _ wollst mir __ _ bei -- stahn. __ _ _ _
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -152,8 +152,8 @@ bassLyricsOne = \lyricmode {
   Hilf, Gott, dass mir's ge -- lin -- _ gen,
   du ed -- _ _ ler Schö -- _ pfer mein,
   dass ich __ _ mag fröh -- lich he -- _ ben an,
-  von dei -- _ nem Wort _ zu sin -- _ _ _ _ _ gen,
-  Herr, du _ wollst mir bei -- stahn. __ _ _ _
+  von dei -- _ nem Wort __ _ zu sin -- _ _ _ _ _ gen,
+  Herr, du __ _ wollst mir bei -- stahn. __ _ _ _
 }
 
 bassLyricsTwo = \lyricmode {

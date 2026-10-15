@@ -84,7 +84,7 @@ bassMusic = {
 
 sopranoLyricsOne = \lyricmode {
   \stanza "1."
-  Dir, dir, _ Je -- ho -- va, will _ ich sin -- gen,
+  Dir, dir, __ _ Je -- ho -- va, will __ _ ich sin -- gen,
   denn wo ist doch ein sol -- cher Gott wie du?
   dass ich __ _ es tu im Na -- men Je -- su Christ,
   so wie es __ _ dir durch inn ge -- fäl -- lig ist.
@@ -92,36 +92,36 @@ sopranoLyricsOne = \lyricmode {
 
 sopranoLyricsTwo = \lyricmode {
   \stanza "2."
-  dir will _ ich mei -- ne Lie -- _ der brin -- gen
+  dir will __ _ ich mei -- ne Lie -- _ der brin -- gen
   ach gib mir dei -- nes Geis -- tes Kraft da -- zu,
 }
 
 altoLyricsOne = \lyricmode {
   \stanza "1."
-  Dir, dir, _ Je -- ho -- va, will _ ich sin -- _ gen, denn wo ist doch ein sol -- cher Gott wie du? dass ich __ es tu im Na -- men Je -- su Christ, so wie es __ _ dir durch inn ge -- fäl -- lig ist.
+  Dir, dir, __ _ Je -- ho -- va, will __ _ ich sin -- _ gen, denn wo ist doch ein sol -- cher Gott wie du? dass ich __ es tu im Na -- men Je -- su Christ, so wie es __ _ dir durch inn ge -- fäl -- lig ist.
 }
 
 altoLyricsTwo = \lyricmode {
   \stanza "2."
-  dir will _ ich mei -- ne Lie -- _ der brin -- _ gen ach gib mir dei -- nes Geis -- tes Kraft da -- zu,
+  dir will __ _ ich mei -- ne Lie -- _ der brin -- _ gen ach gib mir dei -- nes Geis -- tes Kraft da -- zu,
 }
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
-  Dir, dir, _ Je -- ho -- va, _ will ich sin -- _ gen, denn wo ist doch ein sol -- cher Gott wie du? dass ich __ _ es tu im Na -- men Je -- su Christ, so wie es __ dir durch inn ge -- fäl -- lig ist.
+  Dir, dir, __ _ Je -- ho -- va, __ _ will ich sin -- _ gen, denn wo ist doch ein sol -- cher Gott wie du? dass ich __ _ es tu im Na -- men Je -- su Christ, so wie es __ dir durch inn ge -- fäl -- lig ist.
 }
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
-  dir will _ ich mei -- ne _ Lie -- der brin -- _ gen ach gib mir dei -- nes Geis -- tes Kraft da -- zu,
+  dir will __ _ ich mei -- ne __ _ Lie -- der brin -- _ gen ach gib mir dei -- nes Geis -- tes Kraft da -- zu,
 }
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
-  Dir, dir, _ Je -- ho -- va, _ will _ ich sin -- gen, denn wo ist doch ein sol -- cher Gott wie du? dass ich __ _ es tu im Na -- men Je -- su Christ, so wie es __ dir durch inn ge -- fäl -- lig ist.
+  Dir, dir, __ _ Je -- ho -- va, __ _ will __ _ ich sin -- gen, denn wo ist doch ein sol -- cher Gott wie du? dass ich __ _ es tu im Na -- men Je -- su Christ, so wie es __ dir durch inn ge -- fäl -- lig ist.
 }
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
-  dir will _ ich mei -- ne _ Lie -- _ der brin -- gen ach gib mir dei -- nes Geis -- tes Kraft da -- zu,
+  dir will __ _ ich mei -- ne __ _ Lie -- _ der brin -- gen ach gib mir dei -- nes Geis -- tes Kraft da -- zu,
 }

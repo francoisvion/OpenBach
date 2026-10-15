@@ -107,7 +107,7 @@ altoLyrics = \lyricmode {
   O Mensch, schau' Je -- _ sum Chri -- _ stum an,
   den wah -- _ ren Mensch __ _ und Gott,
   der für uns hat __ _ ge -- nug __ _ ge -- than
-  durch sei -- nen bit -- tern Tod. _ _
+  durch sei -- nen bit -- tern Tod. __ _ _
   O wie gros -- se Angst und Pein
   durch drang __ _ das Her -- _ ze mein.
 }
