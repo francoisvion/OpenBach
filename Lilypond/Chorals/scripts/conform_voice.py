@@ -110,7 +110,7 @@ def tokenize_events(body):
             continue
         letter, octave, durdig, dots, tie, cmd = m.groups()
         val, base = duration_value(durdig, dots, default_dur)
-        default_dur = base
+        default_dur = val if durdig else default_dur  # LilyPond hérite la durée pointée entière (f2. f = deux blanches pointées)
         is_fermata = bool(cmd and "fermata" in cmd)
         events.append({
             "dur": val,
