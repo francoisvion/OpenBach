@@ -88,7 +88,7 @@ tenorMusic = {
   a g c'8 [d']
   ees' [d'] e' [c'] a [d']
   bes2.\fermata
-  d'4 d' d'
+  d'2 d'4
   c'2 c'4
   d' c'2
   c'2.\fermata
@@ -102,7 +102,7 @@ tenorMusic = {
   e'2.\fermata
   bes4 f' e'~
   e' d'8 [cis'] d' [c']
-  bes4 bes a
+  bes2 a4
   a2.\fermata \fine
 }
 
@@ -184,10 +184,10 @@ tenorLyricsOne = \lyricmode {
   sollt' ich __ ihm nicht dank -- bar __ _ sein?
   Ist doch nichts, als lau -- ter Lie -- ben,
   das __ _ sein treu -- es Her -- _ ze regt,
-  das __ _ ohn En -- de hebt und trägt,
+  das __ ohn En -- de hebt und trägt,
   die __ _ in sei -- nem Dienst __ _ sich ü -- ben.
   Al -- les Ding währt sei -- ne Zeit,
-  Got -- _ tes __ Lieb __ in E -- _ wig -- keit.
+  Got -- _ tes __ Lieb __ in E -- wig -- keit.
 }
 
 tenorLyricsTwo = \lyricmode {
