@@ -53,7 +53,7 @@ tenorMusic = {
   a a b
   e a2\fermata
   a4 a a
-  bes a a
+  bes a a~
   a bes a8. [g16]
   fis2.\fermata \fine
 }
@@ -96,7 +96,7 @@ tenorLyrics = \lyricmode {
   Des heil' -- gen Gei -- _ stes rei -- che Gnad'
   die Her -- _ zen der __ _ _ A -- po -- stel hat
   er -- füllt mit sei -- _ ner Gü -- _ tig -- keit, __ _
-  ge -- schenkt der Spra -- _ _ chen Un -- ter -- scheid.
+  ge -- schenkt der Spra -- _ chen Un -- ter -- scheid.
 }
 
 bassLyrics = \lyricmode {
