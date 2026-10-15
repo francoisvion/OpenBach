@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Kei -- nen hat Gott ver -- las -- _ sen
   der ihm ver -- traut all -- zeit;
   Gott will die Sei -- nen schüt -- zen,
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ob ihn schon drum viel has -- _ sen,
   so bringt's ihm doch kein Leid.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Kei -- nen hat Gott ver -- las -- _ sen
   der ihm ver -- traut all -- zeit;
   Gott will die Sei -- nen schüt -- zen,
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ob ihn schon drum viel has -- _ sen,
   so bringt's ihm doch kein Leid.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Kei -- nen hat Gott ver -- las -- _ sen
   der ihm ver -- traut all -- zeit;
   Gott will die Sei -- nen schüt -- zen,
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ob ihn schon drum viel has -- _ sen,
   so bringt's ihm doch kein Leid.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Kei -- nen hat Gott ver -- las -- sen
   der ihm ver -- traut all -- zeit;
   Gott will die Sei -- nen schüt -- _ zen,
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ob ihn schon drum viel has -- sen,
   so bringt's ihm doch kein Leid.
 }

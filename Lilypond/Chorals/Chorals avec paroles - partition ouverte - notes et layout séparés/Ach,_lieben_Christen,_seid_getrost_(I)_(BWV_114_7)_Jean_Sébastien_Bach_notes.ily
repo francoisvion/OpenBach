@@ -59,7 +59,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wir wa -- chen o -- der schla -- fen ein,
   so sind wir doch des Her -- ren;
   Durch A -- dam auf uns kömmt der Tod,
@@ -68,13 +68,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   auf Chris -- tum wir ge -- tau -- fet sein,
   der kann dem Sa -- tan weh -- ren.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wir wa -- chen o -- der schla -- fen ein,
   so sind wir doch des Her -- _ ren;
   Durch A -- dam auf uns kömmt der Tod,
@@ -83,13 +83,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   auf Chris -- tum wir ge -- tau -- fet sein,
   der kann dem Sa -- tan weh -- _ ren.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wir wa -- chen o -- der schla -- fen ein,
   so sind wir doch des Her -- _ ren;
   Durch A -- dam auf uns kömmt der Tod,
@@ -98,13 +98,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   auf Chris -- tum wir ge -- tau -- fet sein,
   der kann dem Sa -- tan weh -- _ ren.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wir wa -- chen o -- der schla -- fen ein,
   so sind wir doch des Her -- _ ren;
   Durch A -- dam auf uns kömmt der Tod,
@@ -113,7 +113,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   auf Chris -- tum wir ge -- tau -- fet sein,
   der kann dem Sa -- tan weh -- _ ren.
 }

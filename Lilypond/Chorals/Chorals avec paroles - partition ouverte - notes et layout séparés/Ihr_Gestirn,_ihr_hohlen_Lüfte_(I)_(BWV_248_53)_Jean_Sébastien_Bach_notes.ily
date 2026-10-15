@@ -47,7 +47,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Zwar ist sol -- che Her -- zens -- stu -- be
   wohl kein schö -- ner Für -- sten -- saal,
   in den -- sel -- ben nur wird blin -- ken,
@@ -55,13 +55,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   son -- dern ei -- ne fin -- stre Gru -- be;
   doch, so -- bald dein Gna -- den -- strahl
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Zwar ist sol -- che Her -- zens -- stu -- be
   wohl kein schö -- ner Für -- sten -- saal,
   in den -- sel -- ben nur wird blin -- ken,
@@ -69,13 +69,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   son -- dern ei -- ne fin -- stre Gru -- be;
   doch, so -- bald dein Gna -- den -- strahl
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Zwar ist sol -- che Her -- zens -- stu -- be
   wohl kein schö -- ner Für -- sten -- saal,
   in den -- sel -- ben nur wird blin -- ken,
@@ -83,13 +83,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   son -- dern ei -- ne fin -- stre Gru -- be;
   doch, so -- bald dein Gna -- den -- strahl
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Zwar ist sol -- che Her -- zens -- stu -- be
   wohl kein schö -- ner Für -- sten -- saal,
   in den -- sel -- ben nur wird blin -- ken,
@@ -97,7 +97,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   son -- dern ei -- ne fin -- stre Gru -- be;
   doch, so -- bald dein Gna -- den -- strahl
 }

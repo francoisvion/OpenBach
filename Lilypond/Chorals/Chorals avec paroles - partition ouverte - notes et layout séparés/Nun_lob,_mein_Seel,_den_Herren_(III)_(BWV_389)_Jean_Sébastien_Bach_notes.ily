@@ -95,7 +95,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun lob', mein' Seel', den Her -- _ ren,
   was in mir ist, den Na -- men sein,
   hat dir dein Sünd ver -- ge -- _ ben
@@ -109,13 +109,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein' Wohl -- that thut er meh -- _ ren,
   Ver -- giss es nicht, o Her -- ze mein,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun lob', mein' Seel', den Her -- _ ren,
   was in mir ist, den Na -- men sein,
   hat dir dein Sünd ver -- ge -- ben
@@ -129,13 +129,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein' Wohl -- that thut er meh -- _ ren,
   Ver -- giss es nicht, o Her -- ze mein,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun lob', mein' Seel', den Her -- _ ren,
   was in mir ist, den Na -- men sein,
   hat dir dein Sünd ver -- ge -- _ _ ben
@@ -149,13 +149,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein' Wohl -- that thut er meh -- _ ren,
   Ver -- giss es nicht, o Her -- ze mein,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun lob', mein' Seel', den Her -- _ ren,
   was in mir ist, den Na -- men sein,
   hat dir dein Sünd ver -- ge -- _ ben
@@ -169,7 +169,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein' Wohl -- that thut er meh -- _ ren,
   Ver -- giss es nicht, o Her -- ze mein,
 }

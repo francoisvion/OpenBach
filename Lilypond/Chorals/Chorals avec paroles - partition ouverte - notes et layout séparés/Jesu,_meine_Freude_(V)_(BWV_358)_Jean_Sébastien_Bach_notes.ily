@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mei -- ne Freu -- de,
   mei -- nes Her -- zens Wei -- de,
   Je -- su, mei -- ne Zier!
@@ -77,38 +77,38 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ach wie lang', ach lan -- ge
   Ist dem Her -- zen ban -- ge,
   und ver -- langt nach dir.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mei -- ne Freu -- - -- de, mei -- nes Her -- zens Wei -- - -- de, Je -- su, mei -- ne Zier! Got -- tes Lamm, mein Bräu -- ti -- gam, au -- ßer dir soll mir auf Er -- - -- den nichts sonst lie -- bers wer -- - -- den.
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ach wie lang', ach lan -- - -- ge Ist dem Her -- zen ban -- - -- ge, und ver -- langt nach dir.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mei -- ne Freu -- - -- de, mei -- nes Her -- zens Wei -- - -- de, Je -- su, mei -- ne Zier! Got -- tes Lamm, mein Bräu -- ti -- gam, au -- ßer dir soll mir auf Er -- den nichts sonst lie -- bers wer -- - -- den.
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ach wie lang', ach lan -- - -- ge Ist dem Her -- zen ban -- - -- ge, und ver -- langt nach dir.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mei -- ne Freu -- - -- de, mei -- nes Her -- zens Wei -- - -- de, Je -- su, mei -- ne Zier! Got -- tes Lamm, mein Bräu -- ti -- gam, au -- ßer dir soll mir auf Er -- den nichts sonst lie -- bers wer -- - -- den.
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ach wie lang', ach lan -- - -- ge Ist dem Her -- zen ban -- - -- ge, und ver -- langt nach dir.
 }

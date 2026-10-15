@@ -55,7 +55,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4.0 "1. Lo" -- be den Her -- ren, der dei -- nen Stand sicht -- bar ge -- seg -- net,
   Den -- ke da -- ran,
   was der All -- mäch -- ti -- ge kann,
@@ -63,12 +63,12 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der aus dem Him -- mel mit Strö -- men der Lie -- be ge -- reg -- net.
 }
 
 sopranoLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-4.0 "2. Lo" -- be den Her -- ren, was in mir ist, lo -- be den Na -- men.
   Er ist dein Licht,
   See -- le, ver -- giss es ja nicht;
@@ -76,12 +76,12 @@ sopranoLyricsThree = \lyricmode {
 }
 
 sopranoLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   Al -- les, was O -- dem hat, lo -- be mit A -- bra -- hams Sa -- men.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4.0 "1. Lo" -- be den Her -- ren, der dei -- nen Stand sicht -- bar ge -- seg -- _ net,
   Den -- ke da -- ran,
   was der All -- mäch -- ti -- ge kann,
@@ -89,12 +89,12 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der aus dem Him -- mel mit Strö -- men der Lie -- be ge -- reg -- _ net.
 }
 
 altoLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-4.0 "2. Lo" -- be den Her -- ren, was in mir ist, lo -- be den Na -- _ men.
   Er ist dein Licht,
   See -- le, ver -- giss es ja nicht;
@@ -102,12 +102,12 @@ altoLyricsThree = \lyricmode {
 }
 
 altoLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   Al -- les, was O -- dem hat, lo -- be mit A -- bra -- hams Sa -- _ men.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4.0 "1. Lo" -- be den Her -- ren, der dei -- nen Stand sicht -- bar ge -- seg -- _ net,
   Den -- ke da -- ran,
   was der All -- mäch -- ti -- ge kann,
@@ -115,12 +115,12 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der aus dem Him -- mel mit Strö -- men der Lie -- be ge -- reg -- _ net.
 }
 
 tenorLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-4.0 "2. Lo" -- be den Her -- ren, was in mir ist, lo -- be den Na -- _ men.
   Er ist dein Licht,
   See -- le, ver -- giss es ja nicht;
@@ -128,12 +128,12 @@ tenorLyricsThree = \lyricmode {
 }
 
 tenorLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   Al -- les, was O -- dem hat, lo -- be mit A -- bra -- hams Sa -- _ men.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4.0 "1. Lo" -- be den Her -- ren, der dei -- nen Stand sicht -- bar ge -- seg -- _ net,
   Den -- ke da -- ran,
   was der All -- mäch -- ti -- ge kann,
@@ -141,12 +141,12 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der aus dem Him -- mel mit Strö -- men der Lie -- be ge -- reg -- _ net.
 }
 
 bassLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-4.0 "2. Lo" -- be den Her -- ren, was in mir ist, lo -- be den Na -- _ men.
   Er ist dein Licht,
   See -- le, ver -- giss es ja nicht;
@@ -154,6 +154,6 @@ bassLyricsThree = \lyricmode {
 }
 
 bassLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   Al -- les, was O -- dem hat, lo -- be mit A -- bra -- hams Sa -- _ men.
 }

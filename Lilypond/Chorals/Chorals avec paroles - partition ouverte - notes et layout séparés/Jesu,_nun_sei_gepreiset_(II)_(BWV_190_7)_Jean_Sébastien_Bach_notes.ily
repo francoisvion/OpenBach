@@ -115,7 +115,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lass uns das Jahr voll -- brin -- gen
   zu Lob dem Na -- men dein,
   dass wir dem -- sel -- ben sin -- gen
@@ -128,7 +128,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wollst uns das Le -- ben fris -- ten
   durch dein all -- mäch -- tig Hand,
   er -- halt dein lie -- ben Chri -- sten
@@ -136,7 +136,7 @@ sopranoLyricsTwo = \lyricmode {
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lass uns das Jahr voll -- brin -- gen
   zu Lob dem Na -- men dein,
   dass wir dem -- sel -- ben sin -- gen
@@ -149,7 +149,7 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wollst uns das Le -- ben fris -- ten
   durch dein all -- mäch -- tig Hand,
   er -- halt dein lie -- ben Chri -- sten
@@ -157,7 +157,7 @@ altoLyricsTwo = \lyricmode {
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lass uns das Jahr voll -- brin -- gen
   zu Lob dem Na -- men dein,
   dass wir dem -- sel -- ben sin -- _ gen
@@ -170,7 +170,7 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wollst uns das Le -- ben fris -- ten
   durch dein all -- mäch -- tig Hand,
   er -- halt dein lie -- ben Chri -- _ sten
@@ -178,7 +178,7 @@ tenorLyricsTwo = \lyricmode {
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lass uns das Jahr voll -- brin -- gen
   zu Lob dem Na -- men dein,
   dass wir dem -- sel -- ben sin -- gen
@@ -191,7 +191,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wollst uns das Le -- ben fris -- ten
   durch dein all -- mäch -- tig Hand,
   er -- halt dein lie -- ben Chri -- sten

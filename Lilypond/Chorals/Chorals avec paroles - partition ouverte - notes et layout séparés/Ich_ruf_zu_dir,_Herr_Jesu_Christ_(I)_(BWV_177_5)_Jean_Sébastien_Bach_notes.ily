@@ -71,7 +71,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich lieg im Streit und wi -- der -- streb,
   hilf, o Herr Christ, dem Schwa -- chen!
   Kommt nun An -- fech -- tung, Herr, so wehr,
@@ -82,13 +82,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   An dei -- ner Gnad al -- lein ich kleb,
   du kannst mich stär -- ker ma -- chen.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich lieg im Streit und wi -- der -- streb,
   hilf, o Herr Christ, dem Schwa -- _ _ chen!
   Kommt nun An -- fech -- tung, Herr, so wehr,
@@ -99,13 +99,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   An dei -- ner Gnad al -- lein ich kleb,
   du kannst mich stär -- ker ma -- _ _ chen.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich lieg im Streit und wi -- der -- streb,
   hilf, o Herr Christ, dem Schwa -- _ chen!
   Kommt nun An -- fech -- tung, Herr, so wehr,
@@ -116,13 +116,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   An dei -- ner Gnad al -- lein ich kleb,
   du kannst mich stär -- ker ma -- _ chen.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich lieg im Streit und wi -- der -- streb,
   hilf, o Herr Christ, dem Schwa -- chen!
   Kommt nun An -- fech -- tung, Herr, so wehr,
@@ -133,7 +133,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   An dei -- ner Gnad al -- lein ich kleb,
   du kannst mich stär -- ker ma -- chen.
 }

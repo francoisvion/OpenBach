@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-5 "6. Heut" lebst du, heut be -- keh -- re dich,
   eh Mor -- gen kommt, kann's än -- dern sich;
   wer heut ist frisch, ge -- sund und rot,
@@ -77,7 +77,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-4.5 "7. Hilf," o Herr Je -- su, hilf du mir,
   dass ich noch heu -- te komm zu dir,
   und Bu -- ße thu den Au -- gen -- blick,
@@ -87,7 +87,7 @@ sopranoLyricsTwo = \lyricmode {
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-5 "6. Heut" lebst du, heut be -- keh -- re dich,
   eh Mor -- gen kommt, kann's än -- dern sich;
   wer heut ist frisch, ge -- sund und rot,
@@ -97,7 +97,7 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-4.5 "7. Hilf," o Herr Je -- su, hilf du mir,
   dass ich noch heu -- te komm zu dir,
   und Bu -- ße thu den Au -- gen -- blick,
@@ -107,7 +107,7 @@ altoLyricsTwo = \lyricmode {
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-5 "6. Heut" lebst du, heut be -- keh -- re dich,
   eh Mor -- gen kommt, kann's än -- dern sich;
   wer heut ist frisch, ge -- sund und rot,
@@ -117,7 +117,7 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-4.5 "7. Hilf," o Herr Je -- su, hilf du mir,
   dass ich noch heu -- te komm zu dir,
   und Bu -- ße thu den Au -- gen -- blick,
@@ -127,7 +127,7 @@ tenorLyricsTwo = \lyricmode {
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-5 "6. Heut" lebst du, heut be -- keh -- re dich,
   eh Mor -- gen kommt, kann's än -- dern sich;
   wer heut ist frisch, ge -- sund und rot,
@@ -137,7 +137,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-4.5 "7. Hilf," o Herr Je -- su, hilf du mir,
   dass ich noch heu -- te komm zu dir,
   und Bu -- ße thu den Au -- gen -- blick,

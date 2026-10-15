@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun dan -- ket al -- le Gott
   mit Her -- zen, Mund und Hän -- den,
   der uns von Mut -- ter -- leib
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der gro -- ße Din -- ge tut
   an uns und al -- len En -- den;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun dan -- ket al -- le Gott
   mit Her -- zen, Mund und Hän -- _ den,
   der uns von Mut -- ter -- leib
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der gro -- ße Din -- ge tut
   an uns und al -- len En -- _ den;
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun dan -- ket al -- le Gott
   mit Her -- zen, Mund und Hän -- _ den,
   der uns von Mut -- ter -- leib
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der gro -- ße Din -- ge tut
   an uns und al -- len En -- _ den;
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun dan -- ket al -- le Gott
   mit Her -- zen, Mund und Hän -- den,
   der uns von Mut -- ter -- leib
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der gro -- ße Din -- ge tut
   an uns und al -- len En -- den;
 }

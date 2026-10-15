@@ -79,7 +79,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich dank' dir, lie -- ber Her -- _ re,
   dass du mich hast __ _ _ be -- wahrt
   mit Fins -- ter -- nis um -- fan -- _ gen,
@@ -89,13 +89,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   in die -- ser Nacht Ge -- fäh -- _ re,
   da -- rin ich lag __ _ _ so hart
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich dank' dir, lie -- ber Her -- _ re,
   dass du mich hast __ be -- wahrt
   mit Fins -- ter -- nis um -- fan -- _ gen,
@@ -105,13 +105,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   in die -- ser Nacht Ge -- fäh -- _ re,
   da -- rin ich lag __ so hart
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich dank' dir, lie -- ber Her -- _ re,
   dass du mich hast __ _ be -- wahrt
   mit Fins -- ter -- nis um -- fan -- _ gen,
@@ -121,13 +121,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   in die -- ser Nacht Ge -- fäh -- _ re,
   da -- rin ich lag __ _ so  hart
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich dank' dir, lie -- ber Her -- _ re,
   dass du mich hast __ _ _ be -- wahrt
   mit Fins -- ter -- nis um -- fan -- _ gen,
@@ -137,7 +137,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   in die -- ser Nacht Ge -- fäh -- _ re,
   da -- rin ich lag __ _ _ so hart
 }

@@ -55,7 +55,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Sing, bet und geh auf Got -- tes We -- gen,
   ver -- richt das Dei -- ne nur ge -- treu
   denn wel -- cher sei -- ne Zu -- ver -- sicht
@@ -63,13 +63,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   und trau des Him -- mels rei -- chem Se -- gen,
   so wird er bei dir wer -- den neu;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Sing, bet und geh auf Got -- tes We -- gen,
   ver -- richt das Dei -- ne nur ge -- treu
   denn wel -- cher sei -- ne Zu -- ver -- sicht
@@ -77,13 +77,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   und trau des Him -- mels rei -- chem Se -- gen,
   so wird er bei dir wer -- den neu;
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Sing, bet und geh auf Got -- tes We -- gen,
   ver -- richt das Dei -- ne nur ge -- treu
   denn wel -- cher sei -- ne Zu -- ver -- sicht
@@ -91,13 +91,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   und trau des Him -- mels rei -- chem Se -- gen,
   so wird er bei dir wer -- den neu;
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Sing, bet und geh auf Got -- tes We -- gen,
   ver -- richt das Dei -- ne nur ge -- treu
   denn wel -- cher sei -- ne Zu -- ver -- sicht
@@ -105,7 +105,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   und trau des Him -- mels rei -- chem Se -- gen,
   so wird er bei dir wer -- den neu;
 }

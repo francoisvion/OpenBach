@@ -51,7 +51,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Mach's mit mir, Gott, nach dei -- ner Güt,
   hilf mir in mei -- nem Lei -- den,
   so nimm sie, Herr, in dei -- ne Händ,
@@ -59,13 +59,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   was ich dich bitt', ver -- sag' mir nicht,
   wenn mei -- ne Seel' will schei -- den:
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Mach's mit mir, Gott, nach dei -- ner Güt,
   hilf mir in mei -- nem Lei -- _ den,
   so nimm sie, Herr, in dei -- ne Händ,
@@ -73,13 +73,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   was ich dich bitt', ver -- sag' mir nicht,
   wenn mei -- ne Seel' will schei -- _ den:
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Mach's mit mir, Gott, nach dei -- ner Güt,
   hilf mir in mei -- nem Lei -- _ den,
   so nimm sie, Herr, in dei -- ne Händ,
@@ -87,13 +87,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   was ich dich bitt', ver -- sag' mir nicht,
   wenn mei -- ne Seel' will schei -- _ den:
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Mach's mit mir, Gott, nach dei -- ner Güt,
   hilf mir in mei -- nem Lei -- _ den,
   so nimm sie, Herr, in dei -- ne Händ,
@@ -101,7 +101,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   was ich dich bitt', ver -- sag' mir nicht,
   wenn mei -- ne Seel' will schei -- _ den:
 }

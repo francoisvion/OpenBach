@@ -118,7 +118,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4.0 "7. Es" woll uns Gott ge -- nä -- _ _ dig sein
   und sei -- nen Se -- gen ge -- _ ben;
   dass wir er -- ken -- nen sei -- ne Werk,
@@ -129,7 +129,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Ant -- litz uns mit hel -- _ _ lem Schein
   er -- leucht zum ew -- gen Le -- _ ben,
   Uns seg -- ne Va -- ter und der Sohn,
@@ -140,19 +140,19 @@ sopranoLyricsTwo = \lyricmode {
 }
 
 sopranoLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-5.0 "14. Es" dan -- ke, Gott, und lo -- _ _ be dich
   das Volk in gu -- ten Ta -- _ ten;
 }
 
 sopranoLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   das Land bringt Frucht und bes -- _ _ sert sich,
   dein Wort ist wohl -- ge -- ra -- _ ten.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4.0 "7. Es" woll uns Gott ge -- nä -- _ _ dig sein
   und sei -- nen Se -- gen ge -- _ ben;
   dass wir er -- ken -- nen sei -- ne Werk,
@@ -163,7 +163,7 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Ant -- litz uns mit hel -- _ _ lem Schein
   er -- leucht zum ew -- gen Le -- _ ben,
   Uns seg -- ne Va -- ter und der Sohn,
@@ -174,19 +174,19 @@ altoLyricsTwo = \lyricmode {
 }
 
 altoLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-5.0 "14. Es" dan -- ke, Gott, und lo -- _ _ be dich
   das Volk in gu -- ten Ta -- _ ten;
 }
 
 altoLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   das Land bringt Frucht und bes -- _ _ sert sich,
   dein Wort ist wohl -- ge -- ra -- _ ten.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4.0 "7. Es" woll uns Gott ge -- nä -- _ _ dig sein
   und sei -- nen Se -- gen ge -- ben;
   dass wir er -- ken -- nen sei -- ne Werk,
@@ -197,7 +197,7 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Ant -- litz uns mit hel -- _ _ lem Schein
   er -- leucht zum ew -- gen Le -- ben,
   Uns seg -- ne Va -- ter und der Sohn,
@@ -208,19 +208,19 @@ tenorLyricsTwo = \lyricmode {
 }
 
 tenorLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-5.0 "14. Es" dan -- ke, Gott, und lo -- _ _ be dich
   das Volk in gu -- ten Ta -- ten;
 }
 
 tenorLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   das Land bringt Frucht und bes -- _ _ sert sich,
   dein Wort ist wohl -- ge -- ra -- ten.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4.0 "7. Es" woll uns Gott ge -- nä -- _ _ dig sein
   und sei -- nen Se -- gen ge -- _ ben;
   dass wir er -- ken -- nen sei -- ne Werk,
@@ -231,7 +231,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Ant -- litz uns mit hel -- _ _ lem Schein
   er -- leucht zum ew -- gen Le -- _ ben,
   Uns seg -- ne Va -- ter und der Sohn,
@@ -242,13 +242,13 @@ bassLyricsTwo = \lyricmode {
 }
 
 bassLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-5.0 "14. Es" dan -- ke, Gott, und lo -- _ _ be dich
   das Volk in gu -- ten Ta -- _ ten;
 }
 
 bassLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   das Land bringt Frucht und bes -- _ _ sert sich,
   dein Wort ist wohl -- ge -- ra -- _ ten.
 }

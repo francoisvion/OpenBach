@@ -83,7 +83,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-5.0 "16. Drum" will ich, weil __ _ ich le -- _ be noch, 
   das Kreuz dir fröh -- lich tra -- gen nach;
   mein Gott, mach mich __ _ da -- zu be -- reit,
@@ -91,7 +91,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-5.0 "17. Hilf" mir mein Sach __ _ recht grei -- _ fen an,
   dass ich mein Lauf vol -- len -- den kann,
   hilf mir auch zwin -- _ gen Fleisch und Blut,
@@ -99,7 +99,7 @@ sopranoLyricsTwo = \lyricmode {
 }
 
 sopranoLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-5.0 "18. Er" -- halt mein Herz __ _ im Glau -- _ ben rein,
   so leb und sterb ich dir al -- lein; Je -- su,
   mein Trost, __ _ hör mein Be -- gier,
@@ -107,7 +107,7 @@ sopranoLyricsThree = \lyricmode {
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   "16. Drum" will ich, weil __ _ ich le -- be noch, 
   as Kreuz dir fröh -- lich tra -- gen __ _ nach;
   mein Gott, mach mich __ _ da -- zu be -- reit,
@@ -115,7 +115,7 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-5.0 "17. Hilf" mir mein Sach __ _ recht grei -- fen an,
   dass ich mein Lauf vol -- len -- den __ _ kann,
   hilf mir auch zwin -- _ gen Fleisch und Blut,
@@ -123,7 +123,7 @@ altoLyricsTwo = \lyricmode {
 }
 
 altoLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-5.0 "18. Er" -- halt mein Herz __ _ im Glau -- ben rein,
   so leb und sterb ich dir al -- _ lein; Je -- su,
   mein Trost, __ _ hör mein Be -- gier,
@@ -131,7 +131,7 @@ altoLyricsThree = \lyricmode {
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   "16. Drum" will ich, weil __ _ ich le -- be noch,
   das Kreuz dir fröh -- lich tra -- gen _ nach;
   mein Gott, mach mich __ _ da -- zu be -- _ reit,
@@ -139,7 +139,7 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-5.0 "17. Hilf" mir mein Sach __ _ recht grei -- fen an,
   dass ich mein Lauf vol -- len -- den __ _ kann,
   hilf mir auch zwin -- _ gen Fleisch und __ _ Blut,
@@ -147,7 +147,7 @@ tenorLyricsTwo = \lyricmode {
 }
 
 tenorLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-5.0 "18. Er" -- halt mein Herz __ _ im Glau -- ben rein,
   so leb und sterb ich dir al -- _ lein; Je -- su,
   mein Trost, __ _ hör mein Be -- _ gier,
@@ -155,7 +155,7 @@ tenorLyricsThree = \lyricmode {
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   "16. Drum" will ich, weil __ ich le -- be noch,
   das Kreuz dir fröh -- lich tra -- gen nach;
   mein Gott, mach mich da -- zu be -- _ reit,
@@ -163,7 +163,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-5.0 "17. Hilf" mir mein Sach recht grei -- fen an,
   dass ich mein Lauf vol -- len -- den kann,
   hilf mir auch zwin -- gen Fleisch und __ _ Blut,
@@ -171,7 +171,7 @@ bassLyricsTwo = \lyricmode {
 }
 
 bassLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-5.0 "18. Er" -- halt mein Herz im Glau -- ben rein,
   so leb und sterb ich dir al -- lein; Je -- su,
   mein Trost, hör mein Be -- _ gier,

@@ -63,7 +63,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Stärk mich mit dei -- nem Freu -- den -- geist,
   heil mich mit dei -- nen Wun -- den,
   und nimm mich einst, wenn dirs ge -- fällt,
@@ -72,13 +72,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wasch mich mit dei -- nem To -- des -- schweiß
   in mei -- ner letz -- ten Stun -- den;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Stärk mich mit dei -- nem Freu -- den -- geist,
   heil mich mit dei -- nen Wun -- _ den,
   und nimm mich einst, wenn dirs ge -- fällt,
@@ -87,13 +87,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wasch mich mit dei -- nem To -- des -- schweiß
   in mei -- ner letz -- ten Stun -- _ den;
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Stärk mich mit dei -- nem Freu -- den -- geist,
   heil mich mit dei -- nen Wun -- _ den,
   und nimm mich einst, wenn dirs ge -- fällt,
@@ -102,13 +102,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wasch mich mit dei -- nem To -- des -- schweiß
   in mei -- ner letz -- ten Stun -- _ den;
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Stärk mich mit dei -- nem Freu -- den -- geist,
   heil mich mit dei -- nen Wun -- _ den,
   und nimm mich einst, wenn dirs ge -- fällt,
@@ -117,7 +117,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wasch mich mit dei -- nem To -- des -- schweiß
   in mei -- ner letz -- ten Stun -- _ den;
 }

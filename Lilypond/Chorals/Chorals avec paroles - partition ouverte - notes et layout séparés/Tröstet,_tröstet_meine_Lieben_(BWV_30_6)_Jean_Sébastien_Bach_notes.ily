@@ -71,7 +71,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ei -- ne Stim -- me lässt sich hö -- ren
   in der Wüs -- te weit und breit,
   ma -- chet Gott ein eb -- ne Bahn,
@@ -81,13 +81,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   al -- le Men -- schen zu be -- keh -- ren:
   macht dem Herrn den Weg be -- reit,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ei -- ne Stim -- me lässt sich hö -- _ ren
   in der Wüs -- te weit und breit,
   ma -- chet Gott ein eb -- ne Bahn,
@@ -97,13 +97,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   al -- le Men -- schen zu be -- keh -- _ ren:
   macht dem Herrn den Weg be -- reit,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ei -- ne Stim -- me lässt sich hö -- _ ren
   in der Wüs -- te weit und breit,
   ma -- chet Gott ein eb -- ne __ _ Bahn,
@@ -113,13 +113,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   al -- le Men -- schen zu be -- keh -- _ ren:
   macht dem Herrn den Weg be -- reit,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ei -- ne Stim -- me lässt sich hö -- _ ren
   in der Wüs -- te weit und breit,
   ma -- chet Gott ein eb -- ne Bahn,
@@ -129,7 +129,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   al -- le Men -- schen zu be -- keh -- _ ren:
   macht dem Herrn den Weg be -- reit,
 }

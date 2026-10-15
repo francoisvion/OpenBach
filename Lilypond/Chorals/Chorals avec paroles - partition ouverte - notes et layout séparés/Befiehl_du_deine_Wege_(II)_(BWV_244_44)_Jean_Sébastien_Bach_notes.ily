@@ -75,7 +75,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Be -- fiehl du dei -- ne We -- ge
   und was dein Her -- ze kränkt,
   der Wol -- ken, Luft und Win -- den
@@ -85,13 +85,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Der al -- ler -- treu -- sten Pfle -- ge
   des, der den Him -- mel lenkt.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Be -- fiehl du dei -- ne We -- _ ge
   und was dein Her -- ze kränkt,
   der Wol -- ken, Luft und Win -- _ den
@@ -101,13 +101,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Der al -- ler -- treu -- sten Pfle -- _ ge
   des, der den Him -- mel lenkt.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Be -- fiehl du dei -- ne We -- _ ge
   und was dein Her -- ze kränkt,
   der Wol -- ken, Luft und Win -- _ den
@@ -117,13 +117,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Der al -- ler -- treu -- sten Pfle -- _ ge
   des, der den Him -- mel lenkt.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Be -- fiehl du dei -- ne We -- _ ge
   und was dein Her -- ze kränkt,
   der Wol -- ken, Luft und Win -- den
@@ -133,7 +133,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Der al -- ler -- treu -- sten Pfle -- _ ge
   des, der den Him -- mel lenkt.
 }

@@ -87,7 +87,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Glo -- ri -- a sei dir ge -- sun -- gen
   mit Men -- schen und __ _ eng -- li -- schen Zun -- _ gen,
   mit Har -- fen und mit Zim -- _ beln schön
@@ -100,14 +100,14 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von zwölf Per -- len sind die Pfor -- ten
   an dei -- ner Stadt __ _ sind wir Kon -- sor -- _ ten
   der En -- gel hoch um dei -- _ nen Thron.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Glo -- ri -- a sei dir ge -- sun -- _ gen
   mit Men -- schen und __ _ eng -- li -- schen Zun -- _ gen,
   mit Har -- fen und mit Zim -- beln schön
@@ -120,14 +120,14 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von zwölf Per -- len sind die Pfor -- _ ten
   an dei -- ner Stadt __ _ sind wir Kon -- sor -- _ ten
   der En -- gel hoch um dei -- nen Thron.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Glo -- ri -- a sei dir ge -- sun -- _ gen
   mit Men -- schen und eng -- li -- schen Zun -- _ gen,
   mit Har -- fen und mit Zim -- _ beln schön
@@ -140,14 +140,14 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von zwölf Per -- len sind die Pfor -- _ ten
   an dei -- ner Stadt sind wir Kon -- sor -- _ ten
   der En -- gel hoch um dei -- _ nen Thron.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Glo -- ri -- a sei dir __ _ ge -- _ sun -- _ _ gen
   mit __ _ Men -- _ schen __ _ und eng -- li -- _ schen __ _ Zun -- _ gen,
   mit __ _ Har -- _ fen und __ _ mit Zim -- beln schön
@@ -160,7 +160,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von zwölf Per -- len sind __ _ die __ _ Pfor -- _ _ ten
   an __ _ dei -- _ ner __ _ Stadt sind wir __ _ Kon -- _ sor -- _ ten
   der __ _ En -- _ gel hoch __ _ um dei -- nen Thron.

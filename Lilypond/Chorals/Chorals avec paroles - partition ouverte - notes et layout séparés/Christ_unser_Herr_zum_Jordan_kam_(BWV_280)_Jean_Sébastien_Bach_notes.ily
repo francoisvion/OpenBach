@@ -75,7 +75,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Christ, un -- ser Herr, zum Jor -- dan kam
   nach sei -- nes Va -- ters Wil -- _ len,
   da wollt er stif -- ten uns ein Bad,
@@ -86,13 +86,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von Sankt Jo -- hanns die Tau -- fe nahm,
   sein Werk und Amt zu 'rfül -- _ len;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Christ, un -- ser Herr, zum Jor -- dan kam
   nach sei -- nes Va -- ters Wil -- _ _ len
   da wollt er stif -- ten uns ein Bad,
@@ -103,13 +103,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von Sankt Jo -- hanns die Tau -- fe nahm,
   sein Werk und Amt zu 'rfül -- _ _ len
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Christ, un -- ser Herr, zum Jor -- dan kam
   nach sei -- nes Va -- ters Wil -- _ len
   da wollt er stif -- ten uns ein Bad,
@@ -120,13 +120,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von Sankt Jo -- hanns die Tau -- fe nahm,
   sein Werk und Amt zu 'rfül -- _ len
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Christ, un -- ser Herr, zum Jor -- dan kam
   nach sei -- nes Va -- ters Wil -- _ len
   da wollt er stif -- ten uns ein Bad,
@@ -137,7 +137,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von Sankt Jo -- hanns die Tau -- fe nahm,
   sein Werk und Amt zu 'rfül -- _ len
 }

@@ -99,7 +99,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, du __ _ mein lieb -- stes Le -- ben,
   mei -- _ ner See -- _ len Bräu -- ti -- gam,
   Je -- su, mei -- _ ne Freud und Won -- ne,
@@ -108,7 +108,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der du bist __ _ für mich ge -- ge -- ben
   an __ _ des bit -- _ tern Kreu -- zes -- stamm.
   Hirt und Kö -- _ nig, Licht und Son -- ne,
@@ -117,7 +117,7 @@ sopranoLyricsTwo = \lyricmode {
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, __ du mein lieb -- _ stes Le -- _ ben,
   mei -- _ ner See -- _ len Bräu -- _ ti -- gam,
   Je -- su, __ mei -- ne Freud __ _ und Won -- _ ne,
@@ -126,7 +126,7 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der du __ bist für mich __ _ ge -- ge -- _ ben
   an __ _ des bit -- _ tern Kreu -- _ zes -- stamm.
   Hirt und __ Kö -- nig, Licht __ _ und Son -- _ ne,
@@ -135,7 +135,7 @@ altoLyricsTwo = \lyricmode {
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, du __ _ mein __ lieb -- stes Le -- _ ben,
   mei -- _ ner See -- len __ Bräu -- ti -- gam,
   Je -- su, mei -- _ ne Freud und Won -- _ ne,
@@ -144,7 +144,7 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der du bist __ _ für __ mich ge -- ge -- _ ben
   an __ _ des bit -- tern __ Kreu -- zes -- stamm.
   Hirt und Kö -- _ nig, Licht und Son -- _ ne,
@@ -153,7 +153,7 @@ tenorLyricsTwo = \lyricmode {
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- _ su, du __ _ mein lieb -- _ stes Le -- _ ben,
   mei -- _ ner See -- _ len Bräu -- _ ti -- gam,
   Je -- _ su, mei -- _ ne Freud __ _ und Won -- _ ne,
@@ -162,7 +162,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der _ du bist __ _ für mich __ _ ge -- ge -- _ ben
   an __ _ des bit -- _ tern Kreu -- _ zes -- stamm.
   Hirt _ und Kö -- _ nig, Licht __ _ und Son -- _ ne,

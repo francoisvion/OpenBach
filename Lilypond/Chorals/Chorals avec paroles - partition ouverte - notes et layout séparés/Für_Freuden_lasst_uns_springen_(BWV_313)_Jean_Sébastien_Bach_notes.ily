@@ -55,7 +55,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Für Freu -- den lasst uns sprin -- gen,
   ihr Chris -- ten all -- zu -- glei -- che!
   von ei -- ner Jung -- frau ist ge -- bor'n,
@@ -63,13 +63,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Mit Mund und Her -- zen sin -- gen,
   denn Christ vom Him -- mel rei -- che.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Für Freu -- den lasst __ _ uns sprin -- _ gen,
   ihr Chris -- ten all -- zu -- glei -- _ che!
   von ei -- ner Jung -- frau ist ge -- bor'n,
@@ -77,13 +77,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Mit Mund und Her -- _ zen sin -- _ gen,
   denn Christ vom Him -- mel rei -- _ che.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Für Freu -- den lasst uns sprin -- _ gen,
   ihr Chris -- ten all -- zu -- glei -- _ che!
   von ei -- ner Jung -- frau ist ge -- bor'n,
@@ -91,13 +91,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Mit Mund und Her -- zen sin -- _ gen,
   denn Christ vom Him -- mel rei -- _ che.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Für Freu -- den lasst uns sprin -- _ gen,
   ihr Chris -- ten all -- zu -- glei -- _ che!
   von ei -- ner Jung -- frau ist ge -- bor'n,
@@ -105,7 +105,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Mit Mund und Her -- zen sin -- _ gen,
   denn Christ vom Him -- mel rei -- _ che.
 }

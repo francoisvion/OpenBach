@@ -67,7 +67,7 @@ bassMusic = {
 }}
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Da -- rum wir bil -- lig lo -- ben dich
   und dan -- ken dir, Gott e -- wi -- glich,
   wie auch der lie -- ben En -- gel Schar
@@ -75,7 +75,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Und bit -- ten dich, wollst al -- le -- zeit
   die -- sel -- ben hei -- ßen sein be -- reit,
   zu schü -- tzen dei -- ne klei -- ne Herd,
@@ -83,7 +83,7 @@ sopranoLyricsTwo = \lyricmode {
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Da -- rum wir bil -- _ lig lo -- _ ben dich
   und dan -- ken dir, __ _ Gott e -- _ wi -- glich,
   wie auch der lie -- ben En -- _ gel Schar
@@ -91,7 +91,7 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Und bit -- ten dich, __ _ wollst al -- _ le -- zeit
   die -- sel -- ben hei -- _ ßen sein __ _ be -- reit,
   zu schü -- tzen dei -- ne klei -- _ ne Herd,
@@ -99,7 +99,7 @@ altoLyricsTwo = \lyricmode {
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Da -- rum wir bil -- lig lo -- _ ben dich
   und dan -- ken dir, Gott e -- _ wi -- glich,
   wie auch der lie -- ben En -- _ gel Schar
@@ -107,7 +107,7 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Und bit -- ten dich, wollst al -- _ le -- zeit
   die -- sel -- ben hei -- ßen sein __ _ be -- reit,
   zu schü -- tzen dei -- ne klei -- _ ne Herd,
@@ -115,7 +115,7 @@ tenorLyricsTwo = \lyricmode {
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Da -- rum __ wir bil -- lig lo -- _ ben dich
   und dan -- ken dir, __ Gott e -- _ wi -- glich,
   wie auch __ der lie -- ben En -- _ gel Schar
@@ -123,7 +123,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Und bit -- ten dich, wollst al -- _ le -- zeit
   die -- sel -- ben hei -- ßen sein __ _ be -- reit,
   zu schü -- tzen dei -- ne klei -- _ ne Herd,

@@ -163,7 +163,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun lob', mein' Seel', den Her -- _ ren,
   was in mir ist, den Na -- men __ _ sein,
   hat dir __ _ dein Sünd ver -- ge -- _ _ ben
@@ -177,13 +177,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Wohl -- tat tut er meh -- _ ren,
   ver -- giss es nicht, o Her -- _ ze mein,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun lob', mein' Seel', _ den Her -- _ _ ren,
   was in _ mir ist, _ den Na -- men __ _ sein,
   hat dir dein Sünd __ _ ver -- ge -- _ ben
@@ -197,13 +197,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Wohl -- tat tut _ er meh -- _ _ ren,
   ver -- giss _ es nicht, _ o Her -- ze __ _ mein,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun lob', _ mein' Seel', den Her -- _ ren,
   was in __ _ mir ist, den Na -- men sein,
   hat dir __ _ dein Sünd __ _ ver -- ge -- _ ben
@@ -217,13 +217,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Wohl -- _ tat tut er meh -- _ ren,
   ver -- giss __ _ es nicht, o Her -- ze mein,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun lob', mein' Seel', den Her -- _ _ ren,
   was in _ mir ist, __ _ den Na -- men __ _ sein,
   hat dir dein Sünd _ ver -- ge -- _ ben
@@ -237,7 +237,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Wohl -- tat tut er meh -- _ _ ren,
   ver -- giss _ es nicht, __ _ o Her -- ze __ _ mein,
 }

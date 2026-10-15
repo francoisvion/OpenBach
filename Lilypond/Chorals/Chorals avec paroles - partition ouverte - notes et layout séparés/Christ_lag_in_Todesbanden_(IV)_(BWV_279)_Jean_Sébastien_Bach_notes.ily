@@ -63,7 +63,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Christ lag in To -- des -- ban -- _ den
   für un -- ser Sünd' ge -- ge -- ben,
   Dess wir sol -- len fröh -- lich sein,
@@ -73,13 +73,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der ist wie -- der er -- stan -- _ den
   und hat uns bracht das Le -- ben.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Christ lag in To -- des -- ban -- _ den
   für un -- ser Sünd' ge -- ge -- _ ben
   Dess wir sol -- len fröh -- lich sein,
@@ -89,13 +89,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der ist wie -- der er -- stan -- _ den
   und hat uns bracht das Le -- _ ben
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Christ lag in To -- des -- ban -- _ den
   für un -- ser Sünd' ge -- ge -- _ ben
   Dess wir sol -- len fröh -- lich sein,
@@ -105,13 +105,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der ist wie -- der er -- stan -- _ den
   und hat uns bracht das Le -- _ ben
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Christ lag in To -- des -- ban -- _ den
   für un -- ser Sünd' ge -- ge -- _ ben
   Dess wir sol -- len fröh -- lich sein,
@@ -121,7 +121,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der ist wie -- der er -- stan -- _ den
   und hat uns bracht das Le -- _ ben
 }

@@ -99,7 +99,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ach, Herr, lass dein lieb En -- ge -- lein
   am letz -- ten End die See -- le mein
   in A -- bra -- hams Schoß tra -- gen,
@@ -113,14 +113,14 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   den Leib in seim Schlaf -- käm -- mer -- lein
   gar sanft ohn ein -- ge Qual und Pein
   ruhn bis am jüng -- sten Ta -- ge!
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ach, Herr, lass dein lieb En -- ge -- lein
   am letz -- ten End die See -- le mein
   in A -- bra -- hams Schoß tra -- _ gen,
@@ -134,14 +134,14 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   den Leib in seim Schlaf -- käm -- mer -- lein
   gar sanft ohn ein -- ge Qual und Pein
   ruhn bis am jüng -- sten Ta -- _ ge!
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ach, Herr, lass dein lieb En -- ge -- lein
   am letz -- ten End die See -- le mein
   in A -- bra -- hams Schoß tra -- _ gen,
@@ -155,14 +155,14 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   den Leib in seim Schlaf -- käm -- mer -- lein
   gar sanft ohn ein -- ge Qual und Pein
   ruhn bis am jüng -- sten Ta -- _ ge!
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ach, Herr, lass dein lieb En -- ge -- lein
   am letz -- ten End die See -- le mein
   in A -- bra -- hams Schoß tra -- _ gen,
@@ -176,7 +176,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   den Leib in seim Schlaf -- käm -- mer -- lein
   gar sanft ohn ein -- ge Qual und Pein
   ruhn bis am jüng -- sten Ta -- _ ge!

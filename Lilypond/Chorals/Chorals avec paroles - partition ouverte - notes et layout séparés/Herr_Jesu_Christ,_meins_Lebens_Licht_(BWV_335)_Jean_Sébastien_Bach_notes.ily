@@ -51,7 +51,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Je -- su Christ, mein's Le -- bens Licht,
   mein Hort, mein Trost, mein Zu -- ver -- sicht,
   auf Er -- den bin ich nur ein Gast,
@@ -59,7 +59,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   O Je -- su, du mein Bräu -- ti -- gam,
   der du aus Lieb' am Kreu -- zes -- stamm
   für mich den Tod ge -- lit -- ten hast,
@@ -67,7 +67,7 @@ sopranoLyricsTwo = \lyricmode {
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Je -- su Christ, mein's Le -- bens Licht,
   mein Hort, mein Trost, mein Zu -- ver -- sicht,
   auf Er -- den bin ich nur ein Gast,
@@ -75,7 +75,7 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   O Je -- su, du mein Bräu -- ti -- gam,
   der du aus Lieb' am Kreu -- zes -- stamm
   für mich den Tod ge -- lit -- ten hast,
@@ -83,7 +83,7 @@ altoLyricsTwo = \lyricmode {
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Je -- su Christ, mein's Le -- bens Licht,
   mein Hort, mein Trost, mein Zu -- ver -- sicht,
   auf Er -- den bin ich nur ein Gast,
@@ -91,7 +91,7 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   O Je -- su, du mein Bräu -- ti -- gam,
   der du aus Lieb' am Kreu -- zes -- stamm
   für mich den Tod ge -- lit -- ten hast,
@@ -99,7 +99,7 @@ tenorLyricsTwo = \lyricmode {
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Je -- su Christ, mein's Le -- bens Licht,
   mein Hort, mein Trost, mein Zu -- ver -- sicht,
   auf Er -- den bin ich nur ein Gast,
@@ -107,7 +107,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   O Je -- su, du mein Bräu -- ti -- gam,
   der du aus Lieb' am Kreu -- zes -- stamm
   für mich den Tod ge -- lit -- ten hast,

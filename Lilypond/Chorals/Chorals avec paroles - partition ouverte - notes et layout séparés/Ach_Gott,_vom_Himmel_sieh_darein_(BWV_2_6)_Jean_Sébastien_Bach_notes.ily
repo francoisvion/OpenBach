@@ -63,7 +63,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Das wollst du Gott be -- wah -- ren rein
   für die -- sem argn Ge -- schlech -- _ te,
   Der gott -- los Hauf sich um -- her findt,
@@ -72,13 +72,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Und lass uns dir be -- foh -- len sein,
   dass sichs in uns nicht flech -- _ te,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Das wollst du Gott be -- wah -- ren rein
   für die -- sem argn Ge -- schlech -- te,
   Der gott -- los Hauf sich um -- her findt,
@@ -87,13 +87,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Und lass uns dir be -- foh -- len sein,
   dass sichs in uns nicht flech -- te,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Das wollst du Gott be -- wah -- ren rein
   für die -- sem argn Ge -- schlech -- _ te,
   Der gott -- los Hauf sich um -- her findt,
@@ -102,13 +102,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Und lass uns dir be -- foh -- len sein,
   dass sichs in uns nicht flech -- _ te,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Das wollst du Gott be -- wah -- ren rein
   für die -- sem argn Ge -- schlech -- _ te,
   Der gott -- los Hauf sich um -- her findt,
@@ -117,7 +117,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Und lass uns dir be -- foh -- len sein,
   dass sichs in uns nicht flech -- _ te,
 }

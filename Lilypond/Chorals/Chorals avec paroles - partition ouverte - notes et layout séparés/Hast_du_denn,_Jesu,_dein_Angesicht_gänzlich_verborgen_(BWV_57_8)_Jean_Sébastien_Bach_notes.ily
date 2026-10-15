@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Rich -- te dich, Lieb -- ste, nach mei -- nem Ge -- fal -- len und gläu -- be,
   der dich er -- götzt
   und in den Him -- mel ver -- setzt
@@ -75,12 +75,12 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass ich dein See -- len -- freund im -- mer und e -- wig ver -- blei -- be,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Rich -- te dich, Lieb -- ste, nach mei -- nem Ge -- fal -- len und gläu -- be,
   der dich er -- götzt
   und in den Him -- mel ver -- setzt
@@ -88,12 +88,12 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass ich dein See -- len -- freund im -- mer und e -- wig ver -- blei -- be,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Rich -- te dich, Lieb -- ste, nach mei -- nem Ge -- fal -- len und gläu -- _ be,
   der dich er -- götzt
   und in den Him -- mel ver -- setzt
@@ -101,12 +101,12 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass ich dein See -- len -- freund im -- mer und e -- wig ver -- blei -- _ be,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Rich -- te dich, Lieb -- ste, nach mei -- nem Ge -- fal -- len und gläu -- be,
   der dich er -- götzt
   und in den Him -- mel ver -- setzt
@@ -114,6 +114,6 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass ich dein See -- len -- freund im -- mer und e -- wig ver -- blei -- be,
 }

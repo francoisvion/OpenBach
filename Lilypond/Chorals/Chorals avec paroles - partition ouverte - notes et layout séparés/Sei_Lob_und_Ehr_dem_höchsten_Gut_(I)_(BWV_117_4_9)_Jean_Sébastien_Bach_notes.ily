@@ -59,7 +59,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-3.5 "4. Ich" \tweak X-offset #0 rief zum Herrn in mei -- ner Not:
   Ach Gott, ver -- nimm mein Schrei -- _ en!
   Drum dank, ach Gott, drum dank ich dir;
@@ -68,13 +68,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Da half mein Hel -- fer mir vom Tod
   und ließ mir Trost ge -- dei -- _ hen.
 }
 
 sopranoLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-3.5 "9. So" \tweak X-offset #0 kom -- met vor sein An -- ge -- sicht
   mit jauch -- zen -- vol -- lem Sprin -- _ gen;
   Gott hat es al -- les wohl be -- dacht
@@ -83,13 +83,13 @@ sopranoLyricsThree = \lyricmode {
 }
 
 sopranoLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   be -- zah -- let die ge -- lob -- te Pflicht
   und lasst uns fröh -- lich sin -- _ gen:
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-3.5 "4. Ich" rief zum Herrn in mei -- ner Not: Ach Gott,
   ver -- nimm mein Schrei -- _ en! Drum dank,
   ach Gott, drum dank ich dir;
@@ -98,13 +98,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Da half mein Hel -- fer mir vom Tod
   und ließ mir Trost ge -- dei -- _ hen.
 }
 
 altoLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-3.5 "9. So" \tweak X-offset #0 kom -- met vor sein An -- ge -- sicht
   mit jauch -- zen -- vol -- lem Sprin -- _ gen;
   Gott hat es al -- les wohl be -- dacht
@@ -113,13 +113,13 @@ altoLyricsThree = \lyricmode {
 }
 
 altoLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   be -- zah -- let die ge -- lob -- te Pflicht
   und lasst uns fröh -- lich sin -- _ gen:
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-3.5 "4. Ich" rief zum Herrn in mei -- ner Not:
   Ach Gott, ver -- nimm mein Schrei -- _ _ en!
   Drum dank, ach Gott, drum dank ich dir;
@@ -128,13 +128,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Da half mein Hel -- fer mir vom Tod
   und ließ mir Trost ge -- dei -- _ _ hen.
 }
 
 tenorLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-3.5 "9. So" \tweak X-offset #0 kom -- met vor sein An -- ge -- sicht
   mit jauch -- zen -- vol -- lem Sprin -- _ _ gen;
   Gott hat es al -- les wohl be -- dacht
@@ -143,13 +143,13 @@ tenorLyricsThree = \lyricmode {
 }
 
 tenorLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   be -- zah -- let die ge -- lob -- te Pflicht
   und lasst uns fröh -- lich sin -- _ _ gen:
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-3.5 "4. Ich" rief zum Herrn in mei -- ner Not:
   Ach Gott, ver -- nimm mein Schrei -- _ en!
   Drum dank, ach Gott, drum dank ich dir;
@@ -158,13 +158,13 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Da half mein Hel -- fer mir vom Tod
   und ließ mir Trost ge -- dei -- _ hen.
 }
 
 bassLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-3.5 "9. So" \tweak X-offset #0 kom -- met vor sein An -- ge -- sicht
   mit jauch -- zen -- vol -- lem Sprin -- _ gen;
   Gott hat es al -- les wohl be -- dacht
@@ -173,7 +173,7 @@ bassLyricsThree = \lyricmode {
 }
 
 bassLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   be -- zah -- let die ge -- lob -- te Pflicht
   und lasst uns fröh -- lich sin -- _ gen:
 }

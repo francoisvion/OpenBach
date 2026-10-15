@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Un -- ter dei -- nen Schir -- men
   bin ich für den Stür -- men
   al -- ler Fein -- de frei.
@@ -77,14 +77,14 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Lass den Sa -- tan wit -- tern,
   lass den Feind er -- bit -- tern,
   mir steht Je -- sus bei.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Un -- ter dei -- nen Schir -- _ men
   bin ich für den Stür -- _ men
   al -- ler Fein -- de frei.
@@ -94,14 +94,14 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Lass den Sa -- tan wit -- _ tern,
   lass den Feind er -- bit -- _ tern,
   mir steht Je -- sus bei.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Un -- ter dei -- nen Schir -- _ men
   bin ich für den Stür -- _ men
   al -- ler Fein -- de frei.
@@ -111,14 +111,14 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Lass den Sa -- tan wit -- _ tern,
   lass den Feind er -- bit -- _ tern,
   mir steht Je -- sus bei.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Un -- ter dei -- nen Schir -- _ men
   bin ich für den Stür -- _ men
   al -- ler Fein -- de frei.
@@ -128,7 +128,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Lass den Sa -- tan wit -- _ tern,
   lass den Feind er -- bit -- _ tern,
   mir steht Je -- sus bei.

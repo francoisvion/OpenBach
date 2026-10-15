@@ -75,7 +75,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Von Gott kommt mir ein Freu -- den -- schein,
   wenn du mit dei -- nen Äu -- ge -- lein
   mich freund -- lich tust an -- bli -- cken.
@@ -86,14 +86,14 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   O Herr Je -- su, mein trau -- tes Gut,
   dein Wort, dein Geist, dein Leib und Blut
   mich in -- ner -- lich er -- qui -- cken!
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Von Gott kommt mir ein Freu -- den -- schein,
   wenn du mit dei -- nen Äu -- ge -- lein
   mich freund -- lich tust an -- bli -- _ cken.
@@ -104,14 +104,14 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   O Herr Je -- su, mein trau -- tes Gut,
   dein Wort, dein Geist, dein Leib und Blut
   mich in -- ner -- lich er -- qui -- _ cken!
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Von Gott kommt mir ein Freu -- den -- schein,
   wenn du mit dei -- nen Äu -- ge -- lein
   mich freund -- lich tust an -- bli -- cken.
@@ -122,14 +122,14 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   O Herr Je -- su, mein trau -- tes Gut,
   dein Wort, dein Geist, dein Leib und Blut
   mich in -- ner -- lich er -- qui -- cken!
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Von Gott kommt mir ein Freu -- den -- schein,
   wenn du mit dei -- nen Äu -- ge -- lein
   mich freund -- lich tust an -- bli -- cken.
@@ -140,7 +140,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   O Herr Je -- su, mein trau -- tes Gut,
   dein Wort, dein Geist, dein Leib und Blut
   mich in -- ner -- lich er -- qui -- cken!

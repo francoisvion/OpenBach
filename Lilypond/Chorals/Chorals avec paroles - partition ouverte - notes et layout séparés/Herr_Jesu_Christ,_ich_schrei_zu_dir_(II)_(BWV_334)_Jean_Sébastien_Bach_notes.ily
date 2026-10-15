@@ -63,7 +63,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Je -- su Christ, du höch -- stes Gut,
   du Brunn -- quell al -- ler Gna -- den,
   und in mir hab der Pfei -- le viel,
@@ -72,13 +72,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sieh doch, wie ich in mei -- nem Muth
   mit Schmer -- zen bin be -- lad -- en,                                 
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Je -- su Christ, du höch -- stes Gut,
   du Brunn -- quell al -- ler Gna -- den,
   und in mir hab der Pfei -- le __ _ viel,
@@ -87,13 +87,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sieh doch, wie ich in mei -- nem Muth
   mit Schmer -- zen bin be -- lad -- en,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Je -- su Christ, du höch -- stes __ _ Gut,
   du Brunn -- quell al -- ler Gna -- _ den,
   und in mir hab der Pfei -- le viel,
@@ -102,13 +102,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sieh doch, wie ich in mei -- _ nem Muth
   mit Schmer -- zen bin be -- lad -- _ en,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Je -- su Christ, du höch -- stes Gut,
   du Brunn -- quell al -- ler Gna -- _ den,
   und in mir hab der Pfei -- le viel,
@@ -117,7 +117,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sieh doch, wie ich in mei -- nem Muth
   mit Schmer -- zen bin be -- lad -- _ en,
 }

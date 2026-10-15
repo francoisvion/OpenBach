@@ -18,7 +18,7 @@ FOLDER = CHORALS_DIR / "Chorals avec paroles - partition ouverte - notes et layo
 TARGET_LIST = Path(__file__).resolve().parent / "target_164.txt"
 
 REPEAT_RE = re.compile(r"\\repeat\s+volta\s+2\s*\{")
-STANZA_RE = re.compile(r"^\s*\\set\s+stanza\s*=\s*\d+\s*")
+STANZA_RE = re.compile(r'^\s*(?:\\set\s+stanza\s*=\s*\d+|\\stanza\s+"[^"]*")\s*')
 
 
 def strip_stanza(body):

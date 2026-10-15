@@ -55,7 +55,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wenn wir in höch -- sten Nö -- then sein
   und wis -- sen nicht wo aus und ein,
   und fin -- den we -- der Hülf' noch Rath,
@@ -63,7 +63,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   so ist das un -- ser Trost al -- lein,
   dass wir zu -- sam -- men ins -- ge -- mein
   an -- ru -- fen dich, du treu -- er Gott,
@@ -71,7 +71,7 @@ sopranoLyricsTwo = \lyricmode {
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wenn wir in höch -- sten Nö -- then sein
   und wis -- sen nicht wo aus und ein,
   und fin -- den we -- der Hülf' noch Rath,
@@ -79,7 +79,7 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   so ist das un -- ser Trost al -- lein,
   dass wir zu -- sam -- men ins -- ge -- mein
   an -- ru -- fen dich, du treu -- er Gott,
@@ -87,7 +87,7 @@ altoLyricsTwo = \lyricmode {
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wenn wir in höch -- sten Nö -- then sein
   und wis -- sen nicht wo aus und ein,
   und fin -- den we -- der Hülf' noch Rath,
@@ -95,7 +95,7 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   so ist das un -- ser Trost al -- lein,
   dass wir zu -- sam -- men ins -- ge -- mein
   an -- ru -- fen dich, du treu -- er Gott,
@@ -103,7 +103,7 @@ tenorLyricsTwo = \lyricmode {
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wenn wir in höch -- sten Nö -- then sein
   und wis -- sen nicht wo aus und ein,
   und fin -- den we -- der Hülf' noch Rath,
@@ -111,7 +111,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   so ist das un -- ser Trost al -- lein,
   dass wir zu -- sam -- men ins -- ge -- mein
   an -- ru -- fen dich, du treu -- er Gott,

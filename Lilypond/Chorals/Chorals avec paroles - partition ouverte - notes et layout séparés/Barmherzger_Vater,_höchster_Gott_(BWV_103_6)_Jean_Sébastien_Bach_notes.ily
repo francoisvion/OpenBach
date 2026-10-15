@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich hab dich ei -- nen Au -- gen -- blick,
   o lie -- bes Kind, ver -- las -- sen;
   will ich dir schon die Freu -- den -- kron
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sieh a -- ber, sieh, mit gro -- ßem Glück
   und Trost ohn al -- le Ma -- ßen;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich hab dich ei -- nen Au -- gen -- blick,
   o lie -- bes Kind, ver -- las -- _ _ sen;
   will ich dir schon die Freu -- den -- kron
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sieh a -- ber, sieh, mit gro -- ßem Glück
   und Trost ohn al -- le Ma -- _ _ ßen;
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich hab dich ei -- nen Au -- gen -- blick,
   o lie -- bes Kind, ver -- las -- _ sen;
   will ich dir schon die Freu -- den -- kron
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sieh a -- ber, sieh, mit gro -- ßem Glück
   und Trost ohn al -- le Ma -- _ ßen;
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich hab dich ei -- nen Au -- gen -- blick,
   o lie -- bes Kind, ver -- las -- sen;
   will ich dir schon die Freu -- den -- kron
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sieh a -- ber, sieh, mit gro -- ßem Glück
   und Trost ohn al -- le Ma -- ßen;
 }

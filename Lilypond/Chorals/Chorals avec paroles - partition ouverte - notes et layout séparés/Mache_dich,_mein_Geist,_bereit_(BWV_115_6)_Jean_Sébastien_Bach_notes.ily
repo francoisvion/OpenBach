@@ -55,7 +55,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Drum so lasst uns im -- mer -- dar
   wa -- chen, fle -- hen, be -- ten,
   denn di Zeit
@@ -65,13 +65,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   weil die Angst, Not und Ge -- fahr
   im -- mer nä -- her tre -- ten;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Drum so lasst uns im -- mer -- dar
   wa -- chen, fle -- hen, be -- _ ten,
   denn di Zeit
@@ -81,13 +81,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   weil die Angst, Not und Ge -- fahr
   im -- mer nä -- her tre -- _ ten;
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Drum so lasst uns im -- mer -- dar
   wa -- chen, fle -- hen, be -- _ ten,
   denn di Zeit
@@ -97,13 +97,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   weil die Angst, Not und Ge -- fahr
   im -- mer nä -- her tre -- _ ten;
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Drum so lasst uns im -- mer -- dar
   wa -- chen, fle -- hen, be -- _ ten,
   denn di Zeit
@@ -113,7 +113,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   weil die Angst, Not und Ge -- fahr
   im -- mer nä -- her tre -- _ ten;
 }

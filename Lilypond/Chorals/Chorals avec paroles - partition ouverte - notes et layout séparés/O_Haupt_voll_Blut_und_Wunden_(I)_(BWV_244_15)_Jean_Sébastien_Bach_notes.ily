@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Er -- ken -- ne mich, mein Hü -- ter,
   mein Hir -- te, nimm mich an!
   Dein Mund hat mich ge -- la -- bet
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von dir, Quell al -- ler Gü -- ter,
   ist mir viel Gut's ge -- tan.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Er -- ken -- ne mich, mein Hü -- _ ter,
   mein Hir -- te, nimm mich an!
   Dein Mund hat mich ge -- la -- _ bet
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von dir, Quell al -- ler Gü -- _ ter,
   ist mir viel Gut's ge -- tan.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Er -- ken -- ne mich, mein Hü -- _ ter,
   mein Hir -- te, nimm mich an!
   Dein Mund hat mich ge -- la -- _ bet
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von dir, Quell al -- ler Gü -- _ ter,
   ist mir viel Gut's ge -- tan.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Er -- ken -- ne mich, mein Hü -- _ ter,
   mein Hir -- te, nimm mich an!
   Dein Mund hat mich ge -- la -- bet
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von dir, Quell al -- ler Gü -- _ ter,
   ist mir viel Gut's ge -- tan.
 }

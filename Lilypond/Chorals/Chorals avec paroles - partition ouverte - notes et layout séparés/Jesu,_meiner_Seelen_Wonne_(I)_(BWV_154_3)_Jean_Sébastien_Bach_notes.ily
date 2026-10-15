@@ -63,7 +63,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mein Hort und Er -- ret -- ter,
   Je -- su, mei -- ne Zu -- ver -- sicht,
   Wie ver -- lan -- get mei -- nem Her -- zen,
@@ -73,13 +73,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Je -- su, star -- ker Schlan -- gen -- tre -- ter,
   Je -- su, mei -- nes Le -- bens Licht!
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mein Hort und Er -- ret -- ter,
   Je -- su, mei -- ne Zu -- ver -- sicht,
   Wie ver -- lan -- get mei -- nem Her -- zen,
@@ -89,13 +89,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Je -- su, star -- ker Schlan -- gen -- tre -- ter,
   Je -- su, mei -- nes Le -- bens Licht!
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mein Hort und Er -- ret -- ter,
   Je -- su, mei -- ne Zu -- ver -- sicht,
   Wie ver -- lan -- get mei -- nem Her -- zen,
@@ -105,13 +105,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Je -- su, star -- ker Schlan -- gen -- tre -- ter,
   Je -- su, mei -- nes Le -- bens Licht!
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mein Hort und Er -- ret -- ter,
   Je -- su, mei -- ne Zu -- ver -- sicht,
   Wie ver -- lan -- get mei -- nem Her -- zen,
@@ -121,7 +121,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Je -- su, star -- ker Schlan -- gen -- tre -- ter,
   Je -- su, mei -- nes Le -- bens Licht!
 }

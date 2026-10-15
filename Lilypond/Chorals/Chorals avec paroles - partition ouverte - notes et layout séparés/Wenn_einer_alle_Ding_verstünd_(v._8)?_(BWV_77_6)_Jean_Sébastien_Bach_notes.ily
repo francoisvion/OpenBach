@@ -71,7 +71,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-9 \markup{\concat{\small "Texte 1. " "Du"}} stellst, mein Je -- su, sel -- ber dich
   zum Vor -- bild wah -- rer Lie -- _ be:
   dass ich bei al -- lem, wo ich kann,
@@ -80,13 +80,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   gib mir auch Gnad und Kraft, dass ich
   Gott und den Näch -- sten lie -- _ be:
 }
 
 sopranoLyricsThree = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-9 \markup{\concat{\small "Texte 2. " "Herr,"}} durch den Glau -- ben wohn in mir,
   Lass ihn sich im -- mer stär -- _ ken,
   dass er sei tä -- tig durch die Lieb,
@@ -95,13 +95,13 @@ sopranoLyricsThree = \lyricmode {
 }
 
 sopranoLyricsFour = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass er sei frucht -- bar für und für
   und reich in gu -- ten Wer -- _ ken;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-9 \markup{\concat{\small "Texte 1. " "Du" _ }} stellst, __ _ mein Je -- su, sel -- ber dich
   zum Vor -- bild wah -- rer Lie -- _ be:
   dass ich bei al -- lem, wo ich kann, 
@@ -110,13 +110,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   gib mir __ _ auch Gnad und Kraft, dass ich
   Gott und den Näch -- sten lie -- _ be:
 }
 
 altoLyricsThree = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-9 \markup{\concat{\small "Texte 2. " "Herr,"}} durch __ _ den Glau -- ben wohn in mir,
   Lass ihn sich im -- mer stär -- _ ken,
   dass er sei tä -- tig durch die Lieb,
@@ -125,13 +125,13 @@ altoLyricsThree = \lyricmode {
 }
 
 altoLyricsFour = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass er __ _ sei frucht -- bar für und für
   und reich in gu -- ten Wer -- _ ken;
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-9  \markup{\concat{\small "Texte 1. " "Du" }} stellst, mein Je -- su, sel -- ber dich
   zum Vor -- bild wah -- rer Lie -- _ be:
   dass ich bei al -- lem, wo ich kann,
@@ -140,13 +140,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   gib mir auch Gnad und Kraft, dass ich
   Gott und den Näch -- sten lie -- _ be:
 }
 
 tenorLyricsThree = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-9 \markup{\concat{\small "Texte 2. " "Herr,"}} durch den Glau -- ben wohn in mir,
   Lass ihn sich im -- mer stär -- _ ken,
   dass er sei tä -- tig durch die Lieb,
@@ -155,13 +155,13 @@ tenorLyricsThree = \lyricmode {
 }
 
 tenorLyricsFour = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass er sei frucht -- bar für und für
   und reich in gu -- ten Wer -- _ ken;
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-9 \markup{\concat{\small "Texte 1. " "Du" }} stellst, mein Je -- su, sel -- ber dich
   zum Vor -- bild wah -- rer Lie -- be:
   dass ich bei al -- lem, wo ich kann,
@@ -170,13 +170,13 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   gib mir auch Gnad und Kraft, dass ich
   Gott und den Näch -- sten lie -- be:
 }
 
 bassLyricsThree = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-9 \markup{\concat{\small "Texte 2. " "Herr,"}} durch den Glau -- ben wohn in mir,
   Lass ihn sich im -- mer stär -- ken,
   dass er sei tä -- tig durch die Lieb,
@@ -185,7 +185,7 @@ bassLyricsThree = \lyricmode {
 }
 
 bassLyricsFour = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass er sei frucht -- bar für und für
   und reich in gu -- ten Wer -- ken;
 }

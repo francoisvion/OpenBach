@@ -80,7 +80,7 @@ bassMusic = {
   b,2.\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {\stanza "1."
    Was mein Gott will, das g'scheh' all -- zeit,
    sein Will' der ist __ _ _ der be -- ste;
    Er hilft aus Noth, __ _ _ der from -- me Gott,
@@ -89,7 +89,7 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
    den will er nicht __ _ _ ver -- las -- sen.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
+sopranoLyricsTwo = \lyricmode {\stanza "2."
    zu hel -- fen den'n er ist be -- reit, die an ihn glau -- _ _ ben fe -- ste.
 }
 
@@ -101,7 +101,7 @@ bassLyrics = \lyricmode {\repeat unfold 47 {\skip1}
    \tweak X-offset #-6.0 "(B.) ver" -- la -- _ _ _ ßen.
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {\stanza "1."
    Was mein Gott will, das g'scheh' all -- zeit,
    sein Will' der ist der be -- ste;
    Er hilft aus Noth, __ _ _ der from -- me Gott,
@@ -110,11 +110,11 @@ altoLyricsOne = \lyricmode {\set stanza = 1
    den will er nicht ver -- las -- _ _ _ _ sen.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {\stanza "2."
    zu hel -- fen den'n er ist be -- reit, die an ihn glau -- ben fe -- ste.
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {\stanza "1."
    Was mein Gott will, das g'scheh' all -- zeit,
    sein Will' der ist der be -- _ _ ste;
    Er hilft aus Noth, __ _ _ der from -- me Gott,
@@ -123,11 +123,11 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
    den will er nicht ver -- las -- _ _ _ _ _ sen.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {\stanza "2."
    zu hel -- fen den'n er ist be -- reit, die an ihn glau -- ben fe -- _ _ ste.
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {\stanza "1."
    Was mein Gott will, das g'scheh' all -- zeit,
    sein Will' der ist der be -- _ _ ste;
    Er hilft aus Noth, __ _ _ der from -- me Gott,
@@ -136,6 +136,6 @@ bassLyricsOne = \lyricmode {\set stanza = 1
    den will er nicht ver -- las -- _ _ _ sen.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {\stanza "2."
    zu hel -- fen den'n er ist be -- reit, die an ihn glau -- ben fe -- _ _ ste.
 }

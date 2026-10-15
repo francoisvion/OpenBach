@@ -123,7 +123,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4 "4. Gott" hat die Er -- de zu -- ge -- _ richt',
   lässts an __ _ Nah -- rung man -- geln nicht;
   Berg und Tal, die macht er nass,
@@ -134,7 +134,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-4 "6. Wir" dan -- ken sehr und bit -- ten __ _ ihn,
   dass er uns geb des Geis -- tes Sinn,
   dass wir sol -- ches recht ver -- stehn,
@@ -145,7 +145,7 @@ sopranoLyricsTwo = \lyricmode {
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4  "4. Gott" hat die Er -- _ de zu -- ge -- _ richt',
   lässts an Nah -- _ rung man -- geln __ _ nicht;
   Berg und Tal, __ _ die macht er nass,
@@ -156,7 +156,7 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-4 "6. Wir" dan -- ken sehr __ _ und bit -- ten __ _ ihn,
   dass er uns geb des Geis -- tes __ _ Sinn,
   dass wir sol -- _ ches recht ver -- stehn,
@@ -167,7 +167,7 @@ altoLyricsTwo = \lyricmode {
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4  "4. Gott" hat die Er -- _ de zu -- ge -- _ richt',
   lässts an __ _ Nah -- _ rung man -- geln nicht; __
   Berg und Tal, __ _ die macht er __ _ nass,
@@ -178,7 +178,7 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-4 "6. Wir" dan -- ken sehr __ _ und bit -- ten __ _ ihn,
   dass er uns geb __ _ des Geis -- tes Sinn,
   dass wir sol -- _ ches recht ver -- _ stehn,
@@ -189,7 +189,7 @@ tenorLyricsTwo = \lyricmode {
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4  "4. Gott" hat die Er -- _ de zu -- ge -- _ richt',
   lässts an __ _ Nah -- _ rung man -- geln __ _ nicht;
   Berg __ _ und Tal, __ _ die macht er __ _ nass,
@@ -200,7 +200,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-4 "6. Wir" dan -- ken sehr __ _ und bit -- ten __ _ ihn,
   dass er uns geb __ _ des Geis -- tes __ _ Sinn,
   dass __ _ wir sol -- _ ches recht ver -- _ stehn,

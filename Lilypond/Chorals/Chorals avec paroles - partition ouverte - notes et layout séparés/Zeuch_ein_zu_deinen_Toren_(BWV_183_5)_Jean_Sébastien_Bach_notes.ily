@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Du bist ein Geist, der leh -- _ ret,
   wie man recht be -- ten soll;
   es steigt zum Him -- mel an,
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dein Be -- ten wird er -- hö -- _ ret,
   dein Sin -- gen klin -- get wohl.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Du bist ein Geist, der leh -- _ ret,
   wie man recht be -- ten soll;
   es steigt zum Him -- mel an,
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dein Be -- ten wird er -- hö -- _ ret,
   dein Sin -- gen klin -- get wohl.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Du bist ein Geist, der leh -- _ ret,
   wie man recht be -- ten soll;
   es steigt zum Him -- mel an,
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dein Be -- ten wird er -- hö -- _ ret,
   dein Sin -- gen klin -- get wohl.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Du bist ein Geist, der leh -- ret,
   wie man recht be -- ten soll;
   es steigt zum Him -- mel an,
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dein Be -- ten wird er -- hö -- ret,
   dein Sin -- gen klin -- get wohl.
 }

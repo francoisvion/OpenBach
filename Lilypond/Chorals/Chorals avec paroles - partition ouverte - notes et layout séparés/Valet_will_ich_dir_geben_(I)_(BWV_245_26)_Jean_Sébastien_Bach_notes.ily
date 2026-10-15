@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   In mei -- nes Her -- zen Grun -- de
   dein Nam und Kreuz al -- lein
   Er -- schein mir in dem Bil -- _ de
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Fun -- kelt all Zeit und Stun -- de,
   drauf kann ich fröh -- lich sein.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   In mei -- nes Her -- zen Grun -- de
   dein Nam und Kreuz al -- lein
   Er -- schein mir in dem Bil -- _ de
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Fun -- kelt all Zeit und Stun -- de,
   drauf kann ich fröh -- lich sein.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   In mei -- nes Her -- zen Grun -- de
   dein Nam und Kreuz al -- lein
   Er -- schein mir in dem Bil -- _ de
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Fun -- kelt all Zeit und Stun -- de,
   drauf kann ich fröh -- lich sein.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   In mei -- nes Her -- zen Grun -- de
   dein Nam und Kreuz al -- lein
   Er -- schein mir in dem Bil -- de
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Fun -- kelt all Zeit und Stun -- de,
   drauf kann ich fröh -- lich sein.
 }

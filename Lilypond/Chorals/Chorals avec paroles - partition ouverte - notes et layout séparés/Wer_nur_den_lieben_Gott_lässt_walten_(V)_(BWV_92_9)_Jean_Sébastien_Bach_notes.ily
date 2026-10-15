@@ -75,7 +75,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Soll ich den auch des To -- des Weg
   und fin -- stre Stra -- _ _ ße rei -- sen,
   Du bist mein Hirt, der al -- les wird
@@ -85,13 +85,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wohl -- an! ich tret auf Bahn und Steg,
   den mir dein Au -- _ _ gen wei -- sen.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Soll ich den auch des To -- des Weg
   und fin -- stre Stra -- _ ße rei -- _ sen,
   Du bist mein Hirt, der al -- les wird
@@ -101,13 +101,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wohl -- an! ich tret auf Bahn und Steg,
   den mir dein Au -- _ gen wei -- _ sen.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Soll ich den auch des To -- des Weg
   und fin -- stre Stra -- _ _ ße rei -- sen,
   Du bist mein Hirt, der al -- les wird
@@ -117,13 +117,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wohl -- an! ich tret auf Bahn und Steg,
   den mir dein Au -- _ _ gen wei -- sen.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Soll ich den auch des To -- des Weg
   und fin -- stre Stra -- _ _ ße rei -- _ sen,
   Du bist mein Hirt, der al -- les wird
@@ -133,7 +133,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wohl -- an! ich tret auf Bahn und Steg,
   den mir dein Au -- _ _ gen wei -- _ sen.
 }

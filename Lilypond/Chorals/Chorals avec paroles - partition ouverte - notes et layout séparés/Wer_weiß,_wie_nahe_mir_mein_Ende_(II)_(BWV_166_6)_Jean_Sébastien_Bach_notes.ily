@@ -55,7 +55,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wer weiss wie na -- he mir mein En -- de!
   Hin geht die Zeit, her kommt der Tod.
   Mein Gott, ich bitt' durch Chri -- sti Blut:
@@ -63,13 +63,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Ach wie ge -- schwin -- de und be -- hän -- de
   kann kom -- men mei -- ne To -- des -- not.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wer weiss wie na -- he mir mein En -- de!
   hin geht die Zeit, her kommt der Tod.
   Mein Gott, ich bitt' durch Chri -- sti Blut:
@@ -77,13 +77,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Ach wie ge -- schwin -- de und be -- hän -- de
   kann kom -- men mei -- ne To -- des -- not.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wer weiss wie na -- he mir mein En -- de!
   Hin geht die Zeit, her kommt der Tod.
   Mein Gott, ich bitt' durch Chri -- sti Blut:
@@ -91,13 +91,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Ach wie ge -- schwin -- de und be -- hän -- de
   kann kom -- men mei -- ne To -- des -- not.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wer weiss wie na -- he mir mein En -- de!
   Hin geht die Zeit, her kommt der Tod.
   Mein Gott, ich bitt' durch Chri -- sti Blut:
@@ -105,7 +105,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Ach wie ge -- schwin -- de und be -- hän -- de
   kann kom -- men mei -- ne To -- des -- not.
 }

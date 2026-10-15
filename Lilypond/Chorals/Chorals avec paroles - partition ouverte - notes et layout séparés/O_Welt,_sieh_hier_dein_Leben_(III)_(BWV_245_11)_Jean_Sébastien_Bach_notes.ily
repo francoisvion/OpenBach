@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4 "3. Wer" hat dich so ge -- schla -- gen,
   mein Heil, und dich mit Pla -- gen
   so ü -- bel zu -- ge -- richt'?
@@ -77,7 +77,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-4 "4. Ich," ich und mei -- ne Sün -- den,
   die sich wie Körn -- lein fin -- den
   des San -- des an dem Meer,
@@ -87,7 +87,7 @@ sopranoLyricsTwo = \lyricmode {
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4 "3. Wer" hat dich so ge -- schla -- _ gen,
   mein Heil, und dich mit Pla -- gen
   so ü -- bel zu -- ge -- richt'?
@@ -97,7 +97,7 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-4 "4. Ich," ich und mei -- ne Sün -- _ den,
   die sich wie Körn -- lein fin -- den
   des San -- des an dem Meer,
@@ -107,7 +107,7 @@ altoLyricsTwo = \lyricmode {
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4 "3. Wer" hat dich so ge -- schla -- _ gen,
   mein Heil, und dich mit Pla -- _ gen
   so ü -- bel zu -- ge -- richt'?
@@ -117,7 +117,7 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-4 "4. Ich," ich und mei -- ne Sün -- _ den,
   die sich wie Körn -- lein fin -- _ den
   des San -- des an dem Meer,
@@ -127,7 +127,7 @@ tenorLyricsTwo = \lyricmode {
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4 "3. Wer" hat dich so ge -- schla -- gen,
   mein Heil, und dich mit Pla -- _ gen
   so ü -- bel zu -- ge -- richt'?
@@ -137,7 +137,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-4 "4. Ich," ich und mei -- ne Sün -- den,
   die sich wie Körn -- lein fin -- _ den
   des San -- des an dem Meer,

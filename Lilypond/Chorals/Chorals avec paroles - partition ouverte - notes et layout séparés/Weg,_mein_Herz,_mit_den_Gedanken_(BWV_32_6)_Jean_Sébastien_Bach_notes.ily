@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Mein Gott, öff -- ne mir die Pfor -- ten
   Sol -- cher Gnad und Gü -- tig -- keit,
   Lie -- be mich und treib mich an,
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Lass mich all -- zeit al -- le -- ror -- ten
   Schme -- cken dei -- ne Sü -- ßig -- keit!
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Mein Gott, öff -- ne mir die Pfor -- ten
   Sol -- cher Gnad und Gü -- tig -- keit,
   Lie -- be mich und treib mich an,
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Lass mich all -- zeit al -- le -- ror -- ten
   Schme -- cken dei -- ne Sü -- ßig -- keit!
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Mein Gott, öff -- ne mir die Pfor -- ten
   Sol -- cher Gnad und Gü -- tig -- keit,
   Lie -- be mich und treib mich an,
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Lass mich all -- zeit al -- le -- ror -- ten
   Schme -- cken dei -- ne Sü -- ßig -- keit!
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Mein Gott, öff -- ne mir die Pfor -- ten
   Sol -- cher Gnad und Gü -- tig -- keit,
   Lie -- be mich und treib mich an,
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Lass mich all -- zeit al -- le -- ror -- ten
   Schme -- cken dei -- ne Sü -- ßig -- keit!
 }

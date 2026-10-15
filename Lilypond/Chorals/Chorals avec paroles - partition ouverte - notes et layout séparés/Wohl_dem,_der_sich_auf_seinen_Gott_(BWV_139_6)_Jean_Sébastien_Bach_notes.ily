@@ -51,7 +51,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Da -- he -- ro Trotz der Höl -- len Heer!
   Trotz auch des To -- des Ra -- chen!
   Gott ist mein Schutz, mein Hilf und Rat;
@@ -59,13 +59,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Trotz al -- ler Welt! mich kann nicht mehr
   ihr Po -- chen trau -- rig ma -- chen!
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Da -- he -- ro Trotz der Höl -- len Heer!
   Trotz auch des To -- des Ra -- _ chen!
   Gott ist mein Schutz, mein Hilf und Rat;
@@ -73,13 +73,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Trotz al -- ler Welt! mich kann nicht mehr
   ihr Po -- chen trau -- rig ma -- _ chen!
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Da -- he -- ro Trotz der Höl -- len Heer!
   Trotz auch des To -- des Ra -- _ chen!
   Gott ist mein Schutz, mein Hilf und Rat;
@@ -87,13 +87,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Trotz al -- ler Welt! mich kann nicht mehr
   ihr Po -- chen trau -- rig ma -- _ chen!
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Da -- he -- ro Trotz der Höl -- len Heer!
   Trotz auch des To -- des Ra -- _ chen!
   Gott ist mein Schutz, mein Hilf und Rat;
@@ -101,7 +101,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Trotz al -- ler Welt! mich kann nicht mehr
   ihr Po -- chen trau -- rig ma -- _ chen!
 }

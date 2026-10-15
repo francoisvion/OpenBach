@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mei -- ne Freu -- de,
   mei -- nes Her -- zens Wei -- de,
   Je -- su, mei -- ne Zier!
@@ -77,14 +77,14 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ach wie lang, ach lan -- ge
   ist dem Her -- zen ban -- ge
   und ver -- langt nach dir!
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mei -- ne Freu -- _ de,
   mei -- nes Her -- zens Wei -- _ de,
   Je -- su, mei -- ne Zier!
@@ -94,14 +94,14 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ach wie lang, ach lan -- _ ge
   ist dem Her -- zen ban -- _ ge
   und ver -- langt nach dir!
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mei -- ne Freu -- _ de,
   mei -- nes Her -- zens Wei -- _ de,
   Je -- su, mei -- ne Zier!
@@ -111,14 +111,14 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ach wie lang, ach lan -- _ ge
   ist dem Her -- zen ban -- _ ge
   und ver -- langt nach dir!
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mei -- ne Freu -- _ de,
   mei -- nes Her -- zens Wei -- _ de,
   Je -- su, mei -- ne Zier!
@@ -128,7 +128,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ach wie lang, ach lan -- _ ge
   ist dem Her -- zen ban -- _ ge
   und ver -- langt nach dir!

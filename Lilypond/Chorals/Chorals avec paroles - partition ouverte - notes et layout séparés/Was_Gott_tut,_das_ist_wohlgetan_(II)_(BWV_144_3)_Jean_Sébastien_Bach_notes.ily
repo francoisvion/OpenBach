@@ -59,7 +59,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was Gott thut, das ist wohl -- ge -- tan,
   es bleibt ge -- recht sein Wil -- le
   Er ist mein Gott,
@@ -69,13 +69,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wie er fängt mei -- ne Sa -- chen an,
   will ich ihm hal -- ten stil -- le.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was Gott thut, das ist wohl -- ge -- tan,
   es bleibt ge -- recht sein Wil -- _ le
   Er ist mein Gott,
@@ -85,13 +85,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wie er fängt mei -- ne Sa -- chen an,
   will ich ihm hal -- ten stil -- _ le.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was Gott thut, das ist wohl -- ge -- tan,
   es bleibt ge -- recht sein Wil -- _ le
   Er ist mein Gott,
@@ -101,13 +101,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wie er fängt mei -- ne Sa -- chen an,
   will ich ihm hal -- ten stil -- _ le.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was Gott thut, das ist wohl -- ge -- tan,
   es bleibt ge -- recht sein Wil -- _ le
   Er ist mein Gott,
@@ -117,7 +117,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wie er fängt mei -- ne Sa -- chen an,
   will ich ihm hal -- ten stil -- _ le.
 }

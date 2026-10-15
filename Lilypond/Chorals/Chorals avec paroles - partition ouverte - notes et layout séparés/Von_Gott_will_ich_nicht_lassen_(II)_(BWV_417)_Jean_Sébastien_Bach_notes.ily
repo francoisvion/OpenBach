@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Von Gott will ich nicht las -- _ sen,
   denn er lässt nicht von mir,
   Er reicht mir sei -- ne Hand,
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   führt mich auf rech -- ter Stra -- _ ßen,
   da ich sonst ir -- ret' sehr.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Von Gott will ich nicht las -- _ sen,
   denn er lässt nicht von mir,
   Er reicht mir sei -- ne Hand,
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   führt mich auf rech -- ter Stra -- _ ßen,
   da ich sonst ir -- ret' sehr.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Von Gott will ich nicht las -- _ sen,
   denn er lässt nicht von mir,
   Er reicht mir sei -- ne Hand,
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   führt mich auf rech -- ter Stra -- _ ßen,
   da ich sonst ir -- ret' sehr.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Von Gott will ich nicht las -- _ sen,
   denn er lässt nicht von mir,
   Er reicht mir sei -- ne Hand,
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   führt mich auf rech -- ter Stra -- _ ßen,
   da ich sonst ir -- ret' sehr.
 }

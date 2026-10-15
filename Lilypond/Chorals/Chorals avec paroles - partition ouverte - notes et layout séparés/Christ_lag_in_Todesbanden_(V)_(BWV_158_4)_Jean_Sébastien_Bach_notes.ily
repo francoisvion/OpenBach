@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Hier ist das rech -- te O -- ster -- lamm,
   da -- von Gott hat ge -- bo -- ten,
   des Blut zeich -- net uns -- re Tür,
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   das ist hoch an des Kreu zes Stamm
   in hei -- ßer Lieb ge -- bra -- ten,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Hier ist das rech -- te O -- ster -- lamm,
   da -- von Gott hat ge -- bo -- _ ten,
   des Blut zeich -- net uns -- re Tür,
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   das ist hoch an des Kreu zes Stamm
   in hei -- ßer Lieb ge -- bra -- _ ten,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Hier ist das rech -- te O -- ster -- lamm,
   da -- von Gott hat ge -- bo -- _ ten,
   des Blut zeich -- net uns -- re Tür,
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   das ist hoch an des Kreu zes Stamm
   in hei -- ßer Lieb ge -- bra -- _ ten,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Hier ist das rech -- te O -- ster -- lamm,
   da -- von Gott hat ge -- bo -- _ ten,
   des Blut zeich -- net uns -- re Tür,
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   das ist hoch an des Kreu zes Stamm
   in hei -- ßer Lieb ge -- bra -- _ ten,
 }

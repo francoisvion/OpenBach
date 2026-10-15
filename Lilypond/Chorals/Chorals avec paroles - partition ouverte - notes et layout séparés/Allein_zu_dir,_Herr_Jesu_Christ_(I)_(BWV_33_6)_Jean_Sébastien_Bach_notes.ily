@@ -83,7 +83,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ehr sei Gott in dem höch -- _ sten Thron,
   dem Va -- ter al -- _ _ _ _ ler Gü -- _ te,
   und Gott dem hei -- li -- gen Gei -- ste,
@@ -94,13 +94,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   und Je -- su Christ, seinm lieb -- _ sten Sohn,
   der uns all -- zeit __ _ _ _ _ be -- hü -- _ te,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ehr sei Gott in dem höch -- _ sten Thron,
   dem Va -- ter al -- _ _ ler Gü -- _ te,
   und Gott dem hei -- li -- gen Gei -- ste,
@@ -111,13 +111,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   und Je -- su Christ, seinm lieb -- _ sten Sohn,
   der uns all -- zeit __ _ _ be -- hü -- _ te,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ehr sei Gott in dem höch -- _ _ sten Thron,
   dem Va -- ter al -- _ _ _ _ ler Gü -- _ te,
   und Gott dem hei -- li -- gen Gei -- ste,
@@ -128,13 +128,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   und Je -- su Christ, seinm lieb -- _ _ sten Sohn,
   der uns all -- zeit __ _ _ _ _ be -- hü -- _ te,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ehr sei Gott in dem höch -- _ _ sten Thron,
   dem Va -- ter al -- _ _ _ _ ler Gü -- _ te,
   und Gott dem hei -- li -- gen Gei -- ste,
@@ -145,7 +145,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   und Je -- su Christ, seinm lieb -- _ _ sten Sohn,
   der uns all -- zeit __ _ _ _ _ be -- hü -- _ te,
 }

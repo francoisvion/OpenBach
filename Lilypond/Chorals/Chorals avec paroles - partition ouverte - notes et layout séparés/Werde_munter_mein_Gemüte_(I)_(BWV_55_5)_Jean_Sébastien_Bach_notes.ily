@@ -63,7 +63,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Bin ich gleich von dir ge -- wi -- chen,
   stell ich mich doch wie -- der ein;
   Ich ver -- leu -- gne nicht die Schuld;
@@ -73,13 +73,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   hat uns doch dein Sohn ver -- gli -- chen
   durch sein Angst und To -- des -- pein.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Bin ich gleich von dir ge -- wi -- chen,
   stell ich mich doch wie -- der ein;
   Ich ver -- leu -- gne nicht die Schuld;
@@ -89,13 +89,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   hat uns doch dein Sohn ver -- gli -- chen
   durch sein Angst und To -- des -- pein.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Bin ich gleich von dir ge -- wi -- chen,
   stell ich mich doch wie -- der ein;
   Ich ver -- leu -- gne nicht die Schuld;
@@ -105,13 +105,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   hat uns doch dein Sohn ver -- gli -- chen
   durch sein Angst und To -- des -- pein.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Bin ich gleich von dir ge -- wi -- chen,
   stell ich mich doch wie -- der ein;
   Ich ver -- leu -- gne nicht die Schuld;
@@ -121,7 +121,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   hat uns doch dein Sohn ver -- gli -- chen
   durch sein Angst und To -- des -- pein.
 }

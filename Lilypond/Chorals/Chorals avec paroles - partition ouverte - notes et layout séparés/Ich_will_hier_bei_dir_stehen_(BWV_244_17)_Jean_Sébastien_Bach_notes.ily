@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich will hier bei dir ste -- hen;
   ver -- ach -- te mich doch nicht,
   Wenn dein Herz wird er -- blas -- sen
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von dir will ich nicht ge -- hen,
   wenn dir dein Her -- ze bricht,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich will hier bei dir ste -- _ hen;
   ver -- ach -- te mich doch nicht,
   Wenn dein Herz wird er -- blas -- _ sen
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von dir will ich nicht ge -- _ hen,
   wenn dir dein Her -- ze bricht,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich will hier bei dir ste -- _ hen;
   ver -- ach -- te mich doch nicht,
   Wenn dein Herz wird er -- blas -- _ sen
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von dir will ich nicht ge -- _ hen,
   wenn dir dein Her -- ze bricht,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich will hier bei dir ste -- _ hen;
   ver -- ach -- te mich doch nicht,
   Wenn dein Herz wird er -- blas -- sen
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von dir will ich nicht ge -- _ hen,
   wenn dir dein Her -- ze bricht,
 }

@@ -39,6 +39,8 @@ def jetons(corps):
     k, saute = 0, 0
     while k < len(brut):
         t = brut[k].group(0)
+        if t == "\\stanza":
+            saute = 2
         if t.startswith("\\set") or t.startswith("\\tweak"):
             saute = 4 if t.startswith("\\set") else 3  # \set N = V / \tweak P V
         if saute:

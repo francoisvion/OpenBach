@@ -59,7 +59,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich bin ja, Herr, in dei -- ner Macht,
   du hast mich an das Licht __ ge -- bracht,
   und du er -- hältst mir auch das Le -- ben,
@@ -68,14 +68,14 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   du ken -- nest mei -- ner Mon -- den Zahl,
   weißt wann ich die -- sem Jam -- mer -- thal
   auch wie -- der gu -- te Nacht soll ge -- ben.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich bin ja, Herr, in dei -- ner Macht,
   du hast mich an das Licht ge -- bracht,
   und du er -- hältst mir auch das Le -- _ ben,
@@ -84,14 +84,14 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   du ken -- nest mei -- ner Mon -- den Zahl,
   weißt wann ich die -- sem Jam -- mer -- thal
   auch wie -- der gu -- te Nacht soll ge -- _ ben.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich bin ja, Herr, in dei -- ner Macht,
   du hast mich an das Licht ge -- bracht,
   und du er -- hältst mir auch das Le -- _ ben,
@@ -100,14 +100,14 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   du ken -- nest mei -- ner Mon -- den Zahl,
   weißt wann ich die -- sem Jam -- mer -- thal
   auch wie -- der gu -- te Nacht soll ge -- _ ben.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich bin ja, Herr, in dei -- ner Macht,
   du hast mich an das Licht ge -- bracht,
   und du er -- hältst mir auch das Le -- _ ben,
@@ -116,7 +116,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   du ken -- nest mei -- ner Mon -- den Zahl,
   weißt wann ich die -- sem Jam -- mer -- thal
   auch wie -- der gu -- te Nacht soll ge -- _ ben.

@@ -91,7 +91,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   O Mensch, be -- wein' dein' Sün -- de groß,
   da -- rum Chris -- tus sein's Va -- ters Schoß
   äu -- ßert und kam auf Er -- den,
@@ -104,14 +104,14 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von ei -- ner Jung -- frau zart und rein
   für uns er hier ge -- bo -- ren ward,
   er wollt der Mitt -- ler wer -- den. 
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   O Mensch, be -- wein' dein' Sün -- de groß,
   da -- rum Chris -- tus sein's Va -- ters Schoß
   äu -- ßert und kam auf Er -- _ den,
@@ -124,14 +124,14 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von ei -- ner Jung -- frau zart und rein
   für uns er hier ge -- bo -- ren ward,
   er wollt der Mitt -- ler wer -- _ den.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   O Mensch, be -- wein' dein' Sün -- de groß,
   da -- rum Chris -- tus sein's Va -- ters Schoß
   äu -- ßert und __ _ kam auf Er -- _ den,
@@ -144,14 +144,14 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von ei -- ner Jung -- frau zart und rein
   für uns er hier ge -- bo -- ren ward,
   er wollt der _ Mitt -- ler wer -- _ den.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   O Mensch, be -- wein' dein' Sün -- de groß,
   da -- rum Chris -- tus sein's Va -- ters Schoß
   äu -- ßert und kam auf Er -- _ den,
@@ -164,7 +164,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Von ei -- ner Jung -- frau zart und rein
   für uns er hier ge -- bo -- ren ward,
   er wollt der Mitt -- ler wer -- _ den.

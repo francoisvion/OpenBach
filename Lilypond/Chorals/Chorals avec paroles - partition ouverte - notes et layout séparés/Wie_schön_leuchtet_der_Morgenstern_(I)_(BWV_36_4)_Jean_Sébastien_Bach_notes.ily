@@ -75,7 +75,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Zwingt die Sai -- ten in Cy -- tha -- ra
   und lasst die sü -- ße Mu -- si -- ca
   ganz freu -- den -- reich er -- schal -- len,
@@ -86,14 +86,14 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass ich mö -- ge mit Je -- su -- lein,
   dem wun -- der -- schö -- nen Bräut -- gam mein,
   in ste -- ter Lie -- be wal -- len!
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Zwingt die Sai -- ten in Cy -- tha -- ra
   und lasst die sü -- ße Mu -- si -- ca
   ganz freu -- den -- reich er -- schal -- _ len,
@@ -104,14 +104,14 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass ich mö -- ge mit Je -- su -- lein,
   dem wun -- der -- schö -- nen Bräut -- gam mein,
   in ste -- ter Lie -- be wal -- _ len!
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Zwingt die Sai -- ten in Cy -- tha -- ra
   und lasst die sü -- ße Mu -- si -- ca
   ganz freu -- den -- reich er -- schal -- _ len,
@@ -122,14 +122,14 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass ich mö -- ge mit Je -- su -- lein,
   dem wun -- der -- schö -- nen Bräut -- gam mein,
   in ste -- ter Lie -- be wal -- _ len!
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Zwingt die Sai -- ten in Cy -- tha -- ra
   und lasst die sü -- ße Mu -- si -- ca
   ganz freu -- den -- reich er -- schal -- len,
@@ -140,7 +140,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass ich mö -- ge mit Je -- su -- lein,
   dem wun -- der -- schö -- nen Bräut -- gam mein,
   in ste -- ter Lie -- be wal -- len!

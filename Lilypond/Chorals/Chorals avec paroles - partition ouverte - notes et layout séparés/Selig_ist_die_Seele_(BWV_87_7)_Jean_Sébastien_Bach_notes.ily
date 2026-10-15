@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Muss ich sein be -- trü -- bet?
   So mich Je -- sus lie -- bet
   ist mir al -- ler Schmerz
@@ -78,14 +78,14 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ü -- ber Ho -- nig sü -- ße,
   tau -- send Zu -- cker -- küs -- se
   drü -- cket er ans Herz.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Muss ich sein be -- trü -- _ bet?
   So mich Je -- sus lie -- _ bet
   ist mir al -- ler Schmerz
@@ -95,14 +95,14 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ü -- ber Ho -- nig sü -- _ ße,
   tau -- send Zu -- cker -- küs -- _ se
   drü -- cket er ans Herz.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Muss ich sein be -- trü -- _ bet?
   So mich Je -- sus lie -- _ bet
   ist mir al -- ler Schmerz
@@ -112,14 +112,14 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ü -- ber Ho -- nig sü -- _ ße,
   tau -- send Zu -- cker -- küs -- _ se
   drü -- cket er ans Herz.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Muss ich sein be -- trü -- _ bet?
   So mich Je -- sus lie -- _ bet
   ist mir al -- ler Schmerz
@@ -129,7 +129,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ü -- ber Ho -- nig sü -- _ ße,
   tau -- send Zu -- cker -- küs -- _ se
   drü -- cket er ans Herz.

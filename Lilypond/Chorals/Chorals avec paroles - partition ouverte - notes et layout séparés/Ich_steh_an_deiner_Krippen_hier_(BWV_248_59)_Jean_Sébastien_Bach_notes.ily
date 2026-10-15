@@ -59,7 +59,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich steh an dei -- ner Krip -- pen hier,
   o Je -- su -- lein, mein Le -- _ ben;
   Nimm hin! Es ist mein Geist und Sinn,
@@ -68,13 +68,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ich kom -- me, bring und schen -- ke dir,
   was du mir hast ge -- ge -- _ ben.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich steh an dei -- ner Krip -- pen hier,
   o Je -- su __ -- _ lein, mein Le -- ben;
   Nimm hin! Es ist mein Geist und Sinn,
@@ -83,13 +83,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ich kom -- me, bring und schen -- ke dir,
   was du mir _ hast ge -- ge -- ben.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich steh an dei -- ner Krip -- pen hier,
   o Je -- su -- lein, mein Le -- _ ben;
   Nimm hin! Es ist mein Geist und Sinn,
@@ -98,13 +98,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ich kom -- me, bring und schen -- ke dir,
   was du mir hast ge -- ge -- _ ben.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich steh an dei -- ner Krip -- pen hier,
   o Je -- su -- lein, mein Le -- _ ben;
   Nimm hin! Es ist mein Geist und Sinn,
@@ -113,7 +113,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ich kom -- me, bring und schen -- ke dir,
   was du mir hast ge -- ge -- _ ben.
 }

@@ -84,7 +84,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4.5 "7. Was" frag' ich nach der Welt!
   Im Hui muss sie ver -- schwin -- _ den;
   ihr An -- sehn kann durch -- aus
@@ -96,7 +96,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-4.5 "8. Was" frag' ich nach der Welt!
   mein Je -- sus ist mein Le -- _ ben,
   mein Schatz, mein Ei -- gen -- tum,
@@ -108,7 +108,7 @@ sopranoLyricsTwo = \lyricmode {
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4.5 "7. Was" frag' ich nach der Welt!
   Im Hui muss sie ver -- schwin -- _ _ den;
   ihr An -- sehn kann durch -- aus
@@ -120,7 +120,7 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-4.5 "8. Was" frag' ich nach der Welt!
   mein Je -- sus ist mein Le -- _ _ ben,
   mein Schatz, mein Ei -- gen -- tum,
@@ -132,7 +132,7 @@ altoLyricsTwo = \lyricmode {
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4.5 "7. Was" frag' ich nach der Welt!
   Im Hui muss sie ver -- schwin -- den;
   ihr An -- sehn kann durch -- aus
@@ -144,7 +144,7 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-4.5 "8. Was" frag' ich nach der Welt!
   mein Je -- sus ist mein Le -- ben,
   mein Schatz, mein Ei -- gen -- tum,
@@ -156,7 +156,7 @@ tenorLyricsTwo = \lyricmode {
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4.5 "7. Was" frag' ich nach der Welt!
   Im Hui muss sie ver -- schwin -- _ den;
   ihr An -- sehn kann durch -- aus
@@ -168,7 +168,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-4.5 "8. Was" frag' ich nach der Welt!
   mein Je -- sus ist mein Le -- _ ben,
   mein Schatz, mein Ei -- gen -- tum,

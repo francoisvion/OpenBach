@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-5.0 "1. Heil" -- ger Geist ins Him -- mels Thro -- ne,
   glei -- cher Gott von E -- wig -- keit
   Al -- len Glau -- ben, den ich find,
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   mit dem Va -- ter und dem Soh -- ne,
   der Be -- trüb -- ten Trost und Freud!
 }
 
 sopranoLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-4.5 "2. Dei" -- ne Hil -- fe zu mir sen -- de,
   i du e -- dler Her -- zens -- gast!
   Blas in mir das Fünk -- lein auf,
@@ -93,25 +93,25 @@ sopranoLyricsThree = \lyricmode {
 }
 
 sopranoLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   Und das gu -- te Werk vol -- len -- de,
   das du an -- ge -- fan -- gen hast.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-5.0 "1. Heil" -- ger Geist ins Him -- mels Thro -- ne,
   glei -- cher Gott von E -- wig -- keit Al -- len Glau -- ben, den ich find, hast du in mir an -- ge -- zündt, ü -- ber mir in Gna -- den wal -- _ te, fer -- ner dei -- ne Gnad er -- hal -- te.
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   mit dem Va -- ter und dem Soh -- ne,
   der Be -- trüb -- ten Trost und Freud!
 }
 
 altoLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-4.5 "2. Dei" -- ne Hil -- fe zu mir sen -- de,
   o du e -- dler Her -- zens -- gast!
   Blas in mir das Fünk -- lein auf,
@@ -121,25 +121,25 @@ altoLyricsThree = \lyricmode {
 }
 
 altoLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   Und das gu -- te Werk vol -- len -- de,
   das du an -- ge -- fan -- gen hast.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-5.0 "1. Heil" -- ger Geist ins Him -- mels Thro -- ne,
   glei -- cher Gott von E -- wig -- keit Al -- len Glau -- ben, den ich find, hast du in mir an -- ge -- zündt, ü -- ber mir in Gna -- den wal -- _ te, fer -- ner dei -- ne Gnad er -- hal -- _ te.
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   mit dem Va -- ter und dem Soh -- ne,
   der Be -- trüb -- ten Trost und Freud!
 }
 
 tenorLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-4.5 "2. Dei" -- ne Hil -- fe zu mir sen -- de,
   o du e -- dler Her -- zens -- gast!
   Blas in mir das Fünk -- lein auf,
@@ -149,25 +149,25 @@ tenorLyricsThree = \lyricmode {
 }
 
 tenorLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   Und das gu -- te Werk vol -- len -- de,
   das du an -- ge -- fan -- gen hast.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-5.0 "1. Heil" -- ger Geist ins Him -- mels Thro -- ne,
   glei -- cher Gott von E -- wig -- keit Al -- len Glau -- ben, den ich find, hast du in mir an -- ge -- zündt, ü -- ber mir in Gna -- den wal -- te, fer -- ner dei -- ne Gnad er -- hal -- _ te.
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   mit dem Va -- ter und dem Soh -- ne,
   der Be -- trüb -- ten Trost und Freud!
 }
 
 bassLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-4.5 "2. Dei" -- ne Hil -- fe zu mir sen -- de,
   o du e -- dler Her -- zens -- gast!
   Blas in mir das Fünk -- lein auf,
@@ -177,7 +177,7 @@ bassLyricsThree = \lyricmode {
 }
 
 bassLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   Und das gu -- te Werk vol -- len -- de,
   das du an -- ge -- fan -- gen hast.
 }

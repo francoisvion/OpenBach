@@ -91,7 +91,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Freu dich sehr, o mei -- ne See -- le,
   und ver -- giss all Not und Qual,
   Sei -- ne Freud und Herr -- lich -- keit
@@ -101,13 +101,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   weil dich nun Chris -- tus, dein Her -- re,
   ruft aus die -- sem Jam -- mer -- tal!
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Freu dich sehr, o mei -- ne See -- le,
   und ver -- giss all Not und Qual,
   Sei -- ne Freud __ _ und Herr -- lich -- keit
@@ -117,13 +117,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   weil dich nun Chris -- tus, dein Her -- re,
   ruft aus die -- sem Jam -- mer -- tal!
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Freu dich sehr, o mei -- ne See -- le,
   und ver -- giss all Not __ _ und Qual,
   Sei -- ne Freud und Herr -- _ lich -- keit
@@ -133,13 +133,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   weil dich nun Chris -- tus, dein Her -- re,
   ruft aus die -- sem Jam -- _ mer -- tal!
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Freu __ _ dich sehr, o mei -- ne See -- le,
   und ver -- giss __ _ all Not __ _ und Qual,
   Sei -- _ ne Freud __ _ und Herr -- _ lich -- keit
@@ -149,7 +149,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   weil __ _ dich nun Chris -- tus, dein Her -- re,
   ruft aus die -- _ sem Jam -- _ mer -- tal!
 }

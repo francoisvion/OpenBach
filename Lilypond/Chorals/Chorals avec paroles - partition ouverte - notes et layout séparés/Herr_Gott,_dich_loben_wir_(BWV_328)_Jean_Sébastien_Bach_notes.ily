@@ -261,7 +261,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Gott, dich lo -- ben wir
   Herr Gott, wir dan -- ken dir.
   Dich, Gott Va -- ter in E -- wig -- keit,
@@ -289,7 +289,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \repeat unfold 12 { \skip1 }
   All' En -- gel und all' Him -- mels -- heer,
   Und was da die -- net dei -- ner Ehr',
@@ -304,7 +304,7 @@ sopranoLyricsTwo = \lyricmode {
 }
 
 sopranoLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \repeat unfold 12 { \skip1 }
   Auch Che -- ru -- bim und Se -- ra -- phim
   sin -- gen im -- mer mit ho -- her Stimm':
@@ -319,7 +319,7 @@ sopranoLyricsThree = \lyricmode {
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Gott, dich lo -- ben wir
   Herr Gott, wir dan -- ken dir.
   Dich, Gott Va -- ter in E -- wig __ _ -- keit,
@@ -347,7 +347,7 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \repeat unfold 12 { \skip1 }
   All' En gel und all' Him -- _ mels -- heer,
   Und was __ _ da die -- net dei -- _ ner Ehr',
@@ -362,7 +362,7 @@ altoLyricsTwo = \lyricmode {
 }
 
 altoLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \repeat unfold 12 { \skip1 }
   Auch Che -- ru -- bim und Se -- _ ra -- phim
   sin -- gen __ _ im -- mer mit ho -- _ her Stimm':
@@ -377,7 +377,7 @@ altoLyricsThree = \lyricmode {
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Gott, dich lo -- ben wir
   Herr Gott, wir dan -- ken __ _ dir.
   Dich, Gott Va -- ter in E -- wig -- keit,
@@ -405,7 +405,7 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \repeat unfold 13 { \skip1 }
   All' En -- gel und all' Him -- mels -- heer,
   Und was da die -- net dei -- ner Ehr',
@@ -420,7 +420,7 @@ tenorLyricsTwo = \lyricmode {
 }
 
 tenorLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \repeat unfold 13 { \skip1 }
   Auch Che -- ru -- bim und Se -- ra -- phim
   sin -- gen im -- mer mit ho -- her Stimm':
@@ -435,7 +435,7 @@ tenorLyricsThree = \lyricmode {
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Gott, dich lo -- ben wir
   Herr Gott, wir dan -- ken dir. Dich,
   Gott Va -- ter in E -- wig -- keit,
@@ -463,7 +463,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \repeat unfold 12 { \skip1 }
   All' En gel und all' Him -- mels -- heer,
   Und was da die -- net dei -- ner Ehr',
@@ -478,7 +478,7 @@ bassLyricsTwo = \lyricmode {
 }
 
 bassLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \repeat unfold 12 { \skip1 }
   Auch Che -- ru -- bim und Se -- ra -- phim
   sin -- gen im -- mer mit ho -- her Stimm':

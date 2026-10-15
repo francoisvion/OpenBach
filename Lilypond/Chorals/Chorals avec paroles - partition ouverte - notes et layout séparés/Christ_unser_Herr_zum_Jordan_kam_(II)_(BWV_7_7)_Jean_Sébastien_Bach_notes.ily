@@ -75,7 +75,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Das Aug al -- lein das Was -- ser sieht,
   wie Men -- schen Was -- ser gie -- _ ßen,
   Und ist für ihm ein ro -- te Flut
@@ -86,13 +86,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Der Glaub al -- lein die Kraft ver -- steht
   des Blu -- tes Je -- su Chris -- _ ti,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Das Aug al -- lein das Was -- ser sieht,
   wie Men -- schen Was -- ser gie -- _ ßen,
   Und ist für ihm ein ro -- te Flut
@@ -103,13 +103,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Der Glaub al -- lein die Kraft ver -- steht
   des Blu -- tes Je -- su Chris -- _ ti,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Das Aug al -- lein das Was -- ser sieht,
   wie Men -- schen Was -- ser gie -- _ ßen,
   Und ist für ihm ein ro -- te Flut
@@ -120,13 +120,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Der Glaub al -- lein die Kraft ver -- steht
   des Blu -- tes Je -- su Chris -- _ ti,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Das Aug al -- lein das Was -- ser sieht,
   wie Men -- schen Was -- ser gie -- _ ßen,
   Und ist für ihm ein ro -- te Flut
@@ -137,7 +137,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Der Glaub al -- lein die Kraft ver -- steht
   des Blu -- tes Je -- su Chris -- _ ti,
 }

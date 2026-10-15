@@ -59,7 +59,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Gu -- tes und die Barm -- her -- zig -- keit
   fol -- gen mir nach im Le -- _ ben,
   auf Erd in christ -- li -- cher Ge -- mein
@@ -68,13 +68,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   und ich werd blei -- ben al -- le -- zeit
   im Haus des Her -- ren e -- _ ben,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Gu -- tes und die Barm -- her -- zig -- keit
   fol -- gen mir nach im Le -- _ ben,
   auf Erd in christ -- li -- cher Ge -- mein
@@ -83,13 +83,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   und ich werd blei -- ben al -- le -- zeit
   im Haus des Her -- ren e -- _ ben,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Gu -- tes und die Barm -- her -- zig -- keit
   fol -- gen mir nach im Le -- _ ben,
   auf Erd in christ -- li -- cher Ge -- mein
@@ -98,13 +98,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   und ich werd blei -- ben al -- le -- zeit
   im Haus des Her -- ren e -- _ ben,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Gu -- tes und die Barm -- her -- zig -- keit
   fol -- gen mir nach im Le -- _ ben,
   auf Erd in christ -- li -- cher Ge -- mein
@@ -113,7 +113,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   und ich werd blei -- ben al -- le -- zeit
   im Haus des Her -- ren e -- _ ben,
 }

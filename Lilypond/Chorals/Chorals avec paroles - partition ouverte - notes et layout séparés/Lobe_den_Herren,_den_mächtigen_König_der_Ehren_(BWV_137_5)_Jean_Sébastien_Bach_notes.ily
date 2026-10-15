@@ -55,7 +55,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lo -- be den Her -- ren, was in mir ist, lo -- be den Na -- men!
   Er ist dein Licht,
   See -- le, ver -- giss es ja nicht;
@@ -63,12 +63,12 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Al -- les, was O -- dem hat, lo -- be mit A -- bra -- hams Sa -- men!
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lo -- be den Her -- ren, was in mir ist, lo -- be den Na -- _ men!
   Er ist dein Licht,
   See -- le, ver -- giss es ja nicht;
@@ -76,12 +76,12 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Al -- les, was O -- dem hat, lo -- be mit A -- bra -- hams Sa -- _ men!
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lo -- be den Her -- ren, was in mir ist, lo -- be den Na -- _ men!
   Er ist dein Licht,
   See -- le, ver -- giss es ja nicht;
@@ -89,12 +89,12 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Al -- les, was O -- dem hat, lo -- be mit A -- bra -- hams Sa -- _ men!
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lo -- be den Her -- ren, was in mir ist, lo -- be den Na -- _ men!
   Er ist dein Licht,
   See -- le, ver -- giss es ja nicht;
@@ -102,6 +102,6 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Al -- les, was O -- dem hat, lo -- be mit A -- bra -- hams Sa -- _ men!
 }

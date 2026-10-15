@@ -55,7 +55,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich leb' in -- des in Gott ver -- gnü -- get
   und sterb' ohn al -- le Küm -- mer -- nis;
   durch dei -- ne Gnad' und Chris -- ti Blut
@@ -63,13 +63,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   mir g'nü -- get, wie es mein Gott fü -- get,
   ich glaub' und bin es ganz ge -- wiss:
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich leb' in -- des in Gott ver -- gnü -- get
   und sterb' ohn al -- le Küm -- mer -- nis;
   durch dei -- ne Gnad' und Chris -- ti Blut
@@ -77,13 +77,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   mir g'nü -- get, wie es mein Gott fü -- get,
   ich glaub' und bin es ganz ge -- wiss:
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich leb' in -- des in Gott ver -- gnü -- get
   und sterb' ohn al -- le Küm -- mer -- nis;
   durch dei -- ne Gnad' und Chris -- ti Blut
@@ -91,13 +91,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   mir g'nü -- get, wie es mein Gott fü -- get,
   ich glaub' und bin es ganz ge -- wiss:
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich leb' in -- des in Gott ver -- gnü -- get
   und sterb' ohn al -- le Küm -- mer -- nis;
   durch dei -- ne Gnad' und Chris -- ti Blut:
@@ -105,7 +105,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   mir g'nü -- get, wie es mein Gott fü -- get,
   ich glaub' und bin es ganz ge -- wiss:
 }

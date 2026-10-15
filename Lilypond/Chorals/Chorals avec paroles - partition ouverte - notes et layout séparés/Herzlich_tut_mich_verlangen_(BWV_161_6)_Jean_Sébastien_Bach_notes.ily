@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Der Leib zwar in der Er -- den
   von Wür -- mern wird ver -- zehrt,
   wird leuch -- ten als die Son -- ne
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   doch auf -- er -- weckt soll wer -- den,
   durch Chri -- stum schön ver -- klärt,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Der Leib zwar in der Er -- den
   von Wür -- mern wird ver -- zehrt, __ _ _
   wird leuch -- ten als die Son -- _ ne
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   doch auf -- er -- weckt soll wer -- den,
   durch Chri -- stum schön ver -- klärt, __ _ _
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Der Leib zwar in der Er -- _ den
   von Wür -- mern wird ver -- zehrt, __ _ _
   wird leuch -- ten als die Son -- _ ne
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   doch auf -- er -- weckt soll wer -- _ den,
   durch Chri -- stum schön ver -- klärt, __ _ _
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Der Leib zwar in der Er -- den
   von Wür -- mern wird ver -- zehrt,
   wird leuch -- ten als die Son -- ne
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   doch auf -- er -- weckt soll wer -- den,
   durch Chri -- stum schön ver -- klärt,
 }

@@ -123,7 +123,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Mit -- ten wir im Le -- ben sind __ _
   mit dem Tod um -- fan -- _ gen;
   Das bist du, Herr, al -- lei -- _ ne.
@@ -139,13 +139,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Wen such'n wir, der Hül -- fe thu',  __ _
   dass wir Gnad' er -- lan -- _ gen?
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Mit -- ten wir im Le -- ben sind __ _ _
   mit dem Tod um -- fan -- gen;
   Das bist du, Herr, al -- lei -- _ _ ne.
@@ -161,13 +161,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Wen such'n wir, der Hül -- fe thu', __ _ _
   dass wir Gnad' er -- lan -- gen?
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Mit -- ten wir im Le -- ben sind __ _ _
   mit dem Tod um -- fan -- _ gen;
   Das bist du, Herr, al -- lei -- ne.
@@ -183,13 +183,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Wen such'n wir, der Hül -- fe thu', __ _ _
   dass wir Gnad' er -- lan -- _ gen?
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Mit -- ten wir im Le -- ben sind __ _ _
   mit dem Tod um -- fan -- _ gen;
   Das bist du, Herr, al -- lei -- _ ne.
@@ -205,7 +205,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Wen such'n wir, der Hül -- fe thu', __ _ _
   dass wir Gnad' er -- lan -- _ gen?
 }

@@ -168,7 +168,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Dein ist al -- lein die Eh -- re,
   dein ist al -- lein der Ruhm;
   Ge -- duld im Kreuz uns leh -- re,
@@ -183,7 +183,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   bis wir fröh -- lich ab -- schei -- den
   ins e -- wig Him -- mel -- reich,
   zu wah -- rem Fried und Freu -- de,
@@ -191,7 +191,7 @@ sopranoLyricsTwo = \lyricmode {
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Dein ist al -- lein die Eh -- _ re,
   dein ist al -- lein der Ruhm;
   Ge -- duld im Kreuz uns leh -- _ re,
@@ -206,7 +206,7 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   bis wir fröh -- lich ab -- schei -- _ den
   ins e -- wig Him -- mel -- reich,
   zu wah -- rem Fried und Freu -- _ de,
@@ -214,7 +214,7 @@ altoLyricsTwo = \lyricmode {
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Dein ist al -- lein die Eh -- _ re,
   dein ist al -- lein der Ruhm;
   Ge -- duld im Kreuz uns leh -- _ re,
@@ -229,7 +229,7 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   bis wir fröh -- lich ab -- schei -- _ den
   ins e -- wig Him -- mel -- reich,
   zu wah -- rem Fried und Freu -- _ de,
@@ -237,7 +237,7 @@ tenorLyricsTwo = \lyricmode {
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Dein ist al -- lein die Eh -- _ re,
   dein ist al -- lein der Ruhm;
   Ge -- duld im Kreuz uns leh -- re,
@@ -252,7 +252,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   bis wir fröh -- lich ab -- schei -- _ den
   ins e -- wig Him -- mel -- reich,
   zu wah -- rem Fried und Freu -- de,

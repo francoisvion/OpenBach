@@ -116,49 +116,49 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr, gib, dass ich dein Eh -- _ re ja all mein Le -- ben lang __
   O Va -- ter, Sohn und Geist, __
   der du aus lau -- ter Gna -- _ _ den ab -- wen -- dest Not und Scha -- _ den, sei im -- mer -- dar ge -- preist! __
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   von Her -- zen -- grund ver -- meh -- _ re, dir sa -- ge Lob __ und Dank! __
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr, gib, dass ich dein Eh -- _ re ja all __ _ mein Le -- _ _ ben lang __
   O Va -- ter, Sohn __ _ und Geist, __
   der du __ _ aus __ _ lau -- ter Gna -- den ab -- wen -- dest Not und Scha -- _ den, sei im -- mer -- _ dar __ _ ge -- _ preist!
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   von Her -- zen -- grund ver -- meh -- _ re, dir sa -- _ ge Lob __ _ _ und Dank! __
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr, gib, dass ich dein Eh -- _ _ re ja all mein Le -- _ _ ben lang __
   O Va -- ter, Sohn __ _ und __ _ Geist, __
   der du aus lau -- ter Gna -- _ _ den ab -- wen -- dest Not und Scha -- den, sei im -- mer -- _ dar __ _ ge -- preist!
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   von Her -- zen -- grund ver -- meh -- _ _ re, dir sa -- ge Lob __ _ _ und Dank! __
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr, gib, dass ich dein Eh -- _ re ja all mein Le -- _ _ ben lang __
   O Va -- ter, Sohn __ _ und __ _ Geist, __
   der du aus lau -- ter Gna -- _ den ab -- _ wen -- dest Not und __ _ Scha -- _ den, sei im -- mer -- _ dar __ _ ge -- preist!
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   von Her -- zen -- grund ver -- meh -- _ re, dir sa -- ge Lob __ _ _ und Dank! __
 }

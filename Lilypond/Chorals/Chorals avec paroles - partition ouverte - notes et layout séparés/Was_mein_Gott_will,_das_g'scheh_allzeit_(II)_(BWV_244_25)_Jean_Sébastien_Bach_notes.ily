@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was mein Gott will, das g'scheh' all -- zeit,
   sein Will' der ist der be -- ste;
   Er hilft aus Noth, der from -- me Gott,
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   zu hel -- fen den'n er ist be -- reit,
   die an ihn glau -- ben fe -- ste.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was mein Gott will, das g'scheh' all -- zeit,
   sein Will' der ist der be -- _ ste;
   Er hilft aus Noth, der from -- me Gott,
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   zu hel -- fen den'n er ist be -- reit,
   die an ihn glau -- ben fe -- _ ste.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was mein Gott will, das g'scheh' all -- zeit,
   sein Will' der ist der be -- _ ste;
   Er hilft aus Noth, der from -- me Gott,
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   zu hel -- fen den'n er ist be -- reit,
   die an ihn glau -- ben fe -- _ ste.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was mein Gott will, das g'scheh' all -- zeit,
   sein Will' der ist der be -- _ ste;
   Er hilft aus Noth, der from -- me Gott,
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   zu hel -- fen den'n er ist be -- reit,
   die an ihn glau -- ben fe -- _ ste.
 }

@@ -63,7 +63,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4.0 \markup{"11. So"} -- lang ein Gott im Him -- mel lebt
   und ü -- ber al -- le Wol -- ken schwebt,
   Wird sol -- che Mar -- ter wäh -- ren:      
@@ -72,14 +72,14 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Es wird sie pla -- gen Kält und Hitz,
   Angst, Hun -- ger, Schre -- cken, Feu'r und Blitz
   und sie doch nicht ver -- zeh -- ren.
 }
 
 sopranoLyricsThree = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4 \markup{"16. O"} E -- wig -- keit, du Don -- ner -- wort,
   O Schwert, das durch die See -- le bohrt,
   O An -- fang son -- der En -- de!      
@@ -88,14 +88,14 @@ sopranoLyricsThree = \lyricmode {
 }
 
 sopranoLyricsFour = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   O E -- wig -- keit, Zeit oh -- ne Zeit,
   ich weiß vor gro -- ßer Trau -- rig -- keit
   Nicht, wo ich mich hin -- wen -- de.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \markup{"11. So"} -- lang ein Gott im Him -- mel
   lebt und ü -- ber al -- le Wol -- ken schwebt,
   Wird sol -- che Mar -- ter wäh -- _ ren:
@@ -104,14 +104,14 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Es wird sie pla -- gen Kält und Hitz,
   Angst, Hun -- ger, Schre -- cken, Feu'r und Blitz
   und sie doch nicht ver -- zeh -- _ ren.
 }
 
 altoLyricsThree = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4 \markup{"16. O"} E -- wig -- keit, du Don -- ner -- wort,
   O Schwert, das durch die See -- le bohrt,
   O An -- fang son -- der En -- _ de!      
@@ -120,14 +120,14 @@ altoLyricsThree = \lyricmode {
 }
 
 altoLyricsFour = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   O E -- wig -- keit, Zeit oh -- ne Zeit,
   ich weiß vor gro -- ßer Trau -- rig -- keit
   Nicht, wo ich mich hin -- wen -- _ de.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \markup{"11. So"} -- lang ein Gott im Him -- mel
   lebt und ü -- ber al -- le Wol -- ken schwebt,
   Wird sol -- che Mar -- ter wäh -- _ ren:
@@ -136,14 +136,14 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Es wird sie pla -- gen Kält und Hitz,
   Angst, Hun -- ger, Schre -- cken, Feu'r und Blitz
   und sie doch nicht ver -- zeh -- _ ren.
 }
 
 tenorLyricsThree = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4 \markup{"16. O"} E -- wig -- keit, du Don -- ner -- wort,
   O Schwert, das durch die See -- le bohrt,
   O An -- fang son -- der En -- _ de!      
@@ -152,14 +152,14 @@ tenorLyricsThree = \lyricmode {
 }
 
 tenorLyricsFour = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   O E -- wig -- keit, Zeit oh -- ne Zeit,
   ich weiß vor gro -- ßer Trau -- rig -- keit
   Nicht, wo ich mich hin -- wen -- _ de.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \markup{"11. So"} -- lang ein Gott im Him -- mel
   lebt und ü -- ber al -- le Wol -- ken schwebt,
   Wird sol -- che Mar -- ter wäh -- _ ren:
@@ -168,14 +168,14 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Es wird sie pla -- gen Kält und Hitz,
   Angst, Hun -- ger, Schre -- cken, Feu'r und Blitz
   und sie doch nicht ver -- zeh -- _ ren.
 }
 
 bassLyricsThree = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4 \markup{"16. O"} E -- wig -- keit, du Don -- ner -- wort,
   O Schwert, das durch die See -- le bohrt,
   O An -- fang son -- der En -- _ de!      
@@ -184,7 +184,7 @@ bassLyricsThree = \lyricmode {
 }
 
 bassLyricsFour = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   O E -- wig -- keit, Zeit oh -- ne Zeit,
   ich weiß vor gro -- ßer Trau -- rig -- keit
   Nicht, wo ich mich hin -- wen -- _ de.

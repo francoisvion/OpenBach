@@ -51,7 +51,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- sus, mei -- ne Zu -- ver -- sicht
   und mein Hei -- land, ist im Le -- ben:
   was die lan -- ge To -- des -- nacht
@@ -59,13 +59,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Die -- ses weiß ich, soll ich nicht
   da -- rum mich zu -- fried -- en ge -- ben?
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- sus, mei -- ne Zu -- ver -- sicht __ _
   und mein Hei -- land, ist im Le -- _ ben:
   was die lan -- ge To -- des -- nacht
@@ -73,13 +73,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Die -- ses weiß ich, soll ich nicht __ _
   da -- rum mich zu -- fried -- en ge -- _ ben?
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- sus, mei -- ne Zu -- ver -- sicht
   und mein Hei -- land, ist im Le -- _ ben:
   was die lan -- ge To -- des -- nacht
@@ -87,13 +87,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Die -- ses weiß ich, soll ich nicht
   da -- rum mich zu -- fried -- en ge -- _ ben?
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- sus, mei -- ne Zu -- ver -- sicht
   und mein Hei -- land, ist im Le -- _ ben:
   was die lan -- ge To -- des -- nacht
@@ -101,7 +101,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Die -- ses weiß ich, soll ich nicht
   da -- rum mich zu -- fried -- en ge -- _ ben?
 }

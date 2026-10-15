@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr, wie du willst, so schicks mit mir
   im Le -- ben und __ _ _ im Ster -- ben;
   Er -- halt mich nur in dei -- ner Huld,
@@ -76,13 +76,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   al -- lein zu dir steht mein Be -- gier,
   lass mich, Herr, nicht  __ _ _ ver -- der -- ben.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr, wie du willst, so schicks mit mir
   im Le -- ben und __ _ _ im Ster -- _ ben;
   Er -- halt mich nur in dei -- ner Huld,
@@ -91,13 +91,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   al -- lein zu dir steht mein Be -- gier,
   lass mich, Herr, nicht __ _ _ ver -- der -- _ ben.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr, wie du willst, so schicks mit mir
   im Le -- ben und __ _ _ im Ster -- _ ben;
   Er -- halt mich nur in dei -- ner Huld,
@@ -106,13 +106,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   al -- lein zu dir steht mein Be -- gier,
   lass mich, Herr, nicht __ _ _ ver -- der -- _ ben.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr, wie du willst, so schicks mit mir
   im Le -- ben und __ _ im Ster -- _ ben;
   Er -- halt mich nur in dei -- ner Huld,
@@ -121,7 +121,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   al -- lein zu dir steht mein Be -- gier,
   lass mich, Herr, nicht __ _ ver -- der -- _ ben.
 }

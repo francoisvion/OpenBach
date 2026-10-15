@@ -67,7 +67,7 @@ bassMusic = \transpose c d {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wir es -- sen und wir le -- ben wohl
   im rech -- ten O -- ster -- fla -- _ den,
   Chri -- stus will die Ko -- ste sein
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Der al -- te Sau -- er -- teig nicht soll
   sein bei dem Wort der Gna -- _ den,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wir es -- sen und wir le -- ben wohl
   im rech -- ten O -- ster -- fla -- _ den,
   Chri -- stus will die Ko -- ste sein
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Der al -- te Sau -- er -- teig nicht soll
   sein bei dem Wort der Gna -- _ den,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wir es -- sen und wir le -- ben wohl
   im rech -- ten O -- ster -- fla -- _ den,
   Chri -- stus will die Ko -- ste sein
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Der al -- te Sau -- er -- teig nicht soll
   sein bei dem Wort der Gna -- _ den,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wir es -- sen und wir le -- ben wohl
   im rech -- ten O -- ster -- fla -- _ den,
   Chri -- stus will die Ko -- ste sein
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Der al -- te Sau -- er -- teig nicht soll
   sein bei dem Wort der Gna -- _ den,
 }

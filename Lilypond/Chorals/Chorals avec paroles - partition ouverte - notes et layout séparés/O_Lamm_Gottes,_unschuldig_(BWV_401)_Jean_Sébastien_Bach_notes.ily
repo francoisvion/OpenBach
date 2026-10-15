@@ -63,7 +63,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   O Lamm Got -- tes, un -- schul -- dig,
   am Stamm des Kreuz ge -- schlach -- _ tet,
   all Sünd' hast du ge -- tra -- _ gen,
@@ -72,13 +72,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   all -- zeit er -- fund'n ge -- dul -- dig,
   wie -- wohl du warst ver -- ach -- _ tet;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   O Lamm Got -- tes, un -- schul -- _ dig,
   am Stamm des Kreuz ge -- schlach -- _ tet,
   all Sünd' hast du ge -- tra -- _ _ gen,
@@ -87,13 +87,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   all -- zeit er -- fund'n ge -- dul -- _ dig,
   wie -- wohl du warst ver -- ach -- _ tet;
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   O Lamm Got -- tes, un -- schul -- _ dig,
   am Stamm des Kreuz ge -- schlach -- tet,
   all Sünd' hast du ge -- tra -- _ gen,
@@ -102,13 +102,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   all -- zeit er -- fund'n ge -- dul -- _ dig,
   wie -- wohl du warst ver -- ach -- tet;
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   O Lamm Got -- tes, un -- schul -- _ dig,
   am Stamm des Kreuz ge -- schlach -- _ tet,
   all Sünd' hast du ge -- tra -- _ gen,
@@ -117,7 +117,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   all -- zeit er -- fund'n ge -- dul -- _ dig,
   wie -- wohl du warst ver -- ach -- _ tet;
 }

@@ -104,7 +104,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Al -- lein zu dir, Herr Je -- _ su Christ,
   mein Hoff -- nung steht auf Er -- _ _ _ _ den.
   Von An -- be -- ginn ist nichts er -- korn,
@@ -114,13 +114,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Ich weiß, dass du mein Trö -- _ ster bist,
   kein Trost mag mir sonst wer -- _ _ _ _ en.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Al -- lein zu dir, Herr Je -- _ _ su Christ,
   mein Hoff -- nung steht auf Er -- _ _ _ _ _ den.
   Von An -- be -- ginn ist nichts er -- korn,
@@ -130,13 +130,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Ich weiß, dass du mein Trö -- _ _ ster bist,
   kein Trost mag mir sonst wer -- _ _ _ _ _ den.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Al -- lein zu dir, Herr Je -- _ _ su Christ,
   mein Hoff -- nung steht auf Er -- _ _ _ _ _ den.
   Von An -- be -- ginn ist nichts er -- korn,
@@ -146,13 +146,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Ich weiß, dass du mein Trö -- _ _ ster bist,
   kein Trost mag mir sonst wer -- _ _ _ _ _ den.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Al -- lein zu dir, Herr Je -- _ _ su Christ,
   mein Hoff -- nung steht auf Er -- _ _ _ _ _ _ den.
   Von An -- be -- ginn ist nichts er -- korn,
@@ -162,7 +162,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Ich weiß, dass du mein Trö -- _ _ ster bist,
   kein Trost mag mir sonst wer -- _ _ _ _ _ _ den.
 }

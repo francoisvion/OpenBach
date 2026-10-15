@@ -59,7 +59,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Sei Lob und Ehr' dem höch -- sten Gut,
   dem Va -- ter al -- ler Gü -- _ te,
   mit sei -- nem rei -- chen Trost er -- füllt,
@@ -68,13 +68,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dem Gott, der al -- le Wun -- der tut,
   dem Gott, der mein Ge -- mü -- _ te
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Sei Lob und Ehr' dem höch -- sten Gut,
   dem Va -- ter al -- ler Gü -- _ te,
   mit sei -- nem rei -- chen Trost er -- füllt,
@@ -83,13 +83,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dem Gott, der al -- le Wun -- der tut,
   dem Gott, der mein Ge -- mü -- _ te
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Sei Lob und Ehr' dem höch -- sten Gut,
   dem Va -- ter al -- ler Gü -- _ _ te,
   mit sei -- nem rei -- chen Trost er -- füllt,
@@ -98,13 +98,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dem Gott, der al -- le Wun -- der tut,
   dem Gott, der mein Ge -- mü -- _ _ te
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Sei Lob und Ehr' dem höch -- sten Gut,
   dem Va -- ter al -- ler Gü -- _ te,
   mit sei -- nem rei -- chen Trost er -- füllt,
@@ -113,7 +113,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dem Gott, der al -- le Wun -- der tut,
   dem Gott, der mein Ge -- mü -- _ te
 }

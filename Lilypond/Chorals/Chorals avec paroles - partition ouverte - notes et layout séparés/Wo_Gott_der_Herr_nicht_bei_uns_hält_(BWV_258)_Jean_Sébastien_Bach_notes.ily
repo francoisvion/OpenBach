@@ -66,47 +66,47 @@ bassMusic = {
   e4 fis b,\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {\stanza "1."
    Wo Gott der Herr nicht bei uns hält, wenn uns -- re Fein -- de to -- ben,
    wo er Is -- ra -- els Schutz nicht ist, und sel -- ber bricht der Fein -- de List;
    so ists mit uns ver -- lo -- ren.
 }
 
-                                sopranoLyricsTwo = \lyricmode { \set stanza = 2
+                                sopranoLyricsTwo = \lyricmode { \stanza "2."
                                                                 und er un -- srer Sach nicht zu -- fällt, im Him -- mel hoch dort o -- ben, }
 
                                 altoLyricsOne = \lyricmode {
-                                  \set stanza = 1
+                                  \stanza "1."
                                   Wo Gott der Herr nicht bei uns hält, wenn uns -- re Fein -- de to -- _ ben,
                                   wo er Is -- ra -- els Schutz nicht ist, und sel -- ber bricht der Fein -- de List;
                                   so ists mit uns ver -- lo -- _ ren.
                                 }
 
                                 altoLyricsTwo = \lyricmode {
-                                  \set stanza = 2
+                                  \stanza "2."
                                   und er un -- srer Sach nicht zu -- fällt, im Him -- mel hoch dort o -- _ ben,
                                 }
 
                                 tenorLyricsOne = \lyricmode {
-                                  \set stanza = 1
+                                  \stanza "1."
                                   Wo Gott der Herr nicht bei uns hält, wenn uns -- re Fein -- de to -- _ ben,
                                   wo er Is -- ra -- els Schutz nicht ist, und sel -- ber bricht der Fein -- de List;
                                   so ists mit uns ver -- lo -- _ ren.
                                 }
 
                                 tenorLyricsTwo = \lyricmode {
-                                  \set stanza = 2
+                                  \stanza "2."
                                   und er un -- srer Sach nicht zu -- fällt, im Him -- mel hoch dort o -- _ ben,
                                 }
 
                                 bassLyricsOne = \lyricmode {
-                                  \set stanza = 1
+                                  \stanza "1."
                                   Wo Gott der Herr nicht bei uns hält, wenn uns -- re Fein -- de to -- _ ben,
                                   wo er Is -- ra -- els Schutz nicht ist, und sel -- ber bricht der Fein -- de List;
                                   so ists mit uns ver -- lo -- _ ren.
                                 }
 
                                 bassLyricsTwo = \lyricmode {
-                                  \set stanza = 2
+                                  \stanza "2."
                                   und er un -- srer Sach nicht zu -- fällt, im Him -- mel hoch dort o -- _ ben,
                                 }

@@ -51,7 +51,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr, ich ha -- be miss -- ge -- han -- delt,
   ja mich drückt der Sün -- den Last;
   und jetzt wollt' ich gern aus Schre -- cken
@@ -59,13 +59,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ich bin nicht den Weg ge -- wan -- delt,
   den du mir ge -- zei -- get hast;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr, ich ha -- be miss -- ge -- han -- delt,
   ja mich drückt __ _ der Sün -- den Last;
   und jetzt wollt' ich gern aus Schre -- cken
@@ -73,13 +73,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ich bin nicht den Weg ge -- wan -- delt,
   den du mir __ _ ge -- zei -- get hast;
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr, ich ha -- be miss -- ge -- han -- delt,
   ja mich drückt der Sün -- den __ _ Last;
   und jetzt wollt' ich gern aus Schre -- cken
@@ -87,13 +87,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ich bin nicht den Weg ge -- wan -- delt,
   den du mir ge -- zei -- _ get hast;
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr, ich ha -- be miss -- ge -- han -- delt,
   ja __ _ mich drückt der Sün -- den Last;
   und jetzt wollt' ich gern aus Schre -- cken
@@ -101,7 +101,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ich bin nicht den Weg ge -- wan -- delt,
   den __ _ du mir ge -- zei -- get hast;
 }

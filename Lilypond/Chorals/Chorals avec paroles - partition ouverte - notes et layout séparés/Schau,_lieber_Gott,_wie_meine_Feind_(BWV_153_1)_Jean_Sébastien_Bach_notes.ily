@@ -59,7 +59,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Schau, lie -- ber Gott, wie mei -- ne Feind,
   da -- mit ich stets muss käm -- _ pfen!
   Herr, wo mich dei -- ne Gnad nicht hält,
@@ -68,13 +68,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   So li -- stig und so mäch -- tig seind,
   dass sie mich leicht -- lich däm -- _ pfen!
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Schau, lie -- ber Gott, wie mei -- ne Feind,
   da -- mit ich stets muss käm -- pfen!
   Herr, wo mich dei -- ne Gnad nicht hält,
@@ -83,13 +83,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   So li -- stig und so mäch -- tig seind,
   dass sie mich leicht -- lich däm -- pfen!
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Schau, lie -- ber Gott, wie mei -- ne Feind,
   da -- mit ich stets muss käm -- _ _ pfen!
   Herr, wo mich dei -- ne Gnad nicht hält,
@@ -98,13 +98,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   So li -- stig und so mäch -- tig seind,
   dass sie mich leicht -- lich däm -- _ _ pfen!
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Schau, lie -- ber Gott, wie mei -- ne Feind,
   da -- mit ich stets muss käm -- pfen!
   Herr, wo mich dei -- ne Gnad nicht hält,
@@ -113,7 +113,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   So li -- stig und so mäch -- tig seind,
   dass sie mich leicht -- lich däm -- pfen!
 }

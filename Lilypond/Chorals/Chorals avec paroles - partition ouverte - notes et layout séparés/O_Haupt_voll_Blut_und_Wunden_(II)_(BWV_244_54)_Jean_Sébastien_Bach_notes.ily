@@ -71,7 +71,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-3.0 "1. O" Haupt voll Blut und Wun -- den,
   voll Schmerz und vol -- ler Hohn,
   O Haupt, sonst schön ge -- zie -- ret
@@ -81,13 +81,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   O Haupt, zu Spott ge -- bun -- den
   mit ei -- ner Dor -- nen -- kron,
 }
 
 sopranoLyricsThree = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-3.0 "2. Du" ed -- les An -- ge -- sich -- te,
   da -- für sonst schrickt und scheut
   Wie bist du so er -- blei -- chet!
@@ -97,13 +97,13 @@ sopranoLyricsThree = \lyricmode {
 }
 
 sopranoLyricsFour = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   das gro -- ße Welt -- ge -- rich -- te,
   wie bist du so be -- speit;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-3.0  "1. O" Haupt voll Blut und Wun -- _ den,
   voll Schmerz und vol -- ler Hohn,
   O Haupt, sonst schön ge -- zie -- _ ret
@@ -113,13 +113,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   O Haupt, zu Spott ge -- bun -- _ den
   mit ei -- ner Dor -- nen -- kron,
 }
 
 altoLyricsThree = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-3.0 "2. Du" ed -- les An -- ge -- sich -- _ te,
   da -- für sonst schrickt und scheut
   Wie bist du so er -- blei -- _ chet!
@@ -129,13 +129,13 @@ altoLyricsThree = \lyricmode {
 }
 
 altoLyricsFour = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   das gro -- ße Welt -- ge -- rich -- _ te,
   wie bist du so be -- speit;
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-3.0 "1. O" Haupt voll Blut und Wun -- _ den,
   voll Schmerz und vol -- ler Hohn,
   O Haupt, sonst schön ge -- zie -- _ ret
@@ -145,13 +145,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   O Haupt, zu Spott ge -- bun -- _ den
   mit ei -- ner Dor -- nen -- kron,
 }
 
 tenorLyricsThree = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-3.0 "2. Du" ed -- les An -- ge -- sich -- _ te,
   da -- für sonst schrickt und scheut
   Wie bist du so er -- blei -- _ chet!
@@ -161,13 +161,13 @@ tenorLyricsThree = \lyricmode {
 }
 
 tenorLyricsFour = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   das gro -- ße Welt -- ge -- rich -- _ te,
   wie bist du so be -- speit;
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-3.0  "1. O" Haupt voll Blut und Wun -- _ den,
   voll Schmerz und vol -- ler Hohn,
   O Haupt, sonst schön ge -- zie -- ret
@@ -177,13 +177,13 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   O Haupt, zu Spott ge -- bun -- _ den
   mit ei -- ner Dor -- nen -- kron,
 }
 
 bassLyricsThree = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-3.0 "2. Du" ed -- les An -- ge -- sich -- _ te,
   da -- für sonst schrickt und scheut
   Wie bist du so er -- blei -- chet!
@@ -193,7 +193,7 @@ bassLyricsThree = \lyricmode {
 }
 
 bassLyricsFour = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   das gro -- ße Welt -- ge -- rich -- _ te,
   wie bist du so be -- speit;
 }

@@ -59,7 +59,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ob sichs an -- ließ, als wollt er nicht,
   lass dich es nicht er -- schre -- _ cken,
   Sein Wort lass dir ge -- wis -- ser sein,
@@ -68,13 +68,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   denn wo er ist am be -- sten mit,
   da will ers nicht ent -- de -- _ cken.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ob sichs an -- ließ, als wollt er nicht,
   lass dich es nicht er -- schre -- _ cken,
   Sein Wort lass dir ge -- wis -- ser sein,
@@ -83,13 +83,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   denn wo er ist am be -- sten mit,
   da will ers nicht ent -- de -- _ cken.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ob sichs an -- ließ, als wollt er nicht,
   lass dich es nicht er -- schre -- _ _ cken,
   Sein Wort lass dir ge -- wis -- ser sein,
@@ -98,13 +98,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   denn wo er ist am be -- sten mit,
   da will ers nicht ent -- de -- _ _ cken.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ob sichs an -- ließ, als wollt er nicht,
   lass dich es nicht er -- schre -- _ cken,
   Sein Wort lass dir ge -- wis -- ser sein,
@@ -113,7 +113,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   denn wo er ist am be -- sten mit,
   da will ers nicht ent -- de -- _ cken.
 }

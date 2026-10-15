@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Weg mit al -- len Schä -- tzen,
   du bist mein Er -- gö -- tzen,
   Je -- su, mei -- ne Lust!
@@ -77,14 +77,14 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Weg ihr eit -- len Eh -- ren,
   ich mag euch nicht hö -- ren,
   bleibt mir un -- be -- wusst!
 }
 
 altoVersoOneLyrics = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Weg, weg, mit al -- _ len Schä -- _ tzen,
   mit al -- len Schä -- tzen,
   du, du bist mein Er -- gö -- tzen,
@@ -95,7 +95,7 @@ altoVersoOneLyrics = \lyricmode {
 }
 
 altoVersoTwoLyrics = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Weg, weg, ihr eit -- _ len Eh -- _ ren,
   ihr eit -- len Eh -- ren,
   ich ich mag duch nicht hö -- ren,
@@ -103,7 +103,7 @@ altoVersoTwoLyrics = \lyricmode {
 }
 
 tenorVersoOneLyrics = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Weg, weg, weg, weg, mit al -- len Schä -- _ tzen,
   mit al -- len Schä -- tzen,
   Du, du bist mein Er -- gö -- tzen,
@@ -114,7 +114,7 @@ tenorVersoOneLyrics = \lyricmode {
 }
 
 tenorVersoTwoLyrics = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Weg, weg, weg, weg, ihr eit -- len Eh -- _ ren,
   ihr eit -- len Eh -- ren,
   ich, ich mag euch nicht hö -- ren,
@@ -122,7 +122,7 @@ tenorVersoTwoLyrics = \lyricmode {
 }
 
 bassVersoOneLyrics = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Weg, weg, weg, weg, mit al -- len Schä -- tzen,
   Du, du bist mein Er -- gö -- _ _ tzen,
   Je -- su, Je -- su mei -- ne Lust, mei -- ne Lust.
@@ -132,14 +132,14 @@ bassVersoOneLyrics = \lyricmode {
 }
 
 bassVersoTwoLyrics = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Weg, weg, weg, weg,  ihr eit -- len Eh -- ren,
   ich mag euch nicht hö -- ren,
   mir un -- be -- wusst!
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Weg, weg mit al -- len __ _ Schä -- _ tzen,
   mit al -- len Schä -- tzen, du, du bist mein Er -- gö -- tzen,
   Je -- _ su, mei -- ne Lust, mei -- _ ne Lust!
@@ -149,14 +149,14 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Weg, weg ihr eit -- _ len Eh -- _ ren, ihr eit -- len
   Eh -- ren, ich, ich mag euch nicht hö -- ren,
   bleibt __ _ mir un -- be -- wusst, un -- be -- _ wusst!
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Weg, weg mit al -- len Schä -- _ tzen, mit al -- len
   Schä -- tzen, du, du bist mein Er -- gö -- tzen,
   Je -- su, mei -- _ ne Lust!
@@ -166,14 +166,14 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Weg, weg ihr eit -- len Eh -- _ ren, ihr eit -- len
   Eh -- ren, ich, ich mag euch nicht hö -- ren,
   bleibt mir un -- _ be -- wusst!
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Weg, weg mit _ al -- len Schä -- tzen,
   du bist mein Er -- gö -- tzen,
   Je -- su, __ mei -- ne Lust, mei -- ne Lust!
@@ -183,7 +183,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Weg, weg ihr _ eit -- len Eh -- ren,
   ich mag euch nicht __ hö -- ren,
   bleibt mir __ un -- be -- wusst, un -- be -- wusst!

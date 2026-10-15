@@ -71,7 +71,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Er -- barm' dich mein, o Her -- re Gott,
   nach dei -- ner gross'n Barm -- her -- zig -- keit,
   Al -- lein ich dir ge -- sün -- digt hab',
@@ -81,37 +81,37 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wasch ab, mach' rein mein Mi -- se -- that,
   ich kenn mein Sünd' und ist mir leid.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Er -- barm' dich mein, o Her -- re __ _ Gott, nach dei -- ner gross'n Barm -- her -- zig -- - -- keit, Al -- lein ich dir ge -- sün -- digt __ _ hab', das ist wi -- der mich ste -- tig -- lich; das Bös' _ vor dir nicht mag be -- stahn, du bleibst __ _ _ ge -- recht, ob man ur -- tei -- - -- le dich.
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wasch ab, mach' rein mein Mi -- se -- - -- that, ich kenn mein Sünd' und ist mir _ leid.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Er -- barm' dich mein, o Her -- re Gott, nach dei -- ner gross'n Barm -- her -- zig -- keit, Al -- lein ich dir ge -- sün -- digt hab', das ist wi -- der mich ste -- tig -- lich; das Bös' _ vor dir nicht mag be -- stahn, du bleibst __ _ _ ge -- recht, ob man ur -- tei -- - -- le dich.
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wasch ab, mach' rein mein Mi -- se -- that, ich kenn mein Sünd' und ist mir leid.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Er -- barm' dich mein, o __ _ Her -- re Gott, nach dei -- ner gross'n Barm -- her -- zig -- keit, Al -- lein ich dir ge -- sün -- digt hab', das ist wi -- der mich ste -- tig -- lich; das Bös' vor dir nicht mag be -- stahn, du bleibst __ _ _ ge -- recht, ob man ur -- tei -- le dich.
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wasch ab, mach' rein mein _ Mi -- se -- that, ich kenn mein Sünd' und ist mir leid.
 }

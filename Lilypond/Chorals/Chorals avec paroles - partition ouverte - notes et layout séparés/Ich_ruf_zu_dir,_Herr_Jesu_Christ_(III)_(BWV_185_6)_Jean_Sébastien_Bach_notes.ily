@@ -71,7 +71,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich ruf zu dir, Herr Je -- su __ Christ,
   ich bitt, er -- hör mein Kla -- gen,
   den rech -- ten Glau -- ben, Herr, __ ich mein,
@@ -81,13 +81,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ver -- leih mir Gnad zu die -- ser __ Frist,
   lass mich doch nicht ver -- za -- gen;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich ruf zu dir, Herr Je -- su Christ,
   ich bitt, er -- hör mein Kla -- gen,
   den rech -- ten Glau -- ben, Herr, __ ich mein,
@@ -97,13 +97,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ver -- leih mir Gnad zu die -- ser Frist,
   lass mich doch nicht ver -- za -- gen;
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich ruf zu dir, Herr Je -- su Christ,
   ich bitt, er -- hör mein Kla -- _ gen,
   den rech -- ten Glau -- ben, Herr, ich mein,
@@ -113,13 +113,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ver -- leih mir Gnad zu die -- ser Frist,
   lass mich doch nicht ver -- za -- _ gen;
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich ruf zu dir, Herr Je -- su Christ,
   ich bitt, er -- hör mein Kla -- gen,
   den rech -- ten Glau -- ben, Herr, ich mein,
@@ -129,7 +129,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ver -- leih mir Gnad zu die -- ser Frist,
   lass mich doch nicht ver -- za -- gen;
 }

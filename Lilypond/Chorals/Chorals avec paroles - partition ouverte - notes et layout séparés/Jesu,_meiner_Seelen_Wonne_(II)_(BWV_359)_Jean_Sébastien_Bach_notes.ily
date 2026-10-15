@@ -63,7 +63,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mei -- ner See -- len Won -- ne,
   Je -- su, mei -- ne be -- ste Lust,
   wie ich dich so herz -- lich lieb'
@@ -73,13 +73,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Je -- su, mei -- ne Freu -- den -- son -- ne,
   Je -- su, dir ist ja be -- wusst,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mei -- ner See -- len Won -- ne,
   Je -- su, mei -- ne be -- ste Lust,
   wie ich dich so herz -- lich lieb'
@@ -89,13 +89,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Je -- su, mei -- ne Freu -- den -- son -- ne,
   Je -- su, dir ist ja be -- wusst,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mei -- ner See -- len Won -- ne,
   Je -- su, mei -- ne be -- ste Lust,
   wie ich dich so herz -- lich lieb'
@@ -105,13 +105,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Je -- su, mei -- ne Freu -- den -- son -- ne,
   Je -- su, dir ist ja be -- wusst,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mei -- ner See -- len Won -- ne,
   Je -- su, mei -- ne be -- ste Lust,
   wie ich dich so herz -- lich lieb'
@@ -121,7 +121,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Je -- su, mei -- ne Freu -- den -- son -- ne,
   Je -- su, dir ist ja be -- wusst,
 }

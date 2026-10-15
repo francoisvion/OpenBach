@@ -59,7 +59,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was Gott tut, das ist wohl -- ge -- tan,
   da -- bei will ich ver -- blei -- ben.
   so wird Gott mich
@@ -69,13 +69,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   es mag mich auf die rau -- he Bahn
   Not, Tod und E -- lend trei -- ben,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was Gott tut, das ist wohl -- ge -- tan,
   da -- bei will ich ver -- blei -- _ ben.
   so wird Gott mich
@@ -85,13 +85,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   es mag mich auf die rau -- he Bahn
   Not, Tod und E -- lend trei -- _ ben,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was Gott tut, das ist wohl -- ge -- tan,
   da -- bei will ich ver -- blei -- _ ben.
   so wird Gott mich
@@ -101,13 +101,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   es mag mich auf die rau -- he Bahn
   Not, Tod und E -- lend trei -- _ ben,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was Gott tut, das ist wohl -- ge -- tan,
   da -- bei will ich ver -- blei -- ben.
   so wird Gott mich
@@ -117,7 +117,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   es mag mich auf die rau -- he Bahn
   Not, Tod und E -- lend trei -- ben,
 }

@@ -58,41 +58,41 @@ bassMusic = {
   d [b,] e4 a,\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode { \set stanza = 1
+sopranoLyricsOne = \lyricmode { \stanza "1."
                                 Wär' Gott nicht mit uns die -- se Zeit, so soll I -- sra -- el sa -- gen,
                                 die so ein ar -- mes Haüf -- lein sind, ver -- acht vor so viel Men -- schen kind,
                                 die an uns se -- tzen al -- le.
 }
 
-sopranoLyricsTwo = \lyricmode { \set stanza = 2
+sopranoLyricsTwo = \lyricmode { \stanza "2."
                                 \repeat unfold 8 {\skip1} wir hät -- ten müsst ver -- za -- gen,}
 
                                 altoLyricsOne = \lyricmode {
-       \set stanza = 1
+       \stanza "1."
                                 Wär' Gott nicht mit uns die -- se Zeit, so soll I -- sra -- el sa - gen, die so ein ar -- mes Haüf -- lein sind, ver -- acht vor so viel Men -- schen kind, die an uns se -- tzen al - le.
     }
 
                                 altoLyricsTwo = \lyricmode {
-       \set stanza = 2
+       \stanza "2."
                                 _ _ _ _ _ _ _ _ wir hät -- ten müsst ver -- za - gen,
     }
 
                                                              tenorLyricsOne = \lyricmode {
-       \set stanza = 1
+       \stanza "1."
                                 Wär' Gott nicht mit uns die -- se Zeit, so soll I -- sra -- el sa - gen, die so ein ar -- mes Haüf -- lein sind, ver -- acht vor so viel Men -- schen kind, die an uns se -- tzen al - le.
     }
 
                                                              tenorLyricsTwo = \lyricmode {
-       \set stanza = 2
+       \stanza "2."
                                 _ _ _ _ _ _ _ _ wir hät -- ten müsst ver -- za - gen,
     }
 
                                                                                            bassLyricsOne = \lyricmode {
-       \set stanza = 1
+       \stanza "1."
                                 Wär' Gott nicht mit uns die -- se Zeit, so soll I -- sra -- el sa - gen, die so ein ar -- mes Haüf -- lein sind, ver -- acht vor so viel Men -- schen kind, die an uns se -- tzen al - le.
     }
 
                                                                                            bassLyricsTwo = \lyricmode {
-       \set stanza = 2
+       \stanza "2."
                                 _ _ _ _ _ _ _ _ wir hät -- ten müsst ver -- za - gen,
     }

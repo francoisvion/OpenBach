@@ -55,7 +55,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Du Frie -- de -- fürst, Herr Je -- su Christ,
   wahr' Mensch und wah -- rer Gott,
   drum wir al -- lein im Na -- men dein
@@ -63,13 +63,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ein star -- ker Noth -- hel -- fer du bist
   im Le -- ben und im Tod:
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Du Frie -- de -- fürst, Herr Je -- su Christ,
   wahr' Mensch und wah -- rer Gott,
   drum wir al -- lein im Na -- men dein
@@ -77,13 +77,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ein star -- ker Noth -- hel -- fer du bist
   im Le -- ben und im Tod:
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Du Frie -- de -- fürst, Herr Je -- su Christ,
   wahr' Mensch und wah -- rer Gott,
   drum wir al -- lein im Na -- men dein
@@ -91,13 +91,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ein star -- ker Noth -- hel -- fer du bist
   im Le -- ben und im Tod:
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Du Frie -- de -- fürst, Herr Je -- su Christ,
   wahr' Mensch und wah -- rer Gott,
   drum wir al -- lein im Na -- men dein
@@ -105,7 +105,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ein star -- ker Noth -- hel -- fer du bist
   im Le -- ben und im Tod:
 }

@@ -59,7 +59,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4.5 "1. Die" Feind sind all in dei -- ner Hand,
   da -- zu all ihr Ge -- dan -- ken;
   Ver -- nunft wi -- der den Glau -- ben ficht,
@@ -68,7 +68,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ihr An -- schläg sind dir Herr, be -- kannt,
   hilf nur dass wir nicht wan -- ken.
   in rech -- ter Lieb des Glau -- bens dein,
@@ -77,19 +77,19 @@ sopranoLyricsTwo = \lyricmode {
 }
 
 sopranoLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-4.5 "2. Den" Him -- mel und auch die Er -- den
   hast du, Herr Gott, ge -- grün -- det;
 }
 
 sopranoLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   dein Licht lass uns hel -- le wer -- den,
   das Herz uns werd ent -- zün -- det
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4.5 "1. Die" Feind sind all in dei -- ner Hand,
   da -- zu all ihr Ge -- dan -- _ ken;
   Ver -- nunft wi -- der den Glau -- ben ficht,
@@ -98,7 +98,7 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ihr An -- schläg sind dir Herr, be -- kannt,
   hilf nur dass wir nicht wan -- _ ken.
   in rech -- ter Lieb des Glau -- bens dein,
@@ -107,19 +107,19 @@ altoLyricsTwo = \lyricmode {
 }
 
 altoLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-4.5 "2. Den" Him -- mel und auch die Er -- den
   hast du, Herr Gott, ge -- grün -- _ det;
 }
 
 altoLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   dein Licht lass uns hel -- le wer -- den,
   das Herz uns werd ent -- zün -- _ det
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4.5 "1. Die" Feind sind all in dei -- ner Hand,
   da -- zu all ihr Ge -- dan -- _ ken;
   Ver -- nunft wi -- der den Glau -- ben ficht,
@@ -128,7 +128,7 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ihr An -- schläg sind dir Herr, be -- kannt,
   hilf nur dass wir nicht wan -- _ ken.
   in rech -- ter Lieb des Glau -- bens dein,
@@ -137,19 +137,19 @@ tenorLyricsTwo = \lyricmode {
 }
 
 tenorLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-4.5 "2. Den" Him -- mel und auch die Er -- den
   hast du, Herr Gott, ge -- grün -- _ det;
 }
 
 tenorLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   dein Licht lass uns hel -- le wer -- den,
   das Herz uns werd ent -- zün -- _ det
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-4.5 "1. Die" Feind sind all in dei -- ner Hand,
   da -- zu all ihr Ge -- dan -- ken;
   Ver -- nunft wi -- der den Glau -- ben ficht,
@@ -158,7 +158,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   ihr An -- schläg sind dir Herr, be -- kannt,
   hilf nur dass wir nicht wan -- ken.
   in rech -- ter Lieb des Glau -- bens dein,
@@ -167,13 +167,13 @@ bassLyricsTwo = \lyricmode {
 }
 
 bassLyricsThree = \lyricmode {
-  \set stanza = 3
+  \stanza "3."
   \tweak X-offset #-4.5 "2. Den" Him -- mel und auch die Er -- den
   hast du, Herr Gott, ge -- grün -- det;
 }
 
 bassLyricsFour = \lyricmode {
-  \set stanza = 4
+  \stanza "4."
   dein Licht lass uns hel -- le wer -- den,
   das Herz uns werd ent -- zün -- det
 }

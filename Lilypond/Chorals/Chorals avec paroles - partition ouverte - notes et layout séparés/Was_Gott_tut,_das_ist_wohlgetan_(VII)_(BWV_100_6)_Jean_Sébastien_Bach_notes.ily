@@ -82,50 +82,50 @@ bassMusic = {
   s1 \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {\stanza "1."
   Was Gott tut, das ist wohl -- ge -- tan,
   da -- bei will ich ver -- blei -- ben.
   so wird Gott mich ganz vä -- ter -- lich in sei -- nen Ar -- men hal -- ten;
   drum lass ich ihn nur wal -- ten.
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
+sopranoLyricsTwo = \lyricmode {\stanza "2."
   Es mag mich auf die rau -- he Bahn
   Not, Tod und E -- lend trei -- ben,
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {\stanza "1."
   Was Gott tut, das ist wohl -- ge -- tan,
   da -- bei __ _ will ich ver -- blei -- _ ben.
   so wird Gott mich ganz vä -- ter -- lich in sei -- nen Ar -- men hal -- _ ten;
   drum lass ich ihn nur wal -- _ ten.
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {\stanza "2."
   Es mag mich auf die rau -- he Bahn
   Not, Tod __ _ und E -- lend trei -- _ ben,
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {\stanza "1."
   Was Gott tut, das ist wohl -- ge -- tan,
   da -- bei will ich ver -- blei -- _ ben.
   so wird Gott mich ganz vä -- ter -- lich in sei -- nen Ar -- men hal -- ten;
   drum lass ich ihn nur wal -- _ ten.
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {\stanza "2."
   Es mag mich auf die rau -- he Bahn
   Not, Tod und E -- lend trei -- _ ben,
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {\stanza "1."
   Was Gott tut, das ist wohl -- ge -- tan,
   da -- bei will ich ver -- blei -- _ ben.
   so wird Gott mich ganz vä -- ter -- lich in sei -- nen Ar -- men hal -- ten;
   drum lass ich ihn nur wal -- _ ten.
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {\stanza "2."
   Es mag mich auf die rau -- he Bahn
   Not, Tod und E -- lend trei -- _ ben,
 }

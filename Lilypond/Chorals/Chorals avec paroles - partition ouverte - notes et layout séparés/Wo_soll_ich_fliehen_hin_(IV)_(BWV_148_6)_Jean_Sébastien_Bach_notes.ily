@@ -63,7 +63,7 @@ bassMusic = {
 }
 
 versoOneLyrics = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-9 \markup{\concat{\tiny"Texte 1 : " "Führ,"}} Herr, mein Herz und Sinn
   durch dei -- nen Geist da -- hin,
   dass ich mög al -- les mei -- den,
@@ -73,7 +73,7 @@ versoOneLyrics = \lyricmode {
 }
 
 versoTwoLyrics = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-9 \markup{\concat{\tiny"Texte 2 :    " "A"}} -- men zu al -- ler Stund
   sprech ich aus Her -- zens -- grund;
   du woll -- test uns tun lei -- ten,
@@ -83,7 +83,7 @@ versoTwoLyrics = \lyricmode {
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-9 \markup{\concat{\tiny"Texte 1 : " "Führ,"}} Herr, mein Herz und Sinn
   durch dei -- nen Geist da -- hin,
   dass ich mög al -- les mei -- _ den,
@@ -93,7 +93,7 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-9 \markup{\concat{\tiny"Texte 2 :    " "A"}} -- men zu al -- ler Stund
   sprech ich aus Her -- zens -- grund;
   du woll -- test uns tun lei -- _ ten,
@@ -103,7 +103,7 @@ altoLyricsTwo = \lyricmode {
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-9 \markup{\concat{\tiny"Texte 1 : " "Führ,"}} Herr, mein Herz und Sinn
   durch dei -- nen Geist da -- hin,
   dass ich mög al -- les mei -- _ den,
@@ -113,7 +113,7 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-9 \markup{\concat{\tiny"Texte 2 :    " "A"}} -- men zu al -- ler Stund
   sprech ich aus Her -- zens -- grund;
   du woll -- test uns tun lei -- _ ten,
@@ -123,7 +123,7 @@ tenorLyricsTwo = \lyricmode {
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-9 \markup{\concat{\tiny"Texte 1 : " "Führ,"}} Herr, mein Herz und Sinn
   durch dei -- nen Geist da -- hin,
   dass ich mög al -- les mei -- _ den,
@@ -133,7 +133,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-9 \markup{\concat{\tiny"Texte 2 :    " "A"}} -- men zu al -- ler Stund
   sprech ich aus Her -- zens -- grund;
   du woll -- test uns tun lei -- _ ten,

@@ -108,7 +108,7 @@ bassMusic = \relative c {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-3.5 "1. Du" \tweak X-offset #0 Le -- bens -- fürst, __ _ _ Herr Je -- su Christ,
   der du bist auf -- ge -- nom -- men
   wie soll ich dein -- en gro -- _ ßen Sieg,
@@ -118,13 +118,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Gen Him -- mel, da __ _ _  dein Va -- ter ist,
   und die Ge -- mein der From -- men,
 }
 
 sopranoLyricsThree = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-6 "13. Zieh" \tweak X-offset #0 uns dir nach, __ _ _   so lau -- fen wir,
   gieb uns des Glau -- bens Flü -- gel!
   Mein Gott! wann fahr ich doch __ _ da -- hin,
@@ -134,13 +134,13 @@ sopranoLyricsThree = \lyricmode {
 }
 
 sopranoLyricsFour = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   hilf, dass wir flie -- _ _ hen weit von hier,
   auf I -- sra -- e -- lis Hü -- gel.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-3.5 "1. Du" Le -- bens -- fürst, Herr Je -- su Christ,
   der du bist auf -- ge -- nom -- men
   wie soll ich dein -- en gro -- ßen Sieg,
@@ -150,13 +150,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Gen Him -- mel, da dein Va -- ter ist,
   und die Ge -- mein der From -- men,
 }
 
 altoLyricsThree = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-6 "13. Zieh" \tweak X-offset #0 uns dir nach, so lau -- fen wir,
   gieb uns des Glau -- bens Flü -- gel!
   Mein Gott! wann fahr ich doch da -- hin,
@@ -166,13 +166,13 @@ altoLyricsThree = \lyricmode {
 }
 
 altoLyricsFour = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   hilf, dass wir flie -- hen weit von hier,
   auf I -- sra -- e -- lis Hü -- gel.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-3.5 "1. Du" Le -- bens -- fürst, __ _ _ Herr Je -- su Christ,
   der du bist auf -- ge -- nom -- men
   wie soll ich dein -- en gro -- _ ßen Sieg,
@@ -182,13 +182,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Gen Him -- mel, da __ _ _ dein Va -- ter ist,
   und die Ge -- mein der From -- men,
 }
 
 tenorLyricsThree = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-6 "13. Zieh" \tweak X-offset #0 uns dir nach, __ _ _   so lau -- fen wir,
   gieb uns des Glau -- bens Flü -- gel!
   Mein Gott! wann fahr ich doch __ _ da -- hin,
@@ -198,13 +198,13 @@ tenorLyricsThree = \lyricmode {
 }
 
 tenorLyricsFour = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   hilf, dass wir flie -- _ _ hen weit von hier,
   auf I -- sra -- e -- lis Hü -- gel.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-3.5 "1. Du" Le -- bens -- fürst, __ _ _ Herr Je -- su Christ,
   der du bist auf -- ge -- nom -- men
   wie soll ich dein -- en gro -- ßen Sieg,
@@ -214,13 +214,13 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Gen Him -- mel, da __ _ _ dein Va -- ter ist,
   und die Ge -- mein der From -- men,
 }
 
 bassLyricsThree = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-6 "13. Zieh" \tweak X-offset #0 uns dir nach, __ _ _   so lau -- fen wir,
   gieb uns des Glau -- bens Flü -- gel!
   Mein Gott! wann fahr ich doch da -- hin,
@@ -230,7 +230,7 @@ bassLyricsThree = \lyricmode {
 }
 
 bassLyricsFour = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   hilf, dass wir flie -- _ _ hen weit von hier,
   auf I -- sra -- e -- lis Hü -- gel.
 }

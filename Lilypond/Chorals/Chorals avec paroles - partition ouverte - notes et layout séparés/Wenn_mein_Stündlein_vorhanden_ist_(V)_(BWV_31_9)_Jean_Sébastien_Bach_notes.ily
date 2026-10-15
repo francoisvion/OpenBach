@@ -62,7 +62,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   So fahr ich hin zu Je -- su Christ,
   mein' Arm tu ich aus -- stre -- cken;
   denn Je -- sus Chris -- tus, Got -- tes Sohn,
@@ -71,13 +71,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   so schlaf ich ein und ru -- he fein,
   kein Mensch kann mich auf -- we -- cken,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   So fahr ich hin zu Je -- su Christ,
   mein' Arm tu ich aus -- stre -- _ cken;
   denn Je -- sus Chris -- tus, Got -- tes Sohn,
@@ -86,13 +86,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   so schlaf ich ein und ru -- he fein,
   kein Mensch kann mich auf -- we -- _ cken,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   So fahr ich hin zu Je -- su Christ,
   mein' Arm tu ich aus -- stre -- _ cken;
   denn Je -- sus Chris -- tus, Got -- tes Sohn,
@@ -101,13 +101,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   so schlaf ich ein und ru -- he fein,
   kein Mensch kann mich auf -- we -- _ cken,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   So fahr ich hin zu Je -- su Christ,
   mein' Arm tu ich aus -- stre -- _ cken;
   denn Je -- sus Chris -- tus, Got -- tes Sohn,
@@ -116,7 +116,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   so schlaf ich ein und ru -- he fein,
   kein Mensch kann mich auf -- we -- _ cken,
 }

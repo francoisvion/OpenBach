@@ -75,7 +75,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ei nun, mein Gott, so fall ich dir
   ge -- trost in dei -- _ _ ne Hän -- de.
   wie du wohl weißt, __ _ _ dass mei -- nem Geist
@@ -85,13 +85,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   nimm mich und mach es so mit mir
   bis an mein letz -- _ _ tes En -- de,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ei nun, mein Gott, so fall ich dir
   ge -- trost in dei -- _ ne Hän -- de.
   wie du wohl weißt, __ _ _ dass mei -- nem Geist
@@ -101,13 +101,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   nimm mich und mach es so mit mir
   bis an mein letz -- _ tes En -- de,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ei nun, mein Gott, so fall ich dir
   ge -- trost in dei -- _ _ ne Hän -- de.
   wie du wohl weißt, __ _ _ dass mei -- nem Geist
@@ -117,13 +117,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   nimm mich und mach es so mit mir
   bis an mein letz -- _ _ tes En -- de,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ei nun, mein Gott, so fall ich dir
   ge -- trost in dei -- _ _ ne Hän -- de.
   wie du wohl weißt, __ _ _ dass mei -- nem Geist
@@ -133,7 +133,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   nimm mich und mach es so mit mir
   bis an mein letz -- _ _ tes En -- de,
 }

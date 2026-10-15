@@ -76,7 +76,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was Gott tut, das ist wohl -- ge -- tan;
   muss ich den Kelch gleich schme -- cken,
   weil doch zu -- letzt ich werd er -- götzt mit sü -- ßem Trost im Her -- zen;
@@ -84,13 +84,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der bit -- ter ist nach mei -- nem Wahn,
   lass ich mich doch nicht schre -- cken,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was Gott tut, das ist wohl -- ge -- tan;
   muss ich __ _ den Kelch gleich schme -- _ cken,
   weil doch zu -- letzt ich werd er -- götzt mit sü -- ßem Trost im Her -- _ zen;
@@ -98,13 +98,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der bit -- ter ist nach mei -- nem Wahn,
   lass ich __ _ mich doch nicht schre -- _ cken,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was Gott tut, das ist wohl -- ge -- tan;
   muss ich den Kelch gleich schme -- _ cken,
   weil doch zu -- letzt ich werd er -- götzt mit sü -- ßem Trost im Her -- zen;
@@ -112,13 +112,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der bit -- ter ist nach mei -- nem Wahn,
   lass ich mich doch nicht schre -- _ cken,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was Gott tut, das ist wohl -- ge -- tan;
   muss ich den Kelch gleich schme -- _ cken,
   weil doch zu -- letzt ich werd er -- götzt mit sü -- ßem Trost im Her -- zen;
@@ -126,7 +126,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   der bit -- ter ist nach mei -- nem Wahn,
   lass ich mich doch nicht schre -- _ cken,
 }

@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Singt dem Herrn ein neu -- es Lied:
   die Ge -- mei -- ne soll ihn lo -- ben,
   Is -- ra -- el er -- freu' sich des -- sen,
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   weil er ih -- ren Gren -- zen Fried'
   hat ver -- lie -- hen hoch von o -- ben.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Singt dem Herrn ein neu -- es Lied:
   die Ge -- mei -- ne soll ihn lo -- _ ben,
   Is -- ra -- el er -- freu' sich des -- _ sen,
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   weil er ih -- ren Gren -- zen Fried'
   hat ver -- lie -- hen hoch von o -- _ ben.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Singt dem Herrn ein neu -- es Lied:
   die Ge -- mei -- ne soll ihn lo -- _ ben,
   Is -- ra -- el er -- freu' sich des -- _ sen,
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   weil er ih -- ren Gren -- zen Fried'
   hat ver -- lie -- hen hoch von o -- _ ben.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Singt dem Herrn ein neu -- es Lied:
   die Ge -- mei -- ne soll ihn lo -- _ ben,
   Is -- ra -- el er -- freu' sich des -- _ sen,
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   weil er ih -- ren Gren -- zen Fried'
   hat ver -- lie -- hen hoch von o -- _ ben.
 }

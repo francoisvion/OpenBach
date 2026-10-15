@@ -55,7 +55,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Er -- leucht auch un -- sern Sinn und Herz
   durch den Geist dei -- ner Gnad,
   O Je -- su Christ, al -- lein du bist,
@@ -63,13 +63,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass wir nicht trei -- ben draus ein Scherz,
   der uns -- rer See -- len schad.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Er -- leucht auch un -- sern Sinn und Herz
   durch den Geist dei -- ner Gnad,
   O Je -- su Christ, al -- lein du bist,
@@ -77,13 +77,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass wir nicht trei -- ben draus ein Scherz,
   der uns -- rer See -- len schad.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Er -- leucht auch un -- sern Sinn und Herz
   durch den Geist dei -- ner Gnad,
   O Je -- su Christ, al -- lein du bist,
@@ -91,13 +91,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass wir nicht trei -- ben draus ein Scherz,
   der uns -- rer See -- len schad.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Er -- leucht auch un -- sern Sinn und Herz
   durch den Geist dei -- ner Gnad,
   O Je -- su Christ, al -- lein du bist,
@@ -105,7 +105,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass wir nicht trei -- ben draus ein Scherz,
   der uns -- rer See -- len schad.
 }

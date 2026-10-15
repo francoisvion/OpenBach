@@ -104,7 +104,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- sus rich -- te mein Be -- _ gin -- nen,
   Je -- sus blei -- be stets bei mir,
   Je -- sus sei mir in Ge -- _ dan -- ken,
@@ -112,13 +112,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Je -- sus zäu -- me mir die _ Sin -- nen,
   Je -- sus sei nur mein Be -- gier,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- sus rich -- _ te mein Be -- _ gin -- nen,
   Je -- sus blei -- _ be stets bei __ _ mir,
   Je -- sus __ _ sei __ _ mir in Ge -- _ dan -- _ _ ken,
@@ -126,13 +126,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Je -- sus zäu -- _ me mir die _ Sin -- nen,
   Je -- sus sei __ _ nur mein Be -- _ gier,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- sus rich -- _ te mein Be -- gin -- _ _ nen,
   Je -- sus blei -- _ be stets bei mir,
   Je -- sus sei mir __ in Ge -- dan -- _ _ ken,
@@ -140,13 +140,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Je -- sus zäu -- _ me mir die Sin -- _ _ nen,
   Je -- sus sei __ _ nur mein Be -- gier,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- sus _ rich -- te mein Be -- _ gin -- _ _ nen,
   Je -- sus _ blei -- _ be stets bei __ _ mir,
   Je -- sus _ sei __ _ mir in Ge -- _ dan -- _ _ ken,
@@ -154,7 +154,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Je -- sus _ zäu -- me mir die _ Sin -- _ _ nen,
   Je -- sus _ sei __ _ nur mein Be -- _ gier,
 }

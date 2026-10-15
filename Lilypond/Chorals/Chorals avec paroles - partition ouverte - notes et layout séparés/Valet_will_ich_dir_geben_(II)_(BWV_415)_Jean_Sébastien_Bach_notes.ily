@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Va -- let will ich dir ge -- ben,
   du ar -- ge, fal -- sche Welt,
   Im Him -- mel ist gut woh -- _ nen,
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Dein sünd -- lich bö -- ses Le -- ben
   Durch -- aus mir nicht ge -- fällt.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Va -- let will ich dir ge -- _ ben,
   du ar -- ge, fal -- sche Welt,
   Im Him -- mel ist gut woh -- _ nen,
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Dein sünd -- lich bö -- ses Le -- _ ben
   Durch -- aus mir nicht ge -- fällt.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Va -- let will ich dir ge -- _ ben,
   du ar -- ge, fal -- sche Welt,
   Im Him -- mel ist gut woh -- _ nen,
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Dein sünd -- lich bö -- ses Le -- _ ben
   Durch -- aus mir nicht ge -- fällt.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Va -- let will ich dir ge -- _ ben,
   du ar -- ge, fal -- sche Welt,
   Im Him -- mel ist gut woh -- _ nen,
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Dein sünd -- lich bö -- ses Le -- _ ben
   Durch -- aus mir nicht ge -- fällt.
 }

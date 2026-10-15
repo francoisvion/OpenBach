@@ -47,7 +47,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Auf mein Herz des Her -- ren Tag
   hat die Nacht der Furcht ver -- trie -- ben:
   Nun -- mehr bin ich recht ge -- tröst,
@@ -55,13 +55,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Chri -- stus, der ver -- gra -- ben lag,
   ist im To -- de nicht ge -- blie -- ben.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Auf mein Herz __ _ des Her -- ren Tag
   hat die Nacht der Furcht ver -- trie -- ben:
   Nun -- mehr __ _ bin ich recht ge -- tröst,
@@ -69,13 +69,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Chri -- stus, der __ _ ver -- gra -- ben lag,
   ist im To -- de nicht ge -- blie -- ben.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Auf mein Herz __ _ des Her -- ren Tag
   hat die Nacht der Furcht ver -- trie -- ben:
   Nun -- mehr bin ich recht ge -- tröst,
@@ -83,13 +83,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Chri -- stus, der __ _ ver -- gra -- ben lag,
   ist im To -- de nicht ge -- blie -- _ ben.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Auf mein Herz des Her -- ren Tag
   hat die Nacht der Furcht ver -- trie -- ben:
   Nun -- mehr bin ich recht ge -- tröst,
@@ -97,7 +97,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Chri -- stus, der ver -- gra -- ben lag,
   ist im To -- de nicht ge -- blie -- ben.
 }

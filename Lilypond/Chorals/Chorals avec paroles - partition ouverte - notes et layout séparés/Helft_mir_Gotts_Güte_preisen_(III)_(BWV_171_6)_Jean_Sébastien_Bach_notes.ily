@@ -157,7 +157,7 @@ bassMusic = {
   r2 r4\fermata \fine
 }
 
-sopranoLyricsOne = \lyricmode {\set stanza = 1
+sopranoLyricsOne = \lyricmode {\stanza "1."
   Lass uns das Jahr voll -- brin -- gen
   zu Lob dem Na -- men dein,
   dass wir dem -- sel -- ben sin -- gen
@@ -171,12 +171,12 @@ sopranoLyricsOne = \lyricmode {\set stanza = 1
   Die Teu -- fel mach zu -- schan -- den hier und an al -- lem Ort!
 }
 
-sopranoLyricsTwo = \lyricmode {\set stanza = 2
+sopranoLyricsTwo = \lyricmode {\stanza "2."
   Wollst uns das Le -- ben fris -- ten durch dein all -- mäch -- tig Hand,
   er -- halt dein lie -- be Chris -- ten und un -- ser Va -- ter -- land!
 }
 
-altoLyricsOne = \lyricmode {\set stanza = 1
+altoLyricsOne = \lyricmode {\stanza "1."
   Lass uns das Jahr voll -- brin -- _ gen
   zu Lob dem Na -- men dein,
   dass wir dem -- sel -- ben sin -- _ gen
@@ -190,12 +190,12 @@ altoLyricsOne = \lyricmode {\set stanza = 1
   Die Teu -- fel mach zu -- schan -- den hier und an al -- lem Ort!
 }
 
-altoLyricsTwo = \lyricmode {\set stanza = 2
+altoLyricsTwo = \lyricmode {\stanza "2."
   Wollst uns das Le -- ben fris -- _ ten durch dein all -- mäch -- tig Hand,
   er -- halt dein lie -- be Chris -- _ ten und un -- ser Va -- ter -- land!
 }
 
-tenorLyricsOne = \lyricmode {\set stanza = 1
+tenorLyricsOne = \lyricmode {\stanza "1."
   Lass uns das Jahr voll -- brin -- _ gen
   zu Lob dem Na -- men dein,
   dass wir dem -- sel -- ben sin -- _ gen
@@ -209,12 +209,12 @@ tenorLyricsOne = \lyricmode {\set stanza = 1
   Die Teu -- fel mach zu -- schan -- den hier und an al -- lem Ort!
 }
 
-tenorLyricsTwo = \lyricmode {\set stanza = 2
+tenorLyricsTwo = \lyricmode {\stanza "2."
   Wollst uns das Le -- ben fris -- _ ten durch dein all -- mäch -- tig Hand,
   er -- halt dein lie -- be Chris -- _ ten und un -- ser Va -- ter -- land!
 }
 
-bassLyricsOne = \lyricmode {\set stanza = 1
+bassLyricsOne = \lyricmode {\stanza "1."
   Lass uns das Jahr voll -- brin -- _ gen
   zu Lob dem Na -- men dein,
   dass wir dem -- sel -- ben sin -- gen
@@ -228,7 +228,7 @@ bassLyricsOne = \lyricmode {\set stanza = 1
   Die Teu -- fel mach zu -- schan -- den hier und an al -- lem Ort!
 }
 
-bassLyricsTwo = \lyricmode {\set stanza = 2
+bassLyricsTwo = \lyricmode {\stanza "2."
   Wollst uns das Le -- ben fris -- _ ten durch dein all -- mäch -- tig Hand,
   er -- halt dein lie -- be Chris -- ten und un -- ser Va -- ter -- land!
 }

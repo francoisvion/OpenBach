@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wenn ich ein -- mal soll schei -- den,
   so schei -- de nicht von mir;
   Wenn mir am al -- ler -- bäng -- sten
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wenn ich den Tod soll lei -- den,
   so tritt du dann her -- für;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wenn ich ein -- mal soll schei -- _ den,
   so schei -- de nicht von mir;
   Wenn mir am al -- ler -- bäng -- _ sten
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wenn ich den Tod soll lei -- _ den,
   so tritt du dann her -- für;
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wenn ich ein -- mal soll schei -- _ den,
   so schei -- de nicht von mir;
   Wenn mir am al -- ler -- bäng -- _ _ sten
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wenn ich den Tod soll lei -- _ den,
   so tritt du dann her -- für;
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wenn ich ein -- mal soll schei -- _ den,
   so schei -- de nicht von mir;
   Wenn mir am al -- ler -- bäng -- _ sten
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wenn ich den Tod soll lei -- _ den,
   so tritt du dann her -- für;
 }

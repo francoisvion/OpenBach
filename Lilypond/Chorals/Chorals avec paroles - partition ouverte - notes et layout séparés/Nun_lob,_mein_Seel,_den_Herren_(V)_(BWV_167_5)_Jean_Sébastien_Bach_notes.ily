@@ -179,7 +179,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Sei Lob und Preis mit Eh -- _ ren Gott Va -- ter, Sohn, __ _ Hei -- li -- ger Geist!
   Dass wir ihm fest ver -- trau -- _ en, gänz -- lich __ _ ver -- las -- sen auf ihn,
   von Her -- zen auf __ _ ihn bau -- _ _ en,
@@ -190,12 +190,12 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Der woll in uns ver -- meh -- _ ren, was er uns aus __ _ Ge -- nad ver -- heißt,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Sei Lob __ _ und Preis __ mit Eh -- _ _ ren Gott Va -- _ ter, Sohn, Hei -- li -- ger __ _ Geist!
   Dass wir ihm fest __ _ ver -- trau -- _ en, gänz -- lich __ ver -- las -- sen auf ihn,
   von Her -- zen auf __ _ ihn bau -- _ _ en,
@@ -206,12 +206,12 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Der woll __ _ in uns __ ver -- meh -- _ _ ren, was er __ _ uns aus Ge -- nad ver -- _ heißt,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Sei Lob __ und Preis __ mit Eh -- _ _ ren Gott Va -- _ ter, Sohn, __ _ Hei -- li -- ger __ _ Geist!
   Dass wir __ _ ihm fest ver -- trau -- _ _ en, gänz -- lich ver -- las -- sen auf ihn,
   von Her -- _ zen auf ihn bau -- _ _ en,
@@ -222,12 +222,12 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Der woll __ in uns __ ver -- meh -- _ _ ren, was er __ _ uns aus __ _ Ge -- nad ver -- _ heißt,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Sei Lob __ und Preis __ mit Eh -- ren Gott Va -- _ ter, Sohn, Hei -- li -- ger __ _ Geist!
   Dass wir __ ihm fest __ ver -- trau -- en, gänz -- lich __ ver -- las -- sen auf ihn,
   von Her -- _ zen auf __ _ ihn bau -- _ _ en,
@@ -238,6 +238,6 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Der woll __ in uns __ ver -- meh -- ren, was er __ _ uns aus Ge -- nad ver -- _ heißt,
 }

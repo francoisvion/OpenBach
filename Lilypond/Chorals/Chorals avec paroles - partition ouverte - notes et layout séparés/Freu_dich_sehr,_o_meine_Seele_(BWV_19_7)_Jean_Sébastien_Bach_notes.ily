@@ -123,7 +123,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lass dein En -- gel mit mir fah -- ren,
   auf E -- li -- as Wa -- gen rot,
   Lass sie ruhn in dei -- nem Schoß,
@@ -133,13 +133,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Und mein See -- le wohl be -- wah -- ren,
   wie Laz -- rum nach sei -- nem Tod,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lass dein En -- gel mit _ mir fah -- _ ren,
   auf E -- li -- as Wa -- gen __ _ rot,
   Lass sie ruhn in dei -- nem _ Schoß,
@@ -149,13 +149,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Und mein See -- le wohl _ be -- wah -- _ ren,
   wie Laz -- rum nach sei -- nem __ _ Tod,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lass dein En -- _ gel mit _ mir fah -- _ ren,
   auf E -- li -- as Wa -- gen rot,
   Lass sie ruhn in dei -- nem Schoß,
@@ -165,13 +165,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Und mein See -- _ le wohl _ be -- wah -- _ ren,
   wie Laz -- rum nach sei -- nem Tod,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lass dein En -- gel mit _ mir fah -- _ ren,
   auf E -- li -- _ as Wa -- gen __ _ rot,
   Lass sie ruhn in dei -- nem _ Schoß,
@@ -181,7 +181,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Und mein See -- le wohl _ be -- wah -- _ ren,
   wie Laz -- rum _ nach sei -- nem __ _ Tod,
 }

@@ -88,7 +88,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun seid ihr wohl ge -- ro -- chen
   an eu -- rer Fein -- de Schar,
   Tod, Teu -- fel, Sünd und Höl -- le
@@ -98,13 +98,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   denn Chris -- tus hat zer -- bro -- chen,
   was euch zu -- wi -- der war.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun seid ihr wohl ge -- ro -- _ chen,
   an eu -- rer Fein -- de Schar,
   Tod, Teu -- fel, Sünd und Höl -- _ le
@@ -114,13 +114,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   denn Chris -- tus hat zer -- bro -- _ chen,
   was euch zu -- wi -- der war.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun seid ihr wohl ge -- ro -- chen,
   an eu -- rer Fein -- de Schar,
   Tod, Teu -- fel, Sünd und Höl -- _ le
@@ -130,13 +130,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   denn Chris -- tus hat zer -- bro -- chen,
   was euch zu -- wi -- der war.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun seid ihr wohl ge -- ro -- _ chen,
   an eu -- rer Fein -- de Schar,
   Tod, Teu -- fel, Sünd und Höl -- le
@@ -146,7 +146,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   denn Chris -- tus hat zer -- bro -- _ chen,
   was euch zu -- wi -- der war.
 }

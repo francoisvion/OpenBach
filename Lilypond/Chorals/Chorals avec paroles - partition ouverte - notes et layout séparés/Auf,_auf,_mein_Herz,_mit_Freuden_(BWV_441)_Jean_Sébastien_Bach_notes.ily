@@ -93,7 +93,7 @@ bassMusic = \relative c {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Auf, auf, __ _ mein Herz, mit Freu -- den,
   nimm wahr, __ _ was heut ge -- _ schicht,
   Mein Hei -- land ward __ _ ge -- legt,
@@ -103,13 +103,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wie kommt __ _ nach gro -- ßen Lei -- den
   nun ein __ _ so gro -- ßes __ _ Licht!
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Auf, auf, mein Herz, mit Freu -- _ den,
   nimm wahr, __ _ was heut ge -- _ schicht,
   Mein Hei -- _ land ward __ _ ge -- legt,
@@ -119,13 +119,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wie kommt nach gro -- ßen Lei -- _ den
   nun ein __ _ so gro -- ßes __ _ Licht!
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Auf, auf, mein Herz, mit Freu -- _ den,
   nimm wahr, __ _ was heut ge -- schicht,
   Mein Hei -- _ land ward __ _ ge -- legt,
@@ -135,13 +135,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wie kommt nach gro -- ßen Lei -- _ den
   nun ein __ _ so gro -- ßes __ Licht!
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Auf, auf, mein Herz, __ _ mit Freu -- _ den,
   nimm wahr, __ was heut ge -- _ schicht,
   Mein Hei -- land ward __ ge -- legt,
@@ -151,7 +151,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wie kommt nach gro -- _ ßen Lei -- _ den
   nun ein __ so gro -- ßes __ _ Licht!
 }

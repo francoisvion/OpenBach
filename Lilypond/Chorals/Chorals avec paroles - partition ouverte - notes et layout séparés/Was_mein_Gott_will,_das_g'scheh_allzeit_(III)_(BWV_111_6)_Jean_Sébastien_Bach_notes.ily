@@ -79,7 +79,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Noch eins, Herr, will ich bit -- ten dich,
   du wirst mir's nicht ver -- sa -- _ _ _ gen:
   Hilf, steur und wehr, __ _ _ ach Gott, mein Herr,
@@ -89,13 +89,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wenn mich der bö -- se Geist an -- ficht,
   lass mich doch nicht ver -- za -- _ _ _ gen.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Noch eins, Herr, will ich bit -- ten dich,
   du wirst mir's nicht ver -- sa -- _ _ gen:
   Hilf, steur und wehr, __ _ _ ach Gott, mein Herr,
@@ -105,13 +105,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wenn mich der bö -- se Geist an -- ficht,
   lass mich doch nicht ver -- za -- _ _ gen.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Noch eins, Herr, will ich bit -- ten dich,
   du wirst mir's nicht ver -- sa -- _ gen:
   Hilf, steur und wehr, __ _ _ ach Gott, mein Herr,
@@ -121,13 +121,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wenn mich der bö -- se Geist an -- ficht,
   lass mich doch nicht ver -- za -- _ gen.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Noch eins, Herr, will ich bit -- ten dich,
   du wirst mir's nicht ver -- sa -- _ gen:
   Hilf, steur und wehr, __ _ ach Gott, mein Herr,
@@ -137,7 +137,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wenn mich der bö -- se Geist an -- ficht,
   lass mich doch nicht ver -- za -- _ gen.
 }

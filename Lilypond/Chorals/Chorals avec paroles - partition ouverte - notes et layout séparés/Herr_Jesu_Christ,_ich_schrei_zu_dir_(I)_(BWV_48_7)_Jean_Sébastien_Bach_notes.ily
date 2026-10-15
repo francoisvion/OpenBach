@@ -63,7 +63,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Je -- su Christ, ei -- ni -- ger Trost,
   zu dir will ich mich wen -- den;
   In dei -- nen Wil -- len seis ge -- stellt,
@@ -72,13 +72,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   mein Herz -- leid ist dir wohl be -- wusst,
   du kannst und wirst es en -- den.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Je -- su Christ, ei -- ni -- ger Trost,
   zu dir will ich mich wen -- _ den;
   In dei -- nen Wil -- len seis ge -- stellt,
@@ -87,13 +87,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   mein Herz -- leid ist dir wohl be -- wusst,
   du kannst und wirst es en -- _ den.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Je -- su Christ, ei -- ni -- ger Trost,
   zu dir will ich mich wen -- _ den;
   In dei -- nen Wil -- len seis ge -- stellt,
@@ -102,13 +102,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   mein Herz -- leid ist dir wohl be -- wusst,
   du kannst und wirst es en -- _ den.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Je -- su Christ, ei -- ni -- ger Trost,
   zu dir will ich mich wen -- _ den;
   In dei -- nen Wil -- len seis ge -- stellt,
@@ -117,7 +117,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   mein Herz -- leid ist dir wohl be -- wusst,
   du kannst und wirst es en -- _ den.
 }

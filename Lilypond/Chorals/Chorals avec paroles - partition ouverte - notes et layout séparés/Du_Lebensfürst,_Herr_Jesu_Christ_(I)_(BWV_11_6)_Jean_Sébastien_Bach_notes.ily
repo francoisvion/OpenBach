@@ -104,7 +104,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun lie -- get al -- _ les un -- ter dir,
   dich selbst nur aus -- ge -- nom -- men;
   Die Für -- sten stehn auch auf _ der Bahn,
@@ -114,13 +114,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Die En -- gel müs -- _ sen für und für dir
   auf -- zu -- war -- ten kom -- men.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun lie -- get al -- les un -- ter dir,
   dich selbst nur aus -- _ ge -- nom -- _ _ men;
   Die Für -- sten stehn __ _ auch __ auf der Bahn,
@@ -130,13 +130,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Die En -- gel müs -- sen für und für dir
   auf -- zu -- war -- _ ten kom -- _ _ men.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun lie -- get al -- _ les un -- _ ter dir,
   dich selbst __ _ nur __ aus -- ge -- nom -- _ _ men;
   Die Für -- sten stehn __ _ auch auf der Bahn,
@@ -146,13 +146,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Die En -- gel müs -- _ sen für __ _ und für dir
   auf -- _ zu -- war -- ten kom -- _ _ men.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun lie -- get al -- _ les un -- _ ter dir,
   dich selbst nur _ aus -- _ ge -- nom -- _ _ men;
   Die Für -- sten stehn __ _ _ auch auf der Bahn,
@@ -162,7 +162,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Die En -- gel müs -- _ sen für __ _ und für dir
   auf -- zu -- _ war -- _ ten kom -- _ _ men.
 }

@@ -59,7 +59,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun freut euch, lie -- ben Chri -- sten g'mein,
   und lasst uns frö -- hlich sprin -- _ gen,
   was Gott an uns ge -- wen -- det hat
@@ -68,13 +68,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass wir ge -- trost und all in Ein
   mit Lust und Lie -- be sin -- _ gen:
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun freut euch, lie -- ben Chri -- sten g'mein,
   und lasst uns frö -- hlich sprin gen,
   was Gott an uns ge -- wen -- det hat
@@ -83,13 +83,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass wir ge -- trost und all in Ein
   mit Lust und Lie -- be sin -- gen:
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun freut euch, lie -- ben Chri -- sten g'mein,
   und lasst uns frö -- hlich sprin -- _ gen,
   was Gott an uns ge -- wen -- det hat
@@ -98,13 +98,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass wir ge -- trost und all in Ein
   mit Lust und Lie -- be sin -- _ gen:
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Nun freut euch, lie -- ben Chri -- sten g'mein,
   und lasst uns frö -- hlich sprin -- _ gen,
   was Gott an uns ge -- wen -- det hat
@@ -113,7 +113,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass wir ge -- trost und all in Ein
   mit Lust und Lie -- be sin -- _ gen:
 }

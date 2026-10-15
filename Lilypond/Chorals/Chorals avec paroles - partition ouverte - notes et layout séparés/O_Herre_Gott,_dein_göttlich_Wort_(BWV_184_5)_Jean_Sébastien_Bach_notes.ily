@@ -79,7 +79,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr, ich hoff je, du wer -- dest die
   in kei -- ner Not ver -- las -- _ _ sen,
   gibst ihn' be -- reit
@@ -90,13 +90,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   die dein Wort recht als treu -- e Knecht
   im Herzn und Glau -- ben fas -- _ _ sen;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr, ich hoff je, du wer -- dest die
   in kei -- ner Not ver -- las -- _ _ _ sen,
   gibst ihn' be -- reit
@@ -107,13 +107,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   die dein Wort recht als treu -- e Knecht
   im Herzn und Glau -- ben fas -- _ _ _ sen;
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr, ich hoff je, du wer -- dest die
   in kei -- ner Not ver -- las -- _ sen,
   gibst ihn' be -- reit
@@ -124,13 +124,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   die dein Wort recht als treu -- e Knecht
   im Herzn und Glau -- ben fas -- _ sen;
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr, ich hoff je, du wer -- dest die
   in kei -- ner Not ver -- las -- _ _ sen,
   gibst ihn' be -- reit
@@ -141,7 +141,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   die dein Wort recht als treu -- e Knecht
   im Herzn und Glau -- ben fas -- _ _ sen;
 }

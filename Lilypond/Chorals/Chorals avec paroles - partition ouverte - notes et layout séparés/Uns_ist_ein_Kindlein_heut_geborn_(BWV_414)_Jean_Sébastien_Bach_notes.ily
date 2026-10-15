@@ -59,7 +59,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Uns ist ein Kind -- lein heut' ge -- bor'n
   von ei -- ner Jung -- _ _ frau aus -- er -- kor'n.
   Lob, Preis und Dank sei Gott be -- reitt
@@ -67,13 +67,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Des freu -- en sich die En -- ge -- lein,
   soll -- ten wir Men -- _ schen nicht fröh -- lich sein?
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Uns ist ein Kind -- lein heut' ge -- bor'n
   von ei -- ner Jung -- _ frau aus -- er -- kor'n.
   Lob, Preis und Dank sei Gott be -- reitt
@@ -81,13 +81,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Des freu -- en sich die En -- ge -- lein,
   soll -- ten wir Men -- schen nicht fröh -- lich sein?
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Uns ist ein Kind -- lein heut' ge -- bor'n
   von ei -- ner Jung -- _ frau aus -- er -- kor'n.
   Lob, Preis und Dank sei Gott be -- reitt
@@ -95,13 +95,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Des freu -- en sich die En -- ge -- lein,
   soll -- ten wir Men -- schen nicht fröh -- lich sein?
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Uns ist ein Kind -- lein heut' ge -- bor'n
   von ei -- ner Jung -- _ _ frau aus -- er -- kor'n.
   Lob, Preis und Dank sei Gott be -- reitt
@@ -109,7 +109,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Des freu -- en sich die En -- ge -- lein,
   soll -- ten wir Men -- _ schen nicht fröh -- lich sein?
 }

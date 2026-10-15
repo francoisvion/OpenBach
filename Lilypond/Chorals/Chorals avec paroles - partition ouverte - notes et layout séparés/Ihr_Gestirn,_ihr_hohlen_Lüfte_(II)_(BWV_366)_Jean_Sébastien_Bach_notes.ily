@@ -83,7 +83,7 @@ bassMusic = \relative c {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ihr Ge -- stirn', ihr hoh -- len Lüf -- te
   und du, lich -- tes Fir -- ma -- ment;
   Jauch -- zet fröh -- lich, lasst das Sin -- gen
@@ -91,13 +91,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   tie -- fes Rund, ihr dun -- klen Klüf -- te,
   die der Wie -- der -- hall zer -- trennt.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ihr Ge -- stirn', ihr hoh -- _ len Lüf -- te
   und du, lich -- _ tes Fir -- ma -- ment;
   Jauch -- _ zet __ fröh -- _ lich, lasst __ _ das Sin -- gen
@@ -105,13 +105,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   tie -- fes Rund, ihr dun -- _ klen Klüf -- te,
   die der Wie -- _ der -- hall zer -- trennt.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ihr _ Ge -- stirn', ihr hoh -- _ len Lüf -- te
   und du, lich -- _ _ tes Fir -- ma -- ment;
   Jauch -- zet fröh -- _ lich, lasst das Sin -- gen
@@ -119,13 +119,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   tie -- _ fes Rund, ihr dun -- _ klen Klüf -- te,
   die der Wie -- _ _ der -- hall zer -- trennt.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ihr _ Ge -- stirn', _ ihr hoh -- _ len Lüf -- te
   und __ _ du, lich -- tes Fir -- ma -- ment;
   Jauch -- _ zet fröh -- _ lich, lasst _ das Sin -- gen
@@ -133,7 +133,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   tie -- _ fes Rund, _ ihr dun -- _ klen Klüf -- te,
   die __ _ der Wie -- der -- hall zer -- trennt.
 }

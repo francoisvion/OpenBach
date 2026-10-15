@@ -63,7 +63,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ach, ich ha -- be schon er -- bli -- cket
   die -- se gro -- ße Herr -- lich -- keit.
   mit der güld -- nen Eh -- ren -- kro -- ne
@@ -73,13 +73,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Jetz -- und werd ich schön ge -- schmü -- cket
   mit dem wei -- ßen Him -- mels -- kleid;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ach, ich ha -- be schon er -- bli -- cket
   die -- se gro -- ße Herr -- lich -- keit.
   mit der güld -- nen Eh -- ren -- kro -- ne
@@ -89,13 +89,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Jetz -- und werd ich schön ge -- schmü -- cket
   mit dem wei -- ßen Him -- mels -- kleid;
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ach, ich ha -- be schon er -- bli -- cket
   die -- se gro -- ße Herr -- lich -- keit.
   mit der güld -- nen Eh -- ren -- kro -- ne
@@ -105,13 +105,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Jetz -- und werd ich schön ge -- schmü -- cket
   mit dem wei -- ßen Him -- mels -- kleid;
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ach, ich ha -- be schon er -- bli -- cket
   die -- se gro -- ße Herr -- lich -- keit.
   mit der güld -- nen Eh -- ren -- kro -- ne
@@ -121,7 +121,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Jetz -- und werd ich schön ge -- schmü -- cket
   mit dem wei -- ßen Him -- mels -- kleid;
 }

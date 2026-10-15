@@ -59,7 +59,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Er tödt uns durch dein Gü -- te,
   er -- weckt uns durch dein Gnad;
   wohl hier auf die -- ser Er -- den,
@@ -68,13 +68,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   den al -- ten Men -- schen krän -- ke,
   dass der neu' Le -- ben hab
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Er tödt uns durch dein Gü -- _ te,
   er -- weckt uns durch dein Gnad;
   wohl hier auf die -- ser Er -- _ den,
@@ -83,13 +83,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   den al -- ten Men -- schen krän -- _ ke,
   dass der neu' Le -- ben hab
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Er tödt uns durch dein Gü -- _ te,
   er -- weckt uns durch dein Gnad;
   wohl hier auf die -- ser Er -- den,
@@ -98,13 +98,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   den al -- ten Men -- schen krän -- _ ke,
   dass der neu' Le -- ben hab
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Er tödt uns durch dein Gü -- _ te,
   er -- weckt uns durch dein Gnad;
   wohl hier auf die -- ser Er -- _ den,
@@ -113,7 +113,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   den al -- ten Men -- schen krän -- _ ke,
   dass der neu' Le -- ben hab
 }

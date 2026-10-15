@@ -71,7 +71,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Komm, o Tod, du Schla -- fes Bru -- der,
   Komm und füh -- re mich nur fort;
   Es mag, __ _ wer da will, dich scheu -- en,
@@ -80,14 +80,14 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   lö -- se mei -- nes Schiff -- leins Ru -- der,
   brin -- ge mich an si -- chern Port!
   du kannst __ _ mich viel mehr er -- freu -- en;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Komm, o Tod, du Schla -- fes Bru -- _ der,
   Komm und füh -- re mich nur fort;
   Es mag, __ _ wer da will, dich scheu -- _ en,
@@ -96,14 +96,14 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   lö -- se mei -- nes Schiff -- leins Ru -- _ der,
   brin -- ge mich an si -- chern Port!
   du kannst __ _ mich viel mehr er -- freu -- _ en;
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Komm, o Tod, du Schla -- fes Bru -- _ der,
   Komm und füh -- re mich nur fort;
   Es mag, wer da will, dich scheu -- _ en,
@@ -112,14 +112,14 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   lö -- se mei -- nes Schiff -- leins Ru -- _ der,
   brin -- ge mich an si -- chern Port!
   du kannst mich viel mehr er -- freu -- _ en;
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Komm, o Tod, du Schla -- fes Bru -- der,
   Komm und füh -- re mich nur fort;
   Es __ _ mag, __ _ wer da will, dich scheu -- _ en,
@@ -128,7 +128,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   lö -- se mei -- nes Schiff -- leins Ru -- der,
   brin -- ge mich an si -- chern Port!
   du __ _ kannst __ _ mich viel mehr er -- freu -- _ en;

@@ -73,7 +73,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich bitt, o Herr, aus Her -- zens Grund,
   du wollst nicht von mir neh -- _ men
   mein Sünd und Schuld, denn in dein Huld
@@ -83,13 +83,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dein heil -- ges Wort aus mei -- nem Mund;
   so wird mich nicht be -- schä -- _ men
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich bitt, o Herr, aus Her -- zens Grund,
   du wollst nicht von mir neh -- _ men
   mein Sünd und Schuld, denn in dein Huld
@@ -99,13 +99,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dein heil -- ges Wort aus mei -- nem Mund;
   so wird mich nicht be -- schä -- _ men
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich bitt, o Herr, aus Her -- zens Grund,
   du wollst nicht von mir neh -- _ _ men
   mein Sünd und Schuld, denn in dein Huld
@@ -115,13 +115,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dein heil -- ges Wort aus mei -- nem Mund;
   so wird mich nicht be -- schä -- _ _ men
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich bitt, o Herr, aus Her -- zens Grund,
   du wollst nicht von mir neh -- men
   mein Sünd und Schuld, denn in dein Huld
@@ -131,7 +131,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dein heil -- ges Wort aus mei -- nem Mund;
   so wird mich nicht be -- schä -- men
 }

@@ -83,7 +83,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Dir, dir, _ Je -- ho -- va, will _ ich sin -- gen,
   denn wo ist doch ein sol -- cher Gott wie du?
   dass ich __ _ es tu im Na -- men Je -- su Christ,
@@ -91,37 +91,37 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dir will _ ich mei -- ne Lie -- _ der brin -- gen
   ach gib mir dei -- nes Geis -- tes Kraft da -- zu,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Dir, dir, _ Je -- ho -- va, will _ ich sin -- _ gen, denn wo ist doch ein sol -- cher Gott wie du? dass ich __ es tu im Na -- men Je -- su Christ, so wie es __ _ dir durch inn ge -- fäl -- lig ist.
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dir will _ ich mei -- ne Lie -- _ der brin -- _ gen ach gib mir dei -- nes Geis -- tes Kraft da -- zu,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Dir, dir, _ Je -- ho -- va, _ will ich sin -- _ gen, denn wo ist doch ein sol -- cher Gott wie du? dass ich __ _ es tu im Na -- men Je -- su Christ, so wie es __ dir durch inn ge -- fäl -- lig ist.
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dir will _ ich mei -- ne _ Lie -- der brin -- _ gen ach gib mir dei -- nes Geis -- tes Kraft da -- zu,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Dir, dir, _ Je -- ho -- va, _ will _ ich sin -- gen, denn wo ist doch ein sol -- cher Gott wie du? dass ich __ _ es tu im Na -- men Je -- su Christ, so wie es __ dir durch inn ge -- fäl -- lig ist.
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dir will _ ich mei -- ne _ Lie -- _ der brin -- gen ach gib mir dei -- nes Geis -- tes Kraft da -- zu,
 }

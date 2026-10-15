@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Das Wort sie sol -- len las -- sen stahn
   und kein' Dank da -- zu ha -- _ ben.
   Neh -- men sie uns den Leib,
@@ -78,13 +78,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Er ist bei uns wohl auf dem Plan
   mit sei -- nem Geist und Ga -- _ ben.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Das Wort sie sol -- len las -- sen __ _ stahn
   und kein' Dank da -- zu ha -- _ ben.
   Neh -- men sie uns den Leib,
@@ -95,13 +95,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Er ist bei uns wohl auf __ _ dem Plan
   mit sei -- nem Geist und Ga -- _ ben.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Das Wort sie sol -- len las -- sen stahn
   und kein' Dank da -- zu ha -- _ ben.
   Neh -- men sie uns den Leib,
@@ -112,13 +112,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Er ist bei uns wohl auf dem Plan
   mit sei -- nem Geist und Ga -- _ ben.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Das Wort sie sol -- len las -- sen stahn
   und kein' Dank da -- zu ha -- _ ben.
   Neh -- men sie uns den Leib,
@@ -129,7 +129,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Er ist bei uns wohl auf dem Plan
   mit sei -- nem Geist und Ga -- _ ben.
 }

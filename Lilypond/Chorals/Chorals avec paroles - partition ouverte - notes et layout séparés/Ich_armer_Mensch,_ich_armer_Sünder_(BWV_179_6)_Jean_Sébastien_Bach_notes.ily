@@ -55,7 +55,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich ar -- mer Mensch, ich ar -- mer Sün -- _ der
   steh hier vor Got -- tes An -- ge -- sicht.
   Er -- bar -- me dich, er -- bar -- me dich,
@@ -63,13 +63,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Ach Gott, ach Gott, ver -- fahr ge -- lin -- _ der
   und geh nicht mit mir ins Ge -- richt!
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich ar -- mer Mensch, ich __ ar -- mer Sün -- _ der
   steh hier vor Got -- tes An -- ge -- sicht.
   Er -- bar -- me dich, er -- bar -- me dich,
@@ -77,13 +77,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Ach Gott, __ ach Gott, ver -- fahr ge -- lin -- _ der
   und geh nicht mit mir ins Ge -- richt!
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich ar -- mer Mensch, ich ar -- mer Sün -- _ der
   steh hier vor Got -- tes An -- ge -- sicht.
   Er -- bar -- me __ _ dich, er -- bar -- me dich,
@@ -91,13 +91,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Ach Gott, ach Gott, ver -- fahr ge -- lin -- _ der
   und geh nicht mit mir ins Ge -- richt!
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich ar -- mer Mensch, ich ar -- mer Sün -- der
   steh hier vor Got -- tes An -- ge -- sicht.
   Er -- bar -- me dich, er -- bar -- me dich,
@@ -105,7 +105,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Ach Gott, ach Gott, ver -- fahr ge -- lin -- der
   und geh nicht mit mir ins Ge -- richt!
 }

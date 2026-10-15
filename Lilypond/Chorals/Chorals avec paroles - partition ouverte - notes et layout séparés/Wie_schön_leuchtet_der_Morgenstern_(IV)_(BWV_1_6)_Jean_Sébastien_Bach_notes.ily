@@ -75,7 +75,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wie bin ich doch so herz -- lich froh,
   dass mein Schatz ist das A und O,
   der An -- fange und das En -- de;
@@ -86,14 +86,14 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Er wird mich doch zu sei -- nem Preis
   auf neh -- men in das Pa -- ra -- deis,
   des klopf ich in die Hän -- de.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wie bin ich doch so herz -- lich froh,
   dass mein Schatz ist das A und O,
   der An -- fange und das En -- _ de;
@@ -104,14 +104,14 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Er wird mich doch zu sei -- nem Preis
   auf neh -- men in das Pa -- ra -- deis,
   des klopf ich in die Hän -- _ de.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wie bin ich doch so herz -- lich froh,
   dass mein Schatz ist das A und O,
   der An -- fange und das En -- _ de;
@@ -122,14 +122,14 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Er wird mich doch zu sei -- nem Preis
   auf neh -- men in das Pa -- ra -- deis,
   des klopf ich in die Hän -- _ de.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wie bin ich doch so herz -- lich froh,
   dass mein Schatz ist das A und O,
   der An -- fange und das En -- de;
@@ -140,7 +140,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Er wird mich doch zu sei -- nem Preis
   auf neh -- men in das Pa -- ra -- deis,
   des klopf ich in die Hän -- de.

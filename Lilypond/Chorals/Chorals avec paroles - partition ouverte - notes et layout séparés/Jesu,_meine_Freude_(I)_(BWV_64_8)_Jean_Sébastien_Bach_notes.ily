@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Gu -- te Nacht, o We -- sen,
   das die Welt er -- le -- sen!
   Mir ge -- fällst du nicht.
@@ -77,14 +77,14 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \repeat unfold 3 {\skip1} ihr Sün -- den,
   blei -- bet weit da -- hin -- ten,
   kommt nicht mehr ans Licht!
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Gu -- te Nacht, o We -- _ sen,
   das die Welt er -- le -- _ sen!
   Mir ge -- fällst du nicht.
@@ -94,14 +94,14 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \repeat unfold 3 {\skip1} ihr Sün -- _ den,
   blei -- bet weit da -- hin -- _ ten,
   kommt nicht mehr ans Licht!
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Gu -- te Nacht, o We -- _ sen,
   das die Welt er -- le -- _ sen!
   Mir ge -- fällst du nicht.
@@ -111,14 +111,14 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \repeat unfold 3 {\skip1} ihr Sün -- _ den,
   blei -- bet weit da -- hin -- _ ten,
   kommt nicht mehr ans Licht!
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Gu -- te Nacht, o We -- _ sen,
   das die Welt er -- le -- _ sen!
   Mir ge -- fällst du nicht.
@@ -128,7 +128,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \repeat unfold 3 {\skip1} ihr Sün -- _ den,
   blei -- bet weit da -- hin -- _ ten,
   kommt nicht mehr ans Licht!

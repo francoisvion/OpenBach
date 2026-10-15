@@ -143,7 +143,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, nun sei ge -- prei -- _ set
   zu die -- sem neu -- en Jahr,
   für dein' Güt' uns be -- wei -- set
@@ -157,7 +157,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Dass wir ha -- ben er -- le -- _ bet
   die neu fröh -- li -- che Zeit,
   die vol -- ler Gna -- den schwe -- bet
@@ -165,7 +165,7 @@ sopranoLyricsTwo = \lyricmode {
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, nun sei ge -- prei -- _ set
   zu die -- sem neu -- en Jahr,
   für dein' Güt' uns be -- wei -- _ set
@@ -179,7 +179,7 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Dass wir ha -- ben er -- le -- _ bet
   die neu fröh -- li -- che Zeit,
   die vol -- ler Gna -- den schwe -- _ bet
@@ -187,7 +187,7 @@ altoLyricsTwo = \lyricmode {
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, nun sei ge -- prei -- _ set
   zu die -- sem neu -- en Jahr,
   für dein' Güt' uns be -- wei -- _ set
@@ -201,7 +201,7 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Dass wir ha -- ben er -- le -- _ bet
   die neu fröh -- li -- che Zeit,
   die vol -- ler Gna -- den schwe -- _ bet
@@ -209,7 +209,7 @@ tenorLyricsTwo = \lyricmode {
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, nun sei ge -- prei -- _ set
   zu die -- sem neu -- en Jahr,
   für dein' Güt' uns be -- wei -- _ set
@@ -223,7 +223,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Dass wir ha -- ben er -- le -- _ bet
   die neu fröh -- li -- che Zeit,
   die vol -- ler Gna -- den schwe -- _ bet

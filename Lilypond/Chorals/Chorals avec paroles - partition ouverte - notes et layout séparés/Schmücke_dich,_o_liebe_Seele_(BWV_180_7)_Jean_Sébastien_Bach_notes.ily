@@ -75,7 +75,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, wah -- res Brot des Le -- bens,
   hilf, dass ich doch nicht ver -- ge -- bens
   Lass mich durch dies See -- len -- es -- sen
@@ -85,13 +85,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   o -- der mir viel -- leicht zum Scha -- den
   sei zu dei -- nem Tisch ge -- la -- den.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, wah -- res Brot des Le -- bens,
   hilf, dass ich doch nicht ver -- ge -- _ bens
   Lass mich durch dies See -- len -- es -- _ sen
@@ -101,13 +101,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   o -- der mir viel -- leicht zum Scha -- den
   sei zu dei -- nem Tisch ge -- la -- _ den.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, wah -- res Brot des Le -- _ bens,
   hilf, dass ich doch nicht ver -- ge -- _ bens
   Lass mich durch dies See -- len -- es -- _ sen
@@ -117,13 +117,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   o -- der mir viel -- leicht zum Scha -- _ den
   sei zu dei -- nem Tisch ge -- la -- _ den.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, wah -- res Brot des Le -- bens,
   hilf, dass ich doch nicht ver -- ge -- bens
   Lass mich durch dies See -- len -- es -- _ sen
@@ -133,7 +133,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   o -- der mir viel -- leicht zum Scha -- den
   sei zu dei -- nem Tisch ge -- la -- den.
 }

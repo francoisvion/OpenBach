@@ -75,7 +75,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wie schön leuch -- tet der Mor -- gen -- stern
   voll Gnad' und Wahr -- heit von dem Herrn,
   die sü -- ße Wur -- zel Jes -- se;
@@ -86,14 +86,14 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   du Sohn Da -- vids aus Ja -- kobs Stamm
   mein Kö -- nig und mein Bräu -- ti -- gam,
   hast mir mein Herz be -- ses -- sen.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wie schön leuch -- tet der Mor -- gen -- stern
   voll Gnad' und Wahr -- heit von dem Herrn,
   die sü -- ße Wur -- zel Jes -- _ se;
@@ -104,14 +104,14 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   du Sohn Da -- vids aus Ja -- kobs Stamm
   mein Kö -- nig und mein Bräu -- ti -- gam,
   hast mir mein Herz be -- ses -- _ sen.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wie schön leuch -- tet der Mor -- gen -- stern
   voll Gnad' und Wahr -- heit von dem Herrn,
   die sü -- ße Wur -- zel Jes -- _ se;
@@ -122,14 +122,14 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   du Sohn Da -- vids aus Ja -- kobs Stamm
   mein Kö -- nig und mein Bräu -- ti -- gam,
   hast mir mein Herz be -- ses -- _ sen.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wie schön leuch -- tet der Mor -- gen -- stern
   voll Gnad' und Wahr -- heit von dem Herrn,
   die sü -- ße Wur -- zel Jes -- se;
@@ -140,7 +140,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   du Sohn Da -- vids aus Ja -- kobs Stamm
   mein Kö -- nig und mein Bräu -- ti -- gam,
   hast mir mein Herz be -- ses -- sen.

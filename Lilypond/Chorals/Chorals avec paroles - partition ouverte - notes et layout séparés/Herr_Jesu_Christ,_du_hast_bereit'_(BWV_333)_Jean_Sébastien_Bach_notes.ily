@@ -59,7 +59,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Je -- su Christ, du hast be -- reit't
   für uns -- re mat -- te See -- len
   Wir tra -- gen uns -- re Sün -- den -- last,
@@ -68,13 +68,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dein'n Leib und Blut zu ein'r Mahl -- zeit,
   tust uns zu Gäs -- ten wäh -- len;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Je -- su Christ, du hast be -- reit't
   für uns -- re mat -- te See -- _ len
   Wir tra -- gen uns -- re Sün -- den -- last,
@@ -83,13 +83,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dein'n Leib und Blut zu ein'r Mahl -- zeit,
   tust uns zu Gäs -- ten wäh -- _ len;
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Je -- su Christ, du hast be -- reit't
   für uns -- re mat -- te See -- _ len
   Wir tra -- gen uns -- re Sün -- den -- last,
@@ -98,13 +98,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dein'n Leib und Blut zu ein'r Mahl -- zeit,
   tust uns zu Gäs -- ten wäh -- _ len;
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr Je -- su Christ, du hast be -- reit't
   für uns -- re mat -- te See -- _ len
   Wir tra -- gen uns -- re Sün -- den -- last,
@@ -113,7 +113,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dein'n Leib und Blut zu ein'r Mahl -- zeit,
   tust uns zu Gäs -- ten wäh -- _ len;
 }

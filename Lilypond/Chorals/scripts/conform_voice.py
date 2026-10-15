@@ -326,6 +326,7 @@ def lyric_tokens_with_hyphens(body):
     body = strip_tweak_markup(body)
     body = re.sub(r"\\tweak\s+\S+\s+\S+\s*", " ", body)
     body = re.sub(r"\\set\s+\S+\s*=\s*\S+\s*", " ", body)
+    body = re.sub(r'\\stanza\s+("[^"]*"|\S+)\s*', " ", body)  # LilyPond >= 2.27 : \stanza "1."
     body = re.sub(
         r"\\repeat\s+unfold\s+(\d+)\s*\{\s*\\skip\s*\S+\s*\}",
         lambda m: " ".join(["_"] * int(m.group(1))),

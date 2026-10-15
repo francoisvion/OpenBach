@@ -79,7 +79,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lass, o Herr, dein Ohr sich nei -- gen,
   und stoß mich nicht von dir hin,
   Weil ich arm und e -- lend bin.
@@ -90,12 +90,12 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dir mein Wort zu Her -- zen stei -- gen,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lass, o Herr, dein Ohr sich nei -- _ gen,
   und stoß mich nicht von dir hin,
   Weil ich arm und e -- lend bin.
@@ -106,12 +106,12 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dir mein Wort zu Her -- zen stei -- _ gen,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lass, o Herr, dein Ohr sich nei -- _ gen,
   und stoß mich nicht von dir hin,
   Weil ich arm und e -- lend bin.
@@ -122,12 +122,12 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dir mein Wort zu Her -- zen stei -- _ gen,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lass, o Herr, dein Ohr sich nei -- _ gen,
   und stoß mich nicht von dir hin,
   Weil ich arm und e -- lend bin.
@@ -138,6 +138,6 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dir mein Wort zu Her -- zen stei -- _ gen,
 }

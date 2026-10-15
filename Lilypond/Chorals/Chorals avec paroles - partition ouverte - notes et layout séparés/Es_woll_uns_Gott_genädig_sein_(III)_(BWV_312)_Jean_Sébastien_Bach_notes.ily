@@ -91,7 +91,7 @@ bassMusic = {
   e2.\fermata \fine }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Es woll' uns Gott ge -- nä -- _ _ dig sein
   und sei -- nen Se -- gen ge -- _ ben;
   dass wir er -- ken -- nen sei -- ne Werk;
@@ -102,37 +102,37 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Ant -- litz uns mit hel -- _ _ lem Schein
   er -- leucht' zum ew' -- gen Le -- _ ben,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Es woll' uns Gott ge -- nä -- _ _ dig sein und sei -- nen Se -- gen ge -- _ ben; dass wir er -- ken -- nen sei -- ne Werk; und, was ihn liebt, auf Er -- _ den, und Je -- sus Chris -- tus Heil und Stärk be -- kannt den Hei -- den wer -- _ _ den und sie zu Gott be -- keh -- _ ren. __ _ _
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Ant -- litz uns mit hel -- _ _ lem Schein er -- leucht' zum ew' -- gen Le -- _ ben,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Es woll' uns Gott ge -- nä -- _ _ dig sein _ und sei -- nen Se -- gen ge -- _ _ ben; dass wir er -- ken -- nen sei -- ne Werk; und, was _ ihn liebt, auf Er -- - -- den, und Je -- sus Chris -- tus Heil und Stärk be -- kannt den Hei -- den wer -- _ den und sie zu Gott be -- keh -- _ ren. __ _ _ _
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Ant -- litz uns mit hel -- _ _ lem Schein _ er -- leucht' zum ew' -- gen Le -- _ _ ben,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Es woll' uns Gott ge -- nä -- _ _ dig sein und sei -- nen Se -- gen ge -- _ ben; dass wir er -- ken -- nen sei -- ne Werk; und, was ihn liebt, auf Er -- _ den, und Je -- sus Chris -- tus Heil und Stärk be -- kannt den Hei -- den wer -- _ den und sie zu Gott be -- keh -- _ ren. __ _ _
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Ant -- litz uns mit hel -- _ _ lem Schein er -- leucht' zum ew' -- gen Le -- _ ben,
 }

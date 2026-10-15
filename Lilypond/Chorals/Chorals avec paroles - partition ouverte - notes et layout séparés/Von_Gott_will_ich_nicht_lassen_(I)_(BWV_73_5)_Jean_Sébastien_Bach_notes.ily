@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Das ist des Va -- ters Wil -- le,
   der uns er -- schaf -- fen hat;
   auch Gott der Heil -- ge Geist
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Sohn hat Guts die Fül -- le
   er -- wor -- ben und Ge -- nad;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Das ist des Va -- ters Wil -- _ le,
   der uns er -- schaf -- fen hat;
   auch Gott der Heil -- ge Geist
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Sohn hat Guts die Fül -- _ le
   er -- wor -- ben und Ge -- nad;
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Das ist des Va -- ters Wil -- _ le,
   der uns er -- schaf -- fen hat;
   auch Gott der Heil -- ge Geist
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Sohn hat Guts die Fül -- _ le
   er -- wor -- ben und Ge -- nad;
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Das ist des Va -- ters Wil -- _ le,
   der uns er -- schaf -- fen hat;
   auch Gott der Heil -- ge Geist
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Sohn hat Guts die Fül -- _ le
   er -- wor -- ben und Ge -- nad;
 }

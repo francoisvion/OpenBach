@@ -55,7 +55,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was bist du doch, o See -- le so be -- trü -- bet,
   Was grämst du dich,
   so äng -- stig -- lich,
@@ -63,13 +63,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass dir der Herr
   ein Kreuz zu tra -- gen gie -- bet?
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was bist du doch, o See -- le so be -- trü -- bet,
   Was grämst du dich, __ _
   so äng -- stig -- lich,
@@ -77,13 +77,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass dir der Herr
   ein Kreuz zu tra -- gen gie -- bet?
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was bist du doch, o See -- le so be -- trü -- bet,
   Was grämst du dich,
   so äng -- stig -- lich,
@@ -91,13 +91,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass dir der Herr
   ein Kreuz zu tra -- gen gie -- bet?
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Was bist du doch, o See -- le so be -- trü -- bet,
   Was grämst du dich,
   so äng -- stig -- lich,
@@ -105,7 +105,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass dir der Herr
   ein Kreuz zu tra -- gen gie -- bet?
 }

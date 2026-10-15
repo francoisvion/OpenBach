@@ -99,7 +99,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wer Gott ver -- traut
   hat wohl -- ge -- baut
   im Him -- mel und auf Er -- den,
@@ -114,7 +114,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wer sich ver -- lässt
   auf Je -- sum Christ,
   dem muss der Him -- mel wer -- den,
@@ -122,7 +122,7 @@ sopranoLyricsTwo = \lyricmode {
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wer Gott ver __ -- _ traut
   hat wohl -- ge -- baut __ _
   im Him -- mel __ _ und auf Er -- _ den,
@@ -137,7 +137,7 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wer sich ver -- _ lässt
   auf Je -- sum Christ, __ _
   dem muss __ _ der Him -- mel wer -- _ den,
@@ -145,7 +145,7 @@ altoLyricsTwo = \lyricmode {
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wer Gott ver -- traut
   hat wohl -- ge -- baut
   im Him -- mel und __ _ auf Er -- _ den,
@@ -160,7 +160,7 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wer sich ver -- lässt
   auf Je -- sum Christ,
   dem muss der Him -- _ mel wer -- _ den,
@@ -168,7 +168,7 @@ tenorLyricsTwo = \lyricmode {
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wer Gott ver -- traut
   hat wohl -- ge -- baut
   im Him -- mel und auf Er -- den,
@@ -183,7 +183,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   wer sich ver -- lässt
   auf Je -- sum Christ,
   dem muss der Him -- mel wer -- den,

@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich will al -- le mei -- ne Ta -- ge
   Rüh -- men dei -- ne star -- ke Hand,
   Nicht nur in der Sterb -- lich -- keit
@@ -77,17 +77,17 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass du mei -- ne Plag und Kla -- ge
   hast so herz -- lich ab -- ge -- wandt.
 }
 
 sopranoVersoTwoLyrics = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich will al -- le mei -- ne Ta -- ge
   Rüh -- men dei -- ne star -- ke Hand,
   Nicht nur in der Sterb -- lich -- keit
@@ -97,13 +97,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass du mei -- ne Plag und Kla -- ge
   hast so herz -- lich ab -- ge -- wandt.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich will al -- le mei -- ne Ta -- ge
   Rüh -- men dei -- ne star -- ke Hand,
   Nicht nur in der Sterb -- lich -- keit
@@ -113,13 +113,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass du mei -- ne Plag und Kla -- ge
   hast so herz -- lich ab -- ge -- wandt.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ich will al -- le mei -- ne Ta -- ge
   Rüh -- men dei -- ne star -- ke Hand,
   Nicht nur in der Sterb -- lich -- keit
@@ -129,7 +129,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dass du mei -- ne Plag und Kla -- ge
   hast so herz -- lich ab -- ge -- wandt.
 }

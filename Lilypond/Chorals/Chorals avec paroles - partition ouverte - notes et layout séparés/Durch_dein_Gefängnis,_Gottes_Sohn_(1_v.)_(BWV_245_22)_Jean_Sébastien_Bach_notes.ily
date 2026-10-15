@@ -51,7 +51,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Durch dein Ge -- fäng -- nis, Got -- tes Sohn,
   muss uns die Frei -- heit kom -- men;
   denn gingst du nicht die Knecht -- schaft ein,
@@ -59,13 +59,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Dein Ker -- ker ist der Gna -- den -- thron,
   die Frei -- statt al -- ler From -- men;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Durch dein Ge -- fäng -- nis, Got -- tes Sohn,
   muss uns die Frei -- heit kom -- _ men;
   denn gingst du nicht die Knecht -- schaft ein,
@@ -73,13 +73,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Dein Ker -- ker ist der Gna -- den -- thron,
   die Frei -- statt al -- ler From -- _ men;
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Durch dein Ge -- fäng -- nis, Got -- tes Sohn,
   muss uns die Frei -- heit kom -- _ men;
   denn gingst du nicht die Knecht -- schaft ein,
@@ -87,13 +87,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Dein Ker -- ker ist der Gna -- den -- thron,
   die Frei -- statt al -- ler From -- _ men;
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Durch dein Ge -- fäng -- nis, Got -- tes Sohn,
   muss uns die Frei -- heit kom -- _ men;
   denn gingst du nicht die Knecht -- schaft ein,
@@ -101,7 +101,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Dein Ker -- ker ist der Gna -- den -- thron,
   die Frei -- statt al -- ler From -- _ men;
 }

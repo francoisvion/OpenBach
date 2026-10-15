@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wie soll ich dich em -- pfan -- gen
   und wie be -- gegn ich dir?
   O Je -- su, Je -- su, se -- tze
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   o al -- ler Welt Ver -- lan -- gen,
   o mei -- ner See -- len Zier!
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wie soll ich dich em -- pfan -- _ gen
   und wie be -- gegn ich dir?
   O Je -- su, Je -- su, se -- _ tze
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   o al -- ler Welt Ver -- lan -- _ gen,
   o mei -- ner See -- len Zier!
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wie soll ich dich em -- pfan -- _ gen
   und wie be -- gegn ich dir?
   O Je -- su, Je -- su, se -- _ tze
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   o al -- ler Welt Ver -- lan -- _ gen,
   o mei -- ner See -- len Zier!
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wie soll ich dich em -- pfan -- gen
   und wie be -- gegn ich dir?
   O Je -- su, Je -- su, se -- _ tze
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   o al -- ler Welt Ver -- lan -- gen,
   o mei -- ner See -- len Zier!
 }

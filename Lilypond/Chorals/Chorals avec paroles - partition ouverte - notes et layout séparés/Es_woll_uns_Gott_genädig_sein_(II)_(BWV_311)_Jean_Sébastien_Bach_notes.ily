@@ -87,7 +87,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Es woll' uns Gott ge -- nä -- _ _ dig sein
   und sei -- nen Se -- gen ge -- _ _ _ ben;
   dass wir er -- ken -- nen sei -- ne Werk;
@@ -98,13 +98,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Ant -- litz uns mit hel -- _ _ lem Schein,
   er -- leucht zum ew -- gen Le -- _ _ _ ben,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Es woll' uns Gott ge -- nä -- _ _ dig sein
   und sei -- nen Se -- gen ge -- _ _ _ ben;
   dass wir er -- ken -- nen sei -- ne Werk;
@@ -115,13 +115,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Ant -- litz uns mit hel -- _ _ lem Schein,
   er -- leucht zum ew -- gen Le -- _ _ _ ben,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Es woll' uns Gott ge -- nä -- _ _ dig sein
   und sei -- nen Se -- gen ge -- _ _ _ ben;
   dass wir er -- ken -- nen sei -- ne Werk;
@@ -132,13 +132,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Ant -- litz uns mit hel -- _ _ lem Schein,
   er -- leucht zum ew -- gen Le -- _ _ _ ben,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Es woll' uns Gott ge -- nä -- _ _ dig sein
   und sei -- nen Se -- gen ge -- _ _ _ ben;
   dass wir er -- ken -- nen sei -- ne Werk;
@@ -149,7 +149,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sein Ant -- litz uns mit hel -- _ _ lem Schein,
   er -- leucht zum ew -- gen Le -- _ _ _ ben,
 }

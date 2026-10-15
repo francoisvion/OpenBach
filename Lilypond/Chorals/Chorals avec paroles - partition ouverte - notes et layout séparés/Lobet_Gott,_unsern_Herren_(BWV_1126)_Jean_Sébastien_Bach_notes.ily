@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lo -- bet Gott, un -- sern Her -- ren,
   in sei -- nem Hei -- lig -- thum,  
   Lobt Ihn im Fir -- ma -- men -- te,
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2    
+  \stanza "2."    
   zu Lo -- be sei -- nen Eh -- ren,
   macht herr -- lich sei -- nen Ruhm.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lo -- bet Gott, un -- sern Her -- ren,
   in sei -- nem Hei -- lig -- thum,
   Lobt Ihn im Fir -- ma -- men -- _ te,
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2    
+  \stanza "2."    
   zu Lo -- be sei -- nen Eh -- ren,
   macht herr -- lich sei -- nen Ruhm.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lo -- bet Gott, un -- sern Her -- ren,
   in sei -- nem Hei -- lig -- thum,
   Lobt Ihn im Fir -- ma -- men -- te,
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2    
+  \stanza "2."    
   zu Lo -- be sei -- nen Eh -- ren,
   macht herr -- lich sei -- nen Ruhm.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Lo -- bet Gott, un -- sern Her -- ren,
   in sei -- nem Hei -- lig -- thum,
   Lobt Ihn im Fir -- ma -- men -- _ te,
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   zu Lo -- be sei -- nen Eh -- ren,
   macht herr -- lich sei -- nen Ruhm.
 }

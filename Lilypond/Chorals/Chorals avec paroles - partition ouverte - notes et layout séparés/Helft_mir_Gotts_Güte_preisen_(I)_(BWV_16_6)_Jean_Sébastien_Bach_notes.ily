@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   All solch dein Güt wir prei -- _ sen,
   Va -- ter ins Him -- mels Thron,
   und bit -- ten fer -- ner dich,
@@ -77,12 +77,12 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Die du uns tust be -- wei -- _ sen durch Je -- sum dein -- en Sohn,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   All solch dein Güt wir prei -- sen,
   Va -- ter ins Him -- mels Thron,
   und bit -- ten fer -- ner dich,
@@ -92,12 +92,12 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Die du uns tust be -- wei -- sen durch Je -- sum dein -- en Sohn,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   All solch dein Güt wir prei -- _ sen,
   Va -- ter ins Him -- mels Thron,
   und bit -- ten fer -- ner dich,
@@ -107,12 +107,12 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Die du uns tust be -- wei -- _ sen durch Je -- sum dein -- en Sohn,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   All solch dein Güt wir prei -- _ sen,
   Va -- ter ins Him -- mels Thron,
   und bit -- ten fer -- ner dich,
@@ -122,6 +122,6 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Die du uns tust be -- wei -- _ sen durch Je -- sum dein -- en Sohn,
 }

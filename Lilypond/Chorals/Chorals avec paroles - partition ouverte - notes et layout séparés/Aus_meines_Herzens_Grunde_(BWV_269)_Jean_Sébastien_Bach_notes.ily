@@ -103,7 +103,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Aus mei -- nes Her -- _ zens Grun -- _ _ de
   sag' ich dir Lob und Dank,
   O Gott __ in dei -- nem __ Thron,
@@ -113,13 +113,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   In die -- ser Mor -- _ gen -- stun -- _ _ de,
   da -- zu mein Le -- be -- lang,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Aus mei -- _ nes Her -- zens Grun -- _ _ de
   sag' ich dir Lob und Dank, __
   O Gott __ in dei -- nem __ Thron,
@@ -129,13 +129,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   In die -- _ ser Mor -- gen -- stun -- _ _ de,
   da -- zu mein Le -- be -- lang, __
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Aus mei -- _ nes Her -- _ zens Grun -- _ _ de
   sag' ich dir Lob und Dank, __ _
   O Gott __ in dei -- nem __ Thron,
@@ -145,13 +145,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   In die -- _ ser Mor -- _ gen -- stun -- _ _ de,
   da -- zu mein Le -- be -- lang, __ _
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Aus mei -- _ nes Her -- _ zens Grun -- _ _ de
   sag' ich dir Lob und Dank, __ _
   O Gott __ in dei -- nem __ Thron,
@@ -161,7 +161,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   In die -- _ ser Mor -- _ gen -- stun -- _ _ de,
   da -- zu mein Le -- be -- lang, __ _
 }

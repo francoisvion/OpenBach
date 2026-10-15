@@ -63,7 +63,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mei -- ner Freu -- den Freu -- de,
   Je -- su, mei -- nes Glau -- bens Licht,
   o wie kommt dein Na -- me mir
@@ -73,13 +73,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Je -- su, mei -- ner See -- len Wei -- de,
   Je -- su, mei -- ne Zu -- ver -- sicht,
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mei -- ner Freu -- den Freu -- de,
   Je -- su, mei -- nes Glau -- bens Licht,
   o wie kommt dein Na -- me mir
@@ -89,13 +89,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Je -- su, mei -- ner See -- len Wei -- de,
   Je -- su, mei -- ne Zu -- ver -- sicht,
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mei -- ner Freu -- den Freu -- de,
   Je -- su, mei -- nes Glau -- bens Licht,
   o wie kommt dein Na -- me mir
@@ -105,13 +105,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Je -- su, mei -- ner See -- len Wei -- de,
   Je -- su, mei -- ne Zu -- ver -- sicht,
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, mei -- ner Freu -- den Freu -- de,
   Je -- su, mei -- nes Glau -- bens Licht,
   o wie kommt dein Na -- me mir
@@ -121,7 +121,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Je -- su, mei -- ner See -- len Wei -- de,
   Je -- su, mei -- ne Zu -- ver -- sicht,
 }

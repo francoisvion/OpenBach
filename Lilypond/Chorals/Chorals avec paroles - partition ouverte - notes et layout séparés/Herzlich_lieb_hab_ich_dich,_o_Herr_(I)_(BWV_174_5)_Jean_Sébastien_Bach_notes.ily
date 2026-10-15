@@ -95,7 +95,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herz -- lich lieb hab' ich dich, o Herr,
   ich bitt': woll'st sein von mir nicht fern
   mit dei -- ner Hilf' und Gna -- _ den.
@@ -109,14 +109,14 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Die gan -- ze Welt er -- freut mich nicht,
   nach Himm'l und Er -- den frag' ich nicht,
   wenn ich dich nur kann ha -- _ ben.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herz -- lich lieb hab' ich dich, o Herr,
   ich bitt': woll'st sein von mir nicht fern
   mit dei -- ner Hilf' und Gna -- _ den.
@@ -130,14 +130,14 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Die gan -- ze Welt er -- freut mich nicht,
   nach Himm'l und Er -- den frag' ich nicht,
   wenn ich dich nur kann ha -- _ ben.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herz -- lich lieb hab' ich dich, o Herr,
   ich bitt': woll'st sein von mir nicht fern
   mit dei -- ner Hilf' und Gna -- _ den.
@@ -151,14 +151,14 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Die gan -- ze Welt er -- freut mich nicht,
   nach Himm'l und Er -- den frag' ich nicht,
   wenn ich dich nur kann ha -- _ ben.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herz -- lich lieb hab' ich dich, o Herr,
   ich bitt': woll'st sein von mir nicht fern
   mit dei -- ner Hilf' und Gna -- _ den.
@@ -172,7 +172,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Die gan -- ze Welt er -- freut mich nicht,
   nach Himm'l und Er -- den frag' ich nicht,
   wenn ich dich nur kann ha -- _ ben.

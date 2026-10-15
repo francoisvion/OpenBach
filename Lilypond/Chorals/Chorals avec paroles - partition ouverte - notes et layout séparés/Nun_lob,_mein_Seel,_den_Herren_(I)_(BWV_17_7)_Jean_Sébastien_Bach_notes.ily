@@ -179,7 +179,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wie sich ein Vatr er -- bar -- _ met
   üb'r sei -- _ ne jun -- ge Kind -- lein klein:
   Er kennt __ _ das arm' Ge -- mäch -- _ te,
@@ -193,13 +193,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   So tut der Herr uns Ar -- _ men,
   so wir __ _ ihn kind -- lich fürch -- ten rein.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wie sich ein Vatr __ _ er -- bar -- _ _ met
   üb'r sei -- ne jun -- ge Kind -- lein klein:
   Er kennt __ _ das arm' __ _ Ge -- mäch -- _ te,
@@ -213,13 +213,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   So tut der Herr __ _ uns Ar -- _ _ men,
   so wir __ ihn kind -- lich fürch -- ten rein.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wie sich ein Vatr er -- bar -- _ met
   üb'r sei -- ne jun -- ge Kind -- _ lein klein:
   Er kennt das arm' __ _ Ge -- mäch -- _ _ te,
@@ -233,13 +233,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   So tut der Herr uns Ar -- _ men,
   so wir ihn kind -- lich fürch -- _ ten rein.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wie sich ein Vatr er -- bar -- _ _ met
   üb'r sei -- ne jun -- _ ge Kind -- lein _ klein:
   Er kennt das arm' __ _ Ge -- mäch -- _ _ te,
@@ -253,7 +253,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   So tut der Herr uns Ar -- _ _ men,
   so wir ihn kind -- _ lich fürch -- ten _ rein.
 }

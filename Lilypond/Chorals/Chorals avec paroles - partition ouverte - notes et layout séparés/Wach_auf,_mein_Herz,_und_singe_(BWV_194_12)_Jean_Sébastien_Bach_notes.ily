@@ -83,7 +83,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-5 "9. Sprich" Ja zu mei -- _ nen Ta -- ten,
   hilf selbst das Bes -- _ te ra -- ten;
   den An -- fang, Mittl und En -- de,
@@ -91,7 +91,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-5 "10. Mit" Se -- gen mich __ _ be -- schüt -- te,
   mein Herz sei dei -- _ ne Hüt -- te,
   dein Wort sei mei -- ne Spei -- se,
@@ -99,7 +99,7 @@ sopranoLyricsTwo = \lyricmode {
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-5 "9. Sprich" Ja zu mei -- _ nen Ta -- _ ten,
   hilf selbst das Bes -- te ra -- _ _ ten;
   den An -- fang, Mittl und En -- _ _ de,
@@ -107,7 +107,7 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-5 "10. Mit" Se -- gen mich __ _ be -- schüt -- _ te,
   mein Herz sei dei -- ne Hüt -- _ _ te,
   dein Wort sei mei -- ne Spei -- _ _ se,
@@ -115,7 +115,7 @@ altoLyricsTwo = \lyricmode {
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-5 "9. Sprich" Ja zu mei -- _ nen Ta -- _ ten,
   hilf selbst das Bes -- te ra -- _ _ ten;
   den An -- fang, Mittl und En -- _ _ de, ach,
@@ -123,7 +123,7 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-5 "10. Mit" Se -- gen mich __ _ be -- schüt -- _ te,
   mein Herz sei dei -- ne Hüt -- _ _ te,
   dein Wort sei mei -- ne Spei -- _ _ se,
@@ -131,7 +131,7 @@ tenorLyricsTwo = \lyricmode {
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   \tweak X-offset #-5 "9. Sprich" Ja zu mei -- nen Ta -- _ ten,
   hilf selbst das Bes -- _ te ra -- ten;
   den An -- fang, Mittl und En -- de,
@@ -139,7 +139,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   \tweak X-offset #-5 "10. Mit" Se -- gen mich be -- schüt -- _ te,
   mein Herz sei dei -- _ ne Hüt -- te,
   dein Wort sei mei -- ne Spei -- se,

@@ -79,7 +79,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Gott -- lob, es geht nun -- mehr zu En -- de,
   der mei -- ste Kampf ist nun voll -- bracht;
   Drum lasst mich gehn, ich rei -- se fort,
@@ -87,13 +87,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   mein Je -- sus reicht mir schon die Hän -- de,
   mein Je -- sus, der mich se -- lig macht.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Gott -- lob, es geht __ _ nun -- mehr __ _ zu En -- de,
   der mei -- ste Kampf ist __ nun voll -- bracht;
   Drum lasst mich gehn, ich rei -- se fort,
@@ -101,13 +101,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   mein Je -- sus reicht __ _ mir schon __ _ die Hän -- de,
   mein Je -- sus, der mich __ se -- lig macht.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Gott -- lob, es geht __ _ nun -- mehr zu En -- de,
   der mei -- ste Kampf ist nun __ _ voll -- bracht;
   Drum lasst mich gehn, ich rei -- _ se fort,
@@ -115,13 +115,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   mein Je -- sus reicht _ mir schon die Hän -- de,
   mein Je -- sus, der mich se -- _ lig macht.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Gott -- lob, es geht __ _ nun -- mehr __ _ zu En -- de,
   der mei -- ste Kampf _ ist nun voll -- bracht;
   Drum lasst mich gehn, __ _ ich rei -- se fort,
@@ -129,7 +129,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   mein Je -- sus reicht _ mir schon __ _ die Hän -- de,
   mein Je -- sus, der _ mich se -- lig macht.
 }

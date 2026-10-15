@@ -68,7 +68,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wohl -- an! so will ich mich
   an dich, o Je -- su hal -- ten,
   O Je -- su, dir, nur dir,
@@ -78,13 +78,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   und soll -- te gleich die Welt
   in tau -- send Stü -- cken spal -- ten.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wohl -- an! so will ich mich
   an dich, o Je -- su hal -- _ ten,
   O Je -- su, dir, nur dir,
@@ -94,13 +94,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   und soll -- te gleich die Welt
   in tau -- send Stü -- cken spal -- _ ten.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wohl -- an! so will ich mich
   an dich, o Je -- su hal -- _ ten,
   O Je -- su, dir, nur dir,
@@ -110,13 +110,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   und soll -- te gleich die Welt
   in tau -- send Stü -- cken spal -- _ ten.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Wohl -- an! so will ich mich
   an dich, o Je -- su hal -- ten,
   O Je -- su, dir, nur dir,
@@ -126,7 +126,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   und soll -- te gleich die Welt
   in tau -- send Stü -- cken spal -- ten.
 }

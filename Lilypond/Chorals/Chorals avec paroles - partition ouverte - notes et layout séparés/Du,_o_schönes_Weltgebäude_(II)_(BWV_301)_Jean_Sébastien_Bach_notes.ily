@@ -71,7 +71,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Du, o schö -- nes Welt ge -- bäu -- de,
   magst ge -- fal -- len wem du willst,
   De -- nen, die den Him -- mel has -- sen,
@@ -80,36 +80,36 @@ sopranoLyricsOne = \lyricmode {
   al -- ler -- schön -- ster Je -- su mein. }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dei -- ne schein -- bar -- li -- che -- Freu -- de,
   ist mit lau -- ter Angst um -- hüllt.  }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Du, o schö -- nes Welt ge -- bäu -- - -- de, magst ge -- fal -- len wem du willst, De -- nen, die den Him -- mel __ _ has -- - -- sen, will ich ih -- re Welt -- lust las -- - -- sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dei -- ne schein -- bar -- li -- che -- Freu -- - -- de, ist mit lau -- ter Angst um -- hüllt.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Du, o schö -- nes Welt ge -- bäu -- - -- de, magst ge -- fal -- len wem du willst, De -- nen, die den Him -- mel has -- - -- sen, will ich ih -- re Welt -- lust las -- - -- sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dei -- ne schein -- bar -- li -- che -- Freu -- - -- de, ist mit lau -- ter Angst um -- hüllt.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Du, o schö -- nes Welt ge -- bäu -- - -- de, magst ge -- fal -- len wem du willst, De -- nen, die den Him -- mel has -- - -- sen, will ich ih -- re Welt -- lust las -- - -- sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dei -- ne schein -- bar -- li -- che -- Freu -- - -- de, ist mit lau -- ter Angst um -- hüllt.
 }

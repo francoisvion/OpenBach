@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ehr sei ins Him -- mels Thro -- ne
   mit ho -- hem Ruhm und Preis
   dem Heil -- gen Geist mit Eh -- ren
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dem Va -- ter und dem Soh -- ne
   und auch zu glei -- cher Weis
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ehr sei ins Him -- mels Thro -- ne
   mit ho -- hem Ruhm und Preis
   dem Heil -- gen Geist mit Eh -- _ ren
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dem Va -- ter und dem Soh -- ne
   und auch zu glei -- cher Weis
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ehr sei ins Him -- mels Thro -- ne
   mit ho -- hem Ruhm und Preis
   dem Heil -- gen Geist mit Eh -- ren
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dem Va -- ter und dem Soh -- ne
   und auch zu glei -- cher Weis
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Ehr sei ins Him -- mels Thro -- ne
   mit ho -- hem Ruhm und Preis
   dem Heil -- gen Geist mit Eh -- ren
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   dem Va -- ter und dem Soh -- ne
   und auch zu glei -- cher Weis
 }

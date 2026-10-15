@@ -75,7 +75,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr -- scher ü -- ber Tod und Le -- _ _ ben
   mach ein -- mal mein En -- _ de gut,
   Hilf, dass ich ein ehr -- lich Grab
@@ -85,13 +85,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Leh -- re mich den Geist auf -- ge -- _ _ ben
   mit recht wohl -- ge -- fasst -- _ tem Mut.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr -- scher ü -- ber Tod __ _ und Le -- ben
   mach ein -- mal mein En -- de gut,
   Hilf, dass ich ein ehr -- lich Grab
@@ -101,13 +101,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Leh -- re mich den Geist __ _ auf -- ge -- ben
   mit recht wohl -- ge -- fasst -- tem Mut.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr -- scher ü -- ber Tod und Le -- ben
   mach ein -- mal mein En -- de gut,
   Hilf, dass ich ein ehr -- lich Grab
@@ -117,13 +117,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Leh -- re mich den Geist auf -- ge -- ben
   mit recht wohl -- ge -- fasst -- tem Mut.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Herr -- scher ü -- ber Tod und Le -- ben
   mach ein -- mal mein En -- de gut,
   Hilf, dass ich ein ehr -- lich Grab
@@ -133,7 +133,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Leh -- re mich den Geist auf -- ge -- ben
   mit recht wohl -- ge -- fasst -- tem Mut.
 }

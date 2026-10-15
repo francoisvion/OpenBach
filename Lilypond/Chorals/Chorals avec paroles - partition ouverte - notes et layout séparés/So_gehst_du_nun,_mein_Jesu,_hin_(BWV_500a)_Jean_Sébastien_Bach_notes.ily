@@ -68,7 +68,7 @@ bassMusic = \relative c {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   So gehst du nun, mein Je -- su, hin,
   den Tod für mich zu lei -- _ den,
   Wohl -- an! fahr fort,
@@ -80,13 +80,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   für mich, der ich ein Sün -- der bin,
   der dich be -- trübt in Freu -- _ den.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   So gehst du nun, mein Je -- su, hin,
   den Tod für mich zu lei -- _ den,
   Wohl -- an! fahr fort,
@@ -98,13 +98,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   für mich, der ich ein Sün -- der bin,
   der dich be -- trübt in Freu -- _ den.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   So gehst du nun, mein Je -- su, hin,
   den Tod für mich zu lei -- _ den,
   Wohl -- an! fahr fort,
@@ -116,13 +116,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   für mich, der ich ein Sün -- der bin,
   der dich be -- trübt in Freu -- _ den.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   So gehst du nun, mein Je -- su, hin,
   den Tod für mich zu lei -- _ den,
   Wohl -- an! fahr fort,
@@ -134,7 +134,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   für mich, der ich ein Sün -- der bin,
   der dich be -- trübt in Freu -- _ den.
 }

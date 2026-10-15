@@ -143,7 +143,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Sollt' _ ich mei -- nem Gott __ _ nicht sin -- gen?
   sollt' ich ihm nicht dank -- bar sein?
   Ist doch nichts, als lau -- ter Lie -- ben,
@@ -155,13 +155,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Denn _ ich seh' in al -- _ len Din -- gen,
   wie so gut er's mit mir meint.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Sollt' _ ich mei -- _ nem Gott __ _ nicht sin -- gen?
   sollt' ich ihm nicht dank -- bar __ _ sein?
   Ist doch nichts, __ _ als lau -- ter Lie -- _ ben,
@@ -173,13 +173,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Denn _ ich seh' __ _ in al -- _ len Din -- gen,
   wie so gut er's mit mir __ _ meint.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Sollt' _ ich __ mei -- nem Gott __ _ nicht sin -- _ gen?
   sollt' ich __ ihm nicht dank -- bar __ _ sein?
   Ist doch nichts, als lau -- ter Lie -- ben,
@@ -191,13 +191,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Denn _ ich __ seh' in al -- _ len Din -- _ gen,
   wie so __ gut er's mit mir __ _ meint.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Sollt' _ ich mei -- _ nem Gott __ _ nicht sin -- gen?
   sollt' __ _ ich ihm __ _ nicht dank -- bar __ _ sein?
   Ist __ _ doch nichts, __ _ als lau -- _ ter Lie -- ben,
@@ -209,7 +209,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Denn _ ich seh' __ _ in al -- _ len Din -- gen,
   wie _ so gut __ _ er's mit mir __ _ meint.
 }

@@ -83,7 +83,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Gott der Va -- ter wohn' uns bei
   und lass' uns nicht ver -- der -- _ ben,
   Vor dem Teu -- fel uns be -- wahr',
@@ -95,7 +95,7 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Mach uns al -- ler Sün -- den frei
   und helf uns se -- lig ster -- _ ben.
   dir uns las -- sen ganz und gar,
@@ -105,7 +105,7 @@ sopranoLyricsTwo = \lyricmode {
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Gott der Va -- ter wohn' uns bei
   und lass' uns nicht ver __ -- _ der -- _ ben,
   Vor dem Teu -- fel __ _ uns be -- wahr',
@@ -117,7 +117,7 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Mach uns al -- ler Sün -- den frei
   und helf uns se -- lig _ ster -- _ ben.
   dir uns las -- _ sen ganz und gar,
@@ -127,7 +127,7 @@ altoLyricsTwo = \lyricmode {
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Gott der Va -- ter wohn' uns bei
   und lass' uns nicht ver -- der -- _ ben,
   Vor dem Teu -- fel uns be -- wahr',
@@ -139,7 +139,7 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Mach uns al -- ler Sün -- den frei
   und helf uns se -- lig ster -- _ ben.
   dir uns las -- sen ganz und gar,
@@ -149,7 +149,7 @@ tenorLyricsTwo = \lyricmode {
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Gott der Va -- ter wohn' uns bei
   und lass' uns nicht ver -- der -- _ ben,
   Vor dem Teu -- fel uns be -- wahr',
@@ -161,7 +161,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   Mach uns al -- ler Sün -- den frei
   und helf uns se -- lig ster -- _ ben.
   dir uns las -- sen ganz und gar,

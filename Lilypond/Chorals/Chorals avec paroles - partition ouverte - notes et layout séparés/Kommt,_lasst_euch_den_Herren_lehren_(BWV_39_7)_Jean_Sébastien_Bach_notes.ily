@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Se -- lig sind, die aus Er -- bar -- men
   sich an -- neh -- men frem -- der Not,
   Die be -- hilf -- lich sind mit Rat,
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sind mit -- lei -- dig mit den Ar -- men,
   bit -- ten treu -- lich für sie Gott.
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Se -- lig sind, die aus Er -- bar -- men
   sich an -- neh -- men frem -- der Not,
   Die be -- hilf -- lich sind mit Rat,
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sind mit -- lei -- dig mit den Ar -- men,
   bit -- ten treu -- lich für sie Gott.
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Se -- lig sind, die aus Er -- bar -- men
   sich an -- neh -- men frem -- der Not,
   Die be -- hilf -- lich sind mit Rat,
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sind mit -- lei -- dig mit den Ar -- men,
   bit -- ten treu -- lich für sie Gott.
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Se -- lig sind, die aus Er -- bar -- men
   sich an -- neh -- men frem -- der Not,
   Die be -- hilf -- lich sind mit Rat,
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   sind mit -- lei -- dig mit den Ar -- men,
   bit -- ten treu -- lich für sie Gott.
 }

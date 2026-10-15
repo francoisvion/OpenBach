@@ -71,7 +71,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, der du mei -- ne See -- le
   hast durch dei -- nen bit -- tern Tod
   kräf -- tig -- lich her -- aus -- ge -- ris -- sen
@@ -81,13 +81,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   aus des Teu -- fels fin -- strer Höh -- le
   und der schwe -- ren Sün -- der -- noth
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, der du mei -- ne See -- _ le
   hast durch dei -- nen bit -- tern Tod
   kräf -- tig -- lich her -- aus -- ge -- ris -- _ sen
@@ -97,13 +97,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   aus des Teu -- fels fin -- strer Höh -- _ le
   und der schwe -- ren Sün -- der -- noth
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, der du mei -- ne See -- _ le
   hast durch dei -- nen bit -- tern Tod
   kräf -- tig -- lich her -- aus -- ge -- ris -- _ sen
@@ -113,13 +113,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   aus des Teu -- fels fin -- strer Höh -- _ le
   und der schwe -- ren Sün -- der -- noth
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Je -- su, der du mei -- ne See -- _ le
   hast durch dei -- nen bit -- tern Tod
   kräf -- tig -- lich her -- aus -- ge -- ris -- sen
@@ -129,7 +129,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   aus des Teu -- fels fin -- strer Höh -- _ le
   und der schwe -- ren Sün -- der -- noth
 }

@@ -67,7 +67,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Und ob gleich al -- le Teu -- fel
   dir woll -- ten wi -- der -- stehn,
   was er ihm vor -- ge -- nom -- men
@@ -77,13 +77,13 @@ sopranoLyricsOne = \lyricmode {
 }
 
 sopranoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   So wird doch oh -- ne Zwei -- fel
   Gott nicht zu -- rü -- cke gehn;
 }
 
 altoLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Und ob gleich al -- le Teu -- fel
   dir woll -- ten wi -- der -- stehn,
   was er ihm vor -- ge -- nom -- _ men
@@ -93,13 +93,13 @@ altoLyricsOne = \lyricmode {
 }
 
 altoLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   So wird doch oh -- ne Zwei -- fel
   Gott nicht zu -- rü -- cke gehn;
 }
 
 tenorLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Und ob gleich al -- le Teu -- _ fel
   dir woll -- ten wi -- der -- stehn,
   was er ihm vor -- ge -- nom -- _ men
@@ -109,13 +109,13 @@ tenorLyricsOne = \lyricmode {
 }
 
 tenorLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   So wird doch oh -- ne Zwei -- _ fel
   Gott nicht zu -- rü -- cke gehn;
 }
 
 bassLyricsOne = \lyricmode {
-  \set stanza = 1
+  \stanza "1."
   Und ob gleich al -- le Teu -- _ fel
   dir woll -- ten wi -- der -- stehn,
   was er ihm vor -- ge -- nom -- _ men
@@ -125,7 +125,7 @@ bassLyricsOne = \lyricmode {
 }
 
 bassLyricsTwo = \lyricmode {
-  \set stanza = 2
+  \stanza "2."
   So wird doch oh -- ne Zwei -- _ fel
   Gott nicht zu -- rü -- cke gehn;
 }
