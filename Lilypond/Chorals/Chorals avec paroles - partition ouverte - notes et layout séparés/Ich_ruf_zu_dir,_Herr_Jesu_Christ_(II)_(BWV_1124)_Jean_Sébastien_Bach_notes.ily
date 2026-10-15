@@ -107,7 +107,7 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Ich ruf' zu dir, Herr Je -- su Christ! Ich bitt' er -- hör' mein kla -- gen, Den rech -- ten weg, o Herr! ich mein', Den wol -- lest du mir ge -- ben, Dir zu le -- ben, Mein'm näch -- sten nütz zu sein, Dein wort zu hal -- ten e ben.
+  Ich ruf' zu dir, Herr Je -- su Christ! Ich bitt' er -- hör' mein kla -- gen, Den rech -- ten weg, o Herr! ich mein', Den wol -- lest du mir ge -- ben, Dir zu le -- ben, Mein'm näch -- sten nütz zu sein, Dein wort zu hal -- ten e -- ben.
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -117,7 +117,7 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Ich ruf' zu dir, Herr Je -- su Christ! Ich bitt' er -- hör' mein kla -- gen, Den rech -- ten weg, o Herr! ich mein', Den wol -- lest du mir ge -- ben, Dir zu le -- ben, Mein'm näch -- sten nütz zu sein, Dein wort zu hal -- ten e ben.
+  Ich ruf' zu dir, Herr Je -- su Christ! Ich bitt' er -- hör' mein kla -- gen, Den rech -- ten weg, o Herr! ich mein', Den wol -- lest du mir ge -- ben, Dir zu le -- ben, Mein'm näch -- sten nütz zu sein, Dein wort zu hal -- ten e -- ben.
 }
 
 bassLyricsTwo = \lyricmode {

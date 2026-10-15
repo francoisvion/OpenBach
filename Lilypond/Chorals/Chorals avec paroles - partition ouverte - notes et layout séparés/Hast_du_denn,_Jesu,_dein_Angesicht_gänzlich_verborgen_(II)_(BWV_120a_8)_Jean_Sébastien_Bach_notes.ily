@@ -121,7 +121,7 @@ tenorLyricsTwo = \lyricmode {
 
 tenorLyricsThree = \lyricmode {
   \set stanza = 3
-  \tweak X-offset #-4.0 "2. Lo" be den Her -- ren, was in mir ist, lo -- be den Na -- _ men.
+  \tweak X-offset #-4.0 "2. Lo" -- be den Her -- ren, was in mir ist, lo -- be den Na -- _ men.
   Er ist dein Licht,
   See -- le, ver -- giss es ja nicht;
   Lo -- ben dir, schlie -- ße mit A -- _ men.

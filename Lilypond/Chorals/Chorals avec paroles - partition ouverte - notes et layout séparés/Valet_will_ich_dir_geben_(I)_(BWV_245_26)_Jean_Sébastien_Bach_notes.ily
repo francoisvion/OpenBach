@@ -118,7 +118,7 @@ bassLyricsOne = \lyricmode {
   \set stanza = 1
   In mei -- nes Her -- zen Grun -- de
   dein Nam und Kreuz al -- lein
-  Er -- schein mir in dem Bil de
+  Er -- schein mir in dem Bil -- de
   zu Trost in mei -- ner Not,
   wie du, Herr Christ, so mil -- de
   dich hast ge -- blut't zu Tod.

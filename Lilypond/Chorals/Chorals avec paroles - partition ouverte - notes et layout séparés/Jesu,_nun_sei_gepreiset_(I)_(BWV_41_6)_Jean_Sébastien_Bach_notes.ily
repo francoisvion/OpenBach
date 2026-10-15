@@ -198,7 +198,7 @@ altoLyricsOne = \lyricmode {
   re -- gier all un -- ser Tun,
   In -- des machs mit uns al -- len
   nach dei -- nem Wohl -- ge -- fal -- len:
-  solchs sin get heut __ _ ohn Scher -- _ _ zen
+  solchs sin -- get heut __ _ ohn Scher -- _ _ zen
   die christ -- _ gläu -- bi -- _ ge Schar, __ _ _
   und wünscht mit Mund und Her -- _ zen
   ein se -- _ ligs neu -- _ es Jahr, __ _ _ _

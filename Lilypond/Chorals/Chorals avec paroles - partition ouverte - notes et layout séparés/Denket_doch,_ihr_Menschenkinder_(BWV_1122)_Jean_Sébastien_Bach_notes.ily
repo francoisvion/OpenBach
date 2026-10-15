@@ -119,5 +119,5 @@ bassLyrics = \lyricmode {
   Heu -- te sind wir frisch und stark,
   mor -- gen fül -- len wir den Sarg,
   und das An -- sehn das wir ha -- ben,
-  wird zu -- gleich mit uns be -- gra ben.
+  wird zu -- gleich mit uns be -- gra -- ben.
 }

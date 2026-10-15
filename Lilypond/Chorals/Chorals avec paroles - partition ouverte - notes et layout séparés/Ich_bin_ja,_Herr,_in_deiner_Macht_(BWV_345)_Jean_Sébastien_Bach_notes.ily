@@ -79,7 +79,7 @@ altoLyricsOne = \lyricmode {
   Ich bin ja, Herr, in dei -- ner Macht,
   du hast mich an das Licht ge -- bracht,
   und du er -- hältst mir auch das Le -- _ ben,
-  Wo, wie und wann ich ster ben soll,
+  Wo, wie und wann ich ster -- ben soll,
   das weißt du, Va -- ter, mehr als wohl.
 }
 
@@ -95,7 +95,7 @@ tenorLyricsOne = \lyricmode {
   Ich bin ja, Herr, in dei -- ner Macht,
   du hast mich an das Licht ge -- bracht,
   und du er -- hältst mir auch das Le -- _ ben,
-  Wo, wie und wann ich ster ben soll,
+  Wo, wie und wann ich ster -- ben soll,
   das weißt du, Va -- ter, mehr als wohl.
 }
 
@@ -111,7 +111,7 @@ bassLyricsOne = \lyricmode {
   Ich bin ja, Herr, in dei -- ner Macht,
   du hast mich an das Licht ge -- bracht,
   und du er -- hältst mir auch das Le -- _ ben,
-  Wo, wie und wann ich ster ben soll,
+  Wo, wie und wann ich ster -- ben soll,
   das weißt du, Va -- ter, mehr als wohl.
 }
 

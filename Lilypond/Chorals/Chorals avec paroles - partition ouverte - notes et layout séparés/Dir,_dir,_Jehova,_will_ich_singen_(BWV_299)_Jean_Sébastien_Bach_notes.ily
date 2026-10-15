@@ -113,7 +113,7 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  dir will _ ich mei -- ne _ Lie der brin -- _ gen ach gib mir dei -- nes Geis -- tes Kraft da -- zu,
+  dir will _ ich mei -- ne _ Lie -- der brin -- _ gen ach gib mir dei -- nes Geis -- tes Kraft da -- zu,
 }
 
 bassLyricsOne = \lyricmode {

@@ -75,7 +75,7 @@ altoLyrics = \lyricmode {
   für __ _ die Hei -- _ den,
   "zu er" -- leuch -- ten, die dich ken -- _ _ nen nicht,
   und zu wei -- _ den.
-  Er ist deins Volks I -- sra el der Preis, Ehr, Freud und Won -- _ ne.
+  Er ist deins Volks I -- sra -- el der Preis, Ehr, Freud und Won -- _ ne.
 }
 
 tenorLyrics = \lyricmode {
@@ -83,13 +83,13 @@ tenorLyrics = \lyricmode {
   für __ _ die Hei -- _ _ den,
   "zu er" -- leuch -- ten, die dich ken -- _ _ nen nicht,
   und zu wei -- _ den.
-  Er ist deins Volks I -- sra el der Preis, Ehr, Freud und Won -- _ ne.
+  Er ist deins Volks I -- sra -- el der Preis, Ehr, Freud und Won -- _ ne.
 }
 
 bassLyrics = \lyricmode {
   Er ist das Heil und se -- lig Licht
-  für __ _ die Hei den,
+  für __ _ die Hei -- den,
   "zu er" -- leuch -- ten, die dich ken -- _ _ nen nicht,
   und zu wei -- _ den.
-  Er ist deins Volks I -- sra el der Preis, Ehr, Freud und Won -- _ ne.
+  Er ist deins Volks I -- sra -- el der Preis, Ehr, Freud und Won -- _ ne.
 }

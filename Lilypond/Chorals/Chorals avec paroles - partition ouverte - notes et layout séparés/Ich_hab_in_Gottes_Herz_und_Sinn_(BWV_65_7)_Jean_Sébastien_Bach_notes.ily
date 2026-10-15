@@ -93,7 +93,7 @@ sopranoLyricsTwo = \lyricmode {
 altoLyricsOne = \lyricmode {
   \set stanza = 1
   Ei nun, mein Gott, so fall ich dir
-  ge -- trost in dei _ ne Hän -- de.
+  ge -- trost in dei -- _ ne Hän -- de.
   wie du wohl weißt, __ _ _ dass mei -- nem Geist
   da -- durch sein Nutz ent -- ste -- _ he,
   und dei -- ne Ehr je mehr und mehr
@@ -103,7 +103,7 @@ altoLyricsOne = \lyricmode {
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
   nimm mich und mach es so mit mir
-  bis an mein letz _ tes En -- de,
+  bis an mein letz -- _ tes En -- de,
 }
 
 tenorLyricsOne = \lyricmode {

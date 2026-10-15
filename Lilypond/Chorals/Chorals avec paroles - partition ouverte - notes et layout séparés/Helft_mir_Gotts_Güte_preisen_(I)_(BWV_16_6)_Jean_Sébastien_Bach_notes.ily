@@ -83,7 +83,7 @@ sopranoLyricsTwo = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  All solch dein Güt wir prei sen,
+  All solch dein Güt wir prei -- sen,
   Va -- ter ins Him -- mels Thron,
   und bit -- ten fer -- ner dich,
   gib uns ein fried -- lich Jah -- _ re,

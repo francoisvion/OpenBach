@@ -75,5 +75,5 @@ tenorLyrics = \lyricmode {
 }
 
 bassLyrics = \lyricmode {
-  Got -- tes Sohn ist kom -- _ men uns Al -- len zu From -- _ men hier auf die -- se Er -- _ den in ar -- men Ge -- bär -- _ _ _ den, dass er uns von Sün -- _ de frei -- e und ent -- bin de.
+  Got -- tes Sohn ist kom -- _ men uns Al -- len zu From -- _ men hier auf die -- se Er -- _ den in ar -- men Ge -- bär -- _ _ _ den, dass er uns von Sün -- _ de frei -- e und ent -- bin -- de.
 }

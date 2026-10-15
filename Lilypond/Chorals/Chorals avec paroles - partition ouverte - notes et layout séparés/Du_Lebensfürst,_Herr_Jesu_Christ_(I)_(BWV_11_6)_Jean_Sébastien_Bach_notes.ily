@@ -121,7 +121,7 @@ sopranoLyricsTwo = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Nun lie -- get al les un -- ter dir,
+  Nun lie -- get al -- les un -- ter dir,
   dich selbst nur aus -- _ ge -- nom -- _ _ men;
   Die Für -- sten stehn __ _ auch __ auf der Bahn,
   und sind dir wil -- _ lig un -- _ ter -- than;
@@ -131,7 +131,7 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Die En -- gel müs sen für und für dir
+  Die En -- gel müs -- sen für und für dir
   auf -- zu -- war -- _ ten kom -- _ _ men.
 }
 
@@ -158,7 +158,7 @@ bassLyricsOne = \lyricmode {
   Die Für -- sten stehn __ _ _ auch auf der Bahn,
   und sind dir wil -- _ lig un -- _ ter -- than;
   Luft, Was -- _ ser, Feu -- _ er,  Er -- den
-  muss dir zu Dien -- ste wer den.
+  muss dir zu Dien -- ste wer -- den.
 }
 
 bassLyricsTwo = \lyricmode {

@@ -117,7 +117,7 @@ bassLyrics = \lyricmode {
   mein al -- ler -- lieb -- stes Le -- ben?
   Ja, du bist hin, dein Lei -- den ist voll -- bracht.
   Mein Gott is tot,
-  sein Geist ist auf -- ge -- ge ben,
+  sein Geist ist auf -- ge -- ge -- ben,
   mein Gott ist tot,
-  ein Geist ist auf -- ge -- ge ben.
+  ein Geist ist auf -- ge -- ge -- ben.
 }

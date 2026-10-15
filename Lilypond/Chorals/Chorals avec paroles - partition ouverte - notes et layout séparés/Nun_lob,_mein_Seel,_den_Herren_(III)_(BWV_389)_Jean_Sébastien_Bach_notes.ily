@@ -118,7 +118,7 @@ altoLyricsOne = \lyricmode {
   \set stanza = 1
   Nun lob', mein' Seel', den Her -- _ ren,
   was in mir ist, den Na -- men sein,
-  hat dir dein Sünd ver -- ge ben
+  hat dir dein Sünd ver -- ge -- ben
   und heilt dein' Schwach -- heit groß,
   er -- rett' dein ar -- mes Le -- _ ben,
   nimmt dich in sei -- nen Schoß,

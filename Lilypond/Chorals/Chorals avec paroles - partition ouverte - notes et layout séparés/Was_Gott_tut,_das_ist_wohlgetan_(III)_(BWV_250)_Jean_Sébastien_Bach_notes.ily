@@ -77,7 +77,7 @@ sopranoLyricsTwo = \lyricmode {
 altoLyricsOne = \lyricmode {
   \set stanza = 1
   Was Gott thut, das ist wohl -- ge -- tan,
-  es bleibt ge -- recht sein Wil le;
+  es bleibt ge -- recht sein Wil -- le;
   Er ist mein Gott,
   der in der Not
   mich wohl weiß zu er -- hal -- _ ten:
@@ -87,7 +87,7 @@ altoLyricsOne = \lyricmode {
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
   wie er fängt mei -- ne Sa -- chen an,
-  will ich ihm hal -- ten stil le.
+  will ich ihm hal -- ten stil -- le.
 }
 
 tenorLyricsOne = \lyricmode {
@@ -109,7 +109,7 @@ tenorLyricsTwo = \lyricmode {
 bassLyricsOne = \lyricmode {
   \set stanza = 1
   Was Gott thut, das ist wohl -- ge -- tan,
-  es bleibt ge -- recht sein Wil le;
+  es bleibt ge -- recht sein Wil -- le;
   Er ist mein Gott,
   der in der Not
   mich wohl weiß zu er -- hal -- _ ten:
@@ -119,5 +119,5 @@ bassLyricsOne = \lyricmode {
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
   wie er fängt mei -- ne Sa -- chen an,
-  will ich ihm hal -- ten stil le.
+  will ich ihm hal -- ten stil -- le.
 }

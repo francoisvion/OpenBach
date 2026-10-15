@@ -70,7 +70,7 @@ sopranoLyricsTwo = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Wer nur den lie -- ben Gott lässt wal ten
+  Wer nur den lie -- ben Gott lässt wal -- ten
   und hof -- fet auf ihn al -- le -- zeit,
   Wer Gott, dem Al -- ler -- höch -- sten, traut,
   der hat auf kei -- nen Sand ge -- baut.
@@ -78,7 +78,7 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  den wird er wun -- der -- bar er -- hal ten
+  den wird er wun -- der -- bar er -- hal -- ten
   in al -- ler Not und Trau -- rig -- keit.
 }
 
@@ -98,7 +98,7 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Wer nur den lie -- ben Gott lässt wal ten
+  Wer nur den lie -- ben Gott lässt wal -- ten
   und hof -- fet auf ihn al -- le -- zeit,
   Wer Gott, dem Al -- ler -- höch -- sten, traut,
   der hat auf kei -- nen Sand ge -- baut.
@@ -106,6 +106,6 @@ bassLyricsOne = \lyricmode {
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  den wird er wun -- der -- bar er -- hal ten
+  den wird er wun -- der -- bar er -- hal -- ten
   in al -- ler Not und Trau -- rig -- keit.
 }

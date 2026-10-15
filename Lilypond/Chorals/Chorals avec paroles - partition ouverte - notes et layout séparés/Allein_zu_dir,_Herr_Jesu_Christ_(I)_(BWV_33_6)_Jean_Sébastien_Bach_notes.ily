@@ -107,7 +107,7 @@ altoLyricsOne = \lyricmode {
   der uns sein Hilf all -- zeit lei -- ste,
   da -- mit wir ihm ge -- fäl -- lig sein,
   hier in die -- _ ser Zeit
-  und fol -- gends in der E wig -- keit.
+  und fol -- gends in der E -- wig -- keit.
 }
 
 altoLyricsTwo = \lyricmode {

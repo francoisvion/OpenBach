@@ -80,7 +80,7 @@ sopranoLyricsTwo = \lyricmode {
 altoLyricsOne = \lyricmode {
   \set stanza = 1
   Es ist ge -- wiss -- lich an der Zeit,
-  dass Got -- tes Sohn wird kom - men
+  dass Got -- tes Sohn wird kom -- - -- men
   Dann wird das La -- chen wer -- den teu'r,
   wenn Al -- les wird ver -- gehn in Feu'r,
   wie Pe -- trus da -- von zeu -- _ get.
@@ -89,13 +89,13 @@ altoLyricsOne = \lyricmode {
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
   In sei -- ner gros -- sen Herr -- lich -- keit,
-  Zu rich -- ten Bös' und From - men.
+  Zu rich -- ten Bös' und From -- - -- men.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
   Es ist ge -- wiss -- lich an der Zeit,
-  dass Got -- tes Sohn wird kom - men
+  dass Got -- tes Sohn wird kom -- - -- men
   Dann wird das La -- chen wer -- den teu'r,
   wenn Al -- les wird ver -- gehn in Feu'r,
   wie Pe -- trus da -- von zeu -- _ get.
@@ -104,13 +104,13 @@ tenorLyricsOne = \lyricmode {
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
   In sei -- ner gros -- sen Herr -- lich -- keit,
-  Zu rich -- ten Bös' und From - men.
+  Zu rich -- ten Bös' und From -- - -- men.
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
   Es ist ge -- wiss -- lich an der Zeit,
-  dass Got -- tes Sohn wird kom - men
+  dass Got -- tes Sohn wird kom -- - -- men
   Dann wird das La -- chen wer -- den teu'r,
   wenn Al -- les wird ver -- gehn in Feu'r,
   wie Pe -- trus da -- von zeu -- _ get.
@@ -119,5 +119,5 @@ bassLyricsOne = \lyricmode {
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
   In sei -- ner gros -- sen Herr -- lich -- keit,
-  Zu rich -- ten Bös' und From - men.
+  Zu rich -- ten Bös' und From -- - -- men.
 }

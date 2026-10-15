@@ -190,7 +190,7 @@ altoLyricsOne = \lyricmode {
   und heilt dein Schwach -- heit __ _ groß,
   er rett' dein ar -- mes Le -- _ _ ben,
   nimmt dich in sei -- _ nen Schoß,
-  mit rei -- chem Trost be -- schüt tet,
+  mit rei -- chem Trost be -- schüt -- tet,
   ver -- jüngt, dem Ad -- ler gleich;
   der Herr __ _ schafft Recht, __ _ be -- hü -- _ _ tet,
   die leid'n in sei -- nem __ _ Reich.
@@ -209,7 +209,7 @@ tenorLyricsOne = \lyricmode {
   hat dir __ _ dein Sünd __ _ ver -- ge -- _ ben
   und heilt dein Schwach -- heit groß,
   er rett' __ _ dein ar -- _ mes Le -- _ ben,
-  nimmt dich in sei nen Schoß,
+  nimmt dich in sei -- nen Schoß,
   mit rei -- chem Trost be -- schüt -- _ _ tet,
   ver -- jüngt, dem Ad -- ler __ _ gleich;
   der Herr __ _ schafft Recht, __ _ be -- hü -- _ _ tet,

@@ -87,7 +87,7 @@ altoLyricsOne = \lyricmode {
   Christ lag in To -- des -- ban -- _ den
   für un -- ser __ _ Sünd' ge -- ge -- _ ben __
   Dess wir sol -- len fröh -- lich sein,
-  Gott lo -- ben und ihm dank -- – bar sein
+  Gott lo -- ben und ihm dank -- – -- bar sein
   und sin -- gen Al -- le -- lu -- ia
   Al -- le -- lu -- _ _ ia!
 }

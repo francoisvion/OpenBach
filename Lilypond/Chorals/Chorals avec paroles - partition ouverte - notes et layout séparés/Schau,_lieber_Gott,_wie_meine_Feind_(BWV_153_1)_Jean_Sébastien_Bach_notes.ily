@@ -76,7 +76,7 @@ sopranoLyricsTwo = \lyricmode {
 altoLyricsOne = \lyricmode {
   \set stanza = 1
   Schau, lie -- ber Gott, wie mei -- ne Feind,
-  da -- mit ich stets muss käm pfen!
+  da -- mit ich stets muss käm -- pfen!
   Herr, wo mich dei -- ne Gnad nicht hält,
   so kann der Teu -- fel, Fleisch und Welt
   mich leicht in Un -- glück stür -- _ zen.
@@ -85,7 +85,7 @@ altoLyricsOne = \lyricmode {
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
   So li -- stig und so mäch -- tig seind,
-  dass sie mich leicht -- lich däm pfen!
+  dass sie mich leicht -- lich däm -- pfen!
 }
 
 tenorLyricsOne = \lyricmode {
@@ -106,7 +106,7 @@ tenorLyricsTwo = \lyricmode {
 bassLyricsOne = \lyricmode {
   \set stanza = 1
   Schau, lie -- ber Gott, wie mei -- ne Feind,
-  da -- mit ich stets muss käm pfen!
+  da -- mit ich stets muss käm -- pfen!
   Herr, wo mich dei -- ne Gnad nicht hält,
   so kann der Teu -- fel, Fleisch und Welt
   mich leicht in Un -- glück stür -- _ zen.
@@ -115,5 +115,5 @@ bassLyricsOne = \lyricmode {
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
   So li -- stig und so mäch -- tig seind,
-  dass sie mich leicht -- lich däm pfen!
+  dass sie mich leicht -- lich däm -- pfen!
 }

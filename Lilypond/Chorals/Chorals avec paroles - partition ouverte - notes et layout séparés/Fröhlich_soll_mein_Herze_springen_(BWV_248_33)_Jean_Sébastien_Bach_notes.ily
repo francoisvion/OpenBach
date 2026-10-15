@@ -74,7 +74,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Ich will dich mit Fleiß be -- wah ren,
+  Ich will dich mit Fleiß be -- wah -- ren,
   Ich will dir
   le -- ben hier,
   dir will ich ab -- fah -- _ ren,

@@ -119,7 +119,7 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Es woll' uns Gott ge -- nä -- _ _ dig sein _ und sei -- nen Se -- gen ge -- _ _ ben; dass wir er -- ken -- nen sei -- ne Werk; und, was _ ihn liebt, auf Er - den, und Je -- sus Chris -- tus Heil und Stärk be -- kannt den Hei -- den wer -- _ den und sie zu Gott be -- keh -- _ ren. __ _ _ _
+  Es woll' uns Gott ge -- nä -- _ _ dig sein _ und sei -- nen Se -- gen ge -- _ _ ben; dass wir er -- ken -- nen sei -- ne Werk; und, was _ ihn liebt, auf Er -- - -- den, und Je -- sus Chris -- tus Heil und Stärk be -- kannt den Hei -- den wer -- _ den und sie zu Gott be -- keh -- _ ren. __ _ _ _
 }
 
 tenorLyricsTwo = \lyricmode {

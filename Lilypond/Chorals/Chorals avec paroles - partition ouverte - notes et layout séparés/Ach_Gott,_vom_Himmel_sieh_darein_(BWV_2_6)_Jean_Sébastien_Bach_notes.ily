@@ -80,7 +80,7 @@ sopranoLyricsTwo = \lyricmode {
 altoLyricsOne = \lyricmode {
   \set stanza = 1
   Das wollst du Gott be -- wah -- ren rein
-  für die -- sem argn Ge -- schlech te,
+  für die -- sem argn Ge -- schlech -- te,
   Der gott -- los Hauf sich um -- her findt,
   wo sol -- che lo -- se Leu -- te sind
   in dei -- nem Volk er -- ha -- _ _ _ _ ben.
@@ -89,7 +89,7 @@ altoLyricsOne = \lyricmode {
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
   Und lass uns dir be -- foh -- len sein,
-  dass sichs in uns nicht flech te,
+  dass sichs in uns nicht flech -- te,
 }
 
 tenorLyricsOne = \lyricmode {

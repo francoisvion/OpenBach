@@ -72,7 +72,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Dein Will ge -- scheh, Herr Gott, _ zu gleich
+  Dein Will ge -- scheh, Herr Gott, _ zu -- gleich
   auf Er -- den wie im Him -- mel -- reich.
   Gib uns Ge -- duld in Lei -- dens -- zeit,
   Ge -- hor -- sam sein in Lieb und Leid;

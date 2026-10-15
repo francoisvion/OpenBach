@@ -101,7 +101,7 @@ bassLyricsOne = \lyricmode {
   Er -- leucht auch un -- sern Sinn und Herz
   durch den Geist dei -- ner Gnad,
   O Je -- su Christ, al -- lein du bist,
-  der solchs wohl kann __ _ aus rich -- ten.
+  der solchs wohl kann __ _ aus -- rich -- ten.
 }
 
 bassLyricsTwo = \lyricmode {

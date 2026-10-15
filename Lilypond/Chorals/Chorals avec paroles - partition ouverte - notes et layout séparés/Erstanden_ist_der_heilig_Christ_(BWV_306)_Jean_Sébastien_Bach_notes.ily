@@ -87,11 +87,11 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Er -- stan -- den __ _ ist der heil' -- ge Christ, al -- le lu -- ia, __ _ _ al -- le -- _ lu -- ia! Der al -- _ ler __ Welt ein Trö -- _ ster ist, al -- le -- _ lu -- ia, al -- le -- lu -- ia!
+  Er -- stan -- den __ _ ist der heil' -- ge Christ, al -- le -- lu -- ia, __ _ _ al -- le -- _ lu -- ia! Der al -- _ ler __ Welt ein Trö -- _ ster ist, al -- le -- _ lu -- ia, al -- le -- lu -- ia!
 }
 
 tenorLyrics = \lyricmode {
-  Er -- stan -- den __ _ ist der heil' -- ge Christ, al -- le lu -- ia, __ _ al -- le -- _ lu -- ia! Der al -- ler Welt __ _ ein Trö -- _ ster ist, al -- le -- _ lu -- ia, __ _ al -- le -- _ lu -- ia!
+  Er -- stan -- den __ _ ist der heil' -- ge Christ, al -- le -- lu -- ia, __ _ al -- le -- _ lu -- ia! Der al -- ler Welt __ _ ein Trö -- _ ster ist, al -- le -- _ lu -- ia, __ _ al -- le -- _ lu -- ia!
 }
 
 bassLyrics = \lyricmode {

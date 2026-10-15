@@ -111,7 +111,7 @@ tenorLyricsOne = \lyricmode {
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
   das ist hoch an des Kreu zes Stamm
-  in hei ßer Lieb ge -- bra -- _ ten,
+  in hei -- ßer Lieb ge -- bra -- _ ten,
 }
 
 bassLyricsOne = \lyricmode {
@@ -127,5 +127,5 @@ bassLyricsOne = \lyricmode {
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
   das ist hoch an des Kreu zes Stamm
-  in hei ßer Lieb ge -- bra -- _ ten,
+  in hei -- ßer Lieb ge -- bra -- _ ten,
 }

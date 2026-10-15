@@ -89,7 +89,7 @@ altoLyricsOne = \lyricmode {
   Chri -- stus will die Ko -- ste sein
   und spei -- _ sen die Seel al -- lein,
   der Glaub will keins an -- dern le -- ben.
-  Al le -- _ lu -- ia!
+  Al -- le -- _ lu -- ia!
 }
 
 altoLyricsTwo = \lyricmode {

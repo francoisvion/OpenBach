@@ -95,5 +95,5 @@ tenorLyrics = \lyricmode {
 }
 
 bassLyrics = \lyricmode {
-  O Her -- zens -- angst, o Ban -- _ gig -- keit und Za -- gen! was seh' ich hier für ei -- ne Lei -- che tra -- _ gen! wess ist das Grab, wie ist der Fels zu nen -- _ nen? Ich soll ihn ken nen.
+  O Her -- zens -- angst, o Ban -- _ gig -- keit und Za -- gen! was seh' ich hier für ei -- ne Lei -- che tra -- _ gen! wess ist das Grab, wie ist der Fels zu nen -- _ nen? Ich soll ihn ken -- nen.
 }

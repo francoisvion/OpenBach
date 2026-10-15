@@ -115,7 +115,7 @@ altoLyricsOne = \lyricmode {
   Mein Hei -- _ land ward __ _ ge -- legt,
   da, wo __ _ man uns hin -- trägt,
   wenn von __ uns un -- _ ser Geist
-  gen Him mel ist __ _ ge -- reist.
+  gen Him -- mel ist __ _ ge -- reist.
 }
 
 altoLyricsTwo = \lyricmode {
@@ -127,7 +127,7 @@ altoLyricsTwo = \lyricmode {
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
   Auf, auf, mein Herz, mit Freu -- _ den,
-  nimm wahr, __ _ was heut ge schicht,
+  nimm wahr, __ _ was heut ge -- schicht,
   Mein Hei -- _ land ward __ _ ge -- legt,
   da, wo __ _ man uns __ _ hin -- trägt,
   wenn von __ uns un -- _ ser Geist
@@ -146,7 +146,7 @@ bassLyricsOne = \lyricmode {
   nimm wahr, __ was heut ge -- _ schicht,
   Mein Hei -- land ward __ ge -- legt,
   da, wo __ man uns hin -- trägt,
-  wenn von __ _ uns un ser Geist
+  wenn von __ _ uns un -- ser Geist
   gen Him -- _ mel ist __ ge -- reist.
 }
 

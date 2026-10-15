@@ -180,5 +180,5 @@ bassLyrics = \lyricmode {
   ein ge -- ruh'g __ und stil -- les Le -- ben füh -- ren mö -- gen
   in al -- ler Gott -- se -- lig -- keit
   und Ehr -- _ bar -- keit,
-  A _ _ _ _ _ men.
+  A -- _ _ _ _ _ men.
 }

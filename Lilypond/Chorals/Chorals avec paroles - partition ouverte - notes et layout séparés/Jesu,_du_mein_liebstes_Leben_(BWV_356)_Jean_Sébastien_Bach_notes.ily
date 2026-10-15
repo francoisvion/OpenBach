@@ -120,8 +120,8 @@ altoLyricsOne = \lyricmode {
   \set stanza = 1
   Je -- su, __ du mein lieb -- _ stes Le -- _ ben,
   mei -- _ ner See -- _ len Bräu -- _ ti -- gam,
-  Je -- su, __ mei ne Freud __ _ und Won -- _ ne,
-  du __ _ mein __ Hoff nung, Schatz __ _ und Teil,
+  Je -- su, __ mei -- ne Freud __ _ und Won -- _ ne,
+  du __ _ mein __ Hoff -- nung, Schatz __ _ und Teil,
   mein' Er -- lö -- _ sung, Schmuck __ _ und Heil,
 }
 
@@ -129,7 +129,7 @@ altoLyricsTwo = \lyricmode {
   \set stanza = 2
   der du __ bist für mich __ _ ge -- ge -- _ ben
   an __ _ des bit -- _ tern Kreu -- _ zes -- stamm.
-  Hirt und __ Kö nig, Licht __ _ und Son -- _ ne,
+  Hirt und __ Kö -- nig, Licht __ _ und Son -- _ ne,
   ach, __ _ wie __ soll ich wür -- _ dig -- lich,
   mein Herr Je -- _ su, prei -- _ sen dich?
 }

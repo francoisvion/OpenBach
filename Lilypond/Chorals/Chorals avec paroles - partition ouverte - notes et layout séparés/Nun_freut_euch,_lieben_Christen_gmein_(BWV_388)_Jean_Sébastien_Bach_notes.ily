@@ -85,7 +85,7 @@ altoLyricsOne = \lyricmode {
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
   dass wir ge -- trost und all in Ein
-  mit Lust und Lie -- be sin gen:
+  mit Lust und Lie -- be sin -- gen:
 }
 
 tenorLyricsOne = \lyricmode {
@@ -94,7 +94,7 @@ tenorLyricsOne = \lyricmode {
   und lasst uns frö -- hlich sprin -- _ gen,
   was Gott an uns ge -- wen -- det hat
   und sei -- ne sü -- ße Wun -- der -- tat;
-  gar teu'r hat er's er -- wor ben.
+  gar teu'r hat er's er -- wor -- ben.
 }
 
 tenorLyricsTwo = \lyricmode {

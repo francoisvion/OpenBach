@@ -63,7 +63,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Herz -- lieb -- ster Je -- su, was hast du ver -- bro chen, dass man ein solch scharf Ur -- teil hat ge -- spro -- _ chen? Was ist die Schuld, in was für Mis -- se -- ta -- _ ten bist du ge -- ra -- _ ten?
+  Herz -- lieb -- ster Je -- su, was hast du ver -- bro -- chen, dass man ein solch scharf Ur -- teil hat ge -- spro -- _ chen? Was ist die Schuld, in was für Mis -- se -- ta -- _ ten bist du ge -- ra -- _ ten?
 }
 
 tenorLyrics = \lyricmode {

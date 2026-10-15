@@ -143,7 +143,7 @@ altoLyrics = \lyricmode {
   sind dem ew' -- gen Tod.
   Ky -- rie _ e -- _ _ _ lei -- _ _ son!
   Chri -- _ _ ste __ _ e -- _ lei -- _ _ son!
-  Ky rie __ e -- lei -- _ son!
+  Ky -- rie __ e -- lei -- _ son!
 }
 
 tenorLyrics = \lyricmode {

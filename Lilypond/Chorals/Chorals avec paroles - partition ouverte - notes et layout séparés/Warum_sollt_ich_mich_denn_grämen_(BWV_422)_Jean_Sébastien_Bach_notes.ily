@@ -74,13 +74,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Wa -- rum sollt' ich mich denn grä men?
+  Wa -- rum sollt' ich mich denn grä -- men?
   Hab' ich doch
   Chri -- stum noch,
   wer will mir __ _ den neh -- _ men?
   Wer will mir den Him -- mel rau -- ben,
   den mir schon
-  Got tes Sohn
+  Got -- tes Sohn
   bei -- ge -- legt im Glau -- _ ben.
 }
 
@@ -91,17 +91,17 @@ tenorLyrics = \lyricmode {
   wer will mir den neh -- _ men?
   Wer will mir den Him -- mel rau -- _ ben,
   den mir schon
-  Got tes Sohn
+  Got -- tes Sohn
   bei -- ge -- legt im Glau -- _ ben.
 }
 
 bassLyrics = \lyricmode {
-  Wa -- rum sollt' ich mich denn grä men?
+  Wa -- rum sollt' ich mich denn grä -- men?
   Hab' ich doch
   Chri -- stum noch,
   wer will mir den neh -- _ men?
   Wer will mir den Him -- mel rau -- _ ben,
   den mir schon
-  Got tes Sohn
+  Got -- tes Sohn
   bei -- ge -- legt im Glau -- ben.
 }

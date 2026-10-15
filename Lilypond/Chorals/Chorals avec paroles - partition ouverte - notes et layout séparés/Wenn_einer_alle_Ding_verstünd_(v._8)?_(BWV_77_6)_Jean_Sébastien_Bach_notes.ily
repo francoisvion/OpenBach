@@ -172,7 +172,7 @@ bassLyricsOne = \lyricmode {
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
   gib mir auch Gnad und Kraft, dass ich
-  Gott und den Näch -- sten lie be:
+  Gott und den Näch -- sten lie -- be:
 }
 
 bassLyricsThree = \lyricmode {

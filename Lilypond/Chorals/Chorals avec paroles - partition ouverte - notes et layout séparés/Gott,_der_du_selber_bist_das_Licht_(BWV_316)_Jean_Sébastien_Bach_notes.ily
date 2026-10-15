@@ -80,30 +80,30 @@ sopranoLyricsTwo = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Gott, der du sel -- ber bist das Licht, dess Güt' und Treu -- e stir -- bet __ _ nicht, dir sei itzt Lob ge -- sun - gen: und dei -- ne __ _ Gnad und Wun -- der - tat mich, da ich schlief, er -- hal -- ten __ _ hat.
+  Gott, der du sel -- ber bist das Licht, dess Güt' und Treu -- e stir -- bet __ _ nicht, dir sei itzt Lob ge -- sun -- - -- gen: und dei -- ne __ _ Gnad und Wun -- der -- - -- tat mich, da ich schlief, er -- hal -- ten __ _ hat.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  nach -- dem durch dei -- ne gro -- ße Macht, der hel -- le Tag die fin -- stre _ Nacht So kräf -- tig hat ver -- drun - gen,
+  nach -- dem durch dei -- ne gro -- ße Macht, der hel -- le Tag die fin -- stre _ Nacht So kräf -- tig hat ver -- drun -- - -- gen,
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Gott, der du sel -- ber bist das Licht, dess Güt' und Treu -- e stir -- bet nicht, dir sei itzt Lob ge -- sun - gen: und dei -- ne Gnad und Wun -- der -- tat mich, da ich schlief, er -- hal -- ten hat.
+  Gott, der du sel -- ber bist das Licht, dess Güt' und Treu -- e stir -- bet nicht, dir sei itzt Lob ge -- sun -- - -- gen: und dei -- ne Gnad und Wun -- der -- tat mich, da ich schlief, er -- hal -- ten hat.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  nach -- dem durch dei -- ne gro -- ße Macht, der hel -- le Tag die fin -- stre Nacht So kräf -- tig hat ver -- drun - gen,
+  nach -- dem durch dei -- ne gro -- ße Macht, der hel -- le Tag die fin -- stre Nacht So kräf -- tig hat ver -- drun -- - -- gen,
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Gott, der du sel -- ber bist das Licht, dess Güt' und Treu -- e __ _ stir -- bet nicht, dir sei itzt Lob ge -- sun - gen: und dei -- ne Gnad _ und Wun -- der -- tat mich, da ich schlief, er -- hal -- ten hat.
+  Gott, der du sel -- ber bist das Licht, dess Güt' und Treu -- e __ _ stir -- bet nicht, dir sei itzt Lob ge -- sun -- - -- gen: und dei -- ne Gnad _ und Wun -- der -- tat mich, da ich schlief, er -- hal -- ten hat.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  nach -- dem durch dei -- ne gro -- ße Macht, der hel -- le Tag die _ fin -- stre Nacht So kräf -- tig hat ver -- drun - gen,
+  nach -- dem durch dei -- ne gro -- ße Macht, der hel -- le Tag die _ fin -- stre Nacht So kräf -- tig hat ver -- drun -- - -- gen,
 }

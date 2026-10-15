@@ -87,13 +87,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Drum wir auch bil -- _ lig fröh -- _ lich sein, sin -- gen das Al -- _ le -- lu -- ia _ fein und lo ben dich, __ Herr Je -- su Christ; zu Trost _ du uns er -- stan -- den _ bist. Al -- le -- lu -- ia!
+  Drum wir auch bil -- _ lig fröh -- _ lich sein, sin -- gen das Al -- _ le -- lu -- ia _ fein und lo -- ben dich, __ Herr Je -- su Christ; zu Trost _ du uns er -- stan -- den _ bist. Al -- le -- lu -- ia!
 }
 
 tenorLyrics = \lyricmode {
-  Drum wir auch bil -- _ lig fröh -- _ lich sein, sin -- gen das Al -- le -- lu -- ia fein und lo ben dich, __ Herr Je -- su _ Christ; zu Trost du uns er -- stan -- den bist. Al -- le -- lu -- _ ia!
+  Drum wir auch bil -- _ lig fröh -- _ lich sein, sin -- gen das Al -- le -- lu -- ia fein und lo -- ben dich, __ Herr Je -- su _ Christ; zu Trost du uns er -- stan -- den bist. Al -- le -- lu -- _ ia!
 }
 
 bassLyrics = \lyricmode {
-  Drum wir auch bil -- lig fröh -- _ lich sein, sin -- gen das Al -- _ le -- lu -- ia _ fein und lo ben dich, __ Herr Je -- su _ Christ; zu Trost du uns er -- stan -- den _ bist. Al -- le -- lu -- ia!
+  Drum wir auch bil -- lig fröh -- _ lich sein, sin -- gen das Al -- _ le -- lu -- ia _ fein und lo -- ben dich, __ Herr Je -- su _ Christ; zu Trost du uns er -- stan -- den _ bist. Al -- le -- lu -- ia!
 }

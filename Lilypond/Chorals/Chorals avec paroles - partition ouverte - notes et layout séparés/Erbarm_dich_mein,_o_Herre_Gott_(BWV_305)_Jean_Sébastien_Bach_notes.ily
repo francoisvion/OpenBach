@@ -88,17 +88,17 @@ sopranoLyricsTwo = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Er -- barm' dich mein, o Her -- re __ _ Gott, nach dei -- ner gross'n Barm -- her -- zig - keit, Al -- lein ich dir ge -- sün -- digt __ _ hab', das ist wi -- der mich ste -- tig -- lich; das Bös' _ vor dir nicht mag be -- stahn, du bleibst __ _ _ ge -- recht, ob man ur -- tei - le dich.
+  Er -- barm' dich mein, o Her -- re __ _ Gott, nach dei -- ner gross'n Barm -- her -- zig -- - -- keit, Al -- lein ich dir ge -- sün -- digt __ _ hab', das ist wi -- der mich ste -- tig -- lich; das Bös' _ vor dir nicht mag be -- stahn, du bleibst __ _ _ ge -- recht, ob man ur -- tei -- - -- le dich.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  wasch ab, mach' rein mein Mi -- se - that, ich kenn mein Sünd' und ist mir _ leid.
+  wasch ab, mach' rein mein Mi -- se -- - -- that, ich kenn mein Sünd' und ist mir _ leid.
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Er -- barm' dich mein, o Her -- re Gott, nach dei -- ner gross'n Barm -- her -- zig -- keit, Al -- lein ich dir ge -- sün -- digt hab', das ist wi -- der mich ste -- tig -- lich; das Bös' _ vor dir nicht mag be -- stahn, du bleibst __ _ _ ge -- recht, ob man ur -- tei - le dich.
+  Er -- barm' dich mein, o Her -- re Gott, nach dei -- ner gross'n Barm -- her -- zig -- keit, Al -- lein ich dir ge -- sün -- digt hab', das ist wi -- der mich ste -- tig -- lich; das Bös' _ vor dir nicht mag be -- stahn, du bleibst __ _ _ ge -- recht, ob man ur -- tei -- - -- le dich.
 }
 
 tenorLyricsTwo = \lyricmode {

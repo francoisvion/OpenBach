@@ -101,23 +101,23 @@ sopranoLyrics = \lyricmode {
 altoLyrics = \lyricmode {
   Chri -- stus, der ist mein Le -- _ _ ben
   Ster -- _ _ _ ben
-  ist mein Ge winn;
+  ist mein Ge -- winn;
   dem tu ich mich er -- ge -- _ _ ben,
-  mit Freud' __ _ fahr' ich da hin.
+  mit Freud' __ _ fahr' ich da -- hin.
 }
 
 tenorLyrics = \lyricmode {
   Chri -- stus, der ist mein Le -- _ _ ben
   Ster -- _ ben
-  ist mein Ge winn;
+  ist mein Ge -- winn;
   dem tu ich mich er -- ge -- _ _ ben,
-  mit Freud' __ _ fahr' ich __ _ da hin.
+  mit Freud' __ _ fahr' ich __ _ da -- hin.
 }
 
 bassLyrics = \lyricmode {
   Chri -- stus, der ist __ _ mein Le -- _ _ ben
   Ster -- _ _ _ ben
-  ist mein Ge winn;
+  ist mein Ge -- winn;
   dem tu ich mich __ _ er -- ge -- _ _ ben,
-  mit Freud' __ _ fahr' ich da hin.
+  mit Freud' __ _ fahr' ich da -- hin.
 }

@@ -133,7 +133,7 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Je -- sus rich -- _ te mein Be gin -- _ _ nen,
+  Je -- sus rich -- _ te mein Be -- gin -- _ _ nen,
   Je -- sus blei -- _ be stets bei mir,
   Je -- sus sei mir __ in Ge -- dan -- _ _ ken,
   Je -- _ su, las -- se mich nicht wan -- _ _ ken!

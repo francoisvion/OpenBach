@@ -86,7 +86,7 @@ tenorLyrics = \lyricmode {
   und wollt' von hin -- nen Schei -- _ den,
   sein'n Jüng -- ern er treu -- lich be -- fahl,
   dass man all -- zeit ver -- künd' -- gen soll 
-  ein'n Tod und bit -- ter Lei den.
+  ein'n Tod und bit -- ter Lei -- den.
 }
 
 bassLyrics = \lyricmode {

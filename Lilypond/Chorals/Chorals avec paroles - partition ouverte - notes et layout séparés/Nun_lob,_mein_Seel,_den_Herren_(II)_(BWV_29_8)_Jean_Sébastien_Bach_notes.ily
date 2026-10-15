@@ -192,30 +192,30 @@ sopranoLyricsTwo = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \set stanza = 1
-  Sei Lob _ und Preis _ mit Eh -- _ _ ren Gott Va -- ter, Sohn _ Hei -- li -- gem _ Geist! daß wir __ _ ihm fest _ ver -- trau -- _ _ en, gänz -- lich __ ver -- laß'n auf ihn, von Her -- zen auf ihn bau -- _ _ en, daß uns'r _ Herz, Mut und _ Sinn ihm tröst -- lich soll'n an -- han gen. _ drauf sin gen wir zur Stund: A -- men, _ wir wer - den's er -- lan -- gen, glaub'n wir __ _ aus Her -- zens _ Grund.
+  Sei Lob _ und Preis _ mit Eh -- _ _ ren Gott Va -- ter, Sohn _ Hei -- li -- gem _ Geist! daß wir __ _ ihm fest _ ver -- trau -- _ _ en, gänz -- lich __ ver -- laß'n auf ihn, von Her -- zen auf ihn bau -- _ _ en, daß uns'r _ Herz, Mut und _ Sinn ihm tröst -- lich soll'n an -- han -- gen. _ drauf sin -- gen wir zur Stund: A -- men, _ wir wer -- - -- den's er -- lan -- gen, glaub'n wir __ _ aus Her -- zens _ Grund.
 }
 
 altoLyricsTwo = \lyricmode {
   \set stanza = 2
-  Der woll' _ in uns _ ver -- meh -- _ _ ren, Was er uns aus _ Gna -- den ver - heißt,
+  Der woll' _ in uns _ ver -- meh -- _ _ ren, Was er uns aus _ Gna -- den ver -- - -- heißt,
 }
 
 tenorLyricsOne = \lyricmode {
   \set stanza = 1
-  Sei Lob und Preis _ mit Eh - ren Gott Va -- ter, Sohn Hei -- li -- gem Geist! daß wir __ _ ihm fest _ ver -- trau - en, gänz -- lich __ _ ver -- laß'n auf _ ihn, von Her -- zen auf ihn bau -- _ _ en, daß uns'r Herz, Mut und Sinn ihm tröst -- lich soll'n an -- han - gen. drauf sin -- _ gen wir zur Stund: A -- men, wir wer - den's er -- lan -- gen, glaub'n wir __ aus Her -- zens Grund.
+  Sei Lob und Preis _ mit Eh -- - -- ren Gott Va -- ter, Sohn Hei -- li -- gem Geist! daß wir __ _ ihm fest _ ver -- trau -- - -- en, gänz -- lich __ _ ver -- laß'n auf _ ihn, von Her -- zen auf ihn bau -- _ _ en, daß uns'r Herz, Mut und Sinn ihm tröst -- lich soll'n an -- han -- - -- gen. drauf sin -- _ gen wir zur Stund: A -- men, wir wer -- - -- den's er -- lan -- gen, glaub'n wir __ aus Her -- zens Grund.
 }
 
 tenorLyricsTwo = \lyricmode {
   \set stanza = 2
-  Der woll' in uns _ ver -- meh - ren, Was er uns aus Gna -- den ver -- heißt,
+  Der woll' in uns _ ver -- meh -- - -- ren, Was er uns aus Gna -- den ver -- heißt,
 }
 
 bassLyricsOne = \lyricmode {
   \set stanza = 1
-  Sei Lob und Preis _ mit Eh -- _ _ ren Gott Va -- ter, _ Sohn _ Hei -- li -- gem _ Geist! daß wir __ _ ihm fest ver -- trau -- _ _ en, gänz -- lich __ _ ver -- laß'n auf _ ihn, von Her - zen auf _ ihn bau -- _ _ en, daß uns'r _ Herz, Mut und _ Sinn ihm tröst - lich soll'n _ an -- han -- _ _ gen. drauf sin -- _ gen wir zur _ Stund: A -- men, _ wir wer - den's er -- lan -- gen, glaub'n wir __ _ aus Her -- zens _ Grund.
+  Sei Lob und Preis _ mit Eh -- _ _ ren Gott Va -- ter, _ Sohn _ Hei -- li -- gem _ Geist! daß wir __ _ ihm fest ver -- trau -- _ _ en, gänz -- lich __ _ ver -- laß'n auf _ ihn, von Her -- - -- zen auf _ ihn bau -- _ _ en, daß uns'r _ Herz, Mut und _ Sinn ihm tröst -- - -- lich soll'n _ an -- han -- _ _ gen. drauf sin -- _ gen wir zur _ Stund: A -- men, _ wir wer -- - -- den's er -- lan -- gen, glaub'n wir __ _ aus Her -- zens _ Grund.
 }
 
 bassLyricsTwo = \lyricmode {
   \set stanza = 2
-  Der woll' in uns _ ver -- meh -- _ _ ren, Was er uns _ aus _ Gna -- den ver - heißt,
+  Der woll' in uns _ ver -- meh -- _ _ ren, Was er uns _ aus _ Gna -- den ver -- - -- heißt,
 }
