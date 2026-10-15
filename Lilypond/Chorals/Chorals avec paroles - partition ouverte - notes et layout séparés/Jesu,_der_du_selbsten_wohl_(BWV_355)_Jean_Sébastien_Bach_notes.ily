@@ -13,7 +13,7 @@ sopranoMusic = {
   b'2 e'\fermata
   e''4 d'' cis'' b'
   a' gis' fis'2\fermata
-  b'4 a' d'' cis''
+  a'4 a' d'' cis''
   b'2 a'\fermata \fine
 }
 
