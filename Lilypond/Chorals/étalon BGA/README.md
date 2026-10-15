@@ -26,6 +26,11 @@ télécharger. Ranger les PDF dans `sources/`.
 
 ## Relevé des écarts
 
+Quand **les notes** diffèrent, consulter aussi notre scan (`../scan/BWV_x_y.jpg`) avant de
+trancher. Constaté sur les 4 premiers chorals : le scan donne raison à la NBA (notre fichier
+s'en était écarté), sauf pour la basse où le scan imprime basse vocale (grosses notes) et
+continuo (petites notes) — notre fichier avait pris les petites.
+
 Comparer **uniquement la position des syllabes** (sur quelle note commence chaque
 syllabe, où sont les mélismes) — pas l'orthographe, qui a changé depuis le XIXᵉ s.
 
@@ -57,10 +62,16 @@ Pour chaque écart : choral, voix, mesure, notre découpe, celle de Bach, puis v
 | 226/2 | S | 20-21 | *drin-* sur do (4ᵉ temps) | *dir* tient ré-do, *drin-* sur sol | erreur de notre fichier |
 | 226/2 | A, T, B | 19-21 | mélisme sur *drin-* trop court / *ben* décalé | *Le-* tient ré + mib-fa ; *drin-* porte le mélisme jusqu'à *gen* | **règle** (mélisme recopié) |
 | 226/2 | B | 23-24 | « le -- _ lu -- _ ia » | *le* tient tout le trait, *lu* sur fa | erreur de notre fichier |
-| 226/2 | S A T B | 21-24 | *Alleluia* | NBA : *Halleluja* | variante de texte, non modifiée — à trancher |
+| 226/2 | S A T B | 21-24 | *Alleluia* | *Halleluja* (NBA **et scan**) | texte aligné sur le scan (175/7 : *Alleluja*) |
+| 248/46 | A | 1 | « Glanz all Fin -- _ _ ster » | *Glanz* tient mi-fa#-sol#-la-si, *all* sur mi, *Fin-* sur ré# | **règle** (mélisme recopié) |
+| 248/46 | A | 5 | mi-fa# doubles + sol# croche | mi croche + fa#-sol# doubles + la croche (NBA **et scan**) | **notes** : erreur de saisie de notre fichier |
+| 248/46 | A | 9-11 | la-la non liés ; la blanche m. 11 | la lié (m. 9-10), si lié (m. 10-11), **deux la noires** m. 11 (NBA **et scan**) | **notes** : liaisons / note répétée perdues |
+| 248/46 | A, T, B | 9-11 | *e-wig schau-en* décalé | A : *e* sur la lié, *wig* sur fa# ; T : *schau* tient mi lié + do#-la, *en* sur do# ; B : *e* tient mi lié + fa# | erreur de notre fichier |
+| 248/46 | T | 5 | *ver* sur mi noire | *Licht* sur si-mi, *ver* sur ré# | erreur de notre fichier |
+| 248/46 | B | 4-5 | « Nacht _ in » ; si-si grave croches | *trü* tient ré#-mi-mi#, *be Nacht in* sur 3 croches ; **si noire** (basse vocale ; le scan donne le continuo) | erreur + **basse vocale** |
 | 175/7 | S A T B | — | traits d'union manquants : *Mor-gen stern*, *E-wig keit*, *Al-le lu-ia* | *Mor-gen-stern*, *E-wig-keit*, *Al-le-lu-ia* | erreur de notre fichier (à détecter par le validateur) |
 
 ## Chorals vérifiés
 
 Conformes à la NBA, voix par voix (étiquette Finder **verte** posée par
-`../scripts/marquer_verifie.py`) : BWV 121/6, BWV 175/7, BWV 226/2.
+`../scripts/marquer_verifie.py`) : BWV 121/6, BWV 175/7, BWV 226/2, BWV 248/46.

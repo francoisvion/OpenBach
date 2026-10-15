@@ -20,13 +20,13 @@ altoMusic = {
   dis' e' d'8 [a'] gis'4
   e'2\fermata r4 fis'
   fis' e'8 [cis'] gis' [fis'] e' [dis']
-  e'16 [fis' gis'8] a' [fis'] gis'4\fermata a'
+  e'8 [fis'16 gis' a'8] fis' gis'4\fermata a'
   a' ais' b'8 [a'] gis' [fis']
   e' [fis'16 gis'] a'8 [fis'] gis'4\fermata a'8 [gis']
   fis'4. gis'16 [ais'] b'4\fermata ais'
-  b'8 [a'] g'4 fis'\fermata e'8 [a']
-  a' gis'4 fis'8 gis' [a'] b'4
-  b'8 [e'] a'2 gis'4
+  b'8 [a'] g'4 fis'\fermata e'8 a'~
+  a' gis'4 fis'8 gis' [a'] b'4~
+  b'8 [e'] a'4 a' gis'
   e'2.\fermata \fine
 }
 
@@ -41,8 +41,8 @@ tenorMusic = {
   e'8 [d'] cis' [dis'] e'4\fermata e'
   d'8 [cis'] d' [e'] fis'4\fermata fis'8 [e']
   d'4 e' a\fermata a
-  b cis'8 [dis'] e'2
-  e'8 [cis'] a [cis'] fis' [d'] b [e']
+  b cis'8 [dis'] e'2~
+  e'8 [cis' a] cis' fis' [d' b e']
   cis'2.\fermata \fine
 }
 
@@ -51,8 +51,8 @@ bassMusic = {
   cis' b8 [a] gis4 a~
   a8 g fis [e] fis [d] e4
   a,2\fermata r4 d
-  dis8 e4 eis8~ eis fis gis [a]
-  gis [e] b [b,] e4\fermata a8 [gis]
+  dis8 e4 eis8~ eis fis gis a
+  gis [e] b4 e\fermata a8 [gis]
   fis [e] d [cis] b,4 e8 [d]
   cis [b,] a,4 e\fermata a,
   d8 [e] d [cis] b,4\fermata fis
@@ -67,13 +67,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Dein Glanz all Fin -- _ _ ster -- nis ver -- zehrt, Die trü -- be Nacht in Licht ver -- kehrt. Leit uns auf dei -- nen We -- _ gen, dass dein Ge -- sicht und herr -- lichs Licht Wir e -- wig __ _ schau -- _ _ en mö -- gen!
+  Dein Glanz __ _ _ all Fin -- ster -- nis ver -- zehrt, Die trü -- be Nacht in Licht ver -- kehrt. Leit uns auf dei -- nen We -- _ gen, dass dein Ge -- sicht und herr -- lichs Licht Wir e -- _ wig schau -- _ en mö -- _ gen!
 }
 
 tenorLyrics = \lyricmode {
-  Dein Glanz all Fin -- _ _ ster -- nis ver -- zehrt, Die trü -- be Nacht in Licht ver __ -- _ kehrt. Leit uns auf dei -- nen We -- _ gen, dass dein Ge -- sicht und herr -- lichs Licht Wir e -- wig schau -- _ _ en mö -- gen!
+  Dein Glanz all Fin -- _ _ ster -- nis ver -- zehrt, Die trü -- be Nacht in Licht __ _ ver -- kehrt. Leit uns auf dei -- nen We -- _ gen, dass dein Ge -- sicht und herr -- lichs Licht Wir e -- wig schau -- en mö -- gen!
 }
 
 bassLyrics = \lyricmode {
-  Dein Glanz all Fin -- _ _ ster -- nis ver -- zehrt, Die trü -- be Nacht _ in Licht ver -- kehrt. Leit uns auf dei -- nen We -- _ gen, dass dein Ge -- sicht und herr -- lichs Licht Wir e -- wig schau -- _ _ en mö -- gen!
+  Dein Glanz all Fin -- _ _ ster -- nis ver -- zehrt, Die trü -- _ _ be Nacht in Licht ver -- kehrt. Leit uns auf dei -- nen We -- _ gen, dass dein Ge -- sicht und herr -- lichs Licht Wir e -- _ wig schau -- en mö -- _ gen!
 }
