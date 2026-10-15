@@ -147,7 +147,7 @@ altoLyrics = \lyricmode {
   Dein Wort ist ja der Mor -- gen -- stern,
   der herr -- lich leuch -- tet nah und fern.
   Drum will ich die mich an -- _ _ ders leh -- _ ren,
-  in E -- wig -- keit, __ _ _ mein Gott, nicht __ _ hö -- ren. 
+  in E -- wig -- keit, __ _ _ mein Gott, nicht hö -- _ ren. 
   Al -- le -- lu -- _ ia,
   Al -- le -- _ lu -- ia!
 }
