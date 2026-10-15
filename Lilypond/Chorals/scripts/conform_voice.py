@@ -65,6 +65,16 @@ def tokenize_events(body):
     # a false "1 note short" report on a period the user confirmed correct
     # by ear/eye) -- insert the missing space before splitting.
     body = re.sub(r"([0-9.])(?=[rs]\d)", r"\1 ", body)
+    # \markup {...} et chaînes "..." ne sont pas des notes : leurs mots ne doivent pas être
+    # lus comme des hauteurs, et l'articulation qui les porte (s2.^\markup) ne doit pas faire
+    # perdre le silence (BWV_147_6_10 : soprano décalé de 3 temps).
+    body = re.sub(r'"[^"]*"', " ", body)
+    while (m := re.search(r"\\markup\s*\{", body)):
+        k, prof = m.end(), 1
+        while prof and k < len(body):
+            prof += {"{": 1, "}": -1}.get(body[k], 0); k += 1
+        body = body[:m.start()] + " " + body[k:]
+    body = body.replace("\\markup", " ")
     spaced = body.replace("[", " [ ").replace("]", " ] ").replace("|", " ").replace("~", "~ ")
     tokens = spaced.split()
     events = []
@@ -101,6 +111,9 @@ def tokenize_events(body):
                 events[-1]["is_fermata"] = True
             continue
         core = tok.strip("()")
+        # articulation accrochée (c''4^\trill, s2.^, b'4->) : on garde la note, et le point d'orgue
+        if (a := re.match(r"^([^-^_]+?)([-^_].*)$", core)) and not core.startswith("\\"):
+            core = a.group(1) + ("\\fermata" if "fermata" in a.group(2) else "")
         if not core:
             continue
         if re.match(r"^\d+\*\d+$", core):
