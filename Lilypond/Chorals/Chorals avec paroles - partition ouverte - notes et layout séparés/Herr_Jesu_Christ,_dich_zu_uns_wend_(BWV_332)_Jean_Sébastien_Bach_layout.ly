@@ -1,31 +1,8 @@
 \version "2.27.3"
 
-#(set-global-staff-size 18)
+\include "_mise_en_page_henle.ily"
 
 \include "Herr_Jesu_Christ,_dich_zu_uns_wend_(BWV_332)_Jean_Sébastien_Bach_notes.ily"
-
-\paper {
-  #(set-paper-size "a4")
-  
-  left-margin = 20\mm
-  right-margin = 20\mm
-  top-margin = 20\mm
-  bottom-margin = 25\mm
-  
-  indent = 5\mm
-  
-  oddHeaderMarkup = \markup \fill-line { \null \fromproperty #'page:page-number-string }
-  evenHeaderMarkup = \markup \fill-line { \fromproperty #'page:page-number-string \null }
-
-  system-system-spacing = #'((basic-distance . 11) 
-                             (minimum-distance . 7) 
-                             (padding . 1.5) 
-                             (stretchability . 40))
-  markup-system-spacing = #'((basic-distance . 9) 
-                             (minimum-distance . 6) 
-                             (padding . 1.5) 
-                             (stretchability . 20))
-}
 
 \header {
   title = "Herr Jesu Christ, dich zu uns wend"
