@@ -1,0 +1,104 @@
+BWV_1084 A m.12 temps 2 sol4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_108_6 A m.6 temps 2 la4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_10_7 A m.21 temps 1 mib4 répété, 2e note « _ » | (1) scan : note longue
+BWV_111_6 S m.4 temps 4 si4 répété, 2e note « _ » | (1) scan : note longue
+BWV_112_5 S m.4 temps 2 la4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_112_5 S m.11 temps 2 la4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_11_6 T m.3 temps 2 si3 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_122_6 T m.2 temps 3 ré4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_122_6 T m.14 temps 3 ré4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_123_6 A m.4 temps 1 ré4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_125_6 A m.3 temps 3 si4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_155_5 S m.4 temps 2 ré5 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_168_6 T m.11 temps 3 si3 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_169_7 T m.13 temps 3 si3 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_175_7 A 91.0 mi4 répété, 2e note « _ » | pas de scan lu
+BWV_175_7 T 92.0 la3 répété, 2e note « _ » | pas de scan lu
+BWV_17_7 A m.37 temps 1 la4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_183_5 S m.2 temps 2 do5 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_197_5 B m.2 temps 1 ré3 répété, 2e note « _ » | (1) scan : note longue
+BWV_250 S m.4 temps 2 la4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_261 S m.20 temps 3 mi5 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_266 T m.3 temps 3 si3 répété, 2e note « _ » | (1) scan : note longue
+BWV_266 T m.4 temps 1 si3 répété, 2e note « _ » | (1) scan : note longue
+BWV_266 T m.21 temps 3 si3 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_269 A m.14 temps 1 la4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_279 T m.2 temps 2 fa#4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_282 S m.8 temps 1 ré5 répété, 2e note « _ » | (1) scan : note longue
+BWV_282 A m.8 temps 1 fa4 répété, 2e note « _ » | (1) scan : note longue
+BWV_282 T m.17 temps 1 mi4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_283 T m.4 temps 2 mi4 répété, 2e note « _ » | (1) scan : note longue
+BWV_283 T m.8 temps 2 la3 répété, 2e note « _ » | (1) scan : note longue
+BWV_283 T m.16 temps 4 do4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_292 T m.14 temps 2 ré3 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_295 T m.12 temps 2 la3 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_295 T m.15 temps 3 la3 répété, 2e note « _ » | (1) scan : note longue
+BWV_29_8 A m.18 temps 3 la4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_29_8 A m.19 temps 1 la4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_312 A m.17 temps 2.5 mi4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_317 T m.4 temps 2.5 la3 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_320 T m.8 temps 3 do4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_320 T m.10 temps 3 do4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_320 T m.36 temps 2 sib3 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_323 A m.9 temps 1 fa#4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_323 T m.6 temps 3 la3 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_324 S m.9 temps 6 la4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_324 A m.3 temps 4 ré4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_324 A m.9 temps 10 mi4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_324 B m.9 temps 5 ré3 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_324 B m.9 temps 6 ré3 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_325 A m.2 temps 4 sol4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_325 A m.15 temps 3 sol4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_325 T m.10 temps 1 do4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_325 T m.15 temps 3 ré4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_328 T 181.0 sol3 répété, 2e note « _ » | pas de scan lu
+BWV_339 A m.13 temps 2 mi4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_343 A m.10 temps 2 fa4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_346 T m.16 temps 3 sol3 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_348 T m.4 temps 1 do4 répété, 2e note « _ » | (1) scan : note longue
+BWV_348 T m.9 temps 1 do4 répété, 2e note « _ » | (1) scan : note longue
+BWV_348 T m.18 temps 1 sib3 répété, 2e note « _ » | (1) scan : note longue
+BWV_349 S m.15 temps 1 la4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_358 B m.4 temps 2 sol#3 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_363 T m.11 temps 4 si3 répété, 2e note « _ » | (1) scan : note longue
+BWV_368 A m.4 temps 1 fa4 répété, 2e note « _ » | (1) scan : note longue
+BWV_368 A m.5 temps 1 fa4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_368 A m.19 temps 1 sol4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_368 A m.29 temps 1 do4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_368 T m.16 temps 1 do4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_371 T 67.0 sol3 répété, 2e note « _ » | pas de scan lu
+BWV_371 T 68.0 sol3 répété, 2e note « _ » | pas de scan lu
+BWV_371 B 152.0 ré3 répété, 2e note « _ » | pas de scan lu
+BWV_374 T m.6 temps 1 fa4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_401 A m.11 temps 2 fa4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_403 A m.21 temps 2.5 mib4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_405 T m.11 temps 2 la3 répété, 2e note « _ » | (1) scan : note longue
+BWV_412 A m.12 temps 4 la4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_412 A m.15 temps 4 ré4 répété, 2e note « _ » | (1) scan : note longue
+BWV_426 T m.2 temps 4 do4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_426 T m.17 temps 4 ré4 répété, 2e note « _ » | (1) scan : note longue
+BWV_428 T m.14 temps 2 ré4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_429 T m.15 temps 2.5 fa#4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_42_7 A m.26 temps 1 do#4 répété, 2e note « _ » | (1) scan : note longue
+BWV_42_7 B m.26 temps 1 la2 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_431 T m.2 temps 2 do4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_437 A 104.0 do4 répété, 2e note « _ » | pas de scan lu
+BWV_437 T 12.0 la3 répété, 2e note « _ » | pas de scan lu
+BWV_437 T 108.0 do4 répété, 2e note « _ » | pas de scan lu
+BWV_437 B 94.0 do3 répété, 2e note « _ » | pas de scan lu
+BWV_59_3 A 76.0 ré4 répété, 2e note « _ » | pas de scan lu
+BWV_59_3 T 72.0 sol3 répété, 2e note « _ » | pas de scan lu
+BWV_59_3 T 92.0 la3 répété, 2e note « _ » | pas de scan lu
+BWV_65_2 T m.7 temps 3.5 mi4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_65_2 T m.8 temps 3.5 ré4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_65_7 T m.4 temps 2 mi4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_74_8 S m.13 temps 3 si4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_83_5 T m.3 temps 1 do4 répété, 2e note « _ » | (1) scan : note longue
+BWV_8_6 A m.14 temps 1 fa#4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_91_6 A m.10 temps 2 mi4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_91_6 B m.10 temps 2 do3 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_92_9 T m.3 temps 4 si3 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_92_9 T m.14 temps 4 si3 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_95_7 S m.14 temps 2.5 la4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+BWV_95_7 T m.15 temps 1 do4 répété, 2e note « _ » | (2) scan : notes répétées aussi
+{'(2) scan : notes répétées aussi': 70, '(1) scan : note longue': 20, 'pas de scan': 13}
