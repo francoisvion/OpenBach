@@ -198,3 +198,64 @@ l'état avec la méthode utilisée pour les syncopes.
 - **§4.B syncope 2 mots** : règle connue, **pas encore scannée ni appliquée**.
 - **§2 retards, §3 anticipations, §5 croches de passage/Repercussio** : règles connues,
   **pas encore scannées ni appliquées** — aucune détection automatique écrite à ce stade.
+- **§9 (leçons NBA)** : 3 chorals étalon corrigés (BWV 121/6, 175/7, 226/2), détection
+  automatique du « mélisme recopié » **pas encore écrite**.
+
+## 9. Ce que montre la partition de Bach (NBA) — corpus étalon, 2026-10-15
+
+Source : texte sous chaque voix dans la NBA (BWV 121/6, 175/7, 226/2), relevé détaillé dans
+`étalon BGA/README.md`. Règles **provisoires** (3 chorals) — à confirmer sur 248/46 et 244/32.
+
+### 9.1 Chaque voix a sa propre découpe — ne jamais recopier le mélisme du soprano
+
+Défaut le plus fréquent de nos fichiers (≈ 12 cas sur 3 chorals) : une voix A/T/B garde un
+mélisme là où le **soprano** en a un, alors que sa propre ligne est syllabique à cet endroit.
+Origine : `derive_atb.py` dérive A/T/B de la structure du soprano.
+
+| Choral | Soprano | Voix grave chez Bach |
+|---|---|---|
+| 175/7 m. 18-19 | *die* __ _ (ré lié) puis *mich* | A/T/B : *die mich* syllabique, mélisme sur *an-* |
+| 226/2 m. 9-10 | *nicht* __ (fa lié) puis *ab-trei-ben* | A/T/B : *ab* au 1ᵉʳ temps, mélisme sur *trei-* |
+| 226/2 m. 6-7 | *be-* __ (fa lié) | T/B : *stän-* au temps suivant, mélisme sur *blei-* |
+
+Règle : le mélisme d'une voix se décide **sur ses propres notes**, jamais par analogie avec le
+soprano. Seuls les points d'ancrage communs restent : incipit de phrase et syllabe sous le
+point d'orgue (§1, homorythmie cadentielle — confirmée dans les 3 chorals).
+
+### 9.2 Où Bach place le surplus de notes
+
+Quand une voix a plus de notes que de syllabes entre deux points d'orgue :
+
+1. **La syllabe accentuée du dernier mot avant la cadence absorbe le mélisme** — tendance la
+   plus constante : *blei-ben*, *trei-ben*, *drin-gen*, *hö-ren*, *leh-ren*, *an-ders*,
+   *E-wig-keit*. Les mots qui précèdent restent syllabiques.
+2. **Une nouvelle syllabe prend de préférence le début du temps** ; le surplus (croches,
+   doubles) se chante à l'intérieur du temps. Ex. 121/6 T m. 2 : *Dank* sur la blanche, *sei*
+   dès le 1ᵉʳ temps suivant (sol-la-si) — et non *Dank* prolongé sur sol-la. 121/6 B m. 4-5 :
+   *born* tient tout le trait, *von* au 1ᵉʳ temps de m. 5.
+3. Exceptions vues : une syllabe longue peut couvrir plusieurs noires conjointes (175/7 A m. 1 :
+   *wer* sur sol-fa#-sol, *ter* au 4ᵉ temps) — la règle 2 est une préférence, pas une loi.
+
+### 9.3 Notes répétées : vérifier la source
+
+226/2 T m. 12 : Bach écrit fa noire + **fa croche** + mib croche, *Kraft* sur le 2ᵉ fa. Notre
+source (2 portées / Riemenschneider) a **fusionné** les deux fa en noire pointée. Une note
+répétée de Bach porte donc une nouvelle syllabe (cf. §5), mais elle peut avoir **disparu** de
+nos fichiers : une noire pointée suivie d'une croche, dans une voix qui manque d'une syllabe,
+est suspecte.
+
+### 9.4 Basse vocale ≠ continuo
+
+121/6 : notre basse était la ligne du continuo (octaves graves, fin fa#–fa# au lieu de la
+ronde chantée). Pour tout choral tiré d'une œuvre, la basse se vérifie contre la **basse
+vocale** NBA (notes **et** texte). À signaler dans les notices des compilations.
+
+### 9.5 Contrôles de forme (validateur)
+
+- Mots composés : traits d'union obligatoires entre toutes les syllabes (*Mor -- gen -- stern*,
+  *E -- wig -- keit*, *Al -- le -- lu -- ia*) — oublis trouvés dans 175/7.
+- Coquilles (*duch* pour *durch*, 226/2), mot en double (*bis in __ in*, 121/6).
+- Syntaxe LilyPond : `__` suivi de `--` (*rin __ -- _*) ; `[` s'attache à la note qui
+  **précède** (`c8 [d16 e]` = un seul groupe de 3 notes = une seule syllabe).
+- Variantes de texte à trancher (non corrigées) : NBA *Halleluja* / nos fichiers *Alleluia*
+  (226/2), *willt* / *willst*, *folge* / *folg*.
