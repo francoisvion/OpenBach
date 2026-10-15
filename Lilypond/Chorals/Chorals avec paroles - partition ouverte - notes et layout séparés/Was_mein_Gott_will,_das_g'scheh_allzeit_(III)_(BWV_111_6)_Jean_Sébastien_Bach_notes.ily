@@ -4,7 +4,7 @@ sopranoMusic = {
     g' a' g' c''
     c'' b' c''\fermata c''
     b' a' d''4. c''8
-    b'4 c'' b' b'
+    b'4 c'' b'2
     a'2.\fermata } a'4
   a' a' b'4. a'8
   b'4 g' g' fis'
@@ -81,7 +81,7 @@ bassMusic = {
 sopranoLyricsOne = \lyricmode {
   \stanza "1."
   Noch eins, Herr, will ich bit -- ten dich,
-  du wirst mir's nicht ver -- sa -- _ _ _ gen:
+  du wirst mir's nicht ver -- sa -- _ _ gen:
   Hilf, steur und wehr, __ _ _ ach Gott, mein Herr,
   zu Eh -- ren dei -- nem Na -- men.
   Wer das be -- gehrt, dem wird's ge -- währt;
@@ -91,7 +91,7 @@ sopranoLyricsOne = \lyricmode {
 sopranoLyricsTwo = \lyricmode {
   \stanza "2."
   wenn mich der bö -- se Geist an -- ficht,
-  lass mich doch nicht ver -- za -- _ _ _ gen.
+  lass mich doch nicht ver -- za -- _ _ gen.
 }
 
 altoLyricsOne = \lyricmode {
