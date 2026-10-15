@@ -135,7 +135,7 @@ tenorLyricsOne = \lyricmode {
   und auf dich lass uns bau -- _ en,
   aus Herz -- zens -- grund ver -- trau -- _ en,
   A -- men, a -- men, das sei wahr,
-  so sin -- gen wir Al -- le -- lu -- ja.
+  so sin -- gen wir Al -- le -- lu -- ia.
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -157,7 +157,7 @@ bassLyricsOne = \lyricmode {
   und auf dich lass uns bau -- _ en,
   aus Herz -- zens -- grund ver -- trau -- _ en,
   A -- men, a -- men, das sei __ _ wahr,
-  so sin -- gen wir Al -- le -- lu -- ja.
+  so sin -- gen wir Al -- le -- lu -- ia.
 }
 
 bassLyricsTwo = \lyricmode {

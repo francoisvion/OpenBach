@@ -115,7 +115,7 @@ bassLyrics = \lyricmode {
   Was frag' ich nach der Welt,
   und al -- len ih -- ren Schä -- tzen,
   wenn ich mich nur an dir, 
-  ein Je -- su, kann er -- gö -- _ tzen?
+  mein Je -- su, kann er -- gö -- _ tzen?
   Dich hab' ich ein -- zig mir
   zur Wol -- lust vor -- ge -- stellt:
   Du, du bist mei -- ne Lust:

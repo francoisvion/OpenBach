@@ -1,7 +1,4 @@
-420 chorals, 30 avec problème(s) — loi 0 : 64
-
-Ach_Gott,_wie_manches_Herzeleid_(II)_(BWV_153_9)_Jean_Sébastien_Bach_notes.ily
-  [loi 0] altoOne : soprano « lebe noch, das Kreuz dir » / alto « lebe noch, as Kreuz dir »
+420 chorals, 23 avec problème(s) — loi 0 : 52
 
 Allein_zu_dir,_Herr_Jesu_Christ_(II)_(BWV_261)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoTwo : soprano « mir sonst weren. » / alto « mir sonst werden. »
@@ -17,9 +14,6 @@ Christ_lag_in_Todesbanden_(III)_(BWV_278)_Jean_Sébastien_Bach_notes.ily
 
 Christum_wir_sollen_loben_schon_(BWV_121_6)_Jean_Sébastien_Bach_notes.ily
   [loi 0] tenor : soprano « in Ewigkeit. » / tenor « in Ewigkeit, in Ewigkeit. »
-
-Da_der_Herr_Christ_zu_Tische_saß_(BWV_285)_Jean_Sébastien_Bach_notes.ily
-  [loi 0] tenor : soprano « verkünd'gen soll sein'n Tod und » / tenor « verkünd'gen soll ein'n Tod und »
 
 Der_Tag,_der_ist_so_freudenreich_(BWV_294)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoOne : soprano « du bist auserkor'n, dass du » / alto « du bist auser kor'n, dass »
@@ -41,8 +35,6 @@ Gelobet_seist_du,_Jesu_Christ_(I)_(BWV_64_2)_Jean_Sébastien_Bach_notes.ily
 
 Gott_der_Vater_wohn_uns_bei_(BWV_317)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoOne : soprano « singen wir Alleluia. » / alto « singen wir Alleluja. »
-  [loi 0] tenorOne : soprano « singen wir Alleluia. » / tenor « singen wir Alleluja. »
-  [loi 0] bassOne : soprano « singen wir Alleluia. » / bass « singen wir Alleluja. »
 
 Herr_Gott,_dich_loben_wir_(BWV_328)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoOne : soprano « Vater in Ewigkeit, Ehret die » / alto « Vater in Ewig keit, Ehret »
@@ -66,10 +58,6 @@ Jesu,_meine_Freude_(IV)_(BWV_227_7)_Jean_Sébastien_Bach_notes.ily
 Jesus_Christus,_unser_Heiland,_der_den_Tod_überwand_(BWV_364)_Jean_Sébastien_Bach_notes.ily
   [loi 0] alto : soprano « überwand, ist auferstanden, die Sünd » / alto « überwand, ist auferstan den, die »
 
-Meinen_Jesum_lass_ich_nicht_(VII)_(BWV_244b_29)_Jean_Sébastien_Bach_notes.ily
-  [loi 0] tenor : soprano « Meinen Jesum lass' ich nicht. » / tenor « Meinen Jesum lass ich nicht. »
-  [loi 0] bass : soprano « Meinen Jesum lass' ich nicht. » / bass « Meinen Jesum lass ich nicht. »
-
 Mit_Fried_und_Freud_ich_fahr_dahin_(III)_(BWV_125_6)_Jean_Sébastien_Bach_notes.ily
   [loi 0] alto : soprano « deins Volks Israel der Preis, » / alto « deins Volks Isra el der »
 
@@ -81,23 +69,12 @@ Nun_preiset_alle_Gottes_Barmherzigkeit_(BWV_391)_Jean_Sébastien_Bach_notes.ily
   [loi 0] tenor : soprano « seiner Gnaden, Gnaden. » / tenor « seiner Gnaden, »
   [loi 0] bass : soprano « seiner Gnaden, Gnaden. » / bass « seiner Gnaden, »
 
-O_Ewigkeit,_du_Donnerwort_(I)_(BWV_20_7_11)_Jean_Sébastien_Bach_notes.ily
-  [loi 0] altoOne : soprano « 11. Solang ein Gott » / alto « \markup{"11. So"}lang ein »
-  [loi 0] tenorOne : soprano « 11. Solang ein Gott » / tenor « \markup{"11. So"}lang ein »
-  [loi 0] bassOne : soprano « 11. Solang ein Gott » / bass « \markup{"11. So"}lang ein »
-
 O_Gott,_du_frommer_Gott_(I)_(BWV_24_6)_Jean_Sébastien_Bach_notes.ily
   [loi 0] alto : soprano « Gewissen bleib. » / alto « Gewissen bleib, und rein gewissen »
   [loi 0] tenor : soprano « Gewissen bleib. » / tenor « Gewissen bleib, und rein gewissen »
 
 O_Gott,_du_frommer_Gott_(VII)_(BWV_197a_7)_Jean_Sébastien_Bach_notes.ily
   [loi 0] bass : soprano « dich, o Je su halten, » / bass « dich, o Jesu halten, und »
-
-O_Welt,_sieh_hier_dein_Leben_(VI)_(BWV_395)_Jean_Sébastien_Bach_notes.ily
-  [loi 0] bass : soprano « Hohn und grossem Spott. » / bass « Hohn und großem Spott. »
-
-O_wie_selig_seid_ihr_doch,_ihr_Frommen_(I)_(BWV_405)_Jean_Sébastien_Bach_notes.ily
-  [loi 0] alto : soprano « doch, ihr Frommen, die ihr » / alto « doch, ihr From_m men, die »
 
 Treuer_Gott,_ich_muss_dir_klagen_(II)_(BWV_194_6)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoThree : soprano « mir sende, i du edler » / alto « mir sende, o du edler »
@@ -110,9 +87,6 @@ Verleih_uns_Frieden_gnädlich_(II)_(BWV_126_6)_Jean_Sébastien_Bach_notes.ily
 Was_Gott_tut,_das_ist_wohlgetan_(IV)_(BWV_12_7)_Jean_Sébastien_Bach_notes.ily
   [loi 0] tenorTwo : soprano « auf die rauhe Bahn Not, » / tenor « auf die rauheBahn Not,Tod und »
 
-Was_frag_ich_nach_der_Welt_(I)_(BWV_64_4)_Jean_Sébastien_Bach_notes.ily
-  [loi 0] bass : soprano « an dir, mein Jesu, kann » / bass « an dir, ein Jesu, kann »
-
 Werde_munter,_mein_Gemüte_(III)_(BWV_146_8)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoTwo : soprano « dich nun Christus, dein Herre, » / alto « dich nun Chris tusdein Herre, »
 
@@ -124,5 +98,5 @@ Wär_Gott_nicht_mit_uns_diese_Zeit_(II)_(BWV_257)_Jean_Sébastien_Bach_notes.ily
   [loi 0] tenorTwo : soprano « hätten müsst verzagen, » / tenor « hätten müsst verza - gen, »
   [loi 0] bassTwo : soprano « hätten müsst verzagen, » / bass « hätten müsst verza - gen, »
 
-Mots rares (1 seule occurrence dans le corpus, à relire) : 34
-11solang, allei, allelu, auferstan, ausdie, auser, bverlaßen, chris, ein'n, erge, from_m, glied, isra, jam, keit, kor'n, lendtreiben, lich, luia, mer, nottod, oth, propheten, rauhebahn, schen, sem, sprin, sre, ter, tusdein, tverlaßen, weren, wäch, zeba
+Mots rares (1 seule occurrence dans le corpus, à relire) : 32
+allei, allelu, alleluja, auferstan, ausdie, auser, bverlaßen, chris, erge, glied, isra, jam, keit, kor'n, lendtreiben, lich, luia, mer, nottod, oth, propheten, rauhebahn, schen, sem, sprin, sre, ter, tusdein, tverlaßen, weren, wäch, zeba

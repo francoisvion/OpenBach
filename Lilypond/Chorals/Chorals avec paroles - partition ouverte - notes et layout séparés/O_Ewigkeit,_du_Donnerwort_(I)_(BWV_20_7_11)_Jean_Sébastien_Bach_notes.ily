@@ -64,7 +64,7 @@ bassMusic = {
 
 sopranoLyricsOne = \lyricmode {
   \stanza "1."
-  \tweak X-offset #-4.0 \markup{"11. So"} -- lang ein Gott im Him -- mel lebt
+  \stanza "11." So -- lang ein Gott im Him -- mel lebt
   und ü -- ber al -- le Wol -- ken schwebt,
   Wird sol -- che Mar -- ter wäh -- ren:      
   Denn wird sich en -- den die -- se Pein,
@@ -80,7 +80,7 @@ sopranoLyricsTwo = \lyricmode {
 
 sopranoLyricsThree = \lyricmode {
   \stanza "1."
-  \tweak X-offset #-4 \markup{"16. O"} E -- wig -- keit, du Don -- ner -- wort,
+  \stanza "16." O E -- wig -- keit, du Don -- ner -- wort,
   O Schwert, das durch die See -- le bohrt,
   O An -- fang son -- der En -- de!      
   Nimm du mich, wenn es dir ge -- fällt,
@@ -96,7 +96,7 @@ sopranoLyricsFour = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \stanza "1."
-  \markup{"11. So"} -- lang ein Gott im Him -- mel
+  \stanza "11." So -- lang ein Gott im Him -- mel
   lebt und ü -- ber al -- le Wol -- ken schwebt,
   Wird sol -- che Mar -- ter wäh -- _ ren:
   Denn wird sich en -- den die -- se Pein,
@@ -112,7 +112,7 @@ altoLyricsTwo = \lyricmode {
 
 altoLyricsThree = \lyricmode {
   \stanza "1."
-  \tweak X-offset #-4 \markup{"16. O"} E -- wig -- keit, du Don -- ner -- wort,
+  \stanza "16." O E -- wig -- keit, du Don -- ner -- wort,
   O Schwert, das durch die See -- le bohrt,
   O An -- fang son -- der En -- _ de!      
   Nimm du mich, wenn es dir ge -- fällt,
@@ -128,7 +128,7 @@ altoLyricsFour = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
-  \markup{"11. So"} -- lang ein Gott im Him -- mel
+  \stanza "11." So -- lang ein Gott im Him -- mel
   lebt und ü -- ber al -- le Wol -- ken schwebt,
   Wird sol -- che Mar -- ter wäh -- _ ren:
   Denn wird sich en -- den die -- se Pein,
@@ -144,7 +144,7 @@ tenorLyricsTwo = \lyricmode {
 
 tenorLyricsThree = \lyricmode {
   \stanza "1."
-  \tweak X-offset #-4 \markup{"16. O"} E -- wig -- keit, du Don -- ner -- wort,
+  \stanza "16." O E -- wig -- keit, du Don -- ner -- wort,
   O Schwert, das durch die See -- le bohrt,
   O An -- fang son -- der En -- _ de!      
   Nimm du mich, wenn es dir ge -- fällt,
@@ -160,7 +160,7 @@ tenorLyricsFour = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
-  \markup{"11. So"} -- lang ein Gott im Him -- mel
+  \stanza "11." So -- lang ein Gott im Him -- mel
   lebt und ü -- ber al -- le Wol -- ken schwebt,
   Wird sol -- che Mar -- ter wäh -- _ ren:
   Denn wird sich en -- den die -- se Pein,
@@ -176,7 +176,7 @@ bassLyricsTwo = \lyricmode {
 
 bassLyricsThree = \lyricmode {
   \stanza "1."
-  \tweak X-offset #-4 \markup{"16. O"} E -- wig -- keit, du Don -- ner -- wort,
+  \stanza "16." O E -- wig -- keit, du Don -- ner -- wort,
   O Schwert, das durch die See -- le bohrt,
   O An -- fang son -- der En -- _ de!      
   Nimm du mich, wenn es dir ge -- fällt,

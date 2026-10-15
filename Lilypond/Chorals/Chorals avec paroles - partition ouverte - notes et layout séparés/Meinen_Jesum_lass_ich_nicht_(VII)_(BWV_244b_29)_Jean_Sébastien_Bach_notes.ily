@@ -83,7 +83,7 @@ tenorLyrics = \lyricmode {
   geh ihm e -- wig an der Sei -- _ ten;
   Chris -- tus lässt mich für und für zu den Le -- bens -- bäch -- lein lei -- _ ten.
   Se -- lig, wer mit mir so spricht:
-  Mei -- nen Je -- sum lass ich nicht.
+  Mei -- nen Je -- sum lass' ich nicht.
 }
 
 bassLyrics = \lyricmode {
@@ -91,5 +91,5 @@ bassLyrics = \lyricmode {
   geh ihm e -- wig an der Sei -- _ ten;
   Chris -- tus lässt mich für und für zu den Le -- bens -- bäch -- lein lei -- _ ten.
   Se -- lig, wer mit mir so spricht:
-  Mei -- nen Je -- sum lass ich nicht.
+  Mei -- nen Je -- sum lass' ich nicht.
 }

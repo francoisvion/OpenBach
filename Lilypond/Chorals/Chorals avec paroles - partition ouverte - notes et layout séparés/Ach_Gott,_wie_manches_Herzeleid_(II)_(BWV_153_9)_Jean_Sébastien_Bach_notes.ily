@@ -109,7 +109,7 @@ sopranoLyricsThree = \lyricmode {
 altoLyricsOne = \lyricmode {
   \stanza "1."
   "16. Drum" will ich, weil __ _ ich le -- be noch, 
-  as Kreuz dir fröh -- lich tra -- gen __ _ nach;
+  das Kreuz dir fröh -- lich tra -- gen __ _ nach;
   mein Gott, mach mich __ _ da -- zu be -- reit,
   es dient zum Be -- _ sten al -- le Zeit!
 }
