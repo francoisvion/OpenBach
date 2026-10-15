@@ -44,11 +44,11 @@ tenorMusic = {
   \partial 4  d'4
   d'8 [ees'] f'4 ees'8 [d'] c'4
   c' bes a\fermata c'
-  bes8 [a] g4 f c'
+  bes8 [a] g4 f c'~
   c' bes a\fermata bes
   bes8 [c'] d'4 ees'8 [d'] c'4
   c' bes a\fermata c'
-  bes8 [a] g4 f c'
+  bes8 [a] g4 f c'~
   c' bes a\fermata d'8 [c']
   bes [c'] d' [ees'] f'4 f'
   bes2 a4\fermata
@@ -57,7 +57,7 @@ tenorMusic = {
   d'2.\fermata a4
   bes ees f8 [f'] ees'4~
   ees'8 [d'] c' [bes] f'4\fermata bes
-  bes4. c'8 a4 bes
+  bes4. c'8 a4 bes~
   bes a f\fermata \fine
 }
 
@@ -91,7 +91,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Ich dank' dir, lie -- ber Her -- _ re, dass du mich hast __ _ _ be -- wahrt in die -- ser Nacht Ge -- fäh -- _ re, da -- rin ich lag __ _ _ so hart mit Fin -- ster -- niss um -- fan -- gen, da -- zu in gro -- ßer Noth, da -- raus ich bin ent -- gan -- gen, halfst du mir Her -- _ _ re Gott!
+  Ich dank' dir, lie -- ber Her -- _ re, dass du mich hast __ _ be -- wahrt in die -- ser Nacht Ge -- fäh -- _ re, da -- rin ich lag __ _ so hart mit Fin -- ster -- niss um -- fan -- gen, da -- zu in gro -- ßer Noth, da -- raus ich bin ent -- gan -- gen, halfst du mir Her -- _ re Gott!
 }
 
 bassLyrics = \lyricmode {
