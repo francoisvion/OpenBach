@@ -30,7 +30,7 @@ tenorMusic = {
   \repeat volta 2 {
     \partial 4  bes8 [c']
     d' [c'16 bes] a4 a8 [bes] c' [d']
-    d'4 d' d'\fermata d'8 [c']
+    d'2 d'4\fermata d'8 [c']
     bes4 bes4 bes8 [a16 g] f8 [f']
     g'4 f' f'\fermata } f'
   ees'8 [d'] e'4 a8 [d'16 c'] bes8 [c'16 bes]
@@ -84,7 +84,7 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
-  Für Freu -- den lasst uns sprin -- _ gen,
+  Für Freu -- den lasst uns sprin -- gen,
   ihr Chris -- ten all -- zu -- glei -- _ che!
   von ei -- ner Jung -- frau ist ge -- bor'n,
   wer hat zu -- vor ge -- hört von sol -- chen Din -- _ gen.
@@ -92,7 +92,7 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
-  Mit Mund und Her -- zen sin -- _ gen,
+  Mit Mund und Her -- zen sin -- gen,
   denn Christ vom Him -- mel rei -- _ che.
 }
 
