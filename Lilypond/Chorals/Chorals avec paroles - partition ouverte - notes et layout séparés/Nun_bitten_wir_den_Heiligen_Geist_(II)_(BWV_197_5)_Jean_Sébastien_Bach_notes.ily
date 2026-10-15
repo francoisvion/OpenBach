@@ -54,7 +54,7 @@ tenorMusic = {
 
 bassMusic = {
   \partial 4  a4
-  gis8 [fis] e [d] cis [a,] d4
+  gis8 [fis] e [d] cis [a,] d4~
   d8 [cis] d [b,] cis [fis] d [e]
   a,2.\fermata a4
   a8 [gis] fis4 gis8 [a] b4
@@ -83,5 +83,5 @@ tenorLyrics = \lyricmode {
 }
 
 bassLyrics = \lyricmode {
-  Du sü -- ße Lieb, schenk __ _ uns dei -- ne Gunst, lass uns em -- pfin -- _ den der Lie -- be Brunst, dass wir uns von Her -- zen ein -- an -- der lie -- _ ben und in Fried auf ei -- nem Sin -- ne blei -- _ ben. Ky -- ri -- e __ _ _ e -- leis!
+  Du sü -- ße Lieb, schenk __ uns dei -- ne Gunst, lass uns em -- pfin -- _ den der Lie -- be Brunst, dass wir uns von Her -- zen ein -- an -- der lie -- _ ben und in Fried auf ei -- nem Sin -- ne blei -- _ ben. Ky -- ri -- e __ _ _ e -- leis!
 }
