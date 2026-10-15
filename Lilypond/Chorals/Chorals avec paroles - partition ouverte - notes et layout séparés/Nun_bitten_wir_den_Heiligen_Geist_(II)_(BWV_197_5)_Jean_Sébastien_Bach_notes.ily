@@ -37,7 +37,7 @@ altoMusic = {
 tenorMusic = {
   \partial 4  cis'4
   b8 [a] gis4 a b8 [a]
-  gis [b] fis [b] e a4 gis8
+  gis [a] fis [b] e a4 gis8
   cis'2.\fermata e'4
   e' a b8 [cis'] d'4
   gis a a b
