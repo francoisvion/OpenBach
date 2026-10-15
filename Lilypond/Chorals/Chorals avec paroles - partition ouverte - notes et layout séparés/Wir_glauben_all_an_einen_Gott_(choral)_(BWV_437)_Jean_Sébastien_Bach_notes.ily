@@ -147,7 +147,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Wir __ _ _ _ glau -- ben all' __ _ an ei -- nen Gott, Schöp -- fer Him -- mels und der __ _ Er -- _ _ den, der sich zum Va -- ter ge -- ben hat, dass wir sei -- ne Kin -- der wer -- _ den. Er will uns all -- zeit er -- näh -- _ _ ren, Seel' und Leib auch wohl be -- wah -- _ ren, al -- lem Un -- fall will er weh -- _ ren, kein _ Leid soll uns wi -- der -- fah -- ren, er _ sor -- _ _ _ _ get für uns, _ hütt __ _ _ _ _ _ _ und wacht; __ _ _ _ es steht Al __ -- _ les in sei -- ner Macht.
+  Wir __ _ _ _ glau -- ben all' __ _ an ei -- nen Gott, Schöp -- fer Him -- mels und der __ _ Er -- _ _ den, der sich zum Va -- ter ge -- ben hat, dass wir sei -- ne Kin -- der wer -- _ den. Er will uns all -- zeit er -- näh -- _ _ ren, Seel' und Leib auch wohl be -- wah -- _ ren, al -- lem Un -- fall will er weh -- _ ren, kein _ Leid soll uns wi -- der -- fah -- ren, er _ sor -- _ _ _ _ get für uns, _ hütt __ _ _ _ _ _ _ und wacht; __ _ _ _ es steht Al -- _ les in sei -- ner Macht.
 }
 
 bassLyrics = \lyricmode {

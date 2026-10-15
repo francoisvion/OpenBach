@@ -85,15 +85,15 @@ altoLyrics = \lyricmode {
 tenorLyrics = \lyricmode {
   Er -- schie -- nen ist __ _ der herr -- lich Tag,
   dran sich nei -- mand gnug freu -- en mag:
-  Christ, un __ -- _ ser Herr, __ _ heut tri -- _ um -- phiert,
+  Christ, un -- _ ser Herr, __ _ heut tri -- _ um -- phiert,
   all sein Feind er __ _ ge -- fan -- gen __ _ führt.
-  Al -- le -- lu __ -- _ ia!
+  Al -- le -- lu -- _ ia!
 }
 
 bassLyrics = \lyricmode {
-  Er -- schie __ -- _ nen ist __ _ der herr -- _ lich Tag,
+  Er -- schie -- _ nen ist __ _ der herr -- _ lich Tag,
   dran sich __ _ nei -- mand __ _ gnug freu -- en __ _ mag:
-  Christ, un __ -- _ ser Herr, __ _ heut tri -- _ um -- phiert,
+  Christ, un -- _ ser Herr, __ _ heut tri -- _ um -- phiert,
   all sein __ _ Feind er __ _ ge -- fan -- gen __ _ führt.
-  Al -- le -- lu __ -- _ ia!
+  Al -- le -- lu -- _ ia!
 }

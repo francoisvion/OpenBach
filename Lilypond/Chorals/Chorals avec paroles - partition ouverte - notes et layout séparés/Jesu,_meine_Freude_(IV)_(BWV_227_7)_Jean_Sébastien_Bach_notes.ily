@@ -162,7 +162,7 @@ tenorLyricsOne = \lyricmode {
   Je -- su, mei -- _ ne Lust!
   E -- lend, Not, Kreuz, Schmach und Tod, Schmach und Tod
   soll mich, ob ich viel __ muss lei -- _ _ den,
-  nicht, nicht von Je -- su __ schei -- den, von Je -- su schei __ -- _ den.
+  nicht, nicht von Je -- su __ schei -- den, von Je -- su schei -- _ den.
 }
 
 tenorLyricsTwo = \lyricmode {

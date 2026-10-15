@@ -154,7 +154,7 @@ tenorLyrics = \lyricmode {
 
 bassLyrics = \lyricmode {
   Drum schließ ich mich __ _ in __ _ dei -- ne Hän -- de
-  und sa -- ge Welt, __ _ zu -- gu __ -- ter Nacht!
+  und sa -- ge Welt, __ _ zu -- gu -- ter Nacht!
   Eilt gleich mein Le -- _ bens -- lauf __ _ zu En -- de,
   ist doch der Geist __ _ wohl __ _ an -- ge -- bracht.
   Er soll bei sei -- nem Schö -- _ pfer schwe -- ben,

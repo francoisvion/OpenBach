@@ -71,7 +71,7 @@ altoLyrics = \lyricmode {
   vor dir die Nacht nicht blei -- ben mag;
   du leuch -- test uns vom Va -- ter her
   und bist des Lich -- tes Pre -- di -- ger,
-  und bist des Lich -- tes Pre -- di __ -- _ ger.
+  und bist des Lich -- tes Pre -- di -- _ ger.
 }
 
 tenorLyrics = \lyricmode {

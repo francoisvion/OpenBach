@@ -73,7 +73,7 @@ altoLyrics = \lyricmode {
   wirf Al -- les das, was Welt ist, von dir hin;
   im Fall du willst,
   was gött -- lich ist, er -- lan -- _ gen.
-  so lass den Leib, in dem du bist, ge __ -- _ fan -- _ gen.
+  so lass den Leib, in dem du bist, ge -- _ fan -- _ gen.
 }
 
 tenorLyrics = \lyricmode {

@@ -137,7 +137,7 @@ tenorLyricsOne = \lyricmode {
   äu -- ßert und __ _ kam auf Er -- _ den,
   Den To -- ten er das Le -- ben gab
   und tat da -- bei all Krank -- heit ab,
-  bis sich die Zeit her __ -- _ dran -- _ ge,
+  bis sich die Zeit her -- _ dran -- _ ge,
   Dass er für uns ge -- op -- fert würd',
   trüg' uns -- rer Sün -- den schwe -- re Bürd'
   wohl an dem Kreu -- ze lan -- _ ge.

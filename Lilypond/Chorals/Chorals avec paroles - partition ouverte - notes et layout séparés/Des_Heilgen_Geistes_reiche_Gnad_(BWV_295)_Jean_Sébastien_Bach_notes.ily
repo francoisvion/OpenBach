@@ -94,7 +94,7 @@ altoLyrics = \lyricmode {
 
 tenorLyrics = \lyricmode {
   Des heil' -- gen Gei -- _ stes rei -- che Gnad'
-  die Her __ -- _ zen der _ _ A -- po -- stel hat
+  die Her -- _ zen der _ _ A -- po -- stel hat
   er -- füllt mit sei -- _ ner Gü -- _ tig -- keit, _
   ge -- schenkt der Spra -- _ _ chen Un -- ter -- scheid.
 }

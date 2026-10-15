@@ -396,7 +396,7 @@ tenorLyricsOne = \lyricmode {
   wart' und pfleg' ihr' zu al -- ler Zeit
   und heb' sie hoch in E -- wig -- keit.
   Täg -- lich, Herr Gott, wir lo -- ben dich
-  und ehr'n dein'n Na -- men ste -- tig __ -- _ lich.
+  und ehr'n dein'n Na -- men ste -- tig -- _ lich.
   Be -- hüt' uns heut', o treu -- er Gott,
   vor al -- ler Sünd und Mis -- se -- tat,
   Auf dich hof -- fen wir, lie -- ber Herr,

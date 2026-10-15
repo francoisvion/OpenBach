@@ -144,7 +144,7 @@ altoLyrics = \lyricmode {
   Komm, Hei -- li -- ger Geist,
   Her -- re Gott,
   er -- füll mit dei -- ner Gna -- den Gut
-  dei -- ner Gläu __ -- bi -- gen Herz, Mut __ _ und Sinn.
+  dei -- ner Gläu -- bi -- gen Herz, Mut __ _ und Sinn.
   Dein brün -- stig Lieb __ _ ent -- zünd in ihn'n.
   O Herr, durch dei -- nes Lich -- tes Glanz
   zu dem Glau -- ben ver -- sam -- melt hast

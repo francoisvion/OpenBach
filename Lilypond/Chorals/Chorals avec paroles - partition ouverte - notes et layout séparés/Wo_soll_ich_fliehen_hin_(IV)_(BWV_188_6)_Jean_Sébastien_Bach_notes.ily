@@ -66,7 +66,7 @@ sopranoLyrics = \lyricmode {
   Auf mei -- nen lie -- ben Gott
   trau ich in Angst und Not;
   er kann mich all -- zeit ret -- ten
-  aus Trüb -- sal, Angst und Nö __ -- _ ten;
+  aus Trüb -- sal, Angst und Nö -- _ ten;
   mein Un -- glück kann er wen -- den,
   steht alls in sei -- nen Hän -- den.
 }
@@ -74,26 +74,26 @@ sopranoLyrics = \lyricmode {
 altoLyrics = \lyricmode {
   Auf mei -- nen lie -- ben Gott
   trau ich in Angst und Not;
-  er kann mich all -- zeit ret __ -- _ ten
-  aus Trüb -- sal, Angst und Nö __ -- _ ten;
-  mein Un -- glück kann er wen __ -- _ den,
-  steht alls in sei -- nen Hän __ -- _ den.
+  er kann mich all -- zeit ret -- _ ten
+  aus Trüb -- sal, Angst und Nö -- _ ten;
+  mein Un -- glück kann er wen -- _ den,
+  steht alls in sei -- nen Hän -- _ den.
 }
 
 tenorLyrics = \lyricmode {
   Auf mei -- nen lie -- ben Gott
   trau ich in Angst und Not;
-  er kann mich all -- zeit ret __ -- _ ten
-  aus Trüb -- sal, Angst und Nö __ -- _ ten;
-  mein Un -- glück kann er wen __ -- _ _ den,
-  steht alls in sei -- nen Hän __ -- _ den.
+  er kann mich all -- zeit ret -- _ ten
+  aus Trüb -- sal, Angst und Nö -- _ ten;
+  mein Un -- glück kann er wen -- _ _ den,
+  steht alls in sei -- nen Hän -- _ den.
 }
 
 bassLyrics = \lyricmode {
   Auf mei -- nen lie -- ben Gott
   trau ich in Angst und Not;
-  er kann mich all -- zeit ret __ -- _ ten
-  aus Trüb -- sal, Angst und Nö __ -- _ ten;
-  mein Un -- glück kann er wen __ -- _ den,
+  er kann mich all -- zeit ret -- _ ten
+  aus Trüb -- sal, Angst und Nö -- _ ten;
+  mein Un -- glück kann er wen -- _ den,
   steht alls in sei -- nen Hän -- den.
 }

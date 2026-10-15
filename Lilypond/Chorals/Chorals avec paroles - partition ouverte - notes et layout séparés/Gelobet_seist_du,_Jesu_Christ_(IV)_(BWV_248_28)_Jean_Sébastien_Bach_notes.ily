@@ -78,6 +78,6 @@ tenorLyrics = \lyricmode {
 bassLyrics = \lyricmode {
   Dies hat er al -- les uns ge -- tan,
   sein groß Lieb zu zei -- gen an;
-  des freu' sich al -- le Chris -- ten __ -- heit
+  des freu' sich al -- le Chris -- ten -- heit
   und dank' ihm des in E -- wig -- keit. __ _ _ Ky -- rie -- leis!
 }

@@ -79,7 +79,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Nun bit -- ten wir den hei -- _ li -- gen __ _ Geist um __ den rech -- ten Glau -- ben al -- ler -- meist, dass er uns be -- hü -- _ te an un -- serm En -- de, wenn wir heim fahr'n aus die -- sem E -- len -- _ de. Ky -- ri -- e e __ -- _ leis'.
+  Nun bit -- ten wir den hei -- _ li -- gen __ _ Geist um __ den rech -- ten Glau -- ben al -- ler -- meist, dass er uns be -- hü -- _ te an un -- serm En -- de, wenn wir heim fahr'n aus die -- sem E -- len -- _ de. Ky -- ri -- e e -- _ leis'.
 }
 
 bassLyrics = \lyricmode {

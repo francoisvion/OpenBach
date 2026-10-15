@@ -76,7 +76,7 @@ sopranoLyricsTwo = \lyricmode {
 altoLyricsOne = \lyricmode {
   \stanza "1."
   Ich steh an dei -- ner Krip -- pen hier,
-  o Je -- su __ -- _ lein, mein Le -- ben;
+  o Je -- su -- _ lein, mein Le -- ben;
   Nimm hin! Es ist mein Geist und Sinn,
   Herz, Seel und Mut, nimm al -- les hin,
   und lass dirs wohl -- ge -- fal -- _ len!

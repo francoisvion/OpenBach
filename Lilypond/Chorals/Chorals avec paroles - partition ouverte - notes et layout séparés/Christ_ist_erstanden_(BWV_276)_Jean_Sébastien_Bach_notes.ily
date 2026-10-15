@@ -139,7 +139,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Christ ist er -- stan -- _ den von der Mar -- ter al -- _ _ le: des soll'n wir al -- le froh __ _ sein; Chris -- tus will un -- ser Trost __ _ _ sein. Ky -- ri -- e -- leis. _ _ Wär' er nicht er -- stan -- den, so wär' die Welt ver -- gan -- gen: seit dass er nun er -- stan -- den ist, so lob -- ben wir den Her -- ren Christ, Ky -- rie e -- _ leis! Al -- le -- lu -- ia, al -- le -- lu __ -- _ ia, al -- le -- lu -- ia! dess soll'n wir al -- le froh __ _ sein; Chris -- tus will un -- ser Trost __ _ _ sein. Ky -- rie -- e -- leis! _ _
+  Christ ist er -- stan -- _ den von der Mar -- ter al -- _ _ le: des soll'n wir al -- le froh __ _ sein; Chris -- tus will un -- ser Trost __ _ _ sein. Ky -- ri -- e -- leis. _ _ Wär' er nicht er -- stan -- den, so wär' die Welt ver -- gan -- gen: seit dass er nun er -- stan -- den ist, so lob -- ben wir den Her -- ren Christ, Ky -- rie e -- _ leis! Al -- le -- lu -- ia, al -- le -- lu -- _ ia, al -- le -- lu -- ia! dess soll'n wir al -- le froh __ _ sein; Chris -- tus will un -- ser Trost __ _ _ sein. Ky -- rie -- e -- leis! _ _
 }
 
 tenorLyrics = \lyricmode {

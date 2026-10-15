@@ -1,47 +1,12 @@
-420 chorals, 63 avec problème(s) — loi 0 : 64, syntaxe : 77
-
-Ach_Gott,_erhör_mein_Seufzen_und_Wehklagen_(BWV_254)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.71 « __ » suivi de « -- » : « nicht gar ver __ -- _ za »
+420 chorals, 30 avec problème(s) — loi 0 : 64
 
 Ach_Gott,_wie_manches_Herzeleid_(II)_(BWV_153_9)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoOne : soprano « lebe noch, das Kreuz dir » / alto « lebe noch, as Kreuz dir »
-
-Ach_Gott_und_Herr_(II)_(BWV_255)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.52 « __ » collé au mot : « be -- gang -- ne__ Sün »
-  [syntaxe] l.61 « __ » collé au mot : « be -- gang -- ne__ Sün »
-  [syntaxe] l.70 « __ » collé au mot : « be -- gang -- ne__ Sün »
-  [syntaxe] l.79 « __ » collé au mot : « be -- gang -- ne__ Sün »
-
-Ach_bleib_bei_uns,_Herr_Jesu_Christ_(BWV_253)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.62 « __ » collé au mot : « bend wor -- den__ ist; »
-  [syntaxe] l.62 « __ » collé au mot : « ein gött -- lich__ Wort »
-  [syntaxe] l.66 « __ » collé au mot : « bend wor -- den__ ist; »
-  [syntaxe] l.66 « __ » collé au mot : « ein gött -- lich__ Wort »
-  [syntaxe] l.70 « __ » collé au mot : « bend wor -- den__ ist; »
-  [syntaxe] l.70 « __ » collé au mot : « ein gött -- lich__ Wort »
-  [syntaxe] l.74 « __ » collé au mot : « bend wor -- den__ ist; »
-  [syntaxe] l.74 « __ » collé au mot : « ein gött -- lich__ Wort »
 
 Allein_zu_dir,_Herr_Jesu_Christ_(II)_(BWV_261)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoTwo : soprano « mir sonst weren. » / alto « mir sonst werden. »
   [loi 0] tenorTwo : soprano « mir sonst weren. » / tenor « mir sonst werden. »
   [loi 0] bassTwo : soprano « mir sonst weren. » / bass « mir sonst werden. »
-
-Als_der_gütige_Gott_(BWV_264)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.66 « __ » suivi de « -- » : « {
-  Als der gü __ -- _ ti »
-
-An_Wasserflüssen_Babylon_(BWV_267)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.122 « __ » suivi de « -- » : « - sen Ba -- by __ -- _ lo »
-
-Auf,_auf,_mein_Herz,_und_du,_mein_ganzer_Sinn_(BWV_268)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.76 « __ » suivi de « -- » : « em du bist, ge __ -- _ fa »
-
-Christ,_der_du_bist_der_helle_Tag_(BWV_273)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.74 « __ » suivi de « -- » : « tes Pre -- di __ -- _ ge »
-
-Christ_ist_erstanden_(BWV_276)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.142 « __ » suivi de « -- » : « al -- le -- lu __ -- _ ia »
 
 Christ_lag_in_Todesbanden_(II)_(BWV_277)_Jean_Sébastien_Bach_notes.ily
   [loi 0] bassOne : soprano « lag in Todesbanden für unser » / bass « lag in Todes banden für »
@@ -53,33 +18,11 @@ Christ_lag_in_Todesbanden_(III)_(BWV_278)_Jean_Sébastien_Bach_notes.ily
 Christum_wir_sollen_loben_schon_(BWV_121_6)_Jean_Sébastien_Bach_notes.ily
   [loi 0] tenor : soprano « in Ewigkeit. » / tenor « in Ewigkeit, in Ewigkeit. »
 
-Christus,_der_uns_selig_macht_(III)_(BWV_283)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.86 « __ » suivi de « -- » : « t', und fälsch __ -- _ li »
-
 Da_der_Herr_Christ_zu_Tische_saß_(BWV_285)_Jean_Sébastien_Bach_notes.ily
   [loi 0] tenor : soprano « verkünd'gen soll sein'n Tod und » / tenor « verkünd'gen soll ein'n Tod und »
 
 Der_Tag,_der_ist_so_freudenreich_(BWV_294)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoOne : soprano « du bist auserkor'n, dass du » / alto « du bist auser kor'n, dass »
-
-Der_du_bist_drei_in_Einigkeit_(BWV_293)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.64 « __ » suivi de « -- » : « lass uns leuch __ -- _ te »
-
-Des_Heilgen_Geistes_reiche_Gnad_(BWV_295)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.97 « __ » suivi de « -- » : « nad'
-  die Her __ -- _ ze »
-
-Erhalt_uns,_Herr,_bei_deinem_Wort_(BWV_6_6)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.59 « __ » suivi de « -- » : « e Chri -- sten __ -- _ he »
-
-Erschienen_ist_der_herrlich_Tag_(II)_(BWV_67_4)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.88 « __ » suivi de « -- » : « :
-  Christ, un __ -- _ se »
-  [syntaxe] l.90 « __ » suivi de « -- » : « Al -- le -- lu __ -- _ ia »
-  [syntaxe] l.94 « __ » suivi de « -- » : « Er -- schie __ -- _ ne »
-  [syntaxe] l.96 « __ » suivi de « -- » : « :
-  Christ, un __ -- _ se »
-  [syntaxe] l.98 « __ » suivi de « -- » : « Al -- le -- lu __ -- _ ia »
 
 Es_stehn_vor_Gottes_Throne_(BWV_309)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoOne : soprano « Throne die unsre Wächter sind, » / alto « Throne die un sre Wäch »
@@ -96,51 +39,21 @@ Gelobet_seist_du,_Jesu_Christ_(I)_(BWV_64_2)_Jean_Sébastien_Bach_notes.ily
   [loi 0] tenor : soprano « Ewigkeit. Kyrie leis! » / tenor « Ewigkeit. Kyrie eleis! »
   [loi 0] bass : soprano « Ewigkeit. Kyrie leis! » / bass « Ewigkeit. Kyrie eleis! »
 
-Gelobet_seist_du,_Jesu_Christ_(II)_(BWV_91_6)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.69 « __ » suivi de « -- » : « es in E -- wig __ -- _ ke »
-
-Gelobet_seist_du,_Jesu_Christ_(IV)_(BWV_248_28)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.81 « __ » suivi de « -- » : « e Chris -- ten __ -- heit »
-
 Gott_der_Vater_wohn_uns_bei_(BWV_317)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoOne : soprano « singen wir Alleluia. » / alto « singen wir Alleluja. »
   [loi 0] tenorOne : soprano « singen wir Alleluia. » / tenor « singen wir Alleluja. »
   [loi 0] bassOne : soprano « singen wir Alleluia. » / bass « singen wir Alleluja. »
-  [syntaxe] l.110 « __ » suivi de « -- » : « uns nicht ver __ -- _ de »
-  [syntaxe] l.116 « __ » suivi de « -- » : « Al -- le -- lu __ -- _ ja »
-
-Herr,_ich_denk_an_jene_Zeit_(BWV_329)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.82 « __ » suivi de « -- » : « i -- ner Sterb __ -- _ li »
 
 Herr_Gott,_dich_loben_wir_(BWV_328)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoOne : soprano « Vater in Ewigkeit, Ehret die » / alto « Vater in Ewig keit, Ehret »
   [loi 0] altoTwo : soprano « All' Engel und all' » / alto « All' En gel und »
   [loi 0] tenorTwo : soprano « die lieben Propheten all', Der » / tenor « die lieben Prophe ten all', »
   [loi 0] bassTwo : soprano « All' Engel und all' » / bass « All' En gel und »
-  [syntaxe] l.399 « __ » suivi de « -- » : « men ste -- tig __ -- _ li »
-
-Ich_dank_dir,_Gott,_für_deine_Wohltat_(BWV_346)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.90 « __ » suivi de « -- » : « mich heut' be __ -- _ wa »
-
-Ich_dank_dir,_lieber_Herre_(III)_(BWV_348)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.86 « __ » collé au mot : « ass du mich hast__ _ _ »
-  [syntaxe] l.86 « __ » collé au mot : « a -- rin ich lag__ _ _ »
-  [syntaxe] l.90 « __ » collé au mot : « ass du mich hast__ _ _ »
-  [syntaxe] l.90 « __ » collé au mot : « a -- rin ich lag__ _ _ »
-  [syntaxe] l.94 « __ » collé au mot : « ass du mich hast__ _ _ »
-  [syntaxe] l.94 « __ » collé au mot : « a -- rin ich lag__ _ _ »
-  [syntaxe] l.98 « __ » collé au mot : « ass du mich hast__ _ _ »
-  [syntaxe] l.98 « __ » collé au mot : « a -- rin ich lag__ _ _ »
-  [syntaxe] l.90 « __ » suivi de « -- » : « a -- zu in gro __ -- _ ße »
 
 Ich_danke_dir,_Herr_Gott,_in_deinem_Throne_(BWV_350)_Jean_Sébastien_Bach_notes.ily
   [loi 0] alto : soprano « und Plage, Plage. » / alto « und Plage. »
   [loi 0] tenor : soprano « und Plage, Plage. » / tenor « und Plage. »
   [loi 0] bass : soprano « und Plage, Plage. » / bass « und Plage. »
-
-Ich_steh_an_deiner_Krippen_hier_(BWV_248_59)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.79 « __ » suivi de « -- » : « ,
-  o Je -- su __ -- _ le »
 
 Jesu,_meine_Freude_(IV)_(BWV_227_7)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoOne : soprano « Weg mit allen Schätzen, » / alto « Weg, weg mit allen »
@@ -149,42 +62,19 @@ Jesu,_meine_Freude_(IV)_(BWV_227_7)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoTwo : soprano « Weg ihr eitlen Ehren, » / alto « Weg, weg ihr eitlen »
   [loi 0] tenorTwo : soprano « Weg ihr eitlen Ehren, » / tenor « Weg, weg ihr eitlen »
   [loi 0] bassTwo : soprano « Weg ihr eitlen Ehren, » / bass « Weg, weg ihr eitlen »
-  [syntaxe] l.165 « __ » suivi de « -- » : « Je -- su schei __ -- _ de »
 
 Jesus_Christus,_unser_Heiland,_der_den_Tod_überwand_(BWV_364)_Jean_Sébastien_Bach_notes.ily
   [loi 0] alto : soprano « überwand, ist auferstanden, die Sünd » / alto « überwand, ist auferstan den, die »
-
-Komm,_Heiliger_Geist,_Herre_Gott_(III)_(BWV_59_3)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.147 « __ » suivi de « -- » : « ei -- ner Gläu __ -- bi - »
-
-Komm,_Jesu,_komm_(BWV_229_2)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.157 « __ » suivi de « -- » : « __ _ zu -- gu __ -- ter »
-
-Kyrie,_Gott_Vater_in_Ewigkeit_(choral)_(BWV_371)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.186 « __ » suivi de « -- » : « ch ab -- schei __ -- _ de »
-  [syntaxe] l.190 « __ » suivi de « -- » : « _ _ _ le -- i __ -- _ so »
-  [syntaxe] l.190 « __ » suivi de « -- » : « -- zens -- be __ -- _ _ »
-  [syntaxe] l.194 « __ » suivi de « -- » : « er __ _ und Re __ -- _ gi »
 
 Meinen_Jesum_lass_ich_nicht_(VII)_(BWV_244b_29)_Jean_Sébastien_Bach_notes.ily
   [loi 0] tenor : soprano « Meinen Jesum lass' ich nicht. » / tenor « Meinen Jesum lass ich nicht. »
   [loi 0] bass : soprano « Meinen Jesum lass' ich nicht. » / bass « Meinen Jesum lass ich nicht. »
 
-Mit_Fried_und_Freud_ich_fahr_dahin_(II)_(BWV_382)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.70 « __ » suivi de « -- » : « e Gott mir ver __ -- _ he »
-  [syntaxe] l.74 « __ » suivi de « -- » : « Got -- tes Wil __ -- _ _ »
-
 Mit_Fried_und_Freud_ich_fahr_dahin_(III)_(BWV_125_6)_Jean_Sébastien_Bach_notes.ily
   [loi 0] alto : soprano « deins Volks Israel der Preis, » / alto « deins Volks Isra el der »
 
-Nun_bitten_wir_den_Heiligen_Geist_(III)_(BWV_385)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.82 « __ » suivi de « -- » : « y -- ri -- e e __ -- _ le »
-
 Nun_freut_euch,_lieben_Christen_gmein_(BWV_388)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoOne : soprano « uns fröhlich springen, was Gott » / alto « uns fröhlich sprin gen, was »
-
-Nun_komm,_der_Heiden_Heiland_(I)_(BWV_36_8)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.55 « __ » suivi de « -- » : « nd in E -- wig __ -- _ ke »
 
 Nun_preiset_alle_Gottes_Barmherzigkeit_(BWV_391)_Jean_Sébastien_Bach_notes.ily
   [loi 0] alto : soprano « seiner Gnaden, Gnaden. » / alto « seiner Gnaden, »
@@ -202,12 +92,6 @@ O_Gott,_du_frommer_Gott_(I)_(BWV_24_6)_Jean_Sébastien_Bach_notes.ily
 
 O_Gott,_du_frommer_Gott_(VII)_(BWV_197a_7)_Jean_Sébastien_Bach_notes.ily
   [loi 0] bass : soprano « dich, o Je su halten, » / bass « dich, o Jesu halten, und »
-
-O_Mensch,_bewein_dein_Sünde_groß_(BWV_402)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.140 « __ » suivi de « -- » : « h die Zeit her __ -- _ dr »
-
-O_Welt,_ich_muss_dich_lassen_(BWV_97_9)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.87 « __ » suivi de « -- » : « he, wie es ge __ -- _ _ »
 
 O_Welt,_sieh_hier_dein_Leben_(VI)_(BWV_395)_Jean_Sébastien_Bach_notes.ily
   [loi 0] bass : soprano « Hohn und grossem Spott. » / bass « Hohn und großem Spott. »
@@ -229,40 +113,8 @@ Was_Gott_tut,_das_ist_wohlgetan_(IV)_(BWV_12_7)_Jean_Sébastien_Bach_notes.ily
 Was_frag_ich_nach_der_Welt_(I)_(BWV_64_4)_Jean_Sébastien_Bach_notes.ily
   [loi 0] bass : soprano « an dir, mein Jesu, kann » / bass « an dir, ein Jesu, kann »
 
-Wer_Gott_vertraut,_hat_wohl_gebaut_(BWV_433)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.126 « __ » suivi de « -- » : « Wer Gott ver __ -- _ tr »
-
-Wer_nur_den_lieben_Gott_läßt_walten_(III)_(BWV_434)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.88 « __ » suivi de « -- » : « f ihn al -- le __ -- _ ze »
-
 Werde_munter,_mein_Gemüte_(III)_(BWV_146_8)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoTwo : soprano « dich nun Christus, dein Herre, » / alto « dich nun Chris tusdein Herre, »
-
-Wir_glauben_all_an_einen_Gott_(choral)_(BWV_437)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.150 « __ » suivi de « -- » : « _ es steht Al __ -- _ le »
-
-Wir_singen_dir,_Immanuel_(BWV_248_23)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.79 « __ » suivi de « -- » : « Gast, dich nun __ -- _ me »
-  [syntaxe] l.83 « __ » suivi de « -- » : « un -- mehr ein __ -- _ ge »
-  [syntaxe] l.87 « __ » suivi de « -- » : « Gast, dich nun __ -- _ me »
-  [syntaxe] l.87 « __ » suivi de « -- » : « -- ge -- stel __ -- _ le »
-
-Wo_Gott_zum_Haus_nicht_gibt_sein_Gunst_(I)_(BWV_438)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.58 « __ » suivi de « -- » : « ar -- beit' je __ -- _ de »
-
-Wo_soll_ich_fliehen_hin_(IV)_(BWV_188_6)_Jean_Sébastien_Bach_notes.ily
-  [syntaxe] l.69 « __ » suivi de « -- » : « , Angst und Nö __ -- _ te »
-  [syntaxe] l.77 « __ » suivi de « -- » : « ll -- zeit ret __ -- _ te »
-  [syntaxe] l.78 « __ » suivi de « -- » : « , Angst und Nö __ -- _ te »
-  [syntaxe] l.79 « __ » suivi de « -- » : « ck kann er wen __ -- _ de »
-  [syntaxe] l.80 « __ » suivi de « -- » : « sei -- nen Hän __ -- _ de »
-  [syntaxe] l.86 « __ » suivi de « -- » : « ll -- zeit ret __ -- _ te »
-  [syntaxe] l.87 « __ » suivi de « -- » : « , Angst und Nö __ -- _ te »
-  [syntaxe] l.88 « __ » suivi de « -- » : « ck kann er wen __ -- _ _ »
-  [syntaxe] l.89 « __ » suivi de « -- » : « sei -- nen Hän __ -- _ de »
-  [syntaxe] l.95 « __ » suivi de « -- » : « ll -- zeit ret __ -- _ te »
-  [syntaxe] l.96 « __ » suivi de « -- » : « , Angst und Nö __ -- _ te »
-  [syntaxe] l.97 « __ » suivi de « -- » : « ck kann er wen __ -- _ de »
 
 Wär_Gott_nicht_mit_uns_diese_Zeit_(II)_(BWV_257)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoOne : soprano « soll Israel sagen, die so » / alto « soll Israel sa - gen, »

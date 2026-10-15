@@ -79,7 +79,7 @@ sopranoLyrics = \lyricmode {
 altoLyrics = \lyricmode {
   Herr, ich denk' an je -- ne Zeit,
   wenn ich die -- sem kur -- zen Le -- _ ben
-  we -- gen mei -- ner Sterb __ -- _ lich -- keit
+  we -- gen mei -- ner Sterb -- _ lich -- keit
   gu -- te Nacht muss ge -- _ ben,
   wenn ich werd' auf dein Ge -- bot
   durch den __ _ Tod
