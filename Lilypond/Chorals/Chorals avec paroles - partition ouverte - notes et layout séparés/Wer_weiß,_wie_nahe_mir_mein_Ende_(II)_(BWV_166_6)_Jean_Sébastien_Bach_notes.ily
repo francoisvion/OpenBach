@@ -45,7 +45,7 @@ bassMusic = {
     \partial 4  g,4
     g fis g d
     ees c d2
-    d,4\fermata d g, a,
+    d4\fermata d g, a,
     bes, ees d d
     g,2.\fermata } d4
   g a bes g
