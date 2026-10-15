@@ -2,7 +2,7 @@ sopranoMusic = {
   \partial 4 d'4
   f' f' g' g'
   a' a' bes' a'
-  g'2 f'4\fermata a
+  g'2 f'4\fermata c'
   f' f' g' g'
   a' a' g' f'
   e'2 d'4\fermata a'4
