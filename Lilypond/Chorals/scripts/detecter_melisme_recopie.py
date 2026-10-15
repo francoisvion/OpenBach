@@ -8,6 +8,14 @@ garde son mélisme pour la syllabe accentuée suivante (corpus étalon NBA).
 
 Ne fait que signaler : chaque cas se tranche contre la NBA / le scan.
 
+Filtres (échantillon de 10 chorals isolés, 2026-10-15) :
+- tenue identique à celle du soprano (même attaque, « _ » aussi) ignorée (Loi 4). Écarte
+  aussi 2 vraies erreurs de l'étalon (121/6 B *von*, 175/7 A *ter*) : Bach peut déplacer
+  le texte même à rythme égal — acceptable pour les chorals isolés (pas de référence),
+  les chorals d'œuvre étant de toute façon comparés en entier à la NBA ;
+- préfixe faible seulement en minuscule (« Er-de » est un nom) ;
+- syncopes croche-noire-croche étiquetées « syncope → §4 » : à trancher par les règles §4.
+
 Usage : python3 detecter_melisme_recopie.py [fichier_notes.ily ...]
         (sans argument : tout le corpus -> rapports/melisme_recopie.txt)
 """
@@ -87,8 +95,8 @@ def faible(text, pos, n):
     t = clean(text)
     if n == 1:
         return t in FAIBLES
-    if pos == 0:
-        return t in PREFIXES
+    if pos == 0:  # préfixe seulement en minuscule : « Er-de » est un nom
+        return t in PREFIXES and text[:1].islower()
     return t in SUFFIXES and pos == n - 1
 
 
@@ -131,11 +139,16 @@ def detect(path):
                 s_sl[j]["on"] == t and s_syl[j][2] for j in range(n)))
             if sk != k or not s_hold:
                 continue
+            # tenue identique au soprano (même attaque, « _ » aussi) : Loi 4, rien à dire
+            if any(s_sl[j]["on"] == t and s_syl[j][2] for j in range(n)):
+                continue
             pos, nw = where.get(k, (0, 1))
             if not faible(texts.get(k, ""), pos, nw):
                 continue
             mes = int((t - partial) // 1) + 1 if t >= partial else 0
-            found.append((v, mes, texts.get(k, "?")))
+            hors_temps = lambda x: (x - partial) % Fraction(1, 4) != 0
+            sync = hors_temps(t) or (i > 0 and hors_temps(sl[i - 1]["on"]))
+            found.append((v, mes, texts.get(k, "?") + ("  (syncope → §4)" if sync else "")))
     return found
 
 
@@ -155,6 +168,7 @@ def main(files):
 if __name__ == "__main__":
     assert faible("die", 0, 1) and faible("be", 0, 3) and faible("ben", 1, 2)
     assert not faible("Glanz", 0, 1) and not faible("blei", 0, 2)
+    assert faible("er", 0, 2) and not faible("Er", 0, 2)
     if len(sys.argv) > 1:
         print(main([Path(a) for a in sys.argv[1:]]))
     else:

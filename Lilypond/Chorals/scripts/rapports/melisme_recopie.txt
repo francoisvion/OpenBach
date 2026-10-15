@@ -1,59 +1,52 @@
-235 tenue(s) suspecte(s) dans 75 fichier(s)
+179 tenue(s) suspecte(s) dans 68 fichier(s)
 
 Ach,_was_soll_ich_Sünder_machen_(BWV_259)_Jean_Sébastien_Bach_notes.ily
-  alto  m.9   « ne »
+  alto  m.9   « ne  (syncope → §4) »
 Ach_Gott,_erhör_mein_Seufzen_und_Wehklagen_(BWV_254)_Jean_Sébastien_Bach_notes.ily
-  alto  m.5   « ver »
+  alto  m.5   « ver  (syncope → §4) »
 Ach_bleib_bei_uns,_Herr_Jesu_Christ_(BWV_253)_Jean_Sébastien_Bach_notes.ily
   alto  m.9   « uns »
   bass  m.9   « uns »
   tenor m.9   « uns »
 Alles_ist_an_Gottes_Segen_(BWV_263)_Jean_Sébastien_Bach_notes.ily
-  alto  m.1   « an »
+  alto  m.1   « an  (syncope → §4) »
 Als_der_gütige_Gott_(BWV_264)_Jean_Sébastien_Bach_notes.ily
-  alto  m.3   « sein »
+  alto  m.3   « sein  (syncope → §4) »
 Als_vierzig_Tag_nach_Ostern_warn_(BWV_266)_Jean_Sébastien_Bach_notes.ily
-  alto  m.11  « auf »
   alto  m.13  « da »
   bass  m.8   « er »
   bass  m.9   « auf »
-  bass  m.11  « auf »
   bass  m.13  « da »
-  tenor m.11  « auf »
 Auf,_auf,_mein_Herz,_und_du,_mein_ganzer_Sinn_(BWV_268)_Jean_Sébastien_Bach_notes.ily
-  alto  m.10  « ge »
+  alto  m.10  « ge  (syncope → §4) »
 Christ_ist_erstanden_(BWV_276)_Jean_Sébastien_Bach_notes.ily
-  tenor m.13  « die »
-  tenor m.24  « wir »
+  tenor m.13  « die  (syncope → §4) »
+  tenor m.24  « wir  (syncope → §4) »
 Christ_ist_erstanden_(II)_(BWV_66_6)_Jean_Sébastien_Bach_notes.ily
   bass  m.9   « e »
-Christum_wir_sollen_loben_schon_(BWV_121_6)_Jean_Sébastien_Bach_notes.ily
-  alto  m.5   « von »
-  tenor m.5   « von »
 Christus,_der_ist_mein_Leben_(II)_(BWV_282)_Jean_Sébastien_Bach_notes.ily
   bass  m.2   « ist »
   tenor m.13  « ich »
 Christus,_der_uns_selig_macht_(III)_(BWV_283)_Jean_Sébastien_Bach_notes.ily
   alto  m.4   « gen, »
 Christus_ist_erstanden,_hat_überwunden_(BWV_284)_Jean_Sébastien_Bach_notes.ily
-  alto  m.2   « den, »
+  alto  m.2   « den,  (syncope → §4) »
 Das_neugeborne_Kindelein_(BWV_122_6)_Jean_Sébastien_Bach_notes.ily
   alto  m.8   « ist »
   bass  m.5   « wir »
-  bass  m.8   « ist »
   tenor m.5   « wir »
   tenor m.8   « ist »
 Das_walt_Gott_Vater_und_Gott_Sohn_(BWV_290)_Jean_Sébastien_Bach_notes.ily
-  alto  m.8   « dir »
+  alto  m.8   « dir  (syncope → §4) »
 Den_Vater_dort_oben_(BWV_292)_Jean_Sébastien_Bach_notes.ily
   alto  m.2   « ben »
   alto  m.10  « nen »
-  bass  m.5   « uns »
+  bass  m.5   « uns  (syncope → §4) »
   bass  m.10  « nen »
   tenor m.10  « nen »
 Der_du_bist_drei_in_Einigkeit_(BWV_293)_Jean_Sébastien_Bach_notes.ily
-  alto  m.1   « bist »
-  tenor m.5   « dem »
+  alto  m.1   « bist  (syncope → §4) »
+  tenor m.5   « dem  (syncope → §4) »
 Des_Heilgen_Geistes_reiche_Gnad_(BWV_295)_Jean_Sébastien_Bach_notes.ily
   alto  m.4   « der »
   bass  m.4   « der »
@@ -61,7 +54,7 @@ Des_Heilgen_Geistes_reiche_Gnad_(BWV_295)_Jean_Sébastien_Bach_notes.ily
   tenor m.4   « der »
   tenor m.5   « der »
 Dies_sind_die_heilgen_zehn_Gebot_(BWV_298)_Jean_Sébastien_Bach_notes.ily
-  bass  m.7   « dem »
+  bass  m.7   « dem  (syncope → §4) »
 Erschienen_ist_der_herrlich_Tag_(BWV_145_5)_Jean_Sébastien_Bach_notes.ily
   alto  m.12  « den »
   bass  m.12  « den »
@@ -79,44 +72,32 @@ Erschienen_ist_der_herrlich_Tag_(II)_(BWV_67_4)_Jean_Sébastien_Bach_notes.ily
   tenor m.11  « er »
   tenor m.12  « gen »
 Erstanden_ist_der_heilig_Christ_(BWV_306)_Jean_Sébastien_Bach_notes.ily
-  alto  m.1   « den »
-  bass  m.1   « den »
-  bass  m.2   « ist »
-  tenor m.1   « den »
+  bass  m.2   « ist  (syncope → §4) »
 Gelobet_seist_du,_Jesu_Christ_(II)_(BWV_91_6)_Jean_Sébastien_Bach_notes.ily
   alto  m.10  « e »
   bass  m.10  « e »
   tenor m.10  « e »
 Gelobet_seist_du,_Jesu_Christ_(IV)_(BWV_248_28)_Jean_Sébastien_Bach_notes.ily
-  alto  m.4   « gen »
-  tenor m.2   « uns »
-  tenor m.4   « gen »
+  alto  m.4   « gen  (syncope → §4) »
+  tenor m.2   « uns  (syncope → §4) »
+  tenor m.4   « gen  (syncope → §4) »
 Gott_lebet_noch_(BWV_320)_Jean_Sébastien_Bach_notes.ily
-  alto  m.22  « be »
   alto  m.26  « doch: »
   bass  m.11  « der »
-  bass  m.19  « als »
-  bass  m.22  « be »
   bass  m.24  « so »
   bass  m.26  « doch: »
-  tenor m.19  « als »
 Gott_sei_uns_gnädig_und_barmherzig_(BWV_323)_Jean_Sébastien_Bach_notes.ily
   alto  m.3   « und »
   bass  m.3   « und »
   bass  m.6   « und »
   tenor m.3   « und »
-  tenor m.6   « und »
-Gottes_Sohn_ist_kommen_(BWV_318)_Jean_Sébastien_Bach_notes.ily
-  alto  m.6   « Er »
-  bass  m.6   « Er »
-  tenor m.6   « Er »
 Heilig,_heilig_(BWV_325)_Jean_Sébastien_Bach_notes.ily
   alto  m.12  « der »
   bass  m.12  « der »
   tenor m.12  « der »
 Herr,_ich_denk_an_jene_Zeit_(BWV_329)_Jean_Sébastien_Bach_notes.ily
   alto  m.8   « ge »
-  alto  m.11  « den »
+  alto  m.11  « den  (syncope → §4) »
   bass  m.8   « ge »
   tenor m.8   « ge »
 Herr,_nun_lass_in_Friede_(BWV_337)_Jean_Sébastien_Bach_notes.ily
@@ -132,24 +113,19 @@ Herr_Gott,_dich_loben_wir_(III)_(BWV_119_9)_Jean_Sébastien_Bach_notes.ily
   tenor m.11  « zu »
   tenor m.14  « sie »
 Herr_Jesu_Christ,_dich_zu_uns_wend_(BWV_332)_Jean_Sébastien_Bach_notes.ily
-  alto  m.7   « zur »
-  tenor m.4   « uns »
-Heut_triumphieret_Gottes_Sohn_(BWV_342)_Jean_Sébastien_Bach_notes.ily
-  alto  m.14  « ihm »
-  bass  m.14  « ihm »
+  alto  m.7   « zur  (syncope → §4) »
+  tenor m.4   « uns  (syncope → §4) »
 Hilf,_Herr_Jesu,_lass_gelingen_(II)_(BWV_344)_Jean_Sébastien_Bach_notes.ily
-  alto  m.5   « e »
+  alto  m.5   « e  (syncope → §4) »
   alto  m.10  « dass »
   bass  m.10  « dass »
   bass  m.17  « mir »
   tenor m.10  « dass »
 Ich_dank_dir,_Gott,_für_deine_Wohltat_(BWV_346)_Jean_Sébastien_Bach_notes.ily
-  alto  m.12  « be »
+  alto  m.12  « be  (syncope → §4) »
 Ich_dank_dir,_lieber_Herre_(I)_(BWV_37_6)_Jean_Sébastien_Bach_notes.ily
   alto  m.15  « von »
-  alto  m.16  « von »
   bass  m.15  « von »
-  bass  m.16  « von »
 Ich_dank_dir_schon_durch_deinen_Sohn_(BWV_349)_Jean_Sébastien_Bach_notes.ily
   bass  m.2   « schon »
   tenor m.2   « schon »
@@ -171,71 +147,52 @@ In_dulci_jubilo_(BWV_368)_Jean_Sébastien_Bach_notes.ily
   tenor m.20  « es »
 Jesu,_Jesu,_du_bist_mein_(BWV_357)_Jean_Sébastien_Bach_notes.ily
   tenor m.2   « mein, »
-  tenor m.7   « ben »
+  tenor m.7   « ben  (syncope → §4) »
 Jesu,_der_du_selbsten_wohl_(BWV_355)_Jean_Sébastien_Bach_notes.ily
-  alto  m.13  « der »
+  alto  m.13  « der  (syncope → §4) »
 Komm,_Gott_Schöpfer,_Heiliger_Geist_(BWV_370)_Jean_Sébastien_Bach_notes.ily
   bass  m.8   « dir »
-  tenor m.8   « sein. »
+  tenor m.8   « sein.  (syncope → §4) »
 Komm,_Heiliger_Geist,_Herre_Gott_(I)_(BWV_226_2)_Jean_Sébastien_Bach_notes.ily
-  alto  m.7   « be »
-Komm,_Heiliger_Geist,_Herre_Gott_(II)_(BWV_175_7)_Jean_Sébastien_Bach_notes.ily
-  bass  m.1   « ter »
-  tenor m.1   « ter »
+  alto  m.7   « be  (syncope → §4) »
 Komm,_Heiliger_Geist,_Herre_Gott_(III)_(BWV_59_3)_Jean_Sébastien_Bach_notes.ily
   bass  m.8   « und »
 Komm,_Jesu,_komm_(BWV_229_2)_Jean_Sébastien_Bach_notes.ily
   alto  m.2   « in »
-  alto  m.2   « mich »
-  bass  m.2   « mich »
   bass  m.2   « in »
   tenor m.2   « in »
-  tenor m.2   « mich »
 Kyrie,_Gott_Vater_in_Ewigkeit_(choral)_(BWV_371)_Jean_Sébastien_Bach_notes.ily
-  alto  m.8   « und »
-  alto  m.16  « hast »
-  bass  m.32  « im »
-  tenor m.36  « aus »
+  alto  m.8   « und  (syncope → §4) »
+  alto  m.16  « hast  (syncope → §4) »
+  bass  m.32  « im  (syncope → §4) »
+  tenor m.36  « aus  (syncope → §4) »
 Lobet_den_Herren,_denn_er_ist_sehr_freundlich_(BWV_374)_Jean_Sébastien_Bach_notes.ily
-  alto  m.8   « zu »
+  alto  m.8   « zu  (syncope → §4) »
   tenor m.11  « ben »
 Mein_Augen_schließ_ich_jetzt_in_Gottes_Namen_zu_(BWV_378)_Jean_Sébastien_Bach_notes.ily
   alto  m.10  « ich »
-  alto  m.13  « te »
+  alto  m.13  « te  (syncope → §4) »
 Meine_Seele_erhebt_den_Herren_(I)_(BWV_10_7)_Jean_Sébastien_Bach_notes.ily
   bass  m.3   « ter »
   bass  m.4   « und »
-  bass  m.6   « und »
-Meine_Seele_erhebt_den_Herren_(II)_(BWV_324)_Jean_Sébastien_Bach_notes.ily
-  bass  m.6   « und »
 Meinen_Jesum_lass_ich_nicht_(V)_(BWV_124_6)_Jean_Sébastien_Bach_notes.ily
-  tenor m.6   « für »
-Mit_Fried_und_Freud_ich_fahr_dahin_(I)_(BWV_83_5)_Jean_Sébastien_Bach_notes.ily
-  alto  m.3   « für »
-  bass  m.3   « für »
-  tenor m.3   « für »
+  tenor m.6   « für  (syncope → §4) »
 Mit_Fried_und_Freud_ich_fahr_dahin_(II)_(BWV_382)_Jean_Sébastien_Bach_notes.ily
-  alto  m.9   « ver »
-  tenor m.7   « und »
+  alto  m.9   « ver  (syncope → §4) »
+  tenor m.7   « und  (syncope → §4) »
   tenor m.12  « den. »
 Nimm_von_uns,_Herr,_du_treuer_Gott_(II)_(BWV_101_7)_Jean_Sébastien_Bach_notes.ily
-  alto  m.12  « dir »
+  alto  m.12  « dir  (syncope → §4) »
 Nun_bitten_wir_den_Heiligen_Geist_(II)_(BWV_197_5)_Jean_Sébastien_Bach_notes.ily
   alto  m.13  « e »
   bass  m.13  « e »
   bass  m.14  « e »
-  tenor m.2   « ne »
-  tenor m.10  « in »
+  tenor m.2   « ne  (syncope → §4) »
+  tenor m.10  « in  (syncope → §4) »
   tenor m.13  « e »
   tenor m.14  « e »
 Nun_bitten_wir_den_Heiligen_Geist_(III)_(BWV_385)_Jean_Sébastien_Bach_notes.ily
-  alto  m.4   « um »
-  bass  m.4   « um »
-  tenor m.2   « gen »
-Nun_lasst_uns_Gott_dem_Herren_(I)_(BWV_79_6)_Jean_Sébastien_Bach_notes.ily
-  alto  m.2   « in »
-  bass  m.2   « in »
-  tenor m.2   « in »
+  tenor m.2   « gen  (syncope → §4) »
 Nun_preiset_alle_Gottes_Barmherzigkeit_(BWV_391)_Jean_Sébastien_Bach_notes.ily
   alto  m.10  « zu »
   tenor m.10  « zu »
@@ -250,46 +207,41 @@ O_Mensch,_schau_Jesum_Christum_an_(BWV_403)_Jean_Sébastien_Bach_notes.ily
 O_Welt,_ich_muss_dich_lassen_(BWV_97_9)_Jean_Sébastien_Bach_notes.ily
   bass  m.8   « ge »
   tenor m.8   « ge »
+  tenor m.8   « ge  (syncope → §4) »
 Schaut,_ihr_Sünder_(BWV_408)_Jean_Sébastien_Bach_notes.ily
-  bass  m.7   « mein »
+  bass  m.7   « mein  (syncope → §4) »
 Sei_gegrüßet,_Jesu_gütig_(BWV_410)_Jean_Sébastien_Bach_notes.ily
-  alto  m.12  « nen »
+  alto  m.12  « nen  (syncope → §4) »
 Vor_deinen_Thron_tret_ich_hiermit_(BWV_327)_Jean_Sébastien_Bach_notes.ily
   alto  m.5   « dich »
   bass  m.5   « dich »
   bass  m.10  « mir »
   tenor m.5   « dich »
 Warum_sollt_ich_mich_denn_grämen_(BWV_422)_Jean_Sébastien_Bach_notes.ily
-  alto  m.6   « mir »
+  alto  m.6   « mir  (syncope → §4) »
 Weltlich_Ehr_und_zeitlich_Gut_(BWV_426)_Jean_Sébastien_Bach_notes.ily
-  alto  m.7   « ben »
+  alto  m.7   « ben  (syncope → §4) »
 Wenn_ich_in_Angst_und_Not_(BWV_427)_Jean_Sébastien_Bach_notes.ily
   bass  m.13  « ge »
-  tenor m.5   « gen, »
+  tenor m.5   « gen,  (syncope → §4) »
   tenor m.13  « ge »
 Wenn_mein_Stündlein_vorhanden_ist_(III)_(BWV_430)_Jean_Sébastien_Bach_notes.ily
-  alto  m.12  « ne »
-  bass  m.10  « ten »
+  alto  m.12  « ne  (syncope → §4) »
+  bass  m.10  « ten  (syncope → §4) »
 Wie_bist_du,_Seele,_in_mir_so_gar_betrübt_(BWV_435)_Jean_Sébastien_Bach_notes.ily
-  tenor m.1   « du »
+  tenor m.1   « du  (syncope → §4) »
 Wir_glauben_all_an_einen_Gott_(choral)_(BWV_437)_Jean_Sébastien_Bach_notes.ily
-  alto  m.1   « Wir »
-  alto  m.2   « Wir »
-  alto  m.7   « Er »
+  alto  m.1   « Wir  (syncope → §4) »
+  alto  m.2   « Wir  (syncope → §4) »
   alto  m.23  « er »
-  bass  m.1   « Wir »
-  bass  m.2   « Wir »
-  bass  m.7   « Er »
+  bass  m.2   « Wir  (syncope → §4) »
   bass  m.23  « er »
   bass  m.25  « für »
   bass  m.30  « es »
-  tenor m.1   « Wir »
-  tenor m.2   « Wir »
-  tenor m.6   « der »
-  tenor m.7   « Er »
+  tenor m.6   « der  (syncope → §4) »
   tenor m.23  « er »
   tenor m.26  « uns, »
 Wir_singen_dir,_Immanuel_(BWV_248_23)_Jean_Sébastien_Bach_notes.ily
-  tenor m.1   « in »
+  tenor m.1   « in  (syncope → §4) »
 Wo_Gott_zum_Haus_nicht_gibt_sein_Gunst_(I)_(BWV_438)_Jean_Sébastien_Bach_notes.ily
-  alto  m.1   « nicht »
+  alto  m.1   « nicht  (syncope → §4) »
