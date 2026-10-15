@@ -63,7 +63,7 @@ bassMusic = {
   ees des c8 [d] e4
   f2 c4\fermata des
   c bes, a, bes,
-  ees,2.\fermata \fine
+  ees2.\fermata \fine
 }
 
 sopranoLyricsOne = \lyricmode {
