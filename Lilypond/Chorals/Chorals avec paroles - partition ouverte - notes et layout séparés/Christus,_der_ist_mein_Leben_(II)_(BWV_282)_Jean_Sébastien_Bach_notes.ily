@@ -71,7 +71,7 @@ bassMusic = {
   \partial 4  g4
   g2 d4
   g fis e
-  b,8 [c] d4 d
+  b,8 [c] d2
   g,2\fermata r4
   r2.
   r
@@ -115,7 +115,7 @@ tenorLyrics = \lyricmode {
 }
 
 bassLyrics = \lyricmode {
-  Chri -- stus, der ist __ _ mein Le -- _ _ ben
+  Chri -- stus, der ist __ _ mein Le -- _ ben
   Ster -- _ _ _ ben
   ist mein Ge -- winn;
   dem tu ich mich __ _ er -- ge -- _ _ ben,
