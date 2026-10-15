@@ -43,7 +43,7 @@ altoMusic = {
   c''2 c'
   d' d'4 c'
   b d' g' f'
-  ees'1
+  ees'1~
   ees'2 d'4 c'
   d'1\fermata \fine
 }
@@ -109,7 +109,7 @@ altoLyrics = \lyricmode {
   Lob und Preis sei Gott dem Va -- _ ter und dem Sohn
   und dem hei -- li -- gen Gei -- _ ste,
   wie es war im An -- fang jetzt und im -- mer -- dar
-  und von E -- wig -- keit zu E -- wig -- keit, A -- _ _ _ _ _ _ _ men.
+  und von E -- wig -- keit zu E -- wig -- keit, A -- _ _ _ _ _ _ men.
 }
 
 tenorLyrics = \lyricmode {
