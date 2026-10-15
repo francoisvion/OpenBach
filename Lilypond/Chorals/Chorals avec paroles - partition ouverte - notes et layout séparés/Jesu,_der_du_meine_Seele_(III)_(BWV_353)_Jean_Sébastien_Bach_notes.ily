@@ -8,7 +8,7 @@ sopranoMusic = {
   a'4 bes' c'' a'
   bes' a'8 [g'] g'2
   f'\fermata bes'4 c''
-  d''8 [c''] bes'4 ees'' d''
+  d''4 bes' ees'' d''
   c''2 bes'\fermata
   a'4 bes' c'' d''
   c'' bes' a'2\fermata
