@@ -31,6 +31,14 @@ REPORT = HERE / "rapports" / "validation.txt"
 LILYPOND = (Path.home() / "Library/Application Support/frescobaldi/frescobaldi/"
             "lilypond-binaries/lilypond-2.27.3/bin/lilypond")
 VOIX = ("soprano", "alto", "tenor", "bass")
+# Écarts de mots voulus (Loi 0) : texte répété ou variante propre à une voix.
+EXCEPTIONS_LOI0 = {
+    "BWV_121_6": "répétition « in Ewigkeit » au ténor — conforme à la NBA",
+    "BWV_64_2": "Kyrieleis (S) / Kyrie eleis (A T B), selon le nombre de notes — à confirmer NBA",
+    "BWV_24_6": "répétition dans les voix graves — à confirmer NBA",
+    "BWV_76_7_14": "répétitions dans les voix graves — à confirmer NBA",
+    "BWV_227_7": "répétitions (motet Jesu, meine Freude) — à confirmer NBA",
+}
 COUPLETS = ("", "One", "Two", "Three", "Four", "Five", "Six")
 
 
@@ -92,6 +100,9 @@ def valider(f, texte):
         if "soprano" not in corps:
             continue
         ref = mots(corps["soprano"])
+        bwv = re.search(r"\((BWV[^)]+)\)", f.name)
+        if bwv and bwv.group(1) in EXCEPTIONS_LOI0:
+            continue
         for v in VOIX[1:]:
             if v in corps:
                 d = diff_mots(ref, mots(corps[v]))
@@ -135,6 +146,7 @@ def main(fichiers, avec_compil):
     rares = sorted(m for m, n in vocab.items() if n == 1 and len(m) > 2)
     entete = (f"{len(fichiers)} chorals, {len(blocs)} avec problème(s) — "
               + ", ".join(f"{k} : {n}" for k, n in sorted(compte.items())) + "\n")
+    entete += "Exceptions Loi 0 acceptées : " + "; ".join(f"{k} ({v})" for k, v in EXCEPTIONS_LOI0.items()) + "\n"
     return (entete + "\n" + "\n\n".join(blocs)
             + f"\n\nMots rares (1 seule occurrence dans le corpus, à relire) : {len(rares)}\n"
             + ", ".join(rares) + "\n")

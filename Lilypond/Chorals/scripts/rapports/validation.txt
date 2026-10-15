@@ -1,30 +1,7 @@
-420 chorals, 5 avec problème(s) — loi 0 : 16
+420 chorals, 0 avec problème(s) — 
+Exceptions Loi 0 acceptées : BWV_121_6 (répétition « in Ewigkeit » au ténor — conforme à la NBA); BWV_64_2 (Kyrieleis (S) / Kyrie eleis (A T B), selon le nombre de notes — à confirmer NBA); BWV_24_6 (répétition dans les voix graves — à confirmer NBA); BWV_76_7_14 (répétitions dans les voix graves — à confirmer NBA); BWV_227_7 (répétitions (motet Jesu, meine Freude) — à confirmer NBA)
 
-Christum_wir_sollen_loben_schon_(BWV_121_6)_Jean_Sébastien_Bach_notes.ily
-  [loi 0] tenor : soprano « in Ewigkeit. » / tenor « in Ewigkeit, in Ewigkeit. »
 
-Es_woll_uns_Gott_genädig_sein_(IV)_(BWV_76_7_14)_Jean_Sébastien_Bach_notes.ily
-  [loi 0] altoOne : soprano « Gott bekehren! » / alto « Gott bekehren, und sie zu »
-  [loi 0] tenorOne : soprano « Gott bekehren! » / tenor « Gott bekehren, und sie zu »
-  [loi 0] altoTwo : soprano « Herzen: Amen! » / alto « Herzen: Amen, und sprech von »
-  [loi 0] tenorTwo : soprano « Herzen: Amen! » / tenor « Herzen: Amen, und sprech von »
-
-Gelobet_seist_du,_Jesu_Christ_(I)_(BWV_64_2)_Jean_Sébastien_Bach_notes.ily
-  [loi 0] alto : soprano « in Ewigkeit. Kyrieleis! » / alto « in Ewigkeit. Kyrie eleis! »
-  [loi 0] tenor : soprano « in Ewigkeit. Kyrieleis! » / tenor « in Ewigkeit. Kyrie eleis! »
-  [loi 0] bass : soprano « in Ewigkeit. Kyrieleis! » / bass « in Ewigkeit. Kyrie eleis! »
-
-Jesu,_meine_Freude_(IV)_(BWV_227_7)_Jean_Sébastien_Bach_notes.ily
-  [loi 0] altoOne : soprano « Weg mit allen Schätzen, » / alto « Weg, weg mit allen »
-  [loi 0] tenorOne : soprano « Weg mit allen Schätzen, » / tenor « Weg, weg mit allen »
-  [loi 0] bassOne : soprano « Weg mit allen Schätzen, » / bass « Weg, weg mit allen »
-  [loi 0] altoTwo : soprano « Weg ihr eitlen Ehren, » / alto « Weg, weg ihr eitlen »
-  [loi 0] tenorTwo : soprano « Weg ihr eitlen Ehren, » / tenor « Weg, weg ihr eitlen »
-  [loi 0] bassTwo : soprano « Weg ihr eitlen Ehren, » / bass « Weg, weg ihr eitlen »
-
-O_Gott,_du_frommer_Gott_(I)_(BWV_24_6)_Jean_Sébastien_Bach_notes.ily
-  [loi 0] alto : soprano « Gewissen bleib. » / alto « Gewissen bleib, und rein gewissen »
-  [loi 0] tenor : soprano « Gewissen bleib. » / tenor « Gewissen bleib, und rein gewissen »
 
 Mots rares (1 seule occurrence dans le corpus, à relire) : 2
 glied, lich
