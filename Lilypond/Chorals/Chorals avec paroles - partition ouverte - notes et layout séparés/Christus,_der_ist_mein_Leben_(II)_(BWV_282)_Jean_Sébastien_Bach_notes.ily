@@ -6,7 +6,7 @@ sopranoMusic = {
   b'2\fermata r4
   e''2.~
   e''
-  d''
+  d''~
   d''
   c''
   c''8 [b'] c''4\fermata r
@@ -29,7 +29,7 @@ altoMusic = {
   d'2\fermata r4
   r2.
   f'~
-  f'
+  f'~
   f'
   e'
   fis'4 fis'\fermata r
@@ -92,7 +92,7 @@ bassMusic = {
 
 sopranoLyrics = \lyricmode {
   Chri -- stus, der ist mein Le -- ben
-  Ster -- _ _ _ _ ben
+  Ster -- _ _ _ ben
   ist mein Ge -- winn;
   dem tu ich mich er -- ge -- ben,
   mit Freud' fahr' ich da -- hin.
@@ -100,7 +100,7 @@ sopranoLyrics = \lyricmode {
 
 altoLyrics = \lyricmode {
   Chri -- stus, der ist mein Le -- _ _ ben
-  Ster -- _ _ _ ben
+  Ster -- _ _ ben
   ist mein Ge -- winn;
   dem tu ich mich er -- ge -- _ _ ben,
   mit Freud' __ _ fahr' ich da -- hin.
