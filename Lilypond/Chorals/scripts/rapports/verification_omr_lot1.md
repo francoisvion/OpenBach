@@ -7,7 +7,7 @@ Validé par l'utilisateur le 2026-10-15 (feuille : https://claude.ai/artifact/4V
 | Choral | Voix | Mes. / temps | Nous | Scan | Verdict |
 |---|---|---|---|---|---|
 | 125/6 | A | 4 / 4 | fa#4 | mi4 | **corrigé (scan)** |
-| 155/5 | B | 7 / 1,5 | sol2 | fa2 | écart confirmé en gros plan (la-**fa**-sol au scan, la-**sol**-sol chez nous) — **en attente de décision** |
+| 155/5 | B | 7 / 1,5 | sol2 | fa2 | **corrigé (scan)** |
 | 166/6 | B | 3 / 1 | ré2 | ré3 | **corrigé (scan) — octave** |
 | 245/28 | B | 13 / 4 | do#4 | do#3 | **corrigé (scan) — octave** |
 | 253 | S | 8 / 1 | si4 | sol#4 | **corrigé (scan)** |

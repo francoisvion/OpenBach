@@ -51,7 +51,7 @@ bassMusic = {
     f f, f8 [e] d4
     c g, c\fermata } f8 [e]
   d4 e8 [f] g4 c8 [b,]
-  a, [g,] g,4 c\fermata f
+  a, [f,] g,4 c\fermata f
   f,8 [g,] a,4 bes,8 [c] d4
   e8 [fis] g4 d\fermata a,8 [bes,]
   c4 d8 [e] f4 e8 [f]
