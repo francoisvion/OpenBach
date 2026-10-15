@@ -198,13 +198,16 @@ l'état avec la méthode utilisée pour les syncopes.
 - **§4.B syncope 2 mots** : règle connue, **pas encore scannée ni appliquée**.
 - **§2 retards, §3 anticipations, §5 croches de passage/Repercussio** : règles connues,
   **pas encore scannées ni appliquées** — aucune détection automatique écrite à ce stade.
-- **§9 (leçons NBA)** : 3 chorals étalon corrigés (BWV 121/6, 175/7, 226/2), détection
+- **§9 (leçons NBA)** : 5 chorals étalon corrigés (BWV 121/6, 175/7, 226/2, 248/46, 244/32), détection
   automatique du « mélisme recopié » **pas encore écrite**.
 
 ## 9. Ce que montre la partition de Bach (NBA) — corpus étalon, 2026-10-15
 
-Source : texte sous chaque voix dans la NBA (BWV 121/6, 175/7, 226/2), relevé détaillé dans
-`étalon BGA/README.md`. Règles **provisoires** (3 chorals) — à confirmer sur 248/46 et 244/32.
+Source : texte sous chaque voix dans la NBA (BWV 121/6, 175/7, 226/2, 248/46, 244/32), relevé
+détaillé dans `étalon BGA/README.md`. Bilan des 5 chorals : **≈ 30 écarts de texte**, dont la
+moitié environ par mélisme du soprano recopié (§9.1), et **≈ 10 écarts de notes** (saisie,
+liaisons ou notes répétées perdues, basse du continuo) — chaque fois confirmés par notre scan.
+Aucun des 5 n'était exact. 244/32 (le plus homophone) n'avait que 3 écarts.
 
 ### 9.1 Chaque voix a sa propre découpe — ne jamais recopier le mélisme du soprano
 
@@ -236,13 +239,14 @@ Quand une voix a plus de notes que de syllabes entre deux points d'orgue :
 3. Exceptions vues : une syllabe longue peut couvrir plusieurs noires conjointes (175/7 A m. 1 :
    *wer* sur sol-fa#-sol, *ter* au 4ᵉ temps) — la règle 2 est une préférence, pas une loi.
 
-### 9.3 Notes répétées : vérifier la source
+### 9.3 Notes répétées et liaisons : vérifier la source
 
 226/2 T m. 12 : Bach écrit fa noire + **fa croche** + mib croche, *Kraft* sur le 2ᵉ fa. Notre
 source (2 portées / Riemenschneider) a **fusionné** les deux fa en noire pointée. Une note
 répétée de Bach porte donc une nouvelle syllabe (cf. §5), mais elle peut avoir **disparu** de
 nos fichiers : une noire pointée suivie d'une croche, dans une voix qui manque d'une syllabe,
-est suspecte.
+est suspecte. Même chose pour les liaisons : 248/46 A m. 9-11 et T m. 10-11 avaient perdu leurs
+liaisons (et une noire répétée était devenue blanche), ce qui déplaçait tout le texte.
 
 ### 9.4 Basse vocale ≠ continuo
 

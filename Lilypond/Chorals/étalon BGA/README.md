@@ -69,9 +69,12 @@ Pour chaque écart : choral, voix, mesure, notre découpe, celle de Bach, puis v
 | 248/46 | A, T, B | 9-11 | *e-wig schau-en* décalé | A : *e* sur la lié, *wig* sur fa# ; T : *schau* tient mi lié + do#-la, *en* sur do# ; B : *e* tient mi lié + fa# | erreur de notre fichier |
 | 248/46 | T | 5 | *ver* sur mi noire | *Licht* sur si-mi, *ver* sur ré# | erreur de notre fichier |
 | 248/46 | B | 4-5 | « Nacht _ in » ; si-si grave croches | *trü* tient ré#-mi-mi#, *be Nacht in* sur 3 croches ; **si noire** (basse vocale ; le scan donne le continuo) | erreur + **basse vocale** |
+| 244/32 | S | 7 | si noire + do-ré croches | si-do croches + ré noire, *nimm* sur si-do (NBA **et scan**) | **notes** : erreur de saisie de notre fichier |
+| 244/32 | A | 10-11 | *schen* sur le sol de m. 11 | *schen* sur sol (4ᵉ temps m. 10), *Tük-* tient sol + fa-mib | erreur de notre fichier |
+| 244/32 | T | 10 | « fal schen » | « fal -- schen » | trait d'union manquant |
 | 175/7 | S A T B | — | traits d'union manquants : *Mor-gen stern*, *E-wig keit*, *Al-le lu-ia* | *Mor-gen-stern*, *E-wig-keit*, *Al-le-lu-ia* | erreur de notre fichier (à détecter par le validateur) |
 
 ## Chorals vérifiés
 
 Conformes à la NBA, voix par voix (étiquette Finder **verte** posée par
-`../scripts/marquer_verifie.py`) : BWV 121/6, BWV 175/7, BWV 226/2, BWV 248/46.
+`../scripts/marquer_verifie.py`) : BWV 121/6, BWV 175/7, BWV 226/2, BWV 248/46, BWV 244/32.

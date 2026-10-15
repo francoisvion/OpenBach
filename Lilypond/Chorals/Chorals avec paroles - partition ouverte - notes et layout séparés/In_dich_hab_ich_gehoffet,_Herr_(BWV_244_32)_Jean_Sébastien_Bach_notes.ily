@@ -6,7 +6,7 @@ sopranoMusic = {
   ees'' c'' f'' g''
   f''\fermata d'' d''8 [ees''] f''4
   ees'' d''8 [c''] bes' [c''] d'' [c'']
-  c''4\fermata d'' bes' c''8 [d'']
+  c''4\fermata d'' bes'8 [c''] d''4
   ees''4\fermata d'' c'' d''
   ees''\fermata d'' c'' bes'
   f''4. ees''8 d''4 ees''8 [d'']
@@ -63,11 +63,11 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Mir hat die Welt __ _ _ trüg -- lich ge -- richt mit Lü -- gen und mit fal -- schem Gdicht, viel Netz und heim -- lich Stri -- _ cke. Herr, nimm mein wahr in die -- ser Gfahr, bhüt mich vor fal -- _ _ schen Tü -- cken!
+  Mir hat die Welt __ _ _ trüg -- lich ge -- richt mit Lü -- gen und mit fal -- schem Gdicht, viel Netz und heim -- lich Stri -- _ cke. Herr, nimm mein wahr in die -- ser Gfahr, bhüt mich vor fal -- _ schen Tü -- _ cken!
 }
 
 tenorLyrics = \lyricmode {
-  Mir hat die Welt __ _ _ trüg -- lich ge -- richt mit Lü -- gen und mit fal -- schem Gdicht, viel Netz und heim -- lich Stri -- _ cke. Herr, nimm mein wahr in die -- ser Gfahr, bhüt mich vor fal schen Tü -- _ cken!
+  Mir hat die Welt __ _ _ trüg -- lich ge -- richt mit Lü -- gen und mit fal -- schem Gdicht, viel Netz und heim -- lich Stri -- _ cke. Herr, nimm mein wahr in die -- ser Gfahr, bhüt mich vor fal -- schen Tü -- _ cken!
 }
 
 bassLyrics = \lyricmode {
