@@ -171,7 +171,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Gott leb -- et noch; See -- _ le, was __ _ ver -- zagst __ _ du doch? Gott ist gut, __ _ der aus Er -- bar -- _ men al -- le Hülf' auf Er -- den thut, der mit Kraft __ _ und Star -- ken Ar -- men ma -- chet Al -- _ les wohl __ _ und gut. Gott kann bes -- _ ser als __ _ wir den -- _ ken al -- le Noth __ _ zum be -- sten len -- ken. See -- le, so be -- den -- _ ke doch: lebt __ doch un -- _ ser Herr __ _ Gott noch.
+  Gott leb -- et noch; See -- _ le, was __ _ ver -- zagst __ _ du doch? Gott ist gut, der aus Er -- bar -- _ men al -- _ le Hülf' auf Er -- den thut, der mit Kraft __ _ und Star -- ken Ar -- men ma -- chet Al -- _ les wohl __ _ und gut. Gott kann bes -- _ ser als __ _ wir den -- _ ken al -- le Noth __ _ zum be -- sten len -- ken. See -- le, so be -- den -- _ ke doch: lebt __ doch un -- _ ser Herr __ _ Gott noch.
 }
 
 bassLyrics = \lyricmode {
