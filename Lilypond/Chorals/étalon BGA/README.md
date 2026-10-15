@@ -49,9 +49,18 @@ Pour chaque écart : choral, voix, mesure, notre découpe, celle de Bach, puis v
 | 175/7 | A | 23 | *hö-* sur le 2ᵉ mi | *nicht* tient les deux mi liés, *hö-* sur ré | erreur de notre fichier |
 | 175/7 | A | 25 | « Al -- _ le lu » | *le* sur sol, *lu* sur ré, mélisme jusqu'au do | erreur de notre fichier |
 | 175/7 | T | 22-23 | « keit, __ _ _ mein Gott, nicht hö- » décalé de 2 temps | *keit* ré-do, *mein* si, *Gott* mi, *nicht* mi-fa#, *hö-* sol-la-sib-la | erreur de notre fichier |
+| 226/2 | S A T B | 12 | « duch » | « durch » | erreur de notre fichier (coquille) |
+| 226/2 | B | 1 | « hei -- _ li -- ge » (mélisme du soprano) | *hei* mib, *li* fa, *ge* sol + ré-mib | **règle** (mélisme recopié) |
+| 226/2 | T, B | 6-7 | *be-* prolongé sur le temps suivant | *stän-* dès le temps suivant, mélisme sur *blei-* | **règle** (mélisme recopié) |
+| 226/2 | A, T, B | 9-10 | « nicht _ ab- » / « ab -- _ trei » | *ab* au 1ᵉʳ temps, mélisme sur *trei-* | **règle** (mélisme recopié) |
+| 226/2 | T | 12 | fa noire pointée + mib croche | fa noire + **fa croche** répété + mib (*Kraft* sur le 2ᵉ fa) | **notes** : note répétée fusionnée dans notre source |
+| 226/2 | S | 20-21 | *drin-* sur do (4ᵉ temps) | *dir* tient ré-do, *drin-* sur sol | erreur de notre fichier |
+| 226/2 | A, T, B | 19-21 | mélisme sur *drin-* trop court / *ben* décalé | *Le-* tient ré + mib-fa ; *drin-* porte le mélisme jusqu'à *gen* | **règle** (mélisme recopié) |
+| 226/2 | B | 23-24 | « le -- _ lu -- _ ia » | *le* tient tout le trait, *lu* sur fa | erreur de notre fichier |
+| 226/2 | S A T B | 21-24 | *Alleluia* | NBA : *Halleluja* | variante de texte, non modifiée — à trancher |
 | 175/7 | S A T B | — | traits d'union manquants : *Mor-gen stern*, *E-wig keit*, *Al-le lu-ia* | *Mor-gen-stern*, *E-wig-keit*, *Al-le-lu-ia* | erreur de notre fichier (à détecter par le validateur) |
 
 ## Chorals vérifiés
 
 Conformes à la NBA, voix par voix (étiquette Finder **verte** posée par
-`../scripts/marquer_verifie.py`) : BWV 121/6, BWV 175/7.
+`../scripts/marquer_verifie.py`) : BWV 121/6, BWV 175/7, BWV 226/2.
