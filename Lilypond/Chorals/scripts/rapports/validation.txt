@@ -1,4 +1,4 @@
-420 chorals, 23 avec problème(s) — loi 0 : 52
+420 chorals, 23 avec problème(s) — loi 0 : 49
 
 Allein_zu_dir,_Herr_Jesu_Christ_(II)_(BWV_261)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoTwo : soprano « mir sonst weren. » / alto « mir sonst werden. »
@@ -91,12 +91,9 @@ Werde_munter,_mein_Gemüte_(III)_(BWV_146_8)_Jean_Sébastien_Bach_notes.ily
   [loi 0] altoTwo : soprano « dich nun Christus, dein Herre, » / alto « dich nun Chris tusdein Herre, »
 
 Wär_Gott_nicht_mit_uns_diese_Zeit_(II)_(BWV_257)_Jean_Sébastien_Bach_notes.ily
-  [loi 0] altoOne : soprano « soll Israel sagen, die so » / alto « soll Israel sa - gen, »
-  [loi 0] tenorOne : soprano « soll Israel sagen, die so » / tenor « soll Israel sa - gen, »
-  [loi 0] bassOne : soprano « soll Israel sagen, die so » / bass « soll Israel sa - gen, »
-  [loi 0] altoTwo : soprano « hätten müsst verzagen, » / alto « hätten müsst verza - gen, »
-  [loi 0] tenorTwo : soprano « hätten müsst verzagen, » / tenor « hätten müsst verza - gen, »
-  [loi 0] bassTwo : soprano « hätten müsst verzagen, » / bass « hätten müsst verza - gen, »
+  [loi 0] altoOne : soprano « uns setzen alle. » / alto « uns setzen al - le. »
+  [loi 0] tenorOne : soprano « uns setzen alle. » / tenor « uns setzen al - le. »
+  [loi 0] bassOne : soprano « uns setzen alle. » / bass « uns setzen al - le. »
 
 Mots rares (1 seule occurrence dans le corpus, à relire) : 32
 allei, allelu, alleluja, auferstan, ausdie, auser, bverlaßen, chris, erge, glied, isra, jam, keit, kor'n, lendtreiben, lich, luia, mer, nottod, oth, propheten, rauhebahn, schen, sem, sprin, sre, ter, tusdein, tverlaßen, weren, wäch, zeba

@@ -85,30 +85,30 @@ sopranoLyricsTwo = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \stanza "1."
-  Je -- su, mei -- ne Freu -- - -- de, mei -- nes Her -- zens Wei -- - -- de, Je -- su, mei -- ne Zier! Got -- tes Lamm, mein Bräu -- ti -- gam, au -- ßer dir soll mir auf Er -- - -- den nichts sonst lie -- bers wer -- - -- den.
+  Je -- su, mei -- ne Freu -- _ de, mei -- nes Her -- zens Wei -- _ de, Je -- su, mei -- ne Zier! Got -- tes Lamm, mein Bräu -- ti -- gam, au -- ßer dir soll mir auf Er -- _ den nichts sonst lie -- bers wer -- _ den.
 }
 
 altoLyricsTwo = \lyricmode {
   \stanza "2."
-  ach wie lang', ach lan -- - -- ge Ist dem Her -- zen ban -- - -- ge, und ver -- langt nach dir.
+  ach wie lang', ach lan -- _ ge Ist dem Her -- zen ban -- _ ge, und ver -- langt nach dir.
 }
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
-  Je -- su, mei -- ne Freu -- - -- de, mei -- nes Her -- zens Wei -- - -- de, Je -- su, mei -- ne Zier! Got -- tes Lamm, mein Bräu -- ti -- gam, au -- ßer dir soll mir auf Er -- den nichts sonst lie -- bers wer -- - -- den.
+  Je -- su, mei -- ne Freu -- _ de, mei -- nes Her -- zens Wei -- _ de, Je -- su, mei -- ne Zier! Got -- tes Lamm, mein Bräu -- ti -- gam, au -- ßer dir soll mir auf Er -- den nichts sonst lie -- bers wer -- _ den.
 }
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
-  ach wie lang', ach lan -- - -- ge Ist dem Her -- zen ban -- - -- ge, und ver -- langt nach dir.
+  ach wie lang', ach lan -- _ ge Ist dem Her -- zen ban -- _ ge, und ver -- langt nach dir.
 }
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
-  Je -- su, mei -- ne Freu -- - -- de, mei -- nes Her -- zens Wei -- - -- de, Je -- su, mei -- ne Zier! Got -- tes Lamm, mein Bräu -- ti -- gam, au -- ßer dir soll mir auf Er -- den nichts sonst lie -- bers wer -- - -- den.
+  Je -- su, mei -- ne Freu -- _ de, mei -- nes Her -- zens Wei -- _ de, Je -- su, mei -- ne Zier! Got -- tes Lamm, mein Bräu -- ti -- gam, au -- ßer dir soll mir auf Er -- den nichts sonst lie -- bers wer -- _ den.
 }
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
-  ach wie lang', ach lan -- - -- ge Ist dem Her -- zen ban -- - -- ge, und ver -- langt nach dir.
+  ach wie lang', ach lan -- _ ge Ist dem Her -- zen ban -- _ ge, und ver -- langt nach dir.
 }

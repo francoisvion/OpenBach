@@ -109,7 +109,7 @@ sopranoLyricsTwo = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \stanza "1."
-  Es dan -- ke, Gott, und lo -- _ _ be dich das Volk in gu -- ten Ta -- _ ten; Uns se -- gne Va -- ter und der Sohn, uns se -- gne Gott der Heil' -- ge Geist, dem al -- le Welt die Eh -- re tut, vor ihm sich fürch -- te al -- ler -- - -- meist. Nun sprecht von Her -- zen: A -- - -- _ men!
+  Es dan -- ke, Gott, und lo -- _ _ be dich das Volk in gu -- ten Ta -- _ ten; Uns se -- gne Va -- ter und der Sohn, uns se -- gne Gott der Heil' -- ge Geist, dem al -- le Welt die Eh -- re tut, vor ihm sich fürch -- te al -- ler -- _ meist. Nun sprecht von Her -- zen: A -- _ _ men!
 }
 
 altoLyricsTwo = \lyricmode {

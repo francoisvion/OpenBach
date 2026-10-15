@@ -75,30 +75,30 @@ sopranoLyricsTwo = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \stanza "1."
-  Herr, straf' mich nicht in dei -- nem __ _ Zorn, das bitt ich dich von Her -- - -- zen, und zücht -- ge mich nicht in dein'm Grimm, weil ich so __ _ voll Be -- trüb -- niss bin, und lei -- de gro -- ße Schmer -- - -- zen.
+  Herr, straf' mich nicht in dei -- nem __ _ Zorn, das bitt ich dich von Her -- _ zen, und zücht -- ge mich nicht in dein'm Grimm, weil ich so __ _ voll Be -- trüb -- niss bin, und lei -- de gro -- ße Schmer -- _ zen.
 }
 
 altoLyricsTwo = \lyricmode {
   \stanza "2."
-  sonst bin ich ganz und gar ver -- - -- lorn, mit dir ist nicht zu Scher -- - -- zen;
+  sonst bin ich ganz und gar ver -- _ lorn, mit dir ist nicht zu Scher -- _ zen;
 }
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
-  Herr, straf' mich nicht in dei -- nem Zorn, das bitt ich dich von Her -- - -- zen, und zücht -- ge mich nicht in dein'm Grimm, weil ich so voll Be -- trüb -- niss bin, und lei -- de gro -- ße Schmer -- - -- zen.
+  Herr, straf' mich nicht in dei -- nem Zorn, das bitt ich dich von Her -- _ zen, und zücht -- ge mich nicht in dein'm Grimm, weil ich so voll Be -- trüb -- niss bin, und lei -- de gro -- ße Schmer -- _ zen.
 }
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
-  sonst bin ich ganz und gar ver -- lorn, mit dir ist nicht zu Scher -- - -- zen;
+  sonst bin ich ganz und gar ver -- lorn, mit dir ist nicht zu Scher -- _ zen;
 }
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
-  Herr, straf' mich nicht in dei -- nem Zorn, das bitt ich dich von Her -- - -- zen, und zücht -- ge mich nicht in dein'm Grimm, weil ich so voll Be -- trüb -- niss bin, und lei -- de gro -- ße Schmer -- zen.
+  Herr, straf' mich nicht in dei -- nem Zorn, das bitt ich dich von Her -- _ zen, und zücht -- ge mich nicht in dein'm Grimm, weil ich so voll Be -- trüb -- niss bin, und lei -- de gro -- ße Schmer -- zen.
 }
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
-  sonst bin ich ganz und gar ver -- lorn, mit dir ist nicht zu Scher -- - -- zen;
+  sonst bin ich ganz und gar ver -- lorn, mit dir ist nicht zu Scher -- _ zen;
 }

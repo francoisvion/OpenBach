@@ -69,30 +69,30 @@ sopranoLyricsTwo = \lyricmode { \stanza "2."
 
                                 altoLyricsOne = \lyricmode {
        \stanza "1."
-                                Wär' Gott nicht mit uns die -- se Zeit, so soll I -- sra -- el sa - gen, die so ein ar -- mes Haüf -- lein sind, ver -- acht vor so viel Men -- schen kind, die an uns se -- tzen al - le.
+                                Wär' Gott nicht mit uns die -- se Zeit, so soll I -- sra -- el sa -- _ gen, die so ein ar -- mes Haüf -- lein sind, ver -- acht vor so viel Men -- schen kind, die an uns se -- tzen al - le.
     }
 
                                 altoLyricsTwo = \lyricmode {
        \stanza "2."
-                                _ _ _ _ _ _ _ _ wir hät -- ten müsst ver -- za - gen,
+                                _ _ _ _ _ _ _ _ wir hät -- ten müsst ver -- za -- _ gen,
     }
 
                                                              tenorLyricsOne = \lyricmode {
        \stanza "1."
-                                Wär' Gott nicht mit uns die -- se Zeit, so soll I -- sra -- el sa - gen, die so ein ar -- mes Haüf -- lein sind, ver -- acht vor so viel Men -- schen kind, die an uns se -- tzen al - le.
+                                Wär' Gott nicht mit uns die -- se Zeit, so soll I -- sra -- el sa -- _ gen, die so ein ar -- mes Haüf -- lein sind, ver -- acht vor so viel Men -- schen kind, die an uns se -- tzen al - le.
     }
 
                                                              tenorLyricsTwo = \lyricmode {
        \stanza "2."
-                                _ _ _ _ _ _ _ _ wir hät -- ten müsst ver -- za - gen,
+                                _ _ _ _ _ _ _ _ wir hät -- ten müsst ver -- za -- _ gen,
     }
 
                                                                                            bassLyricsOne = \lyricmode {
        \stanza "1."
-                                Wär' Gott nicht mit uns die -- se Zeit, so soll I -- sra -- el sa - gen, die so ein ar -- mes Haüf -- lein sind, ver -- acht vor so viel Men -- schen kind, die an uns se -- tzen al - le.
+                                Wär' Gott nicht mit uns die -- se Zeit, so soll I -- sra -- el sa -- _ gen, die so ein ar -- mes Haüf -- lein sind, ver -- acht vor so viel Men -- schen kind, die an uns se -- tzen al - le.
     }
 
                                                                                            bassLyricsTwo = \lyricmode {
        \stanza "2."
-                                _ _ _ _ _ _ _ _ wir hät -- ten müsst ver -- za - gen,
+                                _ _ _ _ _ _ _ _ wir hät -- ten müsst ver -- za -- _ gen,
     }

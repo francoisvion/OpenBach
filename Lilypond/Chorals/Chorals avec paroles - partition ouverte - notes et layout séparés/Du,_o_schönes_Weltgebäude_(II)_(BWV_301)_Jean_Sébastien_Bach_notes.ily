@@ -86,30 +86,30 @@ sopranoLyricsTwo = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \stanza "1."
-  Du, o schö -- nes Welt ge -- bäu -- - -- de, magst ge -- fal -- len wem du willst, De -- nen, die den Him -- mel __ _ has -- - -- sen, will ich ih -- re Welt -- lust las -- - -- sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
+  Du, o schö -- nes Welt ge -- bäu -- _ de, magst ge -- fal -- len wem du willst, De -- nen, die den Him -- mel __ _ has -- _ sen, will ich ih -- re Welt -- lust las -- _ sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
 }
 
 altoLyricsTwo = \lyricmode {
   \stanza "2."
-  dei -- ne schein -- bar -- li -- che -- Freu -- - -- de, ist mit lau -- ter Angst um -- hüllt.
+  dei -- ne schein -- bar -- li -- che -- Freu -- _ de, ist mit lau -- ter Angst um -- hüllt.
 }
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
-  Du, o schö -- nes Welt ge -- bäu -- - -- de, magst ge -- fal -- len wem du willst, De -- nen, die den Him -- mel has -- - -- sen, will ich ih -- re Welt -- lust las -- - -- sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
+  Du, o schö -- nes Welt ge -- bäu -- _ de, magst ge -- fal -- len wem du willst, De -- nen, die den Him -- mel has -- _ sen, will ich ih -- re Welt -- lust las -- _ sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
 }
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
-  dei -- ne schein -- bar -- li -- che -- Freu -- - -- de, ist mit lau -- ter Angst um -- hüllt.
+  dei -- ne schein -- bar -- li -- che -- Freu -- _ de, ist mit lau -- ter Angst um -- hüllt.
 }
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
-  Du, o schö -- nes Welt ge -- bäu -- - -- de, magst ge -- fal -- len wem du willst, De -- nen, die den Him -- mel has -- - -- sen, will ich ih -- re Welt -- lust las -- - -- sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
+  Du, o schö -- nes Welt ge -- bäu -- _ de, magst ge -- fal -- len wem du willst, De -- nen, die den Him -- mel has -- _ sen, will ich ih -- re Welt -- lust las -- _ sen, mich ver -- langt nach dir al -- lein, al -- ler -- schön -- ster Je -- su mein.
 }
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
-  dei -- ne schein -- bar -- li -- che -- Freu -- - -- de, ist mit lau -- ter Angst um -- hüllt.
+  dei -- ne schein -- bar -- li -- che -- Freu -- _ de, ist mit lau -- ter Angst um -- hüllt.
 }
