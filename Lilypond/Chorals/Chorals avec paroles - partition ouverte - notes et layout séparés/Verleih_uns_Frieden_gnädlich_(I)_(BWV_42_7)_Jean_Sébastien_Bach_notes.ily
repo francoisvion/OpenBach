@@ -54,7 +54,7 @@ altoMusic = {
   e'4 e' fis' fis'
   fis' e' e' d'\fermata
   cis' d' e' d'
-  d'2.\fermata cis'4
+  d'2.\fermata cis'4~
   cis'2. d'8 [e']
   fis'4 gis'8 [a'] d'4 cis'
   cis'2.\fermata \fine
@@ -149,7 +149,7 @@ altoLyrics = \lyricmode {
   ein ge -- ru -- hig und stil -- les Le -- ben füh -- ren mö -- _ gen
   in al -- ler Gott -- se -- lig -- keit __ _
   und Ehr -- _ bar -- keit
-  A -- _ _ _ _ _ _ men.
+  A -- _ _ _ _ _ men.
 }
 
 tenorLyrics = \lyricmode {
