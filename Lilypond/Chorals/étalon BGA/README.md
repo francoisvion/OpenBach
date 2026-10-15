@@ -39,6 +39,7 @@ Pour chaque écart : choral, voix, mesure, notre découpe, celle de Bach, puis v
 | 121/6 | S | 11-12 | « bis in __ in E- » (*in* chanté deux fois) | « bis __ in E- » : *bis* tient sol-la + ré lié | erreur de notre fichier |
 | 121/6 | T | 1-2 | *Dank* prolongé sur sol-la, *sei* sur si | *Dank* sur la blanche seule, *sei* sur sol-la (mélisme jusqu'au si) | erreur de notre fichier |
 | 121/6 | T | 4-5 | *born* sur la noire pointée + si croche, *von* sur do#-ré | *born* sur la noire pointée seule, *von* dès le si croche | erreur de notre fichier |
-| 121/6 | T | 13-14 | *wig* sur do# (3ᵉ temps), *keit* sur fa# | *wig* sur fa# (4ᵉ temps), *keit,* sur le si croche suivant | erreur de notre fichier |
 | 121/6 | B | 4-5 | *von* sur le 4ᵉ temps de m. 4 | *born* tient tout le trait, *von* au 1ᵉʳ temps de m. 5 | erreur de notre fichier |
-| 121/6 | B | notes | notre basse = ligne du **continuo** (mi grave en levée, fa# grave m. 3, fin fa#–fa# grave) | basse **vocale** à l'octave supérieure par endroits, finit sur une ronde (ré) | **notes** : notre source (= Riemenschneider/music21) donne le continuo, pas la basse chantée |
+| 121/6 | B | 15-16 | *wig* sur fa#2, *keit* sur fa#1 (continuo) | *wig* sur do#-si croches (fin m. 15), *keit* sur la ronde | suit la correction des notes |
+| 121/6 | B | notes | notre basse = ligne du **continuo** : levée mi2, fa#2 (m. 3), m. 4-6 une octave trop bas, fin fa#3 + fa#2 | basse **vocale** : levée mi3, fa#3, m. 4-6 à l'octave supérieure, fin = ronde fa#3 | **notes** : notre source (= Riemenschneider/music21) donne le continuo, pas la basse chantée |
+| 121/6 | B | 13 | do bécarre | **do#** (dièse explicite, voix et continuo) | **notes** : erreur de notre source |

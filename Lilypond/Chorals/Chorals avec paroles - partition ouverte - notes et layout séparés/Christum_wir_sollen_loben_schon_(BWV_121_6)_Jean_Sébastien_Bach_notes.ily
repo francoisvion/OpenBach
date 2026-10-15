@@ -62,13 +62,13 @@ tenorMusic = {
 }
 
 bassMusic = {
-  \partial 4  e,4
+  \partial 4  e4
   e e8 [d] cis4 dis
   e8 [fis] g4 fis e
-  b,2.\fermata fis,4
-  e, d,8 [e,] fis, [g,] a,4
-  e, fis, g,8 [a,] b, [cis]
-  d2.\fermata
+  b,2.\fermata fis4
+  e d8 [e] fis [g] a4
+  e fis g8 [a] b [cis']
+  d'2.\fermata
   d8 [cis]
   b,4. cis8 d [e] fis4
   g fis e b,8 [cis]
@@ -76,17 +76,17 @@ bassMusic = {
   b2.\fermata g8 [fis]
   e4 e d8 [c] b, [a,]
   g, [a,] b, [c] d4. c8
-  b,4 c8 [b,] ais,2
+  b,4 cis8 [b,] ais,2
   b,8 [cis] d [e] fis4. e8
   d [cis] b, [ais,] b, [d] cis [b,]
-  fis2 fis,\fermata \fine
+  fis1\fermata \fine
 }
 
 sopranoLyrics = \lyricmode {
   Lob, Ehr und Dank __ _ sei dir ge -- sagt,
   Christ ge -- born von __ _ der rei -- nen Magd,
   samt Va -- _ ter und dem Heil -- _ _ _ gen Geist
-  von nun an bis in __ in E -- _ _ wig -- keit.
+  von nun an bis __ _ in E -- _ _ wig -- keit.
 }
 
 altoLyrics = \lyricmode {
@@ -97,15 +97,15 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Lob, Ehr und Dank __ _ sei dir ge -- sagt, __
-  Christ ge -- born __ _ von __ _ der rei -- nen Magd,
+  Lob, Ehr und Dank sei __ _ dir ge -- sagt,
+  Christ ge -- born von __ _ _ der rei -- nen Magd,
   samt Va -- _ ter und dem Heil -- _ _ _ gen Geist
   von nun an bis in E -- _ _ _ _ _ wig -- keit, in E -- _ _ wig -- keit.
 }
 
 bassLyrics = \lyricmode {
   Lob, Ehr und Dank __ _ _ sei dir ge -- sagt,
-  Christ ge -- born __ _ von __ _ der rei -- nen Magd,
+  Christ ge -- born __ _ _ von der rei -- nen Magd,
   samt Va -- _ _ ter und dem Heil -- _ _ _ _ gen Geist
-  von nun an bis in E -- _ _ _ _ _ _ _ _ _ _ _ _ _ _ wig -- keit.
+  von nun an bis in E -- _ _ _ _ _ _ _ _ _ _ _ _ _ wig -- keit.
 }
