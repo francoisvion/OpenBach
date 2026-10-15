@@ -43,7 +43,7 @@ tenorMusic = {
 bassMusic = {
   \repeat volta 2 {
     r4 a, a e
-    a, e d e
+    a, a d e
     a f e e\fermata }
   r a, b, b,
   c2\fermata r4 b,
