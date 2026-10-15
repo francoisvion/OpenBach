@@ -50,7 +50,7 @@ bassMusic = {
   c4. cis8 d4 ees8 [e]
   f [fis] g [cis] d4\fermata fis
   g8 [f] ees [d] c4. bes,8
-  c c'4 bes8 a [g] fis [g]
+  c c'4 bes8 a [g] fis [a]
   d2 g4\fermata \fine
 }
 
