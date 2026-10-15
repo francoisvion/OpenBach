@@ -27,7 +27,7 @@ altoMusic = \relative c' {
   g g a g8 [f]         
   e4 d d\fermata e
   f c' b\fermata a
-  g8 [a] bes4 c\fermata a
+  g8 [a] bes4 c\fermata g
   g8 [fis] g [a] d,4 d
   e d d\fermata \fine
 }
