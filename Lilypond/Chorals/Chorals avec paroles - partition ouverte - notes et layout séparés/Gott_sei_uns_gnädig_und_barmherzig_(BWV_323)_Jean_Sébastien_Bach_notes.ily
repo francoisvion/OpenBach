@@ -61,7 +61,7 @@ sopranoLyrics = \lyricmode {
 
 altoLyrics = \lyricmode {
   Gott __ _ sei uns gnä -- dig und __ _ barm -- her -- _ zig
-  und geb' uns sei -- nen gött -- li -- _ chen Se -- _ gen.
+  und geb' uns sei -- nen gött -- li -- chen __ _ Se -- _ gen.
 }
 
 tenorLyrics = \lyricmode {
