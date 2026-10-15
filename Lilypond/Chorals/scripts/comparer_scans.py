@@ -73,6 +73,8 @@ def notes_lilypond(layout):
             notes, ties = [], set()
             for line in f.read_text(encoding="utf-8").splitlines():
                 c = line.split("\t")
+                if "-" in c[0][1:]:  # appoggiature (« moment-grâce ») : ignorée, comme par l'OMR
+                    continue
                 on = Fraction(c[0]).limit_denominator(960) * 4
                 if c[1] == "note":
                     notes.append([on, int(c[2]), Fraction(c[4]).limit_denominator(960) * 4])
@@ -236,7 +238,10 @@ def classer(nous_seuls, eux_seuls, a, b, mesures):
 def main(ids):
     out, propres, ko = [], 0, []
     for bwv in ids:
-        lignes, info = comparer(bwv)
+        try:
+            lignes, info = comparer(bwv)
+        except Exception as e:
+            lignes, info = None, f"erreur : {e}"
         if lignes is None:
             ko.append(f"{bwv} : {info}")
         elif not lignes:
