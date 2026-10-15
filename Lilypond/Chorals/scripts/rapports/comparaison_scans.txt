@@ -1,5 +1,5 @@
 419 chorals : 36 identiques au scan, 332 avec écarts, 51 non comparés
-Mesures numérotées comme le scan ; note(durée en noires)@temps. Priorité : différent > absent chez nous > altération ? > absent du scan (OMR ?) > liaison ou note répétée.
+Mesures numérotées dans l'ordre (levée = 0, une mesure coupée en deux compte double) ; note(durée en noires)@temps. Priorité : différent > absent chez nous > altération ? > absent du scan (OMR ?) > liaison ou note répétée.
 
 BWV_226_2 — 46 écart(s) prioritaire(s)
   [différent] SA m.4    nous : fa5(1)@1 sib4(1)@2 sol5(1)@2 la4(1/2)@3 fa5(1)@3 sol4(1/2)@3.5 fa4(1)@4 do5(1/2)@4 ré5(1/2)@4.5 scan : sol5(1)@1 la4(1/2)@2 fa5(1)@2 sol4(1/2)@2.5 fa4(1)@3 do5(1/2)@3 ré5(1/2)@3.5 sol4(1/2)@4 mib5(1)@4 la4(1/2)@4.5

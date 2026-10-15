@@ -251,7 +251,7 @@ def main(ids):
     out.sort(key=lambda b: -int(re.search(r"— (\d+) écart", b).group(1)))
     entete = (f"{len(ids)} chorals : {propres} identiques au scan, {len(out)} avec écarts, "
               f"{len(ko)} non comparés\n"
-              "Mesures numérotées comme le scan ; note(durée en noires)@temps. Priorité : différent > absent chez nous > "
+              "Mesures numérotées dans l'ordre (levée = 0, une mesure coupée en deux compte double) ; note(durée en noires)@temps. Priorité : différent > absent chez nous > "
               "altération ? > absent du scan (OMR ?) > liaison ou note répétée.\n")
     return entete + "\n" + "\n\n".join(out) + ("\n\nNon comparés :\n" + "\n".join(ko) if ko else "")
 
