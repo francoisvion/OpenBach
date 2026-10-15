@@ -1,18 +1,15 @@
-80 note(s) répétée(s) portant « _ »
+73 note(s) répétée(s) portant « _ »
 
 BWV_1084	A	noire 45	sol4 répété, 2e note « _ »
-BWV_108_6	A	noire 22	la4 répété, 2e note « _ »
 BWV_112_5	S	noire 14	la4 répété, 2e note « _ »
 BWV_112_5	S	noire 38	la4 répété, 2e note « _ »
 BWV_11_6	T	noire 7	si3 répété, 2e note « _ »
 BWV_122_6	T	noire 5	ré4 répété, 2e note « _ »
 BWV_122_6	T	noire 41	ré4 répété, 2e note « _ »
-BWV_123_6	A	noire 18	ré4 répété, 2e note « _ »
 BWV_125_6	A	noire 11	si4 répété, 2e note « _ »
 BWV_155_5	S	noire 14	ré5 répété, 2e note « _ »
 BWV_168_6	T	noire 39	si3 répété, 2e note « _ »
 BWV_169_7	T	noire 47	si3 répété, 2e note « _ »
-BWV_175_7	A	noire 91	mi4 répété, 2e note « _ »
 BWV_175_7	T	noire 92	la3 répété, 2e note « _ »
 BWV_17_7	A	noire 106	la4 répété, 2e note « _ »
 BWV_183_5	S	noire 6	do5 répété, 2e note « _ »
@@ -30,10 +27,7 @@ BWV_29_8	A	noire 51	la4 répété, 2e note « _ »
 BWV_29_8	A	noire 52	la4 répété, 2e note « _ »
 BWV_312	A	noire 58	mi4 répété, 2e note « _ »
 BWV_317	T	noire 13.5	la3 répété, 2e note « _ »
-BWV_320	T	noire 23	do4 répété, 2e note « _ »
-BWV_320	T	noire 29	do4 répété, 2e note « _ »
 BWV_320	T	noire 106	sib3 répété, 2e note « _ »
-BWV_323	A	noire 32	fa#4 répété, 2e note « _ »
 BWV_323	T	noire 22	la3 répété, 2e note « _ »
 BWV_324	S	noire 37	la4 répété, 2e note « _ »
 BWV_324	A	noire 11	ré4 répété, 2e note « _ »
@@ -71,7 +65,6 @@ BWV_437	B	noire 94	do3 répété, 2e note « _ »
 BWV_59_3	A	noire 76	ré4 répété, 2e note « _ »
 BWV_59_3	T	noire 72	sol3 répété, 2e note « _ »
 BWV_59_3	T	noire 92	la3 répété, 2e note « _ »
-BWV_65_7	T	noire 14	mi4 répété, 2e note « _ »
 BWV_74_8	S	noire 47	si4 répété, 2e note « _ »
 BWV_8_6	A	noire 52	fa#4 répété, 2e note « _ »
 BWV_91_6	A	noire 38	mi4 répété, 2e note « _ »
