@@ -59,7 +59,7 @@ sopranoLyrics = \lyricmode {
   er mach's mit mir, wie's ihm ge -- fällt,
   soll ich all hier noch län -- ger leb'n,
   nicht wi -- der -- streb'n, 
-  sei'm Will'n thu ich mich ganz er -- geb'n
+  sei'm Will'n tu ich mich ganz er -- geb'n
 }
 
 altoLyrics = \lyricmode {
@@ -67,7 +67,7 @@ altoLyrics = \lyricmode {
   er mach's mit mir, wie's ihm ge -- fällt,
   soll ich all hier noch län -- ger leb'n,
   nicht wi -- der -- streb'n,
-  sei'm Will'n thu ich mich ganz er -- geb'n
+  sei'm Will'n tu ich mich ganz er -- geb'n
 }
 
 tenorLyrics = \lyricmode {
@@ -75,7 +75,7 @@ tenorLyrics = \lyricmode {
   er mach's mit mir, wie's ihm ge -- fällt,
   soll ich all hier noch län -- ger leb'n,
   nicht wi -- der -- streb'n,
-  sei'm Will'n thu ich mich ganz er -- geb'n
+  sei'm Will'n tu ich mich ganz er -- geb'n
 }
 
 bassLyrics = \lyricmode {
@@ -83,5 +83,5 @@ bassLyrics = \lyricmode {
   er mach's mit mir, wie's ihm ge -- fällt,
   soll ich all hier __ _ noch län -- ger leb'n,
   nicht wi -- der -- streb'n,
-  sei'm Will'n thu ich mich ganz er -- geb'n
+  sei'm Will'n tu ich mich ganz er -- geb'n
 }
