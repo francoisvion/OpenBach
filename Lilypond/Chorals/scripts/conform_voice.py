@@ -75,7 +75,9 @@ def tokenize_events(body):
             prof += {"{": 1, "}": -1}.get(body[k], 0); k += 1
         body = body[:m.start()] + " " + body[k:]
     body = body.replace("\\markup", " ")
-    spaced = body.replace("[", " [ ").replace("]", " ] ").replace("|", " ").replace("~", "~ ")
+    # accolades collées (« d4\fermata }r » en BWV_36_4 basse) : le silence était perdu
+    spaced = body.replace("{", " { ").replace("}", " } ")
+    spaced = spaced.replace("[", " [ ").replace("]", " ] ").replace("|", " ").replace("~", "~ ")
     tokens = spaced.split()
     events = []
     default_dur = Fraction(1, 4)
