@@ -83,7 +83,7 @@ sopranoLyricsOne = \lyricmode {
 sopranoLyricsTwo = \lyricmode {
   \stanza "2."
   aus des Teu -- fels fin -- strer Höh -- le
-  und der schwe -- ren Sün -- der -- noth
+  und der schwe -- ren Sün -- der -- not
 }
 
 altoLyricsOne = \lyricmode {
@@ -99,7 +99,7 @@ altoLyricsOne = \lyricmode {
 altoLyricsTwo = \lyricmode {
   \stanza "2."
   aus des Teu -- fels fin -- strer Höh -- _ le
-  und der schwe -- ren Sün -- der -- noth
+  und der schwe -- ren Sün -- der -- not
 }
 
 tenorLyricsOne = \lyricmode {
@@ -115,7 +115,7 @@ tenorLyricsOne = \lyricmode {
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
   aus des Teu -- fels fin -- strer Höh -- _ le
-  und der schwe -- ren Sün -- der -- noth
+  und der schwe -- ren Sün -- der -- not
 }
 
 bassLyricsOne = \lyricmode {
@@ -131,5 +131,5 @@ bassLyricsOne = \lyricmode {
 bassLyricsTwo = \lyricmode {
   \stanza "2."
   aus des Teu -- fels fin -- strer Höh -- _ le
-  und der schwe -- ren Sün -- der -- noth
+  und der schwe -- ren Sün -- der -- not
 }
