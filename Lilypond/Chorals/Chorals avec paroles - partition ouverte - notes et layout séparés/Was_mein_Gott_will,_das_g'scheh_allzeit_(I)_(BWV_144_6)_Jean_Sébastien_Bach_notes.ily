@@ -83,7 +83,7 @@ bassMusic = {
 sopranoLyricsOne = \lyricmode {\stanza "1."
    Was mein Gott will, das g'scheh' all -- zeit,
    sein Will' der ist __ _ _ der be -- ste;
-   Er hilft aus Noth, __ _ _ der from -- me Gott,
+   Er hilft aus Not, __ _ _ der from -- me Gott,
    und züch -- ti -- get mit Ma -- ßen.
    Wer Gott ver -- traut, fest auf ihn baut,
    den will er nicht __ _ _ ver -- las -- sen.
@@ -104,7 +104,7 @@ bassLyrics = \lyricmode {\repeat unfold 47 {\skip1}
 altoLyricsOne = \lyricmode {\stanza "1."
    Was mein Gott will, das g'scheh' all -- zeit,
    sein Will' der ist der be -- ste;
-   Er hilft aus Noth, __ _ _ der from -- me Gott,
+   Er hilft aus Not, __ _ _ der from -- me Gott,
    und züch -- ti -- get mit Ma -- _ ßen.
    Wer Gott ver -- traut, fest auf ihn baut,
    den will er nicht ver -- las -- _ _ _ _ sen.
@@ -117,7 +117,7 @@ altoLyricsTwo = \lyricmode {\stanza "2."
 tenorLyricsOne = \lyricmode {\stanza "1."
    Was mein Gott will, das g'scheh' all -- zeit,
    sein Will' der ist der be -- _ _ ste;
-   Er hilft aus Noth, __ _ _ der from -- me Gott,
+   Er hilft aus Not, __ _ _ der from -- me Gott,
    und züch -- ti -- get mit Ma -- _ ßen.
    Wer Gott ver -- traut, fest auf ihn baut,
    den will er nicht ver -- las -- _ _ _ _ _ sen.
@@ -130,7 +130,7 @@ tenorLyricsTwo = \lyricmode {\stanza "2."
 bassLyricsOne = \lyricmode {\stanza "1."
    Was mein Gott will, das g'scheh' all -- zeit,
    sein Will' der ist der be -- _ _ ste;
-   Er hilft aus Noth, __ _ _ der from -- me Gott,
+   Er hilft aus Not, __ _ _ der from -- me Gott,
    und züch -- ti -- get mit Ma -- _ ßen.
    Wer Gott ver -- traut, fest auf ihn baut,
    den will er nicht ver -- las -- _ _ _ sen.
