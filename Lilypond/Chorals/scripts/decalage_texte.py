@@ -27,13 +27,19 @@ VOIX = {"S": "soprano", "A": "alto", "T": "tenor", "B": "bass"}
 MIN_SUITE = 2   # ponytail: une syllabe isolée décalée est souvent légitime (rythme pointé, anticipation)
 
 
+def a_liaisons(mus):
+    """Liaison d'expression « ( ) » : LilyPond en fait un mélisme, que slots() ignore.
+    ponytail: seul BWV_52_6 en a (convention du corpus : mélismes en « _ ») ; voix non analysée."""
+    return re.search(r"(?<![#\\'])\((?!\s*\))", re.sub(r'"[^"]*"', "", mus)) is not None
+
+
 def debuts(t, nomv, suf):
     """([(syllabe nettoyée, instant en noires)], instants des notes de la voix) d'un couplet, ou None."""
     ly = extract_var(t, f"{nomv}Lyrics{suf}")
     mus = extract_var(t, f"{nomv}Music")
     # couplet qui passe sur une autre voix (\set associatedVoice, divisi de BWV_76_7_14) :
     # ses syllabes ne suivent plus les notes de la voix principale, instants non calculables
-    if ly is None or mus is None or "associatedVoice" in ly:
+    if ly is None or mus is None or "associatedVoice" in ly or a_liaisons(mus):
         return None
     sl = slots(mus)
     return [(clean(txt), s["on"] * 4) for s, (_, txt, hold) in zip(sl, syllables(ly)[0]) if not hold], \

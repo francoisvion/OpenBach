@@ -1,4 +1,4 @@
-68 trait(s) « __ » seul(s) sur une note simple
+55 trait(s) « __ » seul(s) sur une note simple
 
 BWV_123_6	A	couplet One	mes. ≈7	und __ ich	38 (soprano 38)	trait en trop
 BWV_123_6	A	couplet One	mes. ≈15	ins __ Grab	86 (soprano 86)	trait en trop
@@ -36,13 +36,6 @@ BWV_256	T	couplet One	mes. ≈1	ben __ Chris	3 (soprano 3)	trait en trop
 BWV_256	B	couplet One	mes. ≈1	ben __ Chris	3 (soprano 3)	trait en trop
 BWV_264	S	couplet 1	mes. ≈7	bri __ el,	29	
 BWV_264	B	couplet 1	mes. ≈7	bri __ el,	29 (soprano 29)	trait en trop
-BWV_269	S	couplet One	mes. ≈8	Gott __ in	23	
-BWV_269	S	couplet One	mes. ≈9	nem __ Thron,	26.5	
-BWV_269	A	couplet One	mes. ≈7	Dank, __ O	21 (soprano 21)	trait en trop
-BWV_269	T	couplet One	mes. ≈8	Gott __ in	23 (soprano 23)	trait en trop
-BWV_269	T	couplet One	mes. ≈12	ren, __ durch	37 (soprano 37)	trait en trop
-BWV_269	B	couplet One	mes. ≈8	Gott __ in	23 (soprano 23)	trait en trop
-BWV_269	B	couplet One	mes. ≈9	nem __ Thron,	26.5 (soprano 26.5)	trait en trop
 BWV_278	A	couplet One	mes. ≈4	ben __ Dess	17 (soprano 17)	trait en trop
 BWV_299	A	couplet One	mes. ≈9	ich __ es	27 (soprano 27)	trait en trop
 BWV_299	T	couplet One	mes. ≈13	es __ dir	40 (soprano 40)	trait en trop
@@ -62,9 +55,3 @@ BWV_441	B	couplet One	mes. ≈11	wo __ man	33 (soprano 33)	trait en trop
 BWV_441	B	couplet One	mes. ≈18	ist __ ge	54 (soprano 54)	trait en trop
 BWV_441	T	couplet Two	mes. ≈6	ßes __ Licht!	19 (soprano 19)	trait en trop
 BWV_441	B	couplet Two	mes. ≈5	ein __ so	15 (soprano 15)	trait en trop
-BWV_52_6	S	couplet 1	mes. ≈8	ich __ dich,	32	
-BWV_52_6	S	couplet 1	mes. ≈11	Treu, __ Herr	45	
-BWV_52_6	S	couplet 1	mes. ≈12	Herr __ Got	46	
-BWV_52_6	A	couplet 1	mes. ≈8	ich __ dich,	32 (soprano 32)	trait en trop
-BWV_52_6	A	couplet 1	mes. ≈11	Treu, __ Herr	45 (soprano 45)	trait en trop
-BWV_52_6	B	couplet 1	mes. ≈11	Treu, __ Herr	45 (soprano 45)	trait en trop

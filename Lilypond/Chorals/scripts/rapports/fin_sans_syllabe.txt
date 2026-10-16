@@ -1,6 +1,3 @@
-4 voix finissant avant la dernière note
+0 voix finissant avant la dernière note
 
-BWV_52_6	S	couplet 1	mes. ≈12	5 note(s) finale(s) sans syllabe	dernier jeton « te! »
-BWV_52_6	A	couplet 1	mes. ≈12	5 note(s) finale(s) sans syllabe	dernier jeton « te! »
-BWV_52_6	T	couplet 1	mes. ≈14	1 note(s) finale(s) sans syllabe	dernier jeton « te! »
-BWV_52_6	B	couplet 1	mes. ≈12	5 note(s) finale(s) sans syllabe	dernier jeton « te! »
+

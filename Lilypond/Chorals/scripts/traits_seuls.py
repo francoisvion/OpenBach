@@ -17,7 +17,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from comparer_scans import FOLDER
 from conform_voice import extract_var, lyric_tokens_with_hyphens
-from decalage_texte import VOIX, debuts, mesure
+from decalage_texte import a_liaisons, VOIX, debuts, mesure
 from detecter_melisme_recopie import slots, clean
 from valider_chorals import COUPLETS
 
@@ -32,7 +32,7 @@ def cas(bwv):
         sop = debuts(t, "soprano", suf)
         for v, nv in VOIX.items():
             ly, mus = extract_var(t, f"{nv}Lyrics{suf}"), extract_var(t, f"{nv}Music")
-            if ly is None or mus is None or "associatedVoice" in ly:
+            if ly is None or mus is None or "associatedVoice" in ly or a_liaisons(mus):
                 continue
             sl = slots(mus)
             toks, _, und = lyric_tokens_with_hyphens(ly)
