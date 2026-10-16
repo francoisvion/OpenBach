@@ -86,7 +86,7 @@ altoLyricsOne = \lyricmode {
   Der Wol -- ken, Luft und Win -- _ den
   gibt We -- ge, Lauf und Bahn,
   der wird auch We -- ge fin -- _ den,
-  da dein Fuß ge -- hen kann. __ _
+  da dein Fuß ge -- hen kann. __ _ _
 }
 
 altoLyricsTwo = \lyricmode {
@@ -100,7 +100,7 @@ tenorLyricsOne = \lyricmode {
   Der Wol -- ken, Luft und Win -- _ den
   gibt We -- ge, Lauf und Bahn,
   der wird auch We -- ge fin -- _ den,
-  da dein Fuß ge -- hen kann. __ _
+  da dein Fuß ge -- hen kann. __ _ _
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -114,7 +114,7 @@ bassLyricsOne = \lyricmode {
   Der Wol -- ken, Luft und Win -- den
   gibt We -- ge, Lauf und Bahn,
   der wird auch We -- ge fin -- _ den,
-  da dein Fuß ge -- hen kann. __ _
+  da dein Fuß ge -- hen kann. __ _ _
 }
 
 bassLyricsTwo = \lyricmode {
