@@ -192,7 +192,7 @@ sopranoLyricsTwo = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \stanza "1."
-  Sei Lob __ _ und Preis __ _ mit Eh -- _ _ ren Gott Va -- ter, Sohn __ _ Hei -- li -- gem __ _ Geist! dass wir __ _ ihm fest __ _ ver -- trau -- _ _ en, gänz -- lich __ ver -- lass'n auf ihn, von Her -- zen auf ihn bau -- _ _ en, dass uns'r __ _ Herz, Mut und __ _ Sinn ihm tröst -- lich soll'n an -- han -- gen. __ _ drauf sin -- gen wir zur Stund: A -- men, __ _ wir wer -- _ den's er -- lan -- gen, glaub'n wir __ _ aus Her -- zens __ _ Grund.
+  Sei Lob __ _ und Preis __ _ mit Eh -- _ _ ren Gott Va -- ter, Sohn __ _ Hei -- li -- gem __ _ Geist! dass wir __ _ ihm fest __ _ ver -- trau -- _ _ en, gänz -- lich __ ver -- lass'n auf ihn, von Her -- _ zen auf __ _ ihn bau -- en, dass uns'r __ _ Herz, Mut und __ _ Sinn ihm tröst -- lich soll'n an -- han -- gen. __ _ drauf sin -- gen wir zur Stund: A -- men, __ _ wir wer -- _ den's er -- lan -- gen, glaub'n wir __ _ aus Her -- zens __ _ Grund.
 }
 
 altoLyricsTwo = \lyricmode {
@@ -202,7 +202,7 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
-  Sei Lob und Preis __ _ mit Eh -- _ ren Gott Va -- ter, Sohn Hei -- li -- gem Geist! dass wir __ _ ihm fest __ _ ver -- trau -- _ en, gänz -- lich __ _ ver -- lass'n auf __ _ ihn, von Her -- zen auf ihn bau -- _ _ en, dass uns'r Herz, Mut und Sinn ihm tröst -- lich soll'n an -- han -- _ gen. drauf sin -- _ gen wir zur Stund: A -- men, wir wer -- _ den's er -- lan -- gen, glaub'n wir __ aus Her -- zens Grund.
+  Sei Lob und Preis __ _ mit Eh -- _ ren Gott Va -- ter, Sohn Hei -- li -- gem Geist! dass wir __ _ ihm fest __ _ ver -- trau -- _ en, gänz -- lich __ _ ver -- lass'n auf __ _ ihn, von Her -- zen __ auf ihn bau -- _ _ en, dass uns'r Herz, Mut und Sinn ihm tröst -- lich soll'n an -- han -- _ gen. drauf sin -- _ gen wir zur Stund: A -- men, wir wer -- _ den's er -- lan -- gen, glaub'n wir __ aus Her -- zens Grund.
 }
 
 tenorLyricsTwo = \lyricmode {
