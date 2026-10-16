@@ -63,7 +63,7 @@ bassMusic = {
 }
 
 sopranoLyricsOne = \lyricmode {
-  Ach lie -- ben __ Chris -- ten, seid ge -- trost,
+  Ach lie -- ben Chris -- ten, seid ge -- trost,
   wie tut ihr so ver -- za -- gen?
   die Straf' wir wohl ver -- die -- net han,
   das muss be -- ken -- nen Je -- der -- mann,
@@ -76,7 +76,7 @@ sopranoLyricsTwo = \lyricmode {
 }
 
 altoLyricsOne = \lyricmode {
-  Ach lie -- ben __ Chris -- ten, seid ge -- trost,
+  Ach lie -- ben Chris -- ten, seid ge -- trost,
   wie tut ihr so ver -- za -- _ gen?
   die Straf' wir wohl ver -- die -- net han,
   das muss be -- ken -- nen Je -- der -- mann,
@@ -89,7 +89,7 @@ altoLyricsTwo = \lyricmode {
 }
 
 tenorLyricsOne = \lyricmode {
-  Ach lie -- ben __ Chris -- ten, seid ge -- trost,
+  Ach lie -- ben Chris -- ten, seid ge -- trost,
   wie tut ihr so ver -- za -- _ gen?
   die Straf' wir wohl ver -- die -- net han,
   das muss be -- ken -- nen Je -- der -- mann,
@@ -102,7 +102,7 @@ tenorLyricsTwo = \lyricmode {
 }
 
 bassLyricsOne = \lyricmode {
-  Ach lie -- ben __ Chris -- ten, seid ge -- trost,
+  Ach lie -- ben Chris -- ten, seid ge -- trost,
   wie tut ihr so ver -- za -- _ gen?
   die Straf' wir wohl ver -- die -- net han,
   das muss be -- ken -- nen Je -- der -- mann,
