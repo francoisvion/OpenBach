@@ -186,7 +186,7 @@ sopranoLyricsOne = \lyricmode {
   dass un -- ser Herz, Mut und Sinn
   ihm fes -- tig -- lich an -- han -- gen;
   da -- rauf sin -- gen wir zur Stund:
-  A -- men, wir wer -- dens er -- lan -- gen, glaubn wir __ aus Her -- _ zens -- grund.
+  A -- men, wir wer -- dens er -- lan -- gen, glaubn wir __ _ aus Her -- _ zens -- grund.
 }
 
 sopranoLyricsTwo = \lyricmode {
@@ -218,7 +218,7 @@ tenorLyricsOne = \lyricmode {
   dass un -- ser Herz, Mut und Sinn
   ihm fes -- _ tig -- lich an -- han -- _ _ gen;
   da -- rauf __ sin -- gen __ wir zur Stund:
-  A -- men, wir wer -- dens er -- _ lan -- gen, glaubn wir __ _ aus Her -- zens -- grund.
+  A -- men, wir wer -- dens er -- _ lan -- gen, glaubn wir __ _ aus Her -- _ zens -- grund.
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -234,7 +234,7 @@ bassLyricsOne = \lyricmode {
   dass un -- _ ser Herz, Mut und Sinn
   ihm fes -- _ tig -- lich __ _ an -- han -- _ gen;
   da -- rauf sin -- gen wir zur __ _ Stund:
-  A -- men, wir wer -- dens er -- lan -- gen, glaubn wir __ _ aus __ Her -- zens -- grund.
+  A -- men, wir wer -- dens er -- lan -- gen, glaubn wir __ _ aus Her -- _ _ zens -- grund.
 }
 
 bassLyricsTwo = \lyricmode {
