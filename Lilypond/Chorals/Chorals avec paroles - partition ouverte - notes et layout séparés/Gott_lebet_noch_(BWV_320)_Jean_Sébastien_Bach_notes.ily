@@ -127,7 +127,7 @@ bassMusic = {
   a g a
   bes a bes
   g2 c4
-  f2\fermata f,4
+  f2 f,4\fermata
   d c bes,
   a, g, f,
   c bes, a,
@@ -175,5 +175,5 @@ tenorLyrics = \lyricmode {
 }
 
 bassLyrics = \lyricmode {
-  Gott leb -- et noch; See -- _ le, was __ _ ver -- zagst __ _ du doch? __ _ Gott __ _ ist gut, __ _ der aus __ _ Er -- bar -- _ men al -- _ le Hülf' __ _ auf Er -- _ den thut, __ _ der __ _ mit Kraft __ _ und Star -- _ ken Ar -- _ men ma -- _ chet Al -- _ les wohl __ _ und gut. Gott __ _ kann bes -- _ ser als __ _ wir den -- _ ken al -- _ le Noth __ _ zum be -- _ sten len -- ken. See -- le, so __ _ be -- den -- _ ke doch: __ _ _ lebt __ _ doch un -- _ ser Herr Gott noch.
+  Gott leb -- et noch; __ _ _ See -- _ le, was __ _ ver -- zagst du doch? __ _ Gott __ _ ist gut, __ _ der aus __ _ Er -- bar -- _ men al -- _ le Hülf' __ _ auf Er -- _ den thut, der __ _ mit Kraft __ _ und Star -- _ ken Ar -- _ men ma -- _ chet Al -- _ les wohl __ _ und gut. Gott __ _ kann bes -- _ ser als __ _ wir den -- _ ken al -- _ le Noth __ _ zum be -- _ sten len -- ken. See -- le, so __ _ be -- den -- _ ke doch: __ _ _ lebt __ _ doch un -- _ ser Herr Gott noch.
 }
