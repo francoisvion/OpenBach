@@ -64,7 +64,7 @@ sopranoLyricsOne = \lyricmode {
 
 sopranoLyricsTwo = \lyricmode {
   \stanza "2."
-  ein star -- ker Noth -- hel -- fer du bist
+  ein star -- ker Not -- hel -- fer du bist
   im Le -- ben und im Tod:
 }
 
@@ -78,7 +78,7 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \stanza "2."
-  ein star -- ker Noth -- hel -- fer du bist
+  ein star -- ker Not -- hel -- fer du bist
   im Le -- ben und im Tod:
 }
 
@@ -92,7 +92,7 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
-  ein star -- ker Noth -- hel -- fer du bist
+  ein star -- ker Not -- hel -- fer du bist
   im Le -- ben und im Tod:
 }
 
@@ -106,6 +106,6 @@ bassLyricsOne = \lyricmode {
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
-  ein star -- ker Noth -- hel -- fer du bist
+  ein star -- ker Not -- hel -- fer du bist
   im Le -- ben und im Tod:
 }
