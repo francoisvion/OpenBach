@@ -1,11 +1,4 @@
-9 décalage(s) de texte entre voix (≥ 2 syllabes)
+2 décalage(s) de texte entre voix (≥ 2 syllabes)
 
-BWV_227_7	T	couplet One	mes. ≈10	2 syll.	muss@36.5(→37) lei@37(→38)
-BWV_227_7	B	couplet One	mes. ≈4	2 syll.	je@15(→16) su@16(→17)
-BWV_227_7	B	couplet One	mes. ≈9	4 syll.	ich@34.5(→35) viel@35(→36) muss@35.5(→37) lei@36(→38)
-BWV_227_7	B	couplet Two	mes. ≈4	5 syll.	bleibt@15(→16) mir@16(→17) un@17(→18) be@18(→19) wusst@19(→20)
 BWV_323	A	couplet 1	mes. ≈10	2 syll.	se@36(→35) gen@42(→38)
 BWV_323	B	couplet 1	mes. ≈6	3 syll.	geb@22(→24) uns@23(→24) sei@24(→26)
-BWV_8_6	A	couplet One	mes. ≈12	2 syll.	nim@45(→46) mer@45.5(→46)
-BWV_8_6	T	couplet One	mes. ≈12	6 syll.	nim@45(→46) mer@45.5(→47.5) mehr@46(→48) zu@47.5(→48) schan@48(→50) den@55(→53)
-BWV_8_6	B	couplet One	mes. ≈7	2 syll.	ne@27(→28) ben@27.5(→28)
