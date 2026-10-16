@@ -273,10 +273,10 @@ sopranoLyricsOne = \lyricmode {
   geht ü -- ber Himm'l und Er -- den weit.
   Du Kön'g der Eh -- ren, Je -- su Christ,
   Gott Va -- ters ew' -- ger Sohn du bist,
-  Lass uns im Him -- mel ha -- ben Theil
+  Lass uns im Him -- mel ha -- ben Teil
   Mit den Heil' -- gen im ew' -- gen Heil!
   Hilf dei -- nem Volk, Herr Je -- su Christ
-  und se -- gne was dein Erb -- theil ist,
+  und se -- gne was dein Erb -- teil ist,
   wart' und pfleg' ihr' zu al -- ler Zeit
   und heb' sie hoch in E -- wig -- keit.
   Täg -- lich, Herr Gott, wir lo -- ben dich
@@ -309,7 +309,7 @@ sopranoLyricsThree = \lyricmode {
   Auch Che -- ru -- bim und Se -- ra -- phim
   sin -- gen im -- mer mit ho -- her Stimm':
   \repeat unfold 18 { \skip1 }
-  die theu -- ren Mär -- trer all -- zu -- mal
+  die teu -- ren Mär -- trer all -- zu -- mal
   lo -- ben dich, Herr, mit gro -- ßem Schall.
   Du hast dem Tod zer -- stört sein Macht
   und all' Chri -- sten zum Him -- mel bracht.
@@ -331,10 +331,10 @@ altoLyricsOne = \lyricmode {
   geht ü -- ber Himm'l und Er -- den weit.
   Du Kön'g der Eh -- ren, Je -- su Christ,
   Gott Va -- ters ew' -- ger Sohn du bist,
-  Lass uns im Him -- mel ha -- ben Theil
+  Lass uns im Him -- mel ha -- ben Teil
   Mit den Heil' -- gen im ew' -- gen Heil!
   Hilf dei -- nem Volk, Herr Je -- su __ _ Christ
-  und se -- gne was dein Erb -- theil ist,
+  und se -- gne was dein Erb -- teil ist,
   wart' und pfleg' ihr' zu al -- ler Zeit
   und heb' sie hoch in E -- wig -- keit.
   Täg -- lich, Herr Gott, wir lo -- ben dich
@@ -367,7 +367,7 @@ altoLyricsThree = \lyricmode {
   Auch Che -- ru -- bim und Se -- _ ra -- phim
   sin -- gen __ _ im -- mer mit ho -- _ her Stimm':
   \repeat unfold 20 { \skip1 }
-  die theu -- ren Mär -- trer all -- zu -- mal
+  die teu -- ren Mär -- trer all -- zu -- mal
   lo -- ben dich, Herr, mit gro -- ßem Schall.
   Du hast dem Tod zer -- stört sein Macht
   und all' Chri -- sten zum Him -- mel bracht.
@@ -389,10 +389,10 @@ tenorLyricsOne = \lyricmode {
   geht ü -- ber Himm'l und Er -- den weit.
   Du Kön'g der Eh -- ren, Je -- su Christ,
   Gott Va -- ters ew' -- ger Sohn du bist,
-  Lass uns im Him -- mel ha -- ben Theil
+  Lass uns im Him -- mel ha -- ben Teil
   Mit den Heil' -- gen im ew' -- gen Heil!
   Hilf dei -- nem Volk, Herr Je -- su Christ
-  und se -- gne was dein Erb -- theil ist,
+  und se -- gne was dein Erb -- teil ist,
   wart' und pfleg' ihr' zu al -- ler Zeit
   und heb' sie hoch in E -- wig -- keit.
   Täg -- lich, Herr Gott, wir lo -- ben dich
@@ -425,7 +425,7 @@ tenorLyricsThree = \lyricmode {
   Auch Che -- ru -- bim und Se -- ra -- phim
   sin -- gen im -- mer mit ho -- her Stimm':
   \repeat unfold 18 { \skip1 }
-  die theu -- ren Mär -- trer all -- zu -- mal
+  die teu -- ren Mär -- trer all -- zu -- mal
   lo -- ben dich, Herr, mit gro -- ßem Schall.
   Du hast dem Tod zer -- stört sein Macht
   und all' Chri -- sten zum Him -- mel bracht.
@@ -447,10 +447,10 @@ bassLyricsOne = \lyricmode {
   geht ü -- ber Himm'l und Er -- den weit.
   Du Kön'g der Eh -- ren, Je -- su Christ,
   Gott Va -- ters ew' -- ger Sohn du bist,
-  Lass uns im Him -- mel ha -- ben Theil
+  Lass uns im Him -- mel ha -- ben Teil
   Mit den Heil' -- gen im ew' -- gen Heil!
   Hilf dei -- nem Volk, Herr Je -- su Christ
-  und se -- gne was dein Erb -- theil ist,
+  und se -- gne was dein Erb -- teil ist,
   wart' und pfleg' ihr' zu al -- ler Zeit
   und heb' sie hoch in E -- wig -- keit.
   Täg -- lich, Herr Gott, wir lo -- ben dich
@@ -483,7 +483,7 @@ bassLyricsThree = \lyricmode {
   Auch Che -- ru -- bim und Se -- ra -- phim
   sin -- gen im -- mer mit ho -- her Stimm':
   \repeat unfold 18 { \skip1 }
-  die theu -- ren Mär -- trer all -- zu -- mal
+  die teu -- ren Mär -- trer all -- zu -- mal
   lo -- ben dich, Herr, mit gro -- ßem Schall.
   Du hast dem Tod zer -- stört sein Macht
   und all' Chri -- sten zum Him -- mel bracht.
