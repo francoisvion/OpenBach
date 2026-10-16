@@ -109,8 +109,8 @@ sopranoLyricsOne = \lyricmode {
   ganz fest und steif tu set -- zen,
   Herr Je -- su Christ,
   Mein Trost du bist
-  In To -- des -- noth und Schmer -- zen,
-  In To -- des -- noth und Schmer -- zen.
+  In To -- des -- not und Schmer -- zen,
+  In To -- des -- not und Schmer -- zen.
 }
 
 sopranoLyricsTwo = \lyricmode {
@@ -132,8 +132,8 @@ altoLyricsOne = \lyricmode {
   ganz fest und steif tu set -- zen,
   Herr Je -- su Christ,
   Mein Trost du bist __ _
-  In To -- des -- noth und Schmer -- _ zen,
-  In To -- des -- noth und Schmer -- zen.
+  In To -- des -- not und Schmer -- _ zen,
+  In To -- des -- not und Schmer -- zen.
 }
 
 altoLyricsTwo = \lyricmode {
@@ -155,8 +155,8 @@ tenorLyricsOne = \lyricmode {
   ganz fest und steif tu set -- _ zen,
   Herr Je -- su Christ, __ _
   Mein Trost du bist
-  In To -- des -- noth und Schmer -- _ zen,
-  In To -- des -- noth und Schmer -- _ zen.
+  In To -- des -- not und Schmer -- _ zen,
+  In To -- des -- not und Schmer -- _ zen.
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -178,8 +178,8 @@ bassLyricsOne = \lyricmode {
   ganz fest und steif tu set -- zen,
   Herr Je -- su Christ,
   Mein Trost du bist
-  In To -- des -- noth und Schmer -- _ zen,
-  In To -- des -- noth und Schmer -- zen.
+  In To -- des -- not und Schmer -- _ zen,
+  In To -- des -- not und Schmer -- zen.
 }
 
 bassLyricsTwo = \lyricmode {
