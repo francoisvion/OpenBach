@@ -51,29 +51,29 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Wenn wir in höch -- sten Nö -- _ _ then sein
+  Wenn wir in höch -- sten Nö -- _ _ ten sein
   und wis -- sen nicht, wo aus und ein,
-  und fin -- den we -- der Hilf' noch Rath,
+  und fin -- den we -- der Hilf' noch Rat,
   ob wir gleich sor -- gen früh und spat.
 }
 
 altoLyrics = \lyricmode {
-  Wenn wir in höch -- sten Nö -- _ _ then sein
+  Wenn wir in höch -- sten Nö -- _ _ ten sein
   und wis -- sen nicht, wo aus und ein,
-  und fin -- den we -- der Hilf' noch Rath,
+  und fin -- den we -- der Hilf' noch Rat,
   ob wir gleich sor -- gen früh und spat.
 }
 
 tenorLyrics = \lyricmode {
-  Wenn wir in höch -- sten Nö -- _ _ then sein
+  Wenn wir in höch -- sten Nö -- _ _ ten sein
   und wis -- sen nicht, wo __ _ aus und ein,
-  und fin -- den we -- der Hilf' noch Rath,
+  und fin -- den we -- der Hilf' noch Rat,
   ob wir gleich sor -- gen früh und spat.
 }
 
 bassLyrics = \lyricmode {
-  Wenn wir in höch -- sten Nö -- _ _ then sein
+  Wenn wir in höch -- sten Nö -- _ _ ten sein
   und wis -- sen nicht, wo aus und ein,
-  und fin -- den we -- der Hilf' noch Rath,
+  und fin -- den we -- der Hilf' noch Rat,
   ob wir gleich sor -- gen früh und spat.
 }
