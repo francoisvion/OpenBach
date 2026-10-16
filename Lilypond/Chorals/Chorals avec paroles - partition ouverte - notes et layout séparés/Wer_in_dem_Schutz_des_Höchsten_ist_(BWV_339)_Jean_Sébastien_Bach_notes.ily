@@ -88,7 +88,7 @@ sopranoLyricsTwo = \lyricmode {
 sopranoLyricsThree = \lyricmode {
   \stanza "3."
   \tweak X-offset #-5 "2. Wer" in dem Schutz des Höch -- sten ist,
-  und sich Gott thut er -- ge -- ben,      
+  und sich Gott tut er -- ge -- ben,      
   der du ja wirst er -- ret -- ten mich
   von Teu -- fels Stri -- cken gnä -- dig -- lich
   und von der Pe -- _ sti -- _ len -- ze.
@@ -118,7 +118,7 @@ altoLyricsTwo = \lyricmode {
 altoLyricsThree = \lyricmode {
   \stanza "3."
   \tweak X-offset #-5 "2. Wer" in dem Schutz des Höch -- sten ist,
-  und sich Gott thut er -- ge -- _ ben,      
+  und sich Gott tut er -- ge -- _ ben,      
   der du ja wirst er -- ret -- ten mich
   von Teu -- fels __ _ Stri -- cken gnä -- dig -- lich __ _ 
   und von der Pe -- _ sti -- _ len -- _ ze.
@@ -148,7 +148,7 @@ tenorLyricsTwo = \lyricmode {
 tenorLyricsThree = \lyricmode {
   \stanza "3."
   \tweak X-offset #-5 "2. Wer" in dem Schutz des Höch -- sten ist,
-  und sich Gott thut er -- ge -- _ ben,      
+  und sich Gott tut er -- ge -- _ ben,      
   der du ja wirst er -- ret -- ten mich
   von Teu -- fels Stri -- cken gnä -- dig -- lich
   und von der Pe -- _ sti -- _ len -- ze.
@@ -178,7 +178,7 @@ bassLyricsTwo = \lyricmode {
 bassLyricsThree = \lyricmode {
   \stanza "3."
   \tweak X-offset #-5 "2. Wer" in dem Schutz des Höch -- sten ist,
-  und sich Gott thut er -- ge -- ben,      
+  und sich Gott tut er -- ge -- ben,      
   der du ja wirst er -- ret -- ten mich
   von Teu -- fels Stri -- cken gnä -- dig -- lich
   und von der Pe -- _ sti -- _ len -- _ ze.
