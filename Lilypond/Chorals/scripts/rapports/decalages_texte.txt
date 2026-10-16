@@ -1,4 +1,3 @@
-2 décalage(s) de texte entre voix (≥ 2 syllabes)
+0 décalage(s) de texte entre voix (≥ 2 syllabes)
 
-BWV_323	A	couplet 1	mes. ≈10	2 syll.	se@36(→35) gen@42(→38)
-BWV_323	B	couplet 1	mes. ≈6	3 syll.	geb@22(→24) uns@23(→24) sei@24(→26)
+
