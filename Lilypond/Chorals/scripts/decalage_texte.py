@@ -39,7 +39,8 @@ def debuts(t, nomv, suf):
 
 
 def mesure(t, on):
-    """Numéro de mesure approximatif (levée = 0), d'après \\time et \\partial."""
+    """Numéro de mesure approximatif (levée = 0), d'après \\time et \\partial (notes + layout).
+    ponytail: premier \\time seulement ; un changement de mesure en cours de choral décale la suite."""
     m = re.search(r"\\time\s+(\d+)/(\d+)", t)
     temps = Fraction(int(m.group(1)) * 4, int(m.group(2))) if m else Fraction(4)
     p = re.search(r"\\partial\s+(\d+)(\.?)", t)
@@ -49,6 +50,7 @@ def mesure(t, on):
 
 def cas(bwv):
     t = next(FOLDER.glob(f"*({bwv})*_notes.ily")).read_text(encoding="utf-8")
+    tm = t + next(FOLDER.glob(f"*({bwv})*_layout.ly")).read_text(encoding="utf-8")  # \time est souvent dans le layout
     out = []
     for suf in COUPLETS:
         sop = debuts(t, "soprano", suf)
@@ -74,7 +76,7 @@ def cas(bwv):
                     continue
                 if len(suite) >= MIN_SUITE:
                     d0 = suite[0][1]
-                    out.append((v, suf or "1", mesure(t, d0), float(d0), len(suite),
+                    out.append((v, suf or "1", mesure(tm, d0), float(d0), len(suite),
                                 " ".join(f"{x}@{float(o):g}(≠{float(r):g})" for x, o, r in suite)))
                 suite = []
     return out
