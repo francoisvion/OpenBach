@@ -111,13 +111,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Heut' tri -- um -- phi -- ret Got -- tes Sohn, der von dem Tod __ _ er -- stan -- _ den schon, Al -- le -- lu -- ia, al -- le -- _ lu -- ia! mit gro -- ßer Pracht und Her -- _ lich -- keit, dess dank'n wir ihm __ _ in E -- _ wig -- keit. Al -- le -- lu -- ia, al -- le -- lu -- _ ia!
+  Heut' tri -- um -- phi -- ret Got -- tes Sohn, der von dem Tod __ _ er -- stan -- _ den schon, Al -- le -- lu -- ia, al -- le -- _ lu -- ia! mit gro -- ßer Pracht __ _ und Her -- lich -- keit, dess dank'n wir ihm __ _ in E -- _ wig -- keit. Al -- le -- lu -- ia, al -- le -- lu -- _ ia!
 }
 
 tenorLyrics = \lyricmode {
-  Heut' tri -- um -- phi -- _ ret Got -- _ tes Sohn, der von dem Tod __ _ er -- stan -- den schon, Al -- le -- lu -- ia, __ _ al -- le -- _ lu -- ia! mit gro -- ßer Pracht und Her -- _ lich -- keit, dess dank'n wir ihm __ _ in E -- wig -- keit. Al -- le -- _ lu -- ia, al -- le -- lu -- ia!
+  Heut' tri -- um -- phi -- _ ret Got -- _ tes Sohn, der von dem Tod __ _ er -- stan -- den schon, Al -- le -- _ lu -- ia, al -- le -- _ lu -- ia! mit gro -- ßer Pracht __ _ und Her -- lich -- keit, dess dank'n wir ihm __ _ in E -- wig -- keit. Al -- le -- _ lu -- ia, al -- le -- lu -- ia!
 }
 
 bassLyrics = \lyricmode {
-  Heut' tri -- um -- phi -- ret Got -- _ tes Sohn, der von dem Tod __ _ er -- stan -- _ den schon, Al -- le -- lu -- ia, al -- le -- _ lu -- ia! mit gro -- ßer Pracht und Her -- _ lich -- keit, dess dank'n wir ihm __ _ in E -- _ wig -- keit. Al -- le -- lu -- ia, __ _ al -- le -- lu -- ia!
+  Heut' tri -- um -- phi -- ret Got -- _ tes Sohn, der von dem Tod __ _ er -- stan -- _ den schon, Al -- le -- lu -- ia, al -- le -- _ lu -- ia! mit gro -- ßer Pracht __ _ und Her -- lich -- keit, dess dank'n wir ihm __ _ in E -- _ wig -- keit. Al -- le -- lu -- ia, __ _ al -- le -- lu -- ia!
 }
