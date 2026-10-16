@@ -73,7 +73,7 @@ sopranoLyricsOne = \lyricmode {
 
 sopranoLyricsTwo = \lyricmode {
   \stanza "2."
-  sieh doch, wie ich in mei -- nem Muth
+  sieh doch, wie ich in mei -- nem Mut
   mit Schmer -- zen bin be -- lad -- en,                                 
 }
 
@@ -88,7 +88,7 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \stanza "2."
-  sieh doch, wie ich in mei -- nem Muth
+  sieh doch, wie ich in mei -- nem Mut
   mit Schmer -- zen bin be -- lad -- en,
 }
 
@@ -103,7 +103,7 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
-  sieh doch, wie ich in mei -- _ nem Muth
+  sieh doch, wie ich in mei -- _ nem Mut
   mit Schmer -- zen bin be -- lad -- _ en,
 }
 
@@ -118,6 +118,6 @@ bassLyricsOne = \lyricmode {
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
-  sieh doch, wie ich in mei -- nem Muth
+  sieh doch, wie ich in mei -- nem Mut
   mit Schmer -- zen bin be -- lad -- _ en,
 }
