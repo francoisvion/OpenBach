@@ -52,7 +52,8 @@ def mesure(t, on):
 
 def cas(bwv):
     t = next(FOLDER.glob(f"*({bwv})*_notes.ily")).read_text(encoding="utf-8")
-    tm = t + next(FOLDER.glob(f"*({bwv})*_layout.ly")).read_text(encoding="utf-8")  # \time est souvent dans le layout
+    # \time du layout en tête : un « \omit \time 2/4 » isolé dans les notes (BWV_261) doublait les numéros
+    tm = next(FOLDER.glob(f"*({bwv})*_layout.ly")).read_text(encoding="utf-8") + t
     out = []
     for suf in COUPLETS:
         sop = debuts(t, "soprano", suf)
