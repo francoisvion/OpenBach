@@ -56,9 +56,9 @@ bassMusic = {
 
 sopranoLyricsOne = \lyricmode {
   \stanza "1."
-  Wenn wir in höch -- sten Nö -- then sein
+  Wenn wir in höch -- sten Nö -- ten sein
   und wis -- sen nicht wo aus und ein,
-  und fin -- den we -- der Hülf' noch Rath,
+  und fin -- den we -- der Hülf' noch Rat,
   ob wir gleich sor -- gen früh und spat.
 }
 
@@ -72,9 +72,9 @@ sopranoLyricsTwo = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \stanza "1."
-  Wenn wir in höch -- sten Nö -- then sein
+  Wenn wir in höch -- sten Nö -- ten sein
   und wis -- sen nicht wo aus und ein,
-  und fin -- den we -- der Hülf' noch Rath,
+  und fin -- den we -- der Hülf' noch Rat,
   ob wir gleich sor -- gen früh und spat.
 }
 
@@ -88,9 +88,9 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
-  Wenn wir in höch -- sten Nö -- then sein
+  Wenn wir in höch -- sten Nö -- ten sein
   und wis -- sen nicht wo aus und ein,
-  und fin -- den we -- der Hülf' noch Rath,
+  und fin -- den we -- der Hülf' noch Rat,
   ob wir gleich sor -- gen __ _ früh und spat.
 }
 
@@ -104,9 +104,9 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
-  Wenn wir in höch -- sten Nö -- then sein
+  Wenn wir in höch -- sten Nö -- ten sein
   und wis -- sen nicht wo aus und ein,
-  und fin -- den we -- der Hülf' noch Rath,
+  und fin -- den we -- der Hülf' noch Rat,
   ob wir gleich sor -- gen früh und spat.
 }
 
