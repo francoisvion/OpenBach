@@ -59,7 +59,7 @@ sopranoLyricsOne = \lyricmode {
   Er -- leucht auch un -- sern Sinn und Herz
   durch den Geist dei -- ner Gnad,
   O Je -- su Christ, al -- lein du bist,
-  der solchs wohl kann __ _ aus -- rich -- ten.
+  der solchs wohl kann __ _ _ aus -- rich -- ten.
 }
 
 sopranoLyricsTwo = \lyricmode {
@@ -73,7 +73,7 @@ altoLyricsOne = \lyricmode {
   Er -- leucht auch un -- sern Sinn und Herz
   durch den Geist dei -- ner Gnad,
   O Je -- su Christ, al -- lein du bist,
-  der solchs wohl kann __ _ _ aus -- rich -- ten.
+  der solchs wohl kann __ _ _ aus -- rich -- _ ten.
 }
 
 altoLyricsTwo = \lyricmode {
@@ -87,7 +87,7 @@ tenorLyricsOne = \lyricmode {
   Er -- leucht auch un -- sern Sinn und Herz
   durch den Geist dei -- ner Gnad,
   O Je -- su Christ, al -- lein du bist,
-  der solchs wohl kann __ _ _ aus -- rich -- ten.
+  der solchs wohl kann __ _ _ aus -- rich -- _ ten.
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -101,7 +101,7 @@ bassLyricsOne = \lyricmode {
   Er -- leucht auch un -- sern Sinn und Herz
   durch den Geist dei -- ner Gnad,
   O Je -- su Christ, al -- lein du bist,
-  der solchs wohl kann __ _ aus -- rich -- ten.
+  der solchs wohl kann __ _ _ aus -- rich -- ten.
 }
 
 bassLyricsTwo = \lyricmode {
