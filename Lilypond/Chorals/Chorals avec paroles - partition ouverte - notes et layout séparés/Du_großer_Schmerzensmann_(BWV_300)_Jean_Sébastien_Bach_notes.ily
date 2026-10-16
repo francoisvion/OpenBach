@@ -92,7 +92,7 @@ sopranoLyrics = \lyricmode {
   Herr Je -- su dir sei Dank
   für al -- le dei -- ne Pla -- gen:
   für dei -- ne See -- len -- angst,
-  für dei -- ne Band' und Noth,
+  für dei -- ne Band' und Not,
   für dei -- ne Gei -- sse -- lung,
   für dei -- nen bit -- tern Tod.
 }
@@ -103,7 +103,7 @@ altoLyrics = \lyricmode {
   Herr Je -- su dir sei Dank
   für al -- le dei -- ne Pla -- gen:
   für dei -- ne See -- len -- angst,
-  für dei -- ne Band' und Noth,
+  für dei -- ne Band' und Not,
   für dei -- ne Gei -- sse -- lung,
   für dei -- nen bit -- tern Tod.
 }
@@ -114,7 +114,7 @@ tenorLyrics = \lyricmode {
   Herr Je -- su dir sei Dank
   für al -- le dei -- ne Pla -- _ _ gen:
   für dei -- ne See -- len -- angst,
-  für dei -- ne Band' und Noth,
+  für dei -- ne Band' und Not,
   für dei -- ne Gei -- sse -- lung,
   für dei -- nen bit -- tern Tod.
 }
@@ -125,7 +125,7 @@ bassLyrics = \lyricmode {
   Herr Je -- su dir sei Dank
   für al -- le dei -- ne Pla -- gen:
   für dei -- ne See -- len -- angst,
-  für dei -- ne Band' und Noth,
+  für dei -- ne Band' und Not,
   für dei -- ne Gei -- sse -- lung,
   für dei -- nen bit -- tern Tod.
 }
