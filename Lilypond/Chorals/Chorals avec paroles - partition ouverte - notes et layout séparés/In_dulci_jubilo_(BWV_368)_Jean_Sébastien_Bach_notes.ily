@@ -147,13 +147,13 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  In dul -- ci ju -- bi -- lo __ sin -- _ get und seid froh, __ _ _ _ un -- sers Her -- _ zens Won -- _ _ ne liegt in prae -- se -- pi -- o __ _ _ _ leuch -- tet als __ _ die Son -- _ _ ne ma -- tris in pre -- mi -- o __ _ _ Al -- pha es et O, __ Al -- pha __ _ es et O. __ _ _ _ _
+  In dul -- ci ju -- bi -- lo __ sin -- _ get und seid froh, __ _ _ _ un -- sers Her -- _ zens Won -- _ _ ne liegt in prae -- se -- pi -- o __ _ _ _ leuch -- tet als __ _ die Son -- _ _ ne ma -- tris in pre -- mi -- o __ _ _ Al -- pha es et O, __ _ Al -- _ pha es et O. __ _ _ _
 }
 
 tenorLyrics = \lyricmode {
-  In dul -- ci ju -- bi -- lo __ _ _ sin -- get und __ _ seid froh, __ _ _ _ un -- sers Her -- _ zens Won -- _ _ ne liegt in __ _ prae -- se -- pi -- o __ _ _ _ leuch -- tet als die Son -- _ _ ne ma -- tris __ _ in pre -- mi -- o __ _ _ Al -- _ pha es __ _ et O, __ _ _ Al -- pha __ _ es et __ _ O. __ _ _ _
+  In dul -- ci ju -- bi -- lo __ _ _ sin -- get und __ _ seid froh, __ _ _ _ un -- sers Her -- _ zens Won -- _ _ ne liegt in __ _ prae -- se -- pi -- o __ _ _ _ leuch -- tet als die Son -- _ _ ne ma -- tris __ _ in pre -- mi -- o __ _ _ Al -- _ pha es __ _ et O, __ _ _ _ Al -- _ pha es __ _ et O. __ _ _
 }
 
 bassLyrics = \lyricmode {
-  In dul -- _ ci ju -- _ bi -- lo __ _ _ _ sin -- _ get und __ _ seid froh, __ _ _ _ un -- sers Her -- zens Won -- _ ne liegt in __ _ prae -- se -- _ pi -- o __ _ _ _ leuch -- _ tet als __ _ die Son -- _ _ ne ma -- tris __ _ in pre -- _ mi -- o __ _ _ _ Al -- _ pha es __ _ et O, __ _ _ Al -- pha __ _ es et __ _ O. __ _ _ _
+  In dul -- _ ci ju -- _ bi -- lo __ _ _ _ sin -- _ get und __ _ seid froh, __ _ _ _ un -- sers Her -- zens Won -- _ ne liegt in __ _ prae -- se -- _ pi -- o __ _ _ _ leuch -- _ tet als __ _ die Son -- _ _ ne ma -- tris __ _ in pre -- _ mi -- o __ _ _ _ Al -- _ pha es __ _ et O, __ _ _ _ Al -- _ pha es __ _ et O. __ _ _
 }
