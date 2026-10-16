@@ -87,7 +87,7 @@ altoLyricsTwo = \lyricmode {
 tenorLyricsOne = \lyricmode {
   Al -- lein Gott in der Höh' sei Ehr'
   und Dank für sei -- ne Gna -- _ de,
-  Ein Wohl -- ge -- fall'n Gott an uns __ hat,
+  Ein Wohl -- ge -- fall'n Gott an uns hat,
   nun ist gross Fried' ohn' Un -- ter -- lass,
   all' Fehd' hat nun ein En -- _ de.
 }
