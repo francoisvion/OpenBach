@@ -1,4 +1,4 @@
-71 trait(s) « __ » seul(s) sur une note simple
+68 trait(s) « __ » seul(s) sur une note simple
 
 BWV_123_6	A	couplet One	mes. ≈7	und __ ich	38 (soprano 38)	trait en trop
 BWV_123_6	A	couplet One	mes. ≈15	ins __ Grab	86 (soprano 86)	trait en trop
@@ -8,13 +8,10 @@ BWV_123_6	B	couplet One	mes. ≈15	ins __ Grab	86 (soprano 86)	trait en trop
 BWV_123_6	A	couplet Two	mes. ≈7	und __ Mun	38 (soprano 38)	trait en trop
 BWV_123_6	T	couplet Two	mes. ≈7	und __ Mun	38 (soprano 38)	trait en trop
 BWV_123_6	B	couplet Two	mes. ≈7	und __ Mun	38 (soprano 38)	trait en trop
-BWV_124_6	T	couplet 1	mes. ≈2	ich __ nicht	5 (soprano 4)	décalé
 BWV_145_5	A	couplet 1	mes. ≈10	dich, __ Herr	29 (soprano 29)	trait en trop
 BWV_145_5	T	couplet 1	mes. ≈10	dich, __ Herr	28 (soprano 29)	décalé
 BWV_145_5	B	couplet 1	mes. ≈10	dich, __ Herr	29 (soprano 29)	trait en trop
 BWV_153_9	B	couplet One	mes. ≈2	weil __ ich	5 (soprano 5)	trait en trop
-BWV_167_5	S	couplet One	mes. ≈43	wir __ aus	127	
-BWV_167_5	B	couplet One	mes. ≈43	aus __ Her	129 (soprano 128)	décalé
 BWV_17_7	A	couplet Two	mes. ≈5	wir __ ihn	15 (soprano 15)	trait en trop
 BWV_187_7	T	couplet One	mes. ≈8	nicht; __ Berg	24 (soprano 24)	trait en trop
 BWV_187_7	T	couplet One	mes. ≈16	Gras; __ aus	48 (soprano 48)	trait en trop

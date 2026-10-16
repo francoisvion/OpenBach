@@ -1,0 +1,21 @@
+19 voix finissant avant la dernière note
+
+BWV_116_6	S	couplet One	mes. ≈9	1 note(s) finale(s) sans syllabe	dernier jeton « ten. »
+BWV_116_6	A	couplet One	mes. ≈9	1 note(s) finale(s) sans syllabe	dernier jeton « ten. »
+BWV_116_6	T	couplet One	mes. ≈9	1 note(s) finale(s) sans syllabe	dernier jeton « ten. »
+BWV_116_6	B	couplet One	mes. ≈9	1 note(s) finale(s) sans syllabe	dernier jeton « ten. »
+BWV_269	S	couplet One	mes. ≈20	2 note(s) finale(s) sans syllabe	dernier jeton « Sohn. »
+BWV_269	A	couplet One	mes. ≈20	2 note(s) finale(s) sans syllabe	dernier jeton « Sohn. »
+BWV_269	T	couplet One	mes. ≈20	2 note(s) finale(s) sans syllabe	dernier jeton « Sohn. »
+BWV_269	B	couplet One	mes. ≈20	3 note(s) finale(s) sans syllabe	dernier jeton « Sohn. »
+BWV_270	A	couplet One	mes. ≈12	1 note(s) finale(s) sans syllabe	dernier jeton « _ »
+BWV_270	T	couplet One	mes. ≈12	1 note(s) finale(s) sans syllabe	dernier jeton « _ »
+BWV_270	B	couplet One	mes. ≈12	1 note(s) finale(s) sans syllabe	dernier jeton « _ »
+BWV_271	A	couplet One	mes. ≈12	1 note(s) finale(s) sans syllabe	dernier jeton « _ »
+BWV_271	T	couplet One	mes. ≈12	1 note(s) finale(s) sans syllabe	dernier jeton « _ »
+BWV_271	B	couplet One	mes. ≈12	1 note(s) finale(s) sans syllabe	dernier jeton « _ »
+BWV_37_6	S	couplet 1	mes. ≈17	1 note(s) finale(s) sans syllabe	dernier jeton « Last. »
+BWV_52_6	S	couplet 1	mes. ≈12	5 note(s) finale(s) sans syllabe	dernier jeton « te! »
+BWV_52_6	A	couplet 1	mes. ≈12	5 note(s) finale(s) sans syllabe	dernier jeton « te! »
+BWV_52_6	T	couplet 1	mes. ≈14	1 note(s) finale(s) sans syllabe	dernier jeton « te! »
+BWV_52_6	B	couplet 1	mes. ≈12	5 note(s) finale(s) sans syllabe	dernier jeton « te! »

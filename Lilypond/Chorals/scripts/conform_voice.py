@@ -75,6 +75,9 @@ def tokenize_events(body):
             prof += {"{": 1, "}": -1}.get(body[k], 0); k += 1
         body = body[:m.start()] + " " + body[k:]
     body = body.replace("\\markup", " ")
+    # petites notes : durée nulle et pas de syllabe (includeGraceNotes vaut #f) ; lues comme
+    # des notes, elles décalaient toute la voix (BWV_177_5, 315 : « \appoggiatura c''8 »)
+    body = re.sub(r"\\(appoggiatura|acciaccatura|grace|slashedGrace)\s*(\{[^{}]*\}|\S+)", " ", body)
     # divisi << {A} \\ {B} >> : branches simultanées, seule la 1re (voix principale) compte pour
     # le temps. Lues à la suite, la fin du soprano de BWV_76_7_14 (m21) glissait de 3 temps.
     body = re.sub(r"\\\\\s*\{[^{}]*\}", " ", body)
