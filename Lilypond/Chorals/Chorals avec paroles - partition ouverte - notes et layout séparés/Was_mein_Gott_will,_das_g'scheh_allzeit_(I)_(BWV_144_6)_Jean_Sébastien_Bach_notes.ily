@@ -94,11 +94,11 @@ sopranoLyricsTwo = \lyricmode {\stanza "2."
 }
 
 tenorLyrics = \lyricmode {\repeat unfold 47 {\skip1}
-   \tweak X-offset #-6.0 "(T.) ver" -- la -- _ _ _ _ _ ßen.
+   \tweak X-offset #-6.0 "(T.) ver" -- las -- _ _ _ _ _ sen.
 }
 
 bassLyrics = \lyricmode {\repeat unfold 47 {\skip1}
-   \tweak X-offset #-6.0 "(B.) ver" -- la -- _ _ _ ßen.
+   \tweak X-offset #-6.0 "(B.) ver" -- las -- _ _ _ sen.
 }
 
 altoLyricsOne = \lyricmode {\stanza "1."
