@@ -217,7 +217,7 @@ tenorLyricsOne = \lyricmode {
   von Her -- _ zen auf ihn bau -- _ _ en,
   dass un -- ser Herz, Mut und Sinn
   ihm fes -- _ tig -- lich an -- han -- _ _ gen;
-  da -- rauf __ sin -- gen __ wir zur Stund:
+  da -- rauf sin -- gen wir zur Stund:
   A -- men, wir wer -- dens er -- _ lan -- gen, glaubn wir __ _ aus Her -- _ zens -- grund.
 }
 
