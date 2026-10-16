@@ -162,7 +162,7 @@ tenorLyricsOne = \lyricmode {
   Je -- su, mei -- _ ne Lust!
   E -- lend, Not, Kreuz, Schmach und Tod, Schmach und Tod
   soll mich, ob ich viel __ muss lei -- _ _ den,
-  nicht, nicht von Je -- su __ schei -- den, von Je -- su schei -- _ den.
+  nicht, nicht von Je -- su schei -- den, von Je -- su schei -- _ den.
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -176,7 +176,7 @@ bassLyricsOne = \lyricmode {
   \stanza "1."
   Weg, weg mit __ _ al -- len Schä -- tzen,
   du bist mein Er -- gö -- tzen,
-  Je -- su, __ mei -- ne Lust, mei -- ne Lust!
+  Je -- su, mei -- ne Lust, mei -- ne Lust!
   E -- lend, Not, Kreuz, Schmach und Tod
   soll mich, ob ich viel muss lei -- _ _ _ den,
   nicht, nicht, nicht, nicht von Je -- su schei -- _ den.
@@ -186,5 +186,5 @@ bassLyricsTwo = \lyricmode {
   \stanza "2."
   Weg, weg ihr __ _ eit -- len Eh -- ren,
   ich mag euch nicht __ hö -- ren,
-  bleibt mir __ un -- be -- wusst, un -- be -- wusst!
+  bleibt mir un -- be -- wusst, un -- be -- wusst!
 }
