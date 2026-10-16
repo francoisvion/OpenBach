@@ -123,7 +123,7 @@ tenorMusic = {
 
 bassMusic = {
   f,4 f d
-  c\fermata c' bes
+  c c' bes\fermata
   a g a
   bes a bes
   g2 c4
