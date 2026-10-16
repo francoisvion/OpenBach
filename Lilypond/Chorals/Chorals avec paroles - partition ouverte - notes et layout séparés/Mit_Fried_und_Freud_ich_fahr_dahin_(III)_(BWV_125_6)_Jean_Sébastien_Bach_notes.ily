@@ -58,7 +58,7 @@ bassMusic = {
   e8 [d] cis4 b,2\fermata
   g,4 c b, e8 [d]
   c [b,] c [d] g,4\fermata a,
-  b, c g8 fis e4
+  b, c g8 [fis] e4
   a,8 [c] b,4 e,\fermata \fine
 }
 
@@ -95,5 +95,5 @@ bassLyrics = \lyricmode {
   "zu er" -- leuch -- ten, die dich ken -- _ _ nen nicht,
   und zu wei -- _ den.
   Er ist deins Volks I -- sra -- el
-  der Preis, Ehr, Freud __ _ und Won -- _ ne.
+  der Preis, Ehr, Freud und Won -- _ ne.
 }
