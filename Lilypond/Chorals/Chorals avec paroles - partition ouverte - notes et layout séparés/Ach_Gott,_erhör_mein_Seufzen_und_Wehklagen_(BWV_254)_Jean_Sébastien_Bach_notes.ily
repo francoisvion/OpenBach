@@ -60,7 +60,7 @@ bassMusic = {
 
 sopranoLyrics = \lyricmode {
   Ach Gott, er --  hör' mein Seuf -- zen und Weh -- kla -- gen, 
-  lass mich in mei -- ner Noth nicht gar ver -- za -- gen,
+  lass mich in mei -- ner Not nicht gar ver -- za -- gen,
   du weißt mein'n Schmerz,
   er -- kennst mein Herz,
   hast du mir's auf -- ge -- legt, so hilf mir's tra -- gen!
@@ -68,7 +68,7 @@ sopranoLyrics = \lyricmode {
 
 altoLyrics = \lyricmode {
   Ach Gott, er -- hör' mein Seuf -- zen und Weh -- kla -- _ gen,
-  lass mich in mei -- ner Noth nicht gar ver -- _ za -- _ gen,
+  lass mich in mei -- ner Not nicht gar ver -- _ za -- _ gen,
   du weißt mein'n Schmerz,
   er -- kennst mein Herz,
   hast du mir's auf -- ge -- legt, so hilf mir's tra -- _ gen!
@@ -76,7 +76,7 @@ altoLyrics = \lyricmode {
 
 tenorLyrics = \lyricmode {
   Ach Gott, er -- hör' mein Seuf -- zen und Weh -- kla -- _ gen,
-  lass mich in mei -- ner Noth nicht gar ver -- za -- _ gen,
+  lass mich in mei -- ner Not nicht gar ver -- za -- _ gen,
   du weißt mein'n Schmerz,
   er -- kennst mein Herz,
   hast du mir's auf -- ge -- legt, so hilf mir's tra -- _ gen!
@@ -84,7 +84,7 @@ tenorLyrics = \lyricmode {
 
 bassLyrics = \lyricmode {
   Ach Gott, er -- hör' mein Seuf -- zen und Weh -- kla -- _ gen,
-  lass mich in mei -- ner Noth nicht gar ver -- za -- _ gen,
+  lass mich in mei -- ner Not nicht gar ver -- za -- _ gen,
   du weißt mein'n Schmerz,
   er -- kennst mein Herz,
   hast du mir's auf -- ge -- legt, so hilf mir's tra -- _ gen!
