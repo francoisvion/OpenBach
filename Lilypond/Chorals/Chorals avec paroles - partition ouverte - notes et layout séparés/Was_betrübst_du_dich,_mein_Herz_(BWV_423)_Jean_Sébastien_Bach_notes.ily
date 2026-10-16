@@ -77,8 +77,8 @@ bassMusic = {
 sopranoLyrics = \lyricmode {
   Was be -- trübst du dich, mein Her -- ze,
   wa -- rum grämst du dich in mir?
-  Sa -- ge, was für Noth dich Schmer -- ze,
-  wa -- rum ist kein Muth in dir?
+  Sa -- ge, was für Not dich Schmer -- ze,
+  wa -- rum ist kein Mut in dir?
   Was für Un -- glück hat dich trof -- fen
   und wo bleibt dein freu -- dig Hof -- fen?
   Wo ist dei -- ne Zu -- ver -- sicht,
@@ -88,8 +88,8 @@ sopranoLyrics = \lyricmode {
 altoLyrics = \lyricmode {
   Was be -- trübst du dich, mein Her -- ze,
   wa -- rum grämst du dich in mir?
-  Sa -- ge, was für Noth dich Schmer -- ze,
-  wa -- rum ist kein Muth in dir?
+  Sa -- ge, was für Not dich Schmer -- ze,
+  wa -- rum ist kein Mut in dir?
   Was für Un -- glück hat dich trof -- fen
   und wo bleibt dein freu -- dig Hof -- fen?
   Wo ist dei -- ne Zu -- ver -- sicht,
@@ -99,8 +99,8 @@ altoLyrics = \lyricmode {
 tenorLyrics = \lyricmode {
   Was be -- trübst du dich, mein Her -- ze,
   wa -- rum grämst du dich in mir?
-  Sa -- ge, was für Noth dich Schmer -- ze,
-  wa -- rum ist kein Muth __ _ in dir?
+  Sa -- ge, was für Not dich Schmer -- ze,
+  wa -- rum ist kein Mut __ _ in dir?
   Was für Un -- glück hat dich trof -- fen
   und wo bleibt dein freu -- dig Hof -- fen?
   Wo ist dei -- ne Zu -- ver -- sicht,
@@ -110,8 +110,8 @@ tenorLyrics = \lyricmode {
 bassLyrics = \lyricmode {
   Was be -- trübst du dich, mein Her -- ze,
   wa -- rum grämst du dich in mir?
-  Sa -- ge, was für Noth dich Schmer -- ze,
-  wa -- rum ist kein Muth in dir?
+  Sa -- ge, was für Not dich Schmer -- ze,
+  wa -- rum ist kein Mut in dir?
   Was für Un -- glück hat dich trof -- fen
   und wo bleibt dein freu -- dig Hof -- fen?
   Wo ist dei -- ne Zu -- ver -- sicht,
