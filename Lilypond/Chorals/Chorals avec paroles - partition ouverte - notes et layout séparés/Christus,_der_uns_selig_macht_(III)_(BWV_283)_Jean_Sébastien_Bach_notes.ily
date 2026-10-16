@@ -86,7 +86,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Chris -- tus, der uns se -- lig macht, __ _ kein Bös's hat be -- gan -- gen, der ward für uns in der Nacht als ein Dieb ge -- fan -- gen, ge -- führt vor gott -- lo -- se Leut', und fälsch -- _ lich __ ver -- kla -- _ _ _ get, ver -- lacht, ver -- höhnt und ver -- speit, wie denn __ die Schrift sa -- _ get. __ _
+  Chris -- tus, der uns se -- lig macht, __ _ kein Bös's hat be -- gan -- gen, der ward für uns in der Nacht als ein Dieb ge -- fan -- gen, ge -- führt vor gott -- lo -- se Leut', und fälsch -- _ lich ver -- kla -- _ _ _ get, ver -- lacht, ver -- höhnt und ver -- speit, wie denn die Schrift sa -- _ get. __ _
 }
 
 bassLyrics = \lyricmode {
