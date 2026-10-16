@@ -76,7 +76,7 @@ bassMusic = {
 
 sopranoLyrics = \lyricmode {
   Welt -- lich Ehr' und zeit -- _ lich __ _ Gut,
-  Wol -- lust und al -- ler Ü -- _ ber -- muth
+  Wol -- lust und al -- ler Ü -- _ ber -- mut
   ist e -- ben wie ein Gras;
   al -- le Pracht und stol -- zer Ruhm
   ver -- fällt wie ein' Wie -- sen -- blum;
@@ -86,7 +86,7 @@ sopranoLyrics = \lyricmode {
 
 altoLyrics = \lyricmode {
   Welt -- lich Ehr' und zeit -- _ lich __ _ Gut, __ _
-  Wol -- lust und al -- ler Ü -- _ ber -- muth
+  Wol -- lust und al -- ler Ü -- _ ber -- mut
   ist e -- ben __ _ wie ein Gras;
   al -- le Pracht und stol -- zer __ _ Ruhm
   ver -- fällt wie ein' Wie -- sen -- blum;
@@ -96,7 +96,7 @@ altoLyrics = \lyricmode {
 
 tenorLyrics = \lyricmode {
   Welt -- lich Ehr' und zeit -- _ lich __ _ Gut,
-  Wol -- lust und al -- ler Ü -- _ ber -- _ muth
+  Wol -- lust und al -- ler Ü -- _ ber -- _ mut
   ist e -- ben wie ein Gras;
   al -- le Pracht und stol -- zer Ruhm
   ver -- fällt wie ein' Wie -- sen -- blum;
@@ -106,7 +106,7 @@ tenorLyrics = \lyricmode {
 
 bassLyrics = \lyricmode {
   Welt -- lich Ehr' und zeit -- _ lich __ _ Gut,
-  Wol -- lust und al -- ler Ü -- _ ber -- _ muth
+  Wol -- lust und al -- ler Ü -- _ ber -- _ mut
   ist e -- ben wie ein Gras;
   al -- le Pracht und stol -- zer Ruhm
   ver -- fällt wie ein' Wie -- sen -- blum;
