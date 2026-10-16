@@ -115,7 +115,7 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Eins ist noth, ach Herr, dies Ei -- ne
+  Eins ist not, ach Herr, dies Ei -- ne
   leh -- re mich er -- ken -- nen doch:
   al -- les An -- dre, wie's auch schei -- ne,
   ist ja nur ein schwe -- res Joch,
@@ -124,7 +124,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Eins ist noth, ach Herr, dies Ei -- ne
+  Eins ist not, ach Herr, dies Ei -- ne
   leh -- re mich er -- ken -- nen doch:
   al -- les An -- dre, wie's auch schei -- ne,
   ist ja nur ein schwe -- res Joch,
@@ -133,7 +133,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Eins ist noth, ach Herr, dies Ei -- ne
+  Eins ist not, ach Herr, dies Ei -- ne
   leh -- re mich er -- ken -- nen doch:
   al -- les An -- dre, __ wie's auch schei -- ne,
   ist ja nur ein schwe -- res Joch,
@@ -142,7 +142,7 @@ tenorLyrics = \lyricmode {
 }
 
 bassLyrics = \lyricmode {
-  Eins ist noth, ach Herr, dies Ei -- ne
+  Eins ist not, ach Herr, dies Ei -- ne
   leh -- re mich er -- ken -- nen doch:
   al -- les An -- dre, wie's auch schei -- ne,
   ist ja nur ein schwe -- res Joch,
