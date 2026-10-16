@@ -132,7 +132,7 @@ sopranoLyrics = \lyricmode {
   er -- füll mit dei -- ner Gna -- den Gut
   dei -- ner Gläu -- bi -- gen Herz, Mut __ _ und Sinn.
   Dein brün -- stig Lieb __ _ ent -- zünd in ihn'n.
-  O __ Herr, durch dei -- nes Lich -- tes Glanz
+  O Herr, durch dei -- nes Lich -- tes Glanz
   zu dem Glau -- ben ver -- sam -- melt hast
   das Volk aus al -- _ ler Welt __ _ Zun -- gen;
   das sei dir, Herr, __ _ zu Lob ge -- sun -- _ gen.
