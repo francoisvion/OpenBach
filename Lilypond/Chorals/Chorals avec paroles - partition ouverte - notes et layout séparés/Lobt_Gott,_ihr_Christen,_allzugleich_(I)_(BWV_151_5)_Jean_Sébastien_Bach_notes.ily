@@ -20,7 +20,7 @@ altoMusic = {
   fis'2\fermata r4 a'
   g' fis' g' g'
   g' a'8 [g'] fis'4\fermata fis'
-  g'8 a'4 g' e'8 fis'4
+  g'8 [a'] a' [g'] g' [e'] fis'4
   g'2 fis'4\fermata g'
   g' g' g' fis'
   d'2.\fermata \fine
@@ -66,7 +66,7 @@ altoLyrics = \lyricmode {
   Heut schleußt er wie -- der auf die Tür
   zum schö -- nen Pa -- ra -- deis,
   der Che -- rub steht nicht mehr da -- für,
-  Gott sei Lob, Ehr und Preis, __ _ _
+  Gott sei Lob, Ehr und Preis, __ _
   Gott sei Lob, Ehr und Preis.
 }
 
