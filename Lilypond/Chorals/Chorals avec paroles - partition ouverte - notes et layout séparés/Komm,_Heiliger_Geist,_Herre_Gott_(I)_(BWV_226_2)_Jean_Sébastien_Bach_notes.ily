@@ -124,5 +124,5 @@ tenorLyrics = \lyricmode {
 }
 
 bassLyrics = \lyricmode {
-  Du hei -- _ li -- ge __ Brunst, sü -- ßer Trost, nun hilf uns, fröh -- lich und ge -- trost in dei -- nem Dienst be -- _ stän -- dig __ blei -- ben, die Trüb -- sal uns nicht __ _ ab -- trei -- _ ben, O Herr, durch dein Kraft uns be -- reit und stärk des Flei -- sches Blö -- dig -- keit, dass wir hier rit -- ter -- _ lich rin -- _ gen, durch Tod und Le -- ben __ _ zu dir __ _ drin -- _ gen, Al -- le -- _ lu -- ia! Al -- le -- _ _ lu -- ia!
+  Du hei -- _ li -- ge Brunst, sü -- ßer Trost, nun hilf uns, fröh -- lich und ge -- trost in dei -- nem Dienst be -- _ stän -- dig blei -- ben, die Trüb -- sal uns nicht __ _ ab -- trei -- _ ben, O Herr, durch dein Kraft uns be -- reit und stärk des Flei -- sches Blö -- dig -- keit, dass wir hier rit -- ter -- _ lich rin -- _ gen, durch Tod und Le -- ben __ _ zu dir __ _ drin -- _ gen, Al -- le -- _ lu -- ia! Al -- le -- _ _ lu -- ia!
 }
