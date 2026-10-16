@@ -72,7 +72,7 @@ sopranoLyricsOne = \lyricmode {
   die Ge -- mei -- ne soll ihn lo -- ben,
   Is -- ra -- el er -- freu' sich des -- sen,
   wel -- cher ihn ge -- ma -- chet hat.
-  und in Aeng -- sten schaf -- fet Rath:
+  und in Aeng -- sten schaf -- fet Rat:
   Sei -- ner soll er nicht ver -- ges -- sen.
 }
 
@@ -88,7 +88,7 @@ altoLyricsOne = \lyricmode {
   die Ge -- mei -- ne soll ihn lo -- _ ben,
   Is -- ra -- el er -- freu' sich des -- _ sen,
   wel -- cher ihn ge -- ma -- chet hat.
-  und in Aeng -- sten __ _ schaf -- fet Rath:
+  und in Aeng -- sten __ _ schaf -- fet Rat:
   Sei -- ner soll er nicht ver -- ges -- _ sen.
 }
 
@@ -104,7 +104,7 @@ tenorLyricsOne = \lyricmode {
   die Ge -- mei -- ne soll ihn lo -- _ ben,
   Is -- ra -- el er -- freu' sich des -- _ sen,
   wel -- cher ihn ge -- ma -- chet hat. __ _
-  und in Aeng -- sten schaf -- fet Rath:
+  und in Aeng -- sten schaf -- fet Rat:
   Sei -- ner soll er nicht ver -- ges -- _ sen.
 }
 
@@ -120,7 +120,7 @@ bassLyricsOne = \lyricmode {
   die Ge -- mei -- ne soll ihn lo -- _ ben,
   Is -- ra -- el er -- freu' sich des -- _ sen,
   wel -- cher ihn ge -- ma -- chet hat.
-  und in Aeng -- sten schaf -- fet Rath:
+  und in Aeng -- sten schaf -- fet Rat:
   Sei -- ner soll er __ _ nicht ver -- ges -- _ sen.
 }
 
