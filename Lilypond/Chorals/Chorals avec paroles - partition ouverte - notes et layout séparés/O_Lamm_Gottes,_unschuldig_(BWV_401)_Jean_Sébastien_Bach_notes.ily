@@ -83,7 +83,7 @@ altoLyricsOne = \lyricmode {
   am Stamm des Kreuz ge -- schlach -- _ tet,
   all Sünd' hast du ge -- tra -- _ _ gen,
   sonst müss -- ten wir ver -- za -- _ gen.
-  Er -- barm' dich un -- ser, __ o __ _ Je -- su!
+  Er -- barm' dich un -- ser, o __ _ Je -- su!
 }
 
 altoLyricsTwo = \lyricmode {
