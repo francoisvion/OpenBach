@@ -16,7 +16,7 @@ sopranoMusic = {
 
 altoMusic = {
   gis'4 gis'~gis'8 fis'16 [e'] a'4~
-  a'8 gis'16 [fis'] b'8 a' gis'2\fermata
+  a'8 gis'16 [fis'] b'8 [a'] gis'2\fermata
   b'4 ais'8 [b'] cis'' [ais'] fis' [gis']
   ais'4 b' b' ais'
   fis'2\fermata gis'8 [a'] b'4
@@ -32,7 +32,7 @@ altoMusic = {
 
 tenorMusic = {
   e'4 e'~e'8 dis'16 [cis'] fis'4~
-  fis'8 dis' b b b2\fermata
+  fis'8 dis' b [b] b2\fermata
   fis'4 e'8 [dis'] cis'4 dis'8 [e']
   fis'4 fis' gis' fis'8 [e']
   dis'2\fermata e'4 e'
@@ -72,7 +72,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Je -- sum lass' ich nicht von __ _ mir,
+  Je -- sum lass' ich nicht von mir,
   Geh' ihm e -- wig an der Sei -- _ ten;
   Chris -- tus lässt mich für und für
   Zu dem Le -- bens -- bäch -- lein lei -- _ ten.
@@ -81,7 +81,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Je -- sum lass' ich nicht von __ _ mir,
+  Je -- sum lass' ich nicht von mir,
   Geh' ihm e -- wig an der Sei -- _ ten;
   Chris -- tus lässt mich für __ _ und für
   Zu dem Le -- bens -- bäch -- lein lei -- _ ten.
