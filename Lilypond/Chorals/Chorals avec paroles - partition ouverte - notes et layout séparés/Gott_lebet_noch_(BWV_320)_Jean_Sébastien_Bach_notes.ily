@@ -8,7 +8,7 @@ sopranoMusic = {
   a'2 bes'4
   c'' bes' a'
   g'2 a'4
-  bes' a' g'
+  bes' a' g'\fermata
   f'2 g'4
   a'2 g'4
   a'2 b'4
@@ -16,7 +16,7 @@ sopranoMusic = {
   e''2 f''4
   d''2 f''4
   e''2 d''4
-  cis''2 a'4
+  cis''2 a'4\fermata
   d''2 a'4
   bes' a' g'
   f'2 e'8 [f']
@@ -24,7 +24,7 @@ sopranoMusic = {
   fis'2 fis'4
   g' fis' g'
   a' bes' c''
-  bes' a'8 [bes'] g'4
+  bes' a'8 [bes'] g'4\fermata
   c''2 c''4
   c'' d'' e''
   f'' e'' d''
@@ -32,7 +32,7 @@ sopranoMusic = {
   f'' c'' a'
   d''2 c''4
   bes' c'' a'
-  g'2.
+  g'2.\fermata
   c''4 a' f'
   d'' e'' f''
   a'2 g'8 [f']
@@ -49,7 +49,7 @@ altoMusic = {
   f'2 f'4
   f'8 [d'] e'4 f'
   e'2 fis'4
-  g' f' e'
+  g' f' e'\fermata
   f'8 [e'] d'4 e'
   f'2 g'4
   f'2 f'4
@@ -57,7 +57,7 @@ altoMusic = {
   c''2 c''4
   bes' f' bes'
   bes'2 bes'4
-  a'2 e'4
+  a'2 e'4\fermata
   a'4. g'8 f' [e']
   d'4. cis'8 d'4
   d'2 cis'4
@@ -65,7 +65,7 @@ altoMusic = {
   c'4 a d'
   d' c' bes
   d'2 d'4
-  d' c' bes
+  d' c' bes\fermata
   g' e' f'
   g' f' e'
   d' e'8 [f'] g'4
@@ -73,7 +73,7 @@ altoMusic = {
   f'2 f'4
   f'2 f'4
   g'2 f'4
-  f' e'2
+  f' e'2\fermata
   f' f'4
   f' g' a'
   f'2 e'4
@@ -90,7 +90,7 @@ tenorMusic = {
   d'2 d'4
   c'2 c'4
   c'2 c'4
-  d' c' c'
+  d' c' c'\fermata
   c' bes8 [a] bes4
   c'2 c'4
   c'2 d'4
@@ -98,7 +98,7 @@ tenorMusic = {
   g'2 f'4
   f'8 [e'] d' [cis'] d'4
   g'2 f'4
-  e'2 cis'4
+  e'2 cis'4\fermata
   d'2 c'4
   bes f'8 [e'] d' [e']
   f'4 d' a
@@ -106,7 +106,7 @@ tenorMusic = {
   a2 a4
   bes c' d'
   a g fis
-  g fis g
+  g fis g\fermata
   g2 a4
   c' b c'
   c'2 b4
@@ -114,7 +114,7 @@ tenorMusic = {
   c'2 c'4
   bes2 c'4
   d' c' c'
-  c'2.
+  c'2.\fermata
   c'2 c'4
   bes bes c'
   c' d'8 [c'] bes [c']
@@ -123,7 +123,7 @@ tenorMusic = {
 
 bassMusic = {
   f,4 f d
-  c c' bes\fermata
+  c c' bes
   a g a
   bes a bes
   g2 c4
@@ -131,7 +131,7 @@ bassMusic = {
   d c bes,
   a, g, f,
   c bes, a,
-  g, a, bes,
+  g, a, bes,\fermata
   a, bes, g,
   f, f e
   f e d
@@ -139,7 +139,7 @@ bassMusic = {
   c'4 bes a
   bes bes, a
   g f g
-  a a, g
+  a a, g\fermata
   f e d
   g a bes
   a g a
@@ -147,7 +147,7 @@ bassMusic = {
   a,4 d c
   bes, a, g,
   fis e d
-  g d g,
+  g d g,\fermata
   e c f
   e d c
   d g g,
@@ -163,17 +163,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Gott leb -- et noch; See -- _ le, was __ _ ver -- zagst __ _ du doch? Gott ist gut, __ _ der aus Er -- bar -- _ men al -- le Hülf' auf Er -- den thut, der mit Kraft und Star -- ken Ar -- men ma -- chet Al -- _ les wohl und gut. Gott kann bes -- _ ser als __ _ wir den -- _ ken al -- le Noth __ _ zum be -- _ sten len -- ken. See -- _ le, so be -- den -- _ ke doch: lebt __ _ doch un -- _ ser Herr Gott noch.
+  Gott leb -- et noch; See -- _ le, was __ _ ver -- zagst __ _ du doch? Gott ist gut, __ _ der aus Er -- bar -- _ men al -- le Hülf' auf Er -- den tut, der mit Kraft und Star -- ken Ar -- men ma -- chet Al -- _ les wohl und gut. Gott kann bes -- _ ser als __ _ wir den -- _ ken al -- le Noth __ _ zum be -- _ sten len -- ken. See -- _ le, so be -- den -- _ ke doch: lebt __ _ doch un -- _ ser Herr Gott noch.
 }
 
 altoLyrics = \lyricmode {
-  Gott leb -- et noch; See -- _ le, was ver -- zagst du doch? Gott ist gut, __ _ der aus Er -- bar -- _ men al -- _ le Hülf' auf Er -- den thut, der mit Kraft __ _ und Star -- ken Ar -- men ma -- _ chet Al -- _ les wohl und gut. Gott __ _ kann bes -- _ ser als wir den -- _ ken al -- _ le Noth __ _ zum be -- _ sten len -- ken. See -- le, so be -- den -- ke doch: __ _ lebt __ doch un -- _ ser Herr Gott noch.
+  Gott leb -- et noch; See -- _ le, was ver -- zagst du doch? Gott ist gut, __ _ der aus Er -- bar -- _ men al -- _ le Hülf' auf Er -- den tut, der mit Kraft __ _ und Star -- ken Ar -- men ma -- _ chet Al -- _ les wohl und gut. Gott __ _ kann bes -- _ ser als wir den -- _ ken al -- _ le Noth __ _ zum be -- _ sten len -- ken. See -- le, so be -- den -- ke doch: __ _ lebt __ doch un -- _ ser Herr Gott noch.
 }
 
 tenorLyrics = \lyricmode {
-  Gott leb -- et noch; See -- _ le, was __ _ ver -- zagst __ _ du doch? Gott ist gut, der aus Er -- bar -- _ men al -- _ le Hülf' auf Er -- den thut, der mit Kraft __ _ und Star -- ken Ar -- men ma -- chet Al -- _ les wohl __ _ und gut. Gott kann bes -- _ ser als __ _ wir den -- _ ken al -- le Noth __ _ zum be -- sten len -- ken. See -- le, so be -- den -- _ ke doch: lebt __ doch un -- _ ser Herr __ _ Gott noch.
+  Gott leb -- et noch; See -- _ le, was __ _ ver -- zagst __ _ du doch? Gott ist gut, der aus Er -- bar -- _ men al -- _ le Hülf' auf Er -- den tut, der mit Kraft __ _ und Star -- ken Ar -- men ma -- chet Al -- _ les wohl __ _ und gut. Gott kann bes -- _ ser als __ _ wir den -- _ ken al -- le Noth __ _ zum be -- sten len -- ken. See -- le, so be -- den -- _ ke doch: lebt __ doch un -- _ ser Herr __ _ Gott noch.
 }
 
 bassLyrics = \lyricmode {
-  Gott leb -- et noch; __ _ _ See -- _ le, was __ _ ver -- zagst du doch? __ _ Gott __ _ ist gut, __ _ der aus __ _ Er -- bar -- _ men al -- _ le Hülf' __ _ auf Er -- _ den thut, der __ _ mit Kraft __ _ und Star -- _ ken Ar -- _ men ma -- _ chet Al -- _ les wohl __ _ und gut. Gott __ _ kann bes -- _ ser als __ _ wir den -- _ ken al -- _ le Noth __ _ zum be -- _ sten len -- ken. See -- le, so __ _ be -- den -- _ ke doch: __ _ _ lebt __ _ doch un -- _ ser Herr Gott noch.
+  Gott leb -- et noch; __ _ _ See -- _ le, was __ _ ver -- zagst du doch? __ _ Gott __ _ ist gut, __ _ der aus __ _ Er -- bar -- _ men al -- _ le Hülf' __ _ auf Er -- _ den tut, der __ _ mit Kraft __ _ und Star -- _ ken Ar -- _ men ma -- _ chet Al -- _ les wohl __ _ und gut. Gott __ _ kann bes -- _ ser als __ _ wir den -- _ ken al -- _ le Noth __ _ zum be -- _ sten len -- ken. See -- le, so __ _ be -- den -- _ ke doch: __ _ _ lebt __ _ doch un -- _ ser Herr Gott noch.
 }
