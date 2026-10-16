@@ -69,7 +69,7 @@ bassMusic = {
 sopranoLyricsOne = \lyricmode {
   \stanza "1."
   Lo -- bet Gott, un -- sern Her -- ren,
-  in sei -- nem Hei -- lig -- thum,  
+  in sei -- nem Hei -- lig -- tum,  
   Lobt Ihn im Fir -- ma -- men -- te,
   da sei -- ne groß' Ge -- walt
   und sein stark Re -- gi -- men -- te
@@ -85,7 +85,7 @@ sopranoLyricsTwo = \lyricmode {
 altoLyricsOne = \lyricmode {
   \stanza "1."
   Lo -- bet Gott, un -- sern Her -- ren,
-  in sei -- nem Hei -- lig -- thum,
+  in sei -- nem Hei -- lig -- tum,
   Lobt Ihn im Fir -- ma -- men -- _ te,
   da sei -- ne groß' Ge -- walt
   und sein stark Re -- gi -- men -- _ te
@@ -101,7 +101,7 @@ altoLyricsTwo = \lyricmode {
 tenorLyricsOne = \lyricmode {
   \stanza "1."
   Lo -- bet Gott, un -- sern Her -- ren,
-  in sei -- nem Hei -- lig -- thum,
+  in sei -- nem Hei -- lig -- tum,
   Lobt Ihn im Fir -- ma -- men -- te,
   da sei -- ne groß' Ge -- walt
   und sein stark Re -- gi -- men -- te
@@ -117,7 +117,7 @@ tenorLyricsTwo = \lyricmode {
 bassLyricsOne = \lyricmode {
   \stanza "1."
   Lo -- bet Gott, un -- sern Her -- ren,
-  in sei -- nem Hei -- lig -- thum,
+  in sei -- nem Hei -- lig -- tum,
   Lobt Ihn im Fir -- ma -- men -- _ te,
   da sei -- ne groß' Ge -- walt
   und sein stark Re -- gi -- men -- _ te
