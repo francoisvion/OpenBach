@@ -58,7 +58,7 @@ sopranoLyrics = \lyricmode {
   Als der gü -- ti -- ge Gott,
   vol -- len -- den wollt' sein Wort,
   sandt er ein En -- gel schnell,
-  des Na -- me Ga -- bri __ el, __ _
+  des Na -- me Ga -- bri el, __ _
   in's ga -- li -- lä -- isch Land.
 }
 
@@ -74,7 +74,7 @@ tenorLyrics = \lyricmode {
   Als der gü -- ti -- ge Gott,
   vol -- len -- den wollt' sein Wort,
   sandt er ein En -- gel schnell,
-  des Na -- me Ga -- bri __ el, __ _ _
+  des Na -- me Ga -- bri el, __ _ _
   in's ga -- li -- lä -- isch Land.
 }
 
@@ -82,6 +82,6 @@ bassLyrics = \lyricmode {
   Als der gü -- ti -- ge Gott,
   vol -- len -- den wollt' sein Wort,
   sandt er ein En -- gel schnell,
-  des Na -- me Ga -- bri __ el, __ _
+  des Na -- me Ga -- bri el, __ _
   in's ga -- li -- lä -- isch Land.
 }
