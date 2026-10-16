@@ -75,6 +75,9 @@ def tokenize_events(body):
             prof += {"{": 1, "}": -1}.get(body[k], 0); k += 1
         body = body[:m.start()] + " " + body[k:]
     body = body.replace("\\markup", " ")
+    # divisi << {A} \\ {B} >> : branches simultanées, seule la 1re (voix principale) compte pour
+    # le temps. Lues à la suite, la fin du soprano de BWV_76_7_14 (m21) glissait de 3 temps.
+    body = re.sub(r"\\\\\s*\{[^{}]*\}", " ", body)
     # accolades collées (« d4\fermata }r » en BWV_36_4 basse) : le silence était perdu
     spaced = body.replace("{", " { ").replace("}", " } ")
     spaced = spaced.replace("[", " [ ").replace("]", " ] ").replace("|", " ").replace("~", "~ ")

@@ -31,7 +31,9 @@ def debuts(t, nomv, suf):
     """([(syllabe nettoyée, instant en noires)], instants des notes de la voix) d'un couplet, ou None."""
     ly = extract_var(t, f"{nomv}Lyrics{suf}")
     mus = extract_var(t, f"{nomv}Music")
-    if ly is None or mus is None:
+    # couplet qui passe sur une autre voix (\set associatedVoice, divisi de BWV_76_7_14) :
+    # ses syllabes ne suivent plus les notes de la voix principale, instants non calculables
+    if ly is None or mus is None or "associatedVoice" in ly:
         return None
     sl = slots(mus)
     return [(clean(txt), s["on"] * 4) for s, (_, txt, hold) in zip(sl, syllables(ly)[0]) if not hold], \
