@@ -72,9 +72,9 @@ bassMusic = {
 
 sopranoLyricsOne = \lyricmode {
   \stanza "1."
-  Ich ruf zu dir, Herr Je -- su __ Christ,
+  Ich ruf zu dir, Herr Je -- su Christ,
   ich bitt, er -- hör mein Kla -- gen,
-  den rech -- ten Glau -- ben, Herr, __ ich mein,
+  den rech -- ten Glau -- ben, Herr, ich mein,
   den wol -- lest du mir ge -- ben,
   dir zu le -- ben,
   meinm Näch -- sten nütz zu sein, dein Wort zu hal -- ten e -- _ ben.
@@ -82,7 +82,7 @@ sopranoLyricsOne = \lyricmode {
 
 sopranoLyricsTwo = \lyricmode {
   \stanza "2."
-  ver -- leih mir Gnad zu die -- ser __ Frist,
+  ver -- leih mir Gnad zu die -- ser Frist,
   lass mich doch nicht ver -- za -- gen;
 }
 
@@ -90,7 +90,7 @@ altoLyricsOne = \lyricmode {
   \stanza "1."
   Ich ruf zu dir, Herr Je -- su Christ,
   ich bitt, er -- hör mein Kla -- gen,
-  den rech -- ten Glau -- ben, Herr, __ ich mein,
+  den rech -- ten Glau -- ben, Herr, ich mein,
   den wol -- lest du mir ge -- ben,
   dir zu le -- _ ben,
   meinm Näch -- sten nütz zu sein, dein Wort zu hal -- ten e -- _ ben.
