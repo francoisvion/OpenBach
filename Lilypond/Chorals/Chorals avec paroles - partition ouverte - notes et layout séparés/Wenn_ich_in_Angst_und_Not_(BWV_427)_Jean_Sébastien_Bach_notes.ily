@@ -71,7 +71,7 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Wenn ich in Angst und Noth
+  Wenn ich in Angst und Not
   mein' Au -- gen heb' em -- por
   zu dei -- nen Ber -- gen, Herr!
   mit Seuf -- zen und mit Fle -- hen,
@@ -80,7 +80,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Wenn ich in Angst und Noth
+  Wenn ich in Angst und Not
   mein' Au -- gen heb' em -- por
   zu dei -- nen Ber -- gen, Herr!
   mit Seuf -- zen und mit Fle -- _ hen,
@@ -89,7 +89,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Wenn ich in Angst und Noth
+  Wenn ich in Angst und Not
   mein' Au -- gen heb' em -- por
   zu dei -- nen Ber -- gen, __ _ Herr!
   mit Seuf -- zen und mit Fle -- _ hen,
@@ -98,7 +98,7 @@ tenorLyrics = \lyricmode {
 }
 
 bassLyrics = \lyricmode {
-  Wenn ich in Angst und Noth
+  Wenn ich in Angst und Not
   mein' Au -- gen heb' em -- por
   zu dei -- nen Ber -- gen, Herr!
   mit Seuf -- zen und mit Fle -- _ hen,
