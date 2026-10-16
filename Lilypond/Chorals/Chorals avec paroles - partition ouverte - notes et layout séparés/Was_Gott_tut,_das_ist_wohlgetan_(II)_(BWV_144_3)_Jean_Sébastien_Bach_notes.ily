@@ -60,10 +60,10 @@ bassMusic = {
 
 sopranoLyricsOne = \lyricmode {
   \stanza "1."
-  Was Gott thut, das ist wohl -- ge -- tan,
+  Was Gott tut, das ist wohl -- ge -- tan,
   es bleibt ge -- recht sein Wil -- le
   Er ist mein Gott,
-  der in der Noth
+  der in der Not
   mich wohl weiß zu er -- hal -- ten:
   drum lass' ich ihn nur wal -- ten.
 }
@@ -76,10 +76,10 @@ sopranoLyricsTwo = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \stanza "1."
-  Was Gott thut, das ist wohl -- ge -- tan,
+  Was Gott tut, das ist wohl -- ge -- tan,
   es bleibt ge -- recht sein Wil -- _ le
   Er ist mein Gott,
-  der in der Noth
+  der in der Not
   mich wohl weiß zu er -- hal -- _ ten:
   drum lass' ich ihn nur wal -- _ ten.
 }
@@ -92,10 +92,10 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
-  Was Gott thut, das ist wohl -- ge -- tan,
+  Was Gott tut, das ist wohl -- ge -- tan,
   es bleibt ge -- recht sein Wil -- _ le
   Er ist mein Gott,
-  der in der Noth
+  der in der Not
   mich wohl weiß zu er -- hal -- _ ten:
   drum lass' ich ihn nur wal -- _ ten.
 }
@@ -108,10 +108,10 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
-  Was Gott thut, das ist wohl -- ge -- tan,
+  Was Gott tut, das ist wohl -- ge -- tan,
   es bleibt ge -- recht sein Wil -- _ le
   Er ist mein Gott,
-  der in der Noth
+  der in der Not
   mich wohl weiß zu er -- hal -- _ ten:
   drum lass' ich ihn nur wal -- ten.
 }
