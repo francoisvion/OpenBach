@@ -71,5 +71,5 @@ bassLyrics = \lyricmode {
   Schaut hin, dort liegt im fin -- stern Stall,
   des Herr -- schaft ge -- het ü -- ber -- all!
   Da Spei -- se vor -- mals sucht ein Rind,
-  Da ru -- het __ jetzt der Jung -- frau's Kind.
+  Da ru -- het jetzt der Jung -- frau's Kind.
 }
