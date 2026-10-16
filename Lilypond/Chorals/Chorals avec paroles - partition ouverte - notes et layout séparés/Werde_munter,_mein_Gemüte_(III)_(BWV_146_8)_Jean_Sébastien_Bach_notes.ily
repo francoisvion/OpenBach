@@ -69,7 +69,7 @@ bassMusic = {
 sopranoLyricsOne = \lyricmode {
   \stanza "1."
   Freu dich sehr, o mei -- ne See -- le,
-  und ver -- giß all Not und Qual,
+  und ver -- giss all Not und Qual,
   Aus Trüb -- sal und gro -- ßem Leid
   sollst du fah -- ren in die Freud,
   die kein Oh -- re hat ge -- hö -- ret
@@ -85,7 +85,7 @@ sopranoLyricsTwo = \lyricmode {
 altoLyricsOne = \lyricmode {
   \stanza "1."
   Freu dich sehr, o mei -- ne See -- le,
-  und ver -- giß all Not und Qual,
+  und ver -- giss all Not und Qual,
   Aus Trüb -- sal und gro -- ßem Leid
   sollst du fah -- ren in die Freud,
   die kein Oh -- re hat ge -- hö -- ret
@@ -101,7 +101,7 @@ altoLyricsTwo = \lyricmode {
 tenorLyricsOne = \lyricmode {
   \stanza "1."
   Freu dich sehr, o mei -- ne See -- le,
-  und ver -- giß all Not und Qual,
+  und ver -- giss all Not und Qual,
   Aus Trüb -- sal und gro -- ßem Leid
   sollst du fah -- ren in die Freud,
   die kein Oh -- re hat ge -- hö -- ret
@@ -117,7 +117,7 @@ tenorLyricsTwo = \lyricmode {
 bassLyricsOne = \lyricmode {
   \stanza "1."
   Freu dich sehr, o mei -- ne See -- le,
-  und ver -- giß all Not und Qual,
+  und ver -- giss all Not und Qual,
   Aus Trüb -- sal und gro -- ßem Leid
   sollst du fah -- ren in die Freud,
   die kein Oh -- re hat ge -- hö -- ret
