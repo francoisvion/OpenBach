@@ -108,7 +108,7 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
-  Dir, dir, __ _ Je -- ho -- va, __ _ will ich sin -- _ gen, denn wo ist doch ein sol -- cher Gott wie du? dass ich __ _ es tu im Na -- men Je -- su Christ, so wie es __ dir durch inn ge -- fäl -- lig ist.
+  Dir, dir, __ _ Je -- ho -- va, __ _ will ich sin -- _ gen, denn wo ist doch ein sol -- cher Gott wie du? dass ich __ _ es tu im Na -- men Je -- su Christ, so wie es dir durch inn ge -- fäl -- lig ist.
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -118,7 +118,7 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
-  Dir, dir, __ _ Je -- ho -- va, __ _ will __ _ ich sin -- gen, denn wo ist doch ein sol -- cher Gott wie du? dass ich __ _ es tu im Na -- men Je -- su Christ, so wie es __ dir durch inn ge -- fäl -- lig ist.
+  Dir, dir, __ _ Je -- ho -- va, __ _ will __ _ ich sin -- gen, denn wo ist doch ein sol -- cher Gott wie du? dass ich __ _ es tu im Na -- men Je -- su Christ, so wie es dir durch inn ge -- fäl -- lig ist.
 }
 
 bassLyricsTwo = \lyricmode {
