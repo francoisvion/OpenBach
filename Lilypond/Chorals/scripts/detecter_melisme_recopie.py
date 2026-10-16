@@ -59,7 +59,8 @@ def slots(music):
             merged[-1] = merged[-1] + g
         else:
             merged.append(list(g))
-    return [merge_group(g) if len(g) > 1 else dict(g[0]) for g in merged if not g[0]["is_rest"]]
+    # « n » = nombre de notes réunies dans la place (liaison, ligature) ; 1 = note simple
+    return [dict(merge_group(g) if len(g) > 1 else g[0], n=len(g)) for g in merged if not g[0]["is_rest"]]
 
 
 def syllables(lyrics):

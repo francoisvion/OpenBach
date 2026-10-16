@@ -1,0 +1,73 @@
+71 trait(s) « __ » seul(s) sur une note simple
+
+BWV_123_6	A	couplet One	mes. ≈7	und __ ich	38 (soprano 38)	trait en trop
+BWV_123_6	A	couplet One	mes. ≈15	ins __ Grab	86 (soprano 86)	trait en trop
+BWV_123_6	T	couplet One	mes. ≈7	und __ ich	38 (soprano 38)	trait en trop
+BWV_123_6	B	couplet One	mes. ≈7	und __ ich	38 (soprano 38)	trait en trop
+BWV_123_6	B	couplet One	mes. ≈15	ins __ Grab	86 (soprano 86)	trait en trop
+BWV_123_6	A	couplet Two	mes. ≈7	und __ Mun	38 (soprano 38)	trait en trop
+BWV_123_6	T	couplet Two	mes. ≈7	und __ Mun	38 (soprano 38)	trait en trop
+BWV_123_6	B	couplet Two	mes. ≈7	und __ Mun	38 (soprano 38)	trait en trop
+BWV_124_6	T	couplet 1	mes. ≈2	ich __ nicht	5 (soprano 4)	décalé
+BWV_145_5	A	couplet 1	mes. ≈10	dich, __ Herr	29 (soprano 29)	trait en trop
+BWV_145_5	T	couplet 1	mes. ≈10	dich, __ Herr	28 (soprano 29)	décalé
+BWV_145_5	B	couplet 1	mes. ≈10	dich, __ Herr	29 (soprano 29)	trait en trop
+BWV_153_9	B	couplet One	mes. ≈2	weil __ ich	5 (soprano 5)	trait en trop
+BWV_167_5	S	couplet One	mes. ≈43	wir __ aus	127	
+BWV_167_5	B	couplet One	mes. ≈43	aus __ Her	129 (soprano 128)	décalé
+BWV_17_7	A	couplet Two	mes. ≈5	wir __ ihn	15 (soprano 15)	trait en trop
+BWV_187_7	T	couplet One	mes. ≈8	nicht; __ Berg	24 (soprano 24)	trait en trop
+BWV_187_7	T	couplet One	mes. ≈16	Gras; __ aus	48 (soprano 48)	trait en trop
+BWV_187_7	T	couplet Two	mes. ≈16	gehn, __ sei	48 (soprano 48)	trait en trop
+BWV_229_2	B	couplet 1	mes. ≈22	sus __ ist	64 (soprano 63)	décalé
+BWV_248_23	A	couplet 1	mes. ≈5	Kraft, __ Lob,	27 (soprano 27)	trait en trop
+BWV_248_23	A	couplet 1	mes. ≈5	Lob, __ Preis	28.5 (soprano 28.5)	trait en trop
+BWV_248_23	T	couplet 1	mes. ≈5	Kraft, __ Lob,	27 (soprano 27)	trait en trop
+BWV_248_23	B	couplet 1	mes. ≈5	Kraft, __ Lob,	27 (soprano 27)	trait en trop
+BWV_253	S	couplet 1	mes. ≈5	den __ ist;	17	
+BWV_253	S	couplet 1	mes. ≈6	lich __ Wort,	23	
+BWV_253	A	couplet 1	mes. ≈5	den __ ist;	17 (soprano 17)	trait en trop
+BWV_253	A	couplet 1	mes. ≈6	lich __ Wort,	23 (soprano 23)	trait en trop
+BWV_253	T	couplet 1	mes. ≈5	den __ ist;	17 (soprano 17)	trait en trop
+BWV_253	T	couplet 1	mes. ≈6	lich __ Wort,	23 (soprano 23)	trait en trop
+BWV_253	B	couplet 1	mes. ≈5	den __ ist;	17 (soprano 17)	trait en trop
+BWV_253	B	couplet 1	mes. ≈6	lich __ Wort,	23 (soprano 23)	trait en trop
+BWV_255	T	couplet 1	mes. ≈3	ne __ Sün	13 (soprano 13)	trait en trop
+BWV_255	B	couplet 1	mes. ≈3	ne __ Sün	13 (soprano 13)	trait en trop
+BWV_256	A	couplet One	mes. ≈1	ben __ Chris	3 (soprano 3)	trait en trop
+BWV_256	T	couplet One	mes. ≈1	ben __ Chris	3 (soprano 3)	trait en trop
+BWV_256	B	couplet One	mes. ≈1	ben __ Chris	3 (soprano 3)	trait en trop
+BWV_264	S	couplet 1	mes. ≈7	bri __ el,	29	
+BWV_264	B	couplet 1	mes. ≈7	bri __ el,	29 (soprano 29)	trait en trop
+BWV_269	S	couplet One	mes. ≈8	Gott __ in	23	
+BWV_269	S	couplet One	mes. ≈9	nem __ Thron,	26.5	
+BWV_269	A	couplet One	mes. ≈7	Dank, __ O	21 (soprano 21)	trait en trop
+BWV_269	T	couplet One	mes. ≈8	Gott __ in	23 (soprano 23)	trait en trop
+BWV_269	T	couplet One	mes. ≈12	ren, __ durch	37 (soprano 37)	trait en trop
+BWV_269	B	couplet One	mes. ≈8	Gott __ in	23 (soprano 23)	trait en trop
+BWV_269	B	couplet One	mes. ≈9	nem __ Thron,	26.5 (soprano 26.5)	trait en trop
+BWV_278	A	couplet One	mes. ≈4	ben __ Dess	17 (soprano 17)	trait en trop
+BWV_299	A	couplet One	mes. ≈9	ich __ es	27 (soprano 27)	trait en trop
+BWV_299	T	couplet One	mes. ≈13	es __ dir	40 (soprano 40)	trait en trop
+BWV_299	B	couplet One	mes. ≈13	es __ dir	40 (soprano 40)	trait en trop
+BWV_29_8	A	couplet One	mes. ≈13	lich __ ver	39 (soprano 39)	trait en trop
+BWV_29_8	T	couplet One	mes. ≈34	wir __ aus	102 (soprano 102)	trait en trop
+BWV_320	A	couplet 1	mes. ≈35	lebt __ doch	104 (soprano 104)	trait en trop
+BWV_320	T	couplet 1	mes. ≈35	lebt __ doch	104 (soprano 104)	trait en trop
+BWV_413	T	couplet One	mes. ≈17	das __ ohn	50 (soprano 50)	trait en trop
+BWV_41_6	T	couplet One	mes. ≈21	wünscht __ mit	82 (soprano 83)	décalé
+BWV_441	S	couplet One	mes. ≈11	wo __ man	33	
+BWV_441	A	couplet One	mes. ≈14	von __ uns	42 (soprano 42)	trait en trop
+BWV_441	T	couplet One	mes. ≈14	von __ uns	42 (soprano 42)	trait en trop
+BWV_441	B	couplet One	mes. ≈5	wahr, __ was	15 (soprano 15)	trait en trop
+BWV_441	B	couplet One	mes. ≈9	ward __ ge	27 (soprano 27)	trait en trop
+BWV_441	B	couplet One	mes. ≈11	wo __ man	33 (soprano 33)	trait en trop
+BWV_441	B	couplet One	mes. ≈18	ist __ ge	54 (soprano 54)	trait en trop
+BWV_441	T	couplet Two	mes. ≈6	ßes __ Licht!	19 (soprano 19)	trait en trop
+BWV_441	B	couplet Two	mes. ≈5	ein __ so	15 (soprano 15)	trait en trop
+BWV_52_6	S	couplet 1	mes. ≈8	ich __ dich,	32	
+BWV_52_6	S	couplet 1	mes. ≈11	Treu, __ Herr	45	
+BWV_52_6	S	couplet 1	mes. ≈12	Herr __ Got	46	
+BWV_52_6	A	couplet 1	mes. ≈8	ich __ dich,	32 (soprano 32)	trait en trop
+BWV_52_6	A	couplet 1	mes. ≈11	Treu, __ Herr	45 (soprano 45)	trait en trop
+BWV_52_6	B	couplet 1	mes. ≈11	Treu, __ Herr	45 (soprano 45)	trait en trop
