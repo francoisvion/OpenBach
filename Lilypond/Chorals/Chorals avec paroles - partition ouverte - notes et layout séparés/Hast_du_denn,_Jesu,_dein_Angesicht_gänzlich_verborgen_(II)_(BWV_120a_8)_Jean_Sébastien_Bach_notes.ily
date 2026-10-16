@@ -72,7 +72,7 @@ sopranoLyricsThree = \lyricmode {
   \tweak X-offset #-4.0 "2. Lo" -- be den Her -- ren, was in mir ist, lo -- be den Na -- men.
   Er ist dein Licht,
   See -- le, ver -- giss es ja nicht;
-  Lo -- ben dir, schlie -- ße mit __ A -- men.
+  Lo -- ben dir, schlie -- ße mit A -- men.
 }
 
 sopranoLyricsFour = \lyricmode {
