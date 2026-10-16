@@ -109,8 +109,8 @@ sopranoLyricsOne = \lyricmode {
   mein Hoff -- nung steht auf Er -- _ _ _ _ den.
   Von An -- be -- ginn ist nichts er -- korn,
   auf Er -- den ist kein Mensch ge -- born,
-  der mir aus Nö -- ten hel -- fen kann; ich ruf __ dich an,
-  zu dem ich mein Ver -- trau -- _ _ _ en han.
+  der mir aus Nö -- ten hel -- fen kann; ich ruf __ _ dich an,
+  zu dem ich mein __ _ Ver -- trau -- _ _ en han.
 }
 
 sopranoLyricsTwo = \lyricmode {
@@ -126,7 +126,7 @@ altoLyricsOne = \lyricmode {
   Von An -- be -- ginn ist nichts er -- korn,
   auf Er -- den ist kein Mensch ge -- born,
   der mir aus Nö -- ten hel -- fen kann; ich ruf dich an,
-  zu dem ich mein Ver -- trau -- _ _ _ _ en han.
+  zu dem ich mein __ _ _ Ver -- trau -- _ _ en han.
 }
 
 altoLyricsTwo = \lyricmode {
@@ -141,8 +141,8 @@ tenorLyricsOne = \lyricmode {
   mein Hoff -- nung steht auf Er -- _ _ _ _ _ den.
   Von An -- be -- ginn ist nichts er -- korn,
   auf Er -- den ist kein Mensch ge -- born,
-  der mir __ aus Nö -- ten hel -- fen kann; ich ruf __ _ dich an,
-  zu dem ich mein Ver -- trau -- _ en han.
+  der mir aus __ _ Nö -- ten hel -- fen kann; ich ruf __ _ _ dich an,
+  zu dem ich mein __ _ Ver -- trau -- en han.
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -157,8 +157,8 @@ bassLyricsOne = \lyricmode {
   mein Hoff -- nung steht auf Er -- _ _ _ _ _ _ den.
   Von An -- be -- ginn ist nichts er -- korn,
   auf Er -- den ist kein Mensch ge -- born,
-  der mir aus Nö -- ten hel -- fen kann; ich ruf __ dich an,
-  zu dem ich mein Ver -- trau -- _ _ _ _ en han.
+  der mir aus Nö -- ten hel -- fen kann; ich ruf __ _ dich an,
+  zu dem ich mein __ _ _ Ver -- trau -- _ _ en han.
 }
 
 bassLyricsTwo = \lyricmode {
