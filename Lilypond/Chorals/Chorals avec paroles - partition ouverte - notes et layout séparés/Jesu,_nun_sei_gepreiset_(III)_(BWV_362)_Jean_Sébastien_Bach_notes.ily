@@ -147,7 +147,7 @@ sopranoLyricsOne = \lyricmode {
   Je -- su, nun sei ge -- prei -- _ set
   zu die -- sem neu -- en Jahr,
   für dein' Güt' uns be -- wei -- set
-  in al -- ler Noth und G'fahr:
+  in al -- ler Not und G'fahr:
   Dass wir in gu -- ter Stil -- le
   das alt' Jahr hab'n er -- fül -- let.
   Wir wolln uns dir er -- ge -- ben
@@ -169,7 +169,7 @@ altoLyricsOne = \lyricmode {
   Je -- su, nun sei ge -- prei -- _ set
   zu die -- sem neu -- en Jahr,
   für dein' Güt' uns be -- wei -- _ set
-  in al -- ler Noth und G'fahr:
+  in al -- ler Not und G'fahr:
   Dass wir in gu -- ter Stil -- _ le
   das alt' Jahr hab'n er -- fül -- _ let.
   Wir wolln uns dir er -- ge -- _ ben
@@ -191,7 +191,7 @@ tenorLyricsOne = \lyricmode {
   Je -- su, nun sei ge -- prei -- _ set
   zu die -- sem neu -- en Jahr,
   für dein' Güt' uns be -- wei -- _ set
-  in al -- ler Noth und G'fahr:
+  in al -- ler Not und G'fahr:
   Dass wir in gu -- ter Stil -- _ le
   das alt' Jahr hab'n er -- fül -- _ let.
   Wir wolln uns dir er -- ge -- _ ben
@@ -213,7 +213,7 @@ bassLyricsOne = \lyricmode {
   Je -- su, nun sei ge -- prei -- _ set
   zu die -- sem neu -- en Jahr,
   für dein' Güt' uns be -- wei -- _ set
-  in al -- ler Noth und G'fahr:
+  in al -- ler Not und G'fahr:
   Dass wir in gu -- ter Stil -- _ le
   das alt' Jahr hab'n er -- fül -- _ let.
   Wir wolln uns dir er -- ge -- _ ben
