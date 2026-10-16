@@ -70,7 +70,7 @@ sopranoLyricsOne = \lyricmode {
 sopranoLyricsTwo = \lyricmode {
   \stanza "2."
   du ken -- nest mei -- ner Mon -- den Zahl,
-  weißt wann ich die -- sem Jam -- mer -- thal
+  weißt wann ich die -- sem Jam -- mer -- tal
   auch wie -- der gu -- te Nacht soll ge -- ben.
 }
 
@@ -86,7 +86,7 @@ altoLyricsOne = \lyricmode {
 altoLyricsTwo = \lyricmode {
   \stanza "2."
   du ken -- nest mei -- ner Mon -- den Zahl,
-  weißt wann ich die -- sem Jam -- mer -- thal
+  weißt wann ich die -- sem Jam -- mer -- tal
   auch wie -- der gu -- te Nacht soll ge -- _ ben.
 }
 
@@ -102,7 +102,7 @@ tenorLyricsOne = \lyricmode {
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
   du ken -- nest mei -- ner Mon -- den Zahl,
-  weißt wann ich die -- sem Jam -- mer -- thal
+  weißt wann ich die -- sem Jam -- mer -- tal
   auch wie -- der gu -- te Nacht soll ge -- _ ben.
 }
 
@@ -118,6 +118,6 @@ bassLyricsOne = \lyricmode {
 bassLyricsTwo = \lyricmode {
   \stanza "2."
   du ken -- nest mei -- ner Mon -- den Zahl,
-  weißt wann ich die -- sem Jam -- mer -- thal
+  weißt wann ich die -- sem Jam -- mer -- tal
   auch wie -- der gu -- te Nacht soll ge -- _ ben.
 }
