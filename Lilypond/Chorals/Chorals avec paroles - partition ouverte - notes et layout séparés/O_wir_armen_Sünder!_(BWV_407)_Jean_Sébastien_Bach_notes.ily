@@ -120,11 +120,11 @@ bassMusic = {
 
 sopranoLyrics = \lyricmode {
   O wir ar -- men Sün -- der!
-  uns -- re Mis -- se -- that,
+  uns -- re Mis -- se -- tat,
   da -- rin wir em -- pfan -- gen
   und ge -- bo -- ren sind,
   hat ge -- bracht uns al -- le
-  in sol che gro -- ße Noth,
+  in sol che gro -- ße Not,
   dass wir un -- ter -- wor -- fen
   sind dem ew' -- gen Tod.
   Ky -- rie e -- lei -- _ son!
@@ -134,11 +134,11 @@ sopranoLyrics = \lyricmode {
 
 altoLyrics = \lyricmode {
   O wir ar -- men Sün -- _ der! __ _
-  uns -- re Mis -- se -- that,
+  uns -- re Mis -- se -- tat,
   da -- rin wir em -- pfan -- _ gen
   und ge -- bo -- ren sind,
   hat ge -- bracht uns al -- _ le
-  in sol che gro -- ße Noth,
+  in sol che gro -- ße Not,
   dass wir un -- ter -- wor -- _ fen __ _
   sind dem ew' -- gen Tod.
   Ky -- rie __ _ e -- _ _ _ lei -- _ _ son!
@@ -148,11 +148,11 @@ altoLyrics = \lyricmode {
 
 tenorLyrics = \lyricmode {
   O wir ar -- men Sün -- der!
-  uns -- re Mis -- se -- that,
+  uns -- re Mis -- se -- tat,
   da -- rin wir em -- pfan -- _ gen
   und ge -- bo -- ren sind,
   hat ge -- bracht uns al -- _ le
-  in sol che gro -- ße Noth,
+  in sol che gro -- ße Not,
   dass wir un -- ter -- wor -- fen
   sind dem ew' -- gen Tod.
   Ky -- rie __ _ e -- _ _ _ lei -- _ _ son!
@@ -162,11 +162,11 @@ tenorLyrics = \lyricmode {
 
 bassLyrics = \lyricmode {
   O wir ar -- men Sün -- _ der!
-  uns -- re Mis -- se -- that,
+  uns -- re Mis -- se -- tat,
   da -- rin wir em -- pfan -- _ _ gen
   und ge -- bo -- ren sind,
   hat ge -- bracht uns al -- _ le
-  in sol che gro -- ße Noth,
+  in sol che gro -- ße Not,
   dass wir un -- ter -- wor -- _ fen
   sind dem ew' -- gen Tod.
   Ky -- rie e -- _ lei -- _ _ son!
