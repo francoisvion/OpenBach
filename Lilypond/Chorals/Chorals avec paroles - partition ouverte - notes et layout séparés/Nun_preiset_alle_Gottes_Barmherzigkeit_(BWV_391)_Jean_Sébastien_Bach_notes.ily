@@ -86,7 +86,7 @@ sopranoLyrics = \lyricmode {
   Nun prei -- set al -- le
   Got -- tes Barm -- her -- zig -- keit,
   lob' ihn mit Schal -- le,
-  du wer -- the Chri -- sten -- heit!
+  du wer -- te Chri -- sten -- heit!
   Er lässt dich freund -- _ lich zu sich la -- den.
   freu -- e dich, I -- _ sra -- el, sei -- ner Gna -- den.
 }
@@ -95,7 +95,7 @@ altoLyrics = \lyricmode {
   Nun prei -- set al -- le
   Got -- tes Barm -- her -- zig -- keit,
   lob' ihn mit Schal -- le,
-  du wer -- the Chri -- _ sten -- heit!
+  du wer -- te Chri -- _ sten -- heit!
   Er lässt dich freund -- _ lich zu __ _ sich la -- _ den.
   freu -- e dich, I -- _ sra -- el, sei -- ner Gna -- _ den,
 }
@@ -104,7 +104,7 @@ tenorLyrics = \lyricmode {
   Nun prei -- set al -- le
   Got -- tes Barm -- her -- zig -- keit,
   lob' ihn mit Schal -- le,
-  du wer -- the Chri -- _ sten -- heit!
+  du wer -- te Chri -- _ sten -- heit!
   Er lässt dich freund -- _ lich zu __ _ sich la -- _ den.
   freu -- e dich, I -- sra -- el, sei -- ner Gna -- _ den,
 }
@@ -113,7 +113,7 @@ bassLyrics = \lyricmode {
   Nun prei -- set al -- le
   Got -- tes Barm -- her -- _ zig -- keit,
   lob' ihn mit Schal -- le,
-  du wer -- the Chri -- _ sten -- heit!
+  du wer -- te Chri -- _ sten -- heit!
   Er lässt dich freund -- _ lich zu sich la -- _ den.
   freu -- e dich, I -- _ sra -- el, sei -- ner Gna -- _ den,
 }
