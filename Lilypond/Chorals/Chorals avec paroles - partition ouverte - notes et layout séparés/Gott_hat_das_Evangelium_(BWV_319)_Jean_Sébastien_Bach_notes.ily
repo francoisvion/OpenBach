@@ -62,7 +62,7 @@ sopranoLyrics = \lyricmode {
   Gott hat das E -- van -- ge -- li -- um
   ge -- ge -- ben, dass wir wer -- den fromm;
   die Welt acht' sol -- chen Schatz nicht hoch,
-  der meh -- rer' Theil fragt nichts dar -- nach,
+  der meh -- rer' Teil fragt nichts dar -- nach,
   das ist ein Zei -- chen vor dem jüng -- sten Tag.
 }
 
@@ -70,7 +70,7 @@ altoLyrics = \lyricmode {
   Gott hat das E -- van -- ge -- li -- um
   ge -- ge -- ben, dass wir wer -- den fromm;
   die Welt acht' sol -- _ chen Schatz nicht hoch,
-  der meh -- rer' Theil fragt nichts dar -- nach,
+  der meh -- rer' Teil fragt nichts dar -- nach,
   das ist ein Zei -- chen vor dem jüng -- sten Tag.
 }
 
@@ -78,7 +78,7 @@ tenorLyrics = \lyricmode {
   Gott hat das E -- van -- ge -- li -- um
   ge -- ge -- ben, dass wir wer -- den fromm;
   die Welt acht' sol -- chen Schatz nicht hoch,
-  der meh -- rer' Theil fragt nichts dar -- nach,
+  der meh -- rer' Teil fragt nichts dar -- nach,
   das ist ein Zei -- chen vor dem jüng -- sten Tag.
 }
 
@@ -86,6 +86,6 @@ bassLyrics = \lyricmode {
   Gott hat das E -- van -- ge -- li -- um
   ge -- ge -- ben, dass wir wer -- den fromm;
   die Welt acht' sol -- chen Schatz nicht hoch,
-  der meh -- rer' Theil fragt nichts dar -- nach,
+  der meh -- rer' Teil fragt nichts dar -- nach,
   das ist ein Zei -- chen vor dem jüng -- sten Tag.
 }
