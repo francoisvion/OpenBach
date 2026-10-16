@@ -82,7 +82,7 @@ sopranoLyricsOne = \lyricmode {
 
 sopranoLyricsTwo = \lyricmode {
   \stanza "2."
-  wasch ab, mach' rein mein Mi -- se -- that,
+  wasch ab, mach' rein mein Mis -- se -- tat,
   ich kenn mein Sünd' und ist mir leid.
 }
 
@@ -93,7 +93,7 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \stanza "2."
-  wasch ab, mach' rein mein Mi -- se -- _ that, ich kenn mein Sünd' und ist mir __ _ leid.
+  wasch ab, mach' rein mein Mis -- se -- _ tat, ich kenn mein Sünd' und ist mir __ _ leid.
 }
 
 tenorLyricsOne = \lyricmode {
@@ -103,7 +103,7 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
-  wasch ab, mach' rein mein Mi -- se -- that, ich kenn mein Sünd' und ist mir leid.
+  wasch ab, mach' rein mein Mis -- se -- tat, ich kenn mein Sünd' und ist mir leid.
 }
 
 bassLyricsOne = \lyricmode {
@@ -113,5 +113,5 @@ bassLyricsOne = \lyricmode {
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
-  wasch ab, mach' rein mein __ _ Mi -- se -- that, ich kenn mein Sünd' und ist mir leid.
+  wasch ab, mach' rein mein __ _ Mis -- se -- tat, ich kenn mein Sünd' und ist mir leid.
 }
