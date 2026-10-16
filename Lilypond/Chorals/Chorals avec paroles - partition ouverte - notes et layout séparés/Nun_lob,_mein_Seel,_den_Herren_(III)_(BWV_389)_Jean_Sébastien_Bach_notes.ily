@@ -110,7 +110,7 @@ sopranoLyricsOne = \lyricmode {
 
 sopranoLyricsTwo = \lyricmode {
   \stanza "2."
-  sein' Wohl -- that thut er meh -- _ ren,
+  sein' Wohl -- tat tut er meh -- _ ren,
   Ver -- giss es nicht, o Her -- ze mein,
 }
 
@@ -130,7 +130,7 @@ altoLyricsOne = \lyricmode {
 
 altoLyricsTwo = \lyricmode {
   \stanza "2."
-  sein' Wohl -- that thut er meh -- _ ren,
+  sein' Wohl -- tat tut er meh -- _ ren,
   Ver -- giss es nicht, o Her -- ze mein,
 }
 
@@ -150,7 +150,7 @@ tenorLyricsOne = \lyricmode {
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
-  sein' Wohl -- that thut er meh -- _ ren,
+  sein' Wohl -- tat tut er meh -- _ ren,
   Ver -- giss es nicht, o Her -- ze mein,
 }
 
@@ -170,6 +170,6 @@ bassLyricsOne = \lyricmode {
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
-  sein' Wohl -- that thut er meh -- _ ren,
+  sein' Wohl -- tat tut er meh -- _ ren,
   Ver -- giss es nicht, o Her -- ze mein,
 }
