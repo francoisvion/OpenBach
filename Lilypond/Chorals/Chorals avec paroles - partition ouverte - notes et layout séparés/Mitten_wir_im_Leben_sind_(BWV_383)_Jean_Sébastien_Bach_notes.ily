@@ -127,20 +127,20 @@ sopranoLyricsOne = \lyricmode {
   Mit -- ten wir im Le -- ben sind __ _
   mit dem Tod um -- fan -- _ gen;
   Das bist du, Herr, al -- lei -- _ ne.
-  Uns reu -- et uns' -- re Mis -- se -- that, __ _
+  Uns reu -- et uns' -- re Mis -- se -- tat, __ _
   die dich, Herr, er -- zür -- net hat.
   Hei -- li -- ger Her -- re Gott,
   hei -- li -- ger, star -- ker Gott,
   hei -- li -- ger, barm -- herz' -- ger Hei -- _ land,
   du e -- wi -- ger Gott,
   lass uns nicht ver -- sin -- _ ken
-  in der bit -- tern To -- des -- noth.
+  in der bit -- tern To -- des -- not.
   Ky -- rie e -- lei -- son!
 }
 
 sopranoLyricsTwo = \lyricmode {
   \stanza "2."
-  Wen such'n wir, der Hül -- fe thu',  __ _
+  Wen such'n wir, der Hül -- fe tu',  __ _
   dass wir Gnad' er -- lan -- _ gen?
 }
 
@@ -149,20 +149,20 @@ altoLyricsOne = \lyricmode {
   Mit -- ten wir im Le -- ben sind __ _ _
   mit dem Tod um -- fan -- gen;
   Das bist du, Herr, al -- lei -- _ _ ne.
-  Uns reu -- et uns' -- re Mis -- se -- that, __ _ _
+  Uns reu -- et uns' -- re Mis -- se -- tat, __ _ _
   die dich, Herr, er -- zür -- net hat.
   Hei -- li -- ger Her -- re Gott,
   hei -- li -- ger, star -- ker Gott,
   hei -- li -- ger, barm -- herz' -- ger Hei -- land,
   du e -- _ wi -- ger Gott,
   lass uns nicht ver -- sin -- _ _ ken
-  in der bit -- tern To -- des -- noth.
+  in der bit -- tern To -- des -- not.
   Ky -- rie __ _ e -- lei -- son!
 }
 
 altoLyricsTwo = \lyricmode {
   \stanza "2."
-  Wen such'n wir, der Hül -- fe thu', __ _ _
+  Wen such'n wir, der Hül -- fe tu', __ _ _
   dass wir Gnad' er -- lan -- gen?
 }
 
@@ -171,20 +171,20 @@ tenorLyricsOne = \lyricmode {
   Mit -- ten wir im Le -- ben sind __ _ _
   mit dem Tod um -- fan -- _ gen;
   Das bist du, Herr, al -- lei -- ne.
-  Uns reu -- et uns' -- re Mis -- se -- that, __ _ _
+  Uns reu -- et uns' -- re Mis -- se -- tat, __ _ _
   die dich, Herr, er -- zür -- net hat.
   Hei -- li -- ger Her -- re Gott,
   hei -- li -- ger, star -- ker Gott,
   hei -- li -- ger, barm -- herz' -- ger Hei -- _ land,
   du e -- _ wi -- ger Gott,
   lass uns nicht ver -- sin -- _ ken
-  in der bit -- tern To -- des -- noth.
+  in der bit -- tern To -- des -- not.
   Ky -- rie __ _ e -- lei -- son!
 }
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
-  Wen such'n wir, der Hül -- fe thu', __ _ _
+  Wen such'n wir, der Hül -- fe tu', __ _ _
   dass wir Gnad' er -- lan -- _ gen?
 }
 
@@ -193,19 +193,19 @@ bassLyricsOne = \lyricmode {
   Mit -- ten wir im Le -- ben sind __ _ _
   mit dem Tod um -- fan -- _ gen;
   Das bist du, Herr, al -- lei -- _ ne.
-  Uns reu -- et uns' -- re Mis -- se -- that, __ _
+  Uns reu -- et uns' -- re Mis -- se -- tat, __ _
   die dich, Herr, er -- zür -- net hat.
   Hei -- li -- ger Her -- re Gott,
   hei -- li -- ger, star -- ker Gott,
   hei -- li -- ger, barm -- herz' -- ger Hei -- _ land,
   du e -- _ wi -- ger Gott,
   lass uns nicht ver -- sin -- _ ken
-  in der bit -- tern To -- des -- noth.
+  in der bit -- tern To -- des -- not.
   Ky -- rie __ _ e -- lei -- son!
 }
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
-  Wen such'n wir, der Hül -- fe thu', __ _ _
+  Wen such'n wir, der Hül -- fe tu', __ _ _
   dass wir Gnad' er -- lan -- _ gen?
 }
