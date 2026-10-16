@@ -37,7 +37,7 @@ def cas(bwv):
                 if toks[k] == "_" or hy[k] or und[k]:
                     continue
                 suit = toks[k + 1] if k + 1 < len(toks) else None
-                if suit == "_":
+                if suit == "_" and "\\skip" not in ly:   # « \repeat unfold n { \skip1 } » : sauts, pas mélisme
                     genre = "« _ » sans « __ »"
                 elif suit is not None and sl[k]["n"] > 1 and sl[k]["dur"] * 4 >= 2:
                     # convention du corpus : pas de trait sous une ligature d'une noire ou moins

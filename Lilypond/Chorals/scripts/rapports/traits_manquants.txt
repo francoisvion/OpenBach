@@ -1,4 +1,4 @@
-111 trait(s) de prolongation manquant(s)
+95 trait(s) de prolongation manquant(s)
 
 BWV_104_6	T	couplet One	mes. ≈2	dem ich	tenue ≥ blanche sans « __ »
 BWV_104_6	T	couplet Two	mes. ≈2	auf schö	tenue ≥ blanche sans « __ »
@@ -50,22 +50,6 @@ BWV_320	B	couplet 1	mes. ≈36	ser Herr	tenue ≥ blanche sans « __ »
 BWV_321	A	couplet One	mes. ≈10	ich rei	tenue ≥ blanche sans « __ »
 BWV_321	T	couplet Two	mes. ≈2	mir schon	tenue ≥ blanche sans « __ »
 BWV_325	S	couplet 1	mes. ≈12	der da	tenue ≥ blanche sans « __ »
-BWV_328	S	couplet Two	mes. ≈8	Ehr', _	« _ » sans « __ »
-BWV_328	S	couplet Two	mes. ≈21	schlecht, _	« _ » sans « __ »
-BWV_328	A	couplet Two	mes. ≈8	Ehr', _	« _ » sans « __ »
-BWV_328	A	couplet Two	mes. ≈21	schlecht, _	« _ » sans « __ »
-BWV_328	T	couplet Two	mes. ≈8	Ehr', _	« _ » sans « __ »
-BWV_328	T	couplet Two	mes. ≈21	schlecht, _	« _ » sans « __ »
-BWV_328	B	couplet Two	mes. ≈8	Ehr', _	« _ » sans « __ »
-BWV_328	B	couplet Two	mes. ≈21	schlecht, _	« _ » sans « __ »
-BWV_328	S	couplet Three	mes. ≈8	Stimm': _	« _ » sans « __ »
-BWV_328	S	couplet Three	mes. ≈21	bracht. _	« _ » sans « __ »
-BWV_328	A	couplet Three	mes. ≈8	Stimm': _	« _ » sans « __ »
-BWV_328	A	couplet Three	mes. ≈21	bracht. _	« _ » sans « __ »
-BWV_328	T	couplet Three	mes. ≈8	Stimm': _	« _ » sans « __ »
-BWV_328	T	couplet Three	mes. ≈21	bracht. _	« _ » sans « __ »
-BWV_328	B	couplet Three	mes. ≈8	Stimm': _	« _ » sans « __ »
-BWV_328	B	couplet Three	mes. ≈21	bracht. _	« _ » sans « __ »
 BWV_339	B	couplet Two	mes. ≈4	mich, Herr,	tenue ≥ blanche sans « __ »
 BWV_339	B	couplet Three	mes. ≈4	sich Gott	tenue ≥ blanche sans « __ »
 BWV_339	B	couplet Four	mes. ≈4	Gott, Hoff	tenue ≥ blanche sans « __ »
