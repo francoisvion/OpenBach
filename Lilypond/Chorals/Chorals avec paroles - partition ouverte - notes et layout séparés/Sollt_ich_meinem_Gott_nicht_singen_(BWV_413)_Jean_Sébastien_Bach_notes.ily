@@ -187,7 +187,7 @@ tenorLyricsOne = \lyricmode {
   das __ ohn En -- de hebt und trägt,
   die __ _ in sei -- nem Dienst __ _ sich ü -- ben.
   Al -- les Ding währt sei -- ne Zeit,
-  Got -- _ tes __ Lieb __ in E -- wig -- keit.
+  Got -- _ tes __ Lieb in E -- wig -- keit.
 }
 
 tenorLyricsTwo = \lyricmode {
