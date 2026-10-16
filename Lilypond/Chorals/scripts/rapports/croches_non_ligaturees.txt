@@ -1,0 +1,5 @@
+3 syllabe(s) sur croches non ligaturées
+
+BWV_227_7	A	couplet One	mes. ≈6	mei	0.5 + 0.5 (noires)
+BWV_227_7	B	couplet One	mes. ≈1	mit	0.5 + 0.5 (noires)
+BWV_227_7	A	couplet Two	mes. ≈6	be	0.5 + 0.5 (noires)
