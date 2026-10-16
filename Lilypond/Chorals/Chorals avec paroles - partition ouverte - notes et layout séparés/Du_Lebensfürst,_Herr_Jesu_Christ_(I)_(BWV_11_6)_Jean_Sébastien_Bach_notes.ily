@@ -108,7 +108,7 @@ sopranoLyricsOne = \lyricmode {
   Nun lie -- get al -- _ les un -- ter dir,
   dich selbst nur aus -- ge -- nom -- men;
   Die Für -- sten stehn auch auf __ _ der Bahn,
-  und sind dir wil -- _ lig un -- ter -- than;
+  und sind dir wil -- _ lig un -- ter -- tan;
   Luft, Was -- ser, Feu -- er, Er -- den
   muss dir zu Dien -- ste wer -- _ den.
 }
@@ -124,7 +124,7 @@ altoLyricsOne = \lyricmode {
   Nun lie -- get al -- les un -- ter dir,
   dich selbst nur aus -- _ ge -- nom -- _ _ men;
   Die Für -- sten stehn __ _ auch __ auf der Bahn,
-  und sind dir wil -- _ lig un -- _ ter -- than;
+  und sind dir wil -- _ lig un -- _ ter -- tan;
   Luft, Was -- ser, Feu -- _ er,  Er -- den
   muss dir zu Dien -- ste wer -- _ den.
 }
@@ -140,7 +140,7 @@ tenorLyricsOne = \lyricmode {
   Nun lie -- get al -- _ les un -- _ ter dir,
   dich selbst __ _ nur __ aus -- ge -- nom -- _ _ men;
   Die Für -- sten stehn __ _ auch auf der Bahn,
-  und sind dir wil -- _ lig un -- _ ter -- than;
+  und sind dir wil -- _ lig un -- _ ter -- tan;
   Luft, Was -- _ ser, Feu -- er, __ _ _ Er -- den
   muss dir zu Dien -- ste wer -- _ den.
 }
@@ -156,7 +156,7 @@ bassLyricsOne = \lyricmode {
   Nun lie -- get al -- _ les un -- _ ter dir,
   dich selbst nur __ _ aus -- _ ge -- nom -- _ _ men;
   Die Für -- sten stehn __ _ _ auch auf der Bahn,
-  und sind dir wil -- _ lig un -- _ ter -- than;
+  und sind dir wil -- _ lig un -- _ ter -- tan;
   Luft, Was -- _ ser, Feu -- _ er,  Er -- den
   muss dir zu Dien -- ste wer -- den.
 }
