@@ -121,47 +121,47 @@ sopranoLyricsTwo = \lyricmode {
 altoLyricsOne = \lyricmode {
   \stanza "1."
   Aus mei -- _ nes Her -- zens Grun -- _ _ de
-  sag' ich dir Lob und Dank, __
+  sag' ich __ _ dir Lob und Dank, __
   O Gott __ in dei -- nem __ Thron,
-  dir zu Lob, Preis und Eh -- ren __ _ _
-  durch Chris -- tum, un -- sern Her -- ren __ _ _
+  dir zu Lob, Preis __ _ und Eh -- ren __ _
+  durch __ _ Chris -- tum, un -- _ sern Her -- ren __ _ _
   dein ein -- ge -- bor -- nen Sohn.
 }
 
 altoLyricsTwo = \lyricmode {
   \stanza "2."
   In die -- _ ser Mor -- gen -- stun -- _ _ de,
-  da -- zu mein Le -- be -- lang, __
+  da -- zu __ _ mein Le -- be -- lang, __
 }
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
   Aus mei -- _ nes Her -- _ zens Grun -- _ _ de
-  sag' ich dir Lob und Dank, __ _
+  sag' ich __ _ dir Lob und __ _ Dank,
   O Gott __ in dei -- nem __ Thron,
-  dir zu Lob, Preis und Eh -- ren, __
-  durch Chris -- tum, un -- sern Her -- ren __ _ _
+  dir zu Lob, Preis __ _ und Eh -- ren, __
+  durch Chris -- tum, un -- _ sern Her -- ren __ _ _
   dein ein -- ge -- bor -- nen Sohn.
 }
 
 tenorLyricsTwo = \lyricmode {
   \stanza "2."
   In die -- _ ser Mor -- _ gen -- stun -- _ _ de,
-  da -- zu mein Le -- be -- lang, __ _
+  da -- zu __ _ mein Le -- be -- _ lang,
 }
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
   Aus mei -- _ nes Her -- _ zens Grun -- _ _ de
-  sag' ich dir Lob und Dank, __ _
+  sag' ich __ _ dir Lob und __ _ Dank,
   O Gott __ in dei -- nem __ Thron,
-  dir zu Lob, Preis und Eh -- ren __ _ _
-  durch Chris -- tum, un -- sern Her -- ren __ _ _ _
-  dein ein -- _ ge -- bor -- _ nen Sohn.
+  dir zu Lob, Preis und Eh -- _ ren
+  durch __ _ _ Chris -- tum, un -- _ sern Her -- ren __ _ _ _
+  dein ein -- ge -- bor -- _ nen Sohn.
 }
 
 bassLyricsTwo = \lyricmode {
   \stanza "2."
   In die -- _ ser Mor -- _ gen -- stun -- _ _ de,
-  da -- zu mein Le -- be -- lang, __ _
+  da -- zu __ _ mein Le -- be -- _ lang,
 }
