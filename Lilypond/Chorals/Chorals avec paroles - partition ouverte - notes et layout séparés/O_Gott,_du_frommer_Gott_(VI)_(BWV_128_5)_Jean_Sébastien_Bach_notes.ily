@@ -81,7 +81,7 @@ bassMusic = {
 sopranoLyrics = \lyricmode {
   Als -- denn so wirst du mich
   Zu dei -- ner Rech -- ten stel -- _ len
-  und mir als dei -- nem __ Kind,
+  und mir als dei -- nem Kind,
   ein gnä -- dig Ur -- teil fäl -- _ len,
   Mich brin -- gen zu der Lust,
   Wo dei -- ne Herr -- lich -- keit
