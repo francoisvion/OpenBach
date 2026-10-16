@@ -223,7 +223,7 @@ tenorLyricsOne = \lyricmode {
   nach dei -- nem Wohl -- ge -- fal -- _ len:
   solchs sin -- _ get heut ohn Scher -- _ zen
   die christ -- _ gläu -- bi -- ge Schar, __ _ _
-  und wünscht __ mit Mund __ _ und Her -- _ _ zen
+  und wünscht mit Mund __ _ und Her -- _ _ zen
   ein se -- ligs neu -- es Jahr, __ _ _ _
   und wünscht mit Mund und Her -- _ zen ein se -- ligs neu -- es Jahr.
 }
