@@ -49,7 +49,7 @@ bassMusic = {
 sopranoLyrics = \lyricmode {
   Ach Gott und Herr,
   wie groß und schwer
-  sind mein' be -- gang -- ne __ Sün -- den!
+  sind mein' be -- gang -- ne Sün -- den!
   Da ist Nie -- mand,
   der hel -- fen kann,
   in die -- ser Welt zu fin -- den.
@@ -67,7 +67,7 @@ altoLyrics = \lyricmode {
 tenorLyrics = \lyricmode {
   Ach Gott und Herr,
   wie groß und schwer
-  sind mein' be -- gang -- ne __ Sün -- _ den!
+  sind mein' be -- gang -- ne Sün -- _ den!
   Da ist Nie -- mand,
   der hel -- fen kann,
   in die -- ser Welt zu fin -- _ den.
@@ -76,7 +76,7 @@ tenorLyrics = \lyricmode {
 bassLyrics = \lyricmode {
   Ach Gott und Herr,
   wie groß und schwer
-  sind mein' be -- gang -- ne __ Sün -- _ den!
+  sind mein' be -- gang -- ne Sün -- _ den!
   Da ist Nie -- mand,
   der hel -- fen kann,
   in die -- ser Welt zu fin -- _ den.
