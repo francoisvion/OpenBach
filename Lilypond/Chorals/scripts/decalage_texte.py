@@ -24,6 +24,8 @@ from valider_chorals import COUPLETS
 HERE = Path(__file__).resolve().parent
 REPORT = HERE / "rapports" / "decalages_texte.txt"
 VOIX = {"S": "soprano", "A": "alto", "T": "tenor", "B": "bass"}
+# texte décalé voulu, vérifié sur le scan (ligne de texte propre à une voix) : ne plus signaler
+CONFORME_SCAN = {"BWV_10_7", "BWV_121_6", "BWV_144_6"}
 MIN_SUITE = 2   # ponytail: une syllabe isolée décalée est souvent légitime (rythme pointé, anticipation)
 
 
@@ -57,6 +59,8 @@ def mesure(t, on):
 
 
 def cas(bwv):
+    if bwv in CONFORME_SCAN:
+        return []
     t = next(FOLDER.glob(f"*({bwv})*_notes.ily")).read_text(encoding="utf-8")
     # \time du layout en tête : un « \omit \time 2/4 » isolé dans les notes (BWV_261) doublait les numéros
     tm = next(FOLDER.glob(f"*({bwv})*_layout.ly")).read_text(encoding="utf-8") + t
