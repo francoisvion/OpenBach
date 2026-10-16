@@ -158,6 +158,6 @@ bassLyrics = \lyricmode {
   Eilt gleich mein Le -- _ bens -- lauf __ _ zu En -- de,
   ist doch der Geist __ _ wohl __ _ an -- ge -- bracht.
   Er soll bei sei -- nem Schö -- _ pfer schwe -- ben,
-  weil Je -- sus __ ist und bleibt __ _ _
+  weil Je -- sus ist und bleibt __ _ _
   der wah -- re Weg __ _ _ _ _ zum Le -- ben.
 }
