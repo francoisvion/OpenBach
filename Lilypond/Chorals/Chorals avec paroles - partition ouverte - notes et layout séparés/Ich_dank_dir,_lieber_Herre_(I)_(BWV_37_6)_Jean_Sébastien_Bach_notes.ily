@@ -90,7 +90,7 @@ sopranoLyrics = \lyricmode {
   Du wirst mir nicht ver -- sa -- _ gen,
   was du ver -- hei -- ßen hast,
   dass er mein Sünd tu tra -- _ gen
-  und lös mich von __ _ _ _ der Last.
+  und lös mich von __ _ _ _ _ der Last.
 }
 
 altoLyrics = \lyricmode {
