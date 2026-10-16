@@ -72,7 +72,7 @@ sopranoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {
-  Je -- sum lass' __ _ ich __ nicht von mir,
+  Je -- sum lass' ich nicht von __ _ mir,
   Geh' ihm e -- wig an der Sei -- _ ten;
   Chris -- tus lässt mich für und für
   Zu dem Le -- bens -- bäch -- lein lei -- _ ten.
@@ -81,7 +81,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Je -- sum lass' __ _ ich __ nicht von mir,
+  Je -- sum lass' ich nicht von __ _ mir,
   Geh' ihm e -- wig an der Sei -- _ ten;
   Chris -- tus lässt mich für __ _ und für
   Zu dem Le -- bens -- bäch -- lein lei -- _ ten.
