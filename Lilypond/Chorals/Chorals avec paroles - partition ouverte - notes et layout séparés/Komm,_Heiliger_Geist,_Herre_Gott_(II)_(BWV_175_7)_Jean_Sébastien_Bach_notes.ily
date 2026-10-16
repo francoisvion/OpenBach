@@ -146,8 +146,8 @@ altoLyrics = \lyricmode {
   das du mir willst aus __ Gna -- den ge -- ben.
   Dein Wort ist ja der Mor -- gen -- stern,
   der herr -- lich leuch -- tet nah und fern.
-  Drum will ich die mich an -- _ _ ders leh -- _ ren,
-  in E -- wig -- keit, __ _ _ mein Gott, nicht hö -- _ ren. 
+  Drum will ich die __ _ _ mich __ an -- ders leh -- _ ren,
+  in E -- wig -- keit, __ _ _ mein Gott, nicht hö -- _ ren.
   Al -- le -- lu -- _ ia,
   Al -- le -- _ lu -- ia!
 }
@@ -156,11 +156,11 @@ tenorLyrics = \lyricmode {
   Nun, wer -- _ ter __ _ Geist, ich folg dir,
   hilf, dass ich su -- che für und für
   nach dei -- nem Wort, __ _ _ ein an -- der Le -- ben,
-  das du mir willst aus Gna -- den ge -- _ ben.
+  das du mir willst aus __ _ Gna -- den ge -- ben.
   Dein Wort ist ja der Mor -- gen -- stern,
   der herr -- lich leuch -- tet nah und fern.
-  Drum will ich die mich an -- _ _ ders leh -- _ ren,
-  in E -- wig -- keit, mein Gott, nicht hö -- _ _ _ ren. 
+  Drum will ich die __ _ _ mich an -- ders leh -- _ ren,
+  in E -- wig -- keit, __ _ _ mein __ Gott, nicht hö -- _ ren.
   Al -- le -- lu -- ia,
   Al -- le -- lu -- _ ia!
 }
@@ -169,11 +169,11 @@ bassLyrics = \lyricmode {
   Nun, wer -- _ ter __ _ Geist, ich folg dir,
   hilf, dass ich su -- che für und für
   nach dei -- nem Wort, __ _ _ ein an -- der Le -- _ ben,
-  das du mir willst aus Gna -- den ge -- _ ben.
+  das du mir willst aus __ _ Gna -- den ge -- ben.
   Dein Wort ist ja der Mor -- gen -- stern,
   der herr -- lich leuch -- tet nah und fern.
-  Drum will ich die mich an -- _ ders __ _ leh -- _ ren,
-  in E -- wig -- keit, __ _ _ mein Gott, nicht hö -- _ ren. 
+  Drum will ich die __ _ _ mich __ an -- ders __ leh -- _ ren,
+  in E -- wig -- keit, __ _ _ mein Gott, nicht hö -- _ ren.
   Al -- _ le -- lu -- ia,
   Al -- le -- _ lu -- ia!
 }
