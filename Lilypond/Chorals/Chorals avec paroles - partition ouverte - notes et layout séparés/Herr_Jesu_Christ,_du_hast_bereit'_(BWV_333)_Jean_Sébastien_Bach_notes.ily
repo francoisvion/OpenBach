@@ -64,7 +64,7 @@ sopranoLyricsOne = \lyricmode {
   für uns -- re mat -- te See -- len
   Wir tra -- gen uns -- re Sün -- den -- last,
   drum kom -- men wir bei dir zu Gast
-  und su -- chen Rath und Hil -- fe.
+  und su -- chen Rat und Hil -- fe.
 }
 
 sopranoLyricsTwo = \lyricmode {
@@ -79,7 +79,7 @@ altoLyricsOne = \lyricmode {
   für uns -- re mat -- te See -- _ len
   Wir tra -- gen uns -- re Sün -- den -- last,
   drum kom -- men wir __ _ bei dir zu Gast
-  und su -- chen Rath und Hil -- _ fe.
+  und su -- chen Rat und Hil -- _ fe.
 }
 
 altoLyricsTwo = \lyricmode {
@@ -94,7 +94,7 @@ tenorLyricsOne = \lyricmode {
   für uns -- re mat -- te See -- _ len
   Wir tra -- gen uns -- re Sün -- den -- last,
   drum kom -- men wir bei dir zu Gast
-  und su -- chen Rath und Hil -- _ fe.
+  und su -- chen Rat und Hil -- _ fe.
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -109,7 +109,7 @@ bassLyricsOne = \lyricmode {
   für uns -- re mat -- te See -- _ len
   Wir tra -- gen uns -- re Sün -- den -- last,
   drum kom -- men wir bei dir zu Gast
-  und su -- chen Rath und Hil -- _ fe.
+  und su -- chen Rat und Hil -- _ fe.
 }
 
 bassLyricsTwo = \lyricmode {
