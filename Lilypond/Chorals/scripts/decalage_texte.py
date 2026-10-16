@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Repère les voix internes (A, T, B) dont le texte est décalé par rapport au soprano : une suite
-d'au moins MIN_SUITE syllabes qui commencent ailleurs qu'au soprano, alors que la voix avait une
-note attaquée à l'instant du soprano. Référence = soprano (son texte se vérifie sur le scan) et
+d'au moins MIN_SUITE syllabes posées ailleurs qu'à leur place attendue (note attaquée à l'instant
+du soprano, sinon note qui sonne et libre, sinon note suivante ; « → » = place attendue). Référence = soprano (son texte se vérifie sur le scan) et
 non la majorité : en 368 (« Alpha es et O »), A, T et B portaient la même erreur recopiée.
 Typique d'un « _ » mal placé (syllabe glissée d'une note) ; cf. groupe 2 des notes répétées.
 
@@ -76,17 +76,33 @@ def cas(bwv):
             for a, b, n in sm.get_matching_blocks():
                 for k in range(n):
                     s_on[a + k] = ref[b + k][1]
-            suite = []
+            # place attendue (règle de l'aligneur, cf. BWV 261) : note attaquée à l'instant du
+            # soprano ; sinon la note qui sonne à cet instant, si la syllabe précédente ne l'occupe
+            # pas ; sinon la note attaquée juste après. On compare à la place réelle.
+            sl = slots(extract_var(t, f"{nv}Music"))
+            ons = [s["on"] * 4 for s in sl]
+            place = {o: i for i, o in enumerate(ons)}
+
+            def attendue(r, p):
+                for test in (lambda i: ons[i] == r, lambda i: ons[i] < r < ons[i] + sl[i]["dur"] * 4,
+                             lambda i: ons[i] > r):
+                    if (i := next((i for i in range(p, len(sl)) if test(i)), None)) is not None:
+                        return i
+                return None
+            suite, prec = [], -1
             for k, (x, on) in enumerate(seq + [("", None)]):
                 r = s_on.get(k)
-                # décalé = la voix chante la syllabe ailleurs qu'au soprano alors qu'elle avait une note à l'instant du soprano
-                if on is not None and r is not None and r != on and r in attaques:
-                    suite.append((x, on, r))
+                i = place.get(on)
+                e = attendue(r, prec + 1) if r is not None and i is not None else None
+                if i is not None:
+                    prec = i
+                if e is not None and e != i:
+                    suite.append((x, on, ons[e]))
                     continue
                 if len(suite) >= MIN_SUITE:
                     d0 = suite[0][1]
                     out.append((v, suf or "1", mesure(tm, d0), float(d0), len(suite),
-                                " ".join(f"{x}@{float(o):g}(≠{float(r):g})" for x, o, r in suite)))
+                                " ".join(f"{x}@{float(o):g}(→{float(r):g})" for x, o, r in suite)))
                 suite = []
     return out
 
