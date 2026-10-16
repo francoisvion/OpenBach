@@ -91,7 +91,7 @@ altoLyrics = \lyricmode {
 }
 
 tenorLyrics = \lyricmode {
-  Drum wir auch bil -- _ lig fröh -- _ lich sein, sin -- gen das Al -- le -- lu -- ia fein und lo -- ben dich, __ Herr Je -- su __ _ Christ; zu Trost du uns er -- stan -- den bist. Al -- le -- lu -- _ ia!
+  Drum wir auch bil -- _ lig fröh -- _ lich sein, sin -- gen das Al -- le -- lu -- ia fein und lo -- ben dich, Herr Je -- su __ _ Christ; zu Trost du uns er -- stan -- den bist. Al -- le -- lu -- _ ia!
 }
 
 bassLyrics = \lyricmode {
