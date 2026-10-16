@@ -63,37 +63,37 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Je -- sum laß' ich nicht von mir,
+  Je -- sum lass' ich nicht von mir,
   Geh' ihm e -- wig an der Sei -- ten;
   Chris -- tus lässt mich für und für
   Zu dem Le -- bens -- bäch -- lein lei -- ten.
   Se -- lig, wer mit mir so spricht;
-  Mei -- nen Je -- sum laß' ich nicht!
+  Mei -- nen Je -- sum lass' ich nicht!
 }
 
 altoLyrics = \lyricmode {
-  Je -- sum laß' __ _ ich __ nicht von mir,
+  Je -- sum lass' __ _ ich __ nicht von mir,
   Geh' ihm e -- wig an der Sei -- _ ten;
   Chris -- tus lässt mich für und für
   Zu dem Le -- bens -- bäch -- lein lei -- _ ten.
   Se -- lig, wer mit mir so spricht;
-  Mei -- nen Je -- sum laß' ich nicht!
+  Mei -- nen Je -- sum lass' ich nicht!
 }
 
 tenorLyrics = \lyricmode {
-  Je -- sum laß' __ _ ich __ nicht von mir,
+  Je -- sum lass' __ _ ich __ nicht von mir,
   Geh' ihm e -- wig an der Sei -- _ ten;
   Chris -- tus lässt mich für __ _ und für
   Zu dem Le -- bens -- bäch -- lein lei -- _ ten.
   Se -- lig, wer mit mir __ so spricht;
-  Mei -- nen Je -- sum laß' ich nicht!
+  Mei -- nen Je -- sum lass' ich nicht!
 }
 
 bassLyrics = \lyricmode {
-  Je -- sum laß' ich nicht von mir,
+  Je -- sum lass' ich nicht von mir,
   Geh' ihm e -- wig an der Sei -- _ ten;
   Chris -- tus lässt mich für und für
   Zu dem Le -- bens -- bäch -- lein lei -- _ ten.
   Se -- lig, wer mit mir so spricht;
-  Mei -- nen Je -- sum laß' ich nicht!
+  Mei -- nen Je -- sum lass' ich nicht!
 }
