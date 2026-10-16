@@ -83,17 +83,17 @@ bassMusic = {
 }
 
 sopranoLyrics = \lyricmode {
-  Ich dank' dir, Gott für all' Wohl -- that, dass du uns hast so gnä -- _ _ dig -- lich die Nacht be -- hüt't durch dei -- _ _ ne Güt', und bitt' nun fort, ach Gott, mein Hort, vor Sünd' und G'fahr mich heut' be -- wahr', dass mir kein Bö -- ses wi -- _ _ der fahr.
+  Ich dank' dir, Gott für all' Wohl -- tat, dass du uns hast so gnä -- _ _ dig -- lich die Nacht be -- hüt't durch dei -- _ _ ne Güt', und bitt' nun fort, ach Gott, mein Hort, vor Sünd' und G'fahr mich heut' be -- wahr', dass mir kein Bö -- ses wi -- _ _ der fahr.
 }
 
 altoLyrics = \lyricmode {
-  Ich dank' dir, Gott für all' Wohl -- that, dass du uns hast so gnä -- dig -- _ lich die Nacht be -- hüt't durch dei -- _ _ ne Güt', und bitt' nun fort, ach Gott, mein Hort, vor Sünd' und G'fahr mich heut' be -- _ wahr', dass mir kein Bö -- ses __ _ wi -- _ _ der fahr.
+  Ich dank' dir, Gott für all' Wohl -- tat, dass du uns hast so gnä -- dig -- _ lich die Nacht be -- hüt't durch dei -- _ _ ne Güt', und bitt' nun fort, ach Gott, mein Hort, vor Sünd' und G'fahr mich heut' be -- _ wahr', dass mir kein Bö -- ses __ _ wi -- _ _ der fahr.
 }
 
 tenorLyrics = \lyricmode {
-  Ich dank' dir, Gott für all' Wohl -- that, dass du uns hast so gnä -- _ _ dig -- lich die Nacht be -- hüt't durch dei -- _ _ ne Güt', und bitt' nun fort, ach Gott, mein Hort, vor Sünd' __ _ und G'fahr mich heut' be -- wahr', dass mir kein Bö -- ses wi -- _ _ der fahr.
+  Ich dank' dir, Gott für all' Wohl -- tat, dass du uns hast so gnä -- _ _ dig -- lich die Nacht be -- hüt't durch dei -- _ _ ne Güt', und bitt' nun fort, ach Gott, mein Hort, vor Sünd' __ _ und G'fahr mich heut' be -- wahr', dass mir kein Bö -- ses wi -- _ _ der fahr.
 }
 
 bassLyrics = \lyricmode {
-  Ich dank' dir, Gott für all' Wohl -- that, dass du uns hast so gnä -- _ _ dig -- lich die Nacht be -- hüt't durch dei -- _ _ ne Güt', und bitt' nun fort, ach Gott, mein Hort, vor Sünd' und G'fahr mich heut' be -- wahr', dass mir kein Bö -- ses wi -- _ _ der fahr.
+  Ich dank' dir, Gott für all' Wohl -- tat, dass du uns hast so gnä -- _ _ dig -- lich die Nacht be -- hüt't durch dei -- _ _ ne Güt', und bitt' nun fort, ach Gott, mein Hort, vor Sünd' und G'fahr mich heut' be -- wahr', dass mir kein Bö -- ses wi -- _ _ der fahr.
 }
