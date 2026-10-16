@@ -80,7 +80,7 @@ sopranoLyricsTwo = \lyricmode {
   \stanza "2."
   \tweak X-offset #-4.5 "7. Hilf," o Herr Je -- su, hilf du mir,
   dass ich noch heu -- te komm zu dir,
-  und Bu -- ße thu den Au -- gen -- blick,
+  und Bu -- ße tu den Au -- gen -- blick,
   eh mich der schnel -- le Tod hin -- rück,
   auf dass ich heut und je -- der -- zeit
   zu mei -- ner Heim -- fahrt sey be -- reit.
@@ -100,7 +100,7 @@ altoLyricsTwo = \lyricmode {
   \stanza "2."
   \tweak X-offset #-4.5 "7. Hilf," o Herr Je -- su, hilf du mir,
   dass ich noch heu -- te komm zu dir,
-  und Bu -- ße thu den Au -- gen -- blick,
+  und Bu -- ße tu den Au -- gen -- blick,
   eh mich der schnel -- le Tod hin -- rück,
   auf dass ich heut und je -- der -- zeit
   zu mei -- ner Heim -- fahrt sey be -- reit.
@@ -120,7 +120,7 @@ tenorLyricsTwo = \lyricmode {
   \stanza "2."
   \tweak X-offset #-4.5 "7. Hilf," o Herr Je -- su, hilf du mir,
   dass ich noch heu -- te komm zu dir,
-  und Bu -- ße thu den Au -- gen -- blick,
+  und Bu -- ße tu den Au -- gen -- blick,
   eh mich der schnel -- le Tod hin -- rück,
   auf dass ich heut und je -- der -- zeit
   zu mei -- ner Heim -- fahrt sey be -- reit.
@@ -140,7 +140,7 @@ bassLyricsTwo = \lyricmode {
   \stanza "2."
   \tweak X-offset #-4.5 "7. Hilf," o Herr Je -- su, hilf du mir,
   dass ich noch heu -- te komm zu dir,
-  und Bu -- ße thu den Au -- gen -- blick,
+  und Bu -- ße tu den Au -- gen -- blick,
   eh mich der schnel -- le Tod hin -- rück,
   auf dass ich heut und je -- der -- zeit
   zu mei -- ner Heim -- fahrt sey be -- reit.
