@@ -48,28 +48,28 @@ bassMusic = {
 
 sopranoLyrics = \lyricmode {
   Als Je -- sus Chri -- stus in der Nacht,
-  da -- rin er ward ver -- ra -- then,
+  da -- rin er ward ver -- ra -- ten,
   auf un -- ser Heil war ganz be -- dacht,
   das -- selb' uns zu er -- stat -- ten.
 }
 
 altoLyrics = \lyricmode {
   Als Je -- sus Chri -- stus in der Nacht,
-  da -- rin er ward ver -- ra -- _ then,
+  da -- rin er ward ver -- ra -- _ ten,
   auf un -- ser Heil war ganz be -- dacht,
   das -- selb' uns zu er -- stat -- _ ten.
 }
 
 tenorLyrics = \lyricmode {
   Als Je -- sus Chri -- stus in der Nacht,
-  da -- rin er ward ver -- ra -- _ then,
+  da -- rin er ward ver -- ra -- _ ten,
   auf un -- ser Heil war ganz be -- dacht,
   das -- selb' uns zu er -- stat -- _ ten.
 }
 
 bassLyrics = \lyricmode {
   Als Je -- sus Chri -- stus in der Nacht,
-  da -- rin er ward ver -- ra -- _ then,
+  da -- rin er ward ver -- ra -- _ ten,
   auf un -- ser __ _ Heil __ _ war ganz be -- dacht,
   das -- selb' uns zu er -- stat -- ten.
 }
