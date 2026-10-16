@@ -68,7 +68,7 @@ bassMusic = {
 
 sopranoLyrics = \lyricmode {
   Sei ge -- grü -- ßet, Je -- su gü -- tig,
-  ü -- ber al -- les Maß sanft -- mü -- thig!
+  ü -- ber al -- les Maß sanft -- mü -- tig!
   Ach wie bist du so zer -- schmis -- sen,
   und dein gan -- zer Leib zer -- ris -- sen!
   Lass mich dei -- ne Lieb' er -- er -- ben
@@ -77,7 +77,7 @@ sopranoLyrics = \lyricmode {
 
 altoLyrics = \lyricmode {
   Sei ge -- grü -- ßet, Je -- su gü -- tig,
-  ü -- ber al -- les Maß sanft -- mü -- thig!
+  ü -- ber al -- les Maß sanft -- mü -- tig!
   Ach wie bist du so zer -- schmis -- sen,
   und dein gan -- zer Leib zer -- ris -- _ sen!
   Lass mich dei -- ne Lieb' er -- er -- ben
@@ -86,7 +86,7 @@ altoLyrics = \lyricmode {
 
 tenorLyrics = \lyricmode {
   Sei ge -- grü -- ßet, Je -- su gü -- tig,
-  ü -- ber al -- les Maß sanft -- mü -- _ thig!
+  ü -- ber al -- les Maß sanft -- mü -- _ tig!
   Ach wie bist du so zer -- schmis -- sen,
   und dein gan -- zer Leib zer -- ris -- _ sen!
   Lass mich dei -- ne Lieb' er -- er -- ben
@@ -95,7 +95,7 @@ tenorLyrics = \lyricmode {
 
 bassLyrics = \lyricmode {
   Sei ge -- grü -- ßet, Je -- su gü -- tig,
-  ü -- ber al -- les Maß sanft -- mü -- _ thig!
+  ü -- ber al -- les Maß sanft -- mü -- _ tig!
   Ach wie bist du so zer -- schmis -- sen,
   und dein gan -- zer Leib zer -- ris -- _ sen!
   Lass mich dei -- ne Lieb' er -- er -- ben
