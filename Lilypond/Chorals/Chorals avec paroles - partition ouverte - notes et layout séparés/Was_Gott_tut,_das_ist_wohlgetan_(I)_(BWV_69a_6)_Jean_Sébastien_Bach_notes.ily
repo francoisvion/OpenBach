@@ -64,7 +64,7 @@ bassMusic = {
 
 sopranoLyricsOne = \lyricmode {
   \stanza "1."
-  Was Gott thut, das ist wohl -- ge -- than,
+  Was Gott tut, das ist wohl -- ge -- tan,
   dar -- bei will ich ver -- blei -- ben.      
   so wird Gott mich
   ganz vä -- ter -- lich
@@ -80,7 +80,7 @@ sopranoLyricsTwo = \lyricmode {
 
 altoLyricsOne = \lyricmode {
   \stanza "1."
-  Was Gott thut, das ist wohl -- ge -- than, dar -- bei will ich ver -- blei -- ben. so wird Gott mich ganz vä -- ter -- lich in sei -- nen Ar -- men hal -- ten. Drum lass ich ihn nur wal -- ten.
+  Was Gott tut, das ist wohl -- ge -- tan, dar -- bei will ich ver -- blei -- ben. so wird Gott mich ganz vä -- ter -- lich in sei -- nen Ar -- men hal -- ten. Drum lass ich ihn nur wal -- ten.
 }
 
 altoLyricsTwo = \lyricmode {
@@ -90,7 +90,7 @@ altoLyricsTwo = \lyricmode {
 
 tenorLyricsOne = \lyricmode {
   \stanza "1."
-  Was Gott thut, das ist wohl -- ge -- than, dar -- bei will ich ver -- blei -- _ ben. so wird Gott mich ganz vä -- ter -- lich in sei -- nen Ar -- men hal -- _ ten. Drum lass ich ihn nur wal -- _ ten.
+  Was Gott tut, das ist wohl -- ge -- tan, dar -- bei will ich ver -- blei -- _ ben. so wird Gott mich ganz vä -- ter -- lich in sei -- nen Ar -- men hal -- _ ten. Drum lass ich ihn nur wal -- _ ten.
 }
 
 tenorLyricsTwo = \lyricmode {
@@ -100,7 +100,7 @@ tenorLyricsTwo = \lyricmode {
 
 bassLyricsOne = \lyricmode {
   \stanza "1."
-  Was Gott thut, das ist wohl -- ge -- than, dar -- bei will ich ver -- blei -- ben. so wird Gott mich ganz vä -- ter -- lich in sei -- nen Ar -- men hal -- ten. Drum lass ich ihn nur wal -- ten.
+  Was Gott tut, das ist wohl -- ge -- tan, dar -- bei will ich ver -- blei -- ben. so wird Gott mich ganz vä -- ter -- lich in sei -- nen Ar -- men hal -- ten. Drum lass ich ihn nur wal -- ten.
 }
 
 bassLyricsTwo = \lyricmode {
